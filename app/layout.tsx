@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Learning M&A — APA Workflow',
+  title: 'Learning',
   description:
-    'Interactive walkthrough of a U.S. private-company Asset Purchase Agreement.',
+    'Personal study site: M&A, privacy, and Hong Kong financial regulation.',
 };
 
 export default function RootLayout({
