@@ -1,0 +1,38 @@
+name: Refresh HK legislation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * 1'   # weekly; HK e-Legislation bundles update weekly
+  push:
+    paths:
+      - 'scripts/extract_hkel.py'
+      - '.github/workflows/refresh-hkel.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download bundles and extract chapters
+        run: python scripts/extract_hkel.py
+
+      - name: Commit data/hkel if changed
+        run: |
+          git add data/hkel
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh HK legislation (automated)"
+          git push

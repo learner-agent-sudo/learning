@@ -1,0 +1,916 @@
+{
+ "cap": "155Q",
+ "title": "Cap. 155 sub. leg. Q",
+ "longTitle": "",
+ "versionDate": "2025-05-23",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap155Q",
+ "indexOnly": true,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s2AA",
+    "s2A",
+    "s3",
+    "s3A"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Minimum LCR, Notifiable Matters Concerning LCR and Monetization of HQLA in Certain Financial Circumstances: for Category 1 Institution",
+   "status": "in-effect",
+   "sections": [
+    "s4",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Minimum LMR and Notifiable Matters Concerning LMR: for Category 2 Institution",
+   "status": "in-effect",
+   "sections": [
+    "s7",
+    "s8"
+   ]
+  },
+  {
+   "id": "P3A",
+   "num": "Part 3A",
+   "heading": "Minimum NSFR and Minimum CFR",
+   "status": "in-effect",
+   "sections": [
+    "s8A",
+    "s8B",
+    "s8C",
+    "s8D"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Valuation of Assets, etc., at Fair Value and Bases of Calculation for Purposes of LCR, LMR, NSFR and CFR",
+   "status": "in-effect",
+   "sections": [
+    "s9",
+    "s10",
+    "s11",
+    "s12"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Reporting Requirements",
+   "status": "in-effect",
+   "sections": [
+    "s13",
+    "s14",
+    "s15"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Action that may be Taken by Monetary Authority when Notified of Certain Relevant Liquidity Event",
+   "status": "in-effect",
+   "sections": [
+    "s16"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "Calculation of LCR",
+   "status": "in-effect",
+   "sections": [
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Calculation of LMR",
+   "status": "in-effect",
+   "sections": [
+    "s43",
+    "s44",
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s49",
+    "s50",
+    "s51",
+    "s52",
+    "s53"
+   ]
+  },
+  {
+   "id": "P9",
+   "num": "Part 9",
+   "heading": "Calculation of NSFR and CFR",
+   "status": "in-effect",
+   "sections": [
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s60",
+    "s61",
+    "s0",
+    "s62",
+    "s63",
+    "s64",
+    "s65",
+    "s66",
+    "s67",
+    "s68",
+    "s69",
+    "s70",
+    "s71",
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s77",
+    "s78",
+    "s79",
+    "s80"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Grounds for Designating Authorized Institution as Category 1 Institution (whether on Monetary Authority’s Own Volition or on Institution’s Application)",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Grounds for Designating Authorized Institution as Category 1 Institution (on Institution’s Application)",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Circumstances in which Monetary Authority may Decide Not to Designate Authorized Institution as Category 1 Institution",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Interpretation of Schedule 2",
+   "status": "in-effect",
+   "sections": [
+    "s1"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Classes of Assets which may be Included in HQLA for Calculating LCR",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Qualifying Criteria Applicable to Classes of Assets which may be Included in HQLA for Calculating LCR",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s2AA",
+   "num": "2AA",
+   "heading": "Supplementary provisions regarding re-domiciled entities",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s2A",
+   "num": "2A",
+   "heading": "Use of ECAI issue specific ratings and ECAI issuer ratings",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Designation of category 1 institution",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s3A",
+   "num": "3A",
+   "heading": "Designation of category 2A institution",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Minimum LCR applicable to category 1 institution",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Category 1 institution must notify Monetary Authority of any matter that will or may cause it to maintain LCR less than as required under rule 4",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Monetization of HQLA in certain financial circumstances",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Minimum LMR applicable to category 2 institution",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Category 2 institution must notify Monetary Authority of any matter that will or may cause it to maintain LMR less than as required under rule 7",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s8A",
+   "num": "8A",
+   "heading": "Minimum NSFR applicable to category 1 institution",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s8B",
+   "num": "8B",
+   "heading": "Self-rectification of NSFR shortfall",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s8C",
+   "num": "8C",
+   "heading": "Category 1 institution must notify Monetary Authority on rule 8B becoming applicable",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s8D",
+   "num": "8D",
+   "heading": "Minimum CFR applicable to category 2A institution",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Valuation of assets, liabilities, off-balance sheet items and cash flows measured at fair value",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Calculation of LCR, LMR, NSFR or CFR on Hong Kong office basis and unconsolidated basis, etc.",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Calculation of LCR, LMR, NSFR or CFR of authorized institution incorporated in Hong Kong on consolidated basis",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Calculation of LCR, LMR, NSFR or CFR of authorized institution incorporated in Hong Kong on basis other than those under rules 10 and 11",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Authorized institution must notify Monetary Authority of certain matters concerning its associated entities",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Prescribed notification requirements for purposes of section 97I of Ordinance",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Category 2 institution must notify Monetary Authority of change of business plans, etc., that may cause it to fall under Part 1 of Schedule 1",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Conditions that Monetary Authority may impose on category 1 institution when it gives notice under rule 14(1) of event that falls within paragraph (a)(ii) of definition of relevant liquidity event",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Interpretation of Part 7 and Schedule 4A",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Assets, etc., must not be double counted in calculation of LCR",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Calculation of LCR on Hong Kong office basis",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Calculation of LCR on unconsolidated basis",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Calculation of LCR on consolidated basis",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Calculation of LCR on unconsolidated or consolidated basis, etc. when there are different liquidity requirements between Hong Kong and host countries",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Treatment of liquidity transfer restrictions in calculation of consolidated LCR",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Treatment of liquidity transfer restrictions in calculation of unconsolidated LCR, etc.",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Requirements that must be satisfied before asset can be included in HQLA for purposes of calculation of LCR",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Exclusion of non-qualifying asset from HQLA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Management of HQLA and related foreign exchange risk",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "HQLA must have diversification of classes of assets, etc.",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "General exclusion of assets from HQLA, etc.",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Specific exclusion of assets from HQLA, etc.",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "Provisions supplementary to rule 25",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "General requirements applicable to determination of HQLA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Calculation of total weighted amount of HQLA (without reversal of relevant securities financing transaction)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Calculation of total weighted amount of HQLA (if there is relevant securities financing transaction)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Haircuts",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Interpretation of Division 4",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Circumstances and requirements under which category 1 institution may use foreign currency-denominated HQLA to cover HKD LCR mismatch",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "Application of foreign exchange haircuts",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Interpretation of Division 5",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "Calculation of total net cash outflows",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Calculation of total expected cash outflows",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Calculation of total expected cash inflows",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Interpretation of Part 8",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Assets, etc., must not be double counted in calculation of LMR",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Calculation of LMR on Hong Kong office basis",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "Calculation of LMR on unconsolidated basis",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Calculation of LMR on consolidated basis",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Calculation of average LMR in each calendar month",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "Requirements that must be satisfied before asset can be included in liquefiable assets for purposes of calculation of LMR",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Management of liquefiable assets and related risks by category 2 institution",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "General exclusion of assets from liquefiable assets, etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Specific exclusion of assets from liquefiable assets, etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "Calculation of net weighted amount of qualifying liabilities (after deductions)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "Interpretation of Part 9 and Schedule 6",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "CET1 capital (before regulatory adjustments) (capital instruments issued to third parties through special purpose vehicle)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "Additional Tier 1 capital (before regulatory adjustments) (capital instruments issued to third parties through special purpose vehicle)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "Tier 2 capital (before regulatory adjustments) (capital instruments issued to third parties through special purpose vehicle)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "Total derivative assets (after adjustments), total derivative liabilities (after adjustments) or total derivative liabilities (before adjustments)—valid bilateral netting agreements",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "Interpretation of Division 2 and Tables 1 and 2 in Schedule 6",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "Capital, etc. must not be double counted in calculation of NSFR",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "Calculation of NSFR on Hong Kong office basis",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s0",
+   "num": "",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "Calculation of NSFR on unconsolidated basis",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "Calculation of NSFR on consolidated basis",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "Calculation of NSFR on unconsolidated or consolidated basis, etc. when there are different liquidity requirements between Hong Kong and host countries",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s65",
+   "num": "65",
+   "heading": "Determination of ASF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s66",
+   "num": "66",
+   "heading": "General exclusion of capital or liabilities from ASF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s67",
+   "num": "67",
+   "heading": "Specific exclusion of capital or liabilities from ASF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s68",
+   "num": "68",
+   "heading": "Determination of RSF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "Legal tender notes and certificates of indebtedness",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s70",
+   "num": "70",
+   "heading": "Permission for treating assets and liabilities as interdependent",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s71",
+   "num": "71",
+   "heading": "Interpretation of Division 3 and Tables 3 and 4 in Schedule 6",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s72",
+   "num": "72",
+   "heading": "Capital, etc. must not be double counted in calculation of CFR",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s73",
+   "num": "73",
+   "heading": "Calculation of CFR on Hong Kong office basis",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s74",
+   "num": "74",
+   "heading": "Calculation of CFR on unconsolidated basis",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s75",
+   "num": "75",
+   "heading": "Calculation of CFR on consolidated basis",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s76",
+   "num": "76",
+   "heading": "Calculation of average CFR in each calendar month",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s77",
+   "num": "77",
+   "heading": "Determination of ACF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s78",
+   "num": "78",
+   "heading": "General exclusion of capital or liabilities from ACF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s79",
+   "num": "79",
+   "heading": "Specific exclusion of capital or liabilities from ACF",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s80",
+   "num": "80",
+   "heading": "Determination of RCF",
+   "status": "in-effect",
+   "part": "P9"
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Grounds for Designating Authorized Institution as Category 1 Institution and Exceptions to those Grounds",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Classes of Assets which may be Included in HQLA for Calculating LCR and Qualifying Criteria Applicable to those Classes",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Characteristic Requirements that Asset must Satisfy before it can be Included in HQLA for Purposes of Calculation of LCR",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4",
+   "num": "Schedule 4",
+   "heading": "Operational Requirements that Category 1 Institution and Asset must Satisfy before Asset can be Included in HQLA for Purposes of Calculation of LCR",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4A",
+   "num": "Schedule 4A",
+   "heading": "Tables Related to LCR",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch5",
+   "num": "Schedule 5",
+   "heading": "Liquidity Conversion Factors Applicable to Assets and Liabilities in Calculation of LMR",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch6",
+   "num": "Schedule 6",
+   "heading": "Tables Related to NSFR and CFR",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch7",
+   "num": "Schedule 7",
+   "heading": "Specified National Development Banks",
+   "status": "in-effect"
+  }
+ ]
+}

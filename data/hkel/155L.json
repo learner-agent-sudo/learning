@@ -1,0 +1,5883 @@
+{
+ "cap": "155L",
+ "title": "Cap. 155 sub. leg. L",
+ "longTitle": "",
+ "versionDate": "2026-01-01",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap155L",
+ "indexOnly": true,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s2AA",
+    "s2A"
+   ]
+  },
+  {
+   "id": "P1A",
+   "num": "Part 1A",
+   "heading": "Capital Adequacy Ratio",
+   "status": "in-effect",
+   "sections": [
+    "s3",
+    "s3A",
+    "s3B",
+    "s3C",
+    "s3D"
+   ]
+  },
+  {
+   "id": "P1B",
+   "num": "Part 1B",
+   "heading": "Additional CET1 Capital Required to be Maintained before Distribution Payment Allowed",
+   "status": "in-effect",
+   "sections": [
+    "s3E",
+    "s3F",
+    "s3G",
+    "s3H",
+    "s3I",
+    "s3J",
+    "s3K",
+    "s3L",
+    "s3M",
+    "s3N",
+    "s3O",
+    "s3P",
+    "s3Q",
+    "s3R",
+    "s3S",
+    "s3T",
+    "s3U",
+    "s3V",
+    "s3W",
+    "s3X"
+   ]
+  },
+  {
+   "id": "P1C",
+   "num": "Part 1C",
+   "heading": "Leverage Ratio",
+   "status": "in-effect",
+   "sections": [
+    "s3Y",
+    "s3Z",
+    "s3ZA",
+    "s3ZB"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Prescribed Approaches in relation to Calculation of Capital Adequacy Ratio",
+   "status": "in-effect",
+   "sections": [
+    "s4",
+    "s4A",
+    "s4B",
+    "s4C",
+    "s4D",
+    "s4E",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s10A",
+    "s10AB",
+    "s10B",
+    "s10C",
+    "s10D",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s15A",
+    "s15B",
+    "s15C",
+    "s15D",
+    "s16",
+    "s16A",
+    "s17",
+    "s17A",
+    "s17B",
+    "s18",
+    "s18A",
+    "s19",
+    "s19A",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s23A",
+    "s23B",
+    "s23C",
+    "s23D",
+    "s23E",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s33A",
+    "s34"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Determination of Capital Base",
+   "status": "in-effect",
+   "sections": [
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s44A",
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s48A",
+    "s49"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Calculation of Credit Risk for Non-securitization Exposures: STC Approach",
+   "status": "in-effect",
+   "sections": [
+    "s50",
+    "s51",
+    "s51A",
+    "s52",
+    "s53",
+    "s54",
+    "s54A",
+    "s54B",
+    "s54C",
+    "s54D",
+    "s54E",
+    "s54F",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s59A",
+    "s59B",
+    "s59C",
+    "s59D",
+    "s60",
+    "s61",
+    "s61A",
+    "s62",
+    "s63",
+    "s63A",
+    "s64",
+    "s64A",
+    "s65",
+    "s65A",
+    "s65B",
+    "s65C",
+    "s65D",
+    "s65E",
+    "s65F",
+    "s65G",
+    "s65H",
+    "s65I",
+    "s65J",
+    "s65K",
+    "s65L",
+    "s65M",
+    "s66",
+    "s67",
+    "s68",
+    "s68A",
+    "s68B",
+    "s68C",
+    "s69",
+    "s70",
+    "s70AA",
+    "s70AAB",
+    "s70AAC",
+    "s70AAD",
+    "s70A",
+    "s70B",
+    "s71",
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s76A",
+    "s77",
+    "s78",
+    "s79",
+    "s80",
+    "s81",
+    "s82",
+    "s83",
+    "s84",
+    "s85",
+    "s86",
+    "s87",
+    "s88",
+    "s89",
+    "s90",
+    "s91",
+    "s92",
+    "s93",
+    "s94",
+    "s94A",
+    "s95",
+    "s96",
+    "s97",
+    "s98",
+    "s99",
+    "s99A",
+    "s99B",
+    "s100",
+    "s101",
+    "s102",
+    "s103"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Calculation of Credit Risk for Non-securitization Exposures: BSC Approach",
+   "status": "in-effect",
+   "sections": [
+    "s104",
+    "s105",
+    "s106",
+    "s107",
+    "s108",
+    "s108A",
+    "s109",
+    "s110",
+    "s111",
+    "s112",
+    "s113",
+    "s113A",
+    "s113B",
+    "s114",
+    "s114A",
+    "s114B",
+    "s115",
+    "s115A",
+    "s115B",
+    "s115C",
+    "s115D",
+    "s115E",
+    "s115F",
+    "s115G",
+    "s115H",
+    "s116",
+    "s117",
+    "s117A",
+    "s117AB",
+    "s117AC",
+    "s117AD",
+    "s117AE",
+    "s117B",
+    "s117C",
+    "s117D",
+    "s117E",
+    "s117F",
+    "s117G",
+    "s118",
+    "s119",
+    "s120",
+    "s121",
+    "s122",
+    "s123",
+    "s123A",
+    "s124",
+    "s125",
+    "s126",
+    "s127",
+    "s128",
+    "s129",
+    "s130",
+    "s130A",
+    "s131",
+    "s132",
+    "s133",
+    "s134",
+    "s135",
+    "s136",
+    "s137"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Calculation of Credit Risk for Non-securitization Exposures: IRB Approach",
+   "status": "in-effect",
+   "sections": [
+    "s138",
+    "s139",
+    "s140",
+    "s140A",
+    "s141",
+    "s142",
+    "s143",
+    "s144",
+    "s145",
+    "s146",
+    "s147",
+    "s148",
+    "s149",
+    "s150",
+    "s151",
+    "s152",
+    "s153",
+    "s154",
+    "s155",
+    "s156",
+    "s157",
+    "s157A",
+    "s158",
+    "s159",
+    "s160",
+    "s161",
+    "s162",
+    "s163",
+    "s164",
+    "s164A",
+    "s165",
+    "s166",
+    "s167",
+    "s168",
+    "s169",
+    "s170",
+    "s171",
+    "s172",
+    "s173",
+    "s174",
+    "s175",
+    "s176",
+    "s177",
+    "s178",
+    "s179",
+    "s180",
+    "s180A",
+    "s181",
+    "s182",
+    "s183",
+    "s184",
+    "s185",
+    "s186",
+    "s187",
+    "s188",
+    "s189",
+    "s190",
+    "s191",
+    "s192",
+    "s193",
+    "s194",
+    "s195",
+    "s196",
+    "s197",
+    "s198",
+    "s199",
+    "s200",
+    "s201",
+    "s202",
+    "s202A",
+    "s202B",
+    "s202C",
+    "s203",
+    "s204",
+    "s205",
+    "s206",
+    "s207",
+    "s208",
+    "s209",
+    "s210",
+    "s211",
+    "s212",
+    "s213",
+    "s214",
+    "s215",
+    "s216",
+    "s217",
+    "s218",
+    "s219",
+    "s220",
+    "s221",
+    "s222",
+    "s223",
+    "s224",
+    "s225",
+    "s226"
+   ]
+  },
+  {
+   "id": "P6A",
+   "num": "Part 6A",
+   "heading": "Calculation of Counterparty Credit Risk",
+   "status": "in-effect",
+   "sections": [
+    "s226A",
+    "s226B",
+    "s226BA",
+    "s226BB",
+    "s226BC",
+    "s226BD",
+    "s226BE",
+    "s226BF",
+    "s226BG",
+    "s226BH",
+    "s226BI",
+    "s226BJ",
+    "s226BK",
+    "s226BL",
+    "s226BM",
+    "s226BN",
+    "s226BNA",
+    "s226BO",
+    "s226BP",
+    "s226BQ",
+    "s226BR",
+    "s226BS",
+    "s226BT",
+    "s226BU",
+    "s226BV",
+    "s226BVA",
+    "s226BW",
+    "s226BX",
+    "s226BY",
+    "s226BZ",
+    "s226BZA",
+    "s226BZB",
+    "s226BZC",
+    "s226BZD",
+    "s226BZE",
+    "s226C",
+    "s226D",
+    "s226E",
+    "s226F",
+    "s226G",
+    "s226H",
+    "s226I",
+    "s226J",
+    "s226K",
+    "s226L",
+    "s226M",
+    "s226MA",
+    "s226MB",
+    "s226MC",
+    "s226MD",
+    "s226ME",
+    "s226MF",
+    "s226MG",
+    "s226MH",
+    "s226MI",
+    "s226MJ",
+    "s226MK",
+    "s226ML",
+    "s226MM",
+    "s226N",
+    "s226O",
+    "s226P",
+    "s226Q",
+    "s226R",
+    "s226S",
+    "s226T",
+    "s226U",
+    "s226V",
+    "s226W",
+    "s226X",
+    "s226Y",
+    "s226Z",
+    "s226ZA",
+    "s226ZB",
+    "s226ZBA",
+    "s226ZC",
+    "s226ZD",
+    "s226ZE"
+   ]
+  },
+  {
+   "id": "P6B",
+   "num": "Part 6B",
+   "heading": "Calculation of Risk-weighted Amounts of CIS Exposures",
+   "status": "in-effect",
+   "sections": [
+    "s226ZF",
+    "s226ZG",
+    "s226ZH",
+    "s226ZI",
+    "s226ZJ",
+    "s226ZK",
+    "s226ZL",
+    "s226ZM",
+    "s226ZN",
+    "s226ZO",
+    "s226ZP",
+    "s226ZQ",
+    "s226ZR",
+    "s226ZS",
+    "s226ZT",
+    "s226ZU",
+    "s226ZV",
+    "s226ZW",
+    "s226ZX",
+    "s226ZY"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "Calculation of Credit Risk for Securitization Exposures",
+   "status": "in-effect",
+   "sections": [
+    "s227",
+    "s227A",
+    "s228",
+    "s229",
+    "s230",
+    "s230A",
+    "s231",
+    "s232",
+    "s232A",
+    "s233",
+    "s234",
+    "s235",
+    "s236",
+    "s236A",
+    "s237",
+    "s238",
+    "s239",
+    "s240",
+    "s241",
+    "s242",
+    "s243",
+    "s244",
+    "s245",
+    "s246",
+    "s247",
+    "s248",
+    "s249",
+    "s250",
+    "s251",
+    "s251A",
+    "s252",
+    "s253",
+    "s254",
+    "s255",
+    "s256",
+    "s257",
+    "s258",
+    "s259",
+    "s260",
+    "s260A",
+    "s261",
+    "s262",
+    "s263",
+    "s264",
+    "s265",
+    "s266",
+    "s266A",
+    "s267",
+    "s268",
+    "s268A",
+    "s269",
+    "s270",
+    "s271",
+    "s272",
+    "s273",
+    "s274",
+    "s275",
+    "s276",
+    "s277",
+    "s278",
+    "s279",
+    "s280",
+    "s280A",
+    "s280B",
+    "s280C",
+    "s280D",
+    "s280E"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Calculation of Market Risk Capital Charge",
+   "status": "in-effect",
+   "sections": [
+    "s281",
+    "s281A",
+    "s281B",
+    "s281C",
+    "s281D",
+    "s281E",
+    "s281F",
+    "s281G",
+    "s281H",
+    "s281I",
+    "s281J",
+    "s281K",
+    "s281L",
+    "s281M",
+    "s281N",
+    "s281O",
+    "s281P",
+    "s281Q",
+    "s281R",
+    "s281S",
+    "s281T",
+    "s281U",
+    "s281V",
+    "s281W",
+    "s282",
+    "s283",
+    "s284",
+    "s285",
+    "s286",
+    "s287",
+    "s287A",
+    "s287B",
+    "s288",
+    "s289",
+    "s290",
+    "s291",
+    "s292",
+    "s293",
+    "s294",
+    "s295",
+    "s296",
+    "s297",
+    "s298",
+    "s299",
+    "s300",
+    "s301",
+    "s302",
+    "s303",
+    "s304",
+    "s305",
+    "s306",
+    "s307",
+    "s308",
+    "s309",
+    "s310",
+    "s311",
+    "s312",
+    "s313",
+    "s314",
+    "s315",
+    "s316",
+    "s317",
+    "s317A",
+    "s317B",
+    "s317C",
+    "s318",
+    "s319",
+    "s320",
+    "s321",
+    "s322",
+    "s322A",
+    "s322B",
+    "s322C",
+    "s322D",
+    "s322E",
+    "s322F",
+    "s322G",
+    "s322H",
+    "s322HA"
+   ]
+  },
+  {
+   "id": "P8A",
+   "num": "Part 8A",
+   "heading": "Calculation of CVA Risk Capital Charge",
+   "status": "in-effect",
+   "sections": [
+    "s322I",
+    "s322J",
+    "s322K",
+    "s322L",
+    "s322M",
+    "s322N",
+    "s322O",
+    "s322P",
+    "s322Q",
+    "s322R",
+    "s322S",
+    "s322T",
+    "s322U",
+    "s322V"
+   ]
+  },
+  {
+   "id": "P9",
+   "num": "Part 9",
+   "heading": "Calculation of Operational Risk",
+   "status": "in-effect",
+   "sections": [
+    "s323",
+    "s324",
+    "s325",
+    "s326",
+    "s327",
+    "s328",
+    "s329",
+    "s330",
+    "s331",
+    "s0",
+    "s332",
+    "s333",
+    "s334",
+    "s335",
+    "s336",
+    "s337",
+    "s338",
+    "s339",
+    "s340",
+    "s341"
+   ]
+  },
+  {
+   "id": "P10",
+   "num": "Part 10",
+   "heading": "Calculation of Sovereign Concentration Risk",
+   "status": "in-effect",
+   "sections": [
+    "s342",
+    "s342A",
+    "s343",
+    "s344",
+    "s345",
+    "s346",
+    "s347",
+    "s348",
+    "s349",
+    "s350",
+    "s351",
+    "s352",
+    "s353"
+   ]
+  },
+  {
+   "id": "P11",
+   "num": "Part 11",
+   "heading": "Output Floor",
+   "status": "in-effect",
+   "sections": [
+    "s354",
+    "s355",
+    "s356",
+    "s357",
+    "s358"
+   ]
+  },
+  {
+   "id": "P12",
+   "num": "Part 12",
+   "heading": "Calculation of Risk-weighted Amounts of Cryptoasset Exposures",
+   "status": "in-effect",
+   "sections": [
+    "s359",
+    "s360",
+    "s361",
+    "s362",
+    "s363",
+    "s364",
+    "s365",
+    "s366",
+    "s367",
+    "s368",
+    "s369",
+    "s370",
+    "s371",
+    "s372",
+    "s373",
+    "s374",
+    "s375",
+    "s376",
+    "s377",
+    "s378",
+    "s379",
+    "s380",
+    "s381",
+    "s382",
+    "s383",
+    "s384",
+    "s385",
+    "s386",
+    "s387",
+    "s388"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Domestic Public Sector Entities",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s9",
+    "s12",
+    "s13",
+    "s13",
+    "s13",
+    "s13"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Relevant CCF in respect of Certain Off-balance Sheet Exposures",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Restricted Collective Investment Schemes",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Restricted Debt Securities",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Restricted Foreign Public Sector Entities",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Restricted Insurance Regulators",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "Restricted Jurisdictions",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Restricted Securities Regulators",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P9",
+   "num": "Part 9",
+   "heading": "Restricted Sovereigns",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P10",
+   "num": "Part 10",
+   "heading": "Relevant International Organizations",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "id": "P11",
+   "num": "Part 11",
+   "heading": "Financial Services Activities of Financial Institutions",
+   "status": "in-effect",
+   "sections": []
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s2AA",
+   "num": "2AA",
+   "heading": "Interpretation: certain terms involving CCP and clients etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s2A",
+   "num": "2A",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Interpretation of Part 1A",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s3A",
+   "num": "3A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P1A"
+  },
+  {
+   "id": "s3B",
+   "num": "3B",
+   "heading": "Minimum capital adequacy ratio applicable to authorized institutions",
+   "status": "in-effect",
+   "part": "P1A"
+  },
+  {
+   "id": "s3C",
+   "num": "3C",
+   "heading": "Monetary Authority may require authorized institution that has any subsidiary to calculate capital adequacy ratio on unconsolidated or consolidated basis, etc.",
+   "status": "in-effect",
+   "part": "P1A"
+  },
+  {
+   "id": "s3D",
+   "num": "3D",
+   "heading": "Authorized institution must notify Monetary Authority of failure to have minimum capital adequacy ratio",
+   "status": "in-effect",
+   "part": "P1A"
+  },
+  {
+   "id": "s3E",
+   "num": "3E",
+   "heading": "Interpretation of Part 1B",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3F",
+   "num": "3F",
+   "heading": "Distribution payment requirements",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3G",
+   "num": "3G",
+   "heading": "Buffer level",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3H",
+   "num": "3H",
+   "heading": "Maximum distributable amount",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3I",
+   "num": "3I",
+   "heading": "Monetary Authority may require buffer level and maximum distribution percentage to be applied on unconsolidated or consolidated basis where there is subsidiary",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3J",
+   "num": "3J",
+   "heading": "What authorized institution must do where net CET1 capital ratio above buffer level",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3K",
+   "num": "3K",
+   "heading": "What authorized institution must do where net CET1 capital ratio not above buffer level",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3L",
+   "num": "3L",
+   "heading": "Other requirements",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3M",
+   "num": "3M",
+   "heading": "CB ratio",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3N",
+   "num": "3N",
+   "heading": "Interpretation of Division 4",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3O",
+   "num": "3O",
+   "heading": "CCyB ratio",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3P",
+   "num": "3P",
+   "heading": "Applicable JCCyB ratio for jurisdiction outside Hong Kong",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3Q",
+   "num": "3Q",
+   "heading": "Applicable JCCyB ratio for Hong Kong",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3R",
+   "num": "3R",
+   "heading": "Distribution payments made after reduction of applicable JCCyB ratio",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3S",
+   "num": "3S",
+   "heading": "G-SIB",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3T",
+   "num": "3T",
+   "heading": "HLA ratio as applicable to G-SIB",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3U",
+   "num": "3U",
+   "heading": "D-SIB",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3V",
+   "num": "3V",
+   "heading": "HLA ratio as applicable to D-SIB",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3W",
+   "num": "3W",
+   "heading": "Where authorized institution being both G-SIB and D-SIB",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3X",
+   "num": "3X",
+   "heading": "Where both authorized institution and its subsidiary being D-SIB",
+   "status": "in-effect",
+   "part": "P1B"
+  },
+  {
+   "id": "s3Y",
+   "num": "3Y",
+   "heading": "Interpretation of Part 1C",
+   "status": "in-effect",
+   "part": "P1C"
+  },
+  {
+   "id": "s3Z",
+   "num": "3Z",
+   "heading": "Minimum leverage ratio for authorized institutions",
+   "status": "in-effect",
+   "part": "P1C"
+  },
+  {
+   "id": "s3ZA",
+   "num": "3ZA",
+   "heading": "Authorized institution must notify Monetary Authority of failure to have minimum leverage ratio",
+   "status": "in-effect",
+   "part": "P1C"
+  },
+  {
+   "id": "s3ZB",
+   "num": "3ZB",
+   "heading": "Determination of exposure measure",
+   "status": "in-effect",
+   "part": "P1C"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Interpretation of Part 2",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s4A",
+   "num": "4A",
+   "heading": "Valuation of exposures measured at fair value",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s4B",
+   "num": "4B",
+   "heading": "Recognition of ECAIs",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s4C",
+   "num": "4C",
+   "heading": "Nomination of ECAIs to be used",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s4D",
+   "num": "4D",
+   "heading": "Amendment of nomination",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s4E",
+   "num": "4E",
+   "heading": "Transitional provision in relation to nominations",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Authorized institution shall only use STC approach, BSC approach or IRB approach to calculate its credit risk for non-securitization exposures",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Authorized institution may apply for approval to use BSC approach to calculate its credit risk for non-securitization exposures",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Minimum requirements to be satisfied for approval under section 6(2)(a) to use BSC approach",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Authorized institution may apply for approval to use IRB approach to calculate its credit risk for non-securitization exposures",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Circumstances in which Monetary Authority shall take into account assessment outside Hong Kong of rating system used by authorized institution",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Measures which may be taken by Monetary Authority if authorized institution using BSC approach or IRB approach no longer satisfies specified requirements",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s10A",
+   "num": "10A",
+   "heading": "Authorized institution must only use SA-CCR approach etc. to calculate its counterparty credit risk",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s10AB",
+   "num": "10AB",
+   "heading": "Approach to be used to calculate counterparty credit risk in respect of derivative contracts and SFTs on cryptoassets",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s10B",
+   "num": "10B",
+   "heading": "Authorized institution may apply for approval to use IMM(CCR) approach to calculate its default risk exposures",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s10C",
+   "num": "10C",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s10D",
+   "num": "10D",
+   "heading": "Measures that may be taken by Monetary Authority if authorized institution using IMM(CCR) approach no longer satisfies specified requirements",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Adoption of IRB approach",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Exemption for exposures",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Revocation of exemption under section 12",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Authorized institution must use SEC-IRBA, SEC-ERBA, SEC-SA or SEC-FBA to determine risk-weight of securitization exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s15A",
+   "num": "15A",
+   "heading": "Due diligence requirements for using SEC-IRBA, SEC-ERBA or SEC-SA",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s15B",
+   "num": "15B",
+   "heading": "Meaning of eligible ABCP exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s15C",
+   "num": "15C",
+   "heading": "Authorized institution may apply for approval to use IAA to determine risk-weight of eligible ABCP exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s15D",
+   "num": "15D",
+   "heading": "Measures that may be taken by Monetary Authority if authorized institution using IAA no longer satisfies specified requirements",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Classification of underlying exposures",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s16A",
+   "num": "16A",
+   "heading": "Authorized institution must use Division 4 of Part 6A to calculate its credit risk for exposures to CCPs, etc.",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Authorized institution must use STM approach, SSTM approach or IMA to calculate its market risk capital charge",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s17A",
+   "num": "17A",
+   "heading": "Approval for authorized institution to use SSTM approach to calculate its market risk capital charge",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s17B",
+   "num": "17B",
+   "heading": "Revocation of approval for authorized institution to use SSTM approach to calculate its market risk capital charge",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Approval for authorized institution to use IMA to calculate its market risk capital charge in respect of trading desks",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s18A",
+   "num": "18A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Measures which may be taken by Monetary Authority if authorized institution using IMA no longer satisfies specified requirements",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s19A",
+   "num": "19A",
+   "heading": "Authorized institution that has approval to use IMA must use STM approach in certain circumstances",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Exemption from section 17",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Revocation of exemption under section 22",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s23A",
+   "num": "23A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s23B",
+   "num": "23B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s23C",
+   "num": "23C",
+   "heading": "Approaches authorized institution must use to calculate its CVA risk capital charge",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s23D",
+   "num": "23D",
+   "heading": "Approval for authorized institution to use standardized CVA approach to calculate its CVA risk capital charge",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s23E",
+   "num": "23E",
+   "heading": "Revocation of approval under section 23D",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Authorized institution shall calculate its capital adequacy ratio on solo basis, solo-consolidated basis or consolidated basis",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Authorized institution may apply for approval to calculate its capital adequacy ratio on solo-consolidated basis",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Solo basis for calculation of capital adequacy ratio",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Solo-consolidated basis for calculation of capital adequacy ratio",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "Consolidated basis for calculation of capital adequacy ratio",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "Provisions supplementary to section 31",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Exceptions to section 27",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s33A",
+   "num": "33A",
+   "heading": "Attachment of conditions to approvals granted under section 6(2)(a), 8(2)(a), 10B(2)(a), 15C(2)(a) or 18(2)(a)",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Reviewable decisions",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Interpretation of Part 3",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Determination of capital base",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Tier 1 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "CET1 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Additional Tier 1 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "Tier 2 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Provisions supplementary to section 40(1)(d)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Provisions supplementary to section 40(1)(f) and (g)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Deductions from CET1 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Provisions supplementary to section 43(1)(d), (l), (m), (n), (o), (p) and (q)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s44A",
+   "num": "44A",
+   "heading": "Provisions supplementary to section 43(1)(f)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Provisions supplementary to section 43(1)(k)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "Provisions supplementary to section 43(1)(n), (o), (p) and (q)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Deductions from Additional Tier 1 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Deductions from Tier 2 capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s48A",
+   "num": "48A",
+   "heading": "Total amount of holdings of non-capital LAC liabilities to be calculated for section 48(1)(g)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Application of Part 4",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "Interpretation of Part 4",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s51A",
+   "num": "51A",
+   "heading": "Meaning of unhedged credit exposure",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Calculation of risk-weighted amount of exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "On-balance sheet exposures and off-balance sheet exposures to be covered",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "Classification of exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54A",
+   "num": "54A",
+   "heading": "Provisions supplementary to section 54—equity exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54B",
+   "num": "54B",
+   "heading": "Application of Division 3",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54C",
+   "num": "54C",
+   "heading": "Due diligence requirements",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54D",
+   "num": "54D",
+   "heading": "Mapping ECAI rating to credit quality grade",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54E",
+   "num": "54E",
+   "heading": "Application of ECAI ratings",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s54F",
+   "num": "54F",
+   "heading": "Further restrictions on use of ECAI ratings",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "Sovereign exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "Exceptions to section 55",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "Public sector entity exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "Multilateral development bank exposures and unspecified multilateral body exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "Bank exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s59A",
+   "num": "59A",
+   "heading": "Provisions supplementary to section 59",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s59B",
+   "num": "59B",
+   "heading": "Bank exposures—standardized credit risk assessment approach—assignment of credit assessment grade",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s59C",
+   "num": "59C",
+   "heading": "Bank exposures—standardized credit risk assessment approach—allocation of risk-weight",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s59D",
+   "num": "59D",
+   "heading": "Eligible covered bond exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "Exposures to qualifying non-bank financial institutions",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "General corporate exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s61A",
+   "num": "61A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "Specialized lending",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s63A",
+   "num": "63A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "Retail exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s64A",
+   "num": "64A",
+   "heading": "Exposures arising from IPO financing",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65",
+   "num": "65",
+   "heading": "What are regulatory real estate exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65A",
+   "num": "65A",
+   "heading": "Loan-to-value ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65B",
+   "num": "65B",
+   "heading": "Risk-weights of regulatory residential real estate exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65C",
+   "num": "65C",
+   "heading": "Risk-weights of regulatory commercial real estate exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65D",
+   "num": "65D",
+   "heading": "Risk-weights of other real estate exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65E",
+   "num": "65E",
+   "heading": "Risk-weights of real estate exposures secured by residential property outside Hong Kong",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65F",
+   "num": "65F",
+   "heading": "ADC exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65G",
+   "num": "65G",
+   "heading": "Equity exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65H",
+   "num": "65H",
+   "heading": "Significant capital investments in commercial entities",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65I",
+   "num": "65I",
+   "heading": "Holdings of capital instruments issued by, and non-capital LAC liabilities of, financial sector entities",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65J",
+   "num": "65J",
+   "heading": "Exposures to subordinated debts",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65K",
+   "num": "65K",
+   "heading": "Cash and gold",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65L",
+   "num": "65L",
+   "heading": "Items in the process of clearing or settlement",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s65M",
+   "num": "65M",
+   "heading": "Group 1a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s66",
+   "num": "66",
+   "heading": "Other exposures that are not defaulted exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s67",
+   "num": "67",
+   "heading": "Defaulted exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s68",
+   "num": "68",
+   "heading": "Exposures to credit-linked notes",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s68A",
+   "num": "68A",
+   "heading": "Determination of risk-weight applicable to certain types of off-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s68B",
+   "num": "68B",
+   "heading": "Further provisions in relation to direct credit substitutes",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s68C",
+   "num": "68C",
+   "heading": "Exposures in respect of assets underlying SFTs",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "Interpretation of Division 3A",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s70",
+   "num": "70",
+   "heading": "Treatment of CIS exposure held by authorized institution",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s70AA",
+   "num": "70AA",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s70AAB",
+   "num": "70AAB",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s70AAC",
+   "num": "70AAC",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s70AAD",
+   "num": "70AAD",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s70A",
+   "num": "70A",
+   "heading": "Treatment of CIS exposure constituting deductible holding",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s70B",
+   "num": "70B",
+   "heading": "Determination of risk-weights applicable to certain types of off-balance sheet CIS exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s71",
+   "num": "71",
+   "heading": "Calculation of exposure amounts of off-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s72",
+   "num": "72",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s73",
+   "num": "73",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s74",
+   "num": "74",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s75",
+   "num": "75",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s76",
+   "num": "76",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s76A",
+   "num": "76A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s77",
+   "num": "77",
+   "heading": "Recognized collateral",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s78",
+   "num": "78",
+   "heading": "Approaches to use of recognized collateral",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s79",
+   "num": "79",
+   "heading": "Collateral which may be recognized under simple approach",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s80",
+   "num": "80",
+   "heading": "Collateral that may be recognized under comprehensive approach",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s81",
+   "num": "81",
+   "heading": "Calculation of risk-weighted amount of exposures taking into account credit risk mitigating effect of recognized collateral under simple approach",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s82",
+   "num": "82",
+   "heading": "Determination of risk-weight to be allocated to recognized collateral under simple approach",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s83",
+   "num": "83",
+   "heading": "Calculation of risk-weighted amount of on-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s84",
+   "num": "84",
+   "heading": "Calculation of risk-weighted amount of off-balance sheet exposures other than default risk exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s85",
+   "num": "85",
+   "heading": "Calculation of risk-weighted amount of default risk exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s86",
+   "num": "86",
+   "heading": "Calculation of risk-weighted amount of exposures taking into account credit risk mitigating effect of recognized collateral under comprehensive approach",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s87",
+   "num": "87",
+   "heading": "Calculation of net credit exposure of on-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s88",
+   "num": "88",
+   "heading": "Calculation of net credit exposure of off-balance sheet exposures other than default risk exposures in respect of derivative contracts",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s89",
+   "num": "89",
+   "heading": "Calculation of net credit exposure of default risk exposures in respect of derivative contracts",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s90",
+   "num": "90",
+   "heading": "Haircut applicable to group 1a cryptoasset or a basket of recognized collateral",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s91",
+   "num": "91",
+   "heading": "Minimum holding periods",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s92",
+   "num": "92",
+   "heading": "Adjustment of standard supervisory haircuts in certain circumstances",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s93",
+   "num": "93",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s94",
+   "num": "94",
+   "heading": "On-balance sheet netting",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s94A",
+   "num": "94A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s95",
+   "num": "95",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s96",
+   "num": "96",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s97",
+   "num": "97",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s98",
+   "num": "98",
+   "heading": "Recognized guarantees",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s99",
+   "num": "99",
+   "heading": "Recognized credit derivative contracts",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s99A",
+   "num": "99A",
+   "heading": "Eligible credit protection providers",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s99B",
+   "num": "99B",
+   "heading": "Recognized internal risk transfer to trading book",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s100",
+   "num": "100",
+   "heading": "Capital treatment of recognized guarantees and recognized credit derivative contracts",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s101",
+   "num": "101",
+   "heading": "Provisions supplementary to section 100",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s102",
+   "num": "102",
+   "heading": "Multiple recognized credit risk mitigation",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s103",
+   "num": "103",
+   "heading": "Maturity mismatches",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s104",
+   "num": "104",
+   "heading": "Application of Part 5",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s105",
+   "num": "105",
+   "heading": "Interpretation of Part 5",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s106",
+   "num": "106",
+   "heading": "Calculation of risk-weighted amount of exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s107",
+   "num": "107",
+   "heading": "On-balance sheet exposures and off-balance sheet exposures to be covered",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s108",
+   "num": "108",
+   "heading": "Classification of exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s108A",
+   "num": "108A",
+   "heading": "Application of Division 3",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s109",
+   "num": "109",
+   "heading": "Sovereign exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s110",
+   "num": "110",
+   "heading": "Public sector entity exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s111",
+   "num": "111",
+   "heading": "Multilateral development bank exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s112",
+   "num": "112",
+   "heading": "Unspecified multilateral body exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s113",
+   "num": "113",
+   "heading": "Bank exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s113A",
+   "num": "113A",
+   "heading": "Exposures arising from IPO financing",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s113B",
+   "num": "113B",
+   "heading": "Eligible covered bond exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s114",
+   "num": "114",
+   "heading": "Cash and gold",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s114A",
+   "num": "114A",
+   "heading": "Items in the process of clearing or settlement",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s114B",
+   "num": "114B",
+   "heading": "Group 1 cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115",
+   "num": "115",
+   "heading": "What are regulatory residential real estate exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115A",
+   "num": "115A",
+   "heading": "Loan-to-value ratio",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115B",
+   "num": "115B",
+   "heading": "Risk-weights of regulatory residential real estate exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115C",
+   "num": "115C",
+   "heading": "Risk-weights of real estate exposures secured by residential property outside Hong Kong",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115D",
+   "num": "115D",
+   "heading": "Risk-weights of other real estate exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115E",
+   "num": "115E",
+   "heading": "Equity exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115F",
+   "num": "115F",
+   "heading": "Significant capital investments in commercial entities",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115G",
+   "num": "115G",
+   "heading": "Holdings of capital instruments issued by, and non-capital LAC liabilities of, financial sector entities",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115H",
+   "num": "115H",
+   "heading": "Exposures to subordinated debts",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s116",
+   "num": "116",
+   "heading": "Other exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117",
+   "num": "117",
+   "heading": "Exposures to credit-linked notes",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117A",
+   "num": "117A",
+   "heading": "Determination of risk-weight applicable to certain types of off-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117AB",
+   "num": "117AB",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s117AC",
+   "num": "117AC",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s117AD",
+   "num": "117AD",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s117AE",
+   "num": "117AE",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s117B",
+   "num": "117B",
+   "heading": "Further provisions in relation to direct credit substitutes",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117C",
+   "num": "117C",
+   "heading": "Exposures in respect of assets underlying SFTs",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117D",
+   "num": "117D",
+   "heading": "Interpretation of Division 3A",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117E",
+   "num": "117E",
+   "heading": "Treatment of CIS exposure held by authorized institution",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117F",
+   "num": "117F",
+   "heading": "Treatment of CIS exposure constituting deductible holding",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117G",
+   "num": "117G",
+   "heading": "Determination of risk-weights applicable to certain types of off-balance sheet CIS exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s118",
+   "num": "118",
+   "heading": "Calculation of exposure amounts of off-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s119",
+   "num": "119",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s120",
+   "num": "120",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s121",
+   "num": "121",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s122",
+   "num": "122",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s123",
+   "num": "123",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s123A",
+   "num": "123A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s124",
+   "num": "124",
+   "heading": "Recognized collateral",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s125",
+   "num": "125",
+   "heading": "Collateral which may be recognized for purposes of section 124(h)",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s126",
+   "num": "126",
+   "heading": "Calculation of risk-weighted amount of exposures taking into account credit risk mitigating effect of recognized collateral",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s127",
+   "num": "127",
+   "heading": "Calculation of risk-weighted amount of on-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s128",
+   "num": "128",
+   "heading": "Calculation of risk-weighted amount of off-balance sheet exposures other than default risk exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s129",
+   "num": "129",
+   "heading": "Calculation of risk-weighted amount of default risk exposures",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s130",
+   "num": "130",
+   "heading": "On-balance sheet netting",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s130A",
+   "num": "130A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s131",
+   "num": "131",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s132",
+   "num": "132",
+   "heading": "Recognized guarantees",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s133",
+   "num": "133",
+   "heading": "Recognized credit derivative contracts",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s134",
+   "num": "134",
+   "heading": "Capital treatment of recognized guarantees and recognized credit derivative contracts",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s135",
+   "num": "135",
+   "heading": "Provisions supplementary to section 134",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s136",
+   "num": "136",
+   "heading": "Multiple recognized credit risk mitigation",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s137",
+   "num": "137",
+   "heading": "Maturity mismatches",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s138",
+   "num": "138",
+   "heading": "Application of Part 6",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s139",
+   "num": "139",
+   "heading": "Interpretation of Part 6",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s140",
+   "num": "140",
+   "heading": "Calculation of risk-weighted amount of exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s140A",
+   "num": "140A",
+   "heading": "Calculation of exposure at default",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s141",
+   "num": "141",
+   "heading": "Exposures to be covered",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s142",
+   "num": "142",
+   "heading": "Classification of exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s143",
+   "num": "143",
+   "heading": "Corporate exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s144",
+   "num": "144",
+   "heading": "Retail exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s145",
+   "num": "145",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s146",
+   "num": "146",
+   "heading": "Other exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s147",
+   "num": "147",
+   "heading": "IRB calculation approaches",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s148",
+   "num": "148",
+   "heading": "General requirements for estimation of probability of default, loss given default and exposure at default",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s149",
+   "num": "149",
+   "heading": "Default of obligor",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s150",
+   "num": "150",
+   "heading": "Rating dimensions",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s151",
+   "num": "151",
+   "heading": "Rating structure",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s152",
+   "num": "152",
+   "heading": "Rating criteria",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s153",
+   "num": "153",
+   "heading": "Rating assignment horizon",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s154",
+   "num": "154",
+   "heading": "Rating coverage",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s155",
+   "num": "155",
+   "heading": "Integrity of rating process",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s156",
+   "num": "156",
+   "heading": "Calculation of risk-weighted amount of corporate, sovereign and bank exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s157",
+   "num": "157",
+   "heading": "Provisions supplementary to section 156(2)—firm-size adjustments for small-and-medium sized corporates",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s157A",
+   "num": "157A",
+   "heading": "Provisions supplementary to section 156(2)—asset value correlation multiplier for exposures to certain financial institutions",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s158",
+   "num": "158",
+   "heading": "Provisions supplementary to section 156—risk-weights for specialized lending",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s159",
+   "num": "159",
+   "heading": "Probability of default",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s160",
+   "num": "160",
+   "heading": "Loss given default under foundation IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s161",
+   "num": "161",
+   "heading": "Loss given default under advanced IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s162",
+   "num": "162",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s163",
+   "num": "163",
+   "heading": "Exposure at default under foundation IRB approach—on-balance sheet exposures and off-balance sheet exposures other than default risk exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s164",
+   "num": "164",
+   "heading": "Exposure at default under advanced IRB approach—on-balance sheet exposures and off-balance sheet exposures other than default risk exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s164A",
+   "num": "164A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s165",
+   "num": "165",
+   "heading": "Exposure at default under foundation IRB approach or advanced IRB approach—default risk exposures in respect of derivative contracts",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s166",
+   "num": "166",
+   "heading": "Exposure at default under foundation IRB approach or advanced IRB approach—off-balance sheet exposures not covered by sections 163, 164, 165 and 202",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s167",
+   "num": "167",
+   "heading": "Maturity under foundation IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s168",
+   "num": "168",
+   "heading": "Maturity under advanced IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s169",
+   "num": "169",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s170",
+   "num": "170",
+   "heading": "Rating dimensions",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s171",
+   "num": "171",
+   "heading": "Rating structure",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s172",
+   "num": "172",
+   "heading": "Rating criteria",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s173",
+   "num": "173",
+   "heading": "Rating assignment horizon",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s174",
+   "num": "174",
+   "heading": "Rating coverage",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s175",
+   "num": "175",
+   "heading": "Integrity of rating process",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s176",
+   "num": "176",
+   "heading": "Calculation of risk-weighted amount of retail exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s177",
+   "num": "177",
+   "heading": "Probability of default",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s178",
+   "num": "178",
+   "heading": "Loss given default",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s179",
+   "num": "179",
+   "heading": "Exposure at default—on-balance sheet exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s180",
+   "num": "180",
+   "heading": "Exposure at default—off-balance sheet exposures other than default risk exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s180A",
+   "num": "180A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s181",
+   "num": "181",
+   "heading": "Exposure at default—default risk exposures in respect of derivative contracts",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s182",
+   "num": "182",
+   "heading": "Exposure at default—off-balance sheet exposures not covered by sections 180, 181 and 202",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s183",
+   "num": "183",
+   "heading": "CIS exposure constituting deductible holding",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s184",
+   "num": "184",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s185",
+   "num": "185",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s186",
+   "num": "186",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s187",
+   "num": "187",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s188",
+   "num": "188",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s189",
+   "num": "189",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s190",
+   "num": "190",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s191",
+   "num": "191",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s192",
+   "num": "192",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s193",
+   "num": "193",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s194",
+   "num": "194",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s195",
+   "num": "195",
+   "heading": "Cash items",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s196",
+   "num": "196",
+   "heading": "Other items",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s197",
+   "num": "197",
+   "heading": "Purchased receivables",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s198",
+   "num": "198",
+   "heading": "Calculation of risk-weighted amount for default risk in respect of purchased receivables",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s199",
+   "num": "199",
+   "heading": "Calculation of risk-weighted amount for dilution risk in respect of purchased receivables",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s200",
+   "num": "200",
+   "heading": "Requirements for authorized institution using top-down approach to estimate probability of default, etc. of purchased receivables for default risk or dilution risk",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s201",
+   "num": "201",
+   "heading": "Leasing arrangements",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s202",
+   "num": "202",
+   "heading": "Securities financing transactions",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s202A",
+   "num": "202A",
+   "heading": "Credit-linked notes",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s202B",
+   "num": "202B",
+   "heading": "Capital treatment of IPO financing",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s202C",
+   "num": "202C",
+   "heading": "Capital instruments issued by, and non-capital LAC liabilities of, financial sector entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s203",
+   "num": "203",
+   "heading": "Credit risk mitigation—general",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s204",
+   "num": "204",
+   "heading": "Recognized collateral",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s205",
+   "num": "205",
+   "heading": "Recognized financial receivables",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s206",
+   "num": "206",
+   "heading": "Recognized commercial real estate and recognized residential real estate",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s207",
+   "num": "207",
+   "heading": "Other recognized IRB collateral",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s208",
+   "num": "208",
+   "heading": "Leased assets may be recognized as collateral",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s209",
+   "num": "209",
+   "heading": "Recognized netting",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s210",
+   "num": "210",
+   "heading": "Recognized guarantees and recognized credit derivative contracts",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s211",
+   "num": "211",
+   "heading": "Recognized guarantees and recognized credit derivative contracts under substitution framework for corporate, sovereign and bank exposures under foundation IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s212",
+   "num": "212",
+   "heading": "Recognized guarantees and recognized credit derivative contracts under substitution framework for corporate and sovereign exposures under advanced IRB approach and for retail exposures under retail IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s213",
+   "num": "213",
+   "heading": "Recognized internal risk transfer to trading book",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s214",
+   "num": "214",
+   "heading": "Capital treatment of recognized guarantees and recognized credit derivative contracts",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s215",
+   "num": "215",
+   "heading": "Provisions supplementary to section 214(1)—substitution framework (general)",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s216",
+   "num": "216",
+   "heading": "Provisions supplementary to section 214(1)—substitution framework for corporate, sovereign and bank exposures under foundation IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s217",
+   "num": "217",
+   "heading": "Provisions supplementary to section 214(1)—substitution framework for corporate and sovereign exposures under advanced IRB approach and for retail exposures under retail IRB approach",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s218",
+   "num": "218",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s219",
+   "num": "219",
+   "heading": "Capital treatment of recognized guarantees and recognized credit derivative contracts in respect of purchased receivables",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s220",
+   "num": "220",
+   "heading": "Calculation of expected losses and eligible provisions for corporate, sovereign, bank and retail exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s221",
+   "num": "221",
+   "heading": "Determination of eligible provisions for calculation of total eligible provisions",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s222",
+   "num": "222",
+   "heading": "EL amount—CIS exposures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s223",
+   "num": "223",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s224",
+   "num": "224",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s225",
+   "num": "225",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s226",
+   "num": "226",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s226A",
+   "num": "226A",
+   "heading": "Interpretation of Part 6A",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226B",
+   "num": "226B",
+   "heading": "Valid cross-product netting agreement",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BA",
+   "num": "226BA",
+   "heading": "Interpretation of Division 1A",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BB",
+   "num": "226BB",
+   "heading": "Application of Division 1A",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BC",
+   "num": "226BC",
+   "heading": "Calculation of default risk exposure under SA-CCR approach of single netting set containing unmargined contracts only",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BD",
+   "num": "226BD",
+   "heading": "Calculation of default risk exposure under SA-CCR approach of single netting set covered by single variation margin agreement",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BE",
+   "num": "226BE",
+   "heading": "Calculation of default risk exposure under SA-CCR approach of multiple netting sets covered by single variation margin agreement",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BF",
+   "num": "226BF",
+   "heading": "Calculation of default risk exposure under SA-CCR approach of single netting set covered by multiple variation margin agreements",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BG",
+   "num": "226BG",
+   "heading": "Calculation of default risk exposure under SA-CCR approach of single netting set containing both margined contracts and unmargined contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BH",
+   "num": "226BH",
+   "heading": "Determination of default risk exposure in certain circumstances",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BI",
+   "num": "226BI",
+   "heading": "Treatments for certain credit derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BJ",
+   "num": "226BJ",
+   "heading": "Calculation of haircut value of net collateral held",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BK",
+   "num": "226BK",
+   "heading": "Authorized institution to hold regulatory capital for credit risk or market risk of posted collateral",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BL",
+   "num": "226BL",
+   "heading": "Classification of derivative contracts into asset classes",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BM",
+   "num": "226BM",
+   "heading": "Further classification of derivative contracts in asset class of interest rate contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BN",
+   "num": "226BN",
+   "heading": "Further classification of derivative contracts in asset class of exchange rate contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BNA",
+   "num": "226BNA",
+   "heading": "Further classification of derivative contracts in asset class of group 2a cryptoasset derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BO",
+   "num": "226BO",
+   "heading": "Further classification of derivative contracts in asset class of credit-related derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BP",
+   "num": "226BP",
+   "heading": "Further classification of derivative contracts in asset class of equity-related derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BQ",
+   "num": "226BQ",
+   "heading": "Further classification of derivative contracts in asset class of commodity-related derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BR",
+   "num": "226BR",
+   "heading": "Calculation of potential future exposure of netting set",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BS",
+   "num": "226BS",
+   "heading": "Calculation of potential future exposure of netting sets covered by same variation margin agreement",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BT",
+   "num": "226BT",
+   "heading": "Calculation of add-on for derivative contracts in same asset class",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BU",
+   "num": "226BU",
+   "heading": "Calculation of add-on for hedging sets in asset class of interest rate contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BV",
+   "num": "226BV",
+   "heading": "Calculation of add-on for hedging sets in asset class of exchange rate contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BVA",
+   "num": "226BVA",
+   "heading": "Calculation of add-on for hedging sets in asset class of group 2a cryptoasset derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BW",
+   "num": "226BW",
+   "heading": "Calculation of add-on for subsets in asset class of credit-related derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BX",
+   "num": "226BX",
+   "heading": "Calculation of add-on for subsets in asset class of equity-related derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BY",
+   "num": "226BY",
+   "heading": "Calculation of add-on for hedging sets in asset class of commodity-related derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BZ",
+   "num": "226BZ",
+   "heading": "Treatments of supervisory factor for basis transactions and volatility transactions",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BZA",
+   "num": "226BZA",
+   "heading": "Calculation of effective notional amount for hedging sets etc.",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BZB",
+   "num": "226BZB",
+   "heading": "Supervisory delta adjustment applicable to derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BZC",
+   "num": "226BZC",
+   "heading": "Calculation of adjusted notional of derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BZD",
+   "num": "226BZD",
+   "heading": "Maturity factor for unmargined contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226BZE",
+   "num": "226BZE",
+   "heading": "Maturity factor for margined contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226C",
+   "num": "226C",
+   "heading": "Application of Division 2",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226D",
+   "num": "226D",
+   "heading": "Calculation of IMM(CCR) risk-weighted amount at portfolio level under IMM(CCR) approach",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226E",
+   "num": "226E",
+   "heading": "Calculation of default risk exposure at netting set level under IMM(CCR) approach",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226F",
+   "num": "226F",
+   "heading": "Calculation of effective EPE",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226G",
+   "num": "226G",
+   "heading": "Calculation of effective EE",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226H",
+   "num": "226H",
+   "heading": "Calculation of EE",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226I",
+   "num": "226I",
+   "heading": "Treatments for certain credit derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226J",
+   "num": "226J",
+   "heading": "Treatments for transactions with specific wrong-way risk",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226K",
+   "num": "226K",
+   "heading": "Treatments for margin agreements",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226L",
+   "num": "226L",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226M",
+   "num": "226M",
+   "heading": "Margin period of risk",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MA",
+   "num": "226MA",
+   "heading": "Application of Division 2A",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MB",
+   "num": "226MB",
+   "heading": "Calculation of default risk exposure",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MC",
+   "num": "226MC",
+   "heading": "Treatments for certain credit derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MD",
+   "num": "226MD",
+   "heading": "Calculation of potential future exposure of derivative contract",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ME",
+   "num": "226ME",
+   "heading": "Notional amount of certain types of derivative contracts",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MF",
+   "num": "226MF",
+   "heading": "Authorized institution to hold regulatory capital for credit risk or market risk of posted collateral",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MG",
+   "num": "226MG",
+   "heading": "Interpretation for Division 2B",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MH",
+   "num": "226MH",
+   "heading": "Application of Division 2B",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MI",
+   "num": "226MI",
+   "heading": "Calculation of default risk exposures in respect of SFTs: general",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MJ",
+   "num": "226MJ",
+   "heading": "Calculation of default risk exposure in respect of SFTs that are not nettable",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MK",
+   "num": "226MK",
+   "heading": "Calculation of default risk exposure in respect of nettable SFTs",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ML",
+   "num": "226ML",
+   "heading": "Use of value-at-risk model instead of section 226MJ and Formula 23EB",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226MM",
+   "num": "226MM",
+   "heading": "Supplementary provisions to sections 226MK and 226ML",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226N",
+   "num": "226N",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226O",
+   "num": "226O",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226P",
+   "num": "226P",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226Q",
+   "num": "226Q",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226R",
+   "num": "226R",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226S",
+   "num": "226S",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226T",
+   "num": "226T",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6A"
+  },
+  {
+   "id": "s226U",
+   "num": "226U",
+   "heading": "Application of Division 4",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226V",
+   "num": "226V",
+   "heading": "Interpretation of Division 4",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226W",
+   "num": "226W",
+   "heading": "Calculation of credit risk exposures",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226X",
+   "num": "226X",
+   "heading": "Exposures of clearing members to qualifying CCPs",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226Y",
+   "num": "226Y",
+   "heading": "Provisions supplementary to section 226X(4)",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226Z",
+   "num": "226Z",
+   "heading": "Exposures of clearing members to direct clients",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZA",
+   "num": "226ZA",
+   "heading": "Exposures of direct clients to clearing members",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZB",
+   "num": "226ZB",
+   "heading": "Exposures of direct clients to CCPs",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZBA",
+   "num": "226ZBA",
+   "heading": "Exposure of authorized institution to higher level client or lower level client within multi-level client structure",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZC",
+   "num": "226ZC",
+   "heading": "CCP ceases to be qualifying CCP",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZD",
+   "num": "226ZD",
+   "heading": "Exposures of clearing members to non-qualifying CCPs",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZE",
+   "num": "226ZE",
+   "heading": "Treatment of posted collateral",
+   "status": "in-effect",
+   "part": "P6A"
+  },
+  {
+   "id": "s226ZF",
+   "num": "226ZF",
+   "heading": "Application of Part 6B",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZG",
+   "num": "226ZG",
+   "heading": "Interpretation of Part 6B",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZH",
+   "num": "226ZH",
+   "heading": "Interpretation: levels of collective investment scheme etc.",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZI",
+   "num": "226ZI",
+   "heading": "Calculation of risk-weighted amount of CIS exposure",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZJ",
+   "num": "226ZJ",
+   "heading": "Calculation of effective risk-weight applicable to CIS exposure for purposes of section 226ZI",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZK",
+   "num": "226ZK",
+   "heading": "Approaches to be used in calculating risk-weighted amounts of CIS exposures etc.",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZL",
+   "num": "226ZL",
+   "heading": "Approaches to be used in calculating risk-weighted amounts of CIS exposures to Level 1 CIS: BSC AI",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZM",
+   "num": "226ZM",
+   "heading": "LTA conditions",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZN",
+   "num": "226ZN",
+   "heading": "TPA conditions",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZO",
+   "num": "226ZO",
+   "heading": "Look-through approach: calculation of risk-weighted amount of underlying exposures",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZP",
+   "num": "226ZP",
+   "heading": "Use of risk-weighted amount obtained by using third-party approach",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZQ",
+   "num": "226ZQ",
+   "heading": "Mandate-based approach: general requirements",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZR",
+   "num": "226ZR",
+   "heading": "Mandate-based approach: calculation of risk-weighted amounts of underlying exposures",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZS",
+   "num": "226ZS",
+   "heading": "Fall-back approach",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZT",
+   "num": "226ZT",
+   "heading": "Certain regulatory deductible items held by Level 1 CIS may be excluded from underlying exposures",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZU",
+   "num": "226ZU",
+   "heading": "Calculation of risk-weighted amounts of CIS exposures held by Level 1 CIS",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZV",
+   "num": "226ZV",
+   "heading": "Calculation of risk-weighted amounts of CIS exposures held by Level 2 CIS onwards",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZW",
+   "num": "226ZW",
+   "heading": "Calculation of risk-weighted amounts of CIS exposures held by Level 2 CIS onwards: conditions for using look-through approach",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZX",
+   "num": "226ZX",
+   "heading": "Calculation of risk-weighted amounts of CIS exposures held by Level 1 CIS onwards: certain regulatory deductible items may be excluded",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s226ZY",
+   "num": "226ZY",
+   "heading": "Treatment of group 2 cryptoasset exposures held by Level 1 CIS onwards",
+   "status": "in-effect",
+   "part": "P6B"
+  },
+  {
+   "id": "s227",
+   "num": "227",
+   "heading": "Interpretation of Part 7",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s227A",
+   "num": "227A",
+   "heading": "Meaning of ECAI issue specific rating",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s228",
+   "num": "228",
+   "heading": "Meaning of senior tranche, etc.",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s229",
+   "num": "229",
+   "heading": "Meaning of eligible securitization transactions, etc.",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s230",
+   "num": "230",
+   "heading": "Treatment of underlying exposures of eligible securitization transactions: general",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s230A",
+   "num": "230A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s231",
+   "num": "231",
+   "heading": "Treatment of underlying exposures of eligible synthetic securitization transactions in case of maturity mismatch or call option",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s232",
+   "num": "232",
+   "heading": "Treatment of expected losses and provisions in respect of underlying exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s232A",
+   "num": "232A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s233",
+   "num": "233",
+   "heading": "Treatment of underlying exposures of non-eligible securitization transactions",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s234",
+   "num": "234",
+   "heading": "Measures for authorized institution providing implicit support",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s235",
+   "num": "235",
+   "heading": "Determination of exposure amount of securitization exposure",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s236",
+   "num": "236",
+   "heading": "Calculation of risk-weighted amount of securitization exposure",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s236A",
+   "num": "236A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s237",
+   "num": "237",
+   "heading": "Treatment of refundable purchase price discount provided, and first-loss protection obtained, by authorized institution for purchased receivables",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s238",
+   "num": "238",
+   "heading": "Treatment of derivative contract for mitigating market risk in securitization transaction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s239",
+   "num": "239",
+   "heading": "Treatment of overlapping securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s240",
+   "num": "240",
+   "heading": "Floors on risk-weights determined by using SEC-IRBA, SEC-ERBA or SEC-SA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s241",
+   "num": "241",
+   "heading": "Caps on risk-weights for exposures in senior tranches determined by using SEC-IRBA, SEC-ERBA or SEC-SA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s242",
+   "num": "242",
+   "heading": "Maximum capital charge for all securitization exposures to securitization transaction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s243",
+   "num": "243",
+   "heading": "Credit risk mitigation recognized for purpose of calculating the risk-weighted amounts of securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s244",
+   "num": "244",
+   "heading": "Treatment of Part 7 credit risk mitigation—full or proportional credit protection",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s245",
+   "num": "245",
+   "heading": "Treatment of Part 7 credit risk mitigation—tranched credit protection",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s246",
+   "num": "246",
+   "heading": "Treatment of maturity mismatch between securitization exposures and credit protection",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s247",
+   "num": "247",
+   "heading": "Value of attachment point and value of detachment point of tranche in securitization transaction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s248",
+   "num": "248",
+   "heading": "Tranche maturity of tranche in securitization transaction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s249",
+   "num": "249",
+   "heading": "Supplementary provisions to sections 236 and 245 in relation to tranched credit protection",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s250",
+   "num": "250",
+   "heading": "Application of Division 7",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s251",
+   "num": "251",
+   "heading": "Determination of risk-weights of securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s251A",
+   "num": "251A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s252",
+   "num": "252",
+   "heading": "Treatment of dilution risk of underlying exposures for purposes of section 251",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s253",
+   "num": "253",
+   "heading": "Capital charge per unit of securitization exposure under SEC-IRBA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s254",
+   "num": "254",
+   "heading": "Calculation of KIRB for underlying exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s255",
+   "num": "255",
+   "heading": "Calculation of IRB capital charge for underlying exposures in IRB pool",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s256",
+   "num": "256",
+   "heading": "Specific requirements applicable to calculation of KIRB—SPE’s exposure",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s257",
+   "num": "257",
+   "heading": "Specific requirements applicable to calculation of KIRB—collateral for funded synthetic securitization transaction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s258",
+   "num": "258",
+   "heading": "Further provisions to sections 256 and 257",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s259",
+   "num": "259",
+   "heading": "Treatment of default risk of underlying exposures in calculation of KIRB",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s260",
+   "num": "260",
+   "heading": "Calculation of p-parameter",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s260A",
+   "num": "260A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s261",
+   "num": "261",
+   "heading": "Effective number of underlying exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s262",
+   "num": "262",
+   "heading": "Exposure-weighted average LGD",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s263",
+   "num": "263",
+   "heading": "Simplified method for calculating N and LGDSEC",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s264",
+   "num": "264",
+   "heading": "Application of Division 8",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s265",
+   "num": "265",
+   "heading": "Determination of risk-weights of securitization exposures with long-term ratings",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s266",
+   "num": "266",
+   "heading": "Determination of risk-weights of securitization exposures with short-term ratings",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s266A",
+   "num": "266A",
+   "heading": "Internal assessment approach: determination of risk-weights of eligible ABCP exposures with internal credit ratings",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s267",
+   "num": "267",
+   "heading": "Use of ECAI issue specific ratings or internal credit ratings for determination of risk-weights",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s268",
+   "num": "268",
+   "heading": "Inferred ratings",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s268A",
+   "num": "268A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s269",
+   "num": "269",
+   "heading": "Application of Division 9",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s270",
+   "num": "270",
+   "heading": "Determination of risk-weights of securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s271",
+   "num": "271",
+   "heading": "Risk-weights of securitization exposures falling within section 270(1)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s272",
+   "num": "272",
+   "heading": "Capital charge per unit of securitization exposure under SEC-SA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s273",
+   "num": "273",
+   "heading": "Calculation of capital charge factor for underlying exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s274",
+   "num": "274",
+   "heading": "Provisions supplementary to section 273",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s275",
+   "num": "275",
+   "heading": "Calculation of KSA for underlying exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s276",
+   "num": "276",
+   "heading": "Calculation of SA capital charge for underlying exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s277",
+   "num": "277",
+   "heading": "Specific requirements applicable to calculation of KSA—SPE’s exposure",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s278",
+   "num": "278",
+   "heading": "Specific requirements applicable to calculation of KSA—collateral for funded synthetic securitization transaction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s279",
+   "num": "279",
+   "heading": "Further provisions to sections 277 and 278",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s280",
+   "num": "280",
+   "heading": "Application of Division 10",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s280A",
+   "num": "280A",
+   "heading": "Risk-weights of securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s280B",
+   "num": "280B",
+   "heading": "Interpretation of Division 11",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s280C",
+   "num": "280C",
+   "heading": "Capital treatment of NPL securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s280D",
+   "num": "280D",
+   "heading": "Risk-weights of NPL securitization exposures under SEC-IRBA and SEC-SA",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s280E",
+   "num": "280E",
+   "heading": "Caps on capital requirements for NPL securitization exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s281",
+   "num": "281",
+   "heading": "Interpretation of Part 8 and Schedule 3",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281A",
+   "num": "281A",
+   "heading": "Banking book",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281B",
+   "num": "281B",
+   "heading": "Trading book",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281C",
+   "num": "281C",
+   "heading": "Restriction on moving instruments between books",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281D",
+   "num": "281D",
+   "heading": "Treatment of internal risk transfers",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281E",
+   "num": "281E",
+   "heading": "Positions to be used to calculate market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281F",
+   "num": "281F",
+   "heading": "Application of Divisions 1A to 1D",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281G",
+   "num": "281G",
+   "heading": "Calculation of market risk capital charge and risk-weighted amount for market risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281H",
+   "num": "281H",
+   "heading": "Calculation of SBM capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281I",
+   "num": "281I",
+   "heading": "Calculation of SBM delta risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281J",
+   "num": "281J",
+   "heading": "Calculation of SBM vega risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281K",
+   "num": "281K",
+   "heading": "Calculation of SBM curvature risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281L",
+   "num": "281L",
+   "heading": "Correlation scenarios",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281M",
+   "num": "281M",
+   "heading": "SBM risk factors",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281N",
+   "num": "281N",
+   "heading": "Instruments with multiple constituents",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281O",
+   "num": "281O",
+   "heading": "SBM delta risk-weights and correlation parameters",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281P",
+   "num": "281P",
+   "heading": "SBM vega risk-weights and correlation parameters",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281Q",
+   "num": "281Q",
+   "heading": "SBM curvature risk-weights and correlation parameters",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281R",
+   "num": "281R",
+   "heading": "Calculation of RRAO",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281S",
+   "num": "281S",
+   "heading": "Calculation of SA-DRC generally",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281T",
+   "num": "281T",
+   "heading": "Calculation of SA-DRC (non-securitization)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281U",
+   "num": "281U",
+   "heading": "Calculation of gross jump-to-default risk amount for SA-DRC (non-securitization)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281V",
+   "num": "281V",
+   "heading": "Calculation of SA-DRC (securitization: non-CTP)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s281W",
+   "num": "281W",
+   "heading": "Calculation of SA-DRC (securitization: CTP)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s282",
+   "num": "282",
+   "heading": "Application of Divisions 2 to 10",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s283",
+   "num": "283",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s284",
+   "num": "284",
+   "heading": "Calculation of market risk capital charge for each risk category",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s285",
+   "num": "285",
+   "heading": "Calculation of risk-weighted amount for market risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s286",
+   "num": "286",
+   "heading": "Calculation of market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s287",
+   "num": "287",
+   "heading": "Calculation of market risk capital charge for specific risk for interest rate exposures that fall within section 286(a)(i) or (iv)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s287A",
+   "num": "287A",
+   "heading": "Calculation of market risk capital charge for specific risk for interest rate exposures that fall within section 286(a)(ii)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s287B",
+   "num": "287B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s288",
+   "num": "288",
+   "heading": "Calculation of market risk capital charge for general market risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s289",
+   "num": "289",
+   "heading": "Construction of maturity ladder",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s290",
+   "num": "290",
+   "heading": "Use of alternatives requires Monetary Authority’s prior consent",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s291",
+   "num": "291",
+   "heading": "Calculation of market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s292",
+   "num": "292",
+   "heading": "Preliminary steps to calculating market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s293",
+   "num": "293",
+   "heading": "Calculation of market risk capital charge for specific risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s294",
+   "num": "294",
+   "heading": "Calculation of market risk capital charge for general market risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s295",
+   "num": "295",
+   "heading": "Preliminary steps to calculating market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s296",
+   "num": "296",
+   "heading": "Calculation of market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s297",
+   "num": "297",
+   "heading": "Preliminary steps to calculating market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s298",
+   "num": "298",
+   "heading": "Calculation of market risk capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s299",
+   "num": "299",
+   "heading": "Approaches which authorized institution may use to calculate market risk capital charge for option exposures",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s300",
+   "num": "300",
+   "heading": "Application of Division 8",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s301",
+   "num": "301",
+   "heading": "Calculation of market risk capital charge for outstanding purchased option contracts",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s302",
+   "num": "302",
+   "heading": "Application of Division 9",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s303",
+   "num": "303",
+   "heading": "Delta risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s304",
+   "num": "304",
+   "heading": "Gamma risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s305",
+   "num": "305",
+   "heading": "Vega risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s306",
+   "num": "306",
+   "heading": "Application of Division 10",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s307",
+   "num": "307",
+   "heading": "Specific risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s308",
+   "num": "308",
+   "heading": "Use of credit derivative contracts to offset specific risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s309",
+   "num": "309",
+   "heading": "Offsetting in full",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s310",
+   "num": "310",
+   "heading": "Offsetting by 80%",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s311",
+   "num": "311",
+   "heading": "Other offsetting",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s312",
+   "num": "312",
+   "heading": "General market risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s313",
+   "num": "313",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s314",
+   "num": "314",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s315",
+   "num": "315",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s316",
+   "num": "316",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s317",
+   "num": "317",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s317A",
+   "num": "317A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s317B",
+   "num": "317B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s317C",
+   "num": "317C",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s318",
+   "num": "318",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s319",
+   "num": "319",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s320",
+   "num": "320",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s321",
+   "num": "321",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s322",
+   "num": "322",
+   "heading": "",
+   "status": "repealed",
+   "part": "P8"
+  },
+  {
+   "id": "s322A",
+   "num": "322A",
+   "heading": "Application of Division 13",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322B",
+   "num": "322B",
+   "heading": "Calculation of risk-weighted amount for market risk before first anniversary of commencement of profit and loss attribution test",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322C",
+   "num": "322C",
+   "heading": "Calculation of risk-weighted amount for market risk on and after first anniversary of commencement of profit and loss attribution test",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322D",
+   "num": "322D",
+   "heading": "Calculation of market risk capital charge for approved trading desks under IMA",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322E",
+   "num": "322E",
+   "heading": "Multiplication factor",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322F",
+   "num": "322F",
+   "heading": "Calculation of stress scenario capital charge",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322G",
+   "num": "322G",
+   "heading": "Back-testing requirements and profit and loss attribution test for approved trading desks",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322H",
+   "num": "322H",
+   "heading": "Calculation of capital surcharge for approved trading desks assigned to yellow zone",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322HA",
+   "num": "322HA",
+   "heading": "Calculation of market risk capital charge or risk-weighted amount for market risk for cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s322I",
+   "num": "322I",
+   "heading": "Interpretation of Part 8A",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322J",
+   "num": "322J",
+   "heading": "Transactions and contracts to be covered",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322K",
+   "num": "322K",
+   "heading": "Application of Division 2",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322L",
+   "num": "322L",
+   "heading": "Calculation of CVA risk capital charge",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322M",
+   "num": "322M",
+   "heading": "Application of Division 3",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322N",
+   "num": "322N",
+   "heading": "Calculation of CVA risk capital charge",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322O",
+   "num": "322O",
+   "heading": "Application of Division 4",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322P",
+   "num": "322P",
+   "heading": "Calculation of CVA risk capital charge",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322Q",
+   "num": "322Q",
+   "heading": "Calculation of CVA delta risk capital charge",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322R",
+   "num": "322R",
+   "heading": "Calculation of CVA vega risk capital charge",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322S",
+   "num": "322S",
+   "heading": "CVA risk factors",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322T",
+   "num": "322T",
+   "heading": "CVA risk-weights",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322U",
+   "num": "322U",
+   "heading": "Eligible CVA hedges",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s322V",
+   "num": "322V",
+   "heading": "Calculation of CVA risk capital charge for cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P8A"
+  },
+  {
+   "id": "s323",
+   "num": "323",
+   "heading": "Interpretation of Part 9",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s324",
+   "num": "324",
+   "heading": "Calculation of capital charge and risk-weighted amount for operational risk",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s325",
+   "num": "325",
+   "heading": "Calculation of BI",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s326",
+   "num": "326",
+   "heading": "Supplementary provisions for calculation of BI",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s327",
+   "num": "327",
+   "heading": "Calculation of BI for authorized institutions operating for 18 months or more but less than 3 years",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s328",
+   "num": "328",
+   "heading": "Exclusions from BI",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s329",
+   "num": "329",
+   "heading": "Calculation of BIC",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s330",
+   "num": "330",
+   "heading": "Calculation of ILM: General",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s331",
+   "num": "331",
+   "heading": "Classification of authorized institution for purpose of calculating ILM",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s0",
+   "num": "",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s332",
+   "num": "332",
+   "heading": "ILM for bucket 1 AI",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s333",
+   "num": "333",
+   "heading": "ILM for bucket 2 AI and bucket 3 AI",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s334",
+   "num": "334",
+   "heading": "Formula approach for calculating ILM",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s335",
+   "num": "335",
+   "heading": "Calculation of LC",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s336",
+   "num": "336",
+   "heading": "Exclusions from LC",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s337",
+   "num": "337",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s338",
+   "num": "338",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s339",
+   "num": "339",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s340",
+   "num": "340",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s341",
+   "num": "341",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s342",
+   "num": "342",
+   "heading": "Interpretation of Part 10",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s342A",
+   "num": "342A",
+   "heading": "Calculation of specified sovereign exposure to specified sovereign entity",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s343",
+   "num": "343",
+   "heading": "Specified sovereign exposure to jurisdiction and concentrated sovereign exposure",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s344",
+   "num": "344",
+   "heading": "Calculation of risk-weighted amount of concentrated sovereign exposure to jurisdiction",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s345",
+   "num": "345",
+   "heading": "Calculation of risk-weighted amount for sovereign concentration risk",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s346",
+   "num": "346",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s347",
+   "num": "347",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s348",
+   "num": "348",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s349",
+   "num": "349",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s350",
+   "num": "350",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s351",
+   "num": "351",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s352",
+   "num": "352",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s353",
+   "num": "353",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s354",
+   "num": "354",
+   "heading": "Application of Part 11",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s355",
+   "num": "355",
+   "heading": "Interpretation of Part 11",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s356",
+   "num": "356",
+   "heading": "Calculation of output floor",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s357",
+   "num": "357",
+   "heading": "Calculation of actual risk-weighted amount",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s358",
+   "num": "358",
+   "heading": "Adjustment of capital adequacy ratio if output floor is larger than actual risk-weighted amount",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s359",
+   "num": "359",
+   "heading": "Application of Part 12",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s360",
+   "num": "360",
+   "heading": "Interpretation of Part 12",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s361",
+   "num": "361",
+   "heading": "Classification of cryptoassets",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s362",
+   "num": "362",
+   "heading": "Trading book and banking book boundary requirements for cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s363",
+   "num": "363",
+   "heading": "Interpretation of Division 2",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s364",
+   "num": "364",
+   "heading": "Application of Subdivision 2",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s365",
+   "num": "365",
+   "heading": "Risk-weights of group 1a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s366",
+   "num": "366",
+   "heading": "Group 1b cryptoasset exposures—general",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s367",
+   "num": "367",
+   "heading": "Group 1b cryptoasset exposures relating to cryptoasset where all holders are allowed to transact directly with redeemer",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s368",
+   "num": "368",
+   "heading": "Group 1b cryptoasset exposures relating to cryptoasset where authorized institution is member holder",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s369",
+   "num": "369",
+   "heading": "Group 1b cryptoasset exposures relating to cryptoasset where authorized institution is non-member holder",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s370",
+   "num": "370",
+   "heading": "Application of Subdivision 3",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s371",
+   "num": "371",
+   "heading": "Risk-weights of group 1a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s372",
+   "num": "372",
+   "heading": "Risk-weights of group 1b cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s373",
+   "num": "373",
+   "heading": "Application of Subdivision 4",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s374",
+   "num": "374",
+   "heading": "Risk-weights of group 1a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s375",
+   "num": "375",
+   "heading": "Group 1b cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s376",
+   "num": "376",
+   "heading": "Calculation of credit risk of group 1b cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s377",
+   "num": "377",
+   "heading": "Calculation of default risk exposure of group 2b cryptoasset derivative contract",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s378",
+   "num": "378",
+   "heading": "Calculation of default risk exposure of SFTs",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s379",
+   "num": "379",
+   "heading": "Calculation of risk-weighted amount for market risk for group 1 cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s380",
+   "num": "380",
+   "heading": "Calculation of infrastructure risk add-on for group 1 cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s381",
+   "num": "381",
+   "heading": "Calculation of market risk for group 2a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s382",
+   "num": "382",
+   "heading": "Modifications to STM approach for calculating market risk for group 2a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s383",
+   "num": "383",
+   "heading": "SSTM approach for calculating risk-weighted amount for market risk for group 2a cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s384",
+   "num": "384",
+   "heading": "Calculation of credit risk for group 2a cryptoasset exposures to stablecoins",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s385",
+   "num": "385",
+   "heading": "Calculation of credit risk for group 2b cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s386",
+   "num": "386",
+   "heading": "Calculation of CVA risk for cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s387",
+   "num": "387",
+   "heading": "Calculation of group 2 cryptoasset exposure ratio",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s388",
+   "num": "388",
+   "heading": "Group 2 cryptoasset exposure ratio for G-SIBs and D-SIBs",
+   "status": "in-effect",
+   "part": "P12"
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Specifications for Purposes of Certain Definitions in these Rules",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch1A",
+   "num": "Schedule 1A",
+   "heading": "Transactions and Contracts not Subject to CVA Risk Capital Charge",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch1B",
+   "num": "Schedule 1B",
+   "heading": "Minimum Requirements to be Satisfied for Approval under Section 23D(2) of these Rules to Use Standardized CVA Approach",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Minimum Requirements to be Satisfied for Approval under Section 8 of these Rules to Use IRB Approach",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch2A",
+   "num": "Schedule 2A",
+   "heading": "Minimum Requirements to be Satisfied for Approval under Section 10B(2)(a) of these Rules to Use IMM(CCR) Approach",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Minimum Requirements to be Satisfied for Approval under Section 18 of these Rules to Use IMA",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4",
+   "num": "Schedule 4",
+   "heading": "",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4A",
+   "num": "Schedule 4A",
+   "heading": "Qualifying Criteria to be Met to be CET1 Capital",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4B",
+   "num": "Schedule 4B",
+   "heading": "Qualifying Criteria to be Met to be Additional Tier 1 Capital",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4C",
+   "num": "Schedule 4C",
+   "heading": "Qualifying Criteria to be Met to be Tier 2 Capital",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4D",
+   "num": "Schedule 4D",
+   "heading": "Requirements to be Met for Minority Interests and Capital Instruments Issued by Consolidated Bank Subsidiaries and Held by Third Parties to be Included in Authorized Institution’s Capital Base",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4E",
+   "num": "Schedule 4E",
+   "heading": "Deduction of Holdings of Own CET1 Capital Instruments, Additional Tier 1 Capital Instruments and Tier 2 Capital Instruments",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4F",
+   "num": "Schedule 4F",
+   "heading": "Deduction of Holdings where Authorized Institution has Insignificant LAC Investments in Financial Sector Entities that are outside Scope of Consolidation under Section 3C Requirement",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4G",
+   "num": "Schedule 4G",
+   "heading": "Deduction of Holdings where Authorized Institution has Significant LAC Investments in Financial Sector Entities that are outside Scope of Consolidation under Section 3C Requirement",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch4H",
+   "num": "Schedule 4H",
+   "heading": "",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch5",
+   "num": "Schedule 5",
+   "heading": "",
+   "status": "repealed"
+  },
+  {
+   "id": "sch6",
+   "num": "Schedule 6",
+   "heading": "Credit Conversion Factors",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch7",
+   "num": "Schedule 7",
+   "heading": "Standard Supervisory Haircuts",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch8",
+   "num": "Schedule 8",
+   "heading": "",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch9",
+   "num": "Schedule 9",
+   "heading": "Requirements to be Satisfied for Traditional Securitization Transaction to be Eligible Traditional Securitization Transaction",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch10",
+   "num": "Schedule 10",
+   "heading": "Requirements to be Satisfied for Synthetic Securitization Transaction to be Eligible Synthetic Securitization Transaction",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch10A",
+   "num": "Schedule 10A",
+   "heading": "Requirements Supplementary to Schedules 9 and 10",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch11",
+   "num": "Schedule 11",
+   "heading": "",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch12",
+   "num": "Schedule 12",
+   "heading": "",
+   "status": "repealed"
+  },
+  {
+   "id": "sch13",
+   "num": "Schedule 13",
+   "heading": "",
+   "status": "repealed"
+  },
+  {
+   "id": "sch14",
+   "num": "Schedule 14",
+   "heading": "",
+   "status": "repealed"
+  },
+  {
+   "id": "sch15",
+   "num": "Schedule 15",
+   "heading": "",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch16",
+   "num": "Schedule 16",
+   "heading": "Transitional Provisions for Banking (Capital) (Amendment) Rules 2020",
+   "status": "in-effect"
+  }
+ ]
+}

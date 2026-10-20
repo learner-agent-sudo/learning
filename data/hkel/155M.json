@@ -1,0 +1,1732 @@
+{
+ "cap": "155M",
+ "title": "Cap. 155 sub. leg. M",
+ "longTitle": "",
+ "versionDate": "2026-01-01",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap155M",
+ "indexOnly": true,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "General Requirements for Authorized Institutions Incorporated in Hong Kong",
+   "status": "in-effect",
+   "sections": [
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16"
+   ]
+  },
+  {
+   "id": "P2A",
+   "num": "Part 2A",
+   "heading": "Specific Disclosures to be Made by Authorized Institutions Incorporated in Hong Kong",
+   "status": "in-effect",
+   "sections": [
+    "s16A",
+    "s16AB",
+    "s16B",
+    "s16C",
+    "s16D",
+    "s16E",
+    "s16F",
+    "s16FA",
+    "s16FB",
+    "s16FC",
+    "s16FD",
+    "s16FE",
+    "s16FF",
+    "s16FG",
+    "s16FH",
+    "s16FI",
+    "s16FJ",
+    "s16FK",
+    "s16FL",
+    "s16G",
+    "s16H",
+    "s16I",
+    "s16J",
+    "s16K",
+    "s16L",
+    "s16M",
+    "s16N",
+    "s16O",
+    "s16P",
+    "s16Q",
+    "s16R",
+    "s16S",
+    "s16T",
+    "s16U",
+    "s16V",
+    "s16W",
+    "s16X",
+    "s16Y",
+    "s16Z",
+    "s16ZA",
+    "s16ZB",
+    "s16ZC",
+    "s16ZD",
+    "s16ZDA",
+    "s16ZE",
+    "s16ZF",
+    "s16ZG",
+    "s16ZH",
+    "s16ZI",
+    "s16ZJ",
+    "s16ZK",
+    "s16ZL",
+    "s16ZM",
+    "s16ZN",
+    "s16ZO",
+    "s16ZOA",
+    "s16ZOB",
+    "s16ZOC",
+    "s16ZOD",
+    "s16ZOE",
+    "s16ZOF",
+    "s16ZP",
+    "s16ZQ",
+    "s16ZQA",
+    "s16ZQB",
+    "s16ZQC",
+    "s16ZQD",
+    "s16ZQE",
+    "s16ZQF",
+    "s16ZQG",
+    "s16ZQH",
+    "s16ZQI",
+    "s16ZQJ",
+    "s16ZQK",
+    "s16ZR",
+    "s16ZS",
+    "s16ZT",
+    "s16ZU",
+    "s16ZV"
+   ]
+  },
+  {
+   "id": "P2B",
+   "num": "Part 2B",
+   "heading": "(Repealed L.N. 77 of 2018)",
+   "status": "repealed",
+   "sections": []
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Additional Semi-annual Disclosures to be Made by Authorized Institutions Incorporated in Hong Kong",
+   "status": "in-effect",
+   "sections": [
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s24A",
+    "s24B",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29"
+   ]
+  },
+  {
+   "id": "P3A",
+   "num": "Part 3A",
+   "heading": "Interim Disclosures to be Made by Authorized Institutions Incorporated in Hong Kong",
+   "status": "in-effect",
+   "sections": [
+    "s29A",
+    "s29B",
+    "s30",
+    "s30A",
+    "s30B"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Additional Annual Disclosures to be Made by Authorized Institutions Incorporated in Hong Kong",
+   "status": "in-effect",
+   "sections": [
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s45A",
+    "s45B",
+    "s45C",
+    "s46",
+    "s47",
+    "s48",
+    "s49",
+    "s50",
+    "s51",
+    "s51A",
+    "s51B",
+    "s51C",
+    "s51D",
+    "s52"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "(Repealed L.N. 195 of 2016)",
+   "status": "repealed",
+   "sections": [
+    "s53",
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s60",
+    "s61",
+    "s62",
+    "s63",
+    "s64"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "(Repealed L.N. 195 of 2016)",
+   "status": "repealed",
+   "sections": [
+    "s65",
+    "s66",
+    "s67",
+    "s68",
+    "s69",
+    "s70",
+    "s71"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "(Repealed L.N. 195 of 2016)",
+   "status": "repealed",
+   "sections": [
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s77",
+    "s78",
+    "s79",
+    "s80",
+    "s81",
+    "s82",
+    "s83",
+    "s84",
+    "s85",
+    "s86"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Disclosures to be Made by Authorized Institutions Incorporated outside Hong Kong",
+   "status": "in-effect",
+   "sections": [
+    "s87",
+    "s88",
+    "s89",
+    "s90",
+    "s91",
+    "s92",
+    "s92A",
+    "s93",
+    "s94",
+    "s95",
+    "s96",
+    "s97",
+    "s98",
+    "s99",
+    "s100",
+    "s101",
+    "s102",
+    "s103",
+    "s103A",
+    "s103AB",
+    "s103AC",
+    "s103B",
+    "s103C",
+    "s104",
+    "s105",
+    "s106"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "References to authorized institution in Part 2",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Disclosure policy",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Medium, location and timing of disclosure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Verification",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Proprietary and confidential information",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Materiality",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Consolidated group level disclosures",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Basis of disclosure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Frequency",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Group-wide disclosures made by parent bank of authorized institution",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Compliance",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s16A",
+   "num": "16A",
+   "heading": "References to authorized institution in Part 2A",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16AB",
+   "num": "16AB",
+   "heading": "Key prudential ratios—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16B",
+   "num": "16B",
+   "heading": "Overview of risk management—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16C",
+   "num": "16C",
+   "heading": "Overview of risk-weighted amount—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16D",
+   "num": "16D",
+   "heading": "Differences between accounting and regulatory scopes of consolidation and mapping of financial statement categories with regulatory risk categories—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16E",
+   "num": "16E",
+   "heading": "Main sources of differences between regulatory exposure amounts and carrying values in financial statements—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16F",
+   "num": "16F",
+   "heading": "Explanations of differences between accounting and regulatory exposure amounts—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FA",
+   "num": "16FA",
+   "heading": "Prudent valuation adjustments—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FB",
+   "num": "16FB",
+   "heading": "Composition of regulatory capital—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FC",
+   "num": "16FC",
+   "heading": "Reconciliation of regulatory capital to balance sheet—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FD",
+   "num": "16FD",
+   "heading": "Scope of consolidation—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FE",
+   "num": "16FE",
+   "heading": "Main features of regulatory capital instruments—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FF",
+   "num": "16FF",
+   "heading": "G-SIB indicators—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FG",
+   "num": "16FG",
+   "heading": "Geographical distribution of credit exposures used in countercyclical capital buffer—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FH",
+   "num": "16FH",
+   "heading": "Summary comparison of accounting assets against leverage ratio exposure measure—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FI",
+   "num": "16FI",
+   "heading": "Leverage ratio—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FJ",
+   "num": "16FJ",
+   "heading": "Liquidity risk management—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FK",
+   "num": "16FK",
+   "heading": "Liquidity coverage ratio—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16FL",
+   "num": "16FL",
+   "heading": "Net stable funding ratio—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16G",
+   "num": "16G",
+   "heading": "General information about credit risk—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16H",
+   "num": "16H",
+   "heading": "Credit quality of exposures—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16I",
+   "num": "16I",
+   "heading": "Changes in defaulted loans and debt securities—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16J",
+   "num": "16J",
+   "heading": "Additional disclosures related to credit quality of exposures—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16K",
+   "num": "16K",
+   "heading": "Qualitative disclosures related to credit risk mitigation—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16L",
+   "num": "16L",
+   "heading": "Overview of recognized credit risk mitigation—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16M",
+   "num": "16M",
+   "heading": "Qualitative disclosures on use of ECAI ratings under STC approach—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16N",
+   "num": "16N",
+   "heading": "STC approach or BSC approach: credit risk exposures and effects of recognized credit risk mitigation—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16O",
+   "num": "16O",
+   "heading": "STC approach or BSC approach: credit risk exposures by exposure classes and by risk-weights—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16P",
+   "num": "16P",
+   "heading": "Qualitative disclosures related to internal models for measuring credit risk under IRB approach—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16Q",
+   "num": "16Q",
+   "heading": "IRB approach: credit risk exposures by portfolio and PD ranges—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16R",
+   "num": "16R",
+   "heading": "IRB approach: effects on risk-weighted amount of recognized credit derivative contracts used as recognized credit risk mitigation—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16S",
+   "num": "16S",
+   "heading": "Risk-weighted amount flow statements of credit risk exposures under IRB approach—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16T",
+   "num": "16T",
+   "heading": "IRB approach: back-testing of PD per portfolio—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16U",
+   "num": "16U",
+   "heading": "IRB approach: specialized lending under supervisory slotting criteria approach—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16V",
+   "num": "16V",
+   "heading": "Qualitative disclosures related to counterparty credit risk (including those arising from clearing through CCPs)—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16W",
+   "num": "16W",
+   "heading": "Analysis of counterparty credit risk exposures, other than those to CCPs, by approaches—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16X",
+   "num": "16X",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2A"
+  },
+  {
+   "id": "s16Y",
+   "num": "16Y",
+   "heading": "STC approach or BSC approach: counterparty credit risk exposures, other than those to CCPs, by exposure classes and by risk-weights—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16Z",
+   "num": "16Z",
+   "heading": "IRB approach: counterparty credit risk exposures, other than those to CCPs, by portfolio and PD scale—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZA",
+   "num": "16ZA",
+   "heading": "Composition of collateral for counterparty credit risk exposures (including those for contracts or transactions cleared through CCPs)—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZB",
+   "num": "16ZB",
+   "heading": "Credit-related derivative contracts—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZC",
+   "num": "16ZC",
+   "heading": "Risk-weighted amount flow statements of default risk exposures under IMM(CCR) approach—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZD",
+   "num": "16ZD",
+   "heading": "Exposures to CCPs—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZDA",
+   "num": "16ZDA",
+   "heading": "Interpretation of Division 6",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZE",
+   "num": "16ZE",
+   "heading": "Qualitative disclosures related to securitization exposures— annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZF",
+   "num": "16ZF",
+   "heading": "Securitization exposures in banking book—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZG",
+   "num": "16ZG",
+   "heading": "Securitization exposures in trading book—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZH",
+   "num": "16ZH",
+   "heading": "Securitization exposures in banking book and associated capital requirements, where authorized institution acts as originator—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZI",
+   "num": "16ZI",
+   "heading": "Securitization exposures in banking book and associated capital requirements, where authorized institution acts as investor—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZJ",
+   "num": "16ZJ",
+   "heading": "Qualitative disclosures related to market risk—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZK",
+   "num": "16ZK",
+   "heading": "Additional qualitative disclosures for authorized institution using IMA—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZL",
+   "num": "16ZL",
+   "heading": "Market risk under STM approach—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZM",
+   "num": "16ZM",
+   "heading": "Market risk under IMA—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZN",
+   "num": "16ZN",
+   "heading": "Market risk under SSTM approach—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZO",
+   "num": "16ZO",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZOA",
+   "num": "16ZOA",
+   "heading": "Qualitative disclosures related to CVA risk—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZOB",
+   "num": "16ZOB",
+   "heading": "Additional qualitative disclosures for authorized institution using standardized CVA approach—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZOC",
+   "num": "16ZOC",
+   "heading": "CVA risk under reduced basic CVA approach—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZOD",
+   "num": "16ZOD",
+   "heading": "CVA risk under full basic CVA approach—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZOE",
+   "num": "16ZOE",
+   "heading": "CVA risk under standardized CVA approach—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZOF",
+   "num": "16ZOF",
+   "heading": "Risk-weighted amount flow statements of CVA risk exposures under standardized CVA approach—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZP",
+   "num": "16ZP",
+   "heading": "Interest rate risk in banking book: risk management objectives and policies—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQ",
+   "num": "16ZQ",
+   "heading": "Quantitative information on interest rate risk in banking book—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQA",
+   "num": "16ZQA",
+   "heading": "General information on operational risk framework—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQB",
+   "num": "16ZQB",
+   "heading": "Historical losses—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQC",
+   "num": "16ZQC",
+   "heading": "Business indicator and business indicator components breakdown—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQD",
+   "num": "16ZQD",
+   "heading": "Minimum operational risk capital requirement—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQE",
+   "num": "16ZQE",
+   "heading": "Comparison of modelled and standardized risk-weighted amounts at risk level—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQF",
+   "num": "16ZQF",
+   "heading": "Comparison of modelled and standardized risk-weighted amounts for credit risk at exposure class level—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQG",
+   "num": "16ZQG",
+   "heading": "Asset encumbrance—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQH",
+   "num": "16ZQH",
+   "heading": "Qualitative disclosure on activities related to cryptoassets and approach used in assessing classification conditions—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQI",
+   "num": "16ZQI",
+   "heading": "Cryptoasset exposures and risk-weighted amounts—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQJ",
+   "num": "16ZQJ",
+   "heading": "Accounting classification of cryptoasset exposures—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZQK",
+   "num": "16ZQK",
+   "heading": "Liquidity requirements for cryptoasset exposures—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZR",
+   "num": "16ZR",
+   "heading": "Interpretation of Division 9",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZS",
+   "num": "16ZS",
+   "heading": "Remuneration policy—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZT",
+   "num": "16ZT",
+   "heading": "Remuneration awarded during financial year—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZU",
+   "num": "16ZU",
+   "heading": "Special payments—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s16ZV",
+   "num": "16ZV",
+   "heading": "Deferred remuneration—annual disclosures",
+   "status": "in-effect",
+   "part": "P2A"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "References to authorized institution in Part 3",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Off-balance sheet exposures (other than derivative transactions)",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s24A",
+   "num": "24A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s24B",
+   "num": "24B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "General disclosures",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Sector information",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Overdue or rescheduled assets",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Mainland activities",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Currency risk",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s29A",
+   "num": "29A",
+   "heading": "References to authorized institution in Part 3A",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s29B",
+   "num": "29B",
+   "heading": "Interim financial disclosures",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3A"
+  },
+  {
+   "id": "s30A",
+   "num": "30A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3A"
+  },
+  {
+   "id": "s30B",
+   "num": "30B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3A"
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "References to authorized institution in Part 4",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Annual financial disclosures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Assets used as security",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s45A",
+   "num": "45A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s45B",
+   "num": "45B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s45C",
+   "num": "45C",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "General disclosures",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Sector information",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s51A",
+   "num": "51A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s51B",
+   "num": "51B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s51C",
+   "num": "51C",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s51D",
+   "num": "51D",
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Corporate governance",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s65",
+   "num": "65",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s66",
+   "num": "66",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s67",
+   "num": "67",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s68",
+   "num": "68",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s70",
+   "num": "70",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s71",
+   "num": "71",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s72",
+   "num": "72",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s73",
+   "num": "73",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s74",
+   "num": "74",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s75",
+   "num": "75",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s76",
+   "num": "76",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s77",
+   "num": "77",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s78",
+   "num": "78",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s79",
+   "num": "79",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s80",
+   "num": "80",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s81",
+   "num": "81",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s82",
+   "num": "82",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s83",
+   "num": "83",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s84",
+   "num": "84",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s85",
+   "num": "85",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s86",
+   "num": "86",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s87",
+   "num": "87",
+   "heading": "References to authorized institution, etc. in Part 8",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s88",
+   "num": "88",
+   "heading": "Medium, location and timing of disclosure",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s89",
+   "num": "89",
+   "heading": "Materiality",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s90",
+   "num": "90",
+   "heading": "Comparative information",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s91",
+   "num": "91",
+   "heading": "Frequency",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s92",
+   "num": "92",
+   "heading": "Compliance",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s92A",
+   "num": "92A",
+   "heading": "Interpretation of Division 3",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s93",
+   "num": "93",
+   "heading": "Income statement information",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s94",
+   "num": "94",
+   "heading": "Balance sheet information",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s95",
+   "num": "95",
+   "heading": "Provisions supplementary to sections 93 and 94",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s96",
+   "num": "96",
+   "heading": "Provisions supplementary to section 94: derivative transactions",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s97",
+   "num": "97",
+   "heading": "Off-balance sheet exposures (other than derivative transactions)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s98",
+   "num": "98",
+   "heading": "General disclosures",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s99",
+   "num": "99",
+   "heading": "Sector information",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s100",
+   "num": "100",
+   "heading": "Overdue or rescheduled assets",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s101",
+   "num": "101",
+   "heading": "Mainland activities",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s102",
+   "num": "102",
+   "heading": "Currency risk",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s103",
+   "num": "103",
+   "heading": "Liquidity information disclosures: general",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s103A",
+   "num": "103A",
+   "heading": "Liquidity information disclosures: category 1 institution—quarterly disclosures of LCR",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s103AB",
+   "num": "103AB",
+   "heading": "Liquidity information disclosures: category 1 institution—NSFR",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s103AC",
+   "num": "103AC",
+   "heading": "Liquidity information disclosures: category 1 institution—semi-annual disclosures of cryptoasset exposures",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s103B",
+   "num": "103B",
+   "heading": "Liquidity information disclosures: category 2 institution—quarterly disclosures of LMR",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s103C",
+   "num": "103C",
+   "heading": "Liquidity information disclosures: category 2A institution—quarterly disclosures of CFR",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s104",
+   "num": "104",
+   "heading": "Consolidated group level disclosures: general",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s105",
+   "num": "105",
+   "heading": "Capital and capital adequacy",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s106",
+   "num": "106",
+   "heading": "Other financial information",
+   "status": "in-effect",
+   "part": "P8"
+  }
+ ],
+ "schedules": []
+}

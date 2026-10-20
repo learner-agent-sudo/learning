@@ -1,0 +1,1224 @@
+{
+ "cap": "155S",
+ "title": "Cap. 155 sub. leg. S",
+ "longTitle": "",
+ "versionDate": "2026-01-01",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap155S",
+ "indexOnly": true,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Equity",
+   "status": "in-effect",
+   "sections": [
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Acquisition of Share Capital of Company",
+   "status": "in-effect",
+   "sections": [
+    "s21",
+    "s22",
+    "s23",
+    "s24"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Financial Facility against Security of Own Shares etc.",
+   "status": "in-effect",
+   "sections": [
+    "s25",
+    "s26",
+    "s27",
+    "s28"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "",
+   "status": "repealed",
+   "sections": [
+    "s29",
+    "s30",
+    "s31",
+    "s32"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Interest in Land",
+   "status": "in-effect",
+   "sections": [
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "Single Counterparty and Group of Linked Counterparties",
+   "status": "in-effect",
+   "sections": [
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s48A",
+    "s48B",
+    "s49",
+    "s50",
+    "s51",
+    "s51A",
+    "s52",
+    "s53",
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s60",
+    "s61",
+    "s62",
+    "s63",
+    "s64",
+    "s65",
+    "s66",
+    "s67",
+    "s67A",
+    "s68",
+    "s69",
+    "s70",
+    "s71",
+    "s71A",
+    "s71B",
+    "s71C",
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s77",
+    "s77A",
+    "s77B",
+    "s77C",
+    "s77D",
+    "s77E",
+    "s77F",
+    "s77G",
+    "s77H",
+    "s77I",
+    "s78",
+    "s79",
+    "s80",
+    "s81",
+    "s82",
+    "s83"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Connected Party",
+   "status": "in-effect",
+   "sections": [
+    "s84",
+    "s85",
+    "s86",
+    "s87",
+    "s88",
+    "s89",
+    "s90",
+    "s91",
+    "s92",
+    "s93",
+    "s93A",
+    "s94"
+   ]
+  },
+  {
+   "id": "P9",
+   "num": "Part 9",
+   "heading": "Repeal and Transitional and Savings Provisions",
+   "status": "in-effect",
+   "sections": [
+    "s95",
+    "s96",
+    "s97",
+    "s98",
+    "s99",
+    "s100",
+    "s101",
+    "s102",
+    "s103",
+    "s104",
+    "s105",
+    "s106",
+    "s107",
+    "s108",
+    "s109",
+    "s110",
+    "s111",
+    "s112",
+    "s113",
+    "s114",
+    "s115",
+    "s116",
+    "s117",
+    "s118",
+    "s119",
+    "s120",
+    "s121",
+    "s121A",
+    "s122"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "General provisions",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Conversion into Hong Kong dollar",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Valuation of exposure at fair value",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Monetary Authority may require applying these Rules on unconsolidated or consolidated basis",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Notifiable events",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Interpretation of Part 2",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Interpretation: equity exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Application of Part 2",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Limit on equity exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Monetary Authority may vary limit on equity exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Aggregate equity exposure",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Equity exposure disregarded",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "General—current book value or contracted amount",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Equity exposure arising from shares of company",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Equity exposure arising from equity derivative contract",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Alternative valuation of equity exposure arising from equity derivative contract",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Equity exposure arising from specified SFTs",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Equity exposure arising from CIS",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Interpretation of Part 3",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Application of Part 3",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Limit on acquisition of share capital of company",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Consent for acquisition",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Interpretation of Part 4",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Application of Part 4",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Limit on financial facility against security of own shares etc.",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Consent for financial facility against security of shares etc. issued by associated company of authorized institution",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "",
+   "status": "repealed",
+   "part": "P5"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Interpretation of Part 6",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Application of Part 6",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Limit on holding of interest in land",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Monetary Authority may vary limit on holding of interest in land",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Land exposure and adjusted land exposure",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "Interest in land disregarded",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Interpretation of Part 7",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "Applicable method, approach, provision, etc. in Capital Rules",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Group of linked counterparties (LC group)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "G-SIB-linked group",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Application of Part 7",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Limit on exposure to single counterparty and group of linked counterparties",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Monetary Authority may vary limit prescribed under rule 44",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "Aggregate single counterparty exposure (ASC exposure)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Aggregate linked counterparty group exposure (ALCG exposure)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Exposure disregarded",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s48A",
+   "num": "48A",
+   "heading": "Provisions supplementary to rule 48(1)(l) and (la)",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s48B",
+   "num": "48B",
+   "heading": "Credit risk mitigation—general",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "Designation of Category A institution",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Credit risk mitigation—Category A institution",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "Credit risk mitigation—Category B institution",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s51A",
+   "num": "51A",
+   "heading": "Exposures to CCPs",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Investment with additional risk factor",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "Protection seller and protection buyer of credit derivative contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "Credit protection provider",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "General",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "Offsetting of positions",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "Deduction",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "Application of Division 4",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "Derivative contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "SFT",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "Application of Division 5",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "Application of Subdivision 2",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "General—current book value",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s65",
+   "num": "65",
+   "heading": "Off-balance sheet exposure other than default risk exposure or exposure arising from unsegregated collateral",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s66",
+   "num": "66",
+   "heading": "Application of Subdivision 3",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s67",
+   "num": "67",
+   "heading": "Assets underlying SFTs",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s67A",
+   "num": "67A",
+   "heading": "Outstanding transaction in securities, foreign exchange or commodities",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s68",
+   "num": "68",
+   "heading": "Option contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s70",
+   "num": "70",
+   "heading": "Covered bond",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s71",
+   "num": "71",
+   "heading": "Investment structure",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s71A",
+   "num": "71A",
+   "heading": "Off-balance sheet exposure—unsegregated collateral",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s71B",
+   "num": "71B",
+   "heading": "Application of Subdivision 3A",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s71C",
+   "num": "71C",
+   "heading": "Gross jump-to-default risk amount",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s72",
+   "num": "72",
+   "heading": "Application of Subdivision 4",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s73",
+   "num": "73",
+   "heading": "General—current book value",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s74",
+   "num": "74",
+   "heading": "Shares or debt securities",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s75",
+   "num": "75",
+   "heading": "Futures, forward or swap contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s76",
+   "num": "76",
+   "heading": "Credit derivative contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77",
+   "num": "77",
+   "heading": "Other derivative contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77A",
+   "num": "77A",
+   "heading": "Application of Division 5A",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77B",
+   "num": "77B",
+   "heading": "Valuation of cryptoasset-related exposure associated with risk of counterparty default",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77C",
+   "num": "77C",
+   "heading": "Valuation of certain group 1 cryptoasset-related exposures in banking book",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77D",
+   "num": "77D",
+   "heading": "Valuation of certain group 1 cryptoasset-related exposures and group 2a cryptoasset-related exposures in trading book",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77E",
+   "num": "77E",
+   "heading": "Valuation of certain group 2b cryptoasset-related exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77F",
+   "num": "77F",
+   "heading": "Modifications for rules 77C, 77D and 77E",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77G",
+   "num": "77G",
+   "heading": "Valuation of default risk exposures in respect of derivative contracts or SFTs on cryptoassets",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77H",
+   "num": "77H",
+   "heading": "Valuation of exposures in respect of cryptoasset that references securitization transaction or CIS",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s77I",
+   "num": "77I",
+   "heading": "Application of rules 67 and 67A to cryptoasset-related exposures",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s78",
+   "num": "78",
+   "heading": "Application of Division 6",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s79",
+   "num": "79",
+   "heading": "On-balance sheet netting",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s80",
+   "num": "80",
+   "heading": "Recognized collateral",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s81",
+   "num": "81",
+   "heading": "Recognized guarantee or recognized credit derivative contract",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s82",
+   "num": "82",
+   "heading": "Credit-linked note",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s83",
+   "num": "83",
+   "heading": "",
+   "status": "repealed",
+   "part": "P7"
+  },
+  {
+   "id": "s84",
+   "num": "84",
+   "heading": "Interpretation of Part 8",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s85",
+   "num": "85",
+   "heading": "Meaning of connected party",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s86",
+   "num": "86",
+   "heading": "Application of Part 8",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s87",
+   "num": "87",
+   "heading": "Limit on exposure to connected party",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s88",
+   "num": "88",
+   "heading": "Monetary Authority may vary limit on exposure to connected party",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s89",
+   "num": "89",
+   "heading": "Aggregate single connected party exposure (ASCP exposure)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s90",
+   "num": "90",
+   "heading": "Aggregate connected parties exposure (ACP exposure)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s91",
+   "num": "91",
+   "heading": "Aggregate connected natural persons exposure (ACNP exposure)",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s92",
+   "num": "92",
+   "heading": "Exposure disregarded",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s93",
+   "num": "93",
+   "heading": "CRM covered exposure",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s93A",
+   "num": "93A",
+   "heading": "Calculation of ASCP exposure of connected party",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s94",
+   "num": "94",
+   "heading": "Exposure to 2 or more entities etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s95",
+   "num": "95",
+   "heading": "Banking (Exposure Limits) Rules repealed",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s96",
+   "num": "96",
+   "heading": "Interpretation of Division 2",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s97",
+   "num": "97",
+   "heading": "Application of rule 11 on unconsolidated basis or consolidated basis—deemed rule 6(1) notice",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s98",
+   "num": "98",
+   "heading": "Variation of equity exposure limit—deemed rule 12(1) notice",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s99",
+   "num": "99",
+   "heading": "Longer period—deemed rule 14(1)(b)(i)(B) or (c)(i)(B) approval",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s100",
+   "num": "100",
+   "heading": "Share capital disregarded—deemed rule 14(1)(e) approval",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s101",
+   "num": "101",
+   "heading": "Equity exposure disregarded—deemed rule 14(2) consent",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s102",
+   "num": "102",
+   "heading": "Application of rule 23 on unconsolidated basis or consolidated basis—deemed rule 6(1) notice",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s103",
+   "num": "103",
+   "heading": "Acquiring share capital—deemed rule 24(1) consent",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s104",
+   "num": "104",
+   "heading": "Longer period—deemed rule 23(3)(a)(ii) approval",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s105",
+   "num": "105",
+   "heading": "Financial facility against security of authorized institution’s capital-in-nature instrument etc.—application of rule 27(1) and (2)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s106",
+   "num": "106",
+   "heading": "Financial facility against security of own shares etc. issued by associated company—deemed rule 28(1) consent",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s107",
+   "num": "107",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s108",
+   "num": "108",
+   "heading": "Grace period for complying with rule 35(a)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s109",
+   "num": "109",
+   "heading": "Application of rule 35 on unconsolidated basis or consolidated basis—deemed rule 6(1) notice",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s110",
+   "num": "110",
+   "heading": "Premises for conducting authorized institution’s business—deemed rule 37(3) consent",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s111",
+   "num": "111",
+   "heading": "Longer period—deemed rule 38(b)(i)(B) approval",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s112",
+   "num": "112",
+   "heading": "Grace period for complying with rule 44(1)(a)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s113",
+   "num": "113",
+   "heading": "Grace period for complying with rule 44(1)(b)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s114",
+   "num": "114",
+   "heading": "Application of rule 44 on unconsolidated basis or consolidated basis—deemed rule 6(1) notice",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s115",
+   "num": "115",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s116",
+   "num": "116",
+   "heading": "Letter of comfort—deemed rule 57(1)(d)(i) approval",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s117",
+   "num": "117",
+   "heading": "Grace period for complying with rule 87(a)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s118",
+   "num": "118",
+   "heading": "Grace period for complying with rule 87(b)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s119",
+   "num": "119",
+   "heading": "Grace period for complying with rule 87(c)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s120",
+   "num": "120",
+   "heading": "Application of rule 87 on unconsolidated basis or consolidated basis—deemed rule 6(1) notice",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s121",
+   "num": "121",
+   "heading": "",
+   "status": "repealed",
+   "part": "P9"
+  },
+  {
+   "id": "s121A",
+   "num": "121A",
+   "heading": "Non-local bank—former rule 85(3) approval",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s122",
+   "num": "122",
+   "heading": "Exposure disregarded—deemed rule 92(1) consent",
+   "status": "in-effect",
+   "part": "P9"
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "",
+   "status": "repealed"
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Specified Sovereign-owned Entity",
+   "status": "in-effect"
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Statutory Corporation Excluded from Meaning of Non-listed Company",
+   "status": "in-effect"
+  }
+ ]
+}

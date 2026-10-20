@@ -2,10 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-  # Bot commits from the CUAD refresh don't trigger push workflows,
-  # so redeploy whenever that workflow finishes.
+  # Bot commits from the data refreshes don't trigger push workflows,
+  # so redeploy whenever one of them finishes.
   workflow_run:
-    workflows: [Refresh CUAD clauses]
+    workflows: [Refresh CUAD clauses, Refresh HK legislation]
     types: [completed]
   workflow_dispatch:
 
