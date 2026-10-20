@@ -216,9 +216,8 @@
    "id": "s20",
    "num": "20",
    "heading": "",
-   "status": "in-effect",
-   "part": "P4",
-   "text": ""
+   "status": "omitted",
+   "part": "P4"
   }
  ],
  "schedules": [
@@ -279,8 +278,7 @@
    "id": "sch3",
    "num": "Schedule 3",
    "heading": "",
-   "status": "in-effect",
-   "text": "",
+   "status": "omitted",
    "items": []
   }
  ]

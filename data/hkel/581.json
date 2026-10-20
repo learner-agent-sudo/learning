@@ -594,9 +594,8 @@
    "id": "s55",
    "num": "55",
    "heading": "",
-   "status": "in-effect",
-   "part": "P7",
-   "text": ""
+   "status": "omitted",
+   "part": "P7"
   },
   {
    "id": "s56",
@@ -860,8 +859,7 @@
    "id": "sch5",
    "num": "Schedule 5",
    "heading": "",
-   "status": "in-effect",
-   "text": "",
+   "status": "omitted",
    "items": []
   }
  ]

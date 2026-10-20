@@ -410,33 +410,29 @@
    "id": "s33",
    "num": "33",
    "heading": "",
-   "status": "in-effect",
-   "part": "P5",
-   "text": ""
+   "status": "omitted",
+   "part": "P5"
   },
   {
    "id": "s34",
    "num": "34",
    "heading": "",
-   "status": "in-effect",
-   "part": "P5",
-   "text": ""
+   "status": "omitted",
+   "part": "P5"
   },
   {
    "id": "s35",
    "num": "35",
    "heading": "",
-   "status": "in-effect",
-   "part": "P5",
-   "text": ""
+   "status": "omitted",
+   "part": "P5"
   },
   {
    "id": "s36",
    "num": "36",
    "heading": "",
-   "status": "in-effect",
-   "part": "P5",
-   "text": ""
+   "status": "omitted",
+   "part": "P5"
   }
  ],
  "schedules": [

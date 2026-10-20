@@ -1772,9 +1772,8 @@
    "id": "s176",
    "num": "176",
    "heading": "",
-   "status": "in-effect",
-   "part": "P11",
-   "text": ""
+   "status": "omitted",
+   "part": "P11"
   }
  ],
  "schedules": [
@@ -2446,8 +2445,7 @@
    "id": "sch8",
    "num": "Schedule 8",
    "heading": "",
-   "status": "in-effect",
-   "text": "",
+   "status": "omitted",
    "items": []
   }
  ]

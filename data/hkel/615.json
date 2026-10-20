@@ -371,7 +371,7 @@
    "id": "P8",
    "num": "Part 8",
    "heading": "(Omitted as spent—E.R. 4 of 2023)",
-   "status": "in-effect",
+   "status": "omitted",
    "sections": [
     "s83",
     "s84",
@@ -2760,73 +2760,64 @@
    "id": "s83",
    "num": "83",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s84",
    "num": "84",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s85",
    "num": "85",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s86",
    "num": "86",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s87",
    "num": "87",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s88",
    "num": "88",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s89",
    "num": "89",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s90",
    "num": "90",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   },
   {
    "id": "s91",
    "num": "91",
    "heading": "",
-   "status": "in-effect",
-   "part": "P8",
-   "text": ""
+   "status": "omitted",
+   "part": "P8"
   }
  ],
  "schedules": [
