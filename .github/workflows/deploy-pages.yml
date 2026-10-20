@@ -38,6 +38,9 @@ jobs:
 
       - run: npm ci
 
+      # Re-attach current statute text; fails if a citation no longer resolves.
+      - run: python3 scripts/build_banking_extracts.py
+
       - run: npm run build
         env:
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
