@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>DataGuard — NovaCorp GDPR Training</title>
+<style>
+/* ─── RESET ─────────────────────────────────────────────── */
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{width:100%;height:100%;overflow:hidden;background:#1a2332;
+  font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;color:#1e2d3d;
+  font-feature-settings:'ss01','cv11';letter-spacing:-.005em;}
+
+/* ─── SCREEN SYSTEM ──────────────────────────────────────── */
+.scr{position:absolute;inset:0;display:none;flex-direction:column;overflow:hidden}
+.scr.on{display:flex}
+
+/* ─── Accessibility ──────────────────────────────────────── */
+:focus-visible{outline:2.5px solid #5a8fd6;outline-offset:2px;border-radius:4px}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .tap-hint,#ep{animation:none!important;opacity:.7}
+}
+.skip-link{position:absolute;left:-9999px;top:0;background:#1e4d8c;color:#fff;padding:.5rem 1rem;z-index:999;border-radius:0 0 6px 0}
+.skip-link:focus{left:0}
+
+/* ─── Dashboard ──────────────────────────────────────────── */
+#s-map{background:#f4f6f9;overflow-y:auto;padding:0}
+#dash-hdr{flex-shrink:0;background:#1a2332;color:#fff;padding:.85rem clamp(1rem,3vw,2rem);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #2a3a4d}
+.dh-brand{font-family:Georgia,serif;font-weight:600;font-size:clamp(.95rem,2.2vw,1.1rem);display:flex;align-items:center;gap:.6rem;letter-spacing:.2px}
+.dh-mark{display:inline-flex;width:28px;height:28px;border-radius:50%;background:#3a6db8;color:#fff;align-items:center;justify-content:center;font-size:.95rem;font-weight:700;border:1.5px solid #5a8fd6}
+.dh-user{font-size:clamp(.72rem,1.7vw,.82rem);color:#a8b8c8;font-weight:500}
+#dash-kpis{flex-shrink:0;background:#fff;border-bottom:1px solid #e0e6ee;padding:.9rem clamp(1rem,3vw,2rem);display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.65rem}
+.kpi{background:#f7f9fc;border:1px solid #e0e6ee;border-radius:8px;padding:.65rem .85rem}
+.kpi-lbl{font-size:.62rem;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#6a7a90;margin-bottom:.2rem}
+.kpi-val{font-family:Georgia,serif;font-size:clamp(1rem,2.4vw,1.2rem);font-weight:700;color:#1e2d3d}
+.kpi-btn{cursor:pointer;text-align:left;font-family:inherit;transition:all .15s;border-color:#c8d8ec}
+.kpi-btn:hover{background:#eef4fc;border-color:#1e4d8c}
+.kpi-btn .kpi-val{color:#1e4d8c}
+#dash-intro{padding:clamp(1.1rem,3vw,1.6rem) clamp(1rem,3vw,2rem) .6rem}
+.dash-h1{font-family:Georgia,serif;font-size:clamp(1.15rem,2.8vw,1.5rem);font-weight:700;color:#1e2d3d;margin-bottom:.3rem;letter-spacing:-.3px}
+.dash-sub{font-size:clamp(.78rem,1.85vw,.88rem);color:#5a6a7e;line-height:1.55;max-width:680px}
+#dash-grid{padding:.4rem clamp(1rem,3vw,2rem) 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:.85rem}
+.case-card{background:#fff;border:1px solid #e0e6ee;border-left:4px solid #c0d0e0;border-radius:10px;padding:1rem 1.1rem;cursor:pointer;text-align:left;font-family:inherit;transition:all .18s;box-shadow:0 1px 3px rgba(30,45,61,.04);display:flex;flex-direction:column;gap:.5rem;min-height:155px}
+.case-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(30,45,61,.1);border-color:#1e4d8c}
+.case-card.cc-hr{border-left-color:#c25040}
+.case-card.cc-it{border-left-color:#3878c0}
+.case-card.cc-mkt{border-left-color:#a88018}
+.case-card.cc-legal{border-left-color:#7050c0}
+.case-card.cc-prod{border-left-color:#208050}
+.case-card.done{opacity:.7;border-left-color:#6a7a8a}
+.case-card.done .cc-status{background:#e8f3ec;color:#1a5a30;border-color:#a8d4ba}
+.cc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:.5rem}
+.cc-dept{font-size:.6rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#7a8a9e}
+.cc-status{font-size:.6rem;font-weight:700;padding:.2rem .55rem;border-radius:10px;border:1px solid #e8c0a8;background:#fdf2e8;color:#a04a00;letter-spacing:.3px}
+.cc-title{font-family:Georgia,serif;font-size:1rem;font-weight:700;color:#1e2d3d;line-height:1.3}
+.cc-from{font-size:.75rem;color:#5a6a7e;line-height:1.5}
+.cc-from b{color:#1e2d3d;font-weight:600}
+.cc-foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:.55rem;border-top:1px solid #f0f4f8}
+.cc-meta{font-size:.7rem;color:#7a8a9e}
+.cc-arr{font-size:.85rem;color:#1e4d8c;font-weight:700}
+#dash-ceo-wrap{padding:0 clamp(1rem,3vw,2rem) 1.4rem}
+.ceo-btn{width:100%;display:flex;align-items:center;gap:1rem;padding:1rem 1.2rem;background:linear-gradient(135deg,#1a2332 0%,#243447 100%);border:1px solid #3a4a5d;border-radius:10px;color:#fff;cursor:pointer;font-family:inherit;text-align:left;transition:all .2s}
+.ceo-btn:disabled{opacity:.55;cursor:not-allowed}
+.ceo-btn:not(:disabled):hover{border-color:#5a8fd6;transform:translateY(-1px)}
+.ceo-ico{font-size:1.6rem;color:#d4b870}
+.ceo-t{font-family:Georgia,serif;font-size:1rem;font-weight:700}
+.ceo-s{font-size:.72rem;color:#a8b8c8;margin-top:.15rem}
+.ceo-arr{margin-left:auto;font-size:1.2rem;color:#5a8fd6}
+
+/* ═══ TITLE ════════════════════════════════════════════════ */
+#s-title{
+  background:radial-gradient(ellipse at top,#243447 0%,#1a2332 70%);
+  align-items:center;justify-content:center;text-align:center;padding:2rem 1.5rem;color:#e8eef5;
+}
+#s-title .ttl-title{color:#ffffff}
+#s-title .ttl-sub{color:#7a92ad}
+#s-title .ttl-tag{color:#a8b8c8}
+#s-title .ttl-chip{color:#a8b8c8;border-color:rgba(168,184,200,.25);background:rgba(255,255,255,.04)}
+.ttl-badge{
+  display:inline-block;background:#1e4d8c;color:#fff;
+  font-size:clamp(.6rem,1.5vw,.72rem);letter-spacing:2px;text-transform:uppercase;
+  padding:.28rem .85rem;border-radius:20px;margin-bottom:1rem;font-weight:600;
+}
+.ttl-title{
+  font-family:Georgia,serif;font-size:clamp(2rem,6vw,3.2rem);
+  font-weight:700;color:#1e2d3d;letter-spacing:-.5px;margin-bottom:.3rem;
+}
+.ttl-sub{
+  font-size:clamp(.72rem,1.8vw,.85rem);color:#4a6a8a;
+  letter-spacing:2px;text-transform:uppercase;margin-bottom:.6rem;
+}
+.ttl-tag{
+  font-family:Georgia,serif;font-size:clamp(.9rem,2.2vw,1.05rem);
+  color:#4a6a8a;font-style:italic;margin-bottom:2.5rem;max-width:400px;
+}
+.ttl-btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:clamp(.75rem,2vw,.9rem) clamp(1.5rem,4vw,2.2rem);
+  background:#1e4d8c;border:none;border-radius:8px;
+  font-family:Georgia,serif;font-size:clamp(.85rem,2vw,1rem);
+  font-weight:700;color:#fff;cursor:pointer;letter-spacing:.3px;
+  box-shadow:0 4px 0 #0e2d5c,0 6px 20px rgba(30,77,140,.25);
+  transition:all .15s;
+}
+.ttl-btn:active{transform:translateY(2px);box-shadow:0 2px 0 #0e2d5c}
+.ttl-chips{display:flex;gap:.4rem;justify-content:center;flex-wrap:wrap;margin-top:1.25rem}
+.ttl-chip{
+  font-size:clamp(.62rem,1.5vw,.72rem);color:#5a7a9a;
+  border:1px solid rgba(90,122,154,.25);padding:.22rem .65rem;
+  border-radius:20px;background:rgba(255,255,255,.7);
+}
+
+/* ═══ NAME ══════════════════════════════════════════════════ */
+#s-name{background:#eef2f6;align-items:center;justify-content:center;padding:1.5rem}
+.nm-card{
+  background:#fff;border:1px solid #d0dcea;border-radius:12px;
+  padding:clamp(1.5rem,4vw,2rem);width:100%;max-width:380px;
+  box-shadow:0 4px 24px rgba(30,45,61,.08);
+}
+.nm-title{
+  font-family:Georgia,serif;font-size:clamp(1rem,2.5vw,1.2rem);
+  color:#1e2d3d;margin-bottom:1.25rem;text-align:center;font-weight:700;
+}
+.flbl{
+  font-size:clamp(.6rem,1.5vw,.68rem);font-weight:700;
+  letter-spacing:1.5px;text-transform:uppercase;color:#6080a0;
+  display:block;margin-bottom:.3rem;
+}
+.finp{
+  width:100%;background:#f5f8fc;border:1.5px solid #c8d8e8;
+  border-radius:6px;padding:.7rem .9rem;
+  font-size:clamp(.85rem,2.2vw,1rem);color:#1e2d3d;
+  font-family:inherit;outline:none;margin-bottom:1rem;transition:border-color .15s;
+}
+.finp:focus{border-color:#1e4d8c}
+.grow{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:1.5rem}
+.gbtn{
+  padding:.65rem;background:#f5f8fc;border:1.5px solid #c8d8e8;
+  border-radius:6px;cursor:pointer;text-align:center;font-family:inherit;transition:all .15s;
+}
+.gbtn .gi{font-size:clamp(1.4rem,3.5vw,1.8rem);display:block;margin-bottom:.2rem}
+.gbtn .gn{font-size:clamp(.65rem,1.6vw,.75rem);color:#6080a0;text-transform:uppercase;letter-spacing:.8px}
+.gbtn.sel{border-color:#1e4d8c;background:#e8f0fc}
+.gbtn.sel .gn{color:#1e4d8c;font-weight:700}
+.gobtn{
+  width:100%;padding:.8rem;background:#1e4d8c;border:none;border-radius:6px;
+  font-family:Georgia,serif;font-size:clamp(.85rem,2vw,.95rem);
+  font-weight:700;color:#fff;cursor:pointer;
+  box-shadow:0 3px 0 #0e2d5c;transition:all .15s;letter-spacing:.3px;
+}
+.gobtn:active{transform:translateY(1px);box-shadow:0 1px 0 #0e2d5c}
+
+/* ═══ MAP SCREEN ════════════════════════════════════════════ */
+#s-map{background:#e8eef4}
+#map-hud{
+  flex-shrink:0;background:#fff;
+  border-bottom:1px solid #d0dcea;
+  padding:clamp(.4rem,1.2vw,.55rem) clamp(.6rem,2vw,.9rem);
+  display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;
+  box-shadow:0 2px 8px rgba(30,45,61,.06);
+}
+.hbrand{
+  font-family:Georgia,serif;font-size:clamp(.72rem,1.8vw,.85rem);
+  font-weight:700;color:#1e2d3d;margin-right:auto;
+}
+.hbrand span{color:#1e4d8c}
+.hpill{
+  font-size:clamp(.56rem,1.4vw,.65rem);font-weight:700;
+  padding:.2rem .55rem;border-radius:20px;letter-spacing:.3px;
+}
+.hp-r{background:#e0eef8;color:#1a5a90;border:1px solid #a8ccf0}
+.hp-s{background:#e0f0e8;color:#1a5a30;border:1px solid #90c8a8}
+.hp-x{background:#fff4e0;color:#7a4a00;border:1px solid #e0c080}
+#map-canvas{flex:1;width:100%;display:block;min-height:0}
+
+/* Minimap */
+#minimap{
+  position:absolute;z-index:20;
+  background:rgba(255,255,255,.94);
+  border:1.5px solid #c8d8e8;border-radius:6px;padding:3px;
+  box-shadow:0 2px 8px rgba(30,45,61,.1);
+}
+#mm{display:block;border-radius:3px}
+#mm-lbl{font-size:.48rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:#8090a8;text-align:center;padding:2px 0}
+
+/* Tooltip */
+#map-tip{
+  position:absolute;z-index:30;pointer-events:none;
+  background:#fff;border:1.5px solid #c8d8e8;border-radius:8px;
+  padding:.55rem .8rem;box-shadow:0 4px 16px rgba(30,45,61,.12);
+  opacity:0;transition:opacity .18s;max-width:200px;
+}
+#map-tip.show{opacity:1}
+#mt-n{font-family:Georgia,serif;font-size:.82rem;font-weight:700;color:#1e2d3d;margin-bottom:.12rem}
+#mt-d{font-size:.7rem;color:#5a6a7a;line-height:1.45}
+#mt-s{font-size:.67rem;margin-top:.2rem;font-weight:600}
+.mts-c{color:#b02020}
+.mts-l{color:#7040a0}
+.mts-ok{color:#1a6030}
+
+/* Enter prompt */
+#ep{
+  position:absolute;z-index:25;pointer-events:none;
+  background:#fff;border:2px solid #1e4d8c;border-radius:20px;
+  padding:.22rem .75rem;font-size:clamp(.6rem,1.5vw,.7rem);
+  font-weight:700;color:#1e4d8c;letter-spacing:.5px;text-transform:uppercase;
+  opacity:0;transition:opacity .18s;box-shadow:0 2px 8px rgba(30,77,140,.15);
+}
+#ep.show{opacity:1}
+
+/* D-pad */
+#dpad{
+  position:absolute;z-index:20;
+  display:grid;grid-template-columns:repeat(3,44px);
+  grid-template-rows:repeat(3,44px);gap:3px;
+}
+.dp{
+  background:rgba(255,255,255,.92);border:1.5px solid #c8d8e8;
+  border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:1rem;cursor:pointer;color:#4a6090;font-weight:700;
+  box-shadow:0 2px 5px rgba(30,45,61,.08);user-select:none;
+}
+.dp:active,.dp.pressed{background:rgba(30,77,140,.12);border-color:#1e4d8c}
+.dp-c{background:rgba(30,77,140,.06);border-color:rgba(30,77,140,.3);color:#1e4d8c}
+
+/* Legend */
+#map-legend{
+  position:absolute;z-index:20;
+  background:rgba(255,255,255,.94);border:1px solid #d0dcea;
+  border-radius:7px;padding:.45rem .6rem;
+  box-shadow:0 2px 8px rgba(30,45,61,.08);
+}
+.leg-t{font-size:.55rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#7080a0;margin-bottom:.28rem}
+.leg-r{display:flex;align-items:center;gap:.35rem;margin-bottom:.15rem}
+.leg-d{width:9px;height:9px;border-radius:2px;flex-shrink:0;border:1px solid rgba(0,0,0,.1)}
+.leg-n{font-size:clamp(.56rem,1.4vw,.62rem);color:#4a5a78;font-weight:500}
+
+#ctrl-hint{position:absolute;z-index:20;font-size:clamp(.5rem,1.2vw,.58rem);color:#8090a8;text-align:right;pointer-events:none;line-height:1.7}
+
+/* ═══ ROOM INTRO ════════════════════════════════════════════ */
+#s-room{background:#f5f8fc}
+.rtop{
+  flex-shrink:0;background:#fff;border-bottom:1px solid #d0dcea;
+  padding:clamp(.5rem,1.5vw,.65rem) clamp(.75rem,2vw,.9rem);
+  display:flex;align-items:center;gap:.6rem;
+  box-shadow:0 2px 8px rgba(30,45,61,.06);
+}
+.rtop-icon{font-size:clamp(1.2rem,3vw,1.5rem)}
+.rtop-name{
+  font-family:Georgia,serif;font-size:clamp(.82rem,2vw,.95rem);
+  font-weight:700;color:#1e2d3d;flex:1;
+}
+.rtop-btn{
+  background:#f0f4f8;border:1px solid #c0d0e0;border-radius:6px;
+  padding:.3rem .75rem;font-size:clamp(.62rem,1.5vw,.72rem);
+  font-weight:700;color:#4a6090;cursor:pointer;font-family:inherit;
+}
+.room-scene-wrap{
+  flex:1;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:clamp(.75rem,2.5vw,1.25rem);
+  background:linear-gradient(180deg,#eef4fc 0%,#e4eef8 100%);
+}
+.npc-row{display:flex;align-items:flex-end;gap:.65rem;margin-bottom:.6rem}
+.npc-av{
+  width:clamp(46px,8.5vw,58px);height:clamp(46px,8.5vw,58px);
+  border-radius:50%;border:1.5px solid #1e4d8c;
+  display:flex;align-items:center;justify-content:center;
+  font-family:Georgia,serif;font-size:clamp(1.1rem,2.8vw,1.4rem);font-weight:700;
+  background:#f0f6ff;color:#1e4d8c;flex-shrink:0;
+  box-shadow:0 2px 8px rgba(30,77,140,.15);letter-spacing:.5px;
+}
+.npc-name{
+  font-family:Georgia,serif;font-size:clamp(.62rem,1.5vw,.7rem);
+  color:#4a6090;margin-bottom:.15rem;font-weight:600;
+}
+.npc-bubble{
+  background:#fff;border:1.5px solid #c8d8e8;
+  border-radius:12px 12px 12px 2px;
+  padding:clamp(.6rem,1.8vw,.85rem) clamp(.75rem,2vw,1rem);
+  font-size:clamp(.8rem,2vw,.9rem);color:#1e2d3d;line-height:1.6;
+  box-shadow:0 3px 12px rgba(30,45,61,.07);
+  max-width:500px;
+}
+.tap-hint{
+  font-size:clamp(.6rem,1.5vw,.68rem);color:#8090a8;
+  text-align:center;margin-top:.5rem;
+  animation:blink .9s infinite;
+}
+@keyframes blink{0%,100%{opacity:.7}50%{opacity:.25}}
+
+/* ═══ CRISIS ════════════════════════════════════════════════ */
+#s-crisis{background:#f5f8fc}
+.crisis-top{
+  flex-shrink:0;background:#fff;border-bottom:1px solid #d0dcea;
+  padding:clamp(.5rem,1.5vw,.65rem) clamp(.75rem,2vw,.9rem);
+  display:flex;align-items:center;gap:.6rem;
+  box-shadow:0 2px 8px rgba(30,45,61,.06);
+}
+.ct-left{display:flex;align-items:center;gap:.5rem;flex:1}
+.ct-icon{font-size:clamp(1.1rem,2.8vw,1.4rem)}
+.ct-name{
+  font-family:Georgia,serif;font-size:clamp(.78rem,1.9vw,.9rem);
+  font-weight:700;color:#1e2d3d;
+}
+.ct-sev{
+  font-size:clamp(.56rem,1.4vw,.64rem);font-weight:700;
+  padding:.18rem .55rem;border-radius:10px;letter-spacing:.5px;
+}
+.sv-hard{background:#fdeaea;color:#b02020;border:1px solid #e8a0a0}
+.sv-med{background:#fff4e0;color:#884a00;border:1px solid #e0c060}
+.sv-easy{background:#e0f0e8;color:#1a5a30;border:1px solid #90c8a0}
+.ct-skip{
+  background:#f0f4f8;border:1px solid #c0d0e0;border-radius:6px;
+  padding:.3rem .75rem;font-size:clamp(.6rem,1.5vw,.7rem);
+  font-weight:600;color:#6070a0;cursor:pointer;font-family:inherit;
+  white-space:nowrap;
+}
+.ct-skip:hover{background:#e8eef8;color:#1e4d8c}
+
+.crisis-body{flex:1;overflow-y:auto;padding:clamp(.65rem,2vw,.9rem)}
+.crisis-body::-webkit-scrollbar{width:4px}
+.crisis-body::-webkit-scrollbar-thumb{background:#c8d8e8;border-radius:2px}
+
+.case-banner{
+  background:#f0f6ff;border-left:3px solid #1e4d8c;border-radius:0 6px 6px 0;
+  padding:.5rem .85rem;margin-bottom:.75rem;
+  font-size:clamp(.65rem,1.6vw,.74rem);color:#1e4d8c;line-height:1.5;font-style:italic;
+}
+.case-banner strong{font-style:normal;color:#1e2d3d}
+
+.crisis-ctx{
+  font-size:clamp(.78rem,1.9vw,.88rem);color:#2a3a4a;
+  line-height:1.65;margin-bottom:.85rem;
+  background:#fff;border:1px solid #e0eaf2;border-radius:8px;
+  padding:clamp(.6rem,1.8vw,.85rem);
+}
+.crisis-q{
+  font-family:Georgia,serif;
+  font-size:clamp(.88rem,2.2vw,1rem);
+  font-weight:700;color:#1e2d3d;margin-bottom:.85rem;line-height:1.35;
+}
+.choices{display:flex;flex-direction:column;gap:.45rem;margin-bottom:.85rem}
+.cbtn{
+  display:flex;align-items:flex-start;gap:.65rem;
+  padding:clamp(.62rem,1.8vw,.8rem) clamp(.65rem,1.8vw,.85rem);
+  background:#fff;border:1.5px solid #d0dcea;border-radius:8px;
+  cursor:pointer;text-align:left;width:100%;font-family:inherit;
+  transition:all .15s;
+}
+.cbtn:hover:not(:disabled){border-color:#1e4d8c;background:#f0f6ff;transform:translateX(3px)}
+.cltr{
+  font-family:Georgia,serif;width:clamp(20px,4vw,24px);height:clamp(20px,4vw,24px);
+  border-radius:4px;background:#f0f4f8;border:1px solid #c8d8e8;
+  display:flex;align-items:center;justify-content:center;
+  font-size:clamp(.68rem,1.7vw,.76rem);font-weight:700;color:#4a70a0;
+  flex-shrink:0;margin-top:1px;
+}
+.ctxt{font-size:clamp(.76rem,1.9vw,.86rem);color:#1e2d3d;line-height:1.5;flex:1}
+.cbtn.correct{border-color:#1a7040;background:#e8f8f0}
+.cbtn.correct .cltr{background:#d0f0e0;border-color:#1a7040;color:#1a7040}
+.cbtn.wrong{border-color:#b02020;background:#fdf0f0;opacity:.7}
+.cbtn.wrong .cltr{background:#fce0e0;border-color:#b02020;color:#b02020}
+.cbtn:disabled{cursor:default}
+
+/* Outcome */
+.outcome{display:none;margin-bottom:.75rem;border-radius:8px;overflow:hidden;border:1.5px solid}
+.outcome.show{display:block;animation:popIn .3s cubic-bezier(.34,1.56,.64,1)}
+@keyframes popIn{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+.outcome.good{border-color:#1a7040;box-shadow:0 2px 10px rgba(26,112,64,.1)}
+.outcome.bad {border-color:#b02020;box-shadow:0 2px 10px rgba(176,32,32,.08)}
+.oc-head{padding:.7rem .9rem;display:flex;align-items:center;gap:.65rem}
+.outcome.good .oc-head{background:#e8f8f0}
+.outcome.bad  .oc-head{background:#fdf0f0}
+.oc-ico{font-size:clamp(1.4rem,3.5vw,1.8rem)}
+.oc-title{font-family:Georgia,serif;font-size:clamp(.85rem,2.1vw,.95rem);font-weight:700}
+.outcome.good .oc-title{color:#1a5030}
+.outcome.bad  .oc-title{color:#901010}
+.oc-msg{
+  padding:.6rem .9rem;font-size:clamp(.74rem,1.85vw,.84rem);
+  color:#2a3a4a;line-height:1.6;background:rgba(255,255,255,.7);
+}
+.con-chain{padding:.4rem .9rem .65rem;background:rgba(0,0,0,.025)}
+.con-row{display:flex;gap:.5rem;align-items:flex-start;padding:.25rem 0;border-bottom:1px solid rgba(0,0,0,.05);font-size:clamp(.68rem,1.7vw,.76rem);color:#7a4040;line-height:1.45}
+.con-row:last-child{border-bottom:none}
+.con-arr{color:#b02020;flex-shrink:0;margin-top:1px;font-size:.82rem}
+.xp-row{
+  display:flex;align-items:center;justify-content:center;
+  gap:.4rem;background:#f5f8fc;border:1px solid #d0dcea;
+  border-radius:20px;padding:.28rem .85rem;
+  font-family:Georgia,serif;font-size:clamp(.7rem,1.8vw,.78rem);
+  font-weight:700;color:#6a5000;margin:.5rem auto .35rem;width:fit-content;
+}
+.ref-btn{
+  width:100%;text-align:left;padding:.5rem .9rem;
+  background:#f5f8fc;border:1px solid #d0dcea;border-radius:6px;
+  font-family:inherit;font-size:clamp(.65rem,1.6vw,.74rem);color:#1e4d8c;
+  cursor:pointer;margin-top:.35rem;display:flex;align-items:center;gap:.3rem;
+}
+.ref-detail{display:none;padding:.55rem .9rem;background:#f0f6ff;border-radius:6px;font-size:clamp(.65rem,1.6vw,.74rem);color:#2a3a4a;line-height:1.6;margin-top:.35rem;border-left:2px solid #1e4d8c}
+.ref-detail.open{display:block}
+
+.crisis-cont{
+  flex-shrink:0;padding:clamp(.5rem,1.5vw,.75rem) clamp(.75rem,2vw,.9rem);
+  background:#fff;border-top:1px solid #d0dcea;
+}
+.cont-btn{
+  width:100%;padding:.75rem;background:#1e4d8c;border:none;border-radius:7px;
+  font-family:Georgia,serif;font-size:clamp(.82rem,2vw,.9rem);
+  font-weight:700;color:#fff;cursor:pointer;letter-spacing:.3px;
+  box-shadow:0 3px 0 #0e2d5c;transition:all .15s;display:none;
+}
+.cont-btn.show{display:block}
+.cont-btn:active{transform:translateY(1px);box-shadow:0 1px 0 #0e2d5c}
+
+/* ═══ VAULT ════════════════════════════════════════════════ */
+#s-vault{background:#f5f8fc}
+.vault-top{
+  flex-shrink:0;background:#fff;border-bottom:1px solid #d0dcea;
+  padding:clamp(.5rem,1.5vw,.65rem) clamp(.75rem,2vw,.9rem);
+  display:flex;align-items:center;gap:.65rem;
+  box-shadow:0 2px 8px rgba(30,45,61,.06);
+}
+.vault-title{font-family:Georgia,serif;font-size:clamp(.88rem,2.2vw,1rem);font-weight:700;color:#1e2d3d;flex:1}
+.vault-sub{font-size:clamp(.62rem,1.5vw,.7rem);color:#7a8a9a;margin-top:.1rem}
+.vault-body{flex:1;overflow-y:auto;padding:clamp(.6rem,1.8vw,.8rem)}
+.vault-body::-webkit-scrollbar{width:4px}
+.vault-body::-webkit-scrollbar-thumb{background:#c8d8e8;border-radius:2px}
+.vcard{
+  background:#fff;border:1px solid #d0dcea;border-radius:10px;
+  padding:clamp(.7rem,2vw,.9rem);margin-bottom:.6rem;display:flex;gap:.7rem;
+}
+.vcard.locked{opacity:.38;filter:grayscale(.7)}
+.vcard-ico{
+  width:clamp(36px,7vw,44px);height:clamp(36px,7vw,44px);
+  border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:clamp(1.1rem,2.8vw,1.4rem);flex-shrink:0;
+  background:#f0f6ff;border:1px solid #c8d8e8;
+}
+.vcard-name{font-weight:700;color:#1e2d3d;font-size:clamp(.8rem,2vw,.9rem);margin-bottom:.22rem}
+.vcard-plain{font-size:clamp(.72rem,1.8vw,.8rem);color:#4a5a7a;line-height:1.6}
+.vtoggle{
+  font-size:clamp(.62rem,1.5vw,.7rem);color:#1e4d8c;font-weight:600;
+  background:none;border:none;cursor:pointer;margin-top:.3rem;
+  padding:.18rem 0;display:flex;align-items:center;gap:.28rem;font-family:inherit;
+}
+.vdetail{display:none;font-size:clamp(.65rem,1.6vw,.73rem);color:#4a5a7a;line-height:1.6;margin-top:.35rem;padding:.45rem .65rem;background:#f5f8fc;border-radius:6px;border-left:2px solid #c8d8e8}
+.vdetail.open{display:block}
+
+/* ═══ FINALE ════════════════════════════════════════════════ */
+#s-finale{
+  background:linear-gradient(160deg,#f0f6ff 0%,#e8f0fa 60%,#eef6f0 100%);
+  align-items:center;justify-content:center;padding:1.25rem;overflow-y:auto;
+}
+.fin-card{
+  background:#fff;border:1px solid #d0dcea;border-radius:16px;
+  padding:clamp(1.5rem,4vw,2rem);width:100%;max-width:440px;
+  box-shadow:0 8px 40px rgba(30,45,61,.1);
+}
+.fin-ceo{font-size:clamp(2.5rem,6vw,3.2rem);text-align:center;margin-bottom:.4rem;animation:popIn .8s cubic-bezier(.34,1.56,.64,1)}
+.fin-title{font-family:Georgia,serif;font-size:clamp(1.1rem,2.8vw,1.35rem);font-weight:700;color:#1e2d3d;text-align:center;margin-bottom:.25rem;line-height:1.3}
+.fin-sub{font-size:clamp(.76rem,1.9vw,.86rem);color:#6a7a8a;text-align:center;margin-bottom:1.25rem;font-style:italic;line-height:1.5}
+.rep-wrap{background:#f5f8fc;border:1px solid #d0dcea;border-radius:8px;padding:.8rem;margin-bottom:1rem}
+.rep-lbl{font-size:clamp(.56rem,1.4vw,.63rem);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#7080a0;margin-bottom:.35rem;text-align:center}
+.rep-track{height:14px;background:#e8ecf0;border-radius:5px;overflow:hidden;border:1px solid #d0dcea}
+.rep-fill{height:100%;border-radius:5px;transition:width 1.2s ease}
+.rep-val{font-family:Georgia,serif;font-size:clamp(1.1rem,2.8vw,1.3rem);font-weight:700;color:#1e2d3d;text-align:center;margin-top:.3rem}
+.vdict{border-radius:8px;padding:.9rem;margin-bottom:.9rem;border:1.5px solid}
+.vdict.win{background:#e8f8f0;border-color:#1a7040}
+.vdict.lose{background:#fdf0f0;border-color:#b02020}
+.vd-ico{font-size:clamp(1.4rem,3.5vw,1.8rem);text-align:center;margin-bottom:.28rem}
+.vd-head{font-family:Georgia,serif;font-size:clamp(.88rem,2.2vw,1rem);font-weight:700;text-align:center;margin-bottom:.35rem}
+.vdict.win .vd-head{color:#1a5030}
+.vdict.lose .vd-head{color:#901010}
+.vd-body{font-size:clamp(.72rem,1.8vw,.82rem);color:#3a4a5a;line-height:1.6;text-align:center}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:.45rem;margin-bottom:1rem}
+.sb{background:#f5f8fc;border:1px solid #d0dcea;border-radius:7px;padding:.65rem .4rem;text-align:center}
+.sv{font-family:Georgia,serif;font-size:clamp(1.1rem,2.8vw,1.4rem);font-weight:700;color:#1e2d3d}
+.sl{font-size:clamp(.52rem,1.3vw,.6rem);text-transform:uppercase;letter-spacing:.8px;color:#8090a8;margin-top:.1rem}
+.fbtn{
+  width:100%;padding:.78rem;margin-bottom:.5rem;border-radius:6px;
+  font-family:Georgia,serif;font-size:clamp(.78rem,1.9vw,.88rem);
+  font-weight:700;cursor:pointer;letter-spacing:.3px;border:1.5px solid;transition:all .15s;
+}
+.fb-p{background:#1e4d8c;border-color:#1e4d8c;color:#fff;box-shadow:0 3px 0 #0e2d5c}
+.fb-p:active{transform:translateY(1px);box-shadow:0 1px 0 #0e2d5c}
+.fb-o{background:transparent;border-color:#c0d0e0;color:#6a7a8a}
+.fb-o:hover{border-color:#1e4d8c;color:#1e4d8c}
+.share-note{text-align:center;font-size:clamp(.6rem,1.5vw,.66rem);color:#9aabb8;margin-top:.75rem;line-height:1.5}
+
+/* ─── Toast ──────────────────────────────────────────────── */
+#toast{
+  position:fixed;bottom:76px;left:50%;transform:translateX(-50%);z-index:90;
+  background:#fff;border:1.5px solid #c8d8e8;border-radius:8px;
+  padding:.5rem .9rem;display:flex;align-items:center;gap:.5rem;
+  box-shadow:0 4px 16px rgba(30,45,61,.12);opacity:0;transition:opacity .22s;
+  pointer-events:none;max-width:min(290px,90vw);
+}
+#toast.show{opacity:1}
+#toast-ico{font-size:clamp(.95rem,2.4vw,1.15rem);flex-shrink:0}
+#toast-body strong{display:block;font-size:clamp(.7rem,1.75vw,.78rem);color:#1e2d3d;font-weight:700}
+#toast-body span{font-size:clamp(.64rem,1.6vw,.72rem);color:#5a6a7a}
+
+/* ─── News flash ─────────────────────────────────────────── */
+#news{
+  position:fixed;top:0;left:0;right:0;z-index:80;
+  background:#b02020;border-bottom:2px solid #d04040;
+  padding:.5rem .9rem;display:flex;align-items:center;gap:.65rem;
+  transform:translateY(-100%);transition:transform .35s cubic-bezier(.34,1.56,.64,1);
+}
+#news.show{transform:translateY(0)}
+.news-badge{
+  font-size:clamp(.54rem,1.35vw,.62rem);font-weight:800;
+  letter-spacing:2px;background:#ff3030;color:#fff;
+  padding:.12rem .5rem;border-radius:3px;white-space:nowrap;flex-shrink:0;
+}
+#news-txt{font-size:clamp(.7rem,1.75vw,.78rem);color:#ffd0d0;line-height:1.3}
+</style>
+</head>
+<body>
+<a href="#dash-grid" class="skip-link">Skip to cases</a>
+
+<!-- ═══════ TITLE ════════════════════════════════════════ -->
+<div id="s-title" class="scr on">
+  <svg width="72" height="72" viewBox="0 0 80 80" style="margin:0 auto 1.25rem;display:block">
+    <circle cx="40" cy="40" r="36" fill="none" stroke="#5a8fd6" stroke-width="1.5"/>
+    <circle cx="40" cy="40" r="28" fill="none" stroke="#5a8fd6" stroke-width="1" opacity=".5"/>
+    <path d="M28 30 L28 50 L40 56 L52 50 L52 30 L40 24 Z" fill="none" stroke="#a8c8ec" stroke-width="2" stroke-linejoin="round"/>
+    <text x="40" y="46" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#ffffff">D</text>
+  </svg>
+  <div class="ttl-badge">Interactive GDPR Training</div>
+  <div class="ttl-title">DataGuard</div>
+  <div class="ttl-sub">Compliance Decision Simulator</div>
+  <div class="ttl-tag">Step into the role of NovaCorp's data protection lead. Twenty real enforcement cases. Twenty decisions that matter.</div>
+  <button class="ttl-btn" onclick="goTo('s-name')">Begin Training →</button>
+  <div class="ttl-chips">
+    <span class="ttl-chip">20 real enforcement cases</span>
+    <span class="ttl-chip">Cited regulator decisions</span>
+    <span class="ttl-chip">~30 minute session</span>
+    <span class="ttl-chip">CPD-style debrief</span>
+  </div>
+</div>
+
+<!-- ═══════ NAME ══════════════════════════════════════════ -->
+<div id="s-name" class="scr">
+  <div class="nm-card" style="margin:auto">
+    <div class="nm-title">Trainee Profile</div>
+    <label class="flbl">Display name</label>
+    <input class="finp" id="inp-name" type="text" placeholder="e.g. A. Chen" autocomplete="off"/>
+    <label class="flbl">Pronouns (optional)</label>
+    <select class="finp" id="inp-pron">
+      <option value="">Prefer not to say</option>
+      <option value="she/her">she / her</option>
+      <option value="he/him">he / him</option>
+      <option value="they/them">they / them</option>
+      <option value="custom">Other / self-describe</option>
+    </select>
+    <input class="finp" id="inp-pron-custom" type="text" placeholder="Your pronouns" style="display:none"/>
+    <button class="gobtn" onclick="startGame()">Begin Training →</button>
+    <div style="text-align:center;margin-top:.55rem">
+      <button onclick="goTo('s-title')" style="background:none;border:none;color:#8090a8;font-size:clamp(.65rem,1.6vw,.75rem);cursor:pointer;font-family:inherit">← Back</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ DASHBOARD ════════════════════════════════════════ -->
+<div id="s-map" class="scr" role="main" aria-label="Case dashboard">
+  <header id="dash-hdr">
+    <div class="dh-brand"><span class="dh-mark">D</span> NovaCorp DataGuard</div>
+    <div class="dh-user" id="dh-user">Trainee</div>
+  </header>
+  <div id="dash-kpis" role="status" aria-live="polite">
+    <div class="kpi"><div class="kpi-lbl">Cases resolved</div><div class="kpi-val" id="hp-r">0 / 5</div></div>
+    <div class="kpi"><div class="kpi-lbl">Standing</div><div class="kpi-val" id="hp-s">100%</div></div>
+    <div class="kpi"><div class="kpi-lbl">Decision points</div><div class="kpi-val" id="hp-x">0</div></div>
+    <button class="kpi kpi-btn" onclick="showVault()" aria-label="Open reference library"><div class="kpi-lbl">Reference</div><div class="kpi-val">Library →</div></button>
+  </div>
+  <div id="dash-intro">
+    <h1 class="dash-h1">Open cases this quarter</h1>
+    <p class="dash-sub">Five departments have escalated compliance matters to your desk. Each contains scenarios drawn from real regulator decisions. Open a case to review the brief and decide.</p>
+  </div>
+  <div id="dash-grid" role="list"></div>
+  <div id="dash-ceo-wrap"><button id="dash-ceo" class="ceo-btn" onclick="tryCEO()" disabled><span class="ceo-ico">★</span><span><div class="ceo-t">Executive review</div><div class="ceo-s" id="ceo-s">Locked — resolve all five departments to unlock</div></span><span class="ceo-arr">→</span></button></div>
+</div>
+
+<!-- ═══════ ROOM INTRO ════════════════════════════════════ -->
+<div id="s-room" class="scr">
+  <div class="rtop">
+    <div class="rtop-icon" id="rm-icon">👥</div>
+    <div><div class="rtop-name" id="rm-name">Human Resources</div></div>
+    <button class="rtop-btn" onclick="backToMap()">← Floor Plan</button>
+  </div>
+  <div class="room-scene-wrap" id="room-scene-wrap">
+    <div class="npc-row">
+      <div class="npc-av" id="npc-av">👩‍💼</div>
+      <div><div class="npc-name" id="npc-nm">Sarah Chen</div></div>
+    </div>
+    <div class="npc-bubble" id="npc-bubble">There's something you need to see...</div>
+    <div class="tap-hint">Tap anywhere to continue →</div>
+  </div>
+</div>
+
+<!-- ═══════ CRISIS ════════════════════════════════════════ -->
+<div id="s-crisis" class="scr">
+  <div class="crisis-top">
+    <div class="ct-left">
+      <div class="ct-icon" id="ct-icon">⚠️</div>
+      <div class="ct-name" id="ct-name">HR Crisis</div>
+    </div>
+    <div class="ct-sev" id="ct-sev">MEDIUM</div>
+    <button class="ct-skip" onclick="skipCrisis()" title="Exit room without answering (–5 Rep)">Exit room →</button>
+  </div>
+  <div class="crisis-body">
+    <div class="case-banner"><strong>Real case:</strong> <span id="cr-case"></span></div>
+    <div class="crisis-ctx" id="cr-ctx"></div>
+    <div class="crisis-q" id="cr-q"></div>
+    <div class="choices" id="cr-choices"></div>
+    <div class="outcome" id="outcome">
+      <div class="oc-head">
+        <div class="oc-ico" id="oc-ico"></div>
+        <div class="oc-title" id="oc-title"></div>
+      </div>
+      <div class="oc-msg" id="oc-msg"></div>
+      <div class="con-chain" id="con-chain"></div>
+    </div>
+    <div class="xp-row" id="xp-row" style="display:none">⭐ +100 pts</div>
+    <button class="ref-btn" id="ref-btn" onclick="toggleRef()" style="display:none">▸ View legal reference</button>
+    <div class="ref-detail" id="ref-detail"></div>
+  </div>
+  <div class="crisis-cont">
+    <button class="cont-btn" id="cont-btn" onclick="afterCrisis()">Continue →</button>
+  </div>
+</div>
+
+<!-- ═══════ VAULT ═════════════════════════════════════════ -->
+<div id="s-vault" class="scr">
+  <div class="vault-top">
+    <div>
+      <div class="vault-title">Reference Library</div>
+      <div class="vault-sub">Key principles compiled from your decisions</div>
+    </div>
+    <button class="rtop-btn" onclick="backToMap()">← Floor Plan</button>
+  </div>
+  <div class="vault-body" id="vault-body"></div>
+</div>
+
+<!-- ═══════ FINALE ════════════════════════════════════════ -->
+<div id="s-finale" class="scr">
+  <div class="fin-card">
+    <div class="fin-ceo" id="fin-ceo">🏆</div>
+    <div class="fin-title" id="fin-title">The CEO Calls You In</div>
+    <div class="fin-sub" id="fin-sub">Everything depends on how you handled this.</div>
+    <div class="rep-wrap">
+      <div class="rep-lbl">Company Reputation</div>
+      <div class="rep-track"><div class="rep-fill" id="rep-fill" style="width:0%"></div></div>
+      <div class="rep-val" id="rep-val">0%</div>
+    </div>
+    <div class="vdict" id="vdict">
+      <div class="vd-ico" id="vd-ico">🏆</div>
+      <div class="vd-head" id="vd-head">NovaCorp Survives</div>
+      <div class="vd-body" id="vd-body">Under your guidance the company avoided regulatory action.</div>
+    </div>
+    <div class="sg">
+      <div class="sb"><div class="sv" id="f-rep">100%</div><div class="sl">Standing</div></div>
+      <div class="sb"><div class="sv" id="f-cor">0/20</div><div class="sl">Aligned</div></div>
+      <div class="sb"><div class="sv" id="f-sc">0</div><div class="sl">Points</div></div>
+    </div>
+    <button class="fbtn fb-p" onclick="restartGame()">Retake Training</button>
+    <button class="fbtn fb-o" onclick="showVault()">Reference Library</button>
+    <button class="fbtn fb-o" style="margin-bottom:0" onclick="goTo('s-title')">← Title</button>
+    <div class="share-note">An Anthropic-built training prototype. Cases drawn from public regulator decisions; verify with counsel before relying on any specific finding.</div>
+  </div>
+</div>
+
+<!-- ─── Toast + News ────────────────────────────────────── -->
+<div id="toast" role="status" aria-live="polite"><div id="toast-ico">💡</div><div id="toast-body"><strong></strong><span></span></div></div>
+<div id="news" role="alert" aria-live="assertive"><div class="news-badge">BREAKING</div><div id="news-txt"></div></div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  SCENARIOS — all 20 from DataGuard_ScenarioExpansion
+// ═══════════════════════════════════════════════════════
+const SCENARIOS={
+hr:[
+ {id:'S-015',title:'Employee Surveillance File',diff:'Hard',
+  caseRef:'Hamburg DPA — H&M, €35.3 million (Oct 2020)',
+  ctx:'NovaCorp\'s HR team has kept detailed notes on employees\' personal lives — health conditions, religious beliefs, family situations — since 2014. Hundreds of data points per person have been used for performance assessment. A misconfiguration briefly exposed the files to all staff.',
+  q:'Which GDPR violations are most directly at the core of this situation?',
+  choices:['Art. 13 transparency — employees were not told about the processing',
+           'Art. 5(1)(c) data minimisation and Art. 6 lawful basis — no valid basis for processing religious beliefs and health data, plus Art. 9 special category data without a valid exception',
+           'Art. 32 security failure — the misconfiguration exposed the data',
+           'Art. 30 ROPA failure — the files were not in the record of processing activities'],
+  correct:1,goodHead:'✅ Correct — the core violation is the unlawful processing itself.',
+  goodMsg:'Processing employees\' religious beliefs and health data requires both a lawful basis (Art. 6) and a specific Art. 9(2) exception — neither existed here. Hundreds of personal life data points per employee also violates data minimisation.',
+  badMsg:'The security failure and transparency issues were also violations — but they are secondary. The data should never have been collected at all.',
+  cons:['Employees discover the extent of surveillance on their personal lives.','Employment tribunal claims filed for breach of privacy.','Hamburg DPA investigation opened.','€35.3 million fine.'],
+  ref:'H&M Hamburg decision: Art. 5(1)(c) data minimisation and Art. 9 special category data were the core violations. The processing itself was unlawful before any breach occurred.'},
+ {id:'S-022',title:'Children\'s Data Processing',diff:'Hard',
+  caseRef:'ICO UK — TikTok, £12.7 million (Apr 2023)',
+  ctx:'NovaCorp\'s consumer app is used by over 2 million people including an estimated 300,000 under-13s. The app collects detailed behavioural data including location and browsing habits. No age verification is in place. Legal argues the Terms of Service prohibit under-13 use — so no further action is needed.',
+  q:'What is the minimum NovaCorp must implement to comply?',
+  choices:['Update the Terms of Service to explicitly prohibit under-13 use',
+           'Implement a proportionate age verification mechanism establishing with reasonable confidence that users are 13 or over. Where users are under 13, parental consent must be obtained.',
+           'Display a warning message during signup that the app is for adults only',
+           'Apply child-friendly default settings only for users who self-declare their age'],
+  correct:1,goodHead:'✅ This is what the ICO requires.',
+  goodMsg:'A Terms of Service clause is not age verification. The ICO\'s TikTok decision requires a real technical mechanism — not a tick-box. Self-declaration is insufficient where there are signals of child usage at scale.',
+  badMsg:'Terms of Service clauses do not verify age — they shift liability. The ICO was explicit: a real verification mechanism is required.',
+  cons:['ICO identifies 300,000 children whose data was unlawfully processed.','£12.7 million fine.','Mandatory audit of all data collected from under-13s.','Reputational damage.'],
+  ref:'UK Children\'s Code requires proportionate age verification for apps likely accessed by under-13s. High-by-default privacy settings are required for child users.'},
+ {id:'S-025',title:'Workplace Monitoring System',diff:'Medium',
+  caseRef:'Luxembourg CNPD — Amazon, €746 million (Jul 2021)',
+  ctx:'NovaCorp installs a system tracking every employee\'s keystrokes, screen activity, and work rate in granular detail. Employees are informed by email. The employment contract contains a clause stating employees consent to "reasonable monitoring for performance management".',
+  q:'Is the employment contract clause a sufficient legal basis for this monitoring?',
+  choices:['Yes — employment contracts are a valid Art. 6(1)(b) basis for monitoring',
+           'No — Art. 6(1)(b) requires processing to be strictly necessary for the contract. Granular keystroke monitoring is not necessary for employment. Consent in employment is also not freely given.',
+           'The processing is acceptable under Art. 6(1)(f) legitimate interests if a Legitimate Interests Assessment is completed',
+           'The monitoring requires only a DPIA under Art. 35'],
+  correct:1,goodHead:'✅ Correct — no valid lawful basis exists.',
+  goodMsg:'Art. 6(1)(b) only covers processing strictly necessary for the employment contract. Keystroke-level monitoring goes far beyond that. Consent in employment is inherently problematic due to the power imbalance.',
+  badMsg:'An LIA might partially help — but intrusive employee monitoring is unlikely to survive a genuine LIA balancing test. No valid lawful basis exists for this granularity.',
+  cons:['Employees file a collective complaint.','DPA finds no valid lawful basis for keystroke tracking.','System suspended.','Significant fine — Amazon\'s €746m sets the precedent scale.'],
+  ref:'Amazon Luxembourg decision: Art. 6(1)(b) requires strict necessity, not usefulness. Granular monitoring fails this test.'},
+ {id:'S-031',title:'Contact Tracing App Design',diff:'Medium',
+  caseRef:'EDPB + CNIL + ICO — COVID-19 contact tracing guidance (2020–2021)',
+  ctx:'NovaCorp develops a workplace contact tracing app. It requires employees to upload their full contact list, enables continuous GPS tracking, shares individual risk scores with HR managers, and retains all data for 24 months. The app is framed as voluntary but employees who don\'t install it cannot access the office.',
+  q:'Which design choice is the most significant GDPR violation?',
+  choices:['24-month data retention — contact tracing data should not be kept this long',
+           'Continuous GPS location tracking — contact tracing requires only proximity detection via Bluetooth. Continuous GPS is disproportionate and unnecessary for this purpose.',
+           'Requiring employees to upload their full contact list — this involves third parties\' data',
+           'Allowing HR managers to view individual risk scores — this is special category health data'],
+  correct:1,goodHead:'✅ Proportionality failure correctly identified.',
+  goodMsg:'All four options identify real violations — but continuous GPS tracking is the most disproportionate. Contact tracing requires only Bluetooth proximity detection. Real-time GPS of every employee\'s location throughout the day far exceeds what the purpose requires.',
+  badMsg:'All four are violations — but proportionality matters. GPS tracking of every employee\'s precise location is the most flagrant violation of data minimisation.',
+  cons:['Employees challenge the "voluntary" framing — regulators agree.','CNIL finds GPS tracking unlawful.','App redesigned. All GPS data deleted.','Enforcement notice issued.'],
+  ref:'EDPB Guidelines on contact tracing: Bluetooth proximity detection is sufficient. Real-time GPS tracking is explicitly identified as disproportionate.'},
+],
+it:[
+ {id:'S-014',title:'Security Breach — 9-Month Gap',diff:'Hard',
+  caseRef:'ICO UK — British Airways, £20 million (Oct 2020)',
+  ctx:'NovaCorp\'s e-commerce payment page is compromised. Attackers inject malicious code harvesting customer payment card details including CVV codes. The breach runs for 9 months before a third-party fraud service detects it. 500,000 customers are affected.',
+  q:'What is the most significant aggravating factor the regulator will consider?',
+  choices:['The number of customers affected — 500,000 is a large number',
+           'The failure to implement adequate technical security measures, and the 9-month undetected period indicating a systemic absence of security monitoring',
+           'The fact that payment data was involved — this is special category data under Art. 9',
+           'NovaCorp\'s failure to notify affected customers within 72 hours of discovery'],
+  correct:1,goodHead:'✅ Correct — systemic security failure is the primary issue.',
+  goodMsg:'The ICO\'s BA decision identified absent MFA, unpatched vulnerabilities, and no anomaly detection as the primary failures. Payment card data is NOT Art. 9 special category data. The deeper problem is that no monitoring system existed to enable detection.',
+  badMsg:'Payment card data is NOT Art. 9 special category data. The 72-hour clock runs from when the controller becomes aware — the more fundamental failure is that no system existed to enable awareness.',
+  cons:['9 months of undetected exfiltration.','Fraud claims flood in from across Europe.','ICO investigation identifies absent security controls.','£20 million fine.'],
+  ref:'BA ICO decision: Art. 32 requires appropriate technical measures. Absent anomaly detection and MFA for a financial data system was found fundamentally inadequate.'},
+ {id:'S-018',title:'Third-Party Processor Breach',diff:'Medium',
+  caseRef:'ICO investigation — Ticketmaster-style breach (2024)',
+  ctx:'NovaCorp\'s customer database is hosted by a cloud provider. The provider suffers a major breach and notifies NovaCorp 6 weeks after first becoming aware. NovaCorp immediately begins its own assessment and notification process.',
+  q:'Under Art. 33, when does NovaCorp\'s 72-hour notification window begin?',
+  choices:['When the attack originally occurred — months earlier',
+           'When the cloud provider first became aware of the attack',
+           'When NovaCorp itself was notified by the cloud provider — today',
+           'Within 72 hours of NovaCorp notifying affected customers'],
+  correct:2,goodHead:'✅ Correct — NovaCorp\'s clock starts today.',
+  goodMsg:'Art. 33(2) requires processors to notify controllers without undue delay. Art. 33(1) requires controllers to notify the SA within 72 hours of becoming aware. NovaCorp\'s window runs from its own notification — not from when the processor knew.',
+  badMsg:'The 72-hour window is tied to the controller\'s own awareness. The late notification by the processor (6 weeks) is itself a breach of the DPA and Art. 28.',
+  cons:['Provider is 6 weeks late — itself a violation of Art. 28 terms.','NovaCorp must notify SA within 72 hours of its own awareness.','SA investigates provider delay.','DPA reviewed and strengthened.'],
+  ref:'Art. 33(2): processors must notify controllers without undue delay. Art. 33(1): controllers must notify the SA within 72 hours of becoming aware themselves.'},
+ {id:'S-016',title:'Analytics Transfer Problem',diff:'Medium',
+  caseRef:'Austrian DSB + CNIL + Garante — Google Analytics (2022)',
+  ctx:'NovaCorp uses Google Analytics. Visitor IP addresses and device identifiers are transferred to Google\'s US servers. The Head of Marketing argues that enabling the "IP anonymisation" feature in Google Analytics resolves the Schrems II transfer concern.',
+  q:'Does IP anonymisation in Google Analytics resolve the transfer concern?',
+  choices:['Yes — anonymised IPs are no longer personal data so transfer rules do not apply',
+           'No — anonymisation occurs on Google\'s US servers after transfer. The original transfer of full IP addresses is still subject to Art. 44–49.',
+           'Yes — Google\'s SCCs with EU customers cover all analytics data transfers',
+           'It depends on whether the website is B2B or B2C'],
+  correct:1,goodHead:'✅ The anonymisation happens too late.',
+  goodMsg:'The Austrian DSB, CNIL and Garante all confirmed: anonymisation runs on Google\'s US infrastructure — so the full IP address is transferred first, then truncated. That initial transfer is still a personal data transfer subject to Art. 44.',
+  badMsg:'Google\'s SCCs were found insufficient because US surveillance law prevents effective protection. The anonymisation argument was rejected by three DPAs.',
+  cons:['DPO flags the analytics setup.','Legal review confirms switch to EU-hosted analytics or client-side anonymisation is required.','All historical GA data reviewed.'],
+  ref:'Austrian DSB Jan 2022, CNIL Jan 2022, Garante Jun 2022: all confirmed IP anonymisation does not resolve the transfer issue as it occurs after transfer to US infrastructure.'},
+ {id:'S-017',title:'Facial Recognition Vendor',diff:'Hard',
+  caseRef:'ICO £7.5m + CNIL €20m + Garante €20m — Clearview AI (2022)',
+  ctx:'NovaCorp\'s security team proposes using a facial recognition vendor that built a database by scraping billions of public internet images. The vendor argues that because the images were publicly posted, no consent is needed. The DPO is asked for an opinion before signing.',
+  q:'What is the DPO\'s correct assessment?',
+  choices:['The vendor\'s argument is correct — public images are not subject to GDPR',
+           'Advise against proceeding. Scraping images without knowledge violates Art. 14, Art. 5(1)(a)(b)(c), and creates biometric data (Art. 9) without a valid exception. Public availability does not create a lawful basis.',
+           'Acceptable if NovaCorp obtains consent from its own employees to be matched against the database',
+           'Request the vendor\'s SCCs before forming a view'],
+  correct:1,goodHead:'✅ Strong DPO advice.',
+  goodMsg:'Clearview enforcement confirmed: public images cannot be scraped for facial recognition without a lawful basis. Biometric data from images is Art. 9 special category data — requiring both Art. 6 and Art. 9(2). Neither exists here.',
+  badMsg:'Employee consent for matching does not resolve the problem — the database itself was built unlawfully. Using it makes NovaCorp a downstream participant.',
+  cons:['DPO refuses to sign off.','Security team escalates to CEO.','Legal risk too high — vendor dropped.','CCTV reviewed through proper DPIA process instead.'],
+  ref:'ICO, CNIL, Garante: public availability does not create a lawful basis. Biometric data requires Art. 9(2) exception. No legitimate interest survives the balancing test for identity-scraping at scale.'},
+],
+mkt:[
+ {id:'S-019',title:'Transparency Failure',diff:'Medium',
+  caseRef:'DPC Ireland — WhatsApp, €225 million (Sept 2021)',
+  ctx:'NovaCorp\'s privacy notice is 47 pages long, written in dense legal language, uses broad undefined terms like "various legitimate purposes", does not specify the lawful basis for each processing activity, and buries opt-out instructions in an appendix.',
+  q:'What is the primary GDPR violation?',
+  choices:['Art. 6 — NovaCorp has not established a valid lawful basis',
+           'Art. 5(1)(a) and Art. 12 — the transparency principle requires that privacy information is concise, transparent, intelligible and in plain language. 47 pages of legal text fails this standard.',
+           'Art. 30 — the ROPA is insufficiently detailed',
+           'Art. 35 — a DPIA was required before publishing the notice'],
+  correct:1,goodHead:'✅ Transparency failure correctly identified.',
+  goodMsg:'Art. 12 requires privacy information that is genuinely intelligible to a typical user. 47 pages of legal language with undefined terms fails this. Transparency is a foundational principle, not box-ticking.',
+  badMsg:'While lawful basis documentation may also be incomplete, the immediate and obvious violation is the transparency failure — a privacy notice no ordinary person could understand.',
+  cons:['DPA investigation opened.','Privacy notice redesign ordered.','€225 million fine at WhatsApp scale.','Mandatory plain-language rewrite of all data subject communications.'],
+  ref:'DPC WhatsApp: Art. 12 requires concise, transparent, intelligible, easily accessible information in clear and plain language. Layered notices are acceptable but each layer must be plain.'},
+ {id:'S-024',title:'Political Profiling Operation',diff:'Hard',
+  caseRef:'ICO UK — Facebook/Cambridge Analytica, £500,000 (2018)',
+  ctx:'NovaCorp\'s analytics division builds psychological profiles of 10 million UK voters using third-party app data, social media activity, and purchase history. The profiles include inferred political opinions and are sold to campaign organisations. No consent was obtained.',
+  q:'Why does this engage Art. 9 in addition to Art. 6?',
+  choices:['Because political advertising is inherently harmful',
+           'Because inferred political opinions constitute special category data under Art. 9(1). Processing requires both a lawful basis under Art. 6 AND a specific Art. 9(2) exception.',
+           'Because the data was obtained from a third-party quiz app',
+           'Because profiling always engages Art. 9 regardless of the categories involved'],
+  correct:1,goodHead:'✅ Correct — inferred opinions are still Art. 9.',
+  goodMsg:'Art. 9(1) explicitly lists "political opinions" as special category data — whether directly stated or inferred. Processing inferred political opinions at scale without any Art. 9(2) exception is a fundamental violation.',
+  badMsg:'The source of the data is relevant to the Art. 6 analysis — but the Art. 9 engagement arises from the nature of the inferred data, not how it was obtained.',
+  cons:['Regulator discovers the profiling operation.','10 million voter profiles seized.','Art. 9 violation confirmed — no valid exception.','Criminal referral. Parliamentary inquiry launched.'],
+  ref:'ICO Cambridge Analytica: political opinions — directly stated or statistically inferred — are Art. 9 special category data.'},
+ {id:'S-029',title:'Data Broker Legitimate Interests',diff:'Medium',
+  caseRef:'ICO UK — Experian enforcement notice (2020)',
+  ctx:'NovaCorp\'s data division purchases personal data from loyalty schemes, the electoral roll, and lifestyle surveys — aggregating profiles on 20 million UK adults sold to direct marketing clients. Legal relies on Art. 6(1)(f) legitimate interests, citing Recital 47.',
+  q:'What is the fatal flaw in NovaCorp\'s legitimate interests analysis?',
+  choices:['Recital 47 does not recognise direct marketing as a legitimate interest at all',
+           'While Recital 47 acknowledges direct marketing can be a legitimate interest, the LIA balancing test fails here because data subjects have no reasonable expectation their data will be aggregated from multiple sources and sold to unknown third parties.',
+           'NovaCorp needs consent for direct marketing under the ePrivacy Directive',
+           'The processing is only unlawful if NovaCorp profits commercially from the data'],
+  correct:1,goodHead:'✅ The LIA fails the balancing test.',
+  goodMsg:'Recital 47 does acknowledge marketing as a possible legitimate interest — but the LIA must genuinely weigh the impact. Aggregating data from multiple unknown sources and selling to parties the person has no relationship with fails the reasonable expectation and proportionality tests.',
+  badMsg:'Recital 47 does acknowledge marketing can be a legitimate interest — the problem is that the balancing test must be done honestly. This one fails.',
+  cons:['ICO audit reveals 20 million profiles without adequate LIA.','Enforcement notice: delete all unlawfully processed profiles.','Revenue stream eliminated.','Sector-wide investigation launched.'],
+  ref:'ICO Experian: legitimate interests requires a genuine three-part test. Processing data subjects would find surprising or objectionable fails the balancing test.'},
+ {id:'S-032',title:'Loyalty Programme Opt-Out',diff:'Easy',
+  caseRef:'ICO — direct marketing guidance (2021)',
+  ctx:'NovaCorp\'s loyalty programme builds purchase profiles of 5 million members for targeted advertising. The opt-out requires members to call a helpline, wait on hold, and verbally request removal — an average of 22 minutes. Email opt-out requests are acknowledged but not acted upon for up to 60 days.',
+  q:'What is wrong with NovaCorp\'s opt-out mechanism?',
+  choices:['Telephone helplines are an acceptable opt-out method for loyalty programme profiling',
+           'Unlawful on two grounds: (1) Art. 21 requires the right to object to be easy to exercise — a 22-minute call fails this; (2) Art. 21(3) requires processing to stop immediately upon objection, not within 60 days.',
+           'NovaCorp needs separate consent for profiling but the opt-out is a secondary issue',
+           'The opt-out is only required for email marketing under ePrivacy'],
+  correct:1,goodHead:'✅ Two violations correctly identified.',
+  goodMsg:'Art. 21 gives an absolute right to object to direct marketing processing. The right must be communicated and easy to exercise. A 22-minute call is not easy. Art. 21(3) requires processing to stop immediately — 60 days is unlawful.',
+  badMsg:'Art. 21 applies to all direct marketing profiling. The right to object must be communicated proactively and be genuinely easy to exercise.',
+  cons:['ICO audit: opt-out mechanism fails Art. 21 on both ease and timing.','Immediate cessation order.','Retrospective audit of all objections received in the last 2 years.'],
+  ref:'Art. 21(3): the right to object to direct marketing must result in immediate cessation of processing. The mechanism must also be easy to use.'},
+],
+legal:[
+ {id:'S-013',title:'US Data Transfer Challenge',diff:'Hard',
+  caseRef:'DPC Ireland — Meta Platforms, €1.2 billion (May 2023)',
+  ctx:'NovaCorp has been transferring EU employee and customer data to its US parent company under Standard Contractual Clauses. Following Schrems II the DPC has written requesting evidence that the SCCs are supplemented by effective additional safeguards.',
+  q:'What must NovaCorp demonstrate to justify continued transfers under SCCs post-Schrems II?',
+  choices:['SCCs alone are sufficient — no additional safeguards are required once signed',
+           'A Transfer Impact Assessment showing US law does not impinge on SCC protections in practice, plus supplementary technical safeguards (encryption with EU-held keys)',
+           'Immediately suspend all transfers until a new EU-US adequacy decision is confirmed',
+           'The transfers are lawful under Art. 49 derogation as necessary for contract performance'],
+  correct:1,goodHead:'✅ TIA plus supplementary measures required.',
+  goodMsg:'Post-Schrems II, SCCs are not automatically sufficient. A Transfer Impact Assessment is mandatory, and where US surveillance law creates gaps, supplementary technical safeguards — encryption with EU-held keys — must be implemented.',
+  badMsg:'Suspending all transfers is not necessarily required — but continuing under SCCs without demonstrating their effectiveness is unlawful. The TIA and supplementary measures are mandatory.',
+  cons:['DPC finds no TIA documentation and no technical safeguards.','Transfer suspension order.','US parent loses access to EU analytics data.','Record €1.2 billion fine at Meta scale.'],
+  ref:'EDPB Recommendations 01/2020: controllers must assess whether destination country law impinges on SCC protection in practice. FISA 702 creates structural gaps.'},
+ {id:'S-021',title:'Credit Reference Data',diff:'Hard',
+  caseRef:'ICO UK — Experian enforcement notice (2020)',
+  ctx:'NovaCorp\'s analytics division purchases consumer credit data from a credit reference agency (CRA). The CRA has its own privacy notice mentioning third-party sharing. NovaCorp uses the data to target marketing campaigns to 2 million individuals who have no prior relationship with NovaCorp.',
+  q:'Is NovaCorp\'s reliance on the CRA\'s privacy notice sufficient to meet its own Art. 14 obligations?',
+  choices:['Yes — if the data source has a valid privacy notice, downstream users\' obligations are satisfied',
+           'No — Art. 14 requires NovaCorp itself to inform data subjects when it obtains their data from a third party. NovaCorp must provide its own Art. 14 notice within one month of obtaining the data.',
+           'Art. 14 only applies if NovaCorp directly contacts the data subjects',
+           'NovaCorp\'s Art. 6(1)(f) legitimate interests basis covers the Art. 14 obligation automatically'],
+  correct:1,goodHead:'✅ Art. 14 is a direct obligation on NovaCorp.',
+  goodMsg:'Art. 14 imposes a direct obligation on NovaCorp as controller — regardless of what the source\'s notice says. NovaCorp must provide its own Art. 14 notice within one month of obtaining the data.',
+  badMsg:'The CRA\'s notice satisfies the CRA\'s Art. 13 obligations — not NovaCorp\'s Art. 14 obligations. Each controller in the chain has its own transparency duties.',
+  cons:['ICO audit: 2 million individuals received no Art. 14 notice.','Enforcement notice: issue retrospective notices or delete the data.','All campaigns paused.','Vendor contracts reviewed.'],
+  ref:'Art. 14 GDPR: where personal data has not been obtained from the data subject, the controller must provide information within one month of obtaining the data.'},
+ {id:'S-028',title:'Right to Be Forgotten',diff:'Medium',
+  caseRef:'CJEU — Google Spain v AEPD, C-131/12 (2014)',
+  ctx:'A former NovaCorp executive asks for removal from the website of press releases about disciplinary proceedings against them 12 years ago. The information was accurate at the time. The matter was resolved and the person no longer works in the sector. NovaCorp\'s legal team says factual accuracy prevents erasure.',
+  q:'How should NovaCorp assess this erasure request?',
+  choices:['Refuse — press releases are public documents and factual accuracy prevents erasure',
+           'Apply a balancing test: weigh the individual\'s Art. 17 right (outdated information causing ongoing harm, no longer serving a legitimate purpose) against any public interest in the information remaining',
+           'Accept only if the person can prove the information is causing active financial harm',
+           'Retain under Art. 5(1)(e) storage limitation as the information is in a structured archive'],
+  correct:1,goodHead:'✅ Balancing test is the correct approach.',
+  goodMsg:'Art. 17 applies even to accurate information — if it is outdated, no longer relevant, or causes disproportionate harm relative to the public interest. 12 years, the matter resolved, and departure from the sector all weigh heavily toward erasure.',
+  badMsg:'Factual accuracy is not a defence to an Art. 17 request. The question is whether the data remains relevant and proportionate to any public interest.',
+  cons:['Individual files a complaint with the national DPA.','DPA finds the blanket refusal policy fails to apply the required balancing test.','Enforcement notice to implement proper Art. 17 assessment processes.'],
+  ref:'Google Spain (C-131/12): Art. 17 applies to accurate information no longer relevant, adequate, or proportionate. A balancing test weighing individual rights against public interest is required.'},
+ {id:'S-027',title:'Retail Facial Recognition',diff:'Hard',
+  caseRef:'Swedish DPA IMY + ICO Facewatch enforcement (2022–2023)',
+  ctx:'NovaCorp installs facial recognition across 45 retail stores to identify a "persons of interest" watchlist. An entrance sign reads "CCTV in operation. Advanced security systems in use." NovaCorp argues legitimate interests in preventing shoplifting justifies the processing.',
+  q:'What is the most significant legal deficiency in this arrangement?',
+  choices:['The entrance sign should be larger and more prominently positioned',
+           'Biometric data of every store visitor is Art. 9 special category data. Legitimate interests fails the proportionality test — processing biometric data of all visitors to identify a small watchlist is massively disproportionate.',
+           'NovaCorp needs a DPA in place with the facial recognition vendor',
+           'The system is acceptable if NovaCorp obtains explicit consent from visitors at the entrance'],
+  correct:1,goodHead:'✅ Art. 9 proportionality failure correctly identified.',
+  goodMsg:'Facial recognition creates biometric Art. 9 data on every visitor, not just watchlist subjects. Processing the biometric data of potentially millions of innocent people to identify a small number fails proportionality. ICO Facewatch confirmed this explicitly.',
+  badMsg:'A DPA is also needed — but it does not resolve the fundamental Art. 9 proportionality problem. Consent is also difficult when entry to the store is conditional on scanning.',
+  cons:['ICO investigation after complaint.','Art. 9 violation confirmed — no valid exception.','System removed from all 45 stores.','£7.5 million fine.'],
+  ref:'ICO Facewatch: biometric data from facial recognition is Art. 9 special category data. Legitimate interests cannot override Art. 9. Processing all visitors to find a watchlist fails proportionality.'},
+],
+prod:[
+ {id:'S-020',title:'Algorithmic Work System',diff:'Medium',
+  caseRef:'CNIL + AGV Netherlands — Deliveroo algorithmic management (2021–2023)',
+  ctx:'NovaCorp\'s logistics platform algorithmically assigns shifts, adjusts pay in real time, and can automatically terminate contractor agreements based on performance metrics — all without human review. Affected contractors receive automated notifications only.',
+  q:'Which GDPR rights are most directly engaged by this arrangement?',
+  choices:['Art. 17 (erasure) — contractors can request deletion of their performance data',
+           'Art. 22 (right not to be subject to solely automated decisions with significant effect) — algorithmic contract termination produces significant legal effects; contractors are entitled to human review, explanation, and the right to contest.',
+           'Art. 20 (data portability) — contractors should be able to take their data to competitors',
+           'Art. 18 (restriction) — contractors can restrict processing while disputing scores'],
+  correct:1,goodHead:'✅ Art. 22 is the core right here.',
+  goodMsg:'Art. 22 applies where automated processing produces decisions with significant legal or similarly significant effects. Contract termination clearly qualifies. Contractors must receive an explanation of the logic and have access to human review.',
+  badMsg:'Art. 17 and Art. 18 are relevant — but they are not the primary right at stake. The algorithmic termination of work contracts is exactly the scenario Art. 22 was designed for.',
+  cons:['Contractor collective files Art. 22 claim.','DPA finds automated termination lacks human review.','System suspended pending redesign.','Retroactive review of all automated terminations required.'],
+  ref:'Art. 22 GDPR: data subjects have the right not to be subject to solely automated decisions producing significant effects. Human review and explanation mechanisms are mandatory.'},
+ {id:'S-023',title:'Acquisition Breach',diff:'Hard',
+  caseRef:'ICO UK — Marriott International, £18.4 million (Oct 2020)',
+  ctx:'NovaCorp acquires a competitor (AcquiCo). During due diligence 8 months later, NovaCorp discovers AcquiCo had suffered a major breach affecting 30 million customer records — undisclosed by AcquiCo. The breach started 3 years before the acquisition.',
+  q:'What are NovaCorp\'s GDPR obligations upon discovering the inherited breach?',
+  choices:['None — the breach occurred before NovaCorp owned the company',
+           'NovaCorp must assess the inherited breach as if newly discovered: conduct a risk assessment, notify the SA within 72 hours of its own discovery, notify affected data subjects under Art. 34 if high risk.',
+           'Notify the SA only if NovaCorp can confirm the breach is still ongoing',
+           'The 72-hour window passed years ago — NovaCorp has no notification obligation'],
+  correct:1,goodHead:'✅ Inherited liability — NovaCorp must act now.',
+  goodMsg:'The Marriott/Starwood case established that a successor controller inherits GDPR obligations. NovaCorp\'s 72-hour window runs from its own discovery — not from when the breach originally occurred.',
+  badMsg:'The 72-hour window is tied to when the current controller becomes aware — not when the breach happened. NovaCorp\'s clock started today.',
+  cons:['NovaCorp discovers 30 million records exposed for 3+ years.','SA notified within 72 hours.','Affected customers notified.','£18.4 million fine.'],
+  ref:'Marriott/Starwood ICO decision: GDPR obligations transfer with the acquired entity. The successor controller\'s 72-hour window runs from their own discovery.'},
+ {id:'S-026',title:'Privacy Defaults Failure',diff:'Easy',
+  caseRef:'FTC settlement — Zoom (2020); EDPB guidance on video conferencing (2020)',
+  ctx:'NovaCorp launches a video conferencing tool. By default: all sessions are automatically recorded and stored indefinitely, an AI attention tracker monitors participants, and meeting metadata is shared with advertising partners. Participants are not informed unless they check the terms.',
+  q:'Which GDPR principle is most directly violated by these defaults?',
+  choices:['Art. 6 — NovaCorp has no lawful basis for recording sessions',
+           'Art. 25 (Data Protection by Default) — by default only data necessary for the specific purpose should be processed. Recording all sessions indefinitely, attention tracking, and advertising metadata sharing as defaults violate this principle.',
+           'Art. 32 — storing recordings indefinitely creates a security risk',
+           'Art. 13 — participants are not informed that sessions are recorded'],
+  correct:1,goodHead:'✅ Privacy by Default failure.',
+  goodMsg:'Art. 25(2) requires that by default, only personal data necessary for the specific purpose is processed. Auto-recording, indefinite retention, attention tracking, and advertising metadata as defaults all violate this — they should be opt-in, not opt-out.',
+  badMsg:'Art. 13 is also violated — but it is secondary to the fundamental design failure. Art. 25 requires the defaults themselves to be privacy-protective before any notice obligation arises.',
+  cons:['DPA investigation following employee complaint.','All defaults must be reversed: recording opt-in only, retention limited, tracking disabled, advertising sharing removed.','Retrospective deletion of unlawfully retained recordings.'],
+  ref:'Art. 25(2): by default, only personal data necessary for each specific purpose should be processed. This applies to quantity, scope, retention period, and accessibility.'},
+ {id:'S-030',title:'Smart Meter Data Sharing',diff:'Medium',
+  caseRef:'EDPB Guidelines 2/2019 on smart meter data',
+  ctx:'NovaCorp\'s energy subsidiary collects smart meter data from 800,000 residential customers at 30-minute intervals for billing. Customers consented to "data collection for billing and service management". The analytics team now wants to share this granular data with a marketing analytics partner to build household lifestyle profiles for advertising.',
+  q:'Does the consent for "billing purposes" cover the proposed marketing analytics sharing?',
+  choices:['Yes — consent to data collection covers all subsequent use',
+           'No — consent for billing is specific to that purpose under Art. 5(1)(b). Sharing with a marketing analytics partner for advertising profiling is an incompatible purpose. New consent is required.',
+           'The sharing is covered by NovaCorp\'s legitimate interests in growing its analytics business',
+           'Smart meter data is not personal data because it relates to a property, not a person'],
+  correct:1,goodHead:'✅ Purpose limitation applies.',
+  goodMsg:'Art. 5(1)(b) purpose limitation means data collected for one purpose cannot be repurposed without a new lawful basis. Billing and advertising profiling are clearly incompatible purposes.',
+  badMsg:'Smart meter data is absolutely personal data — at 30-minute intervals it reveals occupancy patterns, daily routines, and appliance use. It creates a detailed picture of domestic life.',
+  cons:['DPO discovers the sharing during a quarterly review.','Art. 5(1)(b) violation confirmed.','Marketing partner must delete all profiles.','800,000 customers must be notified.'],
+  ref:'Art. 5(1)(b) purpose limitation: personal data collected for one specified purpose cannot be further processed in a manner incompatible with that purpose.'},
+],
+};
+
+// Vault rules
+const VAULT=[
+  {id:'hr',  icon:'👥',name:'Employee Data Rules',  plain:'Every piece of employee information — health, beliefs, family — needs a specific lawful basis. For sensitive categories, you also need an explicit legal exception. HR data requires the highest care.',detail:'Art. 9 requires both an Art. 6 basis and an Art. 9(2) exception for special category data. In employment, the most common Art. 9(2) exception is (b) — but it does not cover collection "out of interest".',found:false},
+  {id:'it',  icon:'💻',name:'Breach Response Sequence',plain:'(1) Contain. (2) Assess real risk to people. (3) If genuine risk, notify the supervisory authority within 72 hours of YOUR awareness. (4) If high risk, notify the affected people directly.',detail:'Art. 33(1): the 72-hour clock starts when the controller becomes aware. Art. 34: notification to data subjects is required where the breach is likely to result in HIGH risk to their rights. Documentation is mandatory regardless.',found:false},
+  {id:'mkt', icon:'📣',name:'Consent and Transparency',plain:'Consent must be freely given, specific, informed and unambiguous. Privacy notices must be concise and in plain language. The right to object to direct marketing is absolute and must be easy to exercise.',detail:'Art. 7 consent conditions. Art. 12 transparency. Art. 21(2): the right to object to direct marketing must be explicitly communicated and result in immediate cessation of processing.',found:false},
+  {id:'legal',icon:'⚖️',name:'International Transfers',plain:'Moving EU personal data outside the EEA requires a legal mechanism — adequacy decision, SCCs, or BCRs. SCCs alone may not be enough: you also need a Transfer Impact Assessment to check the destination country\'s laws.',detail:'Art. 44–49 GDPR. Post-Schrems II (CJEU C-311/18), SCCs require supplementary assessment. EDPB Recommendations 01/2020 set out the TIA methodology and supplementary measures.',found:false},
+  {id:'prod', icon:'🚀',name:'Automated Decisions and AI',plain:'Any system making significant decisions about people automatically — employment, credit, access — requires a human review option. Before launching any high-risk AI system, a Privacy Impact Assessment is mandatory.',detail:'Art. 22: right not to be subject to solely automated decisions with significant effects. Art. 35: DPIA required for systematic processing using new technologies likely to result in high risk.',found:false},
+];
+
+// Room definitions
+const ROOMS=[
+  {id:'hr',   name:'People Operations',    icon:'👥',zone:'hr',   npcIco:'◐',npcNm:'M. Okafor — Head of People Ops',
+   intro:'M. Okafor closes the door behind you. "Thank you for coming. We have been handling staff data in ways I am not comfortable with — and one of those issues now needs a decision today."',
+   doors:[{r:7,c:4}],  lR:3, lC:4,  locked:false},
+  {id:'it',   name:'IT & Security',        icon:'🔒',zone:'it',   npcIco:'◑',npcNm:'R. Lindqvist — CISO',
+   intro:'"Good — you are here," R. Lindqvist says, gesturing to a monitor. "We have a situation. Possibly several. I need a clear-headed read on each one."',
+   doors:[{r:9,c:21}], lR:12,lC:21, locked:false},
+  {id:'mkt',  name:'Marketing',            icon:'◆',zone:'mkt',  npcIco:'◓',npcNm:'S. Tanaka — Marketing Director',
+   intro:'S. Tanaka closes a laptop as you walk in. "I was about to message you. We have a complaint, and I think we have more than one issue to work through."',
+   doors:[{r:9,c:5}],  lR:12,lC:5,  locked:false},
+  {id:'legal',name:'Legal & Compliance',   icon:'§', zone:'legal',npcIco:'◔',npcNm:'A. Diallo — General Counsel',
+   intro:'"Close the door, please," A. Diallo says. "The DPC has written to us. There are also a few other matters on my desk that should be on yours before the week ends."',
+   doors:[{r:7,c:22}], lR:3, lC:22, locked:false},
+  {id:'prod', name:'Product & Engineering',icon:'⌬',zone:'prod', npcIco:'◕',npcNm:'J. Martín — Product Director',
+   intro:'"Could everyone give us a few minutes?" J. Martín says, clearing the room. "There are some things about our platform that should have been raised with privacy months ago. I want to walk you through them now."',
+   doors:[{r:18,c:5},{r:18,c:21}],lR:20,lC:9,locked:false},
+  {id:'ceo',  name:"Executive Office",     icon:'★',zone:'ceo',  npcIco:'●',npcNm:'K. Bergström — CEO',
+   intro:'"Sit down. I have been watching how you have handled this quarter. The board needs to know this company can survive a regulatory audit. That conclusion rests on the choices you have made."',
+   doors:[{r:7,c:13}], lR:3, lC:13, locked:true},
+];
+
+// ─── Game state ────────────────────────────────────────────
+let G={
+  name:'Trainee',pronouns:'',rep:100,score:0,cleared:0,
+  roomResults:{},scenarioIdx:{},currentRoom:null,crisisAnswered:false,
+};
+
+// ─── Navigation ────────────────────────────────────────────
+function goTo(id){document.querySelectorAll('.scr').forEach(s=>s.classList.remove('on'));document.getElementById(id).classList.add('on');window.scrollTo(0,0);}
+
+function startGame(){
+  G.name=document.getElementById('inp-name').value.trim()||'Trainee';
+  const ps=document.getElementById('inp-pron').value;
+  if(ps==='custom')G.pronouns=document.getElementById('inp-pron-custom').value.trim()||'';
+  else G.pronouns=ps||'';
+  G.rep=100;G.score=0;G.cleared=0;G.roomResults={};G.scenarioIdx={};
+  goTo('s-map');
+  initMap();
+}
+function restartGame(){startGame();}
+function showVault(){renderVault();goTo('s-vault');}
+
+ROOMS.find(r=>r.id==='mkt').doors=[{r:9,c:5}];
+ROOMS.find(r=>r.id==='it').doors=[{r:9,c:21}];
+
+// ─── Dashboard renderer ────────────────────────────────────
+function initMap(){
+  document.getElementById('dh-user').textContent=G.name+(G.pronouns?' · '+G.pronouns:'');
+  renderDash();
+  updateHUD();
+}
+function backToMap(){goTo('s-map');renderDash();updateHUD();}
+
+const CASE_FROM={
+  hr:'M. Okafor, People Ops',
+  it:'R. Lindqvist, CISO',
+  mkt:'S. Tanaka, Marketing',
+  legal:'A. Diallo, General Counsel',
+  prod:'J. Martín, Product'
+};
+
+function renderDash(){
+  const grid=document.getElementById('dash-grid');
+  grid.innerHTML=ROOMS.filter(r=>r.id!=='ceo').map(rm=>{
+    const n=SCENARIOS[rm.id]?.length||0;
+    const res=G.roomResults[rm.id];
+    const done=res?._done;
+    const idx=G.scenarioIdx[rm.id]||0;
+    const status=done?'Resolved':(idx>0?'In progress':'Awaiting review');
+    const meta=done?(res.correct+'/'+(res.correct+res.wrong)+' aligned')
+                   :(idx>0?(idx+'/'+n+' reviewed'):(n+' scenarios'));
+    const teaser=SCENARIOS[rm.id]?.[idx]?.title||'';
+    return `<button class="case-card cc-${rm.id} ${done?'done':''}" role="listitem" onclick="enterRoom(ROOMS.find(r=>r.id==='${rm.id}'))" aria-label="${rm.name} — ${status}">
+      <div class="cc-top">
+        <div class="cc-dept">${rm.name}</div>
+        <div class="cc-status">${status}</div>
+      </div>
+      <div class="cc-title">${teaser}</div>
+      <div class="cc-from">From: <b>${CASE_FROM[rm.id]}</b></div>
+      <div class="cc-foot"><div class="cc-meta">${meta}</div><div class="cc-arr">${done?'Review →':'Open brief →'}</div></div>
+    </button>`;
+  }).join('');
+  // CEO unlock
+  const ceoBtn=document.getElementById('dash-ceo');
+  const ceoS=document.getElementById('ceo-s');
+  if(G.cleared>=5){
+    ceoBtn.disabled=false;
+    ceoS.textContent='Unlocked — present your quarterly review to the CEO';
+  } else {
+    ceoBtn.disabled=true;
+    ceoS.textContent=`Locked — resolve all five departments to unlock (${G.cleared}/5 complete)`;
+  }
+}
+
+function tryCEO(){
+  if(G.cleared>=5)showFinale();
+}
+
+// ─── Room entry ────────────────────────────────────────────
+function enterRoom(rm){
+  if(rm.locked&&G.cleared<5){toast('🔒','CEO Office Locked',`Complete all 5 departments first. You have cleared ${G.cleared}/5.`);return;}
+  if(rm.id==='ceo'){showFinale();return;}
+  G.currentRoom=rm;
+  if(G.scenarioIdx[rm.id]===undefined)G.scenarioIdx[rm.id]=0;
+  document.getElementById('rm-icon').textContent=rm.icon;
+  document.getElementById('rm-name').textContent=rm.name;
+  // Monogram from "X. Surname" → "XS"
+  const m=rm.npcNm.match(/([A-Z])\.\s*([A-Z])/);
+  document.getElementById('npc-av').textContent=m?(m[1]+m[2]):rm.npcIco;
+  document.getElementById('npc-nm').textContent=rm.npcNm;
+  document.getElementById('npc-bubble').textContent=rm.intro;
+  goTo('s-room');
+}
+
+document.getElementById('s-room').addEventListener('click',()=>{if(G.currentRoom)showCrisis(G.currentRoom);});
+
+function showCrisis(rm){
+  const idx=G.scenarioIdx[rm.id]||0;
+  const sc=SCENARIOS[rm.id]?.[idx];
+  if(!sc){backToMap();return;}
+  G.crisisAnswered=false;
+  document.getElementById('ct-icon').textContent=rm.icon;
+  document.getElementById('ct-name').textContent=rm.name+' — Scenario '+(idx+1)+'/'+SCENARIOS[rm.id].length;
+  const sv=document.getElementById('ct-sev');
+  sv.textContent=sc.diff.toUpperCase();
+  sv.className='ct-sev sv-'+(sc.diff==='Hard'?'hard':sc.diff==='Medium'?'med':'easy');
+  document.getElementById('cr-case').textContent=sc.caseRef;
+  document.getElementById('cr-ctx').textContent=sc.ctx;
+  document.getElementById('cr-q').textContent=sc.q;
+  const cw=document.getElementById('cr-choices');
+  cw.innerHTML=sc.choices.map((ch,i)=>
+    `<button class="cbtn" onclick="answerCrisis(${i})">
+      <div class="cltr">${String.fromCharCode(65+i)}</div>
+      <div class="ctxt">${ch}</div>
+    </button>`).join('');
+  document.getElementById('outcome').className='outcome';
+  document.getElementById('xp-row').style.display='none';
+  document.getElementById('ref-btn').style.display='none';
+  document.getElementById('ref-detail').textContent=sc.ref;
+  document.getElementById('ref-detail').className='ref-detail';
+  document.getElementById('cont-btn').className='cont-btn';
+  goTo('s-crisis');
+  // Reset scroll position for new scenario
+  const cb=document.querySelector('#s-crisis .crisis-body');
+  if(cb)cb.scrollTop=0;
+}
+
+function answerCrisis(idx){
+  const rm=G.currentRoom;const si=G.scenarioIdx[rm.id]||0;
+  const sc=SCENARIOS[rm.id]?.[si];if(!sc||G.crisisAnswered)return;
+  G.crisisAnswered=true;
+  const ok=idx===sc.correct;
+  if(ok){G.score+=100;}else{G.rep=Math.max(0,G.rep-15);G.score+=20;}
+  if(!G.roomResults[rm.id])G.roomResults[rm.id]={correct:0,wrong:0};
+  G.roomResults[rm.id][ok?'correct':'wrong']++;
+
+  document.querySelectorAll('.cbtn').forEach((b,i)=>{
+    b.disabled=true;
+    if(i===sc.correct)b.className='cbtn correct';
+    else if(i===idx&&!ok)b.className='cbtn wrong';
+  });
+
+  const oc=document.getElementById('outcome');
+  oc.className='outcome '+(ok?'good':'bad')+' show';
+  document.getElementById('oc-ico').textContent=ok?'✅':'❌';
+  document.getElementById('oc-title').textContent=ok?sc.goodHead:'❌ Not quite right.';
+  document.getElementById('oc-msg').textContent=ok?sc.goodMsg:sc.badMsg;
+  const cc=document.getElementById('con-chain');
+  cc.innerHTML=!ok?sc.cons.map(c=>`<div class="con-row"><div class="con-arr">→</div><div>${c}</div></div>`).join(''):'';
+
+  const xp=document.getElementById('xp-row');
+  xp.textContent=ok?'⭐ +100 points — well handled':'📚 +20 points — every mistake teaches something';
+  xp.style.display='flex';
+
+  document.getElementById('ref-btn').style.display='flex';
+  document.getElementById('cont-btn').className='cont-btn show';
+
+  if(!ok)newsFlash(sc.cons[0]);
+  const v=VAULT.find(vv=>vv.id===rm.id);if(v&&!v.found)v.found=true;
+  updateHUD();
+}
+
+function skipCrisis(){
+  G.rep=Math.max(0,G.rep-5);
+  updateHUD();
+  toast('↩','Room skipped',`-5 Rep. You can return to ${G.currentRoom?.name||'this room'} later.`);
+  backToMap();
+}
+
+function afterCrisis(){
+  const rm=G.currentRoom;if(!rm)return;
+  const idx=G.scenarioIdx[rm.id]||0;
+  const next=idx+1;
+  if(SCENARIOS[rm.id]?.[next]){
+    G.scenarioIdx[rm.id]=next;showCrisis(rm);
+  } else {
+    if(!G.roomResults[rm.id])G.roomResults[rm.id]={correct:0,wrong:0};
+    if(!G.roomResults[rm.id]._done){
+      G.roomResults[rm.id]._done=true;
+      G.cleared=Object.values(G.roomResults).filter(r=>r._done).length;
+    }
+    const v=VAULT.find(vv=>vv.id===rm.id);
+    if(v)toast('📚','Room complete — vault updated',v.name+' unlocked.');
+    updateHUD();
+    if(G.cleared>=5)toast('🏆','All rooms cleared!','Head to the CEO\'s Office on the top level.');
+    backToMap();
+  }
+}
+
+function toggleRef(){
+  const el=document.getElementById('ref-detail');
+  const btn=document.getElementById('ref-btn');
+  el.classList.toggle('open');
+  btn.textContent=(el.classList.contains('open')?'▾':'▸')+' View legal reference';
+}
+
+// ─── Vault ─────────────────────────────────────────────────
+function renderVault(){
+  document.getElementById('vault-body').innerHTML=VAULT.map(v=>`
+    <div class="vcard ${v.found?'':'locked'}">
+      <div class="vcard-ico">${v.icon}</div>
+      <div style="flex:1">
+        <div class="vcard-name">${v.found?v.name:'Not yet unlocked'}</div>
+        <div class="vcard-plain">${v.found?v.plain:'Complete the related room to unlock this knowledge.'}</div>
+        ${v.found?`<button class="vtoggle" onclick="this.nextElementSibling.classList.toggle('open');this.textContent=this.nextElementSibling.classList.contains('open')?'▾ Hide detail':'▸ Full detail'">▸ Full detail</button><div class="vdetail">${v.detail}</div>`:''}
+      </div>
+    </div>`).join('');
+}
+
+// ─── Finale ────────────────────────────────────────────────
+function showFinale(){
+  cancelAnimationFrame(mapRaf);
+  const total=Object.values(SCENARIOS).flat().length;
+  const correct=Object.values(G.roomResults).reduce((s,r)=>s+(r.correct||0),0);
+  const pct=G.rep;const passed=pct>=60&&correct>=8;
+  document.getElementById('fin-ceo').textContent=passed?'★':'◐';
+  document.getElementById('fin-title').textContent=passed?'Audit Cleared':'Findings Require Remediation';
+  document.getElementById('fin-sub').textContent=passed
+    ?`${G.name}, the regulator's review concludes with no enforcement action. Your decisions held up under scrutiny.`
+    :`${G.name}, the regulator has identified material findings. Several decisions during the quarter would not survive enforcement review.`;
+  setTimeout(()=>{
+    const f=document.getElementById('rep-fill');
+    f.style.width=pct+'%';
+    f.style.background=pct>60?'linear-gradient(90deg,#1a7040,#40d080)':pct>30?'linear-gradient(90deg,#b08020,#d0b040)':'linear-gradient(90deg,#b02020,#e04040)';
+    document.getElementById('rep-val').textContent=pct+'%';
+  },200);
+  const vb=document.getElementById('vdict');vb.className='vdict '+(passed?'win':'lose');
+  document.getElementById('vd-ico').textContent=passed?'★':'◐';
+  document.getElementById('vd-head').textContent=passed?'Recommendation: Compliance role confirmed':'Recommendation: Additional training required';
+  document.getElementById('vd-body').textContent=passed
+    ?`${correct} of ${total} decisions aligned with regulator-confirmed positions. Standing held at ${pct}%. The board has noted your effective handling of the quarter.`
+    :`${correct} of ${total} decisions aligned with regulator positions. Standing fell to ${pct}%. The board recommends a structured re-training programme before further compliance responsibilities.`;
+  document.getElementById('f-rep').textContent=pct+'%';
+  document.getElementById('f-cor').textContent=correct+'/'+total;
+  document.getElementById('f-sc').textContent=G.score;
+  goTo('s-finale');
+}
+
+// ─── HUD / Toast / News ────────────────────────────────────
+function updateHUD(){
+  document.getElementById('hp-r').textContent='Cases resolved: '+G.cleared+' / 5';
+  const re=document.getElementById('hp-s');re.textContent='Standing: '+G.rep+'%';
+  re.style.color=G.rep>70?'#1a5a30':G.rep>40?'#7a4a00':'#8a1a1a';
+  document.getElementById('hp-x').textContent='Decision points: '+G.score;
+}
+let tT=null;
+function toast(ico,title,body){
+  document.getElementById('toast-ico').textContent=ico;
+  document.getElementById('toast-body').innerHTML=`<strong>${title}</strong><span> ${body}</span>`;
+  const t=document.getElementById('toast');t.classList.add('show');
+  clearTimeout(tT);tT=setTimeout(()=>t.classList.remove('show'),4500);
+}
+let nT=null;
+function newsFlash(txt){
+  document.getElementById('news-txt').textContent='BREAKING: '+txt;
+  const n=document.getElementById('news');n.classList.add('show');
+  clearTimeout(nT);nT=setTimeout(()=>n.classList.remove('show'),4200);
+}
+function fade(cb){if(cb)cb();} // legacy no-op
+
+// ─── Input ─────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded',()=>{
+  const sel=document.getElementById('inp-pron');
+  if(sel)sel.addEventListener('change',()=>{document.getElementById('inp-pron-custom').style.display=sel.value==='custom'?'block':'none';});
+});
+document.addEventListener('keydown',e=>{
+  // Escape returns from a room/crisis to dashboard
+  if(e.key==='Escape'){
+    const onCrisis=document.getElementById('s-crisis').classList.contains('on');
+    const onRoom=document.getElementById('s-room').classList.contains('on');
+    const onVault=document.getElementById('s-vault').classList.contains('on');
+    if(onCrisis||onRoom||onVault){backToMap();}
+  }
+});
+</script>
+</body>
+</html>
