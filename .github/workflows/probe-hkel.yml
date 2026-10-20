@@ -1,0 +1,36 @@
+name: Probe HK e-Legislation data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/probe_hkel.py'
+      - '.github/workflows/probe-hkel.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Probe
+        run: python scripts/probe_hkel.py
+
+      - name: Commit raw XML if any
+        run: |
+          git add data/hkel/raw || true
+          if git diff --cached --quiet; then
+            echo "Nothing saved."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Save raw HK e-Legislation XML from probe (automated)"
+          git push
