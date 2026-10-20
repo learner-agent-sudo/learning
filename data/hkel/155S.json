@@ -1206,19 +1206,22 @@
    "id": "sch1",
    "num": "Schedule 1",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch2",
    "num": "Schedule 2",
    "heading": "Specified Sovereign-owned Entity",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch3",
    "num": "Schedule 3",
    "heading": "Statutory Corporation Excluded from Meaning of Non-listed Company",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   }
  ]
 }

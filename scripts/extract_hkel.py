@@ -183,7 +183,7 @@ def parse(xml_bytes: bytes, cap: str) -> dict:
     doc = {
         "cap": cap,
         "title": squash("".join(short.itertext())) if short is not None else "",
-        "longTitle": squash(inline_text(long_title.find(NS + "content"))) if long_title is not None else "",
+        "longTitle": squash(inline_text(long_title)) if long_title is not None else "",
         "versionDate": meta.findtext(DC + "date") or "",
         "hkelUrl": f"https://www.elegislation.gov.hk/hk/cap{cap}",
         "indexOnly": not with_text,
@@ -210,7 +210,10 @@ def parse(xml_bytes: bytes, cap: str) -> dict:
             continue
         doc["sections"].append(unit(sec, part_of.get(sec.get("name")), with_text))
     for sch in schedules:
-        doc["schedules"].append(unit(sch, None, with_text))
+        entry = unit(sch, None, with_text)
+        # Schedules are often cited by inner section ("Sch. 2, s. 9").
+        entry["items"] = [unit(s, None, with_text) for s in sch.iter(NS + "section")]
+        doc["schedules"].append(entry)
 
     # Fall back to the document name when the short title is not marked up.
     if not doc["title"]:
@@ -263,12 +266,18 @@ def run_bundles() -> int:
                     member = member_for(names, cap)
                     if not member:
                         missing.append(cap)
-                        print(f"  ! Cap. {cap} not found in bundle")
+                        print(f"::warning::Cap. {cap} not found in bundle")
                         continue
-                    write(parse(zf.read(member), cap))
+                    # One malformed chapter must not block the others; the
+                    # previous extract stays in place and the run is flagged.
+                    try:
+                        write(parse(zf.read(member), cap))
+                    except Exception as err:  # noqa: BLE001
+                        missing.append(cap)
+                        print(f"::warning::Cap. {cap} failed to parse: {type(err).__name__}: {err}")
             zpath.unlink()
     if missing:
-        print(f"Not found: {', '.join(missing)}")
+        print(f"Not extracted: {', '.join(missing)}")
     return 0
 
 

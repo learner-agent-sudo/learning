@@ -5715,169 +5715,697 @@
    "id": "sch1",
    "num": "Schedule 1",
    "heading": "Specifications for Purposes of Certain Definitions in these Rules",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch1A",
    "num": "Schedule 1A",
    "heading": "Transactions and Contracts not Subject to CVA Risk Capital Charge",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Excepted transactions and contracts",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch1B",
    "num": "Schedule 1B",
    "heading": "Minimum Requirements to be Satisfied for Approval under Section 23D(2) of these Rules to Use Standardized CVA Approach",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "General requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Specific requirements relating to principles in determining CVA for each counterparty",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Additional requirements relating to exposure models",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch2",
    "num": "Schedule 2",
    "heading": "Minimum Requirements to be Satisfied for Approval under Section 8 of these Rules to Use IRB Approach",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "General requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Specific requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Meaning of parallel calculations",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch2A",
    "num": "Schedule 2A",
    "heading": "Minimum Requirements to be Satisfied for Approval under Section 10B(2)(a) of these Rules to Use IMM(CCR) Approach",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "General requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Specific requirements relating to relevant models",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Specific requirements relating to integrity of modelling process",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Specific requirements relating to stress-testing",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "Specific requirements relating to model validation",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "Additional requirements relating to relevant models that capture effects of margin agreements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch3",
    "num": "Schedule 3",
    "heading": "Minimum Requirements to be Satisfied for Approval under Section 18 of these Rules to Use IMA",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "General requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Additional requirements relating to use of relevant models to calculate default risk charge",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4",
    "num": "Schedule 4",
    "heading": "",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch4A",
    "num": "Schedule 4A",
    "heading": "Qualifying Criteria to be Met to be CET1 Capital",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "1",
+     "num": "1",
+     "heading": "Qualifying criteria",
+     "status": "in-effect"
+    },
+    {
+     "id": "2",
+     "num": "2",
+     "heading": "Provision supplementary to section 1(f) of this Schedule",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4B",
    "num": "Schedule 4B",
    "heading": "Qualifying Criteria to be Met to be Additional Tier 1 Capital",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Qualifying criteria",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Application of section 1(k) and (q) of this Schedule to capital instruments other than ordinary shares",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Section 1(ab), (s) and (t) of this Schedule not applicable to certain instruments",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Interpretation of certain expressions in section 1(q)(v) and (vi)",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4C",
    "num": "Schedule 4C",
    "heading": "Qualifying Criteria to be Met to be Tier 2 Capital",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Qualifying criteria",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Application of section 1(k) of this Schedule to capital instruments other than ordinary shares",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Section 1(ab), (m) and (n) of this Schedule not applicable to certain instruments",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Interpretation of certain expressions in section 1(k)(v) and (vi)",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4D",
    "num": "Schedule 4D",
    "heading": "Requirements to be Met for Minority Interests and Capital Instruments Issued by Consolidated Bank Subsidiaries and Held by Third Parties to be Included in Authorized Institution’s Capital Base",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation of Schedule 4D",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Minority interests and capital instruments",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Computation of applicable amount of minority interests for inclusion in authorized institution’s CET1 capital on consolidated basis",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Computation of applicable amount of minority interests and minority capital instruments for inclusion in authorized institution’s Tier 1 capital on consolidated basis",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "Computation of applicable amount of minority interests and minority capital instruments for inclusion in authorized institution’s Total capital on consolidated basis",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4E",
    "num": "Schedule 4E",
    "heading": "Deduction of Holdings of Own CET1 Capital Instruments, Additional Tier 1 Capital Instruments and Tier 2 Capital Instruments",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "1",
+     "num": "1",
+     "heading": "Deduction of holdings of own CET1 capital instruments, Additional Tier 1 capital instruments and Tier 2 capital instruments",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4F",
    "num": "Schedule 4F",
    "heading": "Deduction of Holdings where Authorized Institution has Insignificant LAC Investments in Financial Sector Entities that are outside Scope of Consolidation under Section 3C Requirement",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Deduction of holdings by resolution entity and material subsidiary",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Deduction of holdings by authorized institution, not being resolution entity or material subsidiary",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Calculation of insignificant LAC investments holdings",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "Undeducted insignificant LAC investments to be risk-weighted",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4G",
    "num": "Schedule 4G",
    "heading": "Deduction of Holdings where Authorized Institution has Significant LAC Investments in Financial Sector Entities that are outside Scope of Consolidation under Section 3C Requirement",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Deduction of holdings",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4H",
    "num": "Schedule 4H",
    "heading": "",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch5",
    "num": "Schedule 5",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch6",
    "num": "Schedule 6",
    "heading": "Credit Conversion Factors",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch7",
    "num": "Schedule 7",
    "heading": "Standard Supervisory Haircuts",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch8",
    "num": "Schedule 8",
    "heading": "",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch9",
    "num": "Schedule 9",
    "heading": "Requirements to be Satisfied for Traditional Securitization Transaction to be Eligible Traditional Securitization Transaction",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch10",
    "num": "Schedule 10",
    "heading": "Requirements to be Satisfied for Synthetic Securitization Transaction to be Eligible Synthetic Securitization Transaction",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Provisions supplementary to section 1(a)",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch10A",
    "num": "Schedule 10A",
    "heading": "Requirements Supplementary to Schedules 9 and 10",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Requirements in respect of clean-up calls",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Requirements in respect of early amortization provision",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch11",
    "num": "Schedule 11",
    "heading": "",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch12",
    "num": "Schedule 12",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch13",
    "num": "Schedule 13",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch14",
    "num": "Schedule 14",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch15",
    "num": "Schedule 15",
    "heading": "",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch16",
    "num": "Schedule 16",
    "heading": "Transitional Provisions for Banking (Capital) (Amendment) Rules 2020",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "CCP not using SA-CCR approach regarded as qualifying CCP in certain circumstances",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Exposures of clearing members to CCP regarded as qualifying CCP",
+     "status": "in-effect"
+    }
+   ]
   }
  ]
 }

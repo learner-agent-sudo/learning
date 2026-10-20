@@ -2491,102 +2491,848 @@
    "num": "First Schedule",
    "heading": "Specified Period and Specified Sums",
    "status": "in-effect",
-   "text": "1. 3 months.\n2. The sum for the purposes of section 14(1)(a) is $100,000 or an equivalent amount in any other currency.\n3. The sum for the purposes of section 14(1)(b) is $500,000 or an equivalent amount in any other currency."
+   "text": "1. 3 months.\n2. The sum for the purposes of section 14(1)(a) is $100,000 or an equivalent amount in any other currency.\n3. The sum for the purposes of section 14(1)(b) is $500,000 or an equivalent amount in any other currency.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "3 months."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The sum for the purposes of section 14(1)(a) is $100,000 or an equivalent amount in any other currency."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The sum for the purposes of section 14(1)(b) is $500,000 or an equivalent amount in any other currency."
+    }
+   ]
   },
   {
    "id": "sch2",
    "num": "Second Schedule",
    "heading": "Fees",
    "status": "in-effect",
-   "text": "$ 1. Banking licence fee (section 19(1)) 750,000 1A. Renewal of banking licence fee (section 19(2)) 750,000 2. Registration fee (section 19(1)) 180,000 3. Renewal of registration fee (section 19(2)) 180,000 4. Restricted banking licence fee (section 19(1)) 600,000 5. Renewal of restricted banking licence fee (section 19(2)) 600,000 6. Inspection fee (section 20(5)) 14 7. Fee for a copy or extract, per page (section 20(5)) 7 8. Fee for the establishment of a local branch of a bank, other than a restricted licence bank (section 45(1)) 36,000 9. Annual fee for maintaining a local branch of a bank, other than a restricted licence bank (section 45(1), (2) and (3)) 36,000 10. Fee for the establishment of a local branch of a restricted licence bank or deposit-taking company (section 45(1)) 20,000 11. Annual fee for maintaining a local branch of a restricted licence bank or deposit-taking company (section 45(1), (2) and (3)) 20,000 12. Fee for the establishment of a local representative office (section 48(1)) 36,000 13. Annual fee for maintaining a local representative office (section 48(1), (2), (3) and (4)) 36,000 14. Fee for the establishment of an overseas branch of a bank, other than a restricted licence bank (section 51(1)) 60,000 15. Annual fee for maintaining an overseas branch of a bank, other than a restricted licence bank (section 51(1) and (2)) 60,000 16. Fee for the establishment of an overseas branch of a restricted licence bank or deposit-taking company (section 51(1)) 40,000 17. Annual fee for maintaining an overseas branch of a restricted licence bank or deposit-taking company (section 51(1) and (2)) 40,000 18. Fee for the establishment of an overseas representative office of a bank, other than a restricted licence bank (section 51(1)) 18,000 19. Annual fee for maintaining an overseas representative office of a bank, other than a restricted licence bank (section 51(1) and (2)) 18,000 20. Fee for the establishment of an overseas representative office of a restricted licence bank or deposit-taking company (section 51(1)) 20,000 21. Annual fee for maintaining an overseas representative office of a restricted licence bank or deposit-taking company (section 51(1) and (2)) 20,000 22. Approved money broker fee (section 118F(1)) 68,000 23. Renewal of approved money broker fee (section 118F(2)) 68,000"
+   "text": "$ 1. Banking licence fee (section 19(1)) 750,000 1A. Renewal of banking licence fee (section 19(2)) 750,000 2. Registration fee (section 19(1)) 180,000 3. Renewal of registration fee (section 19(2)) 180,000 4. Restricted banking licence fee (section 19(1)) 600,000 5. Renewal of restricted banking licence fee (section 19(2)) 600,000 6. Inspection fee (section 20(5)) 14 7. Fee for a copy or extract, per page (section 20(5)) 7 8. Fee for the establishment of a local branch of a bank, other than a restricted licence bank (section 45(1)) 36,000 9. Annual fee for maintaining a local branch of a bank, other than a restricted licence bank (section 45(1), (2) and (3)) 36,000 10. Fee for the establishment of a local branch of a restricted licence bank or deposit-taking company (section 45(1)) 20,000 11. Annual fee for maintaining a local branch of a restricted licence bank or deposit-taking company (section 45(1), (2) and (3)) 20,000 12. Fee for the establishment of a local representative office (section 48(1)) 36,000 13. Annual fee for maintaining a local representative office (section 48(1), (2), (3) and (4)) 36,000 14. Fee for the establishment of an overseas branch of a bank, other than a restricted licence bank (section 51(1)) 60,000 15. Annual fee for maintaining an overseas branch of a bank, other than a restricted licence bank (section 51(1) and (2)) 60,000 16. Fee for the establishment of an overseas branch of a restricted licence bank or deposit-taking company (section 51(1)) 40,000 17. Annual fee for maintaining an overseas branch of a restricted licence bank or deposit-taking company (section 51(1) and (2)) 40,000 18. Fee for the establishment of an overseas representative office of a bank, other than a restricted licence bank (section 51(1)) 18,000 19. Annual fee for maintaining an overseas representative office of a bank, other than a restricted licence bank (section 51(1) and (2)) 18,000 20. Fee for the establishment of an overseas representative office of a restricted licence bank or deposit-taking company (section 51(1)) 20,000 21. Annual fee for maintaining an overseas representative office of a restricted licence bank or deposit-taking company (section 51(1) and (2)) 20,000 22. Approved money broker fee (section 118F(1)) 68,000 23. Renewal of approved money broker fee (section 118F(2)) 68,000",
+   "items": []
   },
   {
    "id": "sch3",
    "num": "Third Schedule",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch4",
    "num": "Fourth Schedule",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch5",
    "num": "Fifth Schedule",
    "heading": "Requirements Applicable to Prescribed Advertisements",
    "status": "in-effect",
-   "text": "1. Interpretation\n  (1) In this Schedule—\n    deposit-taker (接受存款人), in relation to a prescribed advertisement, means the person with whom the deposits which are invited by the advertisement are to be made;\n    full name (全名), in relation to a person, means the name under which that person carries on business and, if different and if that person is a body corporate, its corporate name;\n    liabilities (負債) includes provisions where such provisions have not been deducted from value of assets.\n  (2) A reference in this Schedule to the payment of interest in respect of a deposit includes a reference to the payment of any premium in respect of the deposit, and to the crediting of interest to the deposit so as to constitute an accretion to the principal.\n  (3) For the purposes of this Schedule, a prescribed advertisement which contains information which is intended or might reasonably be presumed to be intended to lead directly or indirectly to the making of a deposit shall be treated as if it contained an invitation to make a deposit, and references to an invitation to make a deposit shall be construed accordingly.\n2. Warning Every prescribed advertisement shall contain a prominent warning to the effect that the deposit-taker is not an authorized institution within the meaning of this Ordinance and is therefore not subject to the supervision of the Monetary Authority.\n3. General requirements for prescribed advertisements Every prescribed advertisement shall state—\n  (a) the full name of the deposit-taker;\n  (b) the country or territory in which the deposit-taker’s principal place of business is situated, described as such; and\n  (c) if the deposit-taker is a body corporate, the country or territory in which it is incorporated, described as such, unless this is the same as the country or territory referred to in sub-subparagraph (b).\n4. Assets and liabilities\n  (1) Every prescribed advertisement shall state the amount of the paid-up capital and reserves, described as such, of the deposit-taker (if a body corporate) or the amount of the total assets less liabilities, described as such, of the deposit-taker (if a person other than a body corporate).\n  (2) Where a prescribed advertisement contains any reference to the amount of the assets of the deposit-taker, it shall state the total amount of the deposit-taker’s liabilities, described as such, which statement shall be not less prominent than such reference.\n  (3) Subparagraphs (1) and (2) shall be treated as complied with if the prescribed advertisement states that the amount of any assets or paid-up capital and reserves required to be stated exceeds an amount specified in the advertisement or that the amount of any liabilities required to be stated does not exceed an amount so specified.\n  (4) A prescribed advertisement shall not contain any reference to the assets or liabilities of any person other than the deposit-taker.\n5. Deposit protection arrangements A prescribed advertisement shall not state or imply that the deposits which are invited or their repayment, or interest or the payment of interest in respect of them, will be guaranteed, secured, insured, or the subject of any other form of protection, unless it states—\n  (a) the form of the protection;\n  (b) the extent of the protection; and\n  (c) the full name of the person who will be liable to meet any claim by the depositor by virtue of the arrangements conferring the protection.\n6. Interest\n  (1) This paragraph applies to a prescribed advertisement which specifies the rate at which interest will be payable in respect of the deposits which are invited.\n  (2) Every prescribed advertisement to which this paragraph applies shall state—\n    (a) the minimum amount, if any, which must be deposited to earn that rate of interest;\n    (b) the period of time, if any, during which no interest will be payable;\n    (c) the minimum period of time, if any, during which a deposit must be retained by the deposit-taker in order to earn that rate of interest;\n    (d) the minimum period of notice, if any, which must be given before repayment may be required of a deposit earning that rate of interest; and\n    (e) the intervals at which the interest will be paid.\n  (3) If the rate of interest which is specified is not an annual rate of simple interest, the prescribed advertisement shall state the basis on which the rate will be calculated.\n  (4) If the rate of interest which is specified may be varied during the period for which the deposit will be held this shall be stated in the prescribed advertisement.\n  (5) If interest will or may not be paid in full at the rate which is specified, this shall be stated in the prescribed advertisement, and the advertisement shall state the nature and the amount of or rate of any deductions which will or may be made from the interest before payment.\n  (6) If the rate of interest which is specified is or may not be the rate at which interest will be payable in respect of the deposits on the date on which the prescribed advertisement is issued, this shall be stated in the advertisement, and the advertisement shall state the date on which interest was payable at the rate which is specified, such date being as close as is reasonably practicable to the date on which the advertisement is issued.\n  (7) If the prescribed advertisement specifies more than one rate of interest payable in respect of deposits of a particular amount, the advertisement shall contain the information required by any of subparagraphs (2) to (6) in relation to each such rate.\n  (8) Where different rates of interest apply to deposits of different amounts, the prescribed advertisement shall contain the information required by any of subparagraphs (2) to (6) in relation to each such rate.\n7. Currency Every prescribed advertisement shall state the currency in which the deposits are to be made.\n8. Supplementary provisions\n  (1) Subject to subparagraph (2), the matters required by this Schedule to be included in a prescribed advertisement shall be shown clearly and legibly or, in the case of an advertisement by way of sound broadcasting, spoken clearly.\n  (2) In the case of a prescribed advertisement by way of television or exhibition or cinematographic film, the matters required by this Schedule to be included shall be shown clearly and legibly or spoken clearly."
+   "text": "1. Interpretation\n  (1) In this Schedule—\n    deposit-taker (接受存款人), in relation to a prescribed advertisement, means the person with whom the deposits which are invited by the advertisement are to be made;\n    full name (全名), in relation to a person, means the name under which that person carries on business and, if different and if that person is a body corporate, its corporate name;\n    liabilities (負債) includes provisions where such provisions have not been deducted from value of assets.\n  (2) A reference in this Schedule to the payment of interest in respect of a deposit includes a reference to the payment of any premium in respect of the deposit, and to the crediting of interest to the deposit so as to constitute an accretion to the principal.\n  (3) For the purposes of this Schedule, a prescribed advertisement which contains information which is intended or might reasonably be presumed to be intended to lead directly or indirectly to the making of a deposit shall be treated as if it contained an invitation to make a deposit, and references to an invitation to make a deposit shall be construed accordingly.\n2. Warning Every prescribed advertisement shall contain a prominent warning to the effect that the deposit-taker is not an authorized institution within the meaning of this Ordinance and is therefore not subject to the supervision of the Monetary Authority.\n3. General requirements for prescribed advertisements Every prescribed advertisement shall state—\n  (a) the full name of the deposit-taker;\n  (b) the country or territory in which the deposit-taker’s principal place of business is situated, described as such; and\n  (c) if the deposit-taker is a body corporate, the country or territory in which it is incorporated, described as such, unless this is the same as the country or territory referred to in sub-subparagraph (b).\n4. Assets and liabilities\n  (1) Every prescribed advertisement shall state the amount of the paid-up capital and reserves, described as such, of the deposit-taker (if a body corporate) or the amount of the total assets less liabilities, described as such, of the deposit-taker (if a person other than a body corporate).\n  (2) Where a prescribed advertisement contains any reference to the amount of the assets of the deposit-taker, it shall state the total amount of the deposit-taker’s liabilities, described as such, which statement shall be not less prominent than such reference.\n  (3) Subparagraphs (1) and (2) shall be treated as complied with if the prescribed advertisement states that the amount of any assets or paid-up capital and reserves required to be stated exceeds an amount specified in the advertisement or that the amount of any liabilities required to be stated does not exceed an amount so specified.\n  (4) A prescribed advertisement shall not contain any reference to the assets or liabilities of any person other than the deposit-taker.\n5. Deposit protection arrangements A prescribed advertisement shall not state or imply that the deposits which are invited or their repayment, or interest or the payment of interest in respect of them, will be guaranteed, secured, insured, or the subject of any other form of protection, unless it states—\n  (a) the form of the protection;\n  (b) the extent of the protection; and\n  (c) the full name of the person who will be liable to meet any claim by the depositor by virtue of the arrangements conferring the protection.\n6. Interest\n  (1) This paragraph applies to a prescribed advertisement which specifies the rate at which interest will be payable in respect of the deposits which are invited.\n  (2) Every prescribed advertisement to which this paragraph applies shall state—\n    (a) the minimum amount, if any, which must be deposited to earn that rate of interest;\n    (b) the period of time, if any, during which no interest will be payable;\n    (c) the minimum period of time, if any, during which a deposit must be retained by the deposit-taker in order to earn that rate of interest;\n    (d) the minimum period of notice, if any, which must be given before repayment may be required of a deposit earning that rate of interest; and\n    (e) the intervals at which the interest will be paid.\n  (3) If the rate of interest which is specified is not an annual rate of simple interest, the prescribed advertisement shall state the basis on which the rate will be calculated.\n  (4) If the rate of interest which is specified may be varied during the period for which the deposit will be held this shall be stated in the prescribed advertisement.\n  (5) If interest will or may not be paid in full at the rate which is specified, this shall be stated in the prescribed advertisement, and the advertisement shall state the nature and the amount of or rate of any deductions which will or may be made from the interest before payment.\n  (6) If the rate of interest which is specified is or may not be the rate at which interest will be payable in respect of the deposits on the date on which the prescribed advertisement is issued, this shall be stated in the advertisement, and the advertisement shall state the date on which interest was payable at the rate which is specified, such date being as close as is reasonably practicable to the date on which the advertisement is issued.\n  (7) If the prescribed advertisement specifies more than one rate of interest payable in respect of deposits of a particular amount, the advertisement shall contain the information required by any of subparagraphs (2) to (6) in relation to each such rate.\n  (8) Where different rates of interest apply to deposits of different amounts, the prescribed advertisement shall contain the information required by any of subparagraphs (2) to (6) in relation to each such rate.\n7. Currency Every prescribed advertisement shall state the currency in which the deposits are to be made.\n8. Supplementary provisions\n  (1) Subject to subparagraph (2), the matters required by this Schedule to be included in a prescribed advertisement shall be shown clearly and legibly or, in the case of an advertisement by way of sound broadcasting, spoken clearly.\n  (2) In the case of a prescribed advertisement by way of television or exhibition or cinematographic film, the matters required by this Schedule to be included shall be shown clearly and legibly or spoken clearly.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation",
+     "status": "in-effect",
+     "text": "  (1) In this Schedule—\n    deposit-taker (接受存款人), in relation to a prescribed advertisement, means the person with whom the deposits which are invited by the advertisement are to be made;\n    full name (全名), in relation to a person, means the name under which that person carries on business and, if different and if that person is a body corporate, its corporate name;\n    liabilities (負債) includes provisions where such provisions have not been deducted from value of assets.\n  (2) A reference in this Schedule to the payment of interest in respect of a deposit includes a reference to the payment of any premium in respect of the deposit, and to the crediting of interest to the deposit so as to constitute an accretion to the principal.\n  (3) For the purposes of this Schedule, a prescribed advertisement which contains information which is intended or might reasonably be presumed to be intended to lead directly or indirectly to the making of a deposit shall be treated as if it contained an invitation to make a deposit, and references to an invitation to make a deposit shall be construed accordingly."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Warning",
+     "status": "in-effect",
+     "text": "Every prescribed advertisement shall contain a prominent warning to the effect that the deposit-taker is not an authorized institution within the meaning of this Ordinance and is therefore not subject to the supervision of the Monetary Authority."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "General requirements for prescribed advertisements",
+     "status": "in-effect",
+     "text": "Every prescribed advertisement shall state—\n  (a) the full name of the deposit-taker;\n  (b) the country or territory in which the deposit-taker’s principal place of business is situated, described as such; and\n  (c) if the deposit-taker is a body corporate, the country or territory in which it is incorporated, described as such, unless this is the same as the country or territory referred to in sub-subparagraph (b)."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Assets and liabilities",
+     "status": "in-effect",
+     "text": "  (1) Every prescribed advertisement shall state the amount of the paid-up capital and reserves, described as such, of the deposit-taker (if a body corporate) or the amount of the total assets less liabilities, described as such, of the deposit-taker (if a person other than a body corporate).\n  (2) Where a prescribed advertisement contains any reference to the amount of the assets of the deposit-taker, it shall state the total amount of the deposit-taker’s liabilities, described as such, which statement shall be not less prominent than such reference.\n  (3) Subparagraphs (1) and (2) shall be treated as complied with if the prescribed advertisement states that the amount of any assets or paid-up capital and reserves required to be stated exceeds an amount specified in the advertisement or that the amount of any liabilities required to be stated does not exceed an amount so specified.\n  (4) A prescribed advertisement shall not contain any reference to the assets or liabilities of any person other than the deposit-taker."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "Deposit protection arrangements",
+     "status": "in-effect",
+     "text": "A prescribed advertisement shall not state or imply that the deposits which are invited or their repayment, or interest or the payment of interest in respect of them, will be guaranteed, secured, insured, or the subject of any other form of protection, unless it states—\n  (a) the form of the protection;\n  (b) the extent of the protection; and\n  (c) the full name of the person who will be liable to meet any claim by the depositor by virtue of the arrangements conferring the protection."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "Interest",
+     "status": "in-effect",
+     "text": "  (1) This paragraph applies to a prescribed advertisement which specifies the rate at which interest will be payable in respect of the deposits which are invited.\n  (2) Every prescribed advertisement to which this paragraph applies shall state—\n    (a) the minimum amount, if any, which must be deposited to earn that rate of interest;\n    (b) the period of time, if any, during which no interest will be payable;\n    (c) the minimum period of time, if any, during which a deposit must be retained by the deposit-taker in order to earn that rate of interest;\n    (d) the minimum period of notice, if any, which must be given before repayment may be required of a deposit earning that rate of interest; and\n    (e) the intervals at which the interest will be paid.\n  (3) If the rate of interest which is specified is not an annual rate of simple interest, the prescribed advertisement shall state the basis on which the rate will be calculated.\n  (4) If the rate of interest which is specified may be varied during the period for which the deposit will be held this shall be stated in the prescribed advertisement.\n  (5) If interest will or may not be paid in full at the rate which is specified, this shall be stated in the prescribed advertisement, and the advertisement shall state the nature and the amount of or rate of any deductions which will or may be made from the interest before payment.\n  (6) If the rate of interest which is specified is or may not be the rate at which interest will be payable in respect of the deposits on the date on which the prescribed advertisement is issued, this shall be stated in the advertisement, and the advertisement shall state the date on which interest was payable at the rate which is specified, such date being as close as is reasonably practicable to the date on which the advertisement is issued.\n  (7) If the prescribed advertisement specifies more than one rate of interest payable in respect of deposits of a particular amount, the advertisement shall contain the information required by any of subparagraphs (2) to (6) in relation to each such rate.\n  (8) Where different rates of interest apply to deposits of different amounts, the prescribed advertisement shall contain the information required by any of subparagraphs (2) to (6) in relation to each such rate."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "Currency",
+     "status": "in-effect",
+     "text": "Every prescribed advertisement shall state the currency in which the deposits are to be made."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "Supplementary provisions",
+     "status": "in-effect",
+     "text": "  (1) Subject to subparagraph (2), the matters required by this Schedule to be included in a prescribed advertisement shall be shown clearly and legibly or, in the case of an advertisement by way of sound broadcasting, spoken clearly.\n  (2) In the case of a prescribed advertisement by way of television or exhibition or cinematographic film, the matters required by this Schedule to be included shall be shown clearly and legibly or spoken clearly."
+    }
+   ]
   },
   {
    "id": "sch6",
    "num": "Sixth Schedule",
    "heading": "Specified Instruments",
    "status": "in-effect",
-   "text": "1. Any certificate of deposit, being a document—\n  (a) relating to money, in any currency, which has been deposited with the issuer or some other person;\n  (b) which recognizes an obligation to pay a stated amount to bearer, with or without interest; and\n  (c) by the delivery of which, with or without endorsement, the right to receive that stated amount, with or without interest, is transferable.\n2. Any instrument, other than a bill of exchange within the meaning of section 3 of the Bills of Exchange Ordinance (Cap. 19) or a promissory note within the meaning of section 89 of the Bills of Exchange Ordinance (Cap. 19), being a document evidencing an obligation to pay a stated or determinable amount to bearer or to order, with or without interest, being an instrument by the delivery of which, with or without endorsement, the right to receive that stated or determinable amount, with or without interest, is transferable."
+   "text": "1. Any certificate of deposit, being a document—\n  (a) relating to money, in any currency, which has been deposited with the issuer or some other person;\n  (b) which recognizes an obligation to pay a stated amount to bearer, with or without interest; and\n  (c) by the delivery of which, with or without endorsement, the right to receive that stated amount, with or without interest, is transferable.\n2. Any instrument, other than a bill of exchange within the meaning of section 3 of the Bills of Exchange Ordinance (Cap. 19) or a promissory note within the meaning of section 89 of the Bills of Exchange Ordinance (Cap. 19), being a document evidencing an obligation to pay a stated or determinable amount to bearer or to order, with or without interest, being an instrument by the delivery of which, with or without endorsement, the right to receive that stated or determinable amount, with or without interest, is transferable.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Any certificate of deposit, being a document—\n  (a) relating to money, in any currency, which has been deposited with the issuer or some other person;\n  (b) which recognizes an obligation to pay a stated amount to bearer, with or without interest; and\n  (c) by the delivery of which, with or without endorsement, the right to receive that stated amount, with or without interest, is transferable."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Any instrument, other than a bill of exchange within the meaning of section 3 of the Bills of Exchange Ordinance (Cap. 19) or a promissory note within the meaning of section 89 of the Bills of Exchange Ordinance (Cap. 19), being a document evidencing an obligation to pay a stated or determinable amount to bearer or to order, with or without interest, being an instrument by the delivery of which, with or without endorsement, the right to receive that stated or determinable amount, with or without interest, is transferable."
+    }
+   ]
   },
   {
    "id": "sch7",
    "num": "Seventh Schedule",
    "heading": "Minimum Criteria for Authorization",
    "status": "in-effect",
-   "text": "1.\n  (1) In this Schedule—\n    adequate (足夠), in relation to systems of control, includes operating effectively;\n    controller (控權人) includes a minority shareholder controller;\n    net debit balance (借方淨差額), in relation to a company, means the aggregate of the excess of accumulated losses over accumulated profits disclosed in the profit and loss account, and other reserves separately disclosed in the balance sheet, of the most recent audited accounts of the company;\n    system of control (管控制度) includes procedures.\n  (2) For the purposes of the calculation of the paid-up share capital of a company required by this Schedule, there shall be deducted from such share capital any net debit balance.\n  (3) For the avoidance of doubt, it is hereby declared that where pursuant to the provisions of this Schedule the Monetary Authority holds an opinion, or is satisfied, in relation to any matter, his holding that opinion or being so satisfied, as the case may be, shall not of itself bind the Monetary Authority—\n    (a) to continue to hold that opinion or to be so satisfied, as the case may be, whether before, on or after the authorization, if any, of the company to which the matter directly or indirectly relates (including any case where that company is seeking a different authorization); or\n    (b) to hold any similar opinion or to be similarly satisfied, as the case may be, in respect of any similar matter which directly or indirectly relates to any other company seeking or having the same or a different authorization from that first-mentioned company.\n  (4) Without prejudice to the generality of subparagraph (3), the Monetary Authority may regard the Authority as being satisfied in relation to any matter in respect of which the Authority may be satisfied pursuant to the provisions of this Schedule where—\n    (a) the matter directly or indirectly relates to a company incorporated outside Hong Kong that is not a re-domiciled entity;\n    (b) the relevant banking supervisory authority informs the Monetary Authority that it is satisfied in relation to that matter; and\n    (c) the Monetary Authority is satisfied as to the scope and nature of the supervision exercised by that authority.\n  (5) For the avoidance of doubt, it is hereby declared that subparagraph (4) shall operate before, on and after the authorization, if any, of the company to which any matter referred to in that subparagraph directly or indirectly relates.\n  (6)\n2. If the company is incorporated outside Hong Kong but is not a re-domiciled entity, it is a bank—\n  (a) as defined in section 46(9); and\n  (b) in respect of which the Monetary Authority is satisfied that it is adequately supervised by the relevant banking supervisory authority.\n3. The Monetary Authority is satisfied that he knows the identity of each controller of the company.\n4. If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be, a director, controller, chief executive or executive officer of the company is a fit and proper person to hold the particular position which that person holds or is to hold.\n5. If the company is incorporated outside Hong Kong but is not a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be—\n  (a) a chief executive, or executive officer, of the business in Hong Kong of the company;\n  (b) a director, controller or chief executive of the business of the company in the place where it is incorporated,\nis a fit and proper person to hold the particular position which that person holds or is to hold.\n5A. The Monetary Authority is satisfied that the company has, and will if it is authorized continue to have, adequate systems of control to ensure that each person who is, or is to be, a manager of the company is a fit and proper person to hold the particular position which he holds or is to hold.\n6. The Monetary Authority is satisfied that the company presently has, and will if it is authorized continue to have, adequate financial resources (whether actual or contingent) for the nature and scale of its operations and, without prejudice to the generality of the foregoing—\n  *(a) in the case of a company seeking authorization to carry on banking business in Hong Kong, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $300,000,000 or an equivalent amount in any other approved currency;\n  (b) in the case of a company seeking authorization to carry on a deposit-taking business as a deposit-taking company, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $25,000,000 or an equivalent amount in any other approved currency;\n  (c) in the case of a company seeking authorization to carry on a deposit-taking business as a restricted licence bank, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $100,000,000 or an equivalent amount in any other approved currency;\n  (d) in the case of a company that is incorporated in Hong Kong or is a re-domiciled entity, the company, if it is authorized, will on and after authorization comply with the rules made under section 97C(1) applicable to it.\n  (e)\n7. The Monetary Authority is satisfied that the company—\n  (a) presently maintains, and will if it is authorized continue to maintain, adequate liquidity to meet its obligations as they will or may fall due; and\n  (b) without prejudice to the generality of sub-subparagraph (a), if it is authorized, will on and after authorization comply with the rules made under section 97H(1) applicable to it.\n8. The Monetary Authority is satisfied that the company, if it is authorized, will on and after authorization comply with the provisions of Part XV, and the provisions of the rules made under that Part, applicable to it.\n9. The Monetary Authority is satisfied that the company presently maintains, and will if it is authorized continue to maintain, adequate provision for depreciation or diminution in the value of its assets (including provision for bad and doubtful debts), for liabilities which will or may fall to be discharged by it and for losses which will or may occur.\n10. The Monetary Authority is satisfied that the company presently has, and will if it is authorized continue to have, adequate accounting systems and adequate systems of control.\n11. If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that it presently discloses, and will if it is authorized continue to disclose, adequate information—\n  (a) in relation to the state of its affairs, including its profit and loss and its financial resources (including capital resources and liquidity resources); and\n  (b) in—\n    (i) its audited annual accounts within the meaning of section 60(11);\n    (ii) any supplementary information to those audited annual accounts;\n    (iii) the report of the directors under section 388 of the Companies Ordinance (Cap. 622); and\n    (iv) the institution’s cash flow statement, together with any notes thereon, where the statement does not already form part of those audited annual accounts.\n12. The Monetary Authority is satisfied that the business (including any business which is not banking business or the business of taking deposits) of the company is presently, and will if it is authorized continue to be, carried on—\n  (a) with integrity, prudence and the appropriate degree of professional competence; and\n  (b) in a manner which is not detrimental, or likely to be detrimental, to the interests of depositors or potential depositors.\n13. If the company seeking authorization to carry on banking business in Hong Kong is a company incorporated in a place outside Hong Kong but is not a re-domiciled entity, either—\n  (a) there is, in the opinion of the Monetary Authority, an acceptable degree of reciprocity in respect of banks incorporated in Hong Kong seeking to carry on banking business in that place; or\n  (b) that place is, or is part of the territory of, a member of the World Trade Organization."
+   "text": "1.\n  (1) In this Schedule—\n    adequate (足夠), in relation to systems of control, includes operating effectively;\n    controller (控權人) includes a minority shareholder controller;\n    net debit balance (借方淨差額), in relation to a company, means the aggregate of the excess of accumulated losses over accumulated profits disclosed in the profit and loss account, and other reserves separately disclosed in the balance sheet, of the most recent audited accounts of the company;\n    system of control (管控制度) includes procedures.\n  (2) For the purposes of the calculation of the paid-up share capital of a company required by this Schedule, there shall be deducted from such share capital any net debit balance.\n  (3) For the avoidance of doubt, it is hereby declared that where pursuant to the provisions of this Schedule the Monetary Authority holds an opinion, or is satisfied, in relation to any matter, his holding that opinion or being so satisfied, as the case may be, shall not of itself bind the Monetary Authority—\n    (a) to continue to hold that opinion or to be so satisfied, as the case may be, whether before, on or after the authorization, if any, of the company to which the matter directly or indirectly relates (including any case where that company is seeking a different authorization); or\n    (b) to hold any similar opinion or to be similarly satisfied, as the case may be, in respect of any similar matter which directly or indirectly relates to any other company seeking or having the same or a different authorization from that first-mentioned company.\n  (4) Without prejudice to the generality of subparagraph (3), the Monetary Authority may regard the Authority as being satisfied in relation to any matter in respect of which the Authority may be satisfied pursuant to the provisions of this Schedule where—\n    (a) the matter directly or indirectly relates to a company incorporated outside Hong Kong that is not a re-domiciled entity;\n    (b) the relevant banking supervisory authority informs the Monetary Authority that it is satisfied in relation to that matter; and\n    (c) the Monetary Authority is satisfied as to the scope and nature of the supervision exercised by that authority.\n  (5) For the avoidance of doubt, it is hereby declared that subparagraph (4) shall operate before, on and after the authorization, if any, of the company to which any matter referred to in that subparagraph directly or indirectly relates.\n  (6)\n2. If the company is incorporated outside Hong Kong but is not a re-domiciled entity, it is a bank—\n  (a) as defined in section 46(9); and\n  (b) in respect of which the Monetary Authority is satisfied that it is adequately supervised by the relevant banking supervisory authority.\n3. The Monetary Authority is satisfied that he knows the identity of each controller of the company.\n4. If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be, a director, controller, chief executive or executive officer of the company is a fit and proper person to hold the particular position which that person holds or is to hold.\n5. If the company is incorporated outside Hong Kong but is not a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be—\n  (a) a chief executive, or executive officer, of the business in Hong Kong of the company;\n  (b) a director, controller or chief executive of the business of the company in the place where it is incorporated,\nis a fit and proper person to hold the particular position which that person holds or is to hold.\n5A. The Monetary Authority is satisfied that the company has, and will if it is authorized continue to have, adequate systems of control to ensure that each person who is, or is to be, a manager of the company is a fit and proper person to hold the particular position which he holds or is to hold.\n6. The Monetary Authority is satisfied that the company presently has, and will if it is authorized continue to have, adequate financial resources (whether actual or contingent) for the nature and scale of its operations and, without prejudice to the generality of the foregoing—\n  *(a) in the case of a company seeking authorization to carry on banking business in Hong Kong, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $300,000,000 or an equivalent amount in any other approved currency;\n  (b) in the case of a company seeking authorization to carry on a deposit-taking business as a deposit-taking company, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $25,000,000 or an equivalent amount in any other approved currency;\n  (c) in the case of a company seeking authorization to carry on a deposit-taking business as a restricted licence bank, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $100,000,000 or an equivalent amount in any other approved currency;\n  (d) in the case of a company that is incorporated in Hong Kong or is a re-domiciled entity, the company, if it is authorized, will on and after authorization comply with the rules made under section 97C(1) applicable to it.\n  (e)\n7. The Monetary Authority is satisfied that the company—\n  (a) presently maintains, and will if it is authorized continue to maintain, adequate liquidity to meet its obligations as they will or may fall due; and\n  (b) without prejudice to the generality of sub-subparagraph (a), if it is authorized, will on and after authorization comply with the rules made under section 97H(1) applicable to it.\n8. The Monetary Authority is satisfied that the company, if it is authorized, will on and after authorization comply with the provisions of Part XV, and the provisions of the rules made under that Part, applicable to it.\n9. The Monetary Authority is satisfied that the company presently maintains, and will if it is authorized continue to maintain, adequate provision for depreciation or diminution in the value of its assets (including provision for bad and doubtful debts), for liabilities which will or may fall to be discharged by it and for losses which will or may occur.\n10. The Monetary Authority is satisfied that the company presently has, and will if it is authorized continue to have, adequate accounting systems and adequate systems of control.\n11. If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that it presently discloses, and will if it is authorized continue to disclose, adequate information—\n  (a) in relation to the state of its affairs, including its profit and loss and its financial resources (including capital resources and liquidity resources); and\n  (b) in—\n    (i) its audited annual accounts within the meaning of section 60(11);\n    (ii) any supplementary information to those audited annual accounts;\n    (iii) the report of the directors under section 388 of the Companies Ordinance (Cap. 622); and\n    (iv) the institution’s cash flow statement, together with any notes thereon, where the statement does not already form part of those audited annual accounts.\n12. The Monetary Authority is satisfied that the business (including any business which is not banking business or the business of taking deposits) of the company is presently, and will if it is authorized continue to be, carried on—\n  (a) with integrity, prudence and the appropriate degree of professional competence; and\n  (b) in a manner which is not detrimental, or likely to be detrimental, to the interests of depositors or potential depositors.\n13. If the company seeking authorization to carry on banking business in Hong Kong is a company incorporated in a place outside Hong Kong but is not a re-domiciled entity, either—\n  (a) there is, in the opinion of the Monetary Authority, an acceptable degree of reciprocity in respect of banks incorporated in Hong Kong seeking to carry on banking business in that place; or\n  (b) that place is, or is part of the territory of, a member of the World Trade Organization.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "  (1) In this Schedule—\n    adequate (足夠), in relation to systems of control, includes operating effectively;\n    controller (控權人) includes a minority shareholder controller;\n    net debit balance (借方淨差額), in relation to a company, means the aggregate of the excess of accumulated losses over accumulated profits disclosed in the profit and loss account, and other reserves separately disclosed in the balance sheet, of the most recent audited accounts of the company;\n    system of control (管控制度) includes procedures.\n  (2) For the purposes of the calculation of the paid-up share capital of a company required by this Schedule, there shall be deducted from such share capital any net debit balance.\n  (3) For the avoidance of doubt, it is hereby declared that where pursuant to the provisions of this Schedule the Monetary Authority holds an opinion, or is satisfied, in relation to any matter, his holding that opinion or being so satisfied, as the case may be, shall not of itself bind the Monetary Authority—\n    (a) to continue to hold that opinion or to be so satisfied, as the case may be, whether before, on or after the authorization, if any, of the company to which the matter directly or indirectly relates (including any case where that company is seeking a different authorization); or\n    (b) to hold any similar opinion or to be similarly satisfied, as the case may be, in respect of any similar matter which directly or indirectly relates to any other company seeking or having the same or a different authorization from that first-mentioned company.\n  (4) Without prejudice to the generality of subparagraph (3), the Monetary Authority may regard the Authority as being satisfied in relation to any matter in respect of which the Authority may be satisfied pursuant to the provisions of this Schedule where—\n    (a) the matter directly or indirectly relates to a company incorporated outside Hong Kong that is not a re-domiciled entity;\n    (b) the relevant banking supervisory authority informs the Monetary Authority that it is satisfied in relation to that matter; and\n    (c) the Monetary Authority is satisfied as to the scope and nature of the supervision exercised by that authority.\n  (5) For the avoidance of doubt, it is hereby declared that subparagraph (4) shall operate before, on and after the authorization, if any, of the company to which any matter referred to in that subparagraph directly or indirectly relates.\n  (6)"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company is incorporated outside Hong Kong but is not a re-domiciled entity, it is a bank—\n  (a) as defined in section 46(9); and\n  (b) in respect of which the Monetary Authority is satisfied that it is adequately supervised by the relevant banking supervisory authority."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that he knows the identity of each controller of the company."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be, a director, controller, chief executive or executive officer of the company is a fit and proper person to hold the particular position which that person holds or is to hold."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company is incorporated outside Hong Kong but is not a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be—\n  (a) a chief executive, or executive officer, of the business in Hong Kong of the company;\n  (b) a director, controller or chief executive of the business of the company in the place where it is incorporated,\nis a fit and proper person to hold the particular position which that person holds or is to hold."
+    },
+    {
+     "id": "s5A",
+     "num": "5A",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company has, and will if it is authorized continue to have, adequate systems of control to ensure that each person who is, or is to be, a manager of the company is a fit and proper person to hold the particular position which he holds or is to hold."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company presently has, and will if it is authorized continue to have, adequate financial resources (whether actual or contingent) for the nature and scale of its operations and, without prejudice to the generality of the foregoing—\n  *(a) in the case of a company seeking authorization to carry on banking business in Hong Kong, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $300,000,000 or an equivalent amount in any other approved currency;\n  (b) in the case of a company seeking authorization to carry on a deposit-taking business as a deposit-taking company, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $25,000,000 or an equivalent amount in any other approved currency;\n  (c) in the case of a company seeking authorization to carry on a deposit-taking business as a restricted licence bank, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $100,000,000 or an equivalent amount in any other approved currency;\n  (d) in the case of a company that is incorporated in Hong Kong or is a re-domiciled entity, the company, if it is authorized, will on and after authorization comply with the rules made under section 97C(1) applicable to it.\n  (e)"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company—\n  (a) presently maintains, and will if it is authorized continue to maintain, adequate liquidity to meet its obligations as they will or may fall due; and\n  (b) without prejudice to the generality of sub-subparagraph (a), if it is authorized, will on and after authorization comply with the rules made under section 97H(1) applicable to it."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company, if it is authorized, will on and after authorization comply with the provisions of Part XV, and the provisions of the rules made under that Part, applicable to it."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company presently maintains, and will if it is authorized continue to maintain, adequate provision for depreciation or diminution in the value of its assets (including provision for bad and doubtful debts), for liabilities which will or may fall to be discharged by it and for losses which will or may occur."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company presently has, and will if it is authorized continue to have, adequate accounting systems and adequate systems of control."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that it presently discloses, and will if it is authorized continue to disclose, adequate information—\n  (a) in relation to the state of its affairs, including its profit and loss and its financial resources (including capital resources and liquidity resources); and\n  (b) in—\n    (i) its audited annual accounts within the meaning of section 60(11);\n    (ii) any supplementary information to those audited annual accounts;\n    (iii) the report of the directors under section 388 of the Companies Ordinance (Cap. 622); and\n    (iv) the institution’s cash flow statement, together with any notes thereon, where the statement does not already form part of those audited annual accounts."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the business (including any business which is not banking business or the business of taking deposits) of the company is presently, and will if it is authorized continue to be, carried on—\n  (a) with integrity, prudence and the appropriate degree of professional competence; and\n  (b) in a manner which is not detrimental, or likely to be detrimental, to the interests of depositors or potential depositors."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company seeking authorization to carry on banking business in Hong Kong is a company incorporated in a place outside Hong Kong but is not a re-domiciled entity, either—\n  (a) there is, in the opinion of the Monetary Authority, an acceptable degree of reciprocity in respect of banks incorporated in Hong Kong seeking to carry on banking business in that place; or\n  (b) that place is, or is part of the territory of, a member of the World Trade Organization."
+    }
+   ]
   },
   {
    "id": "sch8",
    "num": "Eighth Schedule",
    "heading": "Grounds for Revocation of Authorization",
    "status": "in-effect",
-   "text": "1.\n  In this Schedule, controller (控權人) includes a minority shareholder controller.\n*2. The Monetary Authority is satisfied that, if the authorized institution were not authorized and were to make an application under section 15 for authorization in respect of the business referred to in that section presently being carried on by it, section 16(2) would prohibit him from so authorizing it (but excluding the criteria specified in paragraphs 2(b) and 13 of the Seventh Schedule).\n3. The Monetary Authority is satisfied that the authorized institution proposes to make, or has made, any composition or arrangement with its creditors or is insolvent or is being or has been wound up or is otherwise dissolved.\n4. The authorized institution has made a report to the Monetary Authority under section 67 that it is likely to become unable to meet its obligations or is about to suspend payment or the Monetary Authority is satisfied that the institution is so unable or has suspended payment.\n5. The Monetary Authority is satisfied that the authorized institution has not provided him, whether before or after being authorized, with such information of a material nature relating to it, and to any circumstances likely to affect its method of business, as is required under this Ordinance.\n6. The Monetary Authority is satisfied that the authorized institution has provided him, whether before or after being authorized, with information which is, to a material extent, false, misleading or inaccurate, and whether or not such information was so provided pursuant to a requirement under this Ordinance.\n7. The Monetary Authority is satisfied that the authorized institution has contravened any condition attached under section 16 of this Ordinance to its authorization.\n8. The Monetary Authority is satisfied that the authorized institution has—\n  (a) in the case of a bank, ceased to carry on banking business;\n  (b) in any other case, ceased to carry on a business of taking deposits.\n9. The objects of the authorized institution as stated in its memorandum and articles of association or other document constituting the company no longer include the object of—\n  (a) in the case of a bank, carrying on banking business;\n  (b) in any other case, carrying on a business of taking deposits.\n10. The authorized institution has failed to pay any fee required by section 19 to be paid by it after being advised in writing by the Monetary Authority that it is contravening that section.\n11. The authorized institution has failed to comply with any requirement under section 60 applicable to it after being advised in writing by the Monetary Authority that it is contravening that section.\n12. In the case of an authorized institution which is a deposit-taking company or restricted licence bank, the institution has contravened section 14(1) or (3).\n13. A person has become a controller of the authorized institution after having been served with a notice of objection, within the meaning of section 70, objecting to his becoming such a controller.\n14. A person continues to be a controller of the authorized institution after having been served with a notice of objection, within the meaning of section 70 or 70A, objecting to his being such a controller.\n15. A person has become or continues to be a chief executive or director of the authorized institution in contravention of section 71.\n15A. A person has become or continues to be an executive officer of the authorized institution in contravention of section 71C.\n16. The authorized institution is in contravention of section 74.\n17. The authorized institution engages in business practices specified in a notice under section 82(1).\n18. The Monetary Authority is satisfied that the interests of depositors or potential depositors of the authorized institution are in any other manner threatened by the institution continuing to be authorized.\n19. The authorized institution requests in writing the Monetary Authority to revoke its authorization and the Monetary Authority is satisfied that the interests of depositors of the institution are or will be adequately safeguarded if he complies with that request.\n20. The Monetary Authority is satisfied that the authorized institution engages in business practices which would be likely to prejudice the interests of Hong Kong as an international financial centre.\n21. The authorized institution has failed to comply with any requirement under the Deposit Protection Scheme Ordinance (Cap. 581) applicable to the institution.\n22. The authorized institution contravenes section 43C(1)."
+   "text": "1.\n  In this Schedule, controller (控權人) includes a minority shareholder controller.\n*2. The Monetary Authority is satisfied that, if the authorized institution were not authorized and were to make an application under section 15 for authorization in respect of the business referred to in that section presently being carried on by it, section 16(2) would prohibit him from so authorizing it (but excluding the criteria specified in paragraphs 2(b) and 13 of the Seventh Schedule).\n3. The Monetary Authority is satisfied that the authorized institution proposes to make, or has made, any composition or arrangement with its creditors or is insolvent or is being or has been wound up or is otherwise dissolved.\n4. The authorized institution has made a report to the Monetary Authority under section 67 that it is likely to become unable to meet its obligations or is about to suspend payment or the Monetary Authority is satisfied that the institution is so unable or has suspended payment.\n5. The Monetary Authority is satisfied that the authorized institution has not provided him, whether before or after being authorized, with such information of a material nature relating to it, and to any circumstances likely to affect its method of business, as is required under this Ordinance.\n6. The Monetary Authority is satisfied that the authorized institution has provided him, whether before or after being authorized, with information which is, to a material extent, false, misleading or inaccurate, and whether or not such information was so provided pursuant to a requirement under this Ordinance.\n7. The Monetary Authority is satisfied that the authorized institution has contravened any condition attached under section 16 of this Ordinance to its authorization.\n8. The Monetary Authority is satisfied that the authorized institution has—\n  (a) in the case of a bank, ceased to carry on banking business;\n  (b) in any other case, ceased to carry on a business of taking deposits.\n9. The objects of the authorized institution as stated in its memorandum and articles of association or other document constituting the company no longer include the object of—\n  (a) in the case of a bank, carrying on banking business;\n  (b) in any other case, carrying on a business of taking deposits.\n10. The authorized institution has failed to pay any fee required by section 19 to be paid by it after being advised in writing by the Monetary Authority that it is contravening that section.\n11. The authorized institution has failed to comply with any requirement under section 60 applicable to it after being advised in writing by the Monetary Authority that it is contravening that section.\n12. In the case of an authorized institution which is a deposit-taking company or restricted licence bank, the institution has contravened section 14(1) or (3).\n13. A person has become a controller of the authorized institution after having been served with a notice of objection, within the meaning of section 70, objecting to his becoming such a controller.\n14. A person continues to be a controller of the authorized institution after having been served with a notice of objection, within the meaning of section 70 or 70A, objecting to his being such a controller.\n15. A person has become or continues to be a chief executive or director of the authorized institution in contravention of section 71.\n15A. A person has become or continues to be an executive officer of the authorized institution in contravention of section 71C.\n16. The authorized institution is in contravention of section 74.\n17. The authorized institution engages in business practices specified in a notice under section 82(1).\n18. The Monetary Authority is satisfied that the interests of depositors or potential depositors of the authorized institution are in any other manner threatened by the institution continuing to be authorized.\n19. The authorized institution requests in writing the Monetary Authority to revoke its authorization and the Monetary Authority is satisfied that the interests of depositors of the institution are or will be adequately safeguarded if he complies with that request.\n20. The Monetary Authority is satisfied that the authorized institution engages in business practices which would be likely to prejudice the interests of Hong Kong as an international financial centre.\n21. The authorized institution has failed to comply with any requirement under the Deposit Protection Scheme Ordinance (Cap. 581) applicable to the institution.\n22. The authorized institution contravenes section 43C(1).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "  In this Schedule, controller (控權人) includes a minority shareholder controller."
+    },
+    {
+     "id": "s2",
+     "num": "*2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that, if the authorized institution were not authorized and were to make an application under section 15 for authorization in respect of the business referred to in that section presently being carried on by it, section 16(2) would prohibit him from so authorizing it (but excluding the criteria specified in paragraphs 2(b) and 13 of the Seventh Schedule)."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the authorized institution proposes to make, or has made, any composition or arrangement with its creditors or is insolvent or is being or has been wound up or is otherwise dissolved."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution has made a report to the Monetary Authority under section 67 that it is likely to become unable to meet its obligations or is about to suspend payment or the Monetary Authority is satisfied that the institution is so unable or has suspended payment."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the authorized institution has not provided him, whether before or after being authorized, with such information of a material nature relating to it, and to any circumstances likely to affect its method of business, as is required under this Ordinance."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the authorized institution has provided him, whether before or after being authorized, with information which is, to a material extent, false, misleading or inaccurate, and whether or not such information was so provided pursuant to a requirement under this Ordinance."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the authorized institution has contravened any condition attached under section 16 of this Ordinance to its authorization."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the authorized institution has—\n  (a) in the case of a bank, ceased to carry on banking business;\n  (b) in any other case, ceased to carry on a business of taking deposits."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The objects of the authorized institution as stated in its memorandum and articles of association or other document constituting the company no longer include the object of—\n  (a) in the case of a bank, carrying on banking business;\n  (b) in any other case, carrying on a business of taking deposits."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution has failed to pay any fee required by section 19 to be paid by it after being advised in writing by the Monetary Authority that it is contravening that section."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution has failed to comply with any requirement under section 60 applicable to it after being advised in writing by the Monetary Authority that it is contravening that section."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an authorized institution which is a deposit-taking company or restricted licence bank, the institution has contravened section 14(1) or (3)."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person has become a controller of the authorized institution after having been served with a notice of objection, within the meaning of section 70, objecting to his becoming such a controller."
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person continues to be a controller of the authorized institution after having been served with a notice of objection, within the meaning of section 70 or 70A, objecting to his being such a controller."
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person has become or continues to be a chief executive or director of the authorized institution in contravention of section 71."
+    },
+    {
+     "id": "s15A",
+     "num": "15A",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person has become or continues to be an executive officer of the authorized institution in contravention of section 71C."
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution is in contravention of section 74."
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution engages in business practices specified in a notice under section 82(1)."
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the interests of depositors or potential depositors of the authorized institution are in any other manner threatened by the institution continuing to be authorized."
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution requests in writing the Monetary Authority to revoke its authorization and the Monetary Authority is satisfied that the interests of depositors of the institution are or will be adequately safeguarded if he complies with that request."
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the authorized institution engages in business practices which would be likely to prejudice the interests of Hong Kong as an international financial centre."
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution has failed to comply with any requirement under the Deposit Protection Scheme Ordinance (Cap. 581) applicable to the institution."
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The authorized institution contravenes section 43C(1)."
+    }
+   ]
   },
   {
    "id": "sch9",
    "num": "Ninth Schedule",
    "heading": "Powers of Manager of Authorized Institution",
    "status": "in-effect",
-   "text": "1. Power to take possession of, collect and get in the property of the institution and, for that purpose, to take such proceedings as may seem to him expedient.\n2. Power to purchase property for the institution.\n3. Power to sell or otherwise dispose of the business or property of the institution by public auction or private contract.\n4. Power to raise or borrow money and grant security therefor over the business or property of the institution.\n5. Power to appoint a solicitor or accountant or other professionally qualified person to act for the institution.\n6. Power to exercise any voting rights in respect of any shares which—\n  (a) in the case of an authorized institution incorporated in Hong Kong, are owned by the institution;\n  (b) in the case of an authorized institution incorporated outside Hong Kong, are an asset of the institution’s principal place of business in Hong Kong or of any local branch or local office.\n7. Power to bring or defend any action or other legal proceedings in the name and on behalf of the institution.\n8. Power to give guarantees in the name and on behalf of the institution.\n9. Power to refer to arbitration any question affecting the institution.\n10. Power to effect and maintain insurances in respect of the business or property of the institution.\n11. Power to use the institution’s seal.\n12. Power to do all acts and to execute in the name and on behalf of the institution any deed, receipt or other document, including power to enter into, carry out, assign or accept the assignment of, vary or rescind, any contract, agreement or other obligation.\n13. Power to draw, accept, make and endorse any bill of exchange or promissory note in the name and on behalf of the institution.\n14. Power to appoint any agent to do any business which he is unable to do himself or which can more conveniently be done by an agent and power to employ, direct and dismiss employees.\n15. Power to do all such things (including the carrying out of works) as may be necessary for the realisation of the property of the institution.\n16. Power to make any payment which is necessary or incidental to the performance of his duties and the exercise of his powers.\n17. Power to carry on the business of the institution.\n18. Power to grant or accept a surrender of a lease or tenancy of any of the property of the institution, and to take a lease or tenancy of any property required or convenient for the business of the institution.\n19. Power to make any arrangement or compromise on behalf of the institution.\n20. Power to call up any uncalled capital of the institution.\n21. Power to rank and claim in the bankruptcy, insolvency, sequestration or liquidation of any person indebted to the institution and to receive dividends, and to accede to trust deeds for the creditors of any such person.\n22. Power to change the situation of the institution’s business office.\n23. Power to do all other things incidental to the exercise of the powers specified in this Schedule."
+   "text": "1. Power to take possession of, collect and get in the property of the institution and, for that purpose, to take such proceedings as may seem to him expedient.\n2. Power to purchase property for the institution.\n3. Power to sell or otherwise dispose of the business or property of the institution by public auction or private contract.\n4. Power to raise or borrow money and grant security therefor over the business or property of the institution.\n5. Power to appoint a solicitor or accountant or other professionally qualified person to act for the institution.\n6. Power to exercise any voting rights in respect of any shares which—\n  (a) in the case of an authorized institution incorporated in Hong Kong, are owned by the institution;\n  (b) in the case of an authorized institution incorporated outside Hong Kong, are an asset of the institution’s principal place of business in Hong Kong or of any local branch or local office.\n7. Power to bring or defend any action or other legal proceedings in the name and on behalf of the institution.\n8. Power to give guarantees in the name and on behalf of the institution.\n9. Power to refer to arbitration any question affecting the institution.\n10. Power to effect and maintain insurances in respect of the business or property of the institution.\n11. Power to use the institution’s seal.\n12. Power to do all acts and to execute in the name and on behalf of the institution any deed, receipt or other document, including power to enter into, carry out, assign or accept the assignment of, vary or rescind, any contract, agreement or other obligation.\n13. Power to draw, accept, make and endorse any bill of exchange or promissory note in the name and on behalf of the institution.\n14. Power to appoint any agent to do any business which he is unable to do himself or which can more conveniently be done by an agent and power to employ, direct and dismiss employees.\n15. Power to do all such things (including the carrying out of works) as may be necessary for the realisation of the property of the institution.\n16. Power to make any payment which is necessary or incidental to the performance of his duties and the exercise of his powers.\n17. Power to carry on the business of the institution.\n18. Power to grant or accept a surrender of a lease or tenancy of any of the property of the institution, and to take a lease or tenancy of any property required or convenient for the business of the institution.\n19. Power to make any arrangement or compromise on behalf of the institution.\n20. Power to call up any uncalled capital of the institution.\n21. Power to rank and claim in the bankruptcy, insolvency, sequestration or liquidation of any person indebted to the institution and to receive dividends, and to accede to trust deeds for the creditors of any such person.\n22. Power to change the situation of the institution’s business office.\n23. Power to do all other things incidental to the exercise of the powers specified in this Schedule.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to take possession of, collect and get in the property of the institution and, for that purpose, to take such proceedings as may seem to him expedient."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to purchase property for the institution."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to sell or otherwise dispose of the business or property of the institution by public auction or private contract."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to raise or borrow money and grant security therefor over the business or property of the institution."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to appoint a solicitor or accountant or other professionally qualified person to act for the institution."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to exercise any voting rights in respect of any shares which—\n  (a) in the case of an authorized institution incorporated in Hong Kong, are owned by the institution;\n  (b) in the case of an authorized institution incorporated outside Hong Kong, are an asset of the institution’s principal place of business in Hong Kong or of any local branch or local office."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to bring or defend any action or other legal proceedings in the name and on behalf of the institution."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to give guarantees in the name and on behalf of the institution."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to refer to arbitration any question affecting the institution."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to effect and maintain insurances in respect of the business or property of the institution."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to use the institution’s seal."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to do all acts and to execute in the name and on behalf of the institution any deed, receipt or other document, including power to enter into, carry out, assign or accept the assignment of, vary or rescind, any contract, agreement or other obligation."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to draw, accept, make and endorse any bill of exchange or promissory note in the name and on behalf of the institution."
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to appoint any agent to do any business which he is unable to do himself or which can more conveniently be done by an agent and power to employ, direct and dismiss employees."
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to do all such things (including the carrying out of works) as may be necessary for the realisation of the property of the institution."
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to make any payment which is necessary or incidental to the performance of his duties and the exercise of his powers."
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to carry on the business of the institution."
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to grant or accept a surrender of a lease or tenancy of any of the property of the institution, and to take a lease or tenancy of any property required or convenient for the business of the institution."
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to make any arrangement or compromise on behalf of the institution."
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to call up any uncalled capital of the institution."
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to rank and claim in the bankruptcy, insolvency, sequestration or liquidation of any person indebted to the institution and to receive dividends, and to accede to trust deeds for the creditors of any such person."
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to change the situation of the institution’s business office."
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Power to do all other things incidental to the exercise of the powers specified in this Schedule."
+    }
+   ]
   },
   {
    "id": "sch10",
    "num": "Tenth Schedule",
    "heading": "",
-   "status": "repealed"
+   "status": "repealed",
+   "items": []
   },
   {
    "id": "sch11",
    "num": "Eleventh Schedule",
    "heading": "Minimum Criteria for Approval as Money Broker",
    "status": "in-effect",
-   "text": "1.\n  (1) In this Schedule—\n    adequate (足夠), in relation to systems of control, includes operating effectively;\n    controller (控權人) includes a minority shareholder controller;\n    net debit balance (借方淨差額), in relation to a company, means the aggregate of the excess of accumulated losses over accumulated profits disclosed in the profit and loss account, and other reserves separately disclosed in the balance sheet, of the most recent audited accounts of the company;\n    systems of control (管控制度) includes procedures.\n  (2) For the purpose of the calculation of the paid-up share capital of a company required by this Schedule, there shall be deducted from such share capital any net debit balance.\n  (3) For the avoidance of doubt, it is hereby declared that where pursuant to the provisions of this Schedule the Monetary Authority holds an opinion, or is satisfied, in relation to any matter, his holding that opinion or being so satisfied, as the case may be, shall not of itself bind the Monetary Authority—\n    (a) to continue to hold that opinion or to be so satisfied, as the case may be, whether before, on or after the approval, if any, of the company to which the matter directly or indirectly relates; or\n    (b) to hold any similar opinion or to be similarly satisfied, as the case may be, in respect of any similar matter which directly or indirectly relates to any other company seeking approval.\n  (4) Without prejudice to the generality of subparagraph (3), the Monetary Authority may regard the Authority as being satisfied in relation to any matter in respect of which the Authority may be satisfied pursuant to the provisions of this Schedule where—\n    (a) the matter directly or indirectly relates to a company incorporated outside Hong Kong that is not a re-domiciled entity;\n    (b) the relevant money broker supervisory authority informs the Monetary Authority that it is satisfied in relation to that matter; and\n    (c) the Monetary Authority is satisfied as to the scope and nature of the supervision exercised by that authority.\n  (5) For the avoidance of doubt, it is hereby declared that subparagraph (4) shall operate before, on and after the approval, if any, of the company to which any matter referred to in that subparagraph directly or indirectly relates.\n2. The Monetary Authority is satisfied that he knows the identity of each controller of the company.\n3. If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be, a director, controller or chief executive of the company is a fit and proper person to hold the particular position which he holds or is to hold.\n4. If the company is incorporated outside Hong Kong but is not a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be—\n  (a) a chief executive of the business in Hong Kong of the company;\n  (b) a director, controller or chief executive of the business of the company in the place where it is incorporated,\nis a fit and proper person to hold the particular position which that person holds or is to hold.\n5. The Monetary Authority is satisfied that the company presently has, and will if it is approved continue to have, adequate financial resources (whether actual or contingent) for the nature and scale of its operations and, without prejudice to the generality of the foregoing, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $5,000,000 or an equivalent amount in any other approved currency.\n6. The Monetary Authority is satisfied that the company presently has, and will if it is approved continue to have, adequate accounting systems and adequate systems of control.\n7. The Monetary Authority is satisfied that the business of the company is presently, and will if it is approved continue to be, carried on with integrity, prudence and the appropriate degree of professional competence."
+   "text": "1.\n  (1) In this Schedule—\n    adequate (足夠), in relation to systems of control, includes operating effectively;\n    controller (控權人) includes a minority shareholder controller;\n    net debit balance (借方淨差額), in relation to a company, means the aggregate of the excess of accumulated losses over accumulated profits disclosed in the profit and loss account, and other reserves separately disclosed in the balance sheet, of the most recent audited accounts of the company;\n    systems of control (管控制度) includes procedures.\n  (2) For the purpose of the calculation of the paid-up share capital of a company required by this Schedule, there shall be deducted from such share capital any net debit balance.\n  (3) For the avoidance of doubt, it is hereby declared that where pursuant to the provisions of this Schedule the Monetary Authority holds an opinion, or is satisfied, in relation to any matter, his holding that opinion or being so satisfied, as the case may be, shall not of itself bind the Monetary Authority—\n    (a) to continue to hold that opinion or to be so satisfied, as the case may be, whether before, on or after the approval, if any, of the company to which the matter directly or indirectly relates; or\n    (b) to hold any similar opinion or to be similarly satisfied, as the case may be, in respect of any similar matter which directly or indirectly relates to any other company seeking approval.\n  (4) Without prejudice to the generality of subparagraph (3), the Monetary Authority may regard the Authority as being satisfied in relation to any matter in respect of which the Authority may be satisfied pursuant to the provisions of this Schedule where—\n    (a) the matter directly or indirectly relates to a company incorporated outside Hong Kong that is not a re-domiciled entity;\n    (b) the relevant money broker supervisory authority informs the Monetary Authority that it is satisfied in relation to that matter; and\n    (c) the Monetary Authority is satisfied as to the scope and nature of the supervision exercised by that authority.\n  (5) For the avoidance of doubt, it is hereby declared that subparagraph (4) shall operate before, on and after the approval, if any, of the company to which any matter referred to in that subparagraph directly or indirectly relates.\n2. The Monetary Authority is satisfied that he knows the identity of each controller of the company.\n3. If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be, a director, controller or chief executive of the company is a fit and proper person to hold the particular position which he holds or is to hold.\n4. If the company is incorporated outside Hong Kong but is not a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be—\n  (a) a chief executive of the business in Hong Kong of the company;\n  (b) a director, controller or chief executive of the business of the company in the place where it is incorporated,\nis a fit and proper person to hold the particular position which that person holds or is to hold.\n5. The Monetary Authority is satisfied that the company presently has, and will if it is approved continue to have, adequate financial resources (whether actual or contingent) for the nature and scale of its operations and, without prejudice to the generality of the foregoing, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $5,000,000 or an equivalent amount in any other approved currency.\n6. The Monetary Authority is satisfied that the company presently has, and will if it is approved continue to have, adequate accounting systems and adequate systems of control.\n7. The Monetary Authority is satisfied that the business of the company is presently, and will if it is approved continue to be, carried on with integrity, prudence and the appropriate degree of professional competence.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "  (1) In this Schedule—\n    adequate (足夠), in relation to systems of control, includes operating effectively;\n    controller (控權人) includes a minority shareholder controller;\n    net debit balance (借方淨差額), in relation to a company, means the aggregate of the excess of accumulated losses over accumulated profits disclosed in the profit and loss account, and other reserves separately disclosed in the balance sheet, of the most recent audited accounts of the company;\n    systems of control (管控制度) includes procedures.\n  (2) For the purpose of the calculation of the paid-up share capital of a company required by this Schedule, there shall be deducted from such share capital any net debit balance.\n  (3) For the avoidance of doubt, it is hereby declared that where pursuant to the provisions of this Schedule the Monetary Authority holds an opinion, or is satisfied, in relation to any matter, his holding that opinion or being so satisfied, as the case may be, shall not of itself bind the Monetary Authority—\n    (a) to continue to hold that opinion or to be so satisfied, as the case may be, whether before, on or after the approval, if any, of the company to which the matter directly or indirectly relates; or\n    (b) to hold any similar opinion or to be similarly satisfied, as the case may be, in respect of any similar matter which directly or indirectly relates to any other company seeking approval.\n  (4) Without prejudice to the generality of subparagraph (3), the Monetary Authority may regard the Authority as being satisfied in relation to any matter in respect of which the Authority may be satisfied pursuant to the provisions of this Schedule where—\n    (a) the matter directly or indirectly relates to a company incorporated outside Hong Kong that is not a re-domiciled entity;\n    (b) the relevant money broker supervisory authority informs the Monetary Authority that it is satisfied in relation to that matter; and\n    (c) the Monetary Authority is satisfied as to the scope and nature of the supervision exercised by that authority.\n  (5) For the avoidance of doubt, it is hereby declared that subparagraph (4) shall operate before, on and after the approval, if any, of the company to which any matter referred to in that subparagraph directly or indirectly relates."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that he knows the identity of each controller of the company."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company is incorporated in Hong Kong or is a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be, a director, controller or chief executive of the company is a fit and proper person to hold the particular position which he holds or is to hold."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "If the company is incorporated outside Hong Kong but is not a re-domiciled entity, the Monetary Authority is satisfied that each person who is, or is to be—\n  (a) a chief executive of the business in Hong Kong of the company;\n  (b) a director, controller or chief executive of the business of the company in the place where it is incorporated,\nis a fit and proper person to hold the particular position which that person holds or is to hold."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company presently has, and will if it is approved continue to have, adequate financial resources (whether actual or contingent) for the nature and scale of its operations and, without prejudice to the generality of the foregoing, the aggregate amount of its paid-up share capital and the balance of its share premium account (if any) is not less than $5,000,000 or an equivalent amount in any other approved currency."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the company presently has, and will if it is approved continue to have, adequate accounting systems and adequate systems of control."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the business of the company is presently, and will if it is approved continue to be, carried on with integrity, prudence and the appropriate degree of professional competence."
+    }
+   ]
   },
   {
    "id": "sch12",
    "num": "Twelfth Schedule",
    "heading": "Grounds for Revocation of Approval of Money Broker",
    "status": "in-effect",
-   "text": "1. The Monetary Authority is satisfied that, if the approved money broker were not approved and were to make an application under section 118B for approval, section 118C(2) would prohibit him from approving it.\n2. The Monetary Authority is satisfied that the approved money broker has not provided him, whether before or after being approved, with such information of a material nature relating to it, and to any circumstances likely to affect its method of business, as is required under this Ordinance.\n3. The Monetary Authority is satisfied that the approved money broker has provided him, whether before or after being approved, with information which is, to a material extent, false, misleading or inaccurate, and whether or not such information was so provided pursuant to a requirement under this Ordinance.\n4. The Monetary Authority is satisfied that the approved money broker has contravened any condition attached under section 118C to its certificate of approval.\n5. The Monetary Authority is satisfied that the approved money broker has ceased to act as a money broker.\n6. The approved money broker has failed to pay any fee required by section 118F to be paid by it after being advised in writing by the Monetary Authority that it is contravening that section.\n7. The approved money broker requests in writing the Monetary Authority to revoke its approval.\n8. The Monetary Authority is satisfied that the approved money broker engages in business practices which would be likely to prejudice the interests of Hong Kong as an international financial centre.\n9. The approved money broker contravenes section 43C(1)."
+   "text": "1. The Monetary Authority is satisfied that, if the approved money broker were not approved and were to make an application under section 118B for approval, section 118C(2) would prohibit him from approving it.\n2. The Monetary Authority is satisfied that the approved money broker has not provided him, whether before or after being approved, with such information of a material nature relating to it, and to any circumstances likely to affect its method of business, as is required under this Ordinance.\n3. The Monetary Authority is satisfied that the approved money broker has provided him, whether before or after being approved, with information which is, to a material extent, false, misleading or inaccurate, and whether or not such information was so provided pursuant to a requirement under this Ordinance.\n4. The Monetary Authority is satisfied that the approved money broker has contravened any condition attached under section 118C to its certificate of approval.\n5. The Monetary Authority is satisfied that the approved money broker has ceased to act as a money broker.\n6. The approved money broker has failed to pay any fee required by section 118F to be paid by it after being advised in writing by the Monetary Authority that it is contravening that section.\n7. The approved money broker requests in writing the Monetary Authority to revoke its approval.\n8. The Monetary Authority is satisfied that the approved money broker engages in business practices which would be likely to prejudice the interests of Hong Kong as an international financial centre.\n9. The approved money broker contravenes section 43C(1).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that, if the approved money broker were not approved and were to make an application under section 118B for approval, section 118C(2) would prohibit him from approving it."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the approved money broker has not provided him, whether before or after being approved, with such information of a material nature relating to it, and to any circumstances likely to affect its method of business, as is required under this Ordinance."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the approved money broker has provided him, whether before or after being approved, with information which is, to a material extent, false, misleading or inaccurate, and whether or not such information was so provided pursuant to a requirement under this Ordinance."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the approved money broker has contravened any condition attached under section 118C to its certificate of approval."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the approved money broker has ceased to act as a money broker."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The approved money broker has failed to pay any fee required by section 118F to be paid by it after being advised in writing by the Monetary Authority that it is contravening that section."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The approved money broker requests in writing the Monetary Authority to revoke its approval."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The Monetary Authority is satisfied that the approved money broker engages in business practices which would be likely to prejudice the interests of Hong Kong as an international financial centre."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The approved money broker contravenes section 43C(1)."
+    }
+   ]
   },
   {
    "id": "sch13",
    "num": "Thirteenth Schedule",
    "heading": "Level of Fines for Offences",
    "status": "in-effect",
-   "text": "Tier 1 $4,000 Tier 2 $10,000 Tier 3 $20,000 Tier 4 $50,000 Tier 5 $100,000 Tier 6 $200,000 Tier 7 $400,000 Tier 8 $1,000,000 Tier 9 $2,000,000"
+   "text": "Tier 1 $4,000 Tier 2 $10,000 Tier 3 $20,000 Tier 4 $50,000 Tier 5 $100,000 Tier 6 $200,000 Tier 7 $400,000 Tier 8 $1,000,000 Tier 9 $2,000,000",
+   "items": []
   },
   {
    "id": "sch14",
    "num": "Fourteenth Schedule",
    "heading": "Affairs or Business of Authorized Institutions Specified for Purposes of Definition of Manager",
    "status": "in-effect",
-   "text": "1. In this Schedule—\n  banking or other financial services (銀行或其他財務服務) includes—\n    (a) the taking of deposits;\n    (b) the provision of payment and remittance services;\n    (c) the issue of credit cards, debit cards or stored value facilities;\n    (d) the provision of facilities for the purchase or sale of foreign currencies, securities or other financial instruments;\n    (da) the carrying on of a regulated stablecoin activity;\n    (e) the provision of financial advice;\n    (f) the incurring of exposures in connection with—\n      (i) the extension of credit;\n      (ii) the provision of guarantees; or\n      (iii) the undertaking of other off-balance sheet exposures; and\n    (g) the entry into contracts of a financial nature;\n  corporate banking (公司銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to companies, but does not include such services so provided as part of the institution’s retail banking;\n  institutional banking (機構銀行業務), in relation to an authorized institution, means the provision by the institution of banking and other financial services to authorized institutions, banks incorporated outside Hong Kong which are not authorized institutions or other financial institutions;\n  international banking (國際銀行業務), in relation to an authorized institution incorporated in Hong Kong, means the provision of banking or other financial services through overseas offices or subsidiaries of the institution;\n  private banking (私人銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to individuals who are considered by the institution to be of high net worth, but does not include such services so provided as part of the institution’s retail banking;\n  retail banking (零售銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to individuals, firms, partnerships, unincorporated businesses or companies;\n  treasury (財政管理), in relation to an authorized institution, means the management by the institution of the liquidity and funding of the institution and the trading of foreign currencies, securities or other financial instruments.\n2. The carrying on of business of any of the following descriptions or of any of their equivalents within an authorized institution—\n  (a) retail banking;\n  (b) private banking;\n  (c) corporate banking;\n  (d) international banking;\n  (e) institutional banking;\n  (f) treasury; or\n  (g) any other business which is material to the institution.\n3. The maintenance of the accounts or the accounting systems of an authorized institution.\n4. The maintenance of systems of control of an authorized institution, including those systems intended to manage the risks of the institution.\n5. The maintenance of systems of control of an authorized institution to protect it against involvement in money laundering.\n6. The development, operation and maintenance of computer systems for an authorized institution.\n7. The conduct of internal audits or inspections of the institution’s affairs or business.\n8. The function of ensuring that an authorized institution complies with laws, regulations or guidelines that are applicable to it."
+   "text": "1. In this Schedule—\n  banking or other financial services (銀行或其他財務服務) includes—\n    (a) the taking of deposits;\n    (b) the provision of payment and remittance services;\n    (c) the issue of credit cards, debit cards or stored value facilities;\n    (d) the provision of facilities for the purchase or sale of foreign currencies, securities or other financial instruments;\n    (da) the carrying on of a regulated stablecoin activity;\n    (e) the provision of financial advice;\n    (f) the incurring of exposures in connection with—\n      (i) the extension of credit;\n      (ii) the provision of guarantees; or\n      (iii) the undertaking of other off-balance sheet exposures; and\n    (g) the entry into contracts of a financial nature;\n  corporate banking (公司銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to companies, but does not include such services so provided as part of the institution’s retail banking;\n  institutional banking (機構銀行業務), in relation to an authorized institution, means the provision by the institution of banking and other financial services to authorized institutions, banks incorporated outside Hong Kong which are not authorized institutions or other financial institutions;\n  international banking (國際銀行業務), in relation to an authorized institution incorporated in Hong Kong, means the provision of banking or other financial services through overseas offices or subsidiaries of the institution;\n  private banking (私人銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to individuals who are considered by the institution to be of high net worth, but does not include such services so provided as part of the institution’s retail banking;\n  retail banking (零售銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to individuals, firms, partnerships, unincorporated businesses or companies;\n  treasury (財政管理), in relation to an authorized institution, means the management by the institution of the liquidity and funding of the institution and the trading of foreign currencies, securities or other financial instruments.\n2. The carrying on of business of any of the following descriptions or of any of their equivalents within an authorized institution—\n  (a) retail banking;\n  (b) private banking;\n  (c) corporate banking;\n  (d) international banking;\n  (e) institutional banking;\n  (f) treasury; or\n  (g) any other business which is material to the institution.\n3. The maintenance of the accounts or the accounting systems of an authorized institution.\n4. The maintenance of systems of control of an authorized institution, including those systems intended to manage the risks of the institution.\n5. The maintenance of systems of control of an authorized institution to protect it against involvement in money laundering.\n6. The development, operation and maintenance of computer systems for an authorized institution.\n7. The conduct of internal audits or inspections of the institution’s affairs or business.\n8. The function of ensuring that an authorized institution complies with laws, regulations or guidelines that are applicable to it.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In this Schedule—\n  banking or other financial services (銀行或其他財務服務) includes—\n    (a) the taking of deposits;\n    (b) the provision of payment and remittance services;\n    (c) the issue of credit cards, debit cards or stored value facilities;\n    (d) the provision of facilities for the purchase or sale of foreign currencies, securities or other financial instruments;\n    (da) the carrying on of a regulated stablecoin activity;\n    (e) the provision of financial advice;\n    (f) the incurring of exposures in connection with—\n      (i) the extension of credit;\n      (ii) the provision of guarantees; or\n      (iii) the undertaking of other off-balance sheet exposures; and\n    (g) the entry into contracts of a financial nature;\n  corporate banking (公司銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to companies, but does not include such services so provided as part of the institution’s retail banking;\n  institutional banking (機構銀行業務), in relation to an authorized institution, means the provision by the institution of banking and other financial services to authorized institutions, banks incorporated outside Hong Kong which are not authorized institutions or other financial institutions;\n  international banking (國際銀行業務), in relation to an authorized institution incorporated in Hong Kong, means the provision of banking or other financial services through overseas offices or subsidiaries of the institution;\n  private banking (私人銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to individuals who are considered by the institution to be of high net worth, but does not include such services so provided as part of the institution’s retail banking;\n  retail banking (零售銀行業務), in relation to an authorized institution, means the provision by the institution of banking or other financial services to individuals, firms, partnerships, unincorporated businesses or companies;\n  treasury (財政管理), in relation to an authorized institution, means the management by the institution of the liquidity and funding of the institution and the trading of foreign currencies, securities or other financial instruments."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The carrying on of business of any of the following descriptions or of any of their equivalents within an authorized institution—\n  (a) retail banking;\n  (b) private banking;\n  (c) corporate banking;\n  (d) international banking;\n  (e) institutional banking;\n  (f) treasury; or\n  (g) any other business which is material to the institution."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The maintenance of the accounts or the accounting systems of an authorized institution."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The maintenance of systems of control of an authorized institution, including those systems intended to manage the risks of the institution."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The maintenance of systems of control of an authorized institution to protect it against involvement in money laundering."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The development, operation and maintenance of computer systems for an authorized institution."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The conduct of internal audits or inspections of the institution’s affairs or business."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The function of ensuring that an authorized institution complies with laws, regulations or guidelines that are applicable to it."
+    }
+   ]
   },
   {
    "id": "sch15",
    "num": "Fifteenth Schedule",
    "heading": "Provisions relating to Banking Review Tribunal",
    "status": "in-effect",
-   "text": "1. Interpretation In this Schedule—\n  Chairman (主席) means Chairman of the Review Tribunal;\n  member (成員) means a member of the Review Tribunal;\n  parties (雙方), in relation to an application to the Review Tribunal for a review of a decision of the Monetary Authority, means the person making the application and the Monetary Authority.\n2. Tenure of Chairman\n  (1) The term of appointment of a person as Chairman shall not exceed 3 years.\n  (2) A person whose term of appointment or reappointment as Chairman has expired may be reappointed.\n  (3) A person appointed as Chairman may resign his office by giving notice in writing to the Chief Executive, and the notice shall take effect on the date specified in the notice or, if no such date is specified, on the date of receipt of the notice by the Chief Executive.\n  (4) If the Chief Executive is satisfied that the person appointed as Chairman—\n    (a) has become bankrupt;\n    (b) is incapacitated by physical or mental illness;\n    (c) is otherwise unable or unfit to perform the functions of Chairman; or\n    (d) is no longer qualified for appointment as Chairman under section 101A(2) of this Ordinance,\n  the Chief Executive may, by notice published in the Gazette, revoke the person’s appointment as Chairman; and upon such revocation the office becomes vacant.\n3. Tenure of members\n  (1) The term of appointment of a member shall not exceed 3 years.\n  (2) A member whose term of appointment or reappointment has expired may be reappointed.\n  (3) A member may resign by giving notice in writing to the Chief Executive, and the notice shall take effect on the date specified in the notice or, if no such date is specified, on the date of receipt of the notice by the Chief Executive.\n  (4) If the Chief Executive is satisfied that a member—\n    (a) has become bankrupt;\n    (b) is incapacitated by physical or mental illness;\n    (c) is otherwise unable or unfit to perform the functions of a member; or\n    (d) is no longer qualified for appointment as a member under section 101A(3) of this Ordinance,\n  the Chief Executive may, by notice published in the Gazette, revoke the member’s appointment.\n4. Further provisions relating to Chairman and members\n  (1) If the person appointed as Chairman under section 101A of this Ordinance is precluded by illness, absence from Hong Kong or any other cause from exercising his functions, the Chief Executive may appoint a person who is qualified for appointment as Chairman under that section to act as Chairman, and as such to exercise all the functions of Chairman, for the period during which the first-mentioned person is so precluded.\n  (2) If a person appointed as a member under section 101A of this Ordinance is precluded by illness, absence from Hong Kong or any other cause from taking part in proceedings of the Review Tribunal, the Chief Executive may appoint a person who is qualified for appointment as a member under that section to act as a member, and as such to take part in proceedings of the Review Tribunal, for the period during which the first-mentioned person is so precluded.\n  (3) If at the expiry of the term of appointment of the person who is or is acting as Chairman, or of a person who is or is acting as a member, the hearing of a review has begun but the review has not been determined, that person may continue to act as Chairman or as a member (as the case may be) for the purposes of that review until the review has been determined.\n  (4) If during the hearing of a review there is any change in the person who is or is acting as Chairman or in the persons who are or are acting as members, then—\n    (a) if the parties to the review so consent, the hearing may continue notwithstanding that change; or\n    (b) in the absence of such consent, the hearing shall not continue but may begin anew.\n5. Procedure\n  (1) The Review Tribunal shall convene on such occasions as the Chairman considers necessary to determine a review.\n  (2) The Chairman may, at any time after an application for a review of a decision has been made, give directions to the parties to the review concerning—\n    (a) procedural matters to be complied with by any of the parties; and\n    (b) the time within which such procedural matters are to be complied with.\n  (3) The quorum for any sitting of the Review Tribunal shall be the Chairman and 2 members.\n  (4) At a sitting of the Review Tribunal—\n    (a) the Chairman shall preside; and\n    (b) every question before the Review Tribunal shall be determined by the majority of the votes cast by the Chairman and members present, except that a question of law shall be determined by the Chairman alone.\n  (5) The right to be heard conferred by section 101C(3) of this Ordinance may be exercised in person or—\n    (a) in the case of a corporation, through its officer or employee;\n    (b) in the case of the Monetary Authority, through a person appointed under section 5A(3) of the Exchange Fund Ordinance (Cap. 66) to assist the Monetary Authority,\n  or may be exercised through a solicitor or counsel or, with the leave of the Review Tribunal, through any other person.\n  (6) The Chairman shall prepare or cause to be prepared a record of the proceedings at any sitting of the Review Tribunal, which shall contain such particulars relating to the proceedings as he considers appropriate.\n6. Privileges and immunities Except as otherwise provided in this Ordinance—\n  (a) the Review Tribunal, its Chairman and its members; and\n  (b) the parties to, and any witness, solicitor, counsel or other person involved in, a review,\nshall have the same privileges and immunities in respect of the review as they would have if the review were civil proceedings before the Court of First Instance."
+   "text": "1. Interpretation In this Schedule—\n  Chairman (主席) means Chairman of the Review Tribunal;\n  member (成員) means a member of the Review Tribunal;\n  parties (雙方), in relation to an application to the Review Tribunal for a review of a decision of the Monetary Authority, means the person making the application and the Monetary Authority.\n2. Tenure of Chairman\n  (1) The term of appointment of a person as Chairman shall not exceed 3 years.\n  (2) A person whose term of appointment or reappointment as Chairman has expired may be reappointed.\n  (3) A person appointed as Chairman may resign his office by giving notice in writing to the Chief Executive, and the notice shall take effect on the date specified in the notice or, if no such date is specified, on the date of receipt of the notice by the Chief Executive.\n  (4) If the Chief Executive is satisfied that the person appointed as Chairman—\n    (a) has become bankrupt;\n    (b) is incapacitated by physical or mental illness;\n    (c) is otherwise unable or unfit to perform the functions of Chairman; or\n    (d) is no longer qualified for appointment as Chairman under section 101A(2) of this Ordinance,\n  the Chief Executive may, by notice published in the Gazette, revoke the person’s appointment as Chairman; and upon such revocation the office becomes vacant.\n3. Tenure of members\n  (1) The term of appointment of a member shall not exceed 3 years.\n  (2) A member whose term of appointment or reappointment has expired may be reappointed.\n  (3) A member may resign by giving notice in writing to the Chief Executive, and the notice shall take effect on the date specified in the notice or, if no such date is specified, on the date of receipt of the notice by the Chief Executive.\n  (4) If the Chief Executive is satisfied that a member—\n    (a) has become bankrupt;\n    (b) is incapacitated by physical or mental illness;\n    (c) is otherwise unable or unfit to perform the functions of a member; or\n    (d) is no longer qualified for appointment as a member under section 101A(3) of this Ordinance,\n  the Chief Executive may, by notice published in the Gazette, revoke the member’s appointment.\n4. Further provisions relating to Chairman and members\n  (1) If the person appointed as Chairman under section 101A of this Ordinance is precluded by illness, absence from Hong Kong or any other cause from exercising his functions, the Chief Executive may appoint a person who is qualified for appointment as Chairman under that section to act as Chairman, and as such to exercise all the functions of Chairman, for the period during which the first-mentioned person is so precluded.\n  (2) If a person appointed as a member under section 101A of this Ordinance is precluded by illness, absence from Hong Kong or any other cause from taking part in proceedings of the Review Tribunal, the Chief Executive may appoint a person who is qualified for appointment as a member under that section to act as a member, and as such to take part in proceedings of the Review Tribunal, for the period during which the first-mentioned person is so precluded.\n  (3) If at the expiry of the term of appointment of the person who is or is acting as Chairman, or of a person who is or is acting as a member, the hearing of a review has begun but the review has not been determined, that person may continue to act as Chairman or as a member (as the case may be) for the purposes of that review until the review has been determined.\n  (4) If during the hearing of a review there is any change in the person who is or is acting as Chairman or in the persons who are or are acting as members, then—\n    (a) if the parties to the review so consent, the hearing may continue notwithstanding that change; or\n    (b) in the absence of such consent, the hearing shall not continue but may begin anew.\n5. Procedure\n  (1) The Review Tribunal shall convene on such occasions as the Chairman considers necessary to determine a review.\n  (2) The Chairman may, at any time after an application for a review of a decision has been made, give directions to the parties to the review concerning—\n    (a) procedural matters to be complied with by any of the parties; and\n    (b) the time within which such procedural matters are to be complied with.\n  (3) The quorum for any sitting of the Review Tribunal shall be the Chairman and 2 members.\n  (4) At a sitting of the Review Tribunal—\n    (a) the Chairman shall preside; and\n    (b) every question before the Review Tribunal shall be determined by the majority of the votes cast by the Chairman and members present, except that a question of law shall be determined by the Chairman alone.\n  (5) The right to be heard conferred by section 101C(3) of this Ordinance may be exercised in person or—\n    (a) in the case of a corporation, through its officer or employee;\n    (b) in the case of the Monetary Authority, through a person appointed under section 5A(3) of the Exchange Fund Ordinance (Cap. 66) to assist the Monetary Authority,\n  or may be exercised through a solicitor or counsel or, with the leave of the Review Tribunal, through any other person.\n  (6) The Chairman shall prepare or cause to be prepared a record of the proceedings at any sitting of the Review Tribunal, which shall contain such particulars relating to the proceedings as he considers appropriate.\n6. Privileges and immunities Except as otherwise provided in this Ordinance—\n  (a) the Review Tribunal, its Chairman and its members; and\n  (b) the parties to, and any witness, solicitor, counsel or other person involved in, a review,\nshall have the same privileges and immunities in respect of the review as they would have if the review were civil proceedings before the Court of First Instance.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation",
+     "status": "in-effect",
+     "text": "In this Schedule—\n  Chairman (主席) means Chairman of the Review Tribunal;\n  member (成員) means a member of the Review Tribunal;\n  parties (雙方), in relation to an application to the Review Tribunal for a review of a decision of the Monetary Authority, means the person making the application and the Monetary Authority."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Tenure of Chairman",
+     "status": "in-effect",
+     "text": "  (1) The term of appointment of a person as Chairman shall not exceed 3 years.\n  (2) A person whose term of appointment or reappointment as Chairman has expired may be reappointed.\n  (3) A person appointed as Chairman may resign his office by giving notice in writing to the Chief Executive, and the notice shall take effect on the date specified in the notice or, if no such date is specified, on the date of receipt of the notice by the Chief Executive.\n  (4) If the Chief Executive is satisfied that the person appointed as Chairman—\n    (a) has become bankrupt;\n    (b) is incapacitated by physical or mental illness;\n    (c) is otherwise unable or unfit to perform the functions of Chairman; or\n    (d) is no longer qualified for appointment as Chairman under section 101A(2) of this Ordinance,\n  the Chief Executive may, by notice published in the Gazette, revoke the person’s appointment as Chairman; and upon such revocation the office becomes vacant."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Tenure of members",
+     "status": "in-effect",
+     "text": "  (1) The term of appointment of a member shall not exceed 3 years.\n  (2) A member whose term of appointment or reappointment has expired may be reappointed.\n  (3) A member may resign by giving notice in writing to the Chief Executive, and the notice shall take effect on the date specified in the notice or, if no such date is specified, on the date of receipt of the notice by the Chief Executive.\n  (4) If the Chief Executive is satisfied that a member—\n    (a) has become bankrupt;\n    (b) is incapacitated by physical or mental illness;\n    (c) is otherwise unable or unfit to perform the functions of a member; or\n    (d) is no longer qualified for appointment as a member under section 101A(3) of this Ordinance,\n  the Chief Executive may, by notice published in the Gazette, revoke the member’s appointment."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Further provisions relating to Chairman and members",
+     "status": "in-effect",
+     "text": "  (1) If the person appointed as Chairman under section 101A of this Ordinance is precluded by illness, absence from Hong Kong or any other cause from exercising his functions, the Chief Executive may appoint a person who is qualified for appointment as Chairman under that section to act as Chairman, and as such to exercise all the functions of Chairman, for the period during which the first-mentioned person is so precluded.\n  (2) If a person appointed as a member under section 101A of this Ordinance is precluded by illness, absence from Hong Kong or any other cause from taking part in proceedings of the Review Tribunal, the Chief Executive may appoint a person who is qualified for appointment as a member under that section to act as a member, and as such to take part in proceedings of the Review Tribunal, for the period during which the first-mentioned person is so precluded.\n  (3) If at the expiry of the term of appointment of the person who is or is acting as Chairman, or of a person who is or is acting as a member, the hearing of a review has begun but the review has not been determined, that person may continue to act as Chairman or as a member (as the case may be) for the purposes of that review until the review has been determined.\n  (4) If during the hearing of a review there is any change in the person who is or is acting as Chairman or in the persons who are or are acting as members, then—\n    (a) if the parties to the review so consent, the hearing may continue notwithstanding that change; or\n    (b) in the absence of such consent, the hearing shall not continue but may begin anew."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "Procedure",
+     "status": "in-effect",
+     "text": "  (1) The Review Tribunal shall convene on such occasions as the Chairman considers necessary to determine a review.\n  (2) The Chairman may, at any time after an application for a review of a decision has been made, give directions to the parties to the review concerning—\n    (a) procedural matters to be complied with by any of the parties; and\n    (b) the time within which such procedural matters are to be complied with.\n  (3) The quorum for any sitting of the Review Tribunal shall be the Chairman and 2 members.\n  (4) At a sitting of the Review Tribunal—\n    (a) the Chairman shall preside; and\n    (b) every question before the Review Tribunal shall be determined by the majority of the votes cast by the Chairman and members present, except that a question of law shall be determined by the Chairman alone.\n  (5) The right to be heard conferred by section 101C(3) of this Ordinance may be exercised in person or—\n    (a) in the case of a corporation, through its officer or employee;\n    (b) in the case of the Monetary Authority, through a person appointed under section 5A(3) of the Exchange Fund Ordinance (Cap. 66) to assist the Monetary Authority,\n  or may be exercised through a solicitor or counsel or, with the leave of the Review Tribunal, through any other person.\n  (6) The Chairman shall prepare or cause to be prepared a record of the proceedings at any sitting of the Review Tribunal, which shall contain such particulars relating to the proceedings as he considers appropriate."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "Privileges and immunities",
+     "status": "in-effect",
+     "text": "Except as otherwise provided in this Ordinance—\n  (a) the Review Tribunal, its Chairman and its members; and\n  (b) the parties to, and any witness, solicitor, counsel or other person involved in, a review,\nshall have the same privileges and immunities in respect of the review as they would have if the review were civil proceedings before the Court of First Instance."
+    }
+   ]
   }
  ]
 }

@@ -868,49 +868,254 @@
    "id": "sch1",
    "num": "Schedule 1",
    "heading": "Grounds for Designating Authorized Institution as Category 1 Institution and Exceptions to those Grounds",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch2",
    "num": "Schedule 2",
    "heading": "Classes of Assets which may be Included in HQLA for Calculating LCR and Qualifying Criteria Applicable to those Classes",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation of Schedule 2",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Level 1 assets",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Level 2A assets",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Level 2B assets",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Qualifying criteria—marketable debt securities (level 1 assets) under section 1(c) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Qualifying criteria—marketable debt securities (level 1 assets) under section 1(d) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Qualifying criteria—marketable debt securities (level 1 assets) under section 1(e) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "Qualifying criteria—marketable debt securities (level 2A assets) under section 2(a) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "Qualifying criteria—marketable debt securities (level 2A assets) under section 2(b) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "Qualifying criteria—covered bonds (level 2A assets) under section 2(c) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "Qualifying criteria—marketable debt securities (level 2B assets) under section 3(a) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "Qualifying criteria—RMBS (level 2B assets) under section 3(b) of Part 2 of this Schedule",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "Category 1 institution requires Monetary Authority’s approval to include RMBS in its HQLA",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "Qualifying criteria—listed ordinary shares (level 2B assets) under section 3(c) of Part 2 of this Schedule",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch3",
    "num": "Schedule 3",
    "heading": "Characteristic Requirements that Asset must Satisfy before it can be Included in HQLA for Purposes of Calculation of LCR",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation of Schedule 3",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Principal characteristic",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "General characteristics",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4",
    "num": "Schedule 4",
    "heading": "Operational Requirements that Category 1 Institution and Asset must Satisfy before Asset can be Included in HQLA for Purposes of Calculation of LCR",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation of Schedule 4",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Operational requirements",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Provisions supplementary to section 2 of this Schedule",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch4A",
    "num": "Schedule 4A",
    "heading": "Tables Related to LCR",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch5",
    "num": "Schedule 5",
    "heading": "Liquidity Conversion Factors Applicable to Assets and Liabilities in Calculation of LMR",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation of Schedule 5",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1A",
+     "num": "1A",
+     "heading": "Qualifying ECAI issue specific rating, qualifying ECAI issuer rating and qualifying ECAI rating",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1B",
+     "num": "1B",
+     "heading": "Investment-grade issue specific rating, investment-grade issuer rating and investment-grade rating",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Tables",
+     "status": "in-effect"
+    }
+   ]
   },
   {
    "id": "sch6",
    "num": "Schedule 6",
    "heading": "Tables Related to NSFR and CFR",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   },
   {
    "id": "sch7",
    "num": "Schedule 7",
    "heading": "Specified National Development Banks",
-   "status": "in-effect"
+   "status": "in-effect",
+   "items": []
   }
  ]
 }
