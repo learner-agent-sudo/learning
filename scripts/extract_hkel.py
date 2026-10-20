@@ -155,7 +155,11 @@ def render(el: ET.Element, depth: int = 0, top: bool = True) -> list[str]:
 
 
 def status_of(el: ET.Element) -> str:
-    return "repealed" if el.get("status") == "repealed" or el.get("reason") == "repealed" else "in-effect"
+    """'in-effect', or why not (e.g. 'repealed', 'omitted' as spent)."""
+    status = el.get("status") or ""
+    if status in ("repealed", "omitted") or el.get("reason") == "repealed":
+        return status or "repealed"
+    return "in-effect"
 
 
 def unit(el: ET.Element, part: str | None, with_text: bool) -> dict:
@@ -178,7 +182,14 @@ def parse(xml_bytes: bytes, cap: str) -> dict:
     main = root.find(NS + "main")
     with_text = cap not in INDEX_ONLY
 
-    short = main.find(f".//{NS}shortTitle")
+    # The citation provision (s. 1, "Short title") names the instrument;
+    # earlier <shortTitle> tags can be cross-references to other chapters.
+    s1 = next((s for s in main.iter(NS + "section") if s.get("name") == "s1"), None)
+    short = s1.find(f".//{NS}shortTitle") if s1 is not None else None
+    if short is None:
+        short = main.find(NS + "docTitle")  # subsidiary legislation
+    if short is None:
+        short = main.find(f".//{NS}shortTitle")
     long_title = main.find(NS + "longTitle")
     doc = {
         "cap": cap,

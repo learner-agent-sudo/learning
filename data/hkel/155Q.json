@@ -1,6 +1,6 @@
 {
  "cap": "155Q",
- "title": "Cap. 155 sub. leg. Q",
+ "title": "Banking (Liquidity) Rules",
  "longTitle": "",
  "versionDate": "2025-05-23",
  "hkelUrl": "https://www.elegislation.gov.hk/hk/cap155Q",
@@ -250,7 +250,7 @@
    "id": "s1",
    "num": "1",
    "heading": "",
-   "status": "in-effect",
+   "status": "omitted",
    "part": "P3"
   },
   {
