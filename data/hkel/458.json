@@ -1,0 +1,109 @@
+{
+ "cap": "458",
+ "title": "Unconscionable Contracts Ordinance",
+ "longTitle": "An Ordinance to empower courts to give relief in certain contracts found to be unconscionable.",
+ "versionDate": "2022-01-06",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap458",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part I",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part II",
+   "heading": "Unconscionable Contracts",
+   "status": "in-effect",
+   "sections": [
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part III",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s7",
+    "s8"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) This Ordinance may be cited as the Unconscionable Contracts Ordinance.\n  (2)"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this Ordinance—\n    business (業務) includes—\n      (a) a profession;\n      (b) the activities of a public body or public authority; and\n      (c) the activities of a board, commission or committee or other body appointed by the Chief Executive or Government;\n    contract for the supply of services (服務提供合約) means, subject to subsection (2), a contract under which a person agrees to carry out a service;\n    goods (貨品) has the same meaning as in the Sale of Goods Ordinance (Cap. 26).\n  (2) For the purposes of this Ordinance—\n    (a) a contract of service or apprenticeship is not a contract for the supply of a service;\n    (b) a contract is a contract for the supply of a service whether or not goods are also—\n      (i) transferred or to be transferred; or\n      (ii) bailed or to be bailed by way of hire,\n    under the contract, and whatever is the nature of the consideration for which the service is to be carried out."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Dealing as consumer",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1)\n    A party to a contract deals as consumer (以消費者身分交易) in relation to another party if—\n      (a) he neither makes the contract in the course of a business nor holds himself out as doing so;\n      (b) the other party does make the contract in the course of a business; and\n      (c) the goods passing or services provided under or in pursuance of the contract are of a type ordinarily supplied or provided for private use, consumption or benefit.\n  (2) Notwithstanding subsection (1), on a sale by auction or by competitive tender the buyer is not in any circumstances to be regarded as dealing as consumer.\n  (3) It is for the person claiming that a party does not deal as consumer to prove that he does not."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "Nothing in this Ordinance applies to contracts made before the commencement* of this Ordinance."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Relief where contract unconscionable",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) If, with respect to a contract for the sale of goods or supply of services in which one of the parties deals as consumer, the court finds the contract or any part of the contract to have been unconscionable in the circumstances relating to the contract at the time it was made, the court may—\n    (a) refuse to enforce the contract;\n    (b) enforce the remainder of the contract without the unconscionable part;\n    (c) limit the application of, or revise or alter, any unconscionable part so as to avoid any unconscionable result.\n  (2) It is for the person claiming that a contract or part of a contract is unconscionable to prove that it is."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Matters to be considered by the court",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) In determining whether a contract or part of a contract was unconscionable in the circumstances relating to the contract at the time it was made, the court may have regard to (among other things)—\n    (a) the relative strengths of the bargaining positions of the consumer and the other party;\n    (b) whether, as a result of conduct engaged in by the other party, the consumer was required to comply with conditions that were not reasonably necessary for the protection of the legitimate interests of the other party;\n    (c) whether the consumer was able to understand any documents relating to the supply or possible supply of the goods or services;\n    (d) whether any undue influence or pressure was exerted on, or any unfair tactics were used against, the consumer or a person acting on behalf of the consumer by the other party or a person acting on behalf of the other party in relation to the supply or possible supply of the goods or services; and\n    (e) the amount for which, and the circumstances under which, the consumer could have acquired identical or equivalent goods or services from a person other than the other party.\n  (2) In determining whether a contract or part of a contract was unconscionable in the circumstances relating to the contract at the time it was made—\n    (a) the court shall not have regard to any unconscionability arising from circumstances that were not reasonably foreseeable at the time the contract was made; and\n    (b) the court may have regard to conduct engaged in, or circumstances existing, before the commencement* of this Ordinance.\n  (3) In considering the exercise of its powers under section 5 to grant relief in respect of a contract or part of a contract found to be unconscionable, the court may have regard to the conduct of the parties to the proceedings in relation to the performance of the contract since it was made."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Choice of law clauses",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where the proper law of a contract is the law of Hong Kong only by choice of the parties (and apart from that choice would be the law of a jurisdiction other than Hong Kong) section 5 does not operate as part of the proper law.\n  (2) This Ordinance has effect notwithstanding any contract term which applies or purports to apply the law of a jurisdiction other than Hong Kong, where (either or both)—\n    (a) the term appears to the court or arbitrator to have been imposed wholly or mainly for the purpose of enabling the party imposing it to evade the operation of this Ordinance; or\n    (b) in the making of the contract one of the parties dealt as consumer, and he was then habitually resident in Hong Kong, and the essential steps necessary for the making of the contract were taken there, whether by him or by others on his behalf."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Saving for other relevant legislation",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Nothing in this Ordinance removes or restricts the effect of, or prevents reliance upon, any contractual provision which—\n    (a) is authorized or required by the express terms or necessary implication of an enactment; or\n    (b) being made with a view to compliance with an international agreement which applies to Hong Kong, does not operate more restrictively than is contemplated by the agreement.\n  (2) A contract term which is incorporated or approved by, or incorporated pursuant to a decision or ruling of, a competent authority acting in the exercise of any statutory jurisdiction or function and which is not a term in a contract to which the competent authority is itself a party shall not be regarded as unconscionable for the purposes of this Ordinance.\n  (3) In this section—\n    competent authority (具合法裁判權的主管當局) means any court, arbitrator or public body;\n    enactment (成文法則) means any Ordinance and any instrument having effect by virtue of any Ordinance;\n    statutory (法定) means conferred by an enactment."
+  }
+ ],
+ "schedules": []
+}

@@ -1,0 +1,720 @@
+{
+ "cap": "553",
+ "title": "Electronic Transactions Ordinance",
+ "longTitle": "An Ordinance to facilitate the use of electronic transactions for commercial and other purposes, to provide for matters arising from and related to such use, to enable the Postmaster General to provide the services of a certification authority and to provide for connected purposes.",
+ "versionDate": "2025-05-22",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap553",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part I",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part II",
+   "heading": "Application",
+   "status": "in-effect",
+   "sections": [
+    "s3",
+    "s3A",
+    "s4"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part III",
+   "heading": "Electronic Records and Digital Signatures",
+   "status": "in-effect",
+   "sections": [
+    "s5",
+    "s5A",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part IV",
+   "heading": "Limitations on Operation of Sections 5, 5A, 6, 7 and 8",
+   "status": "in-effect",
+   "sections": [
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part V",
+   "heading": "Electronic Contracts",
+   "status": "in-effect",
+   "sections": [
+    "s17"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part VI",
+   "heading": "Attribution of Sending and Receiving Electronic Records",
+   "status": "in-effect",
+   "sections": [
+    "s18",
+    "s19"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part VII",
+   "heading": "Recognition of Certification Authorities and Certificates by Commissioner for Digital Policy",
+   "status": "in-effect",
+   "sections": [
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part VIII",
+   "heading": "Certification Authority Disclosure Records and Code of Practice",
+   "status": "in-effect",
+   "sections": [
+    "s31",
+    "s32",
+    "s33"
+   ]
+  },
+  {
+   "id": "P9",
+   "num": "Part IX",
+   "heading": "Postmaster General to be Recognized Certification Authority",
+   "status": "in-effect",
+   "sections": [
+    "s34",
+    "s35"
+   ]
+  },
+  {
+   "id": "P10",
+   "num": "Part X",
+   "heading": "General Provisions as to Recognized Certification Authorities",
+   "status": "in-effect",
+   "sections": [
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s43A",
+    "s44",
+    "s45"
+   ]
+  },
+  {
+   "id": "P11",
+   "num": "Part XI",
+   "heading": "Provisions as to Secrecy, Disclosure and Offences",
+   "status": "in-effect",
+   "sections": [
+    "s46",
+    "s47",
+    "s48"
+   ]
+  },
+  {
+   "id": "P12",
+   "num": "Part XII",
+   "heading": "Secretary’s Power to Amend Schedules and Make Subsidiary Legislation and Immunity of Public Officers",
+   "status": "in-effect",
+   "sections": [
+    "s49",
+    "s50",
+    "s51"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) This Ordinance may be cited as the Electronic Transactions Ordinance.\n  (2)-(3)"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this Ordinance, unless the context otherwise requires—\n    accept (接受), in relation to a certificate—\n      (a) in the case of a person named or identified in the certificate as the person to whom the certificate is issued, means to—\n        (i) confirm the accuracy of the information on the person as contained in the certificate;\n        (ii) authorize the publication of the certificate to any other person or in a repository;\n        (iii) use the certificate; or\n        (iv) otherwise demonstrate the approval of the certificate; or\n      (b) in the case of a person to be named or identified in the certificate as the person to whom the certificate is issued, means to—\n        (i) confirm the accuracy of the information on the person that is to be contained in the certificate;\n        (ii) authorize the publication of the certificate to any other person or in a repository; or\n        (iii) otherwise demonstrate the approval of the certificate;\n    addressee (收訊者), in relation to an electronic record sent by an originator, means the person who is specified by the originator to receive the electronic record but does not include an intermediary;\n    asymmetric cryptosystem (非對稱密碼系統) means a system capable of generating a secure key pair, consisting of a private key for generating a digital signature and a public key to verify the digital signature;\n    certificate (證書) means a record which—\n      (a) is issued by a certification authority for the purpose of supporting a digital signature which purports to confirm the identity or other significant characteristics of the person who holds a particular key pair;\n      (b) identifies the certification authority issuing it;\n      (c) names or identifies the person to whom it is issued;\n      (d) contains the public key of the person to whom it is issued; and\n      (e) is signed by the certification authority issuing it;\n    certification authority (核證機關) means a person who issues a certificate to a person (who may be another certification authority);\n    certification authority disclosure record (核證機關披露紀錄), in relation to a recognized certification authority, means the record maintained under section 31 for that certification authority;\n    certification practice statement (核證作業準則) means a statement issued by a certification authority to specify the practices and standards that the certification authority employs in issuing certificates;\n    code of practice (業務守則) means the code of practice published under section 33;\n    consent (同意), in relation to a person, includes consent that can be reasonably inferred from the conduct of the person;\n    correspond (對應), in relation to private or public keys, means to belong to the same key pair;\n    digital signature (數碼簽署), in relation to an electronic record, means an electronic signature of the signer generated by the transformation of the electronic record using an asymmetric cryptosystem and a hash function such that a person having the initial untransformed electronic record and the signer’s public key can determine—\n      (a) whether the transformation was generated using the private key that corresponds to the signer’s public key; and\n      (b) whether the initial electronic record has been altered since the transformation was generated;\n    electronic record (電子紀錄) means a record generated in digital form by an information system, which can be—\n      (a) transmitted within an information system or from one information system to another; and\n      (b) stored in an information system or other medium;\n    electronic signature (電子簽署) means any letters, characters, numbers or other symbols in digital form attached to or logically associated with an electronic record, and executed or adopted for the purpose of authenticating or approving the electronic record;\n    government entity (政府單位) means a public officer or a public body;\n    hash function (雜湊函數) means an algorithm mapping or transforming one sequence of bits into another, generally smaller, set as the hash result, such that—\n      (a) a record yields the same hash result every time the algorithm is executed using the same record as input;\n      (b) it is computationally not feasible for a record to be derived or reconstituted from the hash result produced by the algorithm; and\n      (c) it is computationally not feasible that 2 records can be found to produce the same hash result using the algorithm;\n    information (資訊) includes data, text, images, sound codes, computer programmes, software and databases;\n    information system (資訊系統) means a system which—\n      (a) processes information;\n      (b) records information;\n      (c) can be used to cause information to be recorded, stored or otherwise processed in other information systems (wherever situated); and\n      (d) can be used to retrieve information, whether the information is recorded or stored in the system itself or in other information systems (wherever situated);\n    intermediary (中介人), in relation to a particular electronic record, means a person who on behalf of a person, sends, receives or stores that electronic record or provides other incidental services with respect to that electronic record;\n    issue (發出), in relation to a certificate, means to—\n      (a) create the certificate, and then notify the person named or identified in the certificate as the person to whom the certificate is issued of the information on the person as contained in the certificate; or\n      (b) notify the person to be named or identified in the certificate as the person to whom the certificate is issued of the information on the person that is to be contained in the certificate, and then create the certificate,\n    and then make the certificate available for use by the person;\n    key pair (配對密碼匙), in an asymmetric cryptosystem, means a private key and its mathematically related public key, where the public key can verify a digital signature that the private key generates;\n    originator (發訊者), in relation to an electronic record, means a person, by whom, or on whose behalf, the electronic record is sent or generated but does not include an intermediary;\n    Permanent Secretary (常任秘書長) means the Permanent Secretary for Innovation, Technology and Industry;\n    Postmaster General (郵政署署長) means the Postmaster General within the meaning of the Post Office Ordinance (Cap. 98);\n    private key (私人密碼匙) means the key of a key pair used to generate a digital signature;\n    public key (公開密碼匙) means the key of a key pair used to verify a digital signature;\n    recognized certificate (認可證書) means—\n      (a) a certificate recognized under section 22;\n      (b) a certificate of a type, class or description of certificate recognized under section 22; or\n      (c) a certificate designated as a recognized certificate issued by the certification authority referred to in section 34;\n    recognized certification authority (認可核證機關) means a certification authority recognized under section 21 or the certification authority referred to in section 34;\n    record (紀錄) means information that is inscribed on, stored in or otherwise fixed on a tangible medium or that is stored in an electronic or other medium and is retrievable in a perceivable form;\n    reliance limit (倚據限額) means the monetary limit specified for reliance on a recognized certificate;\n    repository (儲存庫) means an information system for storing and retrieving certificates and other information relevant to certificates;\n    responsible officer (負責人員), in relation to a certification authority, means a person occupying a position of responsibility in relation to the activities of the certification authority relevant to this Ordinance;\n    rule of law (法律規則) means—\n      (a) an Ordinance;\n      (b) a rule of common law or a rule of equity; or\n      (c) customary law;\n    Secretary (局長) means the Secretary for Innovation, Technology and Industry;\n    sign and signature (簽、簽署) include any symbol executed or adopted, or any methodology or procedure employed or adopted, by a person with the intention of authenticating or approving a record;\n    subscriber (登記人) means a person (who may be a certification authority) who—\n      (a) is named or identified in a certificate as the person to whom the certificate is issued;\n      (b) has accepted that certificate; and\n      (c) holds a private key which corresponds to a public key listed in that certificate;\n    trustworthy system (穩當系統) means computer hardware, software and procedures that—\n      (a) are reasonably secure from intrusion and misuse;\n      (b) are at a reasonable level in respect of availability, reliability and ensuring a correct mode of operations for a reasonable period of time;\n      (c) are reasonably suitable for performing their intended function; and\n      (d) adhere to generally accepted security principles;\n    verify a digital signature (核實數碼簽署), in relation to a given digital signature, electronic record and public key, means to determine that—\n      (a) the digital signature was generated using the private key corresponding to the public key listed in a certificate; and\n      (b) the electronic record has not been altered since its digital signature was generated,\n    and any reference to a digital signature being verifiable is to be construed accordingly.\n  (2) For the purposes of this Ordinance, a digital signature is taken to be supported by a certificate if the digital signature is verifiable with reference to the public key listed in a certificate the subscriber of which is the signer."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Matters to which sections 5, 5A, 6, 7, 8 and 17 are not applicable",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Sections 5, 5A, 6, 7, 8 and 17 do not apply to any—\n  (a) requirement or permission for information to be, or to be given, in writing;\n  (aa) requirement or permission for a document to be served on a person;\n  (b) requirement for the signature of a person;\n  (c) requirement for information to be presented or retained in its original form;\n  (d) requirement for information to be retained,\nunder a rule of law in a matter or for an act set out in Schedule 1, unless that rule of law expressly provides otherwise."
+  },
+  {
+   "id": "s3A",
+   "num": "3A",
+   "heading": "Application of provisions for serving documents",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies if a provision of this Ordinance applies in relation to a rule of law that requires or permits a document to be served on a person.\n  (2) A reference to “serve” in the provision is to be construed as including a reference in the rule of law to, as the case requires, any of the following—\n    (a) “file”, “lodge”, “send”, “give”, “notify”, “serve”, “deliver”, “submit” and “furnish” (including their grammatical variations and cognate expressions);\n    (b) any other expression that signifies or suggests serving a document on a person."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Ordinance to bind Government",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "This Ordinance binds the Government."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Requirement for writing",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) If a rule of law requires information to be, or to be given, in writing or provides for certain consequences if it is not, an electronic record satisfies the requirement if the information contained in the electronic record is accessible so as to be usable for subsequent reference.\n  (2) If a rule of law permits information to be, or to be given, in writing, an electronic record satisfies that rule of law if the information contained in the electronic record is accessible so as to be usable for subsequent reference."
+  },
+  {
+   "id": "s5A",
+   "num": "5A",
+   "heading": "Service of documents",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Without limiting section 5, if a provision set out in Schedule 3 requires a document to be served on a person, the provision is to be construed as also providing that service of the document in the form of an electronic record to an information system designated by the person satisfies the requirement under the provision if the information contained in the electronic record is accessible so as to be usable for subsequent reference.\n  (2) Without limiting section 5, if a provision set out in Schedule 3 permits a document to be served on a person, the provision is to be construed as also providing that service of the document in the form of an electronic record to an information system designated by the person is permitted under the provision if the information contained in the electronic record is accessible so as to be usable for subsequent reference.\n  (3) Subsections (1) and (2) apply regardless of whether there is any specification as to the mode of service of a document in the provision.\n  (4) For the purposes of subsections (1) and (2), even if the provision requires, or permits, more than one copy of the document to be served on the person, the provision is to be construed as also providing that service of a single copy of the document in such form satisfies the requirement, or is permitted, under the provision."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Electronic signatures, digital signatures, etc.",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where—\n    (a) a rule of law requires the signature of a person (the first mentioned person) on a document or provides for certain consequences if the document is not signed by the first mentioned person; and\n    (b) neither the first mentioned person nor the person to whom the signature is to be given (the second mentioned person) is or is acting on behalf of a government entity,\n  an electronic signature of the first mentioned person satisfies the requirement if—\n    (c) the first mentioned person uses a method to attach the electronic signature to or logically associate the electronic signature with an electronic record for the purpose of identifying himself and indicating his authentication or approval of the information contained in the document in the form of the electronic record;\n    (d) having regard to all the relevant circumstances, the method used is reliable, and is appropriate, for the purpose for which the information contained in the document is communicated; and\n    (e) the second mentioned person consents to the use of the method by the first mentioned person.\n  (1A) Where—\n    (a) a rule of law requires the signature of a person on a document or provides for certain consequences if the document is not signed by the person; and\n    (b) either or both of the person mentioned in paragraph (a) and the person to whom the signature is to be given is or are or is or are acting on behalf of a government entity or government entities,\n  a digital signature of the person mentioned in paragraph (a) satisfies the requirement if the digital signature is—\n    (c) supported by a recognized certificate;\n    (d) generated within the validity of that certificate; and\n    (e) used in accordance with the terms of that certificate.\n  (2)\n    In subsection (1A)(d), within the validity of that certificate (在該證書的有效期內) means that at the time the digital signature is generated—\n      (a) the recognition of the recognized certificate is not revoked or suspended by the Commissioner for Digital Policy, and the certificate is not revoked or suspended by the recognized certification authority that issues the certificate;\n      (aa) in the case of a recognized certificate that is a certificate designated as a recognized certificate issued by the recognized certification authority referred to in section 34, the designation is not withdrawn by the certification authority;\n      (b) if the Commissioner for Digital Policy has specified a period of validity for the recognition of the recognized certificate, the certificate is within that period; and\n      (c) if the recognized certification authority has specified a period of validity for the recognized certificate, the certificate is within that period."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Presentation or retention of information in its original form",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where a rule of law requires that certain information be presented or retained in its original form, the requirement is satisfied by presenting or retaining the information in the form of electronic records if—\n    (a) there exists a reliable assurance as to the integrity of the information from the time when it was first generated in its final form; and\n    (b) where it is required that information be presented, the information is capable of being displayed in a legible form to the person to whom it is to be presented.\n  (2) For the purposes of subsection (1)(a)—\n    (a) the criterion for assessing the integrity of the information is whether the information has remained complete and unaltered, apart from the addition of any endorsement or any change which arises in the normal course of communication, storage or display; and\n    (b) the standard for reliability of the assurance is to be assessed having regard to the purpose for which the information was generated and all the other relevant circumstances.\n  (3) This section applies whether the requirement in subsection (1) is in the form of an obligation or whether the rule of law merely provides consequences for the information not being presented or retained in its original form."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Retention of information in electronic records",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where a rule of law requires certain information to be retained, whether in writing or otherwise, the requirement is satisfied by retaining electronic records, if—\n    (a) the information contained in the electronic record remains accessible so as to be usable for subsequent reference;\n    (b) the relevant electronic record is retained in the format in which it was originally generated, sent or received, or in a format which can be demonstrated to represent accurately the information originally generated, sent or received; and\n    (c) the information which enables the identification of the origin and destination of the electronic record and the date and time when it was sent or received, is retained.\n  (2) This section applies whether the requirement in subsection (1) is in the form of an obligation or whether the rule of law merely provides consequences for the information not being retained."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Admissibility of electronic records",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Without prejudice to any rules of evidence, an electronic record shall not be denied admissibility in evidence in any legal proceeding on the sole ground that it is an electronic record."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Construction of this Part subject to Part IV",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "This Part is to be construed subject to Part IV."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Permanent Secretary may make orders excluding application of section 5, 6, 7 or 8, etc.",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) The Permanent Secretary may by order published in the Gazette exclude an Ordinance or a particular requirement or permission in an Ordinance or a class or description of requirements or permissions in an Ordinance, to which this Ordinance would otherwise apply, from the application of section 5, 6, 7 or 8.\n  (2) The Permanent Secretary may, in relation to an Ordinance to which section 5, 5A, 6, 7 or 8 applies, specify by notice published in the Gazette—\n    (a) the manner and format in which information in the form of an electronic record is to be given, presented or retained or a document in the form of an electronic record is to be served for the purposes of that Ordinance or a particular requirement or permission in that Ordinance or a class or description of requirements or permissions in that Ordinance; and\n    (b) the procedure and criteria for verification of the receipt of that information and for ensuring the integrity and confidentiality of the information.\n  (3) The Permanent Secretary may specify different requirements under subsection (2)(a) or (b) in relation to persons or cases of different classes or descriptions.\n  (4) An order under subsection (1) is subsidiary legislation.\n  (5) A notice under subsection (2) is not subsidiary legislation.\n  (6)\n    In this section, manner and format (方式及規格) includes requirements as to software, communication, data storage, how the electronic record is to be generated, sent, stored or received and where a signature is required, the type of signature and how the signature is to be affixed to the electronic record."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Electronic record to comply with specified requirements to satisfy sections 5, 5A, 6, 7 and 8",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "If the Permanent Secretary has specified any requirement under section 11(2) in relation to an Ordinance, the information given, presented or retained, the document served or the signature made, as the case may require, for the purpose of that Ordinance does not satisfy that Ordinance unless it complies with the specified requirements."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Rules of court or procedure only to apply where relevant authority provides for application",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Section 5, 5A, 6, 7 or 8 does not apply in relation to information given, presented or retained, documents served or signatures required for the purposes of any proceedings set out in Schedule 2, unless any rule of law relating to those proceedings provide for its application.\n  (2) Subsection (1) is not to be construed as affecting any provision in a rule of law referred to in that subsection, requiring or permitting, otherwise than by reference to this Ordinance, the use of electronic records or electronic signatures for the purposes of the proceedings to which the rule of law relates.\n  (3) Any authority given by a rule of law to make rules (however described) for the purpose of any proceedings set out in Schedule 2 is to be construed as including a power to provide for—\n    (a) the application of section 5, 5A, 6, 7 or 8; and\n    (b) the specification of the matters referred to in section 11(2)(a) and (b), by subsidiary legislation or otherwise, consequent to such application."
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Sections 5, 6, 7 and 8 not to affect specific provisions as to electronic records in other Ordinances",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "If an Ordinance requires or permits giving, presenting or retaining information in the form of an electronic record or the authentication of information by an electronic signature for the purposes of that Ordinance, but contains an express provision which—\n  (a) specifies requirements, procedures or other specifications for that purpose;\n  (b) requires the use of a specified service; or\n  (c) confers a discretion on a person whether or when to accept electronic records or electronic signatures for that purpose,\nsection 5, 6, 7 or 8 is not to be construed as affecting that express provision."
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Consent required for sections 5, 5A and 7 to apply to transactions between persons who are not government entities",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) If an Ordinance requires information to be given by a person to another and neither person is or is acting on behalf of a government entity, section 5(1) applies only if the person to whom the information is to be given consents to it being given in the form of an electronic record.\n  (2) If an Ordinance permits information to be given by a person to another and neither person is or is acting on behalf of a government entity, section 5(2) applies only if the person to whom the information is to be given consents to it being given in the form of an electronic record.\n  (2A) If an Ordinance requires a document to be served by a person on another and neither person is or is acting on behalf of a government entity, section 5A(1) applies only if the person on whom the document is to be served consents to it being served in the form of an electronic record.\n  (2B) If an Ordinance permits a document to be served by a person on another and neither person is or is acting on behalf of a government entity, section 5A(2) applies only if the person on whom the document is to be served consents to it being served in the form of an electronic record.\n  (3)\n  (4) If an Ordinance requires information to be presented in its original form and neither the person presenting it nor the person to whom it is to be presented (the second mentioned person) is or is acting on behalf of a government entity, section 7(1) applies only if the second mentioned person consents to it being presented in the form of an electronic record.\n  (5)"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Sections 5, 6, 7 and 8 not to have effect if their operation affects other statutory requirements",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) If the effect of section 5 on a requirement or permission in an Ordinance for information to be, or to be given, in writing (requirement for writing) is such that any other requirement in that Ordinance or a related Ordinance (that is a requirement other than the requirement for writing) cannot be complied with due to the operation of that section, section 5 does not apply to the requirement for writing.\n  (2) If the effect of section 6 on a requirement in an Ordinance for the signature of a person is such that any other requirement in that Ordinance or a related Ordinance (that is a requirement other than the requirement for the signature of a person) cannot be complied with due to the operation of that section, section 6 does not apply to the requirement for the signature of a person.\n  (3) If the effect of section 7 on a requirement in an Ordinance for information to be presented or retained in its original form (requirement for original form) is such that any other requirement in that Ordinance or a related Ordinance (that is a requirement other than the requirement for original form) cannot be complied with due to the operation of that section, section 7 does not apply to the requirement for original form.\n  (4) If the effect of section 8 on a requirement in an Ordinance for information to be retained (requirement for retention) is such that any other requirement in that Ordinance or a related Ordinance (that is a requirement other than the requirement for retention) cannot be complied with due to the operation of that section, section 8 does not apply to the requirement for retention."
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Formation and validity of electronic contracts",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) For the avoidance of doubt, it is declared that in the context of the formation of contracts, unless otherwise agreed by the parties, an offer and the acceptance of an offer may be in whole or in part expressed by means of electronic records.\n  (2) Where an electronic record is used in the formation of a contract, that contract shall not be denied validity or enforceability on the sole ground that an electronic record was used for that purpose.\n  (2A) For the avoidance of doubt, it is declared that in the context of the formation of contracts, if an offer or the acceptance of an offer is in whole or in part expressed by means of an electronic record, an electronic signature attached to or logically associated with the electronic record shall not be denied legal effect on the sole ground that it is an electronic signature.\n  (3) For the avoidance of doubt, it is stated that this section does not affect any rule of common law to the effect that the offeror may prescribe the method of communicating acceptance."
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Attribution of electronic record",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Unless otherwise agreed between the originator and the addressee of an electronic record, an electronic record is that of the originator if it was—\n    (a) sent by the originator;\n    (b) sent with the authority of the originator; or\n    (c) sent by an information system programmed by or on behalf of the originator to operate and to send the electronic record automatically.\n  (2) Nothing in subsection (1) is to affect the law of agency or the law on the formation of contracts."
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Sending and receiving electronic records",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Unless otherwise agreed between the originator and the addressee of an electronic record, an electronic record is sent when it is accepted by an information system outside the control of the originator or of the person who sent the electronic record on behalf of the originator.\n  (2) Unless otherwise agreed between the originator and the addressee of an electronic record, the time of receipt of an electronic record is determined as follows—\n    (a) if the addressee has designated an information system for the purpose of receiving electronic records, receipt occurs—\n      (i) at the time when the electronic record is accepted by the designated information system; or\n      (ii) if the electronic record is sent to an information system of the addressee that is not the designated information system, at the time when the electronic record comes to the knowledge of the addressee;\n    (b) if the addressee has not designated an information system, receipt occurs when the electronic record comes to the knowledge of the addressee.\n  (3) Subsections (1) and (2) apply notwithstanding that the place where the information system is located is different from the place where the electronic record is taken to have been sent or received under subsection (4).\n  (4) Unless otherwise agreed between the originator and the addressee, an electronic record is taken to have been—\n    (a) sent at the place of business of the originator; and\n    (b) received at the place of business of the addressee.\n  (5) For the purposes of subsection (4)—\n    (a) if the originator or the addressee has more than one place of business, the place of business is that which has the closest relationship to the underlying transaction, or where there is no underlying transaction, the principal place of business of the originator or the addressee, as the case may be;\n    (b) if the originator or the addressee does not have a place of business, the place of business is the place where the originator or the addressee ordinarily resides.\n  (6) Where the originator and the addressee are in different time zones, time refers to Universal Standard Time."
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Certification authority may apply to Commissioner for Digital Policy for recognition",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) A certification authority may apply to the Commissioner for Digital Policy to become a recognized certification authority for the purposes of this Ordinance.\n  (2) Subject to subsection (4) and section 21(3), an application under subsection (1) must be made in the prescribed manner and in a form specified by the Commissioner for Digital Policy and the applicant must pay the prescribed fee in respect of the application.\n  (3) An applicant must furnish to the Commissioner for Digital Policy—\n    (a) the relevant particulars and documents specified under section 30;\n    (b) a report which—\n      (i) contains an assessment as to whether the applicant is capable of complying with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a person approved by the Commissioner for Digital Policy as being qualified to make such a report; and\n    (c) a statutory declaration which—\n      (i) states whether the applicant is capable of complying with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a responsible officer of the applicant.\n  (3A) Any report or statutory declaration required to be furnished under subsection (3) must be made at the expense of the applicant.\n  (4) The Commissioner for Digital Policy may waive—\n    (a) the requirements as to manner and form of making the application in subsection (2); or\n    (b) the requirement of a report or statutory declaration under subsection (3),\n  in relation to a certification authority, in the circumstances specified in subsection (5).\n  (5) The Commissioner for Digital Policy may waive the requirements referred to in subsection (4) only if—\n    (a) the applicant is a certification authority with a status in a place outside Hong Kong comparable to that of a recognized certification authority (comparable status); and\n    (b) the competent authority of that place accords to a recognized certification authority a comparable status on the basis of it being a recognized certification authority."
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Commissioner for Digital Policy may on application recognize certification authorities",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Commissioner for Digital Policy may—\n    (a) recognize an applicant under section 20 as a recognized certification authority if the Commissioner for Digital Policy is satisfied that the applicant is suitable for such recognition; or\n    (b) refuse the application for recognition.\n  (2) The Commissioner for Digital Policy must give reasons in writing to the applicant for refusing an application under subsection (1)(b).\n  (3) The Commissioner for Digital Policy may, in recognizing a certification authority referred to in section 20(4), waive the whole or part of the prescribed fee as the Commissioner for Digital Policy may decide in relation to a particular case.\n  (4) In determining whether an applicant is suitable for recognition under subsection (1), the Commissioner for Digital Policy shall, in addition to any other matter the Commissioner for Digital Policy considers relevant, take into account the following—\n    (a) whether the applicant has the appropriate financial status for operating as a recognized certification authority in accordance with this Ordinance and the code of practice;\n    (b) the arrangements put in place or proposed to be put in place by the applicant to cover any liability that may arise from its activities relevant for the purposes of this Ordinance;\n    (c) the system, procedure, security arrangements and standards used or proposed to be used by the applicant to issue certificates to subscribers;\n    (d) any report or statutory declaration furnished by the applicant under section 20(3);\n    (e) whether the applicant and the responsible officers are fit and proper persons; and\n    (f) the reliance limits set or proposed to be set by the applicant for its certificates.\n  (5) In determining whether a person referred to in subsection (4)(e) is a fit and proper person, the Commissioner for Digital Policy shall, in addition to any other matter the Commissioner for Digital Policy considers relevant, have regard to the following—\n    (a) the fact that the person has a conviction in Hong Kong or elsewhere for an offence for which it was necessary to find that the person had acted fraudulently, corruptly or dishonestly;\n    (b) the fact that the person has been convicted of an offence against this Ordinance;\n    (c) if the person is an individual, the fact that the person is an undischarged bankrupt or has entered into a composition or a scheme of arrangement or a voluntary arrangement within the meaning of the Bankruptcy Ordinance (Cap. 6) within the 5 years preceding the date of the application; and\n    (d) if the person is a body corporate, the fact that the person is in liquidation, is the subject of a winding-up order or there is a receiver appointed in relation to it or it has entered into a composition or a scheme of arrangement or a voluntary arrangement within the meaning of the Bankruptcy Ordinance (Cap. 6) within the 5 years preceding the date of the application.\n  (6) In recognizing a certification authority under subsection (1), the Commissioner for Digital Policy may—\n    (a) attach conditions to the recognition; or\n    (b) specify a period of validity for the recognition."
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Commissioner for Digital Policy may recognize certificates",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Commissioner for Digital Policy may recognize certificates issued by a recognized certification authority as recognized certificates, upon application by that authority.\n  (2) An applicant under subsection (1) must make the application in the prescribed manner and in a form specified by the Commissioner for Digital Policy and furnish to the Commissioner for Digital Policy the relevant particulars and documents specified under section 30.\n  (3) A recognition under subsection (1) may relate to—\n    (a) all certificates issued by the recognized certification authority;\n    (b) certificates of a type, class or description; or\n    (c) particular certificates.\n  (4) An applicant must pay the prescribed fee (if any) in respect of an application under subsection (1) unless the Commissioner for Digital Policy waives it in whole or in part.\n  (5) In recognizing certificates under this section, the Commissioner for Digital Policy shall in addition to any other matter the Commissioner for Digital Policy considers relevant take into account the following—\n    (a) whether the certificates are issued in accordance with the certification practice statement;\n    (b) whether the certificates are issued in accordance with the code of practice;\n    (c) the reliance limit set or proposed to be set for that type, class or description or the particular certificate, as the case may require; and\n    (d) the arrangements put in place or proposed to be put in place by the certification authority to cover any liability that may arise from the issue of that type, class or description or the particular certificate, as the case may be.\n  (6) The Commissioner for Digital Policy may refuse an application under subsection (1).\n  (7) The Commissioner for Digital Policy must give reasons in writing to the applicant for refusing an application under subsection (6).\n  (8) The Commissioner for Digital Policy may specify a period of validity for a recognition under this section.\n  (9) The Commissioner for Digital Policy may upon application renew a recognition under this section.\n  (10) Subsections (2), (3), (4), (5), (6), (7) and (8) apply to a renewal under subsection (9) as they apply to an application for recognition, subject to necessary modifications."
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Commissioner for Digital Policy may revoke recognition",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Commissioner for Digital Policy may revoke a recognition granted under section 21 or 22 or renewed under section 22 or 27.\n  (2) Before revoking a recognition, the Commissioner for Digital Policy must give the certification authority a notice of intention to revoke the recognition specifying the reasons for the intended revocation.\n  (3) In a notice under subsection (2), the Commissioner for Digital Policy must invite the certification authority to make representations as to why the recognition should not be revoked and specify a period for making the representations.\n  (4) If the Commissioner for Digital Policy decides to revoke a recognition, the Commissioner for Digital Policy must immediately give the certification authority notice in writing of the decision specifying the reasons for the decision and the date on which the decision was made.\n  (5) A revocation of recognition in relation to certificates may relate to all certificates issued by a recognized certification authority or to a type, class or description of certificates or a particular certificate.\n  (6) Subject to subsection (7), a revocation takes effect on the expiry of 7 days from the date on which the decision to revoke the recognition is made.\n  (7) If the certification authority appeals under section 28 against the revocation, the revocation does not take effect until the expiry of 7 days from the date on which the Secretary confirms the revocation on appeal."
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Commissioner for Digital Policy may suspend recognition",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Commissioner for Digital Policy may suspend a recognition granted under section 21 or 22 or renewed under section 22 or 27 for a period not exceeding 14 days.\n  (2) If the Commissioner for Digital Policy decides to suspend a recognition, the Commissioner for Digital Policy must immediately give the certification authority notice in writing of the decision specifying the reasons for the decision and the date on which the decision was made.\n  (3) A suspension of recognition in relation to certificates may relate to all certificates issued by a recognized certification authority or to a type, class or description of certificates or a particular certificate.\n  (4) Subject to subsection (5), a suspension takes effect on the expiry of 7 days from the date on which the decision to suspend the recognition is made.\n  (5) If the certification authority appeals under section 28 against the suspension, the suspension does not take effect until the expiry of 7 days from the date on which the Secretary confirms the suspension on appeal.\n  (6) If the period of suspension expires during the validity of a recognition and the recognition is not revoked, the recognition is taken to be reinstated."
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Matters Commissioner for Digital Policy may take into account in revoking or suspending a recognition",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "The Commissioner for Digital Policy may, in revoking or suspending a recognition under section 23 or 24, in addition to any other matter that the Commissioner for Digital Policy considers relevant, take into account the following—\n  (a) any matter set out in section 21(4);\n  (b) whether the certification authority has failed—\n    (i) to operate in accordance with the certification practice statement;\n    (ii) to comply with the code of practice;\n    (iii) to use a trustworthy system; or\n    (iv) to comply with any provision of this Ordinance; and\n  (c) any report or statutory declaration furnished by the certification authority under section 43(1) or 43A(1)."
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Effect of revocation, suspension of recognition or expiry of validity of recognized certificate",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) Where the revocation or suspension of a recognition of a certification authority has taken effect or the period of validity of a recognition specified under section 21(6)(b) has expired, the provisions of this Ordinance relating to—\n    (a) a recognized certification authority do not apply to that certification authority;\n    (b) recognized certificates issued by a recognized certification authority do not apply to the certificates issued by that certification authority; and\n    (c) digital signatures supported by a recognized certificate issued by a recognized certification authority do not apply to the digital signatures supported by the certificates issued by that certification authority.\n  (2) Where the revocation or suspension of the recognition of a recognized certificate has taken effect, the provisions of this Ordinance relating to a recognized certificate or digital signatures supported by a recognized certificate do not apply to—\n    (a) the certificate of which the recognition is revoked or suspended;\n    (b) any certificate of the type, class or description of certificate the recognition of which is revoked or suspended;\n    (c) digital signatures supported by that certificate or a certificate of that type, class or description,\n  as the case may be.\n  (3) Where the validity of a recognized certificate or the period of validity of a recognition specified under section 22(8) has expired, the provisions of this Ordinance relating to recognized certificates issued by a recognized certification authority and digital signatures supported by a recognized certificate issued by a recognized certification authority do not apply to the certificate and the digital signatures supported by the certificate.\n  (4) The revocation or suspension of the recognition of a certification authority does not affect the valid use of a recognized certificate issued by that certification authority before the revocation or suspension took effect or after the reinstatement of the recognition.\n  (5) The revocation or suspension of the recognition of a certificate does not affect the valid use of the certificate concerned before the revocation or suspension took effect or after the reinstatement of the recognition.\n  (6) The expiry of the period of validity of the recognition of a certificate specified under section 22(8) or the expiry of the period of validity of a recognized certificate does not affect the valid use of the certificate concerned before the expiry of the period of validity of the recognition or the certificate, as the case may be.\n  (7) The expiry of the period of validity of the recognition of a certification authority specified under section 21(6)(b) does not affect the valid use of a recognized certificate issued by that certification authority during the period of validity of its recognition."
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Commissioner for Digital Policy may renew recognition of certification authority",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) A certification authority recognized under section 21 may apply to the Commissioner for Digital Policy for renewal of a recognition.\n  (2) An application for renewal must be made at least 30 days before but not earlier than 60 days before the expiry of the period of validity of the recognition.\n  (3) An application for renewal must be sent to the Commissioner for Digital Policy as an electronic record or delivered by hand to the Commissioner for Digital Policy or left at the office of the Commissioner for Digital Policy during the ordinary business hours of that office.\n  (4) Subject to subsections (2), (3) and (6), an application for renewal must be made in the prescribed manner and in a form specified by the Commissioner for Digital Policy.\n  (5) Subject to subsection (6), an applicant must pay the prescribed fee in respect of an application for renewal.\n  (5A) An applicant must furnish to the Commissioner for Digital Policy—\n    (a) the relevant particulars and documents specified under section 30;\n    (b) a report which—\n      (i) contains an assessment as to whether the applicant is and is capable of complying with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a person approved by the Commissioner for Digital Policy as being qualified to make such a report; and\n    (c) a statutory declaration which—\n      (i) states whether the applicant is and is capable of complying with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a responsible officer of the applicant.\n  (5B) Any report or statutory declaration required to be furnished under subsection (5A) must be made at the expense of the applicant.\n  (6) The Commissioner for Digital Policy may, in the circumstances specified in section 20(5), waive the requirements in subsection (4) or (5A) or the whole or part of the prescribed fee as the Commissioner for Digital Policy may decide in relation to a particular case.\n  (6A) In determining an application for renewal, the Commissioner for Digital Policy shall, in addition to any other matter the Commissioner for Digital Policy considers relevant, take into account—\n    (a) any matter set out in section 21(4)(a), (b), (c), (e) or (f) which applies to the application for renewal as it applies to an application for recognition, subject to necessary modifications; and\n    (b) any report or statutory declaration furnished by the applicant under subsection (5A).\n  (6B) Where—\n    (a) an applicant has furnished to the Commissioner for Digital Policy a report for the purpose of complying with the requirements referred to in section 43(1)(a) or 43A(1)(c); and\n    (b) the Commissioner for Digital Policy considers that had the report been furnished for the purpose of complying with the requirements referred to in subsection (5A)(b), it would have satisfied those requirements,\n  the Commissioner for Digital Policy may accept the report, and the report shall, for all purposes, be regarded as a report that is furnished under subsection (5A)(b) and that satisfies the requirements referred to in that subsection.\n  (6C) Where—\n    (a) an applicant has furnished to the Commissioner for Digital Policy a statutory declaration for the purpose of complying with the requirements referred to in section 43(1)(b) or 43A(1)(d); and\n    (b) the Commissioner for Digital Policy considers that had the statutory declaration been furnished for the purpose of complying with the requirements referred to in subsection (5A)(c), it would have satisfied those requirements,\n  the Commissioner for Digital Policy may accept the statutory declaration, and the statutory declaration shall, for all purposes, be regarded as a statutory declaration that is furnished under subsection (5A)(c) and that satisfies the requirements referred to in that subsection.\n  (7) In renewing the recognition of a certification authority, the Commissioner for Digital Policy may—\n    (a) attach conditions to the renewal of the recognition; or\n    (b) specify a period of validity for the renewed recognition."
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Certification authority may appeal to Secretary against decision of Commissioner for Digital Policy",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) A certification authority aggrieved by a decision of the Commissioner for Digital Policy—\n    (a) refusing an application for recognition under section 21 or 22;\n    (b) refusing an application for renewal of a recognition under section 22 or 27; or\n    (c) revoking or suspending a recognition under section 23 or 24,\n  may appeal to the Secretary against the decision within 7 days from the date on which the relevant decision is made.\n  (2) An appeal under subsection (1) must be commenced by sending a notice of appeal to the Secretary as an electronic record or delivering the notice by hand to the Secretary or leaving the notice at the office of the Secretary during the ordinary business hours of that office.\n  (3) A certification authority who appeals to the Secretary under this section must also give notice of the appeal to the Commissioner for Digital Policy as soon as practicable.\n  (4) On appeal under subsection (1), the Secretary may confirm, vary or reverse the decision of the Commissioner for Digital Policy.\n  (5) The Secretary must give the appellant notice of the decision on appeal, together with reasons—\n    (a) by sending it to the appellant as an electronic record; or\n    (b) by sending it by post or registered post to the last known address of the appellant.\n  (6) If in a particular case it is not reasonably practicable to give the notice of the decision on appeal by either of the means specified in subsection (5), the notice is taken to have been given if the Secretary publishes it in the certification authority disclosure record maintained under section 31 for the appellant."
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "How Commissioner for Digital Policy may give notices under this Part",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) A notice or other document the Commissioner for Digital Policy is required to give to a certification authority under this Part is taken to have been given if it is—\n    (a) sent to the certification authority as an electronic record; or\n    (b) sent by post or registered post to the last known address of the certification authority.\n  (2) If in a particular case it is not reasonably practicable to give a notice or other document under this Part by either of the means specified in subsection (1), the notice or document is taken to have been given if the Commissioner for Digital Policy publishes it in the relevant certification authority disclosure record."
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Commissioner for Digital Policy to specify particulars and documents by notice in the Gazette",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Commissioner for Digital Policy must specify by notice published in the Gazette any particulars and documents to be furnished under sections 20(3)(a), 22(2) and (10) and 27(5A).\n  (2) A notice under subsection (1) is not subsidiary legislation."
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "Commissioner for Digital Policy to maintain certification authority disclosure record",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "  (1) The Commissioner for Digital Policy must maintain for each recognized certification authority an on-line and publicly accessible record.\n  (2) The Commissioner for Digital Policy must publish in the certification authority disclosure record information regarding that certification authority relevant for the purposes of this Ordinance (in addition to the information required to be given in it under other provisions of this Ordinance)."
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "Commissioner for Digital Policy to notify revocations, suspensions and non-renewals of recognition, etc.",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "  (1) The Commissioner for Digital Policy must give notice in the relevant certification authority disclosure record, immediately—\n    (a) when the Commissioner for Digital Policy makes a decision to revoke a recognition under section 23(4);\n    (b) when a revocation has taken effect under section 23(6) or (7);\n    (c) when the Commissioner for Digital Policy makes a decision to suspend a recognition under section 24(2);\n    (d) when a suspension has taken effect under section 24(4) or (5);\n    (e) when the recognition of a suspended recognition is reinstated;\n    (f) when the Commissioner for Digital Policy receives a notice of appeal under section 28(3); or\n    (g) on becoming aware that the Secretary has confirmed, varied or reversed the decision of the Commissioner for Digital Policy to revoke or suspend a recognition.\n  (2) Where the revocation or suspension of a recognition has taken effect, the Commissioner for Digital Policy must, as soon as practicable, give notice of the revocation or suspension for at least 3 consecutive days in one English language daily newspaper and one Chinese language daily newspaper in circulation in Hong Kong.\n  (3) If a recognized certification authority does not apply for renewal before the end of the period during which an application for renewal can be made under section 27(2), the Commissioner for Digital Policy must, at least 21 days before the expiry of the period of validity of the recognition, give notice—\n    (a) for at least 3 consecutive days in one English language daily newspaper and one Chinese language daily newspaper in circulation in Hong Kong; and\n    (b) in the certification authority disclosure record maintained for the certification authority,\n  of the date of the expiry of the validity and that the certification authority has not applied for renewal."
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Commissioner for Digital Policy may publish code of practice",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "  (1) The Commissioner for Digital Policy may publish in the Gazette a code of practice—\n    (a) specifying standards and procedures for carrying out the functions of recognized certification authorities;\n    (b) specifying the provisions of this Ordinance and of the code of practice for the purposes of—\n      (i) section 20(3)(b)(i) and (c)(i);\n      (ii) section 27(5A)(b)(i) and (c)(i);\n      (iii) section 43(1)(a)(i) and (b)(i); and\n      (iv) section 43A(1)(c)(i) and (d)(i).\n  (2) The code of practice published under subsection (1) may make different provisions for different circumstances and provide for different cases or classes of cases.\n  (3) The Commissioner for Digital Policy may from time to time amend the whole or any part of the code of practice published under subsection (1) in a manner consistent with the power to publish the code under subsection (1), and any reference in this Ordinance to the code shall, unless the context otherwise requires, be construed as a reference to the code as so amended.\n  (4) Any code of practice published under subsection (1) is not subsidiary legislation."
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "The Postmaster General as recognized certification authority",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1) The Postmaster General is a recognized certification authority for the purposes of this Ordinance.\n  (2) Part VII does not apply to the Postmaster General as a certification authority."
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Postmaster General may perform functions and provide services of certification authority",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1) For the purposes of section 34, the Postmaster General may by himself or by the officers of the Post Office—\n    (a) perform the functions and provide the services of a certification authority and services incidental or related to the functions or services of a certification authority; and\n    (b) do anything that is necessary or expedient for the purposes of paragraph (a) and for complying with any provision of this Ordinance relating to a recognized certification authority.\n  (2) The Postmaster General may determine and charge fees for providing the services of a certification authority or services incidental or related to the functions or services of a certification authority.\n  (3) The fees determined and charged under subsection (2) shall not be limited by reference to the administrative or other costs incurred or likely to be incurred or recovery of expenditure in the provision of the services of a certification authority or services incidental or related to the functions or services of a certification authority.\n  (4) The Postmaster General may give particulars of any fees determined under subsection (2) in such manner as the Postmaster General thinks fit."
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Publication of issued and accepted certificates",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "Where a person named or identified, or to be named or identified, in a recognized certificate as the person to whom the certificate is issued—\n  (a) accepts the certificate, the recognized certification authority concerned must publish the certificate in a repository as soon as reasonably practicable after it issues the certificate;\n  (b) does not accept the certificate, the recognized certification authority concerned must not publish the certificate."
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Recognized certification authority to use trustworthy system",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "A recognized certification authority must use a trustworthy system in performing its services—\n  (a) to issue, revoke or suspend a recognized certificate; or\n  (b) to publish in a repository or give notice of the issue, revocation or suspension of a recognized certificate."
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "Presumption as to correctness of information",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "It shall be presumed, unless there is evidence to the contrary, that the information contained in a recognized certificate issued by a recognized certification authority (except information identified as subscriber’s information which has not been verified by the recognized certification authority) is correct if the certificate was published in a repository."
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Representations upon issuance of recognized certificate",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "By issuing a recognized certificate, a recognized certification authority represents to any person who reasonably relies on the information contained in the certificate or a digital signature verifiable by the public key listed in the certificate, that the recognized certification authority has issued the certificate in accordance with any applicable certification practice statement incorporated by reference in the certificate, or of which the relying person has notice."
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "Representations upon publication of recognized certificate",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "By publishing a recognized certificate, a recognized certification authority represents to any person who reasonably relies on the information contained in the certificate, that the recognized certification authority has issued the certificate to the subscriber concerned."
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Reliance limit",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "  (1) A recognized certification authority may, in issuing a recognized certificate, specify a reliance limit in the certificate.\n  (2) The recognized certification authority may specify different limits in different recognized certificates or in different types, classes or description of certificates."
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Liability limits for recognized certification authorities",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "  (1) Unless a recognized certification authority waives the application of this subsection, the recognized certification authority is not liable for any loss caused by reliance on a false or forged digital signature of a subscriber supported by a recognized certificate issued by that certification authority, if the recognized certification authority has complied with the requirements of this Ordinance and the code of practice with respect to that certificate.\n  (2) Unless a recognized certification authority waives the application of this subsection, the recognized certification authority is not liable in excess of the amount specified in the certificate as its reliance limit, for a loss caused by reliance on any information—\n    (a) that the recognized certification authority is required to confirm according to the certification practice statement and the code of practice; and\n    (b) which is misrepresented on that recognized certificate or in a repository,\n  if the recognized certification authority has, in relation to that certificate, complied with the requirements of this Ordinance and the code of practice.\n  (3) The limitation of liability under subsection (2) does not apply if the fact was misrepresented due to the negligence of the recognized certification authority or it was intentionally or recklessly misrepresented by the recognized certification authority."
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Recognized certification authority to furnish report and statutory declaration on compliance with Ordinance and code of practice",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "  (1) At least once in every 12 months, a recognized certification authority must furnish to the Commissioner for Digital Policy—\n    (a) a report which—\n      (i) contains an assessment as to whether the certification authority has, from the specified date until the last day of the period to which the report relates, complied with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a person approved by the Commissioner for Digital Policy as being qualified to make such a report; and\n    (b) a statutory declaration which—\n      (i) states whether the certification authority has, from the specified date until the last day of the period to which the statutory declaration relates, complied with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a responsible officer of the certification authority.\n  (2) Any report or statutory declaration required to be furnished under subsection (1) must be made at the expense of the certification authority.\n  (3) The Commissioner for Digital Policy must publish in the certification authority disclosure record for the certification authority the respective dates of the report and statutory declaration and the material information in the report and statutory declaration.\n  (3A) Where—\n    (a) the certification authority has furnished to the Commissioner for Digital Policy a report for the purpose of complying with the requirements referred to in section 27(5A)(b) or 43A(1)(c); and\n    (b) the Commissioner for Digital Policy considers that had the report been furnished for the purpose of complying with the requirements referred to in subsection (1)(a), it would have satisfied those requirements,\n  the Commissioner for Digital Policy may accept the report, and the report shall, for all purposes, be regarded as a report that is furnished under subsection (1)(a) and that satisfies the requirements referred to in that subsection.\n  (3B) Where—\n    (a) the certification authority has furnished to the Commissioner for Digital Policy a statutory declaration for the purpose of complying with the requirements referred to in section 27(5A)(c) or 43A(1)(d); and\n    (b) the Commissioner for Digital Policy considers that had the statutory declaration been furnished for the purpose of complying with the requirements referred to in subsection (1)(b), it would have satisfied those requirements,\n  the Commissioner for Digital Policy may accept the statutory declaration, and the statutory declaration shall, for all purposes, be regarded as a statutory declaration that is furnished under subsection (1)(b) and that satisfies the requirements referred to in that subsection.\n  (4)\n    In subsection (1), specified date (指明日期) means—\n      (a) the date on which recognition is granted under section 21 or section 34 comes into operation; or\n      (b) the day following the last day of the period for which the last report or last statutory declaration, as the case may be, was furnished under that subsection,\n    as the case may require."
+  },
+  {
+   "id": "s43A",
+   "num": "43A",
+   "heading": "Recognized certification authority to furnish report and statutory declaration when required by Commissioner for Digital Policy",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "  (1) Where the Commissioner for Digital Policy considers that there have been or will be—\n    (a) major changes in—\n      (i) the financial status of a recognized certification authority for operating as such in accordance with this Ordinance and the code of practice;\n      (ii) the arrangements put in place by a recognized certification authority to cover any liability that may arise from its activities relevant for the purposes of this Ordinance; or\n      (iii) the system, procedure, security arrangements and standards used by a recognized certification authority to issue recognized certificates; or\n    (b) any other major changes that may affect the determination of the Commissioner for Digital Policy as to whether to—\n      (i) revoke under section 23(1) the recognition of any certification authority or the recognition of any certificate issued by a recognized certification authority; or\n      (ii) suspend under section 24(1) the recognition of any certification authority or the recognition of any certificate issued by a recognized certification authority,\n  the Commissioner for Digital Policy may, by notice given to the certification authority, specify the major changes and require the certification authority to furnish to the Commissioner for Digital Policy within the period specified in such notice all or any of the following—\n    (c) a report which—\n      (i) contains an assessment as to—\n        (A) whether, having regard to the major changes that have occurred, the certification authority is and is capable of complying;\n        (B) whether, having regard to the major changes that will occur, the certification authority is capable of complying,\n      with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a person approved by the Commissioner for Digital Policy as being qualified to make such a report; and\n    (d) a statutory declaration which—\n      (i) states—\n        (A) whether, having regard to the major changes that have occurred, the certification authority is and is capable of complying;\n        (B) whether, having regard to the major changes that will occur, the certification authority is capable of complying,\n      with such provisions of this Ordinance and of the code of practice as are specified in the code of practice for the purposes of this subparagraph; and\n      (ii) is made by a responsible officer of the certification authority.\n  (2) Any report or statutory declaration required to be furnished under subsection (1) must be made at the expense of the certification authority.\n  (3) The Commissioner for Digital Policy must publish in the certification authority disclosure record for the certification authority the date of any of the report and statutory declaration and the material information in any of the report and statutory declaration.\n  (4) Where—\n    (a) the certification authority has furnished to the Commissioner for Digital Policy a report for the purpose of complying with the requirements referred to in section 27(5A)(b) or 43(1)(a); and\n    (b) the Commissioner for Digital Policy considers that had the report been furnished for the purpose of complying with the requirements referred to in subsection (1)(c), it would have satisfied those requirements,\n  the Commissioner for Digital Policy may accept the report, and the report shall, for all purposes, be regarded as a report that is furnished under subsection (1)(c) and that satisfies the requirements referred to in that subsection.\n  (5) Where—\n    (a) the certification authority has furnished to the Commissioner for Digital Policy a statutory declaration for the purpose of complying with the requirements referred to in section 27(5A)(c) or 43(1)(b); and\n    (b) the Commissioner for Digital Policy considers that had the statutory declaration been furnished for the purpose of complying with the requirements referred to in subsection (1)(d), it would have satisfied those requirements,\n  the Commissioner for Digital Policy may accept the statutory declaration, and the statutory declaration shall, for all purposes, be regarded as a statutory declaration that is furnished under subsection (1)(d) and that satisfies the requirements referred to in that subsection.\n  (6) A notice under subsection (1) is taken to have been given by the Commissioner for Digital Policy to a recognized certification authority if it is—\n    (a) sent to the certification authority as an electronic record; or\n    (b) sent by post or registered post to the last known address of the certification authority.\n  (7) If in a particular case it is not reasonably practicable to give a notice under subsection (1) by either of the means specified in subsection (6), the notice is taken to have been given if the Commissioner for Digital Policy publishes it in the relevant certification authority disclosure record."
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Recognized certification authority to issue a certification practice statement",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "A recognized certification authority must issue and maintain an up to date certification practice statement and notify the Commissioner for Digital Policy of changes to the practices of the certification authority as set out in that statement."
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Recognized certification authority to maintain repository",
+   "status": "in-effect",
+   "part": "P10",
+   "text": "  (1) A recognized certification authority must maintain or cause to be maintained an on-line and publicly accessible repository.\n  (2) The Commissioner for Digital Policy must publish in the Gazette a list of the repositories maintained under subsection (1).\n  (3) Any list of repositories published under subsection (2) is not subsidiary legislation."
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "Obligation of secrecy",
+   "status": "in-effect",
+   "part": "P11",
+   "text": "  (1) Subject to subsection (2), a person who has access to any record, book, register, correspondence, information, document or other material in the course of performing a function under or for the purposes of this Ordinance shall not disclose or permit or suffer to be disclosed any information relating to another person as contained in such record, book, register, correspondence, information, document or other material to any other person.\n  (2) Subsection (1) does not apply to disclosure—\n    (a) which is necessary for performing or assisting in the performance of a function under or for the purposes of this Ordinance;\n    (b) for the purpose of any criminal proceedings in Hong Kong;\n    (c) for the purpose of complying with a requirement made under a rule of law with a view to instituting a criminal proceeding in Hong Kong; or\n    (d) under the direction or order of a magistrate or court.\n  (3) A person who contravenes subsection (1) commits an offence and is liable to a fine at level 6 and in the case of an individual also to imprisonment for 6 months."
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "False information",
+   "status": "in-effect",
+   "part": "P11",
+   "text": "A person who knowingly or recklessly makes, orally or in writing, signs or furnishes any declaration, return, certificate or other document or information required under this Ordinance which is untrue, inaccurate or misleading commits an offence and is liable in the case of an individual to a fine at level 6 and to imprisonment for 6 months and in any other case, to a fine at level 6."
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Other offences",
+   "status": "in-effect",
+   "part": "P11",
+   "text": "A person who makes a false claim that a person is a recognized certification authority commits an offence and is liable in the case of an individual to a fine at level 6 and to imprisonment for 6 months and in any other case, to a fine at level 6."
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "Regulations",
+   "status": "in-effect",
+   "part": "P12",
+   "text": "The Secretary may make regulations for all or any of the following—\n  (a) to prescribe the manner of applying to the Commissioner for Digital Policy for recognition or renewal of recognition as a recognized certification authority or for recognition or renewal of recognition of certificates and the manner of recognition;\n  (b) to prescribe the fees payable in respect of applications for the recognition of certification authorities, the recognition of certificates or the renewal of such recognition;\n  (c) to prescribe the form of certification practice statements;\n  (d) to provide for the manner of appealing against a decision of the Commissioner for Digital Policy and the procedure for determining appeals;\n  (e) to provide for such other matters as are necessary or expedient to give effect to the provisions of this Ordinance."
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Secretary may amend Schedules",
+   "status": "in-effect",
+   "part": "P12",
+   "text": "The Secretary may by order published in the Gazette amend Schedules 1, 2 and 3."
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "Protection of public officers",
+   "status": "in-effect",
+   "part": "P12",
+   "text": "  (1) No liability is incurred by the Government or a public officer by reason only of the fact that a recognition is granted, renewed, revoked, suspended or reinstated under Part VII.\n  (2) Without prejudice to subsection (1), no civil liability is incurred by a public officer in respect of anything done or omitted to be done by the public officer in good faith in the performance or purported performance of any function under a Part other than Part VII.\n  (3) The protection conferred under subsection (2) does not in any way affect the liability, if any, of the Government for the act or omission of the public officer in the performance or purported performance of the relevant function."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Matters Excluded from Application of Sections 5, 5A, 6, 7, 8 and 17 of this Ordinance under Section 3 of this Ordinance",
+   "status": "in-effect",
+   "text": "1. The creation, execution, variation, revocation, revival or rectification of a will, codicil or any other testamentary document.\n2. The creation, execution, variation or revocation of a trust (other than resulting, implied or constructive trusts).\n3. The creation, execution, variation or revocation of a power of attorney.\n4. The making, execution or making and execution of any instrument which is required to be stamped or endorsed under the Stamp Duty Ordinance (Cap. 117) other than a contract note to which an agreement under section 5A of that Ordinance relates.\n5. Government conditions of grant and Government leases.\n6. Any deed, conveyance or other document or instrument in writing, judgments, and lis pendens referred to in the Land Registration Ordinance (Cap. 128) by which any parcels of ground tenements or premises in Hong Kong may be affected.\n7. Any assignment, mortgage or legal charge within the meaning of the Conveyancing and Property Ordinance (Cap. 219) or any other contract relating to or effecting the disposition of immovable property or an interest in immovable property.\n8. A document effecting a floating charge referred to in section 2A of the Land Registration Ordinance (Cap. 128).\n9. Oaths and affidavits.\n10. Statutory declarations.\n11. Judgments (in addition to those referred to in section 6) or orders of court.\n12. A warrant issued by a court or a magistrate.\n13. Negotiable instruments (but excluding cheques that bear the words “not negotiable”).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The creation, execution, variation, revocation, revival or rectification of a will, codicil or any other testamentary document."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The creation, execution, variation or revocation of a trust (other than resulting, implied or constructive trusts)."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The creation, execution, variation or revocation of a power of attorney."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The making, execution or making and execution of any instrument which is required to be stamped or endorsed under the Stamp Duty Ordinance (Cap. 117) other than a contract note to which an agreement under section 5A of that Ordinance relates."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Government conditions of grant and Government leases."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Any deed, conveyance or other document or instrument in writing, judgments, and lis pendens referred to in the Land Registration Ordinance (Cap. 128) by which any parcels of ground tenements or premises in Hong Kong may be affected."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Any assignment, mortgage or legal charge within the meaning of the Conveyancing and Property Ordinance (Cap. 219) or any other contract relating to or effecting the disposition of immovable property or an interest in immovable property."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A document effecting a floating charge referred to in section 2A of the Land Registration Ordinance (Cap. 128)."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Oaths and affidavits."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Statutory declarations."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Judgments (in addition to those referred to in section 6) or orders of court."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A warrant issued by a court or a magistrate."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Negotiable instruments (but excluding cheques that bear the words “not negotiable”)."
+    }
+   ]
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Proceedings in Relation to which Sections 5, 5A, 6, 7 and 8 of this Ordinance do not Apply under Section 13(1) of this Ordinance",
+   "status": "in-effect",
+   "text": "Proceedings before any of the following—\n  (a) the Court of Final Appeal;\n  (b) the Court of Appeal;\n  (c) the Court of First Instance;\n  (ca) the Competition Tribunal established by the Competition Ordinance (Cap. 619);\n  (d) the District Court;\n  (e) the Mental Health Review Tribunal established under the Mental Health Ordinance (Cap. 136);\n  (f) the Lands Tribunal;\n  (g) a coroner appointed under section 3 of the Coroners Ordinance (Cap. 504);\n  (h) the Labour Tribunal;\n  (i) the Obscene Articles Tribunal established under the Control of Obscene and Indecent Articles Ordinance (Cap. 390);\n  (j) the Small Claims Tribunal;\n  (k) a magistrate;\n  (l) the Municipal Services Appeals Board established under the Municipal Services Appeals Board Ordinance (Cap. 220);\n  (m) the Insider Dealing Tribunal established under the Securities (Insider Dealing) Ordinance (Cap. 395) repealed under the Securities and Futures Ordinance (Cap. 571);\n  (ma) the Securities and Futures Appeals Tribunal or the Market Misconduct Tribunal established under Part XI or XIII of the Securities and Futures Ordinance (Cap. 571);\n  (mb) any person arbitrating disputes in accordance with rules made under section 118(2) of the Securities and Futures Ordinance (Cap. 571);\n  (mc) the Resolution Compensation Tribunal established by section 127(1) of the Financial Institutions (Resolution) Ordinance (Cap. 628) or an additional tribunal established under section 128(1) of that Ordinance;\n  (md) the Resolvability Review Tribunal established by section 110(1) of the Financial Institutions (Resolution) Ordinance (Cap. 628) or an additional tribunal established under section 111(1) of that Ordinance;\n  (n) the Administrative Appeals Board established under the Administrative Appeals Board Ordinance (Cap. 442);\n  (o) the Appeal Tribunal established under the Buildings Ordinance (Cap. 123);\n  (p) an Appeal Board established under the Town Planning Ordinance (Cap. 131);\n  (q) a Drainage Appeal Board established under the Land Drainage Ordinance (Cap. 446);\n  (r) the Minor Employment Claims Adjudication Board established under the Minor Employment Claims Adjudication Board Ordinance (Cap. 453);\n  (s) the panel and a tribunal established under the Housing Ordinance (Cap. 283);\n  (t) an appeal board constituted or formed under the Hotel and Guesthouse Accommodation Ordinance (Cap. 349);\n  (u) the Appeal Board established under the Clubs (Safety of Premises) Ordinance (Cap. 376);\n  (v) the Appeal Board established under the Bedspace Apartments Ordinance (Cap. 447);\n  (w) the Appeal Board established under the Amusement Game Centres Ordinance (Cap. 435);\n  (x) an appeal board established under the Amusement Rides (Safety) Ordinance (Cap. 449);\n  (y) an Appeal Board established under the Air Pollution Control Ordinance (Cap. 311);\n  (z) the Appeal Board established under the Noise Control Ordinance (Cap. 400);\n  (za) an Appeal Board established under the Dumping at Sea Ordinance (Cap. 466);\n  (zb) an Appeal Board established under the Environmental Impact Assessment Ordinance (Cap. 499);\n  (zc) an Appeal Board established under the Waste Disposal Ordinance (Cap. 354);\n  (zd) an Appeal Board established under the Water Pollution Control Ordinance (Cap. 358);\n  (ze) the Immigration Tribunal established under the Immigration Ordinance (Cap. 115);\n  (zf) the Registration of Persons Tribunal established under the Registration of Persons Ordinance (Cap. 177);\n  (zg) the Hong Kong Special Administrative Region Passports Appeal Board established under the Hong Kong Special Administrative Region Passports (Appeal Board) Regulation (Cap. 539 sub. leg. A);\n  (zh) the Copyright Tribunal established under the Copyright Ordinance (Cap. 528);\n  (zi) an arbitration tribunal established under the Labour Relations Ordinance (Cap. 55);\n  (zj) a board of inquiry established under the Labour Relations Ordinance (Cap. 55);\n  (zk)-(zl)\n  (zm) a Solicitors Disciplinary Tribunal established under the Legal Practitioners Ordinance (Cap. 159);\n  (zn) the Deposit Protection Appeals Tribunal established by the Deposit Protection Scheme Ordinance (Cap. 581);\n  (zo) the Construction Workers Appeal Board appointed under the Construction Workers Registration Ordinance (Cap. 583);\n  (zp) the Payment Systems and Stored Value Facilities Appeals Tribunal established under the Payment Systems and Stored Value Facilities Ordinance (Cap. 584);\n  (zq) the Banking Review Tribunal established under the Banking Ordinance (Cap. 155);\n  (zr) the Civil Celebrant of Marriages Appointment Appeal Board established under the Marriage Ordinance (Cap. 181);\n  (zs) the Unsolicited Electronic Messages (Enforcement Notices) Appeal Board established under the Unsolicited Electronic Messages Ordinance (Cap. 593).",
+   "items": [
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Proceedings before any of the following—\n  (a) the Court of Final Appeal;\n  (b) the Court of Appeal;\n  (c) the Court of First Instance;\n  (ca) the Competition Tribunal established by the Competition Ordinance (Cap. 619);\n  (d) the District Court;\n  (e) the Mental Health Review Tribunal established under the Mental Health Ordinance (Cap. 136);\n  (f) the Lands Tribunal;\n  (g) a coroner appointed under section 3 of the Coroners Ordinance (Cap. 504);\n  (h) the Labour Tribunal;\n  (i) the Obscene Articles Tribunal established under the Control of Obscene and Indecent Articles Ordinance (Cap. 390);\n  (j) the Small Claims Tribunal;\n  (k) a magistrate;\n  (l) the Municipal Services Appeals Board established under the Municipal Services Appeals Board Ordinance (Cap. 220);\n  (m) the Insider Dealing Tribunal established under the Securities (Insider Dealing) Ordinance (Cap. 395) repealed under the Securities and Futures Ordinance (Cap. 571);\n  (ma) the Securities and Futures Appeals Tribunal or the Market Misconduct Tribunal established under Part XI or XIII of the Securities and Futures Ordinance (Cap. 571);\n  (mb) any person arbitrating disputes in accordance with rules made under section 118(2) of the Securities and Futures Ordinance (Cap. 571);\n  (mc) the Resolution Compensation Tribunal established by section 127(1) of the Financial Institutions (Resolution) Ordinance (Cap. 628) or an additional tribunal established under section 128(1) of that Ordinance;\n  (md) the Resolvability Review Tribunal established by section 110(1) of the Financial Institutions (Resolution) Ordinance (Cap. 628) or an additional tribunal established under section 111(1) of that Ordinance;\n  (n) the Administrative Appeals Board established under the Administrative Appeals Board Ordinance (Cap. 442);\n  (o) the Appeal Tribunal established under the Buildings Ordinance (Cap. 123);\n  (p) an Appeal Board established under the Town Planning Ordinance (Cap. 131);\n  (q) a Drainage Appeal Board established under the Land Drainage Ordinance (Cap. 446);\n  (r) the Minor Employment Claims Adjudication Board established under the Minor Employment Claims Adjudication Board Ordinance (Cap. 453);\n  (s) the panel and a tribunal established under the Housing Ordinance (Cap. 283);\n  (t) an appeal board constituted or formed under the Hotel and Guesthouse Accommodation Ordinance (Cap. 349);\n  (u) the Appeal Board established under the Clubs (Safety of Premises) Ordinance (Cap. 376);\n  (v) the Appeal Board established under the Bedspace Apartments Ordinance (Cap. 447);\n  (w) the Appeal Board established under the Amusement Game Centres Ordinance (Cap. 435);\n  (x) an appeal board established under the Amusement Rides (Safety) Ordinance (Cap. 449);\n  (y) an Appeal Board established under the Air Pollution Control Ordinance (Cap. 311);\n  (z) the Appeal Board established under the Noise Control Ordinance (Cap. 400);\n  (za) an Appeal Board established under the Dumping at Sea Ordinance (Cap. 466);\n  (zb) an Appeal Board established under the Environmental Impact Assessment Ordinance (Cap. 499);\n  (zc) an Appeal Board established under the Waste Disposal Ordinance (Cap. 354);\n  (zd) an Appeal Board established under the Water Pollution Control Ordinance (Cap. 358);\n  (ze) the Immigration Tribunal established under the Immigration Ordinance (Cap. 115);\n  (zf) the Registration of Persons Tribunal established under the Registration of Persons Ordinance (Cap. 177);\n  (zg) the Hong Kong Special Administrative Region Passports Appeal Board established under the Hong Kong Special Administrative Region Passports (Appeal Board) Regulation (Cap. 539 sub. leg. A);\n  (zh) the Copyright Tribunal established under the Copyright Ordinance (Cap. 528);\n  (zi) an arbitration tribunal established under the Labour Relations Ordinance (Cap. 55);\n  (zj) a board of inquiry established under the Labour Relations Ordinance (Cap. 55);\n  (zk)-(zl)\n  (zm) a Solicitors Disciplinary Tribunal established under the Legal Practitioners Ordinance (Cap. 159);\n  (zn) the Deposit Protection Appeals Tribunal established by the Deposit Protection Scheme Ordinance (Cap. 581);\n  (zo) the Construction Workers Appeal Board appointed under the Construction Workers Registration Ordinance (Cap. 583);\n  (zp) the Payment Systems and Stored Value Facilities Appeals Tribunal established under the Payment Systems and Stored Value Facilities Ordinance (Cap. 584);\n  (zq) the Banking Review Tribunal established under the Banking Ordinance (Cap. 155);\n  (zr) the Civil Celebrant of Marriages Appointment Appeal Board established under the Marriage Ordinance (Cap. 181);\n  (zs) the Unsolicited Electronic Messages (Enforcement Notices) Appeal Board established under the Unsolicited Electronic Messages Ordinance (Cap. 593)."
+    }
+   ]
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Service of Documents",
+   "status": "in-effect",
+   "text": "Item Enactment Provision 1. Landlord and Tenant (Consolidation) Ordinance (Cap. 7) Sections 119Y(1)(a) and (b) and 120AAZZH(1)(a) and (b) 2. Rating Ordinance (Cap. 116) Section 50(1) 3. Government Rent (Assessment and Collection) Ordinance (Cap. 515) Section 45(1) 4. Mass Transit Railway (Land Resumption and Related Provisions) Ordinance (Cap. 276) Section 21(1) 5. Roads (Works, Use and Compensation) Ordinance (Cap. 370) Section 29(1) 6. Railways Ordinance (Cap. 519) Sections 27(6) and (7) and 34(1) 7. Electricity Ordinance (Cap. 406) Section 52 8. Inland Revenue Ordinance (Cap. 112) Section 58(2) 9. Waterworks Regulations (Cap. 102 sub. leg. A) Regulation 49(1)(a) and (b) 10. Census and Statistics Ordinance (Cap. 316) Section 12(3)(a) and (b) 11. Business Registration Ordinance (Cap. 310) Section 20 12. Ferry Services Ordinance (Cap. 104) Section 28(3) 13. Buildings Ordinance (Cap. 123) Sections 3(11), (11A)(b) and (11C), 8C(6)(b) and 35(1)(a) and (b) 14. Building (Administration) Regulations (Cap. 123 sub. leg. A) Regulation 6(1) 15. Building (Minor Works) Regulation (Cap. 123 sub. leg. N) Section 46(2)(a) 16. Commercial Bathhouses Regulation (Cap. 132 sub. leg. I) Section 5(1) 17. Food Business Regulation (Cap. 132 sub. leg. X) Section 32(1) 18. Frozen Confections Regulation (Cap. 132 sub. leg. AC) Section 18(1) 19. Milk Regulation (Cap. 132 sub. leg. AQ) Section 15(1) 20. Offensive Trades Regulation (Cap. 132 sub. leg. AX) Section 9(2) 21. Aerial Ropeways (Safety) Ordinance (Cap. 211) Section 7 22. News Agencies Registration Regulations (Cap. 268 sub. leg. A) Regulation 12 23. Newspapers Registration and Distribution Regulations (Cap. 268 sub. leg. B) Regulation 11 24. Road Traffic Ordinance (Cap. 374) Sections 79, 84(1)(d) and 85(1)(c) 25. Film Censorship Ordinance (Cap. 392) Sections 8A(3), 9(4), 14A(2), 15B(9), 15I(1), 15K(12), 17(2)(c) and (4), 18(2), (3)(c) and (5) and 19(3), (4)(c) and (6) 26. Film Censorship Regulations (Cap. 392 sub. leg. A) Regulation 8(a) 27. Land Drainage Ordinance (Cap. 446) Section 45(1) 28. Slaughterhouses Regulation (Cap. 132 sub. leg. BU) Section 10(1) 29. Swimming Pools Regulation (Cap. 132 sub. leg. CA) Section 5(1) 30. Places of Public Entertainment Regulations (Cap. 172 sub. leg. A) Regulations 3(1)(a), 5(1) and (2) and 162(1), (3), (4) and (9)(b) 31. Human Reproductive Technology Ordinance (Cap. 561) Section 43 32. Limited Partnerships Ordinance (Cap. 37) Section 12 33. Gas Safety (Gas Supply) Regulations (Cap. 51 sub. leg. B) Regulation 4(2) and (3)",
+   "items": []
+  }
+ ]
+}

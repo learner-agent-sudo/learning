@@ -1,0 +1,287 @@
+{
+ "cap": "71",
+ "title": "Control of Exemption Clauses Ordinance",
+ "longTitle": "To limit the extent to which civil liability for breach of contract, or for negligence or other breach of duty, can be avoided by means of contract terms and otherwise; and to restrict the enforceability of arbitration agreements.",
+ "versionDate": "2018-12-13",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap71",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part I",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part II",
+   "heading": "Control of Exemption Clauses",
+   "status": "in-effect",
+   "sections": [
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part III",
+   "heading": "Circumstances where Control does not Apply",
+   "status": "in-effect",
+   "sections": [
+    "s16",
+    "s17",
+    "s18",
+    "s19"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part IV",
+   "heading": "Consequential and Other Amendments",
+   "status": "in-effect",
+   "sections": [
+    "s20"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "This Ordinance may be cited as the Control of Exemption Clauses Ordinance."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation and application",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this Ordinance—\n    business (業務) includes a profession and the activities of a public body, a public authority, or a board, commission, committee or other body appointed by the Chief Executive or Government;\n    goods (貨品) has the same meaning as in the Sale of Goods Ordinance (Cap. 26);\n    negligence (疏忽) means the breach—\n      (a) of any obligation, arising from the express or implied terms of a contract, to take reasonable care or exercise reasonable skill in the performance of the contract;\n      (b) of any common law duty to take reasonable care or exercise reasonable skill (but not any stricter duty);\n      (c) of the common duty of care imposed by the Occupiers Liability Ordinance (Cap. 314);\n    notice (告示) includes an announcement, whether or not in writing, and any other communication or pretended communication;\n    personal injury (人身傷害) includes any disease and any impairment of physical or mental condition.\n  (2) In the case of both contract and tort, sections 7 to 12 apply (except where the contrary is stated in section 11(4)) only to business liability, that is liability for breach of obligations or duties arising—\n    (a) from things done or omitted to be done by a person in the course of a business (whether his own business or another’s); or\n    (b) from the occupation of premises used for business purposes of the occupier,\n  and references to liability are to be read accordingly; but liability of an occupier of premises for breach of an obligation or duty towards a person obtaining access to the premises for recreational or educational purposes, being liability for loss or damage suffered by reason of the dangerous state of the premises, is not a business liability of the occupier unless granting that person such access for the purposes concerned falls within the business purposes of the occupier.\n  (3) In relation to any breach of duty or obligation, it is immaterial whether the breach was inadvertent or intentional, or whether liability for it arises directly or vicariously.\n  [cf. 1977 c. 50 ss. 1 & 14 U.K.]"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "The “reasonableness” test",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In relation to a contract term, the requirement of reasonableness for the purposes of this Ordinance and section 4 of the Misrepresentation Ordinance (Cap. 284) is satisfied only if the court or arbitrator determines that the term was a fair and reasonable one to be included having regard to the circumstances which were, or ought reasonably to have been, known to or in the contemplation of the parties when the contract was made.\n  (2) In determining for the purposes of section 11 or 12 whether a contract term satisfies the requirement of reasonableness, the court or arbitrator shall have regard in particular to the matters specified in Schedule 2; but this subsection does not prevent the court or arbitrator from holding, in accordance with any rule of law, that a term which purports to exclude or restrict any relevant liability is not a term of the contract.\n  (3) In relation to a notice (not being a notice having contractual effect), the requirement of reasonableness under this Ordinance is satisfied only if the court or arbitrator determines that it would be fair and reasonable to allow reliance on it, having regard to all the circumstances obtaining when the liability arose or (but for the notice) would have arisen.\n  (4) In determining (under this Ordinance or the Misrepresentation Ordinance (Cap. 284)) whether a contract term or notice satisfies the requirement of reasonableness, the court or arbitrator shall have regard in particular (but without prejudice to subsection (2)) to whether (and, if so, to what extent) the language in which the term or notice is expressed is a language understood by the person as against whom another person seeks to rely upon the term or notice.\n  (5) Where by reference to a contract term or notice a person seeks to restrict liability to a specified sum of money, and the question arises (under this Ordinance or the Misrepresentation Ordinance (Cap. 284)) whether the term or notice satisfies the requirement of reasonableness, the court or arbitrator shall have regard in particular (but without prejudice to subsection (2) or (4)) to—\n    (a) the resources which he could expect to be available to him for the purpose of meeting the liability should it arise; and\n    (b) how far it was open to him to cover himself by insurance.\n  (6) It is for the person claiming that a contract term or notice satisfies the requirement of reasonableness to prove that it does.\n  [cf. 1977 c. 50 s. 11 U.K.]"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "“Dealing as consumer”",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) A party to a contract “deals as consumer” in relation to another party if—\n    (a) he neither makes the contract in the course of a business nor holds himself out as doing so;\n    (b) the other party does make the contract in the course of a business; and\n    (c) in the case of a contract governed by the law of sale of goods or by section 12, the goods passing under or in pursuance of the contract are of a type ordinarily supplied for private use or consumption.\n  (2) Notwithstanding subsection (1), on a sale by auction or by competitive tender the buyer is not in any circumstances to be regarded as dealing as consumer.\n  (3) It is for the person claiming that a party does not deal as consumer to prove that he does not.\n  [cf. 1977 c. 50 s. 12 U.K.]"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Varieties of exemption clause",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) To the extent that this Ordinance prevents the exclusion or restriction of any liability it also prevents—\n    (a) making the liability or its enforcement subject to restrictive or onerous conditions;\n    (b) excluding or restricting any right or remedy in respect of the liability, or subjecting a person to any prejudice in consequence of his pursuing any such right or remedy;\n    (c) excluding or restricting rules of evidence or procedure,\n  and (to that extent) sections 7, 10, 11 and 12 also prevent excluding or restricting liability by reference to terms and notices which exclude or restrict the relevant obligation or duty.\n  (2) An agreement in writing to submit present or future differences to arbitration is not to be treated under this Ordinance as excluding or restricting any liability.\n  [cf. 1977 c. 50 s. 13 U.K.]"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Power to amend Schedules 1 and 2",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "The Legislative Council may by resolution amend Schedules 1 and 2."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Negligence liability",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A person cannot by reference to any contract term or to a notice given to persons generally or to particular persons exclude or restrict his liability for death or personal injury resulting from negligence.\n  (2) In the case of other loss or damage, a person cannot so exclude or restrict his liability for negligence except in so far as the term or notice satisfies the requirement of reasonableness.\n  (3) Where a contract term or notice purports to exclude or restrict liability for negligence a person’s agreement to or awareness of it is not of itself to be taken as indicating his voluntary acceptance of any risk.\n  [cf. 1977 c. 50 s. 2 U.K.]"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Liability arising in contract",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies as between contracting parties where one of them deals as consumer or on the other’s written standard terms of business.\n  (2) As against that party, the other cannot by reference to any contract term—\n    (a) when himself in breach of contract, exclude or restrict any liability of his in respect of the breach; or\n    (b) claim to be entitled—\n      (i) to render a contractual performance substantially different from that which was reasonably expected of him; or\n      (ii) in respect of the whole or any part of his contractual obligation, to render no performance at all,\n  except in so far as (in any of the cases mentioned above in this subsection) the contract term satisfies the requirement of reasonableness.\n[cf. 1977 c. 50 s. 3 U.K.]"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Unreasonable indemnity clauses",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A person dealing as consumer cannot by reference to any contract term be made to indemnify another person (whether a party to the contract or not) in respect of liability that may be incurred by the other for negligence or breach of contract, except in so far as the contract term satisfies the requirement of reasonableness.\n  (2) This section applies whether the liability in question—\n    (a) is directly that of the person to be indemnified or is incurred by him vicariously;\n    (b) is to the person dealing as consumer or to someone else.\n    [cf. 1977 c. 50 s. 4 U.K.]"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "“Guarantee” of consumer goods",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) In the case of goods of a type ordinarily supplied for private use or consumption, where loss or damage—\n    (a) arises from the goods proving defective while in consumer use; and\n    (b) results from the negligence of a person concerned in the manufacture or distribution of the goods,\n  liability for the loss or damage cannot be excluded or restricted by reference to any contract term or notice contained in or operating by reference to a guarantee of the goods.\n  (2) For these purposes—\n    (a) goods are to be regarded as “in consumer use” when a person is using them, or has them in his possession for use, otherwise than exclusively for the purposes of a business; and\n    (b) anything in writing is a guarantee if it contains or purports to contain some promise or assurance (however worded or presented) that defects will be made good by complete or partial replacement, or by repair, monetary compensation or otherwise.\n  (3) This section does not apply as between the parties to a contract under or in pursuance of which possession or ownership of the goods passed.\n  [cf. 1977 c. 50 s. 5 U.K.]"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Seller’s liability",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Liability for breach of the obligations arising from section 14 of the Sale of Goods Ordinance (Cap. 26) (seller’s implied undertakings as to title, etc.) cannot be excluded or restricted by reference to any contract term.\n  (2) As against a person dealing as consumer, liability for breach of the obligations arising from section 15, 16 or 17 of the Sale of Goods Ordinance (Cap. 26) (seller’s implied undertakings as to conformity of goods with description or sample, or as to their quality or fitness for a particular purpose) cannot be excluded or restricted by reference to any contract term.\n  (3) As against a person dealing otherwise than as consumer, the liability specified in subsection (2) can be excluded or restricted by reference to a contract term, but only in so far as the term satisfies the requirement of reasonableness.\n  (4) The liabilities referred to in this section are not only the business liabilities defined by section 2(2), but include those arising under any contract of sale of goods.\n  [cf. 1977 c. 50 s. 6 U.K.]"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Miscellaneous contracts under which goods pass",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where the possession or ownership of goods passes under or in pursuance of a contract not governed by the law of sale of goods, subsection (2) to (4) apply in relation to the effect (if any) that the court or arbitrator is to give to contract terms excluding or restricting liability for breach of obligation arising by implication of law from the nature of the contract.\n  (2) As against a person dealing as consumer, liability in respect of the goods’ correspondence with description or sample, or their quality or fitness for any particular purpose, cannot be excluded or restricted by reference to any such term.\n  (3) As against a person dealing otherwise than as consumer, that liability can be excluded or restricted by reference to such a term, but only in so far as the term satisfies the requirement of reasonableness.\n  (4) Liability in respect of—\n    (a) the right to transfer ownership of the goods, or give possession; or\n    (b) the assurance of quiet possession to a person taking goods in pursuance of the contract,\n  cannot be excluded or restricted by reference to any such term except in so far as the term satisfies the requirement of reasonableness.\n  [cf. 1977 c. 50 s. 7 U.K.]"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Effect of breach on “reasonableness” test",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where for reliance upon it a contract term has to satisfy the requirement of reasonableness, it may be found to do so and be given effect accordingly notwithstanding that the contract has been terminated either by breach or by a party electing to treat it as repudiated.\n  (2) Where on a breach the contract is nevertheless affirmed by a party entitled to treat as repudiated, this does not of itself exclude the requirement of reasonableness in relation to any contract term.\n  [cf. 1977 c. 50 s. 9 U.K.]"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Evasion by means of secondary contract",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "A person is not bound by any contract term prejudicing or taking away rights of his which arise under, or in connection with the performance of, another contract, so far as those rights extend to the enforcement of another’s liability which this Ordinance prevents that other from excluding or restricting.\n[cf. 1977 c. 50 s. 10 U.K.]"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Arbitration agreements",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) As against a person dealing as consumer, an agreement to submit future differences to arbitration cannot be enforced except—\n    (a) with his written consent signified after the differences in question have arisen; or\n    (b) where he has himself had recourse to arbitration in pursuance of the agreement in respect of any differences.\n  (2) Subsection (1) does not affect—\n    (a)\n    (b) the resolution of differences arising under any contract so far as it is, by virtue of Schedule 1, excluded from the operation of section 7, 8, 9 or 12."
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Exempted supply contracts",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) The limits imposed by this Ordinance on the extent to which a person may exclude or restrict liability by reference to a contract term do not apply to liability arising under an exempted supply contract.\n  (2) The terms of an exempted supply contract are not subject to any requirement of reasonableness under section 8 or 9.\n  (3) For the purposes of this section, an exempted supply contract means a contract—\n    (a) that is either a contract of sale of goods or a contract under or in pursuance of which the possession or ownership of goods passes;\n    (b) that is made by parties whose places of business (or, if they have none, habitual residences) are in different countries or territories or are in and outside Hong Kong; and\n    (c) in the case of which—\n      (i) the goods in question are, at the time of the conclusion of the contract, in the course of carriage, or will be carried, from one country or territory to another country or territory, or to or from Hong Kong from or to a place outside Hong Kong; or\n      (ii) the acts constituting the offer and acceptance have been done in different countries or territories or in and outside Hong Kong; or\n      (iii) the contract provides for the goods to be delivered to a country or territory other than the country or territory where the acts constituting the offer and acceptance were done; or\n      (iv) the acts constituting the offer and acceptance were done in Hong Kong and the contract provides for the goods to be delivered outside Hong Kong; or\n      (v) the acts constituting the offer and acceptance were done outside Hong Kong and the contract provides for the goods to be delivered to Hong Kong.\n[cf. 1977 c. 50 s. 26 U.K.]"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Choice of law clauses",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where the proper law of a contract is the law of Hong Kong only by choice of the parties (and apart from that choice would be the law of a jurisdiction other than Hong Kong) sections 7 to 12 do not operate as part of the proper law.\n  (2) This Ordinance has effect notwithstanding any contract term which applies or purports to apply the law of a jurisdiction other than Hong Kong, where (either or both)—\n    (a) the term appears to the court or arbitrator to have been imposed wholly or mainly for the purpose of enabling the party imposing it to evade the operation of this Ordinance; or\n    (b) in the making of the contract one of the parties dealt as consumer, and he was then habitually resident in Hong Kong, and the essential steps necessary for the making of the contract were taken there, whether by him or by others on his behalf.\n[cf. 1977 c. 50 s. 27 U.K.]"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Saving for other relevant legislation",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Nothing in this Ordinance removes or restricts the effect of, or prevents reliance upon, any contractual provision which—\n    (a) is authorized or required by the express terms or necessary implication of an enactment; or\n    (b) being made with a view to compliance with an international agreement which applies to Hong Kong, does not operate more restrictively than is contemplated by the agreement.\n  (2) A contract term is to be taken for the purposes of this Ordinance as satisfying the requirement of reasonableness if it is incorporated or approved by, or incorporated pursuant to a decision or ruling of, a competent authority acting in the exercise of any statutory jurisdiction or function and is not a term in a contract to which the competent authority is itself a party.\n  (3) In this section—\n    competent authority (具合法裁判權的主管當局) means any court, arbitrator or public body;\n    enactment (成文法則) means any Ordinance and any instrument having effect by virtue of any Ordinance; and\n    statutory (法定) means conferred by an enactment.\n  [cf. 1977 c. 50 s. 29 U.K.]"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Nothing in this Ordinance applies to contracts made before the date on which it comes into force but, subject to this, it applies to liability for any loss or damage which is suffered on or after that date.\n[cf. 1977 c. 50 s. 31(2) U.K.]"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P4",
+   "text": ""
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Scope of Sections 7, 8, 9 and 12",
+   "status": "in-effect",
+   "text": "1. Sections 7, 8 and 9 do not apply to—\n  (a) any contract of insurance (including a contract to pay an annuity on human life);\n  (b) any contract so far as it relates to the creation or transfer of an interest in land, or to the termination of such an interest, whether by extinction, merger, surrender, forfeiture or otherwise;\n  (c) any contract so far as it relates to the creation or transfer of a right or interest in any patent, trade mark, copyright, registered design, technical or commercial information or other intellectual property, or relates to the termination of any such right or interest;\n  (d) any contract so far as it relates—\n    (i) to the formation or dissolution of a company (which means any body corporate or unincorporated association and includes a partnership); or\n    (ii) to its constitution or the rights or obligations of its corporators or members;\n  (e) any contract so far as it relates to the creation or transfer of securities or of any right or interest in securities;\n  (f) any contract so far as it relates to a person specified in that contract being a clearing participant within the meaning of section 1 of Part 1 of Schedule 1 to the Securities and Futures Ordinance (Cap. 571), and includes any other contract entered into by that person—\n    (i) which is required by that first-mentioned contract to be so entered into; and\n    (ii) so far as it relates to the activities of that person as such a participant.\n2. Section 7(1) applies to—\n  (a) any contract of marine salvage or towage;\n  (b) any charterparty of a ship or hovercraft; and\n  (c) any contract for the carriage of goods by ship or hovercraft,\nbut sections 7(2) and (3), 8, 9 and 12 do not apply to any such contract except in favour of a person dealing as consumer.\n3. Where goods are carried by ship or hovercraft in pursuance of a contract which either—\n  (a) specifies that as the means of carriage over part of the journey to be covered; or\n  (b) makes no provision as to the means of carriage and does not exclude that means,\nthen sections 7(2), 8 and 9 do not, except in favour of a person dealing as consumer, apply to the contract as it operates in relation to the carriage of the goods by that means.\n4. Section 7(1) and (2) does not apply to a contract of employment, except in favour of the employee.\n[cf. 1977 c. 50 Sch. 1 U.K.]",
+   "items": [
+    {
+     "id": "1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Sections 7, 8 and 9 do not apply to—\n  (a) any contract of insurance (including a contract to pay an annuity on human life);\n  (b) any contract so far as it relates to the creation or transfer of an interest in land, or to the termination of such an interest, whether by extinction, merger, surrender, forfeiture or otherwise;\n  (c) any contract so far as it relates to the creation or transfer of a right or interest in any patent, trade mark, copyright, registered design, technical or commercial information or other intellectual property, or relates to the termination of any such right or interest;\n  (d) any contract so far as it relates—\n    (i) to the formation or dissolution of a company (which means any body corporate or unincorporated association and includes a partnership); or\n    (ii) to its constitution or the rights or obligations of its corporators or members;\n  (e) any contract so far as it relates to the creation or transfer of securities or of any right or interest in securities;\n  (f) any contract so far as it relates to a person specified in that contract being a clearing participant within the meaning of section 1 of Part 1 of Schedule 1 to the Securities and Futures Ordinance (Cap. 571), and includes any other contract entered into by that person—\n    (i) which is required by that first-mentioned contract to be so entered into; and\n    (ii) so far as it relates to the activities of that person as such a participant."
+    },
+    {
+     "id": "2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Section 7(1) applies to—\n  (a) any contract of marine salvage or towage;\n  (b) any charterparty of a ship or hovercraft; and\n  (c) any contract for the carriage of goods by ship or hovercraft,\nbut sections 7(2) and (3), 8, 9 and 12 do not apply to any such contract except in favour of a person dealing as consumer."
+    },
+    {
+     "id": "3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Where goods are carried by ship or hovercraft in pursuance of a contract which either—\n  (a) specifies that as the means of carriage over part of the journey to be covered; or\n  (b) makes no provision as to the means of carriage and does not exclude that means,\nthen sections 7(2), 8 and 9 do not, except in favour of a person dealing as consumer, apply to the contract as it operates in relation to the carriage of the goods by that means."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Section 7(1) and (2) does not apply to a contract of employment, except in favour of the employee."
+    }
+   ]
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "“Guidelines” for Application of Reasonableness Test",
+   "status": "in-effect",
+   "text": "The matters to which the court or arbitrator shall have regard in particular for the purposes of sections 11(3) and 12(3) and 4 are any of the following which appear to be relevant—\n  (a) the strength of the bargaining positions of the parties relative to each other, taking into account (among other things) alternative means by which the customer’s requirements could have been met;\n  (b) whether the customer received an inducement to agree to the term, or in accepting it had an opportunity of entering into a similar contract with other persons, but without having to accept a similar term;\n  (c) whether the customer knew or ought reasonably to have known of the existence and extent of the term (having regard, among other things, to any custom of the trade and any previous course of dealing between the parties);\n  (d) where the term excludes or restricts any relevant liability if some condition is not complied with, whether it was reasonable at the time of the contract to expect that compliance with that condition would be practicable;\n  (e) whether the goods were manufactured, processed or adapted to the special order of the customer.\n  [cf. 1977 c. 50 Sch. 2 U.K.]",
+   "items": [
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "  (a) the strength of the bargaining positions of the parties relative to each other, taking into account (among other things) alternative means by which the customer’s requirements could have been met;\n  (b) whether the customer received an inducement to agree to the term, or in accepting it had an opportunity of entering into a similar contract with other persons, but without having to accept a similar term;\n  (c) whether the customer knew or ought reasonably to have known of the existence and extent of the term (having regard, among other things, to any custom of the trade and any previous course of dealing between the parties);\n  (d) where the term excludes or restricts any relevant liability if some condition is not complied with, whether it was reasonable at the time of the contract to expect that compliance with that condition would be practicable;\n  (e) whether the goods were manufactured, processed or adapted to the special order of the customer.\n  [cf. 1977 c. 50 Sch. 2 U.K.]"
+    }
+   ]
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "",
+   "status": "in-effect",
+   "text": "",
+   "items": []
+  }
+ ]
+}

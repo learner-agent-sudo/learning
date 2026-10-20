@@ -1,0 +1,581 @@
+{
+ "cap": "575",
+ "title": "United Nations (Anti-Terrorism Measures) Ordinance",
+ "longTitle": "An Ordinance to further implement a decision of the Security Council of the United Nations in its Resolution 1373 of 28 September 2001 relating to measures for the prevention of terrorist acts, and in that connection, to permit the implementation of the United Nations International Convention for the Suppression of Terrorist Bombings, the United Nations Convention for the Suppression of Unlawful Acts Against the Safety of Maritime Navigation and the United Nations Protocol for the Suppression of Unlawful Acts Against the Safety of Fixed Platforms Located on the Continental Shelf; to implement certain Recommendations of the Financial Action Task Force; to further implement a decision of the Security Council of the United Nations in its Resolution 2178 of 24 September 2014 relating to the prevention of travel for the purpose of terrorist acts or terrorist training; and to provide for matters incidental thereto or connected therewith.",
+ "versionDate": "2019-06-20",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap575",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Specification of Terrorists, Terrorist Associates and Terrorist Property and Freezing of Property",
+   "status": "in-effect",
+   "sections": [
+    "s4",
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Prohibitions Relating to Terrorists, Terrorist Associates and Terrorist Property",
+   "status": "in-effect",
+   "sections": [
+    "s7",
+    "s8",
+    "s8A",
+    "s9",
+    "s10",
+    "s11"
+   ]
+  },
+  {
+   "id": "P3A",
+   "num": "Part 3A",
+   "heading": "Prohibitions Relating to Bombing of Prescribed Objects",
+   "status": "in-effect",
+   "sections": [
+    "s11A",
+    "s11B"
+   ]
+  },
+  {
+   "id": "P3B",
+   "num": "Part 3B",
+   "heading": "Prohibitions Relating to Ships and Fixed Platforms",
+   "status": "in-effect",
+   "sections": [
+    "s11C",
+    "s11D",
+    "s11E",
+    "s11F",
+    "s11G",
+    "s11H",
+    "s11I"
+   ]
+  },
+  {
+   "id": "P3C",
+   "num": "Part 3C",
+   "heading": "Prohibitions Relating to Travel for Specified Purpose",
+   "status": "in-effect",
+   "sections": [
+    "s11J",
+    "s11K",
+    "s11L",
+    "s11M"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Disclosure of Knowledge or Suspicion that Property is Terrorist Property",
+   "status": "in-effect",
+   "sections": [
+    "s12"
+   ]
+  },
+  {
+   "id": "P4A",
+   "num": "Part 4A",
+   "heading": "Powers of Investigation",
+   "status": "in-effect",
+   "sections": [
+    "s12A",
+    "s12B",
+    "s12C",
+    "s12D",
+    "s12E"
+   ]
+  },
+  {
+   "id": "P4B",
+   "num": "Part 4B",
+   "heading": "Seizure and Detention of Property Suspected to be Terrorist Property",
+   "status": "in-effect",
+   "sections": [
+    "s12F",
+    "s12G",
+    "s12H",
+    "s12I",
+    "s12J"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Forfeiture and Offences",
+   "status": "in-effect",
+   "sections": [
+    "s13",
+    "s14"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s18A",
+    "s19",
+    "s20",
+    "s21"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) This Ordinance may be cited as the United Nations (Anti-Terrorism Measures) Ordinance.\n  (2)"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this Ordinance, unless the context otherwise requires—\n    authorized officer (獲授權人員) means—\n      (a) a police officer;\n      (b) a member of the Customs and Excise Service established by section 3 of the Customs and Excise Service Ordinance (Cap. 342);\n      (c) a member of the Immigration Service established by section 3 of the Immigration Service Ordinance (Cap. 331); or\n      (d) an officer of the Independent Commission Against Corruption established by section 3 of the Independent Commission Against Corruption Ordinance (Cap. 204);\n    Committee (聯合國委員會) means—\n      (a) the Committee of the United Nations Security Council established pursuant to the United Nations Security Council Resolution 1267 of 15 October 1999; or\n      (b) any other committee—\n        (i) of the United Nations;\n        (ii) established pursuant to a United Nations Security Council Resolution made, or a United Nations Convention which has entered into force, after 15 October 1999; and\n        (iii) the function of which, in whole or in part, is to designate persons or property as terrorists, terrorist associates or terrorist property, as the case may be;\n    Court (法院) means the Court of First Instance;\n    entity (實體) means any body of persons (including individuals), whether corporate or unincorporate;\n    functions (職能) includes powers;\n    items subject to legal privilege (享有法律特權的品目) has the same meaning as in section 2(1) of the Organized and Serious Crimes Ordinance (Cap. 455);\n    material (材料) includes any book, document or other record in any form whatsoever, and any article or substance;\n    possession (管有) includes control;\n    practicable (切實可行) means reasonably practicable;\n    premises (處所) includes any place and, in particular, includes—\n      (a) any vehicle, vessel, aircraft, hovercraft or offshore structure; and\n      (b) any tent or movable structure;\n    prescribed interest (訂明權益), in relation to any property, means an interest in the property prescribed by rules of court as an interest for the purposes of this Ordinance;\n    relevant offence (有關罪行) means an offence against this Ordinance;\n    Secretary (局長) means the Secretary for Security;\n    terrorist (恐怖分子) means a person who commits, or attempts to commit, a terrorist act or who participates in or facilitates the commission of a terrorist act;\n    terrorist act (恐怖主義行為)—\n      (a) subject to paragraph (b), means the use or threat of action where—\n        (i) the action is carried out with the intention of, or the threat is made with the intention of using action that would have the effect of—\n          (A) causing serious violence against a person;\n          (B) causing serious damage to property;\n          (C) endangering a person’s life, other than that of the person committing the action;\n          (D) creating a serious risk to the health or safety of the public or a section of the public;\n          (E) seriously interfering with or seriously disrupting an electronic system; or\n          (F) seriously interfering with or seriously disrupting an essential service, facility or system, whether public or private; and\n        (ii) the use or threat is—\n          (A) intended to compel the Government or an international organization or to intimidate the public or a section of the public; and\n          (B) made for the purpose of advancing a political, religious or ideological cause;\n      (b) in the case of paragraph (a)(i)(D), (E) or (F), does not include the use or threat of action in the course of any advocacy, protest, dissent or industrial action;\n    terrorist associate (與恐怖分子有聯繫者) means an entity owned or controlled, directly or indirectly, by a terrorist;\n    terrorist property (恐怖分子財產) means—\n      (a) the property of a terrorist or terrorist associate; or\n      (b) any other property that—\n        (i) is intended to be used to finance or otherwise assist the commission of a terrorist act; or\n        (ii) was used to finance or otherwise assist the commission of a terrorist act;\n    weapons (武器) includes—\n      (a) chemical, biological, radiological or nuclear weapons and their precursors;\n      (b) any arms and related material (including ammunition, military vehicles, military equipment and paramilitary equipment); and\n      (c) any components of any arms and related material mentioned in paragraph (b).\n  (2) Any reference in the definition of terrorist act to—\n    (a) an action, person or property includes an action, person or property outside the HKSAR;\n    (b) the Government or public includes the government, or the public, of a place outside the HKSAR.\n  (3) For the purposes of this Ordinance, any proceeds of a terrorist or terrorist associate arising from a terrorist act are—\n    (a) any payments or other rewards received at any time by the terrorist or terrorist associate in connection with the commission of that act;\n    (b) any property derived or realized, directly or indirectly, by the terrorist or terrorist associate from any of the payments or other rewards; and\n    (c) any pecuniary advantage obtained in connection with the commission of that act.\n  (4) For the purposes of this Ordinance, a person who has a prescribed interest in any property shall be deemed to be a person by, for or on behalf of whom the property is or was held.\n  (5) Nothing in this Ordinance shall—\n    (a) require the disclosure of any items subject to legal privilege;\n    (b) authorize the search or seizure of any items subject to legal privilege; or\n    (c) restrict the privilege against self-incrimination.\n  (6) Without prejudice to the powers of the Court under the Rules of the High Court (Cap. 4 sub. leg. A), the Court may of its own motion or on application order that any person who may be affected by an application—\n    (a) under section 5 in the case of an application under section 5(1) made inter partes; or\n    (b) under section 13, 17 or 18,\n  be joined as a party to the proceedings.\n  (7) For the avoidance of doubt, it is hereby declared—\n    (a) that section 14 of the High Court Ordinance (Cap. 4) shall apply to any judgment or order of the Court arising from proceedings—\n      (i) under section 5 in the case of an application under section 5(1) made inter partes; or\n      (ii) under section 13, 17 or 18;\n    (b) the provisions of this Ordinance shall be subject to the operation of Part XII of the Interpretation and General Clauses Ordinance (Cap. 1)."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Application of certain provisions outside HKSAR",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "Sections 7, 8, 8A, 9, 10, 11B, 11F, 11L and 11M apply to—\n  (a) any person within the HKSAR; and\n  (b) any person outside the HKSAR who is—\n    (i) a Hong Kong permanent resident; or\n    (ii) a body incorporated or constituted under the law of the HKSAR."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Specification by Chief Executive of persons and property as terrorists, terrorist associates or terrorist property",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where a person is designated by the Committee as a terrorist, the Chief Executive may publish a notice in the Gazette specifying the name or names of the person.\n  (2) Where a person is designated by the Committee as a terrorist associate, the Chief Executive may publish a notice in the Gazette specifying the name or names of the person.\n  (3) Where any property is designated by the Committee as terrorist property, the Chief Executive may publish a notice in the Gazette specifying the property.\n  (4) For the avoidance of doubt, it is hereby declared that a notice under subsection (1), (2) or (3) is not subsidiary legislation.\n  (5) For the purposes of this Ordinance, it shall be presumed, in the absence of evidence to the contrary, that—\n    (a) a person specified in a notice under subsection (1) is a terrorist;\n    (b) a person specified in a notice under subsection (2) is a terrorist associate;\n    (c) property specified in a notice under subsection (3) is terrorist property.\n  (6) Where—\n    (a) a person or property is specified in a notice under subsection (1), (2) or (3), as the case may be; and\n    (b) the person or property ceases to be designated by the Committee as a terrorist, terrorist associate or terrorist property, as the case may be,\n  then—\n    (c) immediately upon the occurrence of that cesser, the notice shall be deemed to be revoked to the extent that it relates to the person or property, as the case may be; and\n    (d) the Chief Executive shall, as soon as is practicable and for information purposes, publish a notice in the Gazette stating that the first-mentioned notice has been revoked to the extent that it relates to the person or property, as the case may be (or words to the like effect)."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Specification by Court of First Instance of persons and property as terrorists, terrorist associates or terrorist property",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The Chief Executive may make an application to the Court for an order to specify—\n    (a) the person the subject of the application as a terrorist or terrorist associate; or\n    (b) the property the subject of the application as terrorist property.\n  (2) Where an application is made under subsection (1), the Court shall only make the order sought by the application if it is satisfied that the person or property the subject of the application is a terrorist, terrorist associate or terrorist property, as the case may be.\n  (3) The Chief Executive shall cause an order under subsection (2) to be published in the Gazette.\n  (4) Where an order under subsection (2) is published in the Gazette, then, subject to section 17(3)(a), for the purposes of this Ordinance, it shall be presumed, in the absence of evidence to the contrary, that—\n    (a) a person specified in the order as a terrorist is a terrorist;\n    (b) a person specified in the order as a terrorist associate is a terrorist associate;\n    (c) property specified in the order as terrorist property is terrorist property.\n  (5) Where—\n    (a) a person or property is specified in an order under subsection (2) published in the Gazette; and\n    (b) the Chief Executive receives information which causes him to have reasonable grounds to believe that the person or property is not, or is no longer, a terrorist, terrorist associate or terrorist property, as the case may be,\n  then the Chief Executive shall, as soon as is practicable, make an application to the Court for the order to be revoked to the extent that it relates to the person or property, as the case may be.\n  (6) The Court shall grant an application under subsection (5).\n  (7) Where—\n    (a) a person or property is specified in an order under subsection (2) published in the Gazette; and\n    (b) the Court has granted an application—\n      (i) under subsection (6) which relates to the person or property, as the case may be; or\n      (ii) under section 17(3)(b) which relates to the person or property, as the case may be,\n  then the Chief Executive shall, as soon as is practicable, cause a notice to be published in the Gazette specifying that the order has been revoked to the extent that it relates to the person or property, as the case may be.\n  (8) An order under subsection (2) published in the Gazette which has not been revoked in its entirety by virtue of the granting of an application under subsection (6) or section 17(3)(b) shall expire on the 2nd anniversary of the date of its publication in the Gazette.\n  (9) For the avoidance of doubt, it is hereby declared that an application under subsection (1) shall be made inter partes except where the application falls within the circumstances specified in rules of court made for the purposes of this section."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Freezing of property",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where the Secretary has reasonable grounds to suspect that any property held by any person is terrorist property, the Secretary may, by notice in writing specifying the property, direct that a person shall not, directly or indirectly, deal with the property except under the authority of a licence granted by the Secretary.\n  (2) Where—\n    (a) property is specified in a notice under subsection (1); and\n    (b) either—\n      (i) the Secretary ceases to have reasonable grounds to suspect that the property is terrorist property; or\n      (ii) the Court has granted an application under section 17 which relates to the property,\n  then the Secretary shall, as soon as is practicable, by notice in writing revoke the notice to the extent that it relates to the property.\n  (3) Subject to subsection (4), a notice under subsection (1) which has not been revoked under subsection (2) shall expire on the 2nd anniversary of the date on which it was signed by the Secretary.\n  (4) Where an application under section 13 has been made to the Court—\n    (a) in respect of property, or part thereof, specified in a notice under subsection (1); and\n    (b) before the expiration of the notice under subsection (3),\n  then, subject to subsection (2), the notice shall not expire in relation to the property, or part thereof, as the case may be, until the date, if any, on which—\n    (c) proceedings relating to the application (including proceedings relating to any appeal) are no longer pending; and\n    (d) the property, or part thereof, as the case may be, has not been forfeited in consequence of those proceedings.\n  (5) Where a notice under subsection (1) has been revoked under subsection (2) or has expired under subsection (3) or (4), the Secretary shall not again exercise the power under subsection (1) in respect of the property specified in the notice unless there has been a material change in the grounds in respect of which the Secretary proposes to again exercise that power in respect of the property.\n  (6) For the avoidance of doubt, it is hereby declared that the revocation under subsection (2), or the expiry under subsection (3) or (4), of a notice under subsection (1) shall not affect the application of section 8 to the property which was specified in the notice.\n  (7) A notice under subsection (1) or (2) shall be given to the person holding the property concerned (the recipient) and shall require the recipient to send a copy of the notice without delay to each person, if any, whose property it is, or for or on behalf of whom the property is held (the owner).\n  (8) A recipient shall be treated as complying with subsection (7) if, without delay, he sends a copy of the notice mentioned in that subsection to the owner at his last-known address or, if he does not have an address for the owner, he makes arrangements for a copy of the notice to be supplied to the owner at the first available opportunity.\n  (9) Where any property the subject of a notice under subsection (1) or (2) is immovable property, the notice shall, for the purpose of the Land Registration Ordinance (Cap. 128)—\n    (a) be deemed to be an instrument affecting land; and\n    (b) be registrable as such in the Land Registry under that Ordinance in such manner as the Land Registrar thinks fit.\n  (10) The Secretary may, in a notice under subsection (1)—\n    (a) give a direction that an authorized officer may, for the purpose of preventing any property the subject of the notice being removed from the HKSAR, seize the property;\n    (b) give directions in accordance with which any such property so seized shall be dealt with.\n  (11) The Secretary may exercise the powers under subsection (10) only if he has reasonable cause to suspect that the relevant property will be removed from the HKSAR.\n  (12)\n    In subsection (1), deal with (處理), in relation to property, means—\n      (a) to receive or acquire the property;\n      (b) to conceal or disguise the property (whether by concealing or disguising its nature, source, location, disposition, movement or ownership or any rights with respect to it or otherwise);\n      (c) to dispose of or convert the property;\n      (d) to bring into or remove from the HKSAR the property; or\n      (e) to use the property to borrow money, or as security (whether by way of charge, mortgage or pledge or otherwise)."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Prohibition on provision or collection of property to commit terrorist acts",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "A person shall not provide or collect, by any means, directly or indirectly, any property—\n  (a) with the intention that the property be used; or\n  (b) knowing that the property will be used,\nin whole or in part, to commit one or more terrorist acts (whether or not the property is actually so used)."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Prohibition on making property, etc. available to or collecting property, etc. for terrorists and terrorist associates",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "A person must not—\n  (a) except under the authority of a licence granted by the Secretary, make any property or financial (or related) services available, by any means, directly or indirectly, to or for the benefit of a person knowing that, or being reckless as to whether, the person is a terrorist or terrorist associate; or\n  (b) collect property or solicit financial (or related) services, by any means, directly or indirectly, for the benefit of a person knowing that, or being reckless as to whether, the person is a terrorist or terrorist associate."
+  },
+  {
+   "id": "s8A",
+   "num": "8A",
+   "heading": "Prohibition on dealing with certain property",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) A person must not, except under the authority of a licence granted by the Secretary, directly or indirectly, deal with any property knowing that, or being reckless as to whether, the property is—\n    (a) terrorist property specified under section 4 or 5;\n    (b) wholly or jointly owned or controlled, directly or indirectly, by a terrorist or terrorist associate specified under section 4 or 5; or\n    (c) held by a person on behalf of, or at the direction of, a terrorist or terrorist associate specified under section 4 or 5.\n  (2) In this section—\n    deal with (處理) has the meaning given by section 6(12)."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Prohibition on supply of weapons to terrorists and terrorist associates",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "A person shall not provide or collect, by any means, directly or indirectly, weapons—\n  (a) with the intention that the weapons be directly or indirectly supplied to or otherwise used;\n  (b) knowing that the weapons will be directly or indirectly supplied to or otherwise used; or\n  (c) being reckless as to whether the weapons would be directly or indirectly supplied to or otherwise used,\nby a person and knowing that, or being reckless as to whether, such person is a terrorist or terrorist associate."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Prohibition on recruitment, etc. to a body specified in a section 4(1) or (2) notice or a section 5(2) order",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) A person shall not—\n    (a) recruit another person to become a member; or\n    (b) become a member,\n  of a body specified in a notice published in the Gazette under section 4(1) or (2) or an order published in the Gazette under section 5(3), knowing that, or being reckless as to whether, it is a body specified in such a notice or order (as the case may be).\n  (2)\n    In subsection (1), body (團體) means a body of persons, whether corporate or unincorporate."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Prohibition against false threats of terrorist acts",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) A person shall not communicate or make available by any means any information which he knows or believes to be false to another person with the intention of causing alarm to the public or a section of the public by a false belief that a terrorist act has been, is being or will be carried out.\n  (2) A person shall not—\n    (a) place any article or substance in any place; or\n    (b) despatch any article or substance by post, rail or by any other means of sending things from one place to another,\n  with the intention of causing alarm to the public or a section of the public by a false belief that—\n    (c) the article or substance is likely to explode or ignite and thereby cause personal injury or damage to property; or\n    (d) the article contains or the substance consists of—\n      (i) any dangerous, hazardous, radioactive or harmful substance;\n      (ii) any toxic chemical; or\n      (iii) any microbial or other biological agent, or toxin,\n    that is likely to cause death, disease or personal injury or damage to property."
+  },
+  {
+   "id": "s11A",
+   "num": "11A",
+   "heading": "Interpretation of Part 3A",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) In this Part, unless the context otherwise requires—\n    explosive or other lethal device (爆炸性或其他致命裝置) means—\n      (a) an explosive or incendiary weapon or device that is designed, or has the capability, to cause death, serious bodily injury or substantial material damage; or\n      (b) a weapon or device that is designed, or has the capability, to cause death, serious bodily injury or substantial material damage through the release, dissemination or impact of toxic chemicals, biological agents or toxins or similar substances or radiation or radioactive material;\n    infrastructure facility (基建設施) means any publicly or privately owned facility providing or distributing services for the benefit of the public, and includes any water, sewage, energy, fuel or communications facility;\n    place of public use (公用場所) means those parts of any building, land, street, waterway or other location that are accessible or open to the public, whether continuously, periodically or occasionally, and whether or not upon the payment of any fee, and includes any commercial, business, cultural, historical, educational, religious, governmental, entertainment, recreational or similar place that is so accessible or open to the public;\n    prescribed object (訂明標的) means—\n      (a) an infrastructure facility;\n      (b) a place of public use;\n      (c) a public transportation system; or\n      (d) a state or government facility;\n    public transportation system (公共運輸系統) means all facilities, conveyances and instrumentalities, whether publicly or privately owned, that are used in or for publicly available services for the transportation of persons or cargo;\n    state or government facility (國家或政府設施) includes any permanent or temporary facility or conveyance that is used or occupied by—\n      (a) representatives of a state, or members of a government, the legislature or the judiciary, or officials or employees of a state or government or any other public authority or entity, in connection with their official duties; or\n      (b) employees or officials of an intergovernmental organization in connection with their official duties.\n  (2) Any reference in this Part to a prescribed object does not include a prescribed object in the People’s Republic of China outside the HKSAR."
+  },
+  {
+   "id": "s11B",
+   "num": "11B",
+   "heading": "Prohibitions against bombing of prescribed objects",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) A person shall not unlawfully and intentionally deliver, place, discharge or detonate an explosive or other lethal device in, into or against a prescribed object with the intention to cause death or serious bodily injury to any person.\n  (2) A person shall not unlawfully and intentionally deliver, place, discharge or detonate an explosive or other lethal device in, into or against a prescribed object—\n    (a) with the intention to cause extensive destruction of the prescribed object; and\n    (b) where such destruction results in or is likely to result in major economic loss."
+  },
+  {
+   "id": "s11C",
+   "num": "11C",
+   "heading": "Interpretation of Part 3B",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "In this Part, unless the context otherwise requires—\n  act (行為) includes an omission;\n  act of violence (暴力行為) means—\n    (a) an act done in the HKSAR which constitutes the offence of murder, attempted murder, manslaughter, culpable homicide or assault, or an offence under section 17, 19, 20, 21, 22, 23, 28 or 29 of the Offences against the Person Ordinance (Cap. 212) or under section 53 or 54 of the Crimes Ordinance (Cap. 200); and\n    (b) an act done outside the HKSAR which, if done in the HKSAR, would constitute an offence mentioned in paragraph (a);\n  fixed platform (固定平台) means an artificial island, installation or structure permanently attached to the seabed for the purpose of the exploration or exploitation of resources or for other economic purposes;\n  Hong Kong ship (香港船舶) means a ship registered in the HKSAR;\n  maritime navigational facility (航海設施) includes—\n    (a) any lightship and any floating or other light exhibited for the guidance of ships;\n    (b) any description of a fog signal not carried on a ship;\n    (c) all marks and signs in aid of marine navigation;\n    (d) an electronic, radio or other aid to marine navigation not carried on board a ship;\n  master (船長) includes every person (except a pilot) having command or charge of a ship;\n  Rome Convention (《羅馬公約》) means the Convention for the Suppression of Unlawful Acts Against the Safety of Maritime Navigation, done at Rome on 10 March 1988;\n  scheduled to navigate (已編定航行), in relation to a ship, means that the ship has—\n    (a) an intended route;\n    (b) a voyage plan;\n    (c) a normal course of plying; or\n    (d) an advertised sailing schedule;\n  ship (船舶) means a vessel of any type whatsoever not permanently attached to the seabed, including dynamically supported craft, submersibles, or any other floating craft."
+  },
+  {
+   "id": "s11D",
+   "num": "11D",
+   "heading": "Part not to apply to certain ships",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "This Part shall not apply to—\n  (a) a warship;\n  (b) a ship owned or operated by a state when being used as a naval auxiliary or for customs or police purposes;\n  (c) a ship owned or operated by the Government when being used for customs or police purposes; or\n  (d) a ship that has been withdrawn from navigation or is laid up."
+  },
+  {
+   "id": "s11E",
+   "num": "11E",
+   "heading": "Prohibitions relating to ships",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) A person shall not unlawfully and intentionally—\n    (a) by force or by threat of force or by any other form of intimidation, seize or exercise control over a ship;\n    (b) on board a ship, commit an act of violence that is likely to endanger the safe navigation of the ship;\n    (c) destroy a ship;\n    (d) cause damage to a ship or the ship’s cargo where that damage is likely to endanger the safe navigation of the ship;\n    (e) place or cause to be placed on a ship anything that is likely to destroy the ship;\n    (f) place or cause to be placed on a ship anything that is likely to cause damage to the ship or the ship’s cargo where that damage endangers or is likely to endanger the safe navigation of the ship;\n    (g) destroy, seriously damage or seriously interfere with the operation of any maritime navigational facilities, where the destruction, damage or interference, as the case may be, is likely to endanger the safe navigation of a ship; or\n    (h) endanger the safe navigation of a ship by communicating to another person information which the person communicating the information knows to be false.\n  (2) A person shall not intentionally—\n    (a) cause the death of any person in connection with the commission or attempted commission of any act prohibited under subsection (1)(a), (b), (c), (d), (e), (f), (g) or (h); or\n    (b) injure any person in connection with the commission or attempted commission of any act prohibited under—\n      (i) subsection (1)(a), (b), (c), (d), (e), (f), (g) or (h); or\n      (ii) paragraph (a).\n  (3) A person shall not threaten to do, in relation to a ship, any act prohibited under subsection (1)(b), (c), (d) or (g) if the threat—\n    (a) is in order to compel any other person to do or abstain from doing any act; and\n    (b) is likely to endanger the safe navigation of the ship."
+  },
+  {
+   "id": "s11F",
+   "num": "11F",
+   "heading": "Prohibitions relating to fixed platforms",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) A person shall not unlawfully and intentionally—\n    (a) by force or by threat of force or by any other form of intimidation, seize or exercise control over a fixed platform;\n    (b) on board a fixed platform, commit an act of violence that is likely to endanger the safety of the platform;\n    (c) destroy a fixed platform;\n    (d) cause damage to a fixed platform where that damage is likely to endanger the safety of the platform; or\n    (e) place or cause to be placed on a fixed platform anything that is likely to destroy the platform or to endanger the safety of the platform.\n  (2) A person shall not intentionally—\n    (a) cause the death of any person in connection with the commission or attempted commission of any act prohibited under subsection (1)(a), (b), (c), (d) or (e); or\n    (b) injure any person in connection with the commission or attempted commission of any act prohibited under—\n      (i) subsection (1)(a), (b), (c), (d) or (e); or\n      (ii) paragraph (a).\n  (3) A person shall not threaten to do, in relation to a fixed platform, any act prohibited under subsection (1)(b), (c) or (d) if the threat—\n    (a) is in order to compel any other person to do or abstain from doing any act; and\n    (b) is likely to endanger the safety of the platform."
+  },
+  {
+   "id": "s11G",
+   "num": "11G",
+   "heading": "Provisions supplementary to sections 11E and 11F",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) For the purposes of sections 11E(2) and 11F(2), an act by any person occurs in connection with the commission or attempted commission of any of the acts prohibited under section 11E(1) or 11F(1) (prohibited acts), as the case may be, if it was done with intent—\n    (a) to commit or facilitate the commission or attempted commission of any of the prohibited acts;\n    (b) to avoid the detection of himself or of any other person in the commission or attempted commission of any of the prohibited acts; or\n    (c) to avoid the arrest or facilitate the flight of himself or of any other person on the commission or attempted commission of any of the prohibited acts.\n  (2) Subsection (1) shall not limit the generality of the expression “in connection with the commission or attempted commission of”."
+  },
+  {
+   "id": "s11H",
+   "num": "11H",
+   "heading": "Master may deliver alleged offender to appropriate authorities",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) The master of a Hong Kong ship may deliver to the appropriate authorities of a state that is a party to the Rome Convention any person whom the master has reasonable grounds to believe has committed any act prohibited under section 11E.\n  (2) The master of a Hong Kong ship who intends to deliver a person under subsection (1) shall notify the appropriate authorities of the state concerned of—\n    (a) his intention to deliver the person to those authorities; and\n    (b) his reasons for intending to do so.\n  (3) A notification under subsection (2) shall be given—\n    (a) if it is practicable to do so, before the ship enters the territorial sea of the state concerned; or\n    (b) in any other case, as soon as is practicable.\n  (4) Where the master of a Hong Kong ship delivers a person under subsection (1), the master shall give to the appropriate authorities of the state concerned any evidence relating to the act concerned prohibited under section 11E that is in the master’s possession."
+  },
+  {
+   "id": "s11I",
+   "num": "11I",
+   "heading": "Extra-territorial jurisdiction in relation to section 11E",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "Section 11E shall apply in respect of an act that occurs outside the HKSAR—\n  (a) if—\n    (i) the act occurs against or on board a ship that is navigating, or is scheduled to navigate, into or through or from the waters beyond the outer limits of the territorial sea of a state or the lateral limits of its territorial sea with adjacent states; and\n    (ii) either—\n      (A) the ship is a Hong Kong ship; or\n      (B) the alleged offender is a Hong Kong permanent resident;\n  (b) if—\n    (i) the act occurs against or on board a ship that is within the territory of another state;\n    (ii) the alleged offender is found in a state that is a party to the Rome Convention but is not the state where the act occurred; and\n    (iii) either—\n      (A) the ship is a Hong Kong ship; or\n      (B) the alleged offender is a Hong Kong permanent resident."
+  },
+  {
+   "id": "s11J",
+   "num": "11J",
+   "heading": "Interpretation of Part 3C",
+   "status": "in-effect",
+   "part": "P3C",
+   "text": "In this Part—\n    (a) the perpetration, planning or preparation of, or participation in, one or more terrorist acts (even if no terrorist act actually occurs); or\n    (b) the provision or receiving of training that is in connection with the perpetration, planning or preparation of, or participation in, one or more terrorist acts (even if no terrorist act actually occurs as a result of the training)."
+  },
+  {
+   "id": "s11K",
+   "num": "11K",
+   "heading": "Prohibition on travelling for specified purpose",
+   "status": "in-effect",
+   "part": "P3C",
+   "text": "  (1) A Hong Kong permanent resident must not go on board a conveyance with the intention to leave the HKSAR, or a place outside the HKSAR, for a foreign state for a specified purpose.\n  (2) A Hong Kong permanent resident must not leave the HKSAR, or a place outside the HKSAR, for a foreign state for a specified purpose."
+  },
+  {
+   "id": "s11L",
+   "num": "11L",
+   "heading": "Prohibition on providing or collecting property to finance travel for specified purpose",
+   "status": "in-effect",
+   "part": "P3C",
+   "text": "A person must not provide or collect, by any means, directly or indirectly, any property—\n  (a) with the intention that the property will be used; or\n  (b) knowing that the property will be used,\nin whole or in part, to finance the travel of any person between states for a specified purpose (whether or not the property is actually so used)."
+  },
+  {
+   "id": "s11M",
+   "num": "11M",
+   "heading": "Prohibition on organizing or facilitating travel for specified purpose",
+   "status": "in-effect",
+   "part": "P3C",
+   "text": "  (1) A person must not organize or facilitate, directly or indirectly, the travel of any person between states—\n    (a) with the intention that the travel will be for a specified purpose; or\n    (b) knowing that the travel will be for a specified purpose.\n  (2) For the purposes of subsection (1), a person organizes or facilitates travel with the relevant intention or knowledge whether or not the travel is—\n    (a) actually organized or facilitated as contemplated by the person; or\n    (b) actually undertaken as contemplated by the person."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Disclosure of knowledge or suspicion that property is terrorist property, etc.",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Where a person knows or suspects that any property is terrorist property, then the person shall disclose to an authorized officer the information or other matter—\n    (a) on which the knowledge or suspicion is based; and\n    (b) as soon as is practicable after that information or other matter comes to the person’s attention.\n  (2) If a person who has made a disclosure referred to in subsection (1) does any act in contravention of section 7 or 8 (whether before or after the disclosure), and the disclosure relates to that act, the person does not commit an offence under section 14(1) in respect of that contravention if the condition specified in subsection (2B)(a) or (b) is satisfied.\n  (2A) If a person who has made a disclosure referred to in subsection (1) does any act in contravention of section 8A(1)(b) or (c) (whether before or after the disclosure), and the disclosure relates to that act, the person does not commit an offence under section 14(1A) in respect of that contravention if the condition specified in subsection (2B)(a) or (b) is satisfied.\n  (2B) The following conditions are specified for the purposes of subsections (2) and (2A)—\n    (a) the disclosure is made before the person does the act and the person does the act with the consent of an authorized officer;\n    (b) the disclosure is made—\n      (i) after the person does the act;\n      (ii) on the person’s initiative; and\n      (iii) as soon as it is practicable for the person to make the disclosure.\n  (3) A disclosure referred to in subsection (1)—\n    (a) shall not be treated as a breach of any restriction upon the disclosure of information imposed by contract or by any enactment, rule of conduct or other provision;\n    (b) shall not render the person who made it liable in damages for any loss arising out of—\n      (i) the disclosure;\n      (ii) any act done or omitted to be done in relation to the property concerned in consequence of the disclosure.\n  (4) In the case of a person who was in employment at the relevant time, this section shall have effect in relation to disclosures to the appropriate person in accordance with the procedure established by his employer for the making of such disclosures as it has effect in relation to disclosures to an authorized officer.\n  (5) Where a person knows or suspects that a disclosure has been made under subsection (1) or (4), the person shall not disclose to another person any information or other matter which is likely to prejudice any investigation which might be conducted following that first-mentioned disclosure.\n  (6) Information obtained under or by virtue of a disclosure referred to in subsection (1) may be disclosed—\n    (a) by any authorized officer to the Department of Justice, the Hong Kong Police Force, the Customs and Excise Department, the Immigration Department, and the Independent Commission Against Corruption, for the purpose of preventing and suppressing the financing of terrorist acts; and\n    (b) by any authorized officer to the authorities or persons responsible for investigating or preventing terrorist acts, or handling the disclosure of knowledge or suspicion that any property is terrorist property, of any place outside the HKSAR which the authorized officer thinks fit, for the purpose of preventing and suppressing the financing of terrorist acts.\n  (7) Subsection (6) is without prejudice to any other right to disclose information obtained under or by virtue of a disclosure referred to in subsection (1) that may exist apart from subsection (6)."
+  },
+  {
+   "id": "s12A",
+   "num": "12A",
+   "heading": "Requirement to furnish information or produce material",
+   "status": "in-effect",
+   "part": "P4A",
+   "text": "  (1) The Secretary for Justice may, for the purpose of an investigation into a relevant offence, make an ex parte application to the Court for an order under subsection (2) in relation to a particular person or to persons of a particular description.\n  (2) The Court may, if on such an application it is satisfied that the conditions referred to in subsection (4)(a), (b) and (d) or subsection (4)(a), (c) and (d) are fulfilled, make an order complying with subsection (3) in respect of the particular person, or persons of the particular description, to whom the application relates.\n  (3) An order under subsection (2) shall—\n    (a) give particulars of the relevant offence under investigation;\n    (b) identify the particular person, or state the particular description of persons, in respect of whom the order is made;\n    (c) authorize the Secretary for Justice to require the person or persons in respect of whom the order is made—\n      (i) to answer questions or otherwise furnish information with respect to any matter that reasonably appears to an authorized officer to be relevant to the investigation; or\n      (ii) to produce any material, or any material of a class, that reasonably appears to the Secretary for Justice to be relevant to the investigation,\n    or both; and\n    (d) contain such other terms (if any) as the Court considers appropriate in the public interest, but nothing in this paragraph shall be construed as authorizing the Court to order the detention of any person in custody without that person’s consent.\n  (4) The conditions referred to in subsection (2) are—\n    (a) that there are reasonable grounds for suspecting that the relevant offence under investigation has been committed;\n    (b) where the application relates to a particular person, that there are reasonable grounds for suspecting that the person has information, or is in possession of material, likely to be relevant to the investigation;\n    (c) where the application relates to persons of a particular description, that—\n      (i) there are reasonable grounds for suspecting that some or all persons of that description have such information or are in possession of such material; and\n      (ii) the relevant offence could not effectively be investigated if the application was required to relate to a particular person, whether because of the urgency of the investigation, the need to keep the investigation confidential or the difficulty in identifying a particular person who has the relevant information or material;\n    (d) that there are reasonable grounds for believing that it is in the public interest, having regard—\n      (i) to the seriousness of the relevant offence under investigation;\n      (ii) to whether or not the relevant offence could be effectively investigated if an order under subsection (2) is not made;\n      (iii) to the benefit likely to accrue to the investigation if the information is disclosed or the material is obtained; and\n      (iv) to the circumstances under which the person or persons may have acquired, or may hold, the information or material (including any obligation of confidentiality in respect of the information or material and any family relationship with a person to whom the information or material relates),\n    that an order under subsection (2) should be made in respect of that person or those persons.\n  (5) Where an order under subsection (2) authorizes the Secretary for Justice to require a person to answer questions or otherwise furnish information with respect to any matter that reasonably appears to an authorized officer to be relevant to an investigation, the Secretary for Justice may by one, or more than one, notice in writing served on that person require him to attend before an authorized officer at a specified time and place, or at specified times and places, and answer questions or otherwise furnish information with respect to any matter that reasonably appears to the authorized officer to be relevant to the investigation.\n  (6) Where an order under subsection (2) authorizes the Secretary for Justice to require a person to produce any material that reasonably appears to the Secretary for Justice to be relevant to the investigation or be of a class that is so relevant, the Secretary for Justice may by one, or more than one, notice in writing served on that person require him to produce at a specified time and place, or at specified times and places, any specified material that reasonably appears to him to be so relevant or any material of a specified class that reasonably appears to him to be so relevant.\n  (7) A notice in writing imposing a requirement on a person under subsection (5) or (6) shall—\n    (a) state that a court order has been made under this section and include—\n      (i) the date of the order;\n      (ii) the particulars of the relevant offence under investigation;\n      (iii) where the order is made in respect of that particular person, a statement to that effect;\n      (iv) where the order is made in respect of persons of a particular description and that person is of that particular description, a statement to that effect;\n      (v) a statement of the authorization given to the Secretary for Justice by the order; and\n      (vi) a statement of any other terms of the order relevant to that person;\n    (b) have annexed to it a copy of the order under this section, but there may be excluded from such copy—\n      (i) any reference in the order to a particular person other than that person, or to persons of a particular description not including that person; and\n      (ii) any details in the order that relate only to such particular person or persons of a particular description; and\n    (c) be substantially in the form specified in Schedule 2 in relation to such notice and in addition shall set out or have annexed to it subsection (8) and section 12E.\n  (8) An authorized officer may photograph or make copies of any material produced in compliance with a requirement under this section.\n  (9) Subject to section 2(5)(a), (b) and (c), a person is not excused from furnishing information or producing any material required under this section on the ground that to do so would breach an obligation as to secrecy or another restriction upon the disclosure of information or material imposed by statute or otherwise.\n  (10) A statement by a person in response to a requirement imposed by virtue of this section may not be used against him in criminal proceedings against him except in evidence in proceedings under section 14(7F) or under section 36 of the Crimes Ordinance (Cap. 200).\n  (11) Where an order under subsection (2) has been made, the Secretary for Justice, or a person authorized in writing by the Secretary for Justice for the purpose of this subsection, may, after satisfying any conditions that may be prescribed by rules of court in this respect, obtain a copy of the order; but subject to the foregoing part of this subsection and to subsection (7)(b), no person is entitled to obtain a copy of the order or any part of the order.\n  (12) Where a requirement imposed on a person under this section relates to material which consists of information recorded otherwise than in legible form—\n    (a) the requirement shall have effect as a requirement to produce the material in a form in which it can be taken away; and\n    (b) an authorized officer may, by notice in writing served on the person, require the person to produce at a specified time and place, or at specified times and places, the material in a form in which it is visible and legible and can be taken away, and may by like notice release the person from any obligation under the requirement to produce the material in the form in which it is recorded.\n  (13) An application for the revocation or variation of an order under this section may be made by any person on whom a requirement is imposed under the order.\n  (14) The Secretary shall prepare a code of practice in connection with—\n    (a) the exercise of any of the powers conferred; and\n    (b) the discharge of any of the duties imposed,\n  by this section, and any such code shall be laid before the Legislative Council and shall not be promulgated until the code has been approved by the Legislative Council."
+  },
+  {
+   "id": "s12B",
+   "num": "12B",
+   "heading": "Order to make material available",
+   "status": "in-effect",
+   "part": "P4A",
+   "text": "  (1) The Secretary for Justice or an authorized officer may, for the purpose of an investigation into a relevant offence, make an ex parte application to the Court for an order under subsection (2) in relation to particular material or to material of a particular description, whether in the HKSAR or, in the case of an application by the Secretary for Justice, elsewhere.\n  (2) Subject to subsection (6), the Court may, if on such an application it is satisfied that the conditions referred to in subsection (5) are fulfilled, make an order—\n    (a) that the person who appears to the Court to be in possession of the material to which the application relates shall—\n      (i) produce the material to an authorized officer for him to take away; or\n      (ii) give an authorized officer access to it,\n    within such period as the order may specify;\n    (b) that the person who appears to the Court likely to come into possession of the material to which the application relates shall, when the person comes into possession of any such material—\n      (i) produce the material to an authorized officer for him to take away; or\n      (ii) give an authorized officer access to it,\n    within such period as the order may specify; or\n    (c) in terms both of paragraphs (a) and (b).\n  (3) An order under subsection (2), in so far as it is in terms of paragraph (b) of that subsection, shall cease to have effect upon the expiration of 3 months after the day on which the order is made, or upon the expiration of such lesser period, if any, as is specified in the order for the purpose, but nothing in this subsection shall—\n    (a) affect any obligation incurred under that order prior to its expiration;\n    (b) prevent, in relation to the person required to comply with that order, any further order being made under that subsection in respect of that person (including before the expiration of that first-mentioned order).\n  (4) The period to be specified in an order under subsection (2) shall be 7 days unless it appears to the Court that a longer or shorter period would be appropriate in the particular circumstances of the application.\n  (5) The conditions referred to in subsection (2) are—\n    (a) that there are reasonable grounds for suspecting that the relevant offence has been committed;\n    (b) that there are reasonable grounds for believing that the material to which the application relates is likely to be relevant to the investigation for the purpose of which the application is made;\n    (c) that there are reasonable grounds for believing that it is in the public interest, having regard—\n      (i) to the benefit likely to accrue to the investigation if the material is obtained; and\n      (ii) to the circumstances under which the person in possession of the material holds it,\n    that the material should be produced or that access to it should be given.\n  (6) Where an application under subsection (1) relates to material of a particular description, an order under subsection (2) shall only be made where an application in relation to particular material is not practicable.\n  (7) Where the Court makes an order under subsection (2)(a)(ii) or (b)(ii) in relation to material on any premises it may, on the same or a subsequent application of an authorized officer, order any person who appears to it to be entitled to grant entry to the premises to allow an authorized officer to enter the premises to obtain access to the material.\n  (8) An application for the revocation or variation of an order under subsection (2) or (7) may be made by any person who is subject to the order.\n  (9) Where material to which an application under this section relates consists of information recorded otherwise than in legible form—\n    (a) an order under subsection (2)(a)(i) or (b)(i) shall have effect as an order to produce the material in a form in which it can be taken away; and\n    (b) an order under subsection (2)(a)(ii) or (b)(ii) shall have effect as an order to give access to the material in a form in which it is visible and legible.\n  (10) Where an order under subsection (2)(a)(i) or (b)(i) relates to information recorded otherwise than in legible form, an authorized officer may, by notice in writing served on the person, require the person to produce the material in a form in which it is visible and legible and can be taken away, and may by like notice release the person from any obligation under the order to produce the material in the form in which it was recorded.\n  (11) Subject to section 2(5)(a), (b) and (c), a person is not excused from producing any material in relation to which an order under subsection (2) is made on the ground that to do so would breach an obligation as to secrecy or another restriction upon the disclosure of information imposed by statute or otherwise.\n  (12) An authorized officer may photograph or make copies of any material produced under this section."
+  },
+  {
+   "id": "s12C",
+   "num": "12C",
+   "heading": "Authority for search",
+   "status": "in-effect",
+   "part": "P4A",
+   "text": "  (1) An authorized officer may, for the purpose of an investigation into a relevant offence, apply to the Court for a warrant under this section in relation to specified premises.\n  (2) On such application the Court may issue a warrant authorizing an authorized officer to enter and search the premises if it is satisfied—\n    (a) that a requirement imposed under section 12A(6) in relation to material on the premises has not been complied with;\n    (b) that an order under section 12B in relation to material on the premises has not been complied with;\n    (c) that the conditions referred to in subsection (3) are fulfilled; or\n    (d) that the conditions referred to in subsection (4) are fulfilled.\n  (3) The conditions referred to in subsection (2)(c) are—\n    (a) that there are reasonable grounds for suspecting that the relevant offence has been committed;\n    (b) that the conditions referred to in section 12B(5)(b) and (c) are fulfilled in relation to any material on the premises;\n    (c) that it would not be appropriate to make an order under section 12B in relation to the material because—\n      (i) it is not practicable to communicate with any person entitled to produce the material;\n      (ii) it is not practicable to communicate with any person entitled to grant access to the material or entitled to grant entry to the premises on which the material is situated; or\n      (iii) the investigation for the purpose of which the application is made might be seriously prejudiced unless an authorized officer could secure immediate access to the material.\n  (4) The conditions referred to in subsection (2)(d) are—\n    (a) that there are reasonable grounds for suspecting that the relevant offence has been committed;\n    (b) that there are reasonable grounds for suspecting that there is on the premises material which is likely to be relevant to the investigation for the purpose of which the application is made, but that the material cannot at the time of the application be particularized;\n    (c) that—\n      (i) it is not practicable to communicate with any person entitled to grant entry to the premises;\n      (ii) entry to the premises will not be granted unless a warrant is produced; or\n      (iii) the investigation for the purpose of which the application is made might be seriously prejudiced unless an authorized officer arriving at the premises could secure immediate entry to them.\n  (5) Where an authorized officer has entered premises in the execution of a warrant issued under this section, he may seize and retain any material which is likely to be relevant to the investigation for the purpose of which the warrant was issued.\n  (6) An authorized officer may photograph or make copies of any material seized under this section."
+  },
+  {
+   "id": "s12D",
+   "num": "12D",
+   "heading": "Disclosure of information obtained under section 12A, 12B or 12C",
+   "status": "in-effect",
+   "part": "P4A",
+   "text": "  (1) Where any information subject to an obligation of secrecy under the Inland Revenue Ordinance (Cap. 112) has been obtained from the Commissioner of Inland Revenue or any officer of the Inland Revenue Department under or by virtue of section 12A, 12B or 12C, that information may be disclosed by any authorized officer to the Secretary for Justice for the purposes of—\n    (a) any prosecution of a relevant offence;\n    (b) any application for an order under section 5 or 13(1); or\n    (c) any consideration of giving a notice under section 6(1),\n  but, subject to subsection (4), may not otherwise be disclosed.\n  (2) Subject to subsection (1), information obtained by any person under or by virtue of section 12A, 12B or 12C may be disclosed by any authorized officer—\n    (a) to the Department of Justice, the Hong Kong Police Force, the Customs and Excise Department, the Immigration Department, and the Independent Commission Against Corruption, for the purpose of preventing and suppressing a relevant offence;\n    (b) to any corresponding person or body, where the information appears to the Secretary for Justice to be likely to assist that person or body to discharge its functions relating to preventing and suppressing offences of a similar nature to relevant offences; and\n    (c) to the Chief Executive for the purposes of section 5 and the Secretary for the purposes of section 6.\n  (3) Subsection (2) is without prejudice to any other right to disclose information obtained under or by virtue of section 12A, 12B or 12C that may exist apart from subsection (2).\n  (4) Information mentioned in subsection (1) or (2) may, on the authority of the Chief Executive, but subject to the information being transmitted through and with the approval of the Ministry of Foreign Affairs of the People’s Republic of China, be disclosed—\n    (a) to any organ of the United Nations or to any person in the service of the United Nations; and\n    (b) for the purpose of assisting the United Nations in securing compliance with or detecting evasion of measures in relation to a terrorist or terrorist associate decided upon by the Security Council of the United Nations.\n  (5)\n    In this section, corresponding person or body (相應的人員或機構) means any person who or body which, in the opinion of the Secretary for Justice, has under the law of a place outside the HKSAR, functions corresponding to any of the functions of any body mentioned in subsection (2)(a)."
+  },
+  {
+   "id": "s12E",
+   "num": "12E",
+   "heading": "Investigation not to be prejudiced",
+   "status": "in-effect",
+   "part": "P4A",
+   "text": "  (1) Where an order under section 12A or 12B has been made or has been applied for and has not been refused or a warrant under section 12C has been issued, a person who, knowing or suspecting that the investigation in relation to which the order has been made or applied for or the warrant has been issued is taking place, shall not—\n    (a) without lawful authority or reasonable excuse, make any disclosure intending to prejudice the investigation; or\n    (b) falsify, conceal, destroy or otherwise dispose of, or cause or permit the falsification, concealment, destruction or disposal of, any material—\n      (i) knowing or suspecting that the material is likely to be relevant to the investigation; and\n      (ii) intending to conceal the facts disclosed by the material from persons carrying out the investigation.\n  (2) Where a person has been arrested in connection with an investigation specified in subsection (1), that subsection shall not apply as regards any disclosure in respect of the investigation made after such arrest."
+  },
+  {
+   "id": "s12F",
+   "num": "12F",
+   "heading": "Interpretation of Part 4B",
+   "status": "in-effect",
+   "part": "P4B",
+   "text": "In this Part, unless the context otherwise requires—\n  seized property (被檢取的財產) means any property seized under section 12G."
+  },
+  {
+   "id": "s12G",
+   "num": "12G",
+   "heading": "Issue of warrant",
+   "status": "in-effect",
+   "part": "P4B",
+   "text": "  (1) Where it appears to the Court upon the oath of any person that there is reasonable cause to suspect that—\n    (a) in any premises there is terrorist property; or\n    (b) there is in any premises any thing that is, or contains, evidence of a relevant offence,\n  the Court may issue a warrant authorizing an authorized officer to enter the premises named in the warrant and there to search for and seize, remove and detain any terrorist property.\n  (2) An authorized officer executing a warrant issued under subsection (1) may use such assistance and force as are reasonable and necessary for the purposes for which the warrant is issued.\n  (3) An authorized officer who has entered any premises by virtue of a warrant issued under subsection (1) may seize, remove and detain any thing (including any material produced or required to be produced by virtue of an order under section 12A or 12B or a warrant issued under section 12C) if he has reason to suspect that such thing is terrorist property.\n  (4) An authorized officer who has entered any premises by virtue of a warrant issued under subsection (1) may stop and search any person found on the premises if—\n    (a) in relation to the premises, any thing mentioned in subsection (3) has been seized; or\n    (b) the authorized officer has reason to suspect that the person has in his actual custody any thing mentioned in subsection (3).\n  (5) No person shall be searched under this section except by a person of the same sex."
+  },
+  {
+   "id": "s12H",
+   "num": "12H",
+   "heading": "Period for which seized property may be detained",
+   "status": "in-effect",
+   "part": "P4B",
+   "text": "  (1) Seized property shall not be detained for a period of more than 30 days unless, before the expiration of that period, the continued detention of the property is authorized by an order under subsection (2).\n  (2) The Court may, on application made to it by an authorized officer, by order authorize the continued detention of seized property where it is satisfied that—\n    (a) there are reasonable grounds for suspecting that the property is terrorist property; and\n    (b) the detention of the property is justified while its origin or derivation is further investigated or consideration is given to the institution (whether in the HKSAR or elsewhere) of—\n      (i) proceedings against any person in relation to an offence with which the property is connected; or\n      (ii) steps which may result in a direction being given under section 6(1) in respect of the property or which may result in the forfeiture or other confiscation of the property.\n  (3) An order under subsection (2) shall authorize the continued detention of the seized property to which it relates for such period, not exceeding 3 months beginning with the date of the order, as is specified in the order and the Court, on application made to it by an authorized officer and if satisfied as to the matters referred to in subsection (2)(a) and (b), may thereafter from time to time by order authorize the further detention of the property but so that—\n    (a) no period of detention specified in an order under this subsection shall exceed 3 months beginning with the date of the order; and\n    (b) the total period of detention shall not exceed 2 years from the date of the order under subsection (2).\n  (4) At any time while seized property is being detained by an order under subsection (2) or (3) the Court may direct its release if satisfied—\n    (a) on an application made by—\n      (i) the person from whom it was seized;\n      (ii) a person by, for or on behalf of whom it was held; or\n      (iii) a person who otherwise has an interest in it,\n    that there are no, or are no longer, any such grounds for its detention as are referred to in subsection (2); or\n    (b) on an application made by an authorized officer, that its detention is no longer justified.\n  (5) If, at any time when any seized property is being detained by virtue of an order under subsection (2) or (3)—\n    (a) proceedings are instituted (whether in the HKSAR or elsewhere) against any person in relation to an offence with which the property is connected; or\n    (b) steps have been taken (whether in the HKSAR or elsewhere) which may result in a direction being given under section 6(1) in respect of the property or which may result in the forfeiture or other confiscation of the property,\n  the property shall not be released until the proceedings or steps have been concluded."
+  },
+  {
+   "id": "s12I",
+   "num": "12I",
+   "heading": "Interest",
+   "status": "in-effect",
+   "part": "P4B",
+   "text": "Seized property which is money and which is detained in pursuance of an order under section 12H(2) or (3) shall, unless required as evidence of an offence, be held in an interest-bearing account and the interest accruing thereon shall be added to the property on its release."
+  },
+  {
+   "id": "s12J",
+   "num": "12J",
+   "heading": "Procedure",
+   "status": "in-effect",
+   "part": "P4B",
+   "text": "An order under section 12H(2) shall provide for notice to be given to persons affected by the order."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Forfeiture of certain terrorist property",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) The Court may, if satisfied on an application made by or on behalf of the Secretary for Justice that any property specified in the application is terrorist property—\n    (a) mentioned in paragraph (a) of the definition of terrorist property and which also—\n      (i) in whole or in part directly or indirectly represents any proceeds arising from a terrorist act;\n      (ii) is intended to be used to finance or otherwise assist the commission of a terrorist act; or\n      (iii) was used to finance or otherwise assist the commission of a terrorist act; or\n    (b) mentioned in paragraph (b) of the definition of terrorist property,\n  order, subject to subsection (2), the forfeiture of the property.\n  (2) Where the Court makes an order under subsection (1) in respect of any property, the Court shall specify in the order so much, if any, of the property in respect of which the Court is not satisfied as mentioned in that subsection.\n  (3) An order may be made under this section whether or not proceedings are brought against any person for an offence with which the property concerned is connected.\n  (4) The standard of proof on an application under this section shall be the standard of proof applicable to civil proceedings in a court of law.\n  (5)"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Offences",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Any person who contravenes section 7, 8 or 9 commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 14 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 2 years.\n  (1A) A person who contravenes section 8A commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 14 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 2 years.\n  (2) A person who knowingly contravenes a notice under section 6(1) commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 7 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 1 year.\n  (3) A person who, without reasonable excuse, contravenes a requirement under section 6(7) commits an offence and is liable on conviction to a fine at level 6 and to imprisonment for 3 months.\n  (4) A person who contravenes section 10(1) or 11(1) or (2) commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 7 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 1 year.\n  (4A) A person who contravenes section 11K, 11L or 11M commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 7 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 1 year.\n  (5) A person who contravenes section 12(1) commits an offence and is liable on conviction to a fine at level 5 and to imprisonment for 3 months.\n  (6) A person who contravenes section 12(5) commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 3 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 1 year.\n  (7) In proceedings against a person for an offence under subsection (6), it is a defence to prove—\n    (a) that he did not know or suspect that the disclosure concerned was likely to be prejudicial in the way referred to in section 12(5); or\n    (b) that he had lawful authority or reasonable excuse for making that disclosure.\n  (7A) Any person who contravenes section 11B(1) or (2) commits an offence and is liable on conviction to imprisonment for life.\n  (7B) Any person who contravenes section 11E(1), (2)(b) or (3) or 11F(1), (2)(b) or (3) commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 14 years;\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 2 years.\n  (7C) Any person who contravenes section 11E(2)(a) or 11F(2)(a) commits an offence and is liable on conviction to imprisonment for life.\n  (7D) Any master of a Hong Kong ship who, without reasonable excuse, contravenes section 11H(2), (3) or (4) commits an offence and is liable on conviction to a fine at level 2.\n  (7E) Any person who without reasonable excuse fails to comply with a requirement imposed on him under section 12A commits an offence and is liable on conviction to a fine at level 6 and to imprisonment for 1 year.\n  (7F) Any person who, in purported compliance with a requirement under section 12A—\n    (a) makes a statement that he knows to be false or misleading in a material particular; or\n    (b) recklessly makes a statement that is false or misleading in a material particular,\n  commits an offence and is liable—\n    (c) on conviction on indictment to a fine of $500,000 and to imprisonment for 3 years;\n    (d) on summary conviction to a fine at level 6 and to imprisonment for 1 year.\n  (7G) Any person who without reasonable excuse fails to comply with an order under section 12B(2) commits an offence and is liable on conviction to a fine at level 6 and to imprisonment for 1 year.\n  (7H) Any person who intentionally and without reasonable excuse hinders or obstructs an authorized officer in the execution of a warrant issued under section 12C commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $250,000 and to imprisonment for 2 years;\n    (b) on summary conviction to a fine at level 5 and to imprisonment for 6 months.\n  (7I) A person who contravenes section 12E(1) commits an offence and is liable—\n    (a) on conviction on indictment to a fine and to imprisonment for 7 years;\n    (b) on summary conviction to a fine of $500,000 and to imprisonment for 3 years.\n  (7J) Any person who intentionally and without reasonable excuse obstructs any person in the exercise of his powers under a warrant issued under section 12G(1) commits an offence and is liable on conviction to a fine at level 6 and to imprisonment for 6 months.\n  (8) Summary proceedings for an offence under this Ordinance, being an offence alleged to have been committed outside the HKSAR, may be commenced at any time not later than 12 months from the date on which the person charged first enters the HKSAR after committing the offence.\n  (9) No proceedings for an offence under this Ordinance shall be instituted in the HKSAR except by or with the consent of the Secretary for Justice."
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Supplementary provisions applicable to licences mentioned in section 6(1), 8 or 8A",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Without prejudice to the generality of conditions and exceptions which may be specified in a licence mentioned in section 6(1) or 8A—\n    (a) such conditions may—\n      (i) relate to specifying the manner in which the property to which the licence relates shall be held from time to time;\n      (ii) relate to the appointment of a receiver to take possession of the property and to deal with it in a manner which preserves the value of the property or any other property into which it is converted; and\n      (iii) require a person holding the property to give possession of the property to a receiver, if any, appointed in respect of the property; and\n    (b) such exceptions may relate but are not limited to—\n      (i) the reasonable living expenses;\n      (ii) the reasonable legal expenses; and\n      (iii) the payments liable to be made under the Employment Ordinance (Cap. 57),\n    of any person by, for or on behalf of whom the property is held.\n  (2) Without prejudice to the generality of conditions and exceptions which may be specified in a licence mentioned in section 8, such exceptions may relate to the reasonable living expenses, reasonable legal expenses and the payments liable to be made under the Employment Ordinance (Cap. 57) of the person second-mentioned in that section to which the licence relates."
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Delegations",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) The Chief Executive may, to such extent and subject to such restrictions and conditions as the Chief Executive may think proper, delegate or authorize the delegation of any of the Chief Executive’s functions under this Ordinance to any public officer, or class or description of public officers, approved by the Chief Executive, and references in this Ordinance to the Chief Executive shall be construed accordingly.\n  (2) The Secretary may, to such extent and subject to such restrictions and conditions as the Secretary may think proper, delegate or authorize the delegation of any of the Secretary’s functions under this Ordinance to any public officer, or class or description of public officers, approved by the Secretary, and references in this Ordinance to the Secretary shall be construed accordingly."
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Applications to Court of First Instance",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Where—\n    (a) an application under section 5(1) has been made ex parte and in consequence thereof an order under section 5(2) has been published in the Gazette, then—\n      (i) any person specified in the order, or any person acting for or on behalf of the person so specified, may at any time make an application to the Court for the order to be revoked to the extent that it relates to the person so specified;\n      (ii) any person by, for or on behalf of whom any property specified in the order is held, or any other person in respect of whom the Court is satisfied that the person is affected by the order, may at any time make an application to the Court for the order to be revoked to the extent that it relates to the property so specified;\n    (b) a notice has been given under section 6(1), then any person by, for or on behalf of whom any property specified in the notice is held, or any other person in respect of whom the Court is satisfied that the person is affected by the notice, may at any time make an application to the Court for the notice to be revoked to the extent that it relates to the property so specified.\n  (2) A person who makes an application under subsection (1) shall give a copy of the application (and an affidavit, if any, and other relevant documents, if any, in support)—\n    (a) to the Secretary for Justice and, in the case of an application under subsection (1)(a)(ii) or (b), to any other person by, for or on behalf of whom the property concerned is held; and\n    (b) not later than 7 days before the date fixed for the hearing of the application or such shorter period as the Court may permit pursuant to rules of court.\n  (3) On an application under subsection (1)—\n    (a) in the case of an application under subsection (1)(a)(i) or (ii), the presumption mentioned in section 5(4) shall not be applicable, whether for the purposes of the proceedings or otherwise, immediately upon the initiation of the proceedings and until the conclusion of the proceedings (including the conclusion of any appeal arising out of the proceedings); and\n    (b) the Court shall grant the application unless—\n      (i) where subsection (1)(a)(i) is applicable, the Court is satisfied that the person specified in the order concerned under section 5(2) is a terrorist or terrorist associate, as the case may be;\n      (ii) where subsection (1)(a)(ii) is applicable, the Court is satisfied that the property specified in the order concerned under section 5(2) is terrorist property;\n      (iii) where subsection (1)(b) is applicable, the Court is satisfied that there are reasonable grounds to suspect that the property specified in the notice concerned under section 6(1) is terrorist property.\n  (4) An application for—\n    (aa) the revocation or variation of a direction mentioned in section 6(10) may be made by any person affected by the notice under section 6(1) in which the direction appears;\n    (a) the grant of a licence mentioned in section 6(1), 8 or 8A may be made by any person affected by the operation of that section; or\n    (b) the variation of a licence mentioned in section 6(1), 8 or 8A may be made by any person affected by the licence.\n  (5) A person who makes an application under subsection (4) shall give a copy of the application (and affidavit, if any, and other relevant documents, if any, in support)—\n    (a) to the Secretary for Justice and to any other person affected by—\n      (i) the notice under section 6(1) concerned;\n      (ii) the operation concerned of section 6(1), 8 or 8A; or\n      (iii) the licence concerned,\n    as the case may be; and\n    (b) not later than 7 days before the date fixed for the hearing of the application or such shorter period as the Court may permit pursuant to rules of court.\n  (6) The Court shall not grant an application under subsection (4) unless it is satisfied that it is reasonable in all the circumstances of the case to do so.\n  (7) Where—\n    (a) proceedings relating to an application under subsection (4) (including proceedings relating to any appeal) are no longer pending; and\n    (b) either—\n      (i) the direction to which the application relates—\n        (A) is, or is still, required to be revoked; or\n        (B) is, or is still, required to be varied; or\n      (ii) the licence to which the application relates—\n        (A) is, or is still, required to be granted; or\n        (B) is, or is still, required to be varied,\n    as the case may be,\n  then the Secretary shall, as soon as is practicable, cause the direction to be revoked or varied, or the licence to be granted or varied, as the case may be, accordingly."
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Compensation",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to subsection (2), where—\n    (a) a person has ceased to be specified as a terrorist or terrorist associate under section 5(2); or\n    (b) property has ceased to be—\n      (i) specified as terrorist property under section 5(2); or\n      (ii) specified in a notice under section 6(1),\n  then the Court may, on application by—\n    (c) in the case of paragraph (a), the person who was so specified, or any person acting for or on behalf of the person who was so specified;\n    (d) where paragraph (b) is applicable, any person by, for or on behalf of whom the property that was so specified is held,\n  order compensation to be paid by the Government to the applicant if, having regard to all the circumstances, it considers it appropriate to make such an order.\n  (2) The Court shall not order compensation to be paid under subsection (1) unless it is satisfied—\n    (a) where subsection (1)(a) is applicable, that at no time when the person concerned was specified as a terrorist or terrorist associate under section 5(2) was the person either a terrorist or terrorist associate;\n    (b) where subsection (1)(b) is applicable, that at no time when the property was specified as terrorist property under section 5(2), or was specified in a notice under section 6(1), as the case may be, was the property terrorist property;\n    (c) that there has been some default on the part of any person concerned in obtaining the relevant specification under section 5(2) or 6(1); and\n    (d) the applicant has, in consequence of the relevant specification and the default mentioned in paragraph (c), suffered loss.\n  (2A) Without prejudice to the operation of subsection (1), where—\n    (a) any property is seized property within the meaning of section 12F; and\n    (b) subsequently, none of the following events occurs—\n      (i) the property is specified in a notice under section 6(1);\n      (ii) the property is forfeited under section 13;\n      (iii) proceedings are instituted (whether in the HKSAR or elsewhere)—\n        (A) against any person in relation to an offence with which the property is connected; or\n        (B) which may result in the forfeiture or other confiscation of the property,\n  the Court may, on an application made by any person by, for or on behalf of whom the property was held, order compensation to be paid by the Government to the applicant if, having regard to all the circumstances, it considers it appropriate to make such an order.\n  (2B) The Court shall not order compensation to be paid under subsection (2A) unless it is satisfied that—\n    (a) there has been some default on the part of any person concerned with the seizure or detention of the property concerned; and\n    (b) the applicant has, in consequence of such seizure or detention and the default mentioned in paragraph (a), suffered loss in relation to the property.\n  (3) The amount of compensation to be paid under this section shall be such as the Court thinks just in all the circumstances of the case."
+  },
+  {
+   "id": "s18A",
+   "num": "18A",
+   "heading": "Saving of common law remedies",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to subsection (2), nothing in section 18 affects any remedy available to a person at common law.\n  (2) Where a court orders any compensation under section 18 or damages at common law in respect of any default, the court shall take into account, in reduction of the amount of compensation or damages, any amount awarded as damages or ordered as compensation (as the case may be) in respect of that default."
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "",
+   "status": "repealed",
+   "part": "P6"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Procedure",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Provision may be made by rules of court—\n    (a) with respect to applications under—\n      (i) section 5;\n      (ii) section 13;\n      (iii) section 17; or\n      (iv) section 18;\n      (v)\n    (b) without limiting the generality of paragraph (a), with respect to the circumstances in which applications mentioned in that paragraph shall be made ex parte;\n    (c) without limiting the generality of paragraph (a), with respect to expediting, on grounds specified in the rules, the hearing of applications mentioned in that paragraph;\n    (d) with respect to the division, conversion or disposal of property for the purposes of satisfying an order under section 13(1) to which the property is subject where—\n      (i) section 13(2) is applicable; and\n      (ii) the property is not readily divisible for those purposes;\n    (e) without limiting the generality of paragraph (a), prescribing interests for the purposes of the definition of prescribed interest;\n    (f) generally with respect to the procedure under this Ordinance before any court.\n  (2) Rules of court—\n    (a) shall provide for applications by any person on whom a requirement is imposed under an order under section 12A or 12B for the revocation or variation of such order;\n    (b) may provide for—\n      (i) proceedings relating to section 12A, 12B or 12C;\n      (ii) conditions that must be satisfied before a person (including the Secretary for Justice) referred to in section 12A(11) may obtain a copy of an order under section 12A.\n  (3) Subsections (1) and (2) are without prejudice to the generality of any existing power to make rules."
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Proceedings inter partes shall be held in open court unless otherwise ordered by the court",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to subsection (2), proceedings inter partes in respect of applications mentioned in section 20(1)(a) shall be held in open court unless the court otherwise orders, upon application made by any party to the proceedings, that all or part of the proceedings shall be held in chambers or in camera.\n  (2) The court shall not make an order that proceedings mentioned in subsection (1) shall be held in chambers or in camera unless the court is satisfied that the order is reasonably necessary in the interests of—\n    (a) the security, defence or external relations of the HKSAR; or\n    (b) the administration of justice.\n  (3)\n    In this section, court (法庭) includes a magistrate."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "",
+   "status": "in-effect",
+   "text": "",
+   "items": []
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Form",
+   "status": "in-effect",
+   "text": "Notice Under Section 12A of United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575)Requiring Attendance to Answer Questionsor Furnish Information\nTo: . (name and address of person)\n1. On ................................................................... , in the Court of First (date)Instance, Hong Kong an order was made by the Hon. Mr. Justice . under section 12A of the United Nations (Anti-Terrorism Measures) Ordinance for the purpose of an investigation into a relevant offence. A copy of the order as it relates to you is annexed to this Notice.\n2. Particulars of the relevant offence under investigation are—\n  (a) Offence: ............................................................................\n  (b) Date of offence: ................................................................\n  (c) Place of offence: ...............................................................\n  (d) Other particulars: ..............................................................\n*3. The order was made in respect of you.or\n*3. The order was made in respect of ................................................... , (description of persons) and you are a person of that description.\n4. The order authorizes the Secretary for Justice to require a person referred to in paragraph 3 above—\n  *(a) to answer questions or otherwise furnish information with respect to any matter that reasonably appears to an authorized officer to be relevant to the investigation;\n  *(b) to produce any material that reasonably appears to the Secretary for Justice to be relevant to the investigation or be of a class that is so relevant.\n5. This Notice requires you—\n  *(a) to attend before ................................................................ (name and description of authorized officer)at ....................................................................................... (place of interview)on ....................................................................................... (date and time of interview)to answer questions or otherwise furnish information with respect to any matter that reasonably appears to the authorized officer to be relevant to the investigation;\n  *(b) to produce at ...................................................................... (time(s) and place(s))the following material or class of material—............................................................................................\n6. The order also requires ....................................................................... (other terms of the order relevant to the person).............................................................................................................\n7. NOTE: 1. This Notice has important legal consequences. It is in your interest to read the provisions of the Ordinance set out with this Notice, and to seek legal advice in relation to your rights and obligations under this Notice. 2. You may be accompanied by a solicitor and a barrister when you attend to answer questions or furnish information in compliance with paragraph 5(a) of this Notice, or to produce material in compliance with paragraph 5(b) of this Notice.\nDated this day of 20 . for and on behalf of the Secretaryfor Justice * Delete as appropriate.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "On ................................................................... , in the Court of First (date)Instance, Hong Kong an order was made by the Hon. Mr. Justice . under section 12A of the United Nations (Anti-Terrorism Measures) Ordinance for the purpose of an investigation into a relevant offence. A copy of the order as it relates to you is annexed to this Notice."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Particulars of the relevant offence under investigation are—\n  (a) Offence: ............................................................................\n  (b) Date of offence: ................................................................\n  (c) Place of offence: ...............................................................\n  (d) Other particulars: .............................................................."
+    },
+    {
+     "id": "s3",
+     "num": "*3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The order was made in respect of you.or"
+    },
+    {
+     "id": "s3",
+     "num": "*3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The order was made in respect of ................................................... , (description of persons) and you are a person of that description."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The order authorizes the Secretary for Justice to require a person referred to in paragraph 3 above—\n  *(a) to answer questions or otherwise furnish information with respect to any matter that reasonably appears to an authorized officer to be relevant to the investigation;\n  *(b) to produce any material that reasonably appears to the Secretary for Justice to be relevant to the investigation or be of a class that is so relevant."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "This Notice requires you—\n  *(a) to attend before ................................................................ (name and description of authorized officer)at ....................................................................................... (place of interview)on ....................................................................................... (date and time of interview)to answer questions or otherwise furnish information with respect to any matter that reasonably appears to the authorized officer to be relevant to the investigation;\n  *(b) to produce at ...................................................................... (time(s) and place(s))the following material or class of material—............................................................................................"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The order also requires ....................................................................... (other terms of the order relevant to the person)............................................................................................................."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "cap": "628B",
+ "title": "Cap. 628 sub. leg. B",
+ "longTitle": "",
+ "versionDate": "2025-05-23",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap628B",
+ "indexOnly": true,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Resolution Entities, Material Subsidiaries and LAC Consolidation Groups",
+   "status": "in-effect",
+   "sections": [
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "LAC Ratios",
+   "status": "in-effect",
+   "sections": [
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Determination of Minimum LAC Ratios",
+   "status": "in-effect",
+   "sections": [
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Calculation of Loss-absorbing Capacity",
+   "status": "in-effect",
+   "sections": [
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Disclosure",
+   "status": "in-effect",
+   "sections": [
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s49",
+    "s50",
+    "s51",
+    "s52",
+    "s53",
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "Enforcement",
+   "status": "in-effect",
+   "sections": [
+    "s60",
+    "s61",
+    "s62"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Review by Resolvability Review Tribunal",
+   "status": "in-effect",
+   "sections": [
+    "s63",
+    "s64"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Preferred resolution strategy",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "What entities can be classified as resolution entities or material subsidiaries",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Resolution entities",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Material subsidiaries",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Variation of LAC consolidation groups",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Procedure for classifying resolution entities and material subsidiaries and varying LAC consolidation groups",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Notification of changes to LAC consolidation group or group activities",
+   "status": "in-effect",
+   "part": "P2"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "External LAC risk-weighted ratio",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "External LAC leverage ratio",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Internal LAC risk-weighted ratio",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Internal LAC leverage ratio",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Solo or solo-consolidated basis for calculating LAC ratios for resolution entities or material subsidiaries that are authorized institutions",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Consolidated basis for calculating LAC ratios for resolution entities or material subsidiaries that are authorized institutions",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Consolidated basis for calculating LAC ratios for resolution entities or material subsidiaries that are not authorized institutions",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Consolidated basis for calculating capital",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Capital component ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Resolution component ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Procedure for varying capital component ratio or resolution component ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Minimum external LAC risk-weighted ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Minimum external LAC leverage ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Minimum internal LAC risk-weighted ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Minimum internal LAC leverage ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Modelled minimum external LAC risk-weighted ratio and modelled minimum external LAC leverage ratio",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Internal LAC scalar",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Procedure for increasing internal LAC scalar",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Requirement for resolution entities to maintain minimum external LAC ratios",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Requirement for material subsidiaries to maintain minimum internal LAC ratios",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Solo LAC scalar",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "Extension of relevant period",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "Further LAC ratio requirement for certain G-SIBs designated before 2016",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Minimum LAC debt requirement for resolution entities",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Minimum LAC debt requirement for material subsidiaries",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Reduction of minimum LAC debt requirement",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Suspension of LAC requirements following certain occurrences",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Calculation of external loss-absorbing capacity of resolution entity",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "Deductions from external loss-absorbing capacity",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Calculation of internal loss-absorbing capacity of material subsidiary",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "Deductions from internal loss-absorbing capacity",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Resolution authority may require evidence",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Requirement not to include, or to discontinue inclusion of, items in external or internal loss-absorbing capacity",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Procedure for imposing requirement not to include, or to discontinue inclusion of, items in external or internal loss-absorbing capacity",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Revisions to methodology for calculating loss-absorbing capacity",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Interpretation (Part 6)",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "When disclosure requirements apply",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Key metrics—loss-absorbing capacity—quarterly disclosures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Composition of loss-absorbing capacity—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "Resolution entity—creditor ranking at legal entity level—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Material subsidiary—creditor ranking at legal entity level—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "Main features of regulatory capital instruments and of other non-capital LAC debt instruments—semi-annual disclosures",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Medium of disclosure",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "Timing of disclosure",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "Location of disclosure statements",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "Further requirements for disclosure statements",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "Group disclosures and internet websites",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "Verification",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "Proprietary or confidential information",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "Materiality",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "Requirement to notify resolution authority of failure or likely failure to comply",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "Requirement to take remedial action",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "Procedure for requiring entity to take remedial action",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "Application for review of reviewable decision",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "Determination of application for review",
+   "status": "in-effect",
+   "part": "P8"
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Qualifying Criteria to be Met to be External LAC Debt Instrument",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Qualifying criteria to be met to be external LAC debt instrument",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Qualifying Criteria to be Met to be Internal LAC Debt Instrument",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Qualifying criteria to be met to be internal LAC debt instrument",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Additional requirements for certain debt instruments",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Deduction of Holdings of Own Non-capital LAC Liabilities",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Deduction of holdings of own non-capital LAC liabilities",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch4",
+   "num": "Schedule 4",
+   "heading": "Deduction of Holdings of Other Non-capital LAC Liabilities",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Deduction of holdings of other non-capital LAC liabilities",
+     "status": "in-effect"
+    }
+   ]
+  }
+ ]
+}
