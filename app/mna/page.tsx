@@ -34,6 +34,9 @@ export default function Page() {
     <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
       <header className="flex flex-wrap items-end justify-between gap-4 border-b border-slate-200 pb-4">
         <div>
+          <Link href="/" className="text-xs text-muted hover:text-ink hover:underline">
+            ← All topics
+          </Link>
           <h1 className="text-xl font-semibold sm:text-2xl">Learning M&amp;A</h1>
           <p className="mt-1 text-xs text-muted sm:text-sm">
             Interactive walkthrough of a U.S. private-company Asset Purchase Agreement.
@@ -43,7 +46,7 @@ export default function Page() {
           <DealTypeSelector dealType={dealType} onChange={setDealType} />
           <DepthToggle depth={depth} onChange={setDepth} />
           <Link
-            href="/about"
+            href="/mna/about/"
             className="text-sm text-muted hover:text-ink hover:underline"
           >
             About
@@ -99,7 +102,7 @@ export default function Page() {
 
       <footer className="mt-12 border-t border-slate-200 pt-4 text-xs text-muted">
         Educational visualizer — not legal advice.{' '}
-        <Link href="/about" className="hover:underline">
+        <Link href="/mna/about/" className="hover:underline">
           Sources &amp; disclaimer
         </Link>
         .

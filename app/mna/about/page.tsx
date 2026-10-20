@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-10">
       <nav className="mb-6 text-sm">
-        <Link href="/" className="text-accent hover:underline">
+        <Link href="/mna/" className="text-accent hover:underline">
           ← Back to workflow
         </Link>
       </nav>
