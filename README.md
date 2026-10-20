@@ -1,7 +1,9 @@
 # Learning
 
 A personal study site: interactive notes on deals, privacy, and Hong Kong
-financial regulation. Static Next.js site (no backend), deployed on Vercel.
+financial regulation. Static Next.js site (no backend), published on GitHub
+Pages by `.github/workflows/deploy-pages.yml` on every push to the default
+branch.
 
 ## Topics
 
@@ -66,6 +68,10 @@ npm install
 npm run dev          # http://localhost:3000
 npm run build        # static export to ./out/
 ```
+
+On GitHub Pages the site lives under `/<repo-name>/`. The deploy workflow
+passes that prefix to the build as `PAGES_BASE_PATH` (read in
+`next.config.js`); locally it is empty, so the site serves from `/`.
 
 ## Refreshing CUAD clauses (M&A)
 

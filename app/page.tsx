@@ -90,7 +90,7 @@ function TopicCard({ topic }: { topic: Topic }) {
   }
   const live = `${CARD} border-slate-200 bg-white transition-shadow hover:border-slate-300 hover:shadow-sm`;
   return topic.staticPage ? (
-    <a href={topic.href} className={live}>
+    <a href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${topic.href}`} className={live}>
       {body}
     </a>
   ) : (
