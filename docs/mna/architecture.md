@@ -21,8 +21,11 @@
 .
 ├── app/
 │   ├── layout.tsx
-│   ├── page.tsx                  # main visualizer
-│   ├── about/page.tsx            # disclaimer + CUAD attribution
+│   ├── page.tsx                  # topic hub (all learning topics)
+│   ├── mna/
+│   │   ├── layout.tsx            # route metadata
+│   │   ├── page.tsx              # main visualizer
+│   │   └── about/page.tsx        # disclaimer + CUAD attribution
 │   └── globals.css
 ├── components/
 │   ├── WorkflowDiagram.tsx       # Mermaid renderer + click handler
@@ -39,14 +42,16 @@
 ├── data/
 │   └── apa-gap-fills.json        # hand-authored APA-specific clauses
 ├── public/
-│   └── clauses.json              # produced by scripts/extract_cuad.py
+│   ├── clauses.json              # produced by scripts/extract_cuad.py
+│   └── privacy/dataguard/        # GDPR game (separate topic, static HTML)
 ├── scripts/
 │   └── extract_cuad.py           # one-shot CUAD -> clauses.json
 ├── docs/
-│   ├── workflow-mapping.md
-│   └── architecture.md
+│   └── mna/
+│       ├── workflow-mapping.md
+│       ├── architecture.md
+│       └── PROMPT.md             # original kickoff prompt
 ├── README.md
-├── PROMPT.md
 ├── next.config.js
 ├── tailwind.config.ts
 ├── tsconfig.json

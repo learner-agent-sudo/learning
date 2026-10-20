@@ -1,47 +1,63 @@
-# Learning M&A — Interactive APA Workflow Visualizer
+# Learning
 
-An interactive, browser-based walkthrough of a U.S. private-company **Asset
-Purchase Agreement (APA)** transaction, from strategy through post-closing.
-The site renders the deal as a 9-stage flow diagram; clicking any stage opens
-a side panel with the documents produced at that stage, the contract clauses
-that typically appear, and a glossary for jargon.
+A personal study site: interactive notes on deals, privacy, and Hong Kong
+financial regulation. Static Next.js site (no backend), deployed on Vercel.
 
-The clause content is grounded in the [CUAD](https://huggingface.co/datasets/theatticusproject/cuad-qa)
-(Contract Understanding Atticus Dataset) corpus, augmented with hand-authored
-clauses for APA-specific provisions that CUAD under-represents.
+## Topics
 
-## v1 scope
+| Topic | Route | Status |
+|---|---|---|
+| M&A — U.S. private-company Asset Purchase Agreement | `/mna/` | Live |
+| Privacy & data protection — GDPR (DataGuard) | `/privacy/dataguard/index.html` | Live |
+| HK banking regulation — Banking Ordinance (Cap. 155), HKMA | — | Up next |
+| HK securities regulation — SFO (Cap. 571), SFC | — | Planned |
+| HK insurance regulation — Insurance Ordinance (Cap. 41), IA | — | Planned |
 
-- **Deal type:** Asset Purchase Agreement only. SPA and Merger paths are shown
-  greyed-out at the LOI branching node ("coming soon").
-- **Audience:** mixed beginner / practitioner. A depth toggle controls how
-  much detail the side panel shows.
-- **Hosting:** static site (Next.js `output: 'export'`), no backend.
-- **Data:** CUAD pre-processed at build time into `public/clauses.json` plus
-  hand-authored gap-fill clauses in `data/apa-gap-fills.json`.
+The home page (`app/page.tsx`) lists every topic with its status.
 
-## The 9 stages
+## M&A — interactive APA workflow
+
+An interactive walkthrough of a U.S. private-company **Asset Purchase
+Agreement (APA)** transaction, from strategy through post-closing. The deal
+is rendered as a 9-stage flow diagram; clicking any stage opens a side panel
+with the documents produced at that stage, the contract clauses that
+typically appear, and a glossary for jargon. A depth toggle switches between
+Beginner and Practitioner explanations.
 
 1. **Strategy** *(pre-process, dashed border)*
 2. **NDA** — confidentiality
 3. **LOI / Term Sheet** — non-binding intent (deal-type branch point)
-4. **Due Diligence** — single node in v1; sub-streams later
+4. **Due Diligence**
 5. **APA Drafting & Negotiation**
 6. **Signing**
 7. **Pre-Closing** — covenants, regulatory, conditions
 8. **Closing** — bill of sale, assignments, funds flow
 9. **Post-Closing** — true-up, indemnification, integration
 
-See `docs/workflow-mapping.md` for the per-stage documents, clauses, and
-glossary terms, and `docs/architecture.md` for the tech stack and file
+APA is the only complete deal type; SPA and Merger paths are shown greyed
+out. Clause content comes from the
+[CUAD](https://www.atticusprojectai.org/cuad) dataset (CC BY 4.0) plus
+hand-authored clauses for APA-specific provisions CUAD under-represents
+(`data/apa-gap-fills.json`).
+
+See `docs/mna/workflow-mapping.md` for per-stage documents, clauses, and
+glossary terms, and `docs/mna/architecture.md` for the tech stack and file
 layout.
+
+## Privacy — DataGuard
+
+A self-contained HTML training game: the learner acts as a company's data
+protection lead and decides 20 cases drawn from public GDPR enforcement
+decisions, across five departments. It lives at
+`public/privacy/dataguard/index.html` and was imported unchanged, with its
+git history, from the former `learning-GDPR` repository.
 
 ## Disclaimer
 
-This is an **educational visualizer**, not legal advice. Clause text shown
-on the site is excerpted from the public CUAD dataset (CC BY 4.0) or
-hand-authored as illustrative examples. Real transactions involve
-jurisdiction-specific drafting and counsel.
+This is an **educational** site, not legal advice. Clause text is excerpted
+from public datasets or hand-authored as illustrative examples; case
+scenarios are simplified from public regulator decisions. Real matters
+involve jurisdiction-specific facts and qualified counsel.
 
 ## Local development
 
@@ -51,21 +67,13 @@ npm run dev          # http://localhost:3000
 npm run build        # static export to ./out/
 ```
 
-## Populating CUAD clauses
+## Refreshing CUAD clauses (M&A)
 
-`public/clauses.json` ships with a 3-entry stub. To replace it with real
-CUAD excerpts (~16 categories × up to 3 examples each):
+`public/clauses.json` holds up to 3 deduped CUAD excerpts for each of 16
+categories. It is produced by `scripts/extract_cuad.py`, which reads
+`chenghao/cuad_qa` (a parquet mirror of CUAD-QA) from Hugging Face.
 
-```bash
-pip install datasets
-python scripts/extract_cuad.py
-```
-
-The script downloads `chenghao/cuad_qa` (a parquet mirror of CUAD-QA)
-from Hugging Face and writes deduped excerpts to `public/clauses.json`.
-It needs network access to `huggingface.co`.
-
-A GitHub Actions workflow at `.github/workflows/extract-cuad.yml`
-performs the same extraction on demand (`workflow_dispatch`) or when the
-script changes, and commits the result back to the branch. Trigger it
-from the Actions tab in the GitHub UI when you want a fresh pull.
+The GitHub Actions workflow `.github/workflows/extract-cuad.yml` runs the
+script on demand (`workflow_dispatch`, from the Actions tab) or whenever the
+script changes, and commits the refreshed file back to the branch. Nothing
+needs to be installed locally.

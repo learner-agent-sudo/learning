@@ -1,15 +1,15 @@
 # Kickoff prompt for the build session
 
 Paste the prompt below into a fresh Claude Code session pointed at this
-repo. It assumes `README.md`, `docs/workflow-mapping.md`, and
-`docs/architecture.md` are already present (they are — committed alongside
+repo. It assumes `README.md`, `docs/mna/workflow-mapping.md`, and
+`docs/mna/architecture.md` are already present (they are — committed alongside
 this file).
 
 ---
 
 I'm building an interactive M&A workflow visualizer. The repo already
-contains a design bundle (`README.md`, `docs/workflow-mapping.md`,
-`docs/architecture.md`) prepared in a previous Claude session. **Read all
+contains a design bundle (`README.md`, `docs/mna/workflow-mapping.md`,
+`docs/mna/architecture.md`) prepared in a previous Claude session. **Read all
 three before doing anything.** They define scope, the 9-stage APA
 workflow, CUAD clause mappings, hand-authored APA gap-fill clauses, the
 tech stack (Next.js 15 + React 19 + TS + Tailwind + Mermaid), file layout,
@@ -23,7 +23,7 @@ and the CUAD extraction script.
   side-panel content.
 - Data source: CUAD (`theatticusproject/cuad-qa` on Hugging Face) is core,
   augmented with hand-authored APA gap-fill clauses already drafted in
-  `docs/workflow-mapping.md`.
+  `docs/mna/workflow-mapping.md`.
 - 9 stages: Strategy (pre-process, dashed) → NDA → LOI → DD → APA Drafting
   → Signing → Pre-Closing → Closing → Post-Closing.
 - DD is a single node in v1; expand into sub-streams later.
@@ -37,13 +37,13 @@ and the CUAD extraction script.
 1. **Confirm scope.** After reading the bundle, summarize back to me in
    <150 words what you understood and flag anything that looks wrong or
    under-specified. Do not start coding until I say go.
-2. **Scaffold the Next.js app** per `docs/architecture.md`: `package.json`,
+2. **Scaffold the Next.js app** per `docs/mna/architecture.md`: `package.json`,
    `next.config.js` (with `output: 'export'`), Tailwind, TypeScript, the
    file layout shown in the architecture doc. Use Next.js 15 App Router
    and React 19.
 3. **Extract the data into typed code:**
    - `lib/workflow.ts` — the 9 stages with the `Stage` type from the
-     architecture doc, populated from `docs/workflow-mapping.md`.
+     architecture doc, populated from `docs/mna/workflow-mapping.md`.
    - `lib/glossary.ts` — the glossary terms collected across stages.
    - `data/apa-gap-fills.json` — the hand-authored APA gap-fill clauses
      lifted out of the markdown.
@@ -69,7 +69,7 @@ and the CUAD extraction script.
    need `pip install datasets`), and verify the real `public/clauses.json`
    populates the UI.
 8. **Polish:** about page with the CUAD disclaimer from
-   `docs/workflow-mapping.md`, basic responsive layout, clause provenance
+   `docs/mna/workflow-mapping.md`, basic responsive layout, clause provenance
    pills (CUAD vs hand-authored), accessibility check (keyboard nav of the
    diagram nodes).
 
