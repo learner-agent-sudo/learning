@@ -5,9 +5,15 @@ import { Depth } from '@/lib/workflow';
 interface Props {
   depth: Depth;
   onChange: (d: Depth) => void;
+  labels?: Record<Depth, string>;
 }
 
-export function DepthToggle({ depth, onChange }: Props) {
+const DEFAULT_LABELS: Record<Depth, string> = {
+  beginner: 'Beginner',
+  practitioner: 'Practitioner',
+};
+
+export function DepthToggle({ depth, onChange, labels = DEFAULT_LABELS }: Props) {
   return (
     <div
       role="radiogroup"
@@ -29,7 +35,7 @@ export function DepthToggle({ depth, onChange }: Props) {
                 : 'text-muted hover:text-ink hover:bg-slate-50')
             }
           >
-            {d === 'beginner' ? 'Beginner' : 'Practitioner'}
+            {labels[d]}
           </button>
         );
       })}

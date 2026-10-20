@@ -1,22 +1,18 @@
 import { ClauseRef } from '@/lib/workflow';
 import { getClause, getCuadByCategory } from '@/lib/clauses';
+import {
+  BODY,
+  CARD,
+  CHEVRON,
+  INNER_DISCLOSURE,
+  PILL_BASE,
+  SUMMARY,
+  TITLE,
+} from './cardStyles';
 
 interface Props {
   clause: ClauseRef;
 }
-
-const CARD =
-  'group rounded-md bg-white ring-1 ring-slate-200/70 [&[open]]:ring-slate-300';
-const SUMMARY =
-  'flex cursor-pointer list-none items-center justify-between gap-2 p-3 hover:bg-slate-50 [&::-webkit-details-marker]:hidden';
-const CHEVRON =
-  'inline-block w-3 shrink-0 text-muted transition-transform group-open:rotate-90';
-const TITLE = 'flex-1 text-sm font-semibold leading-snug';
-const PILL_BASE =
-  'shrink-0 rounded px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider';
-const BODY = 'border-t border-slate-200/70 px-3 pb-3 pt-2';
-const INNER_DISCLOSURE =
-  'mt-2 inline-flex items-center gap-1 rounded border border-slate-200 bg-slate-50 px-2 py-1 text-xs font-medium text-ink hover:border-accent hover:text-accent';
 
 export function ClauseCard({ clause }: Props) {
   if (clause.provenance === 'cuad') {

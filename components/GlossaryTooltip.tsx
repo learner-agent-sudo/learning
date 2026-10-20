@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useId } from 'react';
-import { defineTerm } from '@/lib/glossary';
+import { useDefine } from './GlossaryContext';
 
 interface Props {
   term: string;
@@ -11,7 +11,7 @@ interface Props {
 export function GlossaryTooltip({ term, children }: Props) {
   const [open, setOpen] = useState(false);
   const id = useId();
-  const definition = defineTerm(term);
+  const definition = useDefine()(term);
   if (!definition) return <>{children ?? term}</>;
   return (
     <span className="relative inline-block">

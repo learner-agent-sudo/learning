@@ -2,13 +2,24 @@
 
 import { useEffect, useRef } from 'react';
 import mermaid from 'mermaid';
-import { Stage } from '@/lib/workflow';
+
+// The minimal shape the diagram needs; each topic's stage type satisfies it.
+export interface DiagramStage {
+  id: string;
+  index: number;
+  title: string;
+  kind?: string;
+}
 
 interface Props {
-  stages: Stage[];
+  stages: DiagramStage[];
   selectedStageId: string | null;
   enabledStageIds: Set<string>;
   onSelectStage: (stageId: string) => void;
+  // Mermaid class per stage plus its style; defaults to the M&A deal phases.
+  classOf?: (stage: DiagramStage) => string;
+  classDefs?: Record<string, string>;
+  label?: string;
 }
 
 mermaid.initialize({
@@ -30,7 +41,21 @@ function phaseFor(index: number): 'pre' | 'active' | 'post' {
   return 'post';
 }
 
-function buildSpec(stages: Stage[]): string {
+const DEAL_PHASE_CLASS = { pre: 'phasePre', active: 'phaseActive', post: 'phasePost' };
+
+const DEFAULT_CLASS_OF = (s: DiagramStage) => DEAL_PHASE_CLASS[phaseFor(s.index)];
+
+const DEFAULT_CLASS_DEFS: Record<string, string> = {
+  phasePre: 'fill:#eff6ff,stroke:#93c5fd,color:#0f172a',
+  phaseActive: 'fill:#fffbeb,stroke:#fcd34d,color:#0f172a',
+  phasePost: 'fill:#ecfdf5,stroke:#6ee7b7,color:#0f172a',
+};
+
+function buildSpec(
+  stages: DiagramStage[],
+  classOf: (s: DiagramStage) => string,
+  classDefs: Record<string, string>
+): string {
   const lines: string[] = ['flowchart TD'];
   for (const s of stages) {
     lines.push(`  ${s.id}["${s.title}"]`);
@@ -38,15 +63,15 @@ function buildSpec(stages: Stage[]): string {
   for (let i = 0; i < stages.length - 1; i++) {
     lines.push(`  ${stages[i].id} --> ${stages[i + 1].id}`);
   }
-  lines.push('  classDef phasePre fill:#eff6ff,stroke:#93c5fd,color:#0f172a');
-  lines.push('  classDef phaseActive fill:#fffbeb,stroke:#fcd34d,color:#0f172a');
-  lines.push('  classDef phasePost fill:#ecfdf5,stroke:#6ee7b7,color:#0f172a');
+  for (const [name, style] of Object.entries(classDefs)) {
+    lines.push(`  classDef ${name} ${style}`);
+  }
   lines.push('  classDef preProcess stroke-dasharray: 5 5');
-  const groups: Record<string, string[]> = { pre: [], active: [], post: [] };
-  for (const s of stages) groups[phaseFor(s.index)].push(s.id);
-  if (groups.pre.length) lines.push(`  class ${groups.pre.join(',')} phasePre`);
-  if (groups.active.length) lines.push(`  class ${groups.active.join(',')} phaseActive`);
-  if (groups.post.length) lines.push(`  class ${groups.post.join(',')} phasePost`);
+  const groups: Record<string, string[]> = {};
+  for (const s of stages) (groups[classOf(s)] ||= []).push(s.id);
+  for (const [name, ids] of Object.entries(groups)) {
+    lines.push(`  class ${ids.join(',')} ${name}`);
+  }
   const dashed = stages.filter((s) => s.kind === 'pre-process').map((s) => s.id);
   if (dashed.length) lines.push(`  class ${dashed.join(',')} preProcess`);
   return lines.join('\n');
@@ -57,13 +82,16 @@ export function WorkflowDiagram({
   selectedStageId,
   enabledStageIds,
   onSelectStage,
+  classOf = DEFAULT_CLASS_OF,
+  classDefs = DEFAULT_CLASS_DEFS,
+  label = 'M&A workflow diagram',
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const idRef = useRef('mermaid-' + Math.random().toString(36).slice(2, 9));
 
   useEffect(() => {
     let cancelled = false;
-    const spec = buildSpec(stages);
+    const spec = buildSpec(stages, classOf, classDefs);
     mermaid
       .render(idRef.current, spec)
       .then(({ svg }) => {
@@ -77,14 +105,14 @@ export function WorkflowDiagram({
     return () => {
       cancelled = true;
     };
-  }, [stages, selectedStageId, enabledStageIds, onSelectStage]);
+  }, [stages, selectedStageId, enabledStageIds, onSelectStage, classOf, classDefs]);
 
   return (
     <div
       ref={containerRef}
       className="mermaid-host overflow-x-auto rounded-lg border border-slate-200 bg-white p-4"
       role="img"
-      aria-label="M&A workflow diagram"
+      aria-label={label}
     >
       <div
         className="mx-auto flex w-40 animate-pulse flex-col items-center gap-3 py-2"
@@ -103,7 +131,7 @@ export function WorkflowDiagram({
 
 function wireUp(
   host: HTMLElement,
-  stages: Stage[],
+  stages: DiagramStage[],
   enabledIds: Set<string>,
   onSelect: (id: string) => void,
   selectedId: string | null
@@ -114,7 +142,7 @@ function wireUp(
   svg.style.height = 'auto';
 
   // Build a title -> stage map for matching nodes by their rendered text.
-  const byTitle = new Map<string, Stage>();
+  const byTitle = new Map<string, DiagramStage>();
   for (const s of stages) byTitle.set(s.title.trim().toLowerCase(), s);
 
   const nodes = svg.querySelectorAll<SVGGElement>('g.node');
@@ -136,9 +164,10 @@ function wireUp(
     );
     if (selected) {
       const shape = node.querySelector<SVGElement>('rect, polygon, path');
+      // Inline style: Mermaid's class styles outrank presentation attributes.
       if (shape) {
-        shape.setAttribute('stroke', '#2563eb');
-        shape.setAttribute('stroke-width', '3');
+        shape.style.stroke = '#2563eb';
+        shape.style.strokeWidth = '3px';
       }
     }
   }
