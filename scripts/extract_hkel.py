@@ -100,6 +100,16 @@ def inline_text(el: ET.Element) -> str:
     return "".join(parts)
 
 
+def cell_text(el: ET.Element) -> str:
+    """All text in a table cell, numbered sub-paragraphs included, notes left out."""
+    parts: list[str] = [el.text or ""]
+    for child in el:
+        if tag(child) not in SKIP - {"num"}:
+            parts.append(" " + cell_text(child) + " ")
+        parts.append(child.tail or "")
+    return squash("".join(parts))
+
+
 def num_of(el: ET.Element) -> str:
     n = el.find(NS + "num")
     return squash("".join(n.itertext())) if n is not None else ""
@@ -139,14 +149,19 @@ def render(el: ET.Element, depth: int = 0, top: bool = True) -> list[str]:
         elif name in STRUCTURAL or name in BLOCK:
             flush()
             lines.extend(render(child, depth + 1 if name in STRUCTURAL else depth, top=False))
-        elif name in TEXTUAL:
-            buf.append(inline_text(child))
-            flush()
         elif name == "table":
             flush()
             for row in child.iter(NS + "tr"):
-                cells = [squash("".join(td.itertext())) for td in row]
+                cells = [cell_text(td) for td in row]
                 lines.append("  " * depth + " | ".join(c for c in cells if c))
+        elif child.find(f".//{NS}table") is not None:
+            # A wrapper holding a table: inline_text would drop numbered
+            # paragraphs inside its cells (e.g. Cap. 653 Sch. 6 item 1).
+            flush()
+            lines.extend(render(child, depth, top=False))
+        elif name in TEXTUAL:
+            buf.append(inline_text(child))
+            flush()
         else:
             buf.append(inline_text(child))
         buf.append(child.tail or "")
