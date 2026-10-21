@@ -193,7 +193,7 @@
         "instrument": "Code of Banking Practice (HKAB and DTC Association, endorsed by HKMA)",
         "ref": "Revised Code effective 7 Dec 2023",
         "title": "Industry conduct code for customer dealings",
-        "summary": "A non-statutory code setting minimum standards for how AIs deal with customers. It covers matters such as disclosure of terms and charges, notice of changes, cards and electronic banking. AIs were to achieve full compliance with the revised provisions within six months, extended to 12 months for provisions requiring system changes.",
+        "summary": "A non-statutory code setting minimum standards for how AIs deal with customers. It covers matters such as disclosure of terms and charges, notice of changes, cards and electronic banking. AIs were to achieve full compliance within six months of 7 December 2023, extended to 12 months for s.36.6(c) (non-credit cards) and other provisions needing system changes, and to 18 months for ss.17.2 to 17.5 (s.1.5).",
         "counselNote": "The Code is non-statutory, but the Guideline on Minimum Criteria for Authorization expects AIs to comply with it, and non-adherence can prompt a review of whether the bank still meets the authorization criteria. Treat gaps against the Code as regulatory issues.",
         "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf",
         "confidence": "high"
@@ -225,7 +225,7 @@
       "**UI requirements:** Conduct rules often become UI requirements. Examples are fee disclosures, notice of changes and the DPS membership sign, which has been required on electronic banking platforms since 1 January 2025. Build these into product release checklists."
     ],
     "virtualBankNotes": [
-      "**No separate statute:** There is no separate statute for digital banks. Your bank is a licensed bank under Cap. 155 and is subject to the same Ordinance, rules and SPM. The Guideline on Authorization of Digital Banks sits on top; it was renamed from 'virtual banks' on 25 October 2024.",
+      "**No separate statute:** There is no separate statute for digital banks. Your bank is a licensed bank under Cap. 155 and is subject to the same Ordinance, rules and SPM. The Guideline on Authorization of Digital Banks (issued under s.16(10)) sits on top; it superseded the Guideline on Authorization of Virtual Banks, first issued in 2000 and last updated on 30 May 2018, when the HKMA renamed virtual banks as digital banks on 25 October 2024.",
       "**Key modules:** Some SPM modules carry extra weight for a digital bank: TM-G-1 (technology risk management), TM-E-1 (e-banking), OR-2 (operational resilience) and SA-2 (outsourcing). So do the HKMA's cyber-resilience circulars.",
       "**Terminology:** Use the current term 'digital bank' in policies and regulatory correspondence. Legacy documents and authorization papers may still say 'virtual bank'."
     ],
@@ -332,7 +332,7 @@
         "heading": "Digital banks",
         "lede": "A digital bank holds no separate type of licence.",
         "points": [
-          "**HKMA guideline:** The HKMA's guideline (revised May 2018, renamed October 2024) applies the Seventh Schedule to banks operating mainly through electronic channels.",
+          "**HKMA guideline:** The Guideline on Authorization of Digital Banks (s.16(10)), which superseded the virtual bank guideline (first issued 5 May 2000, updated 21 September 2012 and 30 May 2018), applies the Seventh Schedule to banks delivering services mainly through the internet or other electronic channels.",
           "**Requirements:** local incorporation, a Hong Kong intermediate holding company where the owner is not a bank or financial institution, a physical presence in Hong Kong and an exit plan.",
           "**Licences granted:** Eight licences were granted in 2019."
         ]
@@ -419,7 +419,7 @@
       {
         "kind": "guideline",
         "instrument": "Guideline on Authorization of Digital Banks (formerly Virtual Banks)",
-        "ref": "Revised 30 May 2018; renamed 25 Oct 2024",
+        "ref": "Supersedes the 2000 virtual bank guideline (last updated 30 May 2018)",
         "title": "Authorization criteria applied to digital banks",
         "summary": "Explains how the MA applies the Seventh Schedule to banks that deliver services mainly or only through electronic channels. It covers:\n- local incorporation;\n- ownership by a suitable parent, or through a Hong Kong intermediate holding company;\n- physical presence;\n- an exit plan.\nDigital banks are supervised to the same standards as conventional banks, applied in a risk-based, technology-neutral way.",
         "counselNote": "This is your licence-specific rulebook. In practice the HKMA monitors the commitments made at authorization (business plan, exit plan, ownership) as continuing obligations.",
@@ -476,8 +476,8 @@
     ],
     "virtualBankNotes": [
       "**Full licences:** The eight digital banks licensed in 2019 all hold full banking licences. They may run current and savings accounts, take deposits of any size and maturity, and are members of the Deposit Protection Scheme.",
-      "**Holding company:** The guideline requires local incorporation. A parent that is not a bank or financial institution must hold the bank through a Hong Kong intermediate holding company, and the HKMA can attach supervisory conditions to that company.",
-      "**Pricing and exit:** The 2018 guideline expected no minimum-balance requirements or low-balance fees. It also required an exit plan setting out the triggers, who may activate it, the repayment channels and the funding. Check the current 2024 wording of both points.",
+      "**Holding company:** The guideline expects local incorporation (para 8). Where the bank is not majority-owned by a bank or financial institution in good standing supervised by a recognised authority, the MA expects it to be held through a Hong Kong-incorporated intermediate holding company, with supervisory conditions imposed on that company (para 9).",
+      "**Pricing and exit:** The current guideline says digital banks should not impose any minimum account balance requirement or low-balance fees (para 6). It also requires an exit plan covering the triggers, who may activate it, the channels for repaying depositors and the source of funding (para 20).",
       "**Group perimeter risk:** Ownership by a technology group creates perimeter risk at the edges. The parent's wallet, lending or wealth apps must not take deposits or present themselves as the bank."
     ],
     "pitfalls": [
@@ -550,7 +550,7 @@
           "**Capital, liquidity, provisioning:** all adequate, with capital and liquidity calibrated through the Banking (Capital) Rules and Banking (Liquidity) Rules.",
           "**Systems:** adequate accounting systems and systems of control.",
           "**Conduct:** business conducted with integrity, prudence and professional competence.",
-          "**Paid-up capital:** a minimum of HK$300 million in paid-up share capital for a licensed bank; the digital bank guideline applies the same floor."
+          "**Paid-up capital:** the Seventh Schedule sets a minimum of HK$300 million in paid-up share capital for a licensed bank. The digital bank guideline sets no figure of its own; it requires capital adequate for the nature of the operations and the risks taken (para 24)."
         ]
       },
       {
@@ -559,10 +559,10 @@
         "points": [
           "**Presence:** local incorporation and a physical presence in Hong Kong.",
           "**Holding company:** where the bank is not majority-owned by a supervised bank or financial institution, a Hong Kong [[intermediate holding company]] subject to supervisory conditions.",
-          "**Letters of comfort:** from controllers.",
+          "**Parental support:** parent companies must be committed to supporting the bank and able to provide strong financial, technology and other support when necessary (para 10). In practice the HKMA usually takes letters of comfort from controllers; the guideline itself does not mention them.",
           "**Business plan:** a credible one, with no minimum-balance requirements or low-balance fees.",
-          "**Technology:** technology risk management to [[Supervisory Policy Manual]] standards, tested by independent expert assessments (one with the application, a more detailed one before launch).",
-          "**Exit:** an [[exit plan]] for an orderly, solvent unwind."
+          "**Technology:** IT governance and controls fit for purpose (para 14), confirmed by two independent assessments: one of the planned systems with the application, a more detailed one of the actual implementation before launch (para 15).",
+          "**Exit:** an [[exit plan]] to unwind the business in an orderly manner without disrupting customers or the financial system (para 20)."
         ]
       },
       {
@@ -614,7 +614,7 @@
         "instrument": "Guideline on Authorization of Digital Banks",
         "ref": "25 Oct 2024 (issued under s.16(10); replaced the 2018 Guideline on Authorization of Virtual Banks)",
         "title": "How the minimum criteria apply to digital banks",
-        "summary": "Explains how the Seventh Schedule applies to banks that deliver services mainly through electronic channels: local incorporation, physical presence in Hong Kong, ownership expectations (including a Hong Kong intermediate holding company where the bank is not majority-owned by a supervised bank or financial institution), the HK$300 million capital floor, a credible business plan without minimum balances or low-balance fees, technology risk management backed by independent expert assessment, outsourcing, customer protection and an exit plan.",
+        "summary": "Explains how the Seventh Schedule applies to banks that deliver services mainly through electronic channels: local incorporation, physical presence in Hong Kong, ownership expectations (including a Hong Kong intermediate holding company where the bank is not majority-owned by a supervised bank or financial institution), capital adequate for the bank's operations and risks (para 24), a credible business plan without minimum balances or low-balance fees, technology risk management backed by independent expert assessment, outsourcing, customer protection and an exit plan.",
         "counselNote": "This is the document the HKMA will hold your bank to; update internal policies and contracts that still cite the superseded virtual bank guideline.",
         "confidence": "high",
         "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
@@ -632,10 +632,10 @@
       {
         "kind": "guideline",
         "instrument": "HKMA Guide to Authorization",
-        "ref": "Chapter 9 (27 Feb 2026)",
+        "ref": "Chapter 9",
         "title": "Authorization of digital banks (consolidated restatement)",
-        "summary": "Reproduces the digital bank guideline within the HKMA's Guide to Authorization and states that it may include updated information not yet reflected in the guideline itself. The HKMA also points prospective applicants to Chapters 2, 4 and 8 of the Guide.",
-        "counselNote": "Check Chapter 9 as well as the 2024 guideline, since it may carry newer cross-references.",
+        "summary": "Reproduces the latest digital bank guideline within the HKMA's Guide to Authorization, and says it may also include updated information (para 9.1). The wording matches the guideline almost exactly, for example para 9.9 says the conditions on an intermediate holding company 'will normally cover' the listed matters where the guideline says 'will likely cover'.",
+        "counselNote": "Read Chapter 9 alongside the guideline, since it may carry newer information. Check the date of the current version on BRDR.",
         "confidence": "high",
         "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-7-EN"
       },
@@ -713,12 +713,12 @@
     "itAngle": [
       "**Control framework:** Treat the Seventh Schedule like a control framework: map each criterion to control objectives and evidence, much as you would map ISO 27001 controls into a statement of applicability. The HKMA asks for evidence, not policy documents.",
       "**Systems criterion:** The adequate accounting systems and systems of control criterion is where IT bites hardest: core banking, general ledger and regulatory reporting pipelines must be reliable, because HKMA returns are only as good as the data lineage behind them.",
-      "**Expert assessments:** The independent expert IT assessments are in effect architecture and security audits at two gates, design (with the application) and pre-production (before launch); run them with severity-rated findings, owners and closure evidence, measured against the HKMA's technology risk modules (notably TM-G-1).",
+      "**Expert assessments:** The guideline asks for two independent assessments: the first of the planned IT governance and systems (report with the application), the second of the actual design, implementation and effectiveness of systems, security, procedures and controls (report before launch) (para 15). The yardstick is controls 'fit for purpose' (para 14); benchmarking them against TM-G-1 and TM-E-1, with severity-rated findings, owners and closure evidence, is counsel's choice.",
       "**Exit runbook:** An exit plan is a decommissioning runbook: it needs customer data export formats, notification channels, payment-scheme offboarding, vendor termination sequencing and tested deposit repayment processes."
     ],
     "virtualBankNotes": [
       "**Terminology:** Since 25 October 2024 the HKMA uses the term digital bank, and the Guideline on Authorization of Digital Banks superseded the 2018 virtual bank guideline; the authorization test is still the Seventh Schedule.",
-      "**Same rules:** A digital bank is a licensed bank: the same Ordinance, Seventh Schedule, HK$300 million capital floor and SPM apply. The guideline adds expectations rather than exemptions.",
+      "**Same rules:** A digital bank is a licensed bank: the same Ordinance, Seventh Schedule, HK$300 million minimum paid-up capital and SPM apply. The guideline subjects digital banks to the same supervisory requirements as conventional banks, some adapted to their business models on a risk-based, technology-neutral basis (para 11); it grants no exemptions.",
       "**Pricing constraint:** No minimum balance requirements or low-balance fees: a pricing constraint that counsel should police through product approval.",
       "**Viability review:** The HKMA's August 2024 review found the eight digital banks had met the policy objectives but none was profitable at end-2023, and saw no strong justification for new licences at that time; expect continued scrutiny of business plan viability."
     ],
@@ -755,7 +755,7 @@
       },
       {
         "term": "exit plan",
-        "definition": "A plan, required of digital bank applicants, for unwinding the business in an orderly and solvent manner if the business model fails."
+        "definition": "A plan, required of digital bank applicants, for unwinding the business in an orderly manner, without disrupting customers or the financial system, if the business model fails. It covers triggers, authority to trigger, depositor repayment channels and funding (Digital Bank Guideline para 20)."
       },
       {
         "term": "Supervisory Policy Manual",
@@ -974,7 +974,7 @@
       "**Parent tech services:** Technology services from a tech parent are both a connected-party and an outsourcing issue; feed the outsourcing register and the connected-exposure system from one source of truth."
     ],
     "virtualBankNotes": [
-      "**Holding company:** Where the bank is not majority-owned by a supervised bank or financial institution, the HKMA expects a Hong Kong intermediate holding company; it and the ultimate parent will typically be controllers needing s.70 consent, the HKMA attaches supervisory conditions to that consent, and letters of comfort are expected. The 2026 Bill would allow direct supervision of designated holding companies.",
+      "**Holding company:** Where the bank is not majority-owned by a bank or financial institution in good standing, the guideline expects a Hong Kong intermediate holding company, with supervisory conditions imposed on that company (para 9). It and the ultimate parent will typically be controllers needing s.70 consent. In practice the HKMA usually also takes letters of comfort from controllers. The 2026 Bill would allow direct supervision of designated holding companies.",
       "**Upstream cap table:** Tech-group parents often have founders, venture funds and public shareholders upstream; changes in that cap table are a common source of unexpected controller approvals.",
       "**Shared executives:** Executives shared with or seconded from the parent need s.71 consent or s.72B notification in their bank role, plus conflicts management under CG-1."
     ],
@@ -1332,8 +1332,8 @@
         "heading": "Status of the rules",
         "lede": "The SPM mixes [[statutory guidelines|statutory guideline]] issued under s.7(3) of the Banking Ordinance with non-statutory guidance notes.",
         "points": [
-          "**Statutory guideline:** TM-E-1, since its October 2024 revision.",
-          "**Guidance notes:** TM-G-1, which dates from 2003, and OR-2.",
+          "**Statutory guideline:** TM-E-1 (V.4, October 2024).",
+          "**Guidance notes:** SA-2 (2001), TM-G-1 (2003) and OR-2.",
           "**Practical difference:** In practice the difference is small: the HKMA tests whether the bank continues to meet the Seventh Schedule minimum criteria, including adequate systems of control, against all of them.",
           "**Consequences:** Persistent shortfalls feed into CAMEL ratings and, ultimately, s.52 directions."
         ],
@@ -1343,8 +1343,8 @@
         "heading": "Outsourcing and cloud",
         "lede": "Outsourcing is where counsel earns their keep.",
         "points": [
-          "**Advance discussion:** SA-2 (2001) expects the bank to discuss any [[material outsourcing]], or a significant change to one, with the HKMA in advance.",
-          "**Agreements should:** give the HKMA and auditors access and inspection rights, protect customer data, control sub-contracting and support contingency and exit.",
+          "**Advance discussion:** SA-2 (2001) expects the bank to discuss with the HKMA in advance any plan to begin outsourcing a banking-related business area (back office included) or to change its scope, and to satisfy the HKMA that the section 2 issues are addressed (para 1.3.2). The digital bank guideline asks for advance discussion of [[material outsourcing]] (para 23).",
+          "**Agreements should:** give the HKMA and auditors access and inspection rights, protect customer data, and support contingency and exit (SA-2); TM-G-1 7.1.1 adds that the bank should consider requiring notice of, or approval for, significant sub-contracting.",
           "**Offshore processing:** must not impede HKMA access to data.",
           "**Cloud:** Read SA-2 with the Practice Guide on Cloud Adoption (8 January 2026), reported to replace the 2022 cloud guidance."
         ],
@@ -1400,7 +1400,7 @@
       {
         "heading": "E-banking authentication and AI",
         "points": [
-          "**Bound devices:** TM-E-1 and the HKMA's 2025 e-banking security measures make in-app [[bound device]] authentication the default for mobile app users instead of SMS OTP.",
+          "**Bound devices:** The HKMA's 2025 'E-Banking Security ABC' measures make in-app [[bound device]] authentication the default for mobile app users instead of SMS OTP. They build on TM-E-1, which requires two-factor authentication for high-risk transactions and extra controls where one device both runs the app and receives one-time passwords.",
           "**GenAI:** The August 2024 GenAI circular applies governance, fairness, transparency and privacy principles to customer-facing AI."
         ]
       }
@@ -1421,8 +1421,8 @@
         "instrument": "HKMA Supervisory Policy Manual",
         "ref": "SA-2",
         "title": "Outsourcing",
-        "summary": "Sets HKMA expectations for outsourcing (dated 28 December 2001): board accountability, risk assessment and due diligence, written agreements, confidentiality of customer data, monitoring and control, contingency planning, HKMA access, and additional issues for overseas outsourcing. AIs should discuss plans for material outsourcing, or significant changes to its scope, with the HKMA before proceeding.",
-        "counselNote": "This is the source of the HKMA's required clauses in vendor contracts, in particular supervisory inspection and access rights. For a digital bank most core vendors will be material, so the HKMA pre-consultation must be built into procurement timelines.",
+        "summary": "Sets HKMA expectations for outsourcing (dated 28 December 2001): board accountability, risk assessment and due diligence, written agreements, confidentiality of customer data, monitoring and control, contingency planning, HKMA access, and additional issues for overseas outsourcing. AIs intending to begin outsourcing a banking-related business area (back office included), or to change the scope of such outsourcing, should discuss their plans with the HKMA in advance and satisfy it that the section 2 issues are addressed before implementing (para 1.3.2). It is a non-statutory guidance note (V.1).",
+        "counselNote": "This is the main source of the HKMA's expected clauses in vendor contracts, in particular supervisory inspection and access rights. The digital bank guideline adds its own outsourcing paragraph (para 23), asking for advance discussion of material outsourcing and a demonstration that SA-2 will be complied with. Build the HKMA discussion into procurement timelines. See the Vendors tab for the clause-by-clause view.",
         "confidence": "high",
         "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
       },
@@ -1432,7 +1432,7 @@
         "ref": "OR-2",
         "title": "Operational Resilience",
         "summary": "Non-statutory guidance note issued on 31 May 2022, together with a revised TM-G-2 on business continuity planning, to implement the Basel Committee's March 2021 Principles for Operational Resilience; a revised OR-1 on operational risk management followed on 25 July 2022. AIs were to develop their operational resilience framework by 31 May 2023 and be operationally resilient by 31 May 2026.",
-        "counselNote": "The deadline has passed. The HKMA's letter 'Operational Resilience: Sustaining and Uplifting' (June 2026) reports that, on its survey, all AIs met it, and shifts the focus to sustaining and improving resilience. Expect examiners to test board ownership of critical operations, tolerances, dependency mapping (including vendors) and scenario testing.",
+        "counselNote": "The deadline has passed. The HKMA's letter 'Operational Resilience: Sustaining and Uplifting' (June 2026) reports that, on its survey, all AIs met it, and shifts the focus to sustaining and improving resilience. Expect examiners to test board ownership of critical operations, tolerances, dependency mapping (including vendors) and scenario testing. Note: the OR-2 file supplied for this module is the consultation draft (V.1 - Consultation), which leaves the deadlines blank; the dates above come from the final module and its 31 May 2022 issuing circular.",
         "confidence": "medium",
         "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
       },
@@ -1441,7 +1441,7 @@
         "instrument": "HKMA Supervisory Policy Manual",
         "ref": "TM-E-1",
         "title": "Risk Management of E-banking",
-        "summary": "Revised version (V.4, 25 October 2024), issued as a statutory guideline under s.7(3) of the Banking Ordinance; earlier versions were non-statutory guidance notes. It extends the module to controls over payment card transactions, consolidates e-banking security measures previously spread across supervisory documents (including the 2016 circular on internet banking security controls), and is more principle-based.",
+        "summary": "Revised version (V.4, 25 October 2024), a statutory guideline under s.7(3) of the Banking Ordinance. It superseded V.3 (2019), V.2 (2015) and the 26 May 2016 circular on internet banking security controls. It extends the module to controls over payment card transactions, consolidates e-banking security measures previously spread across supervisory documents, and is more principle-based.",
         "counselNote": "This is the core rulebook for a digital-only bank's customer channels, covering authentication, fraud monitoring and mobile app security. The HKMA's April 2025 'E-Banking Security ABC' measures build on it: 'Authenticate in-App' makes bound-device authentication the default for mobile app users instead of SMS OTP (due by Q4 2025), and an August 2025 letter extended the package to 'ABCD' by adding deepfake detection.",
         "confidence": "high",
         "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
@@ -1450,13 +1450,37 @@
         "kind": "statute",
         "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
         "ref": "Sch. 1, DPP4",
-        "title": "Security of personal data",
-        "summary": "Requires data users to take all practicable steps to protect personal data against unauthorised or accidental access, processing, erasure, loss or use. Where a data processor is engaged, the data user must adopt contractual or other means to secure equivalent protection.",
-        "counselNote": "DPP4(2) is the statutory basis for data-processor security clauses in every outsourcing contract. Use it together with SA-2's customer-confidentiality expectations and the bank's common-law duty of confidentiality.",
+        "title": "Security of personal data, including at data processors",
+        "summary": "DPP4(1) requires all practicable steps to protect personal data against unauthorized or accidental access, processing, erasure, loss or use, having regard to the kind of data, where it is stored, security built into equipment, the integrity and competence of people with access, and secure transmission. DPP4(2) adds that a data user who engages a data processor, in or outside Hong Kong, must adopt contractual or other means to prevent the same risks to data transferred to the processor.",
+        "counselNote": "DPP4(2) is why every vendor that touches customers' personal data needs security terms in its contract. It applies to cloud and SaaS providers, outsourced call centres and offshore processors alike.",
         "confidence": "high",
         "cap": "486",
-        "section": "Sch. 1",
+        "section": "Sch. 1 s.4",
         "url": "https://www.elegislation.gov.hk/hk/cap486"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
+        "ref": "Sch. 1, DPP2(3)",
+        "title": "Data processors: no longer than necessary",
+        "summary": "DPP2(2) requires all practicable steps so that personal data is not kept longer than necessary for its purpose. DPP2(3) adds that a data user who engages a data processor, in or outside Hong Kong, must adopt contractual or other means to prevent data transferred to the processor being kept longer than necessary for processing it. DPP2(4) defines a data processor as a person who processes personal data on behalf of another and not for its own purposes.",
+        "counselNote": "Together with DPP4(2), this makes retention and return-or-erase terms a legal requirement in vendor contracts, not just good practice. A vendor that uses the data for its own purposes is not a data processor, and the analysis changes.",
+        "url": "https://www.elegislation.gov.hk/hk/cap486",
+        "cap": "486",
+        "section": "Sch. 1 s.2",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
+        "ref": "s.65",
+        "title": "Liability for employees and agents",
+        "summary": "Acts done by an employee in the course of employment, or by an agent with the principal's authority, are treated for the purposes of the Ordinance as done by the employer or principal as well. An employer has a defence if it took practicable steps to prevent the employee's act. The section does not apply to criminal proceedings.",
+        "counselNote": "Where a vendor acts as the bank's agent (collection agents, referral or marketing partners), its PDPO breaches can be attributed to the bank. Contract controls and monitoring are the bank's practical protection.",
+        "url": "https://www.elegislation.gov.hk/hk/cap486",
+        "cap": "486",
+        "section": "65",
+        "confidence": "high"
       },
       {
         "kind": "statute",
@@ -1515,7 +1539,7 @@
       "**Run vendor due diligence** proportionate to materiality, covering financial standing, security certifications and audit reports, concentration risk and the legal environment of any offshore location.",
       "**Draft one incident triage tree** that starts the HKMA, Cap. 653, PCPD, police and customer-communication workstreams together, with named owners and pre-approved holding statements.",
       "**Confirm whether the bank or any of its systems has been designated** under Cap. 653 and, if so, diarise the statutory obligations and the requirements of the HKMA's Code of Practice for designated AIs.",
-      "**Check that board minutes evidence approval** of OR-2 critical operations, tolerances for disruption and scenario-test results.",
+      "**Check that board minutes evidence approval** of the critical-operations criteria and list, the tolerances for disruption and the severe but plausible scenarios; that senior management reviewed each testing report; and that significant deficiencies were reported to the board and prioritised for remediation (OR-2).",
       "**Align customer terms, app flows and disclosures** with bound-device authentication, any permitted SMS OTP fallback and customers' ability to switch off high-risk functions.",
       "**Set up an AI use-case inventory** and a legal sign-off gate that applies the 2019 and 2024 HKMA consumer-protection principles before any customer-facing deployment."
     ],
@@ -1549,15 +1573,15 @@
       },
       {
         "term": "material outsourcing",
-        "definition": "Outsourcing of an activity whose failure or disruption could materially affect the bank's business, customers or compliance. Under SA-2 it should be discussed with the HKMA before it proceeds."
+        "definition": "Outsourcing whose failure or disruption could materially affect the bank's business, customers or compliance. The digital bank guideline asks for advance discussion of material outsourcing with the HKMA (para 23); SA-2 itself asks for advance discussion of outsourcing any banking-related business area, without a materiality test (para 1.3.2)."
       },
       {
         "term": "critical operation",
-        "definition": "Under OR-2, an activity, function or service whose disruption would materially harm the bank's viability, its customers or the financial system."
+        "definition": "Under OR-2, activities, processes and services, and the people, technology, information and facilities that support them, whose disruption could pose material risks to the bank's viability or affect its role in the Hong Kong financial system."
       },
       {
         "term": "tolerance for disruption",
-        "definition": "Under OR-2, the maximum disruption (usually expressed as time and impact) that a critical operation can sustain. The bank sets it and the board approves it."
+        "definition": "The maximum level of disruption to a critical operation the bank can accept, beyond which its viability or its role in the Hong Kong financial system is at risk. It includes at least a time-based metric; the board sets it and reviews it at least annually (OR-2)."
       },
       {
         "term": "C-RAF",
@@ -1571,7 +1595,908 @@
         "term": "bound device",
         "definition": "A customer's mobile device registered to their banking app through a secure binding process. It is used to authenticate logins and high-risk transactions instead of SMS one-time passwords."
       }
-    ]
+    ],
+    "vendorKit": {
+      "intro": [
+        "**Why it matters:** for a bank without branches, almost every critical service runs on a vendor's people, code or cloud, and the HKMA judges the bank's controls over those vendors against the Seventh Schedule criteria (adequate systems of control; business conducted with integrity and competence).",
+        "**Accountability stays with the bank:** the board and management keep ultimate accountability for anything outsourced; only day-to-day management moves to the vendor (SA-2 2.1.1). The Code of Banking Practice adds that banks should be responsible and accountable for their authorized agents and third-party service providers (2.5).",
+        "**Two kinds of rule:** the PDPO makes some terms legally mandatory whenever a vendor processes personal data; the HKMA guidelines and modules, and the Code of Banking Practice, set expectations against which the HKMA assesses whether the bank keeps satisfying the authorization criteria. The pill on each clause shows the strongest source behind it.",
+        "**Digital banks specifically:** the digital bank guideline does not object to outsourcing, including to group companies, but asks for advance discussion of material outsourcing and a demonstration that SA-2 will be complied with, and the MA must be satisfied on security, customer confidentiality, the PDPO and its own powers (para 23).",
+        "**Scope is wide:** SA-2 covers services the bank used to do itself and new ones, providers in Hong Kong or overseas, and group entities as well as third parties (SA-2 1.1.1). OR-2 asks for other third-party dependencies supporting critical operations to be managed the same way."
+      ],
+      "lifecycle": {
+        "type": "steps",
+        "caption": "SA-2 sections 1.3 and 2; the HKMA checks the evidence through examinations, off-site reviews and prudential meetings (SA-2 1.3.6).",
+        "items": [
+          {
+            "label": "Assess",
+            "value": "SA-2 2.2.1",
+            "note": "Criticality of the service, reasons for outsourcing, effect on operational, legal and reputation risk"
+          },
+          {
+            "label": "Due diligence",
+            "value": "SA-2 2.3.1",
+            "note": "Financial soundness, reputation, technical and operational capability, banking experience"
+          },
+          {
+            "label": "Discuss with the HKMA",
+            "value": "SA-2 1.3.2; DVB 23",
+            "note": "In advance, before outsourcing a banking-related area or changing its scope"
+          },
+          {
+            "label": "Contract",
+            "value": "Clauses below",
+            "note": "PDPO terms are mandatory; HKMA terms are expected"
+          },
+          {
+            "label": "Monitor",
+            "value": "SA-2 2.2.2, 2.4.2, 2.6",
+            "note": "Performance, material problems, financial condition and contingency plan; risk assessment and agreement reviewed regularly"
+          },
+          {
+            "label": "Exit",
+            "value": "SA-2 2.5.4, 2.7.3",
+            "note": "Data retrieved or destroyed; alternative providers or an in-house fallback considered and costed"
+          }
+        ]
+      },
+      "terms": [
+        {
+          "id": "scope-service-levels",
+          "title": "Scope, service levels and liability",
+          "appliesTo": [
+            "all"
+          ],
+          "summary": "The agreement should clearly set out the type and level of services and the vendor's contractual obligations and liabilities (SA-2 2.4.1). Concrete, measurable service levels are what let the bank monitor performance against target (2.3.2).",
+          "require": [
+            "**Services:** the type and level of services to be provided, clearly set out (SA-2 2.4.1). Describing them precisely enough to monitor is counsel's drafting point.",
+            "**Service levels:** SA-2 expects controls to monitor the vendor's performance continuously, giving comparison with a target service level as an example (2.3.2), and the level of services set out in the agreement (2.4.1). Measurable targets in the contract are the practical way to meet both (inference).",
+            "**Obligations and liability:** the vendor's contractual obligations and its liability for failing to meet them (SA-2 2.4.1).",
+            "**Technology services:** the provider's performance standards, and who owns the software and hardware used (TM-G-1 7.1.1).",
+            "**Software packages:** ongoing maintenance and adequate support, specified in a formal contract (TM-G-1 4.2.6)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.3.2, 2.4.1",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "4.2.6, 7.1.1",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "3.3, 4.2.1",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            }
+          ],
+          "drafting": [
+            "**Critical operations:** set recovery-time and availability commitments that fit inside the tolerance for disruption the board has set for the operation the service supports (counsel's inference from OR-2 3.3 and 4.2.1, numbered as in the consultation draft; the module does not say this of contracts).",
+            "**Service credits:** treat them as a pricing adjustment, not a remedy; keep termination and step-in rights for persistent failure.",
+            "**Liability caps:** resist caps or exclusions that would leave confidentiality, data-protection and regulatory-cooperation breaches effectively unremedied."
+          ],
+          "cloud": "Standard cloud terms often commit only to availability, backed by service credits (market practice, not from the sources). Negotiate support-response and incident-notification commitments separately."
+        },
+        {
+          "id": "hkma-access",
+          "title": "HKMA access and inspection",
+          "appliesTo": [
+            "all",
+            "offshore"
+          ],
+          "summary": "The HKMA's examination powers under BO ss.55–56 run against the bank (and, for a locally incorporated bank, its branches, offices and subsidiaries), not against a third-party, parent or sister-company vendor. For those vendors, the contract is what gives the HKMA access to the vendor's operations.",
+          "require": [
+            "**Inspection clause:** the agreement allows supervisory inspection or review of the vendor's operations and controls, so far as they relate to the outsourced activity (SA-2 2.8.2).",
+            "**Unimpeded access:** access to data by the HKMA's examiners should not be impeded by the outsourcing (SA-2 2.8.2).",
+            "**Local banks:** for a locally incorporated bank, a principal HKMA concern is whether it can exercise its Banking Ordinance powers effectively if the service provider gives only limited cooperation (SA-2 2.9.2); this is the basis for a direct-cooperation undertaking.",
+            "**Overseas providers:** the HKMA's right of access to data is confirmed in writing by the bank and by its home or host authorities, as the case may be (SA-2 2.9.1).",
+            "**Digital bank rule:** the MA should have the right to inspect the security arrangements and other controls at the provider, or to obtain reports from its supervisor, external auditors or other experts (Digital Bank Guideline para 23).",
+            "**No hindrance:** the MA must be satisfied that the outsourcing arrangements will not hinder his powers and duties under the Banking Ordinance, in particular s.52, the power of control over an institution: requiring it to take action, or directing that it take advice from an Advisor or be managed by a Manager (para 23).",
+            "**Assessment reports:** for critical technology services the bank is expected to commission a detailed assessment of the provider's IT control environment, ideally by a party independent of the provider, and the report should be provided to the HKMA for reference (TM-G-1 7.1.1). E-banking independent assessment reports should be submitted to the HKMA on request (TM-E-1 3.3.1). The confidentiality terms therefore need to permit both disclosures (drafting point)."
+          ],
+          "sources": [
+            {
+              "label": "Digital Bank Guideline",
+              "ref": "23",
+              "strength": "statutory-guideline",
+              "note": "Issued under s.16(10) of the Banking Ordinance, not s.7(3): it sets the principles the MA applies in authorizing digital banks.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
+            },
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.8.2, 2.9.1–2.9.2",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "7.1.1",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "SPM TM-E-1 E-banking",
+              "ref": "3.3.1",
+              "strength": "statutory-guideline",
+              "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
+            },
+            {
+              "label": "Banking Ordinance (Cap. 155)",
+              "ref": "ss.55–56",
+              "strength": "statute",
+              "note": "The MA may examine an AI with or without prior notice; the AI must give the examiner access to its books, documents and information.",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            }
+          ],
+          "drafting": [
+            "**No gatekeeping:** avoid notice periods, cost recovery or scope limits that the vendor could use to delay a supervisory visit; s.55 allows the MA to examine the bank without prior notice.",
+            "**Direct cooperation:** have the vendor agree to cooperate with the HKMA directly, not only through the bank.",
+            "**Continuity under s.52:** the vendor keeps providing the service, and cooperates, if the MA gives directions or appoints an Advisor or Manager; no termination or suspension merely because those powers are used (counsel's drafting to meet para 23)."
+          ],
+          "cloud": "Certifications and pooled audits help the bank's own assurance but do not replace the HKMA's right. Keep that right in the contract expressly."
+        },
+        {
+          "id": "audit-assessment",
+          "title": "Audit and assessment rights",
+          "appliesTo": [
+            "all",
+            "critical"
+          ],
+          "summary": "The bank's internal and external auditors need unimpeded access to outsourced data (SA-2 2.8.2), and the bank should assess the IT control environment of each provider of critical technology services every year (TM-G-1 7.1.1). The contract has to give them, and the assessors the bank appoints, the access to do this.",
+          "require": [
+            "**Auditors:** access to data by the bank's internal and external auditors should not be impeded by the outsourcing (SA-2 2.8.2). SA-2 asks for an express clause only for supervisory inspection; an equivalent audit-access clause for the bank's auditors is the usual way to deliver this (drafting point).",
+            "**Annual assessment:** the bank should conduct an annual assessment confirming the adequacy of the IT control environment of each provider of critical technology services (TM-G-1 7.1.1). The contract should give it the access and information to do this (inference; TM-G-1 does not specify contract terms for this).",
+            "**Independent assessment:** cooperation with the rigorous independent assessment that the bank's policies should ensure is performed before a new e-banking delivery channel or major enhancement is launched. Where relevant, it should cover systems or processes outsourced to providers inside or outside the group (TM-E-1 3.3.1).",
+            "**Penetration tests:** where the bank's independent-assessment framework does not include penetration tests, regular tests by qualified independent parties assessing, at least annually, the bank's Internet banking and other financial services delivered over the Internet or wireless networks (TM-E-1 3.3.2). The vendor should agree to cooperate with tests of its systems (drafting point).",
+            "**Vendor-built software:** before launching any Internet banking system or system change, the bank should be satisfied that the vendor has an adequate code review process; otherwise the bank should review the vendor's code itself (TM-E-1 5.3.2, footnote 15). The contract should therefore require evidence of the vendor's review and, failing that, give the bank a right to review the code (drafting point)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.8.2",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "7.1.1",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "SPM TM-E-1 E-banking",
+              "ref": "3.3.1, 3.3.2, 5.3.2",
+              "strength": "statutory-guideline",
+              "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
+            }
+          ],
+          "drafting": [
+            "**Remediation:** pair audit rights with an obligation to fix findings within agreed deadlines, and a termination right if they are not fixed."
+          ],
+          "cloud": "Accept certifications and pooled audits as the routine evidence, but keep an on-site or direct audit right for when the evidence is not enough."
+        },
+        {
+          "id": "records-hk",
+          "title": "Records and data available in Hong Kong",
+          "appliesTo": [
+            "all",
+            "offshore"
+          ],
+          "summary": "The bank should keep appropriate, up-to-date records at its own premises and be able to get accurate data back from the vendor in Hong Kong on a timely basis (SA-2 2.8.1). Under BO s.56 it must also produce books and information when the MA examines it, wherever the vendor holds them.",
+          "require": [
+            "**Records at the bank:** appropriate, up-to-date records kept at the bank's own premises and available for HKMA inspection under BO ss.55–56 (SA-2 2.8.1).",
+            "**Data retrieval:** data retrieved from the vendor is accurate and available in Hong Kong on a timely basis (SA-2 2.8.1). Delivery and retrieval obligations with turnaround times are counsel's way of meeting this (drafting point)."
+          ],
+          "sources": [
+            {
+              "label": "Digital Bank Guideline",
+              "ref": "13",
+              "strength": "statutory-guideline",
+              "note": "Issued under s.16(10) of the Banking Ordinance, not s.7(3). To facilitate examination under s.55, digital banks must keep a full set of books, accounts and transaction records accessible to the MA (para 13).",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
+            },
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.8.1",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "Banking Ordinance (Cap. 155)",
+              "ref": "ss.55–56",
+              "strength": "statute",
+              "note": "s.55: the MA may examine the bank's books, accounts and transactions at any time, with or without prior notice. s.56: the bank must give the examiner access to, and produce, its books, documents and information; if it fails to do so without reasonable excuse, every director, chief executive and manager commits an offence (s.56(2)).",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            }
+          ],
+          "drafting": [
+            "**Formats:** specify exportable formats and a tested retrieval runbook; regulatory requests should not wait for a change request."
+          ]
+        },
+        {
+          "id": "confidentiality",
+          "title": "Confidentiality of all customer information",
+          "appliesTo": [
+            "all"
+          ],
+          "summary": "The bank's common-law duty of confidentiality covers corporate as well as individual customers (SA-2 footnote 1), and SA-2 2.5.2 asks for safeguards for customer information generally. The confidentiality clause should therefore reach all customer information, not only personal data (drafting conclusion).",
+          "require": [
+            "**Undertakings:** SA-2 expects controls and proper safeguards for customer information, and lists as typical safeguards (examples, not a mandatory list) undertakings by the vendor that it and its staff will abide by confidentiality rules, including taking account of the PDPO data protection principles (2.5.2).",
+            "**Remedies:** another typical safeguard in 2.5.2 is a contractual right for the bank to take action against the vendor for a breach of confidentiality.",
+            "**Staff and agents (technology outsourcing):** the agreement should specify the provider's performance standards and other obligations (TM-G-1 7.1.1); footnote 13 says these 'may include' keeping confidential the bank's information obtained by the provider's staff or agents, and complying with the bank's relevant IT control policies and procedures."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.5.1–2.5.2",
+              "strength": "hkma-guidance",
+              "note": "Footnote 1 to 2.5.1: the common-law duty covers individual and corporate customers alike, while the PDPO protects only individuals; the general principle is that customer data is kept confidential and not divulged to anyone without the customer's consent.",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "7.1.1, footnote 13",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "Digital Bank Guideline",
+              "ref": "23",
+              "strength": "statutory-guideline",
+              "note": "Issued under s.16(10) of the Banking Ordinance, not s.7(3). The MA must be satisfied that confidentiality and integrity of customer information will not be compromised, and that the PDPO and common-law customer confidentiality are complied with (para 23).",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
+            },
+            {
+              "label": "Code of Banking Practice (Dec 2023)",
+              "ref": "8.1",
+              "strength": "industry-code",
+              "note": "Banks should treat customers' (and former customers') banking affairs as private and confidential. Non-statutory, but the HKMA expects compliance and monitors it (CoBP 1.2, 1.4).",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
+            }
+          ],
+          "drafting": [
+            "**Definition:** define confidential information to include all customer information and the bank's own information, and keep the obligation alive after termination; the Code's recommendation extends to former customers (8.1).",
+            "**Compelled disclosure:** allow disclosure required by law only after prompt notice to the bank, so far as the law permits."
+          ]
+        },
+        {
+          "id": "pdpo-processor",
+          "title": "Personal data processing (PDPO)",
+          "appliesTo": [
+            "personal-data"
+          ],
+          "summary": "This is the main place where statute itself requires the bank to control a vendor (the other statutory hooks are narrower: AMLO Sch. 2 s.18 for CDD intermediaries, and Cap. 653 for a designated CI operator). Whenever the bank engages a data processor, in or outside Hong Kong, it must adopt contractual or other means to stop the processor keeping the data longer than necessary for processing and to protect it against unauthorized or accidental access, processing, erasure, loss or use. For an external vendor, a contract is the practical means.",
+          "require": [
+            "**Retention (DPP2(3)):** prevent personal data transferred to the processor being kept longer than necessary for processing it.",
+            "**Security (DPP4(2)):** prevent unauthorized or accidental access, processing, erasure, loss or use of the data transferred for processing.",
+            "**Purpose:** the bank controls the data and remains the data user. DPP3 therefore still governs what the vendor may be asked to do: without the data subject's prescribed consent (express, voluntary and not withdrawn in writing), the data may not be used for a new purpose (DPP3; s.2(3)). The Code assumes the processing purposes are stated in the outsourcing agreement and measures retention against them (CoBP 8.8), so state them there."
+          ],
+          "sources": [
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "Sch. 1 DPP2(3)–(4)",
+              "strength": "statute",
+              "note": "Contractual or other means against over-retention by a data processor.",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "Sch. 1 DPP4(2)–(3)",
+              "strength": "statute",
+              "note": "Contractual or other means against unauthorized or accidental access, processing, erasure, loss or use.",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "Sch. 1 DPP1(3)(b)(i)(B)",
+              "strength": "statute",
+              "note": "On or before collection, the data subject must be explicitly informed of the classes of persons to whom the data may be transferred. Naming data processors as a class in the collection notice applies this (inference).",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "s.65(2)",
+              "strength": "statute",
+              "note": "An act done by a person as the bank's agent, with its express or implied authority, is treated as done by the bank as well. This applies only where the vendor is in law the bank's agent, and not in criminal proceedings (s.65(4)).",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            },
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.5.1",
+              "strength": "hkma-guidance",
+              "note": "The arrangement should comply with the PDPO and the common-law duty of confidentiality; this generally involves legal advice.",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "Code of Banking Practice (Dec 2023)",
+              "ref": "8.3, 8.8",
+              "strength": "industry-code",
+              "note": "Satisfy yourself first that the provider will keep the data confidential and safe; use contractual or other means against misuse and over-retention, tied to the purposes in the outsourcing agreement; stay accountable to customers. Notify customers on or before collection, as specifically as possible, that their data may go to data processors (8.3(b)).",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
+            }
+          ],
+          "drafting": [
+            "**Processor role (drafting point; the PDPO defines the term but does not require this clause):** confine the vendor to processing on the bank's behalf and not for any of its own purposes. That matches the DPP2(4) definition of 'data processor', and under s.2(12) such a vendor is not itself a data user. A vendor that also uses the data for its own purposes is outside the definition, and passing it the data is a 'use' that must satisfy DPP3.",
+            "**Consequences:** breach of a data protection principle is not itself an offence (s.64A(2)(a)). After an investigation, however, the Privacy Commissioner can serve an enforcement notice (s.50), and contravening it is an offence (s.50A). An individual customer who suffers damage, including injury to feelings, can claim compensation from the bank as data user, subject to a defence of having taken reasonable care (s.66). Corporate customers have no PDPO claim; their protection is the common-law duty of confidentiality.",
+            "**'Other means':** the statute allows contractual or other means, but for an external vendor a contract is the practical way to show compliance.",
+            "**Usual terms:** instructions-only processing, security measures, no other use or disclosure, controls on sub-processing, prompt breach notification, return or erasure at the end, and audit rights."
+          ],
+          "cloud": "Cloud and SaaS providers usually present themselves as processors and offer a data-processing addendum (a practice observation, not from the sources). Check that it gives the bank contractual means meeting both DPP2(3) and DPP4(2), and that the provider reserves no right to use the data for its own purposes, such as product improvement or analytics; if it does, it is not a 'data processor' under DPP2(4)."
+        },
+        {
+          "id": "segregation-access",
+          "title": "Segregation and need-to-know access",
+          "appliesTo": [
+            "all",
+            "personal-data"
+          ],
+          "summary": "SA-2 lists two typical safeguards the bank should have in place to protect customer data confidentiality: keeping the bank's customer data segregated or compartmentalised from the vendor's own data and its other clients' data, and giving access only to authorized vendor employees on a need basis (SA-2 2.5.2). For personal data they are also practical ways to meet the statutory DPP4(2) duty (inference).",
+          "require": [
+            "**Segregation:** the bank's customer data is segregated or compartmentalised from data of the vendor and its other clients (SA-2 2.5.2).",
+            "**Need-to-know:** access only by authorized vendor employees, on a need basis (SA-2 2.5.2)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.5.2",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            }
+          ],
+          "cloud": "In multi-tenant cloud, segregation is logical. Encryption with keys the bank controls is a common way to evidence it."
+        },
+        {
+          "id": "subcontracting",
+          "title": "Sub-contracting",
+          "appliesTo": [
+            "all",
+            "critical"
+          ],
+          "summary": "Vendors pass work to their own suppliers. For technology outsourcing, TM-G-1 asks the bank to consider requiring notice of, or its approval for, significant sub-contracting, and to keep the original vendor responsible. The Code of Banking Practice bans sub-contracting outright for debt collection agencies.",
+          "require": [
+            "**Notice or approval:** for technology outsourcing, TM-G-1 expects the bank to consider requiring notice of, or its approval for, significant sub-contracting (7.1.1). SA-2 does not address sub-contracting. Extending a notice-or-approval right to every material vendor, not only technology providers, is drafting advice rather than an HKMA expectation.",
+            "**Responsibility:** likewise, a provision that the original vendor stays responsible for its sub-contracted services (TM-G-1 7.1.1).",
+            "**Visibility (drafting inference):** obtain enough information about the vendor's material sub-contractors to map the third-party interdependencies behind the bank's critical operations (OR-2 5.1). The same information lets the bank use a failure in the vendor's supply chain as a severe but plausible scenario, which OR-2 4.3.1 lists as an example AIs may consider.",
+            "**Debt collection:** the contract with a debt collection agency should state that it will not sub-contract debt collection to any other third party (CoBP 46.5)."
+          ],
+          "sources": [
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "7.1.1",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "4.3.1, 5.1",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            },
+            {
+              "label": "Code of Banking Practice (Dec 2023)",
+              "ref": "46.5",
+              "strength": "industry-code",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
+            }
+          ],
+          "drafting": [
+            "**Flow-down:** require sub-contractors to accept the same confidentiality, data-protection, audit and HKMA-access terms; otherwise the rights stop at the first vendor."
+          ]
+        },
+        {
+          "id": "continuity-resilience",
+          "title": "Business continuity, resilience and testing",
+          "appliesTo": [
+            "all",
+            "critical"
+          ],
+          "summary": "The vendor's outages are the bank's outages. The HKMA expects the bank to understand the vendor's contingency plan, to monitor the plan and its test results, and to include the vendor dependency in its own testing (SA-2 2.6.2, 2.7.1–2.7.2; OR-2 7.2). This is guidance, not statute.",
+          "require": [
+            "**Vendor BCP:** the vendor maintains contingency plans and tests them regularly (SA-2 2.7.1).",
+            "**Visibility:** the bank can review the vendor's contingency plan and its test results (SA-2 2.6.2, 2.7.2).",
+            "**E-banking resilience:** the bank's resilience controls and capacity planning for e-banking should cover the vendor's relevant systems and infrastructure (TM-E-1 9.1.2). Where the bank's resilience depends on the vendor, it should monitor the vendor's resilience and understand its contingency arrangements, and for an outsourcing vendor assess its resilience controls as part of assessing its own (9.4.2). The contract should give the information and access needed for this.",
+            "**Joint testing:** the bank's operational resilience testing should encompass its interdependencies on third parties (OR-2 7.2). Obliging the vendor to cooperate in that testing is the drafting means to achieve this; OR-2 does not itself require it.",
+            "**Critical operations:** critical operations should be covered by business continuity planning and testing, with continuity and contingency procedures and exit strategies for a failure or disruption at the vendor; OR-2 says the bank 'must ensure' that third-party disruptions will not affect delivery of critical operations (OR-2 6.2)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.6.2, 2.7.1–2.7.2",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-E-1 E-banking",
+              "ref": "9.1.2, 9.4.2",
+              "strength": "statutory-guideline",
+              "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "6.2, 7.2",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            }
+          ],
+          "drafting": [
+            "**Recovery targets:** for critical operations, state recovery-time objectives consistent with the bank's tolerance for disruption."
+          ]
+        },
+        {
+          "id": "incidents",
+          "title": "Incident notification and escalation",
+          "appliesTo": [
+            "all"
+          ],
+          "summary": "The HKMA expects the bank to notify it promptly of significant incidents: TM-E-1 8.2.5 covers e-banking, and TM-G-1 3.3.3 covers confirmed IT-related fraud and major security breaches. A bank designated as a CI operator under Cap. 653 also has a statutory duty to notify the Commissioner of computer-system security incidents within specified times (s.28). That only works if the vendor tells the bank faster.",
+          "require": [
+            "**Escalation:** reporting procedures that escalate problems promptly to the management of both the bank and the vendor (SA-2 2.6.4).",
+            "**Incident programme:** the bank's incident management programme should cover incidents arising from dependencies on third parties (OR-2 8.2), so the vendor's incident reporting needs to feed into it.",
+            "**E-banking incidents:** once the bank becomes aware of a significant incident, including any suspected or confirmed e-banking fraud, it should notify the HKMA promptly under the HKMA's reporting arrangements (TM-E-1 8.2.5), and its incident procedures should run during and outside office hours (8.2.1). An incident at a vendor that affects the bank's e-banking falls within these words (inference), so the vendor's duty to notify should operate around the clock.",
+            "**IT security incidents:** the bank's incident response and reporting procedures, running during and outside office hours, should include timely reporting to the HKMA of confirmed IT-related fraud and major security breaches (TM-G-1 3.3.3). A vendor running the bank's technology must report such events to the bank in time for this."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.6.4",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "8.2",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            },
+            {
+              "label": "SPM TM-E-1 E-banking",
+              "ref": "8.2.1, 8.2.5",
+              "strength": "statutory-guideline",
+              "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "3.3.3",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "Cap. 653 Critical infrastructures",
+              "ref": "s.28; Sch. 6",
+              "strength": "statute",
+              "note": "Only if the bank is designated as a CI operator: notify the Commissioner of a computer-system security incident as soon as practicable and within the specified time, then a written report within 14 days of becoming aware.",
+              "url": "https://www.elegislation.gov.hk/hk/cap653"
+            }
+          ],
+          "drafting": [
+            "**Clock:** set a vendor notification deadline measured in hours, shorter than the bank's own clocks. TM-E-1 8.2.5 asks for prompt notice to the HKMA; a designated CI operator must notify the Commissioner as soon as practicable and within the time in Cap. 653 Sch. 6 (12 hours for serious incidents and 48 hours for others), then report in writing within 14 days (s.28).",
+            "**Content:** require initial notice with the facts available, then updates and a root-cause report; cooperation with forensic work; preservation of logs."
+          ]
+        },
+        {
+          "id": "cap653",
+          "title": "If the bank is a designated CI operator (Cap. 653)",
+          "appliesTo": [
+            "critical"
+          ],
+          "summary": "If the bank is designated under Cap. 653, statute reaches its suppliers through the bank's own duties: its security management plan must cover managing supplier contracts, and a critical computer system can be one the bank does not control.",
+          "require": [
+            "**Supplier contracts in the plan:** the computer-system security management plan must cover managing contracts and other communications with suppliers of computer-related services and products for the critical systems, so that the bank complies with its obligations and its required security measures are properly implemented (s.23(3); Sch. 3 item 3(h)).",
+            "**Systems the bank does not control:** a computer system can be designated as a critical computer system whether or not it is under the operator's control, if it is accessible from Hong Kong and essential to the core function (s.13(1)).",
+            "**Incidents:** notify the Commissioner as soon as practicable and within the specified time, then report in writing within 14 days (s.28; Sch. 6). The vendor has to tell the bank in time for this."
+          ],
+          "sources": [
+            {
+              "label": "Cap. 653 Critical infrastructures",
+              "ref": "ss.13, 23; Sch. 3 item 3(h)",
+              "strength": "statute",
+              "note": "Applies only to an operator designated under the Ordinance; failing to notify an incident under s.28 is an offence (s.28(5)).",
+              "url": "https://www.elegislation.gov.hk/hk/cap653"
+            },
+            {
+              "label": "Cap. 653 Critical infrastructures",
+              "ref": "s.28; Sch. 6",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap653"
+            }
+          ],
+          "drafting": [
+            "**Flow-down:** security measures the bank specifies, cooperation with the bank's own Cap. 653 obligations, and incident reporting in hours (drafting)."
+          ]
+        },
+        {
+          "id": "reporting-monitoring",
+          "title": "Performance reporting and information rights",
+          "appliesTo": [
+            "all"
+          ],
+          "summary": "The bank should monitor the vendor's performance continuously (SA-2 2.3.2, 2.6), which needs regular information flowing back under the contract.",
+          "require": [
+            "**Reports:** contract performance, material problems the vendor meets, and information to review its financial condition and risk profile (SA-2 2.6.2).",
+            "**Ongoing resilience:** enough information for the bank to stay satisfied that a vendor supporting critical operations keeps an acceptable level of operational resilience (OR-2 6.2)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.6.1–2.6.2",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "6.2",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            }
+          ],
+          "drafting": [
+            "**Change of control:** add notice of change of control or material adverse change in the vendor's financial condition, with a termination right."
+          ]
+        },
+        {
+          "id": "overseas-authorities",
+          "title": "Requests by overseas authorities",
+          "appliesTo": [
+            "offshore"
+          ],
+          "summary": "Data held offshore can be reached by foreign police, tax or other authorities. SA-2 asks the bank to notify the HKMA if they seek access to customer data (2.9.1), so the bank needs the vendor to tell it first.",
+          "require": [
+            "**Notice:** the vendor tells the bank promptly of any request by an overseas authority for the bank's customer data, so far as the law allows (inference from SA-2 2.9.1, which asks the bank to notify the HKMA of such requests).",
+            "**Regulator-driven exit:** a right to terminate or move the service if the HKMA requires alternative arrangements, which it reserves the right to do where foreign access appears unwarranted (SA-2 2.9.1)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.9.1",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            }
+          ]
+        },
+        {
+          "id": "location",
+          "title": "Data location and changes of location",
+          "appliesTo": [
+            "offshore"
+          ],
+          "summary": "Where the data sits decides which laws and authorities can reach it. The bank needs to choose locations deliberately and control changes.",
+          "require": [
+            "**Named locations:** where data is stored and processed, so the bank can tell customers which country the provider is in and notify them of changes (SA-2 2.9.1).",
+            "**Advance notice:** the vendor gives advance notice of any change of processing location (inference from SA-2 2.9.1).",
+            "**No unsuitable jurisdictions:** not a jurisdiction that is inadequately regulated or has secrecy laws that may hamper HKMA or auditor access (SA-2 2.9.1).",
+            "**Major offshore processing:** if a locally incorporated bank moves a major part of its data processing outside Hong Kong, the HKMA expects a robust, documented and tested back-up system and contingency plan in an acceptable jurisdiction (SA-2 2.9.2)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.9.1–2.9.2",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "s.33",
+              "strength": "statute",
+              "note": "Restricts transfers of personal data outside Hong Kong, but has not been brought into operation (SA-2 says so as at 2001; confirm the current status on HKeL).",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            }
+          ],
+          "drafting": [
+            "**Legal opinion:** for overseas outsourcing, SA-2 expects a legal opinion on foreign authorities' access rights and a risk assessment of that access (2.9.1). Commission it before signing, not after."
+          ]
+        },
+        {
+          "id": "governing-law",
+          "title": "Governing law",
+          "appliesTo": [
+            "offshore"
+          ],
+          "summary": "For overseas outsourcing, SA-2 prefers the agreement to be governed by Hong Kong law. It is a preference, not an absolute rule.",
+          "require": [
+            "**Hong Kong law:** preferably Hong Kong law for an overseas outsourcing agreement (SA-2 2.9.1)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.9.1",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            }
+          ],
+          "drafting": [
+            "**If foreign law is unavoidable:** record why, and confirm through the legal opinion that the HKMA access and audit clauses are enforceable under that law."
+          ]
+        },
+        {
+          "id": "termination-exit",
+          "title": "Termination, exit and data return",
+          "appliesTo": [
+            "all",
+            "critical"
+          ],
+          "summary": "The bank needs to be able to leave. SA-2 expects customer data to be retrieved or destroyed when the agreement ends (2.5.4) and alternatives to be considered (2.7.3), and the HKMA can in extreme cases require alternative arrangements (1.3.5).",
+          "require": [
+            "**Data at the end:** when the agreement ends, for whatever reason, all customer data is retrieved from the vendor or destroyed (SA-2 2.5.4).",
+            "**Regulator-required change:** room to act if the HKMA requires alternative arrangements for the outsourced activity (SA-2 1.3.5, 2.9.1).",
+            "**Exit plan support:** SA-2 asks the bank to consider alternative providers or bringing the service back in-house, with the costs, time and resources (2.7.3), and TM-G-1 says the contingency plan may include an exit management plan (7.1.1). Exit management and transition assistance clauses are what make either workable (counsel's drafting).",
+            "**Mission-critical software:** consider source-code escrow, so the bank can obtain the code if the vendor ceases business (TM-G-1 4.2.6)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "1.3.5, 2.5.4, 2.7.3, 2.9.1",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "4.2.6, 7.1.1",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "6.2",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            }
+          ],
+          "drafting": [
+            "**Continuity during exit:** the vendor keeps providing the service on existing terms through a defined transition period.",
+            "**Resolution and s.52:** add that the vendor may not terminate or suspend merely because the bank is in recovery or resolution, or because the MA exercises s.52 powers (Digital Bank Guideline para 23), and that the contract can transfer to a successor (see Stage 10)."
+          ],
+          "cloud": "Check exit is practical: data export formats, egress costs and timing, and deletion certificates at the end."
+        },
+        {
+          "id": "intragroup",
+          "title": "Intragroup services",
+          "appliesTo": [
+            "intragroup"
+          ],
+          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Responsibilities should be written down (TM-G-1 2.6.1), and the bank's directors stay responsible for what the group applies to the bank.",
+          "require": [
+            "**Form:** SA-2 expects a service agreement (2.4.1). A memorandum of understanding 'may be acceptable' where the provider is a wholly-owned subsidiary of the bank, or the head office or another branch of a foreign bank (2.4.3). A tech-group parent or sister company falls outside 2.4.3, so use a full agreement (inference from 2.4.1 and 2.4.3).",
+            "**Documented responsibilities:** responsibilities of the local bank and overseas group offices for IT controls and support set out clearly in policies, procedures or service agreements (TM-G-1 2.6.1).",
+            "**Same standard:** intragroup dependencies are managed in the same way as outsourcing (OR-2 6.2)."
+          ],
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "1.1.1, 2.4.3",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "2.6.1",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "6.2",
+              "strength": "hkma-guidance",
+              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            },
+            {
+              "label": "Digital Bank Guideline",
+              "ref": "23",
+              "strength": "statutory-guideline",
+              "note": "Outsourcing to a company in the same group is within scope.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
+            },
+            {
+              "label": "SPM CG-1 Corporate governance",
+              "ref": "6.2.13–6.2.14",
+              "strength": "statutory-guideline",
+              "note": "In the version you supplied (V.1, 2001): a subsidiary's directors are not relieved of responsibility for policies its holding company applies, and should record dissent where those may harm it. Written for subsidiaries of banking groups; applied here by analogy. Check the numbering in the current CG-1 (V.4)."
+            }
+          ],
+          "drafting": [
+            "**Arm's length:** price and terms that would stand up as commercial, and the same HKMA-access, audit and exit terms as a third-party contract."
+          ]
+        },
+        {
+          "id": "aml-vendors",
+          "title": "Onboarding, screening and monitoring vendors (AML)",
+          "appliesTo": [
+            "aml",
+            "offshore"
+          ],
+          "summary": "eKYC, screening and transaction-monitoring vendors do part of the bank's AML work, but the bank keeps the legal duty. The AML Guideline treats every 'should' as mandatory (para 1.6).",
+          "require": [
+            "**Bank's procedures:** where a vendor or agent applies CDD on the bank's behalf, it follows the bank's own procedures under the bank's control; this is outsourcing, not reliance on an intermediary (4.11.2).",
+            "**Records wherever held:** CDD and transaction records kept by a vendor, a group entity or offshore must still meet the AMLO record-keeping rules on retention, form and availability (8.9): the whole relationship plus at least five years (8.3–8.4), and longer if the HKMA requires it by written notice (8.8).",
+            "**Swift access:** records swiftly available to the HKMA, other authorities and auditors (8.2(b)), and to the Compliance Officer and MLRO on a timely basis (3.8(g)).",
+            "**Screening data:** a third-party sanctions and terrorist database must be complete and accurate, updated promptly (UN designations added as soon as practicable), and sample-tested by the bank (6.13–6.15).",
+            "**Monitoring systems:** enough documentation and transparency for the bank to review and independently validate a vendor's monitoring parameters and thresholds (5.8).",
+            "**Remote onboarding:** supplementary verification technology must guard against impersonation, and the bank must be able to show the HKMA that it does (4.10.4)."
+          ],
+          "sources": [
+            {
+              "label": "HKMA AML/CFT Guideline",
+              "ref": "1.6, 3.8(g), 4.10.4, 4.11.2, 5.8, 6.13–6.15, 8.2–8.9",
+              "strength": "statutory-guideline",
+              "note": "Issued under s.7 AMLO and s.7(3) of the Banking Ordinance; revised May 2023 (the version you supplied).",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN"
+            },
+            {
+              "label": "AMLO (Cap. 615)",
+              "ref": "Sch. 2, s.20",
+              "strength": "statute",
+              "note": "Duty to keep records.",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            }
+          ],
+          "drafting": [
+            "**Legal holds:** the vendor keeps records longer on the bank's instruction and never deletes them during a hold.",
+            "**Tipping-off:** bind vendors that see alerts, case files or report information to confidentiality covering suspicions, since disclosing them can be an offence (7.6).",
+            "**Exit:** all CDD and screening records handed back in usable form before the vendor stops."
+          ]
+        },
+        {
+          "id": "aml-intermediary",
+          "title": "Relying on an intermediary for CDD",
+          "appliesTo": [
+            "aml",
+            "agents"
+          ],
+          "summary": "Reliance is a separate regime: a regulated intermediary performs part of CDD with its own procedures, and the bank should obtain confirmations and undertakings that secure access to what it collected (4.11.3–4.11.5). The bank keeps ultimate responsibility (4.11.1).",
+          "require": [
+            "**Written confirmation:** the intermediary agrees to act as the bank's intermediary and states which CDD measures it will perform (4.11.3(a)).",
+            "**Data straight away:** the bank obtains the data or information immediately after each CDD measure; copies of documents can follow (4.11.4).",
+            "**Documents on request:** copies of documents and records provided on request without delay, throughout the record-keeping period (4.11.3(b), 4.11.5).",
+            "**Retention undertaking:** keep all underlying CDD information for the whole relationship and at least five years after it ends (4.11.5).",
+            "**On exit or failure:** hand over all CDD information if the intermediary is about to cease trading or stops acting for the bank (4.11.5, 4.11.7, 8.12).",
+            "**Ongoing monitoring stays with the bank:** reliance does not cover it (4.11.1, footnote 48)."
+          ],
+          "sources": [
+            {
+              "label": "HKMA AML/CFT Guideline",
+              "ref": "4.11.1–4.11.7, 8.10–8.12",
+              "strength": "statutory-guideline",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN"
+            },
+            {
+              "label": "AMLO (Cap. 615)",
+              "ref": "Sch. 2, s.18",
+              "strength": "statute",
+              "note": "Conditions for carrying out CDD by means of intermediaries.",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            }
+          ],
+          "drafting": [
+            "**Test it:** the bank should sample-test that documents arrive on demand without undue delay (4.11.6); give it the right to."
+          ]
+        },
+        {
+          "id": "debt-collection",
+          "title": "Debt collection agencies",
+          "appliesTo": [
+            "agents",
+            "personal-data"
+          ],
+          "summary": "Collection agencies act in the bank's name with its customers' data. The Code of Banking Practice sets the most prescriptive vendor terms anywhere in the rulebook, and the bank stays accountable for the agency's conduct.",
+          "require": [
+            "**Formal contract:** a formal contractual relationship, with the contract or written instructions requiring collectors to observe the conduct rules in 46.1 to 46.3 (46.4).",
+            "**Conduct:** act within the law; no intimidation or violence; no harassment such as posters, persistent calls or messages, calls at unreasonable hours or pestering referees, family or friends; no false names, threats or misleading statements (46.1–46.2).",
+            "**Third parties:** no attempt to recover from referees, family or friends who have not formally guaranteed the debt, by written instruction or contract clause (46.3).",
+            "**Principal and agent:** the contract states the relationship is principal and agent, and prohibits sub-contracting the collection to anyone else (46.5).",
+            "**Identification:** collectors identify themselves and the bank, and carry authorization documents without account details (46.10).",
+            "**Records:** customers told that calls are recorded and why; records of other contacts kept; recordings and contact records kept at least 30 days (47.5).",
+            "**Limits:** no authority to start legal proceedings without the bank's formal approval (47.9); recovery stops immediately once the debt is settled (46.11).",
+            "**Data privacy:** clauses protecting customer information and barring sharing with anyone else, including other agencies (47.11)."
+          ],
+          "sources": [
+            {
+              "label": "Code of Banking Practice (Dec 2023)",
+              "ref": "46.1–46.5, 46.10–46.11, 47.5, 47.9, 47.11",
+              "strength": "industry-code",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
+            },
+            {
+              "label": "HKMA Guideline 3.4.1 Debt Collection Agencies",
+              "ref": "instructions (a)–(b)",
+              "strength": "hkma-guidance",
+              "note": "Letter of 3 May 1996: no intimidation or violence, and no recovery from non-guarantor third parties, given to agencies in writing."
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "s.65(2)",
+              "strength": "statute",
+              "note": "An agent's acts with the bank's authority are treated as the bank's own.",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            }
+          ],
+          "drafting": [
+            "**Oversight rights:** unscheduled visits to check professionalism, integrity, training, resourcing and compliance (47.6); a duty to take remedial action on complaints (47.7); termination for unacceptable practices or breach (47.12).",
+            "**Selection file:** background and company search, financial soundness, site visit and evaluation of operations before appointment (47.1).",
+            "**Data minimisation:** never pass referee or other third-party information to the agency; the bank's own staff approach referees if needed (46.7)."
+          ]
+        },
+        {
+          "id": "marketing-partners",
+          "title": "Marketing and distribution partners",
+          "appliesTo": [
+            "agents",
+            "personal-data"
+          ],
+          "summary": "Partners who promote the bank's products, run its digital channels or sell third-party products through it expose the bank to Code and PDPO duties that the contract has to carry.",
+          "require": [
+            "**Fair promotion:** the bank is responsible for ensuring that promotional activities and materials of third parties it engages are fair, not misleading and compliant with the Code during the engagement, so it needs approval and control rights (11.7).",
+            "**Records:** proper records of digital marketing materials and communications kept for a reasonable period, and not left to the channel provider unless the contract provides for it (11.5).",
+            "**Agents' conduct:** authorized agents act in customers' best interests, avoid or disclose conflicts, with remuneration designed to encourage fair treatment (2.5).",
+            "**Third-party products:** a clear split of responsibilities for handling disputes, and the provider asked to observe the Code's terms-and-conditions standards as far as possible (5.15, 11.14)."
+          ],
+          "sources": [
+            {
+              "label": "Code of Banking Practice (Dec 2023)",
+              "ref": "2.5, 5.15, 11.5, 11.7, 11.14",
+              "strength": "industry-code",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "ss.35J–35K",
+              "strength": "statute",
+              "note": "Providing customers' personal data to another person for that person's own direct marketing needs specified notice and the customer's written consent.",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            }
+          ],
+          "drafting": [
+            "**Data flows:** decide whether the partner processes data for the bank (a data processor) or for its own marketing (a provision of data requiring Part 6A consent), and draft accordingly."
+          ]
+        }
+      ],
+      "process": [
+        {
+          "heading": "Before you sign",
+          "lede": "Most of the regulatory exposure is created, or avoided, before the contract exists.",
+          "points": [
+            "**Risk assessment:** the board and management should ensure a comprehensive assessment of operational, legal and reputation risks covering at least the importance and criticality of the service, the reasons for outsourcing and the effect on the bank's risk profile (SA-2 2.2.1).",
+            "**Due diligence:** beyond cost and quality, the vendor's financial soundness, reputation, managerial skills, technical and operational capability and capacity, cultural fit, familiarity with banking and capacity to keep pace with innovation (SA-2 2.3.1).",
+            "**Critical technology services:** commission a detailed assessment of the provider's IT control environment, ideally by a party independent of the provider, and give the report to the HKMA (TM-G-1 7.1.1).",
+            "**Critical operations:** verify the vendor's operational resilience is at least equivalent to the bank's own (OR-2 6.2, consultation draft).",
+            "**Talk to the HKMA:** discuss the plan with the HKMA in advance before outsourcing in any banking-related area (back-office included) or changing the scope of an arrangement, and satisfy it that the section 2 issues are addressed; ask the HKMA if unsure whether an activity is in scope (SA-2 1.3.2). A digital bank should also demonstrate that SA-2 will be complied with (Digital Bank Guideline para 23).",
+            "**Overseas:** understand the country risk, obtain a legal opinion on foreign authorities' access to customer data, and assess how likely that access is (SA-2 2.9.1).",
+            "**Customers:** tell customers in general terms that their data may be outsourced, and give specific notice of significant initiatives, especially overseas ones (SA-2 2.5.3, 2.9.1). The Code expects customers to be told, on or before collection, that data may go to data processors and debt collection agencies (CoBP 8.3).",
+            "**Data handling:** before transferring personal data, satisfy yourself that the provider will keep it confidential and safe (CoBP 8.8)."
+          ],
+          "takeaway": "Keep a dated file for each arrangement showing the risk assessment, due diligence, HKMA discussion and approvals; the HKMA will ask for it (SA-2 1.3.6)."
+        },
+        {
+          "heading": "During the contract",
+          "points": [
+            "**Monitoring:** effective procedures to monitor performance, manage the relationship and manage the risks, run by staff with the right expertise (SA-2 2.6.1, 2.6.3).",
+            "**Annual cycle:** re-perform the risk assessment regularly (SA-2 2.2.2), review the agreement against market standards and strategy, for example annually (SA-2 2.4.2), and assess each critical technology provider every year (TM-G-1 7.1.1).",
+            "**Internal audit:** regular review of the controls over the arrangement (SA-2 2.6.5).",
+            "**Concentration:** avoid relying excessively on a single provider for critical technology services (TM-G-1 7.1.1).",
+            "**Mapping:** update the mapping of dependencies behind critical operations at least annually and after material changes (OR-2 5.4, consultation draft)."
+          ]
+        },
+        {
+          "heading": "When it goes wrong",
+          "points": [
+            "**Fix it:** take appropriate action to rectify deficiencies; in extreme cases the HKMA can require alternative arrangements (SA-2 1.3.5).",
+            "**Have a way out:** keep a contingency plan for critical outsourced technology services, including the provider's insolvency, with an exit plan and alternative providers identified (SA-2 2.7.3; TM-G-1 7.1.1).",
+            "**Do not continue a weakening arrangement:** an arrangement that may compromise internal controls, business conduct or the resilience of critical operations should not be entered into or continued (SA-2 1.2.2; OR-2 6.2)."
+          ]
+        }
+      ],
+      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (s.16(10)), SPM SA-2 (V.1, 28 December 2001; a non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory), TM-E-1 (V.4, statutory guideline), CG-1 (V.1, 2001), the consultation draft of OR-2, the HKMA AML/CFT Guideline (May 2023), the Code of Banking Practice (December 2023) and HKMA Guideline 3.4.1 on debt collection agencies (1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. PDPO references are to the official text (Cap. 486)."
+    }
   },
   {
     "id": "financial-crime",
@@ -1632,9 +2557,9 @@
       },
       {
         "heading": "Guideline and enforcement",
-        "lede": "The HKMA AML/CFT Guideline (current version effective 1 June 2023) is not law.",
+        "lede": "The HKMA AML/CFT Guideline (revised May 2023) is issued under AMLO s.7 and BO s.7(3), and its 'must' and 'should' provisions are mandatory (para 1.6).",
         "points": [
-          "**Disciplinary trigger:** It is, however, how the HKMA reads Schedule 2, and a Schedule 2 contravention is what triggers the s.21 disciplinary power.",
+          "**Disciplinary trigger:** Breaching it does not by itself make anyone liable to proceedings, but it is admissible in AMLO court proceedings, the HKMA must have regard to it in deciding whether Schedule 2 was breached, and a Schedule 2 contravention triggers the s.21 disciplinary power (paras 1.7–1.8).",
           "**Recent penalties:** Hua Nan HK$9m and DBS HK$10m in 2024, and Indian Overseas Bank HK$8.5m in 2025.",
           "**Common failures:** Each concerned failures in monitoring or record-keeping that ran for years."
         ],
@@ -1756,10 +2681,10 @@
       {
         "kind": "guideline",
         "instrument": "Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Authorized Institutions)",
-        "ref": "Revised version effective 1 Jun 2023",
+        "ref": "Revised May 2023 (effective 1 June 2023 per the HKMA issuing circular)",
         "title": "HKMA's detailed AML/CFT expectations",
         "summary": "Issued under AMLO s.7 and BO s.7(3), the Guideline explains how the HKMA expects AIs to meet Schedule 2. It covers the risk-based approach, institutional risk assessment, CDD, ongoing monitoring, screening, suspicious transaction reporting and record keeping. The 2023 revision reflected the AMLO amendments that took effect on 1 June 2023.",
-        "counselNote": "The Guideline has no statutory force, but the HKMA examines and enforces against it. Map each paragraph to a policy, a named control owner and the evidence that the control works.",
+        "counselNote": "Its 'must' and 'should' provisions are mandatory (para 1.6). Breach is not by itself actionable, but the Guideline is admissible in AMLO proceedings, the HKMA must have regard to it, and non-compliance can count against the Seventh Schedule criteria (paras 1.7–1.8). Map each paragraph to a policy, a named control owner and the evidence that the control works.",
         "confidence": "high",
         "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN"
       },
@@ -1878,7 +2803,7 @@
         "heading": "Unauthorised e-banking transactions",
         "lede": "For an app-only bank, the Code's most important rule concerns unauthorised e-banking transactions.",
         "points": [
-          "**Customer liability:** The customer bears no direct loss unless they acted fraudulently or with gross negligence, for example by failing to keep devices or credentials secure.",
+          "**Customer liability:** The customer bears no direct loss from unauthorised e-banking transactions unless they acted fraudulently or with gross negligence, or failed to report a compromised, lost or stolen device or credential as soon as reasonably practicable (CoBP s.51). Knowingly letting others use a device or credentials may be gross negligence; card transactions follow s.39 instead.",
           "**Evidence:** The HKMA has told card issuers to get adequate evidence before blaming a loss on the customer, so 'the OTP was entered correctly' is not enough on its own.",
           "**Contract terms:** The terms and conditions will not rescue the bank either.",
           "**CECO:** subjects exclusion clauses to a reasonableness test.",
@@ -1910,7 +2835,7 @@
           "**Investments:** Selling investments makes the bank an SFC [[registered institution]], supervised day to day by the HKMA.",
           "**Suitability:** The suitability obligation in the SFC Code of Conduct then applies, and selling online does not weaken it.",
           "**Insurance:** Selling insurance needs a licence from the Insurance Authority.",
-          "**Digital banks:** carry extra expectations. The HKMA's 2018 framework ruled out minimum balances and low-balance fees.",
+          "**Digital banks:** carry extra expectations. The digital bank guideline rules out minimum account balance requirements and low-balance fees (para 6).",
           "**Complaint channels:** Digital banks' complaint channels must also work without branches."
         ]
       }
@@ -1921,7 +2846,7 @@
         "instrument": "Code of Banking Practice (HKAB/DTCA, endorsed by the HKMA)",
         "ref": "Revised edition effective 7 Dec 2023",
         "title": "Retail banking standards; liability for unauthorised e-banking transactions",
-        "summary": "A non-statutory industry code that sets standards on disclosure, fees and charges, account operation, cards, e-banking, complaints and customer information. A customer should not bear direct loss from unauthorised e-banking transactions unless they acted fraudulently or with gross negligence. Failing to keep devices and security credentials secure may amount to gross negligence. The 2023 revision added protections for digital banking and gave customers more control over their accounts.",
+        "summary": "A non-statutory industry code that sets standards on disclosure, fees and charges, account operation, cards, e-banking, complaints and customer information. A customer should not bear direct loss from unauthorised e-banking transactions unless they acted fraudulently or with gross negligence. Customers may also be liable for all losses if they acted with gross negligence (which may include knowingly letting others use their device or credentials) or failed to report a compromised, lost or stolen device or credential as soon as reasonably practicable (s.51.2). Card transactions follow s.39 instead. The 2023 revision added protections for digital banking and gave customers more control over their accounts.",
         "counselNote": "The HKMA expects every AI to comply and monitors compliance in supervision. Treat it as binding, and check that the terms and conditions, refund decisions and app journeys all match it.",
         "confidence": "high",
         "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/12/20231207-5/"
@@ -2039,7 +2964,7 @@
       "**Product master data:** Generate DPS signs, protection labels and risk disclosures from product master data rather than hard-coded copy, so that a product change automatically updates every channel."
     ],
     "virtualBankNotes": [
-      "**Minimum balances:** The HKMA's 2018 virtual bank framework said these banks should not impose minimum balance requirements or low-balance fees, as part of its financial inclusion aim. Check how the current digital bank guideline carries this forward.",
+      "**Minimum balances:** The digital bank guideline says these banks should not impose any minimum account balance requirement or low-balance fees on customers, as part of their role in promoting financial inclusion (para 6).",
       "**Remote channels:** With no branches, complaint handling, lost-device reporting and fraud-response channels must work entirely remotely and quickly. A 24/7 app creates an expectation of 24/7 response to scam reports.",
       "**Vulnerable customers:** Vulnerable and elderly customers lack a branch fallback. Design assisted digital routes and friction for unusual transactions instead of relying on branch staff to spot problems.",
       "**Digital disclosures:** Every disclosure is digital, so the bank must be able to prove that each one was presented and acknowledged, not merely published."
@@ -2298,7 +3223,7 @@
     ],
     "virtualBankNotes": [
       "**Business plan:** Expect the HKMA to compare actual performance with the business plan submitted at authorization. Discuss material changes to products, partners or growth before they happen.",
-      "**Exit plan:** The 2018 virtual bank guideline required an exit plan, and the October 2024 digital bank guideline replaced it; check how the current guideline frames the exit plan. Keep it current, because persistent losses or capital pressure will bring it into supervisory discussion.",
+      "**Exit plan:** The digital bank guideline requires an exit plan for an orderly unwind if the business model fails (para 20). Keep it current, because persistent losses or capital pressure will bring it into supervisory discussion.",
       "**Incident visibility:** Technology incidents at a digital bank are visible to customers and the HKMA immediately, so incident reporting is a frequent contact point with the supervisor and a real test of 'no surprises'.",
       "**Securities business:** If the bank distributes investment products as a registered institution, the management accountability and conduct expectations for securities business add another supervisory layer."
     ],
@@ -2352,7 +3277,7 @@
     "oneLiner": "If the bank fails, contract terms, exit triggers and payout readiness decide whether depositors are paid in an orderly way.",
     "keyPoints": [
       "This area covers what happens as a bank moves from stress to failure. It has three layers.",
-      "**First, the bank:** its own preparation, a [[recovery plan]] under SPM RE-1 setting out actions it can take itself and, for a digital bank, an [[exit plan]] for an orderly, solvent wind-down.",
+      "**First, the bank:** its own preparation, a [[recovery plan]] under SPM RE-1 setting out actions it can take itself and, for a digital bank, an [[exit plan]] for an orderly wind-down that does not disrupt customers or the financial system.",
       "**Second, HKMA powers:** its supervisory powers under the Banking Ordinance allow it to give directions or appoint an Advisor or Manager without formal resolution.",
       "**Third, FIRO:** The Financial Institutions (Resolution) Ordinance (Cap. 628) makes the HKMA the resolution authority for banks. Where a bank's failure would threaten financial stability, it can override shareholders, creditors and counterparties.",
       "**Deposit protection:** Alongside these, the Deposit Protection Scheme (Cap. 581) pays insured depositors quickly if a bank is simply liquidated.",
@@ -2518,12 +3443,12 @@
       },
       {
         "kind": "guideline",
-        "instrument": "Guideline on Authorization of Virtual Banks (2018; replaced by the Digital Banks guideline, 25 Oct 2024)",
-        "ref": "Exit plan requirement",
+        "instrument": "Guideline on Authorization of Digital Banks (s.16(10))",
+        "ref": "Para 20 (Guide to Authorization ch.9, para 9.20)",
         "title": "Exit plan for a failed business model",
-        "summary": "The 2018 guideline required virtual bank applicants to provide an exit plan so that the bank can unwind its business in an orderly way, without disrupting customers or the financial system, if its business model fails. The plan should cover the triggers, who has authority to trigger it, the channels for repaying depositors and the source of funds for those payments.",
-        "counselNote": "This is a live obligation, not a one-off licensing document. Its triggers should be built into the board's risk appetite and tested alongside the recovery plan. Check how the current Guideline on Authorization of Digital Banks restates the requirement.",
-        "confidence": "medium"
+        "summary": "The guideline requires a digital bank applicant to provide an exit plan in case its business model turns out to be unsuccessful, so that the bank can unwind its business operations in an orderly manner without disrupting customers or the financial system. The plan should cover the circumstances that trigger it, the authority to trigger it, the channels for repaying depositors and the source of funding for those payments.",
+        "counselNote": "This is a live obligation, not a one-off licensing document. Its triggers should be built into the board's risk appetite and tested alongside the recovery plan.",
+        "confidence": "high"
       },
       {
         "kind": "statute",
@@ -2585,7 +3510,7 @@
       "**Operational controls:** Continuity clauses only work if the operational controls match: API credentials, encryption keys, admin accounts and data should sit in tenancies the bank controls, with runbooks for vendor exit and handover."
     ],
     "virtualBankNotes": [
-      "**Exit plan:** The 2018 virtual bank guideline required an exit plan covering triggers, who can trigger it, depositor repayment channels and the source of funds; check how the current digital bank guideline restates it. For a loss-making bank this is the most important resolution-related document.",
+      "**Exit plan:** The digital bank guideline requires an exit plan covering the triggers, who can trigger it, the depositor repayment channels and the source of funds (para 20). For a loss-making bank this is the most important resolution-related document.",
       "**DPS membership:** As licensed banks, digital banks are DPS members, so protected deposits are covered up to HK$800,000 per depositor.",
       "**Failure paths:** A small digital bank is unlikely to be a LAC resolution entity. Its realistic failure paths are solvent wind-down, a sale or a s.52 Manager, followed by liquidation and a DPS payout.",
       "**Contractual continuity:** Heavy reliance on group platforms and cloud makes contractual continuity critical, even if the HKMA does not require full resolution planning."

@@ -55,8 +55,9 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
         role="tablist"
         aria-orientation="horizontal"
         onKeyDown={onKey}
-        className="grid auto-cols-fr grid-flow-col border-b border-line md:flex md:gap-1"
+        className="no-scrollbar grid auto-cols-fr grid-flow-col border-b border-line md:flex md:gap-0.5 md:overflow-x-auto"
       >
+        {/* Counts are hidden from md to xl, where six tabs would not fit beside the rail. */}
         {tabs.map((t) => {
           const on = t.id === active;
           const Icon = t.icon;
@@ -71,17 +72,17 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
               tabIndex={on ? 0 : -1}
               onClick={() => onChange(t.id)}
               className={
-                'relative -mb-px flex min-w-0 flex-col items-center gap-1 border-b-2 px-1 pb-2 pt-2.5 text-[11.5px] transition-colors focus-visible:outline-offset-[-3px] md:flex-row md:gap-2 md:px-3 md:py-2.5 md:text-sm ' +
+                'relative -mb-px flex min-w-0 flex-col items-center gap-1 whitespace-nowrap border-b-2 px-1 pb-2 pt-2.5 text-[11.5px] transition-colors focus-visible:outline-offset-[-3px] md:shrink-0 md:flex-row md:gap-2 md:px-2.5 md:py-2.5 md:text-sm ' +
                 (on ? 'border-phase font-semibold text-ink' : 'border-transparent text-muted hover:text-ink')
               }
             >
-              <Icon className={'h-[18px] w-[18px] md:h-4 md:w-4 ' + (on ? 'text-phase' : '')} aria-hidden />
+              <Icon className={'h-[18px] w-[18px] shrink-0 md:h-4 md:w-4 ' + (on ? 'text-phase' : '')} aria-hidden />
               <span className="max-w-full truncate md:hidden">{t.short ?? t.label}</span>
               <span className="hidden md:inline">{t.label}</span>
               {t.count !== undefined && (
                 <span
                   className={
-                    'absolute right-1 top-1 rounded-full px-1 font-mono text-[9.5px] leading-4 md:static md:px-1.5 md:py-px md:text-[10.5px] ' +
+                    'absolute right-1 top-1 rounded-full px-1 font-mono text-[9.5px] leading-4 md:hidden xl:static xl:block xl:px-1.5 xl:py-px xl:text-[10.5px] ' +
                     (on ? 'bg-phase/10 text-phase' : 'bg-ink/5 text-muted')
                   }
                 >

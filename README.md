@@ -29,7 +29,9 @@ from the figures in the notes. The selected stage and tab are kept in the URL
 hash, so `/hk-banking/#technology/checklist` links straight to a stage's
 checklist, and moving to the next stage keeps the tab. Visited stages,
 checklist ticks and the last stage read (for the home page's "continue" link)
-are remembered in the browser only.
+are remembered in the browser only. A light / system / dark switch sits in
+every masthead; colours are theme variables (`app/globals.css`), with a
+lighter twin for each module and stage colour in dark mode (`lib/theme.ts`).
 
 ## M&A — interactive APA workflow
 
@@ -69,7 +71,11 @@ e-Legislation), a counsel's checklist, notes on the IT angle, digital-bank
 specifics and pitfalls, and a glossary. Content lives in
 `data/banking/stages.json`; `scripts/build_banking_extracts.py` matches
 every statute citation against the official text and fails the build if
-one does not resolve.
+one does not resolve. Stage 6 (Technology & outsourcing) also has a
+**Vendors** tab: the clauses a vendor, cloud or outsourcing contract needs,
+each with its sources and their legal force (PDPO, HKMA guidelines and SPM
+modules, the AML Guideline, the Code of Banking Practice), a lifecycle from
+risk assessment to exit, and a tickable review checklist kept in the browser.
 
 ## Privacy — DataGuard
 

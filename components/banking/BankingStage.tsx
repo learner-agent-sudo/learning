@@ -193,13 +193,13 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
   const noteCount = stage.itAngle.length + stage.virtualBankNotes.length + stage.pitfalls.length;
 
   const tabs: (TabDef & { id: BankingTab })[] = [
-    { id: 'essentials', label: 'Essentials', icon: BookOpen },
+    { id: 'essentials', label: 'Essentials', short: stage.vendorKit ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
     ...(stage.vendorKit
-      ? [{ id: 'vendors' as const, label: 'Vendor contracts', short: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
+      ? [{ id: 'vendors' as const, label: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
       : []),
     { id: 'checklist', label: 'Checklist', icon: ListChecks, count: `${done}/${stage.checklist.length}` },
-    { id: 'notes', label: 'Practice notes', short: 'Notes', icon: Lightbulb, count: noteCount },
+    { id: 'notes', label: 'Notes', icon: Lightbulb, count: noteCount },
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
   ];
   const idBase = `bank-${stage.id}`;

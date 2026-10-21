@@ -21,7 +21,7 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
     label: 'Statutory guideline',
     pill: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200',
     bar: 'bg-violet-500',
-    title: 'HKMA guideline issued under s.7(3) of the Banking Ordinance',
+    title: 'Guideline issued under statute: s.7(3) or s.16(10) of the Banking Ordinance, or s.7 of the AMLO',
   },
   'hkma-guidance': {
     label: 'HKMA guidance',
@@ -52,17 +52,19 @@ export const APPLIES: Record<string, string> = {
   offshore: 'Offshore or cloud',
   critical: 'Critical operations',
   intragroup: 'Intragroup',
-  agents: 'Agents & collectors',
+  aml: 'AML & KYC',
+  agents: 'Agents & partners',
 };
 
 const STORE = 'hk-banking:vendor-review';
 
-function strongest(t: ContractTerm): Strength {
-  return ORDER.find((s) => t.sources.some((src) => src.strength === s)) ?? 'good-practice';
+// The badge shows the clause's main source, which is listed first.
+function primary(t: ContractTerm): Strength {
+  return t.sources[0]?.strength ?? 'good-practice';
 }
 
 function TermCard({ term, ticked, onTick }: { term: ContractTerm; ticked: boolean; onTick: () => void }) {
-  const top = STRENGTH[strongest(term)];
+  const top = STRENGTH[primary(term)];
   return (
     <div className="flex items-start gap-3">
       <label className="mt-3.5 flex shrink-0 cursor-pointer items-center" title="Found in the contract under review">
@@ -215,8 +217,8 @@ export function VendorKit({ kit }: { kit: Kit }) {
           Clauses the contract needs
         </SectionTitle>
         <p className="mb-3 text-sm leading-relaxed text-muted">
-          Reviewing a contract? Tick each clause as you find it; ticks stay in this browser. The pill shows the strongest
-          source behind the clause.
+          Reviewing a contract? Tick each clause as you find it; ticks stay in this browser. The pill shows the main
+          source behind each clause; open it to see every source and its legal force.
         </p>
         <div className="mb-3 flex flex-wrap gap-1.5" role="group" aria-label="Show clauses that apply to">
           {chip('all-terms', `All ${kit.terms.length}`)}

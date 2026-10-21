@@ -80,15 +80,17 @@ function Compare({ items }: { items: VisualItem[] }) {
 }
 
 function Steps({ items }: { items: VisualItem[] }) {
+  // More than four steps wrap into rows of three, with no arrow off the end of a row.
+  const wrap = items.length > 4;
   return (
-    <ol className="grid gap-2 sm:auto-cols-fr sm:grid-flow-col sm:gap-0">
+    <ol className={'grid gap-2 ' + (wrap ? 'sm:grid-cols-3 sm:gap-y-4' : 'sm:auto-cols-fr sm:grid-flow-col sm:gap-0')}>
       {items.map((it, i) => (
         <li key={it.label} className="flex items-stretch gap-2 sm:flex-col sm:gap-0">
           <div className="flex items-center sm:pr-2">
             <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-phase font-mono text-[11px] font-medium text-onaccent">
               {i + 1}
             </span>
-            {i < items.length - 1 && (
+            {i < items.length - 1 && !(wrap && i % 3 === 2) && (
               <span aria-hidden className="ml-2 hidden h-px flex-1 bg-phase/40 sm:block">
                 <ArrowRight className="relative -top-[7px] ml-auto h-3.5 w-3.5 text-phase/60" />
               </span>
