@@ -7,9 +7,9 @@
 - **React 19**.
 - **TypeScript** (strict).
 - **Tailwind CSS** for styling.
-- **Mermaid** (`mermaid` npm package) for the workflow diagram, rendered
-  client-side. Each stage node is a clickable target that opens the side
-  panel.
+- **lucide-react** for icons; **Newsreader**, **IBM Plex Sans** and **IBM
+  Plex Mono** self-hosted through Fontsource packages (no font requests at
+  run time).
 - **Hugging Face `datasets`** (Python) used **at build time only** to
   produce `public/clauses.json` from CUAD. The runtime has no Python
   dependency.
@@ -28,15 +28,21 @@
 │   │   └── about/page.tsx        # disclaimer + CUAD attribution
 │   └── globals.css
 ├── components/
-│   ├── WorkflowDiagram.tsx       # Mermaid renderer + click handler
-│   ├── StagePanel.tsx            # side panel, depth-aware
+│   ├── mna/MnaStage.tsx          # one stage: header, tabs, prev/next
+│   ├── ui/                       # layout shared with the banking module
+│   │   ├── ModuleMasthead.tsx    # title, counts, progress
+│   │   ├── StageRail.tsx         # contents rail (desktop), stage strip (phone)
+│   │   ├── StageHeader.tsx       # numeral, phase, title
+│   │   ├── Tabs.tsx              # accessible tab bar + panel
+│   │   ├── Bullets.tsx           # bullet lists, key points, sections
+│   │   └── ...                   # glossary grid, note cards, prev/next
 │   ├── ClauseCard.tsx            # one clause: title, excerpt, provenance
-│   ├── DocumentList.tsx          # documents produced at a stage
 │   ├── GlossaryTooltip.tsx       # hover/tap definitions
-│   ├── DepthToggle.tsx           # Beginner / Practitioner switch
+│   ├── RichText.tsx              # [[glossary]] markers and **bold** lead-ins
 │   └── DealTypeSelector.tsx      # APA active; SPA, Merger disabled
 ├── lib/
 │   ├── workflow.ts               # the 9 stages, typed
+│   ├── useStudyState.ts          # URL-hash stage, visited marks, checklists
 │   ├── glossary.ts               # term -> definition map
 │   └── clauses.ts                # loader + types for clauses.json
 ├── data/
@@ -87,7 +93,7 @@ export interface Stage {
   index: number;               // 1..9
   title: string;
   kind: 'pre-process' | 'normal' | 'branch';
-  description: { beginner: string; practitioner: string };
+  description: { beginner: string[]; practitioner: string[] };  // bullet points
   documents: Document[];
   clauses: ClauseRef[];
   glossary: GlossaryTerm[];
@@ -208,20 +214,17 @@ implementer should `print(ds.features)` first.
 
 ## Component contracts
 
-- `WorkflowDiagram` — renders a Mermaid `flowchart TD` derived from
-  `lib/workflow.ts`. Stage nodes have `id`s matching `Stage.id`. The
-  component installs a click handler on rendered SVG nodes that calls
-  `onSelectStage(stageId)`. The pre-process Strategy node is dashed via
-  Mermaid `classDef`. SPA / Merger placeholder nodes are styled disabled.
-- `StagePanel` — receives `stage: Stage`, `depth: Depth`, `clauseLookup`.
-  Renders description (depth-keyed), documents, clauses (CUAD + gap-fill
-  cards intermixed, sorted CUAD-first), glossary chips at the bottom.
-- `DepthToggle` — controlled component, lifts to page-level state.
+- `StageRail` / `StageStrip` — the stage list grouped into Pre-deal,
+  Active deal and Post-signing, with visited marks. Selecting a stage
+  updates the URL hash (`useStageHash`).
+- `MnaStage` — receives `stage: Stage`. Tabs: Essentials (plain-English
+  and practitioner bullets side by side), Documents, Clauses (CUAD first,
+  then hand-authored), Glossary; prev/next links at the foot.
 - `DealTypeSelector` — APA active; SPA / Merger render with
   `aria-disabled` and a "Coming soon" tooltip.
 - `GlossaryTooltip` — wraps a term; on hover/focus shows the definition
-  from `lib/glossary.ts`. Used inside descriptions via a small
-  `<Term>foo</Term>` wrapper that the panel renders.
+  from `lib/glossary.ts`. Descriptions mark terms as `[[term]]` or
+  `[[label|term]]`, which `RichText` turns into tooltips.
 
 ## Static export config
 
@@ -255,4 +258,5 @@ Cloudflare Pages, S3+CloudFront).
 - Swimlane / role-based view (buyer-counsel vs. seller-counsel).
 - Timeline / Gantt view.
 - Search across clauses.
-- Persisted user state (depth toggle is in-memory).
+- Persisted user state beyond this browser (visited stages are kept in
+  local storage only).

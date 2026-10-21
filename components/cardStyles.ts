@@ -1,13 +1,13 @@
 // Shared look for collapsible cards (clause cards, provision cards).
 export const CARD =
-  'group rounded-md bg-white ring-1 ring-slate-200/70 [&[open]]:ring-slate-300';
+  'group relative overflow-hidden rounded-xl border border-line bg-panel shadow-card transition-shadow open:shadow-lift';
 export const SUMMARY =
-  'flex cursor-pointer list-none items-center justify-between gap-2 p-3 hover:bg-slate-50 [&::-webkit-details-marker]:hidden';
+  'flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3.5 transition-colors hover:bg-ink/[0.025] [&::-webkit-details-marker]:hidden';
 export const CHEVRON =
-  'inline-block w-3 shrink-0 text-muted transition-transform group-open:rotate-90';
-export const TITLE = 'flex-1 text-sm font-semibold leading-snug';
+  'h-4 w-4 shrink-0 text-muted transition-transform duration-200 group-open:rotate-90';
+export const TITLE = 'flex-1 text-[15px] font-medium leading-snug';
 export const PILL_BASE =
-  'shrink-0 rounded px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider';
-export const BODY = 'border-t border-slate-200/70 px-3 pb-3 pt-2';
+  'shrink-0 rounded-full px-2 py-0.5 font-mono text-[10px] font-medium uppercase tracking-wider';
+export const BODY = 'border-t border-line/80 px-4 pb-4 pt-3';
 export const INNER_DISCLOSURE =
-  'mt-2 inline-flex items-center gap-1 rounded border border-slate-200 bg-slate-50 px-2 py-1 text-xs font-medium text-ink hover:border-accent hover:text-accent';
+  'mt-3 inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-line bg-paper px-3 py-1 text-xs font-medium text-ink transition-colors hover:border-ink/30 [&::-webkit-details-marker]:hidden';

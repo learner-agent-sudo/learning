@@ -15,12 +15,17 @@ const OPTIONS: { value: DealType; label: string; disabled: boolean; tooltip: str
 
 export function DealTypeSelector({ dealType, onChange }: Props) {
   return (
-    <div role="radiogroup" aria-label="Deal type" className="inline-flex gap-1">
+    <div
+      role="radiogroup"
+      aria-label="Deal type"
+      className="inline-flex rounded-full border border-line bg-panel p-1 text-sm shadow-card"
+    >
       {OPTIONS.map((opt) => {
         const active = opt.value === dealType;
         return (
           <button
             key={opt.value}
+            type="button"
             role="radio"
             aria-checked={active}
             aria-disabled={opt.disabled}
@@ -28,15 +33,16 @@ export function DealTypeSelector({ dealType, onChange }: Props) {
             title={opt.tooltip}
             onClick={() => !opt.disabled && onChange(opt.value)}
             className={
-              'px-3 py-1 rounded border text-sm transition ' +
+              'rounded-full px-3.5 py-1.5 transition-colors ' +
               (active
-                ? 'border-accent bg-accent text-white'
+                ? 'bg-module font-medium text-white'
                 : opt.disabled
-                ? 'border-slate-200 bg-slate-50 text-slate-400 cursor-not-allowed'
-                : 'border-slate-200 bg-white text-ink hover:border-accent')
+                ? 'cursor-not-allowed text-muted/60'
+                : 'text-ink hover:bg-ink/5')
             }
           >
             {opt.label}
+            {opt.disabled && <span className="ml-1 text-[10px] uppercase tracking-wide">soon</span>}
           </button>
         );
       })}

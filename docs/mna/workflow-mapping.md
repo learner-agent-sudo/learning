@@ -14,7 +14,7 @@ canonical CUAD names (e.g., "Governing Law", "Anti-Assignment").
 
 ---
 
-## Stage 1 — Strategy *(pre-process, dashed)*
+## Stage 1 — Strategy *(pre-process)*
 
 **Beginner.** Before any deal exists, the buyer decides *why* it wants to
 acquire something — new customers, new tech, new geography — and the seller

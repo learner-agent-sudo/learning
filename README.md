@@ -11,22 +11,31 @@ branch.
 |---|---|---|
 | M&A — U.S. private-company Asset Purchase Agreement | `/mna/` | Live |
 | Privacy & data protection — GDPR (DataGuard) | `/privacy/dataguard/index.html` | Live |
-| HK banking regulation — Banking Ordinance (Cap. 155), HKMA | — | Up next |
-| HK securities regulation — SFO (Cap. 571), SFC | — | Planned |
+| HK banking regulation — Banking Ordinance (Cap. 155), HKMA | `/hk-banking/` | Live |
+| HK securities regulation — SFO (Cap. 571), SFC | — | Up next |
 | HK insurance regulation — Insurance Ordinance (Cap. 41), IA | — | Planned |
 
-The home page (`app/page.tsx`) lists every topic with its status.
+The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
+
+## Layout
+
+Both learning modules share one layout (`components/ui/`): a masthead with
+counts and progress, a contents rail of numbered stages grouped by phase (a
+sticky strip of stage pills on phones), and a stage view with tabs. Stage
+notes are bullet points: the short version first, then the detail under
+headings. The selected stage is kept in the URL hash, so `/hk-banking/#technology`
+links straight to a stage. Visited stages and checklist ticks are remembered
+in the browser only.
 
 ## M&A — interactive APA workflow
 
 An interactive walkthrough of a U.S. private-company **Asset Purchase
 Agreement (APA)** transaction, from strategy through post-closing. The deal
-is rendered as a 9-stage flow diagram; clicking any stage opens a side panel
-with the documents produced at that stage, the contract clauses that
-typically appear, and a glossary for jargon. A depth toggle switches between
-Beginner and Practitioner explanations.
+is split into 9 stages. Each stage gives plain-English and practitioner
+bullet points side by side, then tabs for the documents produced at that
+stage, the contract clauses that typically appear, and a glossary.
 
-1. **Strategy** *(pre-process, dashed border)*
+1. **Strategy** *(pre-process, internal to each side)*
 2. **NDA** — confidentiality
 3. **LOI / Term Sheet** — non-binding intent (deal-type branch point)
 4. **Due Diligence**
@@ -45,6 +54,18 @@ hand-authored clauses for APA-specific provisions CUAD under-represents
 See `docs/mna/workflow-mapping.md` for per-stage documents, clauses, and
 glossary terms, and `docs/mna/architecture.md` for the tech stack and file
 layout.
+
+## HK banking regulation
+
+Ten stages from the regulatory map to recovery and resolution, written for
+counsel at a Hong Kong digital bank. Each stage has an "In 30 seconds"
+summary and an in-depth note, the key statutory provisions and HKMA
+guidance (statute cards carry the official text from Hong Kong
+e-Legislation), a counsel's checklist, notes on the IT angle, digital-bank
+specifics and pitfalls, and a glossary. Content lives in
+`data/banking/stages.json`; `scripts/build_banking_extracts.py` matches
+every statute citation against the official text and fails the build if
+one does not resolve.
 
 ## Privacy — DataGuard
 

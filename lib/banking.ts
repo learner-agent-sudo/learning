@@ -1,6 +1,5 @@
 import stagesJson from '@/data/banking/stages.json';
 import extractsJson from '@/data/banking/statute-extracts.json';
-import type { Depth } from './workflow';
 
 export type ProvisionKind =
   | 'statute'
@@ -36,9 +35,9 @@ export interface BankingStage {
   // 'draft' stages have not yet been through the independent fact-check.
   review: 'fact-checked' | 'draft';
   oneLiner: string;
-  // Orientation depth / Counsel depth.
-  overview: string;
-  deepDive: string;
+  // The short version, then the detail grouped under headings.
+  keyPoints: string[];
+  deepDive: { heading: string; points: string[] }[];
   provisions: Provision[];
   checklist: string[];
   itAngle: string[];
@@ -90,14 +89,10 @@ export function defineBankingTerm(term: string): string | undefined {
   return TERMS[term.toLowerCase()];
 }
 
-export const DEPTH_LABELS: Record<Depth, string> = {
-  beginner: 'Orientation',
-  practitioner: 'Counsel',
-};
-
-export const PHASES: Record<BankingPhase, { label: string; fill: string; stroke: string }> = {
-  orientation: { label: 'Orientation', fill: '#eff6ff', stroke: '#93c5fd' },
-  entry: { label: 'Getting licensed', fill: '#f5f3ff', stroke: '#c4b5fd' },
-  operate: { label: 'Running the bank', fill: '#ecfdf5', stroke: '#6ee7b7' },
-  oversight: { label: 'Oversight & stress', fill: '#fff1f2', stroke: '#fda4af' },
+// color is RGB channels for the --phase CSS variable.
+export const PHASES: Record<BankingPhase, { label: string; color: string }> = {
+  orientation: { label: 'Orientation', color: '52 87 140' },
+  entry: { label: 'Getting licensed', color: '109 74 150' },
+  operate: { label: 'Running the bank', color: '30 117 88' },
+  oversight: { label: 'Oversight & stress', color: '168 54 40' },
 };

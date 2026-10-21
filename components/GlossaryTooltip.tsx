@@ -14,7 +14,7 @@ export function GlossaryTooltip({ term, children }: Props) {
   const definition = useDefine()(term);
   if (!definition) return <>{children ?? term}</>;
   return (
-    <span className="relative inline-block">
+    <span className="relative inline">
       <button
         type="button"
         aria-describedby={open ? id : undefined}
@@ -22,7 +22,7 @@ export function GlossaryTooltip({ term, children }: Props) {
         onMouseLeave={() => setOpen(false)}
         onFocus={() => setOpen(true)}
         onBlur={() => setOpen(false)}
-        className="underline decoration-dotted underline-offset-2 text-accent"
+        className="text-left font-medium text-ink underline decoration-module/50 decoration-dotted decoration-[1.5px] underline-offset-[3px] hover:decoration-module"
       >
         {children ?? term}
       </button>
@@ -30,10 +30,10 @@ export function GlossaryTooltip({ term, children }: Props) {
         <span
           role="tooltip"
           id={id}
-          className="absolute left-0 top-full z-10 mt-1 w-64 max-w-[calc(100vw-2rem)] rounded border border-slate-200 bg-white p-2 text-xs text-ink shadow-md"
+          className="absolute left-0 top-full z-30 mt-1.5 block w-72 max-w-[calc(100vw-2rem)] animate-fade rounded-lg border border-line bg-panel p-3 text-[13px] font-normal leading-snug text-ink shadow-lift"
         >
-          <strong className="block">{term}</strong>
-          <span className="block text-muted">{definition}</span>
+          <span className="block font-serif text-base font-semibold leading-tight">{term}</span>
+          <span className="mt-1 block text-muted">{definition}</span>
         </span>
       )}
     </span>

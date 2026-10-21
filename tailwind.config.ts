@@ -1,14 +1,42 @@
 import type { Config } from 'tailwindcss';
 
+// Colours that change per module or per stage are CSS variables holding RGB
+// channels, so opacity modifiers (bg-module/10) still work.
+const channel = (name: string) => `rgb(var(${name}) / <alpha-value>)`;
+
 const config: Config = {
-  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './lib/**/*.{ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        ink: '#0f172a',
-        panel: '#f8fafc',
-        accent: '#2563eb',
-        muted: '#64748b',
+        ink: '#1c1f26',
+        muted: '#5d6370',
+        paper: '#f5f1e8',
+        panel: '#fffdf8',
+        line: '#e3dccc',
+        accent: '#8c2f1d',
+        module: channel('--module'),
+        phase: channel('--phase'),
+      },
+      fontFamily: {
+        sans: ['"IBM Plex Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['"Newsreader Variable"', 'Georgia', 'ui-serif', 'serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+      },
+      boxShadow: {
+        card: '0 1px 0 rgb(28 31 38 / 0.04), 0 1px 3px rgb(28 31 38 / 0.06)',
+        lift: '0 2px 4px rgb(28 31 38 / 0.04), 0 12px 28px -8px rgb(28 31 38 / 0.18)',
+      },
+      keyframes: {
+        rise: {
+          from: { opacity: '0', transform: 'translateY(8px)' },
+          to: { opacity: '1', transform: 'none' },
+        },
+        fade: { from: { opacity: '0' }, to: { opacity: '1' } },
+      },
+      animation: {
+        rise: 'rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both',
+        fade: 'fade 0.35s ease-out both',
       },
     },
   },

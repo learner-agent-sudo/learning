@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { AboutShell } from '@/components/ui/AboutShell';
 
 export const metadata = {
   title: 'About — Learning M&A',
@@ -6,16 +6,13 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="mx-auto max-w-3xl px-6 py-10">
-      <nav className="mb-6 text-sm">
-        <Link href="/mna/" className="text-accent hover:underline">
-          ← Back to workflow
-        </Link>
-      </nav>
-
-      <h1 className="text-2xl font-semibold">About this site</h1>
-
-      <section className="prose prose-slate mt-6 max-w-none text-sm leading-relaxed">
+    <AboutShell
+      backHref="/mna/"
+      backLabel="Back to the deal"
+      kicker="Learning M&A"
+      title="About this module"
+      module="36 64 107"
+    >
         <p>
           <strong>Learning M&amp;A</strong> is an interactive, browser-based
           walkthrough of a U.S. private-company{' '}
@@ -25,12 +22,12 @@ export default function AboutPage() {
           LOI branch and will be added later.
         </p>
 
-        <h2 className="mt-8 text-lg font-semibold">Data sources</h2>
+        <h2>Data sources</h2>
         <p>
           Clause excerpts are drawn from two sources, and every clause card
           shows a <em>provenance pill</em> identifying which:
         </p>
-        <ul className="list-disc pl-5">
+        <ul>
           <li>
             <strong>CUAD</strong> — the{' '}
             <a
@@ -52,7 +49,7 @@ export default function AboutPage() {
           </li>
         </ul>
 
-        <h2 className="mt-8 text-lg font-semibold">Disclaimer</h2>
+        <h2>Disclaimer</h2>
         <p>
           Clause excerpts shown on this site are illustrative, not legal
           advice. CUAD excerpts reflect the contracts that CUAD&apos;s
@@ -63,14 +60,13 @@ export default function AboutPage() {
           attorneys.
         </p>
 
-        <h2 className="mt-8 text-lg font-semibold">Tech</h2>
+        <h2>Tech</h2>
         <p>
-          Static Next.js 15 + React 19 site, Tailwind for styles, Mermaid
-          for the workflow diagram. CUAD is preprocessed at build time by a
+          Static Next.js 15 + React 19 site with Tailwind for styles, hosted
+          on GitHub Pages. CUAD is preprocessed at build time by a
           Python script (<code>scripts/extract_cuad.py</code>). No backend,
           no analytics, no user data collected.
         </p>
-      </section>
-    </main>
+    </AboutShell>
   );
 }

@@ -1,24 +1,19 @@
-import Link from 'next/link';
 import { CAP155_ANATOMY } from '@/lib/banking';
+import { AboutShell } from '@/components/ui/AboutShell';
 
 export const metadata = {
   title: 'About — HK Banking Regulation',
 };
 
-const A = 'text-accent hover:underline';
-
 export default function HkBankingAboutPage() {
   return (
-    <main className="mx-auto max-w-3xl px-6 py-10">
-      <nav className="mb-6 text-sm">
-        <Link href="/hk-banking/" className="text-accent hover:underline">
-          ← Back to banking
-        </Link>
-      </nav>
-
-      <h1 className="text-2xl font-semibold">About this module</h1>
-
-      <section className="mt-6 space-y-4 text-sm leading-relaxed">
+    <AboutShell
+      backHref="/hk-banking/"
+      backLabel="Back to banking"
+      kicker="HK banking regulation"
+      title="Sources & method"
+      module="30 82 68"
+    >
         <p>
           A ten-stage path through Hong Kong banking regulation, written for an experienced lawyer with an IT
           background who has just become counsel to a <strong>digital bank</strong> (a licensed bank serving
@@ -26,16 +21,16 @@ export default function HkBankingAboutPage() {
           new to the Banking Ordinance (Cap. 155).
         </p>
 
-        <h2 className="pt-4 text-lg font-semibold">Sources</h2>
-        <ul className="list-disc space-y-2 pl-5">
+        <h2>Sources</h2>
+        <ul>
           <li>
             <strong>Statute text</strong> comes from{' '}
-            <a className={A} href="https://www.elegislation.gov.hk" target="_blank" rel="noreferrer">
+            <a href="https://www.elegislation.gov.hk" target="_blank" rel="noreferrer">
               Hong Kong e-Legislation
             </a>{' '}
             (Department of Justice), obtained from{' '}
             <a
-              className={A}
+             
               href="https://data.gov.hk/en-data/dataset/hk-doj-hkel-legislation-current"
               target="_blank"
               rel="noreferrer"
@@ -55,13 +50,18 @@ export default function HkBankingAboutPage() {
           </li>
         </ul>
 
-        <h2 className="pt-4 text-lg font-semibold">Method</h2>
+        <h2>Method</h2>
         <p>
           Each stage was drafted from the statute and published regulatory material, then put through an
           independent adversarial fact-check of every section number, guideline code, date and threshold. Every
           statute citation is then matched automatically against the official text: a citation that does not
           resolve to a provision in force fails the build. References the fact-check could not fully confirm are
-          marked <span className="italic text-amber-700">verify</span>.
+          marked <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-900">verify</span>.
+        </p>
+        <p>
+          The stage notes are written as bullet points: a short &ldquo;In 30 seconds&rdquo; summary, then the detail
+          under headings. The bullets were converted from the original prose and checked against it so that every
+          reference, figure, date and qualification carried over unchanged.
         </p>
         <p>
           Four stages (Capital &amp; liquidity; AML, sanctions &amp; fraud; Customers &amp; conduct; Recovery &amp;
@@ -70,12 +70,11 @@ export default function HkBankingAboutPage() {
           official text.
         </p>
 
-        <h2 className="pt-4 text-lg font-semibold">Disclaimer</h2>
+        <h2>Disclaimer</h2>
         <p>
           Study material, not legal advice. Regulatory expectations change through circulars faster than
           statutes do; check the current HKMA position before advising. Content is as at October 2026.
         </p>
-      </section>
-    </main>
+    </AboutShell>
   );
 }

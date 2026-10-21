@@ -1,3 +1,4 @@
+import { ChevronRight } from 'lucide-react';
 import { ClauseRef } from '@/lib/workflow';
 import { getClause, getCuadByCategory } from '@/lib/clauses';
 import {
@@ -20,8 +21,9 @@ export function ClauseCard({ clause }: Props) {
     const empty = examples.length === 0;
     return (
       <details className={CARD}>
+        <span aria-hidden className="absolute inset-y-0 left-0 w-1 bg-blue-500" />
         <summary className={SUMMARY}>
-          <span className={CHEVRON}>▸</span>
+          <ChevronRight className={CHEVRON} aria-hidden />
           <span className={TITLE}>{clause.category}</span>
           {empty && (
             <span className="shrink-0 text-[10px] italic text-muted">
@@ -44,17 +46,17 @@ export function ClauseCard({ clause }: Props) {
                     <div className="text-[11px] uppercase tracking-wide text-muted">
                       {ex.contract_type ?? 'Contract'} · {ex.contract_title}
                     </div>
-                    <blockquote className="mt-1.5 border-l-2 border-blue-200 pl-3 text-ink/90">
+                    <blockquote className="mt-1.5 border-l-2 border-blue-200 pl-3 font-serif text-[15px] leading-relaxed text-ink/90">
                       {ex.excerpt}
                     </blockquote>
                     {hasContext && (
                       <details className="group/ctx">
                         <summary className={INNER_DISCLOSURE + ' list-none'}>
-                          <span className="transition group-open/ctx:rotate-90">▸</span>
+                          <ChevronRight className="h-3.5 w-3.5 transition group-open/ctx:rotate-90" aria-hidden />
                           <span className="group-open/ctx:hidden">Show in context</span>
                           <span className="hidden group-open/ctx:inline">Hide context</span>
                         </summary>
-                        <div className="mt-2 whitespace-pre-wrap rounded bg-slate-50 p-3 text-xs leading-relaxed text-ink/80">
+                        <div className="mt-2 whitespace-pre-wrap rounded-lg bg-paper p-3 text-xs leading-relaxed text-ink/80">
                           {ex.context_before && (
                             <span className="text-muted">…{ex.context_before}</span>
                           )}
@@ -80,15 +82,16 @@ export function ClauseCard({ clause }: Props) {
   const gf = getClause(clause.id);
   if (!gf || gf.source !== 'hand-authored') {
     return (
-      <article className="rounded-md bg-amber-50 p-3 text-sm ring-1 ring-amber-300">
+      <article className="rounded-xl bg-amber-50 p-3 text-sm ring-1 ring-amber-300">
         Missing gap-fill: <code>{clause.id}</code>
       </article>
     );
   }
   return (
     <details className={CARD}>
+      <span aria-hidden className="absolute inset-y-0 left-0 w-1 bg-amber-500" />
       <summary className={SUMMARY}>
-        <span className={CHEVRON}>▸</span>
+        <ChevronRight className={CHEVRON} aria-hidden />
         <span className={TITLE}>{gf.category}</span>
         <ProvenancePill provenance="hand-authored" />
       </summary>
@@ -96,11 +99,11 @@ export function ClauseCard({ clause }: Props) {
         <p className="text-sm leading-relaxed text-muted">{gf.description}</p>
         <details className="group/sd">
           <summary className={INNER_DISCLOSURE + ' list-none'}>
-            <span className="transition group-open/sd:rotate-90">▸</span>
+            <ChevronRight className="h-3.5 w-3.5 transition group-open/sd:rotate-90" aria-hidden />
             <span className="group-open/sd:hidden">Sample drafting</span>
             <span className="hidden group-open/sd:inline">Hide sample</span>
           </summary>
-          <blockquote className="mt-2 border-l-2 border-amber-200 pl-3 text-sm text-ink/90">
+          <blockquote className="mt-2 border-l-2 border-amber-200 pl-3 font-serif text-[15px] leading-relaxed text-ink/90">
             {gf.example_text}
           </blockquote>
         </details>
