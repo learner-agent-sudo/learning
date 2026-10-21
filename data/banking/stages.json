@@ -1598,15 +1598,15 @@
     ],
     "vendorKit": {
       "intro": [
-        "**Why it matters:** for a bank without branches, almost every critical service runs on a vendor's people, code or cloud, and the HKMA judges the bank's controls over those vendors against the Seventh Schedule criteria (adequate systems of control; business conducted with integrity and competence).",
+        "**Why it matters:** a digital bank delivers its services exclusively or primarily through electronic channels (Digital Bank Guideline para 1), so many of its critical services are likely to depend on vendors' people, code or cloud (an observation, not a statement in the sources). An outsourcing must not compromise the Seventh Schedule minimum criteria, which require adequate systems of control and business carried on with integrity, prudence and competence and not to the detriment of depositors (SA-2 1.2.2).",
         "**Accountability stays with the bank:** the board and management keep ultimate accountability for anything outsourced; only day-to-day management moves to the vendor (SA-2 2.1.1). The Code of Banking Practice adds that banks should be responsible and accountable for their authorized agents and third-party service providers (2.5).",
-        "**Two kinds of rule:** the PDPO makes some terms legally mandatory whenever a vendor processes personal data; the HKMA guidelines and modules, and the Code of Banking Practice, set expectations against which the HKMA assesses whether the bank keeps satisfying the authorization criteria. The pill on each clause shows the strongest source behind it.",
-        "**Digital banks specifically:** the digital bank guideline does not object to outsourcing, including to group companies, but asks for advance discussion of material outsourcing and a demonstration that SA-2 will be complied with, and the MA must be satisfied on security, customer confidentiality, the PDPO and its own powers (para 23).",
-        "**Scope is wide:** SA-2 covers services the bank used to do itself and new ones, providers in Hong Kong or overseas, and group entities as well as third parties (SA-2 1.1.1). OR-2 asks for other third-party dependencies supporting critical operations to be managed the same way."
+        "**Kinds of rule:** statutes bind directly. The PDPO requires the bank to use contractual or other means to control retention and security whenever it engages a data processor (DPP2(3), DPP4(2)), and the AMLO keeps CDD and record-keeping duties with the bank even when a vendor, agent or intermediary does the work (Sch. 2 ss.18, 20–21). The AML/CFT Guideline is a statutory guideline in which every 'must' and 'should' is mandatory (para 1.6). SA-2, TM-G-1 and the OR-2 draft are non-statutory guidance notes; falling short can bear on whether the bank still meets the Seventh Schedule criteria. The Code of Banking Practice is a non-statutory industry code whose compliance the HKMA expects and monitors. The pill on each clause shows its main source (the one listed first); each card lists every source and its legal force.",
+        "**Digital banks specifically:** the MA does not object in principle to outsourcing, including to group companies. Digital banks should discuss material outsourcing with the MA in advance and demonstrate that SA-2 will be complied with. The MA must be satisfied on security controls, the confidentiality and integrity of customer information, the PDPO and common-law confidentiality, and that its powers (in particular s.52) will not be hindered; and it should have the right to inspect the provider's security arrangements and controls, or obtain reports from its supervisor, external auditors or other experts (para 23).",
+        "**Scope is wide:** SA-2 covers services the bank used to do itself and new ones, providers in Hong Kong or overseas, and group entities as well as third parties (SA-2 1.1.1). OR-2 (consultation draft, 6.2) asks for dependencies on third parties and intragroup entities to be managed as they would be under outsourcing arrangements."
       ],
       "lifecycle": {
         "type": "steps",
-        "caption": "SA-2 sections 1.3 and 2; the HKMA checks the evidence through examinations, off-site reviews and prudential meetings (SA-2 1.3.6).",
+        "caption": "SA-2 sections 1.3 and 2; in on-site examinations, off-site reviews and prudential interviews, the HKMA checks whether the section 2 concerns have been addressed and deficiencies rectified (SA-2 1.3.6).",
         "items": [
           {
             "label": "Assess",
@@ -1620,13 +1620,13 @@
           },
           {
             "label": "Discuss with the HKMA",
-            "value": "SA-2 1.3.2; DVB 23",
+            "value": "SA-2 1.3.2; Digital Bank Guideline 23",
             "note": "In advance, before outsourcing a banking-related area or changing its scope"
           },
           {
             "label": "Contract",
             "value": "Clauses below",
-            "note": "PDPO terms are mandatory; HKMA terms are expected"
+            "note": "PDPO and AMLO duties are legal requirements; AML Guideline terms are mandatory; SA-2 and Code terms are expected"
           },
           {
             "label": "Monitor",
@@ -2326,26 +2326,26 @@
           ],
           "summary": "eKYC, screening and transaction-monitoring vendors do part of the bank's AML work, but the bank keeps the legal duty. The AML Guideline treats every 'should' as mandatory (para 1.6).",
           "require": [
-            "**Bank's procedures:** where a vendor or agent applies CDD on the bank's behalf, it follows the bank's own procedures under the bank's control; this is outsourcing, not reliance on an intermediary (4.11.2).",
-            "**Records wherever held:** CDD and transaction records kept by a vendor, a group entity or offshore must still meet the AMLO record-keeping rules on retention, form and availability (8.9): the whole relationship plus at least five years (8.3–8.4), and longer if the HKMA requires it by written notice (8.8).",
-            "**Swift access:** records swiftly available to the HKMA, other authorities and auditors (8.2(b)), and to the Compliance Officer and MLRO on a timely basis (3.8(g)).",
-            "**Screening data:** a third-party sanctions and terrorist database must be complete and accurate, updated promptly (UN designations added as soon as practicable), and sample-tested by the bank (6.13–6.15).",
-            "**Monitoring systems:** enough documentation and transparency for the bank to review and independently validate a vendor's monitoring parameters and thresholds (5.8).",
+            "**Bank's procedures:** a vendor or agent that applies CDD on the bank's behalf, following the bank's procedures and under the bank's control of their effective implementation, is an outsourcing or agency arrangement rather than reliance on an intermediary (4.11.2), and the bank remains liable for any CDD failure (AMLO Sch. 2 s.18(6)). Binding the vendor to the bank's CDD procedures and giving the bank control rights follows from this (drafting inference).",
+            "**Records wherever held:** wherever CDD and transaction records are held, including by a vendor, a group entity or offshore, the bank must comply with Hong Kong requirements, especially Part 3 of AMLO Schedule 2 (8.9). CDD records: the whole relationship plus at least five years after it ends (8.3–8.4); transaction records: at least five years after the transaction is completed, whether or not the relationship has ended (8.5–8.6); kept as originals or as copies on microfilm or in a computer database (8.7); longer where the HKMA requires it by written notice (8.8).",
+            "**Swift access:** all CDD information and transaction records available swiftly to the HKMA, other authorities and auditors upon appropriate authority (8.2(b)). Senior management should also, as far as practicable, ensure the Compliance Officer and MLRO can access all available information, including CDD records, on a timely basis (3.8(g)); applying this to records a vendor holds is counsel's inference.",
+            "**Screening data:** if the bank subscribes to a third-party database of terrorists and designated parties, it must take appropriate measures, such as periodic sample testing, to ensure the database is complete and accurate (6.13). UN Security Council designations go in as soon as practicable after promulgation, whether or not implemented in Hong Kong (6.14); the database includes the Gazette, CEDB and HKMA-circulated lists and is updated whenever they change (6.15); and the bank keeps ultimate responsibility (6.19).",
+            "**Monitoring systems:** the bank must regularly review its transaction monitoring systems, and the parameters and thresholds must be properly documented and independently validated (5.8). Where the system is a vendor's, the contract needs to give the bank enough documentation and transparency to do this (drafting inference; 5.8 does not mention vendors).",
             "**Remote onboarding:** supplementary verification technology must guard against impersonation, and the bank must be able to show the HKMA that it does (4.10.4)."
           ],
           "sources": [
             {
               "label": "HKMA AML/CFT Guideline",
-              "ref": "1.6, 3.8(g), 4.10.4, 4.11.2, 5.8, 6.13–6.15, 8.2–8.9",
+              "ref": "1.6, 3.8(g), 4.10.4, 4.11.2, 5.8, 6.13–6.19, 7.6, 8.2–8.9",
               "strength": "statutory-guideline",
               "note": "Issued under s.7 AMLO and s.7(3) of the Banking Ordinance; revised May 2023 (the version you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN"
             },
             {
               "label": "AMLO (Cap. 615)",
-              "ref": "Sch. 2, s.20",
+              "ref": "Sch. 2, ss.18(6), 20–21",
               "strength": "statute",
-              "note": "Duty to keep records.",
+              "note": "CDD by an agent leaves the bank liable (s.18(6)); duty to keep records and the manner of keeping them (ss.20–21).",
               "url": "https://www.elegislation.gov.hk/hk/cap615"
             }
           ],
@@ -2364,23 +2364,26 @@
           ],
           "summary": "Reliance is a separate regime: a regulated intermediary performs part of CDD with its own procedures, and the bank should obtain confirmations and undertakings that secure access to what it collected (4.11.3–4.11.5). The bank keeps ultimate responsibility (4.11.1).",
           "require": [
+            "**Eligible intermediary:** only the categories in AMLO Sch. 2 s.18(3) qualify, and the bank must take appropriate measures to confirm the intermediary meets the criteria (4.11.8–4.11.14).",
             "**Written confirmation:** the intermediary agrees to act as the bank's intermediary and states which CDD measures it will perform (4.11.3(a)).",
             "**Data straight away:** the bank obtains the data or information immediately after each CDD measure; copies of documents can follow (4.11.4).",
             "**Documents on request:** copies of documents and records provided on request without delay, throughout the record-keeping period (4.11.3(b), 4.11.5).",
-            "**Retention undertaking:** keep all underlying CDD information for the whole relationship and at least five years after it ends (4.11.5).",
+            "**Retention undertaking:** where the intermediary keeps the documents and records, an undertaking to keep all underlying CDD information for the whole relationship and at least five years after it ends, or for any longer period the HKMA specifies (4.11.5).",
             "**On exit or failure:** hand over all CDD information if the intermediary is about to cease trading or stops acting for the bank (4.11.5, 4.11.7, 8.12).",
-            "**Ongoing monitoring stays with the bank:** reliance does not cover it (4.11.1, footnote 48)."
+            "**Ongoing monitoring stays with the bank:** reliance does not cover it (4.11.1, footnote 48).",
+            "**Record-keeping systems:** the intermediary has systems to comply with all AMLO and Guideline record-keeping requirements (8.10).",
+            "**Doubts:** if the bank doubts the intermediary's reliability, it reviews the intermediary's ability to perform CDD and redoes doubtful CDD as soon as reasonably practicable (4.11.7)."
           ],
           "sources": [
             {
               "label": "HKMA AML/CFT Guideline",
-              "ref": "4.11.1–4.11.7, 8.10–8.12",
+              "ref": "4.11.1–4.11.14, 8.10–8.12",
               "strength": "statutory-guideline",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN"
             },
             {
               "label": "AMLO (Cap. 615)",
-              "ref": "Sch. 2, s.18",
+              "ref": "Sch. 2, s.18 (esp. (1)–(4))",
               "strength": "statute",
               "note": "Conditions for carrying out CDD by means of intermediaries.",
               "url": "https://www.elegislation.gov.hk/hk/cap615"
@@ -2397,21 +2400,21 @@
             "agents",
             "personal-data"
           ],
-          "summary": "Collection agencies act in the bank's name with its customers' data. The Code of Banking Practice sets the most prescriptive vendor terms anywhere in the rulebook, and the bank stays accountable for the agency's conduct.",
+          "summary": "The Code of Banking Practice sets detailed, prescriptive terms for collection agencies, and the bank remains accountable to customers for complaints about the agency and should not disclaim responsibility for its misconduct (CoBP 46.5).",
           "require": [
             "**Formal contract:** a formal contractual relationship, with the contract or written instructions requiring collectors to observe the conduct rules in 46.1 to 46.3 (46.4).",
-            "**Conduct:** act within the law; no intimidation or violence; no harassment such as posters, persistent calls or messages, calls at unreasonable hours or pestering referees, family or friends; no false names, threats or misleading statements (46.1–46.2).",
+            "**Conduct:** act within the law, avoid anything prejudicial to the bank's business, integrity, reputation or goodwill, and keep a strict duty of confidentiality over customer information (46.1). Never use intimidation or violence ('must not'), and do not use harassment or improper tactics such as posters, persistent calls or electronic messages, calls at unreasonable hours, pestering referees, family or friends, false names, anonymous calls or notes, abusive or threatening remarks, or false or misleading representations (46.2).",
             "**Third parties:** no attempt to recover from referees, family or friends who have not formally guaranteed the debt, by written instruction or contract clause (46.3).",
             "**Principal and agent:** the contract states the relationship is principal and agent, and prohibits sub-contracting the collection to anyone else (46.5).",
             "**Identification:** collectors identify themselves and the bank, and carry authorization documents without account details (46.10).",
             "**Records:** customers told that calls are recorded and why; records of other contacts kept; recordings and contact records kept at least 30 days (47.5).",
-            "**Limits:** no authority to start legal proceedings without the bank's formal approval (47.9); recovery stops immediately once the debt is settled (46.11).",
-            "**Data privacy:** clauses protecting customer information and barring sharing with anyone else, including other agencies (47.11)."
+            "**Limits:** no authority to start legal proceedings without the bank's formal approval (47.9); no free hand on recovery procedures (47.3); all recovery stops immediately once the debt is settled in full (46.11), and once the bank learns of a bankruptcy order against the debtor (46.13).",
+            "**Data privacy:** clauses protecting customer information and barring sharing with anyone else, including other agencies (CoBP 47.11). An agency handling customer data only on the bank's behalf will usually be a data processor (counsel's view), so the bank must also adopt contractual or other means against excessive retention and unauthorized or accidental access, processing, erasure, loss or use (PDPO DPP2(3), DPP4(2)); see the data processor clause."
           ],
           "sources": [
             {
               "label": "Code of Banking Practice (Dec 2023)",
-              "ref": "46.1–46.5, 46.10–46.11, 47.5, 47.9, 47.11",
+              "ref": "46.1–46.5, 46.7, 46.10–46.13, 47.1, 47.3, 47.5–47.7, 47.9, 47.11–47.12",
               "strength": "industry-code",
               "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
             },
@@ -2423,16 +2426,22 @@
             },
             {
               "label": "PDPO (Cap. 486)",
-              "ref": "s.65(2)",
+              "ref": "s.65(2), (4)",
               "strength": "statute",
-              "note": "An agent's acts with the bank's authority are treated as the bank's own.",
+              "note": "An agent's acts done with the bank's authority are treated as done by the bank as well as by the agent, for PDPO purposes other than criminal proceedings; this attributes liability and does not itself require any clause.",
+              "url": "https://www.elegislation.gov.hk/hk/cap486"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "Sch. 1 DPP2(3), DPP4(2)",
+              "strength": "statute",
               "url": "https://www.elegislation.gov.hk/hk/cap486"
             }
           ],
           "drafting": [
             "**Oversight rights:** unscheduled visits to check professionalism, integrity, training, resourcing and compliance (47.6); a duty to take remedial action on complaints (47.7); termination for unacceptable practices or breach (47.12).",
-            "**Selection file:** background and company search, financial soundness, site visit and evaluation of operations before appointment (47.1).",
-            "**Data minimisation:** never pass referee or other third-party information to the agency; the bank's own staff approach referees if needed (46.7)."
+            "**Selection file:** company search identifying owners and directors, a basic assessment of financial soundness, a site visit, an evaluation of operations and, for a new agency, references from at least two existing clients (preferably authorized institutions), with the procedures regularly reviewed (47.1).",
+            "**Data minimisation:** do not pass information about referees or any third party other than debtors and guarantors to the agency; if a referee must be approached to locate the debtor or guarantor, the bank's own staff do it without causing nuisance (46.7)."
           ]
         },
         {
@@ -2444,28 +2453,28 @@
           ],
           "summary": "Partners who promote the bank's products, run its digital channels or sell third-party products through it expose the bank to Code and PDPO duties that the contract has to carry.",
           "require": [
-            "**Fair promotion:** the bank is responsible for ensuring that promotional activities and materials of third parties it engages are fair, not misleading and compliant with the Code during the engagement, so it needs approval and control rights (11.7).",
+            "**Fair promotion:** the bank is responsible for ensuring that the promotional activities and materials its engaged or collaborating partners publish or share during the engagement are fair and reasonable, not misleading, and compliant with CoBP 11.2, 11.4 and 11.6 (11.7). Approval, take-down and control rights over partner materials follow from this (drafting inference).",
             "**Records:** proper records of digital marketing materials and communications kept for a reasonable period, and not left to the channel provider unless the contract provides for it (11.5).",
-            "**Agents' conduct:** authorized agents act in customers' best interests, avoid or disclose conflicts, with remuneration designed to encourage fair treatment (2.5).",
-            "**Third-party products:** a clear split of responsibilities for handling disputes, and the provider asked to observe the Code's terms-and-conditions standards as far as possible (5.15, 11.14)."
+            "**Agents' conduct:** authorized agents should have as an objective to work in customers' best interests and endeavour to avoid conflicts; where a conflict cannot be avoided they should disclose it, manage it or decline the business; and, where appropriate, their remuneration should encourage responsible conduct and fair treatment and avoid conflicts (2.5, a general principle).",
+            "**Third-party products:** the bank's own duties on terms and conditions (making them available, answering queries, advising customers to read them and allowing time to review: 5.1, 5.8) apply to third-party products too; the provider is told of the rest of section 5 and asked to observe it as far as possible (5.15). The agreement clearly defines each party's responsibilities for handling disputes, and lets the bank obtain the information it needs to help customers in dispute resolution (11.14)."
           ],
           "sources": [
             {
               "label": "Code of Banking Practice (Dec 2023)",
-              "ref": "2.5, 5.15, 11.5, 11.7, 11.14",
+              "ref": "2.5, 5.1, 5.8, 5.15, 8.3, 11.5, 11.7, 11.14",
               "strength": "industry-code",
               "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
             },
             {
               "label": "PDPO (Cap. 486)",
-              "ref": "ss.35J–35K",
+              "ref": "ss.35C, 35E, 35J–35K",
               "strength": "statute",
-              "note": "Providing customers' personal data to another person for that person's own direct marketing needs specified notice and the customer's written consent.",
+              "note": "Using customers' data in direct marketing needs prescribed notice and consent (ss.35C, 35E); providing it to another person for that person's direct marketing needs written notice and written consent (ss.35J–35K).",
               "url": "https://www.elegislation.gov.hk/hk/cap486"
             }
           ],
           "drafting": [
-            "**Data flows:** decide whether the partner processes data for the bank (a data processor) or for its own marketing (a provision of data requiring Part 6A consent), and draft accordingly."
+            "**Data flows:** decide whether the partner processes data only for the bank (a data processor: the bank needs contractual or other means under DPP2(3) and DPP4(2), and if the partner markets to the bank's customers, that is the bank's own use in direct marketing and needs notice and consent under PDPO ss.35C and 35E) or for its own marketing (a provision of data needing written notice and written consent under ss.35J–35K). Name partners such as co-branding or loyalty-programme providers specifically in customer notices (CoBP 8.3), and draft accordingly."
           ]
         }
       ],
@@ -2474,37 +2483,38 @@
           "heading": "Before you sign",
           "lede": "Most of the regulatory exposure is created, or avoided, before the contract exists.",
           "points": [
-            "**Risk assessment:** the board and management should ensure a comprehensive assessment of operational, legal and reputation risks covering at least the importance and criticality of the service, the reasons for outsourcing and the effect on the bank's risk profile (SA-2 2.2.1).",
+            "**Risk assessment:** the board and management should ensure that a comprehensive assessment of operational, legal and reputation risks has been made, covering among other things the importance and criticality of the service, the reasons for outsourcing and the effect on the bank's risk profile, and that every risk identified is adequately addressed before launch (SA-2 2.2.1).",
             "**Due diligence:** beyond cost and quality, the vendor's financial soundness, reputation, managerial skills, technical and operational capability and capacity, cultural fit, familiarity with banking and capacity to keep pace with innovation (SA-2 2.3.1).",
             "**Critical technology services:** commission a detailed assessment of the provider's IT control environment, ideally by a party independent of the provider, and give the report to the HKMA (TM-G-1 7.1.1).",
             "**Critical operations:** verify the vendor's operational resilience is at least equivalent to the bank's own (OR-2 6.2, consultation draft).",
             "**Talk to the HKMA:** discuss the plan with the HKMA in advance before outsourcing in any banking-related area (back-office included) or changing the scope of an arrangement, and satisfy it that the section 2 issues are addressed; ask the HKMA if unsure whether an activity is in scope (SA-2 1.3.2). A digital bank should also demonstrate that SA-2 will be complied with (Digital Bank Guideline para 23).",
-            "**Overseas:** understand the country risk, obtain a legal opinion on foreign authorities' access to customer data, and assess how likely that access is (SA-2 2.9.1).",
-            "**Customers:** tell customers in general terms that their data may be outsourced, and give specific notice of significant initiatives, especially overseas ones (SA-2 2.5.3, 2.9.1). The Code expects customers to be told, on or before collection, that data may go to data processors and debt collection agencies (CoBP 8.3).",
-            "**Data handling:** before transferring personal data, satisfy yourself that the provider will keep it confidential and safe (CoBP 8.8)."
+            "**Overseas:** understand the country risk; generally obtain a legal opinion from a reputable firm in that jurisdiction on foreign authorities' access to customer data, and assess how likely that access is; do not outsource to a jurisdiction that is inadequately regulated or whose secrecy laws may hamper access by the HKMA or the external auditors; and have the HKMA's right of access confirmed in writing by the bank and its home or host authority (SA-2 2.9.1). A locally incorporated bank sending a major part of its data processing offshore is expected to keep a robust, documented and tested back-up system and contingency plan in an acceptable jurisdiction (SA-2 2.9.2).",
+            "**Customers:** tell customers in general terms that their data may be outsourced, and give specific notice of significant initiatives, especially overseas ones (SA-2 2.5.3). For overseas outsourcing, generally tell them the country where the provider is located (and any later change) and any right of access the overseas authorities have (2.9.1). The Code expects customers to be told, on or before collection, that data may go to data processors and debt collection agencies (CoBP 8.3).",
+            "**Data handling:** when personal data goes to a service provider, satisfy yourself that it will be kept confidential and adequately safeguarded, and adopt contractual or other means against unauthorized or accidental access, processing, use, erasure or loss and against keeping it longer than the agreement's purposes need; the bank stays accountable to customers and should not disclaim responsibility for the provider's breaches (CoBP 8.8; see also PDPO DPP2(3), DPP4(2))."
           ],
-          "takeaway": "Keep a dated file for each arrangement showing the risk assessment, due diligence, HKMA discussion and approvals; the HKMA will ask for it (SA-2 1.3.6)."
+          "takeaway": "Keep a dated file for each arrangement showing the risk assessment, due diligence, HKMA discussion and approvals (counsel's practice suggestion): the HKMA will check in examinations, off-site reviews and prudential interviews whether the section 2 concerns were addressed (SA-2 1.3.6)."
         },
         {
           "heading": "During the contract",
           "points": [
             "**Monitoring:** effective procedures to monitor performance, manage the relationship and manage the risks, run by staff with the right expertise (SA-2 2.6.1, 2.6.3).",
-            "**Annual cycle:** re-perform the risk assessment regularly (SA-2 2.2.2), review the agreement against market standards and strategy, for example annually (SA-2 2.4.2), and assess each critical technology provider every year (TM-G-1 7.1.1).",
+            "**Review cycle:** re-perform the risk assessment regularly (SA-2 2.2.2); review the agreement against market standards and strategy regularly, for example annually (2.4.2); and confirm the adequacy of each critical technology provider's IT control environment every year (TM-G-1 7.1.1).",
             "**Internal audit:** regular review of the controls over the arrangement (SA-2 2.6.5).",
-            "**Concentration:** avoid relying excessively on a single provider for critical technology services (TM-G-1 7.1.1).",
-            "**Mapping:** update the mapping of dependencies behind critical operations at least annually and after material changes (OR-2 5.4, consultation draft)."
+            "**Concentration:** try to avoid placing excessive reliance on a single provider for critical technology services (TM-G-1 7.1.1).",
+            "**Mapping:** update the mapping of dependencies behind critical operations at least annually and after material changes (OR-2 5.4, consultation draft).",
+            "**Escalation and resilience:** reporting procedures that promptly escalate problems to the bank's and the provider's management (SA-2 2.6.4); for vendors supporting critical operations, arrangements to keep satisfying the bank that the vendor maintains an acceptable level of operational resilience (OR-2 6.2, consultation draft)."
           ]
         },
         {
           "heading": "When it goes wrong",
           "points": [
             "**Fix it:** take appropriate action to rectify deficiencies; in extreme cases the HKMA can require alternative arrangements (SA-2 1.3.5).",
-            "**Have a way out:** keep a contingency plan for critical outsourced technology services, including the provider's insolvency, with an exit plan and alternative providers identified (SA-2 2.7.3; TM-G-1 7.1.1).",
-            "**Do not continue a weakening arrangement:** an arrangement that may compromise internal controls, business conduct or the resilience of critical operations should not be entered into or continued (SA-2 1.2.2; OR-2 6.2)."
+            "**Have a way out:** keep a contingency plan for critical outsourced technology services that covers the provider's unavailability, including insolvency, and which may include an exit management plan and identified alternative providers (TM-G-1 7.1.1); in building it, consider whether alternative providers are available or the activity could come back in-house, and at what cost, time and resources (SA-2 2.7.3). For critical operations, OR-2 6.2 (consultation draft) also expects exit strategies.",
+            "**Do not continue a weakening arrangement:** an arrangement that may compromise or weaken internal controls or business conduct (SA-2 1.2.2), or weaken the operational resilience of critical operations (OR-2 6.2, consultation draft), should not be entered into or continued."
           ]
         }
       ],
-      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (s.16(10)), SPM SA-2 (V.1, 28 December 2001; a non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory), TM-E-1 (V.4, statutory guideline), CG-1 (V.1, 2001), the consultation draft of OR-2, the HKMA AML/CFT Guideline (May 2023), the Code of Banking Practice (December 2023) and HKMA Guideline 3.4.1 on debt collection agencies (1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. PDPO references are to the official text (Cap. 486)."
+      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (issued under s.16(10) BO), SPM SA-2 (V.1, 28 December 2001; non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory guidance note), TM-E-1 (V.4, 25 October 2024; statutory guideline under s.7(3) BO), CG-1 (V.1, 21 September 2001; statutory guideline under s.7(3) BO), the consultation draft of OR-2 (non-statutory; the HKMA has since issued a final module, so check the final text and numbering), the HKMA AML/CFT Guideline (May 2023; issued under s.7 AMLO and s.7(3) BO), the Code of Banking Practice (effective 7 December 2023; non-statutory industry code) and HKMA Guideline 3.4.1 on debt collection agencies (3 May 1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. Statute references are to the official text (PDPO Cap. 486, Banking Ordinance Cap. 155, AMLO Cap. 615, Cap. 653)."
     }
   },
   {
