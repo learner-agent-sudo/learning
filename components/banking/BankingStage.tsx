@@ -6,6 +6,8 @@ import {
   BookText,
   Check,
   ChevronRight,
+  ChevronsDownUp,
+  ChevronsUpDown,
   Cpu,
   Info,
   Lightbulb,
@@ -14,7 +16,7 @@ import {
   Smartphone,
   TriangleAlert,
 } from 'lucide-react';
-import { BankingStage as Stage, CAP155_ANATOMY, PHASES, ProvisionKind } from '@/lib/banking';
+import { BankingStage as Stage, BankingTab, CAP155_ANATOMY, PHASES, ProvisionKind } from '@/lib/banking';
 import { RichText } from '../RichText';
 import { BODY, CARD, CHEVRON, SUMMARY, TITLE } from '../cardStyles';
 import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
@@ -31,16 +33,19 @@ interface Props {
   prev: Stage | null;
   next: Stage | null;
   onNavigate: (id: string) => void;
+  tab: BankingTab;
+  onTabChange: (tab: BankingTab) => void;
   ticks: boolean[];
   onToggle: (i: number) => void;
 }
 
-type TabId = 'essentials' | 'provisions' | 'checklist' | 'notes' | 'glossary';
+const CHIP =
+  'inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-xs transition-colors focus-visible:outline-offset-1';
 
 function Cap155Anatomy() {
   if (!CAP155_ANATOMY) return null;
   return (
-    <details className={`${CARD} mt-8`}>
+    <details className={`${CARD} mt-10`}>
       <summary className={SUMMARY}>
         <ChevronRight className={CHEVRON} aria-hidden />
         <span className={TITLE}>
@@ -66,7 +71,7 @@ function Cap155Anatomy() {
             </tbody>
           </table>
         </div>
-        <h4 className="kicker mt-4">Schedules</h4>
+        <p className="kicker mt-4">Schedules</p>
         <ul className="mt-1.5 space-y-1 text-sm">
           {CAP155_ANATOMY.schedules.map((s) => (
             <li key={s.num}>
@@ -81,6 +86,8 @@ function Cap155Anatomy() {
 
 function Provisions({ stage }: { stage: Stage }) {
   const [filter, setFilter] = useState<ProvisionKind | 'all'>('all');
+  // Bumping the version remounts the cards with every card open or closed.
+  const [expand, setExpand] = useState({ open: false, version: 0 });
   const kinds = Array.from(new Set(stage.provisions.map((p) => p.kind)));
   const shown = filter === 'all' ? stage.provisions : stage.provisions.filter((p) => p.kind === filter);
   const chip = (id: ProvisionKind | 'all', label: string, count: number) => (
@@ -90,11 +97,10 @@ function Provisions({ stage }: { stage: Stage }) {
       onClick={() => setFilter(id)}
       aria-pressed={filter === id}
       className={
-        'rounded-full border px-3 py-1 text-xs transition-colors ' +
-        (filter === id ? 'border-ink bg-ink text-white' : 'border-line bg-panel text-muted hover:text-ink')
+        CHIP + ' ' + (filter === id ? 'border-ink bg-ink text-white' : 'border-line bg-panel text-muted hover:text-ink')
       }
     >
-      {label} <span className="font-mono opacity-70">{count}</span>
+      {label} <span className="font-mono opacity-80">{count}</span>
     </button>
   );
   return (
@@ -104,15 +110,27 @@ function Provisions({ stage }: { stage: Stage }) {
         Statute cards include the official text. HKMA guidance is summarised in our own words, with a link to the
         source.
       </p>
-      {kinds.length > 1 && (
-        <div className="mb-4 flex flex-wrap gap-1.5" role="group" aria-label="Filter by source type">
-          {chip('all', 'All', stage.provisions.length)}
-          {kinds.map((k) => chip(k, KIND[k].label, stage.provisions.filter((p) => p.kind === k).length))}
-        </div>
-      )}
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+        {kinds.length > 1 ? (
+          <div className="flex flex-wrap gap-1.5" role="group" aria-label="Filter by source type">
+            {chip('all', 'All', stage.provisions.length)}
+            {kinds.map((k) => chip(k, KIND[k].label, stage.provisions.filter((p) => p.kind === k).length))}
+          </div>
+        ) : (
+          <span />
+        )}
+        <button
+          type="button"
+          onClick={() => setExpand((e) => ({ open: !e.open, version: e.version + 1 }))}
+          className={`${CHIP} border-line bg-panel text-ink hover:border-ink/30`}
+        >
+          {expand.open ? <ChevronsDownUp className="h-3.5 w-3.5" aria-hidden /> : <ChevronsUpDown className="h-3.5 w-3.5" aria-hidden />}
+          {expand.open ? 'Collapse all' : 'Expand all'}
+        </button>
+      </div>
       <div className="grid gap-3">
         {shown.map((p) => (
-          <ProvisionCard key={`${p.instrument}|${p.ref}`} provision={p} />
+          <ProvisionCard key={`${p.instrument}|${p.ref}|${expand.version}`} provision={p} defaultOpen={expand.open} />
         ))}
       </div>
     </>
@@ -136,24 +154,24 @@ function Checklist({ items, ticks, onToggle }: { items: string[]; ticks: boolean
         {items.map((item, i) => {
           const on = ticks[i] ?? false;
           return (
-            <li key={item}>
+            <li key={`${i}-${item.slice(0, 24)}`}>
               <label
                 className={
-                  'flex cursor-pointer items-start gap-3.5 rounded-xl border px-4 py-3 leading-relaxed transition-colors ' +
-                  (on ? 'border-phase/30 bg-phase/[0.05]' : 'border-line bg-panel shadow-card hover:border-ink/20')
+                  'flex cursor-pointer items-start gap-3.5 rounded-xl border px-4 py-3 leading-relaxed transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-phase ' +
+                  (on ? 'border-phase/30 bg-phase/[0.05] text-ink/70' : 'border-line bg-panel shadow-card hover:border-ink/25')
                 }
               >
                 <input type="checkbox" checked={on} onChange={() => onToggle(i)} className="peer sr-only" />
                 <span
                   aria-hidden
                   className={
-                    'mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-[1.5px] transition-colors peer-focus-visible:ring-2 peer-focus-visible:ring-phase/50 ' +
-                    (on ? 'border-phase bg-phase text-white' : 'border-ink/30 bg-white')
+                    'mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-[1.5px] transition-colors ' +
+                    (on ? 'border-phase bg-phase text-white' : 'border-ink/60 bg-white')
                   }
                 >
                   {on && <Check className="h-3.5 w-3.5" strokeWidth={3} />}
                 </span>
-                <span className={on ? 'text-muted line-through decoration-ink/30' : ''}>
+                <span>
                   <RichText text={item} />
                 </span>
               </label>
@@ -166,17 +184,16 @@ function Checklist({ items, ticks, onToggle }: { items: string[]; ticks: boolean
   );
 }
 
-export function BankingStage({ stage, total, prev, next, onNavigate, ticks, onToggle }: Props) {
-  const [tab, setTab] = useState<TabId>('essentials');
+export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabChange, ticks, onToggle }: Props) {
   const phase = PHASES[stage.phase];
   const done = ticks.filter(Boolean).length;
   const noteCount = stage.itAngle.length + stage.virtualBankNotes.length + stage.pitfalls.length;
 
-  const tabs: (TabDef & { id: TabId })[] = [
+  const tabs: (TabDef & { id: BankingTab })[] = [
     { id: 'essentials', label: 'Essentials', icon: BookOpen },
-    { id: 'provisions', label: 'Provisions', icon: Scale, count: stage.provisions.length },
+    { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
     { id: 'checklist', label: 'Checklist', icon: ListChecks, count: `${done}/${stage.checklist.length}` },
-    { id: 'notes', label: 'Practice notes', icon: Lightbulb, count: noteCount },
+    { id: 'notes', label: 'Practice notes', short: 'Notes', icon: Lightbulb, count: noteCount },
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
   ];
   const idBase = `bank-${stage.id}`;
@@ -202,21 +219,26 @@ export function BankingStage({ stage, total, prev, next, onNavigate, ticks, onTo
         }
       />
 
-      <div className="mt-8">
-        <Tabs idBase={idBase} tabs={tabs} active={tab} onChange={(id) => setTab(id as TabId)} />
-      </div>
+      <Tabs className="mt-7" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as BankingTab)} />
 
       {tab === 'essentials' && (
         <TabPanel idBase={idBase} id="essentials">
           {stage.review === 'draft' && (
-            <p className="mb-5 flex gap-2.5 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-950">
-              <TriangleAlert className="mt-0.5 h-4 w-4 shrink-0 text-amber-600" aria-hidden />
-              <span>
-                <strong>Independent fact-check pending.</strong> Statute citations in this stage are matched against
-                the official text and the stage has had an editorial review, but its HKMA guidance references, dates
-                and figures have not yet been independently confirmed.
-              </span>
-            </p>
+            <details className="group mb-5 rounded-xl border border-amber-200 bg-amber-50 text-sm text-amber-950">
+              <summary className="flex min-h-10 cursor-pointer list-none items-center gap-2.5 px-4 py-2 [&::-webkit-details-marker]:hidden">
+                <TriangleAlert className="h-4 w-4 shrink-0 text-amber-700" aria-hidden />
+                <strong className="font-semibold">Independent fact-check pending</strong>
+                <span className="ml-auto text-xs text-amber-800 underline underline-offset-2">
+                  <span className="group-open:hidden">What this means</span>
+                  <span className="hidden group-open:inline">Hide</span>
+                </span>
+              </summary>
+              <p className="px-4 pb-3 leading-relaxed">
+                Statute citations in this stage are matched against the official text and the stage has had an
+                editorial review, but its HKMA guidance references, dates and figures have not yet been independently
+                confirmed.
+              </p>
+            </details>
           )}
           <KeyPoints title="In 30 seconds" points={stage.keyPoints} />
           <div className="mt-10">

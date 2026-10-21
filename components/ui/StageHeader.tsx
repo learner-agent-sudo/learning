@@ -11,22 +11,30 @@ interface Props {
 export function StageHeader({ index, total, phaseLabel, title, standfirst, badges }: Props) {
   return (
     <header className="relative animate-rise">
-      <div className="flex items-start gap-4 sm:gap-6">
+      <div className="flex items-start gap-3.5 sm:gap-6">
         <span
           aria-hidden
-          className="numeral-outline -mt-1 select-none font-serif text-[3.75rem] font-semibold leading-none text-phase sm:text-[6rem]"
+          className="numeral-outline -mt-0.5 select-none font-serif text-[3rem] font-semibold leading-none text-phase sm:-mt-1 sm:text-[6rem]"
         >
           {String(index).padStart(2, '0')}
         </span>
-        <div className="min-w-0 flex-1 pt-1 sm:pt-2">
+        <div className="min-w-0 flex-1 sm:pt-2">
           <p className="kicker">
             <span className="text-phase">{phaseLabel}</span>
-            <span className="mx-2 text-line">/</span>
-            <span className="whitespace-nowrap">
+            {/* The numeral and the stage strip already say this on phones. */}
+            <span className="hidden sm:inline">
+              <span className="mx-2 text-line">/</span>
               Stage {index} of {total}
             </span>
           </p>
-          <h2 className="mt-1.5 font-serif text-[1.85rem] font-semibold leading-[1.1] tracking-tight sm:text-4xl">{title}</h2>
+          {/* Focus target after Previous / Next, so keyboard and screen-reader users land on the new stage. */}
+          <h2
+            id="stage-title"
+            tabIndex={-1}
+            className="mt-1 font-serif text-[1.7rem] font-semibold leading-[1.1] tracking-tight focus:outline-none sm:mt-1.5 sm:text-4xl"
+          >
+            {title}
+          </h2>
           {badges && <div className="mt-2.5 flex flex-wrap gap-1.5">{badges}</div>}
         </div>
       </div>

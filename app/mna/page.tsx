@@ -2,19 +2,22 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { DealType, STAGES } from '@/lib/workflow';
-import { useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { DealType, MNA_TABS, MnaTab, STAGES } from '@/lib/workflow';
+import { focusStageTitle, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
 import { DealTypeSelector } from '@/components/DealTypeSelector';
 import { MnaStage } from '@/components/mna/MnaStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
 import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
 
 const IDS = STAGES.map((s) => s.id);
+const TABS: string[] = [...MNA_TABS];
 
+// Colours are RGB channels chosen for at least 4.5:1 contrast on the paper
+// background, on their own 10% tint, and for white text on them.
 const GROUPS: RailGroup[] = [
   { id: 'pre', label: 'Pre-deal', color: '52 87 140' },
-  { id: 'active', label: 'Active deal', color: '166 112 28' },
-  { id: 'post', label: 'Post-signing', color: '30 117 88' },
+  { id: 'active', label: 'Active deal', color: '134 88 18' },
+  { id: 'post', label: 'Post-signing', color: '26 104 78' },
 ];
 
 function groupOf(index: number): string {
@@ -33,9 +36,9 @@ const TERMS = STAGES.reduce((n, s) => n + s.glossary.length, 0);
 
 export default function Page() {
   const [dealType, setDealType] = useState<DealType>('apa');
-  const [selectedId, select] = useStageHash(IDS, IDS[0]);
-  const visited = useVisited('mna', selectedId);
-  const articleRef = useScrollTopOnChange(selectedId);
+  const { stage: selectedId, tab, ready, go } = useStageHash('mna', IDS, TABS);
+  const visited = useVisited('mna', ready ? selectedId : null);
+  const articleRef = useScrollTopOnChange(selectedId, ready);
 
   const stages = useMemo(() => STAGES.filter((s) => s.dealTypes.includes(dealType)), [dealType]);
   const idx = Math.max(0, stages.findIndex((s) => s.id === selectedId));
@@ -43,6 +46,7 @@ export default function Page() {
   const prev = idx > 0 ? stages[idx - 1] : null;
   const next = idx < stages.length - 1 ? stages[idx + 1] : null;
   const group = GROUPS.find((g) => g.id === groupOf(stage.index))!;
+  const opened = stages.filter((s) => visited.has(s.id)).length;
 
   const rail = stages.map((s) => ({
     id: s.id,
@@ -51,6 +55,7 @@ export default function Page() {
     group: groupOf(s.index),
     note: NOTES[s.kind],
   }));
+  const select = (id: string) => go(id);
   const railProps = { groups: GROUPS, stages: rail, selectedId: stage.id, visited, onSelect: select, label: 'Deal stages' };
 
   return (
@@ -65,7 +70,7 @@ export default function Page() {
             { value: stages.length, label: 'stages' },
             { value: CLAUSES, label: 'clauses' },
             { value: TERMS, label: 'glossary terms' },
-            { value: `${visited.size}/${stages.length}`, label: 'stages opened' },
+            { value: `${opened}/${stages.length}`, label: 'stages opened' },
           ]}
           controls={<DealTypeSelector dealType={dealType} onChange={setDealType} />}
           aboutHref="/mna/about/"
@@ -80,7 +85,7 @@ export default function Page() {
 
           <article
             ref={articleRef}
-            className="min-w-0 max-w-4xl scroll-mt-20 lg:scroll-mt-6"
+            className="min-w-0 max-w-4xl"
             style={{ '--phase': group.color } as React.CSSProperties}
           >
             <MnaStage
@@ -90,14 +95,19 @@ export default function Page() {
               phaseLabel={group.label}
               prev={prev}
               next={next}
-              onNavigate={select}
+              onNavigate={(id) => {
+                go(id);
+                focusStageTitle();
+              }}
+              tab={tab as MnaTab}
+              onTabChange={(t) => go(stage.id, t)}
             />
           </article>
         </div>
 
         <footer className="mt-16 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-xs text-muted">
           <span>Educational visualiser, not legal advice. SPA and merger paths are coming; APA is complete.</span>
-          <Link href="/mna/about/" className="underline-offset-4 hover:text-ink hover:underline">
+          <Link href="/mna/about/" className="inline-flex min-h-10 items-center underline-offset-4 hover:text-ink hover:underline">
             Sources &amp; disclaimer
           </Link>
         </footer>

@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { BANKING_STAGES, BankingPhase, CAP155_ANATOMY, PHASES, defineBankingTerm } from '@/lib/banking';
-import { useChecklists, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { BANKING_STAGES, BANKING_TABS, BankingPhase, BankingTab, CAP155_ANATOMY, PHASES, defineBankingTerm } from '@/lib/banking';
+import { focusStageTitle, useChecklists, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
 import { GlossaryProvider } from '@/components/GlossaryContext';
 import { BankingStage } from '@/components/banking/BankingStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
@@ -10,6 +10,7 @@ import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
 
 // Module-level so hooks get stable inputs.
 const IDS = BANKING_STAGES.map((s) => s.id);
+const TABS: string[] = [...BANKING_TABS];
 const SIZES = Object.fromEntries(BANKING_STAGES.map((s) => [s.id, s.checklist.length]));
 const GROUPS: RailGroup[] = (Object.entries(PHASES) as [BankingPhase, (typeof PHASES)[BankingPhase]][]).map(
   ([id, p]) => ({ id, label: p.label, color: p.color })
@@ -18,10 +19,10 @@ const PROVISIONS = BANKING_STAGES.reduce((n, s) => n + s.provisions.length, 0);
 const CHECK_TOTAL = BANKING_STAGES.reduce((n, s) => n + s.checklist.length, 0);
 
 export default function HkBankingPage() {
-  const [selectedId, select] = useStageHash(IDS, IDS[0]);
-  const visited = useVisited('hk-banking', selectedId);
+  const { stage: selectedId, tab, ready, go } = useStageHash('hk-banking', IDS, TABS);
+  const visited = useVisited('hk-banking', ready ? selectedId : null);
   const [ticks, toggle] = useChecklists('hk-banking:checklist', SIZES);
-  const articleRef = useScrollTopOnChange(selectedId);
+  const articleRef = useScrollTopOnChange(selectedId, ready);
 
   const idx = Math.max(0, IDS.indexOf(selectedId));
   const stage = BANKING_STAGES[idx];
@@ -37,6 +38,7 @@ export default function HkBankingPage() {
     group: s.phase,
     progress: s.checklist.length ? doneOf(s.id) / s.checklist.length : undefined,
   }));
+  const select = (id: string) => go(id);
   const railProps = { groups: GROUPS, stages: rail, selectedId, visited, onSelect: select, label: 'Banking stages' };
 
   return (
@@ -68,14 +70,19 @@ export default function HkBankingPage() {
               <StageRail {...railProps} />
             </aside>
 
-            <article ref={articleRef} className="min-w-0 max-w-3xl scroll-mt-20 lg:scroll-mt-6">
+            <article ref={articleRef} className="min-w-0 max-w-3xl">
               <BankingStage
                 key={stage.id}
                 stage={stage}
                 total={BANKING_STAGES.length}
                 prev={prev}
                 next={next}
-                onNavigate={select}
+                onNavigate={(id) => {
+                  go(id);
+                  focusStageTitle();
+                }}
+                tab={tab as BankingTab}
+                onTabChange={(t) => go(stage.id, t)}
                 ticks={ticks[stage.id] ?? []}
                 onToggle={(i) => toggle(stage.id, i)}
               />
@@ -88,7 +95,7 @@ export default function HkBankingPage() {
               2024 for what were called virtual banks.
               {CAP155_ANATOMY && ` Banking Ordinance text as at ${CAP155_ANATOMY.versionDate}.`}
             </span>
-            <Link href="/hk-banking/about/" className="underline-offset-4 hover:text-ink hover:underline">
+            <Link href="/hk-banking/about/" className="inline-flex min-h-10 items-center underline-offset-4 hover:text-ink hover:underline">
               Sources &amp; method
             </Link>
           </footer>

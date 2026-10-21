@@ -1,4 +1,8 @@
 export type Depth = 'beginner' | 'practitioner';
+
+// Tabs of a stage view, in order; the first is the default (no hash suffix).
+export const MNA_TABS = ['essentials', 'documents', 'clauses', 'glossary'] as const;
+export type MnaTab = (typeof MNA_TABS)[number];
 export type DealType = 'apa' | 'spa' | 'merger';
 export type ClauseProvenance = 'cuad' | 'hand-authored';
 

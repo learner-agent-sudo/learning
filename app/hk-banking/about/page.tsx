@@ -61,7 +61,10 @@ export default function HkBankingAboutPage() {
         <p>
           The stage notes are written as bullet points: a short &ldquo;In 30 seconds&rdquo; summary, then the detail
           under headings. The bullets were converted from the original prose and checked against it so that every
-          reference, figure, date and qualification carried over unchanged.
+          reference, figure, date and qualification carried over unchanged. Bold lead-ins, the italic opening line
+          of a section and its &ldquo;bottom line&rdquo; were then added without changing any wording (a script
+          compares the text word for word). The small diagrams restate figures that appear in the notes beside
+          them.
         </p>
         <p>
           Four stages (Capital &amp; liquidity; AML, sanctions &amp; fraud; Customers &amp; conduct; Recovery &amp;

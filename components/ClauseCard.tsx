@@ -5,6 +5,7 @@ import {
   BODY,
   CARD,
   CHEVRON,
+  EDGE,
   INNER_DISCLOSURE,
   PILL_BASE,
   SUMMARY,
@@ -13,16 +14,17 @@ import {
 
 interface Props {
   clause: ClauseRef;
+  defaultOpen?: boolean;
 }
 
-export function ClauseCard({ clause }: Props) {
+export function ClauseCard({ clause, defaultOpen = false }: Props) {
   if (clause.provenance === 'cuad') {
     const examples = getCuadByCategory(clause.category);
     const empty = examples.length === 0;
     return (
-      <details className={CARD}>
-        <span aria-hidden className="absolute inset-y-0 left-0 w-1 bg-blue-500" />
+      <details id={`clause-${clause.id}`} className={CARD} open={defaultOpen}>
         <summary className={SUMMARY}>
+          <span aria-hidden className={`${EDGE} bg-blue-500`} />
           <ChevronRight className={CHEVRON} aria-hidden />
           <span className={TITLE}>{clause.category}</span>
           {empty && (
@@ -88,11 +90,16 @@ export function ClauseCard({ clause }: Props) {
     );
   }
   return (
-    <details className={CARD}>
-      <span aria-hidden className="absolute inset-y-0 left-0 w-1 bg-amber-500" />
+    <details id={`clause-${clause.id}`} className={CARD} open={defaultOpen}>
       <summary className={SUMMARY}>
+        <span aria-hidden className={`${EDGE} bg-amber-500`} />
         <ChevronRight className={CHEVRON} aria-hidden />
-        <span className={TITLE}>{gf.category}</span>
+        <span className={`${TITLE} min-w-0`}>
+          {gf.category}
+          <span className="mt-1 line-clamp-2 text-[13px] font-normal leading-snug text-ink/65 group-open:hidden">
+            {gf.description}
+          </span>
+        </span>
         <ProvenancePill provenance="hand-authored" />
       </summary>
       <div className={BODY}>

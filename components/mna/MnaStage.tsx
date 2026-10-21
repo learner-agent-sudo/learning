@@ -1,8 +1,20 @@
 'use client';
 
-import { useState } from 'react';
-import { BookOpen, BookText, Briefcase, FileText, GitBranch, Handshake, ScrollText } from 'lucide-react';
-import type { Stage } from '@/lib/workflow';
+import { useEffect, useState } from 'react';
+import {
+  ArrowRight,
+  BookOpen,
+  BookText,
+  Briefcase,
+  ChevronsDownUp,
+  ChevronsUpDown,
+  FileText,
+  GitBranch,
+  Handshake,
+  ScrollText,
+} from 'lucide-react';
+import type { MnaTab, Stage } from '@/lib/workflow';
+import { prefersReducedMotion } from '@/lib/useStudyState';
 import { ClauseCard } from '../ClauseCard';
 import { BulletList, SectionTitle } from '../ui/Bullets';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
@@ -17,9 +29,12 @@ interface Props {
   prev: Stage | null;
   next: Stage | null;
   onNavigate: (id: string) => void;
+  tab: MnaTab;
+  onTabChange: (tab: MnaTab) => void;
 }
 
-type TabId = 'essentials' | 'documents' | 'clauses' | 'glossary';
+const CHIP =
+  'inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-xs transition-colors focus-visible:outline-offset-1';
 
 function Explainer({ title, subtitle, icon: Icon, points, strong }: {
   title: string;
@@ -54,18 +69,41 @@ function Explainer({ title, subtitle, icon: Icon, points, strong }: {
   );
 }
 
-export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate }: Props) {
-  const [tab, setTab] = useState<TabId>('essentials');
+export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab, onTabChange }: Props) {
+  // A clause picked from the Essentials chips opens (and scrolls to) its card.
+  const [target, setTarget] = useState<string | null>(null);
+  // Bumping the version remounts the cards with every card open or closed.
+  const [expand, setExpand] = useState({ open: false, version: 0 });
   const cuad = stage.clauses.filter((c) => c.provenance === 'cuad');
   const gapFills = stage.clauses.filter((c) => c.provenance === 'hand-authored');
   const idBase = `mna-${stage.id}`;
 
-  const tabs: (TabDef & { id: TabId })[] = [
+  useEffect(() => {
+    if (tab !== 'clauses') {
+      setTarget(null);
+      return;
+    }
+    if (!target) return;
+    document
+      .getElementById(`clause-${target}`)
+      ?.scrollIntoView({ block: 'start', behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
+  }, [tab, target]);
+
+  const tabs: (TabDef & { id: MnaTab })[] = [
     { id: 'essentials', label: 'Essentials', icon: BookOpen },
-    { id: 'documents', label: 'Documents', icon: FileText, count: stage.documents.length },
+    { id: 'documents', label: 'Documents', short: 'Docs', icon: FileText, count: stage.documents.length },
     { id: 'clauses', label: 'Clauses', icon: ScrollText, count: stage.clauses.length },
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
   ];
+
+  const clauseCards = (list: typeof stage.clauses) =>
+    list.map((c) => (
+      <ClauseCard
+        key={`${c.id}|${expand.version}|${target === c.id}`}
+        clause={c}
+        defaultOpen={expand.open || target === c.id}
+      />
+    ));
 
   return (
     <div>
@@ -85,13 +123,11 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate }: P
         }
       />
 
-      <div className="mt-8">
-        <Tabs idBase={idBase} tabs={tabs} active={tab} onChange={(id) => setTab(id as TabId)} />
-      </div>
+      <Tabs className="mt-7" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as MnaTab)} />
 
       {tab === 'essentials' && (
         <TabPanel idBase={idBase} id="essentials">
-          <div className="grid gap-5 xl:grid-cols-2">
+          <div className="grid items-start gap-5 xl:grid-cols-2">
             <Explainer
               title="In plain terms"
               subtitle="What is going on at this stage"
@@ -106,6 +142,37 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate }: P
               points={stage.description.practitioner}
             />
           </div>
+          {stage.clauses.length > 0 && (
+            <section className="mt-8">
+              <SectionTitle>Clauses to know at this stage</SectionTitle>
+              <ul className="flex flex-wrap gap-2">
+                {stage.clauses.map((c) => (
+                  <li key={c.id}>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setTarget(c.id);
+                        onTabChange('clauses');
+                      }}
+                      className={`${CHIP} group border-line bg-panel text-ink shadow-card hover:border-phase/50`}
+                    >
+                      <span
+                        aria-hidden
+                        className={'h-2 w-2 rounded-full ' + (c.provenance === 'cuad' ? 'bg-blue-500' : 'bg-amber-500')}
+                      />
+                      {c.category}
+                      <ArrowRight className="h-3 w-3 text-muted transition group-hover:translate-x-0.5" aria-hidden />
+                    </button>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-2 text-xs text-muted">
+                <span className="mr-1 inline-block h-2 w-2 rounded-full bg-blue-500" aria-hidden /> from real contracts
+                (CUAD) <span className="ml-3 mr-1 inline-block h-2 w-2 rounded-full bg-amber-500" aria-hidden />{' '}
+                hand-authored APA drafting
+              </p>
+            </section>
+          )}
         </TabPanel>
       )}
 
@@ -128,28 +195,33 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate }: P
 
       {tab === 'clauses' && (
         <TabPanel idBase={idBase} id="clauses">
+          <div className="mb-5 flex justify-end">
+            <button
+              type="button"
+              onClick={() => {
+                setTarget(null);
+                setExpand((e) => ({ open: !e.open, version: e.version + 1 }));
+              }}
+              className={`${CHIP} border-line bg-panel text-ink hover:border-ink/30`}
+            >
+              {expand.open ? <ChevronsDownUp className="h-3.5 w-3.5" aria-hidden /> : <ChevronsUpDown className="h-3.5 w-3.5" aria-hidden />}
+              {expand.open ? 'Collapse all' : 'Expand all'}
+            </button>
+          </div>
           {cuad.length > 0 && (
             <section>
-              <SectionTitle aside={<span className="font-mono text-xs text-blue-700">{cuad.length}</span>}>
+              <SectionTitle aside={<span className="font-mono text-xs text-blue-800">{cuad.length}</span>}>
                 From real contracts (CUAD)
               </SectionTitle>
-              <div className="grid gap-3">
-                {cuad.map((c) => (
-                  <ClauseCard key={c.id} clause={c} />
-                ))}
-              </div>
+              <div className="grid gap-3">{clauseCards(cuad)}</div>
             </section>
           )}
           {gapFills.length > 0 && (
             <section className={cuad.length > 0 ? 'mt-10' : ''}>
-              <SectionTitle aside={<span className="font-mono text-xs text-amber-700">{gapFills.length}</span>}>
+              <SectionTitle aside={<span className="font-mono text-xs text-amber-800">{gapFills.length}</span>}>
                 APA-specific drafting (hand-authored)
               </SectionTitle>
-              <div className="grid gap-3">
-                {gapFills.map((c) => (
-                  <ClauseCard key={c.id} clause={c} />
-                ))}
-              </div>
+              <div className="grid gap-3">{clauseCards(gapFills)}</div>
             </section>
           )}
         </TabPanel>

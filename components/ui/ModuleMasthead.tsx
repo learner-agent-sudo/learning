@@ -10,7 +10,7 @@ interface Props {
   kicker: string;
   title: string;
   standfirst: React.ReactNode;
-  // Large typographic mark behind the title (e.g. "Cap. 155").
+  // Large typographic mark beside the title on wide screens (e.g. "Cap. 155").
   watermark: string;
   stats: Stat[];
   aboutHref: string;
@@ -18,37 +18,52 @@ interface Props {
   progress?: { done: number; total: number; label: string };
 }
 
+const NAV_LINK = 'inline-flex min-h-10 items-center gap-1.5 text-muted transition-colors hover:text-ink';
+
 export function ModuleMasthead({ kicker, title, standfirst, watermark, stats, aboutHref, controls, progress }: Props) {
   const pct = progress && progress.total > 0 ? Math.round((progress.done / progress.total) * 100) : 0;
   return (
-    <header className="relative overflow-hidden border-b border-line pb-7 pt-5 sm:pb-9 sm:pt-7">
-      <span
-        aria-hidden
-        className="numeral-outline pointer-events-none absolute right-0 top-14 hidden select-none whitespace-nowrap font-serif text-[8rem] font-medium leading-none text-module/25 sm:block lg:text-[9.5rem]"
-      >
-        {watermark}
-      </span>
-
-      <nav className="relative flex items-center justify-between gap-4 text-sm">
-        <Link href="/" className="inline-flex items-center gap-1.5 text-muted transition-colors hover:text-ink">
+    <header className="border-b border-line pb-5 pt-2 sm:pb-9 sm:pt-4">
+      <nav className="flex items-center justify-between gap-4 text-sm">
+        <Link href="/" className={NAV_LINK}>
           <ArrowLeft className="h-4 w-4" aria-hidden />
           Library
         </Link>
-        <Link href={aboutHref} className="text-muted underline-offset-4 transition-colors hover:text-ink hover:underline">
+        <Link href={aboutHref} className={`${NAV_LINK} underline-offset-4 hover:underline`}>
           Sources &amp; method
         </Link>
       </nav>
 
-      <div className="relative mt-6 max-w-3xl animate-rise">
-        <p className="kicker text-module">{kicker}</p>
-        <h1 className="mt-2 font-serif text-[2.4rem] font-semibold leading-[1.05] tracking-tight sm:text-5xl">{title}</h1>
-        <div className="mt-3 max-w-2xl font-serif text-lg leading-snug text-ink/75 sm:text-xl">{standfirst}</div>
+      <div className="mt-3 flex items-start justify-between gap-10 sm:mt-5">
+        <div className="max-w-3xl animate-rise">
+          <p className="kicker text-module">{kicker}</p>
+          <h1 className="mt-2 font-serif text-[2.2rem] font-semibold leading-[1.05] tracking-tight sm:text-5xl">{title}</h1>
+          <div className="mt-3 hidden max-w-2xl font-serif text-lg leading-snug text-ink/75 sm:block sm:text-xl">{standfirst}</div>
+        </div>
+        {/* Its own column, so it can never run behind the title. */}
+        <span
+          aria-hidden
+          className="numeral-outline pointer-events-none -mt-2 hidden select-none whitespace-nowrap font-serif text-[8rem] font-medium leading-none text-module/25 xl:block"
+        >
+          {watermark}
+        </span>
       </div>
 
-      <div
-        className="relative mt-6 flex animate-rise flex-wrap items-end justify-between gap-x-8 gap-y-5"
-        style={{ animationDelay: '120ms' }}
-      >
+      {/* Phones: one compact line instead of the stat block. */}
+      <div className="mt-3 sm:hidden">
+        <p className="font-mono text-[11.5px] text-muted">
+          {stats.map((s) => `${s.value} ${s.label}`).join(' · ')}
+          {progress && ` · ${progress.done}/${progress.total} ticked`}
+        </p>
+        {progress && (
+          <div className="mt-2 h-1 overflow-hidden rounded-full bg-line" aria-hidden>
+            <span className="block h-full rounded-full bg-module transition-all duration-500" style={{ width: `${pct}%` }} />
+          </div>
+        )}
+        {controls && <div className="mt-3">{controls}</div>}
+      </div>
+
+      <div className="mt-6 hidden flex-wrap items-end justify-between gap-x-8 gap-y-5 sm:flex">
         <dl className="flex flex-wrap gap-x-7 gap-y-3">
           {stats.map((s) => (
             <div key={s.label}>

@@ -11,6 +11,15 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  /* Keep focused or scrolled-to content clear of the sticky stage strip and
+     tab bar (57px strip + about 60px tabs below lg; tabs only above). */
+  scroll-padding-top: 7.5rem;
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 4.5rem;
+  }
 }
 
 body {

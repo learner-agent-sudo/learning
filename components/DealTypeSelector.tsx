@@ -33,11 +33,11 @@ export function DealTypeSelector({ dealType, onChange }: Props) {
             title={opt.tooltip}
             onClick={() => !opt.disabled && onChange(opt.value)}
             className={
-              'rounded-full px-3.5 py-1.5 transition-colors ' +
+              'min-h-9 rounded-full px-3.5 py-1.5 transition-colors focus-visible:outline-offset-[-2px] ' +
               (active
                 ? 'bg-module font-medium text-white'
                 : opt.disabled
-                ? 'cursor-not-allowed text-muted/60'
+                ? 'cursor-not-allowed text-muted'
                 : 'text-ink hover:bg-ink/5')
             }
           >

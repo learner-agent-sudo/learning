@@ -23,9 +23,13 @@ Both learning modules share one layout (`components/ui/`): a masthead with
 counts and progress, a contents rail of numbered stages grouped by phase (a
 sticky strip of stage pills on phones), and a stage view with tabs. Stage
 notes are bullet points: the short version first, then the detail under
-headings. The selected stage is kept in the URL hash, so `/hk-banking/#technology`
-links straight to a stage. Visited stages and checklist ticks are remembered
-in the browser only.
+headings, with a bold lead-in on each bullet, a "bottom line" where a section
+has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
+from the figures in the notes. The selected stage and tab are kept in the URL
+hash, so `/hk-banking/#technology/checklist` links straight to a stage's
+checklist, and moving to the next stage keeps the tab. Visited stages,
+checklist ticks and the last stage read (for the home page's "continue" link)
+are remembered in the browser only.
 
 ## M&A — interactive APA workflow
 

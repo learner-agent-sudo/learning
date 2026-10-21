@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight, ChartLine, Handshake, Landmark, Lock, Umbrella, type LucideIcon } from 'lucide-react';
 import { STAGES } from '@/lib/workflow';
 import { BANKING_STAGES } from '@/lib/banking';
+import { ContinueReading, ModuleInfo, VolumeProgress } from '@/components/hub/StudyProgress';
 
 type TopicStatus = 'live' | 'next' | 'planned';
 
@@ -15,6 +16,9 @@ interface Topic {
   color: string;
   meta?: string[];
   href?: string;
+  // Storage key and stage ids, for progress kept in this browser.
+  module?: string;
+  stageIds?: string[];
   // Standalone HTML pages under /public need a plain <a>, not client routing.
   staticPage?: boolean;
 }
@@ -29,6 +33,8 @@ const TOPICS: Topic[] = [
     color: '36 64 107',
     meta: [`${STAGES.length} stages`, `${STAGES.reduce((n, s) => n + s.clauses.length, 0)} clauses`],
     href: '/mna/',
+    module: 'mna',
+    stageIds: STAGES.map((s) => s.id),
   },
   {
     title: 'Privacy & data protection',
@@ -55,6 +61,8 @@ const TOPICS: Topic[] = [
       `${BANKING_STAGES.reduce((n, s) => n + s.checklist.length, 0)} checklist items`,
     ],
     href: '/hk-banking/',
+    module: 'hk-banking',
+    stageIds: BANKING_STAGES.map((s) => s.id),
   },
   {
     title: 'HK securities regulation',
@@ -81,7 +89,7 @@ function Volume({ topic, n, delay }: { topic: Topic; n: number; delay: number })
   const body = (
     <>
       <div className="relative h-24 overflow-hidden bg-[rgb(var(--vol))] px-5 pt-4 text-white">
-        <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-white/70">Vol. {ROMAN[n]}</span>
+        <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-white/90">Vol. {ROMAN[n]}</span>
         <Icon
           className="absolute -bottom-5 right-3 h-24 w-24 text-white/15 transition-transform duration-500 group-hover:-rotate-6 group-hover:scale-105"
           strokeWidth={1.25}
@@ -91,7 +99,7 @@ function Volume({ topic, n, delay }: { topic: Topic; n: number; delay: number })
         <span aria-hidden className="absolute inset-x-0 bottom-1.5 h-px bg-white/10" />
       </div>
       <div className="flex flex-1 flex-col px-5 pb-5 pt-4">
-        <h2 className="font-serif text-2xl font-semibold leading-tight">{topic.title}</h2>
+        <h3 className="font-serif text-2xl font-semibold leading-tight">{topic.title}</h3>
         <p className="mt-1 font-mono text-[11.5px] text-muted">{topic.scope}</p>
         <p className="mt-3 flex-1 leading-relaxed text-ink/80">{topic.description}</p>
         {topic.meta && (
@@ -103,6 +111,7 @@ function Volume({ topic, n, delay }: { topic: Topic; n: number; delay: number })
             ))}
           </ul>
         )}
+        {topic.module && topic.stageIds && <VolumeProgress module={topic.module} ids={topic.stageIds} />}
         <p className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[rgb(var(--vol))]">
           Open volume
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden />
@@ -146,6 +155,19 @@ function Forthcoming({ topic, n }: { topic: Topic; n: number }) {
   );
 }
 
+// Titles for the "continue" link; passed down so the client bundle does not
+// carry the full stage content.
+const MODULES: ModuleInfo[] = [
+  {
+    module: 'hk-banking',
+    title: 'HK banking',
+    href: '/hk-banking/',
+    color: '30 82 68',
+    stages: BANKING_STAGES.map(({ id, index, title }) => ({ id, index, title })),
+  },
+  { module: 'mna', title: 'M&A', href: '/mna/', color: '36 64 107', stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
+];
+
 export default function HomePage() {
   const live = TOPICS.filter((t) => t.status === 'live');
   const coming = TOPICS.filter((t) => t.status !== 'live');
@@ -172,6 +194,7 @@ export default function HomePage() {
           Deals, privacy and Hong Kong financial regulation, broken into stages you can work through one at a
           time: key points first, then the detail, the law and a checklist.
         </p>
+        <ContinueReading modules={MODULES} />
       </header>
 
       <section className="mt-10">

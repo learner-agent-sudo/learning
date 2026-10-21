@@ -1,5 +1,6 @@
 import stagesJson from '@/data/banking/stages.json';
 import extractsJson from '@/data/banking/statute-extracts.json';
+import type { PointSection } from '@/components/ui/Bullets';
 
 export type ProvisionKind =
   | 'statute'
@@ -37,7 +38,7 @@ export interface BankingStage {
   oneLiner: string;
   // The short version, then the detail grouped under headings.
   keyPoints: string[];
-  deepDive: { heading: string; points: string[] }[];
+  deepDive: PointSection[];
   provisions: Provision[];
   checklist: string[];
   itAngle: string[];
@@ -93,6 +94,10 @@ export function defineBankingTerm(term: string): string | undefined {
 export const PHASES: Record<BankingPhase, { label: string; color: string }> = {
   orientation: { label: 'Orientation', color: '52 87 140' },
   entry: { label: 'Getting licensed', color: '109 74 150' },
-  operate: { label: 'Running the bank', color: '30 117 88' },
+  operate: { label: 'Running the bank', color: '26 104 78' },
   oversight: { label: 'Oversight & stress', color: '168 54 40' },
 };
+
+// Tabs of a stage view, in order; the first is the default (no hash suffix).
+export const BANKING_TABS = ['essentials', 'provisions', 'checklist', 'notes', 'glossary'] as const;
+export type BankingTab = (typeof BANKING_TABS)[number];

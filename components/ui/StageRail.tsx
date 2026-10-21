@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { Check } from 'lucide-react';
+import { prefersReducedMotion } from '@/lib/useStudyState';
 
 export interface RailGroup {
   id: string;
@@ -79,7 +80,7 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
                       onClick={() => onSelect(s.id)}
                       aria-current={active ? 'step' : undefined}
                       className={
-                        'group flex w-full items-center gap-3 rounded-lg py-1.5 pl-1 pr-2 text-left transition-colors ' +
+                        'group flex w-full items-center gap-3 rounded-lg py-1.5 pl-1 pr-2 text-left transition-colors focus-visible:outline-offset-[-2px] ' +
                         (active ? 'bg-panel shadow-card' : 'hover:bg-panel/70')
                       }
                     >
@@ -121,16 +122,20 @@ export function StageStrip({ groups, stages, selectedId, visited, onSelect, labe
     const box = scroller.current;
     const pill = box?.querySelector<HTMLElement>(`[data-id="${CSS.escape(selectedId)}"]`);
     if (box && pill) {
-      box.scrollTo({ left: pill.offsetLeft - box.clientWidth / 2 + pill.clientWidth / 2, behavior: 'smooth' });
+      box.scrollTo({
+        left: pill.offsetLeft - box.clientWidth / 2 + pill.clientWidth / 2,
+        behavior: prefersReducedMotion() ? 'auto' : 'smooth',
+      });
     }
   }, [selectedId]);
 
   return (
     <nav
       aria-label={label}
-      className="sticky top-0 z-20 -mx-4 border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/75 sm:-mx-6 lg:hidden"
+      className="sticky top-0 z-20 -mx-4 h-[57px] border-b border-line bg-paper/[0.97] backdrop-blur sm:-mx-6 lg:hidden"
     >
-      <div ref={scroller} className="no-scrollbar flex gap-2 overflow-x-auto px-4 py-2.5 sm:px-6">
+      {/* 57px tall: the stage tab bar sticks just below it. */}
+      <div ref={scroller} className="no-scrollbar flex gap-2 overflow-x-auto px-4 py-2 sm:px-6">
         {stages.map((s) => {
           const active = s.id === selectedId;
           const color = colorOf[s.group];
@@ -143,7 +148,7 @@ export function StageStrip({ groups, stages, selectedId, visited, onSelect, labe
               aria-current={active ? 'step' : undefined}
               style={{ '--phase': color } as React.CSSProperties}
               className={
-                'flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-[13px] transition-colors ' +
+                'flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-[13px] transition-colors focus-visible:outline-offset-[-3px] ' +
                 (active
                   ? 'border-phase bg-phase font-medium text-white'
                   : visited.has(s.id)
@@ -151,7 +156,7 @@ export function StageStrip({ groups, stages, selectedId, visited, onSelect, labe
                   : 'border-line bg-panel text-muted')
               }
             >
-              <span className={'font-mono text-[11px] ' + (active ? 'text-white/80' : 'text-phase')}>{pad(s.index)}</span>
+              <span className={'font-mono text-[11px] ' + (active ? 'text-white' : 'text-phase')}>{pad(s.index)}</span>
               {s.title}
               {s.progress === 1 && <Check className="h-3.5 w-3.5" strokeWidth={2.5} aria-label="checklist done" />}
             </button>

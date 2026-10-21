@@ -3,13 +3,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 // Browser storage is a per-viewer convenience: every read and write is
-// guarded, and the pages work the same when storage is unavailable.
-function load<T>(key: string, fallback: T): T {
+// guarded, values are shape-checked (other sites on the same github.io
+// origin share storage), and the pages work the same without it.
+function load(key: string): unknown {
   try {
     const raw = localStorage.getItem(key);
-    return raw === null ? fallback : (JSON.parse(raw) as T);
+    return raw === null ? null : JSON.parse(raw);
   } catch {
-    return fallback;
+    return null;
   }
 }
 
@@ -21,52 +22,113 @@ function save(key: string, value: unknown) {
   }
 }
 
+const strings = (v: unknown): string[] => (Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : []);
+
+export const visitedKey = (module: string) => `learning:${module}:visited`;
+export const lastKey = (module: string) => `learning:${module}:last`;
+
+export function loadVisited(module: string): string[] {
+  return strings(load(visitedKey(module)));
+}
+
+export function loadLast(module: string): { stage: string; tab: string; at: number } | null {
+  const v = load(lastKey(module)) as { stage?: unknown; tab?: unknown; at?: unknown } | null;
+  return v && typeof v.stage === 'string'
+    ? { stage: v.stage, tab: typeof v.tab === 'string' ? v.tab : '', at: typeof v.at === 'number' ? v.at : 0 }
+    : null;
+}
+
+export function loadTicks(key: string, size: number): boolean[] {
+  const v = load(key);
+  const row = Array.isArray(v) ? v : [];
+  return Array.from({ length: size }, (_, i) => row[i] === true);
+}
+
+function decode(part: string): string | null {
+  try {
+    return decodeURIComponent(part);
+  } catch {
+    return null;
+  }
+}
+
+export function prefersReducedMotion(): boolean {
+  try {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch {
+    return false;
+  }
+}
+
 /**
- * Selected stage, mirrored in the URL hash so a stage can be linked to and
- * survives a reload.
+ * Selected stage and tab, mirrored in the URL hash as `#stage` or
+ * `#stage/tab` so either can be linked to and survives a reload. `ready`
+ * turns true once the hash has been read, so callers can ignore the
+ * fallback stage shown by the static HTML.
  */
-export function useStageHash(ids: string[], fallback: string) {
-  const [selected, setSelected] = useState(fallback);
+export function useStageHash(module: string, ids: string[], tabs: string[]) {
+  const [state, setState] = useState({ stage: ids[0], tab: tabs[0], ready: false });
 
   useEffect(() => {
     const read = () => {
-      const id = decodeURIComponent(window.location.hash.slice(1));
-      if (ids.includes(id)) setSelected(id);
+      const [rawStage = '', rawTab = ''] = window.location.hash.slice(1).split('/');
+      const stage = decode(rawStage);
+      const tab = decode(rawTab);
+      setState((prev) => ({
+        stage: stage && ids.includes(stage) ? stage : prev.stage,
+        tab: tab && tabs.includes(tab) ? tab : stage && ids.includes(stage) ? tabs[0] : prev.tab,
+        ready: true,
+      }));
     };
     read();
     window.addEventListener('hashchange', read);
     return () => window.removeEventListener('hashchange', read);
-  }, [ids]);
+  }, [ids, tabs]);
 
-  const select = useCallback((id: string) => {
-    setSelected(id);
-    try {
-      history.replaceState(null, '', `#${encodeURIComponent(id)}`);
-    } catch {
-      // sandboxed frames may refuse history writes
-    }
-  }, []);
+  const current = useRef(state);
+  current.current = state;
 
-  return [selected, select] as const;
+  // Moving between stages keeps the open tab, so a reader can work through
+  // every checklist (or every provisions list) in turn.
+  const go = useCallback(
+    (stage: string, tab?: string) => {
+      const next = { stage, tab: tab && tabs.includes(tab) ? tab : current.current.tab, ready: true };
+      setState(next);
+      const hash = `#${encodeURIComponent(next.stage)}${next.tab === tabs[0] ? '' : `/${encodeURIComponent(next.tab)}`}`;
+      try {
+        history.replaceState(null, '', hash);
+      } catch {
+        // sandboxed frames may refuse history writes
+      }
+    },
+    [tabs]
+  );
+
+  // Remembered for the hub's "continue" link.
+  useEffect(() => {
+    if (state.ready) save(lastKey(module), { stage: state.stage, tab: state.tab, at: Date.now() });
+  }, [module, state.stage, state.tab, state.ready]);
+
+  return { ...state, go };
 }
 
-/** Stages this browser has opened, for the "visited" marks in the rail. */
-export function useVisited(module: string, current: string) {
-  const key = `learning:${module}:visited`;
+/** Stages this browser has opened, for the "visited" marks. */
+export function useVisited(module: string, current: string | null) {
   const [visited, setVisited] = useState<Set<string>>(() => new Set());
 
   useEffect(() => {
-    setVisited(new Set(load<string[]>(key, [])));
-  }, [key]);
+    setVisited(new Set(loadVisited(module)));
+  }, [module]);
 
   useEffect(() => {
+    if (!current) return;
     setVisited((prev) => {
       if (prev.has(current)) return prev;
       const next = new Set(prev).add(current);
-      save(key, Array.from(next));
+      save(visitedKey(module), Array.from(next));
       return next;
     });
-  }, [key, current]);
+  }, [module, current]);
 
   return visited;
 }
@@ -81,10 +143,7 @@ export function useChecklists(prefix: string, sizes: Record<string, number>) {
 
   useEffect(() => {
     const loaded: Record<string, boolean[]> = {};
-    for (const [id, size] of Object.entries(sizesRef.current)) {
-      const saved = load<boolean[] | null>(`${prefix}:${id}`, null);
-      loaded[id] = Array.from({ length: size }, (_, i) => !!saved?.[i]);
-    }
+    for (const [id, size] of Object.entries(sizesRef.current)) loaded[id] = loadTicks(`${prefix}:${id}`, size);
     setTicks(loaded);
   }, [prefix]);
 
@@ -105,22 +164,33 @@ export function useChecklists(prefix: string, sizes: Record<string, number>) {
 }
 
 /**
- * Scrolls the element back into view when the key changes, but only if the
- * reader has scrolled past its top (so clicking in the rail near the top of
- * the page does not jump).
+ * Brings the stage back into view when the reader moves to another stage
+ * from further down the page. The first stage shown after the hash is read
+ * is not a move, so a reload keeps its scroll position. On narrow screens
+ * the sticky stage strip covers the top of the viewport, so the stage must
+ * land below it.
  */
-export function useScrollTopOnChange(key: string) {
+export function useScrollTopOnChange(key: string, ready: boolean) {
   const ref = useRef<HTMLElement>(null);
-  const first = useRef(true);
+  const armed = useRef(false);
   useEffect(() => {
-    if (first.current) {
-      first.current = false;
+    if (!ready) return;
+    if (!armed.current) {
+      armed.current = true;
       return;
     }
     const el = ref.current;
-    if (el && el.getBoundingClientRect().top < 0) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (!el) return;
+    const offset = window.matchMedia('(min-width: 1024px)').matches ? 24 : 72;
+    const top = el.getBoundingClientRect().top;
+    if (top < offset) {
+      window.scrollTo({ top: top + window.scrollY - offset, behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
     }
-  }, [key]);
+  }, [key, ready]);
   return ref;
+}
+
+/** Moves focus to the stage title after the stage subtree remounts. */
+export function focusStageTitle() {
+  requestAnimationFrame(() => document.getElementById('stage-title')?.focus({ preventScroll: true }));
 }

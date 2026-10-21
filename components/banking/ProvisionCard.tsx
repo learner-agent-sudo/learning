@@ -4,6 +4,7 @@ import {
   BODY,
   CARD,
   CHEVRON,
+  EDGE,
   INNER_DISCLOSURE,
   PILL_BASE,
   SUMMARY,
@@ -28,17 +29,26 @@ function formatDate(iso: string): string {
     : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 }
 
-export function ProvisionCard({ provision: p }: { provision: Provision }) {
+// First sentence of the counsel note, previewed while the card is closed.
+function firstSentence(text: string): string {
+  const m = text.match(/^.*?[.!?](?=\s|$)/);
+  return m ? m[0] : text;
+}
+
+export function ProvisionCard({ provision: p, defaultOpen = false }: { provision: Provision; defaultOpen?: boolean }) {
   const kind = KIND[p.kind] ?? KIND.other;
   const extract = statuteExtract(p);
   return (
-    <details className={`${CARD} min-w-0`}>
-      <span aria-hidden className={`absolute inset-y-0 left-0 w-1 ${kind.bar}`} />
+    <details className={`${CARD} min-w-0`} open={defaultOpen}>
       <summary className={SUMMARY}>
+        <span aria-hidden className={`${EDGE} ${kind.bar}`} />
         <ChevronRight className={CHEVRON} aria-hidden />
         <span className={`${TITLE} min-w-0`}>
           {p.title}
           <span className="mt-1 block font-mono text-[11.5px] font-normal text-muted">{p.ref}</span>
+          <span className="mt-1 line-clamp-2 text-[13px] font-normal leading-snug text-ink/65 group-open:hidden">
+            {firstSentence(p.counselNote)}
+          </span>
         </span>
         {p.confidence === 'low' && (
           <span
@@ -60,7 +70,7 @@ export function ProvisionCard({ provision: p }: { provision: Provision }) {
               href={p.url}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1 font-medium text-accent hover:underline"
+              className="inline-flex items-center gap-1 py-1 font-medium text-accent underline underline-offset-2"
             >
               Source <ExternalLink className="h-3 w-3" aria-hidden />
             </a>
@@ -96,7 +106,7 @@ export function ProvisionCard({ provision: p }: { provision: Provision }) {
               <div className="border-t border-line px-3.5 py-2 text-[11px] text-muted">
                 As at {formatDate(extract.versionDate)} · Hong Kong e-Legislation (DoJ) via DATA.GOV.HK ·
                 not a verified copy ·{' '}
-                <a href={extract.hkelUrl} target="_blank" rel="noreferrer" className="text-accent hover:underline">
+                <a href={extract.hkelUrl} target="_blank" rel="noreferrer" className="inline-block py-1 text-accent underline underline-offset-2">
                   Official text ↗
                 </a>
               </div>
