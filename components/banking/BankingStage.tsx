@@ -4,6 +4,7 @@ import { useState } from 'react';
 import {
   BookOpen,
   BookText,
+  ClipboardCheck,
   Check,
   ChevronRight,
   ChevronsDownUp,
@@ -17,6 +18,7 @@ import {
   TriangleAlert,
 } from 'lucide-react';
 import { BankingStage as Stage, BankingTab, CAP155_ANATOMY, PHASES, ProvisionKind } from '@/lib/banking';
+import { toneVars } from '@/lib/theme';
 import { RichText } from '../RichText';
 import { BODY, CARD, CHEVRON, SUMMARY, TITLE } from '../cardStyles';
 import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
@@ -26,6 +28,7 @@ import { PrevNext } from '../ui/PrevNext';
 import { Badge, StageHeader } from '../ui/StageHeader';
 import { TabPanel, Tabs, type TabDef } from '../ui/Tabs';
 import { KIND, ProvisionCard } from './ProvisionCard';
+import { VendorKit } from './VendorKit';
 
 interface Props {
   stage: Stage;
@@ -97,7 +100,7 @@ function Provisions({ stage }: { stage: Stage }) {
       onClick={() => setFilter(id)}
       aria-pressed={filter === id}
       className={
-        CHIP + ' ' + (filter === id ? 'border-ink bg-ink text-white' : 'border-line bg-panel text-muted hover:text-ink')
+        CHIP + ' ' + (filter === id ? 'border-ink bg-ink text-paper' : 'border-line bg-panel text-muted hover:text-ink')
       }
     >
       {label} <span className="font-mono opacity-80">{count}</span>
@@ -166,7 +169,7 @@ function Checklist({ items, ticks, onToggle }: { items: string[]; ticks: boolean
                   aria-hidden
                   className={
                     'mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-[1.5px] transition-colors ' +
-                    (on ? 'border-phase bg-phase text-white' : 'border-ink/60 bg-white')
+                    (on ? 'border-phase bg-phase text-onaccent' : 'border-ink/60 bg-panel')
                   }
                 >
                   {on && <Check className="h-3.5 w-3.5" strokeWidth={3} />}
@@ -192,6 +195,9 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
   const tabs: (TabDef & { id: BankingTab })[] = [
     { id: 'essentials', label: 'Essentials', icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
+    ...(stage.vendorKit
+      ? [{ id: 'vendors' as const, label: 'Vendor contracts', short: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
+      : []),
     { id: 'checklist', label: 'Checklist', icon: ListChecks, count: `${done}/${stage.checklist.length}` },
     { id: 'notes', label: 'Practice notes', short: 'Notes', icon: Lightbulb, count: noteCount },
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
@@ -199,7 +205,7 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
   const idBase = `bank-${stage.id}`;
 
   return (
-    <div style={{ '--phase': phase.color } as React.CSSProperties}>
+    <div style={toneVars('--phase', phase.tone)}>
       <StageHeader
         index={stage.index}
         total={total}
@@ -224,11 +230,11 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
       {tab === 'essentials' && (
         <TabPanel idBase={idBase} id="essentials">
           {stage.review === 'draft' && (
-            <details className="group mb-5 rounded-xl border border-amber-200 bg-amber-50 text-sm text-amber-950">
+            <details className="group mb-5 rounded-xl border border-amber-200 bg-amber-50 text-sm text-amber-950 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-100">
               <summary className="flex min-h-10 cursor-pointer list-none items-center gap-2.5 px-4 py-2 [&::-webkit-details-marker]:hidden">
-                <TriangleAlert className="h-4 w-4 shrink-0 text-amber-700" aria-hidden />
+                <TriangleAlert className="h-4 w-4 shrink-0 text-amber-700 dark:text-amber-300" aria-hidden />
                 <strong className="font-semibold">Independent fact-check pending</strong>
-                <span className="ml-auto text-xs text-amber-800 underline underline-offset-2">
+                <span className="ml-auto text-xs text-amber-800 underline underline-offset-2 dark:text-amber-200">
                   <span className="group-open:hidden">What this means</span>
                   <span className="hidden group-open:inline">Hide</span>
                 </span>
@@ -252,6 +258,12 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
       {tab === 'provisions' && (
         <TabPanel idBase={idBase} id="provisions">
           <Provisions stage={stage} />
+        </TabPanel>
+      )}
+
+      {tab === 'vendors' && stage.vendorKit && (
+        <TabPanel idBase={idBase} id="vendors">
+          <VendorKit kit={stage.vendorKit} />
         </TabPanel>
       )}
 

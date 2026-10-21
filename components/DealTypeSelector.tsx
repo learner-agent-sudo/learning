@@ -35,7 +35,7 @@ export function DealTypeSelector({ dealType, onChange }: Props) {
             className={
               'min-h-9 rounded-full px-3.5 py-1.5 transition-colors focus-visible:outline-offset-[-2px] ' +
               (active
-                ? 'bg-module font-medium text-white'
+                ? 'bg-module font-medium text-onaccent'
                 : opt.disabled
                 ? 'cursor-not-allowed text-muted'
                 : 'text-ink hover:bg-ink/5')

@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { ArrowRight, ChartLine, Handshake, Landmark, Lock, Umbrella, type LucideIcon } from 'lucide-react';
 import { STAGES } from '@/lib/workflow';
 import { BANKING_STAGES } from '@/lib/banking';
+import { TONES, toneVars, type Tone } from '@/lib/theme';
 import { ContinueReading, ModuleInfo, VolumeProgress } from '@/components/hub/StudyProgress';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 type TopicStatus = 'live' | 'next' | 'planned';
 
@@ -12,8 +14,7 @@ interface Topic {
   description: string;
   status: TopicStatus;
   icon: LucideIcon;
-  // RGB channels for the volume's colour.
-  color: string;
+  tone: Tone;
   meta?: string[];
   href?: string;
   // Storage key and stage ids, for progress kept in this browser.
@@ -30,7 +31,7 @@ const TOPICS: Topic[] = [
     description: 'A deal from strategy memo to post-closing, with real contract clauses (CUAD) and the jargon explained.',
     status: 'live',
     icon: Handshake,
-    color: '36 64 107',
+    tone: TONES.navy,
     meta: [`${STAGES.length} stages`, `${STAGES.reduce((n, s) => n + s.clauses.length, 0)} clauses`],
     href: '/mna/',
     module: 'mna',
@@ -42,7 +43,7 @@ const TOPICS: Topic[] = [
     description: 'DataGuard: decide 20 compliance cases drawn from real GDPR enforcement decisions.',
     status: 'live',
     icon: Lock,
-    color: '15 110 110',
+    tone: TONES.teal,
     meta: ['20 cases', 'game'],
     href: '/privacy/dataguard/index.html',
     staticPage: true,
@@ -54,7 +55,7 @@ const TOPICS: Topic[] = [
       'From the regulatory map to resolution, written for counsel at a digital bank, with the official statute text.',
     status: 'live',
     icon: Landmark,
-    color: '30 82 68',
+    tone: TONES.forest,
     meta: [
       `${BANKING_STAGES.length} stages`,
       `${BANKING_STAGES.reduce((n, s) => n + s.provisions.length, 0)} provisions`,
@@ -70,7 +71,7 @@ const TOPICS: Topic[] = [
     description: 'Licensing, conduct, market misconduct, takeovers, and enforcement routes.',
     status: 'next',
     icon: ChartLine,
-    color: '91 72 140',
+    tone: TONES.plum,
   },
   {
     title: 'HK insurance regulation',
@@ -78,7 +79,7 @@ const TOPICS: Topic[] = [
     description: 'Insurers, intermediaries, and policyholders: authorization, conduct, and discipline.',
     status: 'planned',
     icon: Umbrella,
-    color: '120 92 60',
+    tone: TONES.bronze,
   },
 ];
 
@@ -88,15 +89,15 @@ function Volume({ topic, n, delay }: { topic: Topic; n: number; delay: number })
   const Icon = topic.icon;
   const body = (
     <>
-      <div className="relative h-24 overflow-hidden bg-[rgb(var(--vol))] px-5 pt-4 text-white">
-        <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-white/90">Vol. {ROMAN[n]}</span>
+      <div className="relative h-24 overflow-hidden bg-vol px-5 pt-4 text-onaccent dark:bg-vol/20 dark:text-vol">
+        <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-onaccent dark:text-vol">Vol. {ROMAN[n]}</span>
         <Icon
-          className="absolute -bottom-5 right-3 h-24 w-24 text-white/15 transition-transform duration-500 group-hover:-rotate-6 group-hover:scale-105"
+          className="absolute -bottom-5 right-3 h-24 w-24 text-onaccent/15 transition-transform dark:text-vol/25 duration-500 group-hover:-rotate-6 group-hover:scale-105"
           strokeWidth={1.25}
           aria-hidden
         />
-        <span aria-hidden className="absolute inset-x-0 bottom-3 h-px bg-white/20" />
-        <span aria-hidden className="absolute inset-x-0 bottom-1.5 h-px bg-white/10" />
+        <span aria-hidden className="absolute inset-x-0 bottom-3 h-px bg-onaccent/20 dark:bg-vol/30" />
+        <span aria-hidden className="absolute inset-x-0 bottom-1.5 h-px bg-onaccent/10 dark:bg-vol/15" />
       </div>
       <div className="flex flex-1 flex-col px-5 pb-5 pt-4">
         <h3 className="font-serif text-2xl font-semibold leading-tight">{topic.title}</h3>
@@ -105,14 +106,14 @@ function Volume({ topic, n, delay }: { topic: Topic; n: number; delay: number })
         {topic.meta && (
           <ul className="mt-4 flex flex-wrap gap-1.5">
             {topic.meta.map((m) => (
-              <li key={m} className="rounded-full bg-[rgb(var(--vol)/0.08)] px-2.5 py-0.5 text-xs text-[rgb(var(--vol))]">
+              <li key={m} className="rounded-full bg-vol/10 px-2.5 py-0.5 text-xs text-vol">
                 {m}
               </li>
             ))}
           </ul>
         )}
         {topic.module && topic.stageIds && <VolumeProgress module={topic.module} ids={topic.stageIds} />}
-        <p className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[rgb(var(--vol))]">
+        <p className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-vol">
           Open volume
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden />
         </p>
@@ -121,7 +122,7 @@ function Volume({ topic, n, delay }: { topic: Topic; n: number; delay: number })
   );
   const cls =
     'group flex h-full animate-rise flex-col overflow-hidden rounded-2xl border border-line bg-panel shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-lift';
-  const style = { '--vol': topic.color, animationDelay: `${delay}ms` } as React.CSSProperties;
+  const style = { ...toneVars('--vol', topic.tone), animationDelay: `${delay}ms` };
   return topic.staticPage ? (
     <a href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${topic.href}`} className={cls} style={style}>
       {body}
@@ -138,9 +139,9 @@ function Forthcoming({ topic, n }: { topic: Topic; n: number }) {
   return (
     <div
       className="flex items-start gap-4 rounded-2xl border border-dashed border-ink/20 px-5 py-4"
-      style={{ '--vol': topic.color } as React.CSSProperties}
+      style={toneVars('--vol', topic.tone)}
     >
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[rgb(var(--vol)/0.1)] text-[rgb(var(--vol))]">
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-vol/10 text-vol">
         <Icon className="h-5 w-5" aria-hidden />
       </span>
       <div className="min-w-0">
@@ -162,10 +163,10 @@ const MODULES: ModuleInfo[] = [
     module: 'hk-banking',
     title: 'HK banking',
     href: '/hk-banking/',
-    color: '30 82 68',
+    tone: TONES.forest,
     stages: BANKING_STAGES.map(({ id, index, title }) => ({ id, index, title })),
   },
-  { module: 'mna', title: 'M&A', href: '/mna/', color: '36 64 107', stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
+  { module: 'mna', title: 'M&A', href: '/mna/', tone: TONES.navy, stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
 ];
 
 export default function HomePage() {
@@ -173,7 +174,10 @@ export default function HomePage() {
   const coming = TOPICS.filter((t) => t.status !== 'live');
   return (
     <main className="mx-auto max-w-6xl px-4 pb-12 sm:px-6">
-      <header className="relative overflow-hidden border-b border-line pb-10 pt-12 sm:pb-14 sm:pt-20">
+      <div className="flex justify-end pt-4">
+        <ThemeToggle />
+      </div>
+      <header className="relative overflow-hidden border-b border-line pb-10 pt-6 sm:pb-14 sm:pt-12">
         <span
           aria-hidden
           className="numeral-outline pointer-events-none absolute -right-6 -top-4 select-none font-serif text-[9rem] font-semibold leading-none text-accent/15 sm:text-[15rem]"

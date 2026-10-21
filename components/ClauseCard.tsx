@@ -48,7 +48,7 @@ export function ClauseCard({ clause, defaultOpen = false }: Props) {
                     <div className="text-[11px] uppercase tracking-wide text-muted">
                       {ex.contract_type ?? 'Contract'} · {ex.contract_title}
                     </div>
-                    <blockquote className="mt-1.5 border-l-2 border-blue-200 pl-3 font-serif text-[15px] leading-relaxed text-ink/90">
+                    <blockquote className="mt-1.5 border-l-2 border-blue-200 pl-3 font-serif dark:border-blue-400/40 text-[15px] leading-relaxed text-ink/90">
                       {ex.excerpt}
                     </blockquote>
                     {hasContext && (
@@ -62,7 +62,7 @@ export function ClauseCard({ clause, defaultOpen = false }: Props) {
                           {ex.context_before && (
                             <span className="text-muted">…{ex.context_before}</span>
                           )}
-                          <mark className="rounded bg-amber-100 px-0.5">
+                          <mark className="rounded bg-amber-100 px-0.5 text-ink dark:bg-amber-400/25">
                             {ex.excerpt}
                           </mark>
                           {ex.context_after && (
@@ -84,7 +84,7 @@ export function ClauseCard({ clause, defaultOpen = false }: Props) {
   const gf = getClause(clause.id);
   if (!gf || gf.source !== 'hand-authored') {
     return (
-      <article className="rounded-xl bg-amber-50 p-3 text-sm ring-1 ring-amber-300">
+      <article className="rounded-xl bg-amber-50 p-3 text-sm ring-1 ring-amber-300 dark:bg-amber-400/10 dark:ring-amber-400/30">
         Missing gap-fill: <code>{clause.id}</code>
       </article>
     );
@@ -110,7 +110,7 @@ export function ClauseCard({ clause, defaultOpen = false }: Props) {
             <span className="group-open/sd:hidden">Sample drafting</span>
             <span className="hidden group-open/sd:inline">Hide sample</span>
           </summary>
-          <blockquote className="mt-2 border-l-2 border-amber-200 pl-3 font-serif text-[15px] leading-relaxed text-ink/90">
+          <blockquote className="mt-2 border-l-2 border-amber-200 pl-3 font-serif dark:border-amber-400/40 text-[15px] leading-relaxed text-ink/90">
             {gf.example_text}
           </blockquote>
         </details>
@@ -126,7 +126,7 @@ function ProvenancePill({ provenance }: { provenance: 'cuad' | 'hand-authored' }
       className={
         PILL_BASE +
         ' ' +
-        (isCuad ? 'bg-blue-50 text-blue-700' : 'bg-amber-50 text-amber-800')
+        (isCuad ? 'bg-blue-50 text-blue-700 dark:bg-blue-400/15 dark:text-blue-200' : 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200')
       }
       title={
         isCuad

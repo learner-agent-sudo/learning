@@ -37,10 +37,10 @@ export function PrevNext({ prev, next, onNavigate }: Props) {
         <button
           type="button"
           onClick={() => onNavigate(next.id)}
-          className="group flex items-center justify-end gap-3 rounded-xl border border-module/30 bg-module px-4 py-3.5 text-right text-white shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
+          className="group flex items-center justify-end gap-3 rounded-xl border border-module/30 bg-module px-4 py-3.5 text-right text-onaccent shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
         >
           <span className="min-w-0">
-            <span className="block font-mono text-[11px] uppercase tracking-[0.14em] text-white/70">Next · {pad(next.index)}</span>
+            <span className="block font-mono text-[11px] uppercase tracking-[0.14em] text-onaccent/80">Next · {pad(next.index)}</span>
             <span className="block truncate font-serif text-lg font-semibold">{next.title}</span>
           </span>
           <ArrowRight className="h-5 w-5 shrink-0 transition group-hover:translate-x-0.5" aria-hidden />

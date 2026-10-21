@@ -4,13 +4,13 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { ArrowRight, BookMarked } from 'lucide-react';
 import { loadLast, loadVisited } from '@/lib/useStudyState';
+import { toneVars, type Tone } from '@/lib/theme';
 
 export interface ModuleInfo {
   module: string;
   title: string;
   href: string;
-  // RGB channels for the module colour.
-  color: string;
+  tone: Tone;
   stages: { id: string; index: number; title: string }[];
 }
 
@@ -37,10 +37,10 @@ export function ContinueReading({ modules }: { modules: ModuleInfo[] }) {
   return (
     <Link
       href={`${last.info.href}${hash}`}
-      style={{ '--vol': last.info.color } as React.CSSProperties}
+      style={toneVars('--vol', last.info.tone)}
       className="group mt-8 flex max-w-xl animate-rise items-center gap-4 rounded-2xl border border-line bg-panel px-5 py-4 shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
     >
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[rgb(var(--vol))] text-white">
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-vol text-onaccent">
         <BookMarked className="h-5 w-5" aria-hidden />
       </span>
       <span className="min-w-0 flex-1">
@@ -49,7 +49,7 @@ export function ContinueReading({ modules }: { modules: ModuleInfo[] }) {
           {last.info.title} · {String(last.stage.index).padStart(2, '0')} {last.stage.title}
         </span>
       </span>
-      <ArrowRight className="h-5 w-5 shrink-0 text-[rgb(var(--vol))] transition group-hover:translate-x-1" aria-hidden />
+      <ArrowRight className="h-5 w-5 shrink-0 text-vol transition group-hover:translate-x-1" aria-hidden />
     </Link>
   );
 }
@@ -66,7 +66,7 @@ export function VolumeProgress({ module, ids }: { module: string; ids: string[] 
   return (
     <div className="mt-4">
       <div className="h-1 overflow-hidden rounded-full bg-line" aria-hidden>
-        <span className="block h-full rounded-full bg-[rgb(var(--vol))]" style={{ width: `${pct}%` }} />
+        <span className="block h-full rounded-full bg-vol" style={{ width: `${pct}%` }} />
       </div>
       <p className="mt-1 text-[11.5px] text-muted">
         {opened} of {ids.length} stages opened

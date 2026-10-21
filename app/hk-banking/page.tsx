@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { BANKING_STAGES, BANKING_TABS, BankingPhase, BankingTab, CAP155_ANATOMY, PHASES, defineBankingTerm } from '@/lib/banking';
 import { focusStageTitle, useChecklists, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { TONES, toneVars } from '@/lib/theme';
 import { GlossaryProvider } from '@/components/GlossaryContext';
 import { BankingStage } from '@/components/banking/BankingStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
@@ -13,7 +14,7 @@ const IDS = BANKING_STAGES.map((s) => s.id);
 const TABS: string[] = [...BANKING_TABS];
 const SIZES = Object.fromEntries(BANKING_STAGES.map((s) => [s.id, s.checklist.length]));
 const GROUPS: RailGroup[] = (Object.entries(PHASES) as [BankingPhase, (typeof PHASES)[BankingPhase]][]).map(
-  ([id, p]) => ({ id, label: p.label, color: p.color })
+  ([id, p]) => ({ id, label: p.label, tone: p.tone })
 );
 const PROVISIONS = BANKING_STAGES.reduce((n, s) => n + s.provisions.length, 0);
 const CHECK_TOTAL = BANKING_STAGES.reduce((n, s) => n + s.checklist.length, 0);
@@ -43,7 +44,7 @@ export default function HkBankingPage() {
 
   return (
     <GlossaryProvider value={defineBankingTerm}>
-      <div style={{ '--module': '30 82 68' } as React.CSSProperties}>
+      <div style={toneVars('--module', TONES.forest)}>
         <main className="mx-auto max-w-7xl px-4 pb-10 sm:px-6">
           <ModuleMasthead
             kicker="Hong Kong · Banking Ordinance (Cap. 155) · HKMA"
@@ -81,7 +82,8 @@ export default function HkBankingPage() {
                   go(id);
                   focusStageTitle();
                 }}
-                tab={tab as BankingTab}
+                // A stage without a vendor toolkit shows Essentials for that tab.
+                tab={tab === 'vendors' && !stage.vendorKit ? 'essentials' : (tab as BankingTab)}
                 onTabChange={(t) => go(stage.id, t)}
                 ticks={ticks[stage.id] ?? []}
                 onToggle={(i) => toggle(stage.id, i)}

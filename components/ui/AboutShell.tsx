@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import { toneVars, type Tone } from '@/lib/theme';
+import { ThemeToggle } from '../ThemeToggle';
 
 interface Props {
   backHref: string;
   backLabel: string;
   kicker: string;
   title: string;
-  // RGB channels for the module colour.
-  module: string;
+  tone: Tone;
   children: React.ReactNode;
 }
 
@@ -19,14 +20,17 @@ const PROSE =
   "[&_li]:before:absolute [&_li]:before:left-0.5 [&_li]:before:top-[0.65em] [&_li]:before:h-1.5 [&_li]:before:w-1.5 [&_li]:before:rotate-45 [&_li]:before:bg-module/70 [&_li]:before:content-[''] " +
   '[&_code]:rounded [&_code]:bg-ink/5 [&_code]:px-1 [&_code]:font-mono [&_code]:text-[13px]';
 
-export function AboutShell({ backHref, backLabel, kicker, title, module, children }: Props) {
+export function AboutShell({ backHref, backLabel, kicker, title, tone, children }: Props) {
   return (
-    <div style={{ '--module': module } as React.CSSProperties}>
+    <div style={toneVars('--module', tone)}>
       <main className="mx-auto max-w-3xl px-4 pb-16 pt-6 sm:px-6 sm:pt-8">
-        <Link href={backHref} className="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink">
-          <ArrowLeft className="h-4 w-4" aria-hidden />
-          {backLabel}
-        </Link>
+        <div className="flex items-center justify-between gap-4">
+          <Link href={backHref} className="inline-flex min-h-10 items-center gap-1.5 text-sm text-muted transition-colors hover:text-ink">
+            <ArrowLeft className="h-4 w-4" aria-hidden />
+            {backLabel}
+          </Link>
+          <ThemeToggle />
+        </div>
         <p className="kicker mt-10 text-module">{kicker}</p>
         <h1 className="mt-2 font-serif text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">{title}</h1>
         <div className={PROSE}>{children}</div>

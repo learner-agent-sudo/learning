@@ -36,7 +36,7 @@ export function KeyPoints({ title, points }: { title: string; points: string[] }
       <ol className="mt-3 space-y-3">
         {points.map((t, i) => (
           <li key={`${i}-${t.slice(0, 24)}`} className="flex gap-3.5 leading-relaxed">
-            <span className="mt-[3px] flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-phase font-mono text-[10.5px] font-medium text-white">
+            <span className="mt-[3px] flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-phase font-mono text-[10.5px] font-medium text-onaccent">
               {i + 1}
             </span>
             <span className="min-w-0">

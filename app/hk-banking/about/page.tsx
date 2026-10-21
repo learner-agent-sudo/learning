@@ -1,5 +1,6 @@
 import { CAP155_ANATOMY } from '@/lib/banking';
 import { AboutShell } from '@/components/ui/AboutShell';
+import { TONES } from '@/lib/theme';
 
 export const metadata = {
   title: 'About — HK Banking Regulation',
@@ -12,7 +13,7 @@ export default function HkBankingAboutPage() {
       backLabel="Back to banking"
       kicker="HK banking regulation"
       title="Sources & method"
-      module="30 82 68"
+      tone={TONES.forest}
     >
         <p>
           A ten-stage path through Hong Kong banking regulation, written for an experienced lawyer with an IT
@@ -56,7 +57,7 @@ export default function HkBankingAboutPage() {
           independent adversarial fact-check of every section number, guideline code, date and threshold. Every
           statute citation is then matched automatically against the official text: a citation that does not
           resolve to a provision in force fails the build. References the fact-check could not fully confirm are
-          marked <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-900">verify</span>.
+          marked <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-900 dark:bg-amber-400/15 dark:text-amber-200">verify</span>.
         </p>
         <p>
           The stage notes are written as bullet points: a short &ldquo;In 30 seconds&rdquo; summary, then the detail

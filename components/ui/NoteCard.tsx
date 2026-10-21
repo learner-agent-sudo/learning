@@ -2,9 +2,27 @@ import type { LucideIcon } from 'lucide-react';
 import { RichText } from '../RichText';
 
 const TONES = {
-  sky: { ring: 'border-sky-200', head: 'bg-sky-50 text-sky-900', icon: 'bg-sky-700', label: 'text-sky-800', dot: 'bg-sky-500' },
-  violet: { ring: 'border-violet-200', head: 'bg-violet-50 text-violet-900', icon: 'bg-violet-700', label: 'text-violet-800', dot: 'bg-violet-500' },
-  rose: { ring: 'border-rose-200', head: 'bg-rose-50 text-rose-900', icon: 'bg-rose-700', label: 'text-rose-800', dot: 'bg-rose-500' },
+  sky: {
+    ring: 'border-sky-200 dark:border-sky-400/30',
+    head: 'bg-sky-50 text-sky-900 dark:bg-sky-400/10 dark:text-sky-100',
+    icon: 'bg-sky-700',
+    label: 'text-sky-800 dark:text-sky-300',
+    dot: 'bg-sky-500',
+  },
+  violet: {
+    ring: 'border-violet-200 dark:border-violet-400/30',
+    head: 'bg-violet-50 text-violet-900 dark:bg-violet-400/10 dark:text-violet-100',
+    icon: 'bg-violet-700',
+    label: 'text-violet-800 dark:text-violet-300',
+    dot: 'bg-violet-500',
+  },
+  rose: {
+    ring: 'border-rose-200 dark:border-rose-400/30',
+    head: 'bg-rose-50 text-rose-900 dark:bg-rose-400/10 dark:text-rose-100',
+    icon: 'bg-rose-700',
+    label: 'text-rose-800 dark:text-rose-300',
+    dot: 'bg-rose-500',
+  },
 } as const;
 
 // "**Label:** rest" -> label shown as its own line above the rest.

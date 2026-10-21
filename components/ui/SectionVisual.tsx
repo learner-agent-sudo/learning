@@ -85,7 +85,7 @@ function Steps({ items }: { items: VisualItem[] }) {
       {items.map((it, i) => (
         <li key={it.label} className="flex items-stretch gap-2 sm:flex-col sm:gap-0">
           <div className="flex items-center sm:pr-2">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-phase font-mono text-[11px] font-medium text-white">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-phase font-mono text-[11px] font-medium text-onaccent">
               {i + 1}
             </span>
             {i < items.length - 1 && (

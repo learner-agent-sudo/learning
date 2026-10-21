@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import { DealType, MNA_TABS, MnaTab, STAGES } from '@/lib/workflow';
 import { focusStageTitle, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { TONES, toneVars } from '@/lib/theme';
 import { DealTypeSelector } from '@/components/DealTypeSelector';
 import { MnaStage } from '@/components/mna/MnaStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
@@ -12,12 +13,10 @@ import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
 const IDS = STAGES.map((s) => s.id);
 const TABS: string[] = [...MNA_TABS];
 
-// Colours are RGB channels chosen for at least 4.5:1 contrast on the paper
-// background, on their own 10% tint, and for white text on them.
 const GROUPS: RailGroup[] = [
-  { id: 'pre', label: 'Pre-deal', color: '52 87 140' },
-  { id: 'active', label: 'Active deal', color: '134 88 18' },
-  { id: 'post', label: 'Post-signing', color: '26 104 78' },
+  { id: 'pre', label: 'Pre-deal', tone: TONES.blue },
+  { id: 'active', label: 'Active deal', tone: TONES.amber },
+  { id: 'post', label: 'Post-signing', tone: TONES.green },
 ];
 
 function groupOf(index: number): string {
@@ -59,7 +58,7 @@ export default function Page() {
   const railProps = { groups: GROUPS, stages: rail, selectedId: stage.id, visited, onSelect: select, label: 'Deal stages' };
 
   return (
-    <div style={{ '--module': '36 64 107' } as React.CSSProperties}>
+    <div style={toneVars('--module', TONES.navy)}>
       <main className="mx-auto max-w-7xl px-4 pb-10 sm:px-6">
         <ModuleMasthead
           kicker="U.S. private company · Asset Purchase Agreement"
@@ -86,7 +85,7 @@ export default function Page() {
           <article
             ref={articleRef}
             className="min-w-0 max-w-4xl"
-            style={{ '--phase': group.color } as React.CSSProperties}
+            style={toneVars('--phase', group.tone)}
           >
             <MnaStage
               key={stage.id}

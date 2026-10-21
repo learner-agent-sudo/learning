@@ -3,12 +3,12 @@
 import { useEffect, useRef } from 'react';
 import { Check } from 'lucide-react';
 import { prefersReducedMotion } from '@/lib/useStudyState';
+import { toneVars, type Tone } from '@/lib/theme';
 
 export interface RailGroup {
   id: string;
   label: string;
-  // RGB channels, e.g. "59 91 140".
-  color: string;
+  tone: Tone;
 }
 
 export interface RailStage {
@@ -32,15 +32,15 @@ interface Props {
 
 const pad = (n: number) => String(n).padStart(2, '0');
 
-function Marker({ stage, active, seen, color }: { stage: RailStage; active: boolean; seen: boolean; color: string }) {
+function Marker({ stage, active, seen, tone }: { stage: RailStage; active: boolean; seen: boolean; tone: Tone }) {
   const complete = stage.progress === 1;
   return (
     <span
-      style={{ '--phase': color } as React.CSSProperties}
+      style={toneVars('--phase', tone)}
       className={
         'relative z-10 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border font-mono text-[11px] font-medium transition-colors ' +
         (active
-          ? 'border-phase bg-phase text-white shadow-[0_0_0_4px_rgb(var(--phase)/0.15)]'
+          ? 'border-phase bg-phase text-onaccent shadow-[0_0_0_4px_rgb(var(--phase)/0.15)]'
           : complete
           ? 'border-phase bg-phase/15 text-phase'
           : seen
@@ -63,11 +63,9 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
         if (items.length === 0) return null;
         return (
           <div key={g.id} className="mb-4">
-            <div className="mb-1.5 flex items-center gap-2 pl-1">
-              <span className="h-1.5 w-4 rounded-full" style={{ background: `rgb(${g.color})` }} />
-              <span className="text-[11px] font-semibold uppercase tracking-wider" style={{ color: `rgb(${g.color})` }}>
-                {g.label}
-              </span>
+            <div className="mb-1.5 flex items-center gap-2 pl-1" style={toneVars('--phase', g.tone)}>
+              <span className="h-1.5 w-4 rounded-full bg-phase" />
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-phase">{g.label}</span>
             </div>
             <ol className="relative">
               <span aria-hidden className="absolute bottom-3 left-[17px] top-3 w-px bg-line" />
@@ -84,7 +82,7 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
                         (active ? 'bg-panel shadow-card' : 'hover:bg-panel/70')
                       }
                     >
-                      <Marker stage={s} active={active} seen={visited.has(s.id)} color={g.color} />
+                      <Marker stage={s} active={active} seen={visited.has(s.id)} tone={g.tone} />
                       <span className="min-w-0 flex-1">
                         <span
                           className={
@@ -116,7 +114,7 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
 /** Horizontal, sticky stage picker for narrow screens. */
 export function StageStrip({ groups, stages, selectedId, visited, onSelect, label }: Props) {
   const scroller = useRef<HTMLDivElement>(null);
-  const colorOf = Object.fromEntries(groups.map((g) => [g.id, g.color]));
+  const toneOf = Object.fromEntries(groups.map((g) => [g.id, g.tone]));
 
   useEffect(() => {
     const box = scroller.current;
@@ -138,7 +136,7 @@ export function StageStrip({ groups, stages, selectedId, visited, onSelect, labe
       <div ref={scroller} className="no-scrollbar flex gap-2 overflow-x-auto px-4 py-2 sm:px-6">
         {stages.map((s) => {
           const active = s.id === selectedId;
-          const color = colorOf[s.group];
+          const tone = toneOf[s.group];
           return (
             <button
               key={s.id}
@@ -146,17 +144,17 @@ export function StageStrip({ groups, stages, selectedId, visited, onSelect, labe
               type="button"
               onClick={() => onSelect(s.id)}
               aria-current={active ? 'step' : undefined}
-              style={{ '--phase': color } as React.CSSProperties}
+              style={toneVars('--phase', tone)}
               className={
                 'flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-[13px] transition-colors focus-visible:outline-offset-[-3px] ' +
                 (active
-                  ? 'border-phase bg-phase font-medium text-white'
+                  ? 'border-phase bg-phase font-medium text-onaccent'
                   : visited.has(s.id)
                   ? 'border-phase/40 bg-panel text-ink'
                   : 'border-line bg-panel text-muted')
               }
             >
-              <span className={'font-mono text-[11px] ' + (active ? 'text-white' : 'text-phase')}>{pad(s.index)}</span>
+              <span className={'font-mono text-[11px] ' + (active ? 'text-onaccent' : 'text-phase')}>{pad(s.index)}</span>
               {s.title}
               {s.progress === 1 && <Check className="h-3.5 w-3.5" strokeWidth={2.5} aria-label="checklist done" />}
             </button>

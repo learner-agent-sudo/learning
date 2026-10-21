@@ -6,17 +6,25 @@ const channel = (name: string) => `rgb(var(${name}) / <alpha-value>)`;
 
 const config: Config = {
   content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './lib/**/*.{ts,tsx}'],
+  // `dark` on <html>, set before paint from the saved choice or the system
+  // setting (see app/layout.tsx).
+  darkMode: 'class',
   theme: {
     extend: {
+      // Every colour is a theme variable (light values in :root, dark in
+      // .dark; see globals.css).
       colors: {
-        ink: '#1c1f26',
-        muted: '#5d6370',
-        paper: '#f5f1e8',
-        panel: '#fffdf8',
-        line: '#e3dccc',
-        accent: '#8c2f1d',
+        ink: channel('--ink'),
+        muted: channel('--muted'),
+        paper: channel('--paper'),
+        panel: channel('--panel'),
+        line: channel('--line'),
+        accent: channel('--accent'),
+        // Text on a solid module/phase/accent fill.
+        onaccent: channel('--on-accent'),
         module: channel('--module'),
         phase: channel('--phase'),
+        vol: channel('--vol'),
       },
       fontFamily: {
         sans: ['"IBM Plex Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],

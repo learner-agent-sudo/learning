@@ -12,14 +12,14 @@ import {
 } from '../cardStyles';
 
 export const KIND: Record<ProvisionKind, { label: string; className: string; bar: string; title: string }> = {
-  statute: { label: 'Statute', className: 'bg-indigo-50 text-indigo-700', bar: 'bg-indigo-500', title: 'Primary legislation' },
-  subsidiary: { label: 'Sub. leg.', className: 'bg-violet-50 text-violet-700', bar: 'bg-violet-500', title: 'Subsidiary legislation (rules, regulations)' },
-  spm: { label: 'SPM', className: 'bg-sky-50 text-sky-700', bar: 'bg-sky-500', title: 'HKMA Supervisory Policy Manual module' },
-  guideline: { label: 'Guideline', className: 'bg-teal-50 text-teal-700', bar: 'bg-teal-500', title: 'Regulatory guideline' },
-  circular: { label: 'Circular', className: 'bg-cyan-50 text-cyan-700', bar: 'bg-cyan-500', title: 'HKMA circular or guidance letter' },
-  code: { label: 'Code', className: 'bg-amber-50 text-amber-800', bar: 'bg-amber-500', title: 'Industry or statutory code' },
-  case: { label: 'Case', className: 'bg-rose-50 text-rose-700', bar: 'bg-rose-500', title: 'Case law' },
-  other: { label: 'Other', className: 'bg-slate-100 text-slate-600', bar: 'bg-slate-400', title: 'Other source' },
+  statute: { label: 'Statute', className: 'bg-indigo-50 text-indigo-700 dark:bg-indigo-400/15 dark:text-indigo-200', bar: 'bg-indigo-500', title: 'Primary legislation' },
+  subsidiary: { label: 'Sub. leg.', className: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200', bar: 'bg-violet-500', title: 'Subsidiary legislation (rules, regulations)' },
+  spm: { label: 'SPM', className: 'bg-sky-50 text-sky-700 dark:bg-sky-400/15 dark:text-sky-200', bar: 'bg-sky-500', title: 'HKMA Supervisory Policy Manual module' },
+  guideline: { label: 'Guideline', className: 'bg-teal-50 text-teal-700 dark:bg-teal-400/15 dark:text-teal-200', bar: 'bg-teal-500', title: 'Regulatory guideline' },
+  circular: { label: 'Circular', className: 'bg-cyan-50 text-cyan-700 dark:bg-cyan-400/15 dark:text-cyan-200', bar: 'bg-cyan-500', title: 'HKMA circular or guidance letter' },
+  code: { label: 'Code', className: 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200', bar: 'bg-amber-500', title: 'Industry or statutory code' },
+  case: { label: 'Case', className: 'bg-rose-50 text-rose-700 dark:bg-rose-400/15 dark:text-rose-200', bar: 'bg-rose-500', title: 'Case law' },
+  other: { label: 'Other', className: 'bg-slate-100 text-slate-600 dark:bg-slate-400/15 dark:text-slate-200', bar: 'bg-slate-400', title: 'Other source' },
 };
 
 function formatDate(iso: string): string {
@@ -52,7 +52,7 @@ export function ProvisionCard({ provision: p, defaultOpen = false }: { provision
         </span>
         {p.confidence === 'low' && (
           <span
-            className="shrink-0 rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-medium text-amber-900"
+            className="shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium bg-amber-100 text-amber-900 dark:bg-amber-400/15 dark:text-amber-200"
             title="Our fact-check could not fully confirm this reference — check the source."
           >
             verify
@@ -77,8 +77,8 @@ export function ProvisionCard({ provision: p, defaultOpen = false }: { provision
           )}
         </div>
         <p className="mt-2 leading-relaxed">{p.summary}</p>
-        <div className="mt-3 flex gap-3 rounded-lg bg-amber-50/70 px-3.5 py-3 ring-1 ring-amber-200/60">
-          <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-amber-600" aria-hidden />
+        <div className="mt-3 flex gap-3 rounded-lg bg-amber-50/70 px-3.5 py-3 ring-1 ring-amber-200/60 dark:bg-amber-400/10 dark:ring-amber-300/20">
+          <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-amber-600 dark:text-amber-300" aria-hidden />
           <p className="leading-relaxed">
             <span className="font-semibold">Why it matters to you: </span>
             {p.counselNote}
@@ -91,7 +91,7 @@ export function ProvisionCard({ provision: p, defaultOpen = false }: { provision
               <span className="group-open/st:hidden">Read the statute text</span>
               <span className="hidden group-open/st:inline">Hide statute text</span>
             </summary>
-            <div className="mt-2 overflow-hidden rounded-lg border border-line bg-white">
+            <div className="mt-2 overflow-hidden rounded-lg border border-line bg-panel">
               <div className="border-b border-line bg-paper/60 px-3.5 py-2 text-xs">
                 <span className="font-semibold">
                   {extract.capTitle}, {extract.label}

@@ -54,7 +54,7 @@ function Explainer({ title, subtitle, icon: Icon, points, strong }: {
         <span
           className={
             'flex h-8 w-8 items-center justify-center rounded-lg ' +
-            (strong ? 'bg-phase text-white' : 'bg-ink/[0.06] text-ink')
+            (strong ? 'bg-phase text-onaccent' : 'bg-ink/[0.06] text-ink')
           }
         >
           <Icon className="h-4 w-4" aria-hidden />
@@ -210,7 +210,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
           </div>
           {cuad.length > 0 && (
             <section>
-              <SectionTitle aside={<span className="font-mono text-xs text-blue-800">{cuad.length}</span>}>
+              <SectionTitle aside={<span className="font-mono text-xs text-blue-800 dark:text-blue-300">{cuad.length}</span>}>
                 From real contracts (CUAD)
               </SectionTitle>
               <div className="grid gap-3">{clauseCards(cuad)}</div>
@@ -218,7 +218,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
           )}
           {gapFills.length > 0 && (
             <section className={cuad.length > 0 ? 'mt-10' : ''}>
-              <SectionTitle aside={<span className="font-mono text-xs text-amber-800">{gapFills.length}</span>}>
+              <SectionTitle aside={<span className="font-mono text-xs text-amber-800 dark:text-amber-300">{gapFills.length}</span>}>
                 APA-specific drafting (hand-authored)
               </SectionTitle>
               <div className="grid gap-3">{clauseCards(gapFills)}</div>

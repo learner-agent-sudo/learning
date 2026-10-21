@@ -1,6 +1,8 @@
 import stagesJson from '@/data/banking/stages.json';
 import extractsJson from '@/data/banking/statute-extracts.json';
 import type { PointSection } from '@/components/ui/Bullets';
+import type { SectionVisualData } from '@/components/ui/SectionVisual';
+import { TONES, type Tone } from './theme';
 
 export type ProvisionKind =
   | 'statute'
@@ -45,6 +47,41 @@ export interface BankingStage {
   virtualBankNotes: string[];
   pitfalls: string[];
   glossary: { term: string; definition: string }[];
+  // Stage-specific toolkit (Technology & outsourcing): vendor contracts.
+  vendorKit?: VendorKit;
+}
+
+// Legal force of a source behind a contract requirement.
+export type Strength = 'statute' | 'statutory-guideline' | 'hkma-guidance' | 'industry-code' | 'good-practice';
+
+export interface ContractSource {
+  label: string;
+  // Paragraph or section as printed in the source.
+  ref: string;
+  strength: Strength;
+  note?: string;
+  url?: string;
+}
+
+export interface ContractTerm {
+  id: string;
+  title: string;
+  // Which engagements need it: all, material, personal-data, offshore,
+  // critical, intragroup, agents.
+  appliesTo: string[];
+  summary: string;
+  require: string[];
+  sources: ContractSource[];
+  drafting?: string[];
+  cloud?: string;
+}
+
+export interface VendorKit {
+  intro: string[];
+  lifecycle: SectionVisualData;
+  terms: ContractTerm[];
+  process: PointSection[];
+  caveat?: string;
 }
 
 export interface StatuteExtract {
@@ -90,14 +127,13 @@ export function defineBankingTerm(term: string): string | undefined {
   return TERMS[term.toLowerCase()];
 }
 
-// color is RGB channels for the --phase CSS variable.
-export const PHASES: Record<BankingPhase, { label: string; color: string }> = {
-  orientation: { label: 'Orientation', color: '52 87 140' },
-  entry: { label: 'Getting licensed', color: '109 74 150' },
-  operate: { label: 'Running the bank', color: '26 104 78' },
-  oversight: { label: 'Oversight & stress', color: '168 54 40' },
+export const PHASES: Record<BankingPhase, { label: string; tone: Tone }> = {
+  orientation: { label: 'Orientation', tone: TONES.blue },
+  entry: { label: 'Getting licensed', tone: TONES.violet },
+  operate: { label: 'Running the bank', tone: TONES.green },
+  oversight: { label: 'Oversight & stress', tone: TONES.brick },
 };
 
 // Tabs of a stage view, in order; the first is the default (no hash suffix).
-export const BANKING_TABS = ['essentials', 'provisions', 'checklist', 'notes', 'glossary'] as const;
+export const BANKING_TABS = ['essentials', 'provisions', 'vendors', 'checklist', 'notes', 'glossary'] as const;
 export type BankingTab = (typeof BANKING_TABS)[number];

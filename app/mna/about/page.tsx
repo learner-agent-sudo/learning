@@ -1,4 +1,5 @@
 import { AboutShell } from '@/components/ui/AboutShell';
+import { TONES } from '@/lib/theme';
 
 export const metadata = {
   title: 'About — Learning M&A',
@@ -11,7 +12,7 @@ export default function AboutPage() {
       backLabel="Back to the deal"
       kicker="Learning M&A"
       title="About this module"
-      module="36 64 107"
+      tone={TONES.navy}
     >
         <p>
           <strong>Learning M&amp;A</strong> is an interactive, browser-based

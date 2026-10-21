@@ -53,7 +53,7 @@ export function Badge({ children, tone = 'neutral', title }: { children: React.R
       title={title}
       className={
         'inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-medium ' +
-        (tone === 'warn' ? 'bg-amber-100 text-amber-900' : 'bg-phase/10 text-phase')
+        (tone === 'warn' ? 'bg-amber-100 text-amber-900 dark:bg-amber-400/15 dark:text-amber-200' : 'bg-phase/10 text-phase')
       }
     >
       {children}

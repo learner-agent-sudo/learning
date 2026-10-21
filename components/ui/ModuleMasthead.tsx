@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import { ThemeToggle } from '../ThemeToggle';
 
 interface Stat {
   value: string | number;
@@ -29,9 +30,12 @@ export function ModuleMasthead({ kicker, title, standfirst, watermark, stats, ab
           <ArrowLeft className="h-4 w-4" aria-hidden />
           Library
         </Link>
-        <Link href={aboutHref} className={`${NAV_LINK} underline-offset-4 hover:underline`}>
-          Sources &amp; method
-        </Link>
+        <div className="flex items-center gap-3 sm:gap-5">
+          <Link href={aboutHref} className={`${NAV_LINK} underline-offset-4 hover:underline`}>
+            Sources &amp; method
+          </Link>
+          <ThemeToggle />
+        </div>
       </nav>
 
       <div className="mt-3 flex items-start justify-between gap-10 sm:mt-5">
