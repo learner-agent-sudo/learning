@@ -1,0 +1,1011 @@
+{
+ "stages": [
+  {
+   "id": "map",
+   "review": "fact-checked",
+   "sources": [
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/the-three-tier-banking-system/",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20241213-1-EN/IN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/spm/current/IN",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20250903-17-EN/CG-7.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20250328-2-EN/20250328-2-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260226-12-EN/Chapter-4.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20260226-2-EN/Chapter-1.pdf",
+    "https://www.legco.gov.hk/yr08-09/english/panels/fa/papers/fa0618cb1-1923-1-e.pdf",
+    "https://www.legco.gov.hk/yr00-01/english/bc/bc04/papers/bc040114cb1-707-2e.pdf",
+    "https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2020/07_About_HKMA.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/12/20231207-5/",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20181019-4-EN/20181019-4-EN.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241001-3",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/12/20241231-3/",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/authorization-regime/",
+    "https://www.info.gov.hk/gia/general/201708/29/P2017082400623.htm",
+    "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/"
+   ],
+   "uncertain": [
+    "The wording of s.7(3) has not been checked against the e-Legislation text. The s.7(1)–(2) paraphrase is corroborated by a 2001 LegCo paper, and SPM CR-S-4 is described as a statutory guideline under s.7(3).",
+    "Section 16(10) is confirmed by HKMA material as the basis of the Guideline on Minimum Criteria for Authorization, but its exact wording was not checked against e-Legislation.",
+    "Search results indicate the BRDR went live on 31 March 2025 (announced by circular, document ID 20250328-2-EN) and that legacy HKMA guideline pages stopped being updated from 28 March 2025; the circular itself was not read.",
+    "The version number of the current SPM IN module (issued 17 Jan 2025, superseding V.2 of 15 Nov 2024) was not confirmed.",
+    "I did not confirm whether the Code of Banking Practice has been revised since December 2023, or the current paragraph of the Minimum Criteria Guideline that requires compliance with it (para 100 of G.N. 1505 in 2018).",
+    "The FDRC's maximum claim (HK$1 million from 2018) may have changed since. I found no 2025–2026 material confirming it.",
+    "I did not verify the legal mechanics of how the IA and HKMA arrange front-line supervision of banks' insurance intermediary activities.",
+    "The list of Seventh Schedule criteria is summarised from secondary sources and may not match the current drafting exactly."
+   ]
+  },
+  {
+   "id": "perimeter",
+   "review": "fact-checked",
+   "sources": [
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/the-three-tier-banking-system/",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20220323-1-EN/Chapter-2.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20260226-5-EN/Chapter-7.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2000/11/20001129-4",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/",
+    "https://www.hkma.gov.hk/media/eng/publication-and-research/quarterly-bulletin/qb200205/fa03.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2002/05/20020524-4",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20020524-3-EN/TM-E-2.pdf",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/digital-banks/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241014-3/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260226-7-EN/Chapter-9.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2018/05/20180530-3/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2001/12/20011211-4",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/08/20240805-5/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/02/20260213-5/",
+    "https://www.info.gov.hk/gia/general/202606/05/P2026060500217.htm",
+    "https://www.stephensonharwood.com/insights/hkma-to-simplify-hong-kong-s-three-tier-banking-system/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/09/20230915-5",
+    "https://www.legco.gov.hk/yr2025/english/subleg/negative/2025ln125-e.pdf",
+    "https://www.morganlewis.com/pubs/2025/06/hong-kongs-stablecoins-ordinance-to-take-effect-august-1-an-overview-of-the-regulatory-framework",
+    "https://www.charltonslaw.com/hkma-issues-first-stablecoin-issuer-licences/",
+    "https://news.rthk.hk/rthk/en/component/k2/1850625-20260410.htm",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/infrastructure/retail-payment-initiatives/Explanatory_note_on_licensing_for_SVF.pdf",
+    "https://www.info.gov.hk/gia/general/202606/10/P2026061000429.htm"
+   ],
+   "uncertain": [
+    "The s.2 definitions, the s.3(1) exemptions and the s.12(8) presumption (five occasions within 30 days) are taken from the HKMA Guide to Authorization (Chapter 2, 2022 version), not from the e-Legislation text.",
+    "Commencement dates for the 2026 Bill reported in the original draft (1 Jan 2027 generally, 1 Jan 2028 for enforcement changes, 1 Jan 2032 for the tier changes), and a Bills Committee clause-by-clause scrutiny completed on 18 September 2026, could not be confirmed. Whether the Bill had passed by October 2026 is unconfirmed.",
+    "I have not confirmed whether the October 2024 Digital Bank guideline keeps the 2018 wording on minimum balances, low-balance fees and exit plans, or its exact trigger for the intermediate holding company requirement (owner 'not a bank or financial institution' versus 'non-financial firm').",
+    "Reports that some digital banks were rebranded in 2026 (e.g. Airstar, PAO Bank) are not confirmed by any official source.",
+    "The date of the latest HKMA guideline on s.97(1) consents is unclear. One law-firm summary refers to a December 2025 update.",
+    "Details of Cap. 656's scope are unconfirmed: the treatment of tokenised deposits and the list of permitted offerors. (Law-firm summaries confirm that issuing HKD-referenced stablecoins outside Hong Kong is within the licensing requirement.)",
+    "I have not confirmed the section numbers for the Cap. 584 deemed-licensee provision, or for the exemptions of authorized institutions under the Money Lenders Ordinance (Cap. 163) and AMLO Part 5.",
+    "The specific factors listed in the MA's May 2002 s.92(6) guideline for judging whether internet material is targeted at Hong Kong were not reviewed."
+   ]
+  },
+  {
+   "id": "authorization",
+   "review": "fact-checked",
+   "sources": [
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/digital-banks/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20241108-2-EN/20241108-2-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-7-EN",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260226-7-EN/Chapter-9.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-1-EN",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260226-12-EN/Chapter-4.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20220323-4-EN/Chapter-5.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241014-3/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20241112-3-EN/Consultation_Conclusions_Renaming_of_Virtual_Bank_EN.pdf",
+    "https://www.timothyloh.com/insights/latest-news/guideline-on-authorization-of-digital-banks-20241025",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/08/20240806-3/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2024/20240806e3a1.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2018/05/20180530-3/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2018/20180530e3a1.pdf",
+    "https://www.regulationtomorrow.com/2018/06/hong-kong-hkma-publishes-a-revised-guideline-on-virtual-banks/",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/authorization-regime/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2008/10/20081024-3",
+    "https://www.info.gov.hk/gia/general/202405/22/P2024052200594.htm",
+    "https://www.deacons.com/2024/07/05/adjustments-to-the-fees-in-the-second-schedule-to-the-banking-ordinance/",
+    "https://www.info.gov.hk/gia/general/202606/17/P2026061700692.htm",
+    "https://www.legco.gov.hk/yr2026/english/subleg/positive/cm20260708cb2-884-1-e.pdf",
+    "https://www.info.gov.hk/gia/general/202606/05/P2026060500217.htm",
+    "https://www.legco.gov.hk/yr2026/english/hc/papers/hc20260626ls-33-e.pdf",
+    "https://www.jsm.com/publications/2026/banking-legislation-miscellaneous-amendments-bill-2026-in-hong-kong-what-changes-lie-ahead/",
+    "https://www.stephensonharwood.com/insights/hkma-to-simplify-hong-kong-s-three-tier-banking-system/",
+    "https://www.legco.gov.hk/yr04-05/english/bc/bc05/papers/bc050524cb1-ls70-e.pdf",
+    "https://www.legco.gov.hk/yr01-02/english/subleg/negative/ln063-e.pdf",
+    "https://www.legco.gov.hk/yr00-01/english/subleg/brief/130_brf.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/insight/2023/06/20230626/"
+   ],
+   "uncertain": [
+    "Exact wording and subsection numbering of ss.15, 16 (including where conditions are imposed) and 22 could not be checked against current e-Legislation text, which was not reachable from the research environment.",
+    "Suspension periods (up to 14 days under s.24; up to six months, renewable, under s.25) come from a 2005 LegCo paper; whether s.25 requires a prior hearing was not confirmed.",
+    "The effect of suspension on deposit-taking (secondary summaries say a suspended institution may not take deposits) was not verified against the statutory text.",
+    "The specific Eighth Schedule grounds are summarised in substance; confirm paragraph wording before citing.",
+    "Whether the resolution to raise the banking licence fee to HK$750,000 (to be moved on 8 July 2026) was passed, and its effective date.",
+    "Status of the Banking Legislation (Miscellaneous Amendments) Bill 2026 as at October 2026 (a Bills Committee was meeting in July and September 2026), its final form and commencement (proposed 1 January 2027 for most provisions).",
+    "Minimum paid-up capital for restricted licence banks (HK$100 million) and deposit-taking companies (HK$25 million) comes from a 2000-01 LegCo brief and secondary sources; how the proposed two-tier system would treat these floors was not checked.",
+    "The two-stage independent IT assessment (with the application and before launch) is documented for the 2018 virtual bank guideline; the 2024 digital bank guideline text was not read directly.",
+    "Secondary sources suggest the October 2024 revision lets digital banks do business beyond retail banking and open local branches under s.44; not verified against the guideline.",
+    "The contents of the 27 February 2026 re-issues of the Guideline on Minimum Criteria for Authorization and Guide to Authorization Chapter 9 were reviewed only through secondary summaries."
+   ]
+  },
+  {
+   "id": "people",
+   "review": "fact-checked",
+   "sources": [
+    "https://www.hkma.gov.hk/eng/news-and-media/insight/2003/06/20030626",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2003/06/20030625-3/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20130719-1-EN/20130719-1-EN.pdf",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/guideline/g15_2018.pdf",
+    "https://www.hkma.gov.hk/media/eng/publication-and-research/reference-materials/banking/pshk.pdf",
+    "https://www.legco.gov.hk/yr98-99/english/bc/bill_84/general/84_brf.pdf",
+    "https://www.legco.gov.hk/yr01-02/english/ord/ord032-01-e.pdf",
+    "https://www.legco.gov.hk/yr04-05/english/bc/bc05/papers/bc050524cb1-ls70-e.pdf",
+    "https://www.legco.gov.hk/yr2026/english/brief/bm2133c_20260603-e.pdf",
+    "https://www.info.gov.hk/gia/general/202606/05/P2026060500217.htm",
+    "https://www.jsm.com/publications/2026/banking-legislation-miscellaneous-amendments-bill-2026-in-hong-kong-what-changes-lie-ahead/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20171006-1-EN",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20171016-1-EN/20171016-1-EN.pdf",
+    "https://www.timothyloh.com/insights/latest-news/gazettal-of-revised-spm-cg-1-on-corporate-governance-20250801",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20250728-1-EN",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20250731-2-EN/20250731-2-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20211215-1-EN",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20210729-2-EN/CG-5.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20210729-1-EN/20210729-1-EN.pdf",
+    "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/circulars/2010/03/circu_20100319-1",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20170302-2-EN/20170302-2-EN.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20181219-2-EN/20181219-2-EN.pdf",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-conduct-supervision/bank-culture/",
+    "https://www.hkma.gov.hk/eng/news-and-media/speeches/2019/01/20190116-1-2/",
+    "https://www.cliffordchance.com/content/dam/cliffordchance/PDFDocuments/hkma-implements-measures-to-refine-management-accountability.pdf",
+    "https://www.regulationtomorrow.com/2017/11/hong-kong-hkma-guidance-on-management-responsibility-at-registered-institutions/",
+    "https://www.allenovery.com/en-gb/global/blogs/investigations-insight/mapping-responsibility-hkma-extends-focus-on-management-and-its-accountability",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20250723-1-EN/20250723-1-EN.pdf",
+    "https://www.simmons-simmons.com/en/publications/cmdzouz7t000ivew0aqjfr0m8/phase-2-of-the-mrc-scheme-to-be-launched-in-september-2025",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-legislation-policies-and-standards-implementation/exposure-limits/",
+    "https://www.legco.gov.hk/yr18-19/english/subleg/brief/2018ln220-223_brf.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20251125-4-EN/CR-G-9.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20191227-12-EN/CR-G-9.pdf"
+   ],
+   "uncertain": [
+    "The detailed structure of s.70 (decision periods, offences) and the precise heading, scope and consequences of s.70A were not verified against current statutory text.",
+    "Whether s.72B is purely a notification regime or also gives the MA a power to object, the time limit for notice, and the exact content of the Fourteenth Schedule were not confirmed.",
+    "Section 71C (consent for executive officers of registered institutions) is referred to in HKMA's 2017 circular; its exact scope was not reviewed.",
+    "The operative text of CG-1 V.4 was not reviewed; INED numbers (reported as at least one-third or three), committee requirements and the detail of the 2025 changes come from secondary summaries.",
+    "Whether CR-G-9 V.5 (a draft dated December 2025) has replaced V.4 (effective 1 January 2025) was not confirmed.",
+    "Status of the Banking Legislation (Miscellaneous Amendments) Bill 2026 as at October 2026, and whether a digital bank's intermediate holding company would be designated under the proposed holding company regime.",
+    "The exact roles covered in MRC Phase 1 were taken from secondary summaries."
+   ]
+  },
+  {
+   "id": "prudential",
+   "review": "draft",
+   "sources": [
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241018-3/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20241010-1-EN/20241010-1-EN.pdf",
+    "https://www.hkma.gov.hk/media/chi/regulatory-resources/consultatons/Letter-to-HKAB_Implementation-of-Basel-III-final-reform-package.pdf",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2024/20241024e1a1.pdf",
+    "https://www.wolterskluwer.com/en/solutions/financial-regulation-and-risk-topics/hkma-basel-iii-final-reforms",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-legislation-policies-and-standards-implementation/liquidity/",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-legislation-policies-and-standards-implementation/exposure-limits/",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20150227-3-EN/20150227-3-EN.pdf",
+    "https://www.legco.gov.hk/yr11-12/english/ord/ord003-12-e.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20250225-4-EN/CA-G-5.pdf",
+    "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/circulars/2003/02/circu_20030228-1",
+    "https://www.charltonslaw.com/hong-kong-law/virtual-bank-authorization-hkma-issues-new-guideline/"
+   ],
+   "uncertain": [
+    "Output floor phase-in path in Hong Kong: one secondary source says it reaches 72.5% in 2030; the starting percentage and yearly steps were not confirmed from HKMA text.",
+    "Whether any relief or deferral for the market risk (FRTB) or CVA frameworks was granted after the 1 January 2025 commencement.",
+    "Hong Kong's CCyB rate as at October 2026: 0.5% was confirmed from October 2024; later changes were not checked.",
+    "Section number and exact wording of the Banking Ordinance dividend restriction (believed to be s.79); the e-Legislation text could not be accessed.",
+    "Liquidity category of each virtual bank (assumed category 2 unless designated).",
+    "Precise Cap. 155L treatment of capitalised software (assumed deducted from CET1 as an intangible asset).",
+    "Whether a revised CA-G-5 (V.7) was finalised in late 2025, and the current version and date of IR-1.",
+    "Specific rule numbers for minimum ratios, buffers and the leverage ratio within Cap. 155L are deliberately not cited."
+   ]
+  },
+  {
+   "id": "technology",
+   "review": "fact-checked",
+   "sources": [
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20011228-3-EN/SA-2.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-2-TC/20241101-2-TC.pdf",
+    "https://www.regulationtomorrow.com/asia/the-hkma-revises-spm-on-risk-management-of-e-banking/",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20220531-1-EN/20220531-1-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf",
+    "https://kpmg.com/cn/en/home/insights/2022/08/operational-resilience-summary-of-updates-and-revises.html",
+    "https://www2.deloitte.com/cn/en/pages/risk/articles/operational-resilience-new-spm-module-from-hkma.html",
+    "https://protiviti.com/hk-en/hong-kong-monetary-authority-guidance-operational-resilience-or2",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20260529-5-TC/20260529-5-TC.pdf",
+    "https://regalert.today/document/operational-resilience-sustaining-and-uplifting-1e6fb3b2-3fd1-432c-b643-41ad436dd5ff/text",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260108-3-EN/20260108-3-EN.pdf",
+    "https://regalert.today/document/practice-guide-on-cloud-adoption-0ace67de-9d2e-4a90-a80e-1f3976f87aa4",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20100622-1-EN/20100622-1-EN.pdf",
+    "https://rpclegal.com/thinking/data-and-privacy/cyber-incident-reporting-obligations-for-hong-kong-licensed-financial-services-companies",
+    "https://www.info.gov.hk/gia/general/201105/04/P201105040120.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2020/11/20201103-4/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20201103-1-EN/20201103-1-EN.pdf",
+    "https://assets.kpmg.com/content/dam/kpmg/cn/pdf/en/2020/11/cybersecurity-fortification-initiative-cfi-2.pdf",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20250411-3-EN/20250411-3-EN.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20250825-1-EN/20250825-1-EN.pdf",
+    "https://www.info.gov.hk/gia/general/202505/07/P2025050700292.htm",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20191105-1-EN/20191105-1-EN.pdf",
+    "https://www.mondaq.com/hongkong/new-technology/1510528/hkma-enhanced-consumer-protection-in-the-use-of-genai-by-authorized-institutions-in-hong-kong",
+    "https://www.info.gov.hk/gia/general/202408/13/P2024081300265p.htm",
+    "https://www.mpfa.org.hk/-/media/files/information-centre/legislation-and-regulations/circulars/mpf/20260305/cir-20260305.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/04/20250428-5/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/banking-policy-and-supervision/Memorandum_of_Understanding.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20260527-25-EN",
+    "https://www.mayerbrown.com/en/insights/publications/2026/01/hong-kong-issues-code-of-practice-under-the-protection-of-critical-infrastructures-computer-systems-ordinance",
+    "https://hlc.com/en/publications/navigating-hong-kongs-critical-infrastructure-cybersecurity-regime-new-codes-of-practice",
+    "https://www.ashurst.com/en/insights/hong-kong-passes-new-cybersecurity-law-what-you-need-to-know/",
+    "https://www.kennedyslaw.com/en/thought-leadership/article/2026/hong-kongs-critical-infrastructure-cybersecurity-regime-how-the-ordinance-and-code-of-practice-impact-cios-suppliers-and-beyond",
+    "https://insightplus.bakermckenzie.com/bm/data-technology/hong-kong-the-citys-first-cybersecurity-law-is-expected-to-take-effect-on-1-january-2026",
+    "https://www.info.gov.hk/gia/general/201807/18/P2018071800605p.htm",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/fintech/The_Next_Phase_of_the_Banking_Open_API_Journey.pdf"
+   ],
+   "uncertain": [
+    "SA-2 does not appear to fix a minimum lead time for consulting the HKMA on material outsourcing; current HKMA practice on lead times and the form of notification was not verified.",
+    "E-Banking Security ABC: the exact announcement date (11 April 2025 is inferred from HKMA document identifiers), the Q4 2025 deadline for 'Authenticate in-App', and the August 2025 'ABCD' extension adding deepfake detection come from search summaries of HKMA and government material, not the full HKMA letters.",
+    "The eight domains in the January 2026 Practice Guide on Cloud Adoption were not confirmed individually, and the exact title of the 2022 cloud guidance it supersedes rests on secondary sources; the HKMA cover letter was not readable from the sandbox.",
+    "The revised OR-1 issue date (25 July 2022) and OR-2's status as a non-statutory guidance note rest on KPMG summaries.",
+    "The HKMA's June 2026 letter 'Operational Resilience: Sustaining and Uplifting' (reported as dated 1 June 2026, document reference 20260529) and its survey finding that all AIs were operationally resilient by end-May 2026 were seen only through search summaries.",
+    "Cap. 653: whether any banks have been designated; the exact penalty tiers (secondary sources differ); the precise trigger wording for the 12-hour clock and any 48-hour written-confirmation rule for oral notifications; and the extent of the MA's designation powers were not verified against the statute. The 29 May 2026 MoU and 2 June 2026 HKMA Code of Practice were confirmed only through search results.",
+    "The current status of the 22 June 2010 incident response circular (it may since have been supplemented by later letters) was not confirmed against the full text.",
+    "Whether C-RAF has been revised again since CFI 2.0 (2020) was not confirmed.",
+    "Whether the PDPO had acquired a mandatory data-breach notification requirement by October 2026 was not checked.",
+    "The GenAI circular's date is given as 19 August 2024 but press coverage dates it around 21 August 2024; specific expectations such as a customer opt-out were taken from secondary summaries. The scope of the 2026 GenA.I. Sandbox++ expansion was seen only in a search summary of a March 2026 joint regulators' circular."
+   ]
+  },
+  {
+   "id": "financial-crime",
+   "review": "draft",
+   "sources": [
+    "https://www.elegislation.gov.hk/hk/cap615",
+    "https://www.elegislation.gov.hk/hk/cap455",
+    "https://www.elegislation.gov.hk/hk/cap537",
+    "https://www.elegislation.gov.hk/hk/cap155",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20190201-1-EN/20190201-1-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20210524-1-EN/20210524-1-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260902-1-EN/20260902-1-EN.pdf",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/anti-money-laundering-and-counter-financing-of-terrorism/circulars-guidance-papers-archive/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20180427-2-EN/20180427-2-EN.pdf",
+    "https://www.info.gov.hk/gia/general/202404/19/P2024041900393p.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/07/20240705-3/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2025/20250722e4a1.pdf",
+    "https://www.info.gov.hk/gia/general/202503/28/P2025032800236p.htm",
+    "https://www.info.gov.hk/gia/general/202509/05/P2025090500211.htm",
+    "https://news.gov.hk/eng/2025/06/20250604/20250604_162550_541.html",
+    "https://www.legco.gov.hk/yr2025/english/ord/2025ord023-e.pdf",
+    "https://www.info.gov.hk/gia/general/202306/28/P2023062800411.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/11/20231127-4/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/08/20240801-5/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20241213-4-EN/20241213-4-EN.pdf",
+    "https://www.hsfkramer.com/notes/asiadisputes/2024-04/the-final-say-consent-for-the-letter-of-no-consent-regime",
+    "https://www.cr.gov.hk/en/publications/docs/Speech_20241029_SS_e.pdf",
+    "https://www.afrc.org.hk/en-hk/special-page/iam-smart-as-the-recognised-digital-identification-system"
+   ],
+   "uncertain": [
+    "Content of the HKMA remote on-boarding circular of 3 September 2026 is taken from the HKMA archive listing and secondary commentary; the full text was not read.",
+    "Section numbering inside BO Part XIIAA, whether the platform design extends to law enforcement agencies, and which platforms other than FINEST the HKMA has designated were not confirmed. The Ordinance was gazetted on 12 or 13 June 2025 (sources differ).",
+    "Whether the HKMA AML/CFT Guideline has been revised after June 2023 (for example in 2025 or 2026) was not confirmed.",
+    "The section number for record keeping (Sch. 2 s.20, Part 3) and the exact list of measures in Sch. 2 s.9(1) were not checked against the official text.",
+    "The launch date of Money Safe (the HKMA circular is dated 13 December 2024; secondary sources differ on rollout dates) and how it applies to virtual banks without branches.",
+    "Any HKMA AMLO enforcement actions after July 2025, and any AMLO amendment bills pending in 2026 (for example on wire transfers), were not checked.",
+    "The subsection of UNATMO s.12 that creates the tipping-off offence was not verified."
+   ]
+  },
+  {
+   "id": "customers",
+   "review": "draft",
+   "sources": [
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/12/20231207-5/",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf",
+    "https://www.info.gov.hk/gia/general/202312/07/P2023120700476.htm",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20230425-1-EN/20230425-1-EN.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2013/10/20131028-4/",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-conduct-supervision/consumer-protection/",
+    "https://www.fdrc.org.hk/en/doc/FDRC_consultation_conclusions_en.pdf",
+    "https://www.info.gov.hk/gia/general/201708/29/P2017082400623.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/10/20241001-3",
+    "https://www.info.gov.hk/gia/general/202410/01/P2024092600533.htm",
+    "https://www.hkab.org.hk/en/news/press-release/310",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260609-14-EN/IC-6.PDF",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2018/05/20180530-3/",
+    "https://www.thestandard.com.hk/news/article/225715/Government-proposes-reforms-to-Personal-Data-Privacy-Ordinance-amid-rising-breaches",
+    "https://www.elegislation.gov.hk/hk/cap581",
+    "https://www.elegislation.gov.hk/hk/cap486",
+    "https://www.elegislation.gov.hk/hk/cap71"
+   ],
+   "uncertain": [
+    "Whether the FDRC claim limit of HK$1 million and the 24-month time limit are still current as at October 2026 was not checked against the FDRC's current Terms of Reference.",
+    "Whether the Code of Banking Practice has been revised after the December 2023 edition was not confirmed. Its current paragraph numbering, and any lost-card liability cap, were not verified.",
+    "Complaint timelines of acknowledgement within 7 days and final response within 30 days come from banks' published procedures, not from the primary text of the Code or HKMA guidance.",
+    "The latest revision date of the PCPD Code of Practice on Consumer Credit Data (adapted for the multiple CRA model) was not confirmed. The June 2026 IC-6 version was seen only as a search result.",
+    "Status of PDPO reform: as at May 2026 the government was still studying mandatory breach notification and higher penalties, and no bill was confirmed.",
+    "How the Insurance Authority's powers over AIs acting as insurance intermediaries are delegated to the HKMA (exact statutory basis) was not verified.",
+    "Whether Hong Kong introduced a scam-loss sharing framework (comparable to Singapore's) by October 2026 was not checked.",
+    "The exact citation and title of the DPS representation rules (believed to be Cap. 581A) were not verified."
+   ]
+  },
+  {
+   "id": "supervision",
+   "review": "fact-checked",
+   "sources": [
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20221223-2-EN/SA-1.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20011011-2-EN/SA-1.pdf",
+    "https://sustainablefutures.linklaters.com/post/102i5im/hong-kong-monetary-authority-updates-risk-based-supervisory-approach-on-emerging",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/regulatory-supervisory-framework/",
+    "https://www.legco.gov.hk/yr04-05/english/bc/bc05/papers/bc050524cb1-ls70-e.pdf",
+    "https://www.legco.gov.hk/yr04-05/english/bc/bc05/minutes/bc050427.pdf",
+    "https://www.legco.gov.hk/yr04-05/english/bc/bc05/papers/bc050602cb1-1670-1e.pdf",
+    "https://www.legco.gov.hk/yr08-09/english/hc/sub_com/hs01/report/app_4d-e.pdf",
+    "https://www.legco.gov.hk/yr03-04/english/panels/fa/papers/fa1106cb1-226-1e.pdf",
+    "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/guide-to-authorization",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20220323-4-EN/Chapter-5.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2003/06/20030611-3",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2010/08/20100803-4",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2009/05/20090522-3/",
+    "https://www.info.gov.hk/gia/general/200810/24/P200810240085_print.htm",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/banking-policy-and-supervision/regulatory-framework/ma(bs)1fa(rev.200709)-eng.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20031106-2-EN/IC-3.pdf",
+    "https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/83022.pdf",
+    "https://www.info.gov.hk/gia/general/201212/21/P201212210314_print.htm",
+    "https://www.info.gov.hk/gia/general/202412/27/P2024122400404.htm",
+    "https://www.legco.gov.hk/yr11-12/english/ord/ord003-12-e.pdf",
+    "https://www.info.gov.hk/gia/general/200901/30/P200901300305_print.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/",
+    "https://www.hkma.gov.hk/media/eng/publication-and-research/quarterly-bulletin/qb200011/fa05.pdf",
+    "https://hkbedc.icac.hk/bank/text/en/206.html",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20171016-1-EN/20171016-1-EN.pdf",
+    "https://www.cliffordchance.com/briefings/2017/10/hkma-implements-measures-to-refine-management-accountability.html"
+   ],
+   "uncertain": [
+    "The precise limbs and trigger conditions of s.52(1) were not verified against the current Cap. 155 text; secondary sources confirm the direction (A), Advisor (B) and Manager (C) powers and contravention of the Ordinance as a ground.",
+    "Which MA decisions are appealable to the Chief Executive in Council under s.132A, and the section establishing the Banking Review Tribunal, were not verified against the current text; whether exposure-limit decisions are also within the Tribunal's jurisdiction was not confirmed.",
+    "Auditor reporting duties to the MA are described in SPM IC-3 as arising under ss.59A(2)(c), 63A and 63B; these section references were not checked against the current Ordinance.",
+    "Penalty levels for Banking Ordinance offences, and the section creating the offence of producing false information, were not confirmed; details of the January 2009 District Court case (institution, section, and to whom the information was produced) come from a search summary of a government press release.",
+    "The exact Eighth Schedule paragraph tying revocation to the Seventh Schedule authorization criteria was not verified; the HKMA's Guide to Authorization states that the criteria continue to apply after authorization.",
+    "Whether the HKMA has extended a Manager-in-Charge style accountability regime to AIs generally by October 2026 was not found; the 2017 circular covers registered institutions.",
+    "The 2017 circular refers to executive officers approved under s.71C, while a 2002 amending ordinance refers to s.71D for executive officers; the correct current section was not reconciled.",
+    "The specific mitigating factors (e.g. self-reporting, cooperation) in the HKMA's AMLO pecuniary penalty guideline were not verified.",
+    "That the CAMEL scale is five-point, and how far the HKMA formally restricts AIs from disclosing ratings, were not verified against SA-1 text.",
+    "Whether the Banking Ordinance expressly preserves legal professional privilege against s.55 or s.63 demands was not checked.",
+    "The years of the Octopus Cards Advisor direction and the Delta Asia Credit Manager appointment were not pinned down; the HKMA revoked the Octopus direction in May 2009 and the Delta Asia Manager appointment in October 2008."
+   ]
+  },
+  {
+   "id": "resolution",
+   "review": "draft",
+   "sources": [
+    "https://www.info.gov.hk/gia/general/201705/12/P2017051100767.htm",
+    "https://www.legco.gov.hk/yr18-19/english/hc/sub_leg/sc02/papers/sc0220181128cb1-244-1-e.pdf",
+    "https://www.legco.gov.hk/yr18-19/english/hc/sub_leg/sc02/papers/sc0220181128cb1-258-2-e.pdf",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/resolution/LAC-1_Resolution_Planning_LAC_Requirements_eng.pdf",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/resolution/Report_on_Loss_Absorbing_Capacity_Requirements_Implementation_in_Hong_Kong.pdf",
+    "https://www.info.gov.hk/gia/general/202106/25/P2021062400745.htm",
+    "https://www.legco.gov.hk/yr20-21/english/panels/fa/papers/fa20210301cb1-604-8-e.pdf",
+    "https://www.isda.org/a/g65gE/Standard-Contractual-Recognition-of-Hong-Kong-Stay-Clause.pdf",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/bank-resolution-regime/bank-resolution-standards/operational-continuity-in-resolution/",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20200619-2-EN/RE-1.pdf",
+    "https://www.hkma.gov.hk/eng/smart-consumers/deposits/",
+    "https://www.thestandard.com.hk/finance/article/343772/Deposit-Protection-Scheme-to-celebrate-20th-anniversary-on-Friday",
+    "https://www.legco.gov.hk/yr14-15/english/panels/fa/papers/fa20150504cb1-780-5-e.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2008/10/20081024-3",
+    "https://legco.gov.hk/yr98-99/english/panels/fa/papers/fa0305_6.htm",
+    "https://www.charltonslaw.com/hong-kong-law/virtual-bank-authorization-hkma-issues-new-guideline/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/speeches/s20180530e1.pdf"
+   ],
+   "uncertain": [
+    "Who has statutory standing to petition to wind up an AI under the Banking Ordinance (believed to be s.122) and on what grounds was not confirmed. Creditors' ability to petition under Cap. 32 is noted only in a 1999 LegCo paper.",
+    "The list of deposits excluded from DPS protection comes from a 2015 LegCo paper; check the current Schedule to Cap. 581.",
+    "The DPS Board's information-system requirements for payout (format and production deadline) were not checked.",
+    "The scope of OCIR-1 (whether it applies to all AIs or only those subject to resolution planning) and the HKMA's preferred resolution strategy for small AIs were not confirmed.",
+    "The extent to which FIRO, beyond the s.90(2) suspension power, prevents resolution action itself from triggering termination rights, and how far that reaches foreign-law or non-financial contracts.",
+    "The paragraph letters in s.52(1) for appointing an Advisor and for other measures (only (A) directions and (C) Manager were confirmed).",
+    "Whether the HKMA now formally calls virtual banks 'digital banks' (one secondary source says so, from October 2024).",
+    "Whether RE-1 has been revised after V.2 (June 2020) and whether LAC thresholds changed after the HKMA's five-year review."
+   ]
+  }
+ ],
+ "factCheckIssues": [
+  {
+   "stage_id": "map",
+   "location": "provisions[7].ref / provisions[7].url",
+   "problem": "The draft cites SPM IN as 'V.2, Nov 2024' and links to that PDF. V.2 (dated 15 Nov 2024) was superseded on 17 Jan 2025, so both the citation and the link point to an outdated version.",
+   "evidence": "BRDR search results: the IN 'V. 2' document is dated 15 November 2024 with a supersession date of 17 Jan 2025, and the current IN page (brdr.hkma.gov.hk/eng/doc-ldg/spm/current/IN) shows an issue date of 17 Jan 2025.",
+   "fix": "Changed ref to 'IN (Introduction); current version issued 17 Jan 2025' and the url to the BRDR current-IN page. Kept the V.2 PDF in sources.",
+   "severity": "error"
+  },
+  {
+   "stage_id": "map",
+   "location": "provisions[7].summary",
+   "problem": "'The HKMA requires compliance with the minimum standards' overstates the IN module's wording.",
+   "evidence": "IN states that the Manual sets out the minimum standards AIs are expected to attain in order to satisfy the requirements of the Banking Ordinance, together with best-practice recommendations.",
+   "fix": "Restated the summary in line with the IN wording.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "glossary[deposit].definition",
+   "problem": "The draft defines a deposit as a loan 'repayable on demand or on agreed terms'. That is not the statutory definition, which turns on the interest or premium element.",
+   "evidence": "HKMA Guide to Authorization, Chapter 2: s.2 defines 'deposit' as a loan of money at interest, at no interest or at negative interest, or repayable at a premium or with other consideration in money or money's worth, subject to exclusions (e.g. certain debenture/prospectus-related loans and loans tied to providing property or services).",
+   "fix": "Rewrote the definition to follow the statute. Also added the 'deposit' definition to the provisions[2] summary.",
+   "severity": "error"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "deepDive; provisions[8].summary",
+   "problem": "Two claims could not be confirmed: commencement dates (1 Jan 2027 / 1 Jan 2028 / 1 Jan 2032) and that the Bills Committee completed clause-by-clause scrutiny on 18 Sept 2026 (or that the Bill was before a Bills Committee in Sept 2026). Searches found only the gazettal (5 June 2026) and the scheduled First/Second Reading on 17 June 2026, and no Bills Committee record.",
+   "evidence": "Government press release, 5 June 2026 (info.gov.hk P2026060500217): gazettal, five areas of amendment, five-year DTC transition, amendments to the HKAB Ordinance and FIRO. LegCo agenda (via search): First and Second Reading at the 17 June 2026 meeting, with the debate adjourned. No source found for the commencement dates or for a September 2026 Bills Committee.",
+   "fix": "Removed the unconfirmed dates and committee progress from the deepDive and the provision summary and moved them to 'uncertain'. Replaced the vague 'amends other banking legislation, including enforcement powers' with the five confirmed areas and the scheduled 17 June 2026 reading. Revised the counselNote and the last pitfall to match.",
+   "severity": "unverifiable"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "sources",
+   "problem": "The cited LegCo Bills Committee minutes URL (yr2026/.../bc0320260918.pdf) could not be verified, and the claim it supported has been removed.",
+   "evidence": "Several searches for a Bills Committee on the Banking Legislation (Miscellaneous Amendments) Bill 2026 returned no record.",
+   "fix": "Removed the URL from sources.",
+   "severity": "unverifiable"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "deepDive; provisions[1].summary",
+   "problem": "The draft refers generically to 'the exemptions in s.3'. It also omitted the statutory presumption that the drafter had seen but could not place.",
+   "evidence": "HKMA Guide to Authorization, Chapter 2 (via search): s.3(1) specifies categories of non-authorized persons not subject to s.12(1). Section 12(8) presumes a business of taking deposits where deposits are taken on at least 5 separate occasions within any 30 days, absent evidence to the contrary.",
+   "fix": "Pinpointed s.3(1) and added the s.12(8) presumption, sourced to the HKMA Guide, with a note in 'uncertain' that it was not checked against e-Legislation.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "provisions[2].summary",
+   "problem": "The draft said s.2 defines 'the tier-specific businesses', which is unsupported. Its paraphrase of the 'at call or notice' limb was also loose.",
+   "evidence": "HKMA Guide to Authorization, Chapter 2: s.2 defines 'banking business' (accounts repayable on demand or within less than three months, or at call or notice of less than that period; paying or collecting customers' cheques) and 'deposit'.",
+   "fix": "Restated the definitions, removed 'tier-specific businesses' and added the 'deposit' definition. Also fixed the 'banking business' glossary entry.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "deepDive",
+   "problem": "'A DTC must be a local subsidiary' misstates the requirement. The requirement is local incorporation. The draft also omitted the DTC minimum capital, which it listed as unconfirmed.",
+   "evidence": "Search results (HKMA 2001 market-entry press release and three-tier summaries): minimum capital is HK$300m for licensed banks, HK$100m for RLBs and HK$25m for DTCs, and all DTCs must be incorporated in Hong Kong.",
+   "fix": "Changed to 'a DTC must be locally incorporated', added HK$25 million and removed the DTC capital item from 'uncertain'.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "deepDive; provisions[4].summary",
+   "problem": "The draft presented internet 'targeting' as statutory text. It is the MA's policy, set out in a guideline under s.92(6), and applies to offshore internet material.",
+   "evidence": "HKMA press release 24 May 2002, 'Issue of Guideline by the Monetary Authority in relation to Section 92(6) of the Banking Ordinance'. HKMA Guide Chapter 2 states that s.92 does not prohibit advertising of deposits placed outside Hong Kong but that such material must meet the Fifth Schedule disclosure requirements.",
+   "fix": "Attributed the targeting test to the s.92(6) guideline (May 2002) and confined it to offshore internet material. Raised confidence to high.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "itAngle[2]",
+   "problem": "The specific targeting factors (language, currency, contact details, geo-targeting) were attributed to s.92 but not verified against the s.92(6) guideline.",
+   "evidence": "No source reviewed lists the guideline's factors.",
+   "fix": "Rephrased to refer to the factors in the s.92(6) guideline without listing unverified ones. Added an 'uncertain' item.",
+   "severity": "unverifiable"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "deepDive (neighbouring regimes)",
+   "problem": "'Insurance business needs IA licensing' conflates insurer authorization with intermediary licensing. A bank's activity is distribution.",
+   "evidence": "Under the Insurance Ordinance, the IA licenses insurance intermediaries (the bank's bancassurance role) and separately authorizes insurers.",
+   "fix": "Changed to 'insurance distribution needs IA licensing'. Also dropped 'even for a bank' (the point is covered in provisions[7].counselNote).",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "provisions[3].summary",
+   "problem": "The exemption for representative offices was not pinpointed.",
+   "evidence": "HKMA Guide to Authorization, Chapter 7 (via search): s.97(1A) lets a local representative office of an overseas bank use its name in immediate conjunction with 'representative office'. HKMA treats domain names and logos as within s.97(1)(a).",
+   "fix": "Added the s.97(1A) pinpoint. The domain-name and logo point is confirmed.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "provisions[7].confidence; provisions[5].confidence",
+   "problem": "Confidence was understated for facts that are now confirmed.",
+   "evidence": "Cap. 656 commenced 1 Aug 2025 under L.N. 125 of 2025. First licences were granted 10 April 2026 to Anchorpoint Financial Limited and HSBC (HKMA announcement as reported). The HKMA Digital Banks page records the guideline as revised 30 May 2018 and renamed on 25 Oct 2024; consultation conclusions were issued 14 Oct 2024.",
+   "fix": "Raised both to high.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "deepDive (length)",
+   "problem": "The deepDive exceeded the 380-word limit, at roughly 430 words after corrections.",
+   "evidence": "Word count.",
+   "fix": "Tightened the text to about 375 words without losing substance. The tier list was kept, and the digital-bank requirements and neighbouring regimes were condensed into sentences.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "deepDive; provisions[8].summary/counselNote/ref/confidence",
+   "problem": "'Its latest revision took effect on 7 December 2023' assumes no later revision, which is unconfirmed. The compliance timeline was vague ('extensions possible where complex'), and the draft did not state the source of the authorization link.",
+   "evidence": "HKMA press release 7 Dec 2023 and the Code text: effective 7 Dec 2023, full compliance within 6 months, extended to 12 months for provisions requiring system changes, with HKMA monitoring in regular supervision. HKMA 2018 letter (20181019-4-EN): para 100 of the Guideline on Minimum Criteria for Authorization requires AIs to comply fully with the Code. A law-firm summary says non-adherence may lead to a review of whether the authorization criteria are met.",
+   "fix": "Reworded to 'the revised Code took effect on 7 December 2023', stated the 6/12-month timeline, and grounded the authorization link in the Minimum Criteria Guideline. Raised confidence to high.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "provisions[1].counselNote / summary",
+   "problem": "'Most SPM modules are issued under s.7(3)' is an unverified proportion. The s.7(2) paraphrase was also incomplete.",
+   "evidence": "A law-firm summary confirms CR-S-4 is a statutory guideline under s.7(3); no source quantifies how many modules are. A 2001 LegCo paper confirms the s.7(1) principal function and the s.7(2) duty to take reasonable steps to ensure AIs are operated in a responsible, honest and business-like manner.",
+   "fix": "Changed to 'Statutory SPM modules are issued as guidelines under s.7(3) (CR-S-4 is one example)' and expanded the s.7(2) paraphrase. Kept confidence at medium, with the s.7(3) wording flagged in 'uncertain'.",
+   "severity": "unverifiable"
+  },
+  {
+   "stage_id": "map",
+   "location": "provisions[6].summary",
+   "problem": "'Also set related governance and reporting requirements' for Cap. 155S was not verified.",
+   "evidence": "No source reviewed confirms governance or reporting content in Cap. 155S itself.",
+   "fix": "Removed the sentence.",
+   "severity": "unverifiable"
+  },
+  {
+   "stage_id": "map",
+   "location": "provisions[2].summary/ref",
+   "problem": "The s.16 provision did not pinpoint the subsections for discretion and mandatory refusal.",
+   "evidence": "HKMA Guide Chapter 4 / Minimum Criteria Guideline (via search): s.16(1) gives a general discretion; s.16(2) requires refusal if any Seventh Schedule criterion is not met; the guideline is issued under s.16(10); criteria are assessed on a continuing basis.",
+   "fix": "Added the s.16(1), (2) and (10) pinpoints and noted continuing assessment in the counselNote.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "glossary[BRDR].definition",
+   "problem": "'Launched in 2025' is imprecise.",
+   "evidence": "Search of the BRDR launch circular (20250328-2-EN) and HKMA guideline pages: the BRDR went live on 31 March 2025, and the legacy HKMA pages stopped updating from 28 March 2025.",
+   "fix": "Changed to 'launched in March 2025' and updated the 'uncertain' item.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "itAngle[1]",
+   "problem": "'BRDR IDs embed the issue date' is not reliably true.",
+   "evidence": "SPM IN V.2 is dated 15 Nov 2024 but its BRDR ID is 20241213-1-EN.",
+   "fix": "Rephrased: IDs begin with a date that is not always the date printed on the document, with the IN example.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "deepDive (FDRC bullet)",
+   "problem": "'Compulsory for HKMA-regulated institutions' covers a wider class (for example, SVF licensees) than could be verified.",
+   "evidence": "Membership is required of authorized institutions. No source was checked for other HKMA-regulated entities.",
+   "fix": "Changed to 'which authorized institutions must join'.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "overview; deepDive (length)",
+   "problem": "The overview (157 words) exceeded the 150-word limit, and the deepDive exceeded 380 words.",
+   "evidence": "Word count.",
+   "fix": "Dropped the overview's final signpost sentence (now 140 words) and tightened the deepDive (now about 377 words), including removing the e-Legislation parenthetical (point-in-time use remains in the checklist).",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "map",
+   "location": "uncertain",
+   "problem": "Several 'uncertain' items were resolved or needed updating: the BRDR date, Code monitoring and the IN version.",
+   "evidence": "See the evidence for the BRDR, Code and IN issues above.",
+   "fix": "Updated the list: BRDR date narrowed; Code monitoring item resolved and replaced with the open revision/paragraph question; IN version item added; s.7(3) and s.16(10) items refined.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "perimeter",
+   "location": "uncertain",
+   "problem": "Several 'uncertain' items were resolved: the DTC capital, the s.3(1) location, the presumption and Cap. 656 coverage of offshore HKD stablecoins.",
+   "evidence": "See the evidence for the DTC capital, s.12(8) and Cap. 656 issues above. Morgan Lewis and CMS summaries confirm that issuing HKD-referenced FRS outside Hong Kong requires a licence.",
+   "fix": "Removed or rewrote the resolved items, and added items for the unconfirmed Bill dates and committee stage, the IHC trigger wording and the s.92(6) factors.",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "authorization",
+   "location": "deepDive (paragraph 2)",
+   "problem": "\"The HKMA declined to lower that floor for digital entrants\" characterises an HKMA decision that could not be verified.",
+   "fix": "Replaced with the verifiable statement that the digital bank guideline applies the same HK$300 million floor.",
+   "severity": "unverifiable",
+   "evidence": "No source found for a decision not to lower the floor; HK$300m floor confirmed via LegCo L.N. 63 of 2002 and HKMA material."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "deepDive (paragraph 3); provisions[2].summary; glossary 'intermediate holding company'",
+   "problem": "The trigger for an intermediate holding company was put as the parent 'not being a bank or regulated financial institution'. The HKMA's test is whether the bank is majority-owned by a supervised bank or financial institution.",
+   "fix": "Reworded to 'where the bank is not majority-owned by a supervised bank or financial institution'.",
+   "severity": "imprecise",
+   "evidence": "Law-firm summaries of the 2018 and 2024 guidelines say a holder of more than 50% should be a supervised bank or financial institution, failing which a Hong Kong IHC is expected."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "deepDive (paragraph 3); itAngle[2]; uncertain",
+   "problem": "Described a single independent IT assessment. Its timing was listed as uncertain.",
+   "fix": "Clarified that there are two assessments: one filed with the application and a more detailed one before launch. Updated itAngle and the uncertain entry.",
+   "severity": "imprecise",
+   "evidence": "Charltons, Regulation Tomorrow and HKMA 2020 search results: the planned IT governance assessment goes in with the application, and a detailed assessment of the actual design, implementation and effectiveness is due before commencement of business."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "deepDive (paragraph 4)",
+   "problem": "The contrast between s.24 suspension 'without a prior hearing' and s.25 suspension 'after a hearing' was not verified.",
+   "fix": "Reframed as temporary suspension in urgent cases (s.24) or suspension for a longer period (s.25). Added that revocation requires notice of the grounds and an opportunity to be heard. Hearing requirements for s.25 are now flagged in uncertain.",
+   "severity": "unverifiable",
+   "evidence": "Search results confirm that Part VI contains s.24 (temporary suspension) and s.25 (suspension) on the same grounds as revocation, after FS consultation. The Guide to Authorization chapter on revocation and the 2008 Delta Asia press release confirm notice, grounds and opportunity to be heard before revocation."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "provisions[6].summary",
+   "problem": "Cited s.22(3) for the revocation process, but the subsection number could not be verified.",
+   "fix": "Removed the subsection reference. Described the process as shown in HKMA material: grounds, opportunity to be heard, and an effective date fixed only after appeal rights are exhausted or waived.",
+   "severity": "unverifiable",
+   "evidence": "HKMA Guide to Authorization (revocation chapter) and the Delta Asia Credit press release of 24 Oct 2008, both via search."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "provisions[7].summary and ref/section",
+   "problem": "'During suspension the institution may continue taking deposits only as the MA permits' is unverified and appears inconsistent with sources saying a suspended institution may not carry on deposit-taking.",
+   "fix": "Rewrote the summary to say that secondary sources indicate a suspended institution may not take deposits. Added the Part VI reference, set section to 24 and flagged the point in uncertain.",
+   "severity": "error",
+   "evidence": "Search summary of the Cap. 155 text: the restriction provisions carve out institutions suspended under ss.24 or 25, so a suspended institution cannot carry on deposit-taking."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "provisions[3].summary",
+   "problem": "Said the Guideline on Minimum Criteria contains a 'general expectation that controllers give letters of comfort'. This was not verified, and the draft omitted the focus of the February 2026 re-issue.",
+   "fix": "Removed the letter-of-comfort attribution. Added that the 27 Feb 2026 re-issue reportedly focused on resolution-related capabilities (medium confidence).",
+   "severity": "unverifiable",
+   "evidence": "Conventus/law-firm summary: the 27 Feb 2026 update focused on expectations for AIs on resolution and recovery planning (liquidity and funding capabilities), cross-referring to LFIR-1, FMI-1 and OCIR-1."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "provisions[4].confidence and summary",
+   "problem": "Confidence was understated. Chapter 9 dated 27 Feb 2026 and its statement on updated information are confirmed.",
+   "fix": "Raised confidence to high. Added the HKMA pointer to Chapters 2, 4 and 8.",
+   "severity": "imprecise",
+   "evidence": "Search of brdr.hkma.gov.hk Chapter 9 PDF (20260226-7-EN) and the HKMA digital banks page."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "provisions[9].summary and confidence; provisions[8].confidence",
+   "problem": "Confidence was understated, and the fee resolution's timing was imprecise.",
+   "fix": "Confirmed HK$610,000 effective 12 June 2024 and the 17 June 2026 notice of a resolution to raise the fee to HK$750,000, to be moved on 8 July 2026. Raised confidence to high for the Second Schedule and for s.132A.",
+   "severity": "imprecise",
+   "evidence": "Deacons, 5 Jul 2024: fee raised from HK$474,340 to HK$610,000 effective 12 June 2024. Government press release, 17 Jun 2026 (P2026061700692) and LegCo paper cm20260708: item 1/1A 610,000 to 750,000, resolution on 8 July. HKMA Delta Asia release confirms that a s.132A appeal goes to the CE in Council."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "checklist[2]",
+   "problem": "'July 2026 fee resolution' was imprecise: notice was given in June and the resolution was to be moved on 8 July 2026. The checklist also omitted the pending 2026 Bill.",
+   "fix": "Reworded to confirm whether the resolution moved on 8 July 2026 was passed, and to track the Banking Legislation (Miscellaneous Amendments) Bill 2026.",
+   "severity": "imprecise",
+   "evidence": "Government press release 17 Jun 2026; Bill gazetted 5 Jun 2026 (P2026060500217)."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "overview; glossary 'three-tier banking system'; deepDive (new watch-list paragraph)",
+   "problem": "Omitted a material pending change: the Banking Legislation (Miscellaneous Amendments) Bill 2026 would move to a two-tier system and create direct supervision of bank holding companies.",
+   "fix": "Added 'currently' in the overview. Updated the glossary definition. Added a short watch-list paragraph: gazetted 5 June 2026, most provisions proposed to commence 1 January 2027 if enacted.",
+   "severity": "imprecise",
+   "evidence": "Government press release 5 Jun 2026; LegCo LS33/2026; JSM and Stephenson Harwood briefings. First Reading 17 Jun 2026; Bills Committee meetings July and September 2026."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "virtualBankNotes[0]",
+   "problem": "'Existing licences were not affected' could not be verified.",
+   "fix": "Replaced with the verified point that the 25 Oct 2024 guideline superseded the 2018 guideline and that the authorization test remains the Seventh Schedule.",
+   "severity": "unverifiable",
+   "evidence": "HKMA digital banks page and the Timothy Loh note dated 25 Oct 2024. No source found on the effect on existing licences."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "virtualBankNotes[3]",
+   "problem": "'No strong case' paraphrase. HKMA said it did not see any strong justification for new VB players at that juncture.",
+   "fix": "Reworded to 'no strong justification for new licences at that time'.",
+   "severity": "imprecise",
+   "evidence": "HKMA press release 6 Aug 2024 (20240806-3) as quoted in search."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "glossary 'Supervisory Policy Manual'",
+   "problem": "Implied all SPM modules are statutory guidelines. Some, such as CG-5, are non-statutory guidance notes.",
+   "fix": "Added 'others are non-statutory guidance notes'.",
+   "severity": "imprecise",
+   "evidence": "HKMA letter of 29 Jul 2021 issuing CG-5 'as a guidance note'."
+  },
+  {
+   "stage_id": "authorization",
+   "location": "uncertain",
+   "problem": "Some uncertain items have been resolved, and new open points have arisen.",
+   "fix": "Removed the IT assessment timing item (now resolved, with a caveat). Added items on the effect of suspension on deposit-taking, the status of the 2026 Bill, and the two-tier treatment of capital floors. Revised the item on the February 2026 re-issues.",
+   "severity": "imprecise",
+   "evidence": "See the evidence for the items above."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[4] (CG-1) ref, summary, confidence",
+   "problem": "The summary said the 2025 revision 'reportedly folded in the December 2021 circular and addressed conflicts arising from external directorships'. This is unverified. The HKMA said the updates were primarily to align with international standards. The version number was missing.",
+   "fix": "Set ref to 'CG-1 (V.4, 1 Aug 2025)'. Replaced the unverified claim with the HKMA's own description. Added the table-of-contents topics (appointment, fit and proper, commitment, succession). Raised confidence to high.",
+   "severity": "unverifiable",
+   "evidence": "HKMA letter of 1 Aug 2025 (20250731-2-EN): revised CG-1 gazetted that day under s.7(3), with updates primarily to align with international standards. CG-1 cover: V.4, 01.08.2025."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[5] (CG-5); deepDive (paragraph 3)",
+   "problem": "Did not say that CG-5 is a non-statutory guidance note, unlike CG-1, and omitted the focus of the 2021 revision.",
+   "fix": "Described CG-5 as a guidance note and added the FSB misconduct-risk focus of the 2021 revision. Raised confidence to high.",
+   "severity": "imprecise",
+   "evidence": "HKMA letter of 29 Jul 2021 (20210729-1-EN): revised CG-5 issued as a guidance note, mainly reflecting FSB guidance on remuneration tools for misconduct risk. V.1 2010, V.2 2015."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[7] (16 Oct 2017 circular); deepDive (paragraph 2)",
+   "problem": "The draft said the HKMA expects persons in charge of 'core functions' to be drawn from CEs, alternates, s.72B managers or executive directors. This mis-states the circular, which defines 'management' and requires identification of the individuals principally responsible for regulated-activity businesses and functions.",
+   "fix": "Rewrote the summary and deepDive to match the circular: management means CEs and ACEs, s.71 directors, s.72B managers and s.71C executive officers, and submission with an organisation chart was due by 16 April 2018. Added s.71C consent for executive officers.",
+   "severity": "imprecise",
+   "evidence": "HKMA circular and FAQ 16 Oct 2017 (20171016-1-EN) as quoted in search; Clifford Chance, A&O and Regulation Tomorrow summaries."
+  },
+  {
+   "stage_id": "people",
+   "location": "deepDive (paragraph 1); virtualBankNotes[0]; uncertain",
+   "problem": "The mechanism for supervisory conditions on an intermediate holding company was left uncertain, although it is documented. The 2026 Bill on direct holding company supervision was omitted.",
+   "fix": "Added that the HKMA currently attaches conditions to the holding company's s.70 consent, and that the Banking Legislation (Miscellaneous Amendments) Bill 2026 would create direct powers over designated holding companies. Updated the uncertain list.",
+   "severity": "imprecise",
+   "evidence": "LegCo Brief B&M/2/1/33C (3 Jun 2026): the MA currently acts only indirectly, by attaching conditions to s.70 consent for a holding company to become controller. Bill gazetted 5 Jun 2026; new Part XIIIA on bank holding companies."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[1] (s.70A)",
+   "problem": "Incomplete: omitted the 2001 amendment enabling the MA to impose conditions on existing controllers.",
+   "fix": "Added this point. Kept medium confidence and flagged the exact s.70A scope in uncertain.",
+   "severity": "imprecise",
+   "evidence": "Banking (Amendment) Ordinance 2001 materials (ord032-01-e) as summarised in search."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[3] (s.72B)",
+   "problem": "Omitted the link between the s.72B regime (introduced in 2001) and the Fourteenth Schedule list of businesses and functions.",
+   "fix": "Added this with medium confidence and flagged the Fourteenth Schedule content in uncertain.",
+   "severity": "imprecise",
+   "evidence": "HKMA 2017 FAQ: AIs must notify appointments of managers for the businesses and functions listed in the Fourteenth Schedule. 2001 LegCo papers describe the new s.72B and Fourteenth Schedule."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[2] (s.71)",
+   "problem": "Omitted the MA's power to withdraw consent.",
+   "fix": "Added that the MA may withdraw consent if no longer satisfied that the person is fit and proper.",
+   "severity": "imprecise",
+   "evidence": "2005 LegCo paper (bc050524cb1-ls70): the MA may withdraw consent by notice, with at least 7 days' advance notice of the decision and reasons."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[9] (BELR) summary, counselNote, confidence; uncertain",
+   "problem": "The BELR commencement date and CR-G-9 version were listed as uncertain, but both can be confirmed. The notifiable-event consequence was omitted.",
+   "fix": "Stated that BELR has been in force since 1 July 2019 and that breach of the rule 87 limits is a notifiable event. Raised confidence to high. Narrowed the uncertain item to whether CR-G-9 V.5 has replaced V.4 (effective 1 Jan 2025).",
+   "severity": "imprecise",
+   "evidence": "HKMA Exposure Limits page (BELR effective 1 July 2019; Cap. 155S). LegCo brief 2018ln220-223: Part XV repealed on BELR commencement. CR-G-9 guidance: rule 87 breach is notifiable under rule 7(2)(l). CR-G-9 V.4 effective 1 Jan 2025; V.5 dated 'xx.12.2025'."
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[6] (Bank Culture Reform)",
+   "problem": "Imprecise reference to the December 2018 measures.",
+   "fix": "Attributed the measures to a December 2018 circular. Confirmed self-assessment, focused reviews and culture dialogues.",
+   "severity": "imprecise",
+   "evidence": "HKMA circular 'Supervision for Bank Culture', December 2018 (20181219-2-EN), via search."
+  },
+  {
+   "stage_id": "people",
+   "location": "checklist[4], checklist[7]",
+   "problem": "The checklist did not reflect the December 2018 culture circular or the pending holding company regime.",
+   "fix": "Changed 'circular' to 'circulars' and added an assessment of the 2026 Bill's holding company regime.",
+   "severity": "imprecise",
+   "evidence": "As above."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[9].url",
+   "problem": "The URL for the 19 Aug 2024 GenAI circular pointed to the 5 Nov 2019 big data/AI circular (docId 20191105-1-EN), not the 2024 circular.",
+   "fix": "Removed the url from the GenAI provision. The 2019 URL stays in sources as the earlier circular.",
+   "severity": "error",
+   "evidence": "The URL path contains 20191105-1-EN, which matches the 2019 circular. Search results report the GenAI circular around 19–21 Aug 2024."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[9].ref / counselNote",
+   "problem": "The 19 Aug 2024 date could not be confirmed: press coverage dates the circular around 21 Aug 2024. The customer 'options' (opt-out) expectation is only in secondary summaries.",
+   "fix": "Kept the date at medium confidence and listed it in uncertain. Removed 'and their options'. Added the sandbox launch date (13 Aug 2024, confirmed by the info.gov.hk release) and the 2026 GenA.I. Sandbox++ expansion (March 2026 joint circular).",
+   "severity": "unverifiable",
+   "evidence": "uabonline and cointelegraph coverage (21 Aug 2024); info.gov.hk P2024081300265 (HKMA and Cyberport launch GenA.I. Sandbox, 13 Aug 2024); MPFA joint circular 5 Mar 2026."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[5].summary",
+   "problem": "The draft said the HKMA was the designated authority 'for operators it regulates' without saying what it administers. Under Cap. 653 the MA administers the Category 1 (organisational) and Category 2 (preventive) obligations for banking and financial services CIs. Category 3 incident notifications go to the Commissioner.",
+   "fix": "Rewrote the summary to set out the three categories of duties, make the Commissioner the recipient of incident notifications, and limit the HKMA's role to the organisational and preventive obligations.",
+   "severity": "imprecise",
+   "evidence": "HKMA–Commissioner MoU (hkma.gov.hk Memorandum_of_Understanding.pdf, dated 29 May 2026) as quoted in search: the MA administers category 1 and category 2 obligations for banking and financial services CIs. Mayer Brown (Jan 2026) says designated authorities handle category 1 and 2."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[5].counselNote; checklist[4]",
+   "problem": "The draft did not mention the HKMA's own Cap. 653 Code of Practice for designated AIs. The MoU date was unconfirmed.",
+   "fix": "Added the HKMA Code of Practice for AIs designated as CIOs (2 June 2026). Confirmed the MoU date of 29 May 2026 at medium confidence.",
+   "severity": "imprecise",
+   "evidence": "brdr.hkma.gov.hk/eng/doc-ldg/current/20260527-25-EN (current issue date 02 Jun 2026, 'All Authorized Institutions'). hlc.com: HKMA codes for AIs, PSI operators and SVF licensees released 2–12 June 2026. Search excerpt of the MoU is dated 29 May 2026."
+  },
+  {
+   "stage_id": "technology",
+   "location": "deepDive (incident paragraph); itAngle[2]",
+   "problem": "The draft did not say who receives the Cap. 653 statutory notifications, so a reader could take the HKMA as the recipient.",
+   "fix": "The text now says the statutory deadlines are for notifying the Commissioner. The itAngle point now refers to Cap. 653 clocks specifically.",
+   "severity": "imprecise",
+   "evidence": "Stephenson Harwood, Tanner De Witt and UPPERSETUP summaries: CIOs notify the Commissioner's Office of incidents within 12 or 48 hours, with a written report within 14 days."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[2] (OR-2)",
+   "problem": "The draft left OR-2's status open, described the OR-1 revision only vaguely, linked the url to the cover letter instead of the module, and the counselNote contained 'seen in search results', which does not belong in learning material.",
+   "fix": "Stated that OR-2 is a non-statutory guidance note and that the revised OR-1 is dated 25 July 2022. Changed the url to the OR-2 module PDF. The counselNote now names the June 2026 letter 'Operational Resilience: Sustaining and Uplifting'.",
+   "severity": "imprecise",
+   "evidence": "KPMG 2022 summary: OR-2 is a non-statutory guidance note, and revised OR-1 issued 25 July 2022. Deloitte: deadlines of 31 May 2023 and 31 May 2026. brdr OR-2 module URL 20220531-2-EN/OR-2.pdf. regalert and brdr 20260529-5 search summary: the June 2026 letter reports an HKMA survey finding that all AIs achieved resilience by end-May 2026."
+  },
+  {
+   "stage_id": "technology",
+   "location": "deepDive (paragraph 1)",
+   "problem": "Only TM-G-1 was given as an example of a non-statutory module. OR-2 is also a non-statutory guidance note.",
+   "fix": "Added OR-2 to the non-statutory examples.",
+   "severity": "imprecise",
+   "evidence": "KPMG summary of OR-2 status."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[3] (TM-E-1)",
+   "problem": "The draft had TM-E-1 at medium confidence, although its version, date and statutory status can be confirmed. The 'ABC' measures were described too loosely.",
+   "fix": "Added V.4 dated 25.10.24, its supersession of earlier non-statutory versions and of the 2016 internet banking security circular. Spelled out 'Authenticate in-App' (Q4 2025) and the August 2025 'ABCD' addition of deepfake detection. Raised confidence to high.",
+   "severity": "imprecise",
+   "evidence": "Search of HKMA TM-E-1 PDF and regulationtomorrow: statutory guideline under s.7(3), V.4 25.10.24, scope extended to payment cards, supersedes the 2016 circular. HKMA 20250411 and 20250825 documents and LCQ7 (7 May 2025): Authenticate in-App by Q4 2025, ABCD adds deepfake detection."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[6] (incident circular)",
+   "problem": "The instrument title was generic. The draft said the circular requires 'management-endorsed internal criteria', which the available sources do not confirm.",
+   "fix": "Corrected the title to 'Incident response and management procedures'. Recast the internal-criteria point as counsel's advice, based on the HKMA not having published a list of notifiable incidents. Added the 12 Aug 2014 circular that refers back to it.",
+   "severity": "imprecise",
+   "evidence": "centralbanking.com/risk.net headline 'HKMA issues incident response and management procedures'. LCQ15 (4 May 2011): notify the HKMA immediately. RPC: the HKMA has not listed notifiable incidents. regalert: the 12 Aug 2014 circular reminds AIs to observe the 22 Jun 2010 circular."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[7]; deepDive (paragraph 2)",
+   "problem": "Whether the guide supersedes the 2022 cloud guidance, and that guidance's exact title ('Guidance on Cloud Computing'), are confirmed only by secondary sources, and those sources name it differently.",
+   "fix": "The text now says the guide 'is reported to supersede' the 2022 cloud guidance, without the exact title. Added the issue date of 8 Jan 2026 and the lifecycle approach, which are confirmed.",
+   "severity": "unverifiable",
+   "evidence": "Search: HKMA letter of 8 January 2026, coverage expanded from four to eight domains, cloud is about 80% of reportable tech outsourcing. regalert and Thales disagree on the predecessor's name."
+  },
+  {
+   "stage_id": "technology",
+   "location": "provisions[8].summary (CFI 2.0)",
+   "problem": "The draft stated flatly that the 2.0 review 'added incident response and recovery practices'. Only one secondary source supports that wording.",
+   "fix": "Reworded: the review streamlined the C-RAF assessment process and refreshed its control principles, with the incident response and recovery point attributed to industry summaries. Added the phased implementation.",
+   "severity": "imprecise",
+   "evidence": "HKMA press release 20201103-4 (via search): effective 1 Jan 2021, phased, three pillars unchanged. KPMG CFI 2.0 note: streamlined assessment."
+  },
+  {
+   "stage_id": "technology",
+   "location": "glossary (C-RAF)",
+   "problem": "The draft expanded iCAST as 'intelligence-led attack simulation testing', which leaves out 'cyber'.",
+   "fix": "Changed to 'intelligence-led cyber attack simulation testing (iCAST)'.",
+   "severity": "imprecise",
+   "evidence": "HKMA C-RAF terminology (Cyber Attack Simulation Testing)."
+  },
+  {
+   "stage_id": "technology",
+   "location": "deepDive (paragraph 2)",
+   "problem": "'Agreements must give' overstates SA-2, which is a non-statutory guideline.",
+   "fix": "Changed 'must give' to 'should give'.",
+   "severity": "imprecise",
+   "evidence": "SA-2 is a non-statutory SPM guidance module."
+  },
+  {
+   "stage_id": "technology",
+   "location": "checklist[6]",
+   "problem": "'Any SMS OTP fallback' did not reflect that the HKMA allows SMS OTP only in certain scenarios.",
+   "fix": "Changed to 'any permitted SMS OTP fallback'.",
+   "severity": "imprecise",
+   "evidence": "HKMA 20250411 letter (via search): AIs may still allow SMS OTP in certain scenarios."
+  },
+  {
+   "stage_id": "technology",
+   "location": "uncertain; sources",
+   "problem": "The uncertain list did not reflect what was now verified, and several sources consulted were missing.",
+   "fix": "Updated uncertain to show resolved points (OR-2 status, the ABC timeline, the MoU and CoP dates) and the points still open. Added the sources consulted.",
+   "severity": "imprecise",
+   "evidence": "See the searches above."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[9] (2017 circular)",
+   "problem": "The counselNote described s.72B as the approval provision for executive officers. According to the circular, executive officers are approved under s.71C, and s.72B relates to managers.",
+   "fix": "Corrected the summary to list CEs and alternate CEs, s.71 directors, s.72B managers and s.71C executive officers. Revised the counselNote to match. Added the circular url. Recorded the s.71C/s.71D inconsistency in uncertain.",
+   "severity": "error",
+   "evidence": "Search of HKMA circular 20171016 and Clifford Chance: 'management' covers CEs, alternate CEs, directors approved under s.71, s.72B managers and EOs approved under s.71C. A 2002 amending ordinance refers to s.71D."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[8].summary (offences)",
+   "problem": "The draft said 'a chief executive of an AI was convicted of this in 2009'. The 30 Jan 2009 government release reports that two men were fined for Banking Ordinance offences, and the defendants' roles are unclear. The draft also did not mention that s.97 allows use of 'bank' with the MA's consent.",
+   "fix": "Reworded to say the District Court fined individuals in January 2009 for offences including producing false information, and listed the details as uncertain. Added the MA-consent element to s.97 and the exceptions to s.92.",
+   "severity": "imprecise",
+   "evidence": "info.gov.hk P200901300305 'Two men fined for offences under Banking Ordinance' (via search). HKMA press release 20241115-3 on ss.97 and 97A. ICAC Bank on Integrity page lists ss.123 and 124."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "sources",
+   "problem": "The ICAC press release index_id_1885 could not be linked to s.124 BO. ICAC search results showed POBO prosecutions, not s.124 charges.",
+   "fix": "Replaced it with the ICAC Bank on Integrity page that describes ss.123 and 124. Added the other sources consulted.",
+   "severity": "unverifiable",
+   "evidence": "hkbedc.icac.hk/bank/text/en/206.html lists BO s.124 (advantages for favour in granting credit) and s.123 (false entries)."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "deepDive (paragraph 1)",
+   "problem": "The claim that the CAMEL rating 'informs the capital it is expected to hold' could not be verified.",
+   "fix": "Removed the clause. The rating is now said only to set supervisory intensity.",
+   "severity": "unverifiable",
+   "evidence": "SA-1 search results confirm the integration with CAMEL and supervisory intensity, but say nothing about a capital link."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[3] (s.59); deepDive; glossary (section 59 report)",
+   "problem": "The draft did not separate the notice power in s.59(2) from the MA's approval of the auditor in s.59(3).",
+   "fix": "Changed the ref to s.59(2), (3) and explained both steps. Added the published examples (BOCHK 2003, Octopus Cards 2010).",
+   "severity": "imprecise",
+   "evidence": "HKMA press release 20100803-4: notice under s.59(2), approval of Deloitte under s.59(3). HKMA press release 20030611-3: s.59 report on BOCHK."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[5] (revocation/suspension)",
+   "problem": "The draft left out the s.23 procedure (notice of grounds and an opportunity to be heard), and the order of the suspension sections needed confirming.",
+   "fix": "Added s.23. Confirmed s.24 (temporary suspension) and s.25 (suspension). Reworded the counselNote on revocation grounds to reflect the HKMA's statement that authorization criteria continue to apply.",
+   "severity": "imprecise",
+   "evidence": "LegCo LS70/04-05: revocation under s.22, suspension under s.25, temporary suspension under s.24. HKMA Guide to Authorization ch.5: s.22 on Eighth Schedule grounds, with s.23(1) notice and hearing."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[4] (s.52)",
+   "problem": "The draft did not identify the limbs of s.52 or give any practical examples.",
+   "fix": "Added the limb references (A), (B) and (C), with examples: an Advisor direction for Octopus Cards Limited and a Manager for Delta Asia Credit Limited. The grounds remain at medium confidence.",
+   "severity": "imprecise",
+   "evidence": "HKMA press release 20090522-3 (revocation of the Octopus direction). info.gov.hk P200810240085 (revocation of the Delta Asia Credit Manager appointment). Search summary: s.52(1)(B) and (C) used in these cases."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[1] (s.63)",
+   "problem": "The description of s.63(2) needed support.",
+   "fix": "Reworded to say s.63(2) supports further-information requests, citing the HKMA compliance certificate form, which gives s.63(2) as its legal basis. Kept at medium confidence.",
+   "severity": "imprecise",
+   "evidence": "HKMA form ma(bs)1fa: 'Information requested in this return is required under section 63(2) of the Banking Ordinance.'"
+  },
+  {
+   "stage_id": "supervision",
+   "location": "provisions[0] (SA-1)",
+   "problem": "The draft did not name the eight inherent risks or mention the 2022 revision's treatment of emerging risks.",
+   "fix": "Listed the eight risks and added that the 2022 revision expects emerging risks such as climate risk to be considered within them. V.2 date of 23 Dec 2022 confirmed.",
+   "severity": "imprecise",
+   "evidence": "brdr SA-1 V.2 (20221223) and V.1 (20011011) via search. Linklaters note on the 2022 revision and emerging risks."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "glossary (Advisor; Banking Review Tribunal)",
+   "problem": "The Advisor definition did not say that the MA appoints the Advisor and that the institution is required to seek its advice. The tribunal entry said 'hears appeals' and did not mention its origin.",
+   "fix": "Redefined Advisor as an MA-appointed person whose advice the institution must seek under s.52. For the tribunal, used 'reviews' and added that it was originally the Capital Adequacy Review Tribunal. Chair qualification confirmed.",
+   "severity": "imprecise",
+   "evidence": "LegCo bc050602cb1-1670: chairman qualified for appointment as a High Court judge under s.9 of Cap. 4. Ord. 3 of 2012 broadened the functions of the Capital Adequacy Review Tribunal. info.gov.hk 2024 release on BRT chairman appointment."
+  },
+  {
+   "stage_id": "supervision",
+   "location": "uncertain",
+   "problem": "The uncertain list needed updating: some points were resolved and new ones had emerged (s.71C/s.71D, the 2009 case details, the dates of the s.52 examples).",
+   "fix": "Updated the uncertain list.",
+   "severity": "imprecise",
+   "evidence": "See the searches above. Legal Data Hunter could not be used because the daily quota was reached, so statute text was not checked directly."
+  }
+ ]
+}

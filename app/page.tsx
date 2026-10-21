@@ -34,15 +34,16 @@ const TOPICS: Topic[] = [
     title: 'HK banking regulation',
     scope: 'Banking Ordinance (Cap. 155) · HKMA',
     description:
-      'Life of a bank: authorization, capital, AML, conduct, supervision, and resolution.',
-    status: 'next',
+      'Ten stages from the regulatory map to resolution, written for counsel at a digital bank, with the official statute text.',
+    status: 'live',
+    href: '/hk-banking/',
   },
   {
     title: 'HK securities regulation',
     scope: 'Securities and Futures Ordinance (Cap. 571) · SFC',
     description:
       'Licensing, conduct, market misconduct, takeovers, and enforcement routes.',
-    status: 'planned',
+    status: 'next',
   },
   {
     title: 'HK insurance regulation',

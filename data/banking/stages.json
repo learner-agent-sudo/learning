@@ -4,14 +4,1818 @@
   "index": 1,
   "title": "Regulatory map",
   "phase": "orientation",
-  "oneLiner": "This module is being written and fact-checked.",
-  "overview": "The ten stages of this module are being drafted and independently fact-checked. Check back soon.",
-  "deepDive": "The ten stages of this module are being drafted and independently fact-checked. Check back soon.",
-  "provisions": [],
-  "checklist": [],
-  "itAngle": [],
-  "virtualBankNotes": [],
-  "pitfalls": [],
-  "glossary": []
+  "review": "fact-checked",
+  "oneLiner": "Know who holds each power, and how much legal force each layer of rules carries, before advising on anything.",
+  "overview": "Banking supervision in Hong Kong sits with one statutory office. The Financial Secretary appoints the [[Monetary Authority]] under the Exchange Fund Ordinance (Cap. 66), and the [[HKMA]] is the organisation that supports the appointee. The Banking Ordinance (Cap. 155) gives banking powers to the MA personally: to authorize and revoke [[authorized institutions|authorized institution]], to supervise them and to issue guidelines. The MA's principal function is to promote the general stability and effective working of the banking system. Around the Ordinance sit three further layers. The first is binding rules on capital, liquidity, disclosure and exposure limits. The second is a large body of HKMA soft law, led by the [[Supervisory Policy Manual]]. The third is the industry [[Code of Banking Practice]]. Other regulators take over for particular activities: securities, insurance, personal data, deposit protection, dispute resolution and suspicious transaction reporting.",
+  "deepDive": "Read the regime as four layers, each with less legal force than the one before. The first is Cap. 155 itself: the perimeter (ss.11–12), authorization under s.16 against the Seventh Schedule minimum criteria, supervision (on-site examination under s.55, returns under s.63), remedial and enforcement powers, approval of controllers and senior management, and official secrecy (s.120). The second is rules made by the MA: the Banking (Capital) Rules (Cap. 155L), Banking (Disclosure) Rules (Cap. 155M), Banking (Liquidity) Rules (Cap. 155Q) and Banking (Exposure Limits) Rules (Cap. 155S). These are law and hold most of the prudential figures your finance team reports against.\n\nThe third is HKMA soft law. Section 7(3) lets the MA publish guidelines on how he will exercise his functions. Section 16(10) supports the Guideline on Minimum Criteria for Authorization, which explains how he reads the Seventh Schedule. Guidelines create no offences, but they bite through the authorization criteria: the Seventh Schedule requires prudent conduct and adequate systems of control, and the MA measures both against SPM modules and guidelines. A sustained shortfall invites remedial action and conditions, and ultimately puts the licence at risk. Each SPM module states whether it is a [[statutory guideline]]. Module codes are a subject prefix plus a number: CG governance, TM technology, OR operational risk, SA supervisory approach, CA capital. Circulars and FAQs carry deadlines and the HKMA's current interpretation.\n\nThe fourth is the Code of Banking Practice; the revised Code took effect on 7 December 2023. It is non-statutory, but the Minimum Criteria Guideline expects compliance, the HKMA monitors it in regular supervision, and non-adherence can prompt a review of whether the bank still meets the criteria.\n\nOther regulators, by activity:\n- securities business: the bank is a [[registered institution]] under SFO s.119, supervised front-line by the HKMA applying SFC standards;\n- insurance intermediary work: the Insurance Authority;\n- personal data: the PCPD;\n- deposit protection: the Deposit Protection Board (HK$800,000 cover since 1 October 2024);\n- complaints: the FDRC scheme, which authorized institutions must join;\n- suspicious transaction reports: the JFIU.\n\nThe MA is also the resolution authority under Cap. 628 and the AML relevant authority under Cap. 615.\n\nHow to research: start with HK e-Legislation, then the [[BRDR]] for guidelines, SPM modules, circulars and the Guide to Authorization.",
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Exchange Fund Ordinance (Cap. 66)",
+    "ref": "s.5A",
+    "title": "Appointment of the Monetary Authority",
+    "summary": "The Financial Secretary must appoint a Monetary Authority. The appointee assists the FS on Exchange Fund matters and performs functions given by other Ordinances. The HKMA, set up on 1 April 1993, is the office that supports the MA.",
+    "counselNote": "Banking powers belong to the MA personally. When you analyse where a decision came from and the limits of the power behind it, treat it as the MA's act under the relevant Ordinance.",
+    "cap": "66",
+    "section": "5A",
+    "url": "https://www.elegislation.gov.hk/hk/cap66",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.7",
+    "title": "Functions of the MA; power to issue guidelines",
+    "summary": "Section 7(1) gives the MA the principal function of promoting the general stability and effective working of the banking system. Section 7(2) lists specific functions, including supervising compliance with the Ordinance, promoting proper standards of conduct and sound and prudent business practices, and taking reasonable steps to ensure AIs are operated in a responsible, honest and business-like manner. Section 7(3) lets the MA publish guidelines on how he proposes to exercise his functions.",
+    "counselNote": "Statutory SPM modules are issued as guidelines under s.7(3) (CR-S-4 is one example), which is the legal basis for treating soft law as the standard the MA will apply. Check each module's classification line.",
+    "cap": "155",
+    "section": "7",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "medium"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.16 (incl. s.16(1), (2), (10))",
+    "title": "Grant of authorization; minimum criteria guideline",
+    "summary": "The MA has a general discretion to grant or refuse authorization (s.16(1)), and must refuse if any Seventh Schedule criterion is not met (s.16(2)). Section 16(10) supports the MA's Guideline on Minimum Criteria for Authorization, which explains how he interprets those criteria.",
+    "counselNote": "The criteria keep applying after authorization: the HKMA assesses compliance on a continuing basis and uses the same benchmarks to decide whether the bank keeps its licence. That is why a breach of a guideline carries licence-level risk.",
+    "cap": "155",
+    "section": "16",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "Seventh Schedule",
+    "title": "Minimum criteria for authorization",
+    "summary": "Sets the minimum criteria an AI must meet and keep meeting. They cover:\n- adequate home supervision of overseas applicants;\n- fit and proper controllers, directors and chief executives;\n- minimum capital and adequate financial resources and liquidity;\n- adequate accounting and control systems;\n- business conducted with integrity, prudence and professional competence.",
+    "counselNote": "Treat the Schedule as the bank's permanent compliance specification. The HKMA ultimately frames every major issue (outsourcing failure, technology outage, mis-selling) as a question under these criteria.",
+    "cap": "155",
+    "section": "Sch. 7",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "medium"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Capital) Rules (Cap. 155L)",
+    "ref": "Cap. 155L",
+    "title": "Capital adequacy",
+    "summary": "Sets out how AIs calculate their capital base and their risk-weighted amounts for credit, market and operational risk, and the minimum capital ratios. The Rules implement the Basel capital framework in Hong Kong.",
+    "counselNote": "Capital treatment can decide whether a product, partnership or intra-group arrangement is commercially viable. Bring finance in early when structuring.",
+    "cap": "155L",
+    "url": "https://www.elegislation.gov.hk/hk/cap155L",
+    "confidence": "high"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Liquidity) Rules (Cap. 155Q)",
+    "ref": "Cap. 155Q",
+    "title": "Liquidity requirements",
+    "summary": "Apply the Basel III liquidity standards. Category 1 institutions must meet the Liquidity Coverage Ratio and Net Stable Funding Ratio. Other AIs meet the Liquidity Maintenance Ratio and, where designated, a Core Funding Ratio.",
+    "counselNote": "A digital bank's deposits are taken through an app and can move quickly. The bank's liquidity category and ratios shape product terms such as notice periods and promotional rates.",
+    "cap": "155Q",
+    "url": "https://www.elegislation.gov.hk/hk/cap155Q",
+    "confidence": "medium"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Exposure Limits) Rules (Cap. 155S)",
+    "ref": "Cap. 155S",
+    "title": "Large exposures and connected exposures",
+    "summary": "Limit an AI's exposure to a single counterparty or a group of linked counterparties, and its exposure to connected parties.",
+    "counselNote": "Many digital banks are owned by technology groups. Whenever the bank deals with its shareholder group, intra-group deposits, guarantees and service arrangements may count as connected exposures.",
+    "cap": "155S",
+    "url": "https://www.elegislation.gov.hk/hk/cap155S",
+    "confidence": "medium"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "IN (Introduction); current version issued 17 Jan 2025",
+    "title": "How the SPM works",
+    "summary": "The SPM sets out the HKMA's supervisory policies, the minimum standards AIs are expected to attain in order to satisfy the requirements of the Banking Ordinance, and recommended best practice. Each module states its classification.",
+    "counselNote": "Read IN first. Then index the modules that apply to the bank's business model. Minimum standards are mandatory in practice. Best practice is not, but the HKMA will use it in argument.",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/spm/current/IN",
+    "confidence": "medium"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Banking Practice (HKAB and DTC Association, endorsed by HKMA)",
+    "ref": "Revised Code effective 7 Dec 2023",
+    "title": "Industry conduct code for customer dealings",
+    "summary": "A non-statutory code setting minimum standards for how AIs deal with customers. It covers matters such as disclosure of terms and charges, notice of changes, cards and electronic banking. AIs were to achieve full compliance with the revised provisions within six months, extended to 12 months for provisions requiring system changes.",
+    "counselNote": "The Code is non-statutory, but the Guideline on Minimum Criteria for Authorization expects AIs to comply with it, and non-adherence can prompt a review of whether the bank still meets the authorization criteria. Treat gaps against the Code as regulatory issues.",
+    "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571)",
+    "ref": "s.119",
+    "title": "Registration of AIs for SFC-regulated activities",
+    "summary": "An AI that carries on regulated activities, such as dealing in or advising on securities, must be registered with the SFC as a registered institution. The HKMA is the front-line supervisor of that business.",
+    "counselNote": "Investment, fund distribution and some digital-asset services sit in this dual regime. Staff doing the work must also be entered on the HKMA's register of relevant individuals.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "confidence": "high"
+   }
+  ],
+  "checklist": [
+   "Obtain the bank's authorization file: the licence, any conditions, the approval letters for controllers, chief executives and directors, and the correspondence on how the Digital Bank guideline was applied.",
+   "Build an obligations register that maps each applicable Cap. 155 provision, rule, SPM module, guideline and circular to an owner, a control and evidence.",
+   "Identify which SPM modules are statutory guidelines and which apply to the bank's business model, starting with governance, technology risk, operational resilience and outsourcing.",
+   "Set up a regulatory-change workflow: monitor the BRDR, HKMA circulars and SFC, IA and PCPD output, triage new items within a fixed time and record implementation deadlines.",
+   "Map every regulator touchpoint (HKMA case team, SFC, IA, PCPD, Deposit Protection Board, FDRC, JFIU), with notification duties and named contacts.",
+   "Confirm how the bank monitors its compliance with the Code of Banking Practice and how it evidences that compliance to the HKMA.",
+   "Adopt a research protocol: cite e-Legislation consolidated text using point-in-time versions, and keep a dated copy of every guideline version you rely on."
+  ],
+  "itAngle": [
+   "Think of the rulebook as a dependency tree. The Ordinance and rules are the kernel. Statutory guidelines are mandatory configuration baselines. Circulars and FAQs are patches. An obligations register works best as a CMDB-style mapping from each requirement to a control, a system and evidence.",
+   "Pin versions. Modules and guidelines are revised in place, so record the date, version and BRDR document ID of anything you rely on. BRDR IDs begin with a date (e.g. 20231207-1-EN), but that date is not always the date printed on the document: SPM IN V.2 is dated 15 Nov 2024 yet carries ID 20241213-1-EN.",
+   "Statutory returns under s.63 are data pipelines. Data lineage and reconciliation controls are what make a return defensible if the MA questions it.",
+   "Conduct rules often become UI requirements. Examples are fee disclosures, notice of changes and the DPS membership sign, which has been required on electronic banking platforms since 1 January 2025. Build these into product release checklists."
+  ],
+  "virtualBankNotes": [
+   "There is no separate statute for digital banks. Your bank is a licensed bank under Cap. 155 and is subject to the same Ordinance, rules and SPM. The Guideline on Authorization of Digital Banks sits on top; it was renamed from 'virtual banks' on 25 October 2024.",
+   "Some SPM modules carry extra weight for a digital bank: TM-G-1 (technology risk management), TM-E-1 (e-banking), OR-2 (operational resilience) and SA-2 (outsourcing). So do the HKMA's cyber-resilience circulars.",
+   "Use the current term 'digital bank' in policies and regulatory correspondence. Legacy documents and authorization papers may still say 'virtual bank'."
+  ],
+  "pitfalls": [
+   "Treating guidelines as optional because they are 'not law'. The MA assesses the Seventh Schedule against them, and that is where the licence risk sits.",
+   "Reading the Ordinance alone. The prudential detail is in the Cap. 155 subsidiary rules, and the operative expectations are in SPM modules and circulars.",
+   "Relying on a stale PDF or a law-firm summary instead of the current BRDR version and the circular that issued it.",
+   "Forgetting dual regulation. A single in-app feature, such as a fund platform, can engage the HKMA, SFC standards, the PCPD and the Code at once."
+  ],
+  "glossary": [
+   {
+    "term": "Monetary Authority",
+    "definition": "The statutory office appointed by the Financial Secretary under s.5A of the Exchange Fund Ordinance (MA). Banking powers under Cap. 155 are given to the MA personally."
+   },
+   {
+    "term": "HKMA",
+    "definition": "The Hong Kong Monetary Authority, the government organisation set up in 1993 to support the MA. In practice it is your counterpart in all supervisory dealings."
+   },
+   {
+    "term": "authorized institution",
+    "definition": "The term s.2 of Cap. 155 uses for any licensed bank, restricted licence bank or deposit-taking company (AI)."
+   },
+   {
+    "term": "Supervisory Policy Manual",
+    "definition": "The HKMA's compendium of supervisory policies, minimum standards and best practice for AIs (SPM), organised by subject into coded modules."
+   },
+   {
+    "term": "statutory guideline",
+    "definition": "A guideline or SPM module issued under a statutory power, usually s.7(3) of Cap. 155. It creates no offence, but it is the benchmark the MA applies when assessing the authorization criteria."
+   },
+   {
+    "term": "BRDR",
+    "definition": "The Banking Regulatory Document Repository: the HKMA's online library of guidelines, circulars, SPM modules and the Guide to Authorization, launched in March 2025."
+   },
+   {
+    "term": "registered institution",
+    "definition": "An AI registered with the SFC under s.119 SFO to carry on regulated activities such as dealing in or advising on securities. The HKMA supervises it front-line."
+   },
+   {
+    "term": "Code of Banking Practice",
+    "definition": "A non-statutory code issued by HKAB and the DTC Association and endorsed by the HKMA. It sets minimum standards for how AIs deal with customers."
+   }
+  ]
+ },
+ {
+  "id": "perimeter",
+  "index": 2,
+  "title": "Perimeter & licence tiers",
+  "phase": "orientation",
+  "review": "fact-checked",
+  "oneLiner": "Defines your bank's exclusive franchise and the edges where partners, affiliates and new products can breach it.",
+  "overview": "Hong Kong licenses activities, not business models. The Banking Ordinance reserves two activities. Only a bank may carry on [[banking business]] (s.11). Taking [[deposits|deposit]] as a business needs some form of authorization (s.12). Authorized institutions sit in three tiers: licensed banks, [[restricted licence banks|restricted licence bank]] and [[deposit-taking companies|deposit-taking company]]. What separates the tiers is mainly which deposits each may take. Your employer is a licensed bank, authorized under the HKMA's guideline for a [[digital bank]], so it holds the full deposit-taking franchise. The perimeter also works outward. It decides who may call itself a bank, who may advertise for deposits, and which neighbouring activities need their own licences: stored value, lending, remittance, stablecoins, securities and insurance. A 2026 Bill would merge the bottom two tiers.",
+  "deepDive": "Section 11 reserves 'banking business' (s.2) to banks: in essence, current, savings and similar accounts repayable on demand or within less than three months, and cheque services. Section 12 is wider: any business of taking deposits needs authorization, subject to the s.3(1) exemptions and the exclusions from 'deposit'. 'Business' means systematic, repeated activity, and s.12(8) presumes a business where deposits are taken on five or more occasions within any 30 days, absent evidence to the contrary. For a novel product, test each limb: a loan of money, any exemption or exclusion, and business.\n\nThe tiers:\n- A licensed bank alone may operate current and savings accounts and take deposits of any size and maturity.\n- A restricted licence bank (RLB) may take deposits of HK$500,000 or more, of any maturity.\n- A deposit-taking company (DTC) may take deposits of HK$100,000 or more with an original term of at least three months.\n\nMinimum capital is HK$300 million for a locally incorporated licensed bank, HK$100 million for an RLB and HK$25 million for a DTC. Overseas banks may operate as branches; a DTC must be locally incorporated. A Bill gazetted on 5 June 2026 would merge DTCs into the RLB tier after a five-year transition; check its status and commencement before relying on dates.\n\nA digital bank holds no separate type of licence. The HKMA's guideline (revised May 2018, renamed October 2024) applies the Seventh Schedule to banks operating mainly through electronic channels. It requires local incorporation, a Hong Kong intermediate holding company where the owner is not a bank or financial institution, a physical presence in Hong Kong and an exit plan. Eight licences were granted in 2019.\n\nSection 97 bars non-banks from using 'bank' without the MA's consent, and the HKMA treats domain names and logos as covered. Section 92 prohibits deposit advertisements unless an exception applies, chiefly for deposits with an AI; under the MA's s.92(6) guideline (May 2002), offshore internet material is caught if targeted at the Hong Kong public.\n\nNeighbouring regimes: a licensed bank is a deemed licensee for [[stored value facility]] business under Cap. 584; money lender and money service operator licensing do not apply to AIs; issuing a [[fiat-referenced stablecoin]] needs a separate Cap. 656 licence; securities business needs SFC registration and insurance distribution needs IA licensing.",
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.11",
+    "title": "Prohibition on banking business except by a bank",
+    "summary": "Only a bank authorized under the Ordinance (a licensed bank) may carry on banking business in Hong Kong. Contravention is an offence.",
+    "counselNote": "This section defines your bank's exclusive franchise: current and savings accounts and cheque services. Partners and affiliates that offer account-like features must not cross into it.",
+    "cap": "155",
+    "section": "11",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.12 (incl. s.12(1), (8))",
+    "title": "Prohibition on taking deposits as a business",
+    "summary": "Only an authorized institution of some tier may carry on a business of taking deposits (s.12(1)). Section 3(1) lists categories of persons not subject to the restriction. Section 12(8) presumes a business where a person took deposits on at least five separate occasions within any 30 days, absent evidence to the contrary.",
+    "counselNote": "Apply this test to fintech partners, group e-wallets and 'savings' features run by non-bank affiliates. If customer money is taken as a loan repayable to the customer and the activity is a business, it has to sit inside the bank.",
+    "cap": "155",
+    "section": "12",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.2",
+    "title": "Key definitions",
+    "summary": "Section 2 defines 'banking business', 'deposit' (with exclusions) and 'authorized institution', among others. 'Banking business' means receiving money from the general public on current, deposit, savings or similar accounts repayable on demand or within less than three months (or at call or on notice of less than that period), or paying or collecting cheques drawn by or paid in by customers. 'Deposit' means a loan of money at interest, at no interest or at negative interest, or repayable at a premium or with other consideration, subject to listed exclusions.",
+    "counselNote": "Start every perimeter opinion here. The exclusions from 'deposit' decide whether prepaid balances, collateral and intra-group funding are caught.",
+    "cap": "155",
+    "section": "2",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "medium"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.97 (incl. s.97(1A))",
+    "title": "Restriction on use of 'bank'",
+    "summary": "Without the MA's written consent, a non-bank may not use 'bank', its derivatives or the Chinese equivalent in its business name, or represent that it is a bank. HKMA guidance treats domain names and logos as covered. There are limited exemptions, for example for local representative offices of overseas banks (s.97(1A)).",
+    "counselNote": "Check group companies, app names, domains and social media handles. The HKMA publicly warns about crypto and other firms that misuse 'bank'.",
+    "cap": "155",
+    "section": "97",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.92 and Fifth Schedule",
+    "title": "Deposit advertisements",
+    "summary": "Section 92 prohibits issuing advertisements or documents that invite the public to make deposits, unless an exception applies. The main exception is material about deposits with an AI. Advertisements for deposits to be placed outside Hong Kong must meet the Fifth Schedule disclosure requirements. Under a guideline issued under s.92(6) in May 2002, the MA treats offshore internet material as caught where it is targeted at the Hong Kong public.",
+    "counselNote": "Your own advertisements fall within the exception. Co-branded, affiliate and influencer campaigns must clearly promote the bank's deposits, and they must also comply with the Code of Banking Practice.",
+    "cap": "155",
+    "section": "92",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "confidence": "high"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "Guideline on Authorization of Digital Banks (formerly Virtual Banks)",
+    "ref": "Revised 30 May 2018; renamed 25 Oct 2024",
+    "title": "Authorization criteria applied to digital banks",
+    "summary": "Explains how the MA applies the Seventh Schedule to banks that deliver services mainly or only through electronic channels. It covers:\n- local incorporation;\n- ownership by a suitable parent, or through a Hong Kong intermediate holding company;\n- physical presence;\n- an exit plan.\nDigital banks are supervised to the same standards as conventional banks, applied in a risk-based, technology-neutral way.",
+    "counselNote": "This is your licence-specific rulebook. In practice the HKMA monitors the commitments made at authorization (business plan, exit plan, ownership) as continuing obligations.",
+    "url": "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/digital-banks/",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Payment Systems and Stored Value Facilities Ordinance (Cap. 584)",
+    "ref": "SVF licensing regime",
+    "title": "Stored value facilities",
+    "summary": "Issuing a multi-purpose stored value facility requires a licence from the MA. Licensed banks are treated as deemed licensees, and SVF business run by banks is subject to the same supervision as non-bank licensees.",
+    "counselNote": "A wallet-style or prepaid feature may be an SVF rather than a deposit. The classification changes the rules that apply and the customer protection available.",
+    "cap": "584",
+    "url": "https://www.elegislation.gov.hk/hk/cap584",
+    "confidence": "medium"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Stablecoins Ordinance (Cap. 656)",
+    "ref": "In force 1 Aug 2025",
+    "title": "Licensing of stablecoin issuers",
+    "summary": "Creates an HKMA licensing regime for issuers of fiat-referenced stablecoins. The first licences were granted on 10 April 2026 to The Hongkong and Shanghai Banking Corporation Limited and Anchorpoint Financial Limited.",
+    "counselNote": "A banking licence does not authorize stablecoin issuance; HSBC needed a separate licence. Analyse stablecoin projects separately from tokenised deposits, which remain bank deposits.",
+    "cap": "656",
+    "url": "https://www.elegislation.gov.hk/hk/cap656",
+    "confidence": "high"
+   },
+   {
+    "kind": "other",
+    "instrument": "Banking Legislation (Miscellaneous Amendments) Bill 2026",
+    "ref": "Gazetted 5 June 2026",
+    "title": "Moving from three tiers to two, and other Banking Ordinance reforms",
+    "summary": "The Bill amends the Banking Ordinance in five areas: regulation of bank holding companies, engagement of skilled persons for supervisory purposes, modernisation of enforcement provisions, simplification of the three-tier system into two tiers, and technical amendments. Existing DTCs would have five years to become RLBs or wind down their deposit-taking. It also amends the Hong Kong Association of Banks Ordinance and the Financial Institutions (Resolution) Ordinance, and was scheduled for First and Second Reading in LegCo on 17 June 2026.",
+    "counselNote": "The tier merger barely touches a licensed bank's own franchise, but the holding-company, skilled-person and enforcement changes are likely to matter, especially for a bank held through an intermediate holding company. Confirm the enacted text and commencement provisions before relying on them.",
+    "url": "https://www.info.gov.hk/gia/general/202606/05/P2026060500217.htm",
+    "confidence": "high"
+   }
+  ],
+  "checklist": [
+   "Inventory every product and feature, and record which licence or exemption each relies on: banking licence, SVF deemed licence, SFC registration, IA licence or none.",
+   "Review group companies, partners and affiliates for any activity that could amount to taking deposits as a business. Bring such activity into the bank or restructure it.",
+   "Audit every use of 'bank' across group entity names, domains, app-store listings and social media handles. Obtain the MA's consent or rename where needed.",
+   "Clear deposit marketing against s.92 and the Code of Banking Practice, including co-branded, affiliate and influencer content.",
+   "Keep the commitments made at authorization (business plan, exit plan, ownership structure) current, and engage the HKMA before any material change.",
+   "Before any stablecoin, tokenised deposit or digital-asset design is fixed, analyse it against Cap. 656, the SFC regime and Cap. 155, and engage the HKMA early.",
+   "Track the Banking Legislation (Miscellaneous Amendments) Bill 2026 to enactment and diarise its commencement dates."
+  ],
+  "itAngle": [
+   "Encode licence limits as hard constraints in the product catalogue and core banking configuration, much like authorization scopes on an API. A misconfigured product or feature flag can itself be a perimeter breach.",
+   "Brand-protection tooling (domain and app-store monitoring, typosquat detection) also gathers intelligence for s.97 enforcement. The HKMA publishes alerts on fraudulent bank websites and on firms that misuse 'bank'.",
+   "Whether offshore internet material is 'targeted at' Hong Kong is judged on the factors in the MA's s.92(6) guideline. Ad-tech configuration, geo-targeting settings and logs are your evidence.",
+   "Test the exit plan as you would a disaster-recovery plan, with runbooks covering extraction of depositor data, the repayment channels and how repayment is funded."
+  ],
+  "virtualBankNotes": [
+   "The eight digital banks licensed in 2019 all hold full banking licences. They may run current and savings accounts, take deposits of any size and maturity, and are members of the Deposit Protection Scheme.",
+   "The guideline requires local incorporation. A parent that is not a bank or financial institution must hold the bank through a Hong Kong intermediate holding company, and the HKMA can attach supervisory conditions to that company.",
+   "The 2018 guideline expected no minimum-balance requirements or low-balance fees. It also required an exit plan setting out the triggers, who may activate it, the repayment channels and the funding. Check the current 2024 wording of both points.",
+   "Ownership by a technology group creates perimeter risk at the edges. The parent's wallet, lending or wealth apps must not take deposits or present themselves as the bank."
+  ],
+  "pitfalls": [
+   "Assuming 'deposit' means only bank accounts. Prepaid balances, customer float and 'savings pots' in non-bank apps can be deposits unless an exclusion applies.",
+   "Assuming the banking licence covers everything. Stablecoin issuance, securities business and insurance distribution each need their own licence or registration.",
+   "Letting group or partner branding use 'bank' in names, domains or app listings without the MA's consent.",
+   "Describing the three-tier structure without noting the pending move to two tiers, or quoting commencement dates for it before the enacted text confirms them."
+  ],
+  "glossary": [
+   {
+    "term": "banking business",
+    "definition": "Defined in s.2 of Cap. 155. It means receiving money from the general public on current, deposit, savings or similar accounts repayable on demand or within less than three months (or at call or on notice of less than that period), or paying or collecting cheques drawn by or paid in by customers. Only licensed banks may carry it on."
+   },
+   {
+    "term": "deposit",
+    "definition": "Defined in s.2 of Cap. 155 as a loan of money at interest, at no interest or at negative interest, or repayable at a premium or with other consideration, subject to a list of exclusions. Taking deposits as a business requires authorization."
+   },
+   {
+    "term": "restricted licence bank",
+    "definition": "The second-tier AI. It may take deposits of HK$500,000 or more of any maturity but may not operate current or savings accounts. It has traditionally been used for merchant and investment banking."
+   },
+   {
+    "term": "deposit-taking company",
+    "definition": "The third-tier AI. It may take deposits of HK$100,000 or more with an original maturity of at least three months. Under the 2026 Bill the tier would be merged into the restricted licence bank tier."
+   },
+   {
+    "term": "digital bank",
+    "definition": "The HKMA's term since October 2024, replacing 'virtual bank', for a bank that delivers services mainly or only through the internet or other electronic channels. It is a licensed bank, not a separate type of licence."
+   },
+   {
+    "term": "stored value facility",
+    "definition": "A facility that stores value paid in advance, which can be used to pay for goods and services or transferred to others. It is regulated under Cap. 584, and licensed banks are treated as deemed licensees."
+   },
+   {
+    "term": "fiat-referenced stablecoin",
+    "definition": "A crypto-asset designed to hold a stable value by reference to one or more official currencies. Issuing one within the scope of Cap. 656 requires an HKMA licence."
+   }
+  ]
+ },
+ {
+  "id": "authorization",
+  "index": 3,
+  "title": "Authorization",
+  "phase": "entry",
+  "review": "fact-checked",
+  "oneLiner": "The licence is conditional and continuing: lose any minimum criterion and the bank faces suspension or revocation.",
+  "overview": "In Hong Kong only an [[authorized institution]] may take deposits from the public, and only a licensed bank may carry on banking business in the full sense. Authorization is granted by the [[Monetary Authority]] within what is currently a [[three-tier banking system]] of licensed banks, restricted licence banks and deposit-taking companies. Your employer is a licensed bank that is also a [[digital bank]], the HKMA's term since October 2024 for what were called virtual banks. The gate is the [[Seventh Schedule]] to the Banking Ordinance: minimum criteria covering fit and proper people, capital, liquidity, systems of control, prudent conduct and minimum paid-up capital. It is less a one-off exam than a health check the bank must keep passing, because ceasing to meet the criteria is a ground for suspension or revocation. Digital banks meet the same criteria, read through a dedicated HKMA guideline.",
+  "deepDive": "Mechanics. An application is made to the MA (s.15), which grants or refuses it under s.16 and may attach conditions. Under s.16(10) the MA publishes how it reads the Seventh Schedule: the Guideline on Minimum Criteria for Authorization (re-issued February 2026) and, for your bank, the Guideline on Authorization of Digital Banks (October 2024), reproduced in Chapter 9 of the Guide to Authorization. These guidelines are not law, but they are how the MA decides whether it is satisfied, so treat them as the licence's terms of reference.\n\nWhat the criteria demand. The Schedule is outcome-based: fit and proper chief executives, directors and controllers; adequate capital and liquidity (calibrated through the Banking (Capital) Rules and Banking (Liquidity) Rules); adequate provisioning; adequate accounting systems and systems of control; business conducted with integrity, prudence and professional competence; and minimum paid-up share capital of HK$300 million for a licensed bank. The digital bank guideline applies the same floor.\n\nThe digital-bank overlay. Expect to evidence: local incorporation and a physical presence in Hong Kong; where the bank is not majority-owned by a supervised bank or financial institution, a Hong Kong [[intermediate holding company]] subject to supervisory conditions; letters of comfort from controllers; a credible business plan with no minimum-balance requirements or low-balance fees; technology risk management to [[Supervisory Policy Manual]] standards, tested by independent expert assessments (one with the application, a more detailed one before launch); and an [[exit plan]] for an orderly, solvent unwind.\n\nKeeping the licence. Eighth Schedule grounds include, in substance, ceasing to meet the criteria, breaching conditions or the Ordinance, and threats to depositors' interests. After consulting the Financial Secretary, the MA can propose revocation (s.22), giving notice of the grounds and an opportunity to be heard, or suspend authorization, temporarily in urgent cases (s.24) or for a longer period (s.25). Appeals lie to the Chief Executive in Council (s.132A). In practice the HKMA escalates through supervisory dialogue, conditions and s.52 powers long before revocation.\n\nWatch list. The Banking Legislation (Miscellaneous Amendments) Bill 2026, gazetted on 5 June 2026, would merge the lower two tiers into a two-tier system and give the MA direct powers over designated bank holding companies; most provisions are proposed to commence on 1 January 2027 if enacted.",
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.16",
+    "title": "Grant of authorization, conditions and interpretive guidelines",
+    "summary": "The MA may grant or refuse authorization as a bank, restricted licence bank or deposit-taking company and may attach conditions; grant turns on the MA being satisfied that the Seventh Schedule criteria are met. Section 16(10) empowers the MA to publish guidelines on how it interprets those criteria.",
+    "counselNote": "Your licence conditions are bespoke, binding and often sit in correspondence rather than the statute; keep them in a tracked register alongside the s.16(10) guidelines.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "16",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "Seventh Schedule",
+    "title": "Minimum criteria for authorization",
+    "summary": "Sets the criteria an institution must meet: fit and proper chief executives, directors and controllers; adequate capital, liquidity and provisions; adequate accounting systems and systems of control; business conducted with integrity, prudence and professional competence; and minimum paid-up share capital (HK$300 million for a licensed bank, raised from HK$150 million by a 2002 amendment).",
+    "counselNote": "The criteria apply continuously, not only at grant; use the Schedule as the master framework against which board papers, launches and incidents are tested.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "Sch. 7",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "Guideline on Authorization of Digital Banks",
+    "ref": "25 Oct 2024 (issued under s.16(10); replaced the 2018 Guideline on Authorization of Virtual Banks)",
+    "title": "How the minimum criteria apply to digital banks",
+    "summary": "Explains how the Seventh Schedule applies to banks that deliver services mainly through electronic channels: local incorporation, physical presence in Hong Kong, ownership expectations (including a Hong Kong intermediate holding company where the bank is not majority-owned by a supervised bank or financial institution), the HK$300 million capital floor, a credible business plan without minimum balances or low-balance fees, technology risk management backed by independent expert assessment, outsourcing, customer protection and an exit plan.",
+    "counselNote": "This is the document the HKMA will hold your bank to; update internal policies and contracts that still cite the superseded virtual bank guideline.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "HKMA Guideline on Minimum Criteria for Authorization",
+    "ref": "Re-issued 27 Feb 2026 (s.16(10))",
+    "title": "HKMA interpretation of each minimum criterion",
+    "summary": "Sets out how the MA interprets each Seventh Schedule criterion, including the fit and proper considerations for directors, chief executives and controllers. The February 2026 re-issue reportedly focused on resolution-related expectations, such as maintaining liquidity, funding and operational capabilities that support an orderly resolution.",
+    "counselNote": "Read it before any appointment, shareholder change or material business change; it is the practical rulebook behind most HKMA approvals.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-1-EN"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "HKMA Guide to Authorization",
+    "ref": "Chapter 9 (27 Feb 2026)",
+    "title": "Authorization of digital banks (consolidated restatement)",
+    "summary": "Reproduces the digital bank guideline within the HKMA's Guide to Authorization and states that it may include updated information not yet reflected in the guideline itself. The HKMA also points prospective applicants to Chapters 2, 4 and 8 of the Guide.",
+    "counselNote": "Check Chapter 9 as well as the 2024 guideline, since it may carry newer cross-references.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-7-EN"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.15",
+    "title": "Application for authorization",
+    "summary": "Applications for authorization are made to the MA, supported by the information and documents the MA requires.",
+    "counselNote": "Statements in the application (business plan, IT architecture, exit plan) become the baseline the HKMA supervises against; material departures later should be discussed with the HKMA first.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "15",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.22; Eighth Schedule",
+    "title": "Revocation of authorization and the grounds for it",
+    "summary": "The MA, after consulting the Financial Secretary, may propose to revoke an authorization where a ground in the Eighth Schedule exists. The institution must be told the grounds and given an opportunity to be heard, and the effective date is fixed only once appeal rights are exhausted or waived. The grounds include, in substance, ceasing to meet the minimum criteria, contravening the Ordinance or conditions, and circumstances threatening depositors' interests.",
+    "counselNote": "Every Seventh Schedule weakness is a potential Eighth Schedule ground; escalation logic in your compliance framework should reflect that.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "22",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "ss.24-25 (Part VI)",
+    "title": "Temporary suspension and suspension of authorization",
+    "summary": "Part VI allows the MA, after consulting the Financial Secretary, to suspend authorization on the same grounds as revocation: temporarily under s.24 (an urgent route, reported as up to 14 days) or for a longer period under s.25 (reported as up to six months, renewable). Secondary sources indicate that a suspended institution may not carry on deposit-taking business while suspended.",
+    "counselNote": "Suspension is the realistic severe outcome for a distressed bank; your crisis playbook should cover the notice and representation process and depositor communications.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "24",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.132A",
+    "title": "Appeals against MA decisions",
+    "summary": "Specified decisions of the MA, including a proposed revocation of authorization, may be appealed to the Chief Executive in Council.",
+    "counselNote": "Know the appeal route and timetable before a contentious HKMA decision arrives, not after.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "132A",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "Second Schedule",
+    "title": "Licence fees",
+    "summary": "Prescribes the fees payable on authorization and on renewal at each anniversary of the authorization date. The banking licence and renewal fee has been HK$610,000 since 12 June 2024; on 17 June 2026 the Government gave notice of a resolution, to be moved in LegCo on 8 July 2026, to raise it to HK$750,000.",
+    "counselNote": "Diary the anniversary date and confirm the current amount; fees are amended by LegCo resolution, not by HKMA circular.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "Sch. 2",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   }
+  ],
+  "checklist": [
+   "Build a criteria map linking each Seventh Schedule criterion and each digital bank guideline expectation to an owner, evidence, board reporting line and last test date.",
+   "Extract every condition in the authorization letter and later variations into a tracked obligations register with triggers and owners.",
+   "Diary the licence fee renewal (the authorization anniversary), confirm whether the fee resolution moved on 8 July 2026 was passed, and track the Banking Legislation (Miscellaneous Amendments) Bill 2026 through LegCo.",
+   "Confirm that controllers' letters of comfort remain in force and reassess them whenever a parent's financial position or ownership changes.",
+   "Review the exit plan at least annually and after any business-model change, and test its operational steps rather than leaving it as a document.",
+   "Discuss material changes to the business plan, core platforms, outsourcing or target segments with the HKMA before implementation.",
+   "Prepare a suspension and revocation playbook covering Eighth Schedule triggers, the notice and representation process, the s.132A appeal route and depositor communications.",
+   "Keep the independent IT assessment reports and evidence of remediation of every finding ready for supervisory review."
+  ],
+  "itAngle": [
+   "Treat the Seventh Schedule like a control framework: map each criterion to control objectives and evidence, much as you would map ISO 27001 controls into a statement of applicability. The HKMA asks for evidence, not policy documents.",
+   "The adequate accounting systems and systems of control criterion is where IT bites hardest: core banking, general ledger and regulatory reporting pipelines must be reliable, because HKMA returns are only as good as the data lineage behind them.",
+   "The independent expert IT assessments are in effect architecture and security audits at two gates, design (with the application) and pre-production (before launch); run them with severity-rated findings, owners and closure evidence, measured against the HKMA's technology risk modules (notably TM-G-1).",
+   "An exit plan is a decommissioning runbook: it needs customer data export formats, notification channels, payment-scheme offboarding, vendor termination sequencing and tested deposit repayment processes."
+  ],
+  "virtualBankNotes": [
+   "Since 25 October 2024 the HKMA uses the term digital bank, and the Guideline on Authorization of Digital Banks superseded the 2018 virtual bank guideline; the authorization test is still the Seventh Schedule.",
+   "A digital bank is a licensed bank: the same Ordinance, Seventh Schedule, HK$300 million capital floor and SPM apply. The guideline adds expectations rather than exemptions.",
+   "No minimum balance requirements or low-balance fees: a pricing constraint that counsel should police through product approval.",
+   "The HKMA's August 2024 review found the eight digital banks had met the policy objectives but none was profitable at end-2023, and saw no strong justification for new licences at that time; expect continued scrutiny of business plan viability."
+  ],
+  "pitfalls": [
+   "Treating authorization as a closing event: the criteria are continuing, and drifting below any of them is a revocation or suspension ground.",
+   "Overlooking bespoke licence conditions, which are often more specific than the statute and live in HKMA correspondence.",
+   "Citing the superseded 2018 virtual bank guideline or outdated terminology in policies, submissions and contracts.",
+   "Changing the business model (new segments, outsourcing, products) without revisiting the business plan and exit plan the HKMA relied on."
+  ],
+  "glossary": [
+   {
+    "term": "Monetary Authority",
+    "definition": "The statutory office, held by the Chief Executive of the HKMA, that exercises the powers under the Banking Ordinance, including authorization, approvals and revocation."
+   },
+   {
+    "term": "authorized institution",
+    "definition": "A bank, restricted licence bank or deposit-taking company authorized under the Banking Ordinance. Only authorized institutions may take deposits from the public in Hong Kong."
+   },
+   {
+    "term": "three-tier banking system",
+    "definition": "Hong Kong's current structure of licensed banks (full banking business, including current and savings accounts), restricted licence banks and deposit-taking companies, the latter two being limited in the deposits they may take. A 2026 Bill proposes merging deposit-taking companies into the restricted licence bank tier to create a two-tier system."
+   },
+   {
+    "term": "Seventh Schedule",
+    "definition": "The schedule to the Banking Ordinance listing the minimum criteria for authorization, which must be met at grant and continuously afterwards."
+   },
+   {
+    "term": "digital bank",
+    "definition": "The HKMA's term since October 2024 (formerly virtual bank) for a bank that delivers services primarily, if not entirely, through the internet or other electronic channels rather than physical branches."
+   },
+   {
+    "term": "intermediate holding company",
+    "definition": "A Hong Kong-incorporated holding company between a digital bank and owners that are not supervised banks or financial institutions, on which the HKMA imposes supervisory conditions."
+   },
+   {
+    "term": "exit plan",
+    "definition": "A plan, required of digital bank applicants, for unwinding the business in an orderly and solvent manner if the business model fails."
+   },
+   {
+    "term": "Supervisory Policy Manual",
+    "definition": "The HKMA's collection of supervisory modules (such as CG-1 and TM-G-1). Many are statutory guidelines issued under s.7(3) of the Banking Ordinance; others are non-statutory guidance notes."
+   }
+  ]
+ },
+ {
+  "id": "people",
+  "index": 4,
+  "title": "Controllers & key people",
+  "phase": "entry",
+  "review": "fact-checked",
+  "oneLiner": "Owners, directors and senior managers need prior HKMA approval or notification; group deals and appointments fail without it.",
+  "overview": "The Banking Ordinance regulates who may own and who may run a bank, not only what the bank does. Before anyone becomes a [[minority shareholder controller]], [[majority shareholder controller]] or [[indirect controller]] of a Hong Kong-incorporated bank, the Monetary Authority must consent. Chief executives, their alternates and directors also need the MA's prior approval, and senior [[managers|manager]] must be notified to it. Around this statutory core the HKMA has layered governance expectations: a board with a real [[independent non-executive directors|INED]] element, pay that does not reward reckless risk-taking, a bank culture programme, and reference checks so misconduct does not follow people from bank to bank. For a digital bank owned by a technology or fintech group, this area also covers how the parent stands behind the bank and how intra-group dealings are controlled.",
+  "deepDive": "Controllers. Section 70 prohibits becoming a controller of a locally incorporated AI without the MA's prior written consent. The thresholds come from the s.2 definitions: 10% or more of voting power (minority), more than 50% (majority), or influence over directors who are accustomed to act on a person's instructions (indirect). Voting power is counted with associates and through holding companies, so a restructuring of a tech parent, a new fund investor or a parent-level IPO can trigger consent even though the bank's own register is unchanged. Consent can be conditional: today the HKMA reaches holding companies indirectly, through conditions attached to their s.70 consent, and the Banking Legislation (Miscellaneous Amendments) Bill 2026 would add direct powers over designated holding companies. Section 70A lets the MA object to existing controllers. Treat s.70 consent as a condition precedent in every deal touching the group cap table, and expect the HKMA to ask new controllers for a [[letter of comfort]].\n\nPeople. Section 71 requires MA consent before a person becomes chief executive, alternate chief executive or (for a locally incorporated AI) director. Managers are notified under s.72B rather than approved, but the fit and proper approach in the Guideline on Minimum Criteria for Authorization applies to them in substance. If the bank is a registered institution for securities business, the HKMA's October 2017 accountability circular, its counterpart to the SFC's [[Manager-in-Charge]] regime, expects it to identify the senior individuals principally responsible for each regulated-activity business and function; executive officers also need MA consent (s.71C).\n\nGovernance and culture. CG-1 (V.4, August 2025) sets board, INED, committee and conflicts expectations; CG-5, a guidance note, governs remuneration; the March 2017 Bank Culture Reform circular makes the board own culture. The [[Mandatory Reference Checking Scheme]], widened in Phase 2 from 30 September 2025, requires conduct references covering up to seven years; build it into HR workflows.\n\nGroup dealings. Exposures to connected parties, including the parent group, controllers and directors, are limited under Part 8 of the Banking (Exposure Limits) Rules, with systems expectations in CR-G-9. For a tech-parented digital bank, intra-group cloud, data, marketing and payment arrangements need arm's-length terms, outsourcing controls and exposure monitoring.",
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.70 (with s.2 definitions)",
+    "title": "MA consent to become a controller",
+    "summary": "No person may become a minority shareholder controller (10% to 50% of voting power), majority shareholder controller (over 50%) or indirect controller of an AI incorporated in Hong Kong without the MA's prior written consent, which may be given subject to conditions. The requirement does not apply to controllers of AIs incorporated outside Hong Kong.",
+    "counselNote": "Upstream changes in a tech parent's ownership can create a new controller of the bank; run a s.70 analysis on every group-level transaction and build HKMA review time into deal timetables.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "70",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.70A",
+    "title": "Objection to existing controllers",
+    "summary": "Empowers the MA to object to a person who is already a controller, for example where that person is no longer fit and proper, with statutory consequences for the controller's position. A 2001 amendment also enabled the MA to impose conditions on existing controllers.",
+    "counselNote": "Controller approval is not a once-only pass; sanctions, enforcement action or insolvency at a parent should prompt a fresh assessment and early HKMA dialogue.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "70A",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.71",
+    "title": "Approval of chief executives and directors",
+    "summary": "No person may become the chief executive (or alternate chief executive) of an AI, or a director of an AI incorporated in Hong Kong, without the MA's written consent. The MA may withdraw consent if it ceases to be satisfied that the person is fit and proper.",
+    "counselNote": "Make MA consent a condition of every board appointment and succession plan; an appointment that takes effect before consent is a breach.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "71",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.72B",
+    "title": "Notification of managers",
+    "summary": "An AI must notify the MA of the individuals it appoints as managers, that is, persons principally responsible (alone or jointly) for the conduct of particular affairs or business of the institution. The regime, added in 2001, is linked to the businesses and functions listed in the Fourteenth Schedule.",
+    "counselNote": "Decide deliberately who is a s.72B manager (heads of technology, risk, compliance, AML and so on); the list drives MRC coverage and accountability mapping.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "72B",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "CG-1 (V.4, 1 Aug 2025)",
+    "title": "Corporate governance of locally incorporated AIs",
+    "summary": "Statutory guideline under s.7(3) setting expectations on board responsibilities, structure and composition, the chair, INEDs, board committees, appointment of directors (fit and proper, commitment, succession) and conflicts of interest. The HKMA said the 2025 updates were primarily to align with international standards.",
+    "counselNote": "Benchmark board and committee charters, INED numbers and expertise, and directors' time commitments against CG-1, and document the rationale for any departure.",
+    "confidence": "high"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "CG-5 (V.3, 29 Jul 2021)",
+    "title": "Guideline on a Sound Remuneration System",
+    "summary": "Guidance note requiring remuneration systems consistent with effective risk management, covering board oversight, pay structure, risk-adjusted performance measurement, alignment with risk time horizons, and remuneration disclosure. The 2021 revision reflected Financial Stability Board guidance on using remuneration tools to address misconduct risk.",
+    "counselNote": "Growth-stage digital banks tend to reward customer acquisition; make sure sales metrics do not dominate variable pay and that malus and clawback tools can respond to misconduct.",
+    "confidence": "high"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular",
+    "ref": "Circular, 2 Mar 2017",
+    "title": "Bank Culture Reform",
+    "summary": "Asks locally incorporated AIs to strengthen governance, incentive systems, and assessment and feedback mechanisms to promote sound culture, with the board setting the tone. A December 2018 circular added self-assessments, focused reviews and culture dialogues.",
+    "counselNote": "Expect the HKMA to test culture through outcomes such as complaints, incidents and staff surveys; give the board evidence, not slogans.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20170302-2-EN/20170302-2-EN.pdf"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular",
+    "ref": "Circular, 16 Oct 2017",
+    "title": "Management accountability at registered institutions",
+    "summary": "For AIs registered with the SFC to carry on regulated activities, treats chief executives (including alternates), s.71 directors, s.72B managers and s.71C executive officers as management, and required each institution to identify the individuals principally responsible for its regulated-activity businesses and functions, with an organisation chart, by 16 April 2018.",
+    "counselNote": "Relevant if the bank distributes investment products or carries on other regulated activities; keep the accountability map consistent with s.72B notifications.",
+    "confidence": "high"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "Mandatory Reference Checking Scheme (HKAB/DTCA guidelines, endorsed by HKMA)",
+    "ref": "Phase 1: 2 May 2023; Phase 2: 30 Sep 2025",
+    "title": "Conduct-related reference checks",
+    "summary": "AIs hiring into covered roles must request conduct-related information from current and former employers covering up to seven years, and must respond to such requests. Phase 1 covered senior roles such as directors, chief executives and notified managers; Phase 2 extended coverage to a much wider population, including staff licensed or registered for securities, insurance or MPF activities.",
+    "counselNote": "References carry personal data and defamation risk; set a defensible process for recording conduct information and responding to requests.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20250723-1-EN/20250723-1-EN.pdf"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Exposure Limits) Rules (Cap. 155S)",
+    "ref": "Part 8; SPM CR-G-9",
+    "title": "Limits on exposures to connected parties",
+    "summary": "Connected-party exposure limits, formerly in Part XV of the Banking Ordinance, have sat in Part 8 of the BELR since 1 July 2019; breach of the rule 87 limits is a notifiable event. HKMA systems and controls expectations are in SPM CR-G-9 (Exposures to Connected Parties). Connected parties broadly include directors, controllers, group companies and persons related to them.",
+    "counselNote": "A tech-parented bank has dense intra-group dealings; flag group entities and key people in exposure systems, keep terms no more favourable than arm's length, and treat a limit breach as an immediate reporting issue.",
+    "confidence": "high",
+    "cap": "155S",
+    "section": "Pt. 8",
+    "url": "https://www.elegislation.gov.hk/hk/cap155S"
+   }
+  ],
+  "checklist": [
+   "Map the full ownership chain to ultimate owners and identify everyone who is, or could become, a minority, majority or indirect controller.",
+   "Insert s.70 consent as a condition precedent, with realistic long-stop dates, in any transaction affecting group shareholdings, including parent-level fundraisings and restructurings.",
+   "Maintain a register of s.71 consents and s.72B notifications, with a succession timetable that allows for HKMA processing time.",
+   "Benchmark board and committee composition and charters against CG-1 (V.4, August 2025).",
+   "Review the remuneration policy and sales incentive schemes against CG-5 and the Bank Culture Reform circulars.",
+   "Embed MRC Phase 2 steps into recruitment and leaver workflows, with PDPO-compliant record-keeping.",
+   "Inventory intra-group arrangements (cloud, data, payments, marketing, shared staff) and test them against connected-party limits, CR-G-9 and outsourcing requirements.",
+   "Keep controllers' letters of comfort current, brief the parent on its continuing obligations as a controller, and assess how the holding company regime in the 2026 Bill would affect the group."
+  ],
+  "itAngle": [
+   "Model the group as a graph: controller status depends on voting power aggregated through holding chains and associates, much like computing effective permissions through nested groups in an identity and access system.",
+   "Accountability maps (s.72B managers and regulated-activity responsibilities) should line up with system ownership; each critical platform should have a named, notified individual, and RACI or CMDB ownership data are useful evidence.",
+   "MRC and fit and proper records are personal data: design retention, access control and data-correction processes under the PDPO.",
+   "Technology services from a tech parent are both a connected-party and an outsourcing issue; feed the outsourcing register and the connected-exposure system from one source of truth."
+  ],
+  "virtualBankNotes": [
+   "Where the bank is not majority-owned by a supervised bank or financial institution, the HKMA expects a Hong Kong intermediate holding company; it and the ultimate parent will typically be controllers needing s.70 consent, the HKMA attaches supervisory conditions to that consent, and letters of comfort are expected. The 2026 Bill would allow direct supervision of designated holding companies.",
+   "Tech-group parents often have founders, venture funds and public shareholders upstream; changes in that cap table are a common source of unexpected controller approvals.",
+   "Executives shared with or seconded from the parent need s.71 consent or s.72B notification in their bank role, plus conflicts management under CG-1."
+  ],
+  "pitfalls": [
+   "Looking only at the bank's own share register, when controller status is tested through the ownership chain and with associates.",
+   "Announcing or completing an appointment before the MA's s.71 consent is given.",
+   "Running regulated-activity accountability mapping and s.72B notifications as separate exercises, leaving gaps the HKMA will notice.",
+   "Assuming intra-group arrangements are exempt because they are within the family; connected-party limits and arm's-length expectations still apply."
+  ],
+  "glossary": [
+   {
+    "term": "minority shareholder controller",
+    "definition": "A person who, alone or with associates, is entitled to exercise or control 10% or more, but not more than 50%, of the voting power at general meetings of an AI or of a company of which it is a subsidiary."
+   },
+   {
+    "term": "majority shareholder controller",
+    "definition": "A person who, alone or with associates, is entitled to exercise or control more than 50% of that voting power."
+   },
+   {
+    "term": "indirect controller",
+    "definition": "A person in accordance with whose directions or instructions the directors of an AI, or of its holding company, are accustomed to act."
+   },
+   {
+    "term": "manager",
+    "definition": "Under the Banking Ordinance, an individual appointed by an AI to be principally responsible, alone or jointly, for the conduct of particular affairs or business; appointments are notified to the MA under s.72B."
+   },
+   {
+    "term": "Manager-in-Charge",
+    "definition": "The SFC's term for individuals principally responsible for core functions of a licensed corporation; the HKMA applies a parallel accountability approach to registered institutions."
+   },
+   {
+    "term": "letter of comfort",
+    "definition": "A letter from a controller to the HKMA committing to provide capital and/or liquidity support to the AI if needed."
+   },
+   {
+    "term": "INED",
+    "definition": "Independent non-executive director. CG-1 sets expectations for the number, independence and expertise of INEDs on the boards of locally incorporated AIs."
+   },
+   {
+    "term": "Mandatory Reference Checking Scheme",
+    "definition": "An HKMA-endorsed industry scheme requiring AIs to obtain and give conduct-related references when hiring into covered roles, to stop misconduct following people between banks."
+   }
+  ]
+ },
+ {
+  "id": "prudential",
+  "index": 5,
+  "title": "Capital & liquidity",
+  "phase": "operate",
+  "review": "draft",
+  "oneLiner": "Capital and liquidity ratios decide whether the bank can grow, pay dividends or stay licensed; counsel owns the legal plumbing.",
+  "overview": "Prudential regulation asks two questions: can the bank absorb losses, and can it pay depositors on demand? Capital is the loss-absorbing layer, measured as a percentage of [[risk-weighted assets|RWA]], with [[CET1]] as the highest-quality tier. Liquidity is the cash-flow layer: enough liquid assets and stable funding to survive outflows. Hong Kong implements the Basel framework mainly through rules made under the Banking Ordinance (Cap. 155): the Banking (Capital) Rules (Cap. 155L), Banking (Liquidity) Rules (Cap. 155Q), Banking (Exposure Limits) Rules (Cap. 155S) and Banking (Disclosure) Rules (Cap. 155M), supplemented by Supervisory Policy Manual (SPM) modules. The rules supply the formulae; the HKMA's supervisory review ([[Pillar 2]]) adds bank-specific requirements. Counsel rarely runs the numbers, but owns the legal architecture around them: board approvals, capital instruments, parent support, limits on distributions and the accuracy of what is reported.",
+  "deepDive": "Think of capital as a stack of thresholds. The Banking (Capital) Rules set minimums of 4.5% CET1, 6% Tier 1 and 8% total capital. Above these sit buffers: a 2.5% [[capital conservation buffer]], a [[countercyclical capital buffer]] (CCyB) weighted by where the bank's private-sector credit exposures are located (the HKMA cut Hong Kong's rate to 0.5% in October 2024), and, for D-SIBs only, a higher loss absorbency surcharge. Using a buffer is not a breach, but it triggers automatic limits on distributions: dividends, buybacks, discretionary bonuses and AT1 coupons. A 3% [[leverage ratio]], which ignores risk weights, acts as a backstop.\n\nThe MA can raise an individual bank's minimums under s.97F of the Banking Ordinance, after giving it a chance to make representations. This is how the Pillar 2A add-on from the supervisory review under SPM CA-G-5 becomes legally binding. The bank's real floor is therefore higher than the published Basel figures, and it is usually confidential.\n\nMost of the Basel III final reform package took effect on 1 January 2025: revised credit and operational risk, and an [[output floor]] that rises in stages to 72.5%. The market risk and CVA changes followed their own HKMA timetable, so confirm which apply to the bank. For a bank on standardised approaches the floor rarely bites. The revised risk weights and the new operational risk charge matter more.\n\nLiquidity uses two tiers. Category 1 institutions, designated by the MA, must meet the LCR and NSFR. All other AIs are category 2 and must meet a 25% [[LMR]]; category 2A institutions must also meet a 75% core funding ratio. The Exposure Limits Rules cap exposure to any counterparty group at 25% of Tier 1 and also govern exposures to connected parties, including the bank's own shareholders.\n\nFor a loss-making digital bank, the key judgements concern runway. Operating losses reduce CET1 directly. Deferred tax assets arising from tax losses are deducted, and so is capitalised software held as an intangible, so accounting equity overstates regulatory capital. The capital plan should show when ratios will reach the board's internal trigger, which sits above the Pillar 2A floor plus buffers. Parent injections should be approved in advance and documented. Dividends are not an option until accumulated losses have been cleared, because company law allows distributions only out of distributable profits (Cap. 622, Part 6).",
+  "provisions": [
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Capital) Rules (Cap. 155L)",
+    "ref": "Capital adequacy ratios, buffers and leverage ratio",
+    "title": "Minimum capital ratios and buffers",
+    "summary": "The Rules set the minimum CET1 (4.5%), Tier 1 (6%) and total capital (8%) ratios and define what counts as capital and which deductions apply. They also set the capital conservation, countercyclical and D-SIB buffers, which carry distribution constraints, and a minimum leverage ratio of 3%.",
+    "counselNote": "The legal definition of eligible capital decides whether a parent injection counts as CET1. Distribution constraints also limit dividends and discretionary bonuses before any formal breach.",
+    "confidence": "high",
+    "cap": "155L",
+    "url": "https://www.elegislation.gov.hk/hk/cap155L"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.97F",
+    "title": "MA's power to vary capital requirements for a particular AI",
+    "summary": "Allows the MA to vary capital requirement rules for a particular AI, including raising its minimum capital adequacy ratios, where it is satisfied on reasonable grounds that this is prudent. The AI may make representations before the variation takes effect.",
+    "counselNote": "This is the legal route for Pillar 2A add-ons. Treat a proposed variation as a decision with due-process rights, and keep the resulting minimums in a controlled, confidential register.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "97F",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Capital) (Amendment) Rules 2023",
+    "ref": "Commencement 1 Jan 2025",
+    "title": "Basel III final reform package",
+    "summary": "Amends Cap. 155L to implement the revised credit risk, operational risk, market risk (FRTB) and CVA risk frameworks and the output floor. Following LegCo negative vetting in early 2024, a commencement notice gazetted in October 2024 brought them into force on 1 January 2025. The HKMA set a separate timetable for the market risk and CVA requirements; confirm which are in force for the bank.",
+    "counselNote": "Any capital plan, board paper or pricing model from before 2025 rests on the old risk weights. Ask Finance to confirm that projections and RWA engines reflect the amended Rules.",
+    "confidence": "medium",
+    "cap": "155L",
+    "url": "https://www.elegislation.gov.hk/hk/cap155L"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Liquidity) Rules (Cap. 155Q)",
+    "ref": "Category 1 / category 2 / category 2A",
+    "title": "Liquidity ratios",
+    "summary": "Category 1 institutions, designated by the MA, must keep the LCR and NSFR at or above 100%. Category 2 institutions must meet a 25% Liquidity Maintenance Ratio, and category 2A institutions must also meet a 75% Core Funding Ratio. SPM LM-1 gives the detailed supervisory guidance.",
+    "counselNote": "Confirm the bank's designated category in writing. Treat a ratio breach as a notification event with an escalation path to the board and the HKMA.",
+    "confidence": "high",
+    "cap": "155Q",
+    "url": "https://www.elegislation.gov.hk/hk/cap155Q"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Exposure Limits) Rules (Cap. 155S)",
+    "ref": "r.44(1)",
+    "title": "Large exposure limit and connected exposures",
+    "summary": "Limits an AI's exposure to any single counterparty or linked counterparty group to 25% of Tier 1 capital, and separately controls exposures to connected parties. The Rules came into force on 1 July 2019 and took full effect after a six-month grace period. SPM CR-G-8 treats exposures at or above 10% of Tier 1 as large exposures.",
+    "counselNote": "Intra-group placements, guarantees and service prepayments to the parent are exposures to connected parties, so check them before signing. Placing surplus deposits with a few banks can also reach the 25% limit.",
+    "confidence": "high",
+    "cap": "155S",
+    "section": "44",
+    "url": "https://www.elegislation.gov.hk/hk/cap155S"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Disclosure) Rules (Cap. 155M)",
+    "ref": "Pillar 3 disclosure",
+    "title": "Public regulatory disclosures",
+    "summary": "Requires AIs to publish standardised information on capital, RWA, leverage, liquidity and risk management, using HKMA templates and at prescribed frequencies.",
+    "counselNote": "Pillar 3 disclosures are public statements. They need the same verification and sign-off discipline as financial statements, and must be consistent with what the bank tells investors and customers.",
+    "confidence": "high",
+    "cap": "155M",
+    "url": "https://www.elegislation.gov.hk/hk/cap155M"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "CA-G-5",
+    "title": "Supervisory review process (Pillar 2)",
+    "summary": "A statutory guideline issued under s.7(3) of the Banking Ordinance. It sets out how the HKMA assesses each AI's capital adequacy assessment process (CAAP/ICAAP) and sets Pillar 2 requirements, including expectations on stress testing within the CAAP.",
+    "counselNote": "The ICAAP is a board document. Make sure the board can show it challenged the document rather than simply receiving it.",
+    "confidence": "high"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "IC-5",
+    "title": "Stress-testing",
+    "summary": "A guidance note, revised in 2012 to reflect Basel stress-testing principles, on how AIs should design, govern and use stress tests. The HKMA applies it proportionately to the scale and complexity of the AI.",
+    "counselNote": "Stress-test outputs feed capital planning, recovery triggers and exit-plan triggers. Make sure the scenarios include a fast digital deposit run and a failure of parent support.",
+    "confidence": "high"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "IR-1",
+    "title": "Interest rate risk in the banking book",
+    "summary": "Sets out HKMA expectations for measuring, managing and reporting interest rate risk on non-trading positions, broadly in line with the Basel IRRBB standards.",
+    "counselNote": "A bank that wins deposits by pricing promotions and then holds fixed-rate assets is exposed to interest rate risk. Product terms on repricing and early withdrawal are legal levers that affect this risk.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Banking (Capital) Rules (Cap. 155L)",
+    "ref": "ss.3F–3K",
+    "title": "Limits on distributions inside the buffers",
+    "summary": "When a bank's CET1 ratio falls into its buffer range (capital conservation, countercyclical and any D-SIB buffer), the Rules cap distributions such as dividends, discretionary bonuses and AT1 coupons at a maximum distributable amount until the buffers are rebuilt.",
+    "counselNote": "Separately, company law allows dividends only out of distributable profits (Companies Ordinance, Cap. 622, Part 6), so a start-up bank with accumulated losses cannot pay any. Check both tests before approving a distribution.",
+    "url": "https://www.elegislation.gov.hk/hk/cap155L",
+    "cap": "155L",
+    "section": "3F",
+    "confidence": "high"
+   }
+  ],
+  "checklist": [
+   "Obtain the bank's current Pillar 2A / s.97F capital notice, its liquidity category designation and the board-approved internal trigger levels, and hold them in a controlled register.",
+   "Build a capital-runway calendar with Finance: monthly CET1 projections against the board trigger, plus the lead time for a parent injection (board and shareholder resolutions, allotment and any HKMA engagement).",
+   "Review parent support documents (letter of comfort, capital support agreement) and confirm that planned injections will qualify as CET1.",
+   "Screen every intra-group arrangement (service fees, guarantees, deposits with or loans to group companies) against the connected-exposure rules and arm's-length terms before signing.",
+   "Embed legal review in regulatory reporting governance: attestations, treatment of manual adjustments, and a protocol for notifying the HKMA of errors and restating returns.",
+   "Test every proposed distribution (dividends, discretionary bonuses, AT1 coupons) against the buffer stack (Cap. 155L ss.3F–3K) and the Companies Ordinance (Cap. 622) distributable-profits rule.",
+   "Brief the board each year on the ICAAP, stress-test results and capital and liquidity triggers, and make sure the minutes record real challenge.",
+   "Track HKMA consultations and amendments to Cap. 155L, 155Q and 155S, and map each change to a system change request and owner."
+  ],
+  "itAngle": [
+   "The capital and RWA engine is effectively a rules engine that encodes Cap. 155L. Treat each rule amendment like a release: trace each provision to calculation logic, then to a test case, then to the cell in the return. Counsel can own the interpretation log for that release.",
+   "Regulatory returns are legal statements to the regulator. Insist on documented data lineage from the core ledger to each return, automated reconciliations and four-eyes control over manual overrides, in line with BCBS 239 data-aggregation principles.",
+   "Large-exposure and connected-exposure monitoring is an entity-resolution problem. Grouping counterparties correctly needs reliable data on corporate hierarchies and control.",
+   "Deposits can leave at app speed over FPS, 24x7. Liquidity monitoring and stress scenarios should model weekend and intraday outflows at digital run velocity, not branch-era assumptions.",
+   "Capitalised software is generally deducted from CET1 as an intangible asset, so build, buy or SaaS decisions have regulatory capital consequences as well as accounting ones."
+  ],
+  "virtualBankNotes": [
+   "A digital bank is a licensed bank and is subject to the same capital, liquidity and exposure rules. There is no lighter prudential regime, and the HK$300 million minimum paid-up capital for licensed banks applies.",
+   "Start-up losses erode CET1 every month. The HKMA expects shareholders to stand behind the bank, and its digital bank guidance cautions against aggressive growth funded by sustained losses.",
+   "Digital banks are typically category 2 institutions for liquidity (LMR-based) unless the MA designates otherwise. Confirm the bank's actual designation.",
+   "A deposit-rich, loan-light balance sheet pushes surplus funds into interbank placements and securities. Concentration there can reach large-exposure limits."
+  ],
+  "pitfalls": [
+   "Treating accounting equity as regulatory capital, and overlooking CET1 deductions for deferred tax assets on tax losses and for capitalised software and other intangibles.",
+   "Assuming the headline Basel minimums plus buffers are the binding floor, when the confidential Pillar 2A add-on and board triggers sit higher.",
+   "Relying on informal parent support (comfort letters, emails) as if it were capital that will arrive on time in a crisis.",
+   "Letting finance teams fix return errors quietly instead of following a defined notification and restatement process with the HKMA."
+  ],
+  "glossary": [
+   {
+    "term": "CET1",
+    "definition": "Common Equity Tier 1: ordinary shares, share premium, retained earnings and disclosed reserves, less regulatory deductions such as intangibles and certain deferred tax assets. It is the highest-quality capital and absorbs losses first."
+   },
+   {
+    "term": "RWA",
+    "definition": "Risk-weighted assets: the bank's exposures weighted for credit, market, operational and CVA risk under the Capital Rules. RWA is the denominator of the capital ratios."
+   },
+   {
+    "term": "Pillar 2",
+    "definition": "The supervisory review layer, in which the HKMA assesses risks not fully captured by the Pillar 1 formulae and sets bank-specific add-ons (a binding Pillar 2A minimum and a Pillar 2B buffer)."
+   },
+   {
+    "term": "capital conservation buffer",
+    "definition": "A 2.5% of RWA layer of CET1 held above the minimum. If the bank's capital falls into it, automatic restrictions on distributions apply."
+   },
+   {
+    "term": "countercyclical capital buffer",
+    "definition": "A time-varying CET1 buffer that authorities set for each jurisdiction according to credit conditions. A bank's applicable rate is the weighted average of the rates where its private-sector credit exposures sit."
+   },
+   {
+    "term": "output floor",
+    "definition": "A Basel III limit on the benefit of internal models: total RWA cannot fall below a set percentage (72.5% when fully phased in) of RWA calculated under the standardised approaches."
+   },
+   {
+    "term": "LMR",
+    "definition": "Liquidity Maintenance Ratio: Hong Kong's local liquidity metric for category 2 institutions, comparing liquefiable assets with qualifying short-term liabilities. The minimum is 25%, measured as a monthly average."
+   },
+   {
+    "term": "leverage ratio",
+    "definition": "Tier 1 capital divided by an unweighted measure of on- and off-balance-sheet exposures. The minimum is 3%, as a backstop to risk-based ratios."
+   }
+  ]
+ },
+ {
+  "id": "technology",
+  "index": 6,
+  "title": "Technology & outsourcing",
+  "phase": "operate",
+  "review": "fact-checked",
+  "oneLiner": "For a digital bank, technology and vendor failures are banking failures; HKMA expects them governed, contracted and reported.",
+  "overview": "For a bank with no branches, technology is the bank: accounts, payments and every customer interaction run on code, cloud services and third-party vendors. The Banking Ordinance says little about IT directly. The rules that actually apply sit in the HKMA's [[Supervisory Policy Manual]] and circulars: TM-G-1 (technology risk), TM-E-1 (e-banking), SA-2 (outsourcing), OR-1, OR-2 and TM-G-2 (operational risk, resilience and continuity), and the [[C-RAF]] cyber assessment. Since 1 January 2026, Cap. 653 has added statutory cyber duties for designated [[critical infrastructure operators|critical infrastructure operator]], and PDPO DPP4 governs personal data security throughout. The rules exist because operational failure at a bank harms depositors and payment systems quickly. Counsel's job is to turn them into contracts, governance records, incident playbooks and accurate, timely notifications to the regulator.",
+  "deepDive": "Start with status. The SPM mixes [[statutory guidelines|statutory guideline]] issued under s.7(3) of the Banking Ordinance (TM-E-1 since its October 2024 revision) with non-statutory guidance notes (TM-G-1, which dates from 2003, and OR-2). In practice the difference is small: the HKMA tests whether the bank continues to meet the Seventh Schedule minimum criteria, including adequate systems of control, against all of them. Persistent shortfalls feed into CAMEL ratings and, ultimately, s.52 directions. Treat every 'should' as an expectation: meet it, or depart from it on a documented basis the board can see.\n\nOutsourcing is where counsel earns their keep. SA-2 (2001) expects the bank to discuss any [[material outsourcing]], or a significant change to one, with the HKMA in advance. Agreements should give the HKMA and auditors access and inspection rights, protect customer data, control sub-contracting and support contingency and exit. Offshore processing must not impede HKMA access to data. For cloud, read SA-2 with the Practice Guide on Cloud Adoption (8 January 2026), reported to replace the 2022 cloud guidance. Hyperscalers' standard terms rarely deliver all of this without a financial-services addendum.\n\nOR-2 (May 2022) implements the Basel operational resilience principles. The bank must identify its [[critical operations|critical operation]], set a [[tolerance for disruption]] for each, map its people, technology and third-party dependencies, and test against severe but plausible scenarios. The 31 May 2026 deadline has passed; the HKMA's June 2026 letter reports that all AIs met it and expects resilience to be sustained as business as usual. Examiners ask for board approvals and test evidence, not policies.\n\nIncident reporting runs on parallel tracks. The HKMA expects immediate notice of significant incidents with whatever facts are available, and waiting for root cause can itself draw a finding. If the bank has been designated under Cap. 653, statutory deadlines for notifying the Commissioner also apply: 12 hours for serious incidents, 48 hours for others, then a written report within 14 days. PDPO, police and customer communications each follow their own rules. Build one triage tree that starts every clock at once.\n\nTM-E-1 and the HKMA's 2025 e-banking security measures make in-app [[bound device]] authentication the default for mobile app users instead of SMS OTP. The August 2024 GenAI circular applies governance, fairness, transparency and privacy principles to customer-facing AI.",
+  "provisions": [
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "TM-G-1",
+    "title": "General Principles for Technology Risk Management",
+    "summary": "Non-statutory guidance note (V.1, 24 June 2003) setting baseline expectations for technology risk governance, information security, system development and change management, IT operations and management of technology service providers.",
+    "counselNote": "This is the baseline the HKMA uses to judge whether IT controls are 'adequate'. It is old, so the HKMA reads it alongside later modules and circulars, and you should too when advising on control gaps.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20030624-2-EN/TM-G-1.pdf"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "SA-2",
+    "title": "Outsourcing",
+    "summary": "Sets HKMA expectations for outsourcing (dated 28 December 2001): board accountability, risk assessment and due diligence, written agreements, confidentiality of customer data, monitoring and control, contingency planning, HKMA access, and additional issues for overseas outsourcing. AIs should discuss plans for material outsourcing, or significant changes to its scope, with the HKMA before proceeding.",
+    "counselNote": "This is the source of the HKMA's required clauses in vendor contracts, in particular supervisory inspection and access rights. For a digital bank most core vendors will be material, so the HKMA pre-consultation must be built into procurement timelines.",
+    "confidence": "high",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "OR-2",
+    "title": "Operational Resilience",
+    "summary": "Non-statutory guidance note issued on 31 May 2022, together with a revised TM-G-2 on business continuity planning, to implement the Basel Committee's March 2021 Principles for Operational Resilience; a revised OR-1 on operational risk management followed on 25 July 2022. AIs were to develop their operational resilience framework by 31 May 2023 and be operationally resilient by 31 May 2026.",
+    "counselNote": "The deadline has passed. The HKMA's letter 'Operational Resilience: Sustaining and Uplifting' (June 2026) reports that, on its survey, all AIs met it, and shifts the focus to sustaining and improving resilience. Expect examiners to test board ownership of critical operations, tolerances, dependency mapping (including vendors) and scenario testing.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "TM-E-1",
+    "title": "Risk Management of E-banking",
+    "summary": "Revised version (V.4, 25 October 2024), issued as a statutory guideline under s.7(3) of the Banking Ordinance; earlier versions were non-statutory guidance notes. It extends the module to controls over payment card transactions, consolidates e-banking security measures previously spread across supervisory documents (including the 2016 circular on internet banking security controls), and is more principle-based.",
+    "counselNote": "This is the core rulebook for a digital-only bank's customer channels, covering authentication, fraud monitoring and mobile app security. The HKMA's April 2025 'E-Banking Security ABC' measures build on it: 'Authenticate in-App' makes bound-device authentication the default for mobile app users instead of SMS OTP (due by Q4 2025), and an August 2025 letter extended the package to 'ABCD' by adding deepfake detection.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
+    "ref": "Sch. 1, DPP4",
+    "title": "Security of personal data",
+    "summary": "Requires data users to take all practicable steps to protect personal data against unauthorised or accidental access, processing, erasure, loss or use. Where a data processor is engaged, the data user must adopt contractual or other means to secure equivalent protection.",
+    "counselNote": "DPP4(2) is the statutory basis for data-processor security clauses in every outsourcing contract. Use it together with SA-2's customer-confidentiality expectations and the bank's common-law duty of confidentiality.",
+    "confidence": "high",
+    "cap": "486",
+    "section": "Sch. 1",
+    "url": "https://www.elegislation.gov.hk/hk/cap486"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Protection of Critical Infrastructures (Computer Systems) Ordinance (Cap. 653)",
+    "ref": "Whole Ordinance",
+    "title": "Critical infrastructure cybersecurity duties",
+    "summary": "In force from 1 January 2026. Operators designated as critical infrastructure operators, including in the banking and financial services sector, bear three categories of duties for their designated critical computer systems: organisational, preventive (such as annual risk assessments and two-yearly audits), and incident reporting and response. Serious incidents must be notified to the Commissioner of Critical Infrastructure (Computer-system Security) within 12 hours of becoming aware, others within 48 hours, followed by a written report within 14 days. The HKMA is the designated authority for the banking and financial services sector and administers the organisational and preventive obligations of operators in that sector.",
+    "counselNote": "Designation is by written notice, so confirm whether the bank or any of its systems has been designated. If it has, statutory deadlines and audit and risk-assessment cycles apply on top of HKMA expectations; read the HKMA's Code of Practice for designated AIs (2 June 2026) with the Ordinance. An HKMA–Commissioner MoU dated 29 May 2026 coordinates the two regulators.",
+    "confidence": "medium",
+    "cap": "653",
+    "url": "https://www.elegislation.gov.hk/hk/cap653"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular: Incident response and management procedures",
+    "ref": "Circular, 22 Jun 2010",
+    "title": "Reporting significant incidents to the HKMA",
+    "summary": "Reminds AIs to maintain an effective capability to respond to significant incidents and to notify the HKMA immediately on becoming aware of one, without waiting until the problem has been fixed. AIs should also notify affected customers and consider a public announcement where the situation warrants. Later HKMA letters, such as the 12 August 2014 circular on disruptions of critical banking services, point back to it.",
+    "counselNote": "The HKMA has not published a list of notifiable incidents, so the bank must judge significance itself. Write internal significance criteria, have management endorse them and apply them consistently, because those criteria are what examiners will test.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20100622-1-EN/20100622-1-EN.pdf"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "HKMA Practice Guide on Cloud Adoption",
+    "ref": "Circular, 8 Jan 2026",
+    "title": "Cloud adoption expectations",
+    "summary": "Combines high-level principles drawn from relevant SPM modules with good practices the HKMA has observed in supervision, following a lifecycle approach. It expands the cloud-related domains covered from four to eight and is reported to supersede the HKMA's 2022 cloud computing guidance.",
+    "counselNote": "Read it with SA-2 on every cloud deal. The HKMA notes that cloud projects make up about 80% of reportable technology outsourcing initiatives, so expect scrutiny of concentration risk, security, resilience and exit.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260108-3-EN/20260108-3-EN.pdf"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA Cybersecurity Fortification Initiative 2.0",
+    "ref": "Circular, 3 Nov 2020",
+    "title": "C-RAF and CFI 2.0",
+    "summary": "CFI 2.0, effective 1 January 2021 and implemented in phases, keeps three pillars: the Cyber Resilience Assessment Framework (inherent risk assessment, maturity assessment and intelligence-led attack simulation testing), a Professional Development Programme, and the Cyber Intelligence Sharing Platform. The 2.0 review streamlined the C-RAF assessment process and refreshed its control principles, which industry summaries say now reflect current incident response and recovery practice.",
+    "counselNote": "C-RAF assessments and attack-simulation findings are supervisory deliverables. Agree confidentiality and report-handling terms with testers, and assume the HKMA will read remediation plans.",
+    "confidence": "high",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2020/11/20201103-4/"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular: Consumer Protection in respect of Use of Generative Artificial Intelligence",
+    "ref": "Circular, 19 Aug 2024",
+    "title": "GenAI in customer-facing applications",
+    "summary": "Applies the four consumer-protection principles from the HKMA's 5 November 2019 big data analytics and AI circular (governance and accountability, fairness, transparency and disclosure, data privacy and protection) to customer-facing GenAI use, with additional GenAI-specific expectations.",
+    "counselNote": "Before any chatbot, robo-advice or AI marketing goes live, check board and senior management accountability, fairness testing, and disclosure to customers. The HKMA–Cyberport GenA.I. Sandbox (launched 13 August 2024, expanded in 2026 as the cross-regulator GenA.I. Sandbox++) provides supervisory feedback but no legal exemption.",
+    "confidence": "medium"
+   }
+  ],
+  "checklist": [
+   "Build and maintain an outsourcing register that flags material arrangements, cloud workloads, data locations and sub-contractors, and reconcile it against what has been discussed with the HKMA.",
+   "Adopt a standard financial-services addendum covering HKMA and auditor access and inspection, data location and retrieval, confidentiality and DPP4 security, sub-contracting consent, prompt incident notification, participation in continuity testing and assisted exit.",
+   "Run vendor due diligence proportionate to materiality, covering financial standing, security certifications and audit reports, concentration risk and the legal environment of any offshore location.",
+   "Draft one incident triage tree that starts the HKMA, Cap. 653, PCPD, police and customer-communication workstreams together, with named owners and pre-approved holding statements.",
+   "Confirm whether the bank or any of its systems has been designated under Cap. 653 and, if so, diarise the statutory obligations and the requirements of the HKMA's Code of Practice for designated AIs.",
+   "Check that board minutes evidence approval of OR-2 critical operations, tolerances for disruption and scenario-test results.",
+   "Align customer terms, app flows and disclosures with bound-device authentication, any permitted SMS OTP fallback and customers' ability to switch off high-risk functions.",
+   "Set up an AI use-case inventory and a legal sign-off gate that applies the 2019 and 2024 HKMA consumer-protection principles before any customer-facing deployment."
+  ],
+  "itAngle": [
+   "SA-2 access rights become engineering requirements: log retention periods, exportable data formats, documented data-retrieval runbooks, and evidence packs (e.g. SOC 2 or ISO 27001 reports, pooled audits) to make audit rights workable in a multi-tenant cloud.",
+   "OR-2 mapping is dependency graphing at the business-service level. Think end-to-end service maps (CMDB plus third-party and people dependencies), with tolerances that resemble RTO/RPO but are measured from the customer's point of view.",
+   "Cap. 653 reporting clocks start on 'awareness', so SOC/SIEM severity levels should map to legal severity classes, and the triage decision should be time-stamped and logged.",
+   "Bound-device authentication relies on keys held in the phone's secure hardware plus app integrity checks; SMS OTP is exposed to SIM swap and malware interception. Liability terms for unauthorised transactions should match the authentication model actually deployed.",
+   "The Open API Framework (July 2018; four phases running from product information to transactions) makes onboarding third-party developers a due-diligence and consent-management exercise as well as an API-security one."
+  ],
+  "virtualBankNotes": [
+   "Cloud-native core banking and heavy reliance on vendors mean most core services are likely to be material outsourcing. HKMA pre-consultation is therefore a standing workstream, not an occasional event, so build it into product and procurement timelines.",
+   "With no branches, an app or cloud outage takes down every customer channel at once. Continuity plans need alternative ways to reach customers and a manual fallback for urgent requests.",
+   "Shared services from a parent technology group are still outsourcing. They need SA-2 terms, HKMA access rights and exit planning like any external vendor.",
+   "Digital banks are natural candidates for the Fintech Supervisory Sandbox and the GenA.I. Sandbox. Participation brings supervisory feedback but no exemption from legal requirements."
+  ],
+  "pitfalls": [
+   "Signing a cloud or SaaS provider's standard terms without HKMA access, sub-contracting and exit provisions, then trying to add them at renewal.",
+   "Waiting for root-cause analysis before notifying the HKMA, or notifying only one authority when several clocks are running.",
+   "Treating OR-2 as an IT disaster-recovery exercise owned by the CIO, instead of business-service tolerances owned by the board.",
+   "Letting IT commission forensic and penetration-test reports directly, which weakens any privilege claim and creates drafts the HKMA may later ask to see."
+  ],
+  "glossary": [
+   {
+    "term": "Supervisory Policy Manual",
+    "definition": "The HKMA's collection of supervisory guidance, organised in coded modules such as TM-G-1, SA-2 and OR-2. Each module is either a statutory guideline or a non-statutory guidance note."
+   },
+   {
+    "term": "statutory guideline",
+    "definition": "A guideline issued by the Monetary Authority under s.7(3) of the Banking Ordinance. It is not law in itself, but non-compliance is relevant to whether an institution continues to meet the authorization criteria."
+   },
+   {
+    "term": "material outsourcing",
+    "definition": "Outsourcing of an activity whose failure or disruption could materially affect the bank's business, customers or compliance. Under SA-2 it should be discussed with the HKMA before it proceeds."
+   },
+   {
+    "term": "critical operation",
+    "definition": "Under OR-2, an activity, function or service whose disruption would materially harm the bank's viability, its customers or the financial system."
+   },
+   {
+    "term": "tolerance for disruption",
+    "definition": "Under OR-2, the maximum disruption (usually expressed as time and impact) that a critical operation can sustain. The bank sets it and the board approves it."
+   },
+   {
+    "term": "C-RAF",
+    "definition": "Cyber Resilience Assessment Framework: the HKMA's risk-based framework for assessing banks' cyber resilience, made up of an inherent risk assessment, a maturity assessment and intelligence-led cyber attack simulation testing (iCAST)."
+   },
+   {
+    "term": "critical infrastructure operator",
+    "definition": "Under Cap. 653, an operator designated by written notice as responsible for a critical infrastructure in a specified sector. Designation brings organisational, preventive, and incident reporting and response duties."
+   },
+   {
+    "term": "bound device",
+    "definition": "A customer's mobile device registered to their banking app through a secure binding process. It is used to authenticate logins and high-risk transactions instead of SMS one-time passwords."
+   }
+  ]
+ },
+ {
+  "id": "financial-crime",
+  "index": 7,
+  "title": "AML, sanctions & fraud",
+  "phase": "operate",
+  "review": "draft",
+  "oneLiner": "Remote onboarding, mule accounts and suspicious-transaction reporting are where a digital bank and its staff carry criminal and regulatory risk.",
+  "overview": "Financial crime is the area most likely to put the bank, and its staff personally, on the wrong side of a criminal statute. Three regimes interlock. The AMLO (Cap. 615) imposes [[customer due diligence|CDD]], ongoing monitoring and record-keeping duties, and the HKMA enforces them through disciplinary powers. The proceeds-of-crime and terrorist-financing laws (OSCO, DTROP, UNATMO) make dealing with tainted property an offence, and they require a [[suspicious transaction report|STR]] whenever staff know or suspect. Sanctions law prohibits making funds available to designated persons. On top of this sits Hong Kong's scam problem. [[Mule|money mule]] accounts are how fraud proceeds move, and the HKMA now treats anti-fraud as a core supervisory priority. A bank that never meets its customers face to face runs almost all of these controls in software, so counsel needs to understand how that software works.",
+  "deepDive": "Start with AMLO Schedule 2. CDD must normally be completed before the relationship begins (s.3), and ongoing monitoring keeps it current (s.5). Every customer of a digital bank is onboarded remotely, so s.9 is the section that shapes your onboarding design. Under s.9(1), where a customer is not physically present for identification, the bank must take at least one extra measure: verify identity again using documents or data not already used, take supplementary verification measures, or make sure the first payment comes from an account in the customer's name at an authorized institution (or an equivalent regulated institution). Section 9(2) disapplies s.9(1) where identity was verified using data from a recognized digital identification system such as iAM Smart. App-based document-and-selfie eKYC remains lawful, but it must achieve the HKMA's two outcomes: identity authentication (the document is genuine) and identity matching (the applicant is its holder). A September 2026 HKMA circular is reported to have replaced the 2019 and 2021 remote on-boarding circulars; it targets deepfakes and expects banks to keep recalibrating their solutions rather than sign them off once. Confirm its terms on the HKMA site.\n\nThe HKMA AML/CFT Guideline (current version effective 1 June 2023) is not law. It is, however, how the HKMA reads Schedule 2, and a Schedule 2 contravention is what triggers the s.21 disciplinary power. Recent penalties were Hua Nan HK$9m and DBS HK$10m in 2024, and Indian Overseas Bank HK$8.5m in 2025. Each concerned failures in monitoring or record-keeping that ran for years. They were systemic control gaps, not one bad customer.\n\nReporting is a personal duty under the criminal law. Under s.25A of OSCO and DTROP, and s.12 of UNATMO, knowledge or suspicion must be reported to the [[JFIU]] as soon as reasonable. [[tipping-off|Tipping-off]] is a separate offence. The JFIU may reply with a [[letter of no consent]]. Tam Sze Leung v Commissioner of Police [2024] HKCFA 8 upheld that regime but treated the decision to freeze as the bank's own, so record your reasoning.\n\nHong Kong gives legal effect only to UN sanctions, through regulations under Cap. 537 and, for terrorist designations, UNATMO. Other countries' lists have no legal force here. Correspondent banking and card-scheme exposure still lead most banks to screen against them as a matter of policy, and that policy should rest on the contract with the customer.\n\nFinally, the Banking (Amendment) Ordinance 2025 came into force on 3 November 2025 and added Part XIIAA to the BO. It gives a safe harbour for sharing account information with other AIs through HKMA-designated platforms such as [[FINEST]]. The protection depends on good faith, reasonable care, and limits on purpose and confidentiality.",
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+    "ref": "Sch. 2, ss.2-3",
+    "title": "Customer due diligence: what it is and when it applies",
+    "summary": "Section 2 of Schedule 2 defines the CDD measures: identify and verify the customer and any beneficial owner, understand the purpose and intended nature of the business relationship, and verify anyone who claims to act for the customer. Section 3 sets when the measures must be carried out, including before a business relationship is established, when money laundering or terrorist financing is suspected, and when there is doubt about data obtained earlier.",
+    "counselNote": "These are 'specified provisions'. A contravention can lead to HKMA disciplinary action under s.21 and, where knowing, to criminal liability under s.5. In legal terms, your onboarding journey is how the bank carries out s.2.",
+    "cap": "615",
+    "section": "Sch. 2 s.2",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap615"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+    "ref": "Sch. 2, s.9",
+    "title": "Customer not physically present for identification",
+    "summary": "Where the customer is not physically present for identification, s.9(1) requires at least one of three measures: further verification using documents, data or information not previously used; supplementary measures to verify the information obtained; or ensuring the first payment is made through an account in the customer's name with an authorized institution (or an equivalent regulated institution). Since the 2022 amendments took effect on 1 June 2023, s.9(2) disapplies this requirement where identity is verified using data from a recognised digital identification system (iAM Smart is the recognised example).",
+    "counselNote": "This section shapes a digital bank's onboarding design. The iAM Smart route removes the s.9(1) requirement. Any other eKYC route needs a documented set of compensating measures and must meet the HKMA's remote onboarding expectations.",
+    "cap": "615",
+    "section": "Sch. 2 s.9",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap615"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+    "ref": "Sch. 2, s.5",
+    "title": "Ongoing monitoring",
+    "summary": "Institutions must monitor business relationships continuously. That means keeping CDD information up to date, scrutinising transactions for consistency with what the bank knows of the customer and its risk profile, and identifying complex, unusually large or unusual patterns of transactions that have no apparent economic or lawful purpose.",
+    "counselNote": "Failures in transaction monitoring are the most common theme in HKMA AMLO enforcement. Your monitoring rules, thresholds and alert backlog are therefore legal exposure, not only an operational matter.",
+    "cap": "615",
+    "section": "Sch. 2 s.5",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap615"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+    "ref": "Sch. 2, Part 3",
+    "title": "Record keeping",
+    "summary": "Institutions must keep CDD records (identification data, account files and business correspondence) and transaction records. Retention is generally at least five years after the business relationship ends or the transaction is completed, and records must be retrievable without undue delay.",
+    "counselNote": "The DBS action in 2024 included record-keeping failures. Retention design has to cover eKYC evidence such as images, liveness results and device data, and must survive changes of vendor and app version.",
+    "cap": "615",
+    "section": "Sch. 2 s.20",
+    "confidence": "medium",
+    "url": "https://www.elegislation.gov.hk/hk/cap615"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+    "ref": "s.21",
+    "title": "HKMA disciplinary powers and pecuniary penalties",
+    "summary": "Where an institution contravenes a specified provision, the HKMA, as relevant authority for AIs, may publicly reprimand it, order remedial action, and impose a pecuniary penalty of up to HK$10 million or three times the profit gained or costs avoided, whichever is greater. The HKMA has published a guideline on how it exercises the penalty power.",
+    "counselNote": "Confirmed recent actions: Hua Nan Commercial Bank, Hong Kong branch, HK$9m (April 2024); DBS Bank (Hong Kong) HK$10m (July 2024); Indian Overseas Bank, Hong Kong branch, HK$8.5m (July 2025), with a remedial order and a look-back review. Remediation and cooperation affect the outcome.",
+    "cap": "615",
+    "section": "21",
+    "confidence": "medium",
+    "url": "https://www.elegislation.gov.hk/hk/cap615"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Organized and Serious Crimes Ordinance (Cap. 455)",
+    "ref": "s.25A",
+    "title": "Duty to report suspicion; tipping-off",
+    "summary": "A person who knows or suspects that property is the proceeds of, or was used or is intended for use in connection with, an indictable offence must disclose this to an authorised officer (in practice the JFIU) as soon as reasonable. Disclosure gives a defence to the s.25 money laundering offence. Failing to disclose and tipping-off are separate offences. Section 25A of DTROP (Cap. 405) and s.12 of UNATMO (Cap. 575) impose parallel duties for drug proceeds and terrorist property.",
+    "counselNote": "The duty falls on individual employees as well as the bank. Staff are protected when they report internally under the employer's procedures, so the escalation route to the MLRO must be written down, trained and auditable.",
+    "cap": "455",
+    "section": "25A",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap455"
+   },
+   {
+    "kind": "statute",
+    "instrument": "United Nations Sanctions Ordinance (Cap. 537)",
+    "ref": "s.3",
+    "title": "Implementing UN Security Council sanctions",
+    "summary": "Section 3 empowers the Chief Executive to make regulations implementing UN Security Council sanctions. The country-specific regulations typically prohibit making funds or economic resources available to designated persons, subject to licences. Terrorist designations are handled separately under UNATMO (Cap. 575).",
+    "counselNote": "UN sanctions are the only sanctions with legal force in Hong Kong. The bank's screening of US, EU or UK lists is a matter of policy and risk appetite and needs a contractual basis in the customer terms.",
+    "cap": "537",
+    "section": "3",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap537"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Authorized Institutions)",
+    "ref": "Revised version effective 1 Jun 2023",
+    "title": "HKMA's detailed AML/CFT expectations",
+    "summary": "Issued under AMLO s.7 and BO s.7(3), the Guideline explains how the HKMA expects AIs to meet Schedule 2. It covers the risk-based approach, institutional risk assessment, CDD, ongoing monitoring, screening, suspicious transaction reporting and record keeping. The 2023 revision reflected the AMLO amendments that took effect on 1 June 2023.",
+    "counselNote": "The Guideline has no statutory force, but the HKMA examines and enforces against it. Map each paragraph to a policy, a named control owner and the evidence that the control works.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20230525-1-EN"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular",
+    "ref": "Circular, 3 Sep 2026",
+    "title": "Remote on-boarding of individual customers (updated for deepfake risk)",
+    "summary": "Addressed to AIs and SVF licensees, this circular supersedes the circulars of 1 February 2019 and 24 May 2021 (iAM Smart). It restates two principles: identity authentication (the identity document and data are genuine) and identity matching (the applicant is the true holder). It also expects remote onboarding solutions to be recalibrated on an ongoing basis against deepfake and impersonation risk.",
+    "counselNote": "This is now the main supervisory text for your onboarding design. Check whether your vendor contracts and model governance allow the bank to recalibrate quickly.",
+    "confidence": "low",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260902-1-EN/20260902-1-EN.pdf"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155), as amended by the Banking (Amendment) Ordinance 2025 (Ord. No. 23 of 2025)",
+    "ref": "Part XIIAA",
+    "title": "Sharing of information among authorized institutions",
+    "summary": "In force from 3 November 2025, Part XIIAA lets AIs voluntarily share customer account information with each other through HKMA-designated platforms, for the purpose of detecting or preventing money laundering, terrorist or proliferation financing and related crime such as fraud. It gives a statutory safe harbour on condition of good faith, reasonable care, use restrictions and confidentiality.",
+    "counselNote": "This finally lets banks share data on individual (not only corporate) mule accounts through FINEST. Each disclosure must stay within the statutory purpose and conditions, and must be logged.",
+    "cap": "155",
+    "section": "Pt. XIIAA",
+    "confidence": "medium",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   }
+  ],
+  "checklist": [
+   "Build a control matrix that maps every AMLO Schedule 2 obligation and Guideline section to a named owner, a system control and the evidence it produces.",
+   "Review the eKYC solution against the HKMA's current remote on-boarding circular (reported as reissued in September 2026), and document how it detects deepfakes, injection attacks and impersonation, and how often it is recalibrated.",
+   "Approve STR escalation procedures and wording for customer communications (app messages, chatbot scripts, call-centre scripts) that cannot amount to tipping-off.",
+   "Adopt a written policy on freezing accounts and handling letters of no consent that reflects Tam Sze Leung [2024] HKCFA 8, including periodic review of frozen balances and how customers can challenge a freeze.",
+   "Set the sanctions policy: UN and UNATMO designations as the legal minimum, other lists as risk appetite, with matching rights to refuse, suspend and terminate in the customer terms.",
+   "Put Part XIIAA sharing procedures in place: purpose check, data minimisation, approval, logging and confidentiality, aligned with PDPO obligations.",
+   "Benchmark monitoring and record keeping against the published HKMA s.21 enforcement statements, and brief the board on gaps."
+  ],
+  "itAngle": [
+   "Map the eKYC stack to the legal tests. Document authenticity checks deliver identity authentication. Face match, liveness and virtual-camera or emulator detection deliver identity matching. Keep the evidence long enough to satisfy the Schedule 2 record-keeping rules.",
+   "Transaction monitoring rules and ML models are legal controls. Keep version control, tuning rationale, validation reports and alert-backlog metrics, because the HKMA asks why a threshold was set where it was.",
+   "Device binding and graph analytics (one device or IP linked to many accounts, rapid pass-through flows) are the main mule signals. FINEST under Part XIIAA works like a threat-intelligence feed with statutory conditions attached.",
+   "Prevent tipping-off in the system itself: error codes, push notifications, API responses and chatbot replies on restricted accounts must be neutral, and STR case data must sit behind role-based access.",
+   "Sanctions screening quality depends on fuzzy matching (including Chinese names and their romanisation), how quickly list updates are applied, and real-time screening of instant FPS payments."
+  ],
+  "virtualBankNotes": [
+   "The whole customer book is non-face-to-face, so AMLO Sch. 2 s.9 bites on every customer who is not identified through iAM Smart or another recognized digital identification system (s.9(2)). The choice between the iAM Smart route and document-and-selfie eKYC therefore has direct legal consequences.",
+   "Fast app-based onboarding at scale attracts mule recruiters. Expect HKMA scrutiny of early-life account monitoring, limits on new accounts, and participation in FINEST and the Suspicious Account Alert.",
+   "Device binding and controls that detect one device used for many accounts do the job branch staff do elsewhere. Document them as AML/fraud controls, not just as IT security features.",
+   "Industry anti-scam measures for retail banks, such as Money Safe under the HKMA's December 2024 customer-empowerment circular, are also expected of digital banks. Any step that assumes an in-person visit needs a robust remote equivalent."
+  ],
+  "pitfalls": [
+   "Treating an eKYC vendor's certifications as regulatory approval. The HKMA does not approve vendors. The bank owns the risk assessment and must keep recalibrating the solution.",
+   "Tipping off a customer through automated freeze notices, chatbot answers or frontline staff explaining a restriction.",
+   "Waiting until an internal investigation is finished before filing an STR (the test is 'as soon as reasonable'), or filing defensively without analysis, which weakens both the reports and the bank's defence.",
+   "Telling customers that US or EU sanctions are Hong Kong legal requirements, or ignoring them where correspondent or card-scheme contracts make them binding in practice."
+  ],
+  "glossary": [
+   {
+    "term": "CDD",
+    "definition": "Customer due diligence: identifying and verifying the customer and any beneficial owner, understanding the purpose of the relationship, and verifying anyone acting for the customer (AMLO Sch. 2 s.2)."
+   },
+   {
+    "term": "STR",
+    "definition": "Suspicious transaction report: the disclosure made to the JFIU under s.25A of OSCO or DTROP, or s.12 of UNATMO, when someone knows or suspects that property is criminal or terrorist property."
+   },
+   {
+    "term": "JFIU",
+    "definition": "Joint Financial Intelligence Unit, Hong Kong's financial intelligence unit. It is run jointly by the Hong Kong Police Force and the Customs and Excise Department, and it receives and analyses STRs."
+   },
+   {
+    "term": "tipping-off",
+    "definition": "The offence of disclosing information likely to prejudice an investigation, knowing or suspecting that a suspicious transaction report has been made."
+   },
+   {
+    "term": "letter of no consent",
+    "definition": "A JFIU reply to an STR saying it does not consent to the reported dealing. Banks usually respond by freezing the funds. The Court of Final Appeal upheld the regime in Tam Sze Leung v Commissioner of Police [2024] HKCFA 8."
+   },
+   {
+    "term": "money mule",
+    "definition": "A person whose bank account receives and passes on fraud or other criminal proceeds, knowingly or not. Mule accounts are often opened, sold or rented specifically for this purpose."
+   },
+   {
+    "term": "FINEST",
+    "definition": "Financial Intelligence Evaluation Sharing Tool, the bank-to-bank platform launched by the HKMA, HKAB and the Police on 20 June 2023 for sharing information on suspected fraud and mule networks."
+   },
+   {
+    "term": "Scameter",
+    "definition": "The Hong Kong Police anti-fraud search engine (CyberDefender). Its 'high risk' data drives the banks' Suspicious Account Alert on payments."
+   }
+  ]
+ },
+ {
+  "id": "customers",
+  "index": 8,
+  "title": "Customers & conduct",
+  "phase": "operate",
+  "review": "draft",
+  "oneLiner": "App-only banks must deliver codes, disclosures, consent and complaint rights through screens and logs, and the HKMA tests outcomes.",
+  "overview": "Conduct rules govern how a bank treats retail customers once they have signed up. In Hong Kong very little of this sits in the Banking Ordinance itself. It comes from several layers instead. The industry [[Code of Banking Practice]] is voluntary on paper, but the HKMA monitors compliance with it as if it were binding. The HKMA adds its [[Treat Customers Fairly|TCF]] Charter and conduct circulars. Statute covers deposit protection (Cap. 581), personal data (Cap. 486) and unfair terms (Caps. 71 and 458). The common law adds a duty of confidentiality. Once the bank sells investment or insurance products, the SFC and Insurance Authority regimes apply, with the HKMA as frontline supervisor. Monetary disputes the bank cannot resolve can go to the [[FDRC]]. An app-only bank has no branch staff or paper to rely on, so it must meet every one of these obligations through screens, notifications and logs.",
+  "deepDive": "Treat the Code of Banking Practice as quasi-regulation. It describes itself as voluntary, but the HKMA endorses it, expects compliance and checks it in supervision. Breaches come to light through complaints, FDRC cases and conduct reviews. The current revision took effect on 7 December 2023, with phased deadlines for system changes. For an app-only bank its most important rule concerns unauthorised e-banking transactions. The customer bears no direct loss unless he acted fraudulently or with gross negligence, for example by failing to keep devices or credentials secure. The HKMA has told card issuers to get adequate evidence before blaming a loss on the customer, so 'the OTP was entered correctly' is not enough on its own. The terms and conditions will not rescue the bank either. CECO subjects exclusion clauses to a reasonableness test, and the HKMA reads the terms against the Code.\n\nThe [[Deposit Protection Scheme|DPS]] is statutory and detailed. Since 1 October 2024 the limit is HK$800,000 per depositor per bank. Since 1 January 2025 members must display the membership sign on e-banking platforms. Statements about whether a product is protected, and the [[negative disclosure]] required for unprotected products, are prescribed in detail, so build them into product templates.\n\nConfidentiality has two sources: the [[Tournier duty]] (Hong Kong has no general statutory bank-secrecy provision) and the PDPO. Disclosures to the JFIU, to other AIs under BO Part XIIAA, and to credit reference agencies under the Consumer Credit Data Code are each lawful only within their own limits. For direct marketing, PDPO Part 6A requires notice and consent before use and is backed by criminal sanctions. Consent flags must therefore actually control what the marketing engine sends.\n\nSelling investments makes the bank an SFC [[registered institution]], supervised day to day by the HKMA. The suitability obligation in the SFC Code of Conduct then applies, and selling online does not weaken it. Selling insurance needs a licence from the Insurance Authority. Finally, digital banks carry extra expectations: the HKMA's 2018 framework ruled out minimum balances and low-balance fees, and complaint channels must work without branches.",
+  "provisions": [
+   {
+    "kind": "code",
+    "instrument": "Code of Banking Practice (HKAB/DTCA, endorsed by the HKMA)",
+    "ref": "Revised edition effective 7 Dec 2023",
+    "title": "Retail banking standards; liability for unauthorised e-banking transactions",
+    "summary": "A non-statutory industry code that sets standards on disclosure, fees and charges, account operation, cards, e-banking, complaints and customer information. A customer should not bear direct loss from unauthorised e-banking transactions unless he acted fraudulently or with gross negligence. Failing to keep devices and security credentials secure may amount to gross negligence. The 2023 revision added protections for digital banking and gave customers more control over their accounts.",
+    "counselNote": "The HKMA expects every AI to comply and monitors compliance in supervision. Treat it as binding, and check that the terms and conditions, refund decisions and app journeys all match it.",
+    "confidence": "high",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/12/20231207-5/"
+   },
+   {
+    "kind": "other",
+    "instrument": "Treat Customers Fairly Charter (HKMA)",
+    "ref": "Launched 28 Oct 2013",
+    "title": "Fair treatment principles",
+    "summary": "Five high-level principles for the fair treatment of retail customers, drawing on the G20 High-Level Principles on Financial Consumer Protection. All 22 retail banks signed it at launch. It complements rather than replaces existing law, and the HKMA expects boards and senior management to embed it.",
+    "counselNote": "The HKMA tests outcomes (product design, pricing, complaints handling) as well as compliance with rules. Check whether your bank has signed; the HKMA encourages all AIs to follow the principles either way.",
+    "confidence": "high",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2013/10/20131028-4/"
+   },
+   {
+    "kind": "other",
+    "instrument": "Financial Dispute Resolution Scheme (FDRC Terms of Reference)",
+    "ref": "Terms of Reference as enhanced from 1 Jan 2018",
+    "title": "Out-of-court resolution of monetary disputes",
+    "summary": "Eligible claimants (individuals, sole proprietors and, since mid-2018, small enterprises) may bring monetary claims against member financial institutions. Claims are handled through mediation first and then arbitration. The 2018 enhancements raised the maximum claim from HK$500,000 to HK$1 million and the time limit from 12 to 24 months. Larger claims can be handled if both parties consent.",
+    "counselNote": "AIs are expected to be FDRC members. The customer normally has to complain to the bank first, so final-response letters and in-app messages should point the customer to the FDRC and HKMA routes.",
+    "confidence": "medium",
+    "url": "https://www.fdrc.org.hk/en/doc/FDRC_consultation_conclusions_en.pdf"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Deposit Protection Scheme Ordinance (Cap. 581)",
+    "ref": "Protection limit; Scheme membership; representations",
+    "title": "Statutory deposit protection",
+    "summary": "Licensed banks are Scheme members unless exempted, and pay levies into the DPS Fund administered by the Hong Kong Deposit Protection Board. Since 1 October 2024 eligible deposits are protected up to HK$800,000 per depositor per member bank. Some products, such as structured deposits and time deposits over five years, are not protected. Members must make prescribed statements about their membership and about whether each product is protected, and since 1 January 2025 must display the membership sign on e-banking platforms.",
+    "counselNote": "Every product launch needs a DPS protection status and the right disclosure. Payout readiness also depends on data quality, such as accurate depositor records and aggregation across accounts.",
+    "cap": "581",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap581"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
+    "ref": "Sch. 1 (Data Protection Principles)",
+    "title": "The six data protection principles",
+    "summary": "DPP1 governs the purpose and manner of collection and requires notice to the data subject. DPP2 covers accuracy and retention, DPP3 limits use to the original or a directly related purpose unless the data subject gives prescribed consent, DPP4 requires security, DPP5 requires openness and DPP6 gives a right of access and correction. Data users must use contractual or other means to bind their data processors on retention and security.",
+    "counselNote": "Every outsourced cloud, eKYC and analytics vendor engages DPP2 and DPP4. As at May 2026 there was still no mandatory breach notification; reform was under study.",
+    "cap": "486",
+    "section": "Sch. 1",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap486"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
+    "ref": "Part 6A",
+    "title": "Direct marketing",
+    "summary": "Before using personal data in direct marketing, a data user must tell the data subject of the intended use, the kinds of data and the classes of marketing subjects, and obtain consent. The data subject can opt out at any time. Giving data to third parties for their marketing needs a separate written consent. Breaches are criminal offences, with heavier penalties where data are provided for gain.",
+    "counselNote": "Cross-selling through push notifications, in-app banners and partner offers is all caught. Unbundled consent and opt-outs that reach every downstream system are essential.",
+    "cap": "486",
+    "section": "Pt. 6A",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap486"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Practice on Consumer Credit Data (PCPD)",
+    "ref": "Code issued under the PDPO; read with HKMA SPM IC-6",
+    "title": "Credit reference data and the multiple CRA model",
+    "summary": "Governs what consumer credit data lenders may contribute to and obtain from credit reference agencies, how long the data may be kept, and the data subject's access rights. Under the multiple credit reference agency model ('Credit Data Smart', in full service since 26 April 2024), data flow through the industry Credit Reference Platform to the selected CRAs. HKMA SPM module IC-6 sets out what the HKMA expects of AIs.",
+    "counselNote": "Lending products such as cards and personal loans depend on lawful contribution of credit data and lawful credit checks. Check consent wording, data access logging and dispute handling against the Code and IC-6.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260609-14-EN/IC-6.PDF"
+   },
+   {
+    "kind": "case",
+    "instrument": "Tournier v National Provincial and Union Bank of England",
+    "ref": "[1924] 1 KB 461 (CA)",
+    "title": "Banker's duty of confidentiality",
+    "summary": "A bank owes an implied contractual duty not to disclose customer information. There are four exceptions: disclosure compelled by law, a duty to the public, the bank's own interests, and the customer's express or implied consent. Hong Kong courts apply it, and the Banking Ordinance contains no general bank-secrecy provision.",
+    "counselNote": "Every disclosure (police production orders, JFIU, FINEST, group sharing, vendors) needs a Tournier exception as well as a PDPO basis. Keep a register of disclosures recording both.",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Control of Exemption Clauses Ordinance (Cap. 71)",
+    "ref": "ss.3, 7, 8",
+    "title": "Reasonableness of exclusion clauses",
+    "summary": "Liability for death or personal injury caused by negligence cannot be excluded. Other exclusions of negligence liability, and exclusions in contracts where the other party deals as consumer or on the bank's written standard terms, are effective only if they pass the reasonableness test. The Unconscionable Contracts Ordinance (Cap. 458) separately allows a court to refuse to enforce unconscionable consumer contracts.",
+    "counselNote": "Clickwrap terms are written standard terms. Clauses that put fraud or system-failure losses on the customer may fail the reasonableness test and will also be read against the Code of Banking Practice.",
+    "cap": "71",
+    "section": "8",
+    "confidence": "high",
+    "url": "https://www.elegislation.gov.hk/hk/cap71"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Conduct for Persons Licensed by or Registered with the Securities and Futures Commission",
+    "ref": "para. 5.2",
+    "title": "Suitability",
+    "summary": "Using what it knows or should know about the client through due diligence, a licensed or registered person must ensure that any recommendation or solicitation is reasonably suitable for the client in all the circumstances. AIs that carry on regulated activities do so as registered institutions under the SFO, with the HKMA as frontline supervisor.",
+    "counselNote": "Any fund marketplace or wealth feature in the app brings the suitability obligation, the mandatory suitability clause in client agreements, and the SFC's guidelines on online distribution and advisory platforms.",
+    "confidence": "high"
+   }
+  ],
+  "checklist": [
+   "Map the Code of Banking Practice (December 2023 revision) clause by clause to app journeys, notifications and the terms and conditions, and track any gaps to closure.",
+   "Write a playbook for unauthorised-transaction claims covering the evidence needed to show gross negligence, refund timing, log preservation and escalation to complaints and the FDRC.",
+   "Check that the DPS membership sign appears on every e-banking screen where required, and that each product carries a protection status and any negative disclosure taken from a single product master record.",
+   "Audit direct-marketing consent capture under PDPO Part 6A: notice content, unbundled consents, separate consent for transfers to third parties, and how quickly opt-outs reach every system.",
+   "Keep a register of confidential-data disclosures recording the Tournier exception and the PDPO basis for each (JFIU, police orders, Part XIIAA sharing, CRAs, vendors).",
+   "Review standard terms under CECO and the Unconscionable Contracts Ordinance, and remove or narrow exclusions unlikely to pass the reasonableness test.",
+   "Set service levels for complaint acknowledgement and final response, and put signposting to the FDRC and HKMA in the app.",
+   "Confirm the scope of the bank's SFO registration and insurance licensing before any wealth, fund or insurance feature (including referral features) goes live."
+  ],
+  "itAngle": [
+   "Build evidence for disputes: keep authentication events, device IDs and binding history, IP and session data, and the exact screens shown. Gross negligence has to be proved, and logs are the proof.",
+   "Version-control every set of terms and every disclosure. Hash and timestamp each accepted version. The Electronic Transactions Ordinance (Cap. 553) gives electronic records and contracts legal effect, but the bank still has to prove what the customer actually saw.",
+   "Treat consent management as code. PDPO Part 6A consents and opt-outs must reach the CRM, push-notification and marketing tools in near real time, with automated tests that block sends to customers who have opted out.",
+   "Generate DPS signs, protection labels and risk disclosures from product master data rather than hard-coded copy, so that a product change automatically updates every channel."
+  ],
+  "virtualBankNotes": [
+   "The HKMA's 2018 virtual bank framework said these banks should not impose minimum balance requirements or low-balance fees, as part of its financial inclusion aim. Check how the current digital bank guideline carries this forward.",
+   "With no branches, complaint handling, lost-device reporting and fraud-response channels must work entirely remotely and quickly. A 24/7 app creates an expectation of 24/7 response to scam reports.",
+   "Vulnerable and elderly customers lack a branch fallback. Design assisted digital routes and friction for unusual transactions instead of relying on branch staff to spot problems.",
+   "Every disclosure is digital, so the bank must be able to prove that each one was presented and acknowledged, not merely published."
+  ],
+  "pitfalls": [
+   "Treating the Code of Banking Practice as optional because it describes itself as voluntary. The HKMA supervises against it.",
+   "Relying on terms and conditions to shift scam or unauthorised-transaction losses to customers without evidence of fraud or gross negligence.",
+   "Bundling marketing consent with account opening, pre-ticking consent boxes, or sharing data with partners for their own marketing without separate written consent.",
+   "Launching 'referral' or 'marketplace' features for funds or insurance without checking whether they amount to regulated dealing, advising or insurance distribution."
+  ],
+  "glossary": [
+   {
+    "term": "Code of Banking Practice",
+    "definition": "Non-statutory code issued jointly by HKAB and the DTC Association and endorsed by the HKMA. It sets minimum standards for AIs' dealings with personal customers, and the HKMA monitors compliance as part of supervision."
+   },
+   {
+    "term": "TCF",
+    "definition": "Treat Customers Fairly. The HKMA's charter of five high-level principles for fair treatment of retail customers, signed by the retail banks in October 2013."
+   },
+   {
+    "term": "FDRC",
+    "definition": "Financial Dispute Resolution Centre. It runs the Financial Dispute Resolution Scheme, which resolves monetary disputes between eligible customers and member financial institutions through mediation and then arbitration."
+   },
+   {
+    "term": "DPS",
+    "definition": "Deposit Protection Scheme under Cap. 581, administered by the Hong Kong Deposit Protection Board. It protects eligible deposits up to HK$800,000 per depositor per member bank from 1 October 2024."
+   },
+   {
+    "term": "negative disclosure",
+    "definition": "The statement a Scheme member must make that a financial product (for example a structured deposit) is not a protected deposit under the DPS."
+   },
+   {
+    "term": "Credit Data Smart",
+    "definition": "Brand name of Hong Kong's multiple credit reference agency model. Since April 2024, consumer credit data have flowed through an industry Credit Reference Platform to several selected CRAs instead of a single agency."
+   },
+   {
+    "term": "registered institution",
+    "definition": "An authorized institution registered under the SFO to carry on regulated activities such as dealing in or advising on securities. The HKMA acts as its frontline supervisor."
+   },
+   {
+    "term": "Tournier duty",
+    "definition": "The banker's implied contractual duty of confidentiality from Tournier [1924] 1 KB 461. It has four exceptions: compulsion of law, a duty to the public, the bank's own interests, and customer consent."
+   }
+  ]
+ },
+ {
+  "id": "supervision",
+  "index": 9,
+  "title": "Supervision & enforcement",
+  "phase": "oversight",
+  "review": "fact-checked",
+  "oneLiner": "Most HKMA pressure is private and continuous; knowing the statutory powers behind it shapes every regulatory conversation.",
+  "overview": "Authorization starts the relationship with the HKMA; it does not end it. The HKMA supervises continuously and on a risk basis. It rates every institution under its [[CAMEL rating]] system, combines off-site review of returns and management information with [[on-site examinations|on-site examination]] and thematic reviews, and meets boards, management and auditors regularly. The Banking Ordinance gives the Monetary Authority (MA) information and inspection powers, a ladder of intervention powers for when things go wrong (directions, an [[Advisor]], a [[Manager]], suspension, revocation) and criminal offences for serious misconduct. The Anti-Money Laundering Ordinance adds a separate disciplinary regime with fines. Statutory secrecy keeps most supervisory dealings private, so the enforcement the public sees is only a small part of the picture. Counsel's role is to keep the relationship candid, timely and well documented.",
+  "deepDive": "Supervision is continuous and mostly private. Under SA-1 the HKMA assesses eight inherent risks and the quality of risk management, and integrates the results with its CAMEL rating. The rating sets how intensively the bank is supervised. Off-site analysis alternates with full-scope or thematic examinations, prudential meetings with management, and [[tripartite meetings|tripartite meeting]] with the external auditor. Ratings and findings are confidential supervisory information, so ask for the HKMA's view before repeating them to investors, parents or vendors.\n\nThe hard powers sit in the Ordinance. s.63 underpins returns and ad hoc information requests, and s.55 underpins examinations. Under s.59(2) the MA can require a report from an auditor it has approved under s.59(3) (a [[section 59 report]]), the HKMA's equivalent of a skilled-person review. The bank's own auditor also has statutory reporting channels to the MA, so align with the auditor early. Individuals who give the MA materially false information can be prosecuted.\n\nEscalation usually starts with a findings letter and a remediation plan with deadlines. Beyond that, s.52 lets the MA direct specific action, require the bank to consult an Advisor, or appoint a Manager. The end points are revocation (s.22, on [[Eighth Schedule]] grounds, after notice and a hearing under s.23) and suspension (ss.24–25). Appeals against many MA decisions go to the Chief Executive in Council; capital, liquidity and disclosure decisions go to the [[Banking Review Tribunal]]. AML breaches follow a separate track: under AMLO s.21 the HKMA can issue public reprimands, remedial orders and fines, and this is where most published HKMA enforcement appears.\n\nFor counsel, 'no surprises' is the working rule. Report significant incidents and breaches early, with the known facts and a plan, and confirm every oral briefing in writing. Commission investigations through counsel, and give the HKMA facts, chronology and remediation rather than legal advice. If a privileged report must be produced, use express limited-waiver terms, accepting that protection against third parties is not guaranteed. s.120 binds the HKMA, not the bank: it keeps supervisory files out of public view but does not make the bank's own documents privileged. Contest examination findings on the facts, in writing, before the report is finalised.",
+  "provisions": [
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "SA-1",
+    "title": "Risk-based supervisory approach and CAMEL",
+    "summary": "Describes the HKMA's risk-based supervision (V.2, 23 December 2022). It assesses eight types of inherent risk (credit, market, interest rate, liquidity, operational, reputation, legal and strategic) and the quality of risk management, integrates the results with the CAMEL rating system, and runs a cycle of off-site reviews, on-site examinations and meetings with the institution. The 2022 revision expects emerging risks, such as climate risk, to be considered within the eight inherent risks.",
+    "counselNote": "This module explains why the HKMA asks what it asks. The CAMEL composite rating drives how intensively the bank is supervised and is confidential supervisory information.",
+    "confidence": "high",
+    "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20221223-2-EN/SA-1.pdf"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.63",
+    "title": "Returns and information to the MA",
+    "summary": "Requires AIs to submit periodic returns to the MA. s.63(2) also supports requests for further information the MA reasonably needs (HKMA forms such as the annual compliance certificate cite it as their legal basis). Non-compliance carries criminal sanctions.",
+    "counselNote": "Every regulatory return and ad hoc HKMA data request rests on this section. Errors in returns are regulatory events in their own right, so treat their accuracy and sign-off controls as legal controls.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "63",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.55",
+    "title": "Examination of AIs",
+    "summary": "Empowers the MA to examine an AI's books, accounts and transactions. The HKMA relies on this power for on-site examinations and thematic reviews, and information obtained this way is protected by statutory secrecy.",
+    "counselNote": "Requests made during an examination are compulsory, not voluntary. Manage document production, interviews and responses to draft findings as you would a formal regulatory process.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "55",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.59(2), (3)",
+    "title": "Auditor reports required by the MA",
+    "summary": "Under s.59(2) the MA may by notice require an AI to submit a report by an auditor on matters the MA reasonably requires for its functions; under s.59(3) the auditor must be approved by the MA. Published examples include reports on Bank of China (Hong Kong) in 2003 and Octopus Cards Limited in 2010.",
+    "counselNote": "A s.59 report is the HKMA's 'skilled person' tool, often used after incidents or to validate remediation. Negotiate the scope and terms of reference carefully, because the report goes to the regulator. Separately, the bank's own auditor has statutory duties to report certain significant matters to the MA.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "59",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.52",
+    "title": "Remedial powers: directions, Advisor, Manager",
+    "summary": "On statutory grounds that broadly cover actual or likely inability to meet obligations, conduct detrimental to depositors' interests and contraventions of the Ordinance, the MA may direct an AI to take specified action (s.52(1)(A)), require it to seek advice from an Advisor (s.52(1)(B)), or place the management of its affairs, business and property with a Manager (s.52(1)(C)).",
+    "counselNote": "These are the HKMA's main intervention tools short of revocation; past examples include an Advisor direction for Octopus Cards Limited and a Manager for Delta Asia Credit Limited. Directions restricting new business or requiring management changes are the realistic escalation for a struggling digital bank.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "52",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "ss.22, 23, 24, 25, Eighth Schedule; s.132A",
+    "title": "Revocation, suspension and appeals",
+    "summary": "s.22 allows the MA to revoke an authorization on grounds listed in the Eighth Schedule, after informing the AI of the grounds and giving it an opportunity to be heard (s.23). s.24 provides for temporary suspension and s.25 for suspension. s.132A provides appeals to the Chief Executive in Council against specified MA decisions; decisions on capital, liquidity and disclosure requirements are instead reviewable by the Banking Review Tribunal.",
+    "counselNote": "Revocation is the last resort, but its grounds (the HKMA treats the authorization criteria as continuing to apply after authorization) frame every serious supervisory conversation. Diarise appeal time limits as soon as any adverse decision is notified.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "22",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.120",
+    "title": "Official secrecy",
+    "summary": "Prohibits the MA and persons performing functions under the Ordinance from disclosing information about any person's affairs obtained in that capacity, subject to listed exceptions (gateways) such as disclosure to other regulators in defined circumstances.",
+    "counselNote": "This explains why the HKMA will not discuss peers and why examination reports are not public. It binds the HKMA, not the bank, and does not make the bank's own documents privileged.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "120",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+    "ref": "s.21",
+    "title": "Disciplinary action by relevant authorities",
+    "summary": "Where a financial institution contravenes specified requirements (including the Schedule 2 customer due diligence and record-keeping requirements), the relevant authority, which for AIs is the HKMA, may publicly reprimand it, order remedial action, and impose a pecuniary penalty of up to the greater of HK$10 million or three times the profit gained or costs avoided.",
+    "counselNote": "Most of the HKMA's public enforcement actions against banks are taken under this power. Read the HKMA's published guideline on exercising the pecuniary penalty power for the factors that aggravate or mitigate a penalty.",
+    "confidence": "high",
+    "cap": "615",
+    "section": "21",
+    "url": "https://www.elegislation.gov.hk/hk/cap615"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "ss.92, 97, 97A, 123, 124",
+    "title": "Criminal offences counsel should know",
+    "summary": "Offences include issuing deposit advertisements other than by an AI, subject to exceptions (s.92), using 'bank' in a name without being a licensed bank or the MA's consent (s.97), holding out as a bank (s.97A), staff making false entries in an AI's records (s.123), and directors or employees accepting advantages for showing favour in granting credit (s.124). The Ordinance also penalises producing information that is false in a material particular; in January 2009 the District Court fined individuals for Banking Ordinance offences including this one.",
+    "counselNote": "ss.123 and 124 apply to staff conduct and belong in training and the code of conduct. The false-information offences matter personally for anyone who signs returns or HKMA responses.",
+    "confidence": "medium",
+    "cap": "155",
+    "section": "123",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular: Management Accountability at Registered Institutions",
+    "ref": "Circular, 16 Oct 2017",
+    "title": "Senior management accountability (MIC-aligned)",
+    "summary": "Sets HKMA expectations, in FAQ form, for senior management accountability over securities (regulated) activities at registered institutions, aligned with the SFC's Manager-in-Charge regime. 'Management' covers chief executives, alternate chief executives, directors approved under s.71 of the Banking Ordinance, managers under s.72B, executive officers approved under s.71C, and other persons involved in management.",
+    "counselNote": "This becomes relevant if the digital bank registers to distribute investment products. Map responsible individuals and reporting lines, and keep s.71 approvals, s.72B manager notifications and executive officer approvals current.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20171016-1-EN/20171016-1-EN.pdf"
+   }
+  ],
+  "checklist": [
+   "Map every regulatory return to its data sources, owner and sign-off, and treat return errors as reportable events.",
+   "Set up a single regulatory correspondence log and point-of-contact protocol so that every HKMA request and response passes through legal or compliance.",
+   "Prepare an examination playbook covering a document request tracker, interviewee briefings and a factual-accuracy review step for draft findings.",
+   "Agree a board-approved self-reporting policy with thresholds, timelines and decision owners ('no surprises').",
+   "Track every HKMA finding to closure with root cause, owner, deadline and evidence, and report progress to the board.",
+   "Protect privilege by engaging investigators through counsel, separating factual chronologies from legal advice, and using limited-waiver terms when production is unavoidable.",
+   "Brief approved individuals (chief executive, alternate chief executives, directors and any executive officers) on their personal exposure under the Banking Ordinance and AMLO.",
+   "Negotiate the terms of reference for any s.59 engagement, covering scope, access, timetable and the bank's opportunity to comment on the draft report."
+  ],
+  "itAngle": [
+   "Regulatory returns are data pipelines. Errors in source systems, transformations or reporting logic become s.63 issues, so data lineage, reconciliations and change control over reporting code are compliance controls.",
+   "Examinations increasingly ask for system evidence such as access logs, configuration baselines, change tickets and test results. Keep it quickly retrievable, as you would for e-discovery.",
+   "Classify HKMA correspondence and findings as restricted. Limit access in document systems, and check that collaboration or AI tools do not send confidential supervisory material to third-party services without assessment."
+  ],
+  "virtualBankNotes": [
+   "Expect the HKMA to compare actual performance with the business plan submitted at authorization. Discuss material changes to products, partners or growth before they happen.",
+   "The 2018 virtual bank guideline required an exit plan, and the October 2024 digital bank guideline replaced it; check how the current guideline frames the exit plan. Keep it current, because persistent losses or capital pressure will bring it into supervisory discussion.",
+   "Technology incidents at a digital bank are visible to customers and the HKMA immediately, so incident reporting is a frequent contact point with the supervisor and a real test of 'no surprises'.",
+   "If the bank distributes investment products as a registered institution, the management accountability and conduct expectations for securities business add another supervisory layer."
+  ],
+  "pitfalls": [
+   "Repeating CAMEL ratings or examination findings to investors, parents or vendors without first consulting the HKMA.",
+   "Letting the HKMA learn of a problem from the media or the auditor before hearing it from the bank.",
+   "Producing privileged investigation reports without considering waiver consequences or recording the terms of production.",
+   "Treating the HKMA like an opposing litigant (adversarial, over-lawyered responses), or the opposite: relying on informal oral understandings with no written record."
+  ],
+  "glossary": [
+   {
+    "term": "CAMEL rating",
+    "definition": "The HKMA's composite supervisory rating covering Capital adequacy, Asset quality, Management, Earnings and Liquidity, assigned on a five-point scale. It sets supervisory intensity and is confidential."
+   },
+   {
+    "term": "on-site examination",
+    "definition": "An HKMA inspection of an institution's records, systems and staff, either full-scope or thematic, carried out under the MA's examination powers."
+   },
+   {
+    "term": "tripartite meeting",
+    "definition": "A meeting between the HKMA, the institution and its external auditor to discuss audit and supervisory findings."
+   },
+   {
+    "term": "section 59 report",
+    "definition": "A report the MA requires an institution, by notice under s.59(2), to obtain from an MA-approved auditor on matters the MA specifies. It is commonly used to investigate problems or validate remediation."
+   },
+   {
+    "term": "Advisor",
+    "definition": "A person appointed by the MA whose advice an institution is required, under s.52, to seek on the management of its affairs."
+   },
+   {
+    "term": "Manager",
+    "definition": "A person appointed under s.52 to manage the affairs, business and property of an institution in place of its own management."
+   },
+   {
+    "term": "Eighth Schedule",
+    "definition": "The Schedule to the Banking Ordinance listing the grounds on which the MA may revoke an authorization under s.22."
+   },
+   {
+    "term": "Banking Review Tribunal",
+    "definition": "A statutory tribunal, chaired by a person qualified for appointment as a High Court judge, that reviews MA decisions on capital, liquidity and disclosure requirements. It was originally established as the Capital Adequacy Review Tribunal."
+   }
+  ]
+ },
+ {
+  "id": "resolution",
+  "index": 10,
+  "title": "Recovery & resolution",
+  "phase": "oversight",
+  "review": "draft",
+  "oneLiner": "If the bank fails, contract terms, exit triggers and payout readiness decide whether depositors are paid in an orderly way.",
+  "overview": "This area covers what happens as a bank moves from stress to failure. It has three layers. First, the bank's own preparation: a [[recovery plan]] under SPM RE-1 setting out actions it can take itself and, for a digital bank, an [[exit plan]] for an orderly, solvent wind-down. Second, the HKMA's supervisory powers under the Banking Ordinance, which allow it to give directions or appoint an Advisor or Manager without formal resolution. Third, the Financial Institutions (Resolution) Ordinance (Cap. 628), which makes the HKMA the resolution authority for banks. Where a bank's failure would threaten financial stability, it can override shareholders, creditors and counterparties. Alongside these, the Deposit Protection Scheme (Cap. 581) pays insured depositors quickly if a bank is simply liquidated. For a small digital bank, the realistic end-states are a solvent wind-down or liquidation with a DPS payout, rather than bail-in.",
+  "deepDive": "Start with the escalation ladder. Recovery is led by the bank. RE-1 is a statutory guideline, revised in 2020. It expects a board-owned plan with quantitative and qualitative triggers set above regulatory minimums, credible and tested options, and a communications plan. The revision added triggers such as a rapid fall in profitability and major operational incidents, both relevant to a tech-dependent bank.\n\nIf recovery fails, the MA can act under s.52 of the Banking Ordinance. It can direct the bank, appoint an Advisor or, after consulting the Financial Secretary, appoint a Manager to run the business. For a small bank these remain the main tools. Liquidation then proceeds through the court under Cap. 32, with the DPS paying protected depositors up to HK$800,000 each, against a seven-day payout target.\n\nFIRO is reserved for cases that meet the s.25 conditions. The bank must have ceased, or be likely to cease, to be viable, with no reasonable prospect of private-sector action restoring viability. Its failure must also threaten Hong Kong's financial stability, including the continuity of [[critical financial functions]]. Without that systemic risk, resolution is not available. The five stabilization options are transfer to a purchaser, transfer to a [[bridge institution]], transfer to an asset management vehicle, [[bail-in]] and transfer to a temporary public ownership company. The [[NCWO]] safeguard compensates anyone left worse off than in a winding up.\n\n[[LAC]] requirements (Cap. 628B) apply only to AIs the HKMA classifies as resolution entities (or their material subsidiaries): in practice the larger banks. Confirm the current classification criteria with the HKMA. Two FIRO regimes can still reach a smaller bank. The Stay Rules (Cap. 628C) require a [[contractual stay]] term in non-Hong Kong-law financial contracts, recognising the HKMA's power under s.90 to suspend termination rights. The Protected Arrangements Regulation (Cap. 628A) governs how set-off, netting and security survive partial transfers.\n\nCounsel's main lever is contractual. Core banking, cloud, payments and KYC vendors should not be able to terminate or suspend service because of recovery action, an HKMA direction, a s.52 Manager or resolution, provided they are paid. They should also support transfer and exit. Finally, align exit-plan triggers with recovery triggers, and make the parent's commitment to fund depositor repayment legally binding.",
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Financial Institutions (Resolution) Ordinance (Cap. 628)",
+    "ref": "s.25",
+    "title": "Conditions for initiating resolution",
+    "summary": "Resolution may be initiated only if the institution has ceased, or is likely to cease, to be viable, with no reasonable prospect of private-sector action restoring viability. Its non-viability must also pose risks to the stability and effective working of Hong Kong's financial system, including the continued performance of critical financial functions.",
+    "counselNote": "For a small digital bank the systemic-risk limb may not be met, which points to insolvency plus a DPS payout rather than FIRO tools. Plan for both paths.",
+    "confidence": "high",
+    "cap": "628",
+    "section": "25",
+    "url": "https://www.elegislation.gov.hk/hk/cap628"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Financial Institutions (Resolution) Ordinance (Cap. 628)",
+    "ref": "Stabilization options",
+    "title": "The five stabilization options",
+    "summary": "FIRO gives the HKMA, as resolution authority for banking sector entities, five options: transfer to a purchaser, transfer to a bridge institution, transfer to an asset management vehicle, statutory bail-in, and transfer to a temporary public ownership company. FIRO commenced on 7 July 2017.",
+    "counselNote": "Transfer-based options only work if contracts, licences and data can follow the business to a new owner. Assignment and novation clauses in key contracts should allow this.",
+    "confidence": "high",
+    "cap": "628",
+    "url": "https://www.elegislation.gov.hk/hk/cap628"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Financial Institutions (Resolution) Ordinance (Cap. 628)",
+    "ref": "NCWO safeguard (compensation)",
+    "title": "No creditor worse off",
+    "summary": "Pre-resolution shareholders and creditors are entitled to compensation if an independent valuation shows they fared worse in resolution than they would have in a hypothetical winding up of the institution.",
+    "counselNote": "The comparison is with insolvency, so creditor ranking and set-off positions in a winding up matter even in resolution. Keep the bank's creditor hierarchy analysis current.",
+    "confidence": "high",
+    "cap": "628",
+    "url": "https://www.elegislation.gov.hk/hk/cap628"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.52",
+    "title": "MA's powers over a troubled AI",
+    "summary": "In defined circumstances, such as an AI likely to be unable to meet its obligations or conducting business in a manner detrimental to depositors, the MA may give directions (s.52(1)(A)) or appoint a Manager to run the AI's affairs, business and property (s.52(1)(C), after consulting the Financial Secretary). The MA may also appoint an Advisor. A Manager's appointment can later be revoked under s.53F.",
+    "counselNote": "These are the likeliest intervention tools for a small bank. Check that the insolvency-event definitions in vendor and funding contracts do not treat a s.52 appointment as a termination trigger.",
+    "confidence": "high",
+    "cap": "155",
+    "section": "52",
+    "url": "https://www.elegislation.gov.hk/hk/cap155"
+   },
+   {
+    "kind": "spm",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "RE-1 (V.2, 19 June 2020)",
+    "title": "Recovery planning",
+    "summary": "A statutory guideline under s.7(3) of the Banking Ordinance. It requires AIs to maintain board-approved recovery plans with calibrated triggers, stress scenarios, credible recovery options assessed for feasibility and impact, and communication plans, assuming no public support beyond eligibility for HKMA liquidity facilities.",
+    "counselNote": "Counsel should check the governance (who can invoke the plan, board approval, annual review) and the legal feasibility of each option, for example whether assets can be sold or a capital raise made quickly.",
+    "confidence": "high"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "Guideline on Authorization of Virtual Banks (2018; replaced by the Digital Banks guideline, 25 Oct 2024)",
+    "ref": "Exit plan requirement",
+    "title": "Exit plan for a failed business model",
+    "summary": "The 2018 guideline required virtual bank applicants to provide an exit plan so that the bank can unwind its business in an orderly way, without disrupting customers or the financial system, if its business model fails. The plan should cover the triggers, who has authority to trigger it, the channels for repaying depositors and the source of funds for those payments.",
+    "counselNote": "This is a live obligation, not a one-off licensing document. Its triggers should be built into the board's risk appetite and tested alongside the recovery plan. Check how the current Guideline on Authorization of Digital Banks restates the requirement.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Deposit Protection Scheme Ordinance (Cap. 581)",
+    "ref": "Protection limit and payout",
+    "title": "Deposit Protection Scheme",
+    "summary": "Licensed banks are Scheme members unless exempted. Protected deposits are covered up to HK$800,000 per depositor per member bank from 1 October 2024. The Deposit Protection Board targets payout within seven days on a gross basis. Structured deposits, time deposits with an original term over five years, bearer instruments and offshore deposits are not protected.",
+    "counselNote": "A digital bank is a Scheme member. Counsel should check product labelling and the DPS membership representations in the app, and the bank's ability to produce depositor data for a fast payout.",
+    "confidence": "medium",
+    "cap": "581",
+    "url": "https://www.elegislation.gov.hk/hk/cap581"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Financial Institutions (Resolution) (Contractual Recognition of Suspension of Termination Rights - Banking Sector) Rules (Cap. 628C)",
+    "ref": "Stay Rules; Code of Practice ST-1",
+    "title": "Contractual recognition of resolution stays",
+    "summary": "These Rules were made under s.92 of FIRO and came into force on 27 August 2021. Covered entities (Hong Kong-incorporated AIs and certain group companies) must include, in covered financial contracts governed by non-Hong Kong law, a term by which the counterparty agrees to be bound by a suspension of termination rights under s.90 of FIRO (up to two business days). Code of Practice chapter ST-1 explains how the HKMA will exercise its discretions under the Rules.",
+    "counselNote": "Inventory any ISDA, GMRA or similar foreign-law contracts and confirm that the stay language or protocol adherence is in place. Technology contracts are not 'financial contracts', so continuity for them depends on drafting.",
+    "confidence": "high",
+    "cap": "628C",
+    "url": "https://www.elegislation.gov.hk/hk/cap628C"
+   },
+   {
+    "kind": "code",
+    "instrument": "FIRO Code of Practice",
+    "ref": "OCIR-1 (5 Nov 2021)",
+    "title": "Operational continuity in resolution",
+    "summary": "Issued by the HKMA as resolution authority. It sets expectations for ex-ante arrangements so that critical financial functions and the essential services supporting them, including intra-group and third-party services, can continue during and after resolution. It is read with RA-2 (approach to resolution planning) and CI-1 (core information requirements).",
+    "counselNote": "Even where formal resolution planning for the bank is light, OCIR-1 is the best benchmark for resolution-resilient clauses in outsourcing, cloud and intra-group service agreements.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Financial Institutions (Resolution) (Loss-absorbing Capacity Requirements - Banking Sector) Rules (Cap. 628B)",
+    "ref": "LAC Rules",
+    "title": "Loss-absorbing capacity requirements",
+    "summary": "These Rules were made under s.19(1) of FIRO and came into operation on 14 December 2018. They require AIs that the MA classifies as resolution entities, or as material subsidiaries of them, to hold minimum LAC. In practice they reach the larger banks rather than small digital banks; the HKMA decides the classification.",
+    "counselNote": "A digital bank is unlikely to be in scope. Confirm this with the HKMA rather than assume it, and keep it under review if the bank grows or is acquired by a larger group.",
+    "confidence": "medium",
+    "cap": "628B",
+    "url": "https://www.elegislation.gov.hk/hk/cap628B"
+   }
+  ],
+  "checklist": [
+   "Map critical vendors (core banking, cloud, payments, card processing, KYC and the parent's shared platforms) and review their termination, suspension and change-of-control triggers. Carve out HKMA directions, s.52 appointments, recovery actions and resolution.",
+   "Negotiate resolution-resilience terms: continued service while fees are paid, assignment or novation to a purchaser or bridge institution, exit assistance, data return in a usable format, and access to configuration and keys.",
+   "Inventory non-Hong Kong-law financial contracts and confirm compliance with the Stay Rules, through bespoke clauses or ISDA/ICMA protocol adherence.",
+   "Audit recovery plan governance: board approval, annual refresh, trigger calibration against the capital and liquidity plan, the escalation chain, and evidence of dry runs.",
+   "Write exit-plan triggers into the risk appetite statement (for example CET1 runway, losses against plan, missed parent funding milestones) and document who can invoke the plan.",
+   "Make the parent's funding commitment for depositor repayment and wind-down costs legally enforceable, and test whether it is still credible.",
+   "Verify DPS readiness: correct protected and non-protected product labelling, membership representations in app and web journeys, and depositor data quality for payout files.",
+   "Prepare an intervention playbook covering HKMA liaison, board convening, privilege, customer communications, staff retention and preservation of records."
+  ],
+  "itAngle": [
+   "Operational continuity is an architecture question. Can the bank's stack be separated from the group and handed to a purchaser or bridge institution while the legal owner changes? Shared parent platforms and group-owned cloud tenancies are the usual blockers.",
+   "Executing an exit plan is a large data-migration and payments project. It needs verified payee details, bulk FPS or transfer repayments, account-closure workflows, mass customer notification and retention of records after the bank ceases business.",
+   "A DPS payout depends on producing accurate depositor-level, aggregated data in the format the Deposit Protection Board prescribes. Treat it as a tested 'single customer view' export, not a one-off script.",
+   "Continuity clauses only work if the operational controls match: API credentials, encryption keys, admin accounts and data should sit in tenancies the bank controls, with runbooks for vendor exit and handover."
+  ],
+  "virtualBankNotes": [
+   "The 2018 virtual bank guideline required an exit plan covering triggers, who can trigger it, depositor repayment channels and the source of funds; check how the current digital bank guideline restates it. For a loss-making bank this is the most important resolution-related document.",
+   "As licensed banks, digital banks are DPS members, so protected deposits are covered up to HK$800,000 per depositor.",
+   "A small digital bank is unlikely to be a LAC resolution entity. Its realistic failure paths are solvent wind-down, a sale or a s.52 Manager, followed by liquidation and a DPS payout.",
+   "Heavy reliance on group platforms and cloud makes contractual continuity critical, even if the HKMA does not require full resolution planning."
+  ],
+  "pitfalls": [
+   "Treating the exit plan as a licensing-stage document rather than a live plan with calibrated triggers, a named decision-maker and committed funding.",
+   "Leaving vendor 'insolvency event' clauses broad enough to catch a regulatory direction, a s.52 Manager or resolution, which hands the vendor a walk-away right at the worst moment.",
+   "Assuming the Stay Rules protect technology and outsourcing contracts. They target non-Hong Kong-law financial contracts.",
+   "Mislabelling products as deposit-protected (for example structured deposits or long-term time deposits), which creates misrepresentation and DPS compliance issues."
+  ],
+  "glossary": [
+   {
+    "term": "recovery plan",
+    "definition": "A bank-owned plan of actions to restore its viability under severe stress without public support beyond normal central bank facilities, with triggers, options and governance (SPM RE-1)."
+   },
+   {
+    "term": "exit plan",
+    "definition": "A digital bank's plan for unwinding its business in an orderly way if its business model fails. It covers triggers, who can trigger it, how depositors are repaid and how that repayment is funded."
+   },
+   {
+    "term": "bail-in",
+    "definition": "A stabilization option under which the resolution authority writes down liabilities or converts them into equity to recapitalise a failing institution, without taxpayer funding."
+   },
+   {
+    "term": "bridge institution",
+    "definition": "A temporary entity controlled by the resolution authority that takes over critical business from a failing institution so that it can continue until it is sold or wound down."
+   },
+   {
+    "term": "NCWO",
+    "definition": "No creditor worse off: the safeguard by which shareholders and creditors are compensated if resolution leaves them worse off than a hypothetical winding up would have done."
+   },
+   {
+    "term": "LAC",
+    "definition": "Loss-absorbing capacity: capital and eligible debt that can be written down or converted to absorb losses and recapitalise a bank in resolution. In Hong Kong it is set by Cap. 628B for AIs the HKMA classifies as resolution entities."
+   },
+   {
+    "term": "contractual stay",
+    "definition": "A contract term by which a counterparty agrees to be bound by the resolution authority's temporary suspension of its termination rights. It is needed because foreign courts might not otherwise recognise the statutory stay."
+   },
+   {
+    "term": "critical financial functions",
+    "definition": "Activities, such as deposit-taking and payments, whose sudden discontinuation would be likely to disrupt the financial system or the economy. Their protection is a central objective of resolution."
+   }
+  ]
  }
 ]
