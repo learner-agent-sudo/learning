@@ -333,7 +333,7 @@
         "lede": "A digital bank holds no separate type of licence.",
         "points": [
           "**HKMA guideline:** The Guideline on Authorization of Digital Banks (s.16(10)), which superseded the virtual bank guideline (first issued 5 May 2000, updated 21 September 2012 and 30 May 2018), applies the Seventh Schedule to banks delivering services mainly through the internet or other electronic channels.",
-          "**Requirements:** local incorporation, a Hong Kong intermediate holding company where the owner is not a bank or financial institution, a physical presence in Hong Kong and an exit plan.",
+          "**Requirements:** local incorporation (para 8), a Hong Kong intermediate holding company where the bank is not majority-owned by a bank or financial institution in good standing supervised by a recognised authority (para 9), a physical presence in Hong Kong (para 12) and an exit plan (para 20).",
           "**Licences granted:** Eight licences were granted in 2019."
         ]
       },
@@ -421,7 +421,7 @@
         "instrument": "Guideline on Authorization of Digital Banks (formerly Virtual Banks)",
         "ref": "Supersedes the 2000 virtual bank guideline (last updated 30 May 2018)",
         "title": "Authorization criteria applied to digital banks",
-        "summary": "Explains how the MA applies the Seventh Schedule to banks that deliver services mainly or only through electronic channels. It covers:\n- local incorporation;\n- ownership by a suitable parent, or through a Hong Kong intermediate holding company;\n- physical presence;\n- an exit plan.\nDigital banks are supervised to the same standards as conventional banks, applied in a risk-based, technology-neutral way.",
+        "summary": "Explains how the MA applies the Seventh Schedule to banks that deliver services mainly or only through electronic channels. It covers:\n- local incorporation;\n- ownership by a suitable parent, or through a Hong Kong intermediate holding company;\n- physical presence;\n- an exit plan.\nDigital banks are subject to the same supervisory requirements as conventional banks, some of them adapted to digital business models under a risk-based, technology-neutral approach (para 11).",
         "counselNote": "This is your licence-specific rulebook. In practice the HKMA monitors the commitments made at authorization (business plan, exit plan, ownership) as continuing obligations.",
         "url": "https://www.hkma.gov.hk/eng/key-functions/banking/banking-regulatory-and-supervisory-regime/digital-banks/",
         "confidence": "high"
@@ -561,7 +561,7 @@
           "**Holding company:** where the bank is not majority-owned by a supervised bank or financial institution, a Hong Kong [[intermediate holding company]] subject to supervisory conditions.",
           "**Parental support:** parent companies must be committed to supporting the bank and able to provide strong financial, technology and other support when necessary (para 10). In practice the HKMA usually takes letters of comfort from controllers; the guideline itself does not mention them.",
           "**Business plan:** a credible one, with no minimum-balance requirements or low-balance fees.",
-          "**Technology:** IT governance and controls fit for purpose (para 14), confirmed by two independent assessments: one of the planned systems with the application, a more detailed one of the actual implementation before launch (para 15).",
+          "**Technology:** security and technology-related controls 'fit for purpose', i.e. appropriate to the type of transactions the bank intends to carry out (para 14), confirmed by two independent expert assessments: one of the adequacy of the planned IT governance and systems, submitted with the application, and a more detailed one of the actual design, implementation and effectiveness of systems, security, procedures and controls, reported before launch (para 15).",
           "**Exit:** an [[exit plan]] to unwind the business in an orderly manner without disrupting customers or the financial system (para 20)."
         ]
       },
@@ -974,7 +974,7 @@
       "**Parent tech services:** Technology services from a tech parent are both a connected-party and an outsourcing issue; feed the outsourcing register and the connected-exposure system from one source of truth."
     ],
     "virtualBankNotes": [
-      "**Holding company:** Where the bank is not majority-owned by a bank or financial institution in good standing, the guideline expects a Hong Kong intermediate holding company, with supervisory conditions imposed on that company (para 9). It and the ultimate parent will typically be controllers needing s.70 consent. In practice the HKMA usually also takes letters of comfort from controllers. The 2026 Bill would allow direct supervision of designated holding companies.",
+      "**Holding company:** Where the bank is not majority-owned by a bank or financial institution in good standing and supervised by a recognised authority in Hong Kong or elsewhere, the guideline expects it to be held through a Hong Kong-incorporated intermediate holding company, with supervisory conditions imposed on that company (para 9). It and the ultimate parent will typically be controllers needing s.70 consent. In practice the HKMA usually also takes letters of comfort from controllers. The 2026 Bill would allow direct supervision of designated holding companies.",
       "**Upstream cap table:** Tech-group parents often have founders, venture funds and public shareholders upstream; changes in that cap table are a common source of unexpected controller approvals.",
       "**Shared executives:** Executives shared with or seconded from the parent need s.71 consent or s.72B notification in their bank role, plus conflicts management under CG-1."
     ],
@@ -1366,7 +1366,7 @@
         "lede": "Incident reporting runs on parallel tracks.",
         "points": [
           "**HKMA:** expects immediate notice of significant incidents with whatever facts are available; waiting for root cause can itself draw a finding.",
-          "**Cap. 653:** If the bank has been designated, statutory deadlines for notifying the Commissioner also apply: 12 hours for serious incidents, 48 hours for others, then a written report within 14 days.",
+          "**Cap. 653:** If the bank has been designated, statutory deadlines for notifying the Commissioner also apply: 12 hours if the incident has disrupted, is disrupting or is likely to disrupt the core function of the critical infrastructure, 48 hours in any other case, then a written report within 14 days (s.28; Sch. 6).",
           "**Other tracks:** PDPO, police and customer communications each follow their own rules."
         ],
         "takeaway": "Build one triage tree that starts every clock at once.",
@@ -1382,7 +1382,7 @@
             {
               "value": "12 hours",
               "label": "Cap. 653",
-              "note": "Serious incidents"
+              "note": "Incident disrupting (or likely to disrupt) the core function"
             },
             {
               "value": "48 hours",
@@ -1441,7 +1441,7 @@
         "instrument": "HKMA Supervisory Policy Manual",
         "ref": "TM-E-1",
         "title": "Risk Management of E-banking",
-        "summary": "Revised version (V.4, 25 October 2024), a statutory guideline under s.7(3) of the Banking Ordinance. It superseded V.3 (2019), V.2 (2015) and the 26 May 2016 circular on internet banking security controls. It extends the module to controls over payment card transactions, consolidates e-banking security measures previously spread across supervisory documents, and is more principle-based.",
+        "summary": "Revised version (V.4, 25 October 2024), a statutory guideline under s.7(3) of the Banking Ordinance. It superseded V.3 (2019), V.2 (2015) and the 26 May 2016 circular on internet banking security controls. It includes guidance on controls over payment card transactions (subsection 7.6).",
         "counselNote": "This is the core rulebook for a digital-only bank's customer channels, covering authentication, fraud monitoring and mobile app security. The HKMA's April 2025 'E-Banking Security ABC' measures build on it: 'Authenticate in-App' makes bound-device authentication the default for mobile app users instead of SMS OTP (due by Q4 2025), and an August 2025 letter extended the package to 'ABCD' by adding deepfake detection.",
         "confidence": "high",
         "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20241101-3-EN/TM-E-1.pdf"
@@ -1487,7 +1487,7 @@
         "instrument": "Protection of Critical Infrastructures (Computer Systems) Ordinance (Cap. 653)",
         "ref": "Whole Ordinance",
         "title": "Critical infrastructure cybersecurity duties",
-        "summary": "In force from 1 January 2026. Operators designated as critical infrastructure operators, including in the banking and financial services sector, bear three categories of duties for their designated critical computer systems: organisational, preventive (such as annual risk assessments and two-yearly audits), and incident reporting and response. Serious incidents must be notified to the Commissioner of Critical Infrastructure (Computer-system Security) within 12 hours of becoming aware, others within 48 hours, followed by a written report within 14 days. The HKMA is the designated authority for the banking and financial services sector and administers the organisational and preventive obligations of operators in that sector.",
+        "summary": "In force from 1 January 2026. Operators designated as critical infrastructure operators, including in the banking and financial services sector, bear three categories of duties for their designated critical computer systems: organisational, preventive (such as annual risk assessments and two-yearly audits), and incident reporting and response. Incidents that have disrupted, are disrupting or are likely to disrupt the core function must be notified to the Commissioner of Critical Infrastructure (Computer-system Security) within 12 hours of becoming aware, others within 48 hours, followed by a written report within 14 days (s.28; Sch. 6). The HKMA is the designated authority for the banking and financial services sector and administers the organisational and preventive obligations of operators in that sector.",
         "counselNote": "Designation is by written notice, so confirm whether the bank or any of its systems has been designated. If it has, statutory deadlines and audit and risk-assessment cycles apply on top of HKMA expectations; read the HKMA's Code of Practice for designated AIs (2 June 2026) with the Ordinance. An HKMA–Commissioner MoU dated 29 May 2026 coordinates the two regulators.",
         "confidence": "medium",
         "cap": "653",
@@ -2078,7 +2078,7 @@
             }
           ],
           "drafting": [
-            "**Clock:** set a vendor notification deadline measured in hours, shorter than the bank's own clocks. TM-E-1 8.2.5 asks for prompt notice to the HKMA; a designated CI operator must notify the Commissioner as soon as practicable and within the time in Cap. 653 Sch. 6 (12 hours for serious incidents and 48 hours for others), then report in writing within 14 days (s.28).",
+            "**Clock:** set a vendor notification deadline measured in hours, shorter than the bank's own clocks. TM-E-1 8.2.5 asks for prompt notice to the HKMA; a designated CI operator must notify the Commissioner as soon as practicable and within the time in Cap. 653 Sch. 6: 12 hours if the incident has disrupted, is disrupting or is likely to disrupt the core function, 48 hours in any other case, then a written report within 14 days of becoming aware (s.28).",
             "**Content:** require initial notice with the facts available, then updates and a root-cause report; cooperation with forensic work; preservation of logs."
           ]
         },
@@ -2092,7 +2092,7 @@
           "require": [
             "**Supplier contracts in the plan:** the computer-system security management plan must cover managing contracts and other communications with suppliers of computer-related services and products for the critical systems, so that the bank complies with its obligations and its required security measures are properly implemented (s.23(3); Sch. 3 item 3(h)).",
             "**Systems the bank does not control:** a computer system can be designated as a critical computer system whether or not it is under the operator's control, if it is accessible from Hong Kong and essential to the core function (s.13(1)).",
-            "**Incidents:** notify the Commissioner as soon as practicable and within the specified time, then report in writing within 14 days (s.28; Sch. 6). The vendor has to tell the bank in time for this."
+            "**Incidents:** notify the Commissioner as soon as practicable and within 12 hours if the incident has disrupted, is disrupting or is likely to disrupt the core function, or 48 hours in any other case, then report in writing within 14 days of becoming aware (s.28; Sch. 6). The vendor has to tell the bank in time for this."
           ],
           "sources": [
             {
@@ -2578,7 +2578,7 @@
         "heading": "Guideline and enforcement",
         "lede": "The HKMA AML/CFT Guideline (revised May 2023) is issued under AMLO s.7 and BO s.7(3), and its 'must' and 'should' provisions are mandatory (para 1.6).",
         "points": [
-          "**Disciplinary trigger:** Breaching it does not by itself make anyone liable to proceedings, but it is admissible in AMLO court proceedings, the HKMA must have regard to it in deciding whether Schedule 2 was breached, and a Schedule 2 contravention triggers the s.21 disciplinary power (paras 1.7–1.8).",
+          "**Disciplinary trigger:** Breaching it does not by itself make anyone liable to proceedings, but it is admissible in AMLO court proceedings and the HKMA must have regard to it in deciding whether a provision of Schedule 2 was contravened (para 1.7). Non-compliance may also reflect adversely on the Seventh Schedule criteria, particularly paragraph 10 on adequate systems of control (para 1.8), and AIs that fail to comply may face disciplinary or other action (para 1.3). The AMLO's own disciplinary power is s.21, triggered by a Schedule 2 contravention.",
           "**Recent penalties:** Hua Nan HK$9m and DBS HK$10m in 2024, and Indian Overseas Bank HK$8.5m in 2025.",
           "**Common failures:** Each concerned failures in monitoring or record-keeping that ran for years."
         ],
