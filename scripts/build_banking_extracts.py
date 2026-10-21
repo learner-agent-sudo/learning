@@ -40,10 +40,14 @@ SCHEDULE = re.compile(
     r"(?:\s*[,;]?\s*(?:s(?:ection)?s?\.?|para(?:graph)?s?\.?)\s*(?P<item>\d+[A-Z]*))?"
 )
 SECTION = re.compile(r"(?i)^(?:s(?:ection)?s?\.?\s*)?(?P<num>\d+[A-Z]*)")
+PART = re.compile(r"(?i)^(?:pt|part)\.?\s*(?P<num>[0-9]+[A-Z]*|[IVXL]+[A-Z]*)\b")
 
 
 def parse_ref(section: str) -> tuple[str, str, str | None] | None:
     text = section.strip()
+    m = PART.match(text)
+    if m:
+        return ("part", m.group("num").upper(), None)
     m = SCHEDULE.match(text)
     if m:
         n = m.group("n") or ORDINALS.get((m.group("word") or "").lower())
@@ -66,8 +70,29 @@ def clip(text: str) -> tuple[str, bool]:
     return text[: cut if cut > 0 else MAX_CHARS], True
 
 
+def resolve_part(doc: dict, num: str) -> dict | None:
+    part = next((p for p in doc["parts"] if p["num"].upper() == f"PART {num}"), None)
+    if not part or part["status"] != "in-effect":
+        return None
+    by_id = {s["id"]: s for s in doc["sections"]}
+    lines = [f"s. {by_id[i]['num']}  {by_id[i]['heading']}"
+             for i in part["sections"] if i in by_id and by_id[i]["status"] == "in-effect"]
+    return {
+        "label": part["num"],
+        "heading": part["heading"],
+        "capTitle": doc["title"],
+        "versionDate": doc["versionDate"],
+        "hkelUrl": doc["hkelUrl"],
+        "isPart": True,
+        "text": "\n".join(lines),
+        "truncated": False,
+    }
+
+
 def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
     kind, num, item = ref
+    if kind == "part":
+        return resolve_part(doc, num)
     if kind == "s":
         hit = next((s for s in doc["sections"] if s["id"] == f"s{num}"), None)
         label = f"s. {num}"
