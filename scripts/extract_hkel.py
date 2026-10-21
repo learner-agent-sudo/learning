@@ -100,6 +100,11 @@ def inline_text(el: ET.Element) -> str:
     return "".join(parts)
 
 
+def has_nested_structure(el: ET.Element) -> bool:
+    """True if a numbered element sits anywhere below el's direct children."""
+    return any(tag(d) in STRUCTURAL for child in el for d in child.iter())
+
+
 def cell_text(el: ET.Element) -> str:
     """All text in a table cell, numbered sub-paragraphs included, notes left out."""
     parts: list[str] = [el.text or ""]
@@ -150,13 +155,15 @@ def render(el: ET.Element, depth: int = 0, top: bool = True) -> list[str]:
             flush()
             lines.extend(render(child, depth + 1 if name in STRUCTURAL else depth, top=False))
         elif name == "table":
+            # HTML-style (tr/td) or CALS-style (row/entry) rows.
             flush()
-            for row in child.iter(NS + "tr"):
-                cells = [cell_text(td) for td in row]
+            for row in (r for r in child.iter() if tag(r) in ("tr", "row")):
+                cells = [cell_text(c) for c in row if tag(c) in ("td", "th", "entry")]
                 lines.append("  " * depth + " | ".join(c for c in cells if c))
-        elif child.find(f".//{NS}table") is not None:
-            # A wrapper holding a table: inline_text would drop numbered
-            # paragraphs inside its cells (e.g. Cap. 653 Sch. 6 item 1).
+        elif child.find(f".//{NS}table") is not None or has_nested_structure(child):
+            # A wrapper (a table, a CALS row or entry, ...) holding numbered
+            # paragraphs below its direct children: inline_text would drop
+            # them (e.g. Cap. 653 Sch. 6 item 1), so render it as a block.
             flush()
             lines.extend(render(child, depth, top=False))
         elif name in TEXTUAL:
