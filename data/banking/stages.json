@@ -2119,15 +2119,15 @@
           "appliesTo": [
             "all"
           ],
-          "summary": "The bank should monitor the vendor's performance continuously (SA-2 2.3.2, 2.6), which needs regular information flowing back under the contract.",
+          "summary": "The bank should monitor the vendor's performance on a continuous basis and have effective procedures for monitoring the relationship and its risks (SA-2 2.3.2, 2.6.1). SA-2 does not say how the bank gets the information; contractual reporting duties are the practical way (drafting inference).",
           "require": [
-            "**Reports:** contract performance, material problems the vendor meets, and information to review its financial condition and risk profile (SA-2 2.6.2).",
-            "**Ongoing resilience:** enough information for the bank to stay satisfied that a vendor supporting critical operations keeps an acceptable level of operational resilience (OR-2 6.2)."
+            "**Reports:** the information the bank needs for what SA-2 says its monitoring should cover: contract performance, material problems the vendor encounters, regular review of the vendor's financial condition and risk profile, and the vendor's contingency plan, its test results and scope for improvement (SA-2 2.6.2). SA-2 lists these as the bank's monitoring scope; the vendor's duty to report them is counsel's drafting.",
+            "**Ongoing resilience:** where the vendor supports critical operations, information and access rights that let the bank continually satisfy itself that the vendor has kept an acceptable level of operational resilience. OR-2 asks for 'adequate arrangements' to that end; making them contractual is counsel's drafting (OR-2 6.2)."
           ],
           "sources": [
             {
               "label": "SPM SA-2 Outsourcing",
-              "ref": "2.6.1–2.6.2",
+              "ref": "2.3.2, 2.6.1–2.6.2",
               "strength": "hkma-guidance",
               "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
             },
@@ -2149,10 +2149,11 @@
           "appliesTo": [
             "offshore"
           ],
-          "summary": "Data held offshore can be reached by foreign police, tax or other authorities. SA-2 asks the bank to notify the HKMA if they seek access to customer data (2.9.1), so the bank needs the vendor to tell it first.",
+          "summary": "Data held offshore may be reachable by foreign police, tax or other authorities under compulsion of law. The bank should notify the HKMA if overseas authorities seek access to its customers' data (SA-2 2.9.1), so it needs the vendor to tell it first.",
           "require": [
             "**Notice:** the vendor tells the bank promptly of any request by an overseas authority for the bank's customer data, so far as the law allows (inference from SA-2 2.9.1, which asks the bank to notify the HKMA of such requests).",
-            "**Regulator-driven exit:** a right to terminate or move the service if the HKMA requires alternative arrangements, which it reserves the right to do where foreign access appears unwarranted (SA-2 2.9.1)."
+            "**Regulator-driven exit:** a right to terminate or move the service, without penalty, if the HKMA requires alternative arrangements. The HKMA reserves the right to require them where overseas authorities' access seems unwarranted (SA-2 2.9.1). The clause itself is inference from that reserved power, not something SA-2 requires.",
+            "**Customer notice:** the bank should generally tell customers the right of access, if any, that overseas authorities have to their data (SA-2 2.9.1). The legal opinion and risk assessment SA-2 asks for (see Data location) supply that content, and the vendor should cooperate with them (drafting inference)."
           ],
           "sources": [
             {
@@ -2171,10 +2172,10 @@
           ],
           "summary": "Where the data sits decides which laws and authorities can reach it. The bank needs to choose locations deliberately and control changes.",
           "require": [
-            "**Named locations:** where data is stored and processed, so the bank can tell customers which country the provider is in and notify them of changes (SA-2 2.9.1).",
+            "**Named locations:** the contract names where the vendor is located and where the bank's data is stored and processed (drafting inference). That lets the bank do what SA-2 says it should generally do: tell customers the country in which the vendor is located, any later changes, and any right of access overseas authorities have (SA-2 2.9.1).",
             "**Advance notice:** the vendor gives advance notice of any change of processing location (inference from SA-2 2.9.1).",
-            "**No unsuitable jurisdictions:** not a jurisdiction that is inadequately regulated or has secrecy laws that may hamper HKMA or auditor access (SA-2 2.9.1).",
-            "**Major offshore processing:** if a locally incorporated bank moves a major part of its data processing outside Hong Kong, the HKMA expects a robust, documented and tested back-up system and contingency plan in an acceptable jurisdiction (SA-2 2.9.2)."
+            "**No unsuitable jurisdictions:** the bank should not outsource to a jurisdiction that is inadequately regulated or has secrecy laws that may hamper access to data by the HKMA or the bank's external auditors (SA-2 2.9.1).",
+            "**Major offshore processing:** for a locally incorporated bank, SA-2's principal concern is that the HKMA can still exercise its Banking Ordinance powers effectively if the vendor cooperates only in part. Where the bank plans to outsource, for example, a major part of its data processing outside Hong Kong, the HKMA will expect a robust back-up system and contingency plan in an acceptable jurisdiction, properly documented and regularly tested; an independent opinion on its effectiveness may be appropriate (SA-2 2.9.2)."
           ],
           "sources": [
             {
@@ -2187,12 +2188,12 @@
               "label": "PDPO (Cap. 486)",
               "ref": "s.33",
               "strength": "statute",
-              "note": "Restricts transfers of personal data outside Hong Kong, but has not been brought into operation (SA-2 says so as at 2001; confirm the current status on HKeL).",
+              "note": "Would restrict transfers of personal data outside Hong Kong (s.33(2)) but has not been brought into operation. SA-2 2.9.1 nonetheless advises banks to take account of its provisions and their potential impact on overseas outsourcing plans. Confirm the commencement position on HKeL before relying on either view.",
               "url": "https://www.elegislation.gov.hk/hk/cap486"
             }
           ],
           "drafting": [
-            "**Legal opinion:** for overseas outsourcing, SA-2 expects a legal opinion on foreign authorities' access rights and a risk assessment of that access (2.9.1). Commission it before signing, not after."
+            "**Legal opinion:** for overseas outsourcing, SA-2 says the bank should generally obtain a legal opinion from an international or other reputable law firm in the relevant jurisdiction on overseas authorities' rights of access to customer data, and should conduct a risk assessment of the extent and possibility of that access (2.9.1). Commission both before signing, not after."
           ]
         },
         {
@@ -2214,7 +2215,7 @@
             }
           ],
           "drafting": [
-            "**If foreign law is unavoidable:** record why, and confirm through the legal opinion that the HKMA access and audit clauses are enforceable under that law."
+            "**If foreign law is unavoidable:** record why, and widen the scope of the local-law opinion (SA-2 2.9.1 asks for one only on overseas authorities' access to customer data) to confirm that the HKMA access, audit and termination clauses are enforceable under that law. This is counsel's drafting, not an SA-2 requirement."
           ]
         },
         {
@@ -2224,12 +2225,13 @@
             "all",
             "critical"
           ],
-          "summary": "The bank needs to be able to leave. SA-2 expects customer data to be retrieved or destroyed when the agreement ends (2.5.4) and alternatives to be considered (2.7.3), and the HKMA can in extreme cases require alternative arrangements (1.3.5).",
+          "summary": "The bank should be able to leave: get its customer data back or destroyed (SA-2 2.5.4), move the service elsewhere (2.7.3), and do so if the HKMA, in extreme cases, requires alternative arrangements (1.3.5).",
           "require": [
             "**Data at the end:** when the agreement ends, for whatever reason, all customer data is retrieved from the vendor or destroyed (SA-2 2.5.4).",
-            "**Regulator-required change:** room to act if the HKMA requires alternative arrangements for the outsourced activity (SA-2 1.3.5, 2.9.1).",
-            "**Exit plan support:** SA-2 asks the bank to consider alternative providers or bringing the service back in-house, with the costs, time and resources (2.7.3), and TM-G-1 says the contingency plan may include an exit management plan (7.1.1). Exit management and transition assistance clauses are what make either workable (counsel's drafting).",
-            "**Mission-critical software:** consider source-code escrow, so the bank can obtain the code if the vendor ceases business (TM-G-1 4.2.6)."
+            "**Regulator-required change:** a right to terminate or move the service, without penalty, if the HKMA requires alternative arrangements for the outsourced activity. The HKMA reserves that power in extreme cases where deficiencies are not rectified (SA-2 1.3.5) and, for overseas outsourcing, where overseas authorities' access to customer data seems unwarranted (2.9.1). The clause is inference from that reserved power; SA-2 does not itself require it.",
+            "**Exit plan support:** in building a viable contingency plan, SA-2 says the bank should consider whether alternative providers are available or the service could be brought back in-house in an emergency, and the costs, time and resources involved (2.7.3). For critical outsourced technology services, TM-G-1 says the bank should have a contingency plan, which may include an exit management plan and alternate providers (7.1.1). Exit management and transition assistance clauses are what make either workable (counsel's drafting).",
+            "**Mission-critical software packages:** the bank may consider including an escrow agreement in the contract, giving access to the source code in defined circumstances such as the vendor ceasing business (TM-G-1 4.2.6; permissive, 'may consider').",
+            "**Exit strategy for critical operations:** where the vendor supports critical operations, the bank should have business continuity and contingency procedures and exit strategies that keep it operationally resilient if the vendor fails or is disrupted, and should not continue an arrangement that may weaken the resilience of its critical operations (OR-2 6.2)."
           ],
           "sources": [
             {
@@ -2250,11 +2252,18 @@
               "strength": "hkma-guidance",
               "note": "Numbering from the consultation draft you supplied; check against the final module.",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
+            },
+            {
+              "label": "Digital Bank Guideline",
+              "ref": "23",
+              "strength": "statutory-guideline",
+              "note": "Issued under s.16(10) of the Banking Ordinance, not s.7(3).",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
             }
           ],
           "drafting": [
             "**Continuity during exit:** the vendor keeps providing the service on existing terms through a defined transition period.",
-            "**Resolution and s.52:** add that the vendor may not terminate or suspend merely because the bank is in recovery or resolution, or because the MA exercises s.52 powers (Digital Bank Guideline para 23), and that the contract can transfer to a successor (see Stage 10)."
+            "**Resolution and s.52:** add that the vendor may not terminate or suspend merely because the MA exercises powers under the Banking Ordinance, in particular s.52 (inference from Digital Bank Guideline para 23, under which the MA must be satisfied that those powers 'will not be hindered by the outsourcing arrangements'). Separately, as counsel's drafting not drawn from para 23, add that the vendor may not terminate or suspend merely because the bank enters recovery or resolution, and that the contract can transfer to a successor (see Stage 10)."
           ],
           "cloud": "Check exit is practical: data export formats, egress costs and timing, and deletion certificates at the end."
         },
@@ -2264,16 +2273,16 @@
           "appliesTo": [
             "intragroup"
           ],
-          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Responsibilities should be written down (TM-G-1 2.6.1), and the bank's directors stay responsible for what the group applies to the bank.",
+          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Responsibilities should be set out in writing, and, by analogy with CG-1 6.2.13, the bank's directors are not absolved from responsibility for policies and actions the group applies to the bank.",
           "require": [
             "**Form:** SA-2 expects a service agreement (2.4.1). A memorandum of understanding 'may be acceptable' where the provider is a wholly-owned subsidiary of the bank, or the head office or another branch of a foreign bank (2.4.3). A tech-group parent or sister company falls outside 2.4.3, so use a full agreement (inference from 2.4.1 and 2.4.3).",
-            "**Documented responsibilities:** responsibilities of the local bank and overseas group offices for IT controls and support set out clearly in policies, procedures or service agreements (TM-G-1 2.6.1).",
-            "**Same standard:** intragroup dependencies are managed in the same way as outsourcing (OR-2 6.2)."
+            "**Documented responsibilities:** senior management should ensure the respective responsibilities of the bank and group offices for IT controls and support are clearly set out (TM-G-1 2.6.1, written for overseas offices of the same banking group, where policies, procedures or service agreements may serve). For a non-bank group affiliate, put them in the service agreement (inference from SA-2 2.4.1 and 2.4.3).",
+            "**Same standard:** the bank should manage dependencies on intragroup entities as it would outsourcing arrangements. Before entering into an intragroup arrangement that supports critical operations, it should verify the group entity has at least an equivalent level of operational resilience, and it should not enter into or continue one that may weaken that resilience (OR-2 6.2)."
           ],
           "sources": [
             {
               "label": "SPM SA-2 Outsourcing",
-              "ref": "1.1.1, 2.4.3",
+              "ref": "1.1.1, 2.4.1, 2.4.3",
               "strength": "hkma-guidance",
               "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
             },
@@ -2294,14 +2303,14 @@
               "label": "Digital Bank Guideline",
               "ref": "23",
               "strength": "statutory-guideline",
-              "note": "Outsourcing to a company in the same group is within scope.",
+              "note": "Issued under s.16(10) of the Banking Ordinance (authorization guideline), not s.7(3). The MA does not object in principle to outsourcing to a provider that may or may not be part of the group owning the digital bank, but material outsourcing should be discussed with the MA in advance and SA-2 compliance demonstrated (para 23).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/current/20241108-2-EN"
             },
             {
               "label": "SPM CG-1 Corporate governance",
               "ref": "6.2.13–6.2.14",
               "strength": "statutory-guideline",
-              "note": "In the version you supplied (V.1, 2001): a subsidiary's directors are not relieved of responsibility for policies its holding company applies, and should record dissent where those may harm it. Written for subsidiaries of banking groups; applied here by analogy. Check the numbering in the current CG-1 (V.4)."
+              "note": "In the version you supplied (V.1, 21 September 2001): a subsidiary's directors are not absolved from responsibility for policies and actions the holding company applies to it, and the board should review group policies as if they were its own (6.2.13). If the holding company engages in practices that may harm the bank, or does not respond adequately, the board should dissent on the record and consider protective action, including independent advice or raising the issue with the HKMA (6.2.14). Written for subsidiaries of banking institutions; applied here by analogy. CG-1 has been revised since 2001, so check the numbering in the current version."
             }
           ],
           "drafting": [
