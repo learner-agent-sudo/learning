@@ -33,6 +33,8 @@ export interface BankingStage {
   index: number;
   title: string;
   phase: BankingPhase;
+  // 'draft' stages have not yet been through the independent fact-check.
+  review: 'fact-checked' | 'draft';
   oneLiner: string;
   // Orientation depth / Counsel depth.
   overview: string;

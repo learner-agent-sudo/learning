@@ -54,7 +54,7 @@ export default function Page() {
         </div>
       </header>
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
+      <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
         <section>
           <WorkflowDiagram
             stages={stages}

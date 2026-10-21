@@ -156,6 +156,14 @@ export function BankingStagePanel({ stage, depth, prev, next, onNavigate }: Prop
         </div>
       </header>
 
+      {stage.review === 'draft' && (
+        <p className="mt-4 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-relaxed text-amber-900">
+          <strong>Independent fact-check pending.</strong> Statute citations in this stage are matched against the
+          official text and the stage has had an editorial review, but its HKMA guidance references, dates and
+          figures have not yet been independently confirmed.
+        </p>
+      )}
+
       <section className="mt-4">
         <h3 className={H3}>{depth === 'beginner' ? 'The picture' : 'How it bites'}</h3>
         <div className="mt-2 space-y-3 text-sm leading-relaxed">
@@ -212,7 +220,7 @@ export function BankingStagePanel({ stage, depth, prev, next, onNavigate }: Prop
 
       <Callout title="The IT angle" items={stage.itAngle} className="border-sky-200 bg-sky-50/60 text-sky-800" />
       <Callout
-        title="Virtual bank specifics"
+        title="Digital bank specifics"
         items={stage.virtualBankNotes}
         className="border-violet-200 bg-violet-50/60 text-violet-800"
       />

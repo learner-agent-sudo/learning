@@ -31,12 +31,12 @@ export function ProvisionCard({ provision: p }: { provision: Provision }) {
   const kind = KIND[p.kind] ?? KIND.other;
   const extract = statuteExtract(p);
   return (
-    <details className={CARD}>
+    <details className={`${CARD} min-w-0`}>
       <summary className={SUMMARY}>
         <span className={CHEVRON}>▸</span>
-        <span className={TITLE}>
+        <span className={`${TITLE} min-w-0`}>
           {p.title}
-          <span className="ml-2 whitespace-nowrap text-xs font-normal text-muted">{p.ref}</span>
+          <span className="mt-0.5 block text-xs font-normal text-muted sm:ml-2 sm:mt-0 sm:inline">{p.ref}</span>
         </span>
         {p.confidence === 'low' && (
           <span
@@ -50,7 +50,7 @@ export function ProvisionCard({ provision: p }: { provision: Provision }) {
           {kind.label}
         </span>
       </summary>
-      <div className={BODY}>
+      <div className={`${BODY} break-words`}>
         <div className="text-[11px] uppercase tracking-wide text-muted">
           {p.instrument} · {p.ref}
           {p.url && (

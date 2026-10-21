@@ -47,7 +47,7 @@ export default function HkBankingPage() {
             </Link>
             <h1 className="text-xl font-semibold sm:text-2xl">HK banking regulation</h1>
             <p className="mt-1 text-xs text-muted sm:text-sm">
-              The Banking Ordinance and HKMA rulebook, from the seat of counsel at a virtual bank.
+              The Banking Ordinance and HKMA rulebook, from the seat of counsel at a digital bank.
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
@@ -61,10 +61,11 @@ export default function HkBankingPage() {
         <p className="mt-4 rounded-md border border-blue-100 bg-blue-50/50 px-4 py-3 text-sm leading-relaxed">
           Start at <strong>Regulatory map</strong> and work down. <strong>Orientation</strong> gives the big
           picture; <strong>Counsel</strong> shows how the rules bite in practice. Statute cards carry the official
-          text{CAP155_ANATOMY ? ` (Banking Ordinance as at ${CAP155_ANATOMY.versionDate})` : ''}.
+          text{CAP155_ANATOMY ? ` (Banking Ordinance as at ${CAP155_ANATOMY.versionDate})` : ''}. &ldquo;Digital
+          bank&rdquo; is the HKMA&apos;s term since 25 October 2024 for what were called virtual banks.
         </p>
 
-        <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+        <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
           <section>
             <WorkflowDiagram
               stages={BANKING_STAGES}

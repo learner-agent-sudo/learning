@@ -21,8 +21,9 @@ export default function HkBankingAboutPage() {
       <section className="mt-6 space-y-4 text-sm leading-relaxed">
         <p>
           A ten-stage path through Hong Kong banking regulation, written for an experienced lawyer with an IT
-          background who has just become counsel to a <strong>virtual bank</strong> (a licensed bank serving
-          retail customers mainly online) and is new to the Banking Ordinance (Cap. 155).
+          background who has just become counsel to a <strong>digital bank</strong> (a licensed bank serving
+          customers mainly online; the HKMA called these &ldquo;virtual banks&rdquo; until 25 October 2024) and is
+          new to the Banking Ordinance (Cap. 155).
         </p>
 
         <h2 className="pt-4 text-lg font-semibold">Sources</h2>
@@ -61,6 +62,12 @@ export default function HkBankingAboutPage() {
           statute citation is then matched automatically against the official text: a citation that does not
           resolve to a provision in force fails the build. References the fact-check could not fully confirm are
           marked <span className="italic text-amber-700">verify</span>.
+        </p>
+        <p>
+          Four stages (Capital &amp; liquidity; AML, sanctions &amp; fraud; Customers &amp; conduct; Recovery &amp;
+          resolution) have not yet had the independent fact-check because the review run hit a usage limit. They
+          carry a notice to that effect until it is done; their statute citations are already matched against the
+          official text.
         </p>
 
         <h2 className="pt-4 text-lg font-semibold">Disclaimer</h2>
