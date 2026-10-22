@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 // Browser storage is a per-viewer convenience: every read and write is
 // guarded, values are shape-checked (other sites on the same github.io
 // origin share storage), and the pages work the same without it.
-function load(key: string): unknown {
+export function load(key: string): unknown {
   try {
     const raw = localStorage.getItem(key);
     return raw === null ? null : JSON.parse(raw);
@@ -14,7 +14,7 @@ function load(key: string): unknown {
   }
 }
 
-function save(key: string, value: unknown) {
+export function save(key: string, value: unknown) {
   try {
     localStorage.setItem(key, JSON.stringify(value));
   } catch {

@@ -74,12 +74,36 @@ export interface ContractTerm {
   sources: ContractSource[];
   drafting?: string[];
   cloud?: string;
+  playbook?: ClausePlaybook;
+}
+
+// How hard the bank should hold the line on a clause in negotiation.
+export type Stance = 'must-have' | 'expected' | 'negotiable';
+
+export interface ClausePlaybook {
+  stance: Stance;
+  why: string;
+  preferred: string[];
+  fallback: string[];
+  redLines: string[];
+  // Model wording, one sub-clause per entry; [brackets] mark choices and figures.
+  model: string[];
+  watchFor: string[];
+  pushback: { says: string; reply: string }[];
+  escalate: string;
+}
+
+export interface KitPlaybook {
+  intro: string[];
+  definitions: { term: string; meaning: string }[];
+  escalation: string[];
 }
 
 export interface VendorKit {
   intro: string[];
   lifecycle: SectionVisualData;
   terms: ContractTerm[];
+  playbook?: KitPlaybook;
   process: PointSection[];
   caveat?: string;
 }
