@@ -72,10 +72,12 @@ export default function HkBankingAboutPage() {
           In October 2026 every statement describing the following documents was checked against copies of them,
           and corrected where the text did not support it: the Guideline on Authorization of Digital Banks and
           Chapter 9 of the Guide to Authorization; SPM SA-2 (V.1, 2001), TM-G-1 (V.1, 2003), TM-E-1 (V.4, 2024) and
-          CG-1; the HKMA AML/CFT Guideline (May 2023); the Code of Banking Practice (December 2023); and HKMA
-          Guideline 3.4.1 on debt collection agencies. Two caveats: the OR-2 copy used was the consultation draft,
-          so OR-2 paragraph numbers should be checked against the final module; and the CG-1 copy was V.1 (2001),
-          while the people stage describes V.4 (2025).
+          CG-1 (V.3, 2017); the HKMA AML/CFT Guideline (May 2023); the Code of Banking Practice (December 2023); and HKMA
+          Guideline 3.4.1 on debt collection agencies. The OR-2 statements were first written from the
+          consultation draft and have since been rechecked against the final module (V.1, 31 May 2022); its paragraph
+          numbers are unchanged, and the notes now follow its final wording. One caveat: the CG-1 copy was V.3 (2017),
+          while the HKMA register lists V.4 (1 August 2025) as current, so CG-1 paragraph numbers and any 2025
+          changes should be checked against V.4.
         </p>
         <p>
           The <strong>Vendors</strong> tab in Technology &amp; outsourcing is built from these documents and the

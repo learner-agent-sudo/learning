@@ -902,8 +902,8 @@
         "instrument": "HKMA Supervisory Policy Manual",
         "ref": "CG-1 (V.4, 1 Aug 2025)",
         "title": "Corporate governance of locally incorporated AIs",
-        "summary": "Statutory guideline under s.7(3) setting expectations on board responsibilities, structure and composition, the chair, INEDs, board committees, appointment of directors (fit and proper, commitment, succession) and conflicts of interest. The HKMA said the 2025 updates were primarily to align with international standards.",
-        "counselNote": "Benchmark board and committee charters, INED numbers and expertise, and directors' time commitments against CG-1, and document the rationale for any departure.",
+        "summary": "Statutory guideline under s.7(3) setting expectations on board responsibilities, structure and composition, the chair, INEDs, board committees, appointment of directors (fit and proper, commitment, succession) and conflicts of interest. The HKMA's letter of 1 August 2025 issuing V.4 described the updates as primarily to align with international standards (letter and V.4 not supplied; check). The topics listed match V.3 (6 October 2017); check V.4 for any changes to them.",
+        "counselNote": "Benchmark board and committee charters, INED numbers and expertise, and directors' time commitments against CG-1, and document the rationale for any departure. CG-1 V.3 also expects that, where a standard is not met, the bank can show alternative measures with equivalent effect and notifies the HKMA promptly with its justification (CG-1 V.3 1.2.4; check V.4).",
         "confidence": "high"
       },
       {
@@ -1333,7 +1333,7 @@
         "lede": "The SPM mixes [[statutory guidelines|statutory guideline]] issued under s.7(3) of the Banking Ordinance with non-statutory guidance notes.",
         "points": [
           "**Statutory guideline:** TM-E-1 (V.4, October 2024).",
-          "**Guidance notes:** SA-2 (2001), TM-G-1 (2003) and OR-2.",
+          "**Guidance notes:** SA-2 (2001), TM-G-1 (2003) and OR-2 (2022).",
           "**Practical difference:** In practice the difference is small: the HKMA tests whether the bank continues to meet the Seventh Schedule minimum criteria, including adequate systems of control, against all of them.",
           "**Consequences:** Persistent shortfalls feed into CAMEL ratings and, ultimately, s.52 directions."
         ],
@@ -1354,9 +1354,9 @@
         "heading": "Operational resilience under OR-2",
         "lede": "OR-2 (May 2022) implements the Basel operational resilience principles.",
         "points": [
-          "**Critical operations:** The bank must identify its [[critical operations|critical operation]] and set a [[tolerance for disruption]] for each.",
-          "**Mapping and testing:** It must map its people, technology and third-party dependencies, and test against severe but plausible scenarios.",
-          "**Deadline:** The 31 May 2026 deadline has passed; the HKMA's June 2026 letter reports that all AIs met it.",
+          "**Critical operations:** The bank should identify its [[critical operations|critical operation]] and set a [[tolerance for disruption]] for each, with at least a time-based metric (OR-2 4.1.1, 4.2.1).",
+          "**Mapping and testing:** It should map the people, processes, technology, information and facilities behind each, including third-party and intragroup dependencies, and test regularly against severe but plausible scenarios (OR-2 5.1, 7.1).",
+          "**Deadline:** The 31 May 2026 deadline (OR-2 9.2.3) has passed; the HKMA's June 2026 letter reports that all AIs met it.",
           "**Business as usual:** The letter expects resilience to be sustained as business as usual."
         ],
         "takeaway": "Examiners ask for board approvals and test evidence, not policies."
@@ -1432,7 +1432,7 @@
         "ref": "OR-2",
         "title": "Operational Resilience",
         "summary": "Non-statutory guidance note issued on 31 May 2022, together with a revised TM-G-2 on business continuity planning, to implement the Basel Committee's March 2021 Principles for Operational Resilience; a revised OR-1 on operational risk management followed on 25 July 2022. AIs were to develop their operational resilience framework by 31 May 2023 and be operationally resilient by 31 May 2026.",
-        "counselNote": "The deadline has passed. The HKMA's letter 'Operational Resilience: Sustaining and Uplifting' (June 2026) reports that, on its survey, all AIs met it, and shifts the focus to sustaining and improving resilience. Expect examiners to test board ownership of critical operations, tolerances, dependency mapping (including vendors) and scenario testing. Note: the OR-2 file supplied for this module is the consultation draft (V.1 - Consultation), which leaves the deadlines blank; the dates above come from the final module and its 31 May 2022 issuing circular.",
+        "counselNote": "The deadline has passed. The HKMA's letter 'Operational Resilience: Sustaining and Uplifting' (June 2026) reports that, on its survey, all AIs met it, and shifts the focus to sustaining and improving resilience. Expect examiners to test board ownership of critical operations, tolerances, dependency mapping (including vendors) and scenario testing. The dates follow from the final module (V.1, 31 May 2022): one year from issue to develop the framework, then up to three more years to become operationally resilient (OR-2 9.2.1, 9.2.3). OR-2 names TM-G-2 and OR-1 as related guidance (OR-2 6.3) but not their revision dates; check those against the HKMA's issuing circulars (not supplied).",
         "confidence": "medium",
         "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
       },
@@ -1539,7 +1539,7 @@
       "**Run vendor due diligence** proportionate to materiality, covering financial standing, security certifications and audit reports, concentration risk and the legal environment of any offshore location.",
       "**Draft one incident triage tree** that starts the HKMA, Cap. 653, PCPD, police and customer-communication workstreams together, with named owners and pre-approved holding statements.",
       "**Confirm whether the bank or any of its systems has been designated** under Cap. 653 and, if so, diarise the statutory obligations and the requirements of the HKMA's Code of Practice for designated AIs.",
-      "**Check that board minutes evidence approval** of the critical-operations criteria and list, the tolerances for disruption and the severe but plausible scenarios; that senior management reviewed each testing report; and that significant deficiencies were reported to the board and prioritised for remediation (OR-2).",
+      "**Check that board minutes evidence approval** of the critical-operations criteria and list, the tolerances for disruption and the severe but plausible scenarios; that senior management reviewed each testing report; and that significant deficiencies were reported to the board and prioritised for remediation (OR-2 3.2–3.4, 7.4). A board-level committee assigned to operational resilience may act for the board (OR-2 2.2, footnote 2).",
       "**Align customer terms, app flows and disclosures** with bound-device authentication, any permitted SMS OTP fallback and customers' ability to switch off high-risk functions.",
       "**Set up an AI use-case inventory** and a legal sign-off gate that applies the 2019 and 2024 HKMA consumer-protection principles before any customer-facing deployment."
     ],
@@ -1581,7 +1581,7 @@
       },
       {
         "term": "tolerance for disruption",
-        "definition": "The maximum level of disruption to a critical operation the bank can accept, beyond which its viability or its role in the Hong Kong financial system is at risk. It includes at least a time-based metric; the board sets it and reviews it at least annually (OR-2)."
+        "definition": "The maximum level of disruption to a critical operation the bank can accept, beyond which its viability or its role in the Hong Kong financial system is at risk. It includes at least a time-based metric. Senior management develops it; the board approves it and reviews it at least annually or on major operational change (OR-2 1.3, 3.3, 4.2.1)."
       },
       {
         "term": "C-RAF",
@@ -1600,9 +1600,9 @@
       "intro": [
         "**Why it matters:** a digital bank delivers its services exclusively or primarily through electronic channels (Digital Bank Guideline para 1), so many of its critical services are likely to depend on vendors' people, code or cloud (an observation, not a statement in the sources). An outsourcing must not compromise the Seventh Schedule minimum criteria, which require adequate systems of control and business carried on with integrity, prudence and competence and not to the detriment of depositors (SA-2 1.2.2).",
         "**Accountability stays with the bank:** the board and management keep ultimate accountability for anything outsourced; only day-to-day management moves to the vendor (SA-2 2.1.1). The Code of Banking Practice adds that banks should be responsible and accountable for their authorized agents and third-party service providers (2.5).",
-        "**Kinds of rule:** statutes bind directly. The PDPO requires the bank to use contractual or other means to control retention and security whenever it engages a data processor (DPP2(3), DPP4(2)), and the AMLO keeps CDD and record-keeping duties with the bank even when a vendor, agent or intermediary does the work (Sch. 2 ss.18, 20–21). The AML/CFT Guideline is a statutory guideline in which every 'must' and 'should' is mandatory (para 1.6). SA-2, TM-G-1 and the OR-2 draft are non-statutory guidance notes; falling short can bear on whether the bank still meets the Seventh Schedule criteria. The Code of Banking Practice is a non-statutory industry code whose compliance the HKMA expects and monitors. The pill on each clause shows its main source (the one listed first); each card lists every source and its legal force.",
+        "**Kinds of rule:** statutes bind directly. The PDPO requires the bank to use contractual or other means to control retention and security whenever it engages a data processor (DPP2(3), DPP4(2)), and the AMLO keeps CDD and record-keeping duties with the bank even when a vendor, agent or intermediary does the work (Sch. 2 ss.18, 20–21). The AML/CFT Guideline is a statutory guideline in which every 'must' and 'should' is mandatory (para 1.6). SA-2, TM-G-1 and OR-2 are non-statutory guidance notes; falling short can bear on whether the bank still meets the Seventh Schedule criteria. The Code of Banking Practice is a non-statutory industry code whose compliance the HKMA expects and monitors. The pill on each clause shows its main source (the one listed first); each card lists every source and its legal force.",
         "**Digital banks specifically:** the MA does not object in principle to outsourcing, including to group companies. Digital banks should discuss material outsourcing with the MA in advance and demonstrate that SA-2 will be complied with. The MA must be satisfied on security controls, the confidentiality and integrity of customer information, the PDPO and common-law confidentiality, and that its powers (in particular s.52) will not be hindered; and it should have the right to inspect the provider's security arrangements and controls, or obtain reports from its supervisor, external auditors or other experts (para 23).",
-        "**Scope is wide:** SA-2 covers services the bank used to do itself and new ones, providers in Hong Kong or overseas, and group entities as well as third parties (SA-2 1.1.1). OR-2 (consultation draft, 6.2) asks for dependencies on third parties and intragroup entities to be managed as they would be under outsourcing arrangements."
+        "**Scope is wide:** SA-2 covers services the bank used to do itself and new ones, providers in Hong Kong or overseas, and group entities as well as third parties (SA-2 1.1.1). OR-2 asks for dependencies on third parties and intragroup entities to be managed as they would be under outsourcing arrangements (OR-2 6.2)."
       ],
       "lifecycle": {
         "type": "steps",
@@ -1672,12 +1672,12 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "3.3, 4.2.1",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             }
           ],
           "drafting": [
-            "**Critical operations:** set recovery-time and availability commitments that fit inside the tolerance for disruption the board has set for the operation the service supports (counsel's inference from OR-2 3.3 and 4.2.1, numbered as in the consultation draft; the module does not say this of contracts).",
+            "**Critical operations:** set recovery-time and availability commitments that fit inside the tolerance for disruption the board has approved for the operation the service supports (counsel's inference from OR-2 3.3 and 4.2.1; the module does not say this of contracts).",
             "**Service credits:** treat them as a pricing adjustment, not a remedy; keep termination and step-in rights for persistent failure.",
             "**Liability caps:** resist caps or exclusions that would leave confidentiality, data-protection and regulatory-cooperation breaches effectively unremedied."
           ],
@@ -1976,7 +1976,7 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "4.3.1, 5.1",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             },
             {
@@ -2003,7 +2003,7 @@
             "**Visibility:** the bank can review the vendor's contingency plan and its test results (SA-2 2.6.2, 2.7.2).",
             "**E-banking resilience:** the bank's resilience controls and capacity planning for e-banking should cover the vendor's relevant systems and infrastructure (TM-E-1 9.1.2). Where the bank's resilience depends on the vendor, it should monitor the vendor's resilience and understand its contingency arrangements, and for an outsourcing vendor assess its resilience controls as part of assessing its own (9.4.2). The contract should give the information and access needed for this.",
             "**Joint testing:** the bank's operational resilience testing should encompass its interdependencies on third parties (OR-2 7.2). Obliging the vendor to cooperate in that testing is the drafting means to achieve this; OR-2 does not itself require it.",
-            "**Critical operations:** critical operations should be covered by business continuity planning and testing, with continuity and contingency procedures and exit strategies for a failure or disruption at the vendor; OR-2 says the bank 'must ensure' that third-party disruptions will not affect delivery of critical operations (OR-2 6.2)."
+            "**Critical operations:** critical operations should be covered by business continuity planning and testing, with continuity and contingency procedures and exit strategies for a failure or disruption at the vendor; OR-2 asks the bank to 'endeavour to prevent' disruptions at third parties from affecting delivery of critical operations, which is an expectation of effort, not a guarantee (OR-2 6.2)."
           ],
           "sources": [
             {
@@ -2022,7 +2022,7 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "6.2, 7.2",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             }
           ],
@@ -2054,7 +2054,7 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "8.2",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             },
             {
@@ -2135,7 +2135,7 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "6.2",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             }
           ],
@@ -2250,7 +2250,7 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "6.2",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             },
             {
@@ -2273,11 +2273,11 @@
           "appliesTo": [
             "intragroup"
           ],
-          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Responsibilities should be set out in writing, and, by analogy with CG-1 6.2.13, the bank's directors are not absolved from responsibility for policies and actions the group applies to the bank.",
+          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Responsibilities should be set out in writing. The bank is a separate legal entity: its directors are not absolved from responsibility for the effects of group policies and actions applied to it, and its board remains ultimately responsible for their implementation and effectiveness in the bank (CG-1 V.3 9.2.2; check V.4).",
           "require": [
             "**Form:** SA-2 expects a service agreement (2.4.1). A memorandum of understanding 'may be acceptable' where the provider is a wholly-owned subsidiary of the bank, or the head office or another branch of a foreign bank (2.4.3). A tech-group parent or sister company falls outside 2.4.3, so use a full agreement (inference from 2.4.1 and 2.4.3).",
             "**Documented responsibilities:** senior management should ensure the respective responsibilities of the bank and group offices for IT controls and support are clearly set out (TM-G-1 2.6.1, written for overseas offices of the same banking group, where policies, procedures or service agreements may serve). For a non-bank group affiliate, put them in the service agreement (inference from SA-2 2.4.1 and 2.4.3).",
-            "**Same standard:** the bank should manage dependencies on intragroup entities as it would outsourcing arrangements. Before entering into an intragroup arrangement that supports critical operations, it should verify the group entity has at least an equivalent level of operational resilience, and it should not enter into or continue one that may weaken that resilience (OR-2 6.2)."
+            "**Same standard:** the bank should manage dependencies on intragroup entities as it would outsourcing arrangements. Before entering into an intragroup arrangement that supports critical operations, it should verify whether the group entity has at least an equivalent level of operational resilience or, where that is not feasible, take other steps to satisfy itself that the arrangement will not weaken its ability to deliver critical operations in a disruption. It should not enter into or continue one that may weaken that resilience (OR-2 6.2)."
           ],
           "sources": [
             {
@@ -2296,7 +2296,7 @@
               "label": "SPM OR-2 Operational resilience",
               "ref": "6.2",
               "strength": "hkma-guidance",
-              "note": "Numbering from the consultation draft you supplied; check against the final module.",
+              "note": "Non-statutory guidance note; V.1, 31 May 2022 (the final module you supplied).",
               "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf"
             },
             {
@@ -2308,9 +2308,9 @@
             },
             {
               "label": "SPM CG-1 Corporate governance",
-              "ref": "6.2.13–6.2.14",
+              "ref": "9.2.1–9.2.3, 2.6.11, 2.6.13–2.6.14 (V.3; check V.4)",
               "strength": "statutory-guideline",
-              "note": "In the version you supplied (V.1, 21 September 2001): a subsidiary's directors are not absolved from responsibility for policies and actions the holding company applies to it, and the board should review group policies as if they were its own (6.2.13). If the holding company engages in practices that may harm the bank, or does not respond adequately, the board should dissent on the record and consider protective action, including independent advice or raising the issue with the HKMA (6.2.14). Written for subsidiaries of banking institutions; applied here by analogy. CG-1 has been revised since 2001, so check the numbering in the current version."
+              "note": "Checked against V.3 (6 October 2017); V.4 (1 August 2025) is current and was not supplied, so check its numbering and text. Section 9.2 covers any AI that belongs to a larger group of companies, so it applies directly to a digital bank in a technology group, not by analogy (see also Digital Bank Guideline paras 8, 11). Key policies may be set centrally at holding company level (9.2.1), but the directors are not absolved from responsibility for the effects of policies applied to the bank, 'group' policy or not, and the board stays ultimately responsible for their implementation and effectiveness (9.2.2). The board should give input to, or promptly evaluate, group policies. If one may breach legal or regulatory requirements or harm the bank's sound and prudent operation, or the holding company does not respond adequately to the board's concerns, the board should record its dissent, act to protect the bank, and consider independent advice and raising the issue with the HKMA (9.2.3). V.3 also lists the parent company among relationships that can create conflicts of interest (2.6.11), and expects a board-level conflicts policy and checks on directors appointed by a controlling shareholder (2.6.13–2.6.14). V.1 had the group points at 6.2.13–6.2.14, framed for subsidiaries of banking institutions."
             }
           ],
           "drafting": [
@@ -2486,7 +2486,7 @@
             "**Risk assessment:** the board and management should ensure that a comprehensive assessment of operational, legal and reputation risks has been made, covering among other things the importance and criticality of the service, the reasons for outsourcing and the effect on the bank's risk profile, and that every risk identified is adequately addressed before launch (SA-2 2.2.1).",
             "**Due diligence:** beyond cost and quality, the vendor's financial soundness, reputation, managerial skills, technical and operational capability and capacity, cultural fit, familiarity with banking and capacity to keep pace with innovation (SA-2 2.3.1).",
             "**Critical technology services:** commission a detailed assessment of the provider's IT control environment, ideally by a party independent of the provider, and give the report to the HKMA (TM-G-1 7.1.1).",
-            "**Critical operations:** verify the vendor's operational resilience is at least equivalent to the bank's own (OR-2 6.2, consultation draft).",
+            "**Critical operations:** before entering into an arrangement that supports critical operations, verify whether the vendor's operational resilience is at least equivalent to the bank's own or, where that is not feasible, take other steps to satisfy the bank that the engagement will not weaken its ability to deliver critical operations in a disruption (OR-2 6.2).",
             "**Talk to the HKMA:** discuss the plan with the HKMA in advance before outsourcing in any banking-related area (back-office included) or changing the scope of an arrangement, and satisfy it that the section 2 issues are addressed; ask the HKMA if unsure whether an activity is in scope (SA-2 1.3.2). A digital bank should also demonstrate that SA-2 will be complied with (Digital Bank Guideline para 23).",
             "**Overseas:** understand the country risk; generally obtain a legal opinion from a reputable firm in that jurisdiction on foreign authorities' access to customer data, and assess how likely that access is; do not outsource to a jurisdiction that is inadequately regulated or whose secrecy laws may hamper access by the HKMA or the external auditors; and have the HKMA's right of access confirmed in writing by the bank and its home or host authority (SA-2 2.9.1). A locally incorporated bank sending a major part of its data processing offshore is expected to keep a robust, documented and tested back-up system and contingency plan in an acceptable jurisdiction (SA-2 2.9.2).",
             "**Customers:** tell customers in general terms that their data may be outsourced, and give specific notice of significant initiatives, especially overseas ones (SA-2 2.5.3). For overseas outsourcing, generally tell them the country where the provider is located (and any later change) and any right of access the overseas authorities have (2.9.1). The Code expects customers to be told, on or before collection, that data may go to data processors and debt collection agencies (CoBP 8.3).",
@@ -2501,20 +2501,20 @@
             "**Review cycle:** re-perform the risk assessment regularly (SA-2 2.2.2); review the agreement against market standards and strategy regularly, for example annually (2.4.2); and confirm the adequacy of each critical technology provider's IT control environment every year (TM-G-1 7.1.1).",
             "**Internal audit:** regular review of the controls over the arrangement (SA-2 2.6.5).",
             "**Concentration:** try to avoid placing excessive reliance on a single provider for critical technology services (TM-G-1 7.1.1).",
-            "**Mapping:** update the mapping of dependencies behind critical operations at least annually and after material changes (OR-2 5.4, consultation draft).",
-            "**Escalation and resilience:** reporting procedures that promptly escalate problems to the bank's and the provider's management (SA-2 2.6.4); for vendors supporting critical operations, arrangements to keep satisfying the bank that the vendor maintains an acceptable level of operational resilience (OR-2 6.2, consultation draft)."
+            "**Mapping:** review, and where needed update, the mapping of dependencies behind critical operations at least annually and after any material change to operations (OR-2 5.4).",
+            "**Escalation and resilience:** reporting procedures that promptly escalate problems to the bank's and the provider's management (SA-2 2.6.4); for vendors supporting critical operations, arrangements to keep satisfying the bank that the vendor maintains an acceptable level of operational resilience (OR-2 6.2)."
           ]
         },
         {
           "heading": "When it goes wrong",
           "points": [
             "**Fix it:** take appropriate action to rectify deficiencies; in extreme cases the HKMA can require alternative arrangements (SA-2 1.3.5).",
-            "**Have a way out:** keep a contingency plan for critical outsourced technology services that covers the provider's unavailability, including insolvency, and which may include an exit management plan and identified alternative providers (TM-G-1 7.1.1); in building it, consider whether alternative providers are available or the activity could come back in-house, and at what cost, time and resources (SA-2 2.7.3). For critical operations, OR-2 6.2 (consultation draft) also expects exit strategies.",
-            "**Do not continue a weakening arrangement:** an arrangement that may compromise or weaken internal controls or business conduct (SA-2 1.2.2), or weaken the operational resilience of critical operations (OR-2 6.2, consultation draft), should not be entered into or continued."
+            "**Have a way out:** keep a contingency plan for critical outsourced technology services that covers the provider's unavailability, including insolvency, and which may include an exit management plan and identified alternative providers (TM-G-1 7.1.1); in building it, consider whether alternative providers are available or the activity could come back in-house, and at what cost, time and resources (SA-2 2.7.3). For critical operations, OR-2 6.2 also expects exit strategies.",
+            "**Do not continue a weakening arrangement:** an arrangement that may compromise or weaken internal controls or business conduct (SA-2 1.2.2), or weaken the operational resilience of critical operations (OR-2 6.2), should not be entered into or continued."
           ]
         }
       ],
-      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (issued under s.16(10) BO), SPM SA-2 (V.1, 28 December 2001; non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory guidance note), TM-E-1 (V.4, 25 October 2024; statutory guideline under s.7(3) BO), CG-1 (V.1, 21 September 2001; statutory guideline under s.7(3) BO), the consultation draft of OR-2 (non-statutory; the HKMA has since issued a final module, so check the final text and numbering), the HKMA AML/CFT Guideline (May 2023; issued under s.7 AMLO and s.7(3) BO), the Code of Banking Practice (effective 7 December 2023; non-statutory industry code) and HKMA Guideline 3.4.1 on debt collection agencies (3 May 1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. Statute references are to the official text (PDPO Cap. 486, Banking Ordinance Cap. 155, AMLO Cap. 615, Cap. 653)."
+      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (issued under s.16(10) BO), SPM SA-2 (V.1, 28 December 2001; non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory guidance note), TM-E-1 (V.4, 25 October 2024; statutory guideline under s.7(3) BO), CG-1 (V.3, 6 October 2017; statutory guideline under s.7(3) BO; the HKMA register lists V.4, 1 August 2025, as current, which was not supplied, so check CG-1 numbering against it), OR-2 (V.1, 31 May 2022; non-statutory guidance note), the HKMA AML/CFT Guideline (May 2023; issued under s.7 AMLO and s.7(3) BO), the Code of Banking Practice (effective 7 December 2023; non-statutory industry code) and HKMA Guideline 3.4.1 on debt collection agencies (3 May 1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. Statute references are to the official text (PDPO Cap. 486, Banking Ordinance Cap. 155, AMLO Cap. 615, Cap. 653)."
     }
   },
   {
