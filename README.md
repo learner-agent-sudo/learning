@@ -72,10 +72,16 @@ specifics and pitfalls, and a glossary. Content lives in
 `data/banking/stages.json`; `scripts/build_banking_extracts.py` matches
 every statute citation against the official text and fails the build if
 one does not resolve. Stage 6 (Technology & outsourcing) also has a
-**Vendors** tab: the clauses a vendor, cloud or outsourcing contract needs,
+**Vendors** tab: the 25 clauses a vendor, cloud or outsourcing contract needs,
 each with its sources and their legal force (PDPO, HKMA guidelines and SPM
 modules, the AML Guideline, the Code of Banking Practice), a lifecycle from
-risk assessment to exit, and a tickable review checklist kept in the browser.
+risk assessment to exit, and a negotiation playbook per clause: stance
+(must-have or expected), preferred, fallback and red-line positions, original
+model wording with bracketed choices, drafting to watch for, answers to vendor
+pushback and who signs off a deviation. A review tracker marks each clause
+against the contract under review (meets, fallback agreed, gap, not
+applicable) with notes, kept in the browser, and exports the review as a
+spreadsheet (.csv) or the whole playbook as Markdown.
 
 ## Privacy — DataGuard
 

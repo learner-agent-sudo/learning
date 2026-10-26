@@ -76,7 +76,7 @@ const STANCES: Stance[] = ['must-have', 'expected', 'negotiable'];
 const STATUS: Record<ReviewStatus, { icon: typeof Check; on: string; pill: string }> = {
   meets: {
     icon: CircleCheck,
-    on: 'border-emerald-600 bg-emerald-600 text-white dark:border-emerald-400 dark:bg-emerald-400 dark:text-paper',
+    on: 'border-emerald-700 bg-emerald-700 text-white dark:border-emerald-400 dark:bg-emerald-400 dark:text-paper',
     pill: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-400/15 dark:text-emerald-200',
   },
   fallback: {
@@ -701,19 +701,23 @@ export function VendorKit({ kit }: { kit: Kit }) {
         </div>
         {hasPlaybook && (
           <div className="mb-3 flex flex-wrap gap-1.5" role="group" aria-label="Show clauses with stance">
-            {STANCES.map((s) => (
-              <button
-                key={s}
-                type="button"
-                onClick={() => setStance(stance === s ? 'any' : s)}
-                aria-pressed={stance === s}
-                title={STANCE[s].title}
-                className={chipClass(stance === s)}
-              >
-                <span aria-hidden className={`h-1.5 w-1.5 rounded-full ${STANCE[s].dot}`} />
-                {STANCE_LABEL[s]}
-              </button>
-            ))}
+            {STANCES.map((s) => {
+              const n = kit.terms.filter((t) => t.playbook?.stance === s).length;
+              return n === 0 ? null : (
+                <button
+                  key={s}
+                  type="button"
+                  onClick={() => setStance(stance === s ? 'any' : s)}
+                  aria-pressed={stance === s}
+                  title={STANCE[s].title}
+                  className={chipClass(stance === s)}
+                >
+                  <span aria-hidden className={`h-1.5 w-1.5 rounded-full ${STANCE[s].dot}`} />
+                  {STANCE_LABEL[s]}
+                  <span className="font-mono tabular-nums">{n}</span>
+                </button>
+              );
+            })}
           </div>
         )}
         <ul className="mb-4 flex flex-wrap gap-x-3 gap-y-1 text-[11.5px] text-muted" aria-label="Source strength">

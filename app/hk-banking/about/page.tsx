@@ -81,9 +81,13 @@ export default function HkBankingAboutPage() {
         </p>
         <p>
           The <strong>Vendors</strong> tab in Technology &amp; outsourcing is built from these documents and the
-          official text of the PDPO, the Banking Ordinance and the AMLO. Each clause shows its sources and the
-          strongest of them (statute, statutory guideline, HKMA guidance, industry code, or good practice), and
-          anything that is counsel&apos;s drafting rather than a stated requirement is labelled as such.
+          official text of the PDPO, the Banking Ordinance and the AMLO. Each clause shows its sources and its main
+          source&apos;s legal force (statute, statutory guideline, HKMA guidance, industry code, or good practice), and
+          anything that is counsel&apos;s drafting rather than a stated requirement is labelled as such. The playbook
+          view adds negotiating positions and model wording. These were drafted for each clause, then checked by two
+          independent reviewers (one against the source documents and statute text, one for market practice), revised
+          and checked again for consistency across clauses. The model wording is original drafting, not HKMA text, and
+          bracketed figures are illustrative.
         </p>
         <p>
           Four stages (Capital &amp; liquidity; AML, sanctions &amp; fraud; Customers &amp; conduct; Recovery &amp;
