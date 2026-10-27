@@ -45,12 +45,14 @@ CAPS = [
     "155M",  # Banking (Disclosure) Rules
     "155Q",  # Banking (Liquidity) Rules
     "155S",  # Banking (Exposure Limits) Rules
+    "163",   # Money Lenders Ordinance
     "405",   # Drug Trafficking (Recovery of Proceeds) Ordinance
     "455",   # Organized and Serious Crimes Ordinance
     "458",   # Unconscionable Contracts Ordinance
     "486",   # Personal Data (Privacy) Ordinance
     "537",   # United Nations Sanctions Ordinance
     "553",   # Electronic Transactions Ordinance
+    "571",   # Securities and Futures Ordinance
     "575",   # United Nations (Anti-Terrorism Measures) Ordinance
     "581",   # Deposit Protection Scheme Ordinance
     "584",   # Payment Systems and Stored Value Facilities Ordinance
@@ -60,7 +62,7 @@ CAPS = [
     "653",   # Protection of Critical Infrastructures (Computer Systems) Ordinance
     "656",   # Stablecoins Ordinance
 ]
-INDEX_ONLY = {"155L", "155M", "155Q", "155S", "628B"}
+INDEX_ONLY = {"155L", "155M", "155Q", "155S", "571", "628B"}
 
 NS = "{http://www.xml.gov.hk/schemas/hklm/1.0}"
 DC = "{http://purl.org/dc/elements/1.1/}"
@@ -208,14 +210,18 @@ def parse(xml_bytes: bytes, cap: str) -> dict:
     # earlier <shortTitle> tags can be cross-references to other chapters.
     s1 = next((s for s in main.iter(NS + "section") if s.get("name") == "s1"), None)
     short = s1.find(f".//{NS}shortTitle") if s1 is not None else None
-    if short is None:
+    # Some chapters leave the short title in s. 1 unmarked ("may be cited as the
+    # Stablecoins Ordinance"); read it from the text before falling back.
+    cited = re.search(r"may be cited as the (.+?)\.", squash("".join(s1.itertext()))) if s1 is not None else None
+    if short is None and not cited:
         short = main.find(NS + "docTitle")  # subsidiary legislation
-    if short is None:
+    if short is None and not cited:
         short = main.find(f".//{NS}shortTitle")
     long_title = main.find(NS + "longTitle")
+    title = squash("".join(short.itertext())) if short is not None else cited.group(1) if cited else ""
     doc = {
         "cap": cap,
-        "title": squash("".join(short.itertext())) if short is not None else "",
+        "title": title,
         "longTitle": squash(inline_text(long_title)) if long_title is not None else "",
         "versionDate": meta.findtext(DC + "date") or "",
         "hkelUrl": f"https://www.elegislation.gov.hk/hk/cap{cap}",
