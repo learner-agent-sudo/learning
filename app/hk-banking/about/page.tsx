@@ -16,7 +16,7 @@ export default function HkBankingAboutPage() {
       tone={TONES.forest}
     >
         <p>
-          A ten-stage path through Hong Kong banking regulation, written for an experienced lawyer with an IT
+          An eleven-stage path through Hong Kong banking regulation, written for an experienced lawyer with an IT
           background who has just become counsel to a <strong>digital bank</strong> (a licensed bank serving
           customers mainly online; the HKMA called these &ldquo;virtual banks&rdquo; until 25 October 2024) and is
           new to the Banking Ordinance (Cap. 155).
@@ -88,6 +88,19 @@ export default function HkBankingAboutPage() {
           independent reviewers (one against the source documents and statute text, one for market practice), revised
           and checked again for consistency across clauses. The model wording is original drafting, not HKMA text, and
           bracketed figures are illustrative.
+        </p>
+        <p>
+          The <strong>Digital assets, wallets &amp; P2P</strong> stage (October 2026) was checked differently, because
+          HKMA, SFC and government websites could not be opened directly while it was written. Statements about
+          legislation were checked against the official text of the AMLO, the Stablecoins, Stored Value Facilities,
+          Banking, Deposit Protection and Money Lenders Ordinances and the Banking (Capital) Rules, and the Gatecoin
+          judgment against its published text. Circulars, consultation papers, press releases and their dates were
+          checked through search results showing the official title, date and reference, cross-checked against
+          practitioners&apos; summaries, in a second pass dedicated to the items the first check could not confirm.
+          Where a circular&apos;s own text could not be read, the stage says what it is reported to require and gives
+          no paragraph numbers. Its <strong>Activities</strong> tab takes 19 things a digital bank might want to do,
+          from distributing crypto ETFs to funding money lenders, and gives for each the route, what the rules
+          require, launch gates to tick and the sources with their legal force.
         </p>
         <p>
           Four stages (Capital &amp; liquidity; AML, sanctions &amp; fraud; Customers &amp; conduct; Recovery &amp;

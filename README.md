@@ -63,7 +63,7 @@ layout.
 
 ## HK banking regulation
 
-Ten stages from the regulatory map to recovery and resolution, written for
+Eleven stages from the regulatory map to recovery and resolution, written for
 counsel at a Hong Kong digital bank. Each stage has an "In 30 seconds"
 summary and an in-depth note, the key statutory provisions and HKMA
 guidance (statute cards carry the official text from Hong Kong
@@ -82,6 +82,17 @@ pushback and who signs off a deviation. A review tracker marks each clause
 against the contract under review (meets, fallback agreed, gap, not
 applicable) with notes, kept in the browser, and exports the review as a
 spreadsheet (.csv) or the whole playbook as Markdown.
+
+Stage 9 (Digital assets, wallets & P2P) covers virtual assets, stablecoins
+under Cap. 656, tokenised deposits and securities, Project Ensemble and
+e-HKD, the Basel cryptoasset capital rules, wallets and the travel rule,
+P2P and platform lending under the Money Lenders Ordinance, and Web3. Its
+**Activities** tab answers "can the bank do it?" for 19 activities: the
+route (licence, registration or HKMA engagement), what the rules require,
+launch gates to tick before going live, the regime's status (in force, in
+transition, proposed or pilot) and the sources with their legal force,
+including SFC guidance, case law and proposals. Ticks stay in the browser
+and the shown activities export as Markdown launch notes.
 
 ## Privacy — DataGuard
 

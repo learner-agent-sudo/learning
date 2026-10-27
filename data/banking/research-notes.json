@@ -327,6 +327,179 @@
    ]
   },
   {
+   "id": "digital-assets",
+   "review": "fact-checked",
+   "sources": [
+    "https://www.elegislation.gov.hk/hk/cap615",
+    "https://www.thestandard.com.hk/finance/article/226184/SFC-approves-two-more-virtual-asset-trading-licenses",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2023/20231020e1.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231020-9-EN/20231020-9-EN.pdf",
+    "https://www.gibsondunn.com/hong-kong-sfc-and-hkma-release-supplemental-guidance-on-virtual-asset-related-activities/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-2-EN/20260527-2-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-1-EN/20260527-1-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-11-EN/20240220-11-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260527-6-EN",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-10-EN/20240220-10-EN.pdf",
+    "https://www.elegislation.gov.hk/hk/cap571!en",
+    "https://www.sfc.hk/-/media/EN/files/COM/Annual-Report/2025-26/10_Leading-financial-market-transformation-through-technology-and-ESG_ENG.pdf",
+    "https://apps.sfc.hk/edistributionWeb/api/news/list-content?refNo=25PR210&lang=EN",
+    "https://www.gibsondunn.com/hong-kong-concludes-consultation-on-regulation-of-virtual-assets-advisory-and-management-services/",
+    "https://newscord.org/article/hong-kong-reaffirms-end-2026-deadline-for-crypto-licensing-bill-covering-four-se--Story_20261006_HongKongofficialsdoue1f7b7c7",
+    "https://fintechnews.hk/28496/blockchain/three-chinese-firms-gets-nod-to-launch-bitcoin-and-ethereum-etf-in-hong-kong/",
+    "https://edge.sitecorecloud.io/dlapiperukl2c48-dlapiper7aff-prodb8eb-83a9/media/project/dlapiper-tenant/dlapiper/pdf/circular-on-sfcauthorised-funds-with-exposure-to-virtual-assets--securities--futures-commission-of-h.pdf",
+    "https://www.hklii.hk/en/cases/hkcfi/2023/914",
+    "https://www.elegislation.gov.hk/hk/cap656",
+    "https://www.info.gov.hk/gia/general/202506/06/P2025060600275.htm",
+    "https://www.legco.gov.hk/yr2025/english/subleg/negative/2025ln126-e.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/07/20250729-4/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/stablecoin-issuers/Guideline_on_supervision_of_licensed_stablecoin_issuers_eng.pdf",
+    "https://www.info.gov.hk/gia/general/202606/10/P2026061000429.htm",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/ifc/stablecoin-issuers/Consultation_conclusions_aml_stablecoin.pdf",
+    "https://www.elegislation.gov.hk/hk/cap155",
+    "https://www.elegislation.gov.hk/hk/cap584",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/",
+    "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260428-5/",
+    "https://www.hkma.gov.hk/eng/news-and-media/insight/2025/06/20250623",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-6-EN/20260527-6-EN.pdf",
+    "https://www.info.gov.hk/gia/general/202511/13/P2025111300366p.htm",
+    "https://apps.sfc.hk/edistributionWeb/api/circular/list-content%3FrefNo%3D23EC52%26lang%3DEN",
+    "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=23EC53",
+    "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/openFile?refNo=26EC23",
+    "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR174",
+    "https://www.elegislation.gov.hk/hk/cap581",
+    "https://www.elegislation.gov.hk/hk/cap571",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/03/20240307-5/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/08/20240828-3",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251113-3/",
+    "https://www.about.hsbc.com.hk/news-and-media/hsbc-completes-first-live-cross-bank-transaction-in-ensembletx",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-6/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251111-6/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/02/20240207-6/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/02/20230216-3/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241128-3/",
+    "https://www.info.gov.hk/gia/general/202506/26/P2025062600269.htm",
+    "https://panews.io/articles/01a0acef-962f-719e-9c3d-edf0cc7f99c1",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/10/20251028-4/",
+    "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/06/20240605-4/",
+    "https://www.centralbanking.com/fintech/cbdc/7962626/bis-to-hand-over-project-mbridge-to-central-banks",
+    "https://www.hsfkramer.com/notes/fintech/2023-12/hong-kong-lays-out-comprehensive-guidance-on-crypto-and-tokenised-securities-related-activities-by-intermediaries-along-with-guidance-on-tokenisation-of-investment-products",
+    "https://www.bis.org/bcbs/publ/d545.pdf",
+    "https://www.bis.org/press/p240717.htm",
+    "https://www.bis.org/press/p251119.htm",
+    "https://www.bis.org/press/p260520.htm",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20250128-2-EN/20250128-2-EN.pdf",
+    "https://www.info.gov.hk/gia/general/202507/11/P2025071000787.htm",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20250905-3-EN/20250905-3-EN.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20251125-15-EN/CRP-1.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/spm/current/CA-D-1",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20251218-2-EN/20251218-2-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260603-1-EN/20260603-1-EN.pdf",
+    "https://www.theblock.co/news/regulation/2025-09-11-hong-kong-bank-capital-requirements-regulated-crypto-assets-370286",
+    "https://conventuslaw.com/report/hong-kong-hkma-circular-authorized-institutions-and-vas-2/",
+    "https://cryptoslate.com/crypto-laws/hong-kong-joint-circular-intermediaries-virtual-assets/",
+    "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2024/20240416e1.pdf",
+    "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20030624-1-EN/20030624-1-EN.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220531-2-EN/OR-2.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/03/20260305-3",
+    "https://fintechnews.hk/39042/blockchain/hkma-sfc-virtual-asset-custody-financing-rules/",
+    "https://www.davispolk.com/insights/client-update/hkma-and-sfc-relax-requirements-licensed-stablecoin-related-activities",
+    "https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/Guidelines-on-supervision-of-SVF-licensees_Eng.pdf",
+    "https://www.hkma.gov.hk/media/chi/doc/key-information/guidelines-and-circular/2020/20200918c1.pdf",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2018/09/20180917-3/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260618-5/",
+    "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/stored-value-facilities-and-retail-payment-systems/",
+    "https://www.hkma.gov.hk/eng/key-functions/banking/anti-money-laundering-and-counter-financing-of-terrorism/",
+    "https://www.21analytics.co/travel-rule-regulations/hong-kong-travel-rule-regulation/",
+    "https://www.crowdfundinsider.com/2026/05/276876-hkma-warns-public-over-fake-tokens-linked-to-licensed-stablecoin-issuers/",
+    "https://www.charltonslaw.com/hkma-urges-banks-to-provide-banking-services-to-virtual-asset-service-providers/",
+    "https://conventuslaw.com/report/hong-kong-hkma-circular-authorized-institutions-and-vas/",
+    "https://fintechnews.hk/licensed-crypto-exchanges-hong-kong/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/04/20250410-7/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2023/11/20231127-4/",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/08/20240801-5/",
+    "https://www.hkma.gov.hk/media/eng/doc/about-the-hkma/legislative-council-issues/20260202e1.pdf",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260316-1-EN",
+    "https://www.zyphe.com/resources/news/hkma-remote-onboarding-deepfake-circular-september-2026",
+    "https://www.legco.gov.hk/yr2026/english/brief/bm2133c_20260603-e.pdf",
+    "https://www.elegislation.gov.hk/hk/cap163",
+    "https://www.info.gov.hk/gia/general/202210/26/P2022102600289p.htm",
+    "https://www.hkma.gov.hk/media/chi/doc/key-information/guidelines-and-circular/2022/20221027c1.pdf",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf",
+    "https://www.cr.gov.hk/en/publications/docs/Full_Licensing_Conditions_Aug_2026_e.pdf",
+    "https://www.cr.gov.hk/en/services/money-lenders/application/licensing-conditions.htm",
+    "https://www.sfc.hk/web/files/ER/PDF/Notice%20on%20Crowdfunding.pdf",
+    "https://www.info.gov.hk/gia/general/201705/17/P2017051700448.htm",
+    "https://www.info.gov.hk/gia/general/202212/19/P2022121900514.htm",
+    "https://www.info.gov.hk/gia/general/202610/07/P2026100700209.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/insight/2022/09/20220902",
+    "https://www.mondaq.com/hongkong/consumer-credit/1544158/hkma-issues-cooling-off-period-requirements-for-unsecured-consumer-credit-products",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20011228-3-EN/SA-2.pdf",
+    "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/guidelines/1996/05/guide_341b",
+    "https://www.pcpd.org.hk/english/resources_centre/industry_specific/files/CCDCode_2013_e.pdf",
+    "https://www.cr.gov.hk/en/publications/docs/Conditions_ML_Mar25_e.pdf",
+    "https://www.cr.gov.hk/en/publications/docs/2025_Annual_Survey-e.pdf",
+    "https://www.charltonslaw.com/hkma-circular-on-credit-risk-management-for-personal-lending-business/",
+    "https://www.hklii.hk/en/cases/hkcfi/2007/1242",
+    "https://gia.info.gov.hk/general/202210/31/P2022103000454_404805_1_1667173469522.pdf",
+    "https://www.coindesk.com/policy/2025/12/25/hong-kong-regulators-target-2026-legislation-for-virtual-asset-dealer-and-custodian-rules",
+    "https://www.info.gov.hk/gia/general/202309/15/P2023091500577.htm",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/",
+    "https://mondovisione.com/media-and-resources/news/hong-kong-securities-and-futures-commission-reminds-investors-of-risks-associate-202266/",
+    "https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Other-virtual-asset-related-activities/Regulatory-requirements",
+    "https://www.charltonslaw.com/sfc-publishes-guidance-on-staking-for-licensed-virtual-asset-trading-platforms-and-authorised-virtual-asset-funds/",
+    "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20250407-1-EN/20250407-1-EN.pdf",
+    "https://www.charltonslaw.com/sfc-virtual-asset-update-new-guidance-on-va-margin-financing-perpetual-contracts-and-affiliated-market-makers/",
+    "https://kpmg.com/cn/en/insights/2023/05/hk-regulator-views-on-decentralised-finance.html",
+    "https://sfc.hk/-/media/EN/files/ER/ASPIRe/ASPIRe-roadmap-for-Hong-Kongs-virtual-asset-market-Eng.pdf",
+    "https://www.elegislation.gov.hk/hk/cap553",
+    "https://bclplaw.com/en-US/events-insights-news/smart-contracts-and-the-use-of-arbitration-to-resolve-related-disputes.html",
+    "https://www.mayerbrown.com/en/insights/publications/2023/06/trust-in-the-crypto-verse-cryptocurrencies-as-a-type-of-property-in-hong-kong",
+    "https://www.pcpd.org.hk/english/news_events/newspaper/newspaper_201907.html",
+    "https://pcpd.org.hk/english/enforcement/decisions/decisions.html",
+    "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/doc?refNo=26EC26",
+    "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231222-1-EN/20231222-1-EN.pdf",
+    "https://www.info.gov.hk/gia/general/202512/24/P2025122400265.htm",
+    "https://www.elegislation.gov.hk/hk/cap155L"
+   ],
+   "uncertain": [
+    "va-custody sources[2].strength: Re Gatecoin labelled 'statute' (unverifiable)",
+    "stablecoin-issue sources[2].ref: Supervision guideline issued under s.171, 29 July 2025 (unverifiable)",
+    "tokenised-deposits watchFor[2]: HKMA 20 February 2024 tokenised products circular applies to distribution of tokenised deposits (unverifiable)",
+    "tokenised-deposits sources[4]: EnsembleTX press release 13 November 2025 (unverifiable)",
+    "tokenised-securities require[0]: SFC circular 23EC52 of 2 November 2023 on tokenised securities-related activities applies to registered institutions (unverifiable)",
+    "tokenised-securities require[3]: HKMA custody circular of 20 February 2024 reaches tokenised bonds and funds held for clients (unverifiable)",
+    "cbdc-pilots require[1]: Ensemble unveiled 7 March 2024; sandbox 28 August 2024; EnsembleTX 13 November 2025 (unverifiable)",
+    "crypto-exposures watchFor[2]: Permissionless chain does not rule out Group 1; June 2026 HKMA letter eased an approval condition (unverifiable)",
+    "crypto-exposures sources[2]: SPM CRP-1 (version 1), s.2.6; effective 1 Jan 2026; HKMA letter 3 June 2026 on para 2.6.4; brdr URL (unverifiable)",
+    "crypto-exposures sources[5]: SPM CA-D-1 revised 27 November 2025 with crypto templates; URL (unverifiable)",
+    "dlt-operations require[1]: Three review areas: governance, design and development, maintenance and monitoring (unverifiable)",
+    "dlt-operations sources[0]: HKMA circular 16 April 2024 (20240416e1) URL (unverifiable)",
+    "dlt-operations sources[1]: OR-2 brdr URL (unverifiable)",
+    "dlt-operations sources[2]: Custody circular 20 Feb 2024 brdr URL; updated guidance 27 May 2026 (unverifiable)",
+    "dlt-operations sources[3]: TM-G-1 brdr URL (unverifiable)",
+    "dlt-operations sources[5]: EnsembleTX pilot press release 13 Nov 2025, URL; proposal strength (unverifiable)",
+    "svf-wallet sources[3]: Circular 18 September 2020, effective 2 July 2021; Chinese-language PDF URL (unverifiable)",
+    "svf-wallet sources[5]: FPS Suspicious Proxy ID Alert press release 27 November 2023 and later extensions (unverifiable)",
+    "vasp-customers sources[4].note: Part XIIAA commenced 3 November 2025 (unverifiable)",
+    "p2p-funding sources[1]: Licensing conditions page URL; condition numbering differs between March 2025 and August 2026 editions (unverifiable)",
+    "p2p-funding sources[2]: LCQ5, 17 May 2017, URL P2017051700448 (unverifiable)",
+    "p2p-origination require[1]: Government position in LCQ5 2022 and LCQ13 (7 October 2026) (unverifiable)",
+    "p2p-origination sources[0]: BNPL Insight article URL 2 September 2022 (unverifiable)",
+    "p2p-origination sources[3]: HKMA circular 27 October 2022 URL and Code para 12.3 (unverifiable)",
+    "p2p-marketplace require[1]: SFC 2014 crowdfunding notice says P2P may be a CIS or involve securities (unverifiable)",
+    "staking-defi require[0]: HKMA circular of 7 April 2025 on staking from custodial services; withdrawal control, safeguards, disclosure, prior discussion with HKMA (unverifiable)",
+    "staking-defi require[2]: HKMA February 2024 custody circular applies to underlying custody (unverifiable)",
+    "nft-tokens require[2]: SFC statement of 6 June 2022 on NFTs (unverifiable)",
+    "stage deepDive[3].points[2]: L.N. 126 of 2025 specifies professional investors (unverifiable)",
+    "stage keyPoints[4]: Custody guidance updated 27 May 2026 (unverifiable)",
+    "stage provisions[6]: HKMA 27 May 2026 stablecoin circular (brdr 20260527-2-EN; SFC 26EC26) and its content (unverifiable)",
+    "stage provisions[8]: HKMA tokenised products circular dated 20 February 2024 (unverifiable)",
+    "stage provisions[16]: HKMA DLT risk management circular dated 16 April 2024 (20240416e1) (unverifiable)"
+   ]
+  },
+  {
    "id": "supervision",
    "review": "fact-checked",
    "sources": [
@@ -1006,6 +1179,1006 @@
    "fix": "Updated the uncertain list.",
    "severity": "imprecise",
    "evidence": "See the searches above. Legal Data Hunter could not be used because the daily quota was reached, so statute text was not checked directly."
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-distribution require[1]",
+   "problem": "Joint circular of 20 October 2023 governs distribution and replaced the January 2022 circular",
+   "evidence": "HKMA-hosted copy of the revised joint circular dated 22 December 2023 says it supersedes the 20 October 2023 and 28 January 2022 joint circulars (Clyde & Co, PwC, Gibson Dunn agree). A supplemental joint circular followed on 30 September 2025.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-distribution sources[0].ref",
+   "problem": "SFC ref 23EC44, dated 20 October 2023",
+   "evidence": "Searches could not tie 23EC44 to the current text. The current base circular is dated 22 December 2023, supplemented 30 September 2025.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-distribution sources[0].url",
+   "problem": "hkma.gov.hk 20231020e1.pdf is the governing circular",
+   "evidence": "That URL points to the superseded October 2023 version. Search found the HKMA BRDR copy of the 22 December 2023 circular (20231222-1-EN).",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-distribution watchFor[2]",
+   "problem": "Joint circular amended by supplements in April, September and May 2026",
+   "evidence": "The only supplemental joint circular found is dated 30 September 2025. The April 2025 staking circulars were separate. In May 2026 there were HKMA circulars, including one on stablecoins and an attachment of the SFC's 11 February 2026 circular, but no 'April 2026' supplement was found.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-distribution require[4] / sources[2].ref",
+   "problem": "SFC circular 25EC21 of 7 April 2025 on SFC-authorised VA funds",
+   "evidence": "Search confirms an April 2025 revision that superseded the December 2023 circular, but the 25EC21 reference was not found. One source reports a further update on 27 May 2026, so the reference code is dropped and that later update is noted.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-dealing route",
+   "problem": "Terms in Appendix 6 of the 20 October 2023 joint circular",
+   "evidence": "The October 2023 circular was superseded on 22 December 2023, and the Appendix 6 numbering could not be confirmed for the current version. Rewritten generically.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-dealing require[2]",
+   "problem": "Introducing agents should not relay orders or hold client assets for the introduction",
+   "evidence": "Not confirmed in any source found, so generalised to say lighter conditions apply to introducing-only arrangements.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-dealing gates[4]",
+   "problem": "VA collateral carries a 100% haircut for SFC financial resources purposes",
+   "evidence": "No source found. Under the 11 February 2026 SFC circular (relayed by the HKMA on 27 May 2026), VA financing is limited to existing securities margin clients, and BTC/ETH collateral takes a minimum 60% haircut (Davis Polk). SFC financial resources rules also do not govern an AI.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-dealing watchFor[1]",
+   "problem": "No bill as at early October 2026; no transitional period",
+   "evidence": "The latest evidence found (a law-firm blog dated 21 September 2026 and a LegCo June 2026 paper) shows no bill introduced. 'No transitional period' comes only from secondary commentary.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-dealing sources[4].ref / url",
+   "problem": "SFC press release 25PR210",
+   "evidence": "The 25PR210 reference was not found. The 24 December 2025 conclusions are confirmed by a government press release on info.gov.hk.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-dealing sources[0].url",
+   "problem": "BRDR 20231020-9-EN is Appendix 6",
+   "evidence": "This could not be confirmed, and the October 2023 circular is superseded. Replaced with the confirmed BRDR copy of the 22 December 2023 circular.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-custody require[0]",
+   "problem": "27 May 2026 update supersedes 20 February 2024 guidance; reference G16/1C",
+   "evidence": "Supersession and date confirmed by the HKMA BRDR listing and Gibson Dunn. The 'G16/1C' reference was not found anywhere, so it is removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-custody require[5]",
+   "problem": "HKMA staking circular 7 April 2025 expects prior discussion; supplemental joint circular 30 September 2025 allows staking with conditions including record keeping",
+   "evidence": "Both circulars and dates confirmed by Baker McKenzie, Conventus and Charles Russell. The record-keeping condition was not confirmed, so it is removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-custody gates[1] / sources[2]",
+   "problem": "Re Gatecoin [2023] HKCFI 914 turned on terms, pooling and accounting treatment; see also [2025] HKCFI 493",
+   "evidence": "The 2023 holdings (crypto is property and can be held on trust, but no trust found because of the T&Cs disclaimer, pooling, free use and accounts) are confirmed by Baker McKenzie and Taylor Wessing. No source found for [2025] HKCFI 493, so it is removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-custody watchFor[0] / sources[3]",
+   "problem": "Conclusions of 24 December 2025 propose a custodian licence with no transitional arrangement; target end-2026",
+   "evidence": "The conclusions and the plan to introduce a bill in 2026 are confirmed by the gov.hk press release. 'No transitional period' comes only from secondary sources, and 'end-2026' is not stated; the target is introduction within 2026.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-issue require[1]",
+   "problem": "Specified stablecoin is one referencing wholly official currencies (s.4); offshore HKD-referenced issuance caught (s.5(1)); tokenised deposit excluded (s.3(2))",
+   "evidence": "s.4(1) also covers units of account and stores of value the MA specifies by Gazette notice, so 'only ... official currencies' is narrower than the statute. s.5(1)(a)(ii) and s.3(2)(e) confirmed.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-issue sources[2].url",
+   "problem": "Supervision guideline PDF URL",
+   "evidence": "Web search budget exhausted before the URL could be confirmed; no evidence for this exact path.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-issue sources[3].url",
+   "problem": "AML/CFT guideline URL",
+   "evidence": "URL path is a consultation-conclusions file, not the guideline itself; not confirmed by search.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-offer require[1]",
+   "problem": "Permitted offerors include licensed VATPs",
+   "evidence": "s.9(5)(b) covers any corporation licensed under AMLO s.53ZRK to provide a VA service, not only trading platforms.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-offer require[5]",
+   "problem": "27 May 2026 HKMA circular relaxes requirements including knowledge tests and suitability",
+   "evidence": "Davis Polk and Charltons summaries confirm a 27 May 2026 circular relaxing Joint Circular requirements for licensed-issuer stablecoins; specific items (knowledge test, suitability) not confirmed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-offer sources[2].url",
+   "problem": "Circular PDF URL with ref 20260527-2-EN; SFC circular 26EC26",
+   "evidence": "Circular date confirmed via law-firm notes; reference number, URL and SFC circular number not confirmed.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves require[1]",
+   "problem": "s.98 separately protects reserve assets on winding up; a bank must not treat them as its own property",
+   "evidence": "s.98 text deals with excluding creditors' voluntary winding up, deemed commencement and validity of dispositions; despite its heading it contains no free-standing reserve protection. Sch. 2 s.5(4) puts the creditor-protection duty on the licensee, not on the bank; a deposit is the bank's own debt.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves route",
+   "problem": "Sch. 2 s.5(1) allows pool via arrangement with another person; HKMA guidance expects a qualified custodian such as a licensed bank",
+   "evidence": "Sch. 2 s.5(1) confirmed. Custodian expectation only from law-firm summaries; guideline not read.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves gates[2]",
+   "problem": "HKMA May 2026 updated custody guidance",
+   "evidence": "Could not confirm existence, date or reference of the 27 May 2026 custody circular (search budget exhausted).",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves sources[2].url",
+   "problem": "Custody circular URL 20260527-6-EN",
+   "evidence": "No evidence found for this URL.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves sources[4].url",
+   "problem": "LCQ6 10 June 2026 URL",
+   "evidence": "Not confirmed; content already flagged unverified.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves sources[1].url",
+   "problem": "Supervision guideline PDF URL",
+   "evidence": "Not confirmed.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit stablecoin-reserves sources[3].url",
+   "problem": "AML/CFT guideline URL",
+   "evidence": "URL is a consultation-conclusions file, not confirmed.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-deposits require[2]",
+   "problem": "A token backed by a reserve pool that meets Cap. 656 s.3(1) needs a Cap. 656 licence",
+   "evidence": "Cap. 656 s.8 prohibits carrying on a 'regulated stablecoin activity' (defined in s.5) without a licence; not every stablecoin within s.3(1) triggers a licence. Overstated.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-deposits require[4]",
+   "problem": "No tokenised-deposit-specific capital treatment as at October 2026",
+   "evidence": "Banking (Capital) Rules (Cap. 155L, as at 2026-01-01) index shows cryptoasset provisions, including s.65M Group 1a cryptoasset exposures (tokenised traditional assets under the Basel standard). Capital treatment for tokenised assets therefore exists.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-securities route",
+   "problem": "Holding tokenised assets for clients needs the bank to notify the HKMA",
+   "evidence": "Custody circular is non-statutory guidance (hkma-guidance); 'needs' overstates. Changed to 'should'.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-securities require[5]",
+   "problem": "SFC circulars 26EC22 and 26EC23 of 20 April 2026 replaced 23EC53 and permit secondary trading on licensed VATPs, MMFs first",
+   "evidence": "Could not confirm circular numbers, date or content: web search budget exhausted and Legal Data Hunter has no SFC circular coverage. Generalised and flagged for confirmation.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-securities watchFor[1]",
+   "problem": "23EC53 replaced by 26EC22",
+   "evidence": "Unconfirmed 2026 circular number; generalised.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-securities sources[0].url",
+   "problem": "23EC52 URL",
+   "evidence": "Malformed (percent-encoded query) URL; no evidence it resolves.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-securities sources[3].url",
+   "problem": "26EC22 URL",
+   "evidence": "URL points to refNo=23EC53, not 26EC22; mismatched.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit tokenised-securities sources[4].url",
+   "problem": "26EC23 URL",
+   "evidence": "No evidence for this URL; circular itself unconfirmed.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit cbdc-pilots route",
+   "problem": "No licence is needed because a pilot is not a regulated activity",
+   "evidence": "Overstatement: card's own require[5] says real-value pilot activity remains subject to Cap. 155 and other regimes. Pilot status does not take an activity outside regulation.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit cbdc-pilots require[3]",
+   "problem": "e-HKD Phase 2 report completed the programme; retail groundwork due by first half of 2026",
+   "evidence": "Could not confirm 'completed the programme' or the H1 2026 timetable; removed the timetable and softened.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit cbdc-pilots watchFor[0]",
+   "problem": "First live cross-bank transfer on 13 November 2025",
+   "evidence": "Specific date/'first' claim not confirmed; generalised.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit cbdc-pilots watchFor[2]",
+   "problem": "Tokenised Exchange Fund Bills and CMU OmniClear appear in reporting of the 2026 Policy Address",
+   "evidence": "Attribution to the 2026 Policy Address not confirmed; generalised to secondary reporting.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures require[1]",
+   "problem": "HKMA module CRP-1 sets the classification conditions; Group 2 splits into 2a/2b by hedge recognition",
+   "evidence": "Classification conditions are statutory: Capital Rules s.361(2) (1a), (3) (1b, effective stabilization mechanism), (4) (2a: e.g. spot position with regulated derivative/ETF/ETN conditions); 2b is the residual category (s.2 definition). Hedge recognition is a consequence, not the split criterion. CRP-1 content not read.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures require[2]",
+   "problem": "Group 2 exposures attract a 1250% risk weight",
+   "evidence": "Capital Rules s.385(1): 1,250% risk weight applies to Group 2b exposures in the banking book, on the greater of aggregate long and short positions. Group 2a uses modified market-risk approaches (ss.381-383) and Group 2a derivatives have a 32% SA-CCR supervisory factor.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures require[3]",
+   "problem": "Group 2 limit (1% generally, never above 2% of Tier 1) implemented by L.N. 152 (Exposure Limits)",
+   "evidence": "Capital Rules s.387 (all AIs calculate the group 2 cryptoasset exposure ratio, Formula 32E) and s.388 (G-SIBs and D-SIBs only: must not exceed 1%; between 1% and 2% notify MA, add-on, rectify; above 2% full Group 2b-equivalent add-on). Banking (Exposure Limits) Rules as amended by L.N. 152 add Division 5A valuation of cryptoasset-related exposures for large-exposure counterparty limits; no 1%/2% Group 2 limit found there.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures route",
+   "problem": "Unclassified crypto is capitalised close to full deduction",
+   "evidence": "Residual classification is Group 2b (Capital Rules s.2 definition), 1,250% risk weight under s.385.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures gates[0]",
+   "problem": "CRP-1 section 2.6 route for permissionless blockchains",
+   "evidence": "CRP-1 body not available; web search budget exhausted; paragraph number cannot be confirmed. Capital Rules s.361 contains no 'permissionless' wording.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures gates[1]",
+   "problem": "Basel Group 2 ceiling and Tier 1 denominator",
+   "evidence": "Statutory ratio is Capital Rules s.387/388; hard limit only for G-SIBs and D-SIBs. Formula 32E denominator not visible in extracted text, so Tier 1 reference dropped.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures gates[4]",
+   "problem": "Group 1b collateral is a stated Basel review item",
+   "evidence": "Could not confirm scope of the BCBS targeted review (search budget exhausted; bis.org unreachable).",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures watchFor[0]",
+   "problem": "BCBS agreed November 2025 to review standard incl. permissionless chains and Group 2a; no revised standard published",
+   "evidence": "Training knowledge supports a late-2025 BCBS decision to expedite a targeted review; exact date, Group 2a scope and absence of a revised standard by Oct 2026 could not be verified (search budget exhausted).",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures watchFor[3]",
+   "problem": "Summaries differ on whether the Group 2 limit applies to all AIs",
+   "evidence": "Resolved by Capital Rules s.388 heading and text: G-SIBs and D-SIBs only.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures sources[1]",
+   "problem": "Gazetted 11 July 2025; info.gov.hk press release URL",
+   "evidence": "Gazettal date and press-release URL not verifiable (regulator sites blocked, search budget exhausted). In-force status at 1 Jan 2026 confirmed from consolidated rule text; URL replaced with eLegislation Capital Rules page.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit crypto-exposures sources[3]",
+   "problem": "BCBS d545 Dec 2022, amended 17 July 2024, review agreed 19 Nov 2025; URL bis.org/bcbs/publ/d545.pdf",
+   "evidence": "d545 (Dec 2022) and July 2024 amendments consistent with training knowledge; URL is the known BIS publication path. Exact 19 Nov 2025 date unverified, generalised to November 2025. 'proposal' label is an imperfect fit for an international standard but no better brief category exists.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit dlt-operations require[0]",
+   "problem": "April 2024 HKMA DLT circular; board full responsibility; considerations non-binding and non-exhaustive",
+   "evidence": "Circular could not be searched or fetched. 'Should' wording is appropriate; 'non-binding and non-exhaustive' characterisation generalised to non-statutory guidance.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit dlt-operations require[2]",
+   "problem": "Smart contracts should be free of vulnerabilities to a high level of confidence, per February 2024 custody guidance",
+   "evidence": "February 2024 custody circular exists (training knowledge) but the specific near-quotation could not be confirmed; generalised.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit dlt-operations require[5]",
+   "problem": "Material outsourcing 'rules' apply",
+   "evidence": "Outsourcing expectations are in non-statutory SPM SA-2 (guidance, not rules), which expects prior consultation with the HKMA on material outsourcing.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit svf-wallet require[1]",
+   "problem": "s.8O safe and efficient operation offence; s.8P content; s.8Q minimum criteria",
+   "evidence": "ss.8O-8Q confirmed, but Sch. 3 Part 2 ss.1, 2 and 3 (principal business, financial resources, fit and proper) expressly do not apply to a bank, so 'the minimum criteria' is overstated.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit svf-wallet require[3]",
+   "problem": "No statutory float ring-fence for banks; balances are simply claims on the bank",
+   "evidence": "s.8ZZZH(1) disapplies to banks, but Cap. 584 Sch. 3 Part 2 s.7 (float kept separate and adequately protected) and s.8 (full redemption) have no bank carve-out. Cap. 581 Sch. 1 para 1(i) excludes float or SVF deposits held with a Scheme member from protected deposits.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit svf-wallet require[5]",
+   "problem": "HKMA AML/CFT guideline for SVF licensees revised September 2020, effective 2 July 2021",
+   "evidence": "Dates could not be verified (web search budget exhausted). Sch. 3 s.6 AML/CFT criterion applies to banks (no carve-out).",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit svf-wallet gates[0]",
+   "problem": "Single-purpose definition in s.2A and Sch. 8 exemptions take a balance outside Part 2A",
+   "evidence": "s.2A(4)-(5) single-purpose facility is outside the definition; s.8ZZZB exempts Sch. 8 facilities only from Divisions 2-7 and 9 of Part 2A, not the whole Part.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit svf-wallet watchFor[0]",
+   "problem": "HKMA, Police and HKAB announced five anti-fraud measures on 10 April 2025",
+   "evidence": "Not independently confirmed; date, count and URL removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit svf-wallet sources[1]",
+   "problem": "Guideline on Supervision of SVF Licensees issued under s.54(1A)(b), September 2016; URL",
+   "evidence": "s.54 guideline power confirmed; specific subsection, version date and PDF URL not verified.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-transfers watchFor[2]",
+   "problem": "HKMA April 2026 warning on fake HKDAP and HSBC tokens; no regulated stablecoin launched",
+   "evidence": "Not independently confirmed; specifics dropped.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit va-transfers sources[4].strength",
+   "problem": "Consultation conclusions labelled statutory-guideline",
+   "evidence": "Brief: consultation conclusions are 'proposal'. Cap. 656 Sch. 2 s.10 (AML/CFT criterion) confirmed locally; URL and year unverified.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit vasp-customers route",
+   "problem": "Bank 'must' apply correspondent-banking additional measures to VASPs outside HK",
+   "evidence": "Guideline para 11.23 says the AMLO only requires these for correspondent banking; the extension is a 'should'.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit vasp-customers require[3]",
+   "problem": "HKMA circular of 27 April 2023 on VASP account access",
+   "evidence": "Exact date and title not independently confirmed; law-firm URL removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit vasp-customers require[5]",
+   "problem": "Part XIIAA is ss.68AA-68AAH; MA approval for platform access s.68AAH",
+   "evidence": "Cap. 155 local text: Part XIIAA runs ss.68AA-68AAM; s.68AAH approval confirmed; prohibited conduct covers ML, TF and PF.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit vasp-customers watchFor[1]",
+   "problem": "HKMA warnings in April and May 2026 about fake tokens",
+   "evidence": "Only a secondary report; dates dropped and URL removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-funding require[5]",
+   "problem": "Companies Registry conditions govern referral, affordability, data sourcing and collection; breach can lead to suspension or revocation (s.14(1))",
+   "evidence": "s.11(6): conditions are imposed by the licensing court (a magistrate, s.2), not the Registry; s.14(1) allows revocation or suspension by the licensing court on application of the Registrar or Police, for serious breach of a condition (s.14(1)(c)). Subject list of conditions not verified (web search budget exhausted).",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-funding gates[1]",
+   "problem": "Sch. 1 Pt 1 para 1 AI subsidiary; para 12 HK$1,000,000 paid-up company loan; para 5 non-primary-lender exemption",
+   "evidence": "Sch. 1 local text: paras 12 and 5 are in Part 2 (exempted loans), not Part 1; values confirmed.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-funding sources[3]",
+   "problem": "Press release: LegCo approval 26 October 2022, effective 30 December 2022",
+   "evidence": "Effective date and amending instrument L.N. 208 of 2022 confirmed via LDH eLegislation (s.24 amended, text as at 30 Dec 2022). LegCo approval date and press release URL not verified; replaced with legislative-notice reference.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-origination require[2]",
+   "problem": "Code ties bank APRs to 48%/36%; HKMA circular of 27 October 2022 asked adoption from 30 December 2022; para 12.3",
+   "evidence": "30 December 2022 commencement of revised MLO rates confirmed (L.N. 208 of 2022). Circular date, Code paragraph and chapter not verified.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-origination require[3]",
+   "problem": "HKMA circular of 2 September 2022 set seven BNPL measures",
+   "evidence": "Could not verify the circular date or the count of measures; drafter's own note says circular text not read.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-origination require[4]",
+   "problem": "Cooling-off of at least seven calendar days by end-June 2025 (November 2024 guidance)",
+   "evidence": "Secondary-only per drafter; not verifiable here. Specific period and deadline removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-origination require[5]",
+   "problem": "HKMA expects notification of material outsourcing under SA-2",
+   "evidence": "Earlier site review of SA-2 (2001) text: AIs should discuss material outsourcing with the HKMA in advance; it is prior consultation, not a notification requirement. Chapter 5 of the Code not verified.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-origination sources[1]",
+   "problem": "LCQ13, 7 October 2026 URL",
+   "evidence": "Not verifiable; URL removed and label generalised.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-marketplace require[2]",
+   "problem": "s.103 restricts public offers unless authorized or exempt; s.104 authorizes schemes",
+   "evidence": "Cap. 571 headings (local index): s.103 offence; s.104 CIS authorization; s.105 authorizes advertisements, invitations or documents. Added s.105.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit p2p-marketplace sources[4]",
+   "problem": "FSTB consultation on crowdfunding, 19 December 2022",
+   "evidence": "Recollection is that the crowdfunding consultation was led by the Security Bureau (fundraising and national security concerns), not the FSTB; date and URL could not be verified. Attribution generalised to 'Government', URL removed.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi require[4]",
+   "problem": "Cap. 155 s.92 makes inviting the public to deposit an offence unless with an AI, so a bank's crypto yield product labelled a deposit can breach the Banking Ordinance",
+   "evidence": "Local Cap. 155 s.92 text: s.92(1) bars advertisements inviting the public to make deposits, but s.92(2)(a) exempts invitations to deposit with an authorized institution, and there are other exemptions in s.92(2)(b)-(d). For a bank the main risk is misdescribing the product, not an s.92 offence. The 2023 and 2024 HKMA alerts about deposit-style labels could not be confirmed.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi require[1]",
+   "problem": "Joint HKMA/SFC circular of 22 December 2023, supplemented 30 September 2025 (SFC ref 25EC50); staking guidance for intermediaries sits in that supplement",
+   "evidence": "The 22 December 2023 joint circular matches known material. The 30 September 2025 supplement, its ref 25EC50 and the claim that it holds staking guidance could not be confirmed because the web search budget was used up. The date, ref and staking claim were removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi require[3]",
+   "problem": "The SFC April 2025 staking circular lets authorised VA funds stake only through licensed VATPs and AIs; a bank may be the staking agent",
+   "evidence": "The SFC original was not reached, and the ref 25EC22 came from a law-firm summary only. The fund-staking channel is now presented as our understanding, and the ref number was dropped.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi require[5]",
+   "problem": "SFC officials said in April 2023 that DeFi within SFO scope is regulated like traditional activity",
+   "evidence": "This rests only on a secondary KPMG report of speech remarks that I could not confirm. The date was removed and the claim now says it is based on secondary reports.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi watchFor[3]",
+   "problem": "Existence of SFC 2026 product-expansion circulars for VATPs, and a dealing and custody licensing bill",
+   "evidence": "Neither the 2026 SFC circulars nor the status of the bill could be confirmed. The text was made generic: proposed VA dealing and custody regimes, and SFC VATP-specific circulars.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi sources[0..3].url",
+   "problem": "brdr/SFC/Charltons URLs for the staking, joint and custody circulars",
+   "evidence": "There was no independent evidence for these URLs: regulator sites are blocked and the search budget was used up.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit staking-defi sources[5].url",
+   "problem": "KPMG DeFi report URL",
+   "evidence": "Could not confirm.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens require[1]",
+   "problem": "A limited purpose digital token (s.53ZR) must not be denominated in currency, must be issued under a scheme to promote purchases, and must be usable only for the issuer's or specified merchants' goods",
+   "evidence": "Local Cap. 615 s.53ZR defines a limited purpose digital token as (a) a customer loyalty or reward point, (b) an in-game asset, or (c) something similar that the issuer does not intend to be convertible into money or another medium of exchange accepted by the public. The three conditions the card listed are not in s.53ZR. They resemble SVF bonus-point exemption concepts.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens require[0]",
+   "problem": "VA definition and exclusions in s.53ZRA(1)-(2)",
+   "evidence": "Confirmed against the local s.53ZRA. The medium of exchange must be 'accepted by the public', and that qualifier was added. The exclusions for securities, futures, SVF float and limited purpose tokens are confirmed in s.53ZRA(2)(a).",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens require[5]",
+   "problem": "Cap. 155 s.97 bank-name offence; HKMA alerts in 2023 and 2024 targeted crypto firms",
+   "evidence": "Section 97(1) is confirmed in the local text. The existing site research notes record HKMA press release 20241115-3 as being about ss.97 and 97A. The 2023 alert and the focus on crypto firms were not confirmed, so the text now refers only to the November 2024 alert.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens gates[4]",
+   "problem": "Data minimisation and retention duties are in Sch. 1 DPP2",
+   "evidence": "Local PDPO Sch. 1: under DPP1(1)(c) data must be adequate but not excessive (minimisation), and DPP2(2) covers retention. So the reference should be to DPP1 and DPP2.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens gates[5]",
+   "problem": "Code does not by itself satisfy statutory writing or signature requirements",
+   "evidence": "Cap. 553 s.17 is confirmed. Sections 5 and 6, however, let electronic records and signatures meet writing and signature requirements if conditions are met, so the absolute statement overstates the position. It now says this is untested.",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens watchFor[2]",
+   "problem": "PCPD May 2024 enforcement notice against Worldcoin",
+   "evidence": "It matches what I knew before this check but could not be confirmed here. The month was dropped and the claim now reads 'the PCPD's 2024 action'.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens sources[5]",
+   "problem": "HKMA press release 20241115-3 on misuse of the word bank by crypto firms",
+   "evidence": "Existing site research notes cite 20241115-3 as being about ss.97 and 97A, so the URL is kept. The 'crypto firms' framing in the label is not confirmed and was removed.",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "activityKit nft-tokens sources[1].url",
+   "problem": "mondovisione reproduction of SFC NFT statement",
+   "evidence": "Could not confirm; this is a third-party reproduction.",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[3].points[0]",
+   "problem": "Specified stablecoin is one referenced to official currencies",
+   "evidence": "Cap. 656 s.4(1): referenced wholly to official currencies or MA-specified units of account/stores of value",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[8].points[3]",
+   "problem": "Governance token in VA definition is only counsel's reading",
+   "evidence": "Cap. 615 s.53ZRA(1)(a)(ii)(B) expressly covers tokens conferring governance voting rights",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[6].points[1]",
+   "problem": "Below HK$8,000 the originator identity limb falls away",
+   "evidence": "AMLO Sch. 2 s.13A(3): only s.13A(2)(c) (address, ID number, or date and place of birth) is disapplied; name still required",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[6].points[4]",
+   "problem": "Scameter alerts reach FPS, internet banking, branches and ATMs",
+   "evidence": "Could not verify channel list; search budget exhausted",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[2].points[0]",
+   "problem": "Gatecoin: customers under later terms had no trust",
+   "evidence": "[2023] HKCFI 914 para 82: 2018 T&C governed all customers except Non-Consenting Customers and showed no certainty of intention; crypto is property capable of trust (HKLII via Legal Data Hunter)",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[5].points[2]",
+   "problem": "All three amendment rules made under Cap. 155 s.97C; L.N. 150-152",
+   "evidence": "s.97C covers capital rules only; disclosure rules under s.60A, exposure limits under s.81A (local text). L.N. numbers unverified, removed",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[5].points[3]",
+   "problem": "Letter of 3 June 2026 clarified CRP-1 para 2.6.4",
+   "evidence": "Could not verify; search budget exhausted",
+   "fix": "removed",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[5].points[5]",
+   "problem": "SFC 2026 margin financing circular",
+   "evidence": "Could not verify date or existence",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[5].points[4]",
+   "problem": "Basel Committee agreed November 2025 to review",
+   "evidence": "Consistent with prior knowledge but exact month not confirmed",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[1].points[0]",
+   "problem": "Joint circular revised April, September 2025 and May 2026",
+   "evidence": "Revision dates not verifiable; dates removed",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[3].takeaway",
+   "problem": "27 May 2026 relevant-stablecoin circular",
+   "evidence": "Not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[4].points[2]",
+   "problem": "SFC circulars of 20 April 2026 (26EC22, 26EC23)",
+   "evidence": "Not verifiable; references removed",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[4].points[3]",
+   "problem": "EnsembleTX announced 13 November 2025, running through 2026",
+   "evidence": "Exact date and duration not verified",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[4].points[4]",
+   "problem": "e-HKD pilot completed October 2025; CBDC page wording",
+   "evidence": "Not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[4].points[5]",
+   "problem": "September 2026 digital green bond settled with tokenised deposits",
+   "evidence": "Not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[7].points[2]",
+   "problem": "2017 Government reply said P2P lenders need a licence",
+   "evidence": "Not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[7].points[3]",
+   "problem": "HKMA BNPL measures of September 2022",
+   "evidence": "Date not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[8].points[0]",
+   "problem": "Supplemental joint staking circular 30 September 2025",
+   "evidence": "Date not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[9].points[0]",
+   "problem": "Conclusions of 24 December 2025, no deeming, bill target end-2026",
+   "evidence": "Not verifiable; date and specifics removed",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[9].points[1]",
+   "problem": "Advisory and management conclusions 26 May 2026",
+   "evidence": "Not verifiable",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage deepDive[9].points[4]",
+   "problem": "1 August 2026 money lender licensing conditions",
+   "evidence": "Not verifiable; local Cap. 163 text dated 2022",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[1].counselNote",
+   "problem": "A bank routing orders to a licensed VATP is not operating the exchange",
+   "evidence": "Not stated in statute; Sch. 3B Pt 1 turns on providing the trading facility and possession of client assets, so the point is an inference",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[3].summary",
+   "problem": "Below HK$8,000 the 'originator identity limb' is not required; recipient must consider restricting relationship",
+   "evidence": "Sch. 2 s.13A(3)-(4): below HK$8,000 only para (2)(c) (address, ID number or date and place of birth) is dropped; originator name still required. s.13A(7) duty falls on beneficiary or intermediary institution, to obtain missing data and, failing that, consider restricting or terminating the relationship with the instructing institution or take reasonable mitigating measures",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[4].counselNote",
+   "problem": "The VA terms and conditions bind a bank through registration conditions",
+   "evidence": "s.119(5) gives the SFC power to impose conditions; that VA terms are imposed as conditions on a given bank could not be confirmed (web search unavailable)",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[5].ref",
+   "problem": "Joint circular 20 October 2023 (SFC ref 23EC44); supplemented 7 April 2025, 30 September 2025 and 27 May 2026",
+   "evidence": "20 October 2023 date consistent with known HKMA/SFC joint circular; SFC reference number and later supplement dates could not be confirmed against primary sources (web search budget exhausted)",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[7].summary",
+   "problem": "2026 custody guidance supersedes 2024 guidance and adds training requirement for transaction signers",
+   "evidence": "February 2024 HKMA custody guidance consistent with known record; May 2026 update and its specific additions not confirmed. Training-requirement claim removed; confidence lowered",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[9].summary",
+   "problem": "SFC 26EC22 replaced 2023 tokenised authorised products circular and 26EC23 permits secondary trading (20 April 2026)",
+   "evidence": "23EC52 of 2 November 2023 consistent with known record; 2026 circular numbers, date and content not confirmed. URL was malformed (percent-encoded query) and is removed",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[11].summary",
+   "problem": "s.8 offence; regulated activity today means issuing a specified stablecoin; s.5(4) power; HK$5m and 7 years",
+   "evidence": "Cap. 656 s.5(1)(a): issuing a specified stablecoin in HK, or outside HK where it references HK dollars, plus activities specified under s.5(4); s.8(3)(b) penalties confirmed",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[13].counselNote",
+   "problem": "Stored value must not be a stablecoin or VA",
+   "evidence": "No express prohibition found in Cap. 584 text; the point is that SVF float is excluded from VA and stablecoin definitions, so a wallet holding coins needs separate analysis",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[15]",
+   "problem": "Basel SCO60 groups and HK implementing rules gazetted 11 July 2025 (L.N. 150-152 of 2025), effective 1 January 2026; CRP-1",
+   "evidence": "Cap. 155L Part 12 (ss.361-388, incl. group 2 cryptoasset exposure ratio ss.387-388) and Cap. 155S ss.77B-77I appear in the version as at 2026-01-01 (local index). Gazettal date, L.N. numbers and CRP-1 content/URL not confirmed; CRP-1 URL (mixed chi/EN path) removed and replaced with Cap. 155L link",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[17].summary",
+   "problem": "HKMA AML Guideline paras 4.2.1(b)(iii), fn 15, 11.23-11.25, fn 1",
+   "evidence": "Local guideline text confirms paragraphs and footnotes, but the guideline uses 'should'; the CDD duty itself is statutory (Sch. 2 s.3(1A)(b)). Wording changed from 'Requires'/'extends' to restating/expects",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[18].counselNote",
+   "problem": "Non-bank partners need an MLO licence",
+   "evidence": "Cap. 163 Sch. 1 Pt 1 exempts e.g. AI subsidiaries; Pt 2 exempts certain loans, so not every partner needs a licence",
+   "fix": "softened",
+   "severity": "imprecise"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage provisions[19].summary",
+   "problem": "Gatecoin: crypto is property capable of trust; 2018 terms customers unsecured while earlier-terms customers had trust assets",
+   "evidence": "[2023] HKCFI 914 paras 82-83 (via HKLII/Legal Data Hunter): the 2018 T&C governed all customers except non-consenting customers, showed no intention to create a trust, and crypto was treated as Gatecoin's own assets; no holding that earlier-terms customers had trust assets",
+   "fix": "corrected",
+   "severity": "error"
+  },
+  {
+   "stage_id": "digital-assets",
+   "location": "stage glossary[14].definition",
+   "problem": "Project Ensemble sandbox since August 2024; EnsembleTX announced November 2025",
+   "evidence": "Sandbox launch August 2024 consistent with known record; EnsembleTX date not confirmed this run",
+   "fix": "softened",
+   "severity": "imprecise"
   }
  ]
 }

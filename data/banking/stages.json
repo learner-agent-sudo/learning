@@ -465,7 +465,7 @@
       "**Audit every use of 'bank'** across group entity names, domains, app-store listings and social media handles. Obtain the MA's consent or rename where needed.",
       "**Clear deposit marketing** against s.92 and the Code of Banking Practice, including co-branded, affiliate and influencer content.",
       "**Keep the commitments made at authorization** (business plan, exit plan, ownership structure) current, and engage the HKMA before any material change.",
-      "**Before any stablecoin, tokenised deposit or digital-asset design is fixed**, analyse it against Cap. 656, the SFC regime and Cap. 155, and engage the HKMA early.",
+      "**Before any stablecoin, tokenised deposit or digital-asset design is fixed**, analyse it against Cap. 656, the SFC regime and Cap. 155, and engage the HKMA early. The Digital assets, wallets & P2P stage has a card for each activity.",
       "**Track the Banking Legislation (Miscellaneous Amendments) Bill 2026** to enactment and diarise its commencement dates."
     ],
     "itAngle": [
@@ -4617,8 +4617,2004 @@
     ]
   },
   {
-    "id": "supervision",
+    "id": "digital-assets",
     "index": 9,
+    "title": "Digital assets, wallets & P2P",
+    "phase": "operate",
+    "review": "fact-checked",
+    "oneLiner": "A digital bank may bring virtual assets, stablecoins, tokenised products, wallets, Web3 features and platform lending to customers, but each activity sits under a different regime and must be classified before launch.",
+    "keyPoints": [
+      "Hong Kong regulates digital products by legal character, not by technology: the same token can be a deposit, a stored value facility (SVF), a security, a specified stablecoin or a virtual asset, and each answer leads to a different regulator and licence.",
+      "**Virtual assets:** Only operating a VA trading platform is licensed under AMLO Part 5B today. A bank's route to dealing, advising or distributing is SFC registration as a registered institution, plus HKMA expectations in the joint circular.",
+      "**Stablecoins:** Cap. 656 has applied since 1 August 2025. A banking licence does not authorize issuance, but an authorized institution is a permitted offeror of licensed issuers' coins, subject to the s.9 conditions.",
+      "**Tokenised deposits:** These remain bank deposits under Cap. 155. Project Ensemble, EnsembleTX and e-HKD are pilots, not law, so they shape strategy but do not create rights or licences.",
+      "**Custody and capital:** The HKMA's custody guidance (as since updated) and the Basel cryptoasset rules in force since 1 January 2026 set the operating and capital cost of holding crypto-assets for customers or on the balance sheet.",
+      "**Financial crime:** VA transfers are caught by the travel rule in AMLO Sch. 2 s.13A, and VASP customers need risk-based onboarding rather than blanket de-risking. Scam and mule-account controls apply to every channel.",
+      "**Platform lending:** The Money Lenders Ordinance does not apply to a bank, but it does apply to the non-bank lenders and platforms a bank funds or partners with, and pooled P2P structures can engage the SFO."
+    ],
+    "deepDive": [
+      {
+        "heading": "Who regulates what",
+        "lede": "Start every digital product by asking which legal box it fits. The boxes are mutually exclusive by design, so the classification drives the regulator, the licence and the customer protections.",
+        "points": [
+          "**Virtual assets:** AMLO s.53ZRA defines a [[virtual asset]] and excludes securities, futures contracts, SVF float and limited purpose tokens. The SFC licenses VA trading platforms under Part 5B; dealing, custody-only, advice and management are not yet Part 5B services.",
+          "**Security tokens:** A token that is a security or collective investment scheme interest falls under the SFO, not Part 5B. A bank dealing in or distributing it acts through SFC registration under s.119, with the HKMA supervising front-line.",
+          "**Stablecoins:** A [[specified stablecoin]] is regulated under Cap. 656, with the HKMA as licensing authority. Deposits, SVF float and securities are carved out of the definition in s.3(2), so a bank's own wallet balance is not a stablecoin.",
+          "**SVF and deposits:** A bank is regarded as holding an SVF licence under Cap. 584 s.8G, and its customer balances remain bank liabilities. Tokenised deposits stay deposits under Cap. 155 and sit inside the Banking Ordinance, not Cap. 656.",
+          "**Money lending:** Cap. 163 licenses non-bank lenders and excludes authorized institutions under s.3. The Companies Registry and the licensing court, not the HKMA, supervise the platforms and lenders a bank may fund.",
+          "**Wallets:** A fiat wallet hosted by the bank sits on its deemed SVF licence under s.8G. A wallet that holds VAs or stablecoins needs the VA, custody or Cap. 656 analysis in the sections below."
+        ],
+        "takeaway": "Classify first, then choose the regime. A product described as a wallet, token or yield account may be several of these at once, so the legal label must follow the rights the customer actually holds.",
+        "visual": {
+          "type": "compare",
+          "caption": "Product type, governing law and lead regulator (position as at 27 October 2026).",
+          "items": [
+            {
+              "label": "Virtual asset (non-security)",
+              "value": "AMLO Part 5B; SFO s.119 for intermediary conduct",
+              "note": "SFC licenses platforms; HKMA and SFC jointly oversee registered institutions."
+            },
+            {
+              "label": "Security token / tokenised security",
+              "value": "SFO; SFC circulars on tokenised securities",
+              "note": "Bank acts as registered institution, distributor or custodian."
+            },
+            {
+              "label": "Fiat-referenced stablecoin",
+              "value": "Stablecoins Ordinance (Cap. 656)",
+              "note": "HKMA licenses issuers; AIs are permitted offerors."
+            },
+            {
+              "label": "SVF / e-wallet balance",
+              "value": "Cap. 584; bank deemed licensee under s.8G",
+              "note": "HKMA supervises; not a stablecoin or VA."
+            },
+            {
+              "label": "Deposit / tokenised deposit",
+              "value": "Banking Ordinance (Cap. 155); Cap. 581 (DPS)",
+              "note": "Same deposit, new ledger; HKMA conduct and prudential rules apply."
+            },
+            {
+              "label": "Money lending",
+              "value": "Money Lenders Ordinance (Cap. 163)",
+              "note": "Does not apply to AIs; applies to the non-bank lender or platform."
+            }
+          ]
+        }
+      },
+      {
+        "heading": "The bank's route into virtual assets",
+        "lede": "A bank cannot simply add crypto to its app. For SFO-regulated and VA-related intermediary activity, the route runs through SFC registration, HKMA engagement and investor protection controls.",
+        "points": [
+          "**Joint circular:** The HKMA and SFC joint circular of 22 December 2023, which replaced the October 2023 and January 2022 circulars and has since been supplemented, covers VA product distribution, dealing, advisory and asset management by intermediaries. Use the current consolidated position, not the original text.",
+          "**Registered institution:** Under SFO s.119 an AI applies to the SFC to be registered, the MA advises on fitness and properness, and the SFC may attach conditions. The VA terms and conditions in the circular bind a bank through those conditions.",
+          "**HKMA engagement:** The HKMA expects early discussion before new VA, custody, staking or relevant stablecoin activity. Treat a pre-launch conversation as a practical gate, even where the circular does not set a formal approval step.",
+          "**Dealing structure:** For VA dealing the circular expects the bank to deal through an omnibus account at an SFC-licensed VATP. Client deposits and withdrawals should run through segregated arrangements that meet the HKMA's custody standards.",
+          "**Investor protection:** For retail clients, expect a knowledge and risk-tolerance assessment, an exposure limit, and a shelf limited to what the licensed VATP offers retail. Complex VA-related products also engage the SFC complex-product suitability rules."
+        ],
+        "takeaway": "Registration plus a documented investor protection framework is the normal route. Operating the exchange itself would, on counsel's reading of s.53ZRD, need an SFC licence because Part 5B has no general AI exemption.",
+        "visual": {
+          "type": "steps",
+          "caption": "A bank's route into VA-related activity.",
+          "items": [
+            {
+              "label": "Define the activity",
+              "note": "Distribution, dealing, advisory, management, custody or exchange. Each has a different route."
+            },
+            {
+              "label": "Check the perimeter",
+              "note": "Is a VA service business being carried on (s.53ZRD), or marketed (s.53ZRB, s.53ZRE)?"
+            },
+            {
+              "label": "Register as an RI",
+              "note": "SFO s.119 application; MA advises; SFC conditions apply."
+            },
+            {
+              "label": "Talk to the HKMA",
+              "note": "Discuss the proposal before launch; follow the custody and staking circulars."
+            },
+            {
+              "label": "Partner with a licensed VATP",
+              "note": "Check the SFC register; use an omnibus account for dealing."
+            },
+            {
+              "label": "Build investor protection",
+              "note": "Knowledge test, exposure limit, product shelf, disclosure, suitability."
+            },
+            {
+              "label": "Monitor and report",
+              "note": "Track circular changes, VATP status and complaints."
+            }
+          ]
+        }
+      },
+      {
+        "heading": "Custody and wallets",
+        "lede": "Holding customers' virtual assets is a distinct risk, because control of a private key is control of the asset. Two questions matter: what the law says the asset is, and how the bank controls access to it.",
+        "points": [
+          "**Property status:** Re Gatecoin Ltd (in liquidation) [2023] HKCFI 914 held that cryptocurrency is property capable of being held on trust. It also held that the 2018 terms, which governed almost all customers, showed no intention to create a trust.",
+          "**Documentation:** The Gatecoin outcome turned on contract wording, pooling and accounting. A bank should state client-asset status expressly, give itself no free right to use customer assets, and keep ledger and wallet segregation distinct from its own.",
+          "**HKMA guidance:** The HKMA's custody guidance for AIs, first issued on 20 February 2024 and since updated, covers governance, segregation, private-key handling, outsourcing, disclosure, reconciliation and AML. Read the current annex in full.",
+          "**Hosted wallets:** In a hosted (custodial) wallet the bank or its sub-custodian controls the private key. That makes the bank a custodian, so the custody guidance, client-asset segregation and its own insolvency position all apply.",
+          "**Unhosted wallets:** In an [[unhosted wallet]] the customer controls the key. Withdrawals to such wallets raise travel-rule and ownership-verification questions and are a typical scam route, so they need specific controls.",
+          "**Proposed regime:** Dealing and custody licensing under AMLO is still a bill proposal. A custodian licence is expected to turn on safekeeping private keys or similar means of transfer; whether banks are exempted or deemed is not confirmed."
+        ],
+        "takeaway": "Custody is where legal form, technology and operations meet. Draft the customer terms and the key-management design together, and test both against a bank-insolvency scenario."
+      },
+      {
+        "heading": "Stablecoins under Cap. 656 and the bank's possible roles",
+        "lede": "The Stablecoins Ordinance has applied since 1 August 2025. Only issuance is regulated by statute today, but a bank can touch the regime as issuer, offeror, reserve bank, custodian or payment acceptor.",
+        "points": [
+          "**Definition:** Under s.3 a stablecoin is a DLT-based digital value that aims to hold stable value against one or more assets. A [[specified stablecoin]] is one referenced wholly to official currencies, or to other units or stores of value the MA specifies (s.4). Deposits, SVF float and securities are excluded.",
+          "**Issuing:** s.8 makes it an offence to carry on a regulated stablecoin activity without a licence, and a banking licence is not one. An AI may apply under s.14. The HKMA issued its first two licences on 10 April 2026.",
+          "**Offering:** s.9 restricts offering a specified stablecoin. An AI is a permitted offeror under s.9(5), but the coin must also be licence-issued, or the offeree must be in a specified class. A Gazette notice under s.9(3) is reported to specify professional investors.",
+          "**Retail effect:** In practice a bank can offer retail customers only coins of licensed issuers. The Ordinance does not use the word retail, so this is an inference from s.9(2) and the notice. Confirm the notice text.",
+          "**Reserve banking:** Sch. 2 s.5 lets issuers hold the reserve pool directly or by arrangement, which is the hook for banks acting as account bank or reserve custodian. Reserve deposits are excluded from the DPS under Cap. 581 Sch. 1 s.1(j).",
+          "**Marketing and fraud:** s.10 criminalises knowingly publishing advertisements for unlicensed activity, and ss.11 and 12 create fraud and misrepresentation offences. Expect scams that misuse licensed issuers' names."
+        ],
+        "takeaway": "Treat licensed stablecoins as a separate product line with its own gates: HKMA discussion, any current HKMA circular on stablecoin activities by registered institutions, and a clear answer on who the issuer, offeror and custodian are."
+      },
+      {
+        "heading": "Tokenised deposits, tokenised securities, Project Ensemble and e-HKD",
+        "lede": "Tokenisation changes the record-keeping, not the legal character. The bank should ask what claim the token represents, then apply the regime for that claim.",
+        "points": [
+          "**Tokenised deposits:** A [[tokenised deposit]] that is a deposit under Cap. 155 s.2(1) is excluded from the stablecoin definition by Cap. 656 s.3(2)(e). It stays a bank liability, so check that no design feature, such as a bearer-style token, falls into a DPS exclusion.",
+          "**Tokenised products:** The HKMA's circular of 20 February 2024 treats non-SFO tokenised products as the same product in a new wrapper, with added controls for due diligence, disclosure and custody. Whether it extends to tokenised deposits is not confirmed, so read the text.",
+          "**Tokenised securities:** SFC circular 23EC52 of 2 November 2023 expects intermediaries to do due diligence on the issuer, vendors and tokenisation arrangement. Later SFC circulars deal with secondary trading of tokenised products on licensed platforms, so check the current set.",
+          "**Project Ensemble:** Launched in March 2024, with a sandbox from August 2024 and the EnsembleTX pilot announced in November 2025 for real-value tokenised deposit transactions. [[Project Ensemble]] is a pilot, not law, and participation terms are contractual.",
+          "**e-HKD:** The HKMA has run e-HKD pilots and has given more priority to wholesale tokenised money. No decision to launch a retail [[e-HKD]] was found. Do not plan a product that depends on it.",
+          "**Government bonds:** The HKMA's digital green bond issues show the tokenised settlement use case. They are issuance announcements, not rules for banks."
+        ],
+        "takeaway": "Treat tokenised deposits as a deposit product with new operational risk, and pilots as commercial opportunities that require HKMA and legal sign-off at contract level."
+      },
+      {
+        "heading": "Capital and risk management for crypto exposures",
+        "lede": "Holding crypto-assets or taking them as collateral is expensive in capital terms. Hong Kong implemented the Basel cryptoasset standard from 1 January 2026.",
+        "points": [
+          "**Basel groups:** SCO60 sorts cryptoassets into Group 1a (tokenised traditional assets), Group 1b (stabilised assets) and Group 2 (the rest). Group 2 is split into 2a and 2b, and the Group 2b treatment is a 1250% risk weight.",
+          "**Group 2 limit:** Under the Basel standard, Group 2 exposure should stay below 1% of Tier 1 capital and must not exceed 2%. In Hong Kong, Capital Rules s.388 applies the limit only to G-SIBs and D-SIBs, so a digital bank should set its own internal cap.",
+          "**Local rules:** The Banking (Capital), (Disclosure) and (Exposure Limits) (Amendment) Rules 2025 took effect on 1 January 2026, made under Cap. 155 ss.97C, 60A and 81A respectively. The HKMA's SPM module CRP-1 sets classification conditions.",
+          "**Classification:** CRP-1 includes measures that can let permissionless-blockchain assets qualify. Check for later HKMA clarifications on tokenised traditional assets. Classification should be documented per asset, not per platform.",
+          "**Disclosure and review:** Crypto disclosure templates apply from 2026, and the Basel Committee agreed in late 2025 to review parts of the standard. No revised standard was found as at 27 October 2026.",
+          "**Lending against crypto:** No HKMA rule specific to bank lending against crypto collateral was found. Treat any SFC guidance on VA margin financing as a market reference, not a bank rule, and use CRP-1 and custody guidance."
+        ],
+        "takeaway": "For a digital bank with thin capital headroom, the capital cost of Group 2 crypto will often decide the business case before the legal route does.",
+        "visual": {
+          "type": "stack",
+          "caption": "Basel cryptoasset groups as implemented in Hong Kong from 1 January 2026.",
+          "items": [
+            {
+              "label": "Group 1a",
+              "value": "Tokenised traditional assets",
+              "note": "Capital treatment follows the equivalent traditional asset."
+            },
+            {
+              "label": "Group 1b",
+              "value": "Assets with effective stabilisation",
+              "note": "Each risk identified and capitalised; criteria tightened July 2024."
+            },
+            {
+              "label": "Group 2a",
+              "value": "Fails classification; hedging recognised",
+              "note": "Limited hedge recognition; high capital charge."
+            },
+            {
+              "label": "Group 2b",
+              "value": "Residual",
+              "note": "1250% risk weight; excess over limit treated here."
+            }
+          ]
+        }
+      },
+      {
+        "heading": "Financial crime: VASP customers, VA transfers and scams",
+        "lede": "Digital assets reach the bank through customers, counterparties and payment flows. The AML framework in the earlier AML and fraud stage still applies; this section adds the VA-specific points.",
+        "points": [
+          "**VASP customers:** The HKMA asked banks in April 2023 to support SFC-licensed VASPs' legitimate need for accounts using a risk-based approach. Banking a VASP outside Hong Kong may engage the correspondent-type measures in the HKMA Guideline paras 11.23 to 11.25.",
+          "**Travel rule:** AMLO Sch. 2 s.13A requires an institution sending a [[VA transfer|travel rule]] to obtain, record and send originator and recipient information. Below HK$8,000 the originator's address, ID number or birth details need not be collected. Recipient and intermediary institutions have separate duties.",
+          "**CDD trigger:** HKMA AML/CFT Guideline para 4.2.1(b)(iii) requires CDD for occasional VA transfers of HK$8,000 or more, with footnote 15 pointing to s.13A. A customer with an existing relationship is not an occasional case.",
+          "**Counterparty risk:** Where the bank is a registered institution, HKMA Guideline footnote 1 points to the SFC AML guideline, including its virtual asset chapter. Check the current chapter text for self-hosted wallet expectations.",
+          "**Scams and mules:** Scameter-based alerts are being extended across payment channels, and Cap. 155 Part XIIAA lets banks share ML and TF information on designated platforms. Crypto cash-outs and fake-token scams belong in the same typologies.",
+          "**Stablecoin issuers:** A licensed issuer is an AMLO financial institution, and the HKMA's AML guideline for issuers expects wallet screening and travel-rule compliance. Reserve account relationships still need the bank's own CDD."
+        ],
+        "takeaway": "The travel rule, wallet screening and VASP due diligence need data fields and tooling in the payments stack, so involve engineering before the product is approved."
+      },
+      {
+        "heading": "P2P and platform lending",
+        "lede": "Banks fund and partner with platforms more often than they run them. The law differs sharply depending on who makes the loan and who holds the investor's money.",
+        "points": [
+          "**Bank exemption:** The Money Lenders Ordinance does not apply to an AI (s.3), and a subsidiary of an AI is an exempted person under Sch. 1 Pt 1 para 1. The bank's own lending is governed by the Banking Ordinance, the HKMA and the Code of Banking Practice.",
+          "**Non-bank lenders:** A non-bank [[money lender]] needs a licence (s.7), faces a 48% rate cap (s.24) and a 36% extortionate presumption (s.25), and has advertising rules under s.26. Check the Registrar's public register before funding or partnering.",
+          "**P2P structures:** [[P2P lending]] has no dedicated Hong Kong regime. The SFC has warned that pooled or participation structures may be collective investment schemes or securities, and lenders on a platform may need a money lender licence.",
+          "**Bank-originated loans:** Where the bank lends through a platform or buy-now-pay-later partner, the loan is the bank's. HKMA expectations on buy-now-pay-later, the Code of Banking Practice and the cooling-off period for unsecured consumer credit apply. Confirm the current text.",
+          "**Referral fees:** MLO s.27 restricts charging borrowers for arranging a loan, and licence conditions regulate third-party introducers. Fee flows between a platform, a lender and the bank need review before launch.",
+          "**Debt collection:** The bank stays responsible for collection by agencies under the Code of Banking Practice, and licensed lenders have their own conduct conditions. See Customers & conduct and Technology & outsourcing for the wider framework."
+        ],
+        "takeaway": "Decide first whether the bank is lender, funder or merely a bank account provider, then check each counterparty's status and the SFO angle if investors pool money."
+      },
+      {
+        "heading": "Web3: staking, DeFi, NFTs, DAOs and smart contracts",
+        "lede": "Web3 features are often marketing-led and arrive through partners. Most have no dedicated Hong Kong rule, so the existing perimeter does the work.",
+        "points": [
+          "**Staking:** The HKMA and SFC issued parallel circulars on 7 April 2025 allowing staking in defined conditions, and later supplemental guidance followed. An AI offering staking from custody should discuss it with the HKMA first and keep control of withdrawal mechanics.",
+          "**[[DeFi]]:** No dedicated SFC or HKMA circular was found. The SFC has said DeFi activity within SFO scope is regulated like traditional activity, and its ASPIRe roadmap flags smart contract and scam risk. Treat bank access to DeFi as a high-risk exception.",
+          "**NFTs and tokens:** The SFC's June 2022 statement treats unique collectibles as generally outside its remit, but fractionalised or fungible interests may be securities or CIS. A loyalty token fails the limited purpose test if it is tradeable or convertible to cash.",
+          "**DAOs:** A governance token can be a VA, since s.53ZRA(1)(a)(ii)(B) expressly covers tokens giving governance voting rights, unless it is a security or otherwise excluded. Interacting with a DAO also raises legal-personality and liability questions.",
+          "**[[Smart contracts|smart contract]]:** The Electronic Transactions Ordinance supports electronic offer, acceptance and signatures, but does not itself validate code as contract. No Hong Kong court decision or law reform report on smart contract enforceability was found.",
+          "**Names and advertising:** Cap. 155 s.97 restricts use of bank names, s.92 restricts deposit invitations by anyone other than an AI, and AMLO s.53ZRE and Cap. 656 s.10 restrict advertisements for unlicensed services. Apply these to app screens, partner pages and metaverse content."
+        ],
+        "takeaway": "For Web3 ideas, map each feature to an existing perimeter rule, document that analysis, and avoid representations that a token is a deposit, a stablecoin or guaranteed."
+      },
+      {
+        "heading": "What is coming next",
+        "lede": "Several items are proposals or pilots. Track them, but do not build contracts or customer promises that assume they will pass.",
+        "points": [
+          "**Dealing and custody:** The consultation conclusions on VA dealing and custody licensing propose new AMLO regimes. No bill was found as at October 2026, so check the legislative timetable.",
+          "**Advisory and management:** Conclusions on VA advisory and management regimes have been reported. Whether banks get a distinct route is unconfirmed.",
+          "**Stablecoins:** The HKMA may add regulated activities to Cap. 656 by notice under s.5(4). No such notice was found. A third issuer licence has not been found either.",
+          "**Tokenisation:** Policy Statement 2.0 (26 June 2025) promises a legal review of tokenised bond settlement and record-keeping. Testing of tokenised Exchange Fund Bills is reported for 2026, but not confirmed.",
+          "**Capital and lending:** The Basel Committee's cryptoasset review is pending, and money lender licensing conditions continue to be revised. The Banking Legislation (Miscellaneous Amendments) Bill 2026 is still under scrutiny."
+        ],
+        "takeaway": "Build a watch list with owners and dates, and recheck the position before each product committee.",
+        "visual": {
+          "type": "timeline",
+          "caption": "Selected milestones and pending items (verify current status).",
+          "items": [
+            {
+              "label": "1 Jun 2023",
+              "value": "AMLO Part 5B in force",
+              "note": "SFC licensing of VA trading platforms."
+            },
+            {
+              "label": "20 Feb 2024",
+              "value": "HKMA custody and tokenised products circulars",
+              "note": "Updated custody guidance followed later."
+            },
+            {
+              "label": "1 Aug 2025",
+              "value": "Cap. 656 in force",
+              "note": "Stablecoin licensing begins."
+            },
+            {
+              "label": "Nov 2025",
+              "value": "EnsembleTX pilot",
+              "note": "Real-value tokenised deposit transactions."
+            },
+            {
+              "label": "1 Jan 2026",
+              "value": "Basel crypto rules apply in HK",
+              "note": "Capital, Disclosure and Exposure Limits Rules; SPM CRP-1."
+            },
+            {
+              "label": "10 Apr 2026",
+              "value": "First stablecoin licences",
+              "note": "Anchorpoint Financial Limited and HSBC."
+            },
+            {
+              "label": "Pending",
+              "value": "VA dealing and custody bill",
+              "note": "Proposal only; no bill found as at October 2026."
+            }
+          ]
+        }
+      }
+    ],
+    "provisions": [
+      {
+        "kind": "statute",
+        "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+        "ref": "s.53ZRA",
+        "title": "Meaning of virtual asset",
+        "summary": "Defines a virtual asset as a cryptographically secured digital representation of value used or intended as a medium of exchange accepted by the public, or conferring governance voting rights, and transferable or tradable electronically. It excludes central bank money, limited purpose tokens, securities and futures contracts, and SVF float.",
+        "counselNote": "Use this as the first filter in the triage. A token that is a security or SVF balance is not a VA, and a governance token may be. Confirm whether the SFC has prescribed further characteristics.",
+        "cap": "615",
+        "section": "53ZRA",
+        "url": "https://www.elegislation.gov.hk/hk/cap615",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+        "ref": "s.53ZRD; Sch. 3B Pt 1",
+        "title": "Licence required for VA service business",
+        "summary": "Prohibits carrying on, or holding out as carrying on, a VA service business without an SFC licence. The only VA service defined today is operating a VA exchange where client money or client VAs come into the operator's possession. Penalties on indictment reach HK$5,000,000 and 7 years.",
+        "counselNote": "Part 5B has no general AI exemption, so on counsel's reading a bank operating an exchange would need a licence. That is an inference, not an SFC statement; a bank routing orders to a licensed VATP is unlikely to be operating the exchange itself.",
+        "cap": "615",
+        "section": "53ZRD",
+        "url": "https://www.elegislation.gov.hk/hk/cap615",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+        "ref": "s.53ZRE",
+        "title": "Advertisements for unlicensed VA services",
+        "summary": "Makes it an offence knowingly to issue an advertisement, including by social media or electronic means, for a person who is not licensed for a VA service. There are due diligence and conduit defences, and an advertisement issued on behalf of another is treated as issued by both.",
+        "counselNote": "Relevant to app banners, partner promotions and affiliate content. Build a pre-publication check of the partner's licence status against the SFC register.",
+        "cap": "615",
+        "section": "53ZRE",
+        "url": "https://www.elegislation.gov.hk/hk/cap615",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+        "ref": "Sch. 2 s.13A",
+        "title": "Travel rule for virtual asset transfers",
+        "summary": "Requires ordering institutions to obtain, record and send originator and recipient information with a VA transfer, and sets duties for beneficiary and intermediary institutions. Below HK$8,000 the originator's address, identification number or date and place of birth need not be obtained or sent, but the name is still required. A beneficiary or intermediary institution that cannot obtain missing data must consider restricting the relationship with the instructing institution or take reasonable mitigating measures.",
+        "counselNote": "Needs a pricing and linked-transaction rule for the HK$8,000 test and a messaging solution for counterparties. Define what happens to inbound transfers that arrive without data.",
+        "cap": "615",
+        "section": "Sch. 2 s.13A",
+        "url": "https://www.elegislation.gov.hk/hk/cap615",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Securities and Futures Ordinance (Cap. 571)",
+        "ref": "s.119",
+        "title": "Registered institutions",
+        "summary": "Allows an authorized financial institution to apply to the SFC to be registered for regulated activities other than Types 3 and 8. The SFC refers the application to the MA, who advises on fitness and properness, and may impose conditions on registration.",
+        "counselNote": "This is the gateway for VA dealing, advice, management and distribution. The SFC can impose and amend registration conditions under s.119(5), so check what VA-related conditions attach to the bank's registration. Which types apply depends on the activity; confirm with the SFC and HKMA.",
+        "cap": "571",
+        "section": "119",
+        "url": "https://www.elegislation.gov.hk/hk/cap571",
+        "confidence": "high"
+      },
+      {
+        "kind": "circular",
+        "instrument": "HKMA and SFC joint circular on intermediaries' virtual asset-related activities",
+        "ref": "22 December 2023, as supplemented",
+        "title": "Joint circular on VA-related activities",
+        "summary": "Sets the framework for distribution of VA-related products, VA dealing, advisory and asset management by licensed corporations and registered institutions. It has since been supplemented several times, including on staking and on relevant stablecoins. It expects omnibus dealing through licensed VATPs and retail investor protection.",
+        "counselNote": "Paragraph numbers and the current consolidated terms were not confirmed. Obtain the latest versions of the circular and its appendices before preparing any submission.",
+        "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231222-1-EN/20231222-1-EN.pdf",
+        "confidence": "medium"
+      },
+      {
+        "kind": "circular",
+        "instrument": "HKMA circular, Virtual asset-related activities in relation to relevant stablecoins",
+        "ref": "27 May 2026 (brdr 20260527-2-EN); SFC 26EC26",
+        "title": "Relaxations for relevant stablecoins",
+        "summary": "Relaxes joint-circular requirements for registered institutions dealing, advising or managing assets in stablecoins of HKMA-licensed issuers. Reported changes include dropping the VA knowledge test for clients holding only such coins and streamlined suitability. AIs are told to discuss with the HKMA in advance.",
+        "counselNote": "Relaxations apply only to relevant stablecoins and to registered institutions. A bank that is not registered should not assume they apply. Read the full text.",
+        "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-2-EN/20260527-2-EN.pdf",
+        "confidence": "low"
+      },
+      {
+        "kind": "circular",
+        "instrument": "HKMA circular, Updated Guidance on Provision of Custodial Services for Digital Assets",
+        "ref": "27 May 2026 (brdr 20260527-6-EN); earlier 20 February 2024 (20240220-11-EN)",
+        "title": "HKMA custody guidance for AIs",
+        "summary": "Sets expected standards for AIs holding virtual assets, tokenised securities and other tokenised assets for clients, covering governance, segregation, private keys, outsourcing, disclosure, reconciliation and AML. A 2026 update is reported to supersede the 2024 guidance; its changes were not confirmed.",
+        "counselNote": "Reports of a specific cold-storage ratio are unverified. Confirm compliance deadlines and whether stablecoin reserve custody is treated as custody for this purpose.",
+        "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260527-6-EN",
+        "confidence": "low"
+      },
+      {
+        "kind": "circular",
+        "instrument": "HKMA circular, Sale and distribution of tokenised products",
+        "ref": "20 February 2024 (brdr 20240220-10-EN)",
+        "title": "Tokenised products circular",
+        "summary": "Treats non-SFO tokenised products, such as tokenised structured investment products or spot precious metal, as the same product in a new wrapper. Existing supervisory and investor protection requirements for the underlying product apply, with additional controls for tokenisation risks.",
+        "counselNote": "Keep tokenised products separate from VA-related products in governance papers.",
+        "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-10-EN/20240220-10-EN.pdf",
+        "confidence": "medium"
+      },
+      {
+        "kind": "circular",
+        "instrument": "SFC circulars on tokenised securities",
+        "ref": "23EC52 (2 November 2023) and later SFC circulars",
+        "title": "Tokenised securities and authorised products",
+        "summary": "23EC52 sets expectations for intermediaries dealing in, advising on or managing tokenised securities, including due diligence on the issuer, vendors and tokenisation arrangement. Later SFC circulars are reported to update the approach to tokenised SFC-authorised products, including secondary trading, but these were not confirmed.",
+        "counselNote": "Applies to a bank acting as a registered institution. Paragraph numbers and the treatment of bank custody were not confirmed from the SFC texts.",
+        "confidence": "low"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Stablecoins Ordinance (Cap. 656)",
+        "ref": "s.3",
+        "title": "Meaning of stablecoin",
+        "summary": "Defines a stablecoin as a cryptographically secured digital representation of value on a distributed ledger that aims to keep stable value against assets. It excludes central bank money, limited purpose tokens, securities, SVF float and deposits within Cap. 155 s.2(1).",
+        "counselNote": "The exclusion of deposits in s.3(2)(e) is the statutory basis for treating tokenised deposits as deposits. Document the analysis for each token design.",
+        "cap": "656",
+        "section": "3",
+        "url": "https://www.elegislation.gov.hk/hk/cap656",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Stablecoins Ordinance (Cap. 656)",
+        "ref": "s.8",
+        "title": "Offence to carry on regulated stablecoin activity without licence",
+        "summary": "Prohibits carrying on, or holding out as carrying on, a regulated stablecoin activity unless licensed or exempted. Penalties on indictment reach HK$5,000,000 and 7 years. Regulated activity means issuing a specified stablecoin in Hong Kong, or elsewhere if it references Hong Kong dollars, with a power in s.5(4) to add more.",
+        "counselNote": "A banking licence does not cover issuance. Any plan for a group or partner to issue a coin needs a licence analysis and an HKMA conversation early.",
+        "cap": "656",
+        "section": "8",
+        "url": "https://www.elegislation.gov.hk/hk/cap656",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Stablecoins Ordinance (Cap. 656)",
+        "ref": "s.9",
+        "title": "Offering a specified stablecoin",
+        "summary": "Makes it an offence to offer a specified stablecoin unless an exception applies. The main exception is a permitted offeror where the issue is licence-authorized. An authorized institution is a permitted offeror under s.9(5).",
+        "counselNote": "Being a permitted offeror is not enough by itself. Confirm that the coin is licence-issued, or that the offeree falls within a specified class, before it appears in the app.",
+        "cap": "656",
+        "section": "9",
+        "url": "https://www.elegislation.gov.hk/hk/cap656",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Payment Systems and Stored Value Facilities Ordinance (Cap. 584)",
+        "ref": "s.8G",
+        "title": "Bank regarded as SVF licensee",
+        "summary": "Regards a bank as granted an SVF licence under s.8F when it is granted a banking licence. Several licensee-only provisions, including the licence fee and certain intervention divisions, do not apply to a bank, while safe-operation duties still do.",
+        "counselNote": "A wallet feature can sit on the bank's deemed SVF licence, but a balance held in stablecoins or VAs needs separate analysis under Cap. 656 and AMLO. Check the single-purpose and exempt categories before treating a balance as unregulated.",
+        "cap": "584",
+        "section": "8G",
+        "url": "https://www.elegislation.gov.hk/hk/cap584",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Deposit Protection Scheme Ordinance (Cap. 581)",
+        "ref": "Sch. 1 s.1",
+        "title": "Deposits excluded from DPS protection",
+        "summary": "Lists exclusions from protected deposits, including bearer instruments, structured deposits, SVF float and deposits comprising stablecoin reserve assets. No exclusion for tokenised form was found.",
+        "counselNote": "No DPS Board or HKMA statement on tokenised deposits was found. Confirm that the token design does not fall into an exclusion and that customer disclosure is consistent.",
+        "cap": "581",
+        "section": "Sch. 1 s.1",
+        "url": "https://www.elegislation.gov.hk/hk/cap581",
+        "confidence": "high"
+      },
+      {
+        "kind": "guideline",
+        "instrument": "Basel Framework SCO60; HKMA SPM CRP-1; Banking (Capital) Rules (Cap. 155L) Part 12 and Banking (Exposure Limits) Rules (Cap. 155S) as amended",
+        "ref": "SCO60; Cap. 155L Part 12 (ss.361 to 388); CRP-1",
+        "title": "Prudential treatment of cryptoasset exposures",
+        "summary": "The Basel standard sorts cryptoassets into Groups 1a, 1b, 2a and 2b, with a 1250% risk weight for Group 2b and a Group 2 exposure limit. Hong Kong's implementing rules, including a Group 2 cryptoasset exposure ratio in Cap. 155L ss.387 and 388, were in effect by 1 January 2026. CRP-1 is reported to set classification conditions.",
+        "counselNote": "Banking Ordinance s.97C is the enabling power for capital rules. Confirm the Hong Kong wording of the Group 2 limit and read CRP-1 conditions before any proprietary exposure.",
+        "url": "https://www.elegislation.gov.hk/hk/cap155L",
+        "confidence": "medium"
+      },
+      {
+        "kind": "circular",
+        "instrument": "HKMA circular, Risk management considerations related to the use of DLT",
+        "ref": "16 April 2024 (20240416e1)",
+        "title": "DLT risk management considerations",
+        "summary": "Sets out considerations the HKMA applies in reviewing AIs' DLT proposals across governance, design and development, and ongoing maintenance and monitoring. Board and senior management are expected to take responsibility for DLT adoption.",
+        "counselNote": "Use it as a checklist for any bank process that runs on a ledger or smart contract. The considerations are non-binding but are what the HKMA will ask.",
+        "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2024/20240416e1.pdf",
+        "confidence": "low"
+      },
+      {
+        "kind": "guideline",
+        "instrument": "HKMA Guideline on AML/CFT for Authorized Institutions (May 2023)",
+        "ref": "paras 4.2.1(b)(iii), 11.23 to 11.25; fn 1, fn 15",
+        "title": "AML expectations for VA transfers and VASPs",
+        "summary": "Restates the statutory duty to carry out CDD before an occasional VA transfer of HK$8,000 or more, points to Sch. 2 s.13A, and expects correspondent-type measures for services to VASPs outside Hong Kong. Registered institutions are pointed to the SFC AML guideline.",
+        "counselNote": "Separate own-account and customer-facing VASP activity where possible, as paras 11.24 and 11.25 suggest. The SFC chapter on virtual assets should be read directly.",
+        "url": "https://www.hkma.gov.hk/eng/key-functions/banking/anti-money-laundering-and-counter-financing-of-terrorism/",
+        "confidence": "high"
+      },
+      {
+        "kind": "statute",
+        "instrument": "Money Lenders Ordinance (Cap. 163)",
+        "ref": "ss.3, 7, 24",
+        "title": "Money lender licensing and rate cap",
+        "summary": "Section 3 excludes authorized institutions and persons lending to them. Section 7 prohibits unlicensed money lending, and s.24 makes lending above a 48% effective annual rate an offence, with unenforceable agreements.",
+        "counselNote": "A bank does not need an MLO licence, but non-bank lending partners usually do unless exempt, for example as an AI subsidiary. Check their status and rate compliance before funding or co-branding. The text checked is as at 2022-12-30.",
+        "cap": "163",
+        "section": "3",
+        "url": "https://www.elegislation.gov.hk/hk/cap163",
+        "confidence": "high"
+      },
+      {
+        "kind": "case",
+        "instrument": "Re Gatecoin Ltd (in liquidation) [2023] HKCFI 914 (CFI, Linda Chan J, 31 March 2023, HCCW 18/2019)",
+        "ref": "[2023] HKCFI 914",
+        "title": "Cryptocurrency as property held on trust",
+        "summary": "The court held cryptocurrency is property capable of being held on trust. The 2018 terms governed all customers except those who had not consented to them. Those terms showed no intention to create a trust, so the crypto was not held on trust for them.",
+        "counselNote": "Outcome turned on contract wording and segregation, not on technology. A follow-up judgment [2025] HKCFI 493 exists on distribution but its holdings were not confirmed.",
+        "url": "https://www.hklii.hk/en/cases/hkcfi/2023/914",
+        "confidence": "high"
+      }
+    ],
+    "checklist": [
+      "**Classify every product** against the triage in the Activities tab before it enters the product pipeline, and record the analysis.",
+      "**Map every wallet and token flow** from customer app to ledger, custodian and counterparty, marking where private keys and client money sit.",
+      "**Confirm the route** for each activity: SFC registration under SFO s.119, Cap. 656 licence, HKMA discussion, or no licence needed with reasons.",
+      "**Open an HKMA conversation early** for custody, staking, stablecoin and tokenisation plans, and keep a record of what was discussed.",
+      "**Check each partner's status** on the SFC, HKMA or Companies Registry register, and re-check it at renewal and before promotions.",
+      "**Draft client-asset terms** that state trust or segregation status expressly, with no free right to use customer assets, and test them against a bank-insolvency scenario.",
+      "**Set the capital position** for any proprietary or collateral crypto exposure using the CRP-1 classification, and confirm limits and disclosure.",
+      "**Build the travel-rule and wallet-screening controls** into payments, with a rule for the HK$8,000 threshold and for missing counterparty data.",
+      "**Review all marketing and app copy** against AMLO s.53ZRE, Cap. 656 s.10, Cap. 155 ss.92 and 97, and the Code of Banking Practice.",
+      "**Fix the lending role** (lender, funder or account bank), and confirm MLO, SFO and outsourcing consequences in each platform contract.",
+      "**Set a watch list** for the pending bill, Basel review, circular updates and pilots, with named owners and review dates."
+    ],
+    "itAngle": [
+      "**Key management:** Private-key generation, storage, signing and recovery are legal control points. Specify who can sign, how many approvals are needed and how training of signers is evidenced.",
+      "**Chain risk:** Forks, outages, oracle failures and smart contract bugs can change the customer's legal position. Ask engineering for a written risk assessment before any public-chain use.",
+      "**Data fields:** The travel rule needs originator and recipient data to travel with each transfer. Check that the payment messages, vendor tools and data stores can carry and retain it.",
+      "**Immutability and privacy:** Data on a ledger may not be erasable, which sits badly with PDPO retention duties. Keep personal data off-chain unless there is a documented basis.",
+      "**Vendor dependence:** Custody, analytics and tokenisation platforms are usually outsourced. Apply the vendor-contract playbook in Technology & outsourcing, and test exit and data-return clauses.",
+      "**Segregation in code:** Client assets must be separated in wallets and in ledgers. Ask for reconciliation reports that counsel can inspect, not only operational dashboards."
+    ],
+    "virtualBankNotes": [
+      "**App-only distribution:** Every screen can be an advertisement. Review in-app placement of VA, stablecoin and partner offers under the advertising offences, and keep deposit and non-deposit products visually distinct.",
+      "**Fintech partners:** Most digital banks reach VA services through a licensed VATP or group partner. Contract for licence warranties, change notification, audit rights and clear client-asset terms.",
+      "**Group ecosystems:** A group may run its own exchange, wallet or token. Treat each group entity as a third party, avoid implied bank backing, and check conflicts and name-use rules.",
+      "**Limited capital headroom:** Group 2 crypto exposures are costly, and a young bank may lack the buffer. Test the business case against the exposure limit before design work.",
+      "**Deposit confusion:** Customers may assume wallet, token or yield balances are deposits protected by the DPS. Disclosure must say plainly what is and is not protected.",
+      "**Remote onboarding:** Wallet and VASP-linked customers are exposed to impersonation and mule risks. Align onboarding controls with the AML and fraud stage and current HKMA remote onboarding expectations."
+    ],
+    "pitfalls": [
+      "**Calling a token a deposit or stablecoin loosely:** Labels in marketing can create offences or false protection expectations. Use the legal character of the product in all customer materials.",
+      "**Assuming a banking licence covers it:** It does not authorize stablecoin issuance, VA exchange operation or regulated SFO activity. Each needs its own route.",
+      "**Relying on a pilot as a right:** Project Ensemble, EnsembleTX and e-HKD are pilots. They give no entitlement and may change or end.",
+      "**Copying an old circular:** The joint circular, custody guidance and stablecoin circulars have been revised and superseded several times. Check the current version and date every time.",
+      "**Ignoring the partner's status:** An unlicensed or lapsed partner can make the bank's promotion an offence. Re-check registers, not just the contract warranty.",
+      "**Treating P2P as a bank-only matter:** Pooled structures can be securities or CIS, and fee flows can breach MLO s.27. Involve securities counsel early."
+    ],
+    "glossary": [
+      {
+        "term": "virtual asset",
+        "definition": "A cryptographically secured digital representation of value used or intended as a medium of exchange, or carrying governance rights, and transferable electronically, as defined in AMLO s.53ZRA. Securities, SVF float and limited purpose tokens are excluded."
+      },
+      {
+        "term": "VASP",
+        "definition": "Virtual asset service provider: a business that provides VA services such as exchange, transfer or custody. In Hong Kong law the licensed class today is the VA trading platform operator."
+      },
+      {
+        "term": "VATP",
+        "definition": "Virtual asset trading platform: an SFC-licensed operator of a VA exchange under AMLO Part 5B. Banks typically deal through one by omnibus account."
+      },
+      {
+        "term": "tokenised deposit",
+        "definition": "A bank deposit liability recorded or represented as a token on a ledger. It remains a deposit under the Banking Ordinance and is not a stablecoin."
+      },
+      {
+        "term": "travel rule",
+        "definition": "The requirement that originator and recipient information accompany a transfer, applied to VA transfers by AMLO Sch. 2 s.13A. A HK$8,000 threshold governs part of the data."
+      },
+      {
+        "term": "unhosted wallet",
+        "definition": "A wallet whose private key is controlled by the customer rather than by a financial institution or VASP. Also called a self-hosted wallet."
+      },
+      {
+        "term": "private key",
+        "definition": "The secret cryptographic value that authorises transfer of a virtual asset. Whoever controls it controls the asset, so key management is central to custody."
+      },
+      {
+        "term": "omnibus account",
+        "definition": "A single account holding assets of many clients, such as a bank's account at a VATP for its customers. Client entitlements are tracked in the bank's own records."
+      },
+      {
+        "term": "staking",
+        "definition": "Committing virtual assets to a validator in a proof-of-stake network to support it and earn rewards. It adds lock-up, slashing and withdrawal risks."
+      },
+      {
+        "term": "smart contract",
+        "definition": "Code on a distributed ledger that executes automatically when conditions are met. Whether and when it is a legally binding contract is not settled in Hong Kong case law."
+      },
+      {
+        "term": "DeFi",
+        "definition": "Decentralised finance: financial services run by smart contracts on public blockchains, often without an identifiable operator. Hong Kong has no dedicated DeFi regime."
+      },
+      {
+        "term": "money lender",
+        "definition": "A person whose business is making loans, licensed under the Money Lenders Ordinance unless exempt. Authorized institutions and their subsidiaries are excluded or exempt."
+      },
+      {
+        "term": "P2P lending",
+        "definition": "Online matching of lenders with borrowers for loans, usually unsecured. It may engage the MLO and, if pooled or structured as investments, the SFO."
+      },
+      {
+        "term": "Project Ensemble",
+        "definition": "The HKMA's initiative to support tokenisation, comprising a sandbox since August 2024 and a later EnsembleTX pilot for real-value tokenised deposit transactions. It is a pilot, not law."
+      },
+      {
+        "term": "e-HKD",
+        "definition": "The HKMA's research project on a central bank digital currency in Hong Kong dollars. The HKMA states that no policy decision has been made on a retail version."
+      },
+      {
+        "term": "specified stablecoin",
+        "definition": "A stablecoin that aims to keep value by reference to one or more official currencies, or other items the MA specifies. Only specified stablecoins are caught by ss.8 to 10 of Cap. 656."
+      }
+    ],
+    "activityKit": {
+      "intro": [
+        "**Start with the triage:** Work through the questions in order for any new digital product, then open the matching activity card for the route, requirements and launch gates.",
+        "**Read the card in layers:** The route gives the headline answer, the requirements are the legal floor, and the gates are what counsel should confirm before launch.",
+        "**Check the regime label:** Each card shows whether the main regime is in force, transitional, proposed or a pilot. Proposals and pilots give no legal basis for launch.",
+        "**Use sources to verify:** Each card cites its main source first. Open it, check the date, and confirm the current position before relying on a summary."
+      ],
+      "triage": {
+        "type": "steps",
+        "caption": "Questions to ask, in order, to classify a new digital product.",
+        "items": [
+          {
+            "label": "Is it a claim to repayment of money?",
+            "note": "Deposit or tokenised deposit under Cap. 155. Stop here and apply banking rules."
+          },
+          {
+            "label": "Is it stored value for payments?",
+            "note": "SVF under Cap. 584; a bank relies on the s.8G deemed licence."
+          },
+          {
+            "label": "Is it a fiat-referenced stable-value token?",
+            "note": "Specified stablecoin under Cap. 656; check issue, offer and advertising rules."
+          },
+          {
+            "label": "Is it a security or collective investment scheme?",
+            "note": "SFO regime; the bank acts through registration under s.119."
+          },
+          {
+            "label": "Is it a virtual asset under s.53ZRA?",
+            "note": "AMLO Part 5B and the joint circular; check the VATP and travel rule."
+          },
+          {
+            "label": "Does it involve making loans?",
+            "note": "Bank lending under Cap. 155 and HKMA rules, or MLO for a non-bank lender."
+          },
+          {
+            "label": "None of the above?",
+            "note": "Check limited purpose token status, advertising, bank-name rules and data protection. If the bank will hold the asset itself, see the crypto-assets balance sheet card."
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "va-distribution",
+          "title": "Distributing virtual-asset funds, ETFs and other VA-related products",
+          "group": "crypto",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "SFC"
+          ],
+          "summary": "The bank sells or arranges investment in products whose value tracks virtual assets, such as SFC-authorized spot Bitcoin and Ether ETFs and VA-exposed funds. The bank does not hold the VA itself, but it takes on securities-type conduct duties.",
+          "route": "Yes, as an SFC [[registered institution]] (SFO s.119, normally Type 1 for dealing in securities), following the HKMA/SFC joint circular on VA-related activities and any terms attached to the registration. Tell your HKMA relationship team before launch.",
+          "require": [
+            "**Registration:** An AI wanting to deal in securities-type products must be registered with the SFC under SFO s.119. The MA advises on fitness and propriety, and the SFC may impose conditions on the registration.",
+            "**Joint circular:** The HKMA and SFC joint circular of 22 December 2023 covers distribution of VA-related products. It replaced the October 2023 and January 2022 circulars and was supplemented on 30 September 2025.",
+            "**Complex products:** VA-related products that are complex products should meet the SFC complex-product sales requirements, including suitability. Whether a given spot VA ETF counts as complex was not confirmed in the sources found.",
+            "**Derivative products:** The joint circular allows retail offering of VA derivative products only if exchange-traded on a specified exchange and, for funds, authorised or approved for retail offering by the relevant regulator.",
+            "**Underlying fund rules:** SFC-authorized funds with VA exposure must follow the SFC circular on such funds (revised April 2025 and reportedly updated in May 2026), including investing only in VAs tradable on SFC-licensed VATPs. The fund manager carries those duties, not the distributor.",
+            "**Tokenised wrappers:** A tokenised version of a non-SFO product is treated as the same product, with the same AI investor-protection standards (HKMA circular of 20 February 2024). This differs from a VA-related product."
+          ],
+          "gates": [
+            "**Confirm the registration scope** covers the product type, and that any SFC conditions or HKMA terms on the bank's registration permit VA-related products. Get the answer in writing before the product committee meets.",
+            "**Classify each product** as complex or non-complex and as retail-eligible or professional-investor-only, with a documented rationale. Do this per product, not per product family, because treatment differs between ETFs, funds and derivatives.",
+            "**Build the suitability and knowledge test** for VA exposure, including a client risk-tolerance assessment and an exposure limit. Confirm the flow works in the app without nudging clients past warnings.",
+            "**Hold an HKMA conversation** on the proposed shelf, target segment and sales channel before launch. Keep the note of what was said and any feedback on risk disclosures.",
+            "**Review marketing and app copy** against the advertising offence in AMLO s.53ZRE and the SFC product-specific disclosures. Remove any promotion of unlicensed platforms or tokens.",
+            "**Agree the product-provider contract** to cover fund documents, risk disclosures, complaints, data sharing, termination and clawback of commissions. Align with the bank's vendor clause themes on outsourcing and audit.",
+            "**Obtain board or risk committee sign-off** on the VA risk appetite, the product governance process and the staff training plan for front-line sales."
+          ],
+          "watchFor": [
+            "**Treating a fund as a pure securities sale:** Staff may sell it as an ordinary fund. Retail clients can have no VA experience, so the knowledge assessment and warnings matter as much as the product approval.",
+            "**Sliding into dealing:** If the bank starts handling VA orders itself, the activity moves to the Buying and selling virtual assets for customers card, which has extra conditions.",
+            "**Stale rules:** The joint circular was supplemented in September 2025, and later circulars, including several of May 2026, also affect VA activities. Check the current text before relying on a law-firm summary or an older checklist."
+          ],
+          "sources": [
+            {
+              "label": "HKMA/SFC joint circular on intermediaries' virtual asset-related activities",
+              "ref": "22 December 2023, as supplemented 30 September 2025",
+              "strength": "hkma-guidance",
+              "note": "Full text and paragraph numbers were not read; points summarised from secondary notes. Check the current consolidated version.",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231222-1-EN/20231222-1-EN.pdf"
+            },
+            {
+              "label": "Securities and Futures Ordinance (Cap. 571), registration of authorized financial institutions",
+              "ref": "s.119(1)-(5)",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap571!en"
+            },
+            {
+              "label": "SFC circular on SFC-authorised funds with exposure to virtual assets",
+              "ref": "SFC circular of 7 April 2025",
+              "strength": "sfc-guidance",
+              "note": "Replaces the December 2023 circular. Summary from a hosted copy and search snippets only.",
+              "url": "https://edge.sitecorecloud.io/dlapiperukl2c48-dlapiper7aff-prodb8eb-83a9/media/project/dlapiper-tenant/dlapiper/pdf/circular-on-sfcauthorised-funds-with-exposure-to-virtual-assets--securities--futures-commission-of-h.pdf"
+            },
+            {
+              "label": "HKMA circular on sale and distribution of tokenised products",
+              "ref": "20 February 2024 (brdr 20240220-10-EN)",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-10-EN/20240220-10-EN.pdf"
+            },
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615), advertisements for unlicensed VA services",
+              "ref": "s.53ZRE",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            }
+          ]
+        },
+        {
+          "id": "va-dealing",
+          "title": "Buying and selling virtual assets for customers",
+          "group": "crypto",
+          "regime": "transitional",
+          "regulators": [
+            "SFC",
+            "HKMA"
+          ],
+          "summary": "The bank lets customers buy and sell VAs through the bank, typically by routing orders to an SFC-licensed VATP. Dealing is not yet a licensed VA service under AMLO, so the bank follows the joint circular while a statutory dealing regime is proposed.",
+          "route": "Yes, in practice, as an SFC [[registered institution]] with Type 1 registration, following the standard VA dealing terms and conditions under the joint circular of 22 December 2023, as supplemented, and dealing only through an omnibus account with an SFC-licensed VATP. The bank must not itself operate a VA exchange without an SFC licence.",
+          "require": [
+            "**Current law:** AMLO Part 5B licenses only the operation of a VA exchange (Sch. 3B). Dealing, custody-only, advice and management are not Part 5B services today. Operating a VATP without an SFC licence is an offence under s.53ZRD.",
+            "**No AI exemption:** Part 5B has no general carve-out for AIs. Counsel's reading of s.53ZRD(2) is that only a licensed provider is exempt, so the bank should not operate the exchange itself. No regulator statement on this was found.",
+            "**Joint circular terms:** Intermediaries should deal only through an omnibus account with an SFC-licensed VATP and follow the standard terms and conditions for VA dealing. Separate conditions apply where the bank only introduces clients to a licensed VATP.",
+            "**Retail conditions:** The bank should assess the client's VA knowledge and risk tolerance, set an exposure limit and offer only VAs the licensed VATP makes available to retail investors. Circular paragraph numbers were not verified.",
+            "**Marketing reach:** Actively marketing a VA service to the public is treated as carrying on the business even from outside Hong Kong (s.53ZRB(3)-(5)). Advertising for an unlicensed platform is an offence (s.53ZRE).",
+            "**Recent relaxations:** HKMA guidance of 27 May 2026 addresses financing for VA dealing, shared order books and withdrawal safeguards, and a separate circular relaxes rules for licensed stablecoins. Read both before design."
+          ],
+          "gates": [
+            "**Confirm registration and conditions.** Check that the bank's SFC registration and HKMA terms cover VA dealing. If not, plan the application and the HKMA/SFC engagement before any build work.",
+            "**Choose the VATP partner** from the SFC register of licensed VATPs, not from press lists. Record the licence check date and set up monitoring for any suspension or change of status.",
+            "**Settle the account structure** as an omnibus account at the VATP with ledger segregation inside the bank. Confirm who holds client VAs and how the bank reconciles them.",
+            "**Negotiate the partner contract** on custody and segregation, outage and incident notice, order execution, data and audit access, exit and migration, and liability. Treat it as a [[material outsourcing]] candidate.",
+            "**Decide on financing.** Treat any lending to buy VAs as out of scope until the HKMA guidance of 27 May 2026 is read in full and credit risk has approved. The SFC circular of 11 February 2026 limits VA financing to existing securities margin clients and sets minimum haircuts on VA collateral.",
+            "**Run the AML design review** for VA transfers and travel rule duties, and the HKMA AML/CFT Guideline expectations on VASPs outside Hong Kong. See the Sending and receiving virtual-asset transfers card.",
+            "**Hold an HKMA conversation** and secure board and risk sign-off before the pilot, including a launch limit by client segment."
+          ],
+          "watchFor": [
+            "**Drifting into operating an exchange:** If the bank matches orders or introduces buyers and sellers while client VAs come into its possession, it may be providing the Sch. 3B service and need an SFC licence.",
+            "**Assuming the proposals are law:** The SFC and the Financial Services and the Treasury Bureau published consultation conclusions on 24 December 2025 on VA dealing and custodian licensing. As at the latest sources found (September 2026) no bill had been introduced, and commentators report that no transitional period is planned.",
+            "**Old circular versions:** The 2022 circular was superseded in 2023 and amended since. Retail access, stablecoin dealing and financing have all changed, so check the current text."
+          ],
+          "sources": [
+            {
+              "label": "HKMA/SFC joint circular on intermediaries' virtual asset-related activities",
+              "ref": "22 December 2023, terms and conditions for VA dealing services",
+              "strength": "hkma-guidance",
+              "note": "Omnibus-account and Type 1 points come from law-firm summaries. Paragraph numbers not confirmed.",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231222-1-EN/20231222-1-EN.pdf"
+            },
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615), VA services licensing",
+              "ref": "ss.53ZRA, 53ZRB(3)-(5), 53ZRD, 53ZRE; Sch. 3B Part 1 item 1",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            },
+            {
+              "label": "HKMA guidance on financing for VA dealing, shared order book and client VA withdrawals",
+              "ref": "27 May 2026 (brdr 20260527-1-EN); SFC circular 26EC5 of 11 February 2026",
+              "strength": "hkma-guidance",
+              "note": "Content taken from search excerpts; the detail of withdrawal safeguards was not retrieved.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-1-EN/20260527-1-EN.pdf"
+            },
+            {
+              "label": "HKMA circular on VA-related activities in relation to relevant stablecoins",
+              "ref": "27 May 2026 (brdr 20260527-2-EN)",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-2-EN/20260527-2-EN.pdf"
+            },
+            {
+              "label": "FSTB/SFC consultation conclusions on VA dealing and VA custodian regimes",
+              "ref": "Government press release (24 December 2025)",
+              "strength": "proposal",
+              "note": "Capital figures are from secondary sources and may change in the bill. Whether AIs are exempted or deemed was not found.",
+              "url": "https://www.info.gov.hk/gia/general/202512/24/P2025122400265.htm"
+            }
+          ]
+        },
+        {
+          "id": "va-custody",
+          "title": "Holding customers' virtual assets (custody)",
+          "group": "crypto",
+          "regime": "transitional",
+          "regulators": [
+            "HKMA",
+            "SFC"
+          ],
+          "summary": "The bank safekeeps VAs, tokenised securities or other tokenised assets for customers, which means controlling private keys. For a bank the main source of rules is the HKMA's custody guidance, because a statutory custodian licence is still only proposed.",
+          "route": "Yes, for an AI, provided it meets the HKMA's custody guidance (updated 27 May 2026) and has discussed the plan with the HKMA beforehand. Custody-only is not a Part 5B licensed service today; the proposed custodian licence is not law.",
+          "require": [
+            "**HKMA guidance:** The HKMA's custody guidance for AIs, first issued 20 February 2024, was superseded and expanded by an update on 27 May 2026. Read the annex in full, as only some changes were confirmed.",
+            "**Scope:** The guidance covers VAs, tokenised securities and other tokenised assets held for clients. It does not cover assets the AI or its group holds for itself.",
+            "**Core standards:** The February 2024 guidance covered governance and risk management, segregation, safeguarding including private-key handling, outsourcing, disclosure, record keeping, reconciliation and AML/CFT. The 2026 update adds, among other things, training for transaction signers.",
+            "**Segregation:** Client assets should be kept apart from the bank's own and not lent, pledged or encumbered except in limited cases. Insolvency outcomes turn on terms and segregation, as Re Gatecoin shows.",
+            "**Flows through the bank:** The joint circular expects client VA deposits and withdrawals to run through segregated accounts with partnered SFC-licensed VATPs or with AIs meeting HKMA custody standards. Paragraph reference unconfirmed.",
+            "**Staking:** An AI offering staking from custody should discuss it with the HKMA first (circular of 7 April 2025). The joint circular supplement of 30 September 2025 allows staking on conditions. See the card on Offering staking, DeFi access or crypto yield."
+          ],
+          "gates": [
+            "**Engage the HKMA early** with the custody model, key architecture and sub-custodian choices. Confirm whether the 2026 update adds any notification or no-objection step, which the sources found do not settle.",
+            "**Settle the legal status of client assets** in the terms: express trust or equivalent segregation, no free right to use assets, and ledger separation. Re Gatecoin [2023] HKCFI 914 turned on terms, pooling and accounting treatment.",
+            "**Decide build or buy** for key management. If a sub-custodian or technology vendor is used, treat it as [[material outsourcing]] and cover audit, step-in, key recovery, insurance, incident notice and exit.",
+            "**Test the controls** for key generation, storage, signing authority, dual control, transaction-signer training and reconciliation. Obtain independent review, including a security assessment, before go-live.",
+            "**Map the insolvency position** under the bank's own resolution and winding-up regimes (Cap. 628 and Cap. 155 considerations), which Gatecoin did not address. Counsel's inference, so take a considered view.",
+            "**Align AML design** with travel rule duties in Sch. 2 s.13A and the HKMA AML/CFT Guideline on VASPs outside Hong Kong. See the Sending and receiving virtual-asset transfers card.",
+            "**Obtain board and risk sign-off** on custody risk appetite, loss-compensation arrangements and the incident and recovery playbook."
+          ],
+          "watchFor": [
+            "**Taking it as licensed custody under statute:** No custody-only licence exists yet. The FSTB/SFC conclusions of 24 December 2025 propose one, reportedly without a transitional arrangement, so a bank should watch how AIs are treated in the bill.",
+            "**Contract wording that undermines segregation:** Terms that let the bank use client assets as its own, or pool them without clear records, can leave customers as unsecured creditors.",
+            "**Staking by accident:** A provider able to transfer client VAs while staking can fall into the proposed custodian regime, and the AI route for staking needs prior HKMA discussion."
+          ],
+          "sources": [
+            {
+              "label": "HKMA updated guidance on provision of custodial services for digital assets",
+              "ref": "27 May 2026 (brdr 20260527-6-EN)",
+              "strength": "hkma-guidance",
+              "note": "Content known from law-firm summaries only; read the annex in full.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260527-6-EN/20260527-6-EN.pdf"
+            },
+            {
+              "label": "HKMA guidance on custodial services for digital assets by AIs (superseded)",
+              "ref": "20 February 2024 (brdr 20240220-11-EN), Annex",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-11-EN/20240220-11-EN.pdf"
+            },
+            {
+              "label": "Re Gatecoin Ltd (in liquidation)",
+              "ref": "[2023] HKCFI 914 (31 March 2023)",
+              "strength": "case-law",
+              "note": "Court of First Instance judgment; binding authority on the points decided.",
+              "url": "https://www.hklii.hk/en/cases/hkcfi/2023/914"
+            },
+            {
+              "label": "FSTB/SFC consultation conclusions on VA dealing and VA custodian regimes",
+              "ref": "Government press release (24 December 2025)",
+              "strength": "proposal",
+              "note": "No bill found as at September 2026; introduction is targeted within 2026. Treat as a proposal only.",
+              "url": "https://www.info.gov.hk/gia/general/202512/24/P2025122400265.htm"
+            },
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615), definitions and VA service scope",
+              "ref": "s.53ZR; s.53ZRD; Sch. 3B Part 1 item 1",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            }
+          ]
+        },
+        {
+          "id": "stablecoin-issue",
+          "title": "Issuing a fiat-referenced stablecoin",
+          "group": "stablecoins",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "Issuing a [[fiat-referenced stablecoin]] in Hong Kong, or abroad where it references HKD, is a regulated stablecoin activity under Cap. 656. For a bank it is a separate licensed business from deposit-taking, and licences are scarce.",
+          "route": "Not under the banking licence alone. The bank needs a stablecoin licence from the MA under Cap. 656 (applying as a company or as an overseas AI, s.14). The first licences took effect on 10 April 2026, and the HKMA has signalled a high bar.",
+          "require": [
+            "**Licence:** Carrying on, or holding out as carrying on, a regulated stablecoin activity without a licence or exemption is an offence under s.8. On indictment the maximum is a HK$5 million fine and 7 years' imprisonment. A banking licence does not count as a stablecoin licence.",
+            "**Perimeter:** Only a specified stablecoin is caught: one that purports to keep stable value wholly by reference to official currencies or other assets the MA specifies (s.4). Issuing outside Hong Kong is caught where the coin references HKD (s.5(1)). A tokenised deposit is a deposit, not a stablecoin (s.3(2)).",
+            "**Reserves and redemption:** Sch. 2 requires a segregated reserve pool worth at least par value of coins in circulation, in high-quality liquid assets, with independent audit and public disclosure (s.5). Holders must have a right to redeem at par as soon as practicable (s.6).",
+            "**Governance:** Licensees need fit and proper officers and controllers, relevant knowledge, risk management, data security and fraud controls, and a white paper for each coin type (Sch. 2 ss.7-9 and 13). An AI licensee must also have a stablecoin manager (s.66).",
+            "**Treatment of AIs:** The financial-resources test (including HK$25 million paid-up capital) and the dedicated-resources test in Sch. 2 ss.4 and 12 apply only to licensees that are not AIs. A bank's capital adequacy comes from the Banking Ordinance.",
+            "**AML/CFT:** A stablecoin licensee is a financial institution under AMLO and must meet Sch. 2 s.10 and the HKMA's AML/CFT guideline for licensed issuers. Expect CDD on issuers' customers, wallet identification, Travel Rule compliance and blockchain analytics."
+          ],
+          "gates": [
+            "**Board business case:** Confirm the board has approved the use case, target holders and reasons a licence is realistic. The HKMA has said only a handful of licences would be granted at first and that the bar stays high.",
+            "**Classification memo:** Confirm a written analysis shows the product is a specified stablecoin and not a deposit, SVF float or security. If it is a deposit, follow the card on Issuing tokenised deposits instead.",
+            "**HKMA pre-application dialogue:** Confirm the current application form, timetable and expectations through early HKMA contact. Sch. 3 sets a licence fee of HK$113,020, but check the fee and form before filing.",
+            "**Structure decision:** Confirm whether issuance sits in the bank or in a ring-fenced affiliate. Check the Banking Ordinance interaction (receiving money for stablecoins is outside banking business under the s.2 proviso) and who is the stablecoin manager.",
+            "**Reserve and redemption design:** Confirm the reserve policy, trust or custody arrangement, auditor, and redemption terms. Read the final HKMA supervision guideline for the redemption timeframe, as secondary reports of one business day are unconfirmed here.",
+            "**Third-party contracts:** Confirm contracts with blockchain, wallet, custody and analytics vendors give audit and exit rights and the controls Sch. 2 s.5 expects over third parties. Treat them as material outsourcing where they qualify.",
+            "**Scam and brand controls:** Confirm monitoring and takedown for look-alike tokens and a customer warning page, and that no marketing runs before the licence is granted."
+          ],
+          "watchFor": [
+            "**Pre-licence marketing:** Holding out as carrying on the activity is itself an offence under s.8. Soft launches, waitlists and public roadmaps need counsel review before they go live.",
+            "**Look-alike tokens:** On 28 April 2026 the HKMA warned of tokens using the tickers HKDAP and HSBC that the licensees had not issued. Expect the same for your brand.",
+            "**Offshore issuance:** A coin issued abroad that references HKD, even partly, is still caught by s.5(1). Group treasury or foreign branch plans must be checked against it.",
+            "**Guideline detail:** The final HKMA supervision guideline was not read in full for this card. Reserve custody terms and any Hong Kong bank requirement for reserves are unconfirmed."
+          ],
+          "sources": [
+            {
+              "label": "Stablecoins Ordinance (Cap. 656)",
+              "ref": "ss.3-5, 8, 14-15, 66; Sch. 2 ss.4-13",
+              "strength": "statute",
+              "note": "In force 1 August 2025. Sch. 2 extract read locally only to s.13(3).",
+              "url": "https://www.elegislation.gov.hk/hk/cap656"
+            },
+            {
+              "label": "HKMA press release, granting of stablecoin issuer licences",
+              "ref": "10 April 2026",
+              "strength": "hkma-guidance",
+              "note": "First licensees: Anchorpoint Financial Limited and The Hongkong and Shanghai Banking Corporation Limited.",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/"
+            },
+            {
+              "label": "HKMA Guideline on Supervision of Licensed Stablecoin Issuers",
+              "ref": "issued under Cap. 656 s.171, 29 July 2025",
+              "strength": "statutory-guideline",
+              "note": "Full text not opened; paragraph numbers not confirmed."
+            },
+            {
+              "label": "HKMA AML/CFT Guideline for Licensed Stablecoin Issuers",
+              "ref": "effective 1 August 2025; Cap. 615 ss.1, 8",
+              "strength": "statutory-guideline",
+              "note": "Content taken from secondary summaries."
+            },
+            {
+              "label": "Banking Ordinance (Cap. 155)",
+              "ref": "s.2 'banking business' proviso; s.52",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "HKMA press release, tokens purporting to be associated with licensed issuers",
+              "ref": "28 April 2026",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260428-5/"
+            }
+          ]
+        },
+        {
+          "id": "stablecoin-offer",
+          "title": "Offering, distributing or accepting stablecoins",
+          "group": "stablecoins",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "SFC"
+          ],
+          "summary": "A bank may want to let customers buy, hold or spend stablecoins in its app, or accept them as payment. Cap. 656 regulates offering to the public, advertising and fraud, and it treats AIs as permitted offerors.",
+          "route": "Yes for licensed issuers' coins. An AI is a permitted offeror (s.9(5)), but the issue must be authorized by a stablecoin licence. Coins from unlicensed issuers can in practice go only to professional investors. Acceptance as payment has no express rule, so raise it with the HKMA.",
+          "require": [
+            "**Offer offence:** It is an offence to offer, or hold oneself out as offering, a specified stablecoin unless an exception applies (s.9). Penalties match s.8: HK$5 million and 7 years on indictment.",
+            "**Permitted offeror:** The main exception needs both a permitted offeror and an issue authorized by a licence, whoever holds it. Permitted offerors include licensed issuers, AMLO-licensed VA service providers, SVF licensees, SFC Type 1 licensees and AIs (s.9(5)).",
+            "**Retail limit:** For coins not issued under an HKMA licence, the only class specified under s.9(3) is professional investors (L.N. 126 of 2025). Retail customers can therefore be offered only licensed issuers' coins. This is an inference from s.9(2) and the notice.",
+            "**Advertising:** Publishing an advertisement that holds out an unlicensed activity, or an offer outside s.9(2), is an offence where the publisher knows the facts (s.10). Defences cover reasonable steps and neutral conduits (s.10(4)-(6)).",
+            "**Fraud and misrepresentation:** Ss.11-12 apply to anyone, licensed or not, and cover offers and invitations. Maximum penalties on indictment are HK$10 million and 10 years (s.11) and HK$1 million and 7 years (s.12).",
+            "**Registered institutions:** A 27 May 2026 HKMA circular relaxes some VA-related requirements for registered institutions dealing in, advising on or managing coins of licensed issuers. Confirm which requirements change. It does not extend to other stablecoins."
+          ],
+          "gates": [
+            "**Coin eligibility list:** Confirm the bank offers only coins whose issue is authorized by an HKMA licence. Re-check the HKMA register before each listing, and set a delisting trigger if the licence is revoked.",
+            "**Route to market:** Decide whether the bank offers as permitted offeror, refers customers to a licensed VATP, or uses a partner. Under the first, confirm the SFO registration position and any Type 1 or VA dealing activity (see the card on Buying and selling virtual assets for customers).",
+            "**HKMA conversation:** Confirm the HKMA is content with the product, wallet model and suitability approach. Also ask how it treats accepting licensed stablecoins as payment, which the research could not locate.",
+            "**Marketing sign-off:** Confirm compliance and legal review of every in-app placement, partner promotion and social post against s.10, with a record of the reasonable steps taken.",
+            "**Custody and wallet model:** Confirm who holds the coins and how customers withdraw to unhosted wallets. Cross-refer to the cards on Holding customers' virtual assets (custody) and Sending and receiving virtual-asset transfers.",
+            "**Partner contracts:** Confirm issuer and VATP agreements cover redemption access, disclosure of reserve reports, outage and depeg procedures, data sharing, and rights to suspend the coin at short notice.",
+            "**Customer disclosure:** Confirm risk disclosures say the coin is not a deposit and not protected by the Deposit Protection Scheme, and that redemption rights run against the issuer."
+          ],
+          "watchFor": [
+            "**Unlicensed coins:** Offering a non-licensed coin to retail clients falls outside s.9(2). The exemption for professional investors does not help a mass-market app.",
+            "**Fake tickers:** The HKMA warned on 28 April 2026 of tokens using licensed issuers' names. Check contract addresses, not just names or tickers.",
+            "**Scope creep by notice:** The MA can add regulated activities by Gazette notice under s.5(4). None was found, but distribution or custody could be brought in without a new Ordinance.",
+            "**Relaxation limits:** The May 2026 circular was summarised from secondary sources. Do not assume it applies to an AI that is not a registered institution."
+          ],
+          "sources": [
+            {
+              "label": "Stablecoins Ordinance (Cap. 656)",
+              "ref": "ss.9-12; s.9(5); s.5(4)",
+              "strength": "statute",
+              "note": "In force 1 August 2025.",
+              "url": "https://www.elegislation.gov.hk/hk/cap656"
+            },
+            {
+              "label": "Stablecoins Ordinance (Specification of Persons for Section 9(2)(b)(iii)) Notice",
+              "ref": "L.N. 126 of 2025",
+              "strength": "statute",
+              "note": "Content taken from a search summary; confirm the PDF text.",
+              "url": "https://www.legco.gov.hk/yr2025/english/subleg/negative/2025ln126-e.pdf"
+            },
+            {
+              "label": "HKMA circular, virtual asset-related activities in relation to relevant stablecoins",
+              "ref": "27 May 2026",
+              "strength": "hkma-guidance",
+              "note": "Read through law-firm summaries; paragraph numbers not confirmed. The SFC issued a companion circular the same day."
+            },
+            {
+              "label": "Payment Systems and Stored Value Facilities Ordinance (Cap. 584)",
+              "ref": "ss.8F, 8G; s.2 'float'",
+              "strength": "statute",
+              "note": "A bank is regarded as granted an SVF licence under s.8G.",
+              "url": "https://www.elegislation.gov.hk/hk/cap584"
+            },
+            {
+              "label": "HKMA press release, tokens purporting to be associated with licensed issuers",
+              "ref": "28 April 2026",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260428-5/"
+            }
+          ]
+        },
+        {
+          "id": "stablecoin-reserves",
+          "title": "Banking for stablecoin issuers: reserve accounts and custody of reserves",
+          "group": "stablecoins",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "Licensed issuers must back their coins with a segregated reserve pool, and the Ordinance lets that pool be held through another person. That makes banks natural reserve account banks and custodians, with trust, segregation and AML duties.",
+          "route": "Yes, for a licensed issuer. Cap. 656 Sch. 2 s.5(1) lets the issuer maintain the pool through an arrangement with another person, and HKMA guidance is reported to expect a qualified custodian such as a licensed bank. Confirm with the HKMA whether bank custody of reserves is also caught by its custody guidance.",
+          "require": [
+            "**Segregated pool:** Reserves must be a separate pool for each coin type, worth at least the par value of coins in circulation at all times, and kept apart from other funds (Sch. 2 s.5). The issuer remains responsible when a third party holds them.",
+            "**Protection from creditors:** The issuer must keep each pool adequately protected against its other creditors' claims in all circumstances (Sch. 2 s.5(4)). The duty is the issuer's, so expect it to seek trust, segregation and no-set-off terms from the bank.",
+            "**Asset quality:** Reserves must be high quality, highly liquid and low risk. HKMA guidance, as summarised by law firms, points to cash, bank deposits of up to three months and certain debt securities. Confirm against the final text.",
+            "**Trust structure:** The same summaries say the pool is held on trust, with an independent legal opinion, and with a qualified custodian such as a Hong Kong licensed bank. This is low-confidence until the guideline is read.",
+            "**Disclosure and audit:** Issuers must have independent attestation and audit, and publish their reserve policy, composition and audit results (Sch. 2 s.5). The bank will be asked for confirmations, balances and access to support these.",
+            "**AML/CFT:** The issuer is an AMLO financial institution, and the bank must still apply its own AML/CFT Guideline controls to the issuer as customer. See the card on Banking VASPs, trading platforms and stablecoin issuers."
+          ],
+          "gates": [
+            "**Account mandate and trust terms:** Confirm the account or custody agreement states that assets are held for the reserve pool and not for the bank. It should bar set-off, charges and netting against the issuer's other debts to the bank.",
+            "**Licence verification:** Confirm the customer holds a stablecoin licence for the coin concerned before opening the account. For a pre-licence applicant, follow the card on Banking VASPs, trading platforms and stablecoin issuers and give no reserve role.",
+            "**Custody perimeter:** Confirm with the HKMA whether holding reserves counts as custodial services under its current digital-asset custody guidance. If it does, apply its governance and access-control expectations.",
+            "**Counterparty and concentration limits:** Confirm credit approval for reserve deposits, since a bank holding reserves may also be the issuer's counterparty risk. Check large exposure, liquidity and run-risk impact if redemptions are heavy.",
+            "**Information flows:** Confirm what the bank will provide to the issuer's auditor and the HKMA, within secrecy and PDPO limits, and agree a protocol for urgent confirmations.",
+            "**Insolvency playbook:** Confirm how the bank would act if the issuer failed, including holders' pro rata rights over the pool under Sch. 2 s.6, and how it responds to MA directions.",
+            "**Own-issuance conflicts:** If the bank is also a licensee, confirm separation between its own reserve pool and any services for other issuers, with approvals recorded."
+          ],
+          "watchFor": [
+            "**Commingling:** Mixing reserve balances with the issuer's operating or the bank's own funds undermines the creditor protection the Ordinance requires. Use clearly named, separate accounts.",
+            "**Unconfirmed location rule:** A June 2026 LegCo reply is reported secondhand as requiring reserves to sit with Hong Kong banks. Treat as unverified until the reply or guideline is read.",
+            "**Overseas reserves:** A reserve held outside Hong Kong, for example by a group bank abroad, may not meet HKMA expectations. Check before offering cross-border arrangements.",
+            "**Dual role:** A bank that is both issuer and reserve bank for its own coin must show the pool is legally separate from the bank's own balance sheet."
+          ],
+          "sources": [
+            {
+              "label": "Stablecoins Ordinance (Cap. 656)",
+              "ref": "Sch. 2 ss.5-6, 10; s.98",
+              "strength": "statute",
+              "note": "In force 1 August 2025.",
+              "url": "https://www.elegislation.gov.hk/hk/cap656"
+            },
+            {
+              "label": "HKMA Guideline on Supervision of Licensed Stablecoin Issuers",
+              "ref": "issued under Cap. 656 s.171, 29 July 2025",
+              "strength": "statutory-guideline",
+              "note": "Reserve asset, trust and custodian points come from law-firm summaries; PDF not opened."
+            },
+            {
+              "label": "HKMA circular, updated guidance on provision of custodial services for digital assets",
+              "ref": "reported 27 May 2026",
+              "strength": "hkma-guidance",
+              "note": "Scope on stablecoin reserves not confirmed."
+            },
+            {
+              "label": "HKMA AML/CFT Guideline for Licensed Stablecoin Issuers",
+              "ref": "effective 1 August 2025; Cap. 615 ss.1, 8",
+              "strength": "statutory-guideline"
+            },
+            {
+              "label": "LegCo question LCQ6, development and regulation of stablecoins",
+              "ref": "10 June 2026",
+              "strength": "proposal",
+              "note": "Contents not opened; reserve location point is unverified."
+            }
+          ]
+        },
+        {
+          "id": "tokenised-deposits",
+          "title": "Issuing tokenised deposits",
+          "group": "tokenisation",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "A tokenised deposit is a bank's ordinary deposit liability recorded or represented as a token on a ledger. It matters because it lets the bank offer programmable, ledger-based money without a stablecoin licence, and it is the settlement asset in the HKMA's Project Ensemble tests.",
+          "route": "Yes, under the bank's existing licence, because a token that is a [[deposit]] stays within the Banking Ordinance (Cap. 155). No separate licence applies, but the bank should discuss the design with the HKMA early. If the token is not a deposit, Cap. 656 may apply.",
+          "require": [
+            "**Legal character:** Cap. 656 s.3(2)(e) excludes from the stablecoin definition a digital representation of value that is a deposit under Cap. 155 s.2(1). So the legal test is whether the token is a claim to repayment of money received as a deposit, not the technology used.",
+            "**Deposit definition:** Cap. 155 s.2(1) defines a deposit as a loan of money, with listed exclusions including SVF floats and SVF deposits and specified stablecoins. Nothing in the definition removes a deposit because it is tokenised.",
+            "**No stablecoin route by default:** A banking licence does not authorize stablecoin issuance. A token that meets Cap. 656 s.3(1) and is not a deposit may be a stablecoin, and issuing it can be a regulated stablecoin activity needing a licence under Cap. 656 s.8. See the card on Issuing a fiat-referenced stablecoin.",
+            "**Deposit protection:** Cap. 581 s.2(1) takes the Cap. 155 meaning of deposit, and Sch. 1 s.1 lists exclusions such as bearer instruments (para (c)) and structured deposits (para (aa)). Sch. 1 has no tokenisation exclusion. The HKMA has not, on the research found, issued a statement on tokenised deposits and the DPS.",
+            "**Existing prudential rules:** The bank's existing capital, liquidity, operational resilience and outsourcing expectations still apply to a tokenised deposit platform. The Banking (Capital) Rules now include cryptoasset exposure provisions, such as Group 1a for tokenised traditional assets; check how they apply. No tokenised-deposit-specific HKMA circular was found."
+          ],
+          "gates": [
+            "**Classify every token design** in writing against Cap. 155 s.2(1) and Cap. 656 s.3(1)-(2), and record why each design is a deposit, not a stablecoin, SVF float or security.",
+            "**Test bearer-style features** against Cap. 581 Sch. 1 s.1(c). Confirm the terms, ledger and transfer mechanics do not turn a protected deposit into an excluded instrument, and settle what customers are told about [[DPS]] cover.",
+            "**Open an HKMA conversation** before launch, covering ledger choice, governance, key management, finality of settlement and exit arrangements. Treat the absence of specific guidance as a reason to engage, not a licence to proceed.",
+            "**Paper the vendor stack.** If a platform provider or public network is involved, test it as a [[material outsourcing]] and agree audit, access, incident, step-in and [[exit plan]] clauses before signing.",
+            "**Settle customer terms** on redemption at par, transfer limits, wallet access, dormant and lost-key treatment, and how the on-ledger record relates to the bank's books. The books should be the legal record.",
+            "**Decide the test route.** Consider whether the bank joins an Ensemble pilot first (see the card on Joining e-HKD, Project Ensemble and other HKMA pilots) and obtain board and risk sign-off on the risk appetite."
+          ],
+          "watchFor": [
+            "**Label drift:** Marketing a token as a stablecoin, or letting it be used as one, may pull it toward Cap. 656 even though the bank calls it a deposit.",
+            "**Reserve-pool design:** Ring-fencing assets behind the tokens looks like stablecoin reserves. Cap. 581 Sch. 1 s.1(j) excludes deposits of stablecoin reserve assets from DPS protection, a different treatment from ordinary deposits.",
+            "**Selling to the public:** Distribution of a tokenised deposit placed by customers should follow the conduct standards in the HKMA's 20 February 2024 tokenised products circular. This point is from secondary commentary; check the circular text.",
+            "**Pilot is not approval:** Taking part in Project Ensemble does not clear a commercial product. Confirm with the HKMA what is allowed outside the pilot."
+          ],
+          "sources": [
+            {
+              "label": "Stablecoins Ordinance (Cap. 656), s.3",
+              "ref": "Cap. 656 s.3(1)-(2)",
+              "strength": "statute",
+              "note": "Stablecoin definition and exclusions, including deposits under Cap. 155 s.2(1).",
+              "url": "https://www.elegislation.gov.hk/hk/cap656"
+            },
+            {
+              "label": "Banking Ordinance (Cap. 155), s.2(1)",
+              "ref": "Cap. 155 s.2(1) 'deposit', 'banking business'",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "Deposit Protection Scheme Ordinance (Cap. 581)",
+              "ref": "Cap. 581 s.2(1); Sch. 1 s.1(c), (aa), (i), (j)",
+              "strength": "statute",
+              "note": "No tokenisation exclusion in Sch. 1; confirm design does not fall in an exclusion.",
+              "url": "https://www.elegislation.gov.hk/hk/cap581"
+            },
+            {
+              "label": "HKMA circular, Sale and distribution of tokenised products",
+              "ref": "HKMA circular 20 February 2024 (20240220-10-EN)",
+              "strength": "hkma-guidance",
+              "note": "Text not opened; confirm detail.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-10-EN/20240220-10-EN.pdf"
+            },
+            {
+              "label": "HKMA press release, EnsembleTX",
+              "ref": "HKMA press release 13 November 2025",
+              "strength": "proposal",
+              "note": "Pilot for real-value tokenised deposit transactions in 2026.",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251113-3/"
+            }
+          ]
+        },
+        {
+          "id": "tokenised-securities",
+          "title": "Issuing, distributing or holding tokenised bonds and funds",
+          "group": "tokenisation",
+          "regime": "in-force",
+          "regulators": [
+            "SFC",
+            "HKMA"
+          ],
+          "summary": "Tokenised bonds and funds are securities or fund interests whose ownership is recorded or represented on distributed ledger technology. A bank may act as distributor, dealer, custodian, settlement bank or issuer, and each role carries different obligations.",
+          "route": "Yes, within the bank's existing permissions, provided that securities activities run through its [[registered institution]] status with the SFC and HKMA supervision. Holding tokenised assets for clients means the bank should meet the HKMA's custody standards and notify the HKMA. Non-SFO tokenised products follow the HKMA's separate circular.",
+          "require": [
+            "**Securities regime:** Dealing in, advising on or managing portfolios investing in tokenised securities is regulated like the underlying securities. SFC circular 23EC52 of 2 November 2023 applies to registered institutions, including AIs registered for Type 1, 4 and 9 activities.",
+            "**Due diligence:** Under 23EC52, an intermediary should do due diligence on the issuer, third-party vendors and the tokenisation arrangement, and be satisfied that risks are controlled. Named risks include ownership and recording of interests, forking, outages and cybersecurity.",
+            "**Issuer role:** An intermediary that is also the issuer remains responsible for the whole arrangement even if it outsources parts. Bearer-form tokenised securities on public permissionless networks raise extra custody points such as immobilisation, segregation and private-key management.",
+            "**Custody standards:** The HKMA's custody guidance for digital assets (first issued 20 February 2024, updated 27 May 2026) covers risk assessment, governance, conflicts, segregation from the AI's own assets, key management and recovery, disclosure of risks and AML/CFT. It reaches tokenised bonds and funds held for clients.",
+            "**Non-SFO products:** For tokenised products that are not regulated under the SFO, the HKMA's circular of 20 February 2024 expects the usual conduct rules plus controls for tokenisation risks: product due diligence, disclosure, staff expertise and custody.",
+            "**Authorized funds:** The SFC reportedly updated its 2023 circular on tokenising SFC-authorized products in 2026, including a route for secondary trading on SFC-licensed VA trading platforms. Confirm the current circular numbers, dates and scope."
+          ],
+          "gates": [
+            "**Sort each product into a regime.** SFO security, SFC-authorized fund, non-SFO tokenised product, or non-security virtual asset covered by the October 2023 joint circular. Record the reasoning and the circular that applies.",
+            "**Confirm registration scope** for the bank's SFC activity types and check the registered-institution conditions. Do not assume tokenised securities fall within existing Type 1, 4 or 9 permissions without checking the circular text.",
+            "**Notify the HKMA** before holding tokenised assets for clients if not already doing so. The February 2024 custody circular gave existing providers six months to notify and confirm compliance, per secondary sources; confirm the deadline in the text.",
+            "**Diligence the platform and network.** Document tests of the issuer, platform provider, ledger and smart contracts, including record-keeping, finality, outage and fork scenarios. Treat any platform as a [[material outsourcing]] where it qualifies.",
+            "**Fix settlement and custody mechanics.** Who holds keys, how client assets are segregated, and how settlement cash moves, including whether a tokenised deposit or stablecoin settles trades. See the card on Issuing tokenised deposits.",
+            "**Obtain board and risk sign-off** on the product shelf, suitability and disclosure approach, and staff competence for a technology-led product."
+          ],
+          "watchFor": [
+            "**Superseded guidance:** The 2 November 2023 SFC circular 23EC53 has reportedly been replaced by a 2026 circular. Check the current SFC text before relying on the earlier framework.",
+            "**Trading venue gap:** Secondary trading of tokenised authorised funds happens on SFC-licensed VA trading platforms. A bank acting only as distributor or custodian should not offer matching itself without the right licence. See the card on Buying and selling virtual assets for customers.",
+            "**Public network risk:** Holding bearer-form tokens on a public permissionless network is a custody-heavy case. Assume the HKMA will probe key control and segregation."
+          ],
+          "sources": [
+            {
+              "label": "SFC circular 23EC52, tokenised securities-related activities",
+              "ref": "SFC circular 2 November 2023, 23EC52",
+              "strength": "sfc-guidance",
+              "note": "Paragraph numbers unconfirmed; text not opened."
+            },
+            {
+              "label": "HKMA circular, Provision of custodial services for digital assets",
+              "ref": "HKMA circular 20 February 2024 (20240220-11-EN)",
+              "strength": "hkma-guidance",
+              "note": "Six-month notification period is from secondary sources.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-11-EN/20240220-11-EN.pdf"
+            },
+            {
+              "label": "HKMA circular, Sale and distribution of tokenised products",
+              "ref": "HKMA circular 20 February 2024 (20240220-10-EN)",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20240220-10-EN/20240220-10-EN.pdf"
+            },
+            {
+              "label": "SFC circular 26EC22, tokenisation of SFC-authorised products",
+              "ref": "SFC circular 20 April 2026 (26EC22)",
+              "strength": "sfc-guidance",
+              "note": "Reported to replace 23EC53; number and date unconfirmed."
+            },
+            {
+              "label": "SFC circular 26EC23, secondary trading of tokenised authorised products",
+              "ref": "SFC circular 2026 (reference unconfirmed)",
+              "strength": "sfc-guidance"
+            },
+            {
+              "label": "HKMA press release, third digital green bond",
+              "ref": "HKMA press release 11 November 2025",
+              "strength": "proposal",
+              "note": "Example of government tokenised bonds settling in tokenised central bank money.",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251111-6/"
+            }
+          ]
+        },
+        {
+          "id": "cbdc-pilots",
+          "title": "Joining e-HKD, Project Ensemble and other HKMA pilots",
+          "group": "tokenisation",
+          "regime": "pilot",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "The HKMA runs pilots on tokenised money and assets, including e-HKD, Project Ensemble and its real-value phase EnsembleTX, and the cross-border Project mBridge. They are tests, not law, but they shape what the HKMA expects of banks that later launch tokenised products.",
+          "route": "Yes, by invitation or application to the HKMA, on terms the HKMA sets for each pilot; pilot status does not itself take an activity outside Cap. 155, the SFO or other regimes. Joining a pilot does not authorize a commercial launch, so the bank should confirm the legal basis for any live value.",
+          "require": [
+            "**Pilot status:** These initiatives are HKMA programmes, not legislation. Terms come from the pilot rules, participation agreements and any sandbox conditions, so counsel should read those documents, not look for a statute.",
+            "**Ensemble history:** The HKMA unveiled Project Ensemble on 7 March 2024 and launched its sandbox on 28 August 2024 for interbank settlement tests using experimental tokenised money. On 13 November 2025 it announced EnsembleTX for real-value transactions through 2026.",
+            "**EnsembleTX scope:** First use cases are tokenised deposits in tokenised money market fund transactions and in liquidity and treasury management. Interbank settlement initially uses the HKD RTGS system, with planned upgrades to tokenised central bank money; the upgrade is not confirmed as live.",
+            "**e-HKD position:** The e-HKD pilot Phase 2 report of 28 October 2025 reported the pilot results and moved priority toward wholesale use. The HKMA's page states no policy decision on a retail e-HKD.",
+            "**mBridge:** Project mBridge reached minimum viable product on 5 June 2024. The BIS announced on 31 October 2024 that it was handing the platform to participating central banks, with the HKMA remaining. Later participant lists lack a primary source.",
+            "**Normal rules still apply:** Real-value pilot activity by an [[authorized institution]] remains subject to Cap. 155, AML/CFT duties and prudential expectations unless the HKMA says otherwise in writing."
+          ],
+          "gates": [
+            "**Obtain the pilot documents** and confirm in writing the HKMA's stated legal position on live value, liability, data use and exit from the pilot. Do not rely on press releases for contract terms.",
+            "**Check participant lists** against the HKMA's EnsembleTX Annex A, which was not retrieved here. Secondary lists of participating banks conflict, so confirm any statement about peers, including whether digital banks take part.",
+            "**Map pilot activity to existing regimes.** Deposits, SFO activities, custody, AML/CFT and data protection. State which regime applies to each pilot flow before the first test transaction.",
+            "**Agree vendor and ledger terms** for the pilot platform, covering security, access, incident reporting, data location and termination. Keep the pilot out of production systems unless approved.",
+            "**Set success and stop criteria**, including a decision point for moving to a commercial product. Link to the card on Issuing tokenised deposits so that pilot learning feeds the product approval.",
+            "**Brief the board and risk committee** on pilot scope, losses the bank could bear, and reputational points, and record the approval."
+          ],
+          "watchFor": [
+            "**Pilot is not approval:** Press coverage of firsts, such as reported live cross-bank tokenised deposit transfers, shows what was tested. It does not show that the HKMA has cleared a product for customers.",
+            "**Retail e-HKD assumptions:** No decision has been made on a retail e-HKD. Planning a customer product that depends on one would rest on a policy that does not exist.",
+            "**Moving plans:** Tokenised Exchange Fund Bills and a CMU OmniClear platform appear only in secondary reporting. Treat them as plans until a primary source confirms dates.",
+            "**Single-bank claims:** Participant announcements are not HKMA findings. No official EnsembleTX evaluation had been found as at October 2026."
+          ],
+          "sources": [
+            {
+              "label": "HKMA press release, EnsembleTX",
+              "ref": "HKMA press release 13 November 2025",
+              "strength": "proposal",
+              "note": "Annex A participant list not retrieved.",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251113-3/"
+            },
+            {
+              "label": "HKMA press release, Project Ensemble Sandbox",
+              "ref": "HKMA press release 28 August 2024",
+              "strength": "proposal",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/08/20240828-3"
+            },
+            {
+              "label": "HKMA press release, Project Ensemble",
+              "ref": "HKMA press release 7 March 2024",
+              "strength": "proposal",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/03/20240307-5/"
+            },
+            {
+              "label": "HKMA press release, e-HKD Pilot Programme Phase 2 report",
+              "ref": "HKMA press release 28 October 2025",
+              "strength": "proposal",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/10/20251028-4/"
+            },
+            {
+              "label": "HKMA press release, Project mBridge reaches MVP",
+              "ref": "HKMA press release 5 June 2024",
+              "strength": "proposal",
+              "note": "Later participant list is secondary only.",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/06/20240605-4/"
+            },
+            {
+              "label": "HKMA Central Bank Digital Currency page",
+              "ref": "HKMA CBDC webpage (2026, as indexed)",
+              "strength": "proposal",
+              "note": "Snippet only; no retail e-HKD policy decision stated.",
+              "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/fintech/central-bank-digital-currency/"
+            }
+          ]
+        },
+        {
+          "id": "crypto-exposures",
+          "title": "Holding crypto-assets or taking them as collateral on the bank's balance sheet",
+          "group": "crypto",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "The bank wants crypto-assets, stablecoin tokens or tokenised assets on its own balance sheet, or wants to accept them as security for a loan. The capital rules sort each exposure into a Basel group, and the group decides the risk weight and whether limits bite.",
+          "route": "Yes in principle, but only within the Basel-based capital, exposure-limit and disclosure rules in force since 1 January 2026, and in practice after talking to the HKMA first. Crypto that fails the Group 1 and Group 2a conditions defaults to Group 2b, which carries a 1,250% risk weight, so the business case rarely works outside Group 1.",
+          "require": [
+            "**Capital rules:** The MA may make capital rules that give effect to Basel standards, including by adopting Basel documents (Cap. 155 s.97C). The Banking (Capital) (Amendment) Rules 2025 (L.N. 150 of 2025) apply the Basel cryptoasset standard from 1 January 2026.",
+            "**Classification:** Each exposure is sorted into Group 1a (tokenised traditional assets), Group 1b (assets with effective stabilisation mechanisms) or Group 2. Group 2a covers assets meeting the s.361(4) conditions; the rest are Group 2b. The conditions are in the Banking (Capital) Rules s.361, and the HKMA's module CRP-1 guides their application.",
+            "**Group 2b weighting:** Group 2b banking-book exposures take a 1,250% risk weight on the greater of aggregate long and short positions (Capital Rules s.385). Assume near-deduction and no hedge recognition. Group 2a uses modified market-risk approaches instead.",
+            "**Group 2 ratio:** Every AI must calculate a group 2 cryptoasset exposure ratio (Capital Rules s.387). The 1% limit, with notice, add-on and rectification duties above 1% and 2%, binds only G-SIBs and D-SIBs (s.388). L.N. 152 brings crypto into large-exposure limits.",
+            "**Disclosure:** The Banking (Disclosure) (Amendment) Rules 2025 (L.N. 151 of 2025) add a cryptoasset disclosure division (Division 8D), including annual qualitative disclosure of crypto activities and classification approach. Failure to comply with disclosure rules is an offence for directors, chief executives and managers (Cap. 155 s.60A).",
+            "**Supervisory conditions:** The MA may attach or vary conditions on an authorization, including restrictions on business (Cap. 155 s.16(5), (9)(a)). That is the lever if the HKMA is uneasy about a digital bank's crypto position."
+          ],
+          "gates": [
+            "**Classify before you buy:** Obtain a written classification memo for every token or product against Capital Rules s.361 and the CRP-1 guidance, including any treatment of permissionless blockchains, and confirm which group and risk weight apply.",
+            "**Set the appetite in the board risk statement:** Fix a hard Group 2 limit even though the statutory 1% ratio binds only G-SIBs and D-SIBs, with breach reporting and rectification steps. Record how the s.387 ratio and long and short positions are measured.",
+            "**Speak to the HKMA early:** Brief the supervisor before any holding or collateral programme starts. The research found no HKMA-specific rule on lending against crypto, so expect a case-by-case view and possible conditions.",
+            "**Fix the custody and key position:** Confirm who holds the keys, how assets are segregated, and how the bank reconciles on-chain balances. See the card on holding customers' virtual assets (custody) for the HKMA custody expectations.",
+            "**Build the collateral file:** If taking crypto as collateral, document haircuts, valuation feeds, liquidation rights on insolvency and perfection of security. The Basel standard is under targeted review, so do not rely on current treatment staying fixed.",
+            "**Update returns and disclosure:** Confirm the finance team can populate the new capital returns and the Pillar 3 crypto templates by the first reporting date, and that the Exposure Limits Code is reflected in policy.",
+            "**Check stablecoin holdings separately:** A licensed issuer's token still needs its own classification. The research found no confirmed rule giving licensed stablecoins automatic Group 1b treatment, so do not assume it."
+          ],
+          "watchFor": [
+            "**Basel review pending:** In late 2025 the Basel Committee agreed a targeted review of parts of the standard, including the treatment of permissionless blockchains. Check the BCBS website for any revised standard. Treat today's rules as in force but movable.",
+            "**Hedging assumptions:** Group 2b gets no hedge recognition and Group 2a only limited recognition. A desk that models a fully hedged position can still face a full capital charge.",
+            "**Permissionless chains:** Group 1 treatment for a token on a permissionless blockchain depends on meeting and evidencing the s.361 conditions and CRP-1 guidance. Check for any later HKMA clarification of CRP-1 before relying on it.",
+            "**Secondary-source figures:** Some summaries describe the 1% and 2% Group 2 limit as applying to all AIs. Capital Rules s.388 confines it to G-SIBs and D-SIBs, so read the rule text, not summaries, before fixing limits."
+          ],
+          "sources": [
+            {
+              "label": "Banking Ordinance, capital rules power",
+              "ref": "Cap. 155 s.97C(1), (3)",
+              "strength": "statute",
+              "note": "Enabling power for Basel-based capital rules, checked against local text.",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "Banking (Capital), (Disclosure) and (Exposure Limits) (Amendment) Rules 2025",
+              "ref": "L.N. 150, 151, 152 of 2025",
+              "strength": "statute",
+              "note": "In force from 1 January 2026. Checked against consolidated Capital Rules Part 12 (ss.361, 385, 387, 388), Disclosure Rules Division 8D and Exposure Limits Rules Division 5A.",
+              "url": "https://www.elegislation.gov.hk/hk/cap155L"
+            },
+            {
+              "label": "HKMA SPM CRP-1, Classification of Cryptoassets",
+              "ref": "SPM CRP-1",
+              "strength": "hkma-guidance",
+              "note": "Guidance on applying the Capital Rules s.361 classification conditions. Body, paragraph numbers and later HKMA clarifications not verified."
+            },
+            {
+              "label": "Basel Committee, Prudential treatment of cryptoasset exposures",
+              "ref": "BCBS d545 (Dec 2022); SCO60",
+              "strength": "proposal",
+              "note": "International standard, not law until implemented. Amended 17 July 2024; targeted review agreed November 2025.",
+              "url": "https://www.bis.org/bcbs/publ/d545.pdf"
+            },
+            {
+              "label": "Banking Ordinance, disclosure rules power and offence",
+              "ref": "Cap. 155 s.60A(1), (3), (4)",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "HKMA SPM CA-D-1, Application of the Banking (Disclosure) Rules",
+              "ref": "SPM CA-D-1",
+              "strength": "hkma-guidance",
+              "note": "Guidance on disclosure templates; revision adding crypto templates not verified."
+            }
+          ]
+        },
+        {
+          "id": "dlt-operations",
+          "title": "Running bank processes on blockchain or smart contracts",
+          "group": "web3",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "The bank wants to run internal or customer-facing processes, such as settlement, collateral movement or record-keeping, on distributed ledger technology or smart contracts. This changes the bank's technology, outsourcing and operational-resilience risk even if no customer holds a token.",
+          "route": "Yes. No separate licence is needed, because it is a way of running permitted banking business. The HKMA reviews DLT proposals against its April 2024 risk considerations, so brief it before launch and expect questions on governance, design and monitoring.",
+          "require": [
+            "**Board responsibility:** The HKMA's April 2024 circular on DLT risk management says the board and senior management should take full responsibility for DLT adoption. The circular is non-statutory guidance, but it signals what the HKMA will test.",
+            "**Three review areas:** The HKMA looks at governance, application design and development, and ongoing maintenance and monitoring. Policies on technology risk, business continuity and outsourcing should be updated for DLT-specific factors.",
+            "**Key and cyber security:** The circular expects private-key security and cyber security at least commensurate with traditional applications. The HKMA's February 2024 custody guidance also addresses smart-contract security in custody arrangements.",
+            "**Operational resilience:** A DLT process that supports a critical operation falls within the HKMA's operational resilience module OR-2. AIs had until 31 May 2026 to implement their frameworks, including mapping and scenario testing.",
+            "**General conduct duty:** The MA must take reasonable steps to ensure business is carried on with prudence and competence (Cap. 155 s.7(2)(g)). Unmanaged DLT risk can feed into that assessment.",
+            "**Outsourcing:** If a node operator, wallet provider or platform vendor runs a function for the bank, the HKMA's outsourcing expectations in SPM SA-2 apply. Consult the HKMA before any material outsourcing."
+          ],
+          "gates": [
+            "**Write the DLT business case and risk assessment:** Map the process, the chain type (permissioned or permissionless), the asset or data on-chain and the failure modes. Have the board or its delegated risk committee approve it.",
+            "**Brief the HKMA before build:** Describe the use case, chain choice and vendors to the relationship team. Ask whether the bank should use Project Ensemble or another pilot instead of building alone. Record the HKMA's feedback.",
+            "**Run an independent smart-contract audit:** Get a written audit and a remediation log before go-live. Define who can pause, upgrade or patch a contract, and how upgrades are approved.",
+            "**Settle key management:** Document key generation, storage, signing authority, rotation and recovery. Test recovery from loss or compromise. Confirm no single person can move assets or alter contract logic.",
+            "**Map OR-2 impacts:** Add the process to critical-operation mapping if it supports one, set impact tolerances, and run a scenario test, for example chain halt, node failure or an exploit.",
+            "**Paper the vendor contract:** Secure audit and access rights, incident notice, exit and data-return terms, and the HKMA's right to information. See the card on offering staking, DeFi access or crypto yield if the vendor touches public protocols.",
+            "**Check data and finality:** Confirm with legal when an on-chain entry is final, how errors are reversed on an immutable ledger, and how personal data is kept off-chain to satisfy PDPO duties."
+          ],
+          "watchFor": [
+            "**Immutability against erasure:** Personal data written to a public chain cannot be corrected or deleted. Keep it off-chain or hash it, and test the design against PDPO retention and correction duties.",
+            "**Hidden outsourcing:** Using a third-party chain, oracle or node provider is outsourcing in substance. Do not treat open protocols as if no vendor existed.",
+            "**Pilot is not approval:** Taking part in an HKMA sandbox or Project Ensemble pilot does not clear the bank's own governance. The pilot is not law.",
+            "**Unread baseline modules:** The research did not confirm whether TM-G-1 or OR-2 contain DLT-specific paragraphs. Read both modules in full rather than relying on the 2024 circular alone."
+          ],
+          "sources": [
+            {
+              "label": "HKMA circular, Risk management considerations related to the use of DLT",
+              "ref": "HKMA circular 16 April 2024 (20240416e1)",
+              "strength": "hkma-guidance",
+              "note": "Content confirmed through law-firm summary and the circular's opening; full text not read."
+            },
+            {
+              "label": "HKMA SPM OR-2, Operational Resilience",
+              "ref": "SPM OR-2; issued 31 May 2022",
+              "strength": "hkma-guidance",
+              "note": "Implementation deadline 31 May 2026 from KPMG and Protiviti summaries."
+            },
+            {
+              "label": "HKMA circular on custody of digital assets",
+              "ref": "HKMA circular 20 February 2024",
+              "strength": "hkma-guidance",
+              "note": "Smart-contract security expectation; the HKMA issued updated custody guidance on 27 May 2026, which was not verified."
+            },
+            {
+              "label": "HKMA SPM TM-G-1, General Principles for Technology Risk Management",
+              "ref": "SPM TM-G-1",
+              "strength": "hkma-guidance",
+              "note": "Baseline technology risk module; DLT-specific content unconfirmed."
+            },
+            {
+              "label": "Banking Ordinance, functions of the MA",
+              "ref": "Cap. 155 s.7(2)(g)",
+              "strength": "statute",
+              "note": "Checked against local text.",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "HKMA press release on EnsembleTX pilot",
+              "ref": "HKMA press release 13 November 2025 (20251113-3)",
+              "strength": "proposal",
+              "note": "Pilot, not law. Real-value tokenised deposit and asset transactions through 2026."
+            }
+          ]
+        },
+        {
+          "id": "svf-wallet",
+          "title": "Running an e-wallet or prepaid balance",
+          "group": "wallets",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "An e-wallet or prepaid balance lets customers store value with the bank and then pay or transfer from it. A bank is regarded as an SVF licensee, so the product is regulated inside the bank, with some licensee rules switched off for banks.",
+          "route": "Yes. Under Cap. 584 s.8G a licensed bank is regarded as holding an SVF licence from the grant of its banking licence, so no separate application is needed. Confirm that the product fits the [[stored value facility]] definition and that no partner becomes an unlicensed facilitator.",
+          "require": [
+            "**Deemed licence:** Cap. 584 s.8G(a) treats a bank as holding an SVF licence from the time its banking licence is granted. Issuing or facilitating an SVF without that authority is an offence under s.8B, so the deemed licence is the bank's only authority.",
+            "**Safe and efficient operation:** Section 8O requires every licensee, banks included, to run each SVF safely and efficiently. Section 8P covers reliability, access control, information integrity and risk controls. Breach of s.8O is an offence. Section 8Q requires the applicable Sch. 3 minimum criteria to be met, though the principal-business, capital and fit-and-proper criteria do not apply to banks.",
+            "**Rules that do not apply to banks:** The licence fee (s.8M), reporting inability to meet obligations (s.8R), change-of-particulars notice (s.8S), MA intervention (Division 6) and controller consents (Division 7) are disapplied. A separate fee applies under s.8N, and Cap. 155 governs controllers and directors.",
+            "**Float rules still apply:** Section 8ZZZH on winding up does not apply to banks, but the Sch. 3 criteria on keeping float separate and protected, and on full redemption, have no bank carve-out. Confirm [[DPS]] treatment against Cap. 581 Sch. 1.",
+            "**Licence follows the banking licence:** The deemed SVF licence is revoked if the banking licence is revoked (s.8U) and suspended while it is suspended (s.8Y). During suspension the bank must stop issuing or facilitating SVF and receiving money for storage (s.8ZB(1)).",
+            "**AML/CFT:** The HKMA's separate AML/CFT guideline for SVF licensees is aimed at non-bank licensees. A bank wallet will likely sit under the HKMA AML/CFT Guideline for AIs, including [[CDD]] and monitoring, and Sch. 3 requires adequate AML/CFT controls. Confirm the position with the HKMA."
+          ],
+          "gates": [
+            "**Confirm the product is an SVF** and map every flow (top-up, peer transfer, merchant payment, cash-out) against the single-purpose definition in s.2A and the Sch. 8 exemptions before treating any balance as outside, or exempt from, the SVF licensing regime.",
+            "**Settle which AML/CFT guideline applies** to the wallet and record the HKMA's view. Do the same for the HKMA Guideline on Supervision of SVF Licensees, whose application to bank-deemed licensees was not confirmed.",
+            "**Agree the DPS and disclosure position** for wallet balances, and align customer terms and marketing with it, so customers understand how float protection differs from deposit protection.",
+            "**Review partner contracts** for facilitator risk under s.2B, where a non-issuer provides consideration that determines how much the issuer may undertake. Treat wallet, card and acquiring vendors as [[material outsourcing]] candidates.",
+            "**Wire in fraud controls** before launch: Scameter data, the FPS suspicious proxy ID and account alerts, mule-account detection, and an [[STR]] route to the [[JFIU]].",
+            "**Set limits and risk appetite** (balance caps, transaction limits, onboarding tiers) with board and risk sign-off, and brief the bank's HKMA supervisors before launch.",
+            "**Plan for suspension and exit** under s.8ZB(1), including how to stop issuance and return balances if the banking licence is suspended or the product is withdrawn."
+          ],
+          "watchFor": [
+            "**Mule accounts:** Instant FPS top-ups and transfers make wallets attractive to mule networks. The HKMA, Police and banking industry have announced successive anti-fraud and mule-account measures, so expect scrutiny of detection and information sharing.",
+            "**Importing non-bank SVF packs wholesale:** Many licensee-only provisions are disapplied for banks, but s.8O and the Sch. 3 criteria without a bank carve-out still bite. Copying a non-bank licensee's compliance pack can over- or under-state what applies.",
+            "**Quoting market numbers:** Counts of non-bank SVF licensees conflict between sources. Only the HKMA register kept under s.8ZZZF is authoritative, so check it rather than quoting a number."
+          ],
+          "sources": [
+            {
+              "label": "Payment Systems and Stored Value Facilities Ordinance",
+              "ref": "Cap. 584 ss.2A, 2B, 8B, 8G, 8M-8S, 8U, 8Y, 8ZB, 8ZD, 8ZZB, 8ZZZB-8ZZZF, 8ZZZH; Sch. 3",
+              "strength": "statute",
+              "note": "Section text checked against the local eLegislation copy; Sch. 8 contents seen only in part.",
+              "url": "https://www.elegislation.gov.hk/hk/cap584"
+            },
+            {
+              "label": "HKMA Guideline on Supervision of SVF Licensees",
+              "ref": "Issued under Cap. 584 s.54",
+              "strength": "statutory-guideline",
+              "note": "Not read in full; application to bank-deemed licensees and any later revision unconfirmed."
+            },
+            {
+              "label": "HKMA Guideline on AML/CFT (For Authorized Institutions)",
+              "ref": "May 2023",
+              "strength": "statutory-guideline",
+              "url": "https://www.hkma.gov.hk/eng/key-functions/banking/anti-money-laundering-and-counter-financing-of-terrorism/"
+            },
+            {
+              "label": "HKMA Guideline on AML/CFT (For SVF Licensees)",
+              "ref": "Current version; issue and effective dates not confirmed",
+              "strength": "statutory-guideline",
+              "note": "Applicability to banks is inferred, not confirmed in the text."
+            },
+            {
+              "label": "HKMA, HKPF and HKAB press release on fraud and mule account measures",
+              "ref": "HKMA press releases on anti-fraud measures",
+              "strength": "hkma-guidance"
+            },
+            {
+              "label": "HKMA press release on the FPS Suspicious Proxy ID Alert",
+              "ref": "HKMA press releases, from 2023",
+              "strength": "hkma-guidance",
+              "note": "The alerts were later extended to other channels; release dates not confirmed."
+            }
+          ]
+        },
+        {
+          "id": "va-transfers",
+          "title": "Sending and receiving virtual-asset transfers, including unhosted wallets",
+          "group": "wallets",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "SFC"
+          ],
+          "summary": "Customers may want to move virtual assets to or from the bank, other institutions and wallets they control themselves (unhosted wallets). Such transfers raise sanctions, fraud and money-laundering risk and attract a statutory travel rule that applies to banks.",
+          "route": "Yes in principle. AMLO Sch. 2 s.13A applies the travel rule to financial institutions, including AIs, that carry out virtual asset transfers, and the rule itself needs no extra licence. Holding or dealing in assets for customers follows the routes in \"Holding customers' virtual assets (custody)\" and \"Buying and selling virtual assets for customers\".",
+          "require": [
+            "**Ordering institution:** Before transferring, the bank must obtain and record the originator's name, account number or unique reference, and address, ID number or date and place of birth, plus the recipient's name and account number or reference. It must send this to the beneficiary institution (Sch. 2 s.13A(2), (4)).",
+            "**HK$8,000 threshold:** Where the virtual assets are worth less than HK$8,000, the originator address, ID and birth data are not required and are not sent (s.13A(3), (4)(b)). The other items still apply, so the bank needs a pricing and linked-transaction rule.",
+            "**Beneficiary and intermediary roles:** A beneficiary institution must obtain and record the information (s.13A(5)). An intermediary institution must pass on all the information it receives (s.13A(6)).",
+            "**Missing or meaningless data:** Under s.13A(7) the bank must obtain missing information as soon as reasonably practicable. If it cannot, it must consider restricting or ending the relationship with the instructing institution, or take reasonable risk-mitigation measures.",
+            "**CDD for occasional transfers:** The HKMA AML/CFT Guideline for AIs (May 2023) para 4.2.1(b)(iii) requires [[CDD]] before an occasional virtual asset transfer of no less than HK$8,000. Footnote 15 points to s.13A. A customer with an account booked in Hong Kong is not an occasional case.",
+            "**SFC guideline for registered institutions:** Footnote 1 of the HKMA guideline tells AIs that are [[registered institutions|registered institution]] or associated entities to have regard to the SFC AML/CFT Guideline, including Chapter 12 on virtual assets."
+          ],
+          "gates": [
+            "**Fix the product scope** (send-only, receive-only, hosted-to-hosted, or customer-to-unhosted) and confirm the bank never takes possession of client assets without the custody route. Confirm the design cannot amount to operating a VA exchange under Part 5B (s.53ZRD offence; Sch. 3B).",
+            "**Choose a travel-rule solution** and test it end to end. It must identify whether the counterparty is a regulated institution, carry the required data, and log what was sent and received.",
+            "**Run counterparty due diligence** on every institution the bank exchanges data with, and document the escalation path for counterparties that cannot or will not supply information.",
+            "**Write an unhosted-wallet policy** covering ownership confirmation, limits, enhanced review, or prohibition. Check the SFC guideline's Chapter 12 text itself before copying any approach, as secondary summaries of its paragraph numbering were not verified.",
+            "**Define the HK$8,000 test**, covering the price source, valuation time and treatment of linked transfers, approved by compliance and built into the transfer engine.",
+            "**Screen addresses and transfers** with blockchain analytics and sanctions tools, and set clear hold, reject and return rules, with an [[STR]] route to the [[JFIU]] when information is missing or suspicious.",
+            "**Brief the HKMA and obtain board and risk sign-off** before first release, with an agreed list of transfer types, jurisdictions and counterparties in scope."
+          ],
+          "watchFor": [
+            "**Threshold splitting:** Customers can split transfers to stay under HK$8,000. A linked-transaction rule and monitoring for structuring are needed, not just a single-transaction check.",
+            "**Self-declared wallet control:** A customer's statement that a wallet is theirs is not proof. Secondary reports describe the SFC guideline as expecting ownership confirmation, such as a test transfer, but that text should be checked before relying on it.",
+            "**Fake and unverified stablecoins:** The HKMA has warned about fake tokens claiming links to licensed stablecoin issuers. Do not credit or release tokens without verifying the issuer.",
+            "**Drift into custody:** Receiving assets into bank-controlled wallets, even briefly, may be custody. Treat it under \"Holding customers' virtual assets (custody)\" before launch."
+          ],
+          "sources": [
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Sch. 2",
+              "ref": "Cap. 615 Sch. 2 s.13A(1)-(7)",
+              "strength": "statute",
+              "note": "Checked against the local eLegislation text.",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            },
+            {
+              "label": "HKMA Guideline on AML/CFT (For Authorized Institutions)",
+              "ref": "May 2023, para 4.2.1(b)(iii); footnotes 1, 14, 15",
+              "strength": "statutory-guideline",
+              "note": "Checked against the full local text.",
+              "url": "https://www.hkma.gov.hk/eng/key-functions/banking/anti-money-laundering-and-counter-financing-of-terrorism/"
+            },
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Part 5B",
+              "ref": "Cap. 615 ss.53ZR, 53ZRB, 53ZRD; Sch. 3B",
+              "strength": "statute",
+              "note": "Defines the VA service licensed under Part 5B and the offence of operating without a licence.",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            },
+            {
+              "label": "SFC Guideline on AML/CFT for Licensed Corporations and SFC-licensed VASPs",
+              "ref": "Chapter 12 (virtual assets)",
+              "strength": "statutory-guideline",
+              "note": "Text not retrieved; paragraph numbers on self-hosted wallets and travel-rule solutions are unverified."
+            },
+            {
+              "label": "HKMA AML/CFT guideline for licensed stablecoin issuers, consultation conclusions",
+              "ref": "Cap. 656 Sch. 2 s.10",
+              "strength": "proposal",
+              "note": "Contents taken from summaries of the consultation conclusions; the final guideline was not read. Reports differ on unhosted-wallet limits."
+            }
+          ]
+        },
+        {
+          "id": "vasp-customers",
+          "title": "Banking VASPs, trading platforms and stablecoin issuers",
+          "group": "crypto",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "SFC"
+          ],
+          "summary": "VASPs, trading platforms and stablecoin issuers need bank accounts for operations, settlement and client money flows. They are higher-risk customers, yet the HKMA has encouraged a risk-based approach to legitimate businesses rather than blanket refusal.",
+          "route": "Yes. Providing accounts to these customers needs no extra licence, but the bank must apply risk-based [[CDD]] and, for correspondent-type services to VASPs outside Hong Kong, should apply the correspondent-banking additional measures. Reserve accounts for issuers are covered in \"Banking for stablecoin issuers: reserve accounts and custody of reserves\".",
+          "require": [
+            "**Licensing status of the customer:** Operating a VA exchange, or holding out as doing so, without an SFC licence is an offence under Cap. 615 s.53ZRD (Part 5B). The bank should confirm that a platform customer is licensed or has a defensible basis for being unlicensed.",
+            "**Stablecoin issuers:** Carrying on a regulated stablecoin activity without a licence is an offence under Cap. 656 s.8, and ss.10 and 11 cover advertising and fraud. A banking licence does not authorize issuance. The first licences took effect on 10 April 2026.",
+            "**Correspondent-type services:** Paras 11.23-11.25 of the HKMA AML/CFT Guideline apply the additional correspondent measures to services for VASPs outside Hong Kong. The bank should ascertain whether the account is for the customer's own purposes or to serve its clients, and could encourage two separate accounts.",
+            "**Proportionate access:** Law-firm summaries report that an April 2023 HKMA circular asked banks to meet licensed VASPs' legitimate account needs on a risk-based basis, not by wholesale de-risking. The circular text was not located.",
+            "**Ongoing duties:** Standard CDD, ongoing monitoring and [[STR]] reporting to the [[JFIU]] apply. Fn 79 of the guideline says the correspondent extension does not apply to an institution that is a financial institution as defined in the AMLO.",
+            "**Information sharing:** Banking Ordinance Part XIIAA (ss.68AA-68AAM) allows AIs to share suspected money laundering, terrorist financing and proliferation financing information on HKMA-designated platforms without customer consent. Platform access needs MA approval (s.68AAH)."
+          ],
+          "gates": [
+            "**Adopt a board-approved acceptance policy** that separates SFC-licensed platforms, overseas VASPs, licensed stablecoin issuers and unlicensed or applicant businesses, and states which products each may receive.",
+            "**Verify and re-verify licence status** against the SFC and HKMA registers at onboarding and on a set cycle. Require the customer to notify any change, suspension or condition by contract.",
+            "**Require account segregation** where the customer both trades for itself and holds client funds. Agree in advance which accounts hold client money and which hold house funds.",
+            "**Calibrate monitoring** for flows to and from VASPs, including blockchain-analytics alerts, [[money mule]] typologies and [[Scameter]] data, and test the rules against known scam patterns.",
+            "**Document exit and escalation** steps, so that restricting or ending a relationship follows a recorded risk decision, not a reflex, and customers receive consistent treatment.",
+            "**Confirm Part XIIAA access** and internal approvals before relying on information sharing, and align privacy notices and PDPO assessments with it.",
+            "**Talk to the HKMA early** about appetite and any customer types the bank plans to exclude, and record the board and risk sign-off."
+          ],
+          "watchFor": [
+            "**Two opposite errors:** Wholesale de-risking can conflict with the HKMA's stated expectations, while wholesale acceptance ignores the customers' risk profile. The file should show a reasoned, customer-specific decision.",
+            "**Fake and lookalike tokens:** The HKMA has warned about fake tokens claiming links to licensed issuers. Customers claiming to be issuers or their agents should be checked against the licensed issuer register.",
+            "**Nested exposure:** A VASP's own customers and sub-accounts sit behind the account. Without clear understanding of its customer base, the bank can carry risk it did not underwrite.",
+            "**Quoting licensee counts:** Figures for licensed trading platforms came from a single secondary article. Check the SFC register for the current list instead of repeating a number."
+          ],
+          "sources": [
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Part 5B",
+              "ref": "Cap. 615 ss.53ZR, 53ZRB, 53ZRD; Sch. 3B",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            },
+            {
+              "label": "Stablecoins Ordinance",
+              "ref": "Cap. 656 ss.8, 10, 11",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap656"
+            },
+            {
+              "label": "HKMA Guideline on AML/CFT (For Authorized Institutions)",
+              "ref": "May 2023, paras 11.23-11.25; footnotes 78-79",
+              "strength": "statutory-guideline",
+              "note": "Checked against the full local text.",
+              "url": "https://www.hkma.gov.hk/eng/key-functions/banking/anti-money-laundering-and-counter-financing-of-terrorism/"
+            },
+            {
+              "label": "HKMA circular on banking services for VASPs",
+              "ref": "Circular, April 2023 (date per law-firm summaries)",
+              "strength": "hkma-guidance",
+              "note": "Known only from law-firm summaries; the HKMA text was not found and no later replacement was located."
+            },
+            {
+              "label": "Banking Ordinance, Part XIIAA",
+              "ref": "Cap. 155 ss.68AA, 68AAB, 68AAC, 68AAH",
+              "strength": "statute",
+              "note": "In force in the local text as at September 2026; commencement date not verified.",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "Press report on HKMA warnings about fake tokens linked to licensed stablecoin issuers",
+              "ref": "HKMA warnings, 2026",
+              "strength": "hkma-guidance",
+              "note": "Secondary report; the HKMA press release itself was not located."
+            }
+          ]
+        },
+        {
+          "id": "p2p-funding",
+          "title": "Funding P2P platforms and money lenders",
+          "group": "lending",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "Companies Registry"
+          ],
+          "summary": "The bank lends to, or takes security over loan books of, licensed money lenders, P2P platforms and similar non-bank credit providers. It matters because the bank's credit and conduct risk now rests on a borrower whose own licence status and lending terms can make its loans unenforceable.",
+          "route": "Yes. Lending to a money lender is ordinary banking business and the bank needs no money lender licence, because the Money Lenders Ordinance (MLO) does not apply to an authorized institution. Diligence must test the counterparty's own licence, exemption and lending terms.",
+          "require": [
+            "**Bank exemption:** The MLO does not apply to an [[authorized institution]] (s.3(a)), nor to a person who lends to one (s.3(b)). Funding a platform therefore needs no bank-side licence, but the borrower's position is tested separately.",
+            "**Borrower must be licensed or exempt:** Carrying on a money lending business without a licence, away from licensed premises or outside licence conditions is an offence (ss.7(1), 29(1), 32(1)(a)). A breach of a licence condition is itself an offence.",
+            "**Business test:** A person is a money lender if lending is its business or it holds itself out as lending (s.2(1)). A platform that lends, or advertises as lender, is caught unless Sch. 1 excludes it.",
+            "**Rate limits:** Lending above 48% effective rate is an offence and the agreement and security are unenforceable (s.24). A rate above 36% is presumed extortionate and a court may reopen the loan (s.25(3)).",
+            "**Enforceability:** A lender cannot recover through the courts unless licensed when it made the loan, subject to an equitable discretion (s.23). Agreements must also meet the s.18 formalities and the s.22 restrictions.",
+            "**Licence conditions:** Licences carry conditions imposed under s.11(6), published by the Registrar, covering matters such as third-party referrals, personal data sourcing and debt collection. Serious breach can lead the licensing court to suspend or revoke the licence (s.14(1))."
+          ],
+          "gates": [
+            "**Verify the borrower's status** on the Registrar's public register (ss.4, 6) at onboarding and on each drawdown, and record the licence number, premises and conditions in the credit file.",
+            "**Test every exemption claimed** against Sch. 1. A subsidiary of an AI (Pt 1 para 1), a Pt 2 para 12 loan to a company with HK$1,000,000 paid-up capital, and the Pt 2 para 5 non-primary-lender exemption are each fact-sensitive and should be evidenced.",
+            "**Add licence covenants** to the facility. Require continuing licence, compliance with conditions and the rate limits, prompt notice of suspension, revocation or Registrar action, and audit rights over loan files.",
+            "**Diligence the loan book** before taking security or buying receivables. Sample agreements for s.18 formalities, rates above 36% and 48%, s.27 charges to borrowers and compound or default-rate clauses that s.22 makes illegal.",
+            "**Check the data chain.** Confirm how the lender sourced borrower data and that it can evidence lawful collection as its licence conditions expect. Add PDPO warranties before any transfer of borrower data to the bank.",
+            "**Cover the collection risk.** Require the lender and its collectors to follow the licensing conditions on harassment and records. Agree a step-in or termination right if complaints rise, since reputational loss falls on the funder.",
+            "**Obtain credit-committee and risk sign-off** on concentration, counterparty rating and the legal opinion on enforceability. Brief the HKMA relationship manager where the exposure is large or the model is novel."
+          ],
+          "watchFor": [
+            "**Unlicensed arrangements:** A platform that says it only 'matches' but sets terms, holds funds or advertises as lender may be a money lender in substance. Look at conduct, not the contract label.",
+            "**Pooled investor money:** If the platform raises money from retail investors, the structure may engage the SFO as well. See the card on running a P2P lending marketplace.",
+            "**Stale status checks:** Licences last 12 months (s.12) and can be suspended. A one-off check at onboarding does not support continuing reliance.",
+            "**Reopening risk:** Extortionate-rate reopening applies to any person suing on the loan (s.25(1)), so a bank enforcing assigned loans can face the defence itself."
+          ],
+          "sources": [
+            {
+              "label": "Money Lenders Ordinance (Cap. 163)",
+              "ref": "ss.2(1), 3, 7(1), 12, 14, 18, 22-25, 29, 32, Sch. 1",
+              "strength": "statute",
+              "note": "Local text checked as at 30 December 2022; later amendments to these sections not checked.",
+              "url": "https://www.elegislation.gov.hk/hk/cap163"
+            },
+            {
+              "label": "Companies Registry, Money Lenders Licensing Conditions",
+              "ref": "Conditions on third parties, data, collection and affordability",
+              "strength": "statute",
+              "note": "Conditions attached to each licence under MLO s.11(6); breach is an offence. Wording and numbering change between editions, so check the current set."
+            },
+            {
+              "label": "Government reply to a LegCo question on online lending platforms (2017)",
+              "ref": "LegCo reply (2017)",
+              "strength": "proposal",
+              "note": "Government statement that lenders need a money lender licence and Police enforce the MLO."
+            },
+            {
+              "label": "Resolution revising the MLO interest rate limits",
+              "ref": "L.N. 208 of 2022; effective 30 December 2022",
+              "strength": "statute",
+              "note": "Limits of 48% and 36% apply to agreements made on or after commencement (ss.24(3), 25(9))."
+            }
+          ]
+        },
+        {
+          "id": "p2p-origination",
+          "title": "Originating bank loans through platforms and buy-now-pay-later partners",
+          "group": "lending",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA"
+          ],
+          "summary": "The bank makes loans on its own balance sheet to customers introduced or served through a platform or a buy-now-pay-later (BNPL) partner. It matters because the bank keeps full conduct and credit responsibility for a journey that a third party designs and runs.",
+          "route": "Yes, as the lender, without a money lender licence. A bank's own BNPL and platform loans are supervised by the HKMA as consumer credit. A non-bank partner that itself makes loans needs a money lender licence.",
+          "require": [
+            "**No MLO licence for the bank:** The MLO does not apply to an [[authorized institution]] (s.3(a)). A subsidiary of an AI is an exempted person (Sch. 1 Pt 1 para 1), so group structure matters if lending sits outside the bank.",
+            "**Government position:** The Government has said in LegCo replies that bank BNPL is supervised by the HKMA, while non-bank BNPL providers that make loans need a money lender licence. No dedicated BNPL statute was found.",
+            "**Rate limits through the Code:** The [[Code of Banking Practice]] expects bank lending rates to stay within the MLO benchmarks. The HKMA asked AIs to reflect the revised 48% and 36% limits, which took effect on 30 December 2022.",
+            "**BNPL consumer protection:** A 2022 HKMA circular set consumer-protection measures for bank BNPL, reported to include credit labelling, educational messages, chargeback disclosure and a repayment-ability assessment. Confirm the list against the circular.",
+            "**Cooling-off:** Secondary summaries report later HKMA guidance expecting a cooling-off period for unsecured consumer credit. Confirm the period, scope and timing against the circular before relying on it.",
+            "**Outsourcing and collection:** The bank stays responsible for outsourced functions under SA-2 and for third-party collection under the Code. SA-2 expects the bank to discuss material outsourcing with the HKMA in advance."
+          ],
+          "gates": [
+            "**Decide who is the lender of record.** Document that the bank, not the partner, makes and holds the loan, and that the partner is an agent or service provider only. If the partner also lends, confirm its licence or Sch. 1 exemption.",
+            "**Classify the arrangement** as [[material outsourcing]] or not, and record the reasoning. If material, plan the advance discussion with the HKMA before launch and set up exit, audit and business-continuity rights in the contract.",
+            "**Map the customer journey** against the HKMA's BNPL measures and any cooling-off expectation. Obtain evidence that screens, disclosures and chargeback terms are the bank's, and approved by compliance.",
+            "**Own the credit decision.** Keep scoring, affordability and approval under the bank's policy. If using alternative data, check it against the HKMA's personal-lending credit risk circulars and consider [[Credit Data Smart]] and credit reference agency use.",
+            "**Control the data flows.** Review PDPO notices, the PCPD Code of Practice on Consumer Credit Data and partner sub-processing. Limit what the partner may keep, reuse or share with other lenders.",
+            "**Cap the fees.** Make sure no fee charged to the borrower, by bank or partner, pushes the effective rate past the Code limits, and check how referral fees paid to the partner are disclosed.",
+            "**Obtain board or risk committee approval** with stress tests for default and fraud, and confirm complaint handling, collection standards and termination triggers in the partner contract."
+          ],
+          "watchFor": [
+            "**Partner as hidden lender:** If the partner funds or sells any part of the loan, or holds itself out as lender, it may be a money lender. Its advertising must also carry the licence number (s.26). See the card on Funding P2P platforms and money lenders.",
+            "**Delegated collection:** Passing referee or third-party data to collectors, or tolerating harassment, breaches the Code and the HKMA's long-standing expectations on collection agencies.",
+            "**Marketing as credit:** BNPL branded as 'interest-free' or 'pay later' without credit labelling is a conduct risk even where the APR is nil.",
+            "**Weak sources:** The BNPL, cooling-off and personal-lending circular points rest partly on secondary summaries. Check the primary circulars before relying on thresholds."
+          ],
+          "sources": [
+            {
+              "label": "HKMA guidance on consumer protection for BNPL",
+              "ref": "2022",
+              "strength": "hkma-guidance",
+              "note": "Circular text not read; summarised from the HKMA Insight article and secondary notes."
+            },
+            {
+              "label": "Government replies to LegCo questions on BNPL",
+              "ref": "LegCo replies (2022 onwards)",
+              "strength": "proposal",
+              "note": "Government position on bank and non-bank BNPL; no new BNPL statute announced."
+            },
+            {
+              "label": "Money Lenders Ordinance (Cap. 163)",
+              "ref": "ss.3, 26; Sch. 1 Pt 1 para 1",
+              "strength": "statute",
+              "note": "Local text checked as at 30 December 2022.",
+              "url": "https://www.elegislation.gov.hk/hk/cap163"
+            },
+            {
+              "label": "HKMA circular on revised interest rate limits",
+              "ref": "October 2022",
+              "strength": "hkma-guidance",
+              "note": "Paragraph wording not read in full."
+            },
+            {
+              "label": "Code of Banking Practice (December 2023)",
+              "ref": "Debt recovery and interest rate provisions",
+              "strength": "industry-code",
+              "note": "Effective 7 December 2023. Voluntary, but the HKMA expects AIs to observe it.",
+              "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231207-1-EN/20231207-1-EN.pdf"
+            },
+            {
+              "label": "HKMA Supervisory Policy Manual SA-2 Outsourcing",
+              "ref": "SA-2 (28 December 2001)",
+              "strength": "hkma-guidance",
+              "note": "Not confirmed whether revised since 2001. Expects advance discussion with the HKMA on material outsourcing.",
+              "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20011228-3-EN/SA-2.pdf"
+            }
+          ]
+        },
+        {
+          "id": "p2p-marketplace",
+          "title": "Running a P2P lending marketplace",
+          "group": "lending",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "SFC",
+            "Companies Registry"
+          ],
+          "summary": "The bank, or a group company, operates a platform that matches investors or lenders with borrowers, possibly pooling money or issuing loan participations. It matters because the structure can fall under the money lender regime, the securities regime or both, and Hong Kong has no dedicated P2P statute.",
+          "route": "Not as a plain banking product. The route depends on structure: the platform may need a money lender licence, SFC authorization or an exemption for offers to the public, and SFC registration for any regulated activity. Raise the model with the HKMA and SFC before design is fixed.",
+          "require": [
+            "**No dedicated regime:** The Government has said some P2P lending may fall under the SFO and that lenders need a money lender licence (LegCo reply, 2017). The December 2022 crowdfunding consultation is a proposal, and no enacted crowdfunding statute was found.",
+            "**SFO engagement:** The SFC's 2014 crowdfunding notice says P2P lending may be a collective investment scheme or involve securities, depending on structure. Pooled funds and loan participations are the main risk.",
+            "**Public offers:** SFO s.103 restricts advertisements and invitations to the public to acquire securities or join a collective investment scheme unless the SFC authorizes them or an exemption applies. Section 104 allows authorization of schemes and s.105 authorization of the advertisements themselves.",
+            "**Regulated activity:** SFO s.114 bars carrying on a regulated activity business without a licence or registration. An AI doing so must be an SFC [[registered institution]] (s.119).",
+            "**MLO if the platform lends:** A platform that makes loans or holds itself out as lender is a money lender (s.2(1)) and needs a licence unless excluded. Its advertising must show the licence number (s.26). See the card on Funding P2P platforms and money lenders.",
+            "**Borrower-side limits:** Any loan made through the marketplace is subject to the 48% rate cap (s.24), the 36% extortionate presumption (s.25(3)) and the ban on charging borrowers arranging costs (s.27)."
+          ],
+          "gates": [
+            "**Fix the legal structure first.** Decide who lends, who holds the loan, and what investors receive. Document whether each investor gets a direct loan, a participation, a note or a unit, and obtain a written classification opinion.",
+            "**Resolve the SFO position.** Confirm whether the product is a collective investment scheme or securities and which Types of regulated activity are engaged. Check the Sch. 1 and Sch. 5 definitions directly, as the local text was not available.",
+            "**Settle the licence route.** Confirm the bank's registered-institution scope covers the activity, or that a separate licensed entity runs the platform. A group lender may use the AI-subsidiary exemption in Sch. 1 Pt 1 para 1 only if the entity qualifies.",
+            "**Hold a pre-launch conversation** with the HKMA and SFC. Present the structure, investor class, disclosures and exit plan. Treat the conversation as a gate, since no published P2P guidance exists to rely on.",
+            "**Design investor protection.** Draft risk disclosure, suitability or eligibility rules, segregation of client money, default and secondary-market rules, and advertising approval that satisfies s.103 and the MLO licence-number rule.",
+            "**Check money flows and AML.** Apply [[CDD]] to investors and borrowers, handle pooled accounts, and set out how repayments are collected and passed on. Include platform-failure and wind-down arrangements.",
+            "**Obtain board approval** with a documented risk appetite, since the activity falls outside ordinary deposit and lending business and may carry reputational and enforcement exposure."
+          ],
+          "watchFor": [
+            "**Label risk:** Calling the platform a 'marketplace' or the product a 'loan' does not take it outside the SFO or the MLO. The SFC and courts look at substance.",
+            "**Retail marketing:** Promotions to the public that describe returns can breach s.103 even if the underlying loans are lawful. Clear all copy with the SFC position in mind.",
+            "**Borrower fees:** Origination or introduction fees charged to borrowers on a licensed lender's loans need care under s.27 and may count as interest for the 48% test.",
+            "**Old authority:** The SFC notice is from 2014 and the Government reply from 2017. No later P2P-specific statement was found, so confirm the current view directly with the regulators."
+          ],
+          "sources": [
+            {
+              "label": "SFC, Notice on Risks and Potential Regulatory Issues of Crowdfunding",
+              "ref": "SFC notice (2014)",
+              "strength": "sfc-guidance",
+              "note": "Located via search; notice text not opened."
+            },
+            {
+              "label": "Securities and Futures Ordinance (Cap. 571)",
+              "ref": "ss.103, 104, 105, 114, 115, 119",
+              "strength": "statute",
+              "note": "Only section headings were available locally; wording of the sections and Schedules was not read.",
+              "url": "https://www.elegislation.gov.hk/hk/cap571"
+            },
+            {
+              "label": "Money Lenders Ordinance (Cap. 163)",
+              "ref": "ss.2(1), 24, 25, 26, 27, Sch. 1",
+              "strength": "statute",
+              "note": "Local text checked as at 30 December 2022.",
+              "url": "https://www.elegislation.gov.hk/hk/cap163"
+            },
+            {
+              "label": "Government reply to a LegCo question on online lending platforms (2017)",
+              "ref": "LegCo reply (2017)",
+              "strength": "proposal",
+              "note": "Clearest official statement on classification; no dedicated P2P regime."
+            },
+            {
+              "label": "Government consultation on enhancing regulation of crowdfunding activities",
+              "ref": "December 2022",
+              "strength": "proposal",
+              "note": "Proposal only. It targets donation, reward and similar crowdfunding more than P2P lending already within the MLO or SFO."
+            }
+          ]
+        },
+        {
+          "id": "staking-defi",
+          "title": "Offering staking, DeFi access or crypto yield",
+          "group": "web3",
+          "regime": "transitional",
+          "regulators": [
+            "HKMA",
+            "SFC"
+          ],
+          "summary": "Staking lets a customer earn rewards by locking proof-of-stake tokens; DeFi access and crypto yield products route customer assets into lending pools, liquidity pools or similar protocols. Each adds custody, smart-contract, counterparty and deposit-mischaracterisation risk that a bank must price before launch.",
+          "route": "Only staking as an add-on to an approved custody or VA-dealing service is a defined route: the bank should discuss it with the HKMA first and follow the April 2025 staking circular. Direct DeFi access or a deposit-like crypto yield product has no approved route and should not be launched on current guidance.",
+          "require": [
+            "**Staking circular:** The HKMA's 7 April 2025 circular sets expectations for AIs that stake as part of custody. The bank should keep control of withdrawal mechanisms, safeguard against errors and misconduct, disclose fees, lock-ups and risks, and talk to the HKMA before launch.",
+            "**Base framework:** Dealing in or advising on VAs by an AI or registered institution runs under the HKMA and SFC joint circular of 22 December 2023 and any later supplements. Check the current version for staking expectations on intermediaries.",
+            "**Custody first:** Staking presupposes holding the customer's tokens. The HKMA's February 2024 custody circular applies to the underlying custody, and the bank should treat staking as an extension of that approval, not a separate product.",
+            "**Licensing line:** A bank is not a licensed VATP. The SFC's April 2025 staking circular lets licensed VATPs stake on licence conditions, and, on our reading of secondary summaries, lets SFC-authorised VA funds stake through licensed VATPs or AIs. Confirm from the circular before acting as staking agent for a fund.",
+            "**Deposit label:** Staked tokens are not deposits and are not DPS-protected. Cap. 155 s.92 restricts deposit advertising but exempts invitations to deposit with an AI, so for a bank the main risk of a deposit-style label is misdescription and mis-selling.",
+            "**DeFi under SFO:** The SFC has issued no dedicated DeFi circular. Secondary reports of SFC speeches say that DeFi activity within the SFO scope is regulated like traditional activity, so a protocol trading securities or futures can need licensing. Treat that as direction of travel, not a safe harbour."
+          ],
+          "gates": [
+            "**Confirm the product class** by deciding whether the offer is native-token staking through custody, a pooled or liquid-staking product, or DeFi lending. Only the first has a defined regulatory route; escalate the others to the HKMA before design work continues.",
+            "**Obtain HKMA engagement** in writing before launch, covering validators, key control, slashing risk, unbonding periods and who bears loss. Keep the correspondence on the file as evidence of the consultation the circular expects.",
+            "**Settle the contract terms** so that the customer knows lock-up periods, reward variability, fees, slashing allocation and the right to unstake. Reward promises that look like fixed interest should be reviewed against the deposit-advertising offence.",
+            "**Diligence validators and protocols** as third parties, with a material outsourcing review where relevant, smart-contract audit evidence, exit rights and a tested unwind plan. Link these to the vendor clause themes on audit, sub-contracting and termination assistance.",
+            "**Segregate and reconcile** staked assets from the bank's own, test that the bank can always evidence ownership and withdraw, and settle how client assets are treated on insolvency. Contract terms drive client-asset outcomes in disputes over crypto holdings.",
+            "**Run product governance** through the new-product committee with suitability or target-market rules for retail customers, a risk-disclosure document, and board or risk sign-off on capital treatment of any crypto exposure the bank keeps. See Holding crypto-assets or taking them as collateral on the bank's balance sheet.",
+            "**Check marketing copy** against Cap. 155 s.92, Cap. 615 s.53ZRE and the SFO promotion rules, and ensure no document describes a third-party DeFi protocol as bank-guaranteed or DPS-protected."
+          ],
+          "watchFor": [
+            "**Yield dressed as deposits:** Marketing that promises an annual percentage return on crypto held with the bank invites HKMA challenge and a mis-selling complaint. Do not use savings or deposit language for non-deposit products.",
+            "**Unlicensed counterparties:** Routing customer tokens to an overseas staking provider or protocol that markets to Hong Kong may itself breach the VA licensing rules, and active marketing to the public is deemed to be carrying on business (Cap. 615 s.53ZRB). Confirm the provider's status.",
+            "**Slashing and smart-contract loss:** Staked assets can be penalised or drained through protocol failure. The loss falls on the customer only if the terms say so clearly and the disclosure was fair.",
+            "**Moving rules:** Circular references and the proposed VA dealing and custody licensing regimes are still moving. SFC circulars addressed to licensed VATPs do not apply to banks, so do not import them by analogy. Re-check status before each release."
+          ],
+          "sources": [
+            {
+              "label": "HKMA circular: provision of staking services for virtual assets from custodial services",
+              "ref": "7 April 2025",
+              "strength": "hkma-guidance",
+              "note": "Contents taken from law-firm summaries; PDF not read in full. Confirm notification expectations from the text."
+            },
+            {
+              "label": "HKMA and SFC joint circular on intermediaries' virtual asset-related activities",
+              "ref": "22 December 2023, as supplemented",
+              "strength": "hkma-guidance"
+            },
+            {
+              "label": "SFC circular on staking services for licensed VATPs and authorised VA funds",
+              "ref": "7 April 2025",
+              "strength": "sfc-guidance",
+              "note": "Reference taken from a law-firm summary; SFC original not opened."
+            },
+            {
+              "label": "HKMA circular: provision of custodial services for digital assets",
+              "ref": "20 February 2024",
+              "strength": "hkma-guidance"
+            },
+            {
+              "label": "Banking Ordinance (Cap. 155)",
+              "ref": "s.92 (advertisements relating to deposits)",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            }
+          ]
+        },
+        {
+          "id": "nft-tokens",
+          "title": "NFTs, loyalty tokens and Web3 marketing",
+          "group": "web3",
+          "regime": "in-force",
+          "regulators": [
+            "HKMA",
+            "SFC",
+            "PCPD"
+          ],
+          "summary": "A bank may want to issue or sell NFTs, run a tokenised loyalty scheme, or promote itself in the metaverse and Web3 communities. Whether the token is a virtual asset, a security, an SVF or an unregulated collectible decides which regime applies.",
+          "route": "Yes for a closed, non-convertible loyalty token that meets the limited-purpose test and for ordinary Web3 marketing that follows general advertising rules. A tradeable or cash-convertible token, or an NFT structured as fractional interests, needs classification advice first and may bring SFC, SVF or VA rules into play.",
+          "require": [
+            "**VA definition:** A token that is a cryptographically secured digital representation of value used as a medium of exchange accepted by the public, or giving governance voting rights over one, is a VA (Cap. 615 s.53ZRA(1)). Securities, futures contracts, SVF float and limited-purpose tokens are excluded (s.53ZRA(2)).",
+            "**Loyalty carve-out:** A limited purpose digital token is excluded from VA (Cap. 615 s.53ZRA(2)). Section 53ZR covers loyalty or reward points, in-game assets, and similar tokens the issuer does not intend to be convertible into money or another public medium of exchange.",
+            "**NFT classification:** The SFC said in June 2022 that unique collectible NFTs are mostly outside its remit. NFTs structured as fractional or fungible interests, or as collective investment scheme interests, may be securities, and marketing them can need SFC licensing or authorization.",
+            "**SVF line:** Knowingly promoting or assisting another person to issue an SVF without a licence is an offence (Cap. 584 s.8C). A bank co-marketing a partner's token that is in fact multi-purpose and convertible risks this.",
+            "**Advertising:** Active marketing of VA services to the public is deemed to be carrying on that business, wherever it is done from (Cap. 615 s.53ZRB). Advertising an unlicensed VA service, knowing it is unlicensed, is an offence (s.53ZRE). Stablecoin promotions have a parallel offence (Cap. 656 s.10).",
+            "**Bank name:** Using the word bank, or implying banking business, without being a bank is an offence (Cap. 155 s.97). The HKMA issued an alert on misuse of the word in November 2024. A bank-branded token should not suggest a deposit."
+          ],
+          "gates": [
+            "**Classify every token** in a written memo that tests it against the VA definition, the limited-purpose conditions, SFO securities and CIS definitions, and the SVF definition. Record the facts relied on, such as transferability, resale and convertibility.",
+            "**Lock the loyalty design** so points cannot be sold for cash, exchanged for other tokens or listed on a marketplace. Any secondary market or redemption for currency should send the design back to classification.",
+            "**Review partner terms** for who issues, who holds reserves, who handles customer funds and who carries regulatory risk. Add warranties on licensing status, indemnities and a termination right if the partner's token changes character.",
+            "**Clear the marketing plan** with compliance for each channel, including metaverse venues, social posts and influencer promotions. Check content against Cap. 155 s.92, Cap. 615 s.53ZRE, the Code of Banking Practice and, for securities-like products, SFO promotion rules.",
+            "**Run a data protection review** under the PDPO, especially where wallets, biometrics or on-chain identifiers are collected. Immutable ledgers conflict with data minimisation and retention duties (Sch. 1 DPP1 and DPP2), so keep personal data off-chain.",
+            "**Confirm legal form of any on-chain terms** because electronic contracts are valid in principle (Cap. 553 s.17), and ss.5 and 6 let electronic records and signatures meet writing and signature rules on conditions, but whether bare code qualifies is untested. Pair any smart-contract terms with conventional written terms and a governing-law clause.",
+            "**Obtain sign-off** from the new-product committee and the HKMA relationship team where the activity touches VAs, and keep a decision log on why the token falls outside each regime."
+          ],
+          "watchFor": [
+            "**Convertibility creep:** A loyalty token that begins as closed can drift into a VA or SVF if the bank or partner later allows trading or cash-out. Build a change-control trigger for any redesign.",
+            "**DAO and governance tokens:** A governance token giving votes over another VA's arrangements can itself be a VA (Cap. 615 s.53ZRA(1)(a)(ii)(B)). Our reading is that DAO membership tokens may be caught unless they are securities; no regulator statement has been found.",
+            "**Biometric wallets:** The PCPD's 2024 enforcement action against Worldcoin, reported in secondary sources, shows how Web3 projects collecting iris or face data can breach the PDPO. Treat biometric onboarding to a wallet as high risk.",
+            "**Gaps in guidance:** No HKMA or SFC circular on bank marketing in the metaverse was found, and the NFT statement may have been updated since 2022. Re-check before launch rather than assuming the 2022 position stands."
+          ],
+          "sources": [
+            {
+              "label": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615)",
+              "ref": "ss.53ZR, 53ZRA, 53ZRB, 53ZRE",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap615"
+            },
+            {
+              "label": "SFC statement reminding investors of risks associated with NFTs",
+              "ref": "June 2022",
+              "strength": "sfc-guidance",
+              "note": "Seen through a reproduction and law-firm notes; SFC original not reached. Check for later updates."
+            },
+            {
+              "label": "Payment Systems and Stored Value Facilities Ordinance (Cap. 584)",
+              "ref": "ss.2A, 8C",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap584"
+            },
+            {
+              "label": "Banking Ordinance (Cap. 155)",
+              "ref": "ss.92, 97",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap155"
+            },
+            {
+              "label": "Stablecoins Ordinance (Cap. 656)",
+              "ref": "s.10",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap656"
+            },
+            {
+              "label": "HKMA press release: alert on misuse of the word bank",
+              "ref": "15 November 2024, 20241115-3",
+              "strength": "hkma-guidance",
+              "note": "Summary seen via search; full release not opened.",
+              "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/11/20241115-3/"
+            }
+          ]
+        }
+      ],
+      "caveat": "This is study material, not legal advice. The regime is moving fast, with several bills, circulars and pilots changing during 2026, so check the current position against official sources before acting."
+    }
+  },
+  {
+    "id": "supervision",
+    "index": 10,
     "title": "Supervision & enforcement",
     "phase": "oversight",
     "review": "fact-checked",
@@ -4876,7 +6872,7 @@
   },
   {
     "id": "resolution",
-    "index": 10,
+    "index": 11,
     "title": "Recovery & resolution",
     "phase": "oversight",
     "review": "draft",
