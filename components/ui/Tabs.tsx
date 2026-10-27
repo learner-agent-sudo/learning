@@ -72,7 +72,7 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
               tabIndex={on ? 0 : -1}
               onClick={() => onChange(t.id)}
               className={
-                'relative -mb-px flex min-w-0 flex-col items-center gap-1 whitespace-nowrap border-b-2 px-1 pb-2 pt-2.5 text-[11.5px] transition-colors focus-visible:outline-offset-[-3px] md:shrink-0 md:flex-row md:gap-2 md:px-2.5 md:py-2.5 md:text-sm ' +
+                'relative -mb-px flex min-w-0 flex-col items-center gap-1 whitespace-nowrap border-b-2 px-1 pb-2 pt-2.5 text-[11.5px] transition-colors focus-visible:outline-offset-[-3px] md:shrink-0 md:flex-row md:gap-2 md:px-2.5 md:py-2.5 md:text-sm xl:px-2 ' +
                 (on ? 'border-phase font-semibold text-ink' : 'border-transparent text-muted hover:text-ink')
               }
             >
