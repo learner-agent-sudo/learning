@@ -1,4 +1,4 @@
-import type { ContractTerm, KitPlaybook, Stance, Strength } from './banking';
+import { STRENGTH_LABEL, type ContractTerm, type KitPlaybook, type Stance } from './banking';
 import type { ReviewStatus, VendorReview } from './useVendorReview';
 
 export const STANCE_LABEL: Record<Stance, string> = {
@@ -12,14 +12,6 @@ export const STATUS_LABEL: Record<ReviewStatus, string> = {
   fallback: 'Fallback agreed',
   gap: 'Gap',
   na: 'Not applicable',
-};
-
-const STRENGTH_LABEL: Record<Strength, string> = {
-  statute: 'Statute',
-  'statutory-guideline': 'Statutory guideline',
-  'hkma-guidance': 'HKMA guidance',
-  'industry-code': 'Industry code',
-  'good-practice': 'Good practice',
 };
 
 // Exports are plain text: drop the **bold** markers.

@@ -15,3 +15,7 @@ export const INNER_DISCLOSURE =
 // Coloured edge marking a card's type; it sits inside <summary> so it shows
 // while the card is closed.
 export const EDGE = 'pointer-events-none absolute inset-y-0 left-0 w-1';
+// Filter chip; the selected one is filled.
+export const chipClass = (on: boolean) =>
+  'inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-xs transition-colors focus-visible:outline-offset-1 ' +
+  (on ? 'border-ink bg-ink text-paper' : 'border-line bg-panel text-muted hover:text-ink');

@@ -13,6 +13,7 @@ import {
   Info,
   Lightbulb,
   ListChecks,
+  Rocket,
   Scale,
   Smartphone,
   TriangleAlert,
@@ -28,6 +29,7 @@ import { PrevNext } from '../ui/PrevNext';
 import { Badge, StageHeader } from '../ui/StageHeader';
 import { TabPanel, Tabs, type TabDef } from '../ui/Tabs';
 import { KIND, ProvisionCard } from './ProvisionCard';
+import { ActivityKit } from './ActivityKit';
 import { VendorKit } from './VendorKit';
 
 interface Props {
@@ -193,10 +195,13 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
   const noteCount = stage.itAngle.length + stage.virtualBankNotes.length + stage.pitfalls.length;
 
   const tabs: (TabDef & { id: BankingTab })[] = [
-    { id: 'essentials', label: 'Essentials', short: stage.vendorKit ? 'Basics' : undefined, icon: BookOpen },
+    { id: 'essentials', label: 'Essentials', short: stage.vendorKit || stage.activityKit ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
     ...(stage.vendorKit
       ? [{ id: 'vendors' as const, label: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
+      : []),
+    ...(stage.activityKit
+      ? [{ id: 'activities' as const, label: 'Activities', short: 'Can we?', icon: Rocket, count: stage.activityKit.activities.length }]
       : []),
     { id: 'checklist', label: 'Checklist', icon: ListChecks, count: `${done}/${stage.checklist.length}` },
     { id: 'notes', label: 'Notes', icon: Lightbulb, count: noteCount },
@@ -264,6 +269,12 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
       {tab === 'vendors' && stage.vendorKit && (
         <TabPanel idBase={idBase} id="vendors">
           <VendorKit kit={stage.vendorKit} />
+        </TabPanel>
+      )}
+
+      {tab === 'activities' && stage.activityKit && (
+        <TabPanel idBase={idBase} id="activities">
+          <ActivityKit kit={stage.activityKit} />
         </TabPanel>
       )}
 

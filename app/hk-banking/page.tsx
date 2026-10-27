@@ -82,8 +82,12 @@ export default function HkBankingPage() {
                   go(id);
                   focusStageTitle();
                 }}
-                // A stage without a vendor toolkit shows Essentials for that tab.
-                tab={tab === 'vendors' && !stage.vendorKit ? 'essentials' : (tab as BankingTab)}
+                // A stage without the toolkit a tab needs shows Essentials instead.
+                tab={
+                  (tab === 'vendors' && !stage.vendorKit) || (tab === 'activities' && !stage.activityKit)
+                    ? 'essentials'
+                    : (tab as BankingTab)
+                }
                 onTabChange={(t) => go(stage.id, t)}
                 ticks={ticks[stage.id] ?? []}
                 onToggle={(i) => toggle(stage.id, i)}

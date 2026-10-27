@@ -1,8 +1,8 @@
 'use client';
 
-import { useEffect, useState, type KeyboardEvent, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import {
-  Check, ChevronRight, CircleCheck, Cloud, Copy, Download, ExternalLink, FileSpreadsheet,
+  Check, ChevronRight, CircleCheck, Cloud, Copy, Download, FileSpreadsheet,
   Flag, Handshake, Minus, PenLine, RotateCcw, Signature, TriangleAlert, Undo2,
 } from 'lucide-react';
 import type { ClausePlaybook, ContractTerm, KitPlaybook, Stance, Strength, VendorKit as Kit } from '@/lib/banking';
@@ -12,45 +12,11 @@ import {
   STANCE_LABEL, STATUS_LABEL, download, exportName, modelText, plain, playbookMarkdown, reviewCsv,
 } from '@/lib/vendorExport';
 import { RichText } from '../RichText';
-import { BODY, CARD, CHEVRON, EDGE, INNER_DISCLOSURE, PILL_BASE, SUMMARY, TITLE } from '../cardStyles';
+import { BODY, CARD, CHEVRON, EDGE, INNER_DISCLOSURE, PILL_BASE, SUMMARY, TITLE, chipClass } from '../cardStyles';
 import { BulletList, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
-
-// Legal force of a source, strongest first.
-export const STRENGTH: Record<Strength, { label: string; pill: string; bar: string; title: string }> = {
-  statute: {
-    label: 'Statute',
-    pill: 'bg-indigo-50 text-indigo-700 dark:bg-indigo-400/15 dark:text-indigo-200',
-    bar: 'bg-indigo-500',
-    title: 'Legislation: binding, with legal consequences for breach',
-  },
-  'statutory-guideline': {
-    label: 'Statutory guideline',
-    pill: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200',
-    bar: 'bg-violet-500',
-    title: 'Guideline issued under statute: s.7(3) or s.16(10) of the Banking Ordinance, or s.7 of the AMLO',
-  },
-  'hkma-guidance': {
-    label: 'HKMA guidance',
-    pill: 'bg-sky-50 text-sky-700 dark:bg-sky-400/15 dark:text-sky-200',
-    bar: 'bg-sky-500',
-    title: 'Non-statutory HKMA expectation, assessed against the Seventh Schedule criteria',
-  },
-  'industry-code': {
-    label: 'Industry code',
-    pill: 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200',
-    bar: 'bg-amber-500',
-    title: 'Code of Banking Practice: non-statutory, but the HKMA monitors compliance',
-  },
-  'good-practice': {
-    label: 'Good practice',
-    pill: 'bg-slate-100 text-slate-600 dark:bg-slate-400/15 dark:text-slate-200',
-    bar: 'bg-slate-400',
-    title: 'Not required by a source; what experienced counsel would add',
-  },
-};
-
-const ORDER: Strength[] = ['statute', 'statutory-guideline', 'hkma-guidance', 'industry-code', 'good-practice'];
+import { ViewTabs } from '../ui/ViewTabs';
+import { SourceList, STRENGTH, StrengthLegend } from './Sources';
 
 // How hard to hold the line in negotiation.
 export const STANCE: Record<Stance, { chip: string; dot: string; title: string }> = {
@@ -313,33 +279,7 @@ function RequireView({ term }: { term: ContractTerm }) {
 }
 
 function SourcesView({ term }: { term: ContractTerm }) {
-  return (
-    <ul className="space-y-2.5">
-      {term.sources.map((s) => {
-        const st = STRENGTH[s.strength];
-        return (
-          <li key={`${s.label}-${s.ref}`} className="flex flex-wrap items-baseline gap-x-2 gap-y-1 text-sm">
-            <span className={`${PILL_BASE} ${st.pill}`} title={st.title}>
-              {st.label}
-            </span>
-            <span className="font-medium">{s.label}</span>
-            <span className="font-mono text-[12px] text-muted">{s.ref}</span>
-            {s.note && <span className="w-full text-[13px] text-ink/70">{s.note}</span>}
-            {s.url && (
-              <a
-                href={s.url}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1 text-xs font-medium text-accent underline underline-offset-2"
-              >
-                Source <ExternalLink className="h-3 w-3" aria-hidden />
-              </a>
-            )}
-          </li>
-        );
-      })}
-    </ul>
-  );
+  return <SourceList sources={term.sources} />;
 }
 
 function ReviewBar({
@@ -394,44 +334,6 @@ function ReviewBar({
           className="block w-full resize-y rounded-lg border border-line bg-paper px-3 py-2 text-sm leading-relaxed placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
         />
       </label>
-    </div>
-  );
-}
-
-function ViewTabs({ id, view, views, onView }: { id: string; view: View; views: typeof VIEWS; onView: (v: View) => void }) {
-  const onKey = (e: KeyboardEvent<HTMLButtonElement>) => {
-    const i = views.findIndex((v) => v.id === view);
-    const step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
-    if (!step) return;
-    e.preventDefault();
-    const next = views[(i + step + views.length) % views.length].id;
-    onView(next);
-    document.getElementById(`${id}-tab-${next}`)?.focus();
-  };
-  return (
-    <div role="tablist" aria-label="Clause view" className="mb-4 inline-flex rounded-full border border-line bg-paper p-0.5">
-      {views.map((v) => {
-        const on = v.id === view;
-        return (
-          <button
-            key={v.id}
-            id={`${id}-tab-${v.id}`}
-            type="button"
-            role="tab"
-            aria-selected={on}
-            aria-controls={`${id}-panel`}
-            tabIndex={on ? 0 : -1}
-            onClick={() => onView(v.id)}
-            onKeyDown={onKey}
-            className={
-              'min-h-8 rounded-full px-3 text-xs font-medium transition-colors focus-visible:outline-offset-1 ' +
-              (on ? 'bg-ink text-paper' : 'text-muted hover:text-ink')
-            }
-          >
-            {v.label}
-          </button>
-        );
-      })}
     </div>
   );
 }
@@ -493,7 +395,7 @@ function TermCard({
         </span>
       </summary>
       <div className={`${BODY} break-words`}>
-        <ViewTabs id={tabId} view={shown} views={views} onView={onView} />
+        <ViewTabs id={tabId} label="Clause view" view={shown} views={views} onView={onView} />
         <div id={`${tabId}-panel`} role="tabpanel" aria-labelledby={`${tabId}-tab-${shown}`}>
           {shown === 'require' && <RequireView term={term} />}
           {shown === 'playbook' && pb && <PlaybookView term={term} pb={pb} />}
@@ -552,10 +454,6 @@ function PlaybookGuide({ kit }: { kit: KitPlaybook }) {
     </div>
   );
 }
-
-const chipClass = (on: boolean) =>
-  'inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-xs transition-colors focus-visible:outline-offset-1 ' +
-  (on ? 'border-ink bg-ink text-paper' : 'border-line bg-panel text-muted hover:text-ink');
 
 /** Vendor-contract toolkit: lifecycle, clauses with sources and playbook, and a review tracker. */
 export function VendorKit({ kit }: { kit: Kit }) {
@@ -720,14 +618,7 @@ export function VendorKit({ kit }: { kit: Kit }) {
             })}
           </div>
         )}
-        <ul className="mb-4 flex flex-wrap gap-x-3 gap-y-1 text-[11.5px] text-muted" aria-label="Source strength">
-          {ORDER.map((s) => (
-            <li key={s} className="inline-flex items-center gap-1.5" title={STRENGTH[s].title}>
-              <span className={`h-2 w-2 rounded-full ${STRENGTH[s].bar}`} aria-hidden />
-              {STRENGTH[s].label}
-            </li>
-          ))}
-        </ul>
+        <StrengthLegend sources={kit.terms.flatMap((t) => t.sources)} />
 
         <div className="grid gap-3">
           {shown.map((t) => (

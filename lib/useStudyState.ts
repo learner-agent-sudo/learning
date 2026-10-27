@@ -160,7 +160,17 @@ export function useChecklists(prefix: string, sizes: Record<string, number>) {
     [prefix]
   );
 
-  return [ticks, toggle] as const;
+  // Untick every list under this prefix.
+  const reset = useCallback(() => {
+    const cleared: Record<string, boolean[]> = {};
+    for (const [id, size] of Object.entries(sizesRef.current)) {
+      cleared[id] = Array(size).fill(false);
+      save(`${prefix}:${id}`, cleared[id]);
+    }
+    setTicks(cleared);
+  }, [prefix]);
+
+  return [ticks, toggle, reset] as const;
 }
 
 /**

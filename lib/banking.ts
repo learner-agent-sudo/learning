@@ -47,12 +47,31 @@ export interface BankingStage {
   virtualBankNotes: string[];
   pitfalls: string[];
   glossary: { term: string; definition: string }[];
-  // Stage-specific toolkit (Technology & outsourcing): vendor contracts.
+  // Stage-specific toolkits: vendor contracts (Technology & outsourcing) and
+  // new-business activities (Digital assets).
   vendorKit?: VendorKit;
+  activityKit?: ActivityKit;
 }
 
-// Legal force of a source behind a contract requirement.
-export type Strength = 'statute' | 'statutory-guideline' | 'hkma-guidance' | 'industry-code' | 'good-practice';
+// Legal force of a source behind a requirement, strongest first.
+export type Strength =
+  | 'statute'
+  | 'statutory-guideline'
+  | 'hkma-guidance'
+  | 'sfc-guidance'
+  | 'industry-code'
+  | 'proposal'
+  | 'good-practice';
+
+export const STRENGTH_LABEL: Record<Strength, string> = {
+  statute: 'Statute',
+  'statutory-guideline': 'Statutory guideline',
+  'hkma-guidance': 'HKMA guidance',
+  'sfc-guidance': 'SFC guidance',
+  'industry-code': 'Industry code',
+  proposal: 'Proposal',
+  'good-practice': 'Good practice',
+};
 
 export interface ContractSource {
   label: string;
@@ -108,6 +127,35 @@ export interface VendorKit {
   caveat?: string;
 }
 
+export type ActivityGroup = 'crypto' | 'stablecoins' | 'tokenisation' | 'wallets' | 'lending' | 'web3';
+
+// State of the regime that mainly governs an activity.
+export type Regime = 'in-force' | 'transitional' | 'proposed' | 'pilot';
+
+export interface Activity {
+  id: string;
+  title: string;
+  group: ActivityGroup;
+  regime: Regime;
+  regulators: string[];
+  summary: string;
+  // Can the bank do it, and how?
+  route: string;
+  require: string[];
+  // Conditions counsel confirms before launch.
+  gates: string[];
+  watchFor: string[];
+  sources: ContractSource[];
+}
+
+export interface ActivityKit {
+  intro: string[];
+  // How to classify a new product.
+  triage: SectionVisualData;
+  activities: Activity[];
+  caveat?: string;
+}
+
 export interface StatuteExtract {
   label: string;
   heading: string;
@@ -159,5 +207,5 @@ export const PHASES: Record<BankingPhase, { label: string; tone: Tone }> = {
 };
 
 // Tabs of a stage view, in order; the first is the default (no hash suffix).
-export const BANKING_TABS = ['essentials', 'provisions', 'vendors', 'checklist', 'notes', 'glossary'] as const;
+export const BANKING_TABS = ['essentials', 'provisions', 'vendors', 'activities', 'checklist', 'notes', 'glossary'] as const;
 export type BankingTab = (typeof BANKING_TABS)[number];
