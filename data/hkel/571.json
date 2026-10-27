@@ -1,0 +1,7395 @@
+{
+ "cap": "571",
+ "title": "Securities and Futures Ordinance",
+ "longTitle": "An Ordinance to consolidate and amend the law relating to financial products, the securities and futures market and the securities and futures industry, the regulation of activities and other matters connected with financial products, the securities and futures market and the securities and futures industry, the protection of investors, and other matters incidental thereto or connected therewith, and for connected purposes.",
+ "versionDate": "2025-08-24",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571",
+ "indexOnly": true,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part I",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part II",
+   "heading": "Securities and Futures Commission",
+   "status": "in-effect",
+   "sections": [
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part III",
+   "heading": "Exchange Companies, Clearing Houses, Exchange Controllers, Investor Compensation Companies and Automated Trading Services",
+   "status": "in-effect",
+   "sections": [
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s49",
+    "s50",
+    "s51",
+    "s52",
+    "s53",
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s60",
+    "s61",
+    "s62",
+    "s63",
+    "s64",
+    "s65",
+    "s66",
+    "s67",
+    "s68",
+    "s69",
+    "s70",
+    "s71",
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s77",
+    "s78",
+    "s79",
+    "s80",
+    "s81",
+    "s82",
+    "s83",
+    "s84",
+    "s85",
+    "s86",
+    "s87",
+    "s88",
+    "s89",
+    "s90",
+    "s91",
+    "s92",
+    "s93",
+    "s94",
+    "s95",
+    "s96",
+    "s97",
+    "s98",
+    "s99",
+    "s100",
+    "s101"
+   ]
+  },
+  {
+   "id": "P3A",
+   "num": "Part IIIA",
+   "heading": "OTC Derivative Transactions",
+   "status": "in-effect",
+   "sections": [
+    "s101A",
+    "s101B",
+    "s101C",
+    "s101D",
+    "s101E",
+    "s101F",
+    "s101G",
+    "s101H",
+    "s101I",
+    "s101J",
+    "s101K",
+    "s101L",
+    "s101M",
+    "s101N",
+    "s101O",
+    "s101P",
+    "s101Q",
+    "s101R",
+    "s101S",
+    "s101T",
+    "s101U",
+    "s101V",
+    "s101W",
+    "s101X",
+    "s101Y",
+    "s101Z"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part IV",
+   "heading": "Offers of Investments",
+   "status": "in-effect",
+   "sections": [
+    "s102",
+    "s103",
+    "s104",
+    "s104A",
+    "s105",
+    "s106",
+    "s107",
+    "s108",
+    "s109",
+    "s110",
+    "s111",
+    "s112"
+   ]
+  },
+  {
+   "id": "P4A",
+   "num": "Part IVA",
+   "heading": "Open-ended Fund Companies",
+   "status": "in-effect",
+   "sections": [
+    "s112A",
+    "s112B",
+    "s112C",
+    "s112D",
+    "s112E",
+    "s112F",
+    "s112G",
+    "s112H",
+    "s112I",
+    "s112J",
+    "s112K",
+    "s112L",
+    "s112M",
+    "s112N",
+    "s112O",
+    "s112P",
+    "s112Q",
+    "s112R",
+    "s112S",
+    "s112T",
+    "s112U",
+    "s112V",
+    "s112W",
+    "s112X",
+    "s112Y",
+    "s112Z",
+    "s112ZA",
+    "s112ZB",
+    "s112ZC",
+    "s112ZD",
+    "s112ZE",
+    "s112ZF",
+    "s112ZG",
+    "s112ZH",
+    "s112ZI",
+    "s112ZJ",
+    "s112ZJA",
+    "s112ZJB",
+    "s112ZJC",
+    "s112ZJD",
+    "s112ZJE",
+    "s112ZK",
+    "s112ZL",
+    "s112ZM",
+    "s112ZN",
+    "s112ZO",
+    "s112ZP",
+    "s112ZQ",
+    "s112ZR",
+    "s112ZS",
+    "s112ZT"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part V",
+   "heading": "Licensing and Registration",
+   "status": "in-effect",
+   "sections": [
+    "s113",
+    "s114",
+    "s115",
+    "s116",
+    "s117",
+    "s118",
+    "s119",
+    "s120",
+    "s121",
+    "s122",
+    "s123",
+    "s124",
+    "s125",
+    "s126",
+    "s127",
+    "s128",
+    "s129",
+    "s130",
+    "s131",
+    "s132",
+    "s133",
+    "s134",
+    "s135",
+    "s136",
+    "s137",
+    "s138",
+    "s139",
+    "s140",
+    "s141",
+    "s142",
+    "s143"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part VI",
+   "heading": "Capital Requirements, Client Assets, Records and Audit Relating to Intermediaries",
+   "status": "in-effect",
+   "sections": [
+    "s144",
+    "s145",
+    "s145A",
+    "s146",
+    "s147",
+    "s148",
+    "s149",
+    "s150",
+    "s151",
+    "s152",
+    "s153",
+    "s154",
+    "s155",
+    "s156",
+    "s157",
+    "s158",
+    "s159",
+    "s160",
+    "s161",
+    "s162",
+    "s163",
+    "s164",
+    "s165",
+    "s166"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part VII",
+   "heading": "Business Conduct, etc. of Intermediaries",
+   "status": "in-effect",
+   "sections": [
+    "s167",
+    "s168",
+    "s169",
+    "s170",
+    "s171",
+    "s172",
+    "s173",
+    "s174",
+    "s175",
+    "s176",
+    "s177"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part VIII",
+   "heading": "Supervision and Investigations",
+   "status": "in-effect",
+   "sections": [
+    "s178",
+    "s179",
+    "s180",
+    "s181",
+    "s182",
+    "s183",
+    "s184",
+    "s184A",
+    "s184B",
+    "s184C",
+    "s184D",
+    "s184E",
+    "s185",
+    "s186",
+    "s186A",
+    "s187",
+    "s188",
+    "s189",
+    "s190",
+    "s191",
+    "s192"
+   ]
+  },
+  {
+   "id": "P9",
+   "num": "Part IX",
+   "heading": "Discipline, etc.",
+   "status": "in-effect",
+   "sections": [
+    "s193",
+    "s194",
+    "s195",
+    "s196",
+    "s197",
+    "s198",
+    "s199",
+    "s200",
+    "s201",
+    "s202",
+    "s203",
+    "s203A",
+    "s203B",
+    "s203C",
+    "s203D",
+    "s203E",
+    "s203F"
+   ]
+  },
+  {
+   "id": "P10",
+   "num": "Part X",
+   "heading": "Powers of Intervention and Proceedings",
+   "status": "in-effect",
+   "sections": [
+    "s204",
+    "s205",
+    "s206",
+    "s207",
+    "s208",
+    "s209",
+    "s210",
+    "s211",
+    "s212",
+    "s213",
+    "s214",
+    "s214A",
+    "s214B"
+   ]
+  },
+  {
+   "id": "P11",
+   "num": "Part XI",
+   "heading": "Securities and Futures Appeals Tribunal",
+   "status": "in-effect",
+   "sections": [
+    "s215",
+    "s216",
+    "s217",
+    "s218",
+    "s219",
+    "s220",
+    "s221",
+    "s222",
+    "s223",
+    "s224",
+    "s225",
+    "s226",
+    "s227",
+    "s228",
+    "s229",
+    "s230",
+    "s231",
+    "s232",
+    "s233",
+    "s234"
+   ]
+  },
+  {
+   "id": "P12",
+   "num": "Part XII",
+   "heading": "Investor Compensation",
+   "status": "in-effect",
+   "sections": [
+    "s235",
+    "s236",
+    "s237",
+    "s238",
+    "s239",
+    "s240",
+    "s241",
+    "s242",
+    "s243",
+    "s244"
+   ]
+  },
+  {
+   "id": "P13",
+   "num": "Part XIII",
+   "heading": "Market Misconduct Tribunal",
+   "status": "in-effect",
+   "sections": [
+    "s245",
+    "s246",
+    "s247",
+    "s248",
+    "s249",
+    "s250",
+    "s251",
+    "s252",
+    "s252A",
+    "s253",
+    "s254",
+    "s255",
+    "s256",
+    "s257",
+    "s258",
+    "s259",
+    "s260",
+    "s261",
+    "s262",
+    "s263",
+    "s264",
+    "s265",
+    "s266",
+    "s267",
+    "s268",
+    "s269",
+    "s270",
+    "s271",
+    "s272",
+    "s273",
+    "s274",
+    "s275",
+    "s276",
+    "s277",
+    "s278",
+    "s279",
+    "s280",
+    "s281",
+    "s282",
+    "s283",
+    "s284"
+   ]
+  },
+  {
+   "id": "P14",
+   "num": "Part XIV",
+   "heading": "Offences Relating to Dealings in Securities and Futures Contracts, etc.",
+   "status": "in-effect",
+   "sections": [
+    "s285",
+    "s286",
+    "s287",
+    "s288",
+    "s289",
+    "s290",
+    "s291",
+    "s292",
+    "s293",
+    "s294",
+    "s295",
+    "s296",
+    "s297",
+    "s298",
+    "s299",
+    "s300",
+    "s301",
+    "s302",
+    "s303",
+    "s304",
+    "s305",
+    "s306",
+    "s307"
+   ]
+  },
+  {
+   "id": "P14A",
+   "num": "Part XIVA",
+   "heading": "Disclosure of Inside Information",
+   "status": "in-effect",
+   "sections": [
+    "s307A",
+    "s307B",
+    "s307C",
+    "s307D",
+    "s307E",
+    "s307F",
+    "s307G",
+    "s307H",
+    "s307I",
+    "s307J",
+    "s307K",
+    "s307L",
+    "s307M",
+    "s307N",
+    "s307O",
+    "s307P",
+    "s307Q",
+    "s307R",
+    "s307S",
+    "s307T",
+    "s307U",
+    "s307V",
+    "s307W",
+    "s307X",
+    "s307Y",
+    "s307Z",
+    "s307ZA"
+   ]
+  },
+  {
+   "id": "P15",
+   "num": "Part XV",
+   "heading": "Disclosure of Interests",
+   "status": "in-effect",
+   "sections": [
+    "s308",
+    "s309",
+    "s310",
+    "s311",
+    "s312",
+    "s313",
+    "s314",
+    "s315",
+    "s316",
+    "s317",
+    "s318",
+    "s319",
+    "s320",
+    "s321",
+    "s322",
+    "s323",
+    "s324",
+    "s325",
+    "s326",
+    "s327",
+    "s328",
+    "s329",
+    "s330",
+    "s331",
+    "s332",
+    "s333",
+    "s334",
+    "s335",
+    "s336",
+    "s337",
+    "s338",
+    "s339",
+    "s340",
+    "s341",
+    "s342",
+    "s343",
+    "s344",
+    "s345",
+    "s346",
+    "s347",
+    "s348",
+    "s349",
+    "s350",
+    "s351",
+    "s352",
+    "s353",
+    "s354",
+    "s355",
+    "s356",
+    "s357",
+    "s358",
+    "s359",
+    "s360",
+    "s361",
+    "s362",
+    "s363",
+    "s364",
+    "s365",
+    "s366",
+    "s367",
+    "s368",
+    "s369",
+    "s370",
+    "s371",
+    "s372",
+    "s373",
+    "s374",
+    "s375",
+    "s376",
+    "s377"
+   ]
+  },
+  {
+   "id": "P16",
+   "num": "Part XVI",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s378",
+    "s379",
+    "s380",
+    "s381",
+    "s381A",
+    "s381B",
+    "s381C",
+    "s381D",
+    "s381E",
+    "s381F",
+    "s382",
+    "s383",
+    "s384",
+    "s385",
+    "s385A",
+    "s386",
+    "s387",
+    "s387A",
+    "s388",
+    "s388A",
+    "s389",
+    "s390",
+    "s391",
+    "s392",
+    "s392A",
+    "s393",
+    "s394",
+    "s395",
+    "s396",
+    "s397",
+    "s398",
+    "s399",
+    "s400",
+    "s401",
+    "s402",
+    "s403",
+    "s404",
+    "s405"
+   ]
+  },
+  {
+   "id": "P17",
+   "num": "Part XVII",
+   "heading": "Repeals and Related Provisions",
+   "status": "in-effect",
+   "sections": [
+    "s406",
+    "s407",
+    "s408",
+    "s409"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s1A",
+    "s1B",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Specified Futures Exchanges",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Specified Stock Exchanges",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Multilateral Agencies",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Qualifying Credit Rating",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Constitution and Proceedings of Commission, etc.",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s9A",
+    "s9B",
+    "s9C",
+    "s9D",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s16A",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Non-Delegable Functions of Commission",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Functions of Commission Delegable for Resolution",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Definitions",
+   "status": "in-effect",
+   "sections": [
+    "s1"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Specification of Persons Who are Associated Persons",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Specification of Persons Who are not Associated Persons",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Specification of Persons Who are not Indirect Controllers",
+   "status": "in-effect",
+   "sections": [
+    "s1"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Requirements for Default Rules of Recognized Clearing Houses",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Provisions Applicable Where there is Failure to Comply with Notice under Section 59(9)(c), 61(9)(b)or 72(1) of this Ordinance",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part 7",
+   "heading": "Specification of Persons Who are not Minority Controllers",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part 8",
+   "heading": "Exemption from Section 59(1) of this Ordinance",
+   "status": "in-effect",
+   "sections": [
+    "s1"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Sum Specified for Purposes of Section 103(3)(f)(i) and (g) of this Ordinance",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Instruments Specified for Purposes of Section 103(3)(g) of this Ordinance",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Exempted Bodies",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Sum Specified for Purposes of Definition of Relevant Condition in Section 103(12) of this Ordinance",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P2A",
+   "num": "Part 2A",
+   "heading": "",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Requirements to be Satisfied in Relation to Offers to Acquire Securities",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Requirements to be Satisfied in Relation to Offers to Dispose of Securities",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Appointment of Members and Proceedings of Tribunal, etc.",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Specified Decisions",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Savings, Transitional and Supplemental Arrangements",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40",
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s49",
+    "s50",
+    "s51",
+    "s52",
+    "s53",
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s60",
+    "s61",
+    "s62",
+    "s63",
+    "s64",
+    "s65",
+    "s66",
+    "s67",
+    "s68",
+    "s69",
+    "s70",
+    "s71",
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s77",
+    "s78",
+    "s79",
+    "s80",
+    "s81",
+    "s82",
+    "s83",
+    "s84",
+    "s85",
+    "s86",
+    "s87",
+    "s88",
+    "s89",
+    "s90",
+    "s91",
+    "s92",
+    "s93"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "",
+   "status": "in-effect",
+   "sections": []
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Savings and Transitional Provisions Relating to Securities and Futures and Companies Legislation (Structured Products Amendment) Ordinance 2011",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Savings and Transitional Provisions Relating to Securities and Futures (Amendment) Ordinance 2012",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Savings and Transitional Provisions Relating to Consequential Amendments to Securities and Futures Ordinance (Cap. 571) made by Companies Ordinance (Cap. 622)",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part 6",
+   "heading": "Savings and Transitional Provisions Relating to Part 4 of Securities and Futures (Amendment) Ordinance 2014",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Securities and Futures Commission",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Regulatory objectives of Commission",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Functions and powers of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "General duties of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Advisory Committee",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Commission may establish committees",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Staff of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Delegation and sub-delegation of Commission’s functions",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Directions to Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Commission to furnish information",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Financial year and estimates",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Appropriation",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Accounts and annual report",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Auditors and audit",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Investment of funds",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Interpretation of Part III",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Recognition of exchange company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Transactions that may be conducted on recognized stock market and recognized futures market",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Duties of recognized exchange company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Immunity, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Rules by recognized exchange company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Approval of rules or amendments to rules of recognized exchange company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Transfer and resumption of functions of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Appointment of chief executive of recognized exchange company requires approval of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Production of records, etc. by recognized exchange company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Withdrawal of recognition of exchange company and direction to cease to provide facilities or services",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Direction to cease to provide facilities or services in emergencies",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Contravention of notice constitutes offence",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "Prevention of entry into closed trading markets",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "Publication of directions",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Appeals",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Restriction on use of titles relating to exchanges, markets, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Contract limits and reportable open position",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Rules by Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Recognition of clearing house",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "Duties of recognized clearing house",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Immunity, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "Rules by recognized clearing houses",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Approval of rules or amendments to rules of recognized clearing house",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Production of records, etc. by recognized clearing house",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Withdrawal of recognition of clearing house and direction to cease to provide facilities",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Appeals",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Proceedings of recognized clearing house take precedence over law of insolvency",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "Supplementary provisions as to default proceedings",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Duty to report on completion of default proceedings",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Net sum payable on completion of default proceedings",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "Disclaimer of property, rescission of contracts, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Adjustment of prior transactions",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "Right of relevant office-holder to recover certain amounts arising from certain transactions",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Application of market collateral not affected by certain other interests, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "Enforcement of judgments over property subject to market charge, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "Law of insolvency in other jurisdictions",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "Clearing participant to be party to certain transactions as principal",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "Property deposited with recognized clearing house",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "Preservation of rights, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "Amendment of Schedule 3",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "Recognition of exchange controller",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "Interest of recognized exchange controller in recognized exchange company or recognized clearing house cannot be increased or decreased except with approval of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "Person not to become minority controller of exchange controller, etc. without approval of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "Exemption from section 59(1) and revocation of exemption",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "Duties of recognized exchange controller",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "Immunity, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s65",
+   "num": "65",
+   "heading": "Establishment and functions of Risk Management Committee",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s66",
+   "num": "66",
+   "heading": "Rules by recognized exchange controllers",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s67",
+   "num": "67",
+   "heading": "Approval of rules or amendments to rules of recognized exchange controller",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s68",
+   "num": "68",
+   "heading": "Transfer and resumption of functions of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "Chairman of recognized exchange controller",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s70",
+   "num": "70",
+   "heading": "Appointment of chief executive or chief operating officer of recognized exchange controller requires approval of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s71",
+   "num": "71",
+   "heading": "Production of records, etc. by recognized exchange controller",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s72",
+   "num": "72",
+   "heading": "Withdrawal of recognition of exchange controller",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s73",
+   "num": "73",
+   "heading": "Appeals",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s74",
+   "num": "74",
+   "heading": "Provisions applicable where recognized exchange controller, etc. seeks to be listed corporation",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s75",
+   "num": "75",
+   "heading": "Commission may give directions to recognized exchange controller where it is satisfied that conflict of interest exists, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s76",
+   "num": "76",
+   "heading": "Fees to be approved by Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s77",
+   "num": "77",
+   "heading": "Financial Secretary may appoint not more than 8 persons to board of directors of HKEC",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s78",
+   "num": "78",
+   "heading": "Amendment of Schedule 3",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s79",
+   "num": "79",
+   "heading": "Recognition of investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s80",
+   "num": "80",
+   "heading": "Transfer and resumption of functions of Commission",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s81",
+   "num": "81",
+   "heading": "Immunity, etc.",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s82",
+   "num": "82",
+   "heading": "Rules by recognized investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s83",
+   "num": "83",
+   "heading": "Approval of rules or amendments to rules of recognized investor compensation companies",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s84",
+   "num": "84",
+   "heading": "Production of records, etc. by recognized investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s85",
+   "num": "85",
+   "heading": "Withdrawal of recognition of investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s86",
+   "num": "86",
+   "heading": "Appeals",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s87",
+   "num": "87",
+   "heading": "Subrogation of recognized investor compensation company to rights, etc. of claimant on payment from compensation fund",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s88",
+   "num": "88",
+   "heading": "Financial statements of a recognized investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s89",
+   "num": "89",
+   "heading": "Employees of and delegations by a recognized investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s90",
+   "num": "90",
+   "heading": "Further activities of recognized investor compensation company",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s91",
+   "num": "91",
+   "heading": "Supply of information",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s92",
+   "num": "92",
+   "heading": "Additional powers of Commission—restriction notices",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s93",
+   "num": "93",
+   "heading": "Additional powers of Commission—suspension orders",
+   "status": "in-effect",
+   "part": "P1"
+  },
+  {
+   "id": "s94",
+   "num": "94",
+   "heading": "Application of Companies Ordinance and Companies (Winding Up and Miscellaneous Provisions) Ordinance",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s95",
+   "num": "95",
+   "heading": "Authorization for providing automated trading services",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s96",
+   "num": "96",
+   "heading": "Application for authorization",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s97",
+   "num": "97",
+   "heading": "Conditions for authorization",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s98",
+   "num": "98",
+   "heading": "Withdrawal of authorization",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s99",
+   "num": "99",
+   "heading": "Commission to maintain register of authorized automated trading services",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s100",
+   "num": "100",
+   "heading": "Rules by Commission",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s101",
+   "num": "101",
+   "heading": "Providing automated trading services without authorization",
+   "status": "in-effect",
+   "part": "P3"
+  },
+  {
+   "id": "s101A",
+   "num": "101A",
+   "heading": "Interpretation of Part IIIA",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101B",
+   "num": "101B",
+   "heading": "Reporting obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101C",
+   "num": "101C",
+   "heading": "Clearing obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101D",
+   "num": "101D",
+   "heading": "Trading obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101E",
+   "num": "101E",
+   "heading": "Record keeping obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101F",
+   "num": "#101F",
+   "heading": "Application by Commission to Court of First Instance for contravention of obligations",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101G",
+   "num": "#101G",
+   "heading": "Application by Monetary Authority to Court of First Instance for contravention of obligations",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101H",
+   "num": "#101H",
+   "heading": "Exemptions from obligations",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101I",
+   "num": "#101I",
+   "heading": "Guidelines on exemptions",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101J",
+   "num": "101J",
+   "heading": "Designation of central counterparties",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101K",
+   "num": "101K",
+   "heading": "Designation of trading platforms",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101L",
+   "num": "101L",
+   "heading": "Rule making power—reporting obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101M",
+   "num": "101M",
+   "heading": "Rule making power—fees",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101N",
+   "num": "101N",
+   "heading": "Rule making power—clearing obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101O",
+   "num": "101O",
+   "heading": "Rule making power—trading obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101P",
+   "num": "101P",
+   "heading": "Rule making power—record keeping obligation",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101Q",
+   "num": "101Q",
+   "heading": "Rule making power—designations",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101R",
+   "num": "101R",
+   "heading": "Persons who must notify positions in OTC derivative transactions",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101S",
+   "num": "101S",
+   "heading": "Commission to maintain register",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101T",
+   "num": "101T",
+   "heading": "Registration in SIP register",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101U",
+   "num": "101U",
+   "heading": "Notification not required after registration for specific class",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101V",
+   "num": "101V",
+   "heading": "Deregistration",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101W",
+   "num": "101W",
+   "heading": "Power to require information from registered SIPs",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101X",
+   "num": "101X",
+   "heading": "Power to require registered SIPs to take certain action",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101Y",
+   "num": "101Y",
+   "heading": "Application to Court of First Instance",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s101Z",
+   "num": "101Z",
+   "heading": "Rule making power—notifications etc.",
+   "status": "in-effect",
+   "part": "P3A"
+  },
+  {
+   "id": "s102",
+   "num": "102",
+   "heading": "Interpretation of Part IV",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s103",
+   "num": "103",
+   "heading": "Offence to issue advertisements, invitations or documents relating to investments in certain cases",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s104",
+   "num": "104",
+   "heading": "Commission may authorize collective investment schemes",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s104A",
+   "num": "104A",
+   "heading": "Commission may authorize structured products",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s105",
+   "num": "105",
+   "heading": "Commission may authorize issue of advertisements, invitations or documents",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s106",
+   "num": "106",
+   "heading": "Withdrawal of authorization under section 104, 104A or 105, etc.",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s107",
+   "num": "107",
+   "heading": "Offence to fraudulently or recklessly induce others to invest money",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s108",
+   "num": "108",
+   "heading": "Civil liability for inducing others to invest money in certain cases",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s109",
+   "num": "109",
+   "heading": "Offence to issue advertisements relating to carrying on of regulated activities, etc.",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s110",
+   "num": "110",
+   "heading": "Submission of information to Commission",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s111",
+   "num": "111",
+   "heading": "Service of notices, etc. on approved persons",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s112",
+   "num": "112",
+   "heading": "Amendment of Schedule 4",
+   "status": "in-effect",
+   "part": "P4"
+  },
+  {
+   "id": "s112A",
+   "num": "112A",
+   "heading": "Interpretation of Part IVA",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112B",
+   "num": "112B",
+   "heading": "Prohibition against carrying on business as open-ended fund company without registration etc.",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112C",
+   "num": "112C",
+   "heading": "Incorporation of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112D",
+   "num": "112D",
+   "heading": "Application for registration with Commission before incorporation",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112E",
+   "num": "112E",
+   "heading": "Requirements for registration",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112F",
+   "num": "112F",
+   "heading": "Commission may amend conditions of registration",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112G",
+   "num": "112G",
+   "heading": "Publication of particulars of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112H",
+   "num": "112H",
+   "heading": "Name of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112I",
+   "num": "112I",
+   "heading": "Registered office of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112J",
+   "num": "112J",
+   "heading": "Capacity of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112K",
+   "num": "112K",
+   "heading": "Instrument of incorporation of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112L",
+   "num": "112L",
+   "heading": "Effect of instrument of incorporation",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112M",
+   "num": "112M",
+   "heading": "Contracts made by or on behalf of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112N",
+   "num": "112N",
+   "heading": "Contracts made before open-ended fund company’s incorporation",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112O",
+   "num": "112O",
+   "heading": "Contracts made after cancellation of registration",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112P",
+   "num": "112P",
+   "heading": "Share capital of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112Q",
+   "num": "112Q",
+   "heading": "Shareholders’ liability",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112R",
+   "num": "112R",
+   "heading": "Sub-funds of open-ended fund company",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112S",
+   "num": "112S",
+   "heading": "Segregated liability of sub-funds",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112T",
+   "num": "112T",
+   "heading": "Interpretation of Division 7 of Part IVA",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112U",
+   "num": "112U",
+   "heading": "Directors",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112V",
+   "num": "112V",
+   "heading": "Restrictions on body corporate being director",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112W",
+   "num": "112W",
+   "heading": "Minimum age for appointment as director",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112X",
+   "num": "112X",
+   "heading": "Provisions as to undischarged bankrupt acting as director",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112Y",
+   "num": "112Y",
+   "heading": "Validity of acts of director",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112Z",
+   "num": "112Z",
+   "heading": "Investment manager",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZA",
+   "num": "112ZA",
+   "heading": "Custodian",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZB",
+   "num": "112ZB",
+   "heading": "Auditor",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZC",
+   "num": "112ZC",
+   "heading": "Provision protecting specified officer from liability void",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZD",
+   "num": "112ZD",
+   "heading": "Court of First Instance may grant specified officer relief in proceedings for misconduct",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZE",
+   "num": "112ZE",
+   "heading": "Court of First Instance may grant specified officer relief for misconduct on specified officer’s application",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZF",
+   "num": "112ZF",
+   "heading": "Commission’s power to give directions",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZG",
+   "num": "112ZG",
+   "heading": "Application to Court of First Instance in respect of failure to comply with direction",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZH",
+   "num": "112ZH",
+   "heading": "Commission’s power to cancel registration on open-ended fund company’s application",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZI",
+   "num": "112ZI",
+   "heading": "Commission’s power to cancel registration otherwise than on open-ended fund company’s application",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZJ",
+   "num": "112ZJ",
+   "heading": "Permission to carry on essential business operations on cancellation of registration",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZJA",
+   "num": "112ZJA",
+   "heading": "Interpretation of Division 8A of Part IVA",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZJB",
+   "num": "112ZJB",
+   "heading": "Registration with Commission before re-domiciliation",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZJC",
+   "num": "112ZJC",
+   "heading": "Issue of certificate of re-domiciliation by Registrar of Companies",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZJD",
+   "num": "112ZJD",
+   "heading": "Effect of re-domiciliation",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZJE",
+   "num": "112ZJE",
+   "heading": "Deregistration in place of incorporation",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZK",
+   "num": "112ZK",
+   "heading": "Commission’s power to make rules",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZL",
+   "num": "112ZL",
+   "heading": "Rules made with consent of Registrar of Companies",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZM",
+   "num": "112ZM",
+   "heading": "Rules made with consent of Official Receiver",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZN",
+   "num": "112ZN",
+   "heading": "OFC rules may prescribe offences",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZO",
+   "num": "112ZO",
+   "heading": "Modification or waiver of requirements of OFC rules by notice",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZP",
+   "num": "112ZP",
+   "heading": "Modification or waiver of requirements of OFC rules by rules",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZQ",
+   "num": "112ZQ",
+   "heading": "Financial Secretary may make regulations relating to fees",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZR",
+   "num": "112ZR",
+   "heading": "Commission may publish codes and guidelines",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZS",
+   "num": "112ZS",
+   "heading": "Effect of codes and guidelines",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s112ZT",
+   "num": "112ZT",
+   "heading": "Offence of fraudulent trading",
+   "status": "in-effect",
+   "part": "P4A"
+  },
+  {
+   "id": "s113",
+   "num": "113",
+   "heading": "Interpretation of Part V",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s114",
+   "num": "114",
+   "heading": "Restriction on carrying on business in regulated activities, etc.",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s115",
+   "num": "115",
+   "heading": "Application of section 114 in relation to conduct or activities outside Hong Kong",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s116",
+   "num": "116",
+   "heading": "Corporations to be licensed for carrying on regulated activities",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s117",
+   "num": "117",
+   "heading": "Grant of temporary licences to corporations for carrying on regulated activities",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s118",
+   "num": "118",
+   "heading": "Licensing conditions in certain cases",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s119",
+   "num": "119",
+   "heading": "Registered institutions",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s120",
+   "num": "120",
+   "heading": "Representatives to be licensed",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s121",
+   "num": "121",
+   "heading": "Temporary licences for representatives",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s122",
+   "num": "122",
+   "heading": "Approval and transfer of accreditation",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s123",
+   "num": "123",
+   "heading": "Commission to be notified, etc. if licensed representative ceases to act for principal",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s124",
+   "num": "124",
+   "heading": "Duplicate printed licence, etc.",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s125",
+   "num": "125",
+   "heading": "Requirement for executive officers",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s126",
+   "num": "126",
+   "heading": "Approval of responsible officers",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s127",
+   "num": "127",
+   "heading": "Variation of regulated activity for which licensed person or registered institution is licensed or registered",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s128",
+   "num": "128",
+   "heading": "Applicant to provide information",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s129",
+   "num": "129",
+   "heading": "Determination of fit and proper",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s130",
+   "num": "130",
+   "heading": "Suitability of premises for keeping records or documents",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s131",
+   "num": "131",
+   "heading": "Restriction on substantial shareholding, etc.",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s132",
+   "num": "132",
+   "heading": "Approval to become or continue to be substantial shareholder",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s133",
+   "num": "133",
+   "heading": "Commission’s power to give directions",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s134",
+   "num": "134",
+   "heading": "Modification or waiver of requirements",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s135",
+   "num": "135",
+   "heading": "Events to be reported by licensed persons and registered institutions",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s136",
+   "num": "136",
+   "heading": "Commission to maintain register of licensed persons and registered institutions",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s137",
+   "num": "137",
+   "heading": "Publication of names of licensed persons and registered institutions",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s138",
+   "num": "138",
+   "heading": "Annual fee and return",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s139",
+   "num": "139",
+   "heading": "Prohibition of use of certain titles",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s140",
+   "num": "140",
+   "heading": "Procedural requirements",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s141",
+   "num": "141",
+   "heading": "Service of notices, etc. on licensed persons",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s142",
+   "num": "142",
+   "heading": "Amendment of Schedule 5",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s143",
+   "num": "143",
+   "heading": "Amendment of Schedule 6",
+   "status": "in-effect",
+   "part": "P5"
+  },
+  {
+   "id": "s144",
+   "num": "144",
+   "heading": "Interpretation of Part VI",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s145",
+   "num": "145",
+   "heading": "Financial resources of licensed corporations",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s145A",
+   "num": "145A",
+   "heading": "Commission may vary financial resources rules for particular licensed corporations",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s146",
+   "num": "146",
+   "heading": "Failure to comply with financial resources rules",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s147",
+   "num": "147",
+   "heading": "Monitoring compliance with financial resources rules",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s148",
+   "num": "148",
+   "heading": "Client securities and collateral held by intermediaries and their associated entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s149",
+   "num": "149",
+   "heading": "Client money held by licensed corporations and their associated entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s150",
+   "num": "150",
+   "heading": "Claims and liens not affected",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s151",
+   "num": "151",
+   "heading": "Keeping of accounts and records by intermediaries and their associated entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s152",
+   "num": "152",
+   "heading": "Provision of contract notes, receipts, statements of account and notifications by intermediaries and their associated entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s153",
+   "num": "153",
+   "heading": "Auditor to be appointed by licensed corporations and associated entities of intermediaries",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s154",
+   "num": "154",
+   "heading": "Notification of proposed change of auditors by licensed corporations and associated entities of intermediaries",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s155",
+   "num": "155",
+   "heading": "Notification of end of financial year by licensed corporations and associated entities of intermediaries, etc.",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s156",
+   "num": "156",
+   "heading": "Audited accounts, etc. to be submitted by licensed corporations and associated entities of intermediaries",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s157",
+   "num": "157",
+   "heading": "Auditors of licensed corporations or associated entities of intermediaries to lodge report with Commission, etc. in certain cases",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s158",
+   "num": "158",
+   "heading": "Immunity in respect of communication with Commission, etc. by auditors of licensed corporations or associated entities of intermediaries",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s159",
+   "num": "159",
+   "heading": "Power of Commission to appoint auditors for licensed corporations and their associated entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s160",
+   "num": "160",
+   "heading": "Power of Commission to appoint auditors for licensed corporations and their associated entities on application",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s161",
+   "num": "161",
+   "heading": "Auditors appointed under section 159 or 160 to report to Commission",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s162",
+   "num": "162",
+   "heading": "Powers of auditors appointed under section 159 or 160",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s163",
+   "num": "163",
+   "heading": "Offence to destroy, conceal, or alter accounts, records or documents, etc.",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s164",
+   "num": "164",
+   "heading": "Restriction on receiving or holding of client assets",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s165",
+   "num": "165",
+   "heading": "Associated entities",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s166",
+   "num": "166",
+   "heading": "Use of incriminating evidence in proceedings",
+   "status": "in-effect",
+   "part": "P6"
+  },
+  {
+   "id": "s167",
+   "num": "167",
+   "heading": "Interpretation of Part VII",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s168",
+   "num": "168",
+   "heading": "Business conduct of intermediaries and their representatives",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s169",
+   "num": "169",
+   "heading": "Codes for business conduct of intermediaries and their representatives",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s170",
+   "num": "170",
+   "heading": "Short selling restricted",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s171",
+   "num": "171",
+   "heading": "Requirements to confirm short selling order",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s172",
+   "num": "172",
+   "heading": "Requirements to disclose short sales",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s173",
+   "num": "173",
+   "heading": "Requirements for options trading",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s174",
+   "num": "174",
+   "heading": "Certain agreements not to be made during unsolicited calls",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s175",
+   "num": "175",
+   "heading": "Requirements for offers by intermediaries or representatives for Type 1, Type 4 or Type 6 regulated activity",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s176",
+   "num": "176",
+   "heading": "Certain representations prohibited",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s177",
+   "num": "177",
+   "heading": "Amendment of Schedule 7",
+   "status": "in-effect",
+   "part": "P7"
+  },
+  {
+   "id": "s178",
+   "num": "178",
+   "heading": "Interpretation of Part VIII",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s179",
+   "num": "179",
+   "heading": "Power to require production of records and documents concerning listed corporations, etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s180",
+   "num": "180",
+   "heading": "Supervision of intermediaries and their associated entities",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s181",
+   "num": "181",
+   "heading": "Information relating to transactions",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s182",
+   "num": "182",
+   "heading": "Investigations by Commission",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s183",
+   "num": "183",
+   "heading": "Conduct of investigations",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s184",
+   "num": "184",
+   "heading": "Offences in relation to investigations",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s184A",
+   "num": "#184A",
+   "heading": "Investigations by Monetary Authority",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s184B",
+   "num": "184B",
+   "heading": "Conduct of investigations",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s184C",
+   "num": "184C",
+   "heading": "Investigation reports",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s184D",
+   "num": "184D",
+   "heading": "Offences relating to investigations",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s184E",
+   "num": "184E",
+   "heading": "Recovery of costs of investigation",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s185",
+   "num": "185",
+   "heading": "Application to Court of First Instance relating to non-compliance with requirements under section 179, 180, 181, 183 or 184B",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s186",
+   "num": "186",
+   "heading": "Commission’s assistance to regulators outside Hong Kong",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s186A",
+   "num": "186A",
+   "heading": "Monetary Authority’s assistance to regulators outside Hong Kong",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s187",
+   "num": "187",
+   "heading": "Use of incriminating evidence in proceedings",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s188",
+   "num": "188",
+   "heading": "Lien claimed on records or documents",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s189",
+   "num": "189",
+   "heading": "Production of information in information systems, etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s190",
+   "num": "190",
+   "heading": "Inspection of records or documents seized, etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s191",
+   "num": "191",
+   "heading": "Magistrate’s warrants",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s192",
+   "num": "192",
+   "heading": "Destruction of documents, etc.",
+   "status": "in-effect",
+   "part": "P8"
+  },
+  {
+   "id": "s193",
+   "num": "193",
+   "heading": "Interpretation of Part IX",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s194",
+   "num": "194",
+   "heading": "Disciplinary action in respect of licensed persons, etc.",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s195",
+   "num": "195",
+   "heading": "Other circumstances for disciplinary actions in respect of licensed persons, etc.",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s196",
+   "num": "196",
+   "heading": "Disciplinary action in respect of registered institutions, etc.",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s197",
+   "num": "197",
+   "heading": "Other circumstances for disciplinary action in respect of registered institutions, etc.",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s198",
+   "num": "198",
+   "heading": "Procedural requirements in respect of exercise of powers under Division 2",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s199",
+   "num": "199",
+   "heading": "Guidelines for performance of functions under section 194(2) or 196(2)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s200",
+   "num": "200",
+   "heading": "Effect of suspension under Division 2 or 3",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s201",
+   "num": "201",
+   "heading": "General provisions relating to exercise of powers under Division 2 or 3",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s202",
+   "num": "202",
+   "heading": "Requirement to transfer records upon revocation or suspension of licence or registration",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203",
+   "num": "203",
+   "heading": "Permission to carry on business operations upon revocation or suspension of licence or registration",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203A",
+   "num": "203A",
+   "heading": "Disciplinary action by Monetary Authority",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203B",
+   "num": "203B",
+   "heading": "Procedural requirements for exercise of disciplinary powers",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203C",
+   "num": "203C",
+   "heading": "Guidelines for performance of functions under section 203A(1)(c)",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203D",
+   "num": "203D",
+   "heading": "General provisions relating to exercise of powers under Division 4",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203E",
+   "num": "203E",
+   "heading": "Recovery and payment of pecuniary penalty",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s203F",
+   "num": "203F",
+   "heading": "Application to Court of First Instance relating to non-compliance with prohibition under section 203A",
+   "status": "in-effect",
+   "part": "P9"
+  },
+  {
+   "id": "s204",
+   "num": "204",
+   "heading": "Restriction of business",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s205",
+   "num": "205",
+   "heading": "Restriction on dealing with property",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s206",
+   "num": "206",
+   "heading": "Maintenance of property",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s207",
+   "num": "207",
+   "heading": "Imposition of prohibition or requirement under section 204, 205 or 206",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s208",
+   "num": "208",
+   "heading": "Withdrawal, substitution or variation of prohibitions or requirements under section 204, 205 or 206",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s209",
+   "num": "209",
+   "heading": "General provisions relating to sections 204, 205, 206 and 208",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s210",
+   "num": "210",
+   "heading": "Cases of revocation or suspension of licensed corporations’ licences",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s211",
+   "num": "211",
+   "heading": "Application to Court of First Instance relating to non-compliance with prohibitions or requirements under section 204, 205, 206 or 208",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s212",
+   "num": "212",
+   "heading": "Winding-up orders and bankruptcy orders",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s213",
+   "num": "213",
+   "heading": "Injunctions and other orders",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s214",
+   "num": "214",
+   "heading": "Remedies in cases of unfair prejudice, etc. to interests of members of listed corporations, etc.",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s214A",
+   "num": "214A",
+   "heading": "Remedies in cases of unfair prejudice etc. to interests of shareholders of open-ended fund companies",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s214B",
+   "num": "214B",
+   "heading": "Order under section 214A altering open-ended fund company’s instrument of incorporation",
+   "status": "in-effect",
+   "part": "P10"
+  },
+  {
+   "id": "s215",
+   "num": "215",
+   "heading": "Interpretation of Part XI",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s216",
+   "num": "216",
+   "heading": "Securities and Futures Appeals Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s217",
+   "num": "217",
+   "heading": "Applications for review of specified decisions",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s218",
+   "num": "218",
+   "heading": "Proceedings before Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s219",
+   "num": "219",
+   "heading": "Powers of Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s220",
+   "num": "220",
+   "heading": "Use of incriminating evidence required by Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s221",
+   "num": "221",
+   "heading": "Contempt dealt with by Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s222",
+   "num": "222",
+   "heading": "Privileged information",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s223",
+   "num": "223",
+   "heading": "Costs",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s224",
+   "num": "224",
+   "heading": "Notification of Tribunal determinations",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s225",
+   "num": "225",
+   "heading": "Form and proof of orders of Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s226",
+   "num": "226",
+   "heading": "Orders of Tribunal may be registered in Court of First Instance",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s227",
+   "num": "227",
+   "heading": "Applications for stay of execution of specified decisions",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s228",
+   "num": "228",
+   "heading": "Applications for stay of execution of decisions of Tribunal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s229",
+   "num": "229",
+   "heading": "Appeal to Court of Appeal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s230",
+   "num": "230",
+   "heading": "No stay of execution on appeal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s231",
+   "num": "231",
+   "heading": "No other right of appeal",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s232",
+   "num": "232",
+   "heading": "Time when specified decisions to take effect",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s233",
+   "num": "233",
+   "heading": "Rules by Chief Justice",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s234",
+   "num": "234",
+   "heading": "Amendment of Parts 2 and 3 of Schedule 8",
+   "status": "in-effect",
+   "part": "P11"
+  },
+  {
+   "id": "s235",
+   "num": "235",
+   "heading": "Interpretation of Part XII",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s236",
+   "num": "236",
+   "heading": "Establishment of compensation fund",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s237",
+   "num": "237",
+   "heading": "Money constituting the compensation fund",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s238",
+   "num": "238",
+   "heading": "Management of compensation fund",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s239",
+   "num": "239",
+   "heading": "Money to be kept in account",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s240",
+   "num": "240",
+   "heading": "Accounts of compensation fund",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s241",
+   "num": "241",
+   "heading": "Investment of moneys",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s242",
+   "num": "242",
+   "heading": "Payments out of the compensation fund",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s243",
+   "num": "243",
+   "heading": "Subrogation of the Commission to rights, etc. of claimant on payment from compensation fund",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s244",
+   "num": "244",
+   "heading": "Rules by Chief Executive in Council and Commission",
+   "status": "in-effect",
+   "part": "P12"
+  },
+  {
+   "id": "s245",
+   "num": "245",
+   "heading": "Interpretation of Part XIII",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s246",
+   "num": "246",
+   "heading": "Interest in securities (insider dealing)",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s247",
+   "num": "247",
+   "heading": "Connected with a corporation (insider dealing)",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s248",
+   "num": "248",
+   "heading": "Connected with a corporation—possession of inside information obtained in privileged capacity (insider dealing)",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s249",
+   "num": "249",
+   "heading": "Dealing in listed securities or their derivatives (insider dealing)",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s250",
+   "num": "250",
+   "heading": "Interest in securities and beneficial ownership, etc. (market misconduct other than insider dealing)",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s251",
+   "num": "251",
+   "heading": "Market Misconduct Tribunal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s252",
+   "num": "252",
+   "heading": "Market misconduct proceedings",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s252A",
+   "num": "252A",
+   "heading": "Consent of Secretary for Justice for market misconduct proceedings",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s253",
+   "num": "253",
+   "heading": "Powers of Tribunal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s254",
+   "num": "254",
+   "heading": "Further powers of Tribunal concerning evidence",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s255",
+   "num": "255",
+   "heading": "Use of evidence received for purposes of market misconduct proceedings",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s256",
+   "num": "256",
+   "heading": "Privileged information",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s257",
+   "num": "257",
+   "heading": "Orders, etc. of Tribunal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s258",
+   "num": "258",
+   "heading": "Further orders in respect of officers of corporation",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s259",
+   "num": "259",
+   "heading": "Interest on moneys payable under order referred to in section 257(1)(d)",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s260",
+   "num": "260",
+   "heading": "Costs",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s261",
+   "num": "261",
+   "heading": "Contempt dealt with by Tribunal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s262",
+   "num": "262",
+   "heading": "Report of Tribunal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s263",
+   "num": "263",
+   "heading": "Form and proof of orders of Tribunal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s264",
+   "num": "264",
+   "heading": "Orders of Tribunal may be registered in Court of First Instance",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s265",
+   "num": "265",
+   "heading": "Applications for stay of execution of orders of Tribunal under section 257, 258, 259 or 260",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s266",
+   "num": "266",
+   "heading": "Appeal to Court of Appeal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s267",
+   "num": "267",
+   "heading": "Powers of Court of Appeal on appeal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s268",
+   "num": "268",
+   "heading": "No stay of execution on appeal",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s269",
+   "num": "269",
+   "heading": "Rules by Chief Justice",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s270",
+   "num": "270",
+   "heading": "Insider dealing",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s271",
+   "num": "271",
+   "heading": "Insider dealing—certain persons not to be regarded as having engaged in market misconduct",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s272",
+   "num": "272",
+   "heading": "Insider dealing—certain trustees and personal representatives not to be regarded as having engaged in market misconduct",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s273",
+   "num": "273",
+   "heading": "Insider dealing—certain persons exercising right to subscribe for or acquire securities or derivatives not to be regarded as having engaged in market misconduct",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s274",
+   "num": "274",
+   "heading": "False trading",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s275",
+   "num": "275",
+   "heading": "Price rigging",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s276",
+   "num": "276",
+   "heading": "Disclosure of information about prohibited transactions",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s277",
+   "num": "277",
+   "heading": "Disclosure of false or misleading information inducing transactions",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s278",
+   "num": "278",
+   "heading": "Stock market manipulation",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s279",
+   "num": "279",
+   "heading": "Duty of officers of corporations",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s280",
+   "num": "280",
+   "heading": "Transactions relating to market misconduct not void or voidable",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s281",
+   "num": "281",
+   "heading": "Civil liability for market misconduct",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s282",
+   "num": "282",
+   "heading": "Conduct not to constitute market misconduct",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s283",
+   "num": "283",
+   "heading": "No further proceedings after Part XIV criminal proceedings",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s284",
+   "num": "284",
+   "heading": "Market misconduct regarded as contravention of provisions of this Part",
+   "status": "in-effect",
+   "part": "P13"
+  },
+  {
+   "id": "s285",
+   "num": "285",
+   "heading": "Interpretation of Part XIV",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s286",
+   "num": "286",
+   "heading": "Interest in securities (insider dealing offence)",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s287",
+   "num": "287",
+   "heading": "Connected with a corporation (insider dealing offence)",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s288",
+   "num": "288",
+   "heading": "Connected with a corporation—possession of inside information obtained in privileged capacity (insider dealing offence)",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s289",
+   "num": "289",
+   "heading": "Dealing in listed securities or their derivatives (insider dealing offence)",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s290",
+   "num": "290",
+   "heading": "Interest in securities and beneficial ownership, etc. (market misconduct offences other than insider dealing offence)",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s291",
+   "num": "291",
+   "heading": "Offence of insider dealing",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s292",
+   "num": "292",
+   "heading": "Insider dealing offence—general defences",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s293",
+   "num": "293",
+   "heading": "Insider dealing offence—defences for certain trustees and personal representatives",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s294",
+   "num": "294",
+   "heading": "Insider dealing offence—defences for certain persons exercising right to subscribe for or acquire securities or derivatives",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s295",
+   "num": "295",
+   "heading": "Offence of false trading",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s296",
+   "num": "296",
+   "heading": "Offence of price rigging",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s297",
+   "num": "297",
+   "heading": "Offence of disclosure of information about prohibited transactions",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s298",
+   "num": "298",
+   "heading": "Offence of disclosure of false or misleading information inducing transactions",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s299",
+   "num": "299",
+   "heading": "Offence of stock market manipulation",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s300",
+   "num": "300",
+   "heading": "Offence involving fraudulent or deceptive devices, etc. in transactions in securities, futures contracts or leveraged foreign exchange trading",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s301",
+   "num": "301",
+   "heading": "Offence of disclosure of false or misleading information inducing others to enter into leveraged foreign exchange contracts",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s302",
+   "num": "302",
+   "heading": "Offence of falsely representing dealings in futures contracts on behalf of others, etc.",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s303",
+   "num": "303",
+   "heading": "Penalties",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s304",
+   "num": "304",
+   "heading": "Transactions relating to contravention of Divisions 2 to 4 not void or voidable",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s305",
+   "num": "305",
+   "heading": "Civil liability for contravention of this Part",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s306",
+   "num": "306",
+   "heading": "Conduct not to constitute offences",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s307",
+   "num": "307",
+   "heading": "No further proceedings after Part XIII market misconduct proceedings",
+   "status": "in-effect",
+   "part": "P14"
+  },
+  {
+   "id": "s307A",
+   "num": "307A",
+   "heading": "Interpretation of Part XIVA",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307B",
+   "num": "307B",
+   "heading": "Requirement for listed corporations to disclose inside information",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307C",
+   "num": "307C",
+   "heading": "Manner of disclosure",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307D",
+   "num": "307D",
+   "heading": "Exceptions to disclosure requirement",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307E",
+   "num": "307E",
+   "heading": "Waiver",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307F",
+   "num": "307F",
+   "heading": "Commission may make rules to prescribe circumstances in which disclosure requirement does not apply",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307G",
+   "num": "307G",
+   "heading": "Duty of officers of listed corporations",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307H",
+   "num": "307H",
+   "heading": "Jurisdiction of Tribunal under this Part",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307I",
+   "num": "307I",
+   "heading": "Institution of disclosure proceedings",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307J",
+   "num": "307J",
+   "heading": "Object and conduct of disclosure proceedings",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307K",
+   "num": "307K",
+   "heading": "Right to be heard",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307L",
+   "num": "307L",
+   "heading": "Use of evidence received for purposes of disclosure proceedings",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307M",
+   "num": "307M",
+   "heading": "Privileged information",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307N",
+   "num": "307N",
+   "heading": "Orders of Tribunal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307O",
+   "num": "307O",
+   "heading": "Notice and effect of orders of Tribunal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307P",
+   "num": "307P",
+   "heading": "Costs",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307Q",
+   "num": "307Q",
+   "heading": "Report of Tribunal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307R",
+   "num": "307R",
+   "heading": "Form and proof of orders of Tribunal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307S",
+   "num": "307S",
+   "heading": "Registration and filing of orders of Tribunal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307T",
+   "num": "307T",
+   "heading": "Stay of execution of orders of Tribunal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307U",
+   "num": "307U",
+   "heading": "Appeal to Court of Appeal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307V",
+   "num": "307V",
+   "heading": "Powers of Court of Appeal on appeal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307W",
+   "num": "307W",
+   "heading": "No stay of execution on appeal",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307X",
+   "num": "307X",
+   "heading": "Rules by Chief Justice",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307Y",
+   "num": "307Y",
+   "heading": "Interpretation and application",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307Z",
+   "num": "307Z",
+   "heading": "Civil liability for breach of a disclosure requirement",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s307ZA",
+   "num": "307ZA",
+   "heading": "Evidentiary provisions",
+   "status": "in-effect",
+   "part": "P14A"
+  },
+  {
+   "id": "s308",
+   "num": "308",
+   "heading": "Interpretation of Part XV",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s309",
+   "num": "309",
+   "heading": "Exemptions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s310",
+   "num": "310",
+   "heading": "Duty of disclosure: cases in which it may arise",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s311",
+   "num": "311",
+   "heading": "Interests to be disclosed",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s312",
+   "num": "312",
+   "heading": "Short positions to be disclosed",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s313",
+   "num": "313",
+   "heading": "Circumstances in which duty of disclosure arises",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s314",
+   "num": "314",
+   "heading": "Percentage level in relation to notifiable interests and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s315",
+   "num": "315",
+   "heading": "Notifiable percentage level and specified percentage level",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s316",
+   "num": "316",
+   "heading": "Notification of family and corporate interests and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s317",
+   "num": "317",
+   "heading": "Agreement to acquire interests in particular listed corporation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s318",
+   "num": "318",
+   "heading": "Interests of parties to agreement",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s319",
+   "num": "319",
+   "heading": "Duty of parties to agreement acting together to keep each other informed",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s320",
+   "num": "320",
+   "heading": "Circumstances in which persons have interests or short positions in voting shares by attribution",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s321",
+   "num": "321",
+   "heading": "Notification by agents",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s322",
+   "num": "322",
+   "heading": "Interests and short positions to be taken into account for the purpose of notification",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s323",
+   "num": "323",
+   "heading": "Interests and short positions to be disregarded for the purpose of notification",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s324",
+   "num": "324",
+   "heading": "Notification to be given",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s325",
+   "num": "325",
+   "heading": "Time of notification",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s326",
+   "num": "326",
+   "heading": "Particulars to be contained in notification",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s327",
+   "num": "327",
+   "heading": "Duty to publish and notify Monetary Authority of information given under Division 4",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s328",
+   "num": "328",
+   "heading": "Offences for non-compliance with notification requirements",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s329",
+   "num": "329",
+   "heading": "Power of listed corporation to investigate ownership of interests in its voting shares, etc.",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s330",
+   "num": "330",
+   "heading": "Duty to notify relevant exchange company, Commission and Monetary Authority of information given under section 329",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s331",
+   "num": "331",
+   "heading": "Listed corporation to investigate ownership of interests in its voting shares, etc. on requisition by members",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s332",
+   "num": "332",
+   "heading": "Listed corporation to report to members",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s333",
+   "num": "333",
+   "heading": "Duty to deliver report prepared under section 332 to relevant exchange company, Commission and Monetary Authority",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s334",
+   "num": "334",
+   "heading": "Offences for failure to provide information required by listed corporation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s335",
+   "num": "335",
+   "heading": "Inspection of reports",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s336",
+   "num": "336",
+   "heading": "Register of interests in shares and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s337",
+   "num": "337",
+   "heading": "Registration of interests and short positions disclosed under section 329",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s338",
+   "num": "338",
+   "heading": "Removal of entries from register",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s339",
+   "num": "339",
+   "heading": "Otherwise, entries not to be removed from register",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s340",
+   "num": "340",
+   "heading": "Inspection of register",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s341",
+   "num": "341",
+   "heading": "Duty of disclosure by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s342",
+   "num": "342",
+   "heading": "Interests to be disclosed by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s343",
+   "num": "343",
+   "heading": "Short positions to be disclosed by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s344",
+   "num": "344",
+   "heading": "Notification of family and corporate interests and short positions by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s345",
+   "num": "345",
+   "heading": "Interests and short positions to be taken into account for the purpose of notification by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s346",
+   "num": "346",
+   "heading": "Interests and short positions to be disregarded for the purpose of notification by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s347",
+   "num": "347",
+   "heading": "Notification to be given by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s348",
+   "num": "348",
+   "heading": "Time of notification by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s349",
+   "num": "349",
+   "heading": "Particulars to be contained in notification by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s350",
+   "num": "350",
+   "heading": "Duty to publish and notify Monetary Authority of information given under Division 9",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s351",
+   "num": "351",
+   "heading": "Offences for non-compliance with notification requirements by director and chief executive",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s352",
+   "num": "352",
+   "heading": "Register of directors’ and chief executives’ interests and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s353",
+   "num": "353",
+   "heading": "Removal of entries from register of directors’ and chief executives’ interests and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s354",
+   "num": "354",
+   "heading": "Otherwise, entries not to be removed from register of directors’ and chief executives’ interests and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s355",
+   "num": "355",
+   "heading": "Inspection of register of directors’ and chief executives’ interests and short positions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s356",
+   "num": "356",
+   "heading": "Power to investigate ownership of listed corporation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s357",
+   "num": "357",
+   "heading": "Investigation of contraventions of sections 341 to 349",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s358",
+   "num": "358",
+   "heading": "Inspector’s powers during investigation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s359",
+   "num": "359",
+   "heading": "Production of records and evidence to inspectors",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s360",
+   "num": "360",
+   "heading": "Delegation of powers by inspectors",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s361",
+   "num": "361",
+   "heading": "Obstruction of inspectors",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s362",
+   "num": "362",
+   "heading": "Inspector’s reports",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s363",
+   "num": "363",
+   "heading": "Expenses of investigation of affairs of corporation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s364",
+   "num": "364",
+   "heading": "Power to obtain information as to those interested in shares, etc.",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s365",
+   "num": "365",
+   "heading": "Privileged information",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s366",
+   "num": "366",
+   "heading": "Power of Court of First Instance to impose restrictions on voting shares, etc. in case of failure to provide information required by listed corporation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s367",
+   "num": "367",
+   "heading": "Power of Financial Secretary to impose restrictions on shares, etc. in case of conviction of offences for non-compliance of notification requirements",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s368",
+   "num": "368",
+   "heading": "Power of Financial Secretary to impose restrictions on shares, etc. in connection with investigation",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s369",
+   "num": "369",
+   "heading": "Consequence of order imposing restrictions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s370",
+   "num": "370",
+   "heading": "Offences for attempted evasion of restrictions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s371",
+   "num": "371",
+   "heading": "Relaxation and removal of restrictions",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s372",
+   "num": "372",
+   "heading": "Further provisions on sale by court order of restricted shares, etc.",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s373",
+   "num": "373",
+   "heading": "Liability of members for offences by corporations",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s374",
+   "num": "374",
+   "heading": "Mandatory electronic filing of notifications and reports",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s375",
+   "num": "375",
+   "heading": "Form of registers and indices",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s376",
+   "num": "376",
+   "heading": "Regulations by Chief Executive in Council",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s377",
+   "num": "377",
+   "heading": "Rules by Commission",
+   "status": "in-effect",
+   "part": "P15"
+  },
+  {
+   "id": "s378",
+   "num": "378",
+   "heading": "Preservation of secrecy, etc.",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s379",
+   "num": "379",
+   "heading": "Avoidance of conflict of interests",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s380",
+   "num": "380",
+   "heading": "Immunity",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381",
+   "num": "381",
+   "heading": "Immunity in respect of communication with Commission by auditors of listed corporations, etc.",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381A",
+   "num": "381A",
+   "heading": "Preservation of secrecy",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381B",
+   "num": "381B",
+   "heading": "Disclosure by Monetary Authority",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381C",
+   "num": "381C",
+   "heading": "Disclosure if Monetary Authority considers condition satisfied",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381D",
+   "num": "381D",
+   "heading": "Restrictions on disclosure by persons to whom information is disclosed",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381E",
+   "num": "381E",
+   "heading": "Certain information to be given to Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s381F",
+   "num": "381F",
+   "heading": "Disclosure of information to persons outside Hong Kong with similar functions",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s382",
+   "num": "382",
+   "heading": "Obstruction",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s383",
+   "num": "383",
+   "heading": "False or misleading representations in applications to Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s384",
+   "num": "384",
+   "heading": "Provision of false or misleading information",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s385",
+   "num": "385",
+   "heading": "Power of Commission to intervene in proceedings",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s385A",
+   "num": "385A",
+   "heading": "Power of Monetary Authority to intervene in proceedings",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s386",
+   "num": "386",
+   "heading": "Proceedings not to be stayed",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s387",
+   "num": "387",
+   "heading": "Standard of proof",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s387A",
+   "num": "387A",
+   "heading": "Civil proceedings by Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s388",
+   "num": "388",
+   "heading": "Prosecution of certain offences by Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s388A",
+   "num": "388A",
+   "heading": "Prosecution of offences by Monetary Authority",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s389",
+   "num": "389",
+   "heading": "Limitation on commencement of proceedings",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s390",
+   "num": "390",
+   "heading": "Liability of officers of corporations for offences by corporations, and of partners for offences by other partners",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s391",
+   "num": "391",
+   "heading": "Civil liability for false or misleading public communications concerning securities and futures contracts",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s392",
+   "num": "392",
+   "heading": "Financial Secretary to prescribe interests, etc. as securities, etc.",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s392A",
+   "num": "392A",
+   "heading": "Financial Secretary to prescribe markets, instruments etc.",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s393",
+   "num": "393",
+   "heading": "Financial Secretary to prescribe arrangements as collective investment schemes",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s394",
+   "num": "394",
+   "heading": "Orders by Chief Executive in Council for levies",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s395",
+   "num": "395",
+   "heading": "Rules by Chief Executive in Council for payment of fees",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s396",
+   "num": "396",
+   "heading": "Reduction of levy",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s397",
+   "num": "397",
+   "heading": "Rules by Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s398",
+   "num": "398",
+   "heading": "General provisions for rules by Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s399",
+   "num": "399",
+   "heading": "Codes or guidelines by Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s400",
+   "num": "400",
+   "heading": "Service of notices, etc.",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s401",
+   "num": "401",
+   "heading": "Evidence regarding Commission’s records or documents",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s402",
+   "num": "402",
+   "heading": "General requirements for documents lodged with Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s403",
+   "num": "403",
+   "heading": "General provisions for approvals by Commission",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s404",
+   "num": "404",
+   "heading": "Exclusions of provisions of Gambling Ordinance",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s405",
+   "num": "405",
+   "heading": "Inland Revenue Ordinance not affected",
+   "status": "in-effect",
+   "part": "P16"
+  },
+  {
+   "id": "s406",
+   "num": "406",
+   "heading": "Repeals",
+   "status": "in-effect",
+   "part": "P17"
+  },
+  {
+   "id": "s407",
+   "num": "407",
+   "heading": "Savings, transitional, consequential and related provisions, etc.",
+   "status": "in-effect",
+   "part": "P17"
+  },
+  {
+   "id": "s408",
+   "num": "408",
+   "heading": "Provisions of Part XVII, etc. not to derogate from section 23 of Interpretation and General Clauses Ordinance",
+   "status": "in-effect",
+   "part": "P17"
+  },
+  {
+   "id": "s409",
+   "num": "409",
+   "heading": "Amendment of Schedule 10",
+   "status": "in-effect",
+   "part": "P17"
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Interpretation and General Provisions",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Interpretation of this Ordinance",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1A",
+     "num": "1A",
+     "heading": "Meaning of structured product",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1B",
+     "num": "1B",
+     "heading": "Meaning of OTC derivative product",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "References to subsidiary",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "References to related corporation",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "References to controlling the composition of a corporation’s board of directors",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "References to wholly owned subsidiary",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "References to substantial shareholder",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "References to securities of a corporation",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "References to interest of investing public",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "References to conditions",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "References relating to regulated activity",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "References to contravention, etc.",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "References to Ordinance",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "Notes in Ordinance",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "Commencement of subsidiary legislation",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s25",
+     "num": "25",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s26",
+     "num": "26",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s27",
+     "num": "27",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s28",
+     "num": "28",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s29",
+     "num": "29",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s30",
+     "num": "30",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s31",
+     "num": "31",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32",
+     "num": "32",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s33",
+     "num": "33",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s34",
+     "num": "34",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s25",
+     "num": "25",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s26",
+     "num": "26",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s27",
+     "num": "27",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s28",
+     "num": "28",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s29",
+     "num": "29",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s30",
+     "num": "30",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s31",
+     "num": "31",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32",
+     "num": "32",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Securities and Futures Commission",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9A",
+     "num": "9A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9B",
+     "num": "9B",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9C",
+     "num": "9C",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9D",
+     "num": "9D",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16A",
+     "num": "16A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s25",
+     "num": "25",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s26",
+     "num": "26",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s27",
+     "num": "27",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s28",
+     "num": "28",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s29",
+     "num": "29",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s30",
+     "num": "30",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s31",
+     "num": "31",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32",
+     "num": "32",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Exchange Companies, Clearing Houses and Exchange Controllers",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "Restrictions on and sale of securities",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "Punishment for attempted evasion of restrictions",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "Prohibition on certain person acting as indirect controllers",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch4",
+   "num": "Schedule 4",
+   "heading": "Offers of Investments",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch5",
+   "num": "Schedule 5",
+   "heading": "Regulated Activities",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "#1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "#2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "#3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "#5",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch6",
+   "num": "Schedule 6",
+   "heading": "Specified Titles",
+   "status": "in-effect",
+   "items": []
+  },
+  {
+   "id": "sch7",
+   "num": "Schedule 7",
+   "heading": "Offers by Intermediaries or Representatives for Type 1, Type 4 or Type 6 Regulated Activity under Section 175 of this Ordinance",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch8",
+   "num": "Schedule 8",
+   "heading": "Securities and Futures Appeals Tribunal",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s25",
+     "num": "25",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s26",
+     "num": "26",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s27",
+     "num": "27",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s28",
+     "num": "28",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s29",
+     "num": "29",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s30",
+     "num": "30",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s31",
+     "num": "31",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32",
+     "num": "32",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s33",
+     "num": "33",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s34",
+     "num": "34",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s35",
+     "num": "35",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s36",
+     "num": "36",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch9",
+   "num": "Schedule 9",
+   "heading": "Market Misconduct Tribunal",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14A",
+     "num": "14A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15A",
+     "num": "15A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19A",
+     "num": "19A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21A",
+     "num": "21A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s25",
+     "num": "25",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s26",
+     "num": "26",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s27",
+     "num": "27",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s28",
+     "num": "28",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s29",
+     "num": "29",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s30",
+     "num": "30",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s31",
+     "num": "31",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32",
+     "num": "32",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32A",
+     "num": "32A",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s33",
+     "num": "33",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s34",
+     "num": "34",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s35",
+     "num": "35",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s36",
+     "num": "36",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s37",
+     "num": "37",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s38",
+     "num": "38",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s39",
+     "num": "39",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s40",
+     "num": "40",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  },
+  {
+   "id": "sch10",
+   "num": "Schedule 10",
+   "heading": "Savings, Transitional, Consequential and Related Provisions, etc.",
+   "status": "in-effect",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s25",
+     "num": "25",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s26",
+     "num": "26",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s27",
+     "num": "27",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s28",
+     "num": "28",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s29",
+     "num": "29",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s30",
+     "num": "30",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s31",
+     "num": "31",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s32",
+     "num": "32",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s33",
+     "num": "33",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s34",
+     "num": "34",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s35",
+     "num": "35",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s36",
+     "num": "36",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s37",
+     "num": "37",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s38",
+     "num": "38",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s39",
+     "num": "39",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s40",
+     "num": "40",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s41",
+     "num": "41",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s42",
+     "num": "42",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s43",
+     "num": "43",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s44",
+     "num": "44",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s45",
+     "num": "45",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s46",
+     "num": "46",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s47",
+     "num": "47",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s48",
+     "num": "48",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s49",
+     "num": "49",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s50",
+     "num": "50",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s51",
+     "num": "51",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s52",
+     "num": "52",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s53",
+     "num": "53",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s54",
+     "num": "54",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s55",
+     "num": "55",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s56",
+     "num": "56",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s57",
+     "num": "57",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s58",
+     "num": "58",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s59",
+     "num": "59",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s60",
+     "num": "60",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s61",
+     "num": "61",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s62",
+     "num": "62",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s63",
+     "num": "63",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s64",
+     "num": "64",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s65",
+     "num": "65",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s66",
+     "num": "66",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s67",
+     "num": "67",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s68",
+     "num": "68",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s69",
+     "num": "69",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s70",
+     "num": "70",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s71",
+     "num": "71",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s72",
+     "num": "72",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s73",
+     "num": "73",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s74",
+     "num": "74",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s75",
+     "num": "75",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s76",
+     "num": "76",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s77",
+     "num": "77",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s78",
+     "num": "78",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s79",
+     "num": "79",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s80",
+     "num": "80",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s81",
+     "num": "81",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s82",
+     "num": "82",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s83",
+     "num": "83",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s84",
+     "num": "84",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s85",
+     "num": "85",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s86",
+     "num": "86",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s87",
+     "num": "87",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s88",
+     "num": "88",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s89",
+     "num": "89",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s90",
+     "num": "90",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s91",
+     "num": "91",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s92",
+     "num": "92",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s93",
+     "num": "93",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect"
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect"
+    }
+   ]
+  }
+ ]
+}
