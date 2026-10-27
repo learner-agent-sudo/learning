@@ -17,12 +17,12 @@ const REGIME: Record<Regime, { pill: string; dot: string; title: string }> = {
   'in-force': {
     pill: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-400/15 dark:text-emerald-200',
     dot: 'bg-emerald-500',
-    title: 'The main regime is law in force',
+    title: 'The rules that govern it are in force: legislation, or regulator guidance where no statute applies',
   },
   transitional: {
     pill: 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200',
     dot: 'bg-amber-500',
-    title: 'Law in force, with transitional arrangements still running',
+    title: 'Rules apply now, but a new statutory regime or transitional arrangements are on the way',
   },
   proposed: {
     pill: 'bg-fuchsia-50 text-fuchsia-700 dark:bg-fuchsia-400/15 dark:text-fuchsia-200',

@@ -56,6 +56,7 @@ export interface BankingStage {
 // Legal force of a source behind a requirement, strongest first.
 export type Strength =
   | 'statute'
+  | 'case-law'
   | 'statutory-guideline'
   | 'hkma-guidance'
   | 'sfc-guidance'
@@ -65,6 +66,7 @@ export type Strength =
 
 export const STRENGTH_LABEL: Record<Strength, string> = {
   statute: 'Statute',
+  'case-law': 'Case law',
   'statutory-guideline': 'Statutory guideline',
   'hkma-guidance': 'HKMA guidance',
   'sfc-guidance': 'SFC guidance',

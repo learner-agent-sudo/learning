@@ -10,6 +10,12 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
     bar: 'bg-indigo-500',
     title: 'Legislation: binding, with legal consequences for breach',
   },
+  'case-law': {
+    label: STRENGTH_LABEL['case-law'],
+    pill: 'bg-blue-50 text-blue-700 dark:bg-blue-400/15 dark:text-blue-200',
+    bar: 'bg-blue-500',
+    title: 'A court judgment: binding on the points it decides, subject to appeal and later cases',
+  },
   'statutory-guideline': {
     label: STRENGTH_LABEL['statutory-guideline'],
     pill: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200',

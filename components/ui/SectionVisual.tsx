@@ -55,7 +55,7 @@ function Stack({ items }: { items: VisualItem[] }) {
         >
           <span className="leading-snug">
             <span className={it.soft ? 'text-ink/80' : 'font-semibold'}>{it.label}</span>
-            {it.note && <span className="block text-[12.5px] text-ink/65">{it.note}</span>}
+            {it.note && <span className="block text-[12.5px] text-ink/80">{it.note}</span>}
           </span>
           {it.value && <span className="font-serif text-lg font-semibold text-phase">{it.value}</span>}
         </li>

@@ -12,7 +12,7 @@ export const GROUP_LABEL: Record<ActivityGroup, string> = {
 
 export const REGIME_LABEL: Record<Regime, string> = {
   'in-force': 'In force',
-  transitional: 'Transitional',
+  transitional: 'In transition',
   proposed: 'Proposed',
   pilot: 'Pilot',
 };

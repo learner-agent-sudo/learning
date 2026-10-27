@@ -105,7 +105,7 @@ function Provisions({ stage }: { stage: Stage }) {
         CHIP + ' ' + (filter === id ? 'border-ink bg-ink text-paper' : 'border-line bg-panel text-muted hover:text-ink')
       }
     >
-      {label} <span className="font-mono opacity-80">{count}</span>
+      {label} <span className="font-mono tabular-nums">{count}</span>
     </button>
   );
   return (
