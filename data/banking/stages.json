@@ -902,8 +902,8 @@
         "instrument": "HKMA Supervisory Policy Manual",
         "ref": "CG-1 (V.4, 1 Aug 2025)",
         "title": "Corporate governance of locally incorporated AIs",
-        "summary": "Statutory guideline under s.7(3) setting expectations on board responsibilities, structure and composition, the chair, INEDs, board committees, appointment of directors (fit and proper, commitment, succession) and conflicts of interest. The HKMA's letter of 1 August 2025 issuing V.4 described the updates as primarily to align with international standards (letter and V.4 not supplied; check). The topics listed match V.3 (6 October 2017); check V.4 for any changes to them.",
-        "counselNote": "Benchmark board and committee charters, INED numbers and expertise, and directors' time commitments against CG-1, and document the rationale for any departure. CG-1 V.3 also expects that, where a standard is not met, the bank can show alternative measures with equivalent effect and notifies the HKMA promptly with its justification (CG-1 V.3 1.2.4; check V.4).",
+        "summary": "Statutory guideline under s.7(3) setting expectations on board responsibilities, structure and composition, the chair, INEDs, board committees, appointment of directors (fit and proper, commitment, succession) and conflicts of interest. The HKMA's letter of 1 August 2025 issuing V.4 described the updates as primarily to align with international standards (letter not supplied here; check). V.4 covers the same topics as V.3 (6 October 2017) and adds firmer expectations on roles outside the bank's banking group. The chief executive and alternates should avoid directorships or management posts outside it, unless they can show the board that conflicts are guarded against and that they can give the bank enough time (CG-1 V.4 2.6.13). Before appointing a director who sits on a board, or helps manage an entity, outside the banking group, the board should be satisfied the candidate has enough time (CG-1 V.4 6.1.2, 6.2.1). At least once a year it should review whether each director remains suitable, taking account of time commitment and conflicts (CG-1 V.4 6.1.4, 8.2). The HKMA may require details of the outside directorships and management posts held by directors and the chief executive (CG-1 V.4 11.3.1).",
+        "counselNote": "Benchmark board and committee charters, INED numbers and expertise, and directors' time commitments against CG-1, and document the rationale for any departure. Where an element of CG-1 is not met, the bank should ensure that alternative measures with equivalent effect are in place and should notify the HKMA promptly, with its justification (CG-1 V.4 1.2.4).",
         "confidence": "high"
       },
       {
@@ -965,7 +965,8 @@
       "**Review the remuneration policy** and sales incentive schemes against CG-5 and the Bank Culture Reform circulars.",
       "**Embed MRC Phase 2 steps** into recruitment and leaver workflows, with PDPO-compliant record-keeping.",
       "**Inventory intra-group arrangements** (cloud, data, payments, marketing, shared staff) and test them against connected-party limits, CR-G-9 and outsourcing requirements.",
-      "**Keep controllers' letters of comfort current**, brief the parent on its continuing obligations as a controller, and assess how the holding company regime in the 2026 Bill would affect the group."
+      "**Keep controllers' letters of comfort current**, brief the parent on its continuing obligations as a controller, and assess how the holding company regime in the 2026 Bill would affect the group.",
+      "**Track outside roles:** keep a register of directorships and management posts held outside the banking group by directors, the chief executive and alternates, and senior management. Check conflicts and time commitment before a role is taken up, review directors at least annually, and keep the details ready for the HKMA (CG-1 V.4 2.6.12–2.6.14, 6.1.4, 11.3.1)."
     ],
     "itAngle": [
       "**Ownership graph:** Model the group as a graph: controller status depends on voting power aggregated through holding chains and associates, much like computing effective permissions through nested groups in an identity and access system.",
@@ -976,7 +977,7 @@
     "virtualBankNotes": [
       "**Holding company:** Where the bank is not majority-owned by a bank or financial institution in good standing and supervised by a recognised authority in Hong Kong or elsewhere, the guideline expects it to be held through a Hong Kong-incorporated intermediate holding company, with supervisory conditions imposed on that company (para 9). It and the ultimate parent will typically be controllers needing s.70 consent. In practice the HKMA usually also takes letters of comfort from controllers. The 2026 Bill would allow direct supervision of designated holding companies.",
       "**Upstream cap table:** Tech-group parents often have founders, venture funds and public shareholders upstream; changes in that cap table are a common source of unexpected controller approvals.",
-      "**Shared executives:** Executives shared with or seconded from the parent need s.71 consent or s.72B notification in their bank role, plus conflicts management under CG-1."
+      "**Shared executives:** Executives shared with or seconded from the parent need s.71 consent or s.72B notification in their bank role, plus conflicts management under CG-1. A chief executive or alternate who keeps a directorship or management post outside the bank's banking group, which may include a role at a non-bank parent (inference), should avoid it unless they can show the board that conflicts are guarded against and that they can give the bank enough time (CG-1 V.4 2.6.13). For other senior managers and staff, the bank should have an approval step before they take up such a role (CG-1 V.4 2.6.12)."
     ],
     "pitfalls": [
       "**Share register only:** Looking only at the bank's own share register, when controller status is tested through the ownership chain and with associates.",
@@ -2009,7 +2010,7 @@
             "stance": "must-have",
             "why": "Where the Services support the Bank's e-banking, the core is mandatory: TM-E-1, a statutory guideline under BO s.7(3) whose requirements AIs should comply with (1.4.2), says independent assessments and annual penetration tests should cover relevant outsourced systems and vendor-built Internet banking code should be adequately reviewed (3.3.1, 3.3.2, 5.3.2). Otherwise the clause rests on non-statutory guidance (SA-2 2.8.2; TM-G-1 7.1.1) and works at the expected level.",
             "preferred": [
-              "**Bank audit right:** The Bank, its auditors and its appointed assessors may audit the Supplier's and Subcontractors' premises, systems, records and controls for the Services, so auditors' access to Bank Data is not impeded (SA-2 2.8.2) and internal audit's access does not stop at the vendor (inference from CG-1 V.3 2.9.3; check V.4).",
+              "**Bank audit right:** The Bank, its auditors and its appointed assessors may audit the Supplier's and Subcontractors' premises, systems, records and controls for the Services, so auditors' access to Bank Data is not impeded (SA-2 2.8.2) and internal audit's access does not stop at the vendor (inference from CG-1 V.4 2.9.3).",
               "**Annual control assessment:** For each Critical Service, the Supplier supports the Bank's annual assessment of the adequacy of its IT control environment, with an independent assessor where the Bank chooses (TM-G-1 7.1.1).",
               "**E-banking assurance:** For systems or processes supporting e-banking, the Supplier cooperates with pre-launch independent assessments and at least annual penetration tests by qualified independent parties, and gives evidence of an adequate code review process for software it builds (TM-E-1 3.3.1, 3.3.2, 5.3.2).",
               "**Fix and verify:** Findings are fixed under an agreed plan and deadlines, tracked to closure and re-tested, with termination if material ones stay open (counsel's drafting; compare TM-G-1 2.4.1). Material issues from an e-banking assessment are resolved, or accepted by senior management with justification, before launch (TM-E-1 3.3.1(i))."
@@ -2550,7 +2551,7 @@
             "**Accountable for agents and providers:** banks should be responsible and accountable for the actions of their authorized agents and third-party service providers, and staff, especially customer-facing staff, should be properly trained and qualified (CoBP 2.5). Training and conduct duties for vendor personnel who deal with customers follow from this (drafting inference).",
             "**Business conduct:** the bank should not enter into or continue an outsourcing that may compromise or weaken its business conduct (SA-2 1.2.2). Conduct standards and removal rights over vendor personnel are the contractual means (inference).",
             "**Customer authentication roles (e-banking):** where vendor staff generate, reissue or reset passwords, segregation of duties should stop them being disclosed or leaked (TM-E-1 4.1.3); where they ask phone-banking challenge questions, controls should minimise the risk that they could impersonate the customer (TM-E-1 7.4.1).",
-            "**Bribery and conflicts:** the Prevention of Bribery Ordinance (Cap. 201) binds the vendor and its personnel by law (not checked against the official text here). Vendor gift and conflict terms support the bank's own controls on conflicts of interest and on staff benefiting from advantages (CG-1 V.3 2.6.8–2.6.10; check V.4; inference). For agents' conflicts with customers, see the marketing and distribution partners clause."
+            "**Bribery and conflicts:** the Prevention of Bribery Ordinance (Cap. 201) binds the vendor and its personnel by law (not checked against the official text here). Vendor gift and conflict terms support the bank's own controls on conflicts of interest and on staff benefiting from advantages (CG-1 V.4 2.6.8–2.6.10; inference). For agents' conflicts with customers, see the marketing and distribution partners clause."
           ],
           "sources": [
             {
@@ -2590,9 +2591,9 @@
             },
             {
               "label": "SPM CG-1 Corporate governance",
-              "ref": "2.6.7–2.6.10 (V.3)",
+              "ref": "2.6.7–2.6.10 (V.4)",
               "strength": "statutory-guideline",
-              "note": "V.3 numbering (6 October 2017); check V.4. The bank should have a whistleblowing policy for its staff (2.6.7), policies to identify and prevent or manage conflicts of interest (2.6.8–2.6.9), and controls to stop directors and employees benefiting from advantages offered to them that may lead to improper or illegal behaviour (2.6.10). Written for the bank's own governance; applied to vendor terms by inference."
+              "note": "V.4 numbering (1 August 2025). The bank should have a whistleblowing policy for its staff (2.6.7), policies to identify and prevent or manage conflicts of interest (2.6.8–2.6.9), and controls to stop directors and employees benefiting from advantages offered to them that may lead to improper or illegal behaviour (2.6.10). Written for the bank's own governance; applied to vendor terms by inference."
             },
             {
               "label": "SPM OR-2 Operational resilience",
@@ -2612,7 +2613,7 @@
             "**Key personnel:** for Critical Services, name key roles, control their replacement and require a handover. This supports the bank's mapping of the people behind its critical operations, including at third parties (OR-2 5.1; counsel's inference).",
             "**Keep to this lane:** staff confidentiality undertakings sit in the confidentiality clause, need-to-know data access in the segregation clause, and technical controls and the physical security of facilities in the information security clause; this clause is the single home for vetting, conduct and removal of people, and for their entry to the bank's secure areas.",
             "**Proportionate and lawful checks:** set screening depth by role (privileged technology access, Customer Data access, customer-facing work) and require checks only so far as lawful where the individual works; the vendor, as employer, runs and holds them (counsel's drafting).",
-            "**Speaking up:** consider letting vendor personnel raise concerns about the services through the bank's confidential whistleblowing channel (by analogy with CG-1 V.3 2.6.7; check V.4)."
+            "**Speaking up:** consider letting vendor personnel raise concerns about the services through the bank's confidential whistleblowing channel (by analogy with CG-1 V.4 2.6.7)."
           ],
           "cloud": "Large cloud providers rarely vet named individuals to a bank's standard or accept removal of specific staff; they rely on their own personnel-security programme, evidenced in independent assurance reports (market practice, not from the sources). Focus on controls over privileged access to Bank Data and on those reports.",
           "playbook": {
@@ -2660,7 +2661,7 @@
               },
               {
                 "says": "Anti-bribery law applies anyway, so a clause is unnecessary.",
-                "reply": "The law applies regardless, but the clause adds a reporting duty and a termination right, and supports our own controls against staff receiving advantages (CG-1 V.3 2.6.10; check V.4)."
+                "reply": "The law applies regardless, but the clause adds a reporting duty and a termination right, and supports our own controls against staff receiving advantages (CG-1 V.4 2.6.10)."
               }
             ],
             "escalate": "Suggest Head of Legal with the Chief Information Security Officer and Head of Procurement sign off deviations, and that a refused red line on screening, secure-area access or exclusion goes to the CRO."
@@ -3543,7 +3544,7 @@
           "appliesTo": [
             "intragroup"
           ],
-          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Being in the group earns no discount: whether or not the provider is in the group, the MA must be satisfied that the outsourced operations keep adequate security controls, that customer confidentiality and the PDPO are respected, and that his Banking Ordinance powers, in particular s.52, are not hindered (Digital Bank Guideline para 23). Responsibilities should be set out in writing. The bank is a separate legal entity: its directors are not absolved from responsibility for the effects of group policies and actions applied to it, and its board remains ultimately responsible for their implementation and effectiveness in the bank (CG-1 V.3 9.2.2; check V.4).",
+          "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Being in the group earns no discount: whether or not the provider is in the group, the MA must be satisfied that the outsourced operations keep adequate security controls, that customer confidentiality and the PDPO are respected, and that his Banking Ordinance powers, in particular s.52, are not hindered (Digital Bank Guideline para 23). Responsibilities should be set out in writing. The bank is a separate legal entity: its directors are not absolved from responsibility for the effects of group policies and actions applied to it, and its board remains ultimately responsible for their implementation and effectiveness in the bank (CG-1 V.4 9.2.2).",
           "require": [
             "**Form:** SA-2 expects a service agreement (2.4.1). A memorandum of understanding 'may be acceptable' where the provider is a wholly-owned subsidiary of the bank, or the head office or another branch of a foreign bank (2.4.3). A tech-group parent or sister company falls outside 2.4.3, so use a full agreement (inference from 2.4.1 and 2.4.3).",
             "**Documented responsibilities:** senior management should ensure the respective responsibilities of the bank and group offices for IT controls and support are clearly set out (TM-G-1 2.6.1, written for overseas offices of the same banking group, where policies, procedures or service agreements may serve). For a non-bank group affiliate, put them in the service agreement (inference from SA-2 2.4.1 and 2.4.3).",
@@ -3578,9 +3579,9 @@
             },
             {
               "label": "SPM CG-1 Corporate governance",
-              "ref": "9.2.1–9.2.3, 2.6.11, 2.6.13–2.6.14 (V.3; check V.4)",
+              "ref": "9.2.1–9.2.3, 2.6.11, 2.6.13–2.6.15 (V.4)",
               "strength": "statutory-guideline",
-              "note": "Checked against V.3 (6 October 2017); V.4 (1 August 2025) is current and was not supplied, so check its numbering and text. Section 9.2 covers any AI that belongs to a larger group of companies, so it applies directly to a digital bank in a technology group, not by analogy (see also Digital Bank Guideline paras 8, 11). Key policies may be set centrally at holding company level (9.2.1), but the directors are not absolved from responsibility for the effects of policies applied to the bank, 'group' policy or not, and the board stays ultimately responsible for their implementation and effectiveness (9.2.2). The board should give input to, or promptly evaluate, group policies. If one may breach legal or regulatory requirements or harm the bank's sound and prudent operation, or the holding company does not respond adequately to the board's concerns, the board should record its dissent, act to protect the bank, and consider independent advice and raising the issue with the HKMA (9.2.3). V.3 also lists the parent company among relationships that can create conflicts of interest (2.6.11), and expects a board-level conflicts policy and checks on directors appointed by a controlling shareholder (2.6.13–2.6.14). V.1 had the group points at 6.2.13–6.2.14, framed for subsidiaries of banking institutions."
+              "note": "Checked against V.4 (1 August 2025). Section 9.2 covers any AI that belongs to a larger group of companies, so it applies directly to a digital bank in a technology group, not by analogy (see also Digital Bank Guideline paras 8, 11). Key policies may be set centrally at holding company level (9.2.1), but the directors are not absolved from responsibility for the effects of policies applied to the bank, 'group' policy or not, and the board stays ultimately responsible for their implementation and effectiveness (9.2.2). The board should give input to, or promptly evaluate, group policies. If one may breach legal or regulatory requirements or harm the bank's sound and prudent operation, or the holding company does not respond adequately to the board's concerns, the board should record its dissent, act to protect the bank, and consider independent advice and raising the issue with the HKMA (9.2.3). CG-1 also lists the parent company among relationships that can create conflicts of interest (2.6.11), and expects a board-level conflicts policy (2.6.14). For directors appointed by a controlling shareholder, the board should consider set procedures or regular reviews to confirm they act in the bank's best interest (2.6.15). V.4 adds that the chief executive and alternates should avoid directorships or management posts outside the bank's banking group unless they can satisfy the board on conflicts and time (2.6.13); a role at a non-bank parent that supplies the services may be one (inference). V.1 had the group points at 6.2.13–6.2.14, framed for subsidiaries of banking institutions."
             }
           ],
           "drafting": [
@@ -3588,12 +3589,12 @@
           ],
           "playbook": {
             "stance": "must-have",
-            "why": "The Digital Bank Guideline, a statutory guideline under BO s.16(10), applies its outsourcing conditions whether or not the provider is in the group, including points the MA must be satisfied of (para 23); CG-1 V.3 9.2.2 (statutory guideline; check V.4) keeps the bank's board ultimately responsible for group policies and practices applied to the bank. Document form and the resilience check are SA-2 and OR-2 expectations, tradeable above that floor.",
+            "why": "The Digital Bank Guideline, a statutory guideline under BO s.16(10), applies its outsourcing conditions whether or not the provider is in the group, including points the MA must be satisfied of (para 23); CG-1 V.4 9.2.2 (statutory guideline) keeps the bank's board ultimately responsible for group policies and practices applied to the bank. Document form and the resilience check are SA-2 and OR-2 expectations, tradeable above that floor.",
             "preferred": [
               "**Full agreement:** a written services agreement with the same Regulator access, audit, confidentiality, data, continuity and exit terms as a third-party contract (SA-2 1.1.1, 2.4.1). A memorandum of understanding fits only a wholly-owned subsidiary of the Bank (SA-2 2.4.3).",
               "**Responsibilities mapped:** a schedule allocating responsibility between the Bank and the group Supplier for each IT control and support activity, reviewed at least [annually] (by analogy with TM-G-1 2.6.1, written for offices of the same banking group).",
               "**Resilience verified:** before the arrangement supports critical operations, evidence, measured against agreed recovery objectives, that the group Supplier's operational resilience is at least equivalent to the Bank's, or other steps where that is not feasible, then ongoing information to keep checking it (OR-2 6.2; see the continuity clause).",
-              "**Arm's length and independent:** commercial pricing and service levels (counsel's drafting), and the Bank's rights exercisable by its own board and management without group approval (inference from CG-1 V.3 9.2.2–9.2.3; check V.4)."
+              "**Arm's length and independent:** commercial pricing and service levels (counsel's drafting), and the Bank's rights exercisable by its own board and management without group approval (inference from CG-1 V.4 9.2.2–9.2.3)."
             ],
             "fallback": [
               "**Group master agreement:** a group-wide master agreement with a Bank schedule. Only if the schedule prevails on regulatory terms and the Bank can vary or terminate its schedule by its own decision.",
@@ -3603,7 +3604,7 @@
             ],
             "redLines": [
               "**No regulatory discount:** the group Supplier accepts the security, confidentiality and PDPO terms in full, and nothing may hinder the MA's powers, including s.52 (Digital Bank Guideline para 23). BO ss.55–56 do not reach a parent or sister company, and s.63(2A) gives only an information power, so inspection rights must come from the contract (SA-2 2.8.2).",
-              "**No group override:** the Bank's rights to audit, instruct, suspend, terminate or exit must not depend on group policy, a group committee or parent consent, in the contract or in the Bank's articles, shareholder agreement or group authority matrix (inference from the board's duty to protect the bank, CG-1 V.3 9.2.2–9.2.3; check V.4)."
+              "**No group override:** the Bank's rights to audit, instruct, suspend, terminate or exit must not depend on group policy, a group committee or parent consent, in the contract or in the Bank's articles, shareholder agreement or group authority matrix (inference from the board's duty to protect the bank, CG-1 V.4 9.2.2–9.2.3)."
             ],
             "model": [
               "(a) The Supplier's membership of the Bank's group does not limit or qualify any of its obligations under this Agreement, including on Regulator access, audit, confidentiality, Personal Data, data location, continuity and exit. No group policy, intragroup arrangement or instruction from another group member prevails over this Agreement. No group member may use Bank Data for its own purposes except under a separate written agreement the Bank approves and Applicable Law permits.",
@@ -3626,14 +3627,14 @@
               },
               {
                 "says": "Group policy already sets these standards for every subsidiary.",
-                "reply": "We can align with group standards, but our directors are not absolved by group policy and our board stays ultimately responsible (CG-1 V.3 9.2.2; check V.4). Our contractual rights cannot depend on group approval."
+                "reply": "We can align with group standards, but our directors are not absolved by group policy and our board stays ultimately responsible (CG-1 V.4 9.2.2). Our contractual rights cannot depend on group approval."
               },
               {
                 "says": "A full arm's-length contract is excessive inside one group.",
                 "reply": "SA-2 treats group providers as outsourcing (1.1.1) and expects a service agreement (2.4.1); an MoU fits only a wholly-owned subsidiary of the Bank (2.4.3). We can start from your group template with a Bank schedule."
               }
             ],
-            "escalate": "Suggested: deviations go to the Head of Legal and the CRO, then to the board or its risk committee, with directors appointed by or connected to the Supplier's group declaring the interest and abstaining under the board's conflicts policy (CG-1 V.3 2.6.13–2.6.14; check V.4)."
+            "escalate": "Suggested: deviations go to the Head of Legal and the CRO, then to the board or its risk committee, with directors appointed by or connected to the Supplier's group declaring the interest and abstaining under the board's conflicts policy (CG-1 V.4 2.6.14–2.6.15)."
           }
         },
         {
@@ -4002,7 +4003,7 @@
           "**Three stances:** must-have means the core comes from statute, from a statutory guideline, or from something an HKMA source says the MA must be satisfied of or the bank must do. Do not sign without it. Expected means the core comes from non-statutory HKMA guidance (SA-2, TM-G-1, OR-2) or the Code of Banking Practice. Negotiable means good practice only, traded commercially; no clause in this kit is negotiable overall. Where only part of a clause is mandatory, its red lines mark that floor.",
           "**Handling a deviation:** every fallback still meets the must-have floor. Anything beyond a fallback needs a written rationale, compensating controls and sign-off at the level suggested below, recorded in the vendor risk file. If a vendor refuses a must-have, escalate and consider whether the arrangement can go ahead; for material outsourcing, consider discussing it with the HKMA (SA-2 1.3.2; Digital Bank Guideline para 23). Falling short on an expected term can bear on whether the bank still meets the Seventh Schedule criteria (SA-2 1.2.2).",
           "**Brackets:** square brackets mark drafting choices and figures, such as [30] days or [Schedule 3]. The figures are illustrative and not from the sources. Set them from the bank's own risk assessment and tolerances for disruption. Where statute fixes the bank's own deadline, as Cap. 653 s.28 and Sch. 6 do for incident notice, the playbook states it accurately and gives the Supplier a shorter deadline in brackets.",
-          "**Status:** this is study material, written as counsel's drafting from the documents supplied. It is not legal advice and not HKMA text: the sources are paraphrased and the model wording is original. Before relying on it, check the current versions (CG-1 V.4 and any later HKMA circulars were not supplied; check) and take advice."
+          "**Status:** this is study material, written as counsel's drafting from the documents supplied. It is not legal advice and not HKMA text: the sources are paraphrased and the model wording is original. Before relying on it, check the current versions (CG-1 was checked against V.4, 1 August 2025; later HKMA circulars were not supplied, so check) and take advice."
         ],
         "definitions": [
           {
@@ -4101,7 +4102,7 @@
           ]
         }
       ],
-      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (issued under s.16(10) BO), SPM SA-2 (V.1, 28 December 2001; non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory guidance note), TM-E-1 (V.4, 25 October 2024; statutory guideline under s.7(3) BO), CG-1 (V.3, 6 October 2017; statutory guideline under s.7(3) BO; the HKMA register lists V.4, 1 August 2025, as current, which was not supplied, so check CG-1 numbering against it), OR-2 (V.1, 31 May 2022; non-statutory guidance note), the HKMA AML/CFT Guideline (May 2023; issued under s.7 AMLO and s.7(3) BO), the Code of Banking Practice (effective 7 December 2023; non-statutory industry code) and HKMA Guideline 3.4.1 on debt collection agencies (3 May 1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. Statute references are to the official text (PDPO Cap. 486, Banking Ordinance Cap. 155, AMLO Cap. 615, Cap. 653)."
+      "caveat": "Built from the documents you supplied: the Digital Bank Guideline (issued under s.16(10) BO), SPM SA-2 (V.1, 28 December 2001; non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory guidance note), TM-E-1 (V.4, 25 October 2024; statutory guideline under s.7(3) BO), CG-1 (V.4, 1 August 2025; statutory guideline under s.7(3) BO), OR-2 (V.1, 31 May 2022; non-statutory guidance note), the HKMA AML/CFT Guideline (May 2023; issued under s.7 AMLO and s.7(3) BO), the Code of Banking Practice (effective 7 December 2023; non-statutory industry code) and HKMA Guideline 3.4.1 on debt collection agencies (3 May 1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. Statute references are to the official text (PDPO Cap. 486, Banking Ordinance Cap. 155, AMLO Cap. 615, Cap. 653)."
     }
   },
   {

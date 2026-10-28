@@ -164,7 +164,6 @@
     "The detailed structure of s.70 (decision periods, offences) and the precise heading, scope and consequences of s.70A were not verified against current statutory text.",
     "Whether s.72B is purely a notification regime or also gives the MA a power to object, the time limit for notice, and the exact content of the Fourteenth Schedule were not confirmed.",
     "Section 71C (consent for executive officers of registered institutions) is referred to in HKMA's 2017 circular; its exact scope was not reviewed.",
-    "The operative text of CG-1 V.4 was not reviewed; INED numbers (reported as at least one-third or three), committee requirements and the detail of the 2025 changes come from secondary summaries.",
     "Whether CR-G-9 V.5 (a draft dated December 2025) has replaced V.4 (effective 1 January 2025) was not confirmed.",
     "Status of the Banking Legislation (Miscellaneous Amendments) Bill 2026 as at October 2026, and whether a digital bank's intermediate holding company would be designated under the proposed holding company regime.",
     "The exact roles covered in MRC Phase 1 were taken from secondary summaries."
@@ -2179,6 +2178,22 @@
    "evidence": "Sandbox launch August 2024 consistent with known record; EnsembleTX date not confirmed this run",
    "fix": "softened",
    "severity": "imprecise"
+  },
+  {
+   "stage_id": "people",
+   "location": "provisions[4] (CG-1) summary and counselNote; virtualBankNotes[2]; checklist (new last item)",
+   "problem": "Written from CG-1 V.3 and flagged 'check V.4'. V.4 (supplied by the user) adds expectations on roles outside the banking group: chief executives and alternates (2.6.13), an approval step for senior management and staff (2.6.12), time commitment on appointment (6.1.2, 6.2.1), an annual suitability review covering time and conflicts (6.1.4, 8.2) and HKMA requests for details of outside roles (11.3.1). V.4 1.2.4 now says AIs should ensure equivalent alternative measures and notify the HKMA, rather than that it may be acceptable to demonstrate them.",
+   "fix": "Summary rewritten from V.4; counsel note restated from V.4 1.2.4; shared-executives note and a new checklist item cover outside roles. V.4 confirms INED numbers (one-third or three, whichever is higher, for licensed banks and systemically important AIs, at least two with accounting, banking or financial background: 4.2.5).",
+   "severity": "incomplete",
+   "evidence": "CG-1 V.4 (01.08.2025) text supplied by the user, compared with V.3 (06.10.2017) paragraph by paragraph."
+  },
+  {
+   "stage_id": "technology",
+   "location": "vendorKit terms[3], [9], [20]; playbook intro[4]; caveat",
+   "problem": "CG-1 citations used V.3 numbering with 'check V.4'. V.4 inserts a new 2.6.13, so V.3 2.6.13–2.6.17 are V.4 2.6.14–2.6.18; 2.6.7–2.6.11, 2.9.3 and 9.2.1–9.2.3 keep their numbers and substance (V.4 2.6.7 drops 'material and bona fide' before concerns).",
+   "fix": "Renumbered to V.4 (2.6.13–2.6.14 became 2.6.14–2.6.15), removed the 'check V.4' flags, and added the V.4 2.6.13 point on the chief executive's outside roles to the intragroup clause's CG-1 source note.",
+   "severity": "wrong-reference",
+   "evidence": "CG-1 V.4 text supplied by the user."
   }
  ]
 }
