@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   title: 'Learning',
   description:
     'Personal study site: M&A, privacy, and Hong Kong financial regulation.',
+  // Added to an iPhone home screen, it opens full screen like an app.
+  appleWebApp: { capable: true, title: 'Learning', statusBarStyle: 'default' },
 };
 
 export const viewport: Viewport = {
