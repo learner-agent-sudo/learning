@@ -39,24 +39,28 @@ export const STANCE: Record<Stance, { chip: string; dot: string; title: string }
 
 const STANCES: Stance[] = ['must-have', 'expected', 'negotiable'];
 
-const STATUS: Record<ReviewStatus, { icon: typeof Check; on: string; pill: string }> = {
+const STATUS: Record<ReviewStatus, { icon: typeof Check; on: string; pill: string; dot: string }> = {
   meets: {
     icon: CircleCheck,
+    dot: 'bg-emerald-600',
     on: 'border-emerald-700 bg-emerald-700 text-white dark:border-emerald-400 dark:bg-emerald-400 dark:text-paper',
     pill: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-400/15 dark:text-emerald-200',
   },
   fallback: {
     icon: Handshake,
+    dot: 'bg-sky-600',
     on: 'border-sky-700 bg-sky-700 text-white dark:border-sky-300 dark:bg-sky-300 dark:text-paper',
     pill: 'bg-sky-50 text-sky-800 dark:bg-sky-400/15 dark:text-sky-200',
   },
   gap: {
     icon: TriangleAlert,
+    dot: 'bg-rose-600',
     on: 'border-rose-700 bg-rose-700 text-white dark:border-rose-300 dark:bg-rose-300 dark:text-paper',
     pill: 'bg-rose-50 text-rose-800 dark:bg-rose-400/15 dark:text-rose-200',
   },
   na: {
     icon: Minus,
+    dot: 'bg-slate-500',
     on: 'border-slate-600 bg-slate-600 text-white dark:border-slate-300 dark:bg-slate-300 dark:text-paper',
     pill: 'bg-slate-100 text-slate-700 dark:bg-slate-400/15 dark:text-slate-200',
   },
@@ -331,7 +335,7 @@ function ReviewBar({
           onChange={(e) => onNote(e.target.value)}
           rows={2}
           placeholder="Notes: clause number in the draft, markup sent, who approved a deviation…"
-          className="block w-full resize-y rounded-lg border border-line bg-paper px-3 py-2 text-sm leading-relaxed placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
+          className="block w-full resize-y rounded-lg border border-line bg-paper px-3 py-2 text-base leading-relaxed placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
         />
       </label>
     </div>
@@ -545,7 +549,7 @@ export function VendorKit({ kit }: { kit: Kit }) {
                 value={review.contract}
                 onChange={(e) => setContract(e.target.value)}
                 placeholder="e.g. Cloud hosting MSA, Supplier draft v3"
-                className="block min-h-10 w-full rounded-lg border border-line bg-paper px-3 text-sm placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
+                className="block min-h-10 w-full rounded-lg border border-line bg-paper px-3 text-base placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
               />
             </label>
             <div className="flex flex-wrap gap-1.5">
@@ -618,7 +622,23 @@ export function VendorKit({ kit }: { kit: Kit }) {
             })}
           </div>
         )}
-        <StrengthLegend sources={kit.terms.flatMap((t) => t.sources)} />
+        <StrengthLegend
+          sources={kit.terms.flatMap((t) => t.sources)}
+          more={[
+            ...(hasPlaybook
+              ? [
+                  {
+                    title: 'Stance in the playbook',
+                    entries: STANCES.map((s) => ({ label: STANCE_LABEL[s], meaning: STANCE[s].title, dot: STANCE[s].dot })),
+                  },
+                ]
+              : []),
+            {
+              title: 'Review status for this contract',
+              entries: REVIEW_STATUSES.map((s) => ({ label: STATUS_LABEL[s], meaning: STATUS_HINT[s], dot: STATUS[s].dot })),
+            },
+          ]}
+        />
 
         <div className="grid gap-3">
           {shown.map((t) => (

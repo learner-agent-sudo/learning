@@ -66,18 +66,60 @@ export function StrengthPill({ strength }: { strength: Strength }) {
   );
 }
 
-/** The legal-force key, limited to the strengths in use. */
-export function StrengthLegend({ sources }: { sources: ContractSource[] }) {
-  const used = new Set(sources.map((s) => s.strength));
+export interface KeyGroup {
+  title: string;
+  entries: { label: string; meaning: string; dot: string }[];
+}
+
+/**
+ * The legal-force key, limited to the strengths in use, with a "What the
+ * labels mean" disclosure that spells out every label a card can carry
+ * (hover titles never show on a touch screen).
+ */
+export function StrengthLegend({ sources, more = [] }: { sources: ContractSource[]; more?: KeyGroup[] }) {
+  const used = STRENGTH_ORDER.filter((s) => sources.some((x) => x.strength === s));
+  const groups: KeyGroup[] = [
+    {
+      title: 'Legal force of the main source (the card’s coloured edge)',
+      entries: used.map((s) => ({ label: STRENGTH[s].label, meaning: STRENGTH[s].title, dot: STRENGTH[s].bar })),
+    },
+    ...more,
+  ];
   return (
-    <ul className="mb-4 flex flex-wrap gap-x-3 gap-y-1 text-[11.5px] text-muted" aria-label="Source strength">
-      {STRENGTH_ORDER.filter((s) => used.has(s)).map((s) => (
-        <li key={s} className="inline-flex items-center gap-1.5" title={STRENGTH[s].title}>
-          <span className={`h-2 w-2 rounded-full ${STRENGTH[s].bar}`} aria-hidden />
-          {STRENGTH[s].label}
-        </li>
-      ))}
-    </ul>
+    <div className="mb-4">
+      <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11.5px] text-muted" aria-label="Source strength">
+        {used.map((s) => (
+          <li key={s} className="inline-flex items-center gap-1.5" title={STRENGTH[s].title}>
+            <span className={`h-2 w-2 rounded-full ${STRENGTH[s].bar}`} aria-hidden />
+            {STRENGTH[s].label}
+          </li>
+        ))}
+      </ul>
+      <details className="group/key">
+        <summary className="inline-flex min-h-9 cursor-pointer list-none items-center gap-1 text-xs font-medium text-ink/80 underline decoration-ink/30 underline-offset-2 hover:text-ink [&::-webkit-details-marker]:hidden">
+          <span className="group-open/key:hidden">What the labels mean</span>
+          <span className="hidden group-open/key:inline">Hide the key</span>
+        </summary>
+        <div className="mt-1 space-y-3 rounded-lg border border-line bg-panel px-3.5 py-3 text-[13px] leading-snug">
+          {groups.map((g) => (
+            <div key={g.title}>
+              <p className="kicker mb-1.5">{g.title}</p>
+              <dl className="space-y-1.5">
+                {g.entries.map((e) => (
+                  <div key={e.label} className="relative pl-4">
+                    <dt className="inline font-semibold">
+                      <span className={`absolute left-0 top-[5px] h-2 w-2 rounded-full ${e.dot}`} aria-hidden />
+                      {e.label}:{' '}
+                    </dt>
+                    <dd className="inline text-ink/75">{e.meaning}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          ))}
+        </div>
+      </details>
+    </div>
   );
 }
 

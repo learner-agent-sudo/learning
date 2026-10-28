@@ -76,6 +76,11 @@ export function ProvisionCard({ provision: p, defaultOpen = false }: { provision
             </a>
           )}
         </div>
+        {p.confidence === 'low' && (
+          <p className="mt-2 text-xs text-amber-900 dark:text-amber-200">
+            Our fact-check could not fully confirm this reference: check the source before relying on it.
+          </p>
+        )}
         <p className="mt-2 leading-relaxed">{p.summary}</p>
         <div className="mt-3 flex gap-3 rounded-lg bg-amber-50/70 px-3.5 py-3 ring-1 ring-amber-200/60 dark:bg-amber-400/10 dark:ring-amber-300/20">
           <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-amber-600 dark:text-amber-300" aria-hidden />
@@ -99,7 +104,14 @@ export function ProvisionCard({ provision: p, defaultOpen = false }: { provision
                 {extract.heading && <span className="text-muted"> — {extract.heading}</span>}
                 {extract.part && <div className="mt-0.5 text-muted">{extract.part}</div>}
               </div>
-              <div className="max-h-96 overflow-auto whitespace-pre-wrap px-3.5 py-3 font-serif text-[15px] leading-relaxed text-ink/90">
+              {/* Phones: the opened text simply runs on, with no scroll box inside the page. Wider
+                  screens scroll it in a box, which keyboard users can focus. */}
+              <div
+                role="region"
+                aria-label={`${extract.label}: statute text`}
+                tabIndex={0}
+                className="whitespace-pre-wrap px-3.5 py-3 font-serif text-[15px] leading-relaxed text-ink/90 focus-visible:outline-offset-[-2px] sm:max-h-96 sm:overflow-auto"
+              >
                 {extract.text}
                 {extract.truncated && <span className="text-muted">{'\n'}… (continues on HKeL)</span>}
               </div>

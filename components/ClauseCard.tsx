@@ -45,7 +45,7 @@ export function ClauseCard({ clause, defaultOpen = false }: Props) {
                 const hasContext = !!(ex.context_before || ex.context_after);
                 return (
                   <li key={ex.id} className="text-sm">
-                    <div className="text-[11px] uppercase tracking-wide text-muted">
+                    <div className="truncate text-xs text-muted sm:whitespace-normal sm:text-[11px] sm:uppercase sm:tracking-wide">
                       {ex.contract_type ?? 'Contract'} · {ex.contract_title}
                     </div>
                     <blockquote className="mt-1.5 border-l-2 border-blue-200 pl-3 font-serif dark:border-blue-400/40 text-[15px] leading-relaxed text-ink/90">

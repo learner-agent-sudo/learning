@@ -32,7 +32,9 @@ export function ModuleMasthead({ kicker, title, standfirst, watermark, stats, ab
         </Link>
         <div className="flex items-center gap-3 sm:gap-5">
           <Link href={aboutHref} className={`${NAV_LINK} underline-offset-4 hover:underline`}>
-            Sources &amp; method
+            {/* Phones: one word, so the bar stays on one line at 320px. */}
+            <span className="sm:hidden">Sources</span>
+            <span className="hidden sm:inline">Sources &amp; method</span>
           </Link>
           <ThemeToggle />
         </div>

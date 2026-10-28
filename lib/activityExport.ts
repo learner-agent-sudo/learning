@@ -1,5 +1,5 @@
 import { STRENGTH_LABEL, type Activity, type ActivityGroup, type ActivityKit, type Regime } from './banking';
-import { plain } from './vendorExport';
+import { plain, unlink } from './vendorExport';
 
 export const GROUP_LABEL: Record<ActivityGroup, string> = {
   crypto: 'Virtual assets',
@@ -36,9 +36,9 @@ export function launchNotesMarkdown(
       ''
     );
     out.push(plain(a.summary), '', `**Can the bank do it?** ${plain(a.route)}`, '');
-    out.push('### What the rules require', '', ...a.require.map((s) => `- ${s}`), '');
-    out.push('### Launch gates', '', ...a.gates.map((s, i) => `- [${done[i] ? 'x' : ' '}] ${s}`), '');
-    out.push('### Watch for', '', ...a.watchFor.map((s) => `- ${s}`), '');
+    out.push('### What the rules require', '', ...a.require.map((s) => `- ${unlink(s)}`), '');
+    out.push('### Launch gates', '', ...a.gates.map((s, i) => `- [${done[i] ? 'x' : ' '}] ${unlink(s)}`), '');
+    out.push('### Watch for', '', ...a.watchFor.map((s) => `- ${unlink(s)}`), '');
     out.push(
       'Sources: ' + a.sources.map((s) => `${s.label} ${s.ref} (${STRENGTH_LABEL[s.strength]})${s.url ? ` <${s.url}>` : ''}`).join('; '),
       ''

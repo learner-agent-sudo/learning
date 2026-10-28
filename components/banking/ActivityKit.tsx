@@ -5,7 +5,7 @@ import { Check, ChevronRight, Download, Landmark, RotateCcw, Search, TriangleAle
 import type { Activity, ActivityGroup, ActivityKit as Kit, Regime } from '@/lib/banking';
 import { GROUP_LABEL, REGIME_LABEL, launchNotesMarkdown } from '@/lib/activityExport';
 import { load, save, useChecklists } from '@/lib/useStudyState';
-import { download } from '@/lib/vendorExport';
+import { download, plain } from '@/lib/vendorExport';
 import { RichText } from '../RichText';
 import { BODY, CARD, CHEVRON, EDGE, PILL_BASE, SUMMARY, TITLE, chipClass } from '../cardStyles';
 import { BulletList, SectionTitle } from '../ui/Bullets';
@@ -158,7 +158,7 @@ function ActivityCard({
         <span className={`${TITLE} min-w-0`}>
           {act.title}
           <span className="mt-1 line-clamp-2 text-[13px] font-normal leading-snug text-ink/65 group-open:hidden">
-            {act.route.replace(/\*\*/g, '')}
+            {plain(act.route)}
           </span>
           <span className="mt-1.5 flex flex-wrap gap-1">
             <span className="rounded-full bg-ink/[0.06] px-2 py-px text-[10.5px] font-normal text-muted">
@@ -265,7 +265,7 @@ export function ActivityKit({ kit }: { kit: Kit }) {
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder="e.g. custody, stablecoin, money lender, SFC"
-                  className="block min-h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-sm placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
+                  className="block min-h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-base placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
                 />
               </span>
             </label>
@@ -329,7 +329,19 @@ export function ActivityKit({ kit }: { kit: Kit }) {
             );
           })}
         </div>
-        <StrengthLegend sources={kit.activities.flatMap((a) => a.sources)} />
+        <StrengthLegend
+          sources={kit.activities.flatMap((a) => a.sources)}
+          more={[
+            {
+              title: 'Regime',
+              entries: REGIMES.filter((r) => kit.activities.some((a) => a.regime === r)).map((r) => ({
+                label: REGIME_LABEL[r],
+                meaning: REGIME[r].title,
+                dot: REGIME[r].dot,
+              })),
+            },
+          ]}
+        />
 
         <div className="grid gap-3">
           {shown.map((a) => (

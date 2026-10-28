@@ -14,8 +14,11 @@ export const STATUS_LABEL: Record<ReviewStatus, string> = {
   na: 'Not applicable',
 };
 
-// Exports are plain text: drop the **bold** markers.
-export const plain = (s: string) => s.replace(/\*\*([^*]+)\*\*/g, '$1');
+// Outside the site a glossary link ([[term]] or [[label|key]]) reads as its label.
+export const unlink = (s: string) => s.replace(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g, '$1');
+
+// Exports are plain text: drop the **bold** markers too.
+export const plain = (s: string) => unlink(s).replace(/\*\*([^*]+)\*\*/g, '$1');
 
 export const modelText = (t: ContractTerm) => (t.playbook?.model ?? []).map(plain).join('\n\n');
 

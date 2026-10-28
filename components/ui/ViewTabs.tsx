@@ -38,7 +38,7 @@ export function ViewTabs<V extends string>({ id, label, view, views, onView }: P
             onClick={() => onView(v.id)}
             onKeyDown={onKey}
             className={
-              'min-h-8 rounded-full px-3 text-xs font-medium transition-colors focus-visible:outline-offset-1 ' +
+              'min-h-10 rounded-full px-3.5 text-xs font-medium sm:min-h-8 sm:px-3 transition-colors focus-visible:outline-offset-1 ' +
               (on ? 'bg-ink text-paper' : 'text-muted hover:text-ink')
             }
           >

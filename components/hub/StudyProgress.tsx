@@ -45,7 +45,7 @@ export function ContinueReading({ modules }: { modules: ModuleInfo[] }) {
       </span>
       <span className="min-w-0 flex-1">
         <span className="kicker block">Continue where you left off</span>
-        <span className="block truncate font-serif text-lg font-semibold">
+        <span className="line-clamp-2 font-serif text-lg font-semibold leading-snug sm:block sm:truncate">
           {last.info.title} · {String(last.stage.index).padStart(2, '0')} {last.stage.title}
         </span>
       </span>
