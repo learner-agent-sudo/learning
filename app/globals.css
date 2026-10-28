@@ -59,7 +59,9 @@ html {
 }
 
 /* Phones and tablets: the stage strip and tab bar slide away while the
-   reader scrolls down and come back on any scroll up (useAutoHideChrome). */
+   reader scrolls down and come back on any scroll up (useAutoHideChrome).
+   The floating contents button goes with them, so it never sits on the
+   lines being read, but stays while it has keyboard focus. */
 @media (max-width: 1023.98px) {
   .chrome-strip,
   .chrome-tabs {
@@ -70,6 +72,9 @@ html {
   }
   html[data-chrome='hidden'] .chrome-tabs {
     transform: translateY(calc(-100% - 57px));
+  }
+  html[data-chrome='hidden'] .chrome-fab:not(:focus-visible) {
+    transform: translateY(calc(100% + 1rem + env(safe-area-inset-bottom)));
   }
 }
 

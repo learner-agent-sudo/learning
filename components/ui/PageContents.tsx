@@ -19,14 +19,15 @@ interface Props {
 }
 
 const BUTTON =
-  'fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-30 inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-panel/95 px-4 text-sm font-medium text-ink shadow-lift backdrop-blur transition-opacity focus-visible:outline-offset-2';
+  'chrome-fab fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-30 inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-panel/95 px-4 text-sm font-medium text-ink shadow-lift backdrop-blur transition-[opacity,transform] duration-[250ms] focus-visible:outline-offset-2';
 
 /**
  * Floating "where am I" control for long tabs. With sections it shows the
- * current one (e.g. 3/11) and opens a list to jump between them; without, it
- * is a plain back-to-top button. It appears once the reader is a screen and
- * a bit into the page, and steps aside at the foot of the page so it never
- * sits on the stage navigation.
+ * current one (e.g. "§3 of 10") and opens a list to jump between them;
+ * without, it is a plain back-to-top button. It appears once the reader is a
+ * screen and a bit into the page, and steps aside at the foot of the page so
+ * it never sits on the stage navigation. On phones it also slides away with
+ * the top bars while the reader scrolls down (globals.css).
  */
 export function PageContents({ sections, topId }: Props) {
   const [shown, setShown] = useState(false);
