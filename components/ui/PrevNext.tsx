@@ -17,7 +17,8 @@ const pad = (n: number) => String(n).padStart(2, '0');
 /** Large previous / next links at the foot of a stage. */
 export function PrevNext({ prev, next, onNavigate }: Props) {
   return (
-    <nav aria-label="Stage navigation" className="mt-12 grid gap-3 sm:grid-cols-2">
+    // Sits close under the "Next in this stage" button when that comes first.
+    <nav aria-label="Stage navigation" className="mt-12 grid gap-3 sm:grid-cols-2 [button+&]:mt-3">
       {prev ? (
         <button
           type="button"

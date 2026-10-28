@@ -200,6 +200,79 @@ export function useScrollTopOnChange(key: string, ready: boolean) {
   return ref;
 }
 
+// Below lg the stage strip (57px) and the tab bar (about 60px) stick to the top.
+const WIDE = '(min-width: 1024px)';
+const STRIP = 57;
+const CHROME = 132;
+
+function setChromeHidden(hidden: boolean) {
+  if (hidden) document.documentElement.dataset.chrome = 'hidden';
+  else delete document.documentElement.dataset.chrome;
+}
+
+/**
+ * Phones and tablets: hides the sticky stage strip and tab bar while the
+ * reader scrolls down and brings them back on a scroll up, near the top of
+ * the page, or when keyboard focus moves into either bar. The state lives on
+ * <html> so the CSS in globals.css can move both bars together.
+ */
+export function useAutoHideChrome() {
+  useEffect(() => {
+    const wide = window.matchMedia(WIDE);
+    let lastY = window.scrollY;
+    let travel = 0;
+    let frame = 0;
+    const onScroll = () => {
+      if (frame) return;
+      frame = requestAnimationFrame(() => {
+        frame = 0;
+        const y = window.scrollY;
+        const dy = y - lastY;
+        lastY = y;
+        if (wide.matches || y < 400) {
+          travel = 0;
+          setChromeHidden(false);
+          return;
+        }
+        // Count distance in one direction, so small jitters change nothing.
+        travel = dy === 0 || Math.sign(dy) === Math.sign(travel) ? travel + dy : dy;
+        if (travel > 24) setChromeHidden(true);
+        else if (travel < -24) setChromeHidden(false);
+      });
+    };
+    const onFocus = (e: FocusEvent) => {
+      if (e.target instanceof Element && e.target.closest('.chrome-strip, .chrome-tabs')) setChromeHidden(false);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    document.addEventListener('focusin', onFocus);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      document.removeEventListener('focusin', onFocus);
+      cancelAnimationFrame(frame);
+      setChromeHidden(false);
+    };
+  }, []);
+}
+
+/**
+ * Scrolls a heading or card to the top of the reading area. Going down, the
+ * bars slide away, so the target can sit near the top; going up, they come
+ * back, so it must land below them.
+ */
+export function scrollToElement(el: HTMLElement) {
+  const wide = window.matchMedia(WIDE).matches;
+  const top = el.getBoundingClientRect().top + window.scrollY;
+  const down = top > window.scrollY;
+  if (!wide && down) setChromeHidden(true);
+  const offset = wide ? 64 : down ? 16 : CHROME;
+  window.scrollTo({ top: Math.max(0, top - offset), behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
+}
+
+/** Height of the sticky stage strip above the tab bar at the current width. */
+export function stripHeight(): number {
+  return window.matchMedia(WIDE).matches ? 0 : STRIP;
+}
+
 /** Moves focus to the stage title after the stage subtree remounts. */
 export function focusStageTitle() {
   requestAnimationFrame(() => document.getElementById('stage-title')?.focus({ preventScroll: true }));

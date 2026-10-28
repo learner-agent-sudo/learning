@@ -18,9 +18,10 @@ import { prefersReducedMotion } from '@/lib/useStudyState';
 import { ClauseCard } from '../ClauseCard';
 import { BulletList, SectionTitle } from '../ui/Bullets';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
+import { PageContents } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
 import { Badge, StageHeader } from '../ui/StageHeader';
-import { TabPanel, Tabs, type TabDef } from '../ui/Tabs';
+import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 
 interface Props {
   stage: Stage;
@@ -233,7 +234,9 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
         </TabPanel>
       )}
 
+      <NextTab idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as MnaTab)} />
       <PrevNext prev={prev} next={next} onNavigate={onNavigate} />
+      <PageContents sections={[]} topId={tabsTopId(idBase)} />
     </div>
   );
 }

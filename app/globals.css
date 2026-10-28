@@ -58,6 +58,21 @@ html {
   }
 }
 
+/* Phones and tablets: the stage strip and tab bar slide away while the
+   reader scrolls down and come back on any scroll up (useAutoHideChrome). */
+@media (max-width: 1023.98px) {
+  .chrome-strip,
+  .chrome-tabs {
+    transition: transform 0.25s ease;
+  }
+  html[data-chrome='hidden'] .chrome-strip {
+    transform: translateY(-100%);
+  }
+  html[data-chrome='hidden'] .chrome-tabs {
+    transform: translateY(calc(-100% - 57px));
+  }
+}
+
 body {
   @apply bg-paper font-sans text-ink antialiased;
   font-size: 15px;

@@ -22,12 +22,13 @@ import { BankingStage as Stage, BankingTab, CAP155_ANATOMY, PHASES, ProvisionKin
 import { toneVars } from '@/lib/theme';
 import { RichText } from '../RichText';
 import { BODY, CARD, CHEVRON, SUMMARY, TITLE } from '../cardStyles';
-import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
+import { KeyPoints, SectionedPoints, SectionTitle, sectionId } from '../ui/Bullets';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
 import { NoteCard } from '../ui/NoteCard';
+import { PageContents, type PageSection } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
 import { Badge, StageHeader } from '../ui/StageHeader';
-import { TabPanel, Tabs, type TabDef } from '../ui/Tabs';
+import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 import { KIND, ProvisionCard } from './ProvisionCard';
 import { ActivityKit } from './ActivityKit';
 import { VendorKit } from './VendorKit';
@@ -208,6 +209,13 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
   ];
   const idBase = `bank-${stage.id}`;
+  const sections: PageSection[] =
+    tab === 'essentials'
+      ? [
+          { id: `${idBase}-key`, label: 'In 30 seconds' },
+          ...stage.deepDive.map((d, i) => ({ id: sectionId(idBase, i), label: d.heading, mark: `§${i + 1}` })),
+        ]
+      : [];
 
   return (
     <div style={toneVars('--phase', phase.tone)}>
@@ -251,10 +259,10 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
               </p>
             </details>
           )}
-          <KeyPoints title="In 30 seconds" points={stage.keyPoints} />
+          <KeyPoints id={`${idBase}-key`} title="In 30 seconds" points={stage.keyPoints} />
           <div className="mt-10">
             <SectionTitle>In depth · how it bites in practice</SectionTitle>
-            <SectionedPoints sections={stage.deepDive} />
+            <SectionedPoints sections={stage.deepDive} idPrefix={idBase} />
           </div>
           {stage.id === 'map' && <Cap155Anatomy />}
         </TabPanel>
@@ -312,7 +320,9 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
         </TabPanel>
       )}
 
+      <NextTab idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as BankingTab)} />
       <PrevNext prev={prev} next={next} onNavigate={onNavigate} />
+      <PageContents sections={sections} topId={tabsTopId(idBase)} />
     </div>
   );
 }

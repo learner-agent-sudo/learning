@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { Check } from 'lucide-react';
-import { prefersReducedMotion } from '@/lib/useStudyState';
+import { prefersReducedMotion, useAutoHideChrome } from '@/lib/useStudyState';
 import { toneVars, type Tone } from '@/lib/theme';
 
 export interface RailGroup {
@@ -111,10 +111,11 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
   );
 }
 
-/** Horizontal, sticky stage picker for narrow screens. */
+/** Horizontal, sticky stage picker for narrow screens; it slides away while reading. */
 export function StageStrip({ groups, stages, selectedId, visited, onSelect, label }: Props) {
   const scroller = useRef<HTMLDivElement>(null);
   const toneOf = Object.fromEntries(groups.map((g) => [g.id, g.tone]));
+  useAutoHideChrome();
 
   useEffect(() => {
     const box = scroller.current;
@@ -130,7 +131,7 @@ export function StageStrip({ groups, stages, selectedId, visited, onSelect, labe
   return (
     <nav
       aria-label={label}
-      className="sticky top-0 z-20 -mx-4 h-[57px] border-b border-line bg-paper/[0.97] backdrop-blur sm:-mx-6 lg:hidden"
+      className="chrome-strip sticky top-0 z-20 -mx-4 h-[57px] border-b border-line bg-paper/[0.97] backdrop-blur sm:-mx-6 lg:hidden"
     >
       {/* 57px tall: the stage tab bar sticks just below it. */}
       <div ref={scroller} className="no-scrollbar flex gap-2 overflow-x-auto px-4 py-2 sm:px-6">

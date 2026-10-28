@@ -27,10 +27,10 @@ export function BulletList({ items, className = '' }: { items: string[]; classNa
 }
 
 /** The short version of a stage: numbered points on a tinted card. */
-export function KeyPoints({ title, points }: { title: string; points: string[] }) {
+export function KeyPoints({ title, points, id }: { title: string; points: string[]; id?: string }) {
   // No overflow clipping here: glossary pop-ups must be able to spill out.
   return (
-    <section className="relative rounded-xl border border-phase/25 bg-phase/[0.06] px-5 py-5 sm:px-6">
+    <section id={id} className="relative rounded-xl border border-phase/25 bg-phase/[0.06] px-5 py-5 sm:px-6">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1 rounded-l-xl bg-phase" />
       <h3 className="kicker text-phase">{title}</h3>
       <ol className="mt-3 space-y-3">
@@ -49,12 +49,15 @@ export function KeyPoints({ title, points }: { title: string; points: string[] }
   );
 }
 
+// Section anchors for the "On this page" list: §1 is index 0.
+export const sectionId = (prefix: string, i: number) => `${prefix}-s${i + 1}`;
+
 /** Headed groups of bullets, numbered like the sections of a note. */
-export function SectionedPoints({ sections }: { sections: PointSection[] }) {
+export function SectionedPoints({ sections, idPrefix }: { sections: PointSection[]; idPrefix?: string }) {
   return (
     <div className="space-y-9">
       {sections.map((s, i) => (
-        <section key={s.heading} className="grid gap-x-5 sm:grid-cols-[2.25rem_minmax(0,1fr)]">
+        <section key={s.heading} id={idPrefix && sectionId(idPrefix, i)} className="grid gap-x-5 sm:grid-cols-[2.25rem_minmax(0,1fr)]">
           <span aria-hidden className="hidden pt-1 font-mono text-xs text-phase sm:block">
             §{i + 1}
           </span>
@@ -71,7 +74,7 @@ export function SectionedPoints({ sections }: { sections: PointSection[] }) {
               <div className="mt-4 flex gap-3 rounded-lg border-l-[3px] border-phase bg-phase/[0.07] px-3.5 py-2.5">
                 <CornerDownRight className="mt-0.5 h-4 w-4 shrink-0 text-phase" aria-hidden />
                 <p className="leading-relaxed">
-                  <span className="mr-1.5 font-mono text-[10.5px] font-medium uppercase tracking-[0.12em] text-phase">
+                  <span className="mr-1.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-phase">
                     Bottom line
                   </span>
                   <RichText text={s.takeaway} />
