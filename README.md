@@ -33,6 +33,13 @@ are remembered in the browser only. A light / system / dark switch sits in
 every masthead; colours are theme variables (`app/globals.css`), with a
 lighter twin for each module and stage colour in dark mode (`lib/theme.ts`).
 
+On phones and tablets the stage strip and tab bar slide away while you read
+down and come back when you scroll up. A floating button shows which section
+of a long tab you are in and opens a list to jump between sections, or takes
+you back to the top. Each tab ends with a link to the next one, and glossary
+definitions open as a sheet at the foot of the screen. The site can be added
+to a phone's home screen (`app/manifest.ts`), where it opens full screen.
+
 ## M&A — interactive APA workflow
 
 An interactive walkthrough of a U.S. private-company **Asset Purchase
