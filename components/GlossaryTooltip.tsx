@@ -88,7 +88,7 @@ export function GlossaryTooltip({ term, children }: Props) {
             setOpen(false);
           }
         }}
-        className="text-left font-medium text-ink underline decoration-module/50 decoration-dotted decoration-[1.5px] underline-offset-[3px] hover:decoration-module"
+        className="text-left font-medium text-ink underline [strong_&]:font-semibold decoration-module/50 decoration-dotted decoration-[1.5px] underline-offset-[3px] hover:decoration-module"
       >
         {children ?? term}
       </button>

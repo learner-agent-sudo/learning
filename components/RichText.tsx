@@ -30,9 +30,10 @@ export function RichText({ text }: Props) {
         </GlossaryTooltip>
       );
     } else {
+      // A bold lead-in can hold a glossary term, e.g. **[[DeFi]]:**.
       out.push(
         <strong key={i++} className="font-semibold text-ink">
-          {m[2]}
+          <RichText text={m[2]} />
         </strong>
       );
     }

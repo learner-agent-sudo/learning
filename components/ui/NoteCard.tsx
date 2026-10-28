@@ -58,7 +58,11 @@ export function NoteCard({ title, subtitle, icon: Icon, tone, items }: Props) {
             <li key={`${i}-${item.slice(0, 24)}`} className="flex gap-3 px-4 py-3 leading-relaxed sm:px-5">
               <span aria-hidden className={`mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full ${t.dot}`} />
               <span className="min-w-0">
-                {m && <span className={`block text-[13.5px] font-semibold ${t.label}`}>{m[1]}</span>}
+                {m && (
+                  <span className={`block text-[13.5px] font-semibold ${t.label}`}>
+                    <RichText text={m[1]} />
+                  </span>
+                )}
                 <RichText text={m ? item.slice(m[0].length) : item} />
               </span>
             </li>
