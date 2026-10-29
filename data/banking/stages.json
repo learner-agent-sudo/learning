@@ -14,6 +14,49 @@
       "**Three further layers:** around the Ordinance sit binding rules on capital, liquidity, disclosure and exposure limits; a large body of HKMA soft law, led by the [[Supervisory Policy Manual]]; and the industry [[Code of Banking Practice]].",
       "Other regulators take over for particular activities: securities, insurance, personal data, deposit protection, dispute resolution and suspicious transaction reporting."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "Who holds the banking powers. Other regulators take over for particular activities (§5).",
+      "centre": {
+        "label": "Monetary Authority (MA)",
+        "note": "Promotes the general stability and effective working of the banking system"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "Financial Secretary",
+          "value": "Cap. 66",
+          "rel": "appoints"
+        },
+        {
+          "dir": "in",
+          "label": "HKMA",
+          "note": "The organisation behind the appointee",
+          "rel": "supports"
+        },
+        {
+          "label": "Authorized institutions",
+          "value": "Cap. 155",
+          "note": "Can also revoke authorization",
+          "rel": "authorizes and supervises"
+        },
+        {
+          "label": "Guidelines and SPM",
+          "value": "s.7(3)",
+          "rel": "issues"
+        },
+        {
+          "label": "FIRO",
+          "value": "Cap. 628",
+          "rel": "is resolution authority under"
+        },
+        {
+          "label": "AMLO",
+          "value": "Cap. 615",
+          "rel": "is AML relevant authority under"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Statute and MA rules",
@@ -53,6 +96,30 @@
       },
       {
         "heading": "HKMA soft law",
+        "visual": {
+          "type": "flow",
+          "caption": "How soft law bites: through the authorization criteria, not through offences.",
+          "items": [
+            {
+              "label": "Guidelines and SPM modules",
+              "value": "s.7(3)",
+              "note": "Create no offences"
+            },
+            {
+              "label": "Seventh Schedule criteria",
+              "note": "Prudent conduct; adequate systems of control",
+              "rel": "are the MA's benchmark for"
+            },
+            {
+              "label": "Remedial action and conditions",
+              "rel": "a sustained shortfall invites"
+            },
+            {
+              "label": "The licence",
+              "rel": "and ultimately puts at risk"
+            }
+          ]
+        },
         "points": [
           "**Layer three, soft law:** section 7(3) lets the MA publish guidelines on how he will exercise his functions.",
           "**Criteria guideline:** Section 16(10) supports the Guideline on Minimum Criteria for Authorization, which explains how he reads the Seventh Schedule.",
@@ -79,6 +146,44 @@
       },
       {
         "heading": "Other regulators by activity",
+        "visual": {
+          "type": "hub",
+          "caption": "Each arrow names an activity; the box is the body that takes over for it.",
+          "centre": {
+            "label": "Your bank"
+          },
+          "items": [
+            {
+              "label": "SFC",
+              "value": "SFO s.119",
+              "note": "Registered institution; HKMA supervises front-line, applying SFC standards",
+              "rel": "securities business"
+            },
+            {
+              "label": "Insurance Authority",
+              "rel": "insurance intermediary work"
+            },
+            {
+              "label": "PCPD",
+              "rel": "personal data"
+            },
+            {
+              "label": "Deposit Protection Board",
+              "value": "HK$800,000",
+              "note": "Cover since 1 October 2024",
+              "rel": "deposit protection"
+            },
+            {
+              "label": "FDRC scheme",
+              "note": "Authorized institutions must join",
+              "rel": "complaints"
+            },
+            {
+              "label": "JFIU",
+              "rel": "suspicious transaction reports"
+            }
+          ]
+        },
         "points": [
           "**Securities business:** the bank is a [[registered institution]] under SFO s.119, supervised front-line by the HKMA applying SFC standards.",
           "**Insurance intermediary work:** the Insurance Authority.",
@@ -285,9 +390,74 @@
       "**Outward reach:** the perimeter also decides who may call itself a bank, who may advertise for deposits, and which neighbouring activities need their own licences: stored value, lending, remittance, stablecoins, securities and insurance.",
       "**Reform:** a 2026 Bill would merge the bottom two tiers."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "What the banking licence covers, and where another regime starts.",
+      "centre": {
+        "label": "Your bank",
+        "note": "A licensed bank: the full deposit-taking franchise"
+      },
+      "items": [
+        {
+          "label": "Banking business",
+          "value": "s.11",
+          "note": "Current and savings accounts; cheque services",
+          "rel": "as a bank, may carry on"
+        },
+        {
+          "label": "Stored value facility",
+          "value": "Cap. 584",
+          "rel": "is a deemed licensee for"
+        },
+        {
+          "label": "Securities business",
+          "rel": "needs SFC registration for"
+        },
+        {
+          "label": "Insurance distribution",
+          "rel": "needs IA licensing for"
+        },
+        {
+          "label": "Fiat-referenced stablecoin",
+          "value": "Cap. 656",
+          "rel": "needs a separate licence to issue"
+        },
+        {
+          "label": "Money lending; money services",
+          "note": "Money lender and MSO licensing do not apply to AIs",
+          "rel": "needs no separate licence for"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Reserved activities",
+        "visual": {
+          "type": "flow",
+          "caption": "For a novel product, test each limb in turn.",
+          "items": [
+            {
+              "label": "A novel product"
+            },
+            {
+              "label": "A deposit",
+              "value": "s.2; s.3(1)",
+              "rel": "a loan of money, with no exemption or exclusion"
+            },
+            {
+              "label": "Deposit-taking business",
+              "value": "s.12(8)",
+              "note": "Presumed at five or more occasions within any 30 days, unless shown otherwise",
+              "rel": "taken as a business"
+            },
+            {
+              "label": "Authorization needed",
+              "value": "s.12",
+              "note": "Banking business itself is reserved to banks (s.11)",
+              "rel": "so"
+            }
+          ]
+        },
         "points": [
           "**Section 11:** reserves 'banking business' (s.2) to banks: in essence, current, savings and similar accounts repayable on demand or within less than three months, and cheque services.",
           "**Section 12 is wider:** any business of taking deposits needs authorization, subject to the s.3(1) exemptions and the exclusions from 'deposit'.",
@@ -532,6 +702,38 @@
       "The gate is less a one-off exam than a health check the bank must keep passing, because ceasing to meet the criteria is a ground for suspension or revocation.",
       "Digital banks meet the same criteria, read through a dedicated HKMA guideline."
     ],
+    "conceptMap": {
+      "type": "flow",
+      "caption": "The licence is a health check the bank must keep passing. Appeals lie to the Chief Executive in Council (s.132A).",
+      "items": [
+        {
+          "label": "Application to the MA",
+          "value": "s.15"
+        },
+        {
+          "label": "Seventh Schedule criteria",
+          "note": "Read through the Minimum Criteria and digital bank guidelines (s.16(10))",
+          "rel": "judged against"
+        },
+        {
+          "label": "Authorization",
+          "value": "s.16",
+          "note": "May carry conditions",
+          "rel": "granted (or refused)"
+        },
+        {
+          "label": "Continuing compliance",
+          "note": "Dialogue, conditions and s.52 powers come long before revocation",
+          "rel": "must keep meeting the criteria"
+        },
+        {
+          "label": "Suspension or revocation",
+          "value": "ss.22, 24–25",
+          "note": "After consulting the Financial Secretary",
+          "rel": "on grounds such as ceasing to meet the criteria"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Application mechanics",
@@ -545,6 +747,50 @@
       {
         "heading": "What the criteria demand",
         "lede": "The Schedule is outcome-based.",
+        "visual": {
+          "type": "hub",
+          "caption": "The Schedule is outcome-based; the guidelines are how the MA decides whether it is satisfied.",
+          "centre": {
+            "label": "Seventh Schedule",
+            "note": "Minimum criteria for authorization"
+          },
+          "items": [
+            {
+              "dir": "in",
+              "label": "Minimum Criteria Guideline",
+              "value": "s.16(10)",
+              "rel": "explains how the MA reads"
+            },
+            {
+              "dir": "in",
+              "label": "Digital bank guideline",
+              "value": "October 2024",
+              "rel": "applies it to digital banks"
+            },
+            {
+              "label": "Fit and proper people",
+              "note": "Chief executives, directors and controllers",
+              "rel": "requires"
+            },
+            {
+              "label": "Adequate capital, liquidity and provisioning",
+              "rel": "requires"
+            },
+            {
+              "label": "Accounting systems and systems of control",
+              "rel": "requires"
+            },
+            {
+              "label": "Integrity, prudence and competence",
+              "rel": "requires"
+            },
+            {
+              "label": "HK$300 million paid-up capital",
+              "note": "Licensed bank",
+              "rel": "requires"
+            }
+          ]
+        },
         "points": [
           "**Fit and proper:** chief executives, directors and controllers.",
           "**Capital, liquidity, provisioning:** all adequate, with capital and liquidity calibrated through the Banking (Capital) Rules and Banking (Liquidity) Rules.",
@@ -556,6 +802,46 @@
       {
         "heading": "Digital-bank overlay",
         "lede": "Expect to evidence each of the following.",
+        "visual": {
+          "type": "hub",
+          "caption": "Expect to evidence each of these for a digital bank.",
+          "centre": {
+            "label": "Your digital bank",
+            "note": "Locally incorporated, with a physical presence in Hong Kong"
+          },
+          "items": [
+            {
+              "dir": "in",
+              "label": "Parent companies",
+              "value": "para 10",
+              "note": "Strong financial, technology and other support",
+              "rel": "commit to support"
+            },
+            {
+              "dir": "in",
+              "label": "HK intermediate holding company",
+              "note": "Where not majority-owned by a supervised bank or financial institution",
+              "rel": "holds"
+            },
+            {
+              "label": "Two independent IT assessments",
+              "value": "para 15",
+              "note": "One with the application, one before launch",
+              "rel": "needs"
+            },
+            {
+              "label": "Credible business plan",
+              "note": "No minimum balances or low-balance fees",
+              "rel": "needs"
+            },
+            {
+              "label": "Exit plan",
+              "value": "para 20",
+              "note": "Orderly unwind without disrupting customers",
+              "rel": "needs"
+            }
+          ]
+        },
         "points": [
           "**Presence:** local incorporation and a physical presence in Hong Kong.",
           "**Holding company:** where the bank is not majority-owned by a supervised bank or financial institution, a Hong Kong [[intermediate holding company]] subject to supervisory conditions.",
@@ -778,6 +1064,44 @@
       "Those expectations also cover a bank culture programme, and reference checks so misconduct does not follow people from bank to bank.",
       "For a digital bank owned by a technology or fintech group, this area also covers how the parent stands behind the bank and how intra-group dealings are controlled."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "The MA's gate on who owns and who runs the bank.",
+      "centre": {
+        "label": "Monetary Authority",
+        "note": "For a Hong Kong-incorporated bank"
+      },
+      "items": [
+        {
+          "label": "New controllers",
+          "value": "s.70",
+          "note": "10% or more, over 50%, or indirect influence",
+          "rel": "consents in advance to"
+        },
+        {
+          "label": "Existing controllers",
+          "value": "s.70A",
+          "rel": "can object to"
+        },
+        {
+          "label": "Chief executive, alternates and directors",
+          "value": "s.71",
+          "rel": "consents in advance to"
+        },
+        {
+          "label": "Executive officers",
+          "value": "s.71C",
+          "note": "If the bank is a registered institution",
+          "rel": "consents in advance to"
+        },
+        {
+          "label": "Managers",
+          "value": "s.72B",
+          "note": "Fit and proper approach still applies in substance",
+          "rel": "is notified of"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Controller consent",
@@ -813,6 +1137,27 @@
       },
       {
         "heading": "Objections and deal practice",
+        "visual": {
+          "type": "flow",
+          "caption": "Expect the HKMA to ask new controllers for a letter of comfort.",
+          "items": [
+            {
+              "label": "A change above the bank",
+              "note": "Tech-parent restructuring, new fund investor, parent-level IPO"
+            },
+            {
+              "label": "A new or changed controller",
+              "note": "Voting power counts associates and holding companies",
+              "rel": "can create"
+            },
+            {
+              "label": "MA's prior written consent",
+              "value": "s.70",
+              "note": "Can be conditional; a condition precedent in the deal",
+              "rel": "needs"
+            }
+          ]
+        },
         "points": [
           "**Section 70A:** lets the MA object to existing controllers.",
           "**Deals:** treat s.70 consent as a condition precedent in every deal touching the group cap table."
@@ -1035,6 +1380,41 @@
       "Supervisory Policy Manual (SPM) modules supplement these rules; the rules supply the formulae, and the HKMA's supervisory review ([[Pillar 2]]) adds bank-specific requirements.",
       "Counsel rarely runs the numbers, but owns the legal architecture around them: board approvals, capital instruments, parent support, limits on distributions and the accuracy of what is reported."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "Where the numbers come from. SPM modules supplement the rules, and Pillar 2 adds bank-specific requirements (§2).",
+      "centre": {
+        "label": "Banking Ordinance",
+        "value": "Cap. 155"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "Basel framework",
+          "rel": "implemented mainly through rules under"
+        },
+        {
+          "label": "Banking (Capital) Rules",
+          "value": "Cap. 155L",
+          "rel": "has rules made under it:"
+        },
+        {
+          "label": "Banking (Liquidity) Rules",
+          "value": "Cap. 155Q",
+          "rel": "has rules made under it:"
+        },
+        {
+          "label": "Banking (Exposure Limits) Rules",
+          "value": "Cap. 155S",
+          "rel": "has rules made under it:"
+        },
+        {
+          "label": "Banking (Disclosure) Rules",
+          "value": "Cap. 155M",
+          "rel": "has rules made under it:"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Capital stack",
@@ -1083,6 +1463,26 @@
       },
       {
         "heading": "Bank-specific floor",
+        "visual": {
+          "type": "flow",
+          "caption": "The bank's real floor is higher than the published Basel figures.",
+          "items": [
+            {
+              "label": "Supervisory review",
+              "value": "SPM CA-G-5"
+            },
+            {
+              "label": "Pillar 2A add-on",
+              "rel": "sets"
+            },
+            {
+              "label": "Raised minimums",
+              "value": "s.97F",
+              "note": "After a chance to make representations; usually confidential",
+              "rel": "made binding by"
+            }
+          ]
+        },
         "points": [
           "**s.97F:** the MA can raise an individual bank's minimums under the Banking Ordinance, after giving it a chance to make representations.",
           "**Binding add-on:** This is how the Pillar 2A add-on from the supervisory review under SPM CA-G-5 becomes legally binding."
@@ -1131,6 +1531,26 @@
       {
         "heading": "Loss-making digital banks",
         "lede": "For a loss-making digital bank, the key judgements concern runway.",
+        "visual": {
+          "type": "flow",
+          "caption": "For a loss-making digital bank, the key judgements concern runway.",
+          "items": [
+            {
+              "label": "Operating losses",
+              "note": "Plus deductions for tax-loss deferred tax assets and capitalised software"
+            },
+            {
+              "label": "CET1 capital",
+              "note": "Accounting equity overstates it",
+              "rel": "reduce"
+            },
+            {
+              "label": "Board's internal trigger",
+              "note": "Set above the Pillar 2A floor plus buffers",
+              "rel": "the capital plan shows when ratios reach"
+            }
+          ]
+        },
         "points": [
           "**Operating losses:** Operating losses reduce CET1 directly.",
           "**Deductions:** deferred tax assets arising from tax losses are deducted, and so is capitalised software held as an intangible, so accounting equity overstates regulatory capital.",
@@ -1328,6 +1748,49 @@
       "**Why the rules exist:** Operational failure at a bank harms depositors and payment systems quickly.",
       "**Counsel's job:** Turn the rules into contracts, governance records, incident playbooks and accurate, timely notifications to the regulator."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "Counsel turns the rules into working documents.",
+      "centre": {
+        "label": "Rules for your bank's technology",
+        "note": "For a bank with no branches, technology is the bank"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "HKMA SPM and circulars",
+          "note": "SA-2, TM-G-1, OR-2 and more",
+          "rel": "set"
+        },
+        {
+          "dir": "in",
+          "label": "Cap. 653",
+          "note": "Since 1 January 2026",
+          "rel": "adds cyber duties if designated"
+        },
+        {
+          "dir": "in",
+          "label": "PDPO DPP4",
+          "rel": "governs data security"
+        },
+        {
+          "label": "Contracts",
+          "rel": "counsel turns them into"
+        },
+        {
+          "label": "Governance records",
+          "rel": "counsel turns them into"
+        },
+        {
+          "label": "Incident playbooks",
+          "rel": "counsel turns them into"
+        },
+        {
+          "label": "Timely notifications",
+          "rel": "counsel turns them into"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Status of the rules",
@@ -1343,6 +1806,27 @@
       {
         "heading": "Outsourcing and cloud",
         "lede": "Outsourcing is where counsel earns their keep.",
+        "visual": {
+          "type": "flow",
+          "caption": "Offshore processing must not impede HKMA access to data.",
+          "items": [
+            {
+              "label": "Your bank",
+              "note": "Should discuss the plan with the HKMA in advance (SA-2)"
+            },
+            {
+              "label": "Service provider",
+              "note": "Access and inspection rights for the HKMA and auditors; data protection; contingency and exit",
+              "rel": "outsources under a contract"
+            },
+            {
+              "label": "Sub-contractor",
+              "value": "TM-G-1 7.1.1",
+              "note": "Bank should consider requiring notice or approval",
+              "rel": "significant sub-contracting"
+            }
+          ]
+        },
         "points": [
           "**Advance discussion:** SA-2 (2001) expects the bank to discuss with the HKMA in advance any plan to begin outsourcing a banking-related business area (back office included) or to change its scope, and to satisfy the HKMA that the section 2 issues are addressed (para 1.3.2). The digital bank guideline asks for advance discussion of [[material outsourcing]] (para 23).",
           "**Agreements should:** give the HKMA and auditors access and inspection rights, protect customer data, and support contingency and exit (SA-2); TM-G-1 7.1.1 adds that the bank should consider requiring notice of, or approval for, significant sub-contracting.",
@@ -1354,6 +1838,33 @@
       {
         "heading": "Operational resilience under OR-2",
         "lede": "OR-2 (May 2022) implements the Basel operational resilience principles.",
+        "visual": {
+          "type": "hub",
+          "caption": "Examiners ask for board approvals and test evidence, not policies.",
+          "centre": {
+            "label": "Each critical operation",
+            "value": "OR-2 4.1.1"
+          },
+          "items": [
+            {
+              "label": "Tolerance for disruption",
+              "value": "4.2.1",
+              "note": "At least a time-based metric",
+              "rel": "should have a"
+            },
+            {
+              "label": "Its dependencies",
+              "value": "5.1",
+              "note": "People, processes, technology, information, facilities; third-party and intragroup",
+              "rel": "should be mapped to"
+            },
+            {
+              "label": "Severe but plausible scenarios",
+              "value": "7.1",
+              "rel": "should be tested against"
+            }
+          ]
+        },
         "points": [
           "**Critical operations:** The bank should identify its [[critical operations|critical operation]] and set a [[tolerance for disruption]] for each, with at least a time-based metric (OR-2 4.1.1, 4.2.1).",
           "**Mapping and testing:** It should map the people, processes, technology, information and facilities behind each, including third-party and intragroup dependencies, and test regularly against severe but plausible scenarios (OR-2 5.1, 7.1).",
@@ -4120,6 +4631,49 @@
       "**Scams:** On top of this sits Hong Kong's scam problem. [[Mule|money mule]] accounts are how fraud proceeds move, and the HKMA now treats anti-fraud as a core supervisory priority.",
       "A bank that never meets its customers face to face runs almost all of these controls in software, so counsel needs to understand how that software works."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "Three regimes interlock, and a digital bank runs almost all of these controls in software.",
+      "centre": {
+        "label": "Your bank and its staff"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "AMLO",
+          "value": "Cap. 615",
+          "note": "HKMA enforces",
+          "rel": "imposes CDD, monitoring and records"
+        },
+        {
+          "dir": "in",
+          "label": "OSCO, DTROP, UNATMO",
+          "rel": "criminalise dealing with tainted property"
+        },
+        {
+          "dir": "in",
+          "label": "Sanctions law",
+          "rel": "bars funds to designated persons"
+        },
+        {
+          "label": "Customers",
+          "value": "AMLO Sch. 2 s.9",
+          "note": "Onboarded remotely: s.9 extra measures apply",
+          "rel": "onboard"
+        },
+        {
+          "label": "JFIU",
+          "note": "Knowledge or suspicion; no tipping-off",
+          "rel": "report to"
+        },
+        {
+          "label": "Other AIs",
+          "value": "Part XIIAA",
+          "note": "Through designated platforms such as FINEST",
+          "rel": "may share account information with"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Schedule 2 and remote onboarding",
@@ -4154,6 +4708,32 @@
       {
         "heading": "eKYC and deepfakes",
         "lede": "App-based document-and-selfie eKYC remains lawful, but it must achieve the HKMA's two outcomes.",
+        "visual": {
+          "type": "hub",
+          "caption": "App-based eKYC remains lawful if it achieves both outcomes.",
+          "centre": {
+            "label": "Document-and-selfie eKYC"
+          },
+          "items": [
+            {
+              "dir": "in",
+              "label": "September 2026 HKMA circular",
+              "note": "Reported; confirm its terms",
+              "soft": true,
+              "rel": "targets deepfakes; expects recalibration"
+            },
+            {
+              "label": "Identity authentication",
+              "note": "The document is genuine",
+              "rel": "must achieve"
+            },
+            {
+              "label": "Identity matching",
+              "note": "The applicant is its holder",
+              "rel": "must achieve"
+            }
+          ]
+        },
         "points": [
           "**Identity authentication:** the document is genuine.",
           "**Identity matching:** the applicant is its holder.",
@@ -4175,6 +4755,31 @@
       {
         "heading": "Suspicion reporting",
         "lede": "Reporting is a personal duty under the criminal law.",
+        "visual": {
+          "type": "flow",
+          "caption": "Reporting is a personal duty under the criminal law, and tipping-off is a separate offence.",
+          "items": [
+            {
+              "label": "Staff member",
+              "note": "Knows or suspects"
+            },
+            {
+              "label": "JFIU",
+              "value": "OSCO and DTROP s.25A; UNATMO s.12",
+              "rel": "reports as soon as reasonable"
+            },
+            {
+              "label": "Letter of no consent",
+              "rel": "may reply with"
+            },
+            {
+              "label": "Bank decides whether to freeze",
+              "value": "[2024] HKCFA 8",
+              "note": "Treated as the bank's own decision; record the reasoning",
+              "rel": "then"
+            }
+          ]
+        },
         "points": [
           "**Duty to report:** Under s.25A of OSCO and DTROP, and s.12 of UNATMO, knowledge or suspicion must be reported to the [[JFIU]] as soon as reasonable.",
           "**Separate offence:** [[tipping-off|Tipping-off]] is a separate offence.",
@@ -4185,6 +4790,32 @@
       {
         "heading": "Sanctions regime",
         "lede": "Hong Kong gives legal effect only to UN sanctions, through regulations under Cap. 537 and, for terrorist designations, UNATMO.",
+        "visual": {
+          "type": "hub",
+          "caption": "Hong Kong gives legal effect only to UN sanctions.",
+          "centre": {
+            "label": "Your bank's sanctions screening"
+          },
+          "items": [
+            {
+              "dir": "in",
+              "label": "UN sanctions",
+              "value": "Cap. 537; UNATMO",
+              "rel": "bind by law"
+            },
+            {
+              "dir": "in",
+              "label": "Other countries' lists",
+              "note": "No legal force here; driven by correspondent banking and card schemes",
+              "soft": true,
+              "rel": "screened as policy"
+            },
+            {
+              "label": "Customer contract",
+              "rel": "the policy should rest on"
+            }
+          ]
+        },
         "points": [
           "**Foreign lists:** Other countries' lists have no legal force here.",
           "**Policy screening:** Correspondent banking and card-scheme exposure still lead most banks to screen against them as a matter of policy."
@@ -4396,6 +5027,38 @@
       "**Disputes:** Monetary disputes the bank cannot resolve can go to the [[FDRC]].",
       "An app-only bank has no branch staff or paper to rely on, so it must meet every one of these obligations through screens, notifications and logs."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "An app-only bank meets every one of these obligations through screens, notifications and logs.",
+      "centre": {
+        "label": "Your bank and its retail customers"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "Code of Banking Practice; TCF Charter",
+          "note": "HKMA monitors the Code as if binding",
+          "rel": "set conduct standards"
+        },
+        {
+          "dir": "in",
+          "label": "Statute and common law",
+          "note": "Caps. 581, 486, 71, 458; confidentiality",
+          "rel": "add duties"
+        },
+        {
+          "dir": "in",
+          "label": "SFC and IA regimes",
+          "note": "HKMA as frontline supervisor",
+          "rel": "apply to investment and insurance sales"
+        },
+        {
+          "label": "FDRC",
+          "note": "Monetary disputes the bank cannot resolve",
+          "rel": "disputes can go to"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Code of Banking Practice",
@@ -4409,6 +5072,32 @@
       {
         "heading": "Unauthorised e-banking transactions",
         "lede": "For an app-only bank, the Code's most important rule concerns unauthorised e-banking transactions.",
+        "visual": {
+          "type": "hub",
+          "caption": "Card transactions follow CoBP s.39 instead.",
+          "centre": {
+            "label": "Unauthorised e-banking transaction",
+            "value": "CoBP s.51"
+          },
+          "items": [
+            {
+              "label": "Fraud or gross negligence by the customer",
+              "note": "Or failing to report a compromised device or credential promptly",
+              "rel": "customer bears no direct loss unless"
+            },
+            {
+              "label": "Adequate evidence",
+              "note": "HKMA told card issuers so; 'the OTP was entered correctly' is not enough alone",
+              "rel": "blaming the customer needs"
+            },
+            {
+              "label": "CECO reasonableness test",
+              "value": "Cap. 71",
+              "note": "The HKMA also reads terms against the Code",
+              "rel": "exclusion clauses face"
+            }
+          ]
+        },
         "points": [
           "**Customer liability:** The customer bears no direct loss from unauthorised e-banking transactions unless they acted fraudulently or with gross negligence, or failed to report a compromised, lost or stolen device or credential as soon as reasonably practicable (CoBP s.51). Knowingly letting others use a device or credentials may be gross negligence; card transactions follow s.39 instead.",
           "**Evidence:** The HKMA has told card issuers to get adequate evidence before blaming a loss on the customer, so 'the OTP was entered correctly' is not enough on its own.",
@@ -4430,6 +5119,47 @@
       {
         "heading": "Confidentiality and data",
         "lede": "Confidentiality has two sources: the [[Tournier duty]] (Hong Kong has no general statutory bank-secrecy provision) and the PDPO.",
+        "visual": {
+          "type": "hub",
+          "caption": "Each disclosure is lawful only within its own limits.",
+          "centre": {
+            "label": "Customer information"
+          },
+          "items": [
+            {
+              "dir": "in",
+              "label": "Tournier duty",
+              "note": "No general statutory bank-secrecy provision",
+              "rel": "keeps confidential"
+            },
+            {
+              "dir": "in",
+              "label": "PDPO",
+              "value": "Cap. 486",
+              "rel": "protects"
+            },
+            {
+              "label": "JFIU",
+              "rel": "may go, within limits, to"
+            },
+            {
+              "label": "Other AIs",
+              "value": "BO Part XIIAA",
+              "rel": "may go, within limits, to"
+            },
+            {
+              "label": "Credit reference agencies",
+              "note": "Under the Consumer Credit Data Code",
+              "rel": "may go, within limits, to"
+            },
+            {
+              "label": "Direct marketing",
+              "value": "PDPO Part 6A",
+              "note": "Notice and consent first; criminal sanctions",
+              "rel": "needs consent for"
+            }
+          ]
+        },
         "points": [
           "**Lawful disclosures:** Disclosures to the JFIU, to other AIs under BO Part XIIAA, and to credit reference agencies under the Consumer Credit Data Code are each lawful only within their own limits.",
           "**Direct marketing:** PDPO Part 6A requires notice and consent before use and is backed by criminal sanctions."
@@ -4633,6 +5363,43 @@
       "**Financial crime:** VA transfers are caught by the travel rule in AMLO Sch. 2 s.13A, and VASP customers need risk-based onboarding rather than blanket de-risking. Scam and mule-account controls apply to every channel.",
       "**Platform lending:** The Money Lenders Ordinance does not apply to a bank, but it does apply to the non-bank lenders and platforms a bank funds or partners with, and pooled P2P structures can engage the SFO."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "The same bank takes a different legal role for each activity. Classify the product first (§1).",
+      "centre": {
+        "label": "Your digital bank"
+      },
+      "items": [
+        {
+          "label": "Registered institution",
+          "value": "SFO s.119",
+          "note": "The circular expects VA dealing through an omnibus account at an SFC-licensed VATP",
+          "rel": "deals in or distributes VAs as a"
+        },
+        {
+          "label": "Permitted offeror",
+          "value": "Cap. 656 s.9(5)",
+          "note": "Issuing needs a Cap. 656 licence; a banking licence is not one",
+          "rel": "offers stablecoins as a"
+        },
+        {
+          "label": "Custodian",
+          "note": "HKMA custody guidance and client-asset segregation apply",
+          "rel": "controlling customers' private keys makes it a"
+        },
+        {
+          "label": "Deposit-taker",
+          "value": "Cap. 155",
+          "note": "Tokenised deposits stay deposits, outside Cap. 656",
+          "rel": "tokenising deposits, it stays a"
+        },
+        {
+          "label": "Lender, funder or account provider",
+          "note": "The MLO does not apply to the bank (s.3), but does to non-bank partners",
+          "rel": "with lending platforms it is a"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Who regulates what",
@@ -4732,6 +5499,26 @@
       {
         "heading": "Custody and wallets",
         "lede": "Holding customers' virtual assets is a distinct risk, because control of a private key is control of the asset. Two questions matter: what the law says the asset is, and how the bank controls access to it.",
+        "visual": {
+          "type": "hub",
+          "caption": "Two questions matter: what the law says the asset is, and how the bank controls access to it.",
+          "centre": {
+            "label": "Who controls the private key?",
+            "note": "Control of the key is control of the asset"
+          },
+          "items": [
+            {
+              "label": "Hosted wallet",
+              "note": "The bank is a custodian: custody guidance, segregation and its own insolvency position apply",
+              "rel": "the bank or a sub-custodian"
+            },
+            {
+              "label": "Unhosted wallet",
+              "note": "Withdrawals raise travel-rule and ownership checks; a typical scam route",
+              "rel": "the customer"
+            }
+          ]
+        },
         "points": [
           "**Property status:** Re Gatecoin Ltd (in liquidation) [2023] HKCFI 914 held that cryptocurrency is property capable of being held on trust. Under the 2018 terms there was no trust (disclaimers, pooling, coins treated as the company's own). Customers who never accepted them had a trust under earlier express terms.",
           "**Documentation:** The Gatecoin outcome turned on contract wording, pooling and accounting. A bank should state client-asset status expressly, give itself no free right to use customer assets, and keep ledger and wallet segregation distinct from its own.",
@@ -4744,7 +5531,41 @@
       },
       {
         "heading": "Stablecoins under Cap. 656 and the bank's possible roles",
-        "lede": "The Stablecoins Ordinance has applied since 1 August 2025. Only issuance is regulated by statute today, but a bank can touch the regime as issuer, offeror, reserve bank, custodian or payment acceptor.",
+        "lede": "The Stablecoins Ordinance has applied since 1 August 2025. Only issuance needs a licence today, but a bank can touch the regime as issuer, offeror, reserve bank, custodian or payment acceptor.",
+        "visual": {
+          "type": "hub",
+          "caption": "Only issuance needs a licence today; offering is restricted under s.9. Be clear who the issuer, offeror and custodian are.",
+          "centre": {
+            "label": "Your bank",
+            "note": "Possible roles under Cap. 656"
+          },
+          "items": [
+            {
+              "label": "Issuer",
+              "value": "s.8; s.14",
+              "note": "Needs a Cap. 656 licence; a banking licence is not one",
+              "rel": "may become"
+            },
+            {
+              "label": "Offeror",
+              "value": "s.9(5)",
+              "note": "To retail, licensed issuers' coins only (inference)",
+              "rel": "may act as"
+            },
+            {
+              "label": "Reserve bank or custodian",
+              "value": "Sch. 2 s.5",
+              "note": "Reserve deposits are outside the DPS",
+              "rel": "may act as"
+            },
+            {
+              "label": "Ads for unlicensed activity",
+              "value": "s.10",
+              "note": "Knowing publication is an offence",
+              "rel": "must not knowingly publish"
+            }
+          ]
+        },
         "points": [
           "**Definition:** Under s.3 a stablecoin is a DLT-based digital value that aims to hold stable value against one or more assets. A [[specified stablecoin]] is one referenced wholly to official currencies, or to other units or stores of value the MA specifies (s.4). Deposits, SVF float and securities are excluded.",
           "**Issuing:** s.8 makes it an offence to carry on a regulated stablecoin activity without a licence, and a banking licence is not one. An AI may apply under s.14. The HKMA issued its first two licences on 10 April 2026.",
@@ -4759,6 +5580,40 @@
       {
         "heading": "Tokenised deposits, tokenised securities, Project Ensemble and e-HKD",
         "lede": "Tokenisation changes the record-keeping, not the legal character. The bank should ask what claim the token represents, then apply the regime for that claim.",
+        "visual": {
+          "type": "hub",
+          "caption": "Tokenisation changes the record-keeping, not the legal character.",
+          "centre": {
+            "label": "A tokenised product",
+            "note": "What claim does the token represent?"
+          },
+          "items": [
+            {
+              "label": "Tokenised deposit",
+              "value": "Cap. 155",
+              "note": "Stays a bank liability; outside the stablecoin definition",
+              "rel": "if a deposit"
+            },
+            {
+              "label": "Tokenised security",
+              "value": "SFC 23EC52",
+              "note": "Due diligence on issuer, vendors and arrangement",
+              "rel": "if a security"
+            },
+            {
+              "label": "Same product, new wrapper",
+              "value": "HKMA, 20 Feb 2024",
+              "note": "Added controls for due diligence, disclosure and custody",
+              "rel": "if a non-SFO product"
+            },
+            {
+              "label": "Project Ensemble; e-HKD",
+              "note": "Pilots, not law; no retail e-HKD decision found",
+              "soft": true,
+              "rel": "if part of a pilot"
+            }
+          ]
+        },
         "points": [
           "**Tokenised deposits:** A [[tokenised deposit]] that is a deposit under Cap. 155 s.2(1) is excluded from the stablecoin definition by Cap. 656 s.3(2)(e). It stays a bank liability, so check that no design feature, such as a bearer-style token, falls into a DPS exclusion.",
           "**Tokenised products:** The HKMA's circular of 20 February 2024 treats non-SFO tokenised products as the same product in a new wrapper, with added controls for due diligence, disclosure and custody. Whether it extends to tokenised deposits is not confirmed, so read the text.",
@@ -4811,6 +5666,37 @@
       {
         "heading": "Financial crime: VASP customers, VA transfers and scams",
         "lede": "Digital assets reach the bank through customers, counterparties and payment flows. The AML framework in the earlier AML and fraud stage still applies; this section adds the VA-specific points.",
+        "visual": {
+          "type": "hub",
+          "caption": "These need data fields and tooling in the payments stack.",
+          "centre": {
+            "label": "Your bank"
+          },
+          "items": [
+            {
+              "label": "Travel rule",
+              "value": "AMLO Sch. 2 s.13A",
+              "note": "Originator and recipient information; fewer originator details below HK$8,000",
+              "rel": "sends VA transfers under the"
+            },
+            {
+              "label": "VASP customers",
+              "note": "Risk-based onboarding, not blanket de-risking",
+              "rel": "banks"
+            },
+            {
+              "label": "Stablecoin issuers",
+              "note": "Reserve accounts still need the bank's own CDD",
+              "rel": "holds reserve accounts for"
+            },
+            {
+              "label": "Other banks",
+              "value": "Cap. 155 Part XIIAA",
+              "note": "ML and TF information on designated platforms",
+              "rel": "shares information with"
+            }
+          ]
+        },
         "points": [
           "**VASP customers:** An HKMA circular of 27 April 2023 asked banks to support SFC-licensed VASPs' legitimate need for accounts using a risk-based approach. Banking a VASP outside Hong Kong may engage the correspondent-type measures in the HKMA Guideline paras 11.23 to 11.25.",
           "**Travel rule:** AMLO Sch. 2 s.13A requires an institution sending a [[VA transfer|travel rule]] to obtain, record and send originator and recipient information. Below HK$8,000 the originator's address, ID number or birth details need not be collected. Recipient and intermediary institutions have separate duties.",
@@ -4824,6 +5710,39 @@
       {
         "heading": "P2P and platform lending",
         "lede": "Banks fund and partner with platforms more often than they run them. The law differs sharply depending on who makes the loan and who holds the investor's money.",
+        "visual": {
+          "type": "hub",
+          "caption": "Decide first whether the bank is lender, funder or merely a bank account provider.",
+          "centre": {
+            "label": "Your bank and a lending platform"
+          },
+          "items": [
+            {
+              "label": "The bank's own loan",
+              "note": "CoBP and the HKMA BNPL and cooling-off circulars apply",
+              "rel": "if the bank lends through it"
+            },
+            {
+              "label": "Licensed money lender",
+              "value": "MLO ss.7, 24",
+              "note": "Licence, 48% rate cap; check the register",
+              "rel": "if a non-bank lends"
+            },
+            {
+              "label": "Possible CIS or securities",
+              "value": "SFO",
+              "note": "SFC warning on pooled structures",
+              "soft": true,
+              "rel": "if investors pool money"
+            },
+            {
+              "label": "Arranging fees",
+              "value": "MLO s.27",
+              "note": "Restricted; review fee flows before launch",
+              "rel": "if borrowers are charged for arranging"
+            }
+          ]
+        },
         "points": [
           "**Bank exemption:** The Money Lenders Ordinance does not apply to an AI (s.3), and a subsidiary of an AI is an exempted person under Sch. 1 Pt 1 para 1. The bank's own lending is governed by the Banking Ordinance, the HKMA and the Code of Banking Practice.",
           "**Non-bank lenders:** A non-bank [[money lender]] needs a licence (s.7), faces a 48% rate cap (s.24) and a 36% extortionate presumption (s.25), and has advertising rules under s.26. Check the Registrar's public register before funding or partnering.",
@@ -6636,10 +7555,82 @@
       "**Secrecy:** Statutory secrecy keeps most supervisory dealings private, so the enforcement the public sees is only a small part of the picture.",
       "**Counsel's role:** Keep the relationship candid, timely and well documented."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "The MA's statutory toolkit. Many MA decisions can be appealed to the Chief Executive in Council; capital, liquidity and disclosure decisions go to the Banking Review Tribunal.",
+      "centre": {
+        "label": "Monetary Authority",
+        "note": "Most dealings stay private"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "The bank's external auditor",
+          "note": "Align with the auditor early",
+          "rel": "has statutory reporting channels to"
+        },
+        {
+          "label": "Returns and information",
+          "value": "s.63",
+          "rel": "requires"
+        },
+        {
+          "label": "Examinations",
+          "value": "s.55",
+          "rel": "conducts"
+        },
+        {
+          "label": "Section 59 report",
+          "value": "s.59(2)",
+          "note": "From an auditor the MA approves",
+          "rel": "can require"
+        },
+        {
+          "label": "Directions, Advisor or Manager",
+          "value": "s.52",
+          "rel": "can impose"
+        },
+        {
+          "label": "Suspension or revocation",
+          "value": "ss.22, 24–25",
+          "rel": "can impose"
+        },
+        {
+          "label": "Reprimands, orders and fines",
+          "value": "AMLO s.21",
+          "note": "For AML breaches",
+          "rel": "can impose"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Continuous, risk-based supervision",
         "lede": "Supervision is continuous and mostly private.",
+        "visual": {
+          "type": "flow",
+          "caption": "Ratings and findings are confidential supervisory information.",
+          "items": [
+            {
+              "label": "Risk assessment",
+              "value": "SA-1",
+              "note": "Eight inherent risks and the quality of risk management"
+            },
+            {
+              "label": "CAMEL rating",
+              "rel": "integrated with"
+            },
+            {
+              "label": "Supervisory intensity",
+              "rel": "sets"
+            },
+            {
+              "label": "The supervisory cycle",
+              "note": "Off-site analysis, examinations, prudential and tripartite meetings",
+              "rel": "is delivered through"
+            }
+          ]
+        },
         "points": [
           "**SA-1:** The HKMA assesses eight inherent risks and the quality of risk management, and integrates the results with its CAMEL rating.",
           "**Supervisory intensity:** The rating sets how intensively the bank is supervised.",
@@ -6894,6 +7885,45 @@
       "**Deposit protection:** Alongside these, the Deposit Protection Scheme (Cap. 581) pays insured depositors quickly if a bank is simply liquidated.",
       "**Realistic end-states:** For a small digital bank, a solvent wind-down or liquidation with a DPS payout, rather than bail-in."
     ],
+    "conceptMap": {
+      "type": "hub",
+      "caption": "For a small digital bank, a solvent wind-down or liquidation with a DPS payout is more realistic than bail-in.",
+      "centre": {
+        "label": "Your bank under stress"
+      },
+      "items": [
+        {
+          "dir": "in",
+          "label": "HKMA supervisory powers",
+          "value": "s.52",
+          "rel": "can direct it or appoint an Advisor or Manager"
+        },
+        {
+          "dir": "in",
+          "label": "HKMA as resolution authority",
+          "value": "Cap. 628",
+          "note": "Only if failure threatens financial stability",
+          "rel": "can override shareholders and creditors"
+        },
+        {
+          "label": "Recovery plan",
+          "value": "SPM RE-1",
+          "note": "Actions it can take itself",
+          "rel": "prepares"
+        },
+        {
+          "label": "Exit plan",
+          "note": "Orderly wind-down without disrupting customers",
+          "rel": "prepares"
+        },
+        {
+          "label": "Deposit Protection Scheme",
+          "value": "Cap. 581",
+          "note": "Pays insured depositors quickly",
+          "rel": "if liquidated, depositors are paid by the"
+        }
+      ]
+    },
     "deepDive": [
       {
         "heading": "Recovery planning under RE-1",
@@ -6936,6 +7966,28 @@
       {
         "heading": "FIRO resolution conditions",
         "lede": "FIRO is reserved for cases that meet the s.25 conditions.",
+        "visual": {
+          "type": "hub",
+          "caption": "Without that systemic risk, resolution is not available.",
+          "centre": {
+            "label": "A non-viable bank",
+            "note": "No reasonable prospect of private-sector action restoring viability"
+          },
+          "items": [
+            {
+              "label": "FIRO resolution",
+              "value": "s.25",
+              "note": "Stabilization options (§4)",
+              "rel": "if failure threatens financial stability"
+            },
+            {
+              "label": "Court liquidation",
+              "value": "Cap. 32",
+              "note": "DPS pays up to HK$800,000 each; seven-day target",
+              "rel": "otherwise"
+            }
+          ]
+        },
         "points": [
           "**Non-viability:** The bank must have ceased, or be likely to cease, to be viable, with no reasonable prospect of private-sector action restoring viability.",
           "**Systemic risk:** Its failure must also threaten Hong Kong's financial stability, including the continuity of [[critical financial functions]]."
@@ -6988,6 +8040,35 @@
       {
         "heading": "Counsel's contractual levers",
         "lede": "Counsel's main lever is contractual.",
+        "visual": {
+          "type": "hub",
+          "caption": "Counsel's main lever is contractual.",
+          "centre": {
+            "label": "Your bank's contracts"
+          },
+          "items": [
+            {
+              "label": "No exit for recovery or resolution",
+              "note": "Provided they are paid; support transfer and exit",
+              "rel": "with core banking, cloud, payments and KYC vendors"
+            },
+            {
+              "label": "Contractual stay term",
+              "value": "Cap. 628C",
+              "rel": "in non-Hong Kong-law financial contracts"
+            },
+            {
+              "label": "Legally binding support",
+              "note": "To fund depositor repayment",
+              "rel": "from the parent"
+            },
+            {
+              "label": "Aligned triggers",
+              "note": "Exit-plan triggers match recovery triggers",
+              "rel": "in the exit plan"
+            }
+          ]
+        },
         "points": [
           "**Vendors:** Core banking, cloud, payments and KYC vendors should not be able to terminate or suspend service because of recovery action, an HKMA direction, a s.52 Manager or resolution, provided they are paid.",
           "**Transfer and exit:** They should also support transfer and exit.",
