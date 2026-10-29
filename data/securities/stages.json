@@ -1720,7 +1720,7 @@
      "**Scope:** Para 5.5 applies to complex products sold without a solicitation or recommendation, whether the sale is made online or offline.",
      "**Three requirements:** The intermediary must address the suitability of the transaction, give adequate information on the key features and risks of [[complex products|Complex product]], and give warning statements about how the product is distributed.",
      "**Timing:** The requirement took effect on 6 July 2019, after a three-month deferral from 6 April 2019.",
-     "**Online Platforms Guidelines:** The SFC's Guidelines on Online Distribution and Advisory Platforms set platform-level expectations for complex-product sales, including suitability checks and prominent warnings. Consultation conclusions were published on 28 March 2018, and the guidelines took effect on 6 April 2019.",
+     "**Online Platforms Guidelines:** The SFC's Guidelines on Online Distribution and Advisory Platforms set platform-level expectations for complex-product sales, including suitability checks and prominent warnings. Consultation conclusions were published on 28 March 2018, and the guidelines took effect on 6 July 2019, after a three-month deferral from 6 April 2019.",
      "**Exemptions:** Institutional professional investors may be exempted from the para 5.2 and complex-product requirements, and corporate professional investors may be exempted once the para 15.3A assessment is complete."
     ],
     "takeaway": "Design the purchase journey for complex products as if no adviser were present, because the rules apply in that case."
@@ -1868,7 +1868,7 @@
     "instrument": "SFC Guidelines on Online Distribution and Advisory Platforms",
     "ref": "Guidelines (online platforms, suitability, complex products)",
     "title": "Online distribution and advisory platforms",
-    "summary": "Sets principles for licensed and registered persons that provide order execution, distribution or advisory services for investment products through online platforms. It covers platform design, client information, risk management, governance, monitoring and record keeping, and includes provisions on robo-advice, suitability and complex products. Consultation conclusions were published on 28 March 2018, and the guidelines took effect on 6 April 2019.",
+    "summary": "Sets principles for licensed and registered persons that provide order execution, distribution or advisory services for investment products through online platforms. It covers platform design, client information, risk management, governance, monitoring and record keeping, and includes provisions on robo-advice, suitability and complex products. Consultation conclusions were published on 28 March 2018, and the guidelines took effect on 6 July 2019, after a three-month deferral from 6 April 2019.",
     "counselNote": "For a digital bank that sells investments online, this is the operational rulebook. It shapes the platform itself, not only the disclosures, and it applies to the bank's registered activities.",
     "confidence": "medium"
    },
@@ -2850,7 +2850,7 @@
      ]
     },
     "points": [
-     "**Scope:** The Guidelines took effect on 6 April 2019 and apply to licensed and registered persons that execute orders, distribute or advise on investment products through online platforms.",
+     "**Scope:** The Guidelines took effect on 6 July 2019 and apply to licensed and registered persons that execute orders, distribute or advise on investment products through online platforms.",
      "**Six core principles:** CP1 to CP6 cover platform design, information for clients, platform operations and technology risk management, governance capabilities and resources, review and monitoring, and record keeping.",
      "**Complex products:** Complex products offered on a platform attract extra protections, including suitability checks and prominent warnings.",
      "**Remote onboarding:** The SFC publishes acceptable approaches for client identity verification and account opening, and a bank follows the HKMA's remote onboarding expectations."
@@ -2978,7 +2978,7 @@
     "instrument": "SFC Guidelines on Online Distribution and Advisory Platforms",
     "ref": "CP1 to CP6; robo-advice chapter",
     "title": "Online distribution and advisory platforms",
-    "summary": "Effective 6 April 2019. Sets six core principles for designing and operating online platforms and for applying suitability online, with a chapter on robo-advice.",
+    "summary": "Effective 6 July 2019. Sets six core principles for designing and operating online platforms and for applying suitability online, with a chapter on robo-advice.",
     "counselNote": "The bank's onboarding, product selection and advice journeys are the platforms this guidance describes. Map each journey to the six principles and record the design choices.",
     "confidence": "medium"
    },
