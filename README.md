@@ -80,7 +80,7 @@ summary and an in-depth note, the key statutory provisions and HKMA
 guidance (statute cards carry the official text from Hong Kong
 e-Legislation), a counsel's checklist, notes on the IT angle, digital-bank
 specifics and pitfalls, and a glossary. Content lives in
-`data/banking/stages.json`; `scripts/build_banking_extracts.py` matches
+`data/banking/stages.json`; `scripts/build_statute_extracts.py` matches
 every statute citation against the official text and fails the build if
 one does not resolve. Stage 6 (Technology & outsourcing) also has a
 **Vendors** tab: the 25 clauses a vendor, cloud or outsourcing contract needs,

@@ -1,5 +1,5 @@
 import { ChevronRight, ExternalLink, Lightbulb, ScrollText } from 'lucide-react';
-import { Provision, ProvisionKind, statuteExtract } from '@/lib/banking';
+import type { Provision, ProvisionKind, StatuteExtract } from '@/lib/statute';
 import {
   BODY,
   CARD,
@@ -16,7 +16,7 @@ export const KIND: Record<ProvisionKind, { label: string; className: string; bar
   subsidiary: { label: 'Sub. leg.', className: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200', bar: 'bg-violet-500', title: 'Subsidiary legislation (rules, regulations)' },
   spm: { label: 'SPM', className: 'bg-sky-50 text-sky-700 dark:bg-sky-400/15 dark:text-sky-200', bar: 'bg-sky-500', title: 'HKMA Supervisory Policy Manual module' },
   guideline: { label: 'Guideline', className: 'bg-teal-50 text-teal-700 dark:bg-teal-400/15 dark:text-teal-200', bar: 'bg-teal-500', title: 'Regulatory guideline' },
-  circular: { label: 'Circular', className: 'bg-cyan-50 text-cyan-700 dark:bg-cyan-400/15 dark:text-cyan-200', bar: 'bg-cyan-500', title: 'HKMA circular or guidance letter' },
+  circular: { label: 'Circular', className: 'bg-cyan-50 text-cyan-700 dark:bg-cyan-400/15 dark:text-cyan-200', bar: 'bg-cyan-500', title: 'Regulator\'s circular, guidance letter or FAQ' },
   code: { label: 'Code', className: 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200', bar: 'bg-amber-500', title: 'Industry or statutory code' },
   case: { label: 'Case', className: 'bg-rose-50 text-rose-700 dark:bg-rose-400/15 dark:text-rose-200', bar: 'bg-rose-500', title: 'Case law' },
   other: { label: 'Other', className: 'bg-slate-100 text-slate-600 dark:bg-slate-400/15 dark:text-slate-200', bar: 'bg-slate-400', title: 'Other source' },
@@ -35,9 +35,17 @@ function firstSentence(text: string): string {
   return m ? m[0] : text;
 }
 
-export function ProvisionCard({ provision: p, defaultOpen = false }: { provision: Provision; defaultOpen?: boolean }) {
+export function ProvisionCard({
+  provision: p,
+  extract,
+  defaultOpen = false,
+}: {
+  provision: Provision;
+  // Official text of the cited section, when it has been attached.
+  extract?: StatuteExtract;
+  defaultOpen?: boolean;
+}) {
   const kind = KIND[p.kind] ?? KIND.other;
-  const extract = statuteExtract(p);
   return (
     <details className={`${CARD} min-w-0`} open={defaultOpen}>
       <summary className={SUMMARY}>

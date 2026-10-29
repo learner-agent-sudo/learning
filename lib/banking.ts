@@ -2,31 +2,10 @@ import stagesJson from '@/data/banking/stages.json';
 import extractsJson from '@/data/banking/statute-extracts.json';
 import type { PointSection } from '@/components/ui/Bullets';
 import type { SectionVisualData } from '@/components/ui/SectionVisual';
+import type { CapAnatomy, Provision, StatuteExtract } from './statute';
 import { TONES, type Tone } from './theme';
 
-export type ProvisionKind =
-  | 'statute'
-  | 'subsidiary'
-  | 'spm'
-  | 'guideline'
-  | 'circular'
-  | 'code'
-  | 'case'
-  | 'other';
-
-export interface Provision {
-  kind: ProvisionKind;
-  instrument: string;
-  ref: string;
-  title: string;
-  summary: string;
-  counselNote: string;
-  url?: string;
-  // Chapter and section for statute text lookup (e.g. "155", "16").
-  cap?: string;
-  section?: string;
-  confidence: 'high' | 'medium' | 'low';
-}
+export type { CapAnatomy, Provision, ProvisionKind, StatuteExtract } from './statute';
 
 export type BankingPhase = 'orientation' | 'entry' | 'operate' | 'oversight';
 
@@ -158,26 +137,6 @@ export interface ActivityKit {
   triage: SectionVisualData;
   activities: Activity[];
   caveat?: string;
-}
-
-export interface StatuteExtract {
-  label: string;
-  heading: string;
-  capTitle: string;
-  versionDate: string;
-  hkelUrl: string;
-  part?: string;
-  text?: string;
-  truncated?: boolean;
-}
-
-export interface CapAnatomy {
-  cap: string;
-  title: string;
-  versionDate: string;
-  hkelUrl: string;
-  parts: { num: string; heading: string; range: string }[];
-  schedules: { num: string; heading: string }[];
 }
 
 export const BANKING_STAGES = stagesJson as BankingStage[];

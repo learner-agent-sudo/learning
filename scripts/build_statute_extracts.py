@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Attach official statute text to the banking module's cited provisions.
+"""Attach official statute text to the regulation modules' cited provisions.
 
-Reads data/banking/stages.json and the e-Legislation extracts in
-data/hkel/<cap>.json, and writes data/banking/statute-extracts.json:
+For each module in MODULES, reads data/<module>/stages.json and the
+e-Legislation extracts in data/hkel/<cap>.json, and writes
+data/<module>/statute-extracts.json:
 
   extracts   one entry per cited (cap, section) that resolves
   unresolved citations that do not match a section/schedule in force —
              treated as errors to fix in the content
-  anatomy    Parts and Schedules of the Banking Ordinance (Cap. 155)
+  anatomy    Parts and Schedules of the module's main ordinance
 
 Run after editing the stages or refreshing data/hkel:
-    python scripts/build_banking_extracts.py
+    python scripts/build_statute_extracts.py
 Exits non-zero when a citation does not resolve, so CI catches drift.
 """
 
@@ -22,9 +23,10 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-STAGES = ROOT / "data" / "banking" / "stages.json"
 HKEL = ROOT / "data" / "hkel"
-OUT = ROOT / "data" / "banking" / "statute-extracts.json"
+
+# Module folder under data/, and the chapter whose anatomy it shows.
+MODULES = [("banking", "155"), ("securities", "571")]
 
 MAX_CHARS = 6000  # long sections (e.g. s. 2 definitions) are cut; HKeL has the rest
 
@@ -124,9 +126,14 @@ def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
 def anatomy(doc: dict) -> dict:
     def nums(ids: list[str]) -> list[str]:
         return [i[1:] for i in ids]
+    # Parts inside Schedules are numbered in arabic (Part 1, 2, ...); when the
+    # body's Parts are in roman numerals, keep only those.
+    roman = bool(doc["parts"]) and re.fullmatch(r"Part [IVXL]+[A-Z]*", doc["parts"][0]["num"])
     parts = []
     for p in doc["parts"]:
-        if p["status"] != "in-effect" or not p["heading"]:
+        if p["status"] != "in-effect" or not p["heading"] or not p["sections"]:
+            continue
+        if roman and not re.fullmatch(r"Part [IVXL]+[A-Z]*", p["num"]):
             continue
         secs = nums(p["sections"])
         parts.append({"num": p["num"], "heading": p["heading"],
@@ -137,9 +144,10 @@ def anatomy(doc: dict) -> dict:
             "hkelUrl": doc["hkelUrl"], "parts": parts, "schedules": schedules}
 
 
-def main() -> int:
-    stages = json.loads(STAGES.read_text(encoding="utf-8"))
-    cache: dict = {}
+def build(module: str, main_cap: str, cache: dict) -> int:
+    stages_path = ROOT / "data" / module / "stages.json"
+    out_path = ROOT / "data" / module / "statute-extracts.json"
+    stages = json.loads(stages_path.read_text(encoding="utf-8"))
     extracts: dict[str, dict] = {}
     unresolved: list[dict] = []
     for stage in stages:
@@ -160,17 +168,24 @@ def main() -> int:
                 unresolved.append({"stage": stage["id"], "cap": cap, "section": section,
                                    "ref": p["ref"], "reason": reason})
 
-    cap155 = load_cap("155", cache)
+    doc = load_cap(main_cap, cache)
     out = {
         "extracts": extracts,
         "unresolved": unresolved,
-        "anatomy": anatomy(cap155) if cap155 else None,
+        "anatomy": anatomy(doc) if doc else None,
     }
-    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"{len(extracts)} provisions resolved, {len(unresolved)} unresolved -> {OUT.relative_to(ROOT)}")
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{module}: {len(extracts)} provisions resolved, {len(unresolved)} unresolved -> {out_path.relative_to(ROOT)}")
     for u in unresolved:
         print(f"  ! [{u['stage']}] Cap. {u['cap']} {u['section']!r} ({u['ref']}): {u['reason']}")
-    return 1 if unresolved else 0
+    return len(unresolved)
+
+
+def main() -> int:
+    cache: dict = {}
+    failures = sum(build(module, cap, cache) for module, cap in MODULES
+                   if (ROOT / "data" / module / "stages.json").exists())
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
