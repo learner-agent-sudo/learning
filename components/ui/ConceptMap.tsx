@@ -33,7 +33,7 @@ function Box({ item, centre, left, className = '' }: { item: VisualItem; centre?
       : 'border-phase/35 bg-panel shadow-card';
   return (
     <div className={`min-w-0 rounded-lg border px-2.5 py-2 leading-snug sm:px-3 ${tone} ${left ? 'text-left' : 'text-center'} ${className}`}>
-      <p className="text-[14px] font-semibold [overflow-wrap:break-word]">{item.label}</p>
+      <p className="hyphens-auto text-[14px] font-semibold [overflow-wrap:break-word]">{item.label}</p>
       {item.value && <p className={'mt-0.5 font-mono text-[11px] ' + (centre ? 'text-onaccent' : 'text-phase')}>{item.value}</p>}
       {item.note && <p className={'mt-0.5 text-[12.5px] ' + (centre ? 'text-onaccent' : 'text-ink/70')}>{item.note}</p>}
     </div>
