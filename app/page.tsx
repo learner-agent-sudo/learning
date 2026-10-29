@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight, ChartLine, Handshake, Landmark, Lock, Umbrella, type LucideIcon } from 'lucide-react';
 import { STAGES } from '@/lib/workflow';
 import { BANKING_STAGES } from '@/lib/banking';
+import { SECURITIES_STAGES } from '@/lib/securities';
 import { TONES, toneVars, type Tone } from '@/lib/theme';
 import { ContinueReading, ModuleInfo, VolumeProgress } from '@/components/hub/StudyProgress';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -68,16 +69,25 @@ const TOPICS: Topic[] = [
   {
     title: 'HK securities regulation',
     scope: 'Securities and Futures Ordinance (Cap. 571) · SFC',
-    description: 'Licensing, conduct, market misconduct, takeovers, and enforcement routes.',
-    status: 'next',
+    description:
+      'Licensing, conduct, market misconduct, takeovers and enforcement, written for counsel at a bank registered with the SFC.',
+    status: 'live',
     icon: ChartLine,
     tone: TONES.plum,
+    meta: [
+      `${SECURITIES_STAGES.length} stages`,
+      `${SECURITIES_STAGES.reduce((n, s) => n + s.provisions.length, 0)} provisions`,
+      `${SECURITIES_STAGES.reduce((n, s) => n + s.checklist.length, 0)} checklist items`,
+    ],
+    href: '/hk-securities/',
+    module: 'hk-securities',
+    stageIds: SECURITIES_STAGES.map((s) => s.id),
   },
   {
     title: 'HK insurance regulation',
     scope: 'Insurance Ordinance (Cap. 41) · IA',
     description: 'Insurers, intermediaries, and policyholders: authorization, conduct, and discipline.',
-    status: 'planned',
+    status: 'next',
     icon: Umbrella,
     tone: TONES.bronze,
   },
@@ -165,6 +175,13 @@ const MODULES: ModuleInfo[] = [
     href: '/hk-banking/',
     tone: TONES.forest,
     stages: BANKING_STAGES.map(({ id, index, title }) => ({ id, index, title })),
+  },
+  {
+    module: 'hk-securities',
+    title: 'HK securities',
+    href: '/hk-securities/',
+    tone: TONES.plum,
+    stages: SECURITIES_STAGES.map(({ id, index, title }) => ({ id, index, title })),
   },
   { module: 'mna', title: 'M&A', href: '/mna/', tone: TONES.navy, stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
 ];

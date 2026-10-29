@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Learning: M&A and HK banking regulation',
+    name: 'Learning: M&A and HK financial regulation',
     short_name: 'Learning',
     description: 'Personal study site: M&A, privacy, and Hong Kong financial regulation.',
     start_url: `${base}/`,
