@@ -27,6 +27,7 @@ import { GlossaryGrid } from '../ui/GlossaryGrid';
 import { NoteCard } from '../ui/NoteCard';
 import { PageContents, type PageSection } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
+import { SectionVisual } from '../ui/SectionVisual';
 import { Badge, StageHeader } from '../ui/StageHeader';
 import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 import { KIND, ProvisionCard } from './ProvisionCard';
@@ -213,6 +214,7 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
     tab === 'essentials'
       ? [
           { id: `${idBase}-key`, label: 'In 30 seconds' },
+          ...(stage.conceptMap ? [{ id: `${idBase}-map`, label: 'How it fits together' }] : []),
           ...stage.deepDive.map((d, i) => ({ id: sectionId(idBase, i), label: d.heading, mark: `§${i + 1}` })),
         ]
       : [];
@@ -260,6 +262,12 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
             </details>
           )}
           <KeyPoints id={`${idBase}-key`} title="In 30 seconds" points={stage.keyPoints} />
+          {stage.conceptMap && (
+            <section id={`${idBase}-map`} className="mt-8">
+              <SectionTitle>How it fits together</SectionTitle>
+              <SectionVisual visual={stage.conceptMap} />
+            </section>
+          )}
           <div className="mt-10">
             <SectionTitle>In depth · how it bites in practice</SectionTitle>
             <SectionedPoints sections={stage.deepDive} idPrefix={idBase} />

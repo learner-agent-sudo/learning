@@ -1,11 +1,18 @@
 import { ArrowRight, Clock } from 'lucide-react';
+import { FlowMap, HubMap } from './ConceptMap';
 
 export interface VisualItem {
   label: string;
   value?: string;
   note?: string;
-  // Lighter tint, e.g. buffers sitting on top of hard minimums.
+  // Lighter tint, e.g. buffers sitting on top of hard minimums; in a concept
+  // map, a dashed box for something proposed, reported or not binding.
   soft?: boolean;
+  // Concept maps: the relationship written on the arrow that reaches this box,
+  // read in the arrow's direction ("Financial Secretary appoints MA").
+  rel?: string;
+  // hub: 'in' boxes sit above the centre and point into it; the rest hang below.
+  dir?: 'in' | 'out';
 }
 
 export interface SectionVisualData {
@@ -14,8 +21,12 @@ export interface SectionVisualData {
   // compare: side-by-side cards
   // steps: an escalation sequence
   // timeline: deadlines running from one event
-  type: 'layers' | 'stack' | 'compare' | 'steps' | 'timeline';
+  // hub: a concept map of boxes linked to one centre box
+  // flow: a concept map of boxes in a chain, each arrow labelled
+  type: 'layers' | 'stack' | 'compare' | 'steps' | 'timeline' | 'hub' | 'flow';
   caption?: string;
+  // hub only: the box the others link to.
+  centre?: VisualItem;
   items: VisualItem[];
 }
 
@@ -138,6 +149,10 @@ export function SectionVisual({ visual }: { visual: SectionVisualData }) {
       <Compare items={visual.items} />
     ) : visual.type === 'steps' ? (
       <Steps items={visual.items} />
+    ) : visual.type === 'hub' ? (
+      <HubMap visual={visual} />
+    ) : visual.type === 'flow' ? (
+      <FlowMap visual={visual} />
     ) : (
       <Timeline items={visual.items} />
     );

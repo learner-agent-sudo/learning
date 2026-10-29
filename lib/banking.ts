@@ -40,6 +40,8 @@ export interface BankingStage {
   oneLiner: string;
   // The short version, then the detail grouped under headings.
   keyPoints: string[];
+  // How the stage's main actors and rules relate, as a concept map.
+  conceptMap?: SectionVisualData;
   deepDive: PointSection[];
   provisions: Provision[];
   checklist: string[];
