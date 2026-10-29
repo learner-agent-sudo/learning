@@ -25,7 +25,11 @@ sticky strip of stage pills on phones), and a stage view with tabs. Stage
 notes are bullet points: the short version first, then the detail under
 headings, with a bold lead-in on each bullet, a "bottom line" where a section
 has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
-from the figures in the notes. The selected stage and tab are kept in the URL
+from the figures in the notes. Banking stages also have concept maps: boxes
+joined by arrows that name the relationship, one under "How it fits together"
+and more beside the sections they illustrate. They are drawn in CSS
+(`components/ui/ConceptMap.tsx`), and screen readers get the same links as a
+list of sentences. The selected stage and tab are kept in the URL
 hash, so `/hk-banking/#technology/checklist` links straight to a stage's
 checklist, and moving to the next stage keeps the tab. Visited stages,
 checklist ticks and the last stage read (for the home page's "continue" link)

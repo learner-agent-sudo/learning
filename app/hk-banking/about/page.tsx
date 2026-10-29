@@ -67,6 +67,12 @@ export default function HkBankingAboutPage() {
           compares the text word for word). The small diagrams restate figures that appear in the notes beside
           them.
         </p>
+        <p>
+          The concept maps (boxes joined by arrows that name the relationship) were added in October 2026. Each restates,
+          in fewer words, what its stage&apos;s notes already say, and adds no new requirement or reference. An
+          independent check compared every box and arrow with the notes. Dashed boxes mark something proposed, reported
+          or not binding. A map simplifies; the notes and the sources behind them govern.
+        </p>
         <h2>Checked against primary documents</h2>
         <p>
           In October 2026 every statement describing the following documents was checked against copies of them, and
