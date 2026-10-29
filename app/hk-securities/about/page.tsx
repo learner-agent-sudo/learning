@@ -16,11 +16,22 @@ export default function HkSecuritiesAboutPage() {
       tone={TONES.plum}
     >
         <p>
-          A twelve-stage path through the Securities and Futures Ordinance (Cap. 571), written for the same reader as
+          A sixteen-stage path through the Securities and Futures Ordinance (Cap. 571), written for the same reader as
           the banking volume: an experienced lawyer with an IT background who is counsel to a Hong Kong{' '}
           <strong>digital bank</strong>. A bank cannot hold an SFC licence; it deals in and advises on securities as a{' '}
           <strong>registered institution</strong>, with the HKMA as its day-to-day supervisor. The stages explain the
           regime as it applies to every intermediary, and each adds notes on what changes when the firm is a bank.
+        </p>
+        <p>
+          Stages 3 to 6, <em>The virtual bank&apos;s route</em>, start from the bank&apos;s product decisions: what the
+          SFC&apos;s role is when a virtual bank adds share trading, wealth management or crypto trading to its app, and
+          where the HKMA, the Insurance Authority and the MPFA come in. Each ends with links to the stages that cover
+          its points in depth.
+        </p>
+        <p>
+          Abbreviations are explained where they appear, so a stage can be read on its own and in any order. The first
+          use in each bullet has a dotted underline; tap or hover it for the full name. Each stage also lists its
+          abbreviations under its title.
         </p>
 
         <h2>Sources</h2>

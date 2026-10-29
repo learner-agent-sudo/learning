@@ -29,7 +29,10 @@ from the figures in the notes. Banking and securities stages also have concept m
 joined by arrows that name the relationship, one under "How it fits together"
 and more beside the sections they illustrate. They are drawn in CSS
 (`components/ui/ConceptMap.tsx`), and screen readers get the same links as a
-list of sentences. The selected stage and tab are kept in the URL
+list of sentences. Abbreviations (`data/abbreviations.json`) are explained
+where they appear: the first use in each bullet opens its full name on tap or
+hover, and each stage lists the ones it uses under its title, so stages can
+be read in any order. The selected stage and tab are kept in the URL
 hash, so `/hk-banking/#technology/checklist` links straight to a stage's
 checklist, and moving to the next stage keeps the tab. Visited stages,
 checklist ticks and the last stage read (for the home page's "continue" link)
@@ -107,10 +110,14 @@ and the shown activities export as Markdown launch notes.
 
 ## HK securities regulation
 
-Twelve stages through the Securities and Futures Ordinance (Cap. 571), from
+Sixteen stages through the Securities and Futures Ordinance (Cap. 571), from
 the regulatory map to complaints, compensation and failure, written for the
 same reader: counsel at a digital bank that deals in securities as an SFC
-registered institution, with the HKMA as its frontline supervisor. Stages
+registered institution, with the HKMA as its frontline supervisor. Stages 3
+to 6 ("The virtual bank's route") start from the bank's product decisions:
+how the SFC relates to a virtual bank that adds share trading, wealth
+management (with the insurance and MPF regulators alongside) or crypto
+trading, each ending in "Go deeper" links to the detailed stages. The rest
 cover regulated activities and the perimeter, licensing and registration,
 responsible officers and managers-in-charge, the Code of Conduct, client
 assets and financial resources, offers and prospectuses, online platforms and
