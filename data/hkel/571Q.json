@@ -1,0 +1,231 @@
+{
+ "cap": "571Q",
+ "title": "Securities and Futures (Contract Notes, Statements of Account and Receipts) Rules",
+ "longTitle": "",
+ "versionDate": "2024-10-02",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571Q",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Preparation and Provision of Contract Notes, Statements of Account and Receipts",
+   "status": "in-effect",
+   "sections": [
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "In these Rules, unless the context otherwise requires—\n  asset management (資產管理) has the meaning assigned to it by Part 2 of Schedule 5 to the Ordinance;\n  balance (結餘) includes, where applicable, money ledger balance;\n  floating loss (浮動虧損) means unrealized losses calculated by marking to market open positions;\n  floating profit (浮動利潤) means unrealized profits calculated by marking to market open positions;\n  foreign intermediary (外地中介人) means—\n    (a) a person who carries on a business of providing financial or investment services and is regulated in respect of that business in a specified jurisdiction; or\n    (b) a bank that is regulated under the law of a specified jurisdiction;\n  margin ratio (保證金比率), in relation to each description of securities collateral, means the percentage of the value of such collateral up to which a client of an intermediary is permitted to borrow (or otherwise secure other forms of financial accommodation) from the intermediary against that particular description of securities collateral;\n  margin value (保證金價值), in relation to each description of securities collateral, means the maximum amount of money which a client of an intermediary is permitted to borrow (or otherwise secure other forms of financial accommodation) from the intermediary against that particular description of securities collateral;\n  margined transaction (保證金交易) means a relevant contract which requires a client with whom or on whose behalf an intermediary has entered into the relevant contract to—\n    (a) pay a margin to the intermediary; or\n    (b) provide security to the intermediary to meet the client’s obligations,\n  other than under an arrangement where financial accommodation is provided to the client by the intermediary;\n  marking to market (按照市值計算差額) means the method or procedure of adjusting the valuation of open positions to reflect their current market value;\n  net equity (權益淨額), in relation to a client of an intermediary, means the balance in the client’s account at any given time—\n    (a) plus any floating profit;\n    (b) less any floating loss; and\n    (c) after adjusting for any income credited to and charges levied against that account;\n  relevant contract (有關合約) means a contract entered into in Hong Kong by an intermediary with or on behalf of a client of the intermediary in the conduct by the intermediary of any of the businesses which constitute—\n    (a) any regulated activity for which the intermediary is licensed or registered, that is a contract—\n      (i) for a dealing in securities (except a market contract); or\n      (ii) for a dealing in futures contracts (except a market contract); or\n    (b) the regulated activity of leveraged foreign exchange trading for which the intermediary is licensed, that is a leveraged foreign exchange contract;\n  specified jurisdiction (指明司法管轄區) means a jurisdiction specified in Schedule 1."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) These Rules, other than sections 11(4) and (5) and 13, do not apply to—\n    (a) an intermediary licensed or registered for asset management; or\n    (b) an associated entity of such an intermediary,\n  in relation to the conduct by the intermediary of asset management.\n  (1A) These Rules do not apply to—\n    (a) an intermediary licensed or registered for Type 13 regulated activity; or\n    (b) an associated entity of such an intermediary,\n  in relation to the conduct by the intermediary of that regulated activity.\n  (2) Where a client of an intermediary is a professional investor within the meaning of—\n    (a) any of paragraphs (a) to (i) of the definition of professional investor in section 1 of Part 1 of Schedule 1 to the Ordinance, and—\n      (i) the intermediary has notified the client in writing that unless the client objects, the intermediary will not provide to the client any contract notes, statements of account or receipts (as the case may be) in accordance with these Rules and the intermediary has not received any objection from the client; or\n      (ii) an associated entity of the intermediary has notified the client in writing that unless the client objects, the associated entity will not provide to the client any receipts in accordance with these Rules and the associated entity has not received any objection from the client; or\n    (b) paragraph (j) of the definition of professional investor in section 1 of Part 1 of Schedule 1 to the Ordinance and has agreed in writing with—\n      (i) the intermediary not to receive from the intermediary any contract notes, statements of account or receipts (as the case may be) in accordance with these Rules; or\n      (ii) an associated entity not to receive from the associated entity any receipts in accordance with these Rules,\n  then section 5, 8, 9, 11 or 13 (as the case may be) does not apply to the intermediary or the associated entity in relation to the client.\n  (3) For the avoidance of doubt, nothing in these Rules affects section 19 of the Stamp Duty Ordinance (Cap. 117)."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Avoidance of duplication",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) Where—\n    (a) a person is a client of 2 intermediaries;\n    (b) each of the intermediaries has entered into a relevant contract for a dealing in securities or futures contracts; and\n    (c) one of the intermediaries has agreed in writing with the other intermediary to prepare and provide to the person a contract note or statement of account in accordance with these Rules,\n  then that other intermediary is exempt from compliance with the provisions of these Rules relating to the contract note or statement of account (as the case may be) to the extent that the contract note or statement of account (as the case may be) relates to the relevant contract.\n  (2) Where an intermediary has an arrangement with a foreign intermediary that is a related corporation of the intermediary under which the foreign intermediary will prepare and provide to a client of the intermediary a contract note, statement of account or receipt (as the case may be) in accordance with and to the extent required by the law of the specified jurisdiction under which the foreign intermediary is regulated, then the intermediary is exempt from compliance with the provisions of these Rules relating to the contract note, statement of account or receipt (as the case may be).\n  (3) Where an associated entity of an intermediary which receives client assets of an intermediary has an arrangement with a foreign intermediary that is a related corporation of the intermediary under which the foreign intermediary will prepare and provide to a client of the intermediary a receipt in accordance with and to the extent required by the law of the specified jurisdiction under which the foreign intermediary is regulated, then the associated entity is exempt from compliance with the provisions of these Rules relating to the receipt."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Preparation and provision of contract notes",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to subsection (2) and section 6, where an intermediary enters into a relevant contract with or on behalf of a client, it shall—\n    (a) prepare a contract note in accordance with this section in respect of the relevant contract; and\n    (b) provide the contract note to the client no later than the end of the second business day after entering into the relevant contract.\n  (2) Subject to section 6, where an intermediary enters into more than one relevant contract with or on behalf of the same client of the intermediary on the same day—\n    (a) unless the client has given contrary instructions to the intermediary, the intermediary may prepare a single contract note which—\n      (i) records all of those relevant contracts; and\n      (ii) in respect of each of those relevant contracts, includes, to the extent applicable, all of the information which, apart from this subsection, would have been required to be included in a contract note referred to in subsection (1) under any of the provisions of subsections (3), (4), (5) and (6); and\n    (b) if such a single contract note is prepared, the intermediary shall provide it to the client no later than the end of the second business day after entering into those relevant contracts.\n  (3) A contract note referred to in subsection (1) shall include, to the extent applicable, the following information—\n    (a) the name under which the intermediary carries on business;\n    (b) the name and account number of the client of the intermediary;\n    (c) full particulars of the relevant contract including—\n      (i) the quantity, name, description and such other particulars of the securities, futures contracts or leveraged foreign exchange contracts involved, as are sufficient to enable them to be identified;\n      (ii) where the relevant contract is for a dealing in securities or futures contracts, the nature of the dealing;\n      (iii) the name of the market or exchange on which the relevant contract has been executed; and\n      (iv) whether the relevant contract is for the opening or closing of a position;\n    (d) where the relevant contract is not a leveraged foreign exchange contract and the intermediary is acting as principal, an indication that it is so acting;\n    (e) the date—\n      (i) on which the relevant contract is entered into;\n      (ii) of settlement or performance of the relevant contract; and\n      (iii) on which the contract note is prepared;\n    (f) the rate or amount of commission payable in connection with the relevant contract;\n    (g) the amount of stamp duty payable in connection with the relevant contract;\n    (h) the amount of levy payable in connection with the relevant contract; and\n    (i) the amount of charges payable in connection with the relevant contract or, where the relevant contract is in respect of interests in a collective investment scheme, the basis for calculation of such charges.\n  (4) In addition to the information required to be included under subsection (3), a contract note referred to in subsection (1) in respect of a relevant contract for a dealing in securities shall include, to the extent applicable, the following information—\n    (a) an indication that the client’s account is a margin account;\n    (b) subject to subsection (7), in the case of a purchase or sale, the price per unit of the securities;\n    (c) an indication where it relates to—\n      (i) a short selling order; or\n      (ii) a borrowing or lending of securities under a securities borrowing and lending agreement; and\n    (d) the amount of consideration payable under the relevant contract.\n  (5) In addition to the information required to be included under subsection (3), a contract note referred to in subsection (1) in respect of a relevant contract for dealing in futures contracts shall include, to the extent applicable, the following information—\n    (a) subject to subsection (7), in the case of a purchase or sale, the price per futures contract;\n    (b) where the futures contracts have been executed by an agent in Hong Kong, the name of the agent; and\n    (c) where the futures contracts have been cleared by any clearing agent other than the intermediary, the name of that clearing agent.\n  (6) In addition to the information required to be included under subsection (3), a contract note referred to in subsection (1) in respect of a relevant contract that is a leveraged foreign exchange contract shall include, to the extent applicable, the following information—\n    (a) where the intermediary is acting as agent, an indication that it is so acting and the name of the person for whom it is acting;\n    (b) the date and time—\n      (i) of receipt of the client’s order; and\n      (ii) of execution of the leveraged foreign exchange contract;\n    (c) any currency to which the leveraged foreign exchange contract relates, and in relation to each such currency, particulars of—\n      (i) the amount involved;\n      (ii) whether it is a sale or a purchase;\n      (iii) the price at which it is executed; and\n      (iv) the interest rate; and\n    (d) the amount of margin deposit required.\n  (7) Where an intermediary has entered into a relevant contract with or on behalf of a client in respect of a purchase or a sale of securities or futures contracts, it may, at the request of the client, include in the contract note referred to in subsection (1) in respect of the relevant contract—\n    (a) in the case of a purchase or sale of securities, the average price per unit for the purchase or sale (as the case may be) of the same description of securities, instead of the price per unit as referred to in subsection (4)(b); or\n    (b) in the case of a purchase or sale of future contracts, the average price per contract for the purchase or sale (as the case may be) of the same description of futures contracts, instead of the price per contract as referred to in subsection (5)(a).\n  (8) Where an intermediary has included in a contract note referred to in subsection (1) an average price as referred to in subsection (7) and the client in question requests an analysis of such average price within 2 years after the date on which the relevant contract is entered into, the intermediary shall provide to the client no later than the end of the fifth business day after receiving the request, the price per unit as referred to in subsection (4)(b) or the price per contract as referred to in subsection (5)(a) (as the case may be)."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Consolidation of contract notes with daily statements of account",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "An intermediary may, instead of preparing and providing to a client one or more than one contract note under section 5 in respect of one or more than one relevant contract entered into on the same day, consolidate the contract note with any statement of account it is required to prepare and provide to the client under section 8 or 9 (or any consolidation of such statements of account under section 10) in respect of the same day."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Information required in all statements of account",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Where an intermediary is required to prepare a statement of account under section 8, 9, 11 or 12, it shall include the following information in the statement of account—\n  (a) the name under which the intermediary carries on business;\n  (b) the name, address and account number of the client to whom the intermediary is required to provide the statement of account;\n  (c) the date on which the statement of account is prepared; and\n  (d) where client assets of the client to whom the intermediary is required to provide the statement of account are held for the account of the client by an associated entity (other than an authorized financial institution) of the intermediary, the name under which the associated entity carries on business."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Preparation and provision of daily statements of account relating to financial accommodation",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to section 10, where an intermediary provides financial accommodation to a client and any event specified in subsection (3) takes place in relation to the client, it shall—\n    (a) prepare a statement of account in respect of the client in accordance with subsection (2); and\n    (b) provide the statement of account to the client no later than the end of the second business day after the event takes place, or in the case of an event specified in subsection (3)(a)(iii) or (b)(iii), after the intermediary becomes aware that the event has taken place.\n  (2) A statement of account referred to in subsection (1) shall include the information required to be included under section 7 and, to the extent applicable, the following information relating to the account of the client on the day on which the event takes place—\n    (a) the outstanding balance of that account as at the beginning and as at the end of that day and details of all movements in the balance of that account during that day;\n    (b) the quantity, and, in so far as readily ascertainable, the market price and market value of each description of client securities and collateral held for that account as at the end of that day;\n    (c) the margin ratio and margin value of each description of securities collateral held for that account as at the end of that day;\n    (d) details of all movements of client securities and collateral held for that account during that day, including the quantity of each description of client securities and collateral deposited in or withdrawn from that account during that day;\n    (e) details of all disposals initiated by the intermediary of client securities and collateral held for that account during that day and what happened to the proceeds of those disposals;\n    (f) details of all income credited to and charges levied against that account during that day; and\n    (g) details of all financial accommodation provided to the client during that day, including the nature, credit limit and expiry date of the accommodation and the basis for calculation of interest charges thereon.\n  (3) The following events are specified for the purpose of subsections (1) and (2)—\n    (a) a deposit of client assets by or on behalf of the client of the intermediary with—\n      (i) the intermediary;\n      (ii) an associated entity of the intermediary; or\n      (iii) any other person;\n    (b) a withdrawal of client assets by or on behalf of the client of the intermediary from—\n      (i) the intermediary;\n      (ii) an associated entity of the intermediary; or\n      (iii) any other person;\n    (c) a disposal initiated by the intermediary of any client securities and collateral held for the account of the client; or\n    (d) an adjustment by the intermediary to the account of the client comprising—\n      (i) an adjustment of the amount of financial accommodation;\n      (ii) a credit to the account, including any credit to the account of income except as a result of accrual of interest paid by the intermediary or an associated entity of the intermediary; or\n      (iii) a debit from the account, including any deduction of charges from the account except as a result of accrual of interest charged by the intermediary or an associated entity of the intermediary."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Preparation and provision of daily statements of account relating to margined transactions",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to section 10, where an intermediary enters into margined transactions with or on behalf of a client and any event specified in subsection (3) takes place in relation to the client, it shall—\n    (a) prepare a statement of account in respect of the client in accordance with subsection (2); and\n    (b) provide the statement of account to the client no later than the end of the second business day after the event takes place.\n  (2) A statement of account referred to in subsection (1) shall include the information required to be included under section 7 and, to the extent applicable, the following information relating to the account of the client on the day on which the event takes place—\n    (a) the outstanding balance of that account as at the beginning and as at the end of that day and details of all movements in the balance of that account during that day;\n    (b) the quantity, and, in so far as readily ascertainable, the market price and market value of each description of security provided by or on behalf of the client in relation to each margined transaction, held for that account as at the end of that day, and details of all movements of any such security during that day;\n    (c) details of each margined transaction that is closed during that day, including the price at which it is closed, charges levied in respect of it, the realised profit or loss in respect of it, and an indication where the closure was initiated by the intermediary;\n    (d) details of all income credited to and charges levied against that account during that day;\n    (e) all floating profits and floating losses in respect of open positions held for that account as calculated as at the end of that day and the prices used for such purposes;\n    (f) the net equity in that account as at the end of that day;\n    (g) a list of all open positions held for that account as at the end of that day;\n    (h) the minimum margin requirement for all open positions held for that account as at the end of that day;\n    (i) the amount of margin excess or margin shortfall in that account as at the end of that day;\n    (j) the amount of option premium receivable or payable in respect of that account as at the end of that day;\n    (k) in respect of an open position in a leveraged foreign exchange contract, details of all interest income and expenses accrued in respect of that position as at the end of that day and the interest rates used for such purposes; and\n    (l) in respect of the arrangement between the intermediary and the client under which each margined transaction was entered into or closed (as the case may be) on that day, the client’s position limit and trading limit and the expiry date of the arrangement.\n  (3) The following events are specified for the purpose of subsections (1) and (2)—\n    (a) the intermediary enters into one or more than one margined transaction with or on behalf of the client; or\n    (b) one or more than one margined transaction in respect of the client is closed."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Consolidation of daily statements of account",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Without prejudice to section 6, an intermediary may, instead of preparing and providing to a client a statement of account under section 8 in respect of any day, consolidate that statement of account with any statement of account it is required to prepare and provide to the client under section 9 in respect of the same day."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Preparation and provision of monthly statements of account",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) In this section—\n    monthly accounting period (按月會計期) means—\n      (a) in relation to the first statement of account required to be prepared and provided to a client of an intermediary in accordance with subsection (2) or (4) (as the case may be), a period not exceeding one month ending on a date selected by the intermediary; and\n      (b) in relation to any subsequent statement of account, a period the duration of which shall be not less than 4 weeks and not exceed one month, commencing on the day after the date on which the previous monthly accounting period ended, and ending on a date selected by the intermediary;\n    repledge (再質押), in relation to an intermediary or an associated entity of an intermediary, means an act by which the intermediary or the associated entity deposits securities collateral of the intermediary as collateral for financial accommodation provided to the intermediary.\n  (2) Subject to subsection (4), where any of the circumstances specified in subsection (6) apply in respect of a client of an intermediary in respect of a monthly accounting period, the intermediary shall—\n    (a) prepare a statement of account in respect of the client in accordance with subsections (3) and (3A); and\n    (b) provide the statement of account to the client no later than the end of the seventh business day after the end of the monthly accounting period.\n  (3) A statement of account referred to in subsection (2) shall include the information required to be included under section 7 and, to the extent applicable, the following information relating to the account of the client—\n    (a) the address of the principal place of business in Hong Kong of the intermediary;\n    (b) the outstanding balance of and the net equity in that account as at the beginning and as at the end of that monthly accounting period and details of all movements in the balance of that account during that period;\n    (c) details of all relevant contracts entered into by the intermediary with or on behalf of the client during that monthly accounting period, indicating those initiated by the intermediary;\n    (d) details of all events specified in section 8(3) which have taken place during that monthly accounting period, including what happened to the proceeds of any disposals initiated by the intermediary during that period of any client securities and collateral of the client held for that account;\n    (e) details of all movements during that monthly accounting period of any—\n      (i) client securities and collateral of the client; and\n      (ii) security provided by or on behalf of the client in relation to a margined transaction,\n    held for that account;\n    (f) the quantity, and, in so far as readily ascertainable, the market price and market value of each description of—\n      (i) client securities and collateral of the client; and\n      (ii) security provided by or on behalf of the client in relation to a margined transaction,\n    held for that account as at the end of that monthly accounting period;\n    (g) the margin ratio and margin value of each description of securities collateral held for that account as at the end of that monthly accounting period;\n    (h) details of all income credited to and charges levied against that account during that monthly accounting period;\n    (i) all floating profits and floating losses in respect of open positions held for that account as calculated as at the end of that monthly accounting period and the prices used for such purposes;\n    (j) a list of all open positions held for that account as at the end of that monthly accounting period;\n    (k) the minimum margin requirement for all open positions held for that account as at the end of that monthly accounting period;\n    (l) the amount of margin excess or margin shortfall in that account as at the end of that monthly accounting period;\n    (m) the amount of option premium receivable or payable in respect of that account as at the end of that monthly accounting period; and\n    (n) where the account is for dealing in securities, an indication that it is a margin account.\n  (3A) In the case of an intermediary which is licensed for dealing in securities or securities margin financing, where—\n    (a) the intermediary or an associated entity of such intermediary has held securities collateral for that account at any time during that monthly accounting period; and\n    (b) at any time during that monthly accounting period, the intermediary or an associated entity of such intermediary has repledged securities collateral of the intermediary (whether or not the securities collateral repledged is the same as that referred to in paragraph (a)),\n  a statement of account referred to in subsection (2) shall also include a statement in a prominent position stating—\n    (c) whether the client has provided the intermediary or an associated entity of such intermediary with a standing authority as defined in section 2 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H), which has not been revoked, authorizing the intermediary or associated entity to repledge securities collateral provided by him or on his behalf; and\n    (d) that the intermediary or an associated entity of such intermediary referred to in paragraph (b) has repledged securities collateral of the intermediary during that monthly accounting period.\n  (4) Where an intermediary is licensed or registered for asset management and, in relation to the conduct by the intermediary of asset management (other than the management of a collective investment scheme), any of the circumstances specified in subsection (6) apply in respect of a client of the intermediary in respect of a monthly accounting period, the intermediary shall—\n    (a) prepare a statement of account in respect of the client in accordance with subsection (5); and\n    (b) provide the statement of account to the client no later than the end of the tenth business day after the end of the monthly accounting period.\n  (5) A statement of account referred to in subsection (4) shall include the information required to be included under section 7 and, to the extent applicable, the following information relating to the account of the client—\n    (a) the address of the principal place of business in Hong Kong of the intermediary;\n    (b) a valuation of the client’s portfolio as at the end of the monthly accounting period providing—\n      (i) details of the quantity, market price, purchase cost and market value of each description of securities held for that account as at the end of that period;\n      (ii) details of all open positions as at the end of that period;\n      (iii) the money balance held for that account as at the end of that period; and\n      (iv) the amount of accounts payable and receivable in respect of that account as at the end of that period;\n    (c) details of all income credited to and charges levied against that account during the monthly accounting period; and\n    (d) a list of all contracts entered into in Hong Kong by the intermediary with or on behalf of the client during the monthly accounting period for dealing in securities and futures contracts and that are leveraged foreign exchange contracts.\n  (6) The circumstances specified for the purposes of subsections (2) and (4) are—\n    (a) during a monthly accounting period, the intermediary is required to prepare and provide to the client—\n      (i) a contract note in accordance with section 5;\n      (ii) a statement of account in accordance with section 8 or 9; or\n      (iii) a receipt in accordance with section 13;\n    (b) during a monthly accounting period, an associated entity of the intermediary is required to prepare and provide to the client a receipt in accordance with section 13;\n    (c) at any time during a monthly accounting period, the client has an account balance that is not nil;\n    (d) the client has an open position as at the end of a monthly accounting period; or\n    (e) at any time during a monthly accounting period—\n      (i) any client securities and collateral; or\n      (ii) any security provided in relation to a margined transaction,\n    are held for the account of the client."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Duty to provide statements of account upon request",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where an intermediary receives a request from a client for a statement of account as of the date of the request, it shall—\n    (a) prepare a statement of account in respect of the client in accordance with subsection (2); and\n    (b) provide the statement of account to the client as soon as practicable after the date of the request.\n  (2) A statement of account referred to in subsection (1) shall include the information required to be included under section 7 and, to the extent applicable, the following information relating to the account of the client as of the date of the request—\n    (a) the outstanding balance of and the net equity in that account;\n    (b) the quantity, and, in so far as readily ascertainable, the market price and market value of each description of—\n      (i) client securities and collateral of the client; and\n      (ii) security provided by or on behalf of the client in relation to a margined transaction,\n    held for that account;\n    (c) the margin ratio and margin value of each description of securities collateral held for that account;\n    (d) all floating profits and floating losses in respect of open positions held for that account, as calculated as at the end of that day and the prices used for such purposes;\n    (e) a list of all open positions held for that account as at the end of that day; and\n    (f) the amount of margin excess or margin shortfall in that account as at the end of that day."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Preparation and provision of receipts",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to subsection (2), on each occasion that—\n    (a) an intermediary receives any—\n      (i) client assets; or\n      (ii) security provided in relation to a margined transaction (to the extent that such security is not client assets); or\n    (b) an associated entity of an intermediary receives any client assets,\n  from or on behalf of a client of the intermediary, the intermediary or associated entity (as the case may be) shall—\n    (c) prepare a receipt in accordance with subsection (3); and\n    (d) provide the receipt to the client no later than the end of the second business day after receiving the client assets or security.\n  (2) This section does not apply in any of the following circumstances—\n    (a) where client money is received by—\n      (i) an intermediary that is a registered institution; or\n      (ii) an associated entity that is an authorized financial institution;\n    (b) where client money is deposited directly into—\n      (i) the bank account of a licensed corporation; or\n      (ii) the bank account of an associated entity that is not an authorized financial institution,\n    by the client of the intermediary or on behalf of the client by any person other than the intermediary or associated entity;\n    (c) where a contract note that is provided to the client under section 5, or a statement of account that is provided to the client under section 8 or 9 (or any consolidated document that is provided to the client under section 6 or 10), expressly states that it also serves as a receipt and includes the information specified in subsection (3)(d)(i) and (ii);\n    (d) where scrip is deposited directly with the scrip custodian of an intermediary or an associated entity of an intermediary, by the client of the intermediary or on behalf of the client by any person other than the intermediary or associated entity, and the scrip custodian has issued a receipt to the client; or\n    (e) where securities in a scripless form are transferred to an account maintained with a custodian of—\n      (i) an intermediary; or\n      (ii) an associated entity of an intermediary,\n    by or on behalf of the client.\n  (3) A receipt referred to in subsection (1) shall include the following information—\n    (a) the name under which the intermediary or associated entity (as the case may be) carries on business;\n    (b) the date on which the receipt is prepared;\n    (c) the name and account number of the client; and\n    (d) in respect of the client assets or security received—\n      (i) the quantity, description and such other particulars of the client assets or security as are sufficient to enable them to be identified;\n      (ii) the account into which they have been deposited; and\n      (iii) the date on which they were received."
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Duty to provide copies of certain documents",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where an intermediary, or an associated entity of an intermediary, receives a request from a client of an intermediary for a copy of any of the following documents, it shall, as soon as practicable after receiving the request, provide the copy to the client—\n    (a) any particular contract note that the intermediary was required to provide to the client in accordance with section 5;\n    (b) any particular statement of account that the intermediary was required to provide to the client in accordance with section 8, 9, 11 or 12;\n    (c) any particular receipt that the intermediary or associated entity (as the case may be) was required to provide to the client in accordance with section 13.\n  (2) If, on an application made by a client of an intermediary, the Commission so directs, the intermediary or an associated entity of the intermediary (as the case may be) shall make available for inspection by the client during the ordinary hours of business of the intermediary or associated entity (as the case may be) any copy of any contract note, statement of account or receipt referred to in subsection (1).\n  (3) This section does not require an intermediary or an associated entity of an intermediary to provide, or make available for inspection, any copy of any contract note, statement of account or receipt after the expiration of the period for which the intermediary or associated entity is required to retain the copy of that document under section 16.\n  (4) An intermediary or an associated entity of an intermediary may impose a reasonable charge for a copy of a document provided by it under subsection (1)."
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Language of documents",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Where an intermediary, or an associated entity of an intermediary, is required to prepare any contract note, statement of account or receipt under these Rules, it shall prepare the contract note, statement of account or receipt in the Chinese or English language."
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Retention of copies",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary shall retain—\n    (a) for a period of not less than 2 years, a copy of every—\n      (i) contract note prepared in accordance with section 5;\n      (ii) statement of account prepared in accordance with section 8, 9 or 12; and\n      (iii) receipt prepared in accordance with section 13; and\n    (b) for a period of not less than 7 years, a copy of every statement of account prepared in accordance with section 11.\n  (2) An associated entity of an intermediary shall retain for a period of not less than 2 years, a copy of every receipt prepared in accordance with section 13."
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Provision of documents to clients",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Any contract note, statement of account or receipt (or any copy of any such document) required to be provided to a client of an intermediary under these Rules shall for all purposes be regarded as duly provided to the client if it is served on—\n  (a) the client; or\n  (b) any other person (except an officer or employee of the intermediary or the associated entity of the intermediary, (as the case may be), that is required to provide the document to the client) designated by the client for the purposes of this paragraph by notice in writing to the intermediary or the associated entity of the intermediary (as the case may be) that is required to provide the document to the client."
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Reporting of non-compliance with certain provisions of these Rules",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "If an intermediary, or an associated entity of an intermediary, becomes aware that it does not comply with any provision of Part 2 or section 14, 15 or 16 that applies to it, it shall given written notice of that fact to the Commission within one business day thereafter."
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Penalties",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary, or an associated entity of an intermediary, which, without reasonable excuse, contravenes any provision of these Rules that applies to it, commits an offence and is liable on conviction to a fine at level 4.\n  (2) An intermediary, or an associated entity of an intermediary, which, with intent to defraud, contravenes any provision of these Rules that applies to it, commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $1,000,000 and to imprisonment for 7 years; or\n    (b) on summary conviction to a fine of $500,000 and to imprisonment for 1 year."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Specified Jurisdictions",
+   "status": "in-effect",
+   "text": "1. United Kingdom\n2. United States of America",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "United Kingdom"
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "United States of America"
+    }
+   ]
+  }
+ ]
+}

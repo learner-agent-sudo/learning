@@ -1,0 +1,215 @@
+{
+ "cap": "571H",
+ "title": "Securities and Futures (Client Securities) Rules",
+ "longTitle": "",
+ "versionDate": "2024-10-02",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571H",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Client Securities and Securities Collateral Received or Held by Intermediaries other than in Conduct of Type 13 Regulated Activity and their Associated Entities",
+   "status": "in-effect",
+   "sections": [
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s8A",
+    "s9"
+   ]
+  },
+  {
+   "id": "P2A",
+   "num": "Part 2A",
+   "heading": "Scheme Securities Received or Held by Intermediaries in Conduct of Type 13 Regulated Activity and their Associated Entities",
+   "status": "in-effect",
+   "sections": [
+    "s9A",
+    "s9B",
+    "s9C"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s10",
+    "s10A",
+    "s11",
+    "s12",
+    "s13",
+    "s14"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "In these Rules, unless the context otherwise requires—\n  agreement in writing (書面協議) means a term in a client contract that is in writing;\n  approved custodian (核准保管人) means a company or non-Hong Kong company approved by the Commission under section 11 as being suitable for the safe custody of client securities and securities collateral of an intermediary, or in relation to an intermediary licensed or registered for Type 13 regulated activity, the safe custody of scheme securities;\n  asset management (資產管理) has the meaning assigned to it by Part 2 of Schedule 5 to the Ordinance;\n  client contract (客戶合約) means any contract or arrangement between an intermediary and its client, which contains terms on which the intermediary is to provide services the provision of which constitutes a regulated activity;\n  dealing in futures contracts (期貨合約交易) has the meaning assigned to it by Part 2 of Schedule 5 to the Ordinance;\n  dealing in securities (證券交易) has the meaning assigned to it by Part 2 of Schedule 5 to the Ordinance;\n  linked corporation (相連法團), in relation to an associated entity of an intermediary, means a corporation—\n    (a) of which the associated entity is a controlling entity;\n    (b) which is a controlling entity of the associated entity; or\n    (c) which has as its controlling entity a person which is also a controlling entity of the associated entity;\n  scheme securities (計劃證券) means any client securities that are—\n    (a) either—\n      (i) listed or traded on a recognized stock market; or\n      (ii) interests in a collective investment scheme authorized by the Commission under section 104 of the Ordinance; and\n    (b) in relation to an intermediary—\n      (i) received or held in Hong Kong by the intermediary in the course of the conduct of Type 13 regulated activity; or\n      (ii) received or held in Hong Kong by any corporation which is in a controlling entity relationship with the intermediary, in relation to such conduct of Type 13 regulated activity,\n  constituting relevant CIS property in respect of a relevant CIS;\n  standing authority (常設授權) has the meaning assigned to it by section 4(1);\n  unconscionable (不合情理), in relation to a standing authority, means unconscionable having regard to the factors specified in section 6 of the Unconscionable Contracts Ordinance (Cap. 458), as if the standing authority in question were a contract under that Ordinance."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) Subject to subsections (2), (3) and (4), these Rules apply to client securities and securities collateral of an intermediary that are—\n    (a) either—\n      (i) listed or traded on a recognized stock market; or\n      (ii) interests in a collective investment scheme authorized by the Commission under section 104 of the Ordinance; and\n    (b) received or held in Hong Kong by or on behalf of—\n      (i) the intermediary in the course of the conduct of any regulated activity for which the intermediary is licensed or registered; or\n      (ii) an associated entity of the intermediary in relation to the conduct of such regulated activity.\n  (2) These Rules do not apply to client securities of an intermediary that are in an account established and maintained by a client of the intermediary, in that client’s name, with a person other than the intermediary or an associated entity of the intermediary.\n  (3) Subsection (2) and sections 4, 5, 6, 7, 8, 8A, 9 and 10 do not apply to—\n    (a) an intermediary licensed or registered for Type 13 regulated activity; or\n    (b) an associated entity of the intermediary,\n  in relation to the conduct by the intermediary of that regulated activity.\n  (4) Part 2A and section 10A apply only to—\n    (a) an intermediary licensed or registered for Type 13 regulated activity; or\n    (b) an associated entity of the intermediary,\n  in relation to the conduct by the intermediary of that regulated activity."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Requirements in respect of a client’s standing authority",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) For the purposes of section 6(1)(c), 7(2) or (3), 8(2) or 9(2), a standing authority is a written notice that—\n    (a) is given to an intermediary or an associated entity of an intermediary by a client of the intermediary;\n    (b) authorizes the intermediary or associated entity to deal with client securities or securities collateral from time to time received or held on behalf of the client, in one or more specified ways;\n    (c) subject to subsection (2), specifies a period not exceeding 12 months during which it is valid; and\n    (d) specifies the manner in which it may be revoked.\n  (2) Subsection (1)(c) shall not apply to a standing authority which is given to an intermediary or an associated entity of an intermediary by a client of the intermediary who is a professional investor.\n  (3) A standing authority which is not revoked prior to its expiry—\n    (a) may be renewed for one or more further periods—\n      (i) not exceeding 12 months, if the client of the intermediary who gave it is not a professional investor; or\n      (ii) of any duration, if the client of the intermediary who gave it is a professional investor,\n    at any one time, with the written consent of the client of the intermediary who gave it; or\n    (b) shall be deemed to have been renewed if—\n      (i) at least 14 days prior to the expiry of the standing authority, the intermediary or associated entity to which it was given, gives a written notice to the client of the intermediary who gave the standing authority, reminding the client of its impending expiry and informing the client that unless the client objects, it will be renewed upon expiry upon the same terms and conditions as specified in the standing authority and for—\n        (A) an equivalent period to that stated in the standing authority;\n        (B) any period not exceeding 12 months specified by the intermediary or associated entity, if the client of the intermediary is not a professional investor; or\n        (C) a period of any duration specified by the intermediary or associated entity, if the client of the intermediary is a professional investor; and\n      (ii) the client does not object to the renewal of the standing authority before its expiry.\n  (4) Where a standing authority is deemed to have been renewed in accordance with subsection (3)(b), the intermediary or associated entity (as the case may be) shall give a written confirmation of the renewal of the standing authority to the client of the intermediary within one week after the date of expiry."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Requirement for deposit or registration of client securities and securities collateral",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to section 6, an intermediary or an associated entity of an intermediary which receives any client securities of the intermediary shall ensure that, as soon as reasonably practicable, the client securities are—\n    (a) deposited in safe custody in a segregated account which is designated as a trust account or client account and established and maintained in Hong Kong by the intermediary or associated entity for the purpose of holding client securities of the intermediary with—\n      (i) an authorized financial institution;\n      (ii) an approved custodian; or\n      (iii) another intermediary licensed for dealing in securities; or\n    (b) registered in the name of—\n      (i) the client on whose behalf the client securities have been received; or\n      (ii) the associated entity.\n  (2) Subject to section 6, an intermediary or an associated entity of an intermediary which receives any securities collateral of the intermediary shall ensure that, as soon as reasonably practicable, the securities collateral is—\n    (a) deposited in safe custody in a segregated account which is designated as a trust account or client account and established and maintained in Hong Kong by the intermediary or associated entity for the purpose of holding securities collateral of the intermediary with—\n      (i) an authorized financial institution;\n      (ii) an approved custodian; or\n      (iii) another intermediary licensed for dealing in securities;\n    (b) deposited in an account in the name of the intermediary or associated entity (as the case may be) with—\n      (i) an authorized financial institution;\n      (ii) an approved custodian; or\n      (iii) another intermediary licensed for dealing in securities; or\n    (c) registered in the name of—\n      (i) the client on whose behalf the securities collateral has been received;\n      (ii) the intermediary; or\n      (iii) the associated entity."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Dealings with client securities and securities collateral",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An intermediary or an associated entity of an intermediary may deal with client securities or securities collateral of the intermediary that it receives or holds in accordance with—\n    (a) an oral or written direction—\n      (i) to sell the client securities or securities collateral; or\n      (ii) to settle such a sale order;\n    (b) a written direction to withdraw the client securities or securities collateral from an account referred to in section 5(1)(a) or (2)(a) or (b) or to deal with client securities or securities collateral that have been registered in accordance with section 5(1)(b) or (2)(c); or\n    (c) a standing authority, except where this would—\n      (i) subject to subsection (2) or section 7, 8 or 9, result in a transfer of the client securities or securities collateral to an account in Hong Kong of—\n        (A) the intermediary;\n        (B) the associated entity; or\n        (C) any corporation with which the intermediary is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n      other than an account referred to in section 5(1)(a) or (2)(a) or (b), or otherwise result in a person referred to in sub-subparagraph (A), (B) or (C) having the benefit or use of the client securities or securities collateral;\n      (ii) result in a transfer of the client securities or securities collateral to any officer or employee of—\n        (A) the intermediary;\n        (B) the associated entity; or\n        (C) any corporation with which the intermediary is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n      unless that officer or employee is the client in question; or\n      (iii) be unconscionable.\n  (2) Without prejudice to subsection (1)(a), with an agreement in writing with the client on whose behalf client securities have been received or are held, an intermediary licensed or registered for asset management may withdraw any of the client securities from an account referred to in section 5(1)(a) or deal with client securities that have been registered in accordance with section 5(1)(b)—\n    (a) to sell them; or\n    (b) to settle a sale order,\n  on behalf of the client.\n  (3) Without prejudice to subsections (1) and (2), with an agreement in writing with the client on whose behalf client securities or securities collateral have been received or are held, an intermediary may—\n    (a) dispose; or\n    (b) initiate a disposal by an associated entity of the intermediary,\n  of any of the client securities or securities collateral in settlement of any liability owed by or on behalf of the client to—\n    (c) the intermediary;\n    (d) the associated entity; or\n    (e) a third person.\n  (4) In subsection (1), a direction is a direction from a client that—\n    (a) relates to specified client securities or securities collateral;\n    (b) is given to the intermediary or associated entity in question by the client of the intermediary on whose behalf the client securities or securities collateral were received or are being held;\n    (c) directs the intermediary or associated entity to deal with the client securities or securities collateral in a particular manner; and\n    (d) ceases to have effect after the client securities or securities collateral to which it relates have been dealt with by the intermediary or associated entity in the manner directed."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Treatment of client securities and securities collateral by intermediaries licensed or registered for dealing in securities and their associated entities",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies to—\n    (a) an intermediary licensed or registered for dealing in securities; and\n    (b) an associated entity of such intermediary.\n  (2) With a standing authority, an intermediary or an associated entity to which this section applies may—\n    (a) apply any of the client securities or securities collateral in question pursuant to a securities borrowing and lending agreement;\n    (b) subject to section 8A, deposit any of the securities collateral in question with an authorized financial institution as collateral for financial accommodation provided to the intermediary; or\n    (c) deposit any of the securities collateral in question with—\n      (i) a recognized clearing house; or\n      (ii) another intermediary licensed or registered for dealing in securities,\n    as collateral for the discharge and satisfaction of the intermediary’s settlement obligations and liabilities.\n  (3) Where an intermediary to which this section applies—\n    (a) provides financial accommodation to a client of the intermediary in the course of dealing in securities; and\n    (b) also provides financial accommodation to the client in the course of any other regulated activity for which the intermediary is licensed or registered,\n  the intermediary or an associated entity of the intermediary may apply or deposit any of the securities collateral in question in accordance with subsection (2) with a standing authority."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Treatment of securities collateral by intermediaries licensed for securities margin financing and their associated entities",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies to—\n    (a) an intermediary licensed for securities margin financing; and\n    (b) an associated entity of such intermediary.\n  (2) With a standing authority, an intermediary or an associated entity to which this section applies may, subject to section 8A, deposit any of the securities collateral in question with—\n    (a) an authorized financial institution; or\n    (b) an intermediary licensed for dealing in securities,\n  as collateral for financial accommodation provided to the intermediary."
+  },
+  {
+   "id": "s8A",
+   "num": "8A",
+   "heading": "Repledging Limit",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies to—\n    (a) an intermediary licensed for dealing in securities; and\n    (b) an intermediary licensed for securities margin financing,\n  where the intermediary or an associated entity of such intermediary repledges securities collateral of the intermediary.\n  (2) On each business day, the intermediary to which this section applies shall ascertain the aggregate market value of the repledged securities collateral, which shall be calculated by reference to the respective closing prices of the collateral on that business day.\n  (3) If the aggregate market value of the repledged securities collateral calculated pursuant to subsection (2) exceeds 140% of the intermediary’s aggregate margin loans on the same business day (relevant day), the intermediary shall by the close of business on the next business day following the relevant day (specified time) withdraw, or cause to be withdrawn, from deposit an amount of repledged securities collateral such that the aggregate market value of the repledged securities collateral at the specified time, which is calculated by reference to the respective closing prices on the relevant day, does not exceed 140% of the intermediary’s aggregate margin loans as at the close of business on the relevant day.\n  (4) In this section—\n    aggregate margin loans (保證金貸款總額), in relation to an intermediary, means the sum of margin loans owed to the intermediary by its margin clients as at the close of business on the relevant business day;\n    margin client (保證金客戶) has the meaning assigned to it by section 2(1) of the Securities and Futures (Financial Resources) Rules (Cap. 571 sub. leg. N);\n    margin loan (保證金貸款), in relation to a margin client of an intermediary, means the net amount owed to the intermediary by the margin client arising from the provision of securities margin financing by the intermediary to the margin client, excluding any amount added to or deducted from such net amount in respect of dealing in securities by or for the margin client which are not yet due for settlement according to the settlement date;\n    repledge (再質押), in relation to an intermediary or an associated entity of an intermediary, means an act by which the intermediary or the associated entity deposits securities collateral of the intermediary as collateral for financial accommodation provided to the intermediary;\n    repledged securities collateral (被再質押的證券抵押品) means any securities collateral which is on deposit as collateral for financial accommodation provided to an intermediary, whether repledged by the intermediary or an associated entity of such intermediary;\n    settlement date (交收日期) means the date on which payment for any dealing in securities is first due as agreed between the parties to the transaction.\n  (5)\n    In subsection (4), securities margin financing (證券保證金融資) has the meaning assigned to it by section 2(1) of the Securities and Futures (Financial Resources) Rules (Cap. 571 sub. leg. N)."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Treatment of securities collateral by intermediaries licensed or registered for dealing in futures contracts and their associated entities",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies to—\n    (a) an intermediary licensed or registered for dealing in futures contracts; and\n    (b) an associated entity of such intermediary.\n  (2) Without prejudice to section 7(3), with a standing authority, an intermediary or an associated entity to which this section applies may deposit any of the securities collateral in question with—\n    (a) a recognized clearing house; or\n    (b) another intermediary licensed or registered for dealing in futures contracts,\n  as collateral for the discharge and satisfaction of the intermediary’s settlement obligations and liabilities."
+  },
+  {
+   "id": "s9A",
+   "num": "9A",
+   "heading": "Interpretation of Part 2A",
+   "status": "in-effect",
+   "part": "P2A",
+   "text": "In this Part—\n  intermediary (中介人) means a licensed corporation, or an authorized financial institution, that is licensed or registered for Type 13 regulated activity;\n  relevant CIS (相關集體投資計劃) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  relevant CIS property (相關集體投資計劃財產) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  scheme documents (計劃文件) has the meaning given by Part 2 of Schedule 5 to the Ordinance."
+  },
+  {
+   "id": "s9B",
+   "num": "9B",
+   "heading": "Requirement for deposit or registration of scheme securities",
+   "status": "in-effect",
+   "part": "P2A",
+   "text": "Subject to section 9C, an intermediary or an associated entity of an intermediary which receives any scheme securities in respect of a relevant CIS must ensure that, as soon as reasonably practicable, the scheme securities are—\n  (a) deposited in safe custody in a segregated account which is designated as a trust account or client account and established and maintained in Hong Kong by the intermediary or associated entity for the purpose of holding scheme securities in respect of the relevant CIS with—\n    (i) an authorized financial institution;\n    (ii) an approved custodian; or\n    (iii) another intermediary licensed for dealing in securities; or\n  (b) registered in the name of—\n    (i) the relevant CIS; or\n    (ii) the associated entity on behalf of the relevant CIS."
+  },
+  {
+   "id": "s9C",
+   "num": "9C",
+   "heading": "Dealings with scheme securities",
+   "status": "in-effect",
+   "part": "P2A",
+   "text": "  (1) An intermediary or an associated entity of an intermediary may deal with scheme securities in respect of a relevant CIS that it receives or holds in accordance with—\n    (a) a written instruction to settle an order to sell scheme securities executed on behalf of the relevant CIS; or\n    (b) a written instruction to withdraw the scheme securities from an account referred to in section 9B(a) or to deal with scheme securities that have been registered in accordance with section 9B(b).\n  (2) Without limiting subsection (1), in accordance with the scheme documents of a relevant CIS, an intermediary may—\n    (a) dispose; or\n    (b) initiate a disposal by an associated entity of the intermediary,\n  of any of the scheme securities in respect of the relevant CIS in settlement of any liability incurred by or on behalf of the relevant CIS to the intermediary, the associated entity or a third person.\n  (3) In subsection (1)—\n    written instruction (書面指令) means an instruction that—\n      (a) relates to specified scheme securities in respect of a relevant CIS;\n      (b) is given to the intermediary or an associated entity of the intermediary by or on behalf of the relevant CIS; and\n      (c) directs the intermediary or the associated entity to deal with the scheme securities in a particular manner,\n    where the giving of the instruction and the dealing of scheme securities in the manner as specified in the instruction by the intermediary or the associated entity does not contravene any provisions of the scheme documents of the relevant CIS."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Limitations on the treatment of client securities and securities collateral",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary or an associated entity of an intermediary must take reasonable steps to ensure that client securities and securities collateral of the intermediary are not—\n    (a) deposited;\n    (b) transferred;\n    (c) lent;\n    (d) pledged;\n    (e) repledged; or\n    (f) otherwise dealt with,\n  except as provided in Part 2.\n  (2) Subsection (1) does not require the intermediary or associated entity in question to ensure that the client securities or securities collateral in question are not—\n    (a) deposited;\n    (b) transferred;\n    (c) lent;\n    (d) pledged;\n    (e) repledged; or\n    (f) otherwise dealt with,\n  by a person to whom the intermediary or associated entity has lent or with whom the intermediary or associated entity has deposited any of the client securities or securities collateral in accordance with Part 2."
+  },
+  {
+   "id": "s10A",
+   "num": "10A",
+   "heading": "Limitations on treatment of scheme securities",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary in the conduct of Type 13 regulated activity or an associated entity of the intermediary must take reasonable steps to ensure that scheme securities in respect of a relevant CIS are not—\n    (a) deposited;\n    (b) transferred;\n    (c) lent;\n    (d) pledged;\n    (e) repledged; or\n    (f) otherwise dealt with,\n  except as provided in Part 2A.\n  (2) Subsection (1) does not require the intermediary or associated entity in question to ensure that the scheme securities in question are not—\n    (a) deposited;\n    (b) transferred;\n    (c) lent;\n    (d) pledged;\n    (e) repledged; or\n    (f) otherwise dealt with,\n  by a person to whom the intermediary or associated entity has lent or with whom the intermediary or associated entity has deposited any of the scheme securities in accordance with Part 2A."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Approval of custodians for safe custody of client securities, securities collateral and scheme securities",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "The Commission may approve, by notice in writing and subject to such conditions as the Commission considers appropriate, any company or non-Hong Kong company as being suitable for the safe custody of client securities and securities collateral of an intermediary, and scheme securities in relation to an intermediary licensed or registered for Type 13 regulated activity."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Reporting of non-compliance with certain provisions of the Rules",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "If an intermediary or an associated entity of an intermediary to which section 4(4), 5, 9B, 10(1) or 10A(1) applies becomes aware that it does not comply with such section, it shall give written notice of that fact to the Commission within one business day thereafter."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Penalties",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary, or an associated entity of an intermediary, which, without reasonable excuse, contravenes section 4(4) or 12 commits an offence and is liable on conviction to a fine at level 3.\n  (2) An intermediary, or an associated entity of an intermediary, which, with intent to defraud, contravenes section 4(4) or 12 commits an offence and is liable on conviction to a fine at level 6.\n  (3) An intermediary, or an associated entity of an intermediary, which, without reasonable excuse, contravenes section 5, 9B, 10(1) or 10A(1) commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $200,000 and to imprisonment for 2 years; or\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 6 months.\n  (4) An intermediary, or an associated entity of an intermediary, which, with intent to defraud, contravenes section 5, 9B, 10(1) or 10A(1) commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $1,000,000 and to imprisonment for 7 years; or\n    (b) on summary conviction to a fine of $500,000 and to imprisonment for 1 year.\n  (5) In deciding whether or not any dealing with client securities or securities collateral under section 6(1)(c) is unconscionable, the court shall have regard to the factors specified in section 6 of the Unconscionable Contracts Ordinance (Cap. 458) as if the standing authority in question were a contract under that Ordinance."
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Transitional",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "In relation to—\n  (a) an intermediary which is licensed immediately prior to 1 October 2006 for dealing in securities; or\n  (b) an intermediary which is licensed immediately prior to 1 October 2006 for securities margin financing,\nfor the period from 1 October 2006 to 30 September 2007, any reference in section 8A(3) to 140% shall be construed as a reference to 180%."
+  }
+ ],
+ "schedules": []
+}

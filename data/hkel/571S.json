@@ -1,0 +1,976 @@
+{
+ "cap": "571S",
+ "title": "Securities and Futures (Licensing and Registration) (Information) Rules",
+ "longTitle": "",
+ "versionDate": "2025-05-23",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571S",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Basic Information",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Relevant Information",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Applications by Licensed Corporations and Registered Institutions under Provisions Referred to inSection 3(1)(a)",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s0",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Applications by Licensed Representatives under Provisions Referred to in Section 3(1)(b)",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s0",
+    "s0",
+    "s0",
+    "s0",
+    "s0",
+    "s10"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Other Applications under Provisions Referred to in Section 3(1)(c)",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s0",
+    "s2",
+    "s3",
+    "s0",
+    "s4",
+    "s5",
+    "s6",
+    "s0",
+    "s0",
+    "s7"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Changes to be Notified by Licensed Corporations",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s0",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s0",
+    "s0",
+    "s13",
+    "s14",
+    "s15",
+    "s16"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Changes to be Notified by Registered Institutions",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s0",
+    "s2",
+    "s3",
+    "s0",
+    "s0",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Changes to be Notified by Licensed Representatives",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Changes to be Notified by Substantial Shareholders",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Particulars of Licensed Persons to be Contained in Register",
+   "status": "in-effect",
+   "sections": [
+    "s0"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Particulars of Registered Institutions to be Contained in Register",
+   "status": "in-effect",
+   "sections": [
+    "s0"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted",
+   "part": "P4"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) In these Rules, unless the context otherwise requires—\n    applicant (申請人) means the person making an application under the Ordinance to the Commission;\n    basic information (基本資料) means the information referred to in Part 1 of Schedule 1;\n    CE number (中央編號) means the central entity identification number assigned by the Commission to an intermediary, a licensed representative or an associated entity of an intermediary;\n    complaints officer (投訴主任), in relation to an intermediary, means a person appointed by the intermediary to handle complaints made to the intermediary;\n    controlling person (控權人), in relation to a corporation, means each of the directors and substantial shareholders of the corporation;\n    criminal investigatory body (刑事調查機構) means the Hong Kong Police Force and the Independent Commission Against Corruption established under section 3 of the Independent Commission Against Corruption Ordinance (Cap. 204), and public bodies in Hong Kong or elsewhere carrying out criminal investigations;\n    minor offence (輕微罪行) means an offence punishable by a fixed penalty under the Fixed Penalty (Traffic Contraventions) Ordinance (Cap. 237), the Fixed Penalty (Criminal Proceedings) Ordinance (Cap. 240) or the Fixed Penalty (Public Cleanliness and Obstruction) Ordinance (Cap. 570), or offence of similar nature committed in a place outside Hong Kong;\n    permanent identity card (永久性居民身分證) has the meaning assigned to it by section 1A of the Registration of Persons Ordinance (Cap. 177);\n    principal (主事人) has the meaning assigned to it by section 113 of the Ordinance;\n    regulatory body (規管機構) includes the Commission, the Monetary Authority, a recognized exchange company, any professional body or association, an examination authority, an inspector appointed under any enactment, and other equivalent bodies or persons in Hong Kong or elsewhere;\n    relevant information (有關資料) means the information referred to in Part 2 of Schedule 1;\n    reporting period (申報期) means—\n      (a) the period of one year to each anniversary of the date on which a person is licensed by the Commission as a licensed corporation or licensed representative; or\n      (b) such other period as may be approved by the Commission by notice in writing;\n    valid business registration certificate (有效商業登記證) has the meaning assigned to it by section 2(1) of the Business Registration Ordinance (Cap. 310).\n  (2) Where a person is a registered institution, a requirement in these Rules for a person to provide information or particulars (however described) to the Commission shall be construed as a requirement to provide information or particulars (however described) only in relation to the businesses which constitute any regulated activities for which it is registered.\n  (3) Where an associated entity is an authorized financial institution, a requirement in these Rules for a person to provide information or particulars (however described) to the Commission shall be construed as a requirement to provide information or particulars (however described) only in relation to its business of receiving or holding client assets in Hong Kong of any intermediary of which it is an associated entity."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Information to be provided with applications to Commission",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) For the purposes of section 128(1) of the Ordinance, an application to the Commission under the provisions referred to in this subsection shall be made in the applicable form (if any) specified by the Commission in accordance with section 402(1) of the Ordinance, and shall—\n    (a) in the case of an application—\n      (i) under section 116 or 117 of the Ordinance by a corporation for a licence;\n      (ii) under section 119 of the Ordinance by an authorized financial institution for registration as a registered institution;\n      (iii) under section 127 of the Ordinance by an intermediary for variation of the regulated activity for which the intermediary is licensed or registered; or\n      (iv) under section 134 of the Ordinance by an intermediary for the grant of a modification or waiver, in relation to the intermediary, in respect of any condition specified in or imposed under, or any of the requirements of the provisions referred to in, subsection (1) of that section,\n    contain, in so far as applicable, such information, statements, details or matters in respect of the applicant or other person in each item in Part 1 of Schedule 2 as are required to be specified by the form;\n    (b) in the case of an application—\n      (i) under section 120(1) or (2) or 121(1) of the Ordinance by an individual for a licence;\n      (ii) under section 122(1) of the Ordinance by a licensed representative for approval of his accreditation, or under section 122(2) of the Ordinance for approval of the transfer of his accreditation to another corporation licensed under section 116 or 117 (as the case may be) of the Ordinance;\n      (iii) under section 126 of the Ordinance by a licensed representative for approval as a responsible officer of a licensed corporation to which he is accredited;\n      (iv) under section 127 of the Ordinance by a licensed representative for variation of the regulated activity for which the representative is licensed; or\n      (v) under section 134 of the Ordinance by a licensed representative for the grant of a modification or waiver, in relation to the licensed representative, in respect of any condition specified in or imposed under, or any of the requirements of the provisions referred to in, subsection (1) of that section,\n    contain, in so far as applicable, such information, statement, details or matters in respect of the applicant or other person in each item in Part 2 of Schedule 2 as are required to be specified by the form; or\n    (c) in the case of an application—\n      (i) under section 130(1) of the Ordinance by a person for approval of premises to be used by a licensed corporation for keeping records or documents required under the Ordinance;\n      (ii) under section 132 of the Ordinance by a person for approval to become or continue to be (as the case may be) a substantial shareholder of a corporation licensed under section 116 of the Ordinance;\n      (iii) under section 134 of the Ordinance by a person (other than an intermediary or a licensed representative) for the grant of a modification or waiver, in relation to him, in respect of any condition specified in or imposed under, or any of the requirements of the provisions referred to in, subsection (1) of that section; or\n      (iv) by a person for any other matter requiring the approval of the Commission under Part V of the Ordinance,\n    contain, in so far as applicable, such information, statements, details or matters in respect of the applicant or other person in each item in Part 3 of Schedule 2 as are required to be specified by the form.\n  (2) Nothing in item 8 of Part 1 of Schedule 2, item 8 of Part 2 of Schedule 2, or item 5 of Part 3 of Schedule 2 shall require disclosure of information concerning an ongoing criminal investigation by a regulatory body or criminal investigatory body if such disclosure is prohibited by any statutory provision in Hong Kong or elsewhere, but the applicant shall notify the Commission of the results of the investigation within 7 business days after he becomes aware of the completion of the investigation."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Changes to be notified by intermediaries, licensed representatives and substantial shareholders",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) This section applies in relation to the information specified in Schedule 3 that has been provided to the Commission under any provision of Part V of the Ordinance.\n  (2) Where there is a change in the information referred to in subsection (1), a notice in writing of the change containing a full description of it shall, within 7 business days after the change takes place, be given to the following person or persons—\n    (a) (where the information has been provided in connection with an application under any provision of Part V of the Ordinance and the Commission is still considering the application) the Commission; or\n    (b) (in other cases) the Commission and (if the information provided relates to a registered institution) the Monetary Authority.\n  (3) A licensed corporation shall give a notice in writing under subsection (2) if a change occurs in relation to any of the information specified in Part 1 of Schedule 3.\n  (4) A registered institution shall give a notice in writing under subsection (2) if a change occurs in relation to any of the information specified in Part 2 of Schedule 3.\n  (5) A licensed representative shall give a notice in writing under subsection (2) if a change occurs in relation to any of the information specified in Part 3 of Schedule 3.\n  (6) A substantial shareholder shall give a notice in writing under subsection (2) if a change occurs in relation to any of the information specified in Part 4 of Schedule 3.\n  (7) Subsections (2), (3), (4), (5) and (6) also apply to—\n    (a) a corporation that has applied for a licence under section 116 or 117 of the Ordinance;\n    (b) an authorized financial institution that has applied for registration as a registered institution under section 119 of the Ordinance;\n    (c) an individual who has applied for a licence under section 120 or 121 of the Ordinance; or\n    (d) a person who has applied for approval under section 132 of the Ordinance to become or continue to be (as the case may be) a substantial shareholder of a corporation licensed under section 116 of the Ordinance,\n  as the case may be, before the application is withdrawn or granted or otherwise finally disposed of, with the modifications made under subsection (8).\n  (8) In subsections (3), (4), (5) and (6) and Schedule 3, a reference to—\n    (a) a licensed corporation;\n    (b) a registered institution;\n    (c) a licensed representative; and\n    (d) a substantial shareholder,\n  shall be construed as including a reference respectively to—\n    (e) the intended licensed corporation under subsection (7)(a);\n    (f) the intended registered institution under subsection (7)(b);\n    (g) the intended licensed representative under subsection (7)(c); and\n    (h) the intended substantial shareholder under subsection (7)(d).\n  (9) Nothing in item 7 of Part 1 of Schedule 3, item 7 of Part 2 of Schedule 3, item 5 of Part 3 of Schedule 3, or item 2 of Part 4 of Schedule 3 shall require disclosure of information concerning an ongoing criminal investigation by a regulatory body or criminal investigatory body if such disclosure is prohibited by any statutory provision in Hong Kong or elsewhere, but the applicant shall notify the Commission of the results of the investigation within 7 business days after he becomes aware of the completion of the investigation."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Information to be contained in annual returns",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "For the purposes of section 138(4) of the Ordinance, an annual return required to be submitted to the Commission shall—\n  (a) in the case of a licensed corporation—\n    (i) state the reporting period of the licensed corporation; and\n    (ii) where there has been a change in the information provided to the Commission pursuant to Part V of the Ordinance, or rules made for the purposes of Part V of the Ordinance, and a full description of such change has not been provided to the Commission, contain a full description of the change; or\n  (b) in the case of a licensed representative—\n    (i) state the reporting period of the licensed representative; and\n    (ii) where there has been a change in the information provided to the Commission pursuant to Part V of the Ordinance, or rules made for the purposes of Part V of the Ordinance, and a full description of such change has not been provided to the Commission, contain a full description of the change."
+  },
+  {
+   "id": "s5A",
+   "num": "5A",
+   "heading": "Change in domicile of corporation basic information in respect of which was provided before commencement date of Companies (Amendment) (No. 2) Ordinance 2025",
+   "status": "in-effect",
+   "text": "  (1) This section applies if—\n    (a) before the commencement date, any information was provided to the Commission as described in section 4(1) or 5(a)(ii), and the information included particulars of a corporation provided as part of the basic information in respect of the corporation; and\n    (b) there is a change in the corporation’s domicile on or after the commencement date (change in domicile).\n  (2) For the purposes of section 4 or 5(a)—\n    (a) the change in domicile is taken to be a change in the particulars of the corporation that were provided to the Commissioner as described in section 4(1) or 5(a)(ii), as the case may be, as part of the basic information in respect of the corporation; and\n    (b) a reference in section 4(1) or 5(a)(ii) to a full description of a change in information is, in so far as the change in domicile is concerned, a reference to—\n      (i) if the change in domicile involves a place becoming the corporation’s place of domicile—the matters set out in section 2(ca) of Part 1 of Schedule 1; or\n      (ii) if the change in domicile involves a place ceasing to be the corporation’s place of domicile—the matters set out in section 2(cb) of that Part.\n  (3) In this section—\n    *commencement date (生效日期) means the date on which section 254 of the Companies (Amendment) (No. 2) Ordinance 2025 (14 of 2025) comes into operation."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Information and particulars to be entered in register of licensed persons and registered institutions",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) For the purposes of section 136(2)(e) of the Ordinance, the register maintained under section 136(1) of the Ordinance shall, in addition to the information referred to in section 136(2)(a), (b), (c) and (d) of the Ordinance, contain the particulars specified in Schedule 4.\n  (2) Where, pursuant to section 135 of the Ordinance and section 4, the Commission is notified of any change in the information or particulars relating to a licensed person or registered institution, it shall make such amendments in the register as it considers necessary to record the change.\n  (3) Information and particulars in the register are to be updated at such intervals as the Commission considers appropriate."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Correction of errors in register",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Where an error exists in the register maintained under section 136(1) of the Ordinance, the Commission shall correct the error as soon as reasonably practicable."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Meaning of Terms Basic Information and Relevant Information",
+   "status": "in-effect",
+   "text": "Part 1 Basic Information\n1. Basic information, in relation to an individual, means, in so far as applicable, the following particulars of the individual—\n  (a) the title and the full personal name and surname in Chinese and English;\n  (b) the date and place of birth;\n  (c) gender;\n  (d) the Chinese commercial code and the number on his identity card issued under the Registration of Persons Ordinance (Cap. 177), and, if he is not the holder of a permanent identity card, the number, the name of the issuing agency and the date of expiry, of his passport, travel or other document issued by a competent government agency providing proof of identity;\n  (e) nationality;\n  (f) the business, residential and correspondence addresses; and\n  (g) the contact telephone and facsimile numbers and electronic mail address.\n2. Basic information, in relation to a corporation, means, in so far as applicable, the following particulars of the corporation—\n  (a) the corporate name and business name in Chinese and English;\n  (b) former names and periods during which those names were used;\n  (c) the date and place of incorporation;\n  (ca) its place of domicile, and the date beginning on which that place has been its place of domicile;\n  (cb) each of its former places of domicile, and the period during which that place was its place of domicile;\n  (d) the number of its valid business registration certificate;\n  (e) in the case of a corporation incorporated outside Hong Kong that is not a re-domiciled company, the date of the certificate of registration issued in respect of the corporation under—\n    (i) Part XI of the relevant Ordinance; or\n    (ii) section 777 of Part 16 of the Companies Ordinance (Cap. 622);\n  (f) the address of its registered office;\n  (g) the addresses of its places of business;\n  (h) the correspondence address; and\n  (i) the telephone and facsimile numbers, electronic mail address and web site address.\nPart 2 Relevant Information\n1. Relevant information, in relation to an individual, means information on whether or not the individual is or has been, in Hong Kong or elsewhere—\n  (a) convicted of or charged with any criminal offence (other than a minor offence) whether or not evidence of such conviction is admissible in proceedings in Hong Kong or elsewhere;\n  (b) subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be);\n  (c) subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance;\n  (d) a substantial shareholder or director of a corporation or business that is or has been subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be), or involved in the management of such corporation or business;\n  (e) a substantial shareholder or director of a corporation or business that is or has been subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance, or involved in the management of such corporation or business;\n  (f) engaged in any judicial or other proceedings;\n  (g) a party to a scheme of arrangement, or any form of compromise, with his creditors;\n  (h) in default of compliance with any judgement or court order;\n  (i) a substantial shareholder or director of a corporation or business that was wound up otherwise than by way of a members’ voluntary winding up, or involved in the management of such corporation or business;\n  (j) a partner of a firm which was dissolved other than with the consent of all the partners;\n  (k) bankrupt or aware of the existence of any matters that might render him insolvent or lead to the appointment of a provisional trustee of his property under the Bankruptcy Ordinance (Cap. 6);\n  (l) refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law;\n  (m) a substantial shareholder or director of a corporation that has been refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law, or involved in the management of such corporation; and\n  (n) disqualified from holding the office of director.\n2. Relevant information, in relation to a corporation, means information on whether or not the person is or has been, in Hong Kong or elsewhere—\n  (a) convicted of or charged with any criminal offence (other than a minor offence) whether or not evidence of such conviction is admissible in proceedings in Hong Kong or elsewhere;\n  (b) subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be);\n  (c) subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance;\n  (d) a substantial shareholder or director of a corporation or business that is or has been subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be), or involved in the management of such corporation or business;\n  (e) a substantial shareholder or director of a corporation or business that is or has been subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance, or involved in the management of such corporation or business;\n  (f) engaged in any judicial or other proceedings;\n  (g) a party to a scheme of arrangement, or any form of compromise, with its creditors;\n  (h) in default of compliance with any judgement or court order;\n  (i) a substantial shareholder or director of a corporation or business that was wound up otherwise than by way of a members’ voluntary winding up, or involved in the management of such corporation or business;\n  (j) a partner of a firm which was dissolved other than with the consent of all the partners;\n  (k) (in the case of a corporation other than a registered institution) insolvent or aware of the existence of any matters that might render it insolvent or lead to the appointment of a liquidator;\n  (l) refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law; and\n  (m) a substantial shareholder or director of a corporation that has been refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law, or involved in the management of such corporation.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information, in relation to an individual, means, in so far as applicable, the following particulars of the individual—\n  (a) the title and the full personal name and surname in Chinese and English;\n  (b) the date and place of birth;\n  (c) gender;\n  (d) the Chinese commercial code and the number on his identity card issued under the Registration of Persons Ordinance (Cap. 177), and, if he is not the holder of a permanent identity card, the number, the name of the issuing agency and the date of expiry, of his passport, travel or other document issued by a competent government agency providing proof of identity;\n  (e) nationality;\n  (f) the business, residential and correspondence addresses; and\n  (g) the contact telephone and facsimile numbers and electronic mail address."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information, in relation to a corporation, means, in so far as applicable, the following particulars of the corporation—\n  (a) the corporate name and business name in Chinese and English;\n  (b) former names and periods during which those names were used;\n  (c) the date and place of incorporation;\n  (ca) its place of domicile, and the date beginning on which that place has been its place of domicile;\n  (cb) each of its former places of domicile, and the period during which that place was its place of domicile;\n  (d) the number of its valid business registration certificate;\n  (e) in the case of a corporation incorporated outside Hong Kong that is not a re-domiciled company, the date of the certificate of registration issued in respect of the corporation under—\n    (i) Part XI of the relevant Ordinance; or\n    (ii) section 777 of Part 16 of the Companies Ordinance (Cap. 622);\n  (f) the address of its registered office;\n  (g) the addresses of its places of business;\n  (h) the correspondence address; and\n  (i) the telephone and facsimile numbers, electronic mail address and web site address."
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Relevant information, in relation to an individual, means information on whether or not the individual is or has been, in Hong Kong or elsewhere—\n  (a) convicted of or charged with any criminal offence (other than a minor offence) whether or not evidence of such conviction is admissible in proceedings in Hong Kong or elsewhere;\n  (b) subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be);\n  (c) subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance;\n  (d) a substantial shareholder or director of a corporation or business that is or has been subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be), or involved in the management of such corporation or business;\n  (e) a substantial shareholder or director of a corporation or business that is or has been subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance, or involved in the management of such corporation or business;\n  (f) engaged in any judicial or other proceedings;\n  (g) a party to a scheme of arrangement, or any form of compromise, with his creditors;\n  (h) in default of compliance with any judgement or court order;\n  (i) a substantial shareholder or director of a corporation or business that was wound up otherwise than by way of a members’ voluntary winding up, or involved in the management of such corporation or business;\n  (j) a partner of a firm which was dissolved other than with the consent of all the partners;\n  (k) bankrupt or aware of the existence of any matters that might render him insolvent or lead to the appointment of a provisional trustee of his property under the Bankruptcy Ordinance (Cap. 6);\n  (l) refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law;\n  (m) a substantial shareholder or director of a corporation that has been refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law, or involved in the management of such corporation; and\n  (n) disqualified from holding the office of director."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Relevant information, in relation to a corporation, means information on whether or not the person is or has been, in Hong Kong or elsewhere—\n  (a) convicted of or charged with any criminal offence (other than a minor offence) whether or not evidence of such conviction is admissible in proceedings in Hong Kong or elsewhere;\n  (b) subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be);\n  (c) subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance;\n  (d) a substantial shareholder or director of a corporation or business that is or has been subject to any disciplinary action or investigation by a regulatory body or criminal investigatory body (as the case may be), or involved in the management of such corporation or business;\n  (e) a substantial shareholder or director of a corporation or business that is or has been subject to any order of the court or other competent authority for fraud, dishonesty or misfeasance, or involved in the management of such corporation or business;\n  (f) engaged in any judicial or other proceedings;\n  (g) a party to a scheme of arrangement, or any form of compromise, with its creditors;\n  (h) in default of compliance with any judgement or court order;\n  (i) a substantial shareholder or director of a corporation or business that was wound up otherwise than by way of a members’ voluntary winding up, or involved in the management of such corporation or business;\n  (j) a partner of a firm which was dissolved other than with the consent of all the partners;\n  (k) (in the case of a corporation other than a registered institution) insolvent or aware of the existence of any matters that might render it insolvent or lead to the appointment of a liquidator;\n  (l) refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law; and\n  (m) a substantial shareholder or director of a corporation that has been refused or restricted from the right to carry on any trade, business or profession for which a specific licence, registration or other authorization is required by law, or involved in the management of such corporation."
+    }
+   ]
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Information to be Provided with Applications to Commission",
+   "status": "in-effect",
+   "text": "Part 1 Applications by Licensed Corporations and Registered Institutions under Provisions Referred to inSection 3(1)(a)\nItem | Description of information\n1. Basic information in respect of— (a) the applicant; (b) each controlling person of the applicant; (c) each person who is, or is proposed to be, a responsible officer or executive officer of the applicant; (d) each subsidiary of the applicant that carries on a business in any regulated activity; and (e) each related corporation of the applicant that carries on a business in any regulated activity.\n2. Basic information in respect of— (a) any corporation that is, or is proposed to be, an associated entity of the applicant; and\n(b) any person who is, or is proposed to be, an executive officer of an associated entity referred to in paragraph (a).\n3. The name, correspondence address, contact telephone and facsimile numbers and electronic mail address of— (a) each contact person appointed by the applicant as the person whom the Commission may contact in the event of market emergency or other urgent need; and (b) each person who is, or is proposed to be, a complaints officer of the applicant.\n4. In the case of an application for— (a) variation, under section 127 of the Ordinance, of the regulated activity for which the person is licensed or registered; and (b) the grant of a modification or waiver under section 134 of the Ordinance, a statement setting out the nature of the application and the reasons for the application.\n5. In the case of an application for a temporary licence, the period for which the licence is required.\n6. The details of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n7. In so far as applicable, the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n8. The relevant information in respect of each of the persons referred to in item 1.\n9. In so far as applicable, the employment record in respect of each of the persons referred to in item 1 stating, in relation to each employer— (a) the name of his employer; (b) the position in which he is, or was, employed; and (c) the dates of such employment.\n10. The nature of the business carried on or to be carried on and types of services provided or to be provided by the applicant.\n11. Information relating to the human and technical resources, operational procedures and organizational structures of the applicant showing that it is capable of carrying on its regulated activities, and its proposed regulated activities, competently.\n12. The business history (if any) of the applicant and a business plan of the applicant covering internal controls, organizational structure, contingency plans and related matters.\n13. The capital and shareholding structure of the applicant and the basic information in respect of any person in accordance with whose directions or instructions it is, or its directors are, accustomed or obliged to act.\n14. Whether any assets of the applicant are subject to any charge (including pledge, lien or encumbrance), and if so, the following particulars— (a) the date on which the assets are subject to the charge; (b) a description of the assets; and (c) the amount secured under the charge.\n15. In the case of a person applying to be licensed as a licensed corporation, the following particulars in respect of any bank account that he has opened for the purpose of carrying on regulated activities— (a) the name of the bank with which the account is opened; (b) the number of the account; and (c) whether the account is or was a trust account.\n16. The name of the auditor of the applicant and the date of his appointment.\n17. The address of each of the premises where— (a) the business of the applicant is, or is to be, conducted; and (b) records or documents of the applicant (in the case of a corporation other than a registered institution) are, or are to be, kept.\n18. In the case of a licensed corporation, or a person applying to be licensed as a licensed corporation, details of any insurance maintained or to be maintained by the applicant in accordance with rules made under section 116(5) of the Ordinance.\n19. In the case of a person applying to be licensed as a licensed corporation, whether any substantial shareholder of the licensed corporation that is an individual has ever been a patient as defined in section 2 of the Mental Health Ordinance ( Cap. 136 ).\n20. In the case of a person applying to be licensed as a licensed corporation, the financial information in respect of him showing that it is capable of meeting its obligations under the Securities and Futures (Financial Resources) Rules ( Cap. 571 sub. leg. N ).\n\n\n\n\n\n\n\n\n\nPart 2 Applications by Licensed Representatives under Provisions Referred to in Section 3(1)(b)\nItem | Description of information\n1. Basic information and CE number (if any) in respect of— (a) the applicant; and (b) the licensed corporation to which the applicant is accredited or seeks to be accredited.\n2. In the case of an application for— (a) variation, under section 127 of the Ordinance, of the regulated activity for which the person is licensed; and (b) the grant of a modification or waiver under section 134 of the Ordinance, a statement setting out the nature of the application and the reasons for the application.\n3. In the case of an application for a temporary licence, the period for which the licence is required.\n4. The details of any authorization (however described) to carry on a regulated activity of the applicant by an authority or regulatory organization in Hong Kong or elsewhere, and whether the applicant’s travel document is endorsed with a condition of stay prohibiting him from taking employment in Hong Kong.\n5. In so far as applicable, the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n6. The types of services provided or to be provided by the applicant on behalf of the licensed corporation to which the applicant is accredited or seeks to be accredited.\n7. A description of any current directorship, partnership or proprietorship of the applicant and the dates of appointment, or commencement, of any such directorship, partnership or proprietorship (as the case may be).\n8. The relevant information in respect of the applicant.\n9. In so far as applicable, the following details in respect of each of the persons referred to in item 1—\n(a) his academic record stating— (i) the names of post secondary educational or vocational establishments that he has attended; (ii) the courses completed at such establishments and the dates when those courses were attended;\n(iii) the examinations passed to obtain any post secondary educational or vocational qualification; and\n(iv) in the case of a person who has not obtained a post secondary educational or vocational qualification, whether or not he has obtained passes in the Hong Kong Certificate of Education Examination, or equivalent examinations, in the following subjects— (A) Chinese or English language; and (B) Mathematics;\n(b) his professional record stating— (i) the names of educational or vocational establishments that he has attended; (ii) the courses completed at such establishments and the dates when those courses were attended; and (iii) the details of any professional qualifications obtained; and\n(c) his employment record stating, in relation to each employer— (i) the name of his employer; (ii) the position in which he is, or was, employed; and (iii) the dates of such employment.\n10. Whether the applicant has ever been a patient as defined in section 2 of the Mental Health Ordinance ( Cap. 136 ).\n\n\n\n\n\n\nPart 3 Other Applications under Provisions Referred to in Section 3(1)(c)\nItem | Description of information\n1. Basic information in respect of— (a) the applicant; (b) each controlling person of the applicant;\n(c) each person who is, or is proposed to be, a responsible officer or executive officer of the applicant; (d) each subsidiary of the applicant that carries on a business in any regulated activity; and (e) each related corporation of the applicant that carries on a business in any regulated activity.\n2. Basic information in respect of— (a) any corporation that is, or is proposed to be, an associated entity of the applicant; and (b) any person who is, or is proposed to be, an executive officer of an associated entity referred to in paragraph (a).\n3. In the case of an application for— (a) any matter requiring the approval of the Commission under Part V of the Ordinance other than those matters referred to in section 128(1)(a) , (b), (c), (d), (e), (f), (g) and (h) of the Ordinance; and\n(b) the grant of a modification or waiver under section 134 of the Ordinance, a statement setting out the nature of the application and the reasons for the application.\n4. In the case of a person applying for approval of premises under section 130(1) of the Ordinance— (a) the address of each of the premises where records or documents required under the Ordinance are to be kept by the applicant; and (b) evidence that the premises are suitable for being used for the purpose of keeping records or documents required under the Ordinance.\n5. The relevant information in respect of each of the persons referred to in item 1.\n6. In the case of a person applying for approval to become or continue to be (as the case may be) a substantial shareholder of a licensed corporation under section 132 of the Ordinance— (a) the financial information in respect of the applicant showing that it is a fit and proper person to be a substantial shareholder of the licensed corporation; (b) the details of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1;\n(c) in so far as applicable, the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1; and\n(d) in so far as applicable, the employment record in respect of each of the persons referred to in item 1 stating, in relation to each employer— (i) the name of his employer; (ii) the position in which he is, or was, employed; and (iii) the dates of such employment.\n7. In the case of an individual applying to be approved as a substantial shareholder of a licensed corporation, whether he has ever been a patient as defined in section 2 of the Mental Health Ordinance ( Cap. 136 ).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information in respect of—\n    (a) the applicant;\n    (b) each controlling person of the applicant;\n    (c) each person who is, or is proposed to be, a responsible officer or executive officer of the applicant;\n    (d) each subsidiary of the applicant that carries on a business in any regulated activity; and\n    (e) each related corporation of the applicant that carries on a business in any regulated activity."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information in respect of—\n    (a) any corporation that is, or is proposed to be, an associated entity of the applicant; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (b) any person who is, or is proposed to be, an executive officer of an associated entity referred to in paragraph (a)."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The name, correspondence address, contact telephone and facsimile numbers and electronic mail address of—\n    (a) each contact person appointed by the applicant as the person whom the Commission may contact in the event of market emergency or other urgent need; and\n    (b) each person who is, or is proposed to be, a complaints officer of the applicant."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an application for—\n    (a) variation, under section 127 of the Ordinance, of the regulated activity for which the person is licensed or registered; and\n    (b) the grant of a modification or waiver under section 134 of the Ordinance,\na statement setting out the nature of the application and the reasons for the application."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an application for a temporary licence, the period for which the licence is required."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The details of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In so far as applicable, the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The relevant information in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In so far as applicable, the employment record in respect of each of the persons referred to in item 1 stating, in relation to each employer—\n    (a) the name of his employer;\n    (b) the position in which he is, or was, employed; and\n    (c) the dates of such employment."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The nature of the business carried on or to be carried on and types of services provided or to be provided by the applicant."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Information relating to the human and technical resources, operational procedures and organizational structures of the applicant showing that it is capable of carrying on its regulated activities, and its proposed regulated activities, competently."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The business history (if any) of the applicant and a business plan of the applicant covering internal controls, organizational structure, contingency plans and related matters."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The capital and shareholding structure of the applicant and the basic information in respect of any person in accordance with whose directions or instructions it is, or its directors are, accustomed or obliged to act."
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Whether any assets of the applicant are subject to any charge (including pledge, lien or encumbrance), and if so, the following particulars—\n    (a) the date on which the assets are subject to the charge;\n    (b) a description of the assets; and\n    (c) the amount secured under the charge."
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of a person applying to be licensed as a licensed corporation, the following particulars in respect of any bank account that he has opened for the purpose of carrying on regulated activities—\n    (a) the name of the bank with which the account is opened;\n    (b) the number of the account; and\n    (c) whether the account is or was a trust account."
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The name of the auditor of the applicant and the date of his appointment."
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The address of each of the premises where—\n    (a) the business of the applicant is, or is to be, conducted; and\n    (b) records or documents of the applicant (in the case of a corporation other than a registered institution) are, or are to be, kept."
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of a licensed corporation, or a person applying to be licensed as a licensed corporation, details of any insurance maintained or to be maintained by the applicant in accordance with rules made under section 116(5) of the Ordinance."
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of a person applying to be licensed as a licensed corporation, whether any substantial shareholder of the licensed corporation that is an individual has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136)."
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of a person applying to be licensed as a licensed corporation, the financial information in respect of him showing that it is capable of meeting its obligations under the Securities and Futures (Financial Resources) Rules (Cap. 571 sub. leg. N)."
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information and CE number (if any) in respect of—\n    (a) the applicant; and\n    (b) the licensed corporation to which the applicant is accredited or seeks to be accredited."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an application for—\n    (a) variation, under section 127 of the Ordinance, of the regulated activity for which the person is licensed; and\n    (b) the grant of a modification or waiver under section 134 of the Ordinance,\na statement setting out the nature of the application and the reasons for the application."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an application for a temporary licence, the period for which the licence is required."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The details of any authorization (however described) to carry on a regulated activity of the applicant by an authority or regulatory organization in Hong Kong or elsewhere, and whether the applicant’s travel document is endorsed with a condition of stay prohibiting him from taking employment in Hong Kong."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In so far as applicable, the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The types of services provided or to be provided by the applicant on behalf of the licensed corporation to which the applicant is accredited or seeks to be accredited."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A description of any current directorship, partnership or proprietorship of the applicant and the dates of appointment, or commencement, of any such directorship, partnership or proprietorship (as the case may be)."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The relevant information in respect of the applicant."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In so far as applicable, the following details in respect of each of the persons referred to in item 1—"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (a) his academic record stating—\n      (i) the names of post secondary educational or vocational establishments that he has attended;\n      (ii) the courses completed at such establishments and the dates when those courses were attended;"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "      (iii) the examinations passed to obtain any post secondary educational or vocational qualification; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "      (iv) in the case of a person who has not obtained a post secondary educational or vocational qualification, whether or not he has obtained passes in the Hong Kong Certificate of Education Examination, or equivalent examinations, in the following subjects—\n        (A) Chinese or English language; and\n        (B) Mathematics;"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (b) his professional record stating—\n      (i) the names of educational or vocational establishments that he has attended;\n      (ii) the courses completed at such establishments and the dates when those courses were attended; and\n      (iii) the details of any professional qualifications obtained; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (c) his employment record stating, in relation to each employer—\n      (i) the name of his employer;\n      (ii) the position in which he is, or was, employed; and\n      (iii) the dates of such employment."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Whether the applicant has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136)."
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information in respect of—\n    (a) the applicant;\n    (b) each controlling person of the applicant;"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (c) each person who is, or is proposed to be, a responsible officer or executive officer of the applicant;\n    (d) each subsidiary of the applicant that carries on a business in any regulated activity; and\n    (e) each related corporation of the applicant that carries on a business in any regulated activity."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Basic information in respect of—\n    (a) any corporation that is, or is proposed to be, an associated entity of the applicant; and\n    (b) any person who is, or is proposed to be, an executive officer of an associated entity referred to in paragraph (a)."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an application for—\n    (a) any matter requiring the approval of the Commission under Part V of the Ordinance other than those matters referred to in section 128(1)(a), (b), (c), (d), (e), (f), (g) and (h) of the Ordinance; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (b) the grant of a modification or waiver under section 134 of the Ordinance,\na statement setting out the nature of the application and the reasons for the application."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of a person applying for approval of premises under section 130(1) of the Ordinance—\n    (a) the address of each of the premises where records or documents required under the Ordinance are to be kept by the applicant; and\n    (b) evidence that the premises are suitable for being used for the purpose of keeping records or documents required under the Ordinance."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The relevant information in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of a person applying for approval to become or continue to be (as the case may be) a substantial shareholder of a licensed corporation under section 132 of the Ordinance—\n    (a) the financial information in respect of the applicant showing that it is a fit and proper person to be a substantial shareholder of the licensed corporation;\n    (b) the details of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1;"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (c) in so far as applicable, the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (d) in so far as applicable, the employment record in respect of each of the persons referred to in item 1 stating, in relation to each employer—\n      (i) the name of his employer;\n      (ii) the position in which he is, or was, employed; and\n      (iii) the dates of such employment."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an individual applying to be approved as a substantial shareholder of a licensed corporation, whether he has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136)."
+    }
+   ]
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Notification of Changes",
+   "status": "in-effect",
+   "text": "Part 1 Changes to be Notified by Licensed Corporations\nItem | Description of information\n1. Changes in the basic information in respect of— (a) the licensed corporation; (b) each controlling person of the licensed corporation; (c) each person who is a responsible officer of the licensed corporation; and (d) each subsidiary of the licensed corporation that carries on a business in any regulated activity.\n2. Changes in the persons who are controlling persons, responsible officers or subsidiaries of the licensed corporation that carry on a business in any regulated activity.\n3. Changes in the following particulars of any corporation that is, or becomes, or ceases to be, an associated entity of the licensed corporation— (a) in the case where the corporation is an intermediary— (i) the basic information in respect of the corporation; (ii) its CE number; (iii) the date of its becoming, or ceasing to be, an associated entity; (iv) whether it has any executive officers; and (v) the basic information in respect of its executive officers (if any); and (b) in any other case— (i) the basic information in respect of the corporation; (ii) the date of its becoming, or ceasing to be, an associated entity; (iii) whether it has any executive officers; (iv) the basic information in respect of its executive officers (if any); (v) in the case of a corporation becoming an associated entity, the facts that gave rise to the corporation becoming an associated entity; and\n\n\n\n\n\n(vi) in the case of a corporation ceasing to be an associated entity, the facts that gave rise to the corporation ceasing to be an associated entity and (except in the case of an authorized financial institution) confirmation that all client assets of the intermediary that are received or held by the corporation prior to its ceasing to be an associated entity have been fully accounted for and properly disposed of and, if not, the particulars of any such client assets of the intermediary that have not been fully accounted for and properly disposed of.\n4. Changes in the name, correspondence address, contact telephone and facsimile numbers and electronic mail address of— (a) each contact person appointed by the licensed corporation as the person whom the Commission may contact in the event of market emergency or other urgent need; and (b) each person who is, or is proposed to be, a complaints officer of the licensed corporation.\n5. Changes in the status of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n6. Changes in the status of the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n7. Changes in the relevant information in respect of each of the persons referred to in item 1.\n8. Significant changes in the nature of the business carried on or to be carried on and types of services provided or to be provided by the licensed corporation.\n9. Significant changes in the business plan of the licensed corporation covering internal controls, organizational structure, contingency plans and related matters.\n10. Changes in the capital and shareholding structure of the licensed corporation and the basic information in respect of any person in accordance with whose directions or instructions the licensed corporation is, or its directors are, accustomed or obliged to act.\n11. Changes in the information in respect of any assets of the licensed corporation that are subject to any charge (including pledge, lien or encumbrance).\n12. Changes in the particulars in respect of bank accounts of the licensed corporation relating to the conduct of regulated activities stating—\n(a) whether an account has been opened or closed or has become dormant or ordered to be frozen by a competent authority; (b) the name of the bank with which the account has been opened or closed or has become dormant or ordered to be frozen by a competent authority;\n(c) the number of the account; (d) the date of opening or closing any such account; and (e) whether the account is or was a trust account.\n13. Changes in the name of the auditor of the licensed corporation and the reasons for the change in the auditor.\n14. Changes in the address of each of the premises where the business of the licensed corporation is, or is to be, conducted.\n15. The address of each of the premises where records or documents of the licensed corporation are no longer kept.\n16. Changes in any insurance maintained or previously maintained by the licensed corporation in accordance with rules made under section 116(5) of the Ordinance.\nPart 2 Changes to be Notified by Registered Institutions\nItem | Description of information\n1. Changes in the basic information in respect of— (a) the registered institution; (b) each controlling person of the registered institution; (c) each person who is an executive officer of the registered institution; and\n(d) each subsidiary of the registered institution that carries on a business in any regulated activity.\n2. Changes in the persons who are controlling persons, executive officers or subsidiaries of the registered institution that carry on a business in any regulated activity.\n3. Changes in the following particulars of any corporation that is, or becomes, or ceases to be, an associated entity of the registered institution— (a) in the case where the corporation is an intermediary— (i) the basic information in respect of the corporation; (ii) its CE number; (iii) the date of its becoming, or ceasing to be, an associated entity; (iv) whether it has any executive officers; and\n(v) the basic information in respect of its executive officers (if any); and\n(b) in any other case— (i) the basic information in respect of the corporation; (ii) the date of its becoming, or ceasing to be, an associated entity; (iii) whether it has any executive officers; (iv) the basic information in respect of its executive officers (if any); (v) in the case of a corporation becoming an associated entity, the facts that gave rise to the corporation becoming an associated entity; and (vi) in the case of a corporation ceasing to be an associated entity, the facts that gave rise to the corporation ceasing to be an associated entity and (except in the case of an authorized financial institution) confirmation that all client assets of the intermediary that are received or held by the corporation prior to its ceasing to be an associated entity have been fully accounted for and properly disposed of and, if not, the particulars of any such client assets of the intermediary that have not been fully accounted for and properly disposed of.\n4. Changes in the name, correspondence address, contact telephone and facsimile numbers and electronic mail address of— (a) each contact person appointed by the registered institution as the person whom the Commission may contact in the event of market emergency or other urgent need; and (b) each person who is, or is proposed to be, a complaints officer of the registered institution.\n5. Changes in the status of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n6. Changes in the status of the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1.\n7. Changes in the relevant information in respect of each of the persons referred to in item 1.\n8. Significant changes in the nature of the business carried on or to be carried on and types of services provided or to be provided by the registered institution.\n9. Significant changes in the business plan of the registered institution covering internal controls, organizational structure, contingency plans and related matters.\n10. Changes in the capital and shareholding structure of the registered institution and the basic information in respect of any person in accordance with whose directions or instructions the registered institution is, or its directors are, accustomed or obliged to act.\n11. Changes in the name of the auditor of the registered institution and the reasons for the change in the auditor.\nPart 3 Changes to be Notified by Licensed Representatives Item Description of information Changes in the basic information in respect of the licensed representative. Changes in the status of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of the licensed representative. Changes in the status of the licensed representative’s membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere. Significant changes in the types of services provided or to be provided by the licensed representative on behalf of the licensed corporation to which the licensed representative is accredited or seeks to be accredited. Changes in the relevant information in respect of the licensed representative. Changes in whether the licensed representative has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136). Changes in the status of any directorships, partnerships or proprietorships of the licensed representative.\nPart 4 Changes to be Notified by Substantial Shareholders Item Description of information Changes in the basic information in respect of the substantial shareholder. Changes in the relevant information in respect of the substantial shareholder. Significant changes in the capital and shareholding structure of the substantial shareholder. In the case of an individual, changes in whether the substantial shareholder has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the basic information in respect of—\n    (a) the licensed corporation;\n    (b) each controlling person of the licensed corporation;\n    (c) each person who is a responsible officer of the licensed corporation; and\n    (d) each subsidiary of the licensed corporation that carries on a business in any regulated activity."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the persons who are controlling persons, responsible officers or subsidiaries of the licensed corporation that carry on a business in any regulated activity."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the following particulars of any corporation that is, or becomes, or ceases to be, an associated entity of the licensed corporation—\n    (a) in the case where the corporation is an intermediary—\n      (i) the basic information in respect of the corporation;\n      (ii) its CE number;\n      (iii) the date of its becoming, or ceasing to be, an associated entity;\n      (iv) whether it has any executive officers; and\n      (v) the basic information in respect of its executive officers (if any); and\n    (b) in any other case—\n      (i) the basic information in respect of the corporation;\n      (ii) the date of its becoming, or ceasing to be, an associated entity;\n      (iii) whether it has any executive officers;\n      (iv) the basic information in respect of its executive officers (if any);\n      (v) in the case of a corporation becoming an associated entity, the facts that gave rise to the corporation becoming an associated entity; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "      (vi) in the case of a corporation ceasing to be an associated entity, the facts that gave rise to the corporation ceasing to be an associated entity and (except in the case of an authorized financial institution) confirmation that all client assets of the intermediary that are received or held by the corporation prior to its ceasing to be an associated entity have been fully accounted for and properly disposed of and, if not, the particulars of any such client assets of the intermediary that have not been fully accounted for and properly disposed of."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the name, correspondence address, contact telephone and facsimile numbers and electronic mail address of—\n    (a) each contact person appointed by the licensed corporation as the person whom the Commission may contact in the event of market emergency or other urgent need; and\n    (b) each person who is, or is proposed to be, a complaints officer of the licensed corporation."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the relevant information in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Significant changes in the nature of the business carried on or to be carried on and types of services provided or to be provided by the licensed corporation."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Significant changes in the business plan of the licensed corporation covering internal controls, organizational structure, contingency plans and related matters."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the capital and shareholding structure of the licensed corporation and the basic information in respect of any person in accordance with whose directions or instructions the licensed corporation is, or its directors are, accustomed or obliged to act."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the information in respect of any assets of the licensed corporation that are subject to any charge (including pledge, lien or encumbrance)."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the particulars in respect of bank accounts of the licensed corporation relating to the conduct of regulated activities stating—"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (a) whether an account has been opened or closed or has become dormant or ordered to be frozen by a competent authority;\n    (b) the name of the bank with which the account has been opened or closed or has become dormant or ordered to be frozen by a competent authority;"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (c) the number of the account;\n    (d) the date of opening or closing any such account; and\n    (e) whether the account is or was a trust account."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the name of the auditor of the licensed corporation and the reasons for the change in the auditor."
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the address of each of the premises where the business of the licensed corporation is, or is to be, conducted."
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The address of each of the premises where records or documents of the licensed corporation are no longer kept."
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in any insurance maintained or previously maintained by the licensed corporation in accordance with rules made under section 116(5) of the Ordinance."
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the basic information in respect of—\n    (a) the registered institution;\n    (b) each controlling person of the registered institution;\n    (c) each person who is an executive officer of the registered institution; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (d) each subsidiary of the registered institution that carries on a business in any regulated activity."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the persons who are controlling persons, executive officers or subsidiaries of the registered institution that carry on a business in any regulated activity."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the following particulars of any corporation that is, or becomes, or ceases to be, an associated entity of the registered institution—\n    (a) in the case where the corporation is an intermediary—\n      (i) the basic information in respect of the corporation;\n      (ii) its CE number;\n      (iii) the date of its becoming, or ceasing to be, an associated entity;\n      (iv) whether it has any executive officers; and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "      (v) the basic information in respect of its executive officers (if any); and"
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "    (b) in any other case—\n      (i) the basic information in respect of the corporation;\n      (ii) the date of its becoming, or ceasing to be, an associated entity;\n      (iii) whether it has any executive officers;\n      (iv) the basic information in respect of its executive officers (if any);\n      (v) in the case of a corporation becoming an associated entity, the facts that gave rise to the corporation becoming an associated entity; and\n      (vi) in the case of a corporation ceasing to be an associated entity, the facts that gave rise to the corporation ceasing to be an associated entity and (except in the case of an authorized financial institution) confirmation that all client assets of the intermediary that are received or held by the corporation prior to its ceasing to be an associated entity have been fully accounted for and properly disposed of and, if not, the particulars of any such client assets of the intermediary that have not been fully accounted for and properly disposed of."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the name, correspondence address, contact telephone and facsimile numbers and electronic mail address of—\n    (a) each contact person appointed by the registered institution as the person whom the Commission may contact in the event of market emergency or other urgent need; and\n    (b) each person who is, or is proposed to be, a complaints officer of the registered institution."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of the membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the relevant information in respect of each of the persons referred to in item 1."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Significant changes in the nature of the business carried on or to be carried on and types of services provided or to be provided by the registered institution."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Significant changes in the business plan of the registered institution covering internal controls, organizational structure, contingency plans and related matters."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the capital and shareholding structure of the registered institution and the basic information in respect of any person in accordance with whose directions or instructions the registered institution is, or its directors are, accustomed or obliged to act."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the name of the auditor of the registered institution and the reasons for the change in the auditor."
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the basic information in respect of the licensed representative."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of any authorization (however described) to carry on a regulated activity by an authority or regulatory organization in Hong Kong or elsewhere in respect of the licensed representative."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of the licensed representative’s membership (however described) of a stock exchange or futures exchange in Hong Kong or elsewhere."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Significant changes in the types of services provided or to be provided by the licensed representative on behalf of the licensed corporation to which the licensed representative is accredited or seeks to be accredited."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the relevant information in respect of the licensed representative."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in whether the licensed representative has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136)."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the status of any directorships, partnerships or proprietorships of the licensed representative."
+    },
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the basic information in respect of the substantial shareholder."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Changes in the relevant information in respect of the substantial shareholder."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Significant changes in the capital and shareholding structure of the substantial shareholder."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In the case of an individual, changes in whether the substantial shareholder has ever been a patient as defined in section 2 of the Mental Health Ordinance (Cap. 136)."
+    }
+   ]
+  },
+  {
+   "id": "sch4",
+   "num": "Schedule 4",
+   "heading": "Particulars to be Contained in Register",
+   "status": "in-effect",
+   "text": "Part 1 Particulars of Licensed Persons to be Contained in Register\nThe following particulars in respect of a licensed person shall be contained in the register—\n  (a) his CE number;\n  (b) the date of grant of the licence under Part V of the Ordinance;\n  (c) in the case of a licensed corporation—\n    (i) its electronic mail address (if any) and web site address (if any);\n    (ii) its contact details (including correspondence address, telephone and facsimile numbers and electronic mail address) of its complaints officer;\n    (iii) whether it is licensed under section 117 of the Ordinance; and\n    (iv) a list of its accredited representatives;\n  (d) in the case of a licensed representative—\n    (i) whether he is licensed under section 120(2) of the Ordinance;\n    (ii) whether he is licensed under section 121 of the Ordinance;\n    (iii) whether he is approved as a responsible officer and, if so, the regulated activity for which he is responsible; and\n    (iv) the date of accreditation to his principal;\n  (e) the effective date of such conditions (if any) of the licence as the Commission contains in the register under section 136(2)(b) of the Ordinance;\n  (f) the regulated activity or activities for which the licensed person is licensed and the effective date of the approval for the person to carry on the regulated activity or activities;\n  (g) whether or not the licence is suspended;\n  (h) the modification or waiver granted (if any), together with such particulars as the Commission considers appropriate in relation to any condition imposed, and the corresponding effective date; and\n  (i) a record of each public disciplinary action (if any) taken by the Commission against him in Hong Kong that is not the subject of a pending appeal, or a successful appeal, and the record of each disciplinary action is to be kept in the register for a period of 5 years from the date when the relevant disciplinary action takes effect.\nPart 2 Particulars of Registered Institutions to be Contained in Register\nThe following particulars in respect of a registered institution shall be contained in the register—\n  (a) its CE number;\n  (b) the date of grant of the registration under Part V of the Ordinance;\n  (c) its electronic mail address (if any) and web site address (if any);\n  (d) its contact details (including correspondence address, telephone and facsimile numbers and electronic mail address) of its complaints officer;\n  (e) the effective date of such conditions (if any) of the registration as the Commission contains in the register under section 136(2)(b) of the Ordinance;\n  (f) the regulated activity or activities for which the registered institution is registered and the effective date of the approval for the institution to carry on the regulated activity or activities;\n  (g) whether or not the registration is suspended;\n  (h) the modification or waiver granted (if any), together with such particulars as the Commission considers appropriate in relation to any condition imposed, and the corresponding effective date; and\n  (i) a record of each public disciplinary action (if any) taken by the Commission against it in Hong Kong that is not the subject of a pending appeal, or a successful appeal, and the record of each disciplinary action is to be kept in the register for a period of 5 years from the date when the relevant disciplinary action takes effect.",
+   "items": [
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The following particulars in respect of a licensed person shall be contained in the register—\n  (a) his CE number;\n  (b) the date of grant of the licence under Part V of the Ordinance;\n  (c) in the case of a licensed corporation—\n    (i) its electronic mail address (if any) and web site address (if any);\n    (ii) its contact details (including correspondence address, telephone and facsimile numbers and electronic mail address) of its complaints officer;\n    (iii) whether it is licensed under section 117 of the Ordinance; and\n    (iv) a list of its accredited representatives;\n  (d) in the case of a licensed representative—\n    (i) whether he is licensed under section 120(2) of the Ordinance;\n    (ii) whether he is licensed under section 121 of the Ordinance;\n    (iii) whether he is approved as a responsible officer and, if so, the regulated activity for which he is responsible; and\n    (iv) the date of accreditation to his principal;\n  (e) the effective date of such conditions (if any) of the licence as the Commission contains in the register under section 136(2)(b) of the Ordinance;\n  (f) the regulated activity or activities for which the licensed person is licensed and the effective date of the approval for the person to carry on the regulated activity or activities;\n  (g) whether or not the licence is suspended;\n  (h) the modification or waiver granted (if any), together with such particulars as the Commission considers appropriate in relation to any condition imposed, and the corresponding effective date; and\n  (i) a record of each public disciplinary action (if any) taken by the Commission against him in Hong Kong that is not the subject of a pending appeal, or a successful appeal, and the record of each disciplinary action is to be kept in the register for a period of 5 years from the date when the relevant disciplinary action takes effect."
+    },
+    {
+     "id": "s0",
+     "num": "",
+     "heading": "",
+     "status": "in-effect",
+     "text": "The following particulars in respect of a registered institution shall be contained in the register—\n  (a) its CE number;\n  (b) the date of grant of the registration under Part V of the Ordinance;\n  (c) its electronic mail address (if any) and web site address (if any);\n  (d) its contact details (including correspondence address, telephone and facsimile numbers and electronic mail address) of its complaints officer;\n  (e) the effective date of such conditions (if any) of the registration as the Commission contains in the register under section 136(2)(b) of the Ordinance;\n  (f) the regulated activity or activities for which the registered institution is registered and the effective date of the approval for the institution to carry on the regulated activity or activities;\n  (g) whether or not the registration is suspended;\n  (h) the modification or waiver granted (if any), together with such particulars as the Commission considers appropriate in relation to any condition imposed, and the corresponding effective date; and\n  (i) a record of each public disciplinary action (if any) taken by the Commission against it in Hong Kong that is not the subject of a pending appeal, or a successful appeal, and the record of each disciplinary action is to be kept in the register for a period of 5 years from the date when the relevant disciplinary action takes effect."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "cap": "571I",
+ "title": "Securities and Futures (Client Money) Rules",
+ "longTitle": "",
+ "versionDate": "2024-10-02",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571I",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Client Money Received or Held by Licensed Corporations other than in Conduct of Type 13 Regulated Activity and their Associated Entities",
+   "status": "in-effect",
+   "sections": [
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Scheme Money Received or Held by Licensed Corporations in Conduct of Type 13 Regulated Activity and their Associated Entities",
+   "status": "in-effect",
+   "sections": [
+    "s10A",
+    "s10B",
+    "s10C",
+    "s10D",
+    "s10E",
+    "s10F"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s11",
+    "s12"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "In these Rules, unless the context otherwise requires—\n  linked corporation (相連法團), in relation to an associated entity of a licensed corporation, means a corporation—\n    (a) of which the associated entity is a controlling entity;\n    (b) which is a controlling entity of the associated entity; or\n    (c) which has as its controlling entity a person which is also a controlling entity of the associated entity;\n  segregated account (獨立帳戶) means a segregated account established and maintained under section 4(1) and (2) or, where Part 3 applies, section 10B(1), (2), (3) and (4);\n  standing authority (常設授權) has the meaning assigned to it by section 8(1);\n  unconscionable (不合情理), in relation to a standing authority, means unconscionable having regard to the factors specified in section 6 of the Unconscionable Contracts Ordinance (Cap. 458), as if the standing authority in question were a contract under that Ordinance;\n  written direction (書面指示) has the meaning assigned to it by section 7."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) Subject to subsections (2), (3), (4) and (5), these Rules apply to client money of a licensed corporation that is received or held by or on behalf of—\n    (a) the licensed corporation, in the course of the conduct of any regulated activity for which the licensed corporation is licensed; or\n    (b) an associated entity of the licensed corporation, in relation to such conduct of the regulated activity.\n  (2) These Rules do not apply to client money of a licensed corporation that—\n    (a) is received or held outside Hong Kong by the licensed corporation or an associated entity of the licensed corporation, while that client money remains outside Hong Kong; or\n    (b) has at any time been received or held in Hong Kong by the licensed corporation or an associated entity of the licensed corporation, once that client money is transferred outside Hong Kong in accordance with these Rules.\n  (3) These Rules do not apply to client money of a licensed corporation that is in a bank account established and maintained by a client of the licensed corporation in that client’s name.\n  (4) Subsection (3) and Part 2 do not apply to—\n    (a) a licensed corporation licensed for Type 13 regulated activity; or\n    (b) an associated entity of the licensed corporation,\n  in relation to the conduct by the licensed corporation of that regulated activity.\n  (5) Part 3 applies only to—\n    (a) a licensed corporation licensed for Type 13 regulated activity; or\n    (b) an associated entity of the licensed corporation,\n  in relation to the conduct by the licensed corporation of that regulated activity."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Payment of client money into segregated accounts",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A licensed corporation or an associated entity of a licensed corporation that receives or holds client money of the licensed corporation as referred to in subsection (3) shall establish and maintain in Hong Kong one or more segregated accounts for client money in accordance with subsection (2), each of which shall be designated as a trust account or client account.\n  (2) A segregated account referred to in subsection (1) shall be established and maintained with—\n    (a) an authorized financial institution; or\n    (b) any other person approved by the Commission for the purposes of this section, either generally or in a particular case.\n  (3) The following amounts of client money of a licensed corporation that are received or held by the licensed corporation or an associated entity of a licensed corporation shall be dealt with in accordance with subsection (4)—\n    (a) all amounts that are received from or on behalf of a client of the licensed corporation in respect of dealing in securities or future contracts—\n      (i) less brokerage and other proper charges in connection with such dealing;\n      (ii) except those amounts that the licensed corporation is required to pay on the day of receipt or within the following 2 business days in order to meet the client’s obligations to meet settlement or margin requirements in respect of such dealing; and\n      (iii) except those amounts that are reimbursements to the licensed corporation of money which the licensed corporation has paid at any time before the day of receipt in order to meet the client’s obligations to meet settlement or margin requirements in respect of such dealing;\n    (b) all amounts that are received from or on behalf of a client of the licensed corporation to whom the licensed corporation provides financial accommodation to facilitate the acquisition and, where applicable, the continued holding of securities, except those amounts that are used to reduce the amount owed by the client to the licensed corporation;\n    (c) all amounts that are received from or on behalf of a client of the licensed corporation in respect of leveraged foreign exchange trading, less brokerage and other proper charges in connection with such trading;\n    (d) all other amounts that are received from or on behalf of a client of the licensed corporation, except—\n      (i) the amounts referred to in paragraph (a)(i), (ii) and (iii);\n      (ii) the amounts that are used to reduce the amount of financial accommodation owed by a client of the licensed corporation to the licensed corporation, as referred to in paragraph (b); and\n      (iii) the brokerage and other proper charges referred to in paragraph (c).\n  (4) Within one business day after a licensed corporation or an associated entity of a licensed corporation receives any amount of client money of the licensed corporation as referred to in subsection (3), the licensed corporation or associated entity shall pay it—\n    (a) into a segregated account;\n    (b) to the client from whom or on whose behalf it has been received;\n    (c) subject to subsection (6), in accordance with a written direction; or\n    (d) subject to subsections (5) and (6), in accordance with a standing authority.\n  (5) A licensed corporation or an associated entity of a licensed corporation shall not pay any amount of client money of the licensed corporation under subsection (4)(d) if—\n    (a) to do so would be unconscionable; or\n    (b) the standing authority authorizes payment to an account in Hong Kong of the licensed corporation or associated entity, or an account in Hong Kong of any corporation with which the licensed corporation is in a controlling entity relationship or in relation to which the associated entity is a linked corporation, and that account is not a segregated account.\n  (6) Neither a licensed corporation nor an associated entity of a licensed corporation may pay, or permit to be paid, any amount of client money of the licensed corporation to—\n    (a) any of its officers or employees; or\n    (b) any officer or employee of any corporation with which the licensed corporation is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n  unless that officer or employee is the client of the licensed corporation from whom or on whose behalf such client money has been received."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Payment of client money out of segregated accounts",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A licensed corporation or an associated entity of a licensed corporation that holds any amount of client money of the licensed corporation in a segregated account shall retain it there until it is—\n    (a) paid to the client of the licensed corporation, being the client on whose behalf it is being held;\n    (b) subject to subsection (3), paid in accordance with a written direction;\n    (c) subject to subsections (2) and (3), paid in accordance with a standing authority;\n    (d) required in order to meet the client’s obligations to meet settlement or margin requirements in respect of dealing in securities or futures contracts carried out by the licensed corporation on behalf of the client of the licensed corporation, being the client on whose behalf it is being held; or\n    (e) required to pay money that the client of the licensed corporation, being the client on whose behalf it is being held, owes—\n      (i) to the licensed corporation in respect of the carrying on by the licensed corporation of any regulated activity for which it is licensed; or\n      (ii) to the associated entity in respect of the receipt or holding of client money for or on behalf of the client by the associated entity.\n  (2) A licensed corporation or an associated entity of a licensed corporation shall not pay any amount of client money of the licensed corporation under subsection (1)(c) if—\n    (a) to do so would be unconscionable; or\n    (b) the standing authority authorizes payment to an account in Hong Kong of—\n      (i) the licensed corporation or associated entity in circumstances other than those set out in subsection (1)(d) or (e); or\n      (ii) any corporation with which the licensed corporation is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n    and that account is not a segregated account.\n  (3) Neither a licensed corporation nor an associated entity of a licensed corporation as referred to in subsection (1) may pay, or permit to be paid, any client money of the licensed corporation to—\n    (a) any of its officers or employees; or\n    (b) any officer or employee of any corporation with which the licensed corporation is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n  unless that officer or employee is the client on whose behalf such client money is being held."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Treatment of interest on client money held in segregated accounts",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to subsection (2), a licensed corporation or an associated entity of a licensed corporation that holds client money of the licensed corporation shall deal with amounts of interest derived from the holding of the client money in a segregated account in accordance with section 5(1).\n  (2) Any amount of interest retained in a segregated account which the licensed corporation or associated entity that holds the client money in question is entitled to retain under an agreement in writing with a client of the licensed corporation, being the client on whose behalf the client money is being held, shall be paid out of the account by the licensed corporation or associated entity within one business day after—\n    (a) the interest is credited to the account; or\n    (b) the licensed corporation or associated entity becomes aware that the interest has been credited to the account,\n  whichever is the later."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Requirements in respect of a client’s written direction",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "For the purposes of section 4(4)(c) or 5(1)(b), a written direction is a written notice that—\n  (a) relates to an amount of client money of a licensed corporation referred to in that section;\n  (b) is given to the licensed corporation or an associated entity of the licensed corporation by the client of the licensed corporation—\n    (i) from whom or on whose behalf that amount of client money was received; or\n    (ii) on whose behalf that amount of client money is being held;\n  (c) directs the licensed corporation or associated entity to pay that amount of client money in a particular manner; and\n  (d) ceases to have effect after the client money to which it relates has been paid by the licensed corporation or associated entity in the manner directed."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Requirements in respect of a client’s standing authority",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) For the purposes of section 4(4)(d) or 5(1)(c), a standing authority is a written notice that—\n    (a) is given to a licensed corporation or an associated entity of a licensed corporation by a client of the licensed corporation;\n    (b) authorizes the licensed corporation or associated entity to deal with client money from time to time—\n      (i) received from or on behalf of; or\n      (ii) held on behalf of,\n    the client, in one or more specified ways;\n    (c) subject to subsection (2), specifies a period not exceeding 12 months during which it is valid; and\n    (d) specifies the manner in which it may be revoked.\n  (2) Subsection (1)(c) shall not apply to a standing authority which is given to a licensed corporation or an associated entity of a licensed corporation by a client of the licensed corporation who is a professional investor.\n  (3) A standing authority which is not revoked prior to its expiry—\n    (a) may be renewed for one or more further periods—\n      (i) not exceeding 12 months, if the client of the licensed corporation who gave it is not a professional investor; or\n      (ii) of any duration, if the client of the licensed corporation who gave it is a professional investor,\n    at any one time, with the written consent of the client of the licensed corporation who gave it; or\n    (b) shall be deemed to have been renewed if—\n      (i) at least 14 days prior to the expiry of the standing authority, the licensed corporation or associated entity to which it was given, gives a written notice to the client of the licensed corporation who gave the standing authority, reminding the client of its impending expiry, and informing the client that unless the client objects, it will be renewed upon expiry upon the same terms and conditions as specified in the standing authority and for—\n        (A) an equivalent period to that specified in the standing authority;\n        (B) any period not exceeding 12 months specified by the licensed corporation or associated entity, if the client of the licensed corporation is not a professional investor; or\n        (C) a period of any duration specified by the licensed corporation or associated entity, if the client of the licensed corporation is a professional investor; and\n      (ii) the client does not object to the renewal of the standing authority before its expiry.\n  (4) Where a standing authority is deemed to have been renewed in accordance with subsection (3)(b), the licensed corporation or associated entity (as the case may be) shall give a written confirmation of the renewal of the standing authority to the client of the licensed corporation within one week after the date of expiry."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Receipt of cheques for client money",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "For the purposes of section 4(3)(a) and (4), a licensed corporation or an associated entity of a licensed corporation that receives a cheque for an amount of client money is regarded as having received such amount only upon receipt by it of the proceeds of that cheque."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Requirement to pay money other than client money out of segregated accounts",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "A licensed corporation or an associated entity of a licensed corporation which becomes aware that it is holding an amount of money in a segregated account that is not client money of the licensed corporation shall, within one business day of becoming so aware, pay that amount of money out of the segregated account."
+  },
+  {
+   "id": "s10A",
+   "num": "10A",
+   "heading": "Interpretation of Part 3",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "In this Part—\n  licensed corporation (持牌法團) means a corporation licensed for Type 13 regulated activity;\n  open-ended fund company (開放式基金型公司) has the meaning given by section 112A of the Ordinance;\n  relevant CIS (相關集體投資計劃) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  relevant CIS account (相關集體投資計劃帳户) means an account—\n    (a) established and maintained by the board of directors of a relevant CIS that is constituted in the form of an open-ended fund company or any other corporate form in the name of the relevant CIS in accordance with section 10B(6) and (7); and\n    (b) in respect of which a licensed corporation or an associated entity of a licensed corporation (as the case may be) has control;\n  relevant CIS property (相關集體投資計劃財產) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  scheme documents (計劃文件) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  scheme money (計劃款項), in relation to a licensed corporation, means any client money—\n    (a) received or held in Hong Kong by the licensed corporation in the course of the conduct of Type 13 regulated activity; or\n    (b) received or held in Hong Kong by any corporation which is in a controlling entity relationship with the licensed corporation, in relation to such conduct of Type 13 regulated activity,\n  that constitutes relevant CIS property in respect of a relevant CIS, and includes any accretions to it whether as capital or income;\n  sub-fund (子基金)—\n    (a) in relation to a relevant CIS that is constituted in the form of an open-ended fund company, means a sub-fund within the meaning of section 112R of the Ordinance and is a relevant CIS;\n    (b) in relation to a relevant CIS that is constituted in the form of a trust, means the separate part of relevant CIS property that is subject to or established as a separate trust and is a relevant CIS; or\n    (c) in relation to a relevant CIS that is constituted in any other form, means the separate part of relevant CIS property that is divided in accordance with the scheme documents of the relevant CIS and is a relevant CIS;\n  written instruction (書面指令)—see section 10E."
+  },
+  {
+   "id": "s10B",
+   "num": "10B",
+   "heading": "Payment of scheme money into segregated accounts and relevant CIS accounts",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Subject to subsection (5), a licensed corporation or an associated entity of a licensed corporation that receives or holds scheme money in respect of a relevant CIS must establish and maintain in Hong Kong 1 or more segregated accounts for the scheme money in accordance with subsections (2), (3) and (4), each of which must be designated as a trust account or client account for the relevant CIS.\n  (2) Each segregated account for scheme money must be established and maintained with—\n    (a) an authorized financial institution; or\n    (b) any other person approved by the Commission for the purposes of this section, either generally or in a particular case.\n  (3) Subject to subsection (4), each segregated account for scheme money referred to in subsection (1) must be established and maintained for only 1 relevant CIS.\n  (4) For the purposes of subsection (3), where a relevant CIS consists of 1 or more sub-funds, a licensed corporation or an associated entity of a licensed corporation may establish and maintain 1 segregated account for scheme money in respect of the relevant CIS and all of its sub-funds or separate segregated accounts for scheme money in respect of the relevant CIS and each of its sub-funds.\n  (5) For a relevant CIS that is constituted in the form of an open-ended fund company or any other corporate form, a licensed corporation or an associated entity of a licensed corporation that receives or holds scheme money in respect of the relevant CIS is not required to comply with subsection (1) if the scheme money is received or held in a relevant CIS account that is established and maintained in accordance with subsections (6) and (7).\n  (6) Each relevant CIS account for scheme money must be established and maintained with—\n    (a) an authorized financial institution; or\n    (b) any other person approved by the Commission for the purposes of this section, either generally or in a particular case.\n  (7) For the purposes of subsection (5), each relevant CIS account for scheme money must be established and maintained for only 1 relevant CIS, unless a relevant CIS consists of 1 or more sub-funds, in which case 1 relevant CIS account for scheme money may be established and maintained in respect of the relevant CIS and all of its sub-funds or separate relevant CIS accounts for scheme money may be established and maintained in respect of the relevant CIS and each of its sub-funds.\n  (8) All amounts of scheme money in respect of a relevant CIS that are received or held by a licensed corporation or an associated entity of a licensed corporation must be dealt with in accordance with subsection (9), except—\n    (a) proper charges that may be deducted by the licensed corporation in connection with Type 13 regulated activity;\n    (b) those amounts that the licensed corporation is required to pay within the following business day to meet settlement or margin requirements or redemption requests on behalf of the relevant CIS; and\n    (c) those amounts that are reimbursements to the licensed corporation of money that the licensed corporation has paid at any time before the day of receipt in order to meet settlement or margin requirements on behalf of the relevant CIS,\n  in each case in accordance with the scheme documents of the relevant CIS.\n  (9) Within 3 business days after a licensed corporation or an associated entity of a licensed corporation receives any amount of scheme money in respect of a relevant CIS as referred to in subsection (8), the licensed corporation or associated entity must—\n    (a) where subsection (1) applies, pay it into a segregated account for scheme money in respect of the relevant CIS;\n    (b) where subsection (5) applies, pay it into a relevant CIS account for scheme money in respect of the relevant CIS; or\n    (c) subject to subsection (10), pay it in accordance with a written instruction.\n  (10) Neither a licensed corporation nor an associated entity of a licensed corporation may pay, or permit to be paid, any amount of scheme money in respect of a relevant CIS to—\n    (a) any of its officers or employees; or\n    (b) any officer or employee of any corporation with which the licensed corporation is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n  unless the scheme money is paid to that officer or employee in accordance with the scheme documents of the relevant CIS."
+  },
+  {
+   "id": "s10C",
+   "num": "10C",
+   "heading": "Payment of scheme money out of segregated accounts and relevant CIS accounts",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) A licensed corporation or an associated entity of a licensed corporation that holds any amount of scheme money in respect of a relevant CIS in a segregated account or a relevant CIS account must not pay scheme money out of the account unless it is—\n    (a) paid by the licensed corporation in accordance with the scheme documents of the relevant CIS to—\n      (i) meet payment, distribution, redemption, settlement or margin requirements on behalf of the relevant CIS;\n      (ii) settle any proper charges due to any person who has provided a service in respect of the relevant CIS; or\n      (iii) settle any other liabilities incurred by or on behalf of the relevant CIS; or\n    (b) subject to subsection (2), paid in accordance with a written instruction.\n  (2) Neither a licensed corporation nor an associated entity of a licensed corporation may pay, or permit to be paid, any amount of scheme money in respect of a relevant CIS to—\n    (a) any of its officers or employees; or\n    (b) any officer or employee of any corporation with which the licensed corporation is in a controlling entity relationship or in relation to which the associated entity is a linked corporation,\n  unless the scheme money is paid to that officer or employee in accordance with the scheme documents of the relevant CIS."
+  },
+  {
+   "id": "s10D",
+   "num": "10D",
+   "heading": "Treatment of interest on scheme money held in segregated accounts and relevant CIS accounts",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "A licensed corporation or an associated entity of a licensed corporation that holds scheme money in respect of a relevant CIS must deal with amounts of interest derived from the holding of the scheme money in a segregated account or a relevant CIS account in accordance with section 10C(1)."
+  },
+  {
+   "id": "s10E",
+   "num": "10E",
+   "heading": "Requirements in respect of written instruction",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "For the purposes of section 10B(9)(c) or 10C(1)(b), a written instruction is a written notice that—\n  (a) relates to an amount of scheme money in respect of a relevant CIS referred to in that section;\n  (b) is given to the licensed corporation or an associated entity of the licensed corporation by or on behalf of the relevant CIS; and\n  (c) directs the licensed corporation or the associated entity to deal with the scheme money in a particular manner,\nwhere the giving of the instruction and the dealing of scheme money in the manner as specified in the instruction by the licensed corporation or the associated entity does not contravene any provisions of the scheme documents of the relevant CIS."
+  },
+  {
+   "id": "s10F",
+   "num": "10F",
+   "heading": "Receipt of cheques for scheme money",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "For the purposes of section 10B(1) and (8), a licensed corporation or an associated entity of a licensed corporation that receives a cheque for an amount of scheme money is regarded as having received such amount only on receipt by it of the proceeds of that cheque."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Reporting of non-compliance with certain provisions of these Rules",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "If a licensed corporation or an associated entity of a licensed corporation to which section 4(1) or (4), 5(1), 10B(1) or (9) or 10C(1) applies becomes aware that it does not comply with such section, it shall, within one business day thereafter, give written notice of that fact to the Commission."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Penalties",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) A licensed corporation, or an associated entity of a licensed corporation, which, without reasonable excuse, contravenes section 4, 5, 10B or 10C commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $200,000 and to imprisonment for 2 years; or\n    (b) on summary conviction to a fine at level 6 and to imprisonment for 6 months.\n  (2) A licensed corporation, or an associated entity of a licensed corporation, which, with intent to defraud, contravenes section 4, 5, 10B or 10C commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $1,000,000 and to imprisonment for 7 years; or\n    (b) on summary conviction to a fine of $500,000 and to imprisonment for 1 year.\n  (3) A licensed corporation, or an associated entity of a licensed corporation, which, without reasonable excuse, contravenes section 6, 8(4), 10, 10D or 11 commits an offence and is liable on conviction to a fine at level 3.\n  (4) A licensed corporation, or an associated entity of a licensed corporation, which, with intent to defraud, contravenes section 6, 8(4), 10, 10D or 11 commits an offence and is liable on conviction to a fine at level 6.\n  (5) In deciding whether or not a payment of client money under section 4(5)(a) or 5(2)(a) would be unconscionable, the court shall have regard to the factors specified in section 6 of the Unconscionable Contracts Ordinance (Cap. 458), as if the standing authority in question were a contract under that Ordinance."
+  }
+ ],
+ "schedules": []
+}

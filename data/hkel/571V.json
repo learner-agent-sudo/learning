@@ -1,0 +1,232 @@
+{
+ "cap": "571V",
+ "title": "Securities and Futures (Stock Market Listing) Rules",
+ "longTitle": "",
+ "versionDate": "2017-04-21",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571V",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Stock Market Listing",
+   "status": "in-effect",
+   "sections": [
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Suspension of Dealings",
+   "status": "in-effect",
+   "sections": [
+    "s8",
+    "s9",
+    "s10",
+    "s11"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Approved Share Registrars",
+   "status": "in-effect",
+   "sections": [
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part 5",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s17",
+    "s18",
+    "s19",
+    "s20"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "In these Rules, unless the context otherwise requires—\n  applicant (申請人) means a corporation or other body which has submitted an application under section 3;\n  application (申請) means an application submitted under section 3 and all documents in support of or in connection with the application including any replacement of and amendment and supplement to the application;\n  approved share registrar (認可股份登記員) means a share registrar who is a member of an association of persons approved by the Commission under section 12;\n  issuer (發行人) means a corporation or other body the securities of which are listed, or proposed to be listed, on a recognized stock market;\n  share registrar (股份登記員) means any person who maintains in Hong Kong the register of members of a corporation the securities of which are listed, or proposed to be listed, on a recognized stock market."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Requirements for listing applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "An application for the listing of any securities issued or to be issued by the applicant shall—\n  (a) comply with the rules and requirements of the recognized exchange company to which the application is submitted (except to the extent that compliance is waived or not required by the recognized exchange company);\n  (b) comply with any provision of law applicable; and\n  (c) contain such particulars and information which, having regard to the particular nature of the applicant and the securities, is necessary to enable an investor to make an informed assessment of the activities, assets and liabilities and financial position, of the applicant at the time of the application and its profits and losses and of the rights attaching to the securities."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Exemptions from sections 3 and 5",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Sections 3 and 5 do not apply to the listing of any—\n  (a) securities issued or allotted—\n    (i) by a capitalization issue pro rata (apart from fractional entitlements) to existing shareholders, whether or not they are shareholders whose addresses registered in the books of the corporation are in a place outside Hong Kong and to whom the securities are not actually issued or allotted because of restrictions imposed by legislation of that place; or\n    (ii) pursuant to a scrip dividend scheme which has been approved by the corporation in general meeting;\n  (b) securities offered on a pre-emptive basis, pro rata (apart from fractional entitlements) to existing holdings, to holders of the relevant class of shares in the corporation, whether or not they are shareholders whose addresses registered in the books of the corporation are in a place outside Hong Kong and to whom the securities are not actually offered because of restrictions imposed by legislation of that place;\n  (c) shares issued in substitution for shares listed on a recognized stock market, if the issue of the shares does not involve any increase in the issued share capital of the corporation;\n  (d) shares issued or allotted pursuant to the exercise of options granted to existing employees as part of their remuneration under a scheme approved by the shareholders of the corporation in a general meeting."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Copy of application to be filed with the Commission",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An applicant shall file a copy of its application with the Commission within one business day after the day on which the application is submitted to a recognized exchange company.\n  (2) An applicant is regarded as having complied with subsection (1) on the day it submits the application to a recognized exchange company if, prior to or at the time of submitting the application to the recognized exchange company, the applicant has authorized the recognized exchange company in writing to file the application with the Commission on its behalf."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Powers of the Commission to require further information and to object to listing",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to subsection (8), the Commission may, by notice to an applicant and a recognized exchange company given within 10 business days from the date the applicant files a copy of its application with the Commission (or if there is more than one such date, the latest date), require the applicant to supply to the Commission such further information as the Commission may reasonably require for the performance of its functions under these Rules.\n  (2) The Commission may, within the period specified in subsection (6), by notice to an applicant and a recognized exchange company, object to a listing of any securities to which an application relates if it appears to the Commission that—\n    (a) the application does not comply with a requirement under section 3;\n    (b) the application is false or misleading as to a material fact or is false or misleading through the omission of a material fact;\n    (c) the applicant has failed to comply with a requirement under subsection (1) or, in purported compliance with the requirement has furnished the Commission with information which is false or misleading in any material particular; or\n    (d) it would not be in the interest of the investing public or in the public interest for the securities to be listed.\n  (3) The Commission may, within the period specified in subsection (6), notify an applicant and a recognized exchange company that—\n    (a) it does not object to the listing of any securities to which an application relates; or\n    (b) it does not object to the listing of any securities to which an application relates subject to such conditions as the Commission may think fit to impose.\n  (4) A recognized exchange company may list the securities to which an application relates only if—\n    (a) the Commission has not, within the period specified in subsection (6), given a notice in relation to the application under subsection (2) or (3)(b);\n    (b) the Commission has given a notice in relation to the application under subsection (3)(a); or\n    (c) the conditions referred to in subsection (3)(b) in relation to the application have been complied with.\n  (5) Where the Commission objects to a listing under subsection (2) or imposes any condition under subsection (3)(b), the objection or imposition shall take effect immediately.\n  (6) The period specified for the purposes of subsections (2), (3) and (4) is 10 business days—\n    (a) where the Commission has not given a notice under subsection (1) in relation to the application, from the date the applicant files a copy of the application with the Commission (or if there is more than one such date, the latest date); or\n    (b) where the Commission has given a notice under subsection (1) in relation to the application, from the date when the further information is supplied.\n  (7) A notice given under subsection (2) shall be accompanied by a statement specifying the reasons for the objection.\n  (8) The Commission shall not give any notice to an applicant under subsection (1) after—\n    (a) it has given a notice in relation to the application under subsection (3)(a); or\n    (b) the conditions referred to in subsection (3)(b) in relation to the application have been complied with."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Copy of ongoing disclosure materials to be filed with the Commission",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An issuer shall file with the Commission a copy of any announcement, statement, circular, or other document made or issued by it or on its behalf to the public or to a group of persons comprising members of the public (including its shareholders)—\n    (a) under the rules and requirements of a recognized exchange company or any provision of law applicable; or\n    (b) pursuant to the terms of any listing agreement between the issuer and a recognized exchange company under the rules of the recognized exchange company,\n  within one business day following the day on which such announcement, statement, circular or other document is made or issued.\n  (2) A person shall file with the Commission a copy of any announcement, statement, circular or other document made or issued by the person or on his behalf to the public or to a group of persons comprising members of the public (including holders of the securities of an issuer) under any codes published by the Commission under section 399(2)(a) and (b) of the Ordinance within one business day following the day on which such announcement, statement, circular or other document is made or issued.\n  (3) An issuer or a person is regarded as having complied with subsection (1) or (2) if the issuer or the person has—\n    (a) filed with the recognized exchange company concerned; and\n    (b) authorized the recognized exchange company in writing to file with the Commission on behalf of the issuer or the person, as the case may be,\n  a copy of the relevant announcement, statement, circular or other document."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Suspension of dealings in securities",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where it appears to the Commission that—\n    (a) any materially false, incomplete or misleading information has been included in any—\n      (i) document (including but not limited to any prospectus, circular, introduction document and document containing proposals for an arrangement or reconstruction of a corporation) issued in connection with a listing of securities on a recognized stock market; or\n      (ii) announcement, statement, circular or other document made or issued by or on behalf of an issuer in connection with its affairs;\n    (b) it is necessary or expedient in the interest of maintaining an orderly and fair market in securities traded through the facilities of a recognized exchange company on the recognized stock market it operates;\n    (c) it is in the interest of the investing public or in the public interest, or it is appropriate for the protection of investors generally or for the protection of investors in any securities listed on a recognized stock market; or\n    (d) there has been a failure to comply with any condition imposed by the Commission under section 9(3)(c),\n  the Commission may, by notice to the recognized exchange company, direct the recognized exchange company to suspend all dealings in any securities specified in the notice.\n  (2) The recognized exchange company shall comply with any notice given under subsection (1) without delay."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Powers of the Commission upon the suspension under this Part of dealings in any securities",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An issuer which is aggrieved by a direction given by the Commission under section 8 may make representations in writing to the Commission and where an issuer makes such representations, the Commission shall notify the recognized exchange company.\n  (2) In respect of a direction given by the Commission under section 8, the recognized exchange company may make representations in writing to the Commission irrespective of whether representations in respect of that direction have been made by an issuer under subsection (1) and where the recognized exchange company makes such representations, the Commission shall notify the issuer.\n  (3) Where the Commission has—\n    (a) directed a recognized exchange company to suspend dealings in any securities under section 8(1); and\n    (b) considered any—\n      (i) representations made by the issuer under subsection (1);\n      (ii) representations made by the recognized exchange company under subsection (2); and\n      (iii) further representations made by the issuer or the recognized exchange company,\n  the Commission may, by notice to the recognized exchange company—\n    (c) permit dealings in the securities to recommence subject to such conditions as the Commission may think fit to impose, being conditions of the nature specified in subsection (4); or\n    (d) direct the recognized exchange company to cancel the listing of the securities on a recognized stock market operated by it if the Commission—\n      (i) is satisfied that there has been a failure to comply with any requirement in respect of listing set out in these Rules or in any other rules made under section 36 of the Ordinance; or\n      (ii) considers that the cancellation of the listing is necessary to maintain an orderly market in Hong Kong,\n    and the recognized exchange company shall comply with the direction without delay.\n  (4) The conditions which may be imposed under subsection (3)(c) are—\n    (a) where the Commission has given a direction under section 8(1)(a) or (d), conditions imposed with the object of ensuring, so far as is reasonably practicable, that the issuer remedies the default by reason of which the suspension of dealings was directed;\n    (b) where the Commission has given a direction under section 8(1)(b), such conditions as the Commission may consider necessary or expedient in the interest of maintaining an orderly and fair market in securities traded through the facilities of the recognized exchange company mentioned in that section;\n    (c) where the Commission has given a direction under section 8(1)(c), such conditions as the Commission may consider to be in the interest of the investing public or in the public interest, or to be appropriate for the protection of investors generally or for the protection of the investors mentioned in that section.\n  (5)\n    In subsection (3), further representations (進一步申述) means representations either in writing or orally or both in writing and orally as the issuer or the recognized exchange company may determine which are submitted within such reasonable time as the Commission may determine.\n  (6) The powers of the Commission under this section may only be exercised by a meeting of the Commission and are not delegable.\n  (7) A member of the Commission who made the decision in the exercise of the Commission’s powers under section 8 shall not participate in the deliberations or voting of the Commission in the performance of its functions under this section as regards that exercise of the Commission’s powers.\n  (8) Notwithstanding subsection (7), the member of the Commission referred to in that subsection may attend any meeting or proceeding of the Commission in the performance of its functions under this section as regards the exercise of the Commission’s powers under section 8 and may make such explanations of his decision as he thinks necessary."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Provisions supplementary to sections 8 and 9",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) At any hearing held by the Commission to receive oral representations made to it under section 9(3)(b)(iii), the issuer and the recognized exchange company each have the right to be represented by its counsel or solicitor.\n  (2) If representations are made under section 9(1) or (2) against a direction made under section 8(1) then, pending the decision of the Commission under section 9(3), all dealings in the securities concerned shall remain suspended."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Restriction on re-listing",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "No security the listing of which has been cancelled under section 9(3)(d) shall be listed again on a recognized stock market except in accordance with Part 2."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Approval of share registrars",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) The Commission may approve an association of persons as an association each of whose members shall be an approved share registrar for the purposes of these Rules.\n  (2) The Commission may cancel the approval of any association of persons approved under subsection (1).\n  (3) The Commission shall maintain a list of associations of persons approved under subsection (1)."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Securities not to be listed where approved share registrar not employed",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "No application made by a corporation to a recognized exchange company for the listing of any securities issued or to be issued by that applicant shall be approved by the recognized exchange company unless the applicant is an approved share registrar or employs an approved share registrar as its share registrar."
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Suspension of dealings on cessation of employment, etc. of approved share registrar",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Where—\n    (a) the securities of a corporation are listed on a recognized stock market; and\n    (b) the corporation ceases either to be an approved share registrar or to employ an approved share registrar as its share registrar,\n  the recognized exchange company shall give the corporation a notice of its intention to suspend dealings in the securities of the corporation unless, before the date specified in the notice, being 3 months after the date on which the recognized exchange company first learned of such cessation or 21 days from the date of the notice, whichever is the later, the corporation becomes an approved share registrar or employs an approved share registrar as its share registrar.\n  (2) Where the corporation fails to comply with the requirement stated in the notice given under subsection (1), the recognized exchange company shall suspend dealings in the securities of the corporation.\n  (3) The Commission may require a recognized exchange company to give notice under subsection (1) to a corporation which has ceased either to be an approved share registrar or to employ an approved share registrar as its share registrar if, in the opinion of the Commission, the recognized exchange company has failed or neglected to do so within a reasonable time, and the recognized exchange company shall comply with the requirement without delay.\n  (4) A recognized exchange company which has suspended dealings in the securities of any corporation under subsection (2) shall permit the recommencement of dealings in those securities when it is satisfied that the corporation has become an approved share registrar or has employed an approved share registrar as its share registrar."
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Power to exempt",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) The Commission may exempt all or any particular class of securities issued by a corporation specified in a notice under subsection (2) from all or any of the provisions of this Part.\n  (2) An exemption granted under subsection (1) shall be notified by the Commission to the corporation specified in the notice and to the recognized exchange company which operates the recognized stock market on which the exempted class of securities is, or is proposed to be, listed.\n  (3) The Commission may withdraw any exemption granted under subsection (1), and the withdrawal shall be notified in the same manner as an exemption is required to be notified under subsection (2).\n  (4) Where an exemption in respect of any securities of a corporation has been withdrawn under subsection (3), the recognized exchange company shall suspend dealings in those securities unless—\n    (a) at the date of notification of the withdrawal, the corporation is an approved share registrar or employs an approved share registrar as its share registrar; or\n    (b) within 3 months after the date of notification of the withdrawal, the corporation becomes an approved share registrar or employs an approved share registrar as its share registrar."
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Appeal against suspension",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Where a recognized exchange company suspends dealings in the securities of a corporation under section 14 or 15(4) the corporation may, within 21 days of the suspension, appeal in writing to the Commission against the suspension.\n  (2) An appeal under subsection (1) shall be accompanied by such submissions in writing as the corporation wishes to make.\n  (3) On any appeal under subsection (1), the Commission may—\n    (a) dismiss the appeal;\n    (b) direct the recognized exchange company to permit the recommencement of dealings in the securities; or\n    (c) direct the recognized exchange company to permit the recommencement of dealings in the securities subject to such conditions as the Commission thinks fit."
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Waiver of requirements of Parts 2 and 3",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "The Commission may, by notice to an applicant or an issuer and a recognized exchange company, modify or waive, subject to such reasonable conditions as the Commission may think fit to impose, any requirement of Parts 2 and 3 where the Commission is of the opinion that—\n  (a) the applicant or issuer, as the case may be, cannot comply with the requirement or it would be unreasonable or unduly burdensome for the applicant or issuer to do so;\n  (b) the requirement has no relevance to the circumstances of the applicant or issuer, as the case may be; or\n  (c) compliance with the requirement would be detrimental to the commercial interests of the applicant or issuer, as the case may be, or to the interests of the holders of its securities."
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Suspensions, etc. by a recognized exchange company to be notified to the Commission",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) If a recognized exchange company intends to suspend dealings in any securities it shall, where reasonably practicable, inform the Commission of its intention prior to such suspension or, if not so practicable, inform the Commission of the suspension as soon as possible after the suspension.\n  (2) If a recognized exchange company, after having suspended dealings in any securities, intends to permit dealings in the securities to recommence, it shall, where reasonably practicable, inform the Commission of its intention to permit dealings to recommence or, if not so practicable, inform the Commission as soon as possible after permitting dealings to recommence.\n  (3) A recognized exchange company shall not cancel the listing of any securities unless it gives the Commission at least 48 hours’ notice of its intention to do so.\n  (4) This section applies only to the suspension of dealings in any securities or the cancellation of dealings in any securities by a recognized exchange company other than in accordance with a direction of the Commission under section 8 or 9."
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Notices, etc. to be in writing",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "Any notice or direction under these Rules shall be in writing."
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Transitional",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Where—\n    (a) before the commencement of these Rules, any power could have been, but was not, exercised under rule 9 or 10 of the Securities (Stock Exchange Listing) Rules (Cap. 333 sub. leg. C) which has been repealed under section 406 of the Ordinance (the repealed Rules); or\n    (b) before such commencement any power has been exercised under any provision referred to in paragraph (a), and the exercise of the power would, but for the commencement, continue to have force and effect on or after such commencement,\n  then—\n    (c)\n      (i) where paragraph (a) applies, the power may be exercised; or\n      (ii) where paragraph (b) applies, the exercise of the power shall continue to have force and effect,as if the repealed Rules had not been repealed; and\n    (d) the provisions of the repealed Rules shall continue to apply to the exercise of the power and to any matters relating thereto (including any right to make representations in respect of the exercise of the power under rule 9) as if the repealed Rules had not been repealed.\n  (2) Subject to subsection (3), where before the commencement of these Rules, an application is made under rule 3 of the repealed Rules and immediately before such commencement the application has not been approved, refused or withdrawn, the application shall upon such commencement be treated as an application under section 3 and the provisions of these Rules (except section 3) shall apply accordingly.\n  (3) Section 5 shall apply only to any part of an application submitted on or after the commencement of these Rules."
+  }
+ ],
+ "schedules": []
+}

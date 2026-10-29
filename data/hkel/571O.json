@@ -1,0 +1,230 @@
+{
+ "cap": "571O",
+ "title": "Securities and Futures (Keeping of Records) Rules",
+ "longTitle": "",
+ "versionDate": "2024-10-02",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571O",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Keeping of Records",
+   "status": "in-effect",
+   "sections": [
+    "s3",
+    "s3A",
+    "s4",
+    "s4A",
+    "s5",
+    "s6",
+    "s7",
+    "s8"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s9",
+    "s10",
+    "s11",
+    "s12"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted",
+   "part": "P1"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "In these Rules, unless the context otherwise requires—\n  asset management (資產管理) has the meaning assigned to it by Part 2 of Schedule 5 to the Ordinance;\n  margined transaction (保證金交易) means a contract entered into in Hong Kong by an intermediary with or on behalf of a client of the intermediary in the conduct by the intermediary of any of the businesses which constitute—\n    (a) any regulated activity for which the intermediary is licensed or registered, that is a contract for—\n      (i) a dealing in securities (except a market contract); or\n      (ii) a dealing in futures contracts (except a market contract); or\n    (b) the regulated activity of leveraged foreign exchange trading for which the intermediary is licensed, that is a leveraged foreign exchange contract,\n  which requires the client to—\n    (c) pay a margin to the intermediary; or\n    (d) provide security to the intermediary to meet the client’s obligations,\n  other than under an arrangement where financial accommodation is provided to the client by the intermediary;\n  margin value (保證金價值), in relation to each description of securities collateral deposited with an intermediary, means the maximum amount of money which the client by whom and on whose behalf the securities collateral is deposited is permitted to borrow, or otherwise secure other forms of financial accommodation, from the intermediary against that particular description of securities collateral;\n  record (紀錄) has the same meaning as in section 1 of Part 1 of Schedule 1 to the Ordinance except that it does not include any tape or other sound recording of any telephone conversation;\n  relevant CIS (相關集體投資計劃) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  relevant CIS property (相關集體投資計劃財產) has the meaning given by Part 2 of Schedule 5 to the Ordinance;\n  scheme assets (計劃資產) means—\n    (a) scheme money; and\n    (b) scheme securities;\n  scheme money (計劃款項), in relation to an intermediary, means any client money—\n    (a) received or held by the intermediary in the course of the conduct of Type 13 regulated activity; or\n    (b) received or held by any corporation which is in a controlling entity relationship with the intermediary, in relation to such conduct of Type 13 regulated activity,\n  that constitutes relevant CIS property in respect of a relevant CIS, and includes any accretions to it whether as capital or income;\n  scheme securities (計劃證券), in relation to an intermediary, means any client securities—\n    (a) received or held by the intermediary in the course of the conduct of Type 13 regulated activity; or\n    (b) received or held by any corporation which is in a controlling entity relationship with the intermediary, in relation to such conduct of Type 13 regulated activity,\n  that constitute relevant CIS property in respect of a relevant CIS;\n  systems of control (監控系統)—\n    (a) in relation to an intermediary or an associated entity of an intermediary (except for an intermediary or an associated entity of an intermediary in relation to the conduct by the intermediary of Type 13 regulated activity), means any internal controls and trading, accounting, settlement and stock holding systems it has implemented to ensure its compliance with—\n      (i) sections 4, 5, 6, 8(4), 10 and 11 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I); and\n      (ii) sections 4(4), 5, 10(1) and 12 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H); or\n    (b) in relation to an intermediary or an associated entity of an intermediary in relation to the conduct by the intermediary of Type 13 regulated activity, means any internal controls and accounting, settlement and holding systems for scheme securities it has implemented to ensure its compliance with—\n      (i) sections 10B, 10C, 10D and 11 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I); and\n      (ii) sections 9B, 10A(1) and 12 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H)."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "General record keeping requirements for intermediaries",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An intermediary shall, in relation to the businesses which constitute any regulated activities for which it is licensed or registered (except for Type 13 regulated activity)—\n    (a) keep, where applicable, such accounting, trading and other records as are sufficient to—\n      (i) explain, and reflect the financial position and operation of, such businesses;\n      (ii) enable statements of profit or loss and other comprehensive income and statements of financial position that give a true and fair view of its financial affairs to be prepared from time to time;\n      (iii) account for all client assets that it receives or holds;\n      (iv) enable all movements of such client assets to be traced through its accounting systems and, where applicable, stock holding systems;\n      (v) reconcile, on a monthly basis, any differences in its balances or positions with other persons, including—\n        (A) its associated entities;\n        (B) recognized exchange companies;\n        (C) clearing houses;\n        (D) other intermediaries;\n        (E) custodians; and\n        (F) banks,\n      and show how such differences were resolved;\n      (vi) demonstrate—\n        (A) compliance by it with sections 4, 5, 6, 8(4), 10 and 11 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n        (B) compliance by it with sections 4(4), 5, 10(1) and 12 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H); and\n        (C) that it has systems of control in place to ensure compliance with all of the provisions referred to in sub-subparagraphs (A) and (B); and\n      (vii) enable it readily to establish whether it has complied with the Securities and Futures (Financial Resources) Rules (Cap. 571 sub. leg. N);\n    (b) keep those records in such manner as will enable an audit to be conveniently and properly carried out; and\n    (c) make entries in those records in accordance with generally accepted accounting principles.\n  (2) Without limiting the generality of subsection (1)(a), the records referred to in that subsection shall, where applicable, include—\n    (a) the records specified in Schedule 1; and\n    (b) the records specified in section 5, 6, 7(2) or 8."
+  },
+  {
+   "id": "s3A",
+   "num": "3A",
+   "heading": "Record keeping requirements for intermediaries licensed or registered for Type 13 regulated activity",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies to an intermediary licensed or registered for Type 13 regulated activity.\n  (2) An intermediary must, in relation to the businesses which constitute Type 13 regulated activity for which it is licensed or registered—\n    (a) keep, where applicable, such accounting, custody and other records as are sufficient to—\n      (i) explain, and reflect the financial position and operation of, such businesses;\n      (ii) enable statements of profit or loss and other comprehensive income and statements of financial position that give a true and fair view of its financial affairs to be prepared from time to time;\n      (iii) account for all relevant CIS property in respect of each relevant CIS for which it provides depositary services;\n      (iv) enable all movements of such relevant CIS property to be traced through its accounting systems and, where applicable, holding systems for the relevant CIS property;\n      (v) reconcile, on a monthly basis, any differences in its balances or positions with other persons, including—\n        (A) its associated entities;\n        (B) recognized exchange companies;\n        (C) clearing houses;\n        (D) other intermediaries;\n        (E) custodians; and\n        (F) banks,\n      and show how such differences were resolved;\n      (vi) demonstrate—\n        (A) compliance by it with sections 10B, 10C, 10D and 11 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n        (B) compliance by it with sections 9B, 10A(1) and 12 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H); and\n        (C) that it has systems of control in place to ensure compliance with all of the provisions referred to in sub-subparagraphs (A) and (B); and\n      (vii) enable it readily to establish whether it has complied with the Securities and Futures (Financial Resources) Rules (Cap. 571 sub. leg. N);\n    (b) keep those records in such manner as will enable an audit to be conveniently and properly carried out; and\n    (c) make entries in those records in accordance with generally accepted accounting principles.\n  (3) Without limiting subsection (2)(a), the records referred to in that subsection must, where applicable, include the records specified in Schedule 2."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Record keeping requirements for associated entities",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An associated entity of an intermediary (except for an associated entity of an intermediary in relation to the conduct by the intermediary of Type 13 regulated activity) must, in respect of client assets of the intermediary that it receives or holds—\n    (a) keep, where applicable, such accounting and other records as are sufficient to—\n      (i) account for the client assets;\n      (ii) enable all movements of the client assets to be traced through its accounting systems and, where applicable, stock holding systems;\n      (iii) show separately and account for all receipts, payments, deliveries and other uses or applications of the client assets effected by it, or on its behalf, and on whose behalf such receipts, payments, deliveries or other uses or applications of the client assets have been effected;\n      (iv) reconcile, on a monthly basis, any differences in its balances or positions with other persons, including—\n        (A) the intermediary of which it is an associated entity;\n        (B) recognized exchange companies;\n        (C) clearing houses;\n        (D) other intermediaries;\n        (E) custodians; and\n        (F) banks,\n      and show how such differences were resolved; and\n      (v) demonstrate—\n        (A) compliance by it with sections 4, 5, 6, 8(4), 10 and 11 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n        (B) compliance by it with sections 4(4), 5, 10(1) and 12 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H); and\n        (C) that it has systems of control in place to ensure compliance with all of the provisions referred to in sub-subparagraphs (A) and (B);\n    (b) keep those records in such manner as will enable an audit to be conveniently and properly carried out; and\n    (c) make entries in those records in accordance with generally accepted accounting principles.\n  (2) Without limiting the generality of subsection (1)(a), the records referred to in that subsection shall, where applicable, include—\n    (a) contracts entered into by it;\n    (b) where the client in question is a professional investor—\n      (i) records showing particulars sufficient to establish that the client is a professional investor; and\n      (ii) any notice given by it to the client or agreement by the client with it referred to in section 3(2) of the Securities and Futures (Contract Notes, Statements of Account and Receipts) Rules (Cap. 571 sub. leg. Q);\n    (c) records evidencing any authority given to it by the client in question, including any standing authority referred to in section 4 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 8 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I) and any renewal of such authority; and\n    (d) records evidencing any direction given to it by the client in question as referred to in section 6 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 7 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I)."
+  },
+  {
+   "id": "s4A",
+   "num": "4A",
+   "heading": "Record keeping requirements for associated entities of intermediaries licensed or registered for Type 13 regulated activity",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An associated entity of an intermediary in relation to the conduct by the intermediary of Type 13 regulated activity must, in respect of all scheme assets of the intermediary that it receives or holds—\n    (a) keep, where applicable, such accounting, custody and other records as are sufficient to—\n      (i) account for the scheme assets;\n      (ii) enable all movements of the scheme assets to be traced through its accounting systems and, where applicable, holding systems for scheme securities;\n      (iii) show separately and account for all receipts, payments, deliveries and other uses or applications of the scheme assets effected by it, or on its behalf, and on whose behalf such receipts, payments, deliveries or other uses or applications of the scheme assets have been effected;\n      (iv) reconcile, on a monthly basis, any differences in its balances or positions with other persons, including—\n        (A) the intermediary of which it is an associated entity;\n        (B) recognized exchange companies;\n        (C) clearing houses;\n        (D) other intermediaries;\n        (E) custodians; and\n        (F) banks,\n      and show how the differences were resolved; and\n      (v) demonstrate—\n        (A) compliance by it with sections 10B, 10C, 10D and 11 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n        (B) compliance by it with sections 9B, 10A(1) and 12 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H); and\n        (C) that it has systems of control in place to ensure compliance with all of the provisions referred to in sub-subparagraphs (A) and (B);\n    (b) keep those records in such manner as will enable an audit to be conveniently and properly carried out; and\n    (c) make entries in those records in accordance with generally accepted accounting principles.\n  (2) Without limiting subsection (1)(a), the records referred to in that subsection must, where applicable, include—\n    (a) contracts entered into by it; and\n    (b) records evidencing any written instruction given to it as referred to in section 9C of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 10E of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I)."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Particular record keeping requirements for dealing in securities",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) For the purposes of section 3(2)(b), an intermediary licensed or registered for dealing in securities shall, in relation to the businesses which constitute that regulated activity, keep, where applicable, such records as are sufficient to show separately particulars of all underwriting and sub-underwriting transactions entered into by it, including particulars showing the dates on which it entered into such transactions.\n  (2)\n    In this section, dealing in securities (證券交易) has the meaning assigned to it by Part 2 of Schedule 5 to the Ordinance."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Particular record keeping requirements for leveraged foreign exchange trading",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "For the purposes of section 3(2)(b), a licensed corporation licensed for leveraged foreign exchange trading shall, in relation to the businesses which constitute that regulated activity, keep, where applicable, such records as are sufficient to show—\n  (a) in relation to each recognized counterparty with which it conducts any transaction in leveraged foreign exchange contracts, particulars sufficient to establish that the recognized counterparty is a recognized counterparty; and\n  (b) for each business day—\n    (i) the market value of each open position held at the end of that day for its own account and the accounts of each of its clients and recognized counterparties;\n    (ii) for each leveraged foreign exchange contract executed by it—\n      (A) the bid and offer prices quoted by it to the client;\n      (B) the price at which the contract is executed; and\n      (C) the bid and offer prices at the time of execution of the contract as quoted and disseminated to the public, or to subscribers, by a reputable financial information services organization; and\n    (iii) the interest rate differentials which are charged or paid by it for being long or short, one currency against another."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Particular record keeping requirements for providing securities margin financing or other financial accommodation and entering into margined transactions",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) This section applies to the following intermediaries—\n    (a) a licensed corporation licensed for securities margin financing;\n    (b) an intermediary which provides to its clients financial accommodation other than securities margin financing; and\n    (c) an intermediary which enters into margined transactions.\n  (2) For the purposes of section 3(2)(b), an intermediary to which this section applies shall, in relation to its activities as referred to in subsection (1), keep, where applicable, such records as are sufficient to show—\n    (a) its margin policy and lending policy;\n    (b) all securities and client collateral deposited with another person under an arrangement that confers on it a collateral interest in the securities or client collateral;\n    (c) with whom and on whose behalf the securities or client collateral referred to in paragraph (b) are deposited, showing separately the quantity and market value of—\n      (i) securities deposited for safe custody; and\n      (ii) securities and client collateral deposited as security for, or to facilitate, the provision by it of securities margin financing or other financial accommodation (as the case may be), or the entering into by it of margined transactions; and\n    (d) particulars of clients to whom it provides securities margin financing or other financial accommodation (as the case may be) or with whom or on whose behalf it enters into margined transactions, including particulars in respect of each client showing—\n      (i) the market value and margin value of each description of securities collateral deposited with it;\n      (ii) the aggregate of the market values of such securities collateral;\n      (iii) the aggregate of the margin values of such securities collateral; and\n      (iv) details of margin calls made."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Particular record keeping requirements for asset management",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "For the purposes of section 3(2)(b), an intermediary licensed or registered for asset management which holds client assets shall, in relation to the businesses which constitute that regulated activity, keep such records as are sufficient to show, in respect of each client for whom it holds client assets, particulars of the client’s assets and liabilities, including any financial commitments and contingent liabilities."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Form in which records are to be kept",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary, or an associated entity of an intermediary, shall keep all records that it is required to keep under these Rules—\n    (a) in writing in the Chinese or English language; or\n    (b) in such a manner as to enable them to be readily accessible and readily convertible into written form in the Chinese or English language.\n  (2) An intermediary, or an associated entity of an intermediary, shall adopt all reasonably necessary procedures to—\n    (a) guard against falsification of any of the records that it is required to keep under these Rules; and\n    (b) facilitate discovery of any such falsification."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Record retention period",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Except as otherwise provided in the Ordinance (including any subsidiary legislation made under it), an intermediary, or an associated entity of an intermediary, shall retain—\n  (a) subject to paragraph (b), the records that it is required to keep under these Rules, for a period of not less than 7 years; and\n  (b) in the case of records showing particulars of any of the orders and instructions referred to in section 1(d) of Schedule 1, for a period of not less than 2 years."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Reporting of non-compliance with certain provisions of these Rules",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "If an intermediary, or an associated entity of an intermediary, becomes aware that it does not comply with any provision of Part 2 that applies to it, it shall, within one business day thereafter, give written notice of that fact to the Commission."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Penalties",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An intermediary, or an associated entity of an intermediary, which, without reasonable excuse, contravenes section 3, 3A, 4, 4A, 9, 10 or 11, commits an offence and is liable on conviction to a fine at level 4.\n  (2) An intermediary, or an associated entity of an intermediary, which, with intent to defraud, contravenes section 3, 3A, 4, 4A, 9, 10 or 11, commits an offence and is liable—\n    (a) on conviction on indictment to a fine of $1,000,000 and to imprisonment for 7 years; or\n    (b) on summary conviction to a fine of $500,000 and to imprisonment for 1 year."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Records to be Kept by Intermediaries under Section 3(2)(a)",
+   "status": "in-effect",
+   "text": "1. Records showing particulars of—\n  (a) all money—\n    (i) received by it, whether or not such money—\n      (A) belongs to it; or\n      (B) is paid into accounts maintained by it or on its behalf; and\n    (ii) disbursed by it;\n  (b) all income received by it, whether such income relates to charges made by it for the provision of services, commissions, brokerage, remuneration, interest or otherwise;\n  (c) all expenses, commissions and interest incurred or paid by it;\n  (d) all orders or instructions concerning securities, futures contracts or leveraged foreign exchange contracts that it receives or initiates, including particulars—\n    (i) of each transaction entered into by it or on its behalf to implement any such order or instruction;\n    (ii) identifying with whom or for whose account it has entered into such transaction; and\n    (iii) that enable such transaction to be traced through its accounting, trading, settlement and stock holding systems;\n  (e) all disposals of client securities or client collateral initiated by it, showing in the case of each disposal—\n    (i) the name of the client;\n    (ii) the date on which the disposal was effected;\n    (iii) the name of the intermediary which effected the disposal;\n    (iv) the charges incurred for effecting the disposal; and\n    (v) the proceeds of the disposal and how such proceeds were dealt with;\n  (f) its assets and liabilities, including financial commitments and contingent liabilities;\n  (g) all securities belonging to it, identifying—\n    (i) with whom such securities are deposited;\n    (ii) the date on which they became so deposited; and\n    (iii) whether they are held as security for loans or advances or for any other purpose;\n  (h) all securities held by it but not belonging to it, identifying—\n    (i) for whom such securities are held and with whom they are deposited;\n    (ii) the date on which they became so deposited;\n    (iii) securities which are deposited with another person for safe custody; and\n    (iv) securities which are deposited with another person as security for loans or advances made to it or for any other purpose;\n  (i) all bank accounts held by it, including segregated accounts maintained in accordance with section 4(1) of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n  (j) all other accounts held by it; and\n  (k) all off-balance sheet transactions or positions.\n2. Records of all contracts (including written agreements with clients) entered into by it.\n3. Records evidencing—\n  (a) any authority given to it by a client, including any standing authority referred to in section 4 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 8 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I) and any renewal of such authority; and\n  (b) any direction given to it by a client as referred to in section 6 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 7 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I).\n4. In respect of a client who is a professional investor—\n  (a) records showing particulars sufficient to establish that the client is a professional investor; and\n  (b) any notice given by it to the client or agreement by the client with it referred to in section 3(2) of the Securities and Futures (Contract Notes, Statements of Account and Receipts) Rules (Cap. 571 sub. leg. Q).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Records showing particulars of—\n  (a) all money—\n    (i) received by it, whether or not such money—\n      (A) belongs to it; or\n      (B) is paid into accounts maintained by it or on its behalf; and\n    (ii) disbursed by it;\n  (b) all income received by it, whether such income relates to charges made by it for the provision of services, commissions, brokerage, remuneration, interest or otherwise;\n  (c) all expenses, commissions and interest incurred or paid by it;\n  (d) all orders or instructions concerning securities, futures contracts or leveraged foreign exchange contracts that it receives or initiates, including particulars—\n    (i) of each transaction entered into by it or on its behalf to implement any such order or instruction;\n    (ii) identifying with whom or for whose account it has entered into such transaction; and\n    (iii) that enable such transaction to be traced through its accounting, trading, settlement and stock holding systems;\n  (e) all disposals of client securities or client collateral initiated by it, showing in the case of each disposal—\n    (i) the name of the client;\n    (ii) the date on which the disposal was effected;\n    (iii) the name of the intermediary which effected the disposal;\n    (iv) the charges incurred for effecting the disposal; and\n    (v) the proceeds of the disposal and how such proceeds were dealt with;\n  (f) its assets and liabilities, including financial commitments and contingent liabilities;\n  (g) all securities belonging to it, identifying—\n    (i) with whom such securities are deposited;\n    (ii) the date on which they became so deposited; and\n    (iii) whether they are held as security for loans or advances or for any other purpose;\n  (h) all securities held by it but not belonging to it, identifying—\n    (i) for whom such securities are held and with whom they are deposited;\n    (ii) the date on which they became so deposited;\n    (iii) securities which are deposited with another person for safe custody; and\n    (iv) securities which are deposited with another person as security for loans or advances made to it or for any other purpose;\n  (i) all bank accounts held by it, including segregated accounts maintained in accordance with section 4(1) of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n  (j) all other accounts held by it; and\n  (k) all off-balance sheet transactions or positions."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Records of all contracts (including written agreements with clients) entered into by it."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Records evidencing—\n  (a) any authority given to it by a client, including any standing authority referred to in section 4 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 8 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I) and any renewal of such authority; and\n  (b) any direction given to it by a client as referred to in section 6 of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 7 of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I)."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "In respect of a client who is a professional investor—\n  (a) records showing particulars sufficient to establish that the client is a professional investor; and\n  (b) any notice given by it to the client or agreement by the client with it referred to in section 3(2) of the Securities and Futures (Contract Notes, Statements of Account and Receipts) Rules (Cap. 571 sub. leg. Q)."
+    }
+   ]
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "Records to be Kept by Intermediaries Licensed or Registered for Type 13 Regulated Activity under Section 3A(3)",
+   "status": "in-effect",
+   "text": "1. Records showing particulars of—\n  (a) all money—\n    (i) received by it, whether or not such money—\n      (A) belongs to it; or\n      (B) is paid into accounts maintained by it or on its behalf; and\n    (ii) disbursed by it;\n  (b) all income received by it, whether such income relates to fees and charges made by it for the provision of services, interest or otherwise;\n  (c) all expenses and interest incurred or paid by it;\n  (d) all instructions concerning the relevant CIS property that it receives, including particulars—\n    (i) of each transaction entered into by it or on its behalf to implement any such instruction;\n    (ii) identifying with whom or for whose account it has entered into such transaction; and\n    (iii) that enable such transaction to be traced through its accounting, settlement and holding systems for the relevant CIS property;\n  (e) all disposals of the relevant CIS property in respect of each relevant CIS, showing in the case of each disposal—\n    (i) the name of the counterparty;\n    (ii) the date on which the disposal was effected;\n    (iii) the name of the intermediary which effected the disposal;\n    (iv) the charges incurred for effecting the disposal; and\n    (v) the proceeds of the disposal and how such proceeds were dealt with;\n  (f) all relevant CIS property belonging to it, identifying—\n    (i) with whom such relevant CIS property is held or deposited;\n    (ii) the date on which it became so held or deposited; and\n    (iii) whether it is held or deposited as security for loans or advances or for any other purpose;\n  (g) all relevant CIS property, including scheme securities, held by it but not belonging to it, identifying—\n    (i) for whom such relevant CIS property is held or deposited and the date on which it became so held or deposited;\n    (ii) with whom such relevant CIS property is held or deposited and the date on which it became so held or deposited;\n    (iii) securities which are deposited with another person for safe custody; and\n    (iv) securities which are deposited with another person for any other purpose;\n  (h) all bank accounts held by it, including segregated accounts maintained in accordance with section 10B(1) of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n  (i) all other accounts held by it; and\n  (j) all off-balance sheet transactions or positions.\n2. Records of all contracts entered into by it.\n3. Records evidencing any written instruction given to it as referred to in section 9C of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 10E of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Records showing particulars of—\n  (a) all money—\n    (i) received by it, whether or not such money—\n      (A) belongs to it; or\n      (B) is paid into accounts maintained by it or on its behalf; and\n    (ii) disbursed by it;\n  (b) all income received by it, whether such income relates to fees and charges made by it for the provision of services, interest or otherwise;\n  (c) all expenses and interest incurred or paid by it;\n  (d) all instructions concerning the relevant CIS property that it receives, including particulars—\n    (i) of each transaction entered into by it or on its behalf to implement any such instruction;\n    (ii) identifying with whom or for whose account it has entered into such transaction; and\n    (iii) that enable such transaction to be traced through its accounting, settlement and holding systems for the relevant CIS property;\n  (e) all disposals of the relevant CIS property in respect of each relevant CIS, showing in the case of each disposal—\n    (i) the name of the counterparty;\n    (ii) the date on which the disposal was effected;\n    (iii) the name of the intermediary which effected the disposal;\n    (iv) the charges incurred for effecting the disposal; and\n    (v) the proceeds of the disposal and how such proceeds were dealt with;\n  (f) all relevant CIS property belonging to it, identifying—\n    (i) with whom such relevant CIS property is held or deposited;\n    (ii) the date on which it became so held or deposited; and\n    (iii) whether it is held or deposited as security for loans or advances or for any other purpose;\n  (g) all relevant CIS property, including scheme securities, held by it but not belonging to it, identifying—\n    (i) for whom such relevant CIS property is held or deposited and the date on which it became so held or deposited;\n    (ii) with whom such relevant CIS property is held or deposited and the date on which it became so held or deposited;\n    (iii) securities which are deposited with another person for safe custody; and\n    (iv) securities which are deposited with another person for any other purpose;\n  (h) all bank accounts held by it, including segregated accounts maintained in accordance with section 10B(1) of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I);\n  (i) all other accounts held by it; and\n  (j) all off-balance sheet transactions or positions."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Records of all contracts entered into by it."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Records evidencing any written instruction given to it as referred to in section 9C of the Securities and Futures (Client Securities) Rules (Cap. 571 sub. leg. H) or section 10E of the Securities and Futures (Client Money) Rules (Cap. 571 sub. leg. I)."
+    }
+   ]
+  }
+ ]
+}
