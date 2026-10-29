@@ -12,20 +12,20 @@ branch.
 | M&A — U.S. private-company Asset Purchase Agreement | `/mna/` | Live |
 | Privacy & data protection — GDPR (DataGuard) | `/privacy/dataguard/index.html` | Live |
 | HK banking regulation — Banking Ordinance (Cap. 155), HKMA | `/hk-banking/` | Live |
-| HK securities regulation — SFO (Cap. 571), SFC | — | Up next |
-| HK insurance regulation — Insurance Ordinance (Cap. 41), IA | — | Planned |
+| HK securities regulation — SFO (Cap. 571), SFC | `/hk-securities/` | Live |
+| HK insurance regulation — Insurance Ordinance (Cap. 41), IA | — | Up next |
 
 The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
 
 ## Layout
 
-Both learning modules share one layout (`components/ui/`): a masthead with
+The learning modules share one layout (`components/ui/`): a masthead with
 counts and progress, a contents rail of numbered stages grouped by phase (a
 sticky strip of stage pills on phones), and a stage view with tabs. Stage
 notes are bullet points: the short version first, then the detail under
 headings, with a bold lead-in on each bullet, a "bottom line" where a section
 has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
-from the figures in the notes. Banking stages also have concept maps: boxes
+from the figures in the notes. Banking and securities stages also have concept maps: boxes
 joined by arrows that name the relationship, one under "How it fits together"
 and more beside the sections they illustrate. They are drawn in CSS
 (`components/ui/ConceptMap.tsx`), and screen readers get the same links as a
@@ -104,6 +104,22 @@ launch gates to tick before going live, the regime's status (in force, in
 transition, proposed or pilot) and the sources with their legal force,
 including SFC guidance, case law and proposals. Ticks stay in the browser
 and the shown activities export as Markdown launch notes.
+
+## HK securities regulation
+
+Twelve stages through the Securities and Futures Ordinance (Cap. 571), from
+the regulatory map to complaints, compensation and failure, written for the
+same reader: counsel at a digital bank that deals in securities as an SFC
+registered institution, with the HKMA as its frontline supervisor. Stages
+cover regulated activities and the perimeter, licensing and registration,
+responsible officers and managers-in-charge, the Code of Conduct, client
+assets and financial resources, offers and prospectuses, online platforms and
+virtual assets, market misconduct, disclosure of interests and takeovers, and
+enforcement. Each has the same tabs as the banking stages, with notes on what
+changes when the firm is a bank. Content lives in
+`data/securities/stages.json`; statute cards carry the official text of the
+SFO, nine of its rule sets and Cap. 32 (prospectuses), attached by
+`scripts/build_statute_extracts.py`.
 
 ## Privacy — DataGuard
 
