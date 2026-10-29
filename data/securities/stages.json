@@ -786,8 +786,1752 @@
   ]
  },
  {
-  "id": "licensing",
+  "id": "virtual-bank",
   "index": 3,
+  "title": "The virtual bank and the SFC",
+  "phase": "bank",
+  "review": "fact-checked",
+  "oneLiner": "A virtual bank must register with the SFC before it deals, advises or manages securities, and then answers to both the HKMA and the SFC.",
+  "keyPoints": [
+   "**Banking licence is not enough:** Under s.114(1) no one may carry on a regulated activity. An authorized institution is exempt only for activities it is registered for under s.119 (s.114(2)(b)).",
+   "**Typical app features:** Buying and selling shares or funds, recommendations, model portfolios, robo-advice and virtual asset trading are regulated activities once offered to customers.",
+   "**Referral fees count:** A bank that introduces customers to a broker, or passes on their orders, for remuneration is dealing and needs Type 1 registration (Sch. 5, Pt 2, dealing exclusion (iv)).",
+   "**Two regulators:** The SFC registers the bank for its securities business and can discipline it. The HKMA supervises the bank day to day and advises the SFC on fitness.",
+   "**Three routes in:** The bank can register itself, use a licensed group company, or partner with a licensed broker. Each route changes who supervises the customer journey.",
+   "**Counsel's first step:** Map each app feature to a regulated activity, then choose the route and the people before any customer sees the feature."
+  ],
+  "conceptMap": {
+   "type": "hub",
+   "caption": "The virtual bank as a registered institution sits between two regulators, its own people, its customers and its partners.",
+   "centre": {
+    "label": "Virtual bank (RI)",
+    "note": "Registered for each regulated activity"
+   },
+   "items": [
+    {
+     "dir": "in",
+     "label": "HKMA",
+     "note": "Supervises the bank under the Banking Ordinance",
+     "rel": "authorizes and supervises"
+    },
+    {
+     "dir": "in",
+     "label": "SFC",
+     "note": "Registers the bank and can discipline it",
+     "rel": "registers and disciplines"
+    },
+    {
+     "label": "Relevant individuals",
+     "note": "Entered on the HKMA register (BO s.20)",
+     "rel": "enters on the HKMA register"
+    },
+    {
+     "label": "Executive officers",
+     "note": "Each needs MA written consent (BO s.71C)",
+     "rel": "appoints with MA consent"
+    },
+    {
+     "label": "Customers",
+     "note": "Dealt with and advised under the Code of Conduct",
+     "rel": "deals with and advises"
+    },
+    {
+     "label": "Partner broker or VATP",
+     "note": "Executes orders; VA orders use an omnibus account",
+     "rel": "routes orders through"
+    }
+   ]
+  },
+  "deepDive": [
+   {
+    "heading": "Why a bank needs the SFC",
+    "lede": "A banking licence and a securities registration are separate permissions, and the SFO reaches the bank's app as it reaches a broker's.",
+    "points": [
+     "**General prohibition:** s.114(1) bars anyone from carrying on a business in a regulated activity, or holding out as doing so. Test each app feature against it.",
+     "**Exemption is narrow:** s.114(2)(b) exempts an authorized institution only for a regulated activity it is registered for under s.119. The banking licence alone does not do this.",
+     "**Staff are caught too:** s.114(3) bars performing regulated functions. The exemption in s.114(4)(b) applies only to an individual entered on the Monetary Authority's register under BO s.20 for that registered activity.",
+     "**Typical features:** Buying and selling shares or funds, recommendations, model portfolios, robo-advice and virtual asset trading each fall within a regulated activity when offered to customers.",
+     "**Referral fees:** A bank that introduces customers to a broker, or passes on their orders, for a commission or rebate is itself dealing (Sch. 5, Pt 2, dealing exclusion (iv))."
+    ],
+    "takeaway": "Map every app feature to a regulated activity before deciding anything else."
+   },
+   {
+    "heading": "Three ways in",
+    "lede": "The bank can reach securities business through its own registration, a group company's licence or a partner's licence.",
+    "points": [
+     "**Own registration:** The bank applies under s.119 and is registered for each activity it wants. The HKMA supervises it day to day, and the SFC keeps the registration conditions.",
+     "**Group licensed company:** A corporation licensed under s.116 has the SFC as its frontline regulator. Its capital follows the Financial Resources Rules and its client money the Client Money Rules, not the bank's banking regime.",
+     "**Partner broker:** The bank routes orders to a licensed broker. It must not induce, introduce or pass orders for remuneration unless it is registered, because those acts are dealing (Sch. 5, Pt 2).",
+     "**Trade-offs:** Own registration gives control of the customer journey and the app, but brings the HKMA's conditions and the full expectations for registered institutions. A partner is quicker but shares control of the customer."
+    ],
+    "takeaway": "Choose the route on control of the customer journey, not on speed alone.",
+    "visual": {
+     "type": "compare",
+     "caption": "Each route changes who the frontline regulator is and who holds the customer relationship.",
+     "items": [
+      {
+       "label": "Own registration",
+       "value": "s.119",
+       "note": "Bank registered; HKMA is the frontline supervisor"
+      },
+      {
+       "label": "Group licensed company",
+       "value": "s.116",
+       "note": "SFC is the frontline regulator for the company"
+      },
+      {
+       "label": "Partner broker",
+       "value": "Sch. 5",
+       "note": "Bank routes orders; a fee makes it a dealer"
+      }
+     ]
+    }
+   },
+   {
+    "heading": "How registration works",
+    "lede": "The SFC decides the application, but the MA assesses fitness and properness first, and the conditions attach to the registration.",
+    "points": [
+     "**Application:** The bank applies to the SFC for each activity. Type 3 and Type 8 cannot be registered for a bank (s.119(1)).",
+     "**Referral:** The SFC must refer every application to the Monetary Authority (s.119(2)). The MA consults the SFC on the merits and advises whether the bank is fit and proper (s.119(3)).",
+     "**Decision:** The SFC must have regard to that advice and may rely on it wholly or partly (s.119(4)). It may attach reasonable conditions (s.119(5)).",
+     "**Mandatory conditions:** Every registration carries at least one executive officer available at all times, and every individual on the MA's register for the activity must be fit and proper (s.119(8)(a)).",
+     "**Parallel approvals:** Each executive officer needs the MA's written consent (BO s.71C(1)), and a bank incorporated in Hong Kong needs at least two for each regulated business (BO s.71D(1)(a))."
+    ],
+    "takeaway": "Start the MA consent requests and the SFC application together, since both fitness reviews run in parallel.",
+    "visual": {
+     "type": "steps",
+     "caption": "The application passes through the MA before the SFC decides, and conditions follow the decision.",
+     "items": [
+      {
+       "label": "Apply to the SFC",
+       "value": "s.119(1)",
+       "note": "Per activity; Types 3 and 8 are excluded"
+      },
+      {
+       "label": "Referral to the MA",
+       "value": "s.119(2)",
+       "note": "The MA reviews fitness and properness"
+      },
+      {
+       "label": "MA advises the SFC",
+       "value": "s.119(3)",
+       "note": "Advice on whether the applicant is fit and proper"
+      },
+      {
+       "label": "SFC decides",
+       "value": "s.119(4)",
+       "note": "Has regard to the MA's advice"
+      },
+      {
+       "label": "Conditions attach",
+       "value": "s.119(5)",
+       "note": "The MA is consulted before later changes (s.119(9))"
+      }
+     ]
+    }
+   },
+   {
+    "heading": "Who does what after registration",
+    "lede": "Day-to-day supervision sits with the HKMA, while the SFC keeps its rules, discipline and investigation powers over the securities business.",
+    "points": [
+     "**HKMA:** Frontline supervision, on-site inspection (s.180, where the relevant authority for a registered institution is the MA), EO consent under BO s.71C, the register of relevant individuals and AML supervision.",
+     "**SFC:** Registration conditions, the Code of Conduct and other codes and guidelines, policy on virtual assets, and investigation under Part VIII (s.182) and discipline under s.196.",
+     "**Discipline:** The SFC may revoke or suspend registration (s.196(1)(i)), reprimand, or impose a pecuniary penalty of up to the greater of HK$10 million or three times the profit gained or loss avoided (s.196(2)). It must consult the MA first (s.198(2)).",
+     "**Recommendations:** The SFC may recommend that the MA remove a relevant individual from the register or withdraw EO consent (s.196(7)). The MA then acts under BO s.58A(1) or s.71C(4).",
+     "**Shared oversight:** Under the HKMA-SFC MoU announced on 13 December 2002, the two regulators share responsibility for registered institutions and consult each other before disciplinary steps (see the stage The regulatory map)."
+    ],
+    "takeaway": "Expect one issue to reach both regulators, and keep a single factual account for each of them."
+   },
+   {
+    "heading": "Which SFC rules bite on a bank",
+    "lede": "Some SFC rules apply to a bank's registered business in full, while banking rules replace others.",
+    "points": [
+     "**Applies:** The Code of Conduct for registered persons governs securities sales. The HKMA expects banks to follow it, so suitability and disclosure in the app must meet its standards.",
+     "**Applies:** Client Securities Rules (Cap. 571H) to the registered business (s.148(7)(a)), and record-keeping (Cap. 571O, s.151(8)) and contract note rules (Cap. 571Q, s.152(6)).",
+     "**Applies:** The SFC Guidelines on Online Distribution and Advisory Platforms, and the SFC's guidelines on reducing hacking risks in internet trading, read with the HKMA's parallel circular.",
+     "**Does not apply:** The Client Money Rules (Cap. 571I) and the Financial Resources Rules. Client money held by a bank is ordinarily a deposit, and its capital follows the Banking (Capital) Rules.",
+     "**Replaced:** Anti-money laundering is governed by the HKMA's AML/CFT Guideline for authorized institutions, not the SFC's guideline for licensed corporations."
+    ],
+    "takeaway": "Build one control framework that meets the SFC text and the HKMA circular on each point."
+   },
+   {
+    "heading": "Product map for a virtual bank",
+    "lede": "Each product sits under a different regime, so the regulator depends on the product as well as the channel.",
+    "points": [
+     "**Shares and bonds:** Dealing is Type 1 under the bank's registration. Advice is Type 4 only if it is not wholly incidental to the Type 1 business (Sch. 5, Pt 2).",
+     "**Funds:** Dealing is Type 1. Advice on funds is covered by the same wholly incidental test as shares.",
+     "**Discretionary portfolios and robo-advice:** Type 9 applies unless the portfolio management is wholly incidental to the bank's Type 1 or Type 2 business (Sch. 5, Pt 2, para (c)).",
+     "**Virtual assets:** Dealing needs Type 1 and runs through an SFC-licensed platform on an omnibus account, under the HKMA-SFC joint circular of 22 December 2023, as supplemented on 30 September 2025.",
+     "**Banking products:** Structured deposits are HKMA banking products and are excluded from deposit protection (Cap. 581, Sch. 1, para 1(aa)). Margin lending is banking business, not Type 8.",
+     "**Insurance and MPF:** Insurance-linked products follow the Insurance Authority's regime, and since 23 September 2019 the HKMA has exercised the IA's inspection and investigation powers over a bank's insurance business. MPF sales need registration with the MPFA, with the HKMA as frontline regulator for banks (see the stage Wealth management: funds, advice & portfolios)."
+    ],
+    "takeaway": "Build the product list first, then identify the regulator for each product.",
+    "visual": {
+     "type": "stack",
+     "caption": "Products sit in different layers, and each layer has its own regulator.",
+     "items": [
+      {
+       "label": "Type 1: shares, bonds, funds",
+       "note": "Under the bank's registration"
+      },
+      {
+       "label": "Type 9: discretionary",
+       "note": "Unless wholly incidental to Type 1 or 2"
+      },
+      {
+       "label": "Virtual assets",
+       "note": "Via an SFC-licensed platform"
+      },
+      {
+       "label": "Banking products",
+       "note": "Structured deposits and margin lending"
+      }
+     ]
+    }
+   }
+  ],
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571)",
+    "ref": "s.114(1)–(4)",
+    "title": "Restriction on carrying on business in regulated activities, etc.",
+    "summary": "No one may carry on a business in a regulated activity or hold out as doing so. An authorized institution is exempt only for activities it is registered for under s.119, and its staff need entry on the MA's register under BO s.20.",
+    "counselNote": "Start from the feature list. Each feature that trades, advises or manages is a regulated activity, and the exemption applies activity by activity.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "114",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571)",
+    "ref": "s.119(1)–(9)",
+    "title": "Registered institutions",
+    "summary": "The SFC registers an authorized institution for one or more regulated activities other than Type 3 and Type 8. Each application is referred to the MA, which advises on fitness and properness. Conditions may be attached, and the MA is consulted before they change.",
+    "counselNote": "Apply activity by activity, and record that the leveraged FX and margin lending gaps are handled as banking business.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "119",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571)",
+    "ref": "s.180(1), (17)",
+    "title": "Supervision of intermediaries and their associated entities",
+    "summary": "An authorized person may enter a registered institution's premises at reasonable times and inspect records to check compliance. For a registered institution the relevant authority is the MA, so HKMA inspections cover the securities business.",
+    "counselNote": "Expect HKMA on-site visits to cover the app's securities records, so keep them complete and retrievable.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "180",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571)",
+    "ref": "s.196(1)(i), (2), (7)",
+    "title": "Disciplinary action in respect of registered institutions, etc.",
+    "summary": "The SFC may revoke or suspend a registered institution's registration, reprimand it, or impose a pecuniary penalty of up to the greater of HK$10 million or three times the profit gained or loss avoided. It may recommend that the MA act against an individual.",
+    "counselNote": "Treat a serious securities breach as a registration risk, not only a fine, and keep the fitness record ready to answer it.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "196",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571)",
+    "ref": "s.198(2)",
+    "title": "Procedural requirements in respect of exercise of powers under Division 2",
+    "summary": "Before the SFC uses its powers under s.196(1) or (2) against a registered institution, it must consult the MA. This statutory consultation links the two regulators' decisions.",
+    "counselNote": "Prepare one factual account for both regulators, since the HKMA will be consulted before any penalty.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "198",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance (Cap. 571), Schedule 5",
+    "ref": "Sch. 5, Pt 2 (dealing exclusion (iv); Type 4 and Type 9 exclusions)",
+    "title": "Regulated Activities",
+    "summary": "Defines dealing, advising and asset management, with exclusions. Advice and portfolio management are excluded for an authorized institution registered for Type 1 where wholly incidental to that business. A bank that passes orders or introduces clients for remuneration is dealing.",
+    "counselNote": "Test each partner and referral arrangement against exclusion (iv) and the fee structure before launch.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "Sch. 5",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.71C(1)–(4); s.71D(1)(a)",
+    "title": "Executive officers of registered institutions require Monetary Authority’s consent",
+    "summary": "No one may become an executive officer of a registered institution without the MA's written consent, which requires the person to be fit and proper with sufficient authority. A Hong Kong-incorporated institution must appoint at least two executive officers for each regulated business (s.71D(1)(a)). The MA may withdraw consent after consulting the SFC.",
+    "counselNote": "Start the consent applications in parallel with the SFC application, since the two reviews overlap.",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "cap": "155",
+    "section": "71C",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.20(1)(ea)",
+    "title": "Register of authorized institutions, etc.",
+    "summary": "The MA keeps a register of relevant individuals engaged by each registered institution in regulated functions, and records the capacity in which each is engaged. Individuals in those roles are entered on this register rather than licensed by the SFC.",
+    "counselNote": "Map every staff member in a regulated function to the register before launch, and keep the entries current when roles change.",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "cap": "155",
+    "section": "20",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Banking Ordinance (Cap. 155)",
+    "ref": "s.58A(1)",
+    "title": "Disciplinary action in respect of relevant individuals",
+    "summary": "The MA may remove or suspend a relevant individual from the register for misconduct or unfitness, after consulting the SFC.",
+    "counselNote": "Include the register entries in the staff conduct framework, since removal from the register ends the individual's regulated role at the bank.",
+    "url": "https://www.elegislation.gov.hk/hk/cap155",
+    "cap": "155",
+    "section": "58A",
+    "confidence": "high"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Conduct for Persons Licensed by or Registered with the SFC",
+    "ref": "General Principles; paras 5.2 and 10",
+    "title": "Code of Conduct for Persons Licensed by or Registered with the SFC",
+    "summary": "Sets conduct standards for licensed and registered persons, including the suitability test for recommendations (para 5.2) and the handling of conflicts of interest (para 10). It applies to registered institutions directly, as registered persons, and the HKMA applies it when supervising them.",
+    "counselNote": "Apply the suitability and conflicts tests to every in-app recommendation and to bank products sold through the app.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "other",
+    "instrument": "HKMA-SFC Memorandum of Understanding",
+    "ref": "MoU announced 13 December 2002",
+    "title": "Memorandum of Understanding between the HKMA and the SFC",
+    "summary": "Allocates supervision of registered institutions between the two regulators. The SFC refers registration applications to the HKMA, and each regulator consults the other before disciplinary action against a registered institution, an executive officer or a relevant individual. It provides for information sharing and regular meetings, and replaced the MoU of October 1995.",
+    "counselNote": "Expect one matter to reach both regulators, and agree a single point of contact at the bank for each.",
+    "url": "https://www.hkma.gov.hk/media/eng/doc/key-functions/banking-stability/banking-policy-and-supervision/HKMA-SFC_MoU_eng.pdf",
+    "confidence": "medium"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA and SFC joint circular on intermediaries' virtual asset-related activities",
+    "ref": "Joint circular of 22 December 2023; supplemental circular of 30 September 2025",
+    "title": "Intermediaries' virtual asset-related activities",
+    "summary": "Sets the conditions for registered institutions' virtual asset dealing and advice. Only Type 1 registrants may offer virtual asset dealing, and only through an omnibus account with an SFC-licensed platform on prescribed terms. The supplemental circular allows staking on conditions.",
+    "counselNote": "Confirm the platform's licence and the omnibus account terms against the current circular text before any virtual asset feature goes live.",
+    "confidence": "medium"
+   }
+  ],
+  "checklist": [
+   "**Feature list:** List every app feature and mark which ones deal, advise, manage or introduce, citing Sch. 5, Pt 2 for each.",
+   "**Activity by activity:** Decide which Types to register for, and confirm none falls under Type 3 or Type 8 (s.119(1)).",
+   "**Route decision:** Choose own registration, a group licensed company or a partner broker, and record the reasons.",
+   "**Executive officers:** Name at least two and start the MA consent requests in parallel with the SFC application (BO s.71C, s.71D).",
+   "**Relevant individuals:** Map each staff member in a regulated function to the HKMA register under BO s.20 and check the entries before launch.",
+   "**Partner arrangements:** Test each referral or order-routing deal against Sch. 5, Pt 2 exclusion (iv) and its fee structure.",
+   "**Virtual assets:** Confirm the platform's licence and the omnibus account terms under the joint circular before any virtual asset feature goes live.",
+   "**One account:** Agree one factual account and one contact for the SFC and the HKMA, given the consultation under s.198(2) and the MoU."
+  ],
+  "itAngle": [
+   "**Feature flags as licence scope:** Tie each securities feature to a registered activity in code, so that no feature can go live outside its registered scope.",
+   "**Audit trail:** Records for registered business follow Cap. 571O. The app's logs must be able to produce them on request during an inspection under s.180.",
+   "**Identity and onboarding:** One identity check should serve banking onboarding and securities account opening where the rules allow, with evidence logged for both.",
+   "**Outsourcing:** A partner broker or platform running a regulated function remains the bank's responsibility, so contracts need audit rights and HKMA and SFC access to records."
+  ],
+  "bankNotes": [
+   "**App-only sales:** With no branch, the app is the only point of sale, so suitability, risk disclosure and the Code's requirements must be built into the journey itself.",
+   "**Digital onboarding:** Remote account opening combines banking and securities checks. Keep the HKMA's remote onboarding expectations and the SFC's accepted approaches side by side.",
+   "**Partner models:** A partner broker or platform executes the trade, but introducing customers to it for a fee can itself amount to dealing. Check every partner contract against the bank's registration.",
+   "**Cooling-off:** Under the HKMA's circular of 25 September 2019, the pre-investment cooling-off period no longer applies to investment transactions done online without solicitation or recommendation."
+  ],
+  "pitfalls": [
+   "**Assuming the banking licence covers it:** A banking licence does not cover a regulated activity, and each one needs its own registration under s.119.",
+   "**Referral fees:** Paying or receiving commission for introductions makes the bank a dealer, even when a licensed broker executes the trade.",
+   "**Single-regulator thinking:** A matter may reach both the HKMA and the SFC, so a response to one must match what is said to the other.",
+   "**Stale circulars:** Virtual asset rules have been revised several times since 2023, so check the current joint circular text rather than an older summary."
+  ],
+  "glossary": [
+   {
+    "term": "registered institution",
+    "definition": "An authorized institution registered by the SFC under s.119 for one or more regulated activities. The HKMA supervises it, and the SFC regulates it for those activities."
+   },
+   {
+    "term": "licensed corporation",
+    "definition": "A company licensed by the SFC under s.116 to carry on regulated activities. The SFC is its frontline regulator."
+   },
+   {
+    "term": "executive officer",
+    "definition": "An individual who directly supervises a regulated business in a bank. Each needs the Monetary Authority's written consent under BO s.71C."
+   },
+   {
+    "term": "relevant individual",
+    "definition": "An individual engaged in regulated functions for a registered institution and entered on the MA's register under BO s.20, rather than licensed by the SFC."
+   },
+   {
+    "term": "regulated activity",
+    "definition": "One of the activities listed in Sch. 5, Pt 1 of the SFO, such as dealing in securities (Type 1) or advising on securities (Type 4)."
+   },
+   {
+    "term": "Monetary Authority",
+    "definition": "The head of the HKMA, who supervises authorized institutions under the Banking Ordinance and advises the SFC on the fitness of applicants for registration."
+   },
+   {
+    "term": "omnibus account",
+    "definition": "An account through which a bank's customers' virtual assets are held and traded together with a licensed platform, on the platform's prescribed terms."
+   },
+   {
+    "term": "virtual asset trading platform",
+    "definition": "A platform licensed under the AMLO Part 5B regime to operate a virtual asset trading service. A bank's virtual asset orders are executed on it, through an omnibus account."
+   },
+   {
+    "term": "fit and proper",
+    "definition": "The standard the SFC and the MA apply when deciding whether an individual or firm may hold a registration or consent, covering competence, integrity and financial soundness."
+   }
+  ],
+  "related": [
+   {
+    "stage": "share-trading",
+    "why": "Offering share trading in the app: registration, onboarding, order routing and custody."
+   },
+   {
+    "stage": "wealth",
+    "why": "Funds, advice and portfolios, with the insurance and MPF regulators alongside."
+   },
+   {
+    "stage": "crypto",
+    "why": "Crypto dealing through a licensed platform, plus custody, stablecoins and tokens."
+   },
+   {
+    "stage": "licensing",
+    "why": "How registration under s.119 runs, its conditions and the notices to file."
+   },
+   {
+    "stage": "people",
+    "why": "Executive officers, relevant individuals and the MA consents in detail."
+   },
+   {
+    "stage": "enforcement",
+    "why": "How the HKMA and SFC inspect, investigate and discipline a registered institution."
+   }
+  ]
+ },
+ {
+  "id": "share-trading",
+  "index": 4,
+  "title": "Share trading in the app",
+  "phase": "bank",
+  "review": "fact-checked",
+  "oneLiner": "Selling shares in the app is dealing in securities: the bank needs Type 1 registration and must control the order, custody and reporting chain.",
+  "keyPoints": [
+   "**Dealing, not a side service:** Taking customers' share orders and passing them on is [[dealing in securities|dealing in securities]] under Sch. 5, so the bank needs Type 1 registration under s.119 before launch.",
+   "**Execution-only is still dealing:** A plain buy and sell button does not change the answer. Recommending shares is a separate regulated activity (Type 4), excluded for a Type 1 registrant only where the advice is wholly incidental.",
+   "**Referral fees do not help:** A bank that introduces customers to a partner broker for a commission is itself dealing, because the proviso to the definition catches remunerated introductions.",
+   "**Securities are broad:** The definition in Sch. 1 covers shares of a body anywhere, including overseas companies, and excludes shares of Hong Kong private companies. Map each product to that test.",
+   "**The chain is outsourcing:** The [[executing broker|executing broker]], the exchange and the clearing and custody system form a [[material outsourcing|material outsourcing]] chain that the HKMA reviews as well as the SFC.",
+   "**Assets and records:** Share holdings are not deposits, so DPS cover does not apply to them. The SFC client securities, records and contract note rules apply to the bank's registered business only."
+  ],
+  "conceptMap": {
+   "type": "flow",
+   "caption": "A customer order passes through the bank's registered business, a broker, the exchange and the clearing system before settlement.",
+   "items": [
+    {
+     "label": "Customer in the app"
+    },
+    {
+     "label": "Virtual bank (RI, Type 1)",
+     "rel": "places order with"
+    },
+    {
+     "label": "Executing broker",
+     "rel": "routes order to"
+    },
+    {
+     "label": "SEHK",
+     "rel": "executes on"
+    },
+    {
+     "label": "HKSCC / CCASS",
+     "rel": "settles in"
+    }
+   ]
+  },
+  "deepDive": [
+   {
+    "heading": "What the feature is in law",
+    "lede": "Offering share trades in the app is a regulated activity, whatever the interface looks like.",
+    "points": [
+     "**Dealing in securities:** The definition in Sch. 5 covers making or offering an agreement to buy or sell securities, and inducing another person to enter one. An app that accepts orders is within it.",
+     "**Registration:** The bank must hold Type 1 registration under s.119 as a registered institution. Its banking licence alone does not authorize the activity (s.114(2)(b)).",
+     "**Securities:** Sch. 1 includes shares, stocks and interests in them, of any body, incorporated or not. Shares of Hong Kong private companies are excluded.",
+     "**Recommendation:** Suggesting a particular share is advice under Type 4. For a Type 1 registrant the advice is excluded only if wholly incidental to its dealing business."
+    ],
+    "takeaway": "Register for Type 1 before the feature is switched on, and check the advice boundary for any recommendation feature."
+   },
+   {
+    "heading": "The operating model",
+    "lede": "The bank holds the customer relationship, but orders run through an exchange chain it does not control.",
+    "points": [
+     "**Bank's role:** The bank is the registered dealer facing the customer, and its relevant individuals must be on the HKMA register under BO s.20.",
+     "**Executing broker:** An SEHK exchange participant executes the order. Exchange participants are SFC-licensed corporations, so the bank routes orders through one, often a group company.",
+     "**Settlement:** HKSCC and CCASS settle trades and hold shares in custody. The bank's custody duties then sit on top of that chain.",
+     "**Overseas shares:** Trading United States shares goes through an overseas broker. The same dealing and outsourcing analysis applies to each link.",
+     "**Outsourcing:** The HKMA's outsourcing module SA-2 applies to the broker and custody links, so the bank needs due diligence and a contract with audit and access terms."
+    ],
+    "takeaway": "Treat each link in the chain as a vendor relationship that needs diligence, a contract and ongoing monitoring."
+   },
+   {
+    "heading": "Opening the account online",
+    "lede": "Digital onboarding must meet the same identity and suitability standards as a branch.",
+    "points": [
+     "**Know your client:** Paragraph 5.1 of the Code of Conduct requires reasonable steps to establish each client's true and full identity. The detailed verification methods sit on an SFC webpage rather than in the Code.",
+     "**Remote onboarding:** A non-face-to-face procedure must reliably confirm who the client is, so identity checks and other KYC steps should be complete before the account is approved.",
+     "**Account-opening approach:** Documents are signed in front of a firm employee or certified by an acceptable certifier, or the client is onboarded remotely through a route on the SFC's list of acceptable account-opening approaches. Record which route was used.",
+     "**HKIDR:** The bank must assign each client a [[BCAN|Broker-to-Client Assigned Number]] and send client identification data to SEHK, with client consent. The regime started on 20 March 2023.",
+     "**Professional investors:** Classification under Cap. 571D affects only some duties. Use it only where the client's status is checked and documented."
+    ],
+    "takeaway": "Build the onboarding flow around KYC evidence, client consent for data sharing and a recorded suitability baseline.",
+    "visual": {
+     "type": "steps",
+     "items": [
+      {
+       "label": "Identify",
+       "value": "Code para 5.1",
+       "note": "Establish the client's true and full identity"
+      },
+      {
+       "label": "Onboard remotely",
+       "value": "SFC approaches",
+       "note": "Use a route on the SFC's list of acceptable account-opening approaches"
+      },
+      {
+       "label": "Agree terms",
+       "value": "Code para 6.1",
+       "note": "Written client agreement before services start"
+      },
+      {
+       "label": "Tag for HKIDR",
+       "value": "BCAN",
+       "note": "Assign the number and record consent to send client data to SEHK"
+      }
+     ]
+    }
+   },
+   {
+    "heading": "Orders, execution and the app",
+    "lede": "Once an account is open, the app must route orders fairly, securely and with a clear record.",
+    "points": [
+     "**Best execution:** Paragraph 3.2 of the Code of Conduct requires client orders to be executed on the best available terms. Record how routing through the executing broker meets that test.",
+     "**Internet trading security:** The SFC guidelines on reducing hacking risks set two-factor login and baseline controls. The HKMA issued a parallel circular for registered institutions.",
+     "**Outages and capacity:** The bank needs tested failover, capacity limits and a client-facing incident process, because an outage during a market move is a conduct issue.",
+     "**Contract notes and statements:** Cap. 571Q, made under s.152, sets how contract notes and statements of account are given to clients.",
+     "**Records:** Cap. 571O, made under s.151, requires the order and transaction records to be kept in the specified form for the registered business."
+    ],
+    "takeaway": "Document the execution policy, the security baseline and the record set before launch, and test them against the rules."
+   },
+   {
+    "heading": "Holding customers' cash and shares",
+    "lede": "Cash and shares follow different rules, and a bank's status changes which rules apply.",
+    "points": [
+     "**Cash:** Money paid in is a deposit at the bank, so the banking regime and deposit protection apply to it, not the client money rules for licensed firms.",
+     "**Shares:** Share holdings are protected by the client securities rules and the custody chain, not by DPS.",
+     "**Reconciliations:** Records of differences with custodians, clearing houses and banks must be reconciled monthly under Cap. 571O.",
+     "**Compensation:** A registered institution in Type 1 is a specified person, so the ICF can pay compensation for a default by it or its associated persons in exchange-traded products (s.236(2)).",
+     "**Stock lending:** Lending client shares under a securities borrowing and lending agreement needs the client's standing authority (Cap. 571H, s.7). The rule covers intermediaries registered for dealing in securities, so it binds the bank."
+    ],
+    "takeaway": "Keep cash and share holdings in separate reconciled ledgers, with the client securities rules mapped onto the registered business.",
+    "visual": {
+     "type": "compare",
+     "caption": "The same customer assets fall under different rules for a licensed firm and for a bank.",
+     "items": [
+      {
+       "label": "Licensed corporation",
+       "note": "Client money and client securities rules apply in full"
+      },
+      {
+       "label": "Registered institution",
+       "note": "Client securities rules apply only to registered business"
+      }
+     ]
+    }
+   },
+   {
+    "heading": "Margin, IPOs and other add-ons",
+    "lede": "Features built on share trading carry their own licensing and conduct boundaries.",
+    "points": [
+     "**Share-backed lending:** Securities margin financing is Type 8, which cannot be registered for an authorized financial institution (s.119(1)). Lending against shares is banking business, and the HKMA governs its credit terms.",
+     "**IPO subscription:** Applications run through the Fast Interface for New Issuance from 22 November 2023. Check the current HKEX operating dates before design.",
+     "**Leveraged and inverse products:** These exchange-traded products are derivative products, so the Code's derivative requirements apply: assess the client's knowledge of derivatives and explain the risks (paras 5.1A and 5.3), in the purchase path.",
+     "**Staff dealing:** Staff accounts in shares the bank deals in need pre-clearance and monitoring. See the stage Market misconduct & insider dealing."
+    ],
+    "takeaway": "Treat each add-on as a separate product decision with its own licence check, conduct design and surveillance."
+   }
+  ],
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "Sch. 5, Pt 1 and Pt 2 (dealing in securities)",
+    "title": "Regulated Activities",
+    "summary": "Dealing in securities covers making or offering an agreement to buy or sell securities, or inducing another person to do so. It includes remunerated introductions to a dealer, and the exclusions are narrow.",
+    "counselNote": "The app's order flow is dealing. Map each feature to the definition and to the proviso on introductions before deciding how the bank is structured.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "Sch. 5",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.119(1)-(5)",
+    "title": "Registered institutions",
+    "summary": "The SFC registers an authorized financial institution for regulated activities, other than Type 3 and Type 8, after referral to and advice from the Monetary Authority. Conditions may be imposed.",
+    "counselNote": "Type 1 registration is the licence the app needs. Its conditions, and the executive officers named for the business, become the controls the bank must run.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "119",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.152(1)-(2), (6)",
+    "title": "Provision of contract notes, receipts, statements of account and notifications by intermediaries and their associated entities",
+    "summary": "Allows the SFC to make rules requiring contract notes and statements of account for transactions in the regulated activities for which a firm is licensed or registered. For registered institutions the rules are limited to the registered business.",
+    "counselNote": "The app must produce the contract note and statement formats the rules specify, for each trade in the registered business.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "152",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.151(1)-(2), (8)",
+    "title": "Keeping of accounts and records by intermediaries and their associated entities",
+    "summary": "Allows the SFC to make rules requiring the keeping of accounts and records, in the manner it specifies. For registered institutions the rules apply to the registered business only.",
+    "counselNote": "Trade, order and reconciliation records for the app must meet the record rules, so the data design should capture them from the first order.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "151",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.148(1)-(2), (7)(a)",
+    "title": "Client securities and collateral held by intermediaries and their associated entities",
+    "summary": "Allows the SFC to make rules on how client securities and collateral are held, accounted for and dealt with. For a registered institution the rules apply to its registered business only.",
+    "counselNote": "Shares held for customers must be segregated and accounted for under the rules. Lending or pledging them is a separate decision with its own conditions.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "148",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.236(1)-(2)",
+    "title": "Establishment of compensation fund",
+    "summary": "The Investor Compensation Fund pays compensation to clients of a specified person who lose money through a default by that person or its associated persons in specified securities or futures contracts. A specified person includes a Type 1 registrant.",
+    "counselNote": "A default in the bank's exchange-traded share business can give rise to a claim on the fund, so the bank must map its exposure to it.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "236",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "Sch. 1, Pt 1 (securities)",
+    "title": "Interpretation and General Provisions",
+    "summary": "Securities include shares, stocks, debentures, bonds, funds and related rights or interests, of any body whether or not incorporated. The definition excludes shares of Hong Kong private companies and some other instruments.",
+    "counselNote": "The product list should record for each instrument whether it is a security under this definition, since foreign shares are included and private company shares are not.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "Sch. 1",
+    "confidence": "high"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Conduct for Persons Licensed by or Registered with the SFC",
+    "ref": "para 5.1",
+    "title": "Know your client: identity and account opening",
+    "summary": "Requires reasonable steps to establish the true and full identity of each client. The verification methods are published on an SFC webpage rather than in the Code, and a non-face-to-face procedure must reliably confirm the client's identity.",
+    "counselNote": "The app's identity checks must match the SFC's accepted approaches. Keep the method used for each account on file, with the date it was assessed.",
+    "url": "https://sfc.hk/en/Rules-and-standards/Codes-and-guidelines/Codes/Code-of-Conduct-for-Persons-Licensed",
+    "confidence": "medium"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Conduct for Persons Licensed by or Registered with the SFC",
+    "ref": "para 3.2",
+    "title": "Best execution of client orders",
+    "summary": "Requires client orders to be executed on the best available terms.",
+    "counselNote": "The app's routing and the broker contract must support a documented best-execution policy, with monitoring of execution quality.",
+    "url": "https://sfc.hk/en/Rules-and-standards/Codes-and-guidelines/Codes/Code-of-Conduct-for-Persons-Licensed",
+    "confidence": "medium"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "SFC Guidelines for Reducing and Mitigating Hacking Risks Associated with Internet Trading",
+    "ref": "Two-factor authentication and baseline controls",
+    "title": "Internet trading security",
+    "summary": "Issued on 27 October 2017 with a parallel HKMA circular. Sets two-factor authentication for client logins and other baseline controls for internet trading channels.",
+    "counselNote": "Any app trading channel is within scope. Keep the authentication design, risk assessment and go-live dates on file, and check the HKMA circular alongside.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "HKMA Supervisory Policy Manual",
+    "ref": "SA-2 (Outsourcing)",
+    "title": "Outsourcing",
+    "summary": "Sets the HKMA's supervisory approach to outsourcing by authorized institutions, covering risk assessment, service provider capability, agreements, data confidentiality, access and contingency planning. It was issued in 2001 as a guidance note; confirm its current revision in the HKMA's Banking Regulatory Document Repository.",
+    "counselNote": "The broker and custody links are likely material outsourcing. Check SA-2 for any notification requirement for material outsourcing, and put audit and access terms in each contract.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "other",
+    "instrument": "HKEX Investor Identification Regime (SEHK rules and circulars)",
+    "ref": "Broker-to-Client Assigned Number and client identification data",
+    "title": "Hong Kong Investor Identification Regime (HKIDR)",
+    "summary": "Effective 20 March 2023. Relevant regulated intermediaries, including SFC-registered institutions, tag each order and reportable trade with a broker-client assigned number and send client identification data to SEHK.",
+    "counselNote": "The app needs a BCAN for each client, a consent step for data sharing and a feed of client data to the exchange. Keep the consent records with the account file.",
+    "confidence": "medium"
+   }
+  ],
+  "checklist": [
+   "**Confirm Type 1 registration:** Check that the registration covers the app's share products and its conditions, before any build work begins.",
+   "**Map each product to the securities test:** Record for each instrument whether it is a security under Sch. 1, with the reasoning kept on file.",
+   "**Appoint and approve the broker:** Confirm the executing broker is an SEHK participant, run due diligence, and sign an outsourcing contract with audit and access terms.",
+   "**Build the onboarding flow:** Set identity checks to the SFC's accepted approaches, and complete them before the account is approved.",
+   "**Set up the HKIDR feed:** Assign a BCAN to each client, capture consent, and test the client data submission to SEHK.",
+   "**Document best execution and routing:** Write the execution policy, and test routing and execution quality before launch.",
+   "**Confirm the security baseline:** Implement two-factor login and the SFC baseline controls, and check the HKMA's parallel circular.",
+   "**Reconcile and keep records:** Map the record and contract note rules to the app's data, and set monthly reconciliations with custodians and banks."
+  ],
+  "itAngle": [
+   "**Order and record capture:** Every order, fill and amendment needs a time-stamped record that can produce the contract note and the statement of account.",
+   "**Identity and BCAN data:** The onboarding system must hold verified identity data, the BCAN and consent records, and send client data to SEHK on schedule.",
+   "**Resilience and capacity:** Outage handling, failover and capacity tests must cover the trading path, not only the app front end.",
+   "**Vendor and API links:** Each API to the broker and custodian is a material outsourcing link, so its logs, access and exit terms need to be designed in."
+  ],
+  "bankNotes": [
+   "**App-only sales:** Without branches, the in-app flow must carry every disclosure and check that a branch would give, including the derivative and complex-product warnings.",
+   "**Digital onboarding:** Remote identity checks need a documented method from the SFC's accepted approaches, kept alongside the HKMA's expectations for remote account opening.",
+   "**Partner models:** A partner broker or platform that routes orders for a fee can make the bank a dealer, so the commercial terms affect the licence analysis.",
+   "**Deposit and securities split:** The app holds both cash and shares, so the banking deposit regime and the securities client rules must be mapped to separate ledgers."
+  ],
+  "pitfalls": [
+   "**Treating the app as a feature:** A trading button is a regulated activity, so it cannot launch under the banking licence alone.",
+   "**Assuming the broker covers the bank:** Outsourcing does not move responsibility. The bank still answers to the SFC and the HKMA for the chain.",
+   "**Skipping the HKIDR consent step:** Submitting client data without consent or a BCAN leaves the bank exposed on each order it routes.",
+   "**Recommending without a suitability record:** A recommendation feature in the app is advice, and its suitability record must be kept with each order."
+  ],
+  "glossary": [
+   {
+    "term": "dealing in securities",
+    "definition": "Under Sch. 5, making or offering an agreement to buy or sell securities, or inducing another person to do so. Its exclusions are narrow, and remunerated introductions remain dealing."
+   },
+   {
+    "term": "Broker-to-Client Assigned Number",
+    "definition": "The identifier a regulated intermediary assigns to each client under the Hong Kong Investor Identification Regime, tagged to each reportable order and trade."
+   },
+   {
+    "term": "executing broker",
+    "definition": "The exchange participant that places the bank's customer orders on the exchange and in turn passes them through to the market."
+   },
+   {
+    "term": "material outsourcing",
+    "definition": "Outsourcing of a function whose failure could materially affect the institution's business or its customers, which requires notice, due diligence and strict contract terms."
+   },
+   {
+    "term": "non-face-to-face onboarding",
+    "definition": "Opening a client account without the client being present in person, relying on remote identity checks and electronic verification of documents."
+   },
+   {
+    "term": "client identification data",
+    "definition": "The identity details the intermediary sends to the exchange for each BCAN, including the client's full name and identity document details."
+   },
+   {
+    "term": "specified person",
+    "definition": "A category of intermediary whose defaults can give rise to claims on the Investor Compensation Fund, which includes a registered institution registered for Type 1 or Type 2."
+   },
+   {
+    "term": "client securities",
+    "definition": "Securities held by an intermediary or its associates for clients, which the client securities rules require to be segregated, accounted for and not used for the firm's own purposes."
+   }
+  ],
+  "related": [
+   {
+    "stage": "conduct",
+    "why": "KYC, suitability and complex-product rules behind each order and recommendation."
+   },
+   {
+    "stage": "client-assets",
+    "why": "Client securities, records and reconciliations in more depth."
+   },
+   {
+    "stage": "platforms",
+    "why": "Internet trading, electronic records and outsourced technology."
+   },
+   {
+    "stage": "market-misconduct",
+    "why": "Insider dealing and market manipulation risks in the order flow."
+   }
+  ]
+ },
+ {
+  "id": "wealth",
+  "index": 5,
+  "title": "Wealth management: funds, advice & portfolios",
+  "phase": "bank",
+  "review": "fact-checked",
+  "oneLiner": "Each wealth product needs its own permission, and advice or portfolio features can add licences, so sort every feature before the app goes live.",
+  "keyPoints": [
+   "**One shelf, several regimes:** Funds, bonds, structured deposits, insurance and MPF products each sit under a different regime and regulator. Sort them before choosing the licence.",
+   "**Type 1 is the baseline:** Distributing funds and bonds is dealing in securities, so the bank needs Type 1 registration under s.119 before the app can sell them.",
+   "**Advice and portfolios add licences:** Advice is Type 4 and discretionary management is Type 9, unless the bank does them wholly incidentally to its Type 1 business.",
+   "**Digital sales carry the conduct rules:** Suitability, complex-product warnings and disclosure of monetary benefits apply to in-app journeys in the same way as to branch sales.",
+   "**Other regulators sit alongside:** The IA licenses insurance intermediaries, the MPFA registers MPF intermediaries, and the HKMA supervises the bank's day-to-day business in each area.",
+   "**Counsel's role:** Map each feature to a regime, then design the advice journey and disclosures before the feature is released."
+  ],
+  "conceptMap": {
+   "type": "hub",
+   "caption": "Each arrow names the regulator or licence that governs that part of the wealth shelf.",
+   "centre": {
+    "label": "Virtual bank's wealth app",
+    "note": "Each shelf item needs its own permission"
+   },
+   "items": [
+    {
+     "dir": "in",
+     "label": "SFC",
+     "note": "Conduct rules and registration",
+     "rel": "sets conduct rules for"
+    },
+    {
+     "dir": "in",
+     "label": "HKMA",
+     "note": "Frontline supervisor of the bank",
+     "rel": "supervises frontline"
+    },
+    {
+     "dir": "in",
+     "label": "IA",
+     "note": "Insurance intermediary licensing",
+     "rel": "licenses insurance sales by"
+    },
+    {
+     "label": "Funds and bonds",
+     "note": "Type 1 registration",
+     "rel": "distributes under Type 1"
+    },
+    {
+     "label": "Advice",
+     "note": "Type 4 unless wholly incidental",
+     "rel": "gives incidental to Type 1"
+    },
+    {
+     "label": "Discretionary portfolios",
+     "note": "Type 9 unless wholly incidental",
+     "rel": "manages under Type 9"
+    },
+    {
+     "label": "Structured deposits",
+     "note": "A banking product",
+     "rel": "issues as a bank"
+    }
+   ]
+  },
+  "deepDive": [
+   {
+    "heading": "Map the shelf",
+    "lede": "Each product on the shelf sits in a different regime, so the first step is sorting, not licensing.",
+    "visual": {
+     "type": "stack",
+     "caption": "Sort every shelf item into one regime before deciding the licence needed.",
+     "items": [
+      {
+       "label": "Funds and bonds",
+       "value": "Type 1",
+       "note": "Securities, distributed under SFO Sch. 5"
+      },
+      {
+       "label": "SFC-authorized funds",
+       "value": "s.104",
+       "note": "Authorized collective investment schemes"
+      },
+      {
+       "label": "Unauthorized funds",
+       "value": "s.103",
+       "note": "Offers restricted; professional investor exemption"
+      },
+      {
+       "label": "Structured deposits",
+       "value": "BO",
+       "note": "Banking product under HKMA supervision"
+      },
+      {
+       "label": "ILAS and MPF",
+       "value": "IA, MPFA",
+       "note": "Insurance and MPF regimes with their own regulators"
+      }
+     ]
+    },
+    "points": [
+     "**Securities:** Funds and bonds are securities, so distributing them is dealing in securities and needs Type 1 registration (Sch. 5, Pt 1).",
+     "**Authorized funds:** An SFC-authorized collective investment scheme must be authorized under s.104 before it is offered. The bank relies on the manager's authorization and must use only the authorized offering documents.",
+     "**Unauthorized funds:** Invitations to the public to invest in unauthorized schemes fall within s.103. An invitation about scheme interests disposed of only to [[professional investors|professional investor]] is exempt under s.103(3)(k), so classify each client before the offer.",
+     "**Structured deposits:** These are banking products under the Banking Ordinance and the HKMA's supervision. A structured product that is a security follows the SFO route instead.",
+     "**[[ILAS]] and MPF:** Investment-linked assurance schemes are insurance products that the IA regulates, and the HKMA is the frontline supervisor for the bank's insurance intermediary business. MPF sales need the bank to be a registered MPF intermediary with the MPFA."
+    ],
+    "takeaway": "Tag each product with its regime and regulator before it appears in the app."
+   },
+   {
+    "heading": "Advice: Type 4 or not",
+    "lede": "Advising on securities is Type 4, but a bank registered for Type 1 is outside Type 4 when its advice is wholly incidental to that dealing.",
+    "visual": {
+     "type": "flow",
+     "caption": "Test each advice feature against the wholly incidental exclusion before launch.",
+     "items": [
+      {
+       "label": "Recommendation in app",
+       "note": "Any suggestion to buy or sell"
+      },
+      {
+       "label": "Incidental to Type 1 sale",
+       "rel": "is tested as"
+      },
+      {
+       "label": "No Type 4 needed",
+       "note": "Advice is part of the dealing",
+       "rel": "if yes, then"
+      },
+      {
+       "label": "Type 4 registration",
+       "note": "Standalone or paid advisory service",
+       "rel": "if no, then"
+      }
+     ]
+    },
+    "points": [
+     "**Exclusion:** Sch. 5, Pt 2 (definition of advising on securities, para (iii)) excludes advice given by an authorized financial institution registered for Type 1, but only where the advice is [[wholly incidental]] to that dealing.",
+     "**Separate advisory service:** A paid plan or a standalone advice feature is unlikely to be wholly incidental to dealing, so Type 4 is likely needed. Test this feature by feature.",
+     "**Suitability:** When the bank solicits or recommends, para 5.2 of the Code of Conduct requires the recommendation to be reasonable for the client in all the circumstances.",
+     "**Complex products:** Without a recommendation, para 5.5 of the Code of Conduct requires a suitability check of the transaction for a [[complex product]], adequate information on its key features and risks, and warnings before the sale.",
+     "**Fees and independence:** Disclose any [[monetary benefit]] the bank receives from a product provider, and do not describe the service as independent unless the bank meets the test for independence."
+    ],
+    "takeaway": "Decide the Type 4 question per feature, and make suitability a step in the journey rather than a footnote."
+   },
+   {
+    "heading": "Model portfolios, discretionary management and robo-advice",
+    "lede": "Managing a portfolio for a client is Type 9 unless the bank does it wholly incidentally to its Type 1 business.",
+    "visual": {
+     "type": "compare",
+     "caption": "A feature that trades for the client is treated as portfolio management until counsel confirms otherwise.",
+     "items": [
+      {
+       "label": "Discretionary management",
+       "note": "Bank decides trades within a mandate; Type 9 unless wholly incidental"
+      },
+      {
+       "label": "Client-selected model",
+       "note": "Client chooses the portfolio; classify each feature on its facts"
+      }
+     ]
+    },
+    "points": [
+     "**Type 9 exclusion:** Sch. 5, Pt 2 excludes portfolio management by an authorized financial institution registered for Type 1 or Type 2, but only where it is wholly incidental to that activity (para (c) of the exclusions to the securities or futures contracts management definition).",
+     "**Discretion versus model:** A model portfolio the client chooses is a different case from a discretionary account. Classify each feature against the mandate and the client's instructions.",
+     "**[[robo-advice]] guidance:** The SFC Guidelines on Online Distribution and Advisory Platforms, effective 6 July 2019, include a chapter on robo-advice covering client information and profiling.",
+     "**Algorithm governance:** Document the model's inputs, testing, overrides and escalation route. The bank answers to the SFC for the output, whichever vendor built the model.",
+     "**Discretionary accounts:** The Code of Conduct sets disclosure requirements for discretionary accounts, and the mandate terms must reflect them."
+    ],
+    "takeaway": "Treat any feature that trades for the client as Type 9 until counsel confirms the wholly incidental exclusion applies."
+   },
+   {
+    "heading": "Selling through an app, not a branch",
+    "lede": "The app is the point of sale, so the SFC and HKMA expectations apply to its screens as well as to its policies.",
+    "visual": {
+     "type": "steps",
+     "caption": "Each step must be built into the purchase path, not added as a disclosure afterwards.",
+     "items": [
+      {
+       "label": "Classify the product",
+       "note": "Complex or non-complex; retail or professional only"
+      },
+      {
+       "label": "Profile the client",
+       "note": "Risk profile before any recommendation"
+      },
+      {
+       "label": "Show key information",
+       "note": "Warnings and risk statements before order entry"
+      },
+      {
+       "label": "Record the sale",
+       "note": "Audio recording where the HKMA requires it"
+      }
+     ]
+    },
+    "points": [
+     "**Non-complex products:** These can be sold execution-only where there is no solicitation or recommendation, under the SFC's online platform guidelines. The suitability requirement is then not triggered.",
+     "**[[complex product]] journeys:** Require suitability, key-information screens and warnings before the order is accepted. Returning clients should not be able to skip these steps.",
+     "**HKMA investor protection:** The HKMA circular of 25 September 2019 streamlined selling-process requirements, such as audio recording and the pre-investment cooling-off period, for some customers and channels, including online transactions without solicitation or recommendation.",
+     "**Later HKMA refinements:** An HKMA circular of 20 December 2024 applies a risk-based approach to audio recording of investment and insurance sales made by video conference. Map the remote sales call flow to it.",
+     "**Product due diligence:** Review each product's structure, risks, costs and target investors before listing, and keep a record of the review."
+    ],
+    "takeaway": "Build each safeguard into the journey, then confirm which of them the HKMA circulars require for remote sales."
+   },
+   {
+    "heading": "Cross-boundary and other channels",
+    "lede": "Offering wealth products to customers outside Hong Kong, or through a cross-boundary scheme, adds a separate set of rules.",
+    "visual": {
+     "type": "flow",
+     "caption": "The scheme limits who can invest and through which bank.",
+     "items": [
+      {
+       "label": "Eligible Bay Area resident",
+       "note": "Resident of a participating Greater Bay Area city"
+      },
+      {
+       "label": "Eligible Hong Kong bank",
+       "rel": "invests through"
+      },
+      {
+       "label": "Eligible wealth products",
+       "note": "Only products the scheme allows",
+       "rel": "limited to"
+      }
+     ]
+    },
+    "points": [
+     "**[[Cross-Boundary WMC]]:** The implementation arrangements were promulgated on 10 September 2021. Eligible residents of the Greater Bay Area can invest in eligible wealth products distributed by eligible banks in Hong Kong.",
+     "**Eligibility:** Participation depends on the HKMA's list of eligible banks, which the HKMA updates. The bank must check its status on that list before offering the scheme.",
+     "**Non-residents:** Marketing to people outside Hong Kong can amount to active marketing in Hong Kong, so check the territorial scope of Type 1 before any cross-border campaign (see the stage Regulated activities & the perimeter).",
+     "**Geographic controls:** The app should not decide eligibility alone. Use location and residence checks that match the scheme's terms and the bank's own product approvals."
+    ],
+    "takeaway": "Confirm the scheme eligibility and the perimeter position before any cross-boundary product goes live."
+   },
+   {
+    "heading": "Who supervises the wealth business",
+    "lede": "Several regulators touch the shelf, and each reviews a different part of it.",
+    "visual": {
+     "type": "layers",
+     "caption": "Each layer is supervised by a different body, so one compliance calendar should map them all.",
+     "items": [
+      {
+       "label": "HKMA: frontline supervisor",
+       "note": "Registered institution securities business and insurance intermediary business"
+      },
+      {
+       "label": "SFC: conduct and discipline",
+       "note": "Code of Conduct, platform guidelines and s.196 discipline"
+      },
+      {
+       "label": "IA: insurance licensing",
+       "note": "Licenses insurance intermediaries and sets conduct standards"
+      },
+      {
+       "label": "MPFA: MPF intermediaries",
+       "note": "Registers the bank as an MPF intermediary"
+      },
+      {
+       "label": "FDRS and ICF",
+       "note": "Disputes and investor compensation for covered claims"
+      }
+     ]
+    },
+    "points": [
+     "**HKMA:** Frontline supervisor of the bank's securities business as a registered institution, and day-to-day supervisor of its insurance intermediary business under the IA's delegation.",
+     "**SFC:** Sets the Code of Conduct, the online platform guidelines and the authorization requirements for funds, and can discipline the bank and its executive officers under s.196.",
+     "**IA:** Licenses insurance intermediaries, including the bank's insurance agency business, and sets the conduct standards that apply to it.",
+     "**MPFA:** Registers MPF intermediaries. The bank needs that registration before it sells MPF products, and a frontline regulator supervises its conduct.",
+     "**Disputes and compensation:** Consumer complaints that are not resolved go to the FDRS. A bank registered for Type 1 is a specified person under the ICF (s.236(2))."
+    ],
+    "takeaway": "Build one compliance calendar that lists each regulator's requirements for each product line."
+   }
+  ],
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "Sch. 5, Pt 1 and Pt 2 (advising on securities; securities or futures contracts management)",
+    "title": "Regulated Activities",
+    "summary": "Type 4 covers advising on securities and Type 9 covers asset management, which includes managing a portfolio of securities for another person. Part 2 excludes advice and portfolio management that an authorized financial institution registered for Type 1 or Type 2 gives wholly incidentally to that activity.",
+    "counselNote": "Each advice or portfolio feature must be tested against these exclusions before launch. The exclusion for advice is narrow, so a standalone paid service is unlikely to fall within it.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "Sch. 5",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.103(1)–(2)",
+    "title": "Offence to issue advertisements, invitations or documents relating to investments in certain cases",
+    "summary": "It is an offence to issue an advertisement or invitation to the public to invest in securities, structured products or a collective investment scheme, unless the Commission has authorized it under s.105(1). Exemptions include material from licensed or registered Type 1 intermediaries for most non-structured securities.",
+    "counselNote": "Banners, push notifications and product pages that invite investment are advertisements. Check each one for an exemption or an authorization before it is published.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "103",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.104(1)–(2)",
+    "title": "Commission may authorize collective investment schemes",
+    "summary": "The SFC may authorize a collective investment scheme on application, subject to conditions. Once authorized, the scheme must have an approved person to receive the SFC's notices and decisions.",
+    "counselNote": "Before offering an authorized fund, confirm the authorization is current and that the bank's materials match the authorized offering documents.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "104",
+    "confidence": "high"
+   },
+   {
+    "kind": "subsidiary",
+    "instrument": "Securities and Futures (Professional Investor) Rules",
+    "ref": "s.3",
+    "title": "Persons prescribed as professional investors",
+    "summary": "Prescribes certain trust corporations, individuals, corporations and partnerships as professional investors for the purposes of the definition in Part 1 of Schedule 1 to the SFO, other than for Schedule 5.",
+    "counselNote": "A professional investor label is a classification the bank must make and record for each client before any offer relies on it.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571D",
+    "cap": "571D",
+    "section": "3",
+    "confidence": "high"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Conduct for Persons Licensed by or Registered with the SFC",
+    "ref": "para 5.2",
+    "title": "Suitability of recommendations and solicitations",
+    "summary": "Requires that a recommendation or solicitation be reasonable in all the circumstances for the client. The exemptions in para 15 of the Code are limited to institutional professional investors and to corporate professional investors that pass the para 15.3A assessment.",
+    "counselNote": "The bank must be able to show the basis for each recommendation made in the app, and keep the record of the client's profile used for it.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "code",
+    "instrument": "Code of Conduct for Persons Licensed by or Registered with the SFC",
+    "ref": "para 5.5",
+    "title": "Complex products where there is no solicitation or recommendation",
+    "summary": "For a complex product sold without a solicitation or recommendation, requires a suitability check of the transaction, adequate information on key features and risks, and warning statements before the sale.",
+    "counselNote": "A self-directed purchase of a complex product needs a complex-product flag, key-information screens and warnings built into the purchase path.",
+    "confidence": "high"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "SFC Guidelines on Online Distribution and Advisory Platforms",
+    "ref": "Core principles for online platforms, and the robo-advice chapter",
+    "title": "Online distribution and advisory platforms guidelines",
+    "summary": "Sets principles for licensed and registered persons providing order execution, distribution or advisory services through online platforms, covering platform design, client information, governance and record keeping. It includes a chapter on robo-advice. They took effect on 6 July 2019.",
+    "counselNote": "This is the operational rulebook for the app. Map each journey, including any robo-advice feature, against its principles and keep records of the design choices.",
+    "url": "https://www.gld.gov.hk/egazette/pdf/20182214/egn201822142403.pdf",
+    "confidence": "medium"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular: Investor Protection Measures in respect of Investment, Insurance and Mandatory Provident Fund Products",
+    "ref": "Circular, 25 September 2019",
+    "title": "Investor protection measures for investment, insurance and MPF products",
+    "summary": "Sets HKMA expectations for authorized institutions selling investment, insurance and MPF products. It streamlines several selling-process requirements, such as audio recording, for some customers and channels, and states that the pre-investment cooling-off period does not apply to online transactions without solicitation or recommendation.",
+    "counselNote": "These expectations sit on top of the Code. Digital sales journeys need a working equivalent for each safeguard that applies.",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20190925-4-EN/20190925-4-EN.pdf",
+    "confidence": "medium"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA circular: Streamlining of Audio-recording Requirements for Sale of Investment and Insurance Products",
+    "ref": "Circular, 20 December 2024",
+    "title": "Streamlining of audio-recording requirements for investment and insurance sales",
+    "summary": "Applies a risk-based approach to audio recording of investment and insurance sales conducted by video conference, refining the earlier requirements.",
+    "counselNote": "Remote sales journeys should follow the current recording triggers, with the risk assessment behind each one recorded.",
+    "confidence": "medium",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20241223-6-EN/20241223-6-EN.pdf"
+   },
+   {
+    "kind": "other",
+    "instrument": "Cross-Boundary Wealth Management Connect Pilot Scheme",
+    "ref": "Implementation Arrangements promulgated 10 September 2021",
+    "title": "Cross-boundary wealth management connect",
+    "summary": "Allows eligible residents of the Greater Bay Area to invest in eligible wealth products distributed by eligible banks in Hong Kong and the Greater Bay Area. The HKMA publishes the list of eligible Hong Kong banks and updates it from time to time.",
+    "counselNote": "Check the HKMA's current eligible-bank list before offering the scheme, since the list is updated from time to time.",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2021/09/20210910-3/",
+    "confidence": "medium"
+   },
+   {
+    "kind": "other",
+    "instrument": "MPF Schemes Ordinance (registration of MPF intermediaries)",
+    "ref": "Registration of MPF intermediaries",
+    "title": "MPF intermediary registration and frontline regulators",
+    "summary": "The MPFA registers MPF intermediaries and issues compliance guidelines. The HKMA, IA and SFC act as frontline regulators for intermediaries whose core business is banking, insurance or securities.",
+    "counselNote": "Before selling MPF products the bank needs to be registered as an MPF intermediary, and it should identify which frontline regulator supervises its MPF conduct.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "other",
+    "instrument": "Insurance Ordinance (Cap. 41)",
+    "ref": "s.4G delegation to the MA; IA-MA MoU of 19 July 2019",
+    "title": "Insurance intermediary licensing and the HKMA's delegated role",
+    "summary": "The IA licenses insurance intermediaries and sets conduct standards. Under s.4G, the IA delegated to the Monetary Authority its inspection and investigation powers over the insurance business of authorized institutions, with effect from 23 September 2019. An IA-MA MoU of 19 July 2019 sets out how the two cooperate.",
+    "counselNote": "The bank's insurance agency business needs the IA licence, and the HKMA inspects and investigates it. Plan for HKMA review of the insurance journey in the app.",
+    "confidence": "high",
+    "url": "https://www.ia.org.hk/en/supervision/int_dom_cooperation/files/IA_MA_MoU.pdf"
+   }
+  ],
+  "checklist": [
+   "**Sort each product:** Assign every shelf item to a regime (SFO security, authorized fund, structured deposit, ILAS or MPF) and record the regulator for it.",
+   "**Confirm the Type 1 registration:** Check that the registration covers every dealing activity the app offers, with the executive officers named for that business.",
+   "**Decide Type 4 and Type 9 per feature:** Document whether each advice or portfolio feature is wholly incidental to Type 1 dealing, with reasons.",
+   "**Check fund authorizations:** Confirm s.104 authorization or the s.103 exemption for every fund and every offering document shown in the app.",
+   "**Build suitability and complex-product steps:** Add the risk profile, suitability check, warnings and key-information screens to the purchase path before go-live.",
+   "**Agree disclosures:** Set out monetary benefits, conflicts and any independence claim in the app, and test them against the Code before launch.",
+   "**Confirm insurance and MPF arrangements:** Check the IA and MPFA positions for each ILAS or MPF product before it is listed.",
+   "**Confirm cross-boundary scope:** Check eligibility on the HKMA's list and the perimeter position before offering any scheme product to Greater Bay Area residents."
+  ],
+  "itAngle": [
+   "**Product catalogue as data:** Each shelf item needs a regime tag, a complex flag, a target-market field and a retail or professional-only flag. These drive the eligibility checks, so build them into the product model.",
+   "**Suitability records:** Risk profiling, suitability scoring and the record of each recommendation are system requirements. Keep the inputs and outputs for each advice decision so that they can be produced on request.",
+   "**Robo-advice controls:** Log the model version, input data, overrides and escalations, and keep them under change control.",
+   "**Product feeds and vendors:** Reconcile fund and product data from providers to the authorized product list, and assign a clear owner for stale or withdrawn products."
+  ],
+  "bankNotes": [
+   "**App-only sales:** With no branch, the app must carry the warnings, suitability questions and records that a branch would otherwise give in person.",
+   "**Digital onboarding:** Risk profiling and product classification happen during onboarding, so the bank needs a single customer profile shared by its banking and wealth features.",
+   "**Partner and introducer models:** Where a partner broker or fund platform executes or advises, the bank may still be dealing if it introduces clients for a fee (Sch. 5, Pt 2, dealing exclusion (iv)).",
+   "**Insurance and MPF partners:** Sales of a partner's insurance or MPF products need the IA or MPFA position confirmed and the bank's own registration checked before launch."
+  ],
+  "pitfalls": [
+   "**Advice by feature drift:** A new feature, such as a 'suggested for you' tile, can turn a dealing journey into advice without a licence review.",
+   "**Relying on the fund's authorization:** The bank's own promotional banners need an exemption or authorization. The fund manager's authorization does not cover them.",
+   "**Treating the banking licence as cover:** A banking licence does not cover securities business. The SFC registration is separate, and s.114(2)(b) applies only to an authorized financial institution registered for the activity.",
+   "**Assuming a Hong Kong-only audience:** Customers' location and cross-boundary schemes change the analysis, so the app should not decide eligibility on a default setting."
+  ],
+  "glossary": [
+   {
+    "term": "professional investor",
+    "definition": "A person defined in Part 1 of Schedule 1 to the SFO and prescribed further under Cap. 571D, s.3. Offers to professional investors can rely on exemptions, but the bank must classify each client first."
+   },
+   {
+    "term": "wholly incidental",
+    "definition": "The test in Sch. 5, Pt 2 that excludes advice or portfolio management from a regulated activity where it serves the bank's own Type 1 business only. The exclusion is narrow and must be applied feature by feature."
+   },
+   {
+    "term": "complex product",
+    "definition": "A product that the Code of Conduct treats as requiring extra checks, including a suitability check of the transaction and warnings before the sale, under para 5.5."
+   },
+   {
+    "term": "robo-advice",
+    "definition": "Automated advice generated by an algorithm, covered by a chapter of the SFC Guidelines on Online Distribution and Advisory Platforms. The firm remains responsible for the output."
+   },
+   {
+    "term": "structured deposit",
+    "definition": "A deposit whose return is linked to market conditions. It is a banking product under the Banking Ordinance and is excluded from protected deposits under Cap. 581, Sch. 1."
+   },
+   {
+    "term": "ILAS",
+    "definition": "An investment-linked assurance scheme, an insurance policy whose benefits are linked to the value of underlying investment funds. The IA regulates it under the Insurance Ordinance."
+   },
+   {
+    "term": "Cross-Boundary WMC",
+    "definition": "The scheme under which eligible residents of the Greater Bay Area can invest in eligible wealth products distributed by eligible Hong Kong banks. Its implementation arrangements were promulgated on 10 September 2021."
+   },
+   {
+    "term": "monetary benefit",
+    "definition": "A commission, rebate or other payment a firm receives from a product provider. The Code of Conduct requires the firm to disclose it to clients."
+   }
+  ],
+  "related": [
+   {
+    "stage": "conduct",
+    "why": "Suitability, complex products and professional investors in more depth."
+   },
+   {
+    "stage": "offers",
+    "why": "Which funds and products may be offered to the public, and how."
+   },
+   {
+    "stage": "platforms",
+    "why": "Online distribution and robo-advice under the SFC guidelines."
+   },
+   {
+    "stage": "redress",
+    "why": "Complaints, the Financial Dispute Resolution Scheme and compensation."
+   }
+  ]
+ },
+ {
+  "id": "crypto",
+  "index": 6,
+  "title": "Crypto trading & other digital assets",
+  "phase": "bank",
+  "review": "fact-checked",
+  "oneLiner": "The bank needs Type 1 registration and must route customer crypto orders through an SFC-licensed platform; the HKMA covers custody and stablecoins.",
+  "keyPoints": [
+   "**Two regulators:** The SFC licenses the trading platforms and sets the dealing conditions, while the HKMA supervises the bank, its custody of client VAs and its stablecoin activity.",
+   "**No shortcut:** A banking licence does not cover crypto. Dealing in VAs for customers needs Type 1 registration under SFO s.119 and must follow the joint circular, and operating a VA exchange needs an SFC licence (AMLO s.53ZRD).",
+   "**Route to market:** The bank passes customer orders through an [[omnibus account]] with an SFC-licensed platform rather than matching orders itself.",
+   "**Retail safeguards:** Assess knowledge and risk tolerance, set an exposure limit, and offer only the VAs that the licensed platform makes available to retail investors.",
+   "**Adjacent products:** Spot VA ETFs and funds, custody, stablecoins and tokenised products each follow a different regime, so each needs its own classification before launch.",
+   "**Counsel's role:** Confirm each product's regime, the registration scope and the HKMA position in writing before build work starts, and watch the proposed dealing and custody licences."
+  ],
+  "conceptMap": {
+   "type": "hub",
+   "caption": "The crypto route runs through Type 1 registration and the joint circular, with the SFC and HKMA each supervising a different part of it.",
+   "centre": {
+    "label": "Virtual bank (RI, Type 1)",
+    "note": "Sells crypto through a licensed platform"
+   },
+   "items": [
+    {
+     "dir": "in",
+     "label": "SFC",
+     "note": "Licenses platforms and sets dealing conditions",
+     "rel": "sets VA dealing conditions for"
+    },
+    {
+     "dir": "in",
+     "label": "HKMA",
+     "note": "Supervises the bank and stablecoin activity",
+     "rel": "supervises custody and conduct of"
+    },
+    {
+     "label": "SFC-licensed VATP",
+     "note": "Holds client VAs in the omnibus account",
+     "rel": "routes VA orders via omnibus account to"
+    },
+    {
+     "label": "Retail customer",
+     "note": "Subject to knowledge and exposure checks",
+     "rel": "assesses knowledge and limits exposure of"
+    },
+    {
+     "label": "Licensed issuer's stablecoin",
+     "note": "Retail offers need a licensed issue (Cap. 656 s.9)",
+     "rel": "offers as permitted offeror"
+    },
+    {
+     "label": "Client VA custody",
+     "note": "Held under HKMA custody guidance",
+     "rel": "holds under HKMA guidance"
+    },
+    {
+     "soft": true,
+     "label": "Proposed dealing and custody licences",
+     "note": "Proposed, not yet law",
+     "rel": "would need to comply with"
+    }
+   ]
+  },
+  "deepDive": [
+   {
+    "heading": "What is regulated, and by whom",
+    "lede": "Crypto, securities, stablecoins and tokenised deposits sit under different statutes, and each has its own supervisor.",
+    "visual": {
+     "type": "stack",
+     "caption": "Each layer follows its own statute and regulator.",
+     "items": [
+      {
+       "label": "Virtual assets",
+       "value": "AMLO s.53ZRA",
+       "note": "Platforms licensed by the SFC under Part 5B"
+      },
+      {
+       "label": "Securities, including tokenised",
+       "value": "SFO",
+       "note": "Excluded from the VA definition"
+      },
+      {
+       "label": "Stablecoins",
+       "value": "Cap. 656",
+       "note": "HKMA licenses issuers; securities and deposits excluded"
+      },
+      {
+       "label": "Tokenised deposits",
+       "value": "BO",
+       "note": "Remain deposits and stay under HKMA supervision"
+      }
+     ]
+    },
+    "points": [
+     "**VA definition:** AMLO s.53ZRA defines a VA as a cryptographically secured digital representation of value that meets its tests, and it excludes securities and futures contracts (s.53ZRA(2)(a)(iii)).",
+     "**Securities:** A token that is a security stays under the SFO, so the securities conduct rules apply instead of the VA rules.",
+     "**SFC:** Licenses platforms that operate a VA exchange under AMLO Part 5B, and sets the conditions for registered intermediaries' VA activities with the HKMA (see the stage Licensing & registration).",
+     "**HKMA:** Supervises the bank as an authorized institution, sets custody expectations for AIs and licenses stablecoin issuers under Cap. 656.",
+     "**Tokenised deposits:** A token that is a deposit under Cap. 155 s.2(1) is excluded from the stablecoin definition (Cap. 656 s.3(2)(e)), so the deposit test decides its character, not the technology."
+    ],
+    "takeaway": "Classify every token against each statute before the product is designed."
+   },
+   {
+    "heading": "Buying and selling crypto for customers",
+    "lede": "Customer dealing is allowed only through a licensed platform, and only once the bank holds the right registration.",
+    "visual": {
+     "type": "steps",
+     "caption": "Launch sequence for customer VA dealing.",
+     "items": [
+      {
+       "label": "Type 1 registration",
+       "value": "SFO s.119",
+       "note": "Confirm the scope covers VA dealing"
+      },
+      {
+       "label": "Choose a platform",
+       "note": "From the SFC register of licensed platforms"
+      },
+      {
+       "label": "Open omnibus account",
+       "note": "Client VAs held through the platform"
+      },
+      {
+       "label": "Retail safeguards",
+       "note": "Knowledge, risk tolerance and exposure limit"
+      },
+      {
+       "label": "Launch and monitor",
+       "note": "Track the platform's licence status"
+      }
+     ]
+    },
+    "points": [
+     "**Who may operate:** Only a licensed provider may run a VA service (AMLO s.53ZRD(2)), and a person who does so without reasonable excuse commits an offence carrying a fine of HK$5 million and seven years on indictment (s.53ZRD(5)(a)).",
+     "**Joint circular:** A Type 1 registrant may deal in VAs only through an [[omnibus account]] with an SFC-licensed platform, on the standard VA dealing terms and conditions of the joint circular of 22 December 2023, as supplemented on 30 September 2025.",
+     "**Retail safeguards:** Assess each client's VA knowledge and risk tolerance, set an exposure limit, and offer only the VAs that the licensed platform makes available to retail investors.",
+     "**Financing:** Lending to buy VAs is a separate issue. The HKMA guidance of 27 May 2026 addresses financing for VA dealing, so read it in full before any credit feature is designed.",
+     "**Marketing reach:** Advertising for an unlicensed platform is an offence (AMLO s.53ZRE), and active marketing of a VA service to the public is treated as carrying on that business even from outside Hong Kong (s.53ZRB(3)-(5))."
+    ],
+    "takeaway": "Launch only once the registration, partner and account structure are confirmed in writing."
+   },
+   {
+    "heading": "Advising on and managing crypto",
+    "lede": "Advice and portfolio management for VAs are governed by the joint circular, and the SFO applies where securities are involved.",
+    "points": [
+     "**Advice:** The joint circular also sets conditions for VA advisory services. Advice on securities remains a Type 4 matter, and an authorized institution registered for Type 1 is excluded for advice wholly incidental to that business (Sch. 5, Pt 2).",
+     "**Discretionary management:** Type 9 covers managing portfolios of securities or futures contracts, so a portfolio of VAs alone falls outside its definition. A portfolio that includes securities or VA funds is within Type 9, and the joint circular's conditions on VA management apply either way.",
+     "**Financing:** The SFC circular of 11 February 2026 on VA financing is aimed at brokers that provide securities margin financing, a Type 8 activity a bank cannot be registered for. A bank's lending for or against VAs is a banking matter for the HKMA.",
+     "**Recent guidance:** The HKMA guidance of 27 May 2026 also covers shared order books and withdrawal safeguards, so read it in full before offering any feature that depends on them.",
+     "**Separate permissions:** Treat advice and management as separate permissions from dealing. Each needs its own registration analysis and conduct controls."
+    ],
+    "takeaway": "Map each advice or management feature to its regime before it goes live."
+   },
+   {
+    "heading": "Selling VA funds, ETFs and derivatives",
+    "lede": "Products that track VAs are often securities or funds, so the SFO product rules apply on top of the crypto circulars.",
+    "visual": {
+     "type": "compare",
+     "caption": "Two broad routes for VA-linked products.",
+     "items": [
+      {
+       "label": "Spot VA ETFs",
+       "value": "Securities",
+       "note": "SFC-authorized and listed; Type 1 distribution"
+      },
+      {
+       "label": "VA derivatives",
+       "value": "Limited retail",
+       "note": "Retail only if exchange-traded on a specified exchange"
+      }
+     ]
+    },
+    "points": [
+     "**Spot VA ETFs:** SFC-authorized ETFs listed in Hong Kong are securities, so distributing them is a Type 1 activity. Check each product's complex status against the SFC criteria before sale.",
+     "**Complex products:** The joint circular treats most VA-related products as likely to be [[complex products|Complex product]], so the complex-product requirements apply and retail sale is limited (see the stage Conduct: KYC, suitability & complex products).",
+     "**Derivatives:** Under the joint circular, VA derivative products may be offered to retail investors only if they are traded on a specified exchange. Others are for professional investors only.",
+     "**VA funds:** SFC-authorized funds with VA exposure follow the SFC circular on such funds (issued 22 December 2023, revised 7 April 2025 and updated 27 May 2026). They may invest only in VAs tradable on SFC-licensed platforms, and the fund manager carries those duties.",
+     "**Staking:** The supplement of 30 September 2025 allows staking on conditions, so any staking feature needs its own review before launch."
+    ],
+    "takeaway": "Classify each product as complex or non-complex and as retail or professional-investor-only, and record the reason."
+   },
+   {
+    "heading": "Custody, stablecoins and tokenised products",
+    "lede": "Each of these carries a different regime and a different regulator, so each should be assessed on its own.",
+    "visual": {
+     "type": "compare",
+     "caption": "Four adjacent activities, four routes.",
+     "items": [
+      {
+       "label": "Client VA custody",
+       "value": "HKMA",
+       "note": "Guidance of 20 Feb 2024, updated 27 May 2026"
+      },
+      {
+       "label": "Stablecoins",
+       "value": "Cap. 656",
+       "note": "Retail offers limited to licensed issuers' coins"
+      },
+      {
+       "label": "Tokenised securities",
+       "value": "SFC",
+       "note": "Circular 23EC52 applies to registered institutions"
+      },
+      {
+       "label": "Tokenised deposits",
+       "value": "BO",
+       "note": "Remain deposits, not stablecoins"
+      }
+     ]
+    },
+    "points": [
+     "**Custody:** The HKMA's custody guidance for AIs covers VAs and tokenised securities held for clients, and excludes the bank's own assets. It was first issued on 20 February 2024 and updated on 27 May 2026.",
+     "**Statutory custody:** A custodian licence is proposed but is not yet law, so custody is governed by the HKMA guidance for now (see What is coming below).",
+     "**Stablecoins:** An AI is a permitted offeror (Cap. 656 s.9(5)(e)), but the issue of the coin must be authorized by a licence (s.9(2)(a)(ii)). Retail customers may be offered only licensed issuers' coins.",
+     "**Tokenised securities:** SFC circular 23EC52 of 2 November 2023 applies to registered institutions. The SFC replaced its separate circular on tokenised authorized products on 20 April 2026, so check both texts.",
+     "**Tokenised deposits:** A [[tokenised deposit]] stays a deposit under the Banking Ordinance, so it sits outside the stablecoin regime and is supervised as a deposit."
+    ],
+    "takeaway": "Assign each token design to one regime, in writing, before build work starts."
+   },
+   {
+    "heading": "What is coming",
+    "lede": "Several regimes are proposed but not yet enacted, so the current law should drive the design.",
+    "visual": {
+     "type": "timeline",
+     "caption": "Proposals are not law until a bill passes; check status before relying on them.",
+     "items": [
+      {
+       "label": "ASPIRe roadmap",
+       "value": "19 Feb 2025",
+       "note": "SFC strategy for the virtual asset market"
+      },
+      {
+       "label": "Dealing and custody conclusions",
+       "value": "24 Dec 2025",
+       "note": "VA dealing and custody licensing proposed"
+      },
+      {
+       "label": "Advisory and management conclusions",
+       "value": "26 May 2026",
+       "note": "Modelled on Types 4 and 9"
+      },
+      {
+       "label": "Proposed bill",
+       "value": "2026",
+       "note": "Intended for introduction; check its status",
+       "soft": true
+      }
+     ]
+    },
+    "points": [
+     "**ASPIRe roadmap:** The SFC's roadmap of 19 February 2025 sets five pillars (Access, Safeguards, Products, Infrastructure and Relationships) and twelve initiatives, which is the context for the new regimes.",
+     "**Dealing licence:** The Financial Services and the Treasury Bureau and the SFC published consultation conclusions on 24 December 2025 proposing a licence for VA dealing services, with VA dealers required to hold client VAs with licensed custodians.",
+     "**Custodian licence:** A licence for VA custodian services is proposed alongside it, expected to be added through amendments to AMLO.",
+     "**Advisory and management:** A further consultation on licensing VA advisory and management services opened on 24 December 2025, and its conclusions followed on 26 May 2026. They model the regimes on Types 4 and 9 and offer no deeming arrangement for existing providers.",
+     "**Status:** The bill implementing the new regimes was intended for introduction to the Legislative Council in 2026, and none had been introduced as at late September 2026. Check its status before relying on it."
+    ],
+    "takeaway": "Design for the law in force, and treat each proposal as a watch item until it is enacted."
+   }
+  ],
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance",
+    "ref": "s.53ZRA",
+    "title": "Meaning of VA or virtual asset",
+    "summary": "Defines a virtual asset as a cryptographically secured digital representation of value that is used as a medium of exchange, gives governance rights, or is prescribed by notice, and can be transferred, stored or traded electronically. It excludes items such as securities and futures contracts, central bank digital currencies and stored value facility floats.",
+    "counselNote": "Run each token through this definition and its exclusions before deciding its regime, and record the reasoning. A security token is handled under the SFO, not the VA rules.",
+    "url": "https://www.elegislation.gov.hk/hk/cap615",
+    "cap": "615",
+    "section": "53ZRA",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance",
+    "ref": "s.53ZRD(1)-(2), (5)",
+    "title": "Licence required for carrying on VA service business",
+    "summary": "Prohibits carrying on a business of providing a VA service, or holding oneself out as doing so, unless one is a licensed provider. A contravention without reasonable excuse is an offence, with a fine of HK$5 million and seven years' imprisonment on indictment.",
+    "counselNote": "The bank must not match customer crypto orders itself. Route them to an SFC-licensed platform, and check that no step in the design makes the bank the operator.",
+    "url": "https://www.elegislation.gov.hk/hk/cap615",
+    "cap": "615",
+    "section": "53ZRD",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "s.119(1)-(8)",
+    "title": "Registered institutions",
+    "summary": "Lets the SFC register an authorized financial institution for one or more regulated activities, other than Type 3 and Type 8, after referral to and advice from the Monetary Authority. Registration may carry conditions.",
+    "counselNote": "Type 1 registration is the entry ticket for customer VA dealing and for selling securities such as spot VA ETFs. Confirm the registration covers each activity before launch.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "119",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Securities and Futures Ordinance",
+    "ref": "Sch. 5, Pt 1 and Pt 2 (Types 1, 4 and 9; exclusions for authorized institutions)",
+    "title": "Regulated Activities",
+    "summary": "Lists the regulated activities, including Type 1 dealing, Type 4 advising and Type 9 asset management. Part 2 excludes advice and portfolio management that an authorized institution registered for Type 1 gives wholly incidentally to that business.",
+    "counselNote": "Test each feature that adds advice or portfolio management of securities against these exclusions before relying on them, and record the test.",
+    "url": "https://www.elegislation.gov.hk/hk/cap571",
+    "cap": "571",
+    "section": "Sch. 5",
+    "confidence": "high"
+   },
+   {
+    "kind": "circular",
+    "instrument": "HKMA and SFC joint circular on intermediaries' virtual asset-related activities",
+    "ref": "Joint circular of 22 December 2023, supplemented on 30 September 2025",
+    "title": "Intermediaries' virtual asset-related activities",
+    "summary": "Sets conditions for intermediaries' VA-related activities, including VA dealing through an omnibus account with an SFC-licensed platform, distribution, advice and asset management. Only Type 1 licensees or registrants may deal in VAs. The supplement allows staking on conditions.",
+    "counselNote": "Build the dealing terms, retail safeguards and account structure from the current text, not from earlier versions. Check the advice and management conditions before offering those features.",
+    "url": "https://brdr.hkma.gov.hk/chi/doc-ldg/docId/getPdf/20231222-1-EN/20231222-1-EN.pdf",
+    "confidence": "medium"
+   },
+   {
+    "kind": "guideline",
+    "instrument": "HKMA guidance on custodial services for digital assets by authorized institutions",
+    "ref": "Guidance of 20 February 2024, updated 27 May 2026",
+    "title": "Provision of custodial services for digital assets",
+    "summary": "Sets expectations for an AI that holds digital assets for clients, covering governance, risk assessment, segregation from the AI's own assets, key management and recovery, disclosure and AML/CFT. The 2026 update replaces and widens the original guidance, covering VAs and tokenised securities held for clients but not the AI's own holdings.",
+    "counselNote": "Engage the HKMA early on the custody model and key architecture, and read the 27 May 2026 guidance in full before fixing the design.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Stablecoins Ordinance",
+    "ref": "s.9(2), (4), (5)",
+    "title": "Offence related to offering specified stablecoin",
+    "summary": "Makes it an offence to offer, or hold out as offering, a specified stablecoin unless an exception applies. A permitted offeror includes a licensee, a Type 1 licensed corporation and an authorized institution. One exception requires that the issue be authorized by a stablecoin licence.",
+    "counselNote": "An AI may offer licensed issuers' coins, but its retail offers depend on an authorized issue. Keep the product and marketing design within those limits.",
+    "url": "https://www.elegislation.gov.hk/hk/cap656",
+    "cap": "656",
+    "section": "9",
+    "confidence": "high"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Stablecoins Ordinance",
+    "ref": "s.3(1)-(2)",
+    "title": "Meaning of stablecoin",
+    "summary": "Defines a stablecoin as a cryptographically secured digital representation of value that purports to keep a stable value by reference to assets. It excludes items including securities, futures contracts, stored value facility floats and deposits within the Banking Ordinance definition.",
+    "counselNote": "Classify each token against this definition and its exclusions, and record why a deposit token is not a stablecoin.",
+    "url": "https://www.elegislation.gov.hk/hk/cap656",
+    "cap": "656",
+    "section": "3",
+    "confidence": "high"
+   },
+   {
+    "kind": "circular",
+    "instrument": "SFC circular on tokenised securities-related activities (circular 23EC52)",
+    "ref": "Circular 23EC52 of 2 November 2023",
+    "title": "Tokenised securities-related activities",
+    "summary": "Applies to registered institutions doing tokenised securities activities. It requires due diligence on the issuer, vendors and the tokenisation arrangement, and controls over named risks such as ownership recording, forking and outages. The SFC replaced its separate circular on tokenised authorized products on 20 April 2026.",
+    "counselNote": "Map each tokenised product to this circular and to the 2026 replacement before launch, and document the due diligence on the arrangement.",
+    "confidence": "medium"
+   },
+   {
+    "kind": "other",
+    "instrument": "SFC ASPIRe roadmap for Hong Kong's virtual asset market",
+    "ref": "Roadmap of 19 February 2025",
+    "title": "ASPIRe roadmap",
+    "summary": "Sets the SFC's guiding principles for Hong Kong's virtual asset market, organized around five pillars (Access, Safeguards, Products, Infrastructure and Relationships) and twelve initiatives, including frameworks for VA over-the-counter trading and custodial services.",
+    "counselNote": "Use the roadmap to anticipate the direction of the dealing and custody regimes, but base current design on the law and circulars in force.",
+    "url": "https://sfc.hk/-/media/EN/files/ER/ASPIRe/ASPIRe-roadmap-for-Hong-Kongs-virtual-asset-market-Eng.pdf",
+    "confidence": "medium"
+   },
+   {
+    "kind": "other",
+    "instrument": "Financial Services and the Treasury Bureau and SFC consultation conclusions on VA dealing and custodian licensing",
+    "ref": "Consultation conclusions of 24 December 2025",
+    "title": "Proposed licensing for VA dealing and custodian services",
+    "summary": "Proposes licences for VA dealing services and VA custodian services, to be added through amendments to AMLO, with VA dealers required to hold client VAs with licensed custodians. A bill was intended for introduction in 2026.",
+    "counselNote": "Treat as proposed, not law. Watch how the bill treats AIs and whether any transitional arrangement is added, and revisit the custody and dealing design when it is enacted.",
+    "confidence": "medium",
+    "url": "https://www.info.gov.hk/gia/general/202512/24/P2025122400265.htm"
+   }
+  ],
+  "checklist": [
+   "**Confirm the registration:** Check that the bank's SFC registration and HKMA terms cover VA dealing before any build work starts.",
+   "**Choose the platform partner:** Select from the SFC register of licensed platforms, record the check date and monitor any change in status.",
+   "**Settle the account structure:** Set up the omnibus account with ledger segregation and a regular reconciliation of client VAs.",
+   "**Negotiate the partner contract:** Cover custody, outage and incident notice, order execution, audit access, exit and liability.",
+   "**Build the retail safeguards:** Knowledge assessment, risk-tolerance check and exposure limit, tested in the app flow.",
+   "**Limit the product list:** Offer only the VAs that the licensed platform makes available to retail investors.",
+   "**Review marketing and app copy:** Check against AMLO s.53ZRE and remove any promotion of unlicensed platforms or tokens.",
+   "**Decide on financing:** Keep VA-backed lending out of scope until the 27 May 2026 HKMA guidance has been read in full and credit risk has approved it."
+  ],
+  "itAngle": [
+   "**Omnibus ledger:** Client VA balances sit at the platform while the bank keeps its own ledger of entitlements, so the two records need regular reconciliation and a clear break process.",
+   "**Key management:** Where custody is held in-house or through a sub-custodian, key generation, storage and recovery must follow the HKMA guidance, and any technology vendor is treated as material outsourcing.",
+   "**Wallet and withdrawal design:** Withdrawals to unhosted wallets, and any stablecoin wallet model, need controls that match the HKMA guidance and the partner contract.",
+   "**Staking and yield features:** Staking is allowed only on the conditions of the 30 September 2025 supplement, so keep staking flows separate from custody in the architecture and review each on its own."
+  ],
+  "bankNotes": [
+   "**App-only sales:** Crypto offers in the app need the same risk warnings and knowledge checks as a branch sale, with a record kept for each step.",
+   "**No branch:** Without a branch, the knowledge assessment and exposure limit must be enforced in the app itself, because no adviser is present to give the warning.",
+   "**Digital onboarding:** Where the rules allow, use one identity check for the banking and crypto accounts, and align the flow with the HKMA's remote onboarding expectations.",
+   "**Partner model:** A platform or custodian carries much of the operational risk, but outsourcing does not move the bank's responsibility to the regulators, so the contract and ongoing monitoring are the controls."
+  ],
+  "pitfalls": [
+   "**Operating the exchange:** Matching customer orders internally, rather than routing them to a licensed platform, risks operating a VA service without a licence (AMLO s.53ZRD).",
+   "**Assuming proposals are law:** The proposed dealing and custody licences are not yet law, and any transitional arrangements are not yet settled.",
+   "**Selling VA products as ordinary funds:** Staff may treat a VA-linked fund as an ordinary fund, although the knowledge assessment and warnings matter as much as the product approval.",
+   "**Relying on superseded circulars:** The joint circular has been replaced and supplemented several times, so check the current text before launch."
+  ],
+  "glossary": [
+   {
+    "term": "Virtual asset",
+    "definition": "A cryptographically secured digital representation of value that meets the test in AMLO s.53ZRA, excluding securities, futures contracts and certain other items."
+   },
+   {
+    "term": "Virtual asset trading platform",
+    "definition": "A platform that operates a VA exchange and is licensed by the SFC under AMLO Part 5B. It is the only route through which a registered institution may deal in VAs today."
+   },
+   {
+    "term": "Omnibus account",
+    "definition": "An account held with the platform that pools client VAs, with the bank keeping its own ledger of each customer's entitlement and reconciling the two."
+   },
+   {
+    "term": "Permitted offeror",
+    "definition": "A person allowed to offer a specified stablecoin under Cap. 656 s.9(5), including a licensee, a Type 1 licensed corporation and an authorized institution."
+   },
+   {
+    "term": "Stablecoin",
+    "definition": "A cryptographically secured digital representation of value that purports to hold a stable value by reference to assets, as defined in Cap. 656 s.3, and that is not a security or a deposit."
+   },
+   {
+    "term": "Tokenised security",
+    "definition": "A security whose ownership is recorded or represented on distributed ledger technology. It is regulated like the underlying security, under SFC circular 23EC52."
+   },
+   {
+    "term": "Tokenised deposit",
+    "definition": "A bank deposit recorded or represented as a token on a ledger. It stays a deposit under Cap. 155 s.2(1) and is not a stablecoin."
+   },
+   {
+    "term": "Complex product",
+    "definition": "A product whose features make its risks hard to understand. For sales without solicitation, the SFC Code of Conduct para 5.5 requires suitability checks and warning statements before sale."
+   },
+   {
+    "term": "Joint circular",
+    "definition": "The SFC and HKMA circular on intermediaries' VA-related activities of 22 December 2023, supplemented on 30 September 2025, which sets conditions for dealing, advice and products."
+   }
+  ],
+  "related": [
+   {
+    "stage": "platforms",
+    "why": "The SFC platform regime and virtual asset rules in more depth."
+   },
+   {
+    "stage": "conduct",
+    "why": "Complex-product and suitability rules that VA-related products trigger."
+   },
+   {
+    "href": "/hk-banking/#digital-assets/activities",
+    "label": "Digital assets, wallets & P2P",
+    "why": "The HKMA side: custody, stablecoins and tokenised deposits, activity by activity."
+   }
+  ]
+ },
+ {
+  "id": "licensing",
+  "index": 7,
   "title": "Licensing & registration",
   "phase": "entry",
   "review": "fact-checked",
@@ -1185,7 +2929,7 @@
  },
  {
   "id": "people",
-  "index": 4,
+  "index": 8,
   "title": "Responsible officers, executive officers & MICs",
   "phase": "entry",
   "review": "fact-checked",
@@ -1585,7 +3329,7 @@
  },
  {
   "id": "conduct",
-  "index": 5,
+  "index": 9,
   "title": "Conduct: KYC, suitability & complex products",
   "phase": "business",
   "review": "fact-checked",
@@ -1952,7 +3696,7 @@
  },
  {
   "id": "client-assets",
-  "index": 6,
+  "index": 10,
   "title": "Client assets, capital & records",
   "phase": "business",
   "review": "fact-checked",
@@ -2346,7 +4090,7 @@
  },
  {
   "id": "offers",
-  "index": 7,
+  "index": 11,
   "title": "Offers, products & distribution",
   "phase": "business",
   "review": "fact-checked",
@@ -2511,7 +4255,7 @@
     "lede": "A bank that distributes products carries the product due diligence and conduct duties itself.",
     "points": [
      "**Product due diligence:** Before offering a product, the bank should assess its structure, risks, costs and target investors, and record the review. The SFC Code of Conduct and SFC circulars set the expectations.",
-     "**Suitability and complex products:** Suitability and complex product rules apply to distribution and are covered in stage 5 of this module.",
+     "**Suitability and complex products:** Suitability and complex product rules apply to distribution and are covered in the stage Conduct: KYC, suitability & complex products.",
      "**Private banking:** An offer restricted to professional investors can rely on the Seventeenth Schedule (para 1), but the bank needs a documented client classification before each offer.",
      "**Apps and social media:** Promotional content on apps and social media is an advertisement for s.103 purposes, even when the message is short, because the test is whether it invites the public to act.",
      "**Placing and underwriting:** Bookbuilding and placing activities fall under paragraph 21 of the Code of Conduct, which took effect on 5 August 2022 and adds duties for the Overall Coordinator in share offerings."
@@ -2723,7 +4467,7 @@
  },
  {
   "id": "platforms",
-  "index": 8,
+  "index": 12,
   "title": "Online platforms, technology & virtual assets",
   "phase": "business",
   "review": "fact-checked",
@@ -3097,7 +4841,7 @@
  },
  {
   "id": "market-misconduct",
-  "index": 9,
+  "index": 13,
   "title": "Market misconduct & insider dealing",
   "phase": "markets",
   "review": "fact-checked",
@@ -3554,7 +5298,7 @@
  },
  {
   "id": "disclosure-takeovers",
-  "index": 10,
+  "index": 14,
   "title": "Disclosure of interests & takeovers",
   "phase": "markets",
   "review": "fact-checked",
@@ -3908,7 +5652,7 @@
  },
  {
   "id": "enforcement",
-  "index": 11,
+  "index": 15,
   "title": "Supervision, investigation & discipline",
   "phase": "oversight",
   "review": "fact-checked",
@@ -4320,7 +6064,7 @@
  },
  {
   "id": "redress",
-  "index": 12,
+  "index": 16,
   "title": "Complaints, compensation & failure",
   "phase": "oversight",
   "review": "fact-checked",
