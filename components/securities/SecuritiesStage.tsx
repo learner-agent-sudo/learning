@@ -4,6 +4,7 @@ import {
   SECURITIES_PHASES,
   SecuritiesStage as Stage,
   SecuritiesTab,
+  deeperLinks,
   sfoExtract,
 } from '@/lib/securities';
 import { toneVars } from '@/lib/theme';
@@ -12,6 +13,7 @@ import { KeyPoints, SectionedPoints, SectionTitle, sectionId } from '../ui/Bulle
 import { Checklist } from '../ui/Checklist';
 import { DraftNotice } from '../ui/DraftNotice';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
+import { GoDeeper } from '../ui/GoDeeper';
 import { NoteCard } from '../ui/NoteCard';
 import { PageContents, type PageSection } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
@@ -46,12 +48,14 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
   ];
   const idBase = `sec-${stage.id}`;
+  const deeper = deeperLinks(stage);
   const sections: PageSection[] =
     tab === 'essentials'
       ? [
           { id: `${idBase}-key`, label: 'In 30 seconds' },
           ...(stage.conceptMap ? [{ id: `${idBase}-map`, label: 'How it fits together' }] : []),
           ...stage.deepDive.map((d, i) => ({ id: sectionId(idBase, i), label: d.heading, mark: `§${i + 1}` })),
+          ...(deeper.length ? [{ id: `${idBase}-deeper`, label: 'Go deeper' }] : []),
         ]
       : [];
 
@@ -93,6 +97,7 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
             <SectionTitle>In depth · how it bites in practice</SectionTitle>
             <SectionedPoints sections={stage.deepDive} idPrefix={idBase} />
           </div>
+          <GoDeeper links={deeper} id={`${idBase}-deeper`} />
           {stage.id === 'map' && <ActAnatomy anatomy={CAP571_ANATOMY} name="Securities and Futures Ordinance" />}
         </TabPanel>
       )}

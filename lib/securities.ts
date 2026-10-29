@@ -1,11 +1,12 @@
 import stagesJson from '@/data/securities/stages.json';
 import extractsJson from '@/data/securities/statute-extracts.json';
 import type { PointSection } from '@/components/ui/Bullets';
+import type { DeeperLink } from '@/components/ui/GoDeeper';
 import type { SectionVisualData } from '@/components/ui/SectionVisual';
 import type { CapAnatomy, Provision, StatuteExtract } from './statute';
 import { TONES, type Tone } from './theme';
 
-export type SecuritiesPhase = 'orientation' | 'entry' | 'business' | 'markets' | 'oversight';
+export type SecuritiesPhase = 'orientation' | 'bank' | 'entry' | 'business' | 'markets' | 'oversight';
 
 export interface SecuritiesStage {
   id: string;
@@ -27,6 +28,9 @@ export interface SecuritiesStage {
   bankNotes: string[];
   pitfalls: string[];
   glossary: { term: string; definition: string }[];
+  // Overview stages point to where each topic is covered in depth: a stage
+  // of this volume by id, or a page elsewhere by href.
+  related?: { stage?: string; href?: string; label?: string; why: string }[];
 }
 
 export const SECURITIES_STAGES = stagesJson as SecuritiesStage[];
@@ -34,6 +38,18 @@ export const SECURITIES_STAGES = stagesJson as SecuritiesStage[];
 const EXTRACTS = extractsJson.extracts as Record<string, StatuteExtract>;
 
 export const CAP571_ANATOMY = extractsJson.anatomy as CapAnatomy | null;
+
+const BY_ID = Object.fromEntries(SECURITIES_STAGES.map((s) => [s.id, s]));
+
+/** A stage's related links, resolved to titles and hrefs. */
+export function deeperLinks(stage: SecuritiesStage): DeeperLink[] {
+  return (stage.related ?? []).flatMap((r) => {
+    const target = r.stage ? BY_ID[r.stage] : undefined;
+    if (target) return [{ href: `#${target.id}`, title: target.title, where: `Stage ${target.index}`, why: r.why }];
+    if (r.href && r.label) return [{ href: r.href, title: r.label, where: 'Banking volume', why: r.why }];
+    return [];
+  });
+}
 
 export function sfoExtract(p: Provision): StatuteExtract | undefined {
   return p.cap && p.section ? EXTRACTS[`${p.cap}|${p.section}`] : undefined;
@@ -50,6 +66,7 @@ export function defineSecuritiesTerm(term: string): string | undefined {
 
 export const SECURITIES_PHASES: Record<SecuritiesPhase, { label: string; tone: Tone }> = {
   orientation: { label: 'Orientation', tone: TONES.blue },
+  bank: { label: "The virtual bank's route", tone: TONES.teal },
   entry: { label: 'Getting licensed', tone: TONES.violet },
   business: { label: 'Doing the business', tone: TONES.green },
   markets: { label: 'Markets & listed companies', tone: TONES.amber },
