@@ -35,9 +35,11 @@ BUNDLES = [
     ("https://resource.data.one.gov.hk/doj/data/hkel_c_leg_cap_601_cap_end_en.zip", 601, 10**6),
 ]
 
-# Chapters used by the HK banking module. Large technical rule-books are
-# kept index-only (Parts and headings, no text) to keep the repo small.
+# Chapters used by the HK banking and securities modules. Large technical
+# rule-books are kept index-only (Parts and headings, no text) to keep the
+# repo small.
 CAPS = [
+    "32",    # Companies (Winding Up and Miscellaneous Provisions) Ordinance
     "66",    # Exchange Fund Ordinance
     "71",    # Control of Exemption Clauses Ordinance
     "155",   # Banking Ordinance
@@ -53,6 +55,15 @@ CAPS = [
     "537",   # United Nations Sanctions Ordinance
     "553",   # Electronic Transactions Ordinance
     "571",   # Securities and Futures Ordinance
+    "571D",  # Securities and Futures (Professional Investor) Rules
+    "571H",  # Securities and Futures (Client Securities) Rules
+    "571I",  # Securities and Futures (Client Money) Rules
+    "571N",  # Securities and Futures (Financial Resources) Rules
+    "571O",  # Securities and Futures (Keeping of Records) Rules
+    "571P",  # Securities and Futures (Accounts and Audit) Rules
+    "571Q",  # Securities and Futures (Contract Notes, Statements of Account and Receipts) Rules
+    "571S",  # Securities and Futures (Licensing and Registration) (Information) Rules
+    "571V",  # Securities and Futures (Stock Market Listing) Rules
     "575",   # United Nations (Anti-Terrorism Measures) Ordinance
     "581",   # Deposit Protection Scheme Ordinance
     "584",   # Payment Systems and Stored Value Facilities Ordinance
@@ -62,7 +73,7 @@ CAPS = [
     "653",   # Protection of Critical Infrastructures (Computer Systems) Ordinance
     "656",   # Stablecoins Ordinance
 ]
-INDEX_ONLY = {"155L", "155M", "155Q", "155S", "571", "628B"}
+INDEX_ONLY = {"155L", "155M", "155Q", "155S", "628B"}
 
 NS = "{http://www.xml.gov.hk/schemas/hklm/1.0}"
 DC = "{http://purl.org/dc/elements/1.1/}"
