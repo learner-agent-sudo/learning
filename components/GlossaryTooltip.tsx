@@ -7,6 +7,10 @@ import { useDefine } from './GlossaryContext';
 interface Props {
   term: string;
   children?: React.ReactNode;
+  // Text to show instead of the glossary entry (used for abbreviations).
+  definition?: string;
+  // A lighter underline, for abbreviations that sit in running text.
+  quiet?: boolean;
 }
 
 const MARGIN = 12;
@@ -21,14 +25,15 @@ const PHONE = '(max-width: 639.98px)';
  * it is a full-width sheet at the foot of the screen instead, in larger
  * type, which closes on a tap elsewhere or once the reader scrolls on.
  */
-export function GlossaryTooltip({ term, children }: Props) {
+export function GlossaryTooltip({ term, children, definition: given, quiet }: Props) {
   const [open, setOpen] = useState(false);
   const [place, setPlace] = useState({ left: 0, above: false, sheet: false });
   const hovering = useRef(false);
   const wrap = useRef<HTMLSpanElement>(null);
   const tip = useRef<HTMLSpanElement>(null);
   const id = useId();
-  const definition = useDefine()(term);
+  const lookup = useDefine();
+  const definition = given ?? lookup(term);
 
   useLayoutEffect(() => {
     if (!open) return;
@@ -88,7 +93,11 @@ export function GlossaryTooltip({ term, children }: Props) {
             setOpen(false);
           }
         }}
-        className="text-left font-medium text-ink underline [strong_&]:font-semibold decoration-module/50 decoration-dotted decoration-[1.5px] underline-offset-[3px] hover:decoration-module"
+        className={
+          quiet
+            ? 'text-left underline decoration-ink/35 decoration-dotted decoration-[1.5px] underline-offset-[3px] hover:decoration-module'
+            : 'text-left font-medium text-ink underline [strong_&]:font-semibold decoration-module/50 decoration-dotted decoration-[1.5px] underline-offset-[3px] hover:decoration-module'
+        }
       >
         {children ?? term}
       </button>

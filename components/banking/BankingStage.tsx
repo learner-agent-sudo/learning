@@ -23,6 +23,7 @@ import { PageContents, type PageSection } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
 import { ProvisionList } from '../ui/ProvisionList';
 import { SectionVisual } from '../ui/SectionVisual';
+import { AbbrKey } from '../ui/AbbrKey';
 import { Badge, StageHeader } from '../ui/StageHeader';
 import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 import { ActivityKit } from './ActivityKit';
@@ -89,7 +90,8 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
         }
       />
 
-      <Tabs className="mt-7" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as BankingTab)} />
+      <AbbrKey stage={stage} className="mt-4" />
+      <Tabs className="mt-5" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as BankingTab)} />
 
       {tab === 'essentials' && (
         <TabPanel idBase={idBase} id="essentials">

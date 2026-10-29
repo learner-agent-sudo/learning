@@ -20,6 +20,7 @@ import { BulletList, SectionTitle } from '../ui/Bullets';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
 import { PageContents } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
+import { AbbrKey } from '../ui/AbbrKey';
 import { Badge, StageHeader } from '../ui/StageHeader';
 import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 
@@ -124,7 +125,8 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
         }
       />
 
-      <Tabs className="mt-7" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as MnaTab)} />
+      <AbbrKey stage={stage} className="mt-4" />
+      <Tabs className="mt-5" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as MnaTab)} />
 
       {tab === 'essentials' && (
         <TabPanel idBase={idBase} id="essentials">

@@ -6,6 +6,8 @@ import { DealType, MNA_TABS, MnaTab, STAGES } from '@/lib/workflow';
 import { focusStageTitle, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
 import { TONES, toneVars } from '@/lib/theme';
 import { DealTypeSelector } from '@/components/DealTypeSelector';
+import { MNA_ABBR } from '@/lib/abbreviations';
+import { AbbrProvider } from '@/components/AbbrContext';
 import { MnaStage } from '@/components/mna/MnaStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
 import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
@@ -58,59 +60,61 @@ export default function Page() {
   const railProps = { groups: GROUPS, stages: rail, selectedId: stage.id, visited, onSelect: select, label: 'Deal stages' };
 
   return (
-    <div style={toneVars('--module', TONES.navy)}>
-      <main className="mx-auto max-w-7xl px-4 pb-10 sm:px-6">
-        <ModuleMasthead
-          kicker="U.S. private company · Asset Purchase Agreement"
-          title="Learning M&A"
-          watermark="APA"
-          standfirst="A deal from first strategy memo to post-closing true-up, with the documents, real contract clauses and jargon at each stage."
-          stats={[
-            { value: stages.length, label: 'stages' },
-            { value: CLAUSES, label: 'clauses' },
-            { value: TERMS, label: 'glossary terms' },
-            { value: `${opened}/${stages.length}`, label: 'stages opened' },
-          ]}
-          controls={<DealTypeSelector dealType={dealType} onChange={setDealType} />}
-          aboutHref="/mna/about/"
-        />
+    <AbbrProvider value={MNA_ABBR}>
+      <div style={toneVars('--module', TONES.navy)}>
+        <main className="mx-auto max-w-7xl px-4 pb-10 sm:px-6">
+          <ModuleMasthead
+            kicker="U.S. private company · Asset Purchase Agreement"
+            title="Learning M&A"
+            watermark="APA"
+            standfirst="A deal from first strategy memo to post-closing true-up, with the documents, real contract clauses and jargon at each stage."
+            stats={[
+              { value: stages.length, label: 'stages' },
+              { value: CLAUSES, label: 'clauses' },
+              { value: TERMS, label: 'glossary terms' },
+              { value: `${opened}/${stages.length}`, label: 'stages opened' },
+            ]}
+            controls={<DealTypeSelector dealType={dealType} onChange={setDealType} />}
+            aboutHref="/mna/about/"
+          />
 
-        <StageStrip {...railProps} />
+          <StageStrip {...railProps} />
 
-        <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-10 lg:mt-10 lg:grid-cols-[16.5rem_minmax(0,1fr)] xl:gap-14">
-          <aside className="hidden lg:block">
-            <StageRail {...railProps} />
-          </aside>
+          <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-10 lg:mt-10 lg:grid-cols-[16.5rem_minmax(0,1fr)] xl:gap-14">
+            <aside className="hidden lg:block">
+              <StageRail {...railProps} />
+            </aside>
 
-          <article
-            ref={articleRef}
-            className="min-w-0 max-w-4xl"
-            style={toneVars('--phase', group.tone)}
-          >
-            <MnaStage
-              key={stage.id}
-              stage={stage}
-              total={stages.length}
-              phaseLabel={group.label}
-              prev={prev}
-              next={next}
-              onNavigate={(id) => {
-                go(id);
-                focusStageTitle();
-              }}
-              tab={tab as MnaTab}
-              onTabChange={(t) => go(stage.id, t)}
-            />
-          </article>
-        </div>
+            <article
+              ref={articleRef}
+              className="min-w-0 max-w-4xl"
+              style={toneVars('--phase', group.tone)}
+            >
+              <MnaStage
+                key={stage.id}
+                stage={stage}
+                total={stages.length}
+                phaseLabel={group.label}
+                prev={prev}
+                next={next}
+                onNavigate={(id) => {
+                  go(id);
+                  focusStageTitle();
+                }}
+                tab={tab as MnaTab}
+                onTabChange={(t) => go(stage.id, t)}
+              />
+            </article>
+          </div>
 
-        <footer className="mt-16 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-xs text-muted">
-          <span>Educational visualiser, not legal advice. SPA and merger paths are coming; APA is complete.</span>
-          <Link href="/mna/about/" className="inline-flex min-h-10 items-center underline-offset-4 hover:text-ink hover:underline">
-            Sources &amp; disclaimer
-          </Link>
-        </footer>
-      </main>
-    </div>
+          <footer className="mt-16 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-xs text-muted">
+            <span>Educational visualiser, not legal advice. SPA and merger paths are coming; APA is complete.</span>
+            <Link href="/mna/about/" className="inline-flex min-h-10 items-center underline-offset-4 hover:text-ink hover:underline">
+              Sources &amp; disclaimer
+            </Link>
+          </footer>
+        </main>
+      </div>
+    </AbbrProvider>
   );
 }
