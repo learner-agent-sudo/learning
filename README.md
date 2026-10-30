@@ -155,6 +155,19 @@ On GitHub Pages the site lives under `/<repo-name>/`. The deploy workflow
 passes that prefix to the build as `PAGES_BASE_PATH` (read in
 `next.config.js`); locally it is empty, so the site serves from `/`.
 
+## Security
+
+- Dependencies are pinned to exact versions (`package.json`, with
+  `package-lock.json` installed by `npm ci`). Next.js's own copy of PostCSS is
+  replaced with the project's patched one (`overrides`).
+- Workflow actions are pinned to full commit SHAs, with the release tag in a
+  comment; to update one, look up the new tag's commit and change both.
+- `scripts/extract_hkel.py` parses legislation XML with `defusedxml`,
+  installed from `scripts/requirements-hkel.txt` with `--require-hashes`.
+- `vercel.json` sends security headers on Vercel (a content security policy
+  that allows only this site's own files, no framing, `nosniff`, a strict
+  referrer policy). GitHub Pages cannot send custom headers.
+
 ## Refreshing CUAD clauses (M&A)
 
 `public/clauses.json` holds up to 3 deduped CUAD excerpts for each of 16
