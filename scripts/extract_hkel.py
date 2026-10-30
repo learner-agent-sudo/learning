@@ -14,6 +14,7 @@ unless the chapter is index-only, the plain text).
 Runs on GitHub Actions (.github/workflows/refresh-hkel.yml): the bundles
 are large (hundreds of MB) and HK government hosts are not reachable from
 every network. Also usable locally on already-downloaded XML:
+    pip install --require-hashes -r scripts/requirements-hkel.txt
     python scripts/extract_hkel.py --xml path/to/cap_155_..._en_c.xml
 """
 
@@ -26,8 +27,15 @@ import re
 import sys
 import tempfile
 import urllib.request
-import xml.etree.ElementTree as ET
 import zipfile
+from typing import TYPE_CHECKING
+
+# defusedxml rejects entity declarations and external references, so a
+# tampered bundle cannot expand into an XML bomb or read local files.
+from defusedxml import ElementTree as SafeET
+
+if TYPE_CHECKING:  # type hints only; parsing goes through SafeET
+    import xml.etree.ElementTree as ET  # nosemgrep  (never runs)
 
 BUNDLES = [
     ("https://resource.data.one.gov.hk/doj/data/hkel_c_leg_cap_1_cap_300_en.zip", 1, 300),
@@ -212,7 +220,7 @@ def unit(el: ET.Element, part: str | None, with_text: bool) -> dict:
 
 
 def parse(xml_bytes: bytes, cap: str) -> dict:
-    root = ET.fromstring(xml_bytes)
+    root = SafeET.fromstring(xml_bytes)
     meta = root.find(NS + "meta")
     main = root.find(NS + "main")
     with_text = cap not in INDEX_ONLY
