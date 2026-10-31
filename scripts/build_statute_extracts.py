@@ -5,7 +5,8 @@ For each module in MODULES, reads data/<module>/stages.json and the
 e-Legislation extracts in data/hkel/<cap>.json, and writes
 data/<module>/statute-extracts.json:
 
-  extracts   one entry per cited (cap, section) that resolves
+  extracts   one entry per cited (cap, section) that resolves, from the
+             provisions and from any {cap, section} cite elsewhere in a stage
   unresolved citations that do not match a section/schedule in force —
              treated as errors to fix in the content
   anatomy    Parts and Schedules of the module's main ordinance
@@ -144,6 +145,19 @@ def anatomy(doc: dict) -> dict:
             "hkelUrl": doc["hkelUrl"], "parts": parts, "schedules": schedules}
 
 
+def citations(node):
+    """Every {cap, section} object in a stage: its provisions, plus the cites
+    on clause sources, incident tracks and materiality questions."""
+    if isinstance(node, dict):
+        if isinstance(node.get("cap"), str) and isinstance(node.get("section"), str):
+            yield node
+        for v in node.values():
+            yield from citations(v)
+    elif isinstance(node, list):
+        for v in node:
+            yield from citations(v)
+
+
 def build(module: str, main_cap: str, cache: dict) -> int:
     stages_path = ROOT / "data" / module / "stages.json"
     out_path = ROOT / "data" / module / "statute-extracts.json"
@@ -151,10 +165,8 @@ def build(module: str, main_cap: str, cache: dict) -> int:
     extracts: dict[str, dict] = {}
     unresolved: list[dict] = []
     for stage in stages:
-        for p in stage["provisions"]:
-            cap, section = p.get("cap"), p.get("section")
-            if not cap or not section:
-                continue
+        for p in citations(stage):
+            cap, section = p["cap"], p["section"]
             key = f"{cap}|{section}"
             if key in extracts:
                 continue
@@ -166,7 +178,7 @@ def build(module: str, main_cap: str, cache: dict) -> int:
             else:
                 reason = "chapter not extracted" if not doc else "unparseable reference" if not ref else "no such provision in force"
                 unresolved.append({"stage": stage["id"], "cap": cap, "section": section,
-                                   "ref": p["ref"], "reason": reason})
+                                   "ref": p.get("ref", f"Cap. {cap} {section}"), "reason": reason})
 
     doc = load_cap(main_cap, cache)
     out = {

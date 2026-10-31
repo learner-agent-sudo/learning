@@ -2053,7 +2053,9 @@
       "**Confirm whether the bank or any of its systems has been designated** under Cap. 653 and, if so, diarise the statutory obligations and the requirements of the HKMA's Code of Practice for designated AIs.",
       "**Check that board minutes evidence approval** of the critical-operations criteria and list, the tolerances for disruption and the severe but plausible scenarios; that senior management reviewed each testing report; and that significant deficiencies were reported to the board and prioritised for remediation (OR-2 3.2–3.4, 7.4). A board-level committee assigned to operational resilience may act for the board (OR-2 2.2, footnote 2).",
       "**Align customer terms, app flows and disclosures** with bound-device authentication, any permitted SMS OTP fallback and customers' ability to switch off high-risk functions.",
-      "**Set up an AI use-case inventory** and a legal sign-off gate that applies the 2019 and 2024 HKMA consumer-protection principles before any customer-facing deployment."
+      "**Set up an AI use-case inventory** and a legal sign-off gate that applies the 2019 and 2024 HKMA consumer-protection principles before any customer-facing deployment.",
+      "**Run the materiality assessment** (Materiality tab) for every new SaaS or cloud deployment and every change of scope, and file the note in the outsourcing register before procurement signs.",
+      "**Keep an incident call sheet** (Incidents tab) with a named owner for each track: vendor escalation, the HKMA, the Commissioner if the bank is designated, the SFC and HKMA if it is registered, the PCPD, customers and the police."
     ],
     "itAngle": [
       "**Cloud audit rights:** SA-2 access rights become engineering requirements: log retention periods, exportable data formats, documented data-retrieval runbooks, and evidence packs (e.g. SOC 2 or ISO 27001 reports, pooled audits) to make audit rights workable in a multi-tenant cloud.",
@@ -2295,21 +2297,47 @@
               "ref": "ss.65(2), 66",
               "strength": "statute",
               "url": "https://www.elegislation.gov.hk/hk/cap486",
-              "note": "s.66: compensation from the data user for damage, including injury to feelings, caused by its contravention, subject to the defence of having taken reasonable care (s.66(3)). s.65(2): acts of an agent acting with the principal's authority are treated as the principal's as well (not for criminal proceedings, s.65(4))."
+              "note": "s.66: compensation from the data user for damage, including injury to feelings, caused by its contravention, subject to the defence of having taken reasonable care (s.66(3)). s.65(2): acts of an agent acting with the principal's authority are treated as the principal's as well (not for criminal proceedings, s.65(4)).",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "65"
+                },
+                {
+                  "cap": "486",
+                  "section": "66"
+                }
+              ]
             },
             {
               "label": "Control of Exemption Clauses Ordinance (Cap. 71)",
               "ref": "ss.3, 7, 8, 17; Sch. 1",
               "strength": "statute",
               "url": "https://www.elegislation.gov.hk/hk/cap71",
-              "note": "Applies to business liability (s.2(2)). s.3(5): for a cap at a specified sum, the court considers the resources available to meet the liability and how far insurance was open. Sch. 1 para 1(c) takes contracts out of ss.7 to 9 so far as they relate to creating or transferring IP rights."
+              "note": "Applies to business liability (s.2(2)). s.3(5): for a cap at a specified sum, the court considers the resources available to meet the liability and how far insurance was open. Sch. 1 para 1(c) takes contracts out of ss.7 to 9 so far as they relate to creating or transferring IP rights.",
+              "cites": [
+                {
+                  "cap": "71",
+                  "section": "3"
+                },
+                {
+                  "cap": "71",
+                  "section": "7"
+                }
+              ]
             },
             {
               "label": "AMLO (Cap. 615)",
               "ref": "s.21",
               "strength": "statute",
               "url": "https://www.elegislation.gov.hk/hk/cap615",
-              "note": "The relevant authority may order a financial institution to pay a pecuniary penalty for contravening a specified provision. An example of a penalty imposed on the bank itself."
+              "note": "The relevant authority may order a financial institution to pay a pecuniary penalty for contravening a specified provision. An example of a penalty imposed on the bank itself.",
+              "cites": [
+                {
+                  "cap": "615",
+                  "section": "21"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -2418,7 +2446,17 @@
               "ref": "ss.55–56",
               "strength": "statute",
               "note": "The MA may examine an AI with or without prior notice; the AI must give the examiner access to its books, documents and information.",
-              "url": "https://www.elegislation.gov.hk/hk/cap155"
+              "url": "https://www.elegislation.gov.hk/hk/cap155",
+              "cites": [
+                {
+                  "cap": "155",
+                  "section": "55"
+                },
+                {
+                  "cap": "155",
+                  "section": "56"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -2599,7 +2637,17 @@
               "ref": "ss.55–56",
               "strength": "statute",
               "note": "s.55: the MA may examine the bank's books, accounts and transactions at any time, with or without prior notice. s.56: the bank must give the examiner access to, and produce, its books, documents and information; if it fails to do so without reasonable excuse, every director, chief executive and manager commits an offence (s.56(2)).",
-              "url": "https://www.elegislation.gov.hk/hk/cap155"
+              "url": "https://www.elegislation.gov.hk/hk/cap155",
+              "cites": [
+                {
+                  "cap": "155",
+                  "section": "55"
+                },
+                {
+                  "cap": "155",
+                  "section": "56"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -2769,28 +2817,52 @@
               "ref": "Sch. 1 DPP2(3)–(4)",
               "strength": "statute",
               "note": "Contractual or other means against over-retention by a data processor.",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.2"
+                }
+              ]
             },
             {
               "label": "PDPO (Cap. 486)",
               "ref": "Sch. 1 DPP4(2)–(3)",
               "strength": "statute",
               "note": "Contractual or other means against unauthorized or accidental access, processing, erasure, loss or use.",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.4"
+                }
+              ]
             },
             {
               "label": "PDPO (Cap. 486)",
               "ref": "Sch. 1 DPP1(3)(b)(i)(B)",
               "strength": "statute",
               "note": "On or before collection, the data subject must be explicitly informed of the classes of persons to whom the data may be transferred. Naming data processors as a class in the collection notice applies this (inference).",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.1"
+                }
+              ]
             },
             {
               "label": "PDPO (Cap. 486)",
               "ref": "s.65(2)",
               "strength": "statute",
               "note": "An act done by a person as the bank's agent, with its express or implied authority, is treated as done by the bank as well. This applies only where the vendor is in law the bank's agent, and not in criminal proceedings (s.65(4)).",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "65"
+                }
+              ]
             },
             {
               "label": "SPM SA-2 Outsourcing",
@@ -3091,7 +3163,13 @@
               "ref": "Sch. 1 DPP4(1)(d)",
               "strength": "statute",
               "note": "All practicable steps to protect personal data, having particular regard to measures for ensuring the integrity, prudence and competence of persons with access to it. It names a factor; it does not prescribe vetting.",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.4"
+                }
+              ]
             },
             {
               "label": "SPM TM-E-1 E-banking",
@@ -3511,7 +3589,17 @@
               "ref": "s.28; Sch. 6",
               "strength": "statute",
               "note": "Only if the bank is designated as a CI operator: notify the Commissioner of a computer-system security incident as soon as practicable and within the specified time, then a written report within 14 days of becoming aware.",
-              "url": "https://www.elegislation.gov.hk/hk/cap653"
+              "url": "https://www.elegislation.gov.hk/hk/cap653",
+              "cites": [
+                {
+                  "cap": "653",
+                  "section": "28"
+                },
+                {
+                  "cap": "653",
+                  "section": "Sch. 6"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -3593,7 +3681,17 @@
               "label": "Cap. 653 Critical infrastructures",
               "ref": "s.28; Sch. 6",
               "strength": "statute",
-              "url": "https://www.elegislation.gov.hk/hk/cap653"
+              "url": "https://www.elegislation.gov.hk/hk/cap653",
+              "cites": [
+                {
+                  "cap": "653",
+                  "section": "28"
+                },
+                {
+                  "cap": "653",
+                  "section": "Sch. 6"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -4177,7 +4275,17 @@
               "ref": "ss.5(5), 5(11), 21; Sch. 2, ss.18(3), (6), 20–21",
               "strength": "statute",
               "note": "CDD by an agent leaves the bank liable (s.18(6)); duty to keep records and the manner of keeping them (ss.20–21). The CDD and record-keeping duties are specified provisions: breach can lead to disciplinary action, and a knowing breach is an offence (ss.5(5), 5(11), 21).",
-              "url": "https://www.elegislation.gov.hk/hk/cap615"
+              "url": "https://www.elegislation.gov.hk/hk/cap615",
+              "cites": [
+                {
+                  "cap": "615",
+                  "section": "5"
+                },
+                {
+                  "cap": "615",
+                  "section": "21"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -4267,7 +4375,17 @@
               "ref": "ss.5(5), 5(11), 21; Sch. 2, s.18 (esp. (1)–(4))",
               "strength": "statute",
               "note": "Conditions for carrying out CDD by means of intermediaries.",
-              "url": "https://www.elegislation.gov.hk/hk/cap615"
+              "url": "https://www.elegislation.gov.hk/hk/cap615",
+              "cites": [
+                {
+                  "cap": "615",
+                  "section": "5"
+                },
+                {
+                  "cap": "615",
+                  "section": "21"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -4360,13 +4478,29 @@
               "ref": "s.65(2), (4)",
               "strength": "statute",
               "note": "An agent's acts done with the bank's authority are treated as done by the bank as well as by the agent, for PDPO purposes other than criminal proceedings; this attributes liability and does not itself require any clause.",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "65"
+                }
+              ]
             },
             {
               "label": "PDPO (Cap. 486)",
               "ref": "Sch. 1 DPP2(3), DPP4(2)",
               "strength": "statute",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.2"
+                },
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.4"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -4451,7 +4585,13 @@
               "ref": "ss.35C, 35E–35G, 35I(2), 35J–35L",
               "strength": "statute",
               "note": "Using customers' data in direct marketing needs prescribed notice and consent (ss.35C, 35E); providing it to another person for that person's direct marketing needs written notice and written consent (ss.35J–35K). On first use the data user must tell the person of the right to opt out, and must comply with any opt-out (ss.35F–35G); a person given data for its own direct marketing must stop using it once notified in writing of an opt-out (s.35L(5)). The provision rules do not apply to data given to an agent marketing on the data user's behalf (s.35I(2)).",
-              "url": "https://www.elegislation.gov.hk/hk/cap486"
+              "url": "https://www.elegislation.gov.hk/hk/cap486",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "35C"
+                }
+              ]
             }
           ],
           "drafting": [
@@ -4614,6 +4754,474 @@
         }
       ],
       "caveat": "Built from the documents you supplied: the Digital Bank Guideline (issued under s.16(10) BO), SPM SA-2 (V.1, 28 December 2001; non-statutory guidance note), TM-G-1 (V.1, 24 June 2003; non-statutory guidance note), TM-E-1 (V.4, 25 October 2024; statutory guideline under s.7(3) BO), CG-1 (V.4, 1 August 2025; statutory guideline under s.7(3) BO), OR-2 (V.1, 31 May 2022; non-statutory guidance note), the HKMA AML/CFT Guideline (May 2023; issued under s.7 AMLO and s.7(3) BO), the Code of Banking Practice (effective 7 December 2023; non-statutory industry code) and HKMA Guideline 3.4.1 on debt collection agencies (3 May 1996). Check the HKMA's current versions and later circulars (including any cloud or third-party risk guidance) before advising; the HKMA material is summarised, not reproduced. Statute references are to the official text (PDPO Cap. 486, Banking Ordinance Cap. 155, AMLO Cap. 615, Cap. 653)."
+    },
+    "materialityKit": {
+      "intro": [
+        "**Why this matters:** standard tech procurement signs a SaaS order and goes live within weeks. A bank cannot: SA-2 asks it to discuss any plan to outsource a banking-related business area (back office included) with the HKMA **in advance**, and to satisfy the HKMA on the section 2 concerns **before it implements** the plan (SA-2 1.3.2).",
+        "**What the texts say:** SA-2 (V.1, 2001) does not use the word \"material\": its trigger is any outsourcing of a banking-related business area, or a change to its scope. The digital bank guideline adds that a digital bank should discuss its plans for [[material outsourcing]] with the MA in advance (para 23). Neither defines \"material\".",
+        "**How to use this:** answer the questions for one deployment. The result says which track it is on, what to do before signing and going live, and why. Answers stay in this browser; download the result as a note for the outsourcing register."
+      ],
+      "gates": [
+        {
+          "id": "service",
+          "ask": "Will another party run a service for the bank?",
+          "help": "Outsourcing means another party providing a service the bank used to do itself, or a new service the bank is launching. The provider can be in Hong Kong or overseas, a group company, head office or an independent third party (SA-2 1.1.1). SaaS, hosting and managed services are run by the provider, so they usually meet this test. Software the bank licenses and runs itself usually does not.",
+          "ref": "SA-2 1.1.1"
+        },
+        {
+          "id": "banking",
+          "ask": "Does it support a banking-related business area, including back-office work?",
+          "help": "SA-2 asks for advance discussion of outsourcing in a banking-related business area, expressly including back-office activities, and of changes to the scope of such outsourcing. If in doubt, SA-2 says to seek the HKMA's advice, so \"Not sure\" is treated as yes (SA-2 1.3.2).",
+          "ref": "SA-2 1.3.2"
+        }
+      ],
+      "factors": [
+        {
+          "id": "critical",
+          "ask": "Would its failure disrupt a critical operation or a critical technology service?",
+          "help": "The risk assessment should cover how important and critical the service is (SA-2 2.2.1). OR-2 asks the bank to identify its critical operations (OR-2 4.1.1), and TM-G-1 expects an annual assessment of each provider of critical technology services (TM-G-1 7.1.1).",
+          "ref": "SA-2 2.2.1"
+        },
+        {
+          "id": "customer-data",
+          "ask": "Will the provider hold, process or be able to access customer data?",
+          "help": "Customer data confidentiality is a separate SA-2 concern: the arrangement should meet the PDPO and common-law confidentiality, with safeguards in place (SA-2 2.5.1–2.5.2). For a digital bank the MA must be satisfied that confidentiality and integrity of customer information will not be compromised (digital bank guideline para 23).",
+          "ref": "SA-2 2.5"
+        },
+        {
+          "id": "offshore",
+          "ask": "Will the service run, or data be stored or processed, outside Hong Kong?",
+          "help": "Overseas outsourcing raises further concerns, among them the HKMA's ability to exercise its powers and to access data (SA-2 2.9.1–2.9.2), and the HKMA may contact the overseas regulator (SA-2 1.3.3). Public cloud regions outside Hong Kong count.",
+          "ref": "SA-2 2.9"
+        },
+        {
+          "id": "channel",
+          "ask": "Does it support the customer app or another e-banking channel?",
+          "help": "TM-E-1, a statutory guideline, expects independent assessments and penetration tests to cover relevant outsourced systems (TM-E-1 3.3.1–3.3.2), and incidents at the vendor become the bank's e-banking incidents (TM-E-1 8.2).",
+          "ref": "TM-E-1 3.3"
+        },
+        {
+          "id": "risk-profile",
+          "ask": "Would it change the bank's risk profile: a large part of a function, hard to replace, or concentration on one provider?",
+          "help": "The risk assessment covers the impact of the outsourcing on the bank's operational, legal and reputation risk (SA-2 2.2.1), and contingency planning has to work if the provider fails (SA-2 2.7.1–2.7.3).",
+          "ref": "SA-2 2.2.1"
+        },
+        {
+          "id": "cap653",
+          "ask": "If the bank is a designated CI operator, does it touch a designated critical computer system?",
+          "help": "A designated operator has statutory duties for its critical computer systems, including 12- and 48-hour incident notices (Cap. 653 ss.13, 28; Sch. 6). Answer no if the bank has not been designated.",
+          "ref": "Cap. 653"
+        }
+      ],
+      "outcomes": {
+        "procurement": {
+          "label": "Technology procurement, not outsourcing",
+          "verdict": "On these answers the bank runs the service itself, so SA-2's advance discussion does not apply. Technology risk rules still do.",
+          "steps": [
+            "**Record why:** note why this is not outsourcing (SA-2 1.1.1) in the procurement file, so the answer can be shown to an examiner.",
+            "**Technology risk:** apply TM-G-1's controls to the software as the bank's own technology: change management, security and recovery.",
+            "**Look again if it changes:** if the vendor later hosts, operates or supports the service with access to bank data, run this assessment again."
+          ]
+        },
+        "non-banking": {
+          "label": "Outsourcing outside banking-related areas",
+          "verdict": "This is outsourcing, but not of a banking-related business area, so SA-2 1.3.2 does not ask for advance discussion. SA-2's controls still apply in proportion.",
+          "steps": [
+            "**Record the reasoning:** why the service is not banking-related, and who agreed. If in doubt, seek the HKMA's advice (SA-2 1.3.2).",
+            "**Accountability stays with the bank:** the board and management keep ultimate accountability for the outsourced activity (SA-2 2.1.1).",
+            "**Proportionate controls:** risk assessment, due diligence and a written agreement scaled to the risk (SA-2 2.2–2.4); use the Vendors tab for the clauses.",
+            "**Register it:** add it to the outsourcing register so a later change of scope is caught."
+          ]
+        },
+        "banking": {
+          "label": "Outsourcing of a banking-related area",
+          "verdict": "Discuss the plan with the HKMA in advance and satisfy it on SA-2's section 2 concerns before implementing (SA-2 1.3.2). No materiality factor is present, so the discussion can be proportionate.",
+          "steps": [
+            "**HKMA discussion before go-live:** tell the HKMA what is being outsourced, to whom and why, and how the section 2 concerns are met (SA-2 1.3.2).",
+            "**Risk assessment and due diligence:** cover criticality, reasons and the effect on the risk profile (SA-2 2.2.1), and the provider's soundness and capability (SA-2 2.3.1).",
+            "**Contract:** a written agreement setting out the services, liabilities and obligations (SA-2 2.4.1), with confidentiality (2.5), contingency (2.7) and access to data for the HKMA and auditors (2.8).",
+            "**Sign safely:** if the business must sign before the HKMA discussion ends, use the regulatory condition below.",
+            "**Keep watching:** review the controls and the provider's performance after launch (SA-2 1.3.4, 2.3.2), and treat a change of scope as a new plan to discuss (SA-2 1.3.2)."
+          ]
+        },
+        "material": {
+          "label": "Material outsourcing",
+          "verdict": "Treat this as material outsourcing: discuss it with the HKMA in advance (SA-2 1.3.2; digital bank guideline para 23) and expect the discussion to go into depth on each factor you marked.",
+          "steps": [
+            "**HKMA discussion before go-live:** explain the arrangement and how each SA-2 section 2 concern is met; for a digital bank, show how SA-2 will be complied with (SA-2 1.3.2; guideline para 23).",
+            "**Board and management sign-off:** they should ensure a comprehensive risk assessment covering operational, legal and reputation risk, with the risks addressed before launch (SA-2 2.2.1).",
+            "**Full clause set:** HKMA access and inspection, audit, data location, confidentiality, sub-contracting, incident notice, continuity and exit (Vendors tab). For a digital bank the MA must be able to inspect, and its powers under the Banking Ordinance, in particular s.52, must not be hindered (guideline para 23).",
+            "**Factor by factor:** customer data (SA-2 2.5), overseas processing (SA-2 2.9), critical technology services (annual control assessment, TM-G-1 7.1.1), e-banking assurance (TM-E-1 3.3), critical operations mapping and testing (OR-2).",
+            "**Sign safely:** use the regulatory condition below if signature has to come first.",
+            "**Exit plan:** keep a tested contingency and exit route in case the provider fails or the HKMA requires other arrangements (SA-2 1.3.5, 2.7)."
+          ]
+        }
+      },
+      "friction": {
+        "type": "steps",
+        "caption": "The HKMA should be satisfied before implementation (SA-2 1.3.2), so the discussion sits between due diligence and go-live, not after signature.",
+        "items": [
+          {
+            "label": "Assess",
+            "value": "SA-2 2.2.1",
+            "note": "Criticality, reasons, risk profile"
+          },
+          {
+            "label": "Due diligence",
+            "value": "SA-2 2.3.1",
+            "note": "Soundness, capability, controls"
+          },
+          {
+            "label": "Discuss with the HKMA",
+            "value": "SA-2 1.3.2",
+            "note": "Before implementing; if in doubt, ask"
+          },
+          {
+            "label": "Sign",
+            "value": "Condition",
+            "note": "Or sign earlier with a regulatory condition"
+          },
+          {
+            "label": "Go live and monitor",
+            "value": "SA-2 1.3.4",
+            "note": "Review controls; changes of scope go back to the HKMA"
+          }
+        ]
+      },
+      "frictionPoints": [
+        "**Timing:** SA-2 asks for the HKMA to be satisfied before the bank implements the plan (SA-2 1.3.2). Click-through orders and sign-and-deploy-this-week timetables do not fit, so start the HKMA conversation once the shortlist exists.",
+        "**Signing first:** if commercial pressure means signing before the discussion ends, make the contract conditional on it, or give the bank a free exit if the HKMA raises concerns (model wording below).",
+        "**Vendor expectations:** tell SaaS vendors early that the bank needs regulator-facing terms (HKMA access, audit, data location, sub-contracting) and time for the HKMA discussion. Their standard paper rarely has them.",
+        "**Scope creep:** a new module, region or sub-contractor can change the scope of the outsourcing, which SA-2 treats as a new plan to discuss (SA-2 1.3.2). Make procurement and IT route such changes through legal.",
+        "**Evidence:** keep the assessment, the HKMA correspondence and the approvals together; examiners check whether the section 2 concerns were addressed (SA-2 1.3.6)."
+      ],
+      "condition": [
+        "(a) Except for clauses [confidentiality, this clause and governing law], this Agreement takes effect on the date the Bank notifies the Supplier in writing that it has completed its discussions with the Regulator about the Services and may proceed (the \"Regulatory Condition\").",
+        "(b) Until then, the Supplier shall give the Bank, and through the Bank the Regulator, the information and cooperation reasonably requested for those discussions, including about its controls, the locations of Bank Data and its Subcontractors.",
+        "(c) If the Regulatory Condition is not met by [date], or the Regulator raises concerns that the parties do not resolve by an amendment agreed within [30] days, either party may terminate this Agreement by notice without liability, and the Supplier shall refund any fees paid in advance."
+      ],
+      "sources": [
+        {
+          "label": "SPM SA-2 Outsourcing",
+          "ref": "1.1.1, 1.3.2–1.3.6, 2.1.1, 2.2.1, 2.3.1, 2.4.1, 2.5, 2.7, 2.8, 2.9",
+          "strength": "hkma-guidance",
+          "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+        },
+        {
+          "label": "Digital Bank Guideline",
+          "ref": "23",
+          "strength": "statutory-guideline"
+        },
+        {
+          "label": "SPM TM-G-1 Technology risk",
+          "ref": "7.1.1",
+          "strength": "hkma-guidance"
+        },
+        {
+          "label": "SPM TM-E-1 E-banking",
+          "ref": "3.3.1–3.3.2, 8.2",
+          "strength": "statutory-guideline"
+        },
+        {
+          "label": "SPM OR-2 Operational resilience",
+          "ref": "4.1.1",
+          "strength": "hkma-guidance"
+        },
+        {
+          "label": "Cap. 653 Critical infrastructures",
+          "ref": "ss.13, 28; Sch. 6",
+          "strength": "statute",
+          "cites": [
+            {
+              "cap": "653",
+              "section": "13"
+            }
+          ]
+        }
+      ],
+      "caveat": "Neither SA-2 (V.1, 28 December 2001) nor the digital bank guideline defines \"material\". The factors are our screen, built from SA-2 2.2.1, 2.5, 2.7 and 2.9, TM-G-1 7.1.1, TM-E-1, OR-2 and the guideline's para 23; the HKMA judges each case, and any one factor may not make an arrangement material in its view. The HKMA's Practice Guide on Cloud Adoption (8 January 2026) was not reviewed for this tool. Check for a revised SA-2 before relying on it."
+    },
+    "incidentKit": {
+      "intro": [
+        "**The scenario:** a critical SaaS vendor goes down, or reports a breach. Several clocks start at once, owed to different bodies, with different legal force. Answer the questions to see who gets called, and by when.",
+        "**Clocks start at different moments:** the bank's clocks run from when **the bank** becomes aware (Cap. 653 Sch. 6). Every hour the vendor waits before telling the bank comes out of the bank's time, which is why the contract clock has to be the shortest (Vendors tab: Incident notification).",
+        "**Notify with what you know:** the HKMA wants notice without waiting for the fix or the root cause (HKMA circular, 22 June 2010). Follow-up reports fill the gaps."
+      ],
+      "questions": [
+        {
+          "id": "significant",
+          "ask": "Is it significant under the bank's own incident criteria?",
+          "help": "The HKMA has not published a list of notifiable incidents, so the bank's management-endorsed criteria decide. A suspected or confirmed e-banking fraud counts (TM-E-1 8.2.5)."
+        },
+        {
+          "id": "designated",
+          "ask": "Is the bank a designated CI operator, and is this a computer-system security incident on a designated critical computer system?",
+          "help": "Only then do the Cap. 653 clocks apply (s.28). Such an incident needs unauthorised access, or another unlawful act, with an actual adverse effect on the system (s.2). An outage caused by a bug or a capacity failure is not one, but the HKMA track still applies."
+        },
+        {
+          "id": "core",
+          "ask": "Has it disrupted, or is it likely to disrupt, the core function of the critical infrastructure?",
+          "help": "Decides between the 12-hour and the 48-hour clock (Cap. 653 Sch. 6, item 1).",
+          "dependsOn": "designated"
+        },
+        {
+          "id": "registered",
+          "ask": "Is the bank an SFC registered institution, and does the incident hit its securities business, such as trading or settlement systems?",
+          "help": "Registered institutions report material failures under the SFC Code of Conduct as well as to the HKMA."
+        },
+        {
+          "id": "personal-data",
+          "ask": "Has personal data been, or may it have been, accessed, lost or disclosed?",
+          "help": "A breach at a data processor is still the bank's problem as data user: it must use contractual or other means to protect personal data the processor handles (PDPO Sch. 1, DPP4(2))."
+        },
+        {
+          "id": "customers",
+          "ask": "Are customers affected, or likely to be?",
+          "help": "For example, they cannot log in, pay or trade, or their data or money is at risk (TM-E-1 8.2.2)."
+        }
+      ],
+      "columns": [
+        {
+          "id": "now",
+          "label": "On awareness"
+        },
+        {
+          "id": "2h",
+          "label": "2 hours"
+        },
+        {
+          "id": "12h",
+          "label": "12 hours"
+        },
+        {
+          "id": "48h",
+          "label": "48 hours"
+        },
+        {
+          "id": "14d",
+          "label": "14 days"
+        },
+        {
+          "id": "open",
+          "label": "No fixed clock"
+        }
+      ],
+      "tracks": [
+        {
+          "id": "vendor",
+          "who": "Vendor to the bank",
+          "applies": "always",
+          "when": "Within [2] hours (Critical Service or Customer Data), [4] hours otherwise",
+          "marks": [
+            {
+              "col": "2h",
+              "label": "First notice"
+            }
+          ],
+          "what": "Notice of any suspected or confirmed Incident at any hour, from the vendor's staffed 24/7 contact to the bank's named contact, then regular updates and a root-cause report.",
+          "basis": "The contract. The figures are the playbook's model clause, not a rule; the bank needs them shorter than its own clocks.",
+          "strength": "good-practice",
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.6.4",
+              "strength": "hkma-guidance",
+              "note": "Reporting procedures that escalate problems promptly to the management of the bank and the provider."
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "8.2",
+              "strength": "hkma-guidance",
+              "note": "The incident programme should cover incidents arising from third-party dependencies."
+            }
+          ]
+        },
+        {
+          "id": "hkma",
+          "who": "HKMA",
+          "applies": "significant",
+          "when": "Immediately",
+          "marks": [
+            {
+              "col": "now",
+              "label": "First notice"
+            }
+          ],
+          "what": "Notice of the significant incident with the facts then known; do not wait for the problem to be fixed. Then updates and an incident report.",
+          "basis": "HKMA guidance: the 2010 circular asks for immediate notice; TM-E-1, a statutory guideline, asks for prompt notice of significant e-banking incidents; TM-G-1 asks for timely reports of confirmed IT fraud and major security breaches.",
+          "strength": "statutory-guideline",
+          "sources": [
+            {
+              "label": "HKMA circular: Incident response and management procedures",
+              "ref": "22 June 2010",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20100622-1-EN/20100622-1-EN.pdf"
+            },
+            {
+              "label": "SPM TM-E-1 E-banking",
+              "ref": "8.2.1, 8.2.5",
+              "strength": "statutory-guideline"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "3.3.3",
+              "strength": "hkma-guidance"
+            }
+          ]
+        },
+        {
+          "id": "cap653",
+          "who": "Commissioner of Critical Infrastructure",
+          "applies": "designated",
+          "when": "12 hours if the core function is or may be disrupted; 48 hours otherwise. Written report within 14 days.",
+          "marks": [
+            {
+              "col": "12h",
+              "label": "Notice if core function hit",
+              "if": "core"
+            },
+            {
+              "col": "48h",
+              "label": "Notice, other incidents",
+              "unless": "core"
+            },
+            {
+              "col": "14d",
+              "label": "Written report"
+            }
+          ],
+          "what": "Notice as soon as practicable and within the specified time, in the specified form or at least saying what happened and which critical computer system is involved. A notice not in the specified form needs a written record within 48 hours of it. The notice goes to the Commissioner (s.28), even though the MA supervises the bank's other Cap. 653 duties as designated authority (s.6).",
+          "basis": "Statute: failing to notify, or to submit the record or report, is an offence with fines of up to HK$5 million on indictment (Cap. 653 s.28(5)–(6)).",
+          "strength": "statute",
+          "sources": [
+            {
+              "label": "Cap. 653 Critical infrastructures",
+              "ref": "s.28; Sch. 6",
+              "strength": "statute",
+              "cites": [
+                {
+                  "cap": "653",
+                  "section": "28"
+                },
+                {
+                  "cap": "653",
+                  "section": "Sch. 6"
+                }
+              ]
+            },
+            {
+              "label": "Cap. 653 Critical infrastructures",
+              "ref": "s.6",
+              "strength": "statute",
+              "note": "A designated authority such as the MA supervises category 1 and 2 obligations; s.28 itself requires notice to the Commissioner.",
+              "cites": [
+                {
+                  "cap": "653",
+                  "section": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sfc",
+          "who": "SFC, and the HKMA as frontline regulator",
+          "applies": "registered",
+          "when": "Immediately",
+          "marks": [
+            {
+              "col": "now",
+              "label": "Report to both"
+            }
+          ],
+          "what": "A report of the material failure, error or defect in trading, accounting, clearing or settlement systems, or other matter under para 12.5, made directly to the SFC as well as to the HKMA.",
+          "basis": "SFC Code of Conduct para 12.5. The SFC has said a registered institution must report directly to both regulators; this is reported in practitioners' summaries of SFC circulars, so check the current text.",
+          "strength": "sfc-guidance",
+          "verify": true,
+          "sources": [
+            {
+              "label": "SFC Code of Conduct",
+              "ref": "para 12.5",
+              "strength": "sfc-guidance"
+            },
+            {
+              "label": "Akin: SFC reminder on reporting material breaches",
+              "ref": "law-firm summary",
+              "strength": "good-practice",
+              "url": "https://www.akingump.com/en/insights/alerts/sfc-reminds-intermediaries-of-compliance-with-requirement-to"
+            }
+          ]
+        },
+        {
+          "id": "customers",
+          "who": "Affected customers and the public",
+          "applies": "customers",
+          "when": "Proactively and on a timely basis; a press release shortly after a long critical outage starts",
+          "marks": [
+            {
+              "col": "open",
+              "label": "Timely; press release if prolonged"
+            }
+          ],
+          "what": "Tell affected customers the key facts and what they can do, through the most effective means. If a critical e-banking service is disrupted for a significant number of customers and quick recovery is not assured, issue a press release or equally effective notice shortly after the disruption starts.",
+          "basis": "TM-E-1 8.2.2–8.2.3, a statutory guideline; the 2010 circular says the same.",
+          "strength": "statutory-guideline",
+          "sources": [
+            {
+              "label": "SPM TM-E-1 E-banking",
+              "ref": "8.2.2–8.2.3",
+              "strength": "statutory-guideline"
+            },
+            {
+              "label": "HKMA circular: Incident response and management procedures",
+              "ref": "22 June 2010",
+              "strength": "hkma-guidance",
+              "url": "https://brdr.hkma.gov.hk/gb_chi/doc-ldg/docId/getPdf/20100622-1-EN/20100622-1-EN.pdf"
+            }
+          ]
+        },
+        {
+          "id": "pcpd",
+          "who": "PCPD and affected individuals",
+          "applies": "personal-data",
+          "when": "As soon as practicable (voluntary)",
+          "marks": [
+            {
+              "col": "open",
+              "label": "Voluntary, as soon as practicable"
+            }
+          ],
+          "what": "Written notice to the PCPD on its data breach notification form, and to affected individuals where there is a real risk of harm, with what happened, the data involved and the steps taken.",
+          "basis": "PCPD guidance only. As at October 2026 the PDPO has no mandatory breach notification; a mandatory regime has been proposed in the PDPO review but not enacted. The bank's own duty to protect data its processor handles still applies (PDPO Sch. 1, DPP4(2)).",
+          "strength": "good-practice",
+          "sources": [
+            {
+              "label": "PCPD Guidance on Data Breach Handling and Data Breach Notifications",
+              "ref": "June 2023",
+              "strength": "good-practice",
+              "url": "https://www.pcpd.org.hk/english/news_events/media_statements/press_20230630.html"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "Sch. 1 DPP4(2)",
+              "strength": "statute",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.4"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "**Same day, several regulators:** a SaaS outage at a registered, designated digital bank can need the HKMA, the SFC, the Commissioner and customers on the same day. Name one decision owner per track in the incident plan.",
+        "**The HKMA is not the Cap. 653 inbox:** the MA, as designated authority, supervises a bank's category 1 and 2 obligations (s.6), but s.28 requires incident notices to go to the Commissioner.",
+        "**Personal data:** no statutory clock today, but the PCPD expects prompt written notice, and examiners and customers will judge the delay.",
+        "**Police:** where a crime such as hacking or fraud is suspected, report to the police as well; no statutory clock applies."
+      ],
+      "caveat": "Built from Cap. 653 (official text), TM-E-1 (V.4, 25 October 2024), TM-G-1, SA-2, OR-2 and the HKMA's 2010 circular. The SFC track and the PCPD position rest on practitioners' summaries and the PCPD's 2023 guidance; check the current SFC Code, SFC circulars and the status of PDPO reform before relying on them. The vendor clock is the playbook's model clause, not a rule."
     }
   },
   {

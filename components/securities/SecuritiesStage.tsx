@@ -114,7 +114,13 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
 
       {tab === 'checklist' && (
         <TabPanel idBase={idBase} id="checklist">
-          <Checklist items={stage.checklist} ticks={ticks} onToggle={onToggle} />
+          <Checklist
+            items={stage.checklist}
+            ticks={ticks}
+            onToggle={onToggle}
+            notesKey={`hk-securities:checklist-notes:${stage.id}`}
+            title={`HK securities: ${stage.index}. ${stage.title}`}
+          />
         </TabPanel>
       )}
 

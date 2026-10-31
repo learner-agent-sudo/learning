@@ -1,6 +1,7 @@
 import { ExternalLink } from 'lucide-react';
-import { STRENGTH_LABEL, type ContractSource, type Strength } from '@/lib/banking';
+import { STRENGTH_LABEL, statuteExtract, type ContractSource, type Strength } from '@/lib/banking';
 import { PILL_BASE } from '../cardStyles';
+import { StatuteText } from '../ui/StatuteText';
 
 // Legal force of a source, strongest first.
 export const STRENGTH: Record<Strength, { label: string; pill: string; bar: string; title: string }> = {
@@ -123,6 +124,22 @@ export function StrengthLegend({ sources, more = [] }: { sources: ContractSource
   );
 }
 
+/** The statute text behind a source, one closed disclosure per cited provision. */
+export function Cites({ source }: { source: { cites?: ContractSource['cites'] } }) {
+  const found = (source.cites ?? []).flatMap((c) => {
+    const extract = statuteExtract(c);
+    return extract ? [{ key: `${c.cap}|${c.section}`, extract }] : [];
+  });
+  if (found.length === 0) return null;
+  return (
+    <div className="w-full">
+      {found.map(({ key, extract }) => (
+        <StatuteText key={key} extract={extract} open={`Read ${extract.label}`} />
+      ))}
+    </div>
+  );
+}
+
 export function SourceList({ sources }: { sources: ContractSource[] }) {
   return (
     <ul className="space-y-2.5">
@@ -142,6 +159,7 @@ export function SourceList({ sources }: { sources: ContractSource[] }) {
               Source <ExternalLink className="h-3 w-3" aria-hidden />
             </a>
           )}
+          <Cites source={s} />
         </li>
       ))}
     </ul>
