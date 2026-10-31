@@ -107,6 +107,21 @@ export default function HkBankingAboutPage() {
           bracketed figures are illustrative.
         </p>
         <p>
+          Three tools were added to Technology &amp; outsourcing in October 2026. The <strong>SaaS terms</strong> matrix
+          at the top of the Vendors tab sets 15 terms as they usually appear in a provider&apos;s standard paper
+          against what SA-2 and TM-G-1 ask of the bank, with compromise wording drawn from each clause&apos;s fallback
+          position; the descriptions of standard paper are general and name no provider. The{' '}
+          <strong>Materiality</strong> tab walks one deployment through SA-2&apos;s outsourcing test, the
+          banking-related trigger for advance discussion with the HKMA (SA-2 1.3.2) and a materiality screen. Neither
+          SA-2 nor the digital bank guideline defines &ldquo;material&rdquo;, so the screen is our own and says so.
+          The <strong>Incidents</strong> tab sets out the notification clocks when a critical vendor has an incident;
+          the Cap. 653 deadlines come from the official text, the HKMA and customer tracks from TM-E-1, TM-G-1 and the
+          HKMA&apos;s 2010 circular, and the SFC and PCPD tracks from practitioners&apos; summaries and the PCPD&apos;s
+          2023 guidance, marked for checking. Each was drafted, then checked by independent reviewers against the
+          source documents and statute text, and corrected. Where a clause or tool cites a statute section, its
+          official text opens beneath the citation.
+        </p>
+        <p>
           The <strong>Digital assets, wallets &amp; P2P</strong> stage (October 2026) was checked differently, because
           HKMA, SFC and government websites could not be opened directly while it was written. Statements about
           legislation were checked against the official text of the AMLO, the Stablecoins, Stored Value Facilities,

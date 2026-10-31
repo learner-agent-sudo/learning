@@ -95,7 +95,18 @@ model wording with bracketed choices, drafting to watch for, answers to vendor
 pushback and who signs off a deviation. A review tracker marks each clause
 against the contract under review (meets, fallback agreed, gap, not
 applicable) with notes, kept in the browser, and exports the review as a
-spreadsheet (.csv) or the whole playbook as Markdown.
+spreadsheet (.csv) or the whole playbook as Markdown. The Vendors tab opens
+with a **SaaS terms** matrix: 15 terms as standard SaaS or cloud paper usually
+puts them, what SA-2 and TM-G-1 ask of the bank, the line to hold and
+compromise wording. Two more tabs sit beside it. **Materiality** walks one
+deployment through SA-2's outsourcing test, the banking-related trigger for
+advance discussion with the HKMA and a materiality screen, with a regulatory
+condition for signing early and a downloadable note. **Incidents** sets out
+the notification clocks when a critical vendor has an incident (vendor, HKMA,
+Cap. 653 Commissioner, SFC and HKMA, customers, PCPD) as a scenario, a chart
+and a call sheet. Statute sources in these tools open their official text in
+place, and every stage's checklist takes a note per item, filters open and done
+items, and downloads as Markdown or a spreadsheet.
 
 Stage 9 (Digital assets, wallets & P2P) covers virtual assets, stablecoins
 under Cap. 656, tokenised deposits and securities, Project Ensemble and
