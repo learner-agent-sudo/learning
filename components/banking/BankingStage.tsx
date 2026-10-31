@@ -1,8 +1,10 @@
 import {
+  AlarmClock,
   BookOpen,
   BookText,
   ClipboardCheck,
   Check,
+  Gauge,
   Cpu,
   Lightbulb,
   ListChecks,
@@ -27,6 +29,8 @@ import { AbbrKey } from '../ui/AbbrKey';
 import { Badge, StageHeader } from '../ui/StageHeader';
 import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 import { ActivityKit } from './ActivityKit';
+import { IncidentClocks } from './IncidentClocks';
+import { MaterialityTool } from './MaterialityTool';
 import { VendorKit } from './VendorKit';
 
 interface Props {
@@ -46,18 +50,22 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
   const done = ticks.filter(Boolean).length;
   const noteCount = stage.itAngle.length + stage.virtualBankNotes.length + stage.pitfalls.length;
 
+  // The Technology stage carries two extra tools, so its tab labels shorten.
+  const crowded = !!(stage.materialityKit || stage.incidentKit);
   const tabs: (TabDef & { id: BankingTab })[] = [
     { id: 'essentials', label: 'Essentials', short: stage.vendorKit || stage.activityKit ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
     ...(stage.vendorKit
       ? [{ id: 'vendors' as const, label: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
       : []),
+    ...(stage.materialityKit ? [{ id: 'materiality' as const, label: 'Materiality', short: 'Assess', icon: Gauge }] : []),
+    ...(stage.incidentKit ? [{ id: 'incidents' as const, label: 'Incidents', short: 'Clocks', icon: AlarmClock }] : []),
     ...(stage.activityKit
       ? [{ id: 'activities' as const, label: 'Activities', short: 'Can we?', icon: Rocket, count: stage.activityKit.activities.length }]
       : []),
-    { id: 'checklist', label: 'Checklist', icon: ListChecks, count: `${done}/${stage.checklist.length}` },
+    { id: 'checklist', label: 'Checklist', short: crowded ? 'Tasks' : undefined, icon: ListChecks, count: `${done}/${stage.checklist.length}` },
     { id: 'notes', label: 'Notes', icon: Lightbulb, count: noteCount },
-    { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
+    { id: 'glossary', label: 'Glossary', short: crowded ? 'Terms' : undefined, icon: BookText, count: stage.glossary.length },
   ];
   const idBase = `bank-${stage.id}`;
   const sections: PageSection[] =
@@ -127,6 +135,18 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
         </TabPanel>
       )}
 
+      {tab === 'materiality' && stage.materialityKit && (
+        <TabPanel idBase={idBase} id="materiality">
+          <MaterialityTool kit={stage.materialityKit} />
+        </TabPanel>
+      )}
+
+      {tab === 'incidents' && stage.incidentKit && (
+        <TabPanel idBase={idBase} id="incidents">
+          <IncidentClocks kit={stage.incidentKit} />
+        </TabPanel>
+      )}
+
       {tab === 'activities' && stage.activityKit && (
         <TabPanel idBase={idBase} id="activities">
           <ActivityKit kit={stage.activityKit} />
@@ -135,7 +155,13 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
 
       {tab === 'checklist' && (
         <TabPanel idBase={idBase} id="checklist">
-          <Checklist items={stage.checklist} ticks={ticks} onToggle={onToggle} />
+          <Checklist
+            items={stage.checklist}
+            ticks={ticks}
+            onToggle={onToggle}
+            notesKey={`hk-banking:checklist-notes:${stage.id}`}
+            title={`HK banking: ${stage.index}. ${stage.title}`}
+          />
         </TabPanel>
       )}
 

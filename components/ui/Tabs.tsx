@@ -50,6 +50,10 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
     if (window.scrollY > top) window.scrollTo({ top });
   }, [active]);
 
+  // More than seven tabs do not fit beside the rail: use the short labels at
+  // every width, with the full name on hover, and drop the counts.
+  const compact = tabs.length > 7;
+
   const onKey = (e: React.KeyboardEvent) => {
     const i = tabs.findIndex((t) => t.id === active);
     let j = -1;
@@ -90,6 +94,7 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
                 aria-controls={panelId(idBase, t.id)}
                 tabIndex={on ? 0 : -1}
                 onClick={() => onChange(t.id)}
+                title={compact && t.short ? t.label : undefined}
                 className={
                   'relative -mb-px flex min-w-0 flex-col items-center gap-1 whitespace-nowrap border-b-2 px-0.5 pb-2 pt-2.5 text-[11.5px] transition-colors focus-visible:outline-offset-[-3px] md:shrink-0 md:flex-row md:gap-2 md:px-2.5 md:py-2.5 md:text-sm xl:px-2 ' +
                   (on ? 'border-phase font-semibold text-ink' : 'border-transparent text-muted hover:text-ink')
@@ -107,8 +112,8 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
                   )}
                 </span>
                 <span className="max-w-full truncate md:hidden">{t.short ?? t.label}</span>
-                <span className="hidden md:inline">{t.label}</span>
-                {t.count !== undefined && (
+                <span className="hidden md:inline">{compact ? (t.short ?? t.label) : t.label}</span>
+                {t.count !== undefined && !compact && (
                   <span className={`hidden rounded-full px-1.5 py-px font-mono text-[10.5px] leading-4 xl:block ${countTone}`}>
                     {t.count}
                   </span>
