@@ -4758,7 +4758,7 @@
     "materialityKit": {
       "intro": [
         "**Why this matters:** standard tech procurement signs a SaaS order and goes live within weeks. A bank cannot: SA-2 asks it to discuss any plan to outsource a banking-related business area (back office included) with the HKMA **in advance**, and to satisfy the HKMA on the section 2 concerns **before it implements** the plan (SA-2 1.3.2).",
-        "**What the texts say:** SA-2 (V.1, 2001) does not use the word \"material\": its trigger is any outsourcing of a banking-related business area, or a change to its scope. The digital bank guideline adds that a digital bank should discuss its plans for [[material outsourcing]] with the MA in advance (para 23). Neither defines \"material\".",
+        "**What the texts say:** SA-2 (V.1, 2001) has no materiality test: its trigger is any outsourcing of a banking-related business area, or a change to its scope (SA-2 1.3.2). The digital bank guideline adds that a digital bank should discuss its plans for [[material outsourcing]] with the MA in advance (para 23), without defining \"material\".",
         "**How to use this:** answer the questions for one deployment. The result says which track it is on, what to do before signing and going live, and why. Answers stay in this browser; download the result as a note for the outsourcing register."
       ],
       "gates": [
@@ -4797,13 +4797,13 @@
         {
           "id": "channel",
           "ask": "Does it support the customer app or another e-banking channel?",
-          "help": "TM-E-1, a statutory guideline, expects independent assessments and penetration tests to cover relevant outsourced systems (TM-E-1 3.3.1–3.3.2), and incidents at the vendor become the bank's e-banking incidents (TM-E-1 8.2).",
+          "help": "TM-E-1, a statutory guideline, expects independent assessments and penetration tests to cover relevant outsourced systems (TM-E-1 3.3.1–3.3.2). A vendor incident that affects the bank's e-banking services falls within the bank's own incident procedures and HKMA reporting (TM-E-1 8.2.1, 8.2.5).",
           "ref": "TM-E-1 3.3"
         },
         {
           "id": "risk-profile",
           "ask": "Would it change the bank's risk profile: a large part of a function, hard to replace, or concentration on one provider?",
-          "help": "The risk assessment covers the impact of the outsourcing on the bank's operational, legal and reputation risk (SA-2 2.2.1), and contingency planning has to work if the provider fails (SA-2 2.7.1–2.7.3).",
+          "help": "The risk assessment covers the outsourcing's effect on the bank's operational, legal and reputation risk (SA-2 2.2.1), contingency planning has to work if the provider fails (SA-2 2.7), and the bank should avoid excessive reliance on a single provider for critical technology services (TM-G-1 7.1.1).",
           "ref": "SA-2 2.2.1"
         },
         {
@@ -4825,17 +4825,17 @@
         },
         "non-banking": {
           "label": "Outsourcing outside banking-related areas",
-          "verdict": "This is outsourcing, but not of a banking-related business area, so SA-2 1.3.2 does not ask for advance discussion. SA-2's controls still apply in proportion.",
+          "verdict": "This is outsourcing, but not of a banking-related business area, so SA-2 1.3.2 does not ask for advance discussion. In our view SA-2's section 2 concerns should still guide the arrangement, scaled to its risk.",
           "steps": [
             "**Record the reasoning:** why the service is not banking-related, and who agreed. If in doubt, seek the HKMA's advice (SA-2 1.3.2).",
             "**Accountability stays with the bank:** the board and management keep ultimate accountability for the outsourced activity (SA-2 2.1.1).",
-            "**Proportionate controls:** risk assessment, due diligence and a written agreement scaled to the risk (SA-2 2.2–2.4); use the Vendors tab for the clauses.",
+            "**Section 2 concerns:** risk assessment, due diligence and a written agreement (SA-2 2.2–2.4); SA-2 sets no lighter standard for these, so scaling them to the risk is the bank's own judgement. Use the Vendors tab for the clauses.",
             "**Register it:** add it to the outsourcing register so a later change of scope is caught."
           ]
         },
         "banking": {
           "label": "Outsourcing of a banking-related area",
-          "verdict": "Discuss the plan with the HKMA in advance and satisfy it on SA-2's section 2 concerns before implementing (SA-2 1.3.2). No materiality factor is present, so the discussion can be proportionate.",
+          "verdict": "Discuss the plan with the HKMA in advance and satisfy it on all the major SA-2 section 2 concerns before implementing (SA-2 1.3.2). No materiality factor is marked, which may make the discussion shorter, but SA-2 does not lower the standard.",
           "steps": [
             "**HKMA discussion before go-live:** tell the HKMA what is being outsourced, to whom and why, and how the section 2 concerns are met (SA-2 1.3.2).",
             "**Risk assessment and due diligence:** cover criticality, reasons and the effect on the risk profile (SA-2 2.2.1), and the provider's soundness and capability (SA-2 2.3.1).",
@@ -4850,7 +4850,7 @@
           "steps": [
             "**HKMA discussion before go-live:** explain the arrangement and how each SA-2 section 2 concern is met; for a digital bank, show how SA-2 will be complied with (SA-2 1.3.2; guideline para 23).",
             "**Board and management sign-off:** they should ensure a comprehensive risk assessment covering operational, legal and reputation risk, with the risks addressed before launch (SA-2 2.2.1).",
-            "**Full clause set:** HKMA access and inspection, audit, data location, confidentiality, sub-contracting, incident notice, continuity and exit (Vendors tab). For a digital bank the MA must be able to inspect, and its powers under the Banking Ordinance, in particular s.52, must not be hindered (guideline para 23).",
+            "**Full clause set:** HKMA access and inspection, audit, data location, confidentiality, sub-contracting, incident notice, continuity and exit (Vendors tab). For a digital bank the MA should have the right to inspect the provider's controls or obtain reports on them, and must be satisfied that its powers, in particular under s.52 of the Banking Ordinance, will not be hindered (guideline para 23).",
             "**Factor by factor:** customer data (SA-2 2.5), overseas processing (SA-2 2.9), critical technology services (annual control assessment, TM-G-1 7.1.1), e-banking assurance (TM-E-1 3.3), critical operations mapping and testing (OR-2).",
             "**Sign safely:** use the regulatory condition below if signature has to come first.",
             "**Exit plan:** keep a tested contingency and exit route in case the provider fails or the HKMA requires other arrangements (SA-2 1.3.5, 2.7)."
@@ -4859,7 +4859,7 @@
       },
       "friction": {
         "type": "steps",
-        "caption": "The HKMA should be satisfied before implementation (SA-2 1.3.2), so the discussion sits between due diligence and go-live, not after signature.",
+        "caption": "The HKMA should be satisfied before implementation (SA-2 1.3.2), so plan for the discussion to finish before go-live. Signing before it ends is a planning risk, managed with the regulatory condition.",
         "items": [
           {
             "label": "Assess",
@@ -4869,7 +4869,7 @@
           {
             "label": "Due diligence",
             "value": "SA-2 2.3.1",
-            "note": "Soundness, capability, controls"
+            "note": "Soundness, reputation, capability"
           },
           {
             "label": "Discuss with the HKMA",
@@ -4884,26 +4884,26 @@
           {
             "label": "Go live and monitor",
             "value": "SA-2 1.3.4",
-            "note": "Review controls; changes of scope go back to the HKMA"
+            "note": "Monitor; changes of scope go back to the HKMA (1.3.2)"
           }
         ]
       },
       "frictionPoints": [
         "**Timing:** SA-2 asks for the HKMA to be satisfied before the bank implements the plan (SA-2 1.3.2). Click-through orders and sign-and-deploy-this-week timetables do not fit, so start the HKMA conversation once the shortlist exists.",
-        "**Signing first:** if commercial pressure means signing before the discussion ends, make the contract conditional on it, or give the bank a free exit if the HKMA raises concerns (model wording below).",
+        "**Signing first:** if commercial pressure means signing before the discussion ends, make the contract conditional on it, with a free exit if the HKMA's concerns are not resolved by an agreed amendment (model wording below).",
         "**Vendor expectations:** tell SaaS vendors early that the bank needs regulator-facing terms (HKMA access, audit, data location, sub-contracting) and time for the HKMA discussion. Their standard paper rarely has them.",
         "**Scope creep:** a new module, region or sub-contractor can change the scope of the outsourcing, which SA-2 treats as a new plan to discuss (SA-2 1.3.2). Make procurement and IT route such changes through legal.",
         "**Evidence:** keep the assessment, the HKMA correspondence and the approvals together; examiners check whether the section 2 concerns were addressed (SA-2 1.3.6)."
       ],
       "condition": [
-        "(a) Except for clauses [confidentiality, this clause and governing law], this Agreement takes effect on the date the Bank notifies the Supplier in writing that it has completed its discussions with the Regulator about the Services and may proceed (the \"Regulatory Condition\").",
+        "(a) Except for this clause (including paragraphs (b) and (c)) and clauses [confidentiality and governing law], this Agreement takes effect on the date the Bank notifies the Supplier in writing that it has discussed the Services with the Regulator and is satisfied that the Regulator has no outstanding concerns (the \"Regulatory Condition\"). No Services shall be implemented, and no Bank Data transferred to the Supplier, before that date.",
         "(b) Until then, the Supplier shall give the Bank, and through the Bank the Regulator, the information and cooperation reasonably requested for those discussions, including about its controls, the locations of Bank Data and its Subcontractors.",
         "(c) If the Regulatory Condition is not met by [date], or the Regulator raises concerns that the parties do not resolve by an amendment agreed within [30] days, either party may terminate this Agreement by notice without liability, and the Supplier shall refund any fees paid in advance."
       ],
       "sources": [
         {
           "label": "SPM SA-2 Outsourcing",
-          "ref": "1.1.1, 1.3.2–1.3.6, 2.1.1, 2.2.1, 2.3.1, 2.4.1, 2.5, 2.7, 2.8, 2.9",
+          "ref": "1.1.1, 1.3.2–1.3.6, 2.1.1, 2.2.1, 2.3.1–2.3.2, 2.4.1, 2.5, 2.7, 2.8, 2.9",
           "strength": "hkma-guidance",
           "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
         },
@@ -4939,24 +4939,24 @@
           ]
         }
       ],
-      "caveat": "Neither SA-2 (V.1, 28 December 2001) nor the digital bank guideline defines \"material\". The factors are our screen, built from SA-2 2.2.1, 2.5, 2.7 and 2.9, TM-G-1 7.1.1, TM-E-1, OR-2 and the guideline's para 23; the HKMA judges each case, and any one factor may not make an arrangement material in its view. The HKMA's Practice Guide on Cloud Adoption (8 January 2026) was not reviewed for this tool. Check for a revised SA-2 before relying on it."
+      "caveat": "Neither SA-2 (V.1, 28 December 2001) nor the digital bank guideline defines \"material\". The factors are our screen, built from SA-2 2.2.1, 2.5, 2.7 and 2.9, TM-G-1 7.1.1, TM-E-1, OR-2 (V.1, 31 May 2022), the guideline's para 23 and Cap. 653 ss.13 and 28; the HKMA judges each case, and any one factor may not make an arrangement material in its view. The HKMA's newer cloud guidance (reported as a Practice Guide on Cloud Adoption of 8 January 2026) was not reviewed for this tool. Check for a revised SA-2 before relying on it."
     },
     "incidentKit": {
       "intro": [
         "**The scenario:** a critical SaaS vendor goes down, or reports a breach. Several clocks start at once, owed to different bodies, with different legal force. Answer the questions to see who gets called, and by when.",
-        "**Clocks start at different moments:** the bank's clocks run from when **the bank** becomes aware (Cap. 653 Sch. 6). Every hour the vendor waits before telling the bank comes out of the bank's time, which is why the contract clock has to be the shortest (Vendors tab: Incident notification).",
+        "**Clocks start at different moments:** the Cap. 653 clocks run from when **the bank** becomes aware (Sch. 6), except the 48-hour written record after an informal notice, which runs from that notice. A vendor that sits on an incident does not shorten those windows on paper, but it delays the bank's response and leaves the bank explaining the gap to the HKMA, which is why the contract clock has to be short (Vendors tab: Incident notification).",
         "**Notify with what you know:** the HKMA wants notice without waiting for the fix or the root cause (HKMA circular, 22 June 2010). Follow-up reports fill the gaps."
       ],
       "questions": [
         {
           "id": "significant",
           "ask": "Is it significant under the bank's own incident criteria?",
-          "help": "The HKMA has not published a list of notifiable incidents, so the bank's management-endorsed criteria decide. A suspected or confirmed e-banking fraud counts (TM-E-1 8.2.5)."
+          "help": "TM-E-1 does not define significant and refers to the HKMA's reporting arrangements as set from time to time (TM-E-1 8.2.5), so in practice the bank's management-endorsed criteria decide. A suspected or confirmed e-banking fraud counts (TM-E-1 8.2.5)."
         },
         {
           "id": "designated",
           "ask": "Is the bank a designated CI operator, and is this a computer-system security incident on a designated critical computer system?",
-          "help": "Only then do the Cap. 653 clocks apply (s.28). Such an incident needs unauthorised access, or another unlawful act, with an actual adverse effect on the system (s.2). An outage caused by a bug or a capacity failure is not one, but the HKMA track still applies."
+          "help": "Only then do the Cap. 653 clocks apply (s.28). Such an incident involves access, or another act, without lawful authority on or through the critical computer system or another system, with an actual adverse effect on the system's security (s.2). An outage caused by a bug or a capacity failure is not one; the HKMA track still applies if the bank rates the incident significant."
         },
         {
           "id": "core",
@@ -4967,7 +4967,7 @@
         {
           "id": "registered",
           "ask": "Is the bank an SFC registered institution, and does the incident hit its securities business, such as trading or settlement systems?",
-          "help": "Registered institutions report material failures under the SFC Code of Conduct as well as to the HKMA."
+          "help": "Under para 12.5 of the SFC Code of Conduct, as reported in practitioners' summaries (verify the current text), registered institutions report material failures to the SFC as well as to the HKMA."
         },
         {
           "id": "personal-data",
@@ -4976,8 +4976,8 @@
         },
         {
           "id": "customers",
-          "ask": "Are customers affected, or likely to be?",
-          "help": "For example, they cannot log in, pay or trade, or their data or money is at risk (TM-E-1 8.2.2)."
+          "ask": "Are customers affected, or likely to be affected?",
+          "help": "TM-E-1 8.2.2 asks the bank to notify customers affected or likely to be affected. Examples: they cannot log in, pay or trade, or their data or money is at risk."
         }
       ],
       "columns": [
@@ -5073,7 +5073,7 @@
           "id": "cap653",
           "who": "Commissioner of Critical Infrastructure",
           "applies": "designated",
-          "when": "12 hours if the core function is or may be disrupted; 48 hours otherwise. Written report within 14 days.",
+          "when": "12 hours if the incident has disrupted, is disrupting or is likely to disrupt the core function; 48 hours otherwise. Written report within 14 days of awareness.",
           "marks": [
             {
               "col": "12h",
@@ -5156,14 +5156,14 @@
           "id": "customers",
           "who": "Affected customers and the public",
           "applies": "customers",
-          "when": "Proactively and on a timely basis; a press release shortly after a long critical outage starts",
+          "when": "Proactively and on a timely basis; a press release shortly after a critical e-banking disruption starts if it could affect many customers and quick recovery is not assured",
           "marks": [
             {
               "col": "open",
               "label": "Timely; press release if prolonged"
             }
           ],
-          "what": "Tell affected customers the key facts and what they can do, through the most effective means. If a critical e-banking service is disrupted for a significant number of customers and quick recovery is not assured, issue a press release or equally effective notice shortly after the disruption starts.",
+          "what": "Tell affected or likely affected customers the key facts and what they can do, through the most effective means (TM-E-1 8.2.2). If any disruption to a critical e-banking service could affect a significant number of customers and the bank lacks reasonable confidence that service resumes in the near future, issue a press release or an equally effective notice shortly after the disruption starts (TM-E-1 8.2.3).",
           "basis": "TM-E-1 8.2.2–8.2.3, a statutory guideline; the 2010 circular says the same.",
           "strength": "statutory-guideline",
           "sources": [
@@ -5216,10 +5216,10 @@
         }
       ],
       "notes": [
-        "**Same day, several regulators:** a SaaS outage at a registered, designated digital bank can need the HKMA, the SFC, the Commissioner and customers on the same day. Name one decision owner per track in the incident plan.",
+        "**Same day, several regulators:** a computer-system security incident at a SaaS vendor of a registered, designated digital bank can need the HKMA, the SFC (if the securities business is hit), the Commissioner and customers on the same day. Name one decision owner per track in the incident plan.",
         "**The HKMA is not the Cap. 653 inbox:** the MA, as designated authority, supervises a bank's category 1 and 2 obligations (s.6), but s.28 requires incident notices to go to the Commissioner.",
         "**Personal data:** no statutory clock today, but the PCPD expects prompt written notice, and examiners and customers will judge the delay.",
-        "**Police:** where a crime such as hacking or fraud is suspected, report to the police as well; no statutory clock applies."
+        "**Police:** TM-E-1 expects the bank to decide in a timely manner whether to report fake websites, apps, phishing and similar scams to the police (TM-E-1 4.3.2). For other suspected crimes, such as hacking, reporting is a judgement for the incident plan; no clock applies."
       ],
       "caveat": "Built from Cap. 653 (official text), TM-E-1 (V.4, 25 October 2024), TM-G-1, SA-2, OR-2 and the HKMA's 2010 circular. The SFC track and the PCPD position rest on practitioners' summaries and the PCPD's 2023 guidance; check the current SFC Code, SFC circulars and the status of PDPO reform before relying on them. The vendor clock is the playbook's model clause, not a rule."
     }
