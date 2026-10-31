@@ -2154,6 +2154,265 @@
           }
         ]
       },
+      "saasMatrix": {
+        "intro": [
+          "**How to read it:** each row takes a term as it usually appears in a SaaS or cloud provider's standard paper, sets it against what SA-2 and TM-G-1 ask of the bank (and, where they are silent, the source that fills the gap), and gives compromise wording the bank can accept when the provider pushes back.",
+          "**Legal force:** SA-2 and TM-G-1 are non-statutory HKMA guidance; TM-E-1 and the digital bank guideline are statutory guidelines. The wording is our drafting from each clause's fallback position, so taking it still needs the sign-off the playbook sets for a fallback.",
+          "**The regulator's rights are not for trade:** every compromise keeps the HKMA's access, inspection and information rights whole. It is the bank's own rights that bend."
+        ],
+        "rows": [
+          {
+            "term": "liability-insurance",
+            "saasTerm": "Limitation of liability",
+            "standard": "One cap, set at the fees paid over a recent period, for every claim. Lost data and remediation costs are excluded as indirect loss, and any insurance promise has no stated limits.",
+            "ask": "SA-2 expects the service agreement to set out the provider's contractual liabilities as well as its obligations (SA-2 2.4.1), and lists the bank's contractual right to act against the provider for a confidentiality breach as a typical safeguard (SA-2 2.5.2). Neither SA-2 nor TM-G-1 sets a level for caps; in our reading a cap is commercial so long as confidentiality breaches keep a real remedy.",
+            "refs": [
+              "SA-2 2.4.1",
+              "SA-2 2.5.2"
+            ],
+            "compromise": [
+              "(a) The Supplier's liability for breach of [the confidentiality, data protection, security and Incident clauses] is subject to a separate annual cap of [HK$[ ]], which is not reduced by claims under the general cap.",
+              "(b) Loss of or damage to Bank Data, the cost of restoring it, and the reasonable cost of responding to an Incident, notifying customers and dealing with a Regulator are direct losses, recoverable within the applicable cap.",
+              "(c) No cap or exclusion applies to liability for fraud, wilful default or abandonment of the Services, or limits the Supplier's duties of access and cooperation towards a Regulator."
+            ],
+            "holdLine": "No cap or exclusion that leaves a confidentiality breach without a real remedy, treats loss of Bank Data or Incident costs as indirect loss, or limits liability for fraud or wilful default."
+          },
+          {
+            "term": "audit-assessment",
+            "saasTerm": "Audit rights",
+            "standard": "Third-party reports and certifications, such as ISO/IEC 27001 or SOC 2 Type II, instead of customer audits. Any on-site audit is once a year, on notice and at the customer's cost, and penetration tests need the provider's approval.",
+            "ask": "The outsourcing should not impede the bank's internal and external auditors' access to data (SA-2 2.8.2). For critical technology services the bank is expected to commission a detailed, ideally independent, assessment of the provider's IT control environment, give the report to the HKMA and confirm the controls each year (TM-G-1 7.1.1). For e-banking systems, TM-E-1 adds independent assessments before launch and, where those do not include them, regular penetration tests by independent parties (TM-E-1 3.3.1–3.3.2).",
+            "refs": [
+              "SA-2 2.8.2",
+              "TM-G-1 7.1.1",
+              "TM-E-1 3.3.1–3.3.2"
+            ],
+            "compromise": [
+              "(a) Independent assurance reports, such as a SOC 2 Type II report, count as routine audit evidence only if they cover the Services, the relevant controls and each material Subcontractor, and end within [6] months of the Bank's request or come with a bridge letter.",
+              "(b) The Bank, its auditors and its appointed assessors may carry out [one] routine on-site audit every [12] months on [20] Business Days' notice, which may be pooled with other clients, and further audits on [2] Business Days' notice after an Incident, a material finding or a request from a Regulator.",
+              "(c) Nothing in this clause limits a Regulator's own rights of inspection or review, which are not subject to the notice or frequency limits above."
+            ],
+            "holdLine": "Reports never replace audit altogether, auditors' access to Bank Data is never impeded, and the provider's e-banking systems stay within the bank's independent assessments and annual penetration tests."
+          },
+          {
+            "term": "hkma-access",
+            "saasTerm": "Regulator access",
+            "standard": "Regulators are seldom named. Audit rights are met with certifications or summaries, on notice and at the customer's cost, and regulator access is limited to what the law compels or routed through the customer.",
+            "ask": "The bank should make sure the agreement contains a clause allowing supervisory inspection or review of the provider's operations and controls for the outsourced activity, and that the HKMA's examiners can reach the data (SA-2 2.8.2). For overseas outsourcing, the HKMA's right of access should be confirmed in writing by the bank and its home or host authority (SA-2 2.9.1). For a digital bank, the MA should be able to inspect, and its powers, in particular under s.52, must not be hindered (digital bank guideline para 23).",
+            "refs": [
+              "SA-2 2.8.2",
+              "SA-2 2.9.1",
+              "Digital bank guideline 23"
+            ],
+            "compromise": [
+              "(a) The Supplier shall give the Regulator, and anyone the Regulator appoints, access to its premises, personnel, systems, records and Bank Data relating to the Services to inspect, review and copy them. Planned routine inspections may be on [5] Business Days' notice; the Regulator may attend at short or no notice when it considers it necessary.",
+              "(b) The Supplier may offer the Regulator recent independent reports before a visit, but the Regulator alone decides whether they are enough, and access is never conditional on payment, a contract change or a confidentiality undertaking from the Regulator.",
+              "(c) If a Regulator exercises its powers in relation to the Bank, the Supplier shall continue to perform the Services and shall not suspend, terminate or reprice them for that reason."
+            ],
+            "holdLine": "An express right for the HKMA and its appointees to inspect the provider's operations and controls, with no term that lets the provider delay or condition that access or hinder the MA's powers."
+          },
+          {
+            "term": "location",
+            "saasTerm": "Data location",
+            "standard": "Hosting regions are named on a trust-centre page. The provider may move workloads or add countries and sub-processors by posting an update, and support access from other countries sits outside the location promise.",
+            "ask": "For overseas outsourcing the bank should understand each country's risks (legal system, regulatory regime, infrastructure), should not outsource to a jurisdiction that is inadequately regulated or has secrecy laws that could hamper HKMA or external auditor access, and should generally tell customers the country and any later change (SA-2 2.9.1). A new country changes the scope of the outsourcing, which should be discussed with the HKMA in advance (SA-2 1.3.2).",
+            "refs": [
+              "SA-2 2.9.1",
+              "SA-2 1.3.2"
+            ],
+            "compromise": [
+              "(a) Bank Data shall be stored, processed and accessed only in the countries and regions listed in [Schedule L], including by Subcontractors and for support.",
+              "(b) The Supplier may add a country only on at least [90] days' written notice, with the information the Bank needs to assess it. No Bank Data goes there while an objection by the Bank is open, and if an objection is not resolved within [30] Business Days the Bank may end the affected Services without charge and with exit assistance.",
+              "(c) Remote support from a country not listed is allowed only if Bank Data stays stored and processed in listed countries, each session is approved by the Bank (or follows the emergency procedure in [Schedule L]), and every access is logged and leaves no local copy."
+            ],
+            "holdLine": "No new country by notice alone: the bank keeps an objection right, no move while an objection is open, and exit without charge."
+          },
+          {
+            "term": "records-hk",
+            "saasTerm": "Data retrieval and records",
+            "standard": "Self-service export in common formats; retrieval by the provider is a chargeable service with no turnaround time. The provider may suspend access for non-payment and deletes data a fixed period after termination.",
+            "ask": "The bank should keep appropriate up-to-date records on its premises for HKMA inspection under BO ss.55 and 56, and make sure data retrieved from the provider is accurate and available in Hong Kong on a timely basis (SA-2 2.8.1). Data should not sit in a jurisdiction whose secrecy laws could hamper HKMA or external auditor access (SA-2 2.9.1).",
+            "refs": [
+              "SA-2 2.8.1",
+              "SA-2 2.9.1"
+            ],
+            "compromise": [
+              "(a) The Bank may rely on self-service export tools instead of retrieval by the Supplier if they cover all Bank Data and records, produce open documented formats and are tested with the Bank [annually]; the Supplier helps at once if a test or export fails.",
+              "(b) Records older than [2] years may be retrieved within [ ] Business Days, but always within any time a Regulator requires, and the Supplier gives priority to any Regulator request.",
+              "(c) The Supplier shall not suspend, withhold or delete Bank Data or records for non-payment or any other reason. A suspension to contain a genuine security threat is limited to the affected accounts or functions and keeps the Bank's read-only access and export."
+            ],
+            "holdLine": "The bank's books and records held by the provider are never withheld, suspended or deleted, and stay fully available to the bank and, through it, the HKMA."
+          },
+          {
+            "term": "subcontracting",
+            "saasTerm": "Sub-processors",
+            "standard": "The provider may use affiliates and subcontractors at its discretion, announced by a website update with no consent right, and sometimes answers for them only by choosing them with reasonable care.",
+            "ask": "For technology outsourcing, the bank should consider a notification or approval requirement for significant sub-contracting and a term that the original provider stays responsible for sub-contracted services (TM-G-1 7.1.1). SA-2 says nothing specific on sub-contracting, but accountability for the outsourced activity stays with the bank's board and management (SA-2 2.1.1).",
+            "refs": [
+              "TM-G-1 7.1.1",
+              "SA-2 2.1.1"
+            ],
+            "compromise": [
+              "(a) The Supplier shall not sub-contract any Critical Service without the Bank's prior written consent.",
+              "(b) For any other Subcontractor that stores, processes or can access Bank Data, the Supplier gives at least [30] days' notice of its identity, location and role. If the Bank reasonably objects and the objection is not resolved, the Bank may end the affected Services without penalty.",
+              "(c) The Supplier remains responsible for each Subcontractor as for itself, binds each one that holds or can access Bank Data to terms no less protective on confidentiality, data protection, security, Incidents, audit and Regulator access, and keeps a current register of them for the Bank."
+            ],
+            "holdLine": "No release of the provider from responsibility for sub-contractors, and no sub-contractor holding Bank Data that is not bound by the access, confidentiality and personal-data terms."
+          },
+          {
+            "term": "change-control",
+            "saasTerm": "Unilateral changes",
+            "standard": "Features, sub-processors and terms change by posting an update or on short notice, and continued use counts as acceptance. Assignment to an affiliate or a successor needs no consent.",
+            "ask": "A change to the scope of an outsourcing should be discussed with the HKMA in advance, and the HKMA satisfied before it is implemented (SA-2 1.3.2), so the bank needs notice early enough to do that and a way out if it cannot. TM-G-1 expects changes to systems to go through a controlled change management process (TM-G-1 4.3.1).",
+            "refs": [
+              "SA-2 1.3.2",
+              "TM-G-1 4.3.1"
+            ],
+            "compromise": [
+              "(a) Changes to the scope, service levels, locations or charges take effect only by a change note signed by both parties.",
+              "(b) On a shared multi-tenant platform, the Supplier may instead make a change that may materially affect a Critical Service or Bank Data on at least [90] days' written notice describing its effect and a roll-back plan, if it does not reduce functionality, security, resilience, data location or Regulator access. If the Bank objects because the change needs discussion with the Regulator or weakens resilience, it may exit the affected Services without charge before the change takes effect.",
+              "(c) The Supplier shall not assign or novate this Agreement without the Bank's consent, except to an affiliate of equal financial standing whose performance it guarantees, with no change to the Services, Subcontractors or data locations."
+            ],
+            "holdLine": "No change to a material outsourcing's services, locations or delivery model without notice in time for the HKMA discussion and a penalty-free exit, and no assignment to a third party without consent."
+          },
+          {
+            "term": "incidents",
+            "saasTerm": "Security incident notice",
+            "standard": "Notice of security incidents affecting customer data \"without undue delay\", or within a period such as 72 hours after the provider confirms them, by email to an administrator or on a status page. Root-cause reports are summaries, on request.",
+            "ask": "The bank's incident procedures should run in and outside office hours, and the bank should notify the HKMA promptly of significant e-banking incidents (TM-E-1 8.2.1, 8.2.5) and report confirmed IT fraud and major security breaches in a timely way (TM-G-1 3.3.3); SA-2 asks for escalation that reaches both sides' management promptly (SA-2 2.6.4). In our reading the bank can do this, and meet any 12- or 48-hour Cap. 653 deadline, only if the provider tells it first, at any hour.",
+            "refs": [
+              "TM-E-1 8.2.1",
+              "TM-E-1 8.2.5",
+              "TM-G-1 3.3.3",
+              "SA-2 2.6.4",
+              "Cap. 653 s.28"
+            ],
+            "compromise": [
+              "(a) The Supplier shall notify the Bank of any suspected or confirmed Incident, at any hour, within [2] hours after becoming aware of it where it affects or may affect a Critical Service, Customer Data, the Bank's e-banking services or a critical computer system of the Bank, and otherwise within [24] hours. Doubtful cases take the [2]-hour limit.",
+              "(b) Notice within the [2]-hour limit is given by telephone to the Bank's named contacts as well as through the Supplier's portal, which is monitored at all times. Each notice states the facts then known without waiting for confirmation, and a status page update is not notice.",
+              "(c) The Supplier gives updates until resolution, a preliminary root-cause report within [5] Business Days and a final one within [20] Business Days, and preserves logs and evidence for at least [12] months."
+            ],
+            "holdLine": "Notice of every Incident at any hour, with no condition letting the provider wait for confirmation or its own materiality judgement, in time for the bank's HKMA and, if designated, Cap. 653 notices."
+          },
+          {
+            "term": "confidentiality",
+            "saasTerm": "Confidentiality",
+            "standard": "A mutual clause for information marked or reasonably understood as confidential, with the usual exceptions, ending a few years after termination. Customer content moves to a data processing addendum, and breaches sit within the general cap.",
+            "ask": "Besides the PDPO, the bank owes customers a common-law duty of confidentiality that covers corporate and individual customers alike (SA-2 2.5.1 and its note). Typical safeguards are the provider's undertaking that it and its staff keep confidentiality, the bank's contractual right to act on a breach, segregation of the bank's customer data and need-based access (SA-2 2.5.2). For technology outsourcing, the provider's obligations can cover the confidentiality of information its staff or agents obtain (TM-G-1 7.1.1, footnote).",
+            "refs": [
+              "SA-2 2.5.1",
+              "SA-2 2.5.2",
+              "TM-G-1 7.1.1 n."
+            ],
+            "compromise": [
+              "(a) The clause may be mutual, but Customer Data is protected in full whether or not marked confidential, and the exceptions for prior knowledge, independent development and receipt from a third party do not apply to it.",
+              "(b) Obligations for other Bank Data survive for [5] years after this Agreement ends; obligations for Customer Data survive without limit.",
+              "(c) Nothing in this clause restricts disclosure to a Regulator or the Bank's auditors, and no such disclosure needs the Supplier's consent. The Supplier is liable for its staff, agents and Subcontractors as for itself."
+            ],
+            "holdLine": "No clause limited to personal data or marked information, and no one given access to customer information who is not bound, with the provider answerable for them."
+          },
+          {
+            "term": "security-standards",
+            "saasTerm": "Security commitments",
+            "standard": "Security is described by reference to the provider's own programme and \"industry standard\" practice, which it may change. A certification or audit report is the main evidence, and the provider may suspend access for a security risk.",
+            "ask": "Technology providers should have the resources and expertise to meet the substance of the bank's IT control policies, and the agreement should set out their performance standards and other obligations clearly (TM-G-1 7.1.1). SA-2 lists segregation of the bank's customer data and need-based access among typical safeguards (SA-2 2.5.2).",
+            "refs": [
+              "TM-G-1 7.1.1",
+              "SA-2 2.5.2"
+            ],
+            "compromise": [
+              "(a) The Supplier may apply its own security programme in place of the Bank's IT control policies only to the extent the Bank has confirmed in writing that the programme was mapped against those policies and each gap closed or accepted by the Bank.",
+              "(b) The Supplier shall not reduce the overall level of security for the Services. A certification or audit report evidences compliance but does not replace the controls in [Schedule S].",
+              "(c) A known gap may stay open only under a dated remediation plan accepted in writing by the Bank's senior management. A suspension for security reasons is limited to an imminent threat, notified to the Bank at once and lifted as soon as the threat is contained."
+            ],
+            "holdLine": "No security duties that are discretionary or reasonable-efforts only, no lowering of protection by the provider alone, and no e-banking controls held by the provider left out of the contract."
+          },
+          {
+            "term": "continuity-resilience",
+            "saasTerm": "Business continuity",
+            "standard": "A general continuity programme for the provider's own business. Plans and test results stay confidential, replaced by an assurance report or a summary; there is no commitment to join customers' tests, and recovery times are best-efforts targets.",
+            "ask": "Contingency plans should be maintained and regularly tested by the bank and its providers (SA-2 2.7.1), and the bank should understand the provider's plan well enough to plan for an interruption (SA-2 2.7.2) and monitor its test results (SA-2 2.6.2). For critical outsourced technology services, the bank should develop a contingency plan, which may include an exit plan (TM-G-1 7.1.1).",
+            "refs": [
+              "SA-2 2.7.1",
+              "SA-2 2.7.2",
+              "SA-2 2.6.2",
+              "TM-G-1 7.1.1"
+            ],
+            "compromise": [
+              "(a) The Supplier maintains, and tests at least [annually], continuity and disaster recovery arrangements for the Services designed to meet the recovery times in [Schedule 3], and remedies material test findings.",
+              "(b) Instead of the full plan, the Supplier may give a detailed summary of the plan, its recovery objectives and test results, or a current independent assurance report that discloses exceptions, with supervised review of the full plan on request and answers to the Bank's follow-up questions.",
+              "(c) For each Critical Service, the Supplier takes part in [one] continuity or resilience exercise a year run by the Bank, which may be a tabletop exercise or simulation."
+            ],
+            "holdLine": "A general corporate plan is not enough: a binding commitment for the Services, and enough information to monitor them."
+          },
+          {
+            "term": "termination-exit",
+            "saasTerm": "Termination and exit",
+            "standard": "The provider may suspend or terminate on short notice for non-payment or breach. There is a short window to export data before deletion, exit help is billed at then-current rates, and regulator-driven exit is not addressed.",
+            "ask": "The bank's contingency plan should consider alternative providers or bringing the activity back in-house, with the cost, time and resources involved (SA-2 2.7.3); for critical technology services it may include an exit plan (TM-G-1 7.1.1). On termination for any reason, the bank should ensure all customer data is retrieved or destroyed (SA-2 2.5.4). In extreme cases where deficiencies are not put right, the HKMA may require the bank to make other arrangements (SA-2 1.3.5).",
+            "refs": [
+              "SA-2 2.7.3",
+              "TM-G-1 7.1.1",
+              "SA-2 2.5.4",
+              "SA-2 1.3.5"
+            ],
+            "compromise": [
+              "(a) On termination for any reason, the Supplier provides exit assistance for an Exit Period of up to [12] months ([18] for Critical Services) at rates fixed in [Schedule X], and does not end or suspend the Services during it while undisputed charges are paid.",
+              "(b) The Supplier may terminate only for undisputed charges unpaid [60] days after a final notice escalated to [the Bank's chief operating officer], on [three] months' notice, or where continuing would be unlawful; the Exit Period applies in every case.",
+              "(c) At the end of the Exit Period the Supplier returns and then deletes Bank Data. Backup copies are erased within [90] days, stay encrypted until then and may be used only to restore the Services for the Bank. No termination charge applies where a Regulator requires the Bank to make other arrangements."
+            ],
+            "holdLine": "No termination, suspension or change because a Regulator uses its powers or in resolution, no exit without assistance, and no personal data kept longer than needed."
+          },
+          {
+            "term": "governing-law",
+            "saasTerm": "Governing law",
+            "standard": "The law and courts of the provider's home jurisdiction, sometimes different for each region, with other laws brought in through online terms or a data processing addendum.",
+            "ask": "For overseas outsourcing, the agreement should preferably be governed by Hong Kong law (SA-2 2.9.1). Whatever the law, the agreement should allow supervisory inspection, and the HKMA's and auditors' access to data should not be impeded (SA-2 2.8.2).",
+            "refs": [
+              "SA-2 2.9.1",
+              "SA-2 2.8.2"
+            ],
+            "compromise": [
+              "(a) This Agreement, and every document it incorporates, is governed by the law of [England and Wales] [Singapore], and this clause prevails over any other choice of law or forum in an incorporated document.",
+              "(b) Disputes go to arbitration seated in [Singapore] under [the SIAC Rules], in English; either party may seek urgent interim relief from any competent court.",
+              "(c) Before signing, the Supplier gives the Bank's advisers the information they need for a legal opinion that neither the chosen law nor the law where the Supplier and Bank Data sit defeats the Regulator access, audit, confidentiality and exit terms. No confidentiality or dispute step restricts disclosure to, or cooperation with, a Regulator."
+            ],
+            "holdLine": "Hong Kong law where possible; any other law only with a local-law opinion, and no forum or confidentiality rule may limit disclosure to a Regulator."
+          },
+          {
+            "term": "overseas-authorities",
+            "saasTerm": "Government access requests",
+            "standard": "A published policy on law-enforcement requests and a transparency report, a promise to challenge overbroad requests, and notice to the customer only where the law allows. Disclosure is whatever the law compels.",
+            "ask": "The bank should generally get a legal opinion on overseas authorities' right of access to customer data, assess the risk, and notify the HKMA if overseas authorities seek access; if the access seems unwarranted, the HKMA may require other arrangements (SA-2 2.9.1). In our reading the bank needs prompt notice from the provider to do this.",
+            "refs": [
+              "SA-2 2.9.1"
+            ],
+            "compromise": [
+              "(a) \"Overseas Authority\" means any court, government, police, tax, supervisory or other authority of a place outside Hong Kong, other than a Regulator. Unless the law forbids it, the Supplier notifies the Bank within [2] Business Days after it, a Subcontractor or a member of its group receives a request from an Overseas Authority for Bank Data, stating the authority, the legal basis, the data sought and any deadline.",
+              "(b) The Supplier, its Subcontractors and its group members disclose Bank Data only to the extent legally compelled, first ask the authority to go to the Bank, and never give bulk or direct access or the means to decrypt it. Where the law forbids notice, the Supplier notifies the Bank as soon as the prohibition ends.",
+              "(c) If a Regulator requires other arrangements because of such access, the Supplier moves the affected Bank Data and Services to an approved location within [30] days, or any shorter period the Regulator sets, and no termination charge or loss of exit assistance applies."
+            ],
+            "holdLine": "No provider discretion over notice unless the law forbids it, no voluntary disclosure of Bank Data, and no exit charge where the HKMA requires other arrangements."
+          },
+          {
+            "term": "reporting-monitoring",
+            "saasTerm": "Service reporting",
+            "standard": "A shared status page and platform-wide availability figures. Other reporting is at the provider's discretion, and financial information is what the provider publishes.",
+            "ask": "The bank should monitor the provider's performance against target service levels (SA-2 2.3.2) and, among other things, contract performance, material problems, the provider's financial condition and risk profile, and its contingency plan and test results (SA-2 2.6.1, 2.6.2). SA-2 does not say how the bank gets that information, so a duty on the provider to report it is our drafting.",
+            "refs": [
+              "SA-2 2.3.2",
+              "SA-2 2.6.1",
+              "SA-2 2.6.2"
+            ],
+            "compromise": [
+              "(a) Each [month] the Supplier reports on the Services specifically, not only on its platform as a whole, covering service levels, Incidents and material problems, changes and open audit findings; its standard reporting pack or portal is acceptable if it does this.",
+              "(b) Each year the Supplier gives the Bank [its audited accounts] [its parent's audited accounts with a parent guarantee] [a confidential financial summary] and answers the Bank's reasonable follow-up questions.",
+              "(c) The Supplier notifies the Bank within [5] Business Days of any insolvency event, material litigation or regulatory action against it, or loss or qualification of a certification the Bank relies on; Incidents follow the Incident clause."
+            ],
+            "holdLine": "A reliable route to the information SA-2 expects the bank to monitor, never reporting left to the provider's discretion."
+          }
+        ]
+      },
       "terms": [
         {
           "id": "scope-service-levels",

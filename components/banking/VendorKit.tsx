@@ -2,7 +2,7 @@
 
 import { useEffect, useState, type ReactNode } from 'react';
 import {
-  Check, ChevronRight, CircleCheck, Cloud, Copy, Download, FileSpreadsheet,
+  Check, ChevronRight, CircleCheck, Cloud, Download, FileSpreadsheet,
   Flag, Handshake, Minus, PenLine, RotateCcw, Signature, TriangleAlert, Undo2,
 } from 'lucide-react';
 import type { ClausePlaybook, ContractTerm, KitPlaybook, Stance, Strength, VendorKit as Kit } from '@/lib/banking';
@@ -16,6 +16,8 @@ import { BODY, CARD, CHEVRON, EDGE, INNER_DISCLOSURE, PILL_BASE, SUMMARY, TITLE,
 import { BulletList, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
 import { ViewTabs } from '../ui/ViewTabs';
+import { SaasMatrix } from './SaasMatrix';
+import { Bracketed, CopyButton } from './Wording';
 import { SourceList, STRENGTH, StrengthLegend } from './Sources';
 
 // How hard to hold the line in negotiation.
@@ -98,62 +100,6 @@ function primary(t: ContractTerm): Strength {
 }
 
 const today = () => new Date().toISOString().slice(0, 10);
-
-/** Model wording with each outermost [choice] highlighted. */
-function Bracketed({ text }: { text: string }) {
-  const parts: { s: string; b: boolean }[] = [];
-  let depth = 0;
-  let buf = '';
-  for (const ch of text) {
-    if (ch === '[' && depth++ === 0) {
-      if (buf) parts.push({ s: buf, b: false });
-      buf = ch;
-    } else if (ch === ']' && depth > 0 && --depth === 0) {
-      parts.push({ s: buf + ch, b: true });
-      buf = '';
-    } else buf += ch;
-  }
-  if (buf) parts.push({ s: buf, b: depth > 0 });
-  return (
-    <>
-      {parts.map((p, i) =>
-        p.b ? (
-          <mark key={i} className="rounded bg-amber-100 px-0.5 text-ink dark:bg-amber-300/20">
-            {p.s}
-          </mark>
-        ) : (
-          <RichText key={i} text={p.s} />
-        )
-      )}
-    </>
-  );
-}
-
-function CopyButton({ text, label }: { text: string; label: string }) {
-  const [done, setDone] = useState(false);
-  const copy = async () => {
-    try {
-      await navigator.clipboard.writeText(text);
-      setDone(true);
-      setTimeout(() => setDone(false), 1800);
-    } catch {
-      // clipboard blocked: the text stays selectable on the page
-    }
-  };
-  return (
-    <button
-      type="button"
-      onClick={copy}
-      className="inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-panel px-3 text-xs font-medium text-ink transition-colors hover:border-ink/30"
-    >
-      {done ? <Check className="h-3.5 w-3.5" aria-hidden /> : <Copy className="h-3.5 w-3.5" aria-hidden />}
-      {done ? 'Copied' : label}
-      <span className="sr-only" aria-live="polite">
-        {done ? 'Copied to clipboard' : ''}
-      </span>
-    </button>
-  );
-}
 
 function Block({ title, icon, children, tone = '' }: { title: string; icon?: ReactNode; children: ReactNode; tone?: string }) {
   return (
@@ -522,6 +468,17 @@ export function VendorKit({ kit }: { kit: Kit }) {
         <BulletList items={kit.intro} />
         <SectionVisual visual={kit.lifecycle} />
       </section>
+
+      {kit.saasMatrix && (
+        <section>
+          <SectionTitle
+            aside={<span className="font-mono text-xs text-muted">{kit.saasMatrix.rows.length} terms</span>}
+          >
+            SaaS terms against SA-2 and TM-G-1
+          </SectionTitle>
+          <SaasMatrix matrix={kit.saasMatrix} titles={Object.fromEntries(kit.terms.map((t) => [t.id, t.title]))} />
+        </section>
+      )}
 
       <section>
         <SectionTitle
