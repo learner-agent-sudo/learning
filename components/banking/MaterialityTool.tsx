@@ -1,12 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Download, RotateCcw } from 'lucide-react';
-import type { MaterialityKit, MaterialityOutcomeId, MaterialityQuestion } from '@/lib/banking';
+import { Check, ChevronRight, Download, RotateCcw } from 'lucide-react';
+import type { DueDiligence, MaterialityKit, MaterialityOutcomeId, MaterialityQuestion } from '@/lib/banking';
 import { load, save } from '@/lib/useStudyState';
 import { download, plain } from '@/lib/vendorExport';
 import { RichText } from '../RichText';
-import { chipClass } from '../cardStyles';
+import { BODY, CARD, CHEVRON, SUMMARY, TITLE, chipClass } from '../cardStyles';
 import { BulletList, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
 import { SourceList } from './Sources';
@@ -16,24 +16,32 @@ type Answer = 'yes' | 'no' | 'unsure';
 interface Saved {
   name: string;
   answers: Record<string, Answer>;
+  // Due-diligence ticks, per area.
+  dd: Record<string, boolean[]>;
 }
 
 const KEY = 'hk-banking:materiality';
-const EMPTY: Saved = { name: '', answers: {} };
+const EMPTY: Saved = { name: '', answers: {}, dd: {} };
 const LABEL: Record<Answer, string> = { yes: 'Yes', no: 'No', unsure: 'Not sure' };
 
 const today = () => new Date().toISOString().slice(0, 10);
 
 function parse(v: unknown): Saved {
   if (!v || typeof v !== 'object') return EMPTY;
-  const o = v as { name?: unknown; answers?: unknown };
+  const o = v as { name?: unknown; answers?: unknown; dd?: unknown };
   const answers: Record<string, Answer> = {};
   if (o.answers && typeof o.answers === 'object') {
     for (const [k, a] of Object.entries(o.answers as Record<string, unknown>)) {
       if (a === 'yes' || a === 'no' || a === 'unsure') answers[k] = a;
     }
   }
-  return { name: typeof o.name === 'string' ? o.name : '', answers };
+  const dd: Record<string, boolean[]> = {};
+  if (o.dd && typeof o.dd === 'object') {
+    for (const [k, row] of Object.entries(o.dd as Record<string, unknown>)) {
+      if (Array.isArray(row)) dd[k] = row.map((x) => x === true);
+    }
+  }
+  return { name: typeof o.name === 'string' ? o.name : '', answers, dd };
 }
 
 /** Which track the answers lead to, or null while a deciding answer is missing. */
@@ -66,6 +74,16 @@ function noteMarkdown(kit: MaterialityKit, saved: Saved, id: MaterialityOutcomeI
     '',
     ...o.steps.map((s) => `- ${plain(s)}`),
   ];
+  if (kit.dueDiligence && id !== 'procurement') {
+    lines.push('', '## Due diligence', '');
+    for (const area of kit.dueDiligence.areas) {
+      const ticks = saved.dd[area.id] ?? [];
+      const tier = area.tier === 'material' ? ' (material arrangements)' : '';
+      lines.push(`### ${area.title}${tier}: ${ticks.filter(Boolean).length} of ${area.checks.length} done`, '');
+      area.checks.forEach((c, i) => lines.push(`- [${ticks[i] ? 'x' : ' '}] ${plain(c)}`));
+      lines.push('');
+    }
+  }
   if (id === 'banking' || id === 'material') {
     lines.push('', '## Signing before the HKMA discussion ends (model wording)', '', ...kit.condition.map((c) => `${plain(c)}\n`));
   }
@@ -131,6 +149,94 @@ const TONE: Record<MaterialityOutcomeId, string> = {
   material: 'border-rose-300 bg-rose-50 dark:border-rose-300/30 dark:bg-rose-400/10',
 };
 
+/** Pre-signing due diligence by area, with ticks kept alongside the assessment. */
+function DueDiligenceList({
+  dd,
+  ticks,
+  material,
+  onToggle,
+}: {
+  dd: DueDiligence;
+  ticks: Record<string, boolean[]>;
+  material: boolean;
+  onToggle: (area: string, i: number) => void;
+}) {
+  return (
+    <div className="grid gap-3">
+      {dd.areas.map((area) => {
+        const row = ticks[area.id] ?? [];
+        const done = area.checks.filter((_, i) => row[i]).length;
+        const optional = area.tier === 'material' && !material;
+        return (
+          <details key={area.id} className={`${CARD} min-w-0`}>
+            <summary className={SUMMARY}>
+              <ChevronRight className={CHEVRON} aria-hidden />
+              <span className={`${TITLE} min-w-0`}>
+                {area.title}
+                <span className="mt-1 block font-mono text-[11.5px] font-normal text-muted">{area.ref}</span>
+              </span>
+              <span className="flex shrink-0 flex-col items-end gap-1.5">
+                {area.tier === 'material' && (
+                  <span
+                    className={
+                      'rounded-full px-2 py-0.5 text-[10.5px] font-medium ' +
+                      (optional ? 'bg-ink/[0.06] text-muted' : 'bg-rose-50 text-rose-800 dark:bg-rose-400/15 dark:text-rose-200')
+                    }
+                  >
+                    Material
+                  </span>
+                )}
+                <span className="font-mono text-[11px] tabular-nums text-muted">
+                  {done}/{area.checks.length}
+                </span>
+              </span>
+            </summary>
+            <div className={`${BODY} space-y-4`}>
+              {optional && (
+                <p className="text-[13px] text-ink/70">
+                  For material arrangements and critical services; on the answers above it is optional.
+                </p>
+              )}
+              <ul className="space-y-1.5">
+                {area.checks.map((c, i) => {
+                  const on = row[i] ?? false;
+                  return (
+                    <li key={c.slice(0, 24)}>
+                      <label className="flex cursor-pointer items-start gap-3 rounded-lg px-1 py-1 leading-snug has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-phase">
+                        <input type="checkbox" checked={on} onChange={() => onToggle(area.id, i)} className="peer sr-only" />
+                        <span
+                          aria-hidden
+                          className={
+                            'mt-0.5 flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-md border-[1.5px] transition-colors ' +
+                            (on ? 'border-phase bg-phase text-onaccent' : 'border-ink/60 bg-panel')
+                          }
+                        >
+                          {on && <Check className="h-3 w-3" strokeWidth={3} />}
+                        </span>
+                        <span className={on ? 'text-ink/65' : ''}>
+                          <RichText text={c} />
+                        </span>
+                      </label>
+                    </li>
+                  );
+                })}
+              </ul>
+              <div>
+                <h5 className="kicker mb-1.5">Evidence to collect</h5>
+                <p className="text-sm leading-relaxed text-ink/80">{area.evidence.join(' · ')}</p>
+              </div>
+              <div>
+                <h5 className="kicker mb-1.5 text-rose-700 dark:text-rose-300">Red flags</h5>
+                <BulletList items={area.redFlags} />
+              </div>
+            </div>
+          </details>
+        );
+      })}
+    </div>
+  );
+}
+
 /** Step-by-step check of whether a SaaS or cloud deployment is (material) outsourcing, and what follows. */
 export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
   const [saved, setSaved] = useState<Saved>(EMPTY);
@@ -139,6 +245,12 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
   const update = (next: Saved) => {
     setSaved(next);
     save(KEY, next);
+  };
+  const toggleDd = (area: string, i: number) => {
+    const size = kit.dueDiligence?.areas.find((x) => x.id === area)?.checks.length ?? 0;
+    const row = Array.from({ length: size }, (_, j) => saved.dd[area]?.[j] ?? false);
+    row[i] = !row[i];
+    update({ ...saved, dd: { ...saved.dd, [area]: row } });
   };
   const answer = (id: string, a: Answer | undefined) => {
     const answers = { ...saved.answers };
@@ -153,7 +265,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
   const showBanking = a[service.id] === 'yes';
   const showFactors = showBanking && (a[banking.id] === 'yes' || a[banking.id] === 'unsure');
   const marked = kit.factors.filter((f) => a[f.id] === 'yes');
-  const started = saved.name !== '' || Object.keys(a).length > 0;
+  const started = saved.name !== '' || Object.keys(a).length > 0 || Object.values(saved.dd).some((r) => r.some(Boolean));
   const outcome = result ? kit.outcomes[result.id] : null;
   const showCondition = result && (result.id === 'banking' || result.id === 'material');
 
@@ -181,7 +293,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
           {started && (
             <button
               type="button"
-              onClick={() => window.confirm('Clear the answers and the arrangement name?') && update(EMPTY)}
+              onClick={() => window.confirm('Clear the answers, the due-diligence ticks and the arrangement name?') && update(EMPTY)}
               className="inline-flex min-h-10 items-center gap-1.5 rounded-full border border-line bg-panel px-3.5 text-xs text-ink hover:border-ink/30"
             >
               <RotateCcw className="h-3.5 w-3.5" aria-hidden /> Start again
@@ -258,6 +370,21 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
           )}
         </div>
       </section>
+
+      {kit.dueDiligence && (
+        <section aria-labelledby="due-diligence">
+          <SectionTitle>
+            <span id="due-diligence">Due diligence before signing</span>
+          </SectionTitle>
+          <BulletList items={kit.dueDiligence.intro} className="mb-4" />
+          <DueDiligenceList
+            dd={kit.dueDiligence}
+            ticks={saved.dd}
+            material={result?.id === 'material'}
+            onToggle={toggleDd}
+          />
+        </section>
+      )}
 
       <section>
         <SectionTitle>Why procurement feels the friction</SectionTitle>

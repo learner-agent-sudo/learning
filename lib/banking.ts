@@ -187,6 +187,23 @@ export interface MaterialityOutcome {
   steps: string[];
 }
 
+// One area of pre-signing due diligence; 'material' areas are for material
+// arrangements and critical services.
+export interface DueDiligenceArea {
+  id: string;
+  title: string;
+  tier: 'all' | 'material';
+  ref: string;
+  checks: string[];
+  evidence: string[];
+  redFlags: string[];
+}
+
+export interface DueDiligence {
+  intro: string[];
+  areas: DueDiligenceArea[];
+}
+
 export interface MaterialityKit {
   intro: string[];
   // Asked in order: is it outsourcing, and is it banking-related?
@@ -194,6 +211,7 @@ export interface MaterialityKit {
   // Any yes makes it material on our screen.
   factors: MaterialityQuestion[];
   outcomes: Record<MaterialityOutcomeId, MaterialityOutcome>;
+  dueDiligence?: DueDiligence;
   friction: SectionVisualData;
   frictionPoints: string[];
   // Model wording for signing before the HKMA discussion ends.

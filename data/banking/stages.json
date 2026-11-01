@@ -2130,7 +2130,7 @@
           {
             "label": "Due diligence",
             "value": "SA-2 2.3.1",
-            "note": "Financial soundness, reputation, technical and operational capability, banking experience"
+            "note": "Financial soundness, reputation, technical and operational capability, banking experience (checklist: Materiality tab)"
           },
           {
             "label": "Discuss with the HKMA",
@@ -5354,6 +5354,221 @@
             "**Exit plan:** keep a tested contingency and exit route in case the provider fails or the HKMA requires other arrangements (SA-2 1.3.5, 2.7)."
           ]
         }
+      },
+      "dueDiligence": {
+        "intro": [
+          "**Before selection, not after signing:** SA-2 asks for due diligence before a provider is selected, looking beyond cost and service quality at its financial soundness, reputation, management, technical and operational capability and capacity, fit with the bank's culture and plans, familiarity with banking, and ability to keep pace with innovation (SA-2 2.3.1).",
+          "**Critical operations need more:** Before relying on a third party for a critical operation, the bank should verify that the provider has at least equivalent operational resilience; only where that verification is not feasible may it take other steps to satisfy itself that the engagement will not weaken its ability to deliver (OR-2 6.2). For critical technology services, the bank is expected to commission a detailed, ideally independent, assessment of the provider's IT control environment and give the report to the HKMA (TM-G-1 7.1.1).",
+          "**Scale it, and keep the file:** areas marked **Material** are for material arrangements and critical services; the rest apply to every outsourcing. SA-2 sets no tiers, so the depth is the bank's judgement. As good practice, keep the evidence, the open points and how each was closed for the approver and, where it applies, for the HKMA discussion (SA-2 1.3.2). Ticks are saved with the assessment above and go into its note."
+        ],
+        "areas": [
+          {
+            "id": "identity",
+            "title": "Who they are",
+            "tier": "all",
+            "ref": "SA-2 2.3.1",
+            "checks": [
+              "Contracting entity, place of incorporation and the group behind it",
+              "Ownership chart down to ultimate beneficial owners",
+              "Sanctions, AML and adverse-media screening of the entity, its owners and key subcontractors, under the bank's own policies",
+              "Litigation, regulatory actions and data breaches in the last [five] years",
+              "Banking clients and references, ideally from other regulated institutions (familiarity with the banking industry)"
+            ],
+            "evidence": [
+              "Company registry extract",
+              "Ownership chart",
+              "Screening results",
+              "Reference calls"
+            ],
+            "redFlags": [
+              "Owners or key operations in a sanctioned or high-risk jurisdiction",
+              "Unexplained recent changes of ownership",
+              "No regulated financial clients"
+            ]
+          },
+          {
+            "id": "financial",
+            "title": "Financial soundness",
+            "tier": "all",
+            "ref": "SA-2 2.3.1, 2.6.2",
+            "checks": [
+              "Audited accounts for the last [two to three] years, and the parent's where the contracting entity is thin",
+              "Going concern, profitability and, for a start-up, funding runway",
+              "Whether a parent guarantee is needed",
+              "Insurance cover and limits",
+              "How the bank will regularly review the provider's financial condition and risk profile, with the frequency set in its own policy (SA-2 2.6.2)"
+            ],
+            "evidence": [
+              "Audited financial statements",
+              "Credit report or rating",
+              "Insurance certificates"
+            ],
+            "redFlags": [
+              "Qualified audit opinion or going-concern note",
+              "Less than [12] months' runway",
+              "Refusal to share any financial information"
+            ]
+          },
+          {
+            "id": "capability",
+            "title": "Capability, capacity and support",
+            "tier": "all",
+            "ref": "SA-2 2.3.1; TM-G-1 7.1.1",
+            "checks": [
+              "Technical and operational capability for the service, and capacity for the bank's volumes and growth",
+              "Resources and expertise to meet the substance of the bank's IT control policies (TM-G-1 7.1.1)",
+              "The support tier on offer: response and restoration times, escalation contacts, and whether they are fixed in the contract (see Service parity)",
+              "Dependence on a few key people",
+              "Product roadmap and ability to keep pace with innovation"
+            ],
+            "evidence": [
+              "Organisation chart for the service",
+              "Support plan and service-level schedule",
+              "Capacity or load-test results"
+            ],
+            "redFlags": [
+              "Support by ticket only, with no committed times",
+              "Service levels set in a policy the provider can change",
+              "Key functions resting on one or two people"
+            ]
+          },
+          {
+            "id": "security",
+            "title": "Security and control environment",
+            "tier": "material",
+            "ref": "TM-G-1 7.1.1; TM-E-1 3.3; PDPO DPP4(2)",
+            "checks": [
+              "Scope of ISO/IEC 27001 certification, and whether it covers this service",
+              "SOC 2 Type II or equivalent: period, scope, exceptions, subservice organisations and the controls the bank must run itself",
+              "Independent assessment of the IT control environment for a critical technology service, with the report for the HKMA (TM-G-1 7.1.1)",
+              "Penetration testing, vulnerability management, encryption and key management, privileged access",
+              "For e-banking systems, readiness for the bank's pre-launch independent assessment (TM-E-1 3.3.1)",
+              "Security incidents in the last [three] years and how they were handled"
+            ],
+            "evidence": [
+              "Certificates and their scope",
+              "Assurance reports",
+              "Penetration test summary",
+              "Completed security questionnaire"
+            ],
+            "redFlags": [
+              "Exceptions in key controls",
+              "Assurance scope that excludes the service",
+              "No independent testing"
+            ]
+          },
+          {
+            "id": "resilience",
+            "title": "Resilience and continuity",
+            "tier": "material",
+            "ref": "OR-2 4.2.1, 6.2; SA-2 2.7.1–2.7.2",
+            "checks": [
+              "Recovery time and point objectives against the bank's tolerance for disruption for each critical operation (OR-2 4.2.1)",
+              "Verify resilience at least equivalent to the bank's; only where that is not feasible, other steps showing the engagement will not weaken it (OR-2 6.2)",
+              "Business continuity and disaster recovery plans and recent test results (SA-2 2.7.1–2.7.2)",
+              "Architecture: regions, failover, single points of failure",
+              "The provider's own critical suppliers, and restoration priority in a multi-customer outage"
+            ],
+            "evidence": [
+              "Recovery test reports",
+              "Architecture diagrams",
+              "Recovery commitments in the draft contract"
+            ],
+            "redFlags": [
+              "Recovery times beyond the bank's tolerance",
+              "Untested disaster recovery",
+              "A single region or data centre for a critical service"
+            ]
+          },
+          {
+            "id": "data",
+            "title": "Data, location and access",
+            "tier": "all",
+            "ref": "SA-2 2.5, 2.8, 2.9.1",
+            "checks": [
+              "Where data is stored, processed and accessed, including for support",
+              "Sub-processors and where they are",
+              "Segregation of the bank's customer data from other clients' data, and access on a need basis (SA-2 2.5.2)",
+              "Ability to retrieve accurate data into Hong Kong on time, and to return and delete it at exit (SA-2 2.8.1, 2.5.4)",
+              "For overseas processing: a legal opinion on overseas authorities' access, and no secrecy laws that could hamper HKMA or auditor access (SA-2 2.9.1)"
+            ],
+            "evidence": [
+              "Data-flow map",
+              "Sub-processor list",
+              "Local-law opinion"
+            ],
+            "redFlags": [
+              "Support or data locations the provider will not name",
+              "A jurisdiction with secrecy laws that could block HKMA access",
+              "No tested export or deletion process"
+            ]
+          },
+          {
+            "id": "regulatory",
+            "title": "Regulatory terms",
+            "tier": "all",
+            "ref": "SA-2 2.8.2; digital bank guideline para 23",
+            "checks": [
+              "Will accept HKMA access and inspection rights, the bank's audit rights and incident notice terms (Vendors tab)",
+              "Will accept sub-contracting control, data-location limits and assisted exit",
+              "Offers a financial-services addendum or has signed regulator terms with other banks",
+              "For a digital bank: nothing in the arrangement would hinder the MA's powers, in particular under s.52 (guideline para 23)"
+            ],
+            "evidence": [
+              "Mark-up of the regulatory clauses",
+              "Financial-services addendum",
+              "Confirmation of other regulated clients"
+            ],
+            "redFlags": [
+              "Refuses a regulator access clause",
+              "Will contract only on unamended standard terms",
+              "Regulator access only through the bank or by court order"
+            ]
+          },
+          {
+            "id": "exit",
+            "title": "Concentration and exit",
+            "tier": "material",
+            "ref": "TM-G-1 7.1.1; SA-2 2.7.3",
+            "checks": [
+              "How much of the bank's critical technology already sits with this provider or its group (TM-G-1 7.1.1)",
+              "Alternative providers, or bringing the service back in-house, with the cost, time and resources involved (SA-2 2.7.3)",
+              "Data portability and formats; lock-in through proprietary features",
+              "An exit plan the provider will support"
+            ],
+            "evidence": [
+              "Concentration analysis",
+              "Exit plan",
+              "Export test"
+            ],
+            "redFlags": [
+              "No portable export",
+              "The provider already runs several of the bank's critical operations",
+              "Exit assistance only at the provider's discretion"
+            ]
+          },
+          {
+            "id": "aml",
+            "title": "If the vendor does AML work",
+            "tier": "all",
+            "ref": "AML/CFT Guideline 4.10.4, 4.11.2, 5.8, 6.13",
+            "checks": [
+              "eKYC: how the technology guards against impersonation, and the evidence the bank can show the HKMA (4.10.4)",
+              "Screening databases: how the bank will test completeness and accuracy, for example by sample testing (6.13)",
+              "Transaction monitoring: documentation of parameters and thresholds, and independent validation (5.8)",
+              "Whether the arrangement is outsourcing or reliance on an intermediary, which changes the bank's duties (4.11.2)"
+            ],
+            "evidence": [
+              "Model and parameter documentation",
+              "Validation reports",
+              "Sample-test results"
+            ],
+            "redFlags": [
+              "Black-box screening or monitoring with no documentation",
+              "No way to test list completeness"
+            ]
+          }
+        ]
       },
       "friction": {
         "type": "steps",
