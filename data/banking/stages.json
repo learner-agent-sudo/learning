@@ -2410,6 +2410,24 @@
               "(c) The Supplier notifies the Bank within [5] Business Days of any insolvency event, material litigation or regulatory action against it, or loss or qualification of a certification the Bank relies on; Incidents follow the Incident clause."
             ],
             "holdLine": "A reliable route to the information SA-2 expects the bank to monitor, never reporting left to the provider's discretion."
+          },
+          {
+            "term": "service-parity",
+            "saasTerm": "Support tiers and priority",
+            "standard": "Support plans tiered by spend, with response targets in a policy the provider can change, \"commercially reasonable efforts\" to restore, and the restoration order in a multi-customer outage at the provider's discretion. No most-favoured-customer terms.",
+            "ask": "The agreement should set out the type and level of service (SA-2 2.4.1), the bank should monitor performance against target service levels (SA-2 2.3.2), and for technology outsourcing the provider's performance standards should be specified (TM-G-1 7.1.1). Neither module asks for a most-favoured-customer clause; OR-2 adds that the bank should not enter into or continue a third-party arrangement that may weaken a critical operation's resilience (OR-2 6.2).",
+            "refs": [
+              "SA-2 2.4.1",
+              "SA-2 2.3.2",
+              "TM-G-1 7.1.1",
+              "OR-2 6.2"
+            ],
+            "compromise": [
+              "(a) The Supplier shall provide the Services at [Service Tier], with the response, restoration and escalation commitments in [Schedule 3], and shall not change them to the Bank's detriment without the Bank's written consent.",
+              "(b) In an Incident affecting more than one customer, the Supplier shall not give the Bank's Critical Services a lower restoration priority than its other regulated financial-institution customers on the same service tier.",
+              "(c) Instead of a most-favoured-customer clause, the Supplier certifies each year that the Bank's charges and service levels are no less favourable than for comparable regulated customers, and every [two] years the Bank may benchmark them, with a right to exit without charge if a gap of more than [10]% is not closed within [60] days."
+            ],
+            "holdLine": "For a critical operation, service levels the provider cannot lower on its own, and restoration priority no worse than its other regulated financial customers on the same tier."
           }
         ]
       },
@@ -2504,6 +2522,100 @@
               }
             ],
             "escalate": "Suggested: deviations affecting Critical Services to the Head of Legal with the CRO or the outsourcing committee; other deviations to the business owner with Legal and Procurement, recorded in the outsourcing risk assessment."
+          }
+        },
+        {
+          "id": "service-parity",
+          "title": "Service parity and most-favoured customer terms",
+          "appliesTo": [
+            "all",
+            "critical"
+          ],
+          "summary": "A small digital bank often gets a lower support tier, slower answers and a later place in the restoration queue than a provider's large clients. HKMA guidance does not ask for a most-favoured-customer (MFN) clause. It does expect service levels to be set out and monitored, and it asks the bank not to enter into or continue a third-party arrangement that may weaken a critical operation's resilience; that test has no size qualifier. Fixed service commitments and restoration priority do more than a price MFN.",
+          "require": [
+            "**Service levels in the contract:** the type and level of service, and the provider's contractual liabilities and obligations, should be clearly set out (SA-2 2.4.1), and performance monitored against target service levels (SA-2 2.3.2). For technology outsourcing the agreement should specify the provider's performance standards (TM-G-1 7.1.1).",
+            "**The resilience test has no size qualifier:** before relying on a third party for a critical operation, the bank should verify that the provider has at least equivalent operational resilience; only where that verification is not feasible may it take other steps to satisfy itself that the engagement will not weaken its ability to deliver. The bank should not enter into, or continue, an arrangement that may weaken that resilience (OR-2 6.2). OR-2 lets mapping documentation be proportionate to size (OR-2 5.3), but not this test. A support tier that cannot meet the bank's tolerance for disruption (OR-2 4.2.1) is therefore a resilience problem, not only a commercial one.",
+            "**Leverage and concentration:** the bank should try to avoid excessive reliance on a single provider for critical technology services (TM-G-1 7.1.1). A credible alternative is also the bank's best lever on service.",
+            "**No HKMA rule on MFN:** neither SA-2 nor TM-G-1 asks for a most-favoured-customer clause; it is a commercial term (drafting point).",
+            "**Competition law:** a clause tying a provider's terms to what it gives others is an agreement that the First Conduct Rule of the Competition Ordinance (Cap. 619) can reach. Our reading is that the risk is low where neither party has market power, but parity clauses have drawn the Competition Commission's attention: it accepted commitments from online travel agents in 2020 over wide parity clauses (as reported). Keep any MFN narrow and check with competition counsel."
+          ],
+          "cloud": "Large cloud and SaaS providers usually sell support plans by spend, and some publish a financial-services addendum for regulated customers. Ask for it: it often carries regulator terms a small bank could not negotiate alone, which frees negotiating capital for service levels.",
+          "sources": [
+            {
+              "label": "SPM SA-2 Outsourcing",
+              "ref": "2.3.2, 2.4.1",
+              "strength": "hkma-guidance",
+              "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+            },
+            {
+              "label": "SPM OR-2 Operational resilience",
+              "ref": "4.2.1, 6.2",
+              "strength": "hkma-guidance"
+            },
+            {
+              "label": "SPM TM-G-1 Technology risk",
+              "ref": "7.1.1",
+              "strength": "hkma-guidance"
+            },
+            {
+              "label": "Competition Ordinance (Cap. 619)",
+              "ref": "s.6 (First Conduct Rule)",
+              "strength": "statute",
+              "url": "https://www.elegislation.gov.hk/hk/cap619"
+            },
+            {
+              "label": "Hogan Lovells: Hong Kong commitments on parity clauses",
+              "ref": "April 2020, law-firm summary",
+              "strength": "good-practice",
+              "url": "https://www.hoganlovells.com/-/media/hogan-lovells/pdf/2020-pdfs/2020_04_15_global_regulatory_alert_parity-with-international-regulators.pdf"
+            }
+          ],
+          "playbook": {
+            "stance": "expected",
+            "why": "SA-2 expects service levels to be set out and monitored, and OR-2 asks the bank not to rely on a third party that may weaken a critical operation's resilience. A small bank's lower support tier is where that breaks first. Price parity is commercial; priority in a crisis goes to resilience.",
+            "preferred": [
+              "**Service tier written in:** the support tier, response and restoration times and named escalation contacts for the Services are fixed in the contract, not in a support policy the Supplier can change, and match the Bank's tolerances for disruption (OR-2 4.2.1).",
+              "**No lower priority:** in an Incident affecting several customers, the Supplier does not restore the Bank's Critical Services later, or allocate capacity or support to them less favourably, than for its other regulated financial-institution customers on the same service tier. OR-2 does not ask for this term; it is how the bank shows the arrangement will not weaken a critical operation (OR-2 6.2).",
+              "**Most-favoured customer:** if the Supplier gives a similarly situated customer lower charges, better service levels or better service credits for substantially the same services, it offers them to the Bank from the same date, and certifies compliance each year.",
+              "**Benchmarking:** every [two] years the Bank may benchmark charges and service levels through an independent benchmarker under confidentiality, with renegotiation and, failing that, exit without charge."
+            ],
+            "fallback": [
+              "**Parity without price MFN:** accept no MFN on price if the fixed service tier and restoration priority stay.",
+              "**Certificate instead of audit:** accept an annual officer's certificate of MFN or parity compliance instead of any review of other customers' terms.",
+              "**Narrow comparator:** accept a comparator limited to regulated financial-institution customers in [Hong Kong] [Asia] buying the same services at comparable volume.",
+              "**Credits plus exit, non-critical services only:** for a service that supports no critical operation, where the Supplier will not commit to priority, accept service credits only with a right to exit without charge after [three] serious service failures in [12] months."
+            ],
+            "redLines": [
+              "**Fixed service levels for critical operations:** no contract for a service supporting a critical operation whose service levels or support terms the Supplier can lower on its own, or that cannot meet the Bank's tolerance for disruption (OR-2 4.2.1, 6.2).",
+              "**No lower priority than peers:** for a Critical Service, no term letting the Supplier restore it later than, or give it less capacity than, its other regulated financial-institution customers on the same tier in a multi-customer incident (see OR-2 6.2)."
+            ],
+            "model": [
+              "(a) The Supplier shall provide the Services at [Service Tier], with the response, restoration and escalation commitments in [Schedule 3], for the whole term, and shall not change that tier or those commitments to the Bank's detriment without the Bank's written consent.",
+              "(b) In any Incident affecting more than one of its customers, the Supplier shall not give the Bank's Critical Services a lower priority for restoration, or a less favourable allocation of capacity or support, than it gives to its other customers that are regulated financial institutions receiving the same service tier.",
+              "(c) If during the term the Supplier provides substantially the same services, in comparable volumes, to a similarly situated customer at lower charges or on more favourable service levels or service credits, it shall offer the same terms to the Bank from the date they were first given, and shall confirm in writing each year that it has complied with this paragraph.",
+              "(d) Every [two] years the Bank may have an independent benchmarker, bound by confidentiality, compare the charges and service levels with those for comparable services. If they are more than [10]% less favourable, the parties shall negotiate in good faith to close the gap and, failing agreement within [60] days, the Bank may terminate the affected Services without charge."
+            ],
+            "watchFor": [
+              "Support levels defined by a policy on the Supplier's website that it may change at any time.",
+              "\"Commercially reasonable efforts\" to restore, with no priority commitment.",
+              "MFN comparators so narrow (same volume, term, region and date) that no customer ever qualifies.",
+              "Service credits stated as the sole remedy for downtime, which shuts out termination for persistent failure."
+            ],
+            "pushback": [
+              {
+                "says": "We don't give MFN clauses to any customer.",
+                "reply": "Then commit to the service tier we are buying and to no-lower restoration priority among regulated financial customers. OR-2 asks us not to enter into an arrangement that may weaken our critical operations, and a lower place in the restoration queue is that risk (OR-2 6.2). Price we can discuss separately."
+              },
+              {
+                "says": "Support tiers depend on spend.",
+                "reply": "We are not asking for a higher tier, only that the tier we pay for, with its response and restoration times, is fixed in the contract and cannot be changed without our consent."
+              },
+              {
+                "says": "We cannot disclose other customers' terms.",
+                "reply": "We don't need them: an annual compliance certificate, or an independent benchmarker under confidentiality, is enough."
+              }
+            ],
+            "escalate": "A contract for a critical operation without fixed service levels or no-lower restoration priority is outside the red lines and should not be signed under this playbook; any exception needs a written decision by the CRO and the Head of Legal. Dropping price MFN or benchmarking is a commercial decision for the budget holder."
           }
         },
         {
@@ -4904,6 +5016,133 @@
               }
             ],
             "escalate": "Suggest the Head of Marketing and Head of Legal approve deviations, with the Data Protection Officer signing off any change to data use and Compliance any departure from the Code-based terms."
+          }
+        },
+        {
+          "id": "promotions",
+          "title": "Promotions with partners: lucky draws, gifts and rewards",
+          "appliesTo": [
+            "agents",
+            "personal-data"
+          ],
+          "summary": "When an agency, platform or merchant partner runs a promotion for the bank, the bank stays responsible for it. A lucky draw needs a licence, the Code of Banking Practice governs the materials and the delivery of promised benefits, gifts tied to investment or insurance products are restricted, and using personal data for marketing engages PDPO Part 6A.",
+          "require": [
+            "**Lucky draws need a licence:** a trade promotion competition, such as a lucky draw for customers, must be licensed by the Office of the Licensing Authority under s.22 of the Gambling Ordinance (Cap. 148). An unlicensed one can be an unlawful lottery: the Government told LegCo in 2017 that a merchant which ran an online lucky draw without a licence was prosecuted for organising an unlawful lottery under s.9 (as reported; check the reply). The licence carries conditions on prizes, entry, the draw and publication of results; check the current conditions with the OLA before launch.",
+            "**Fair materials, by partners too:** advertising and promotional materials should be fair and reasonable, not misleading, and show the conditions of promotional benefits clearly wherever practicable; the bank is responsible for ensuring that materials its engaged or collaborating partners publish or share during the engagement meet those standards (CoBP 11.2, 11.7).",
+            "**Deliver what was promised:** once customers are told they are eligible, the bank should endeavour to deliver the benefit within a reasonable time and tell them promptly if it cannot; advertising for a benefit no longer available should be updated or withdrawn as soon as practicable (CoBP 11.2, 11.3).",
+            "**Records and a way to verify:** keep proper records of digital marketing materials and communications, and do not leave them to the channel provider without contract terms (CoBP 11.5); give the public a convenient channel to check that a promotion is genuine, kept open for a reasonable time after it ends (CoBP 11.8).",
+            "**Rates and fees:** material promoting a banking service shows the interest rate and the fees normally incurred clearly, with the APR where an interest rate is quoted, except for rates commonly quoted as an annualised floating rate, where the normal fees and charges must still be shown clearly (CoBP 11.6).",
+            "**Unfair practices:** banking services are exempt from the Trade Descriptions Ordinance (Cap. 362), but the bank should still endeavour to avoid its unfair trade practices, such as misleading omissions, bait advertising and bait-and-switch (CoBP 11.16).",
+            "**Investment and insurance products:** an HKMA circular of 13 July 2009 is reported to say gifts should not be used as an inducement to invest in investment products, while fee reductions and gifts for brand promotion fall outside that. For insurance, the Insurance Authority's Guideline on Offering of Gifts (GL25) restricts gifts by class of product. Check both before attaching a gift to these products.",
+            "**Direct marketing:** using customers' personal data to market a promotion to them is direct marketing under PDPO Part 6A, which needs notice and consent before use (PDPO s.35C); giving data to a partner for the partner's own marketing needs written notice and the customer's written consent (PDPO ss.35J, 35K). A partner handling data only for the bank is a data processor, whom the bank must control by contract (PDPO Sch. 1, DPP4(2))."
+          ],
+          "sources": [
+            {
+              "label": "Gambling Ordinance (Cap. 148)",
+              "ref": "ss.9, 22",
+              "strength": "statute",
+              "note": "Trade promotion competition licences are issued by the Office of the Licensing Authority (Home Affairs Department).",
+              "url": "https://www.elegislation.gov.hk/hk/cap148"
+            },
+            {
+              "label": "Government reply to LegCo: lucky draws in trade promotion",
+              "ref": "LCQ6, 28 June 2017",
+              "strength": "good-practice",
+              "note": "Government statement on licensing and the prosecution of an unlicensed online lucky draw.",
+              "url": "https://www.info.gov.hk/gia/general/201706/28/P2017062800517.htm"
+            },
+            {
+              "label": "Code of Banking Practice (Dec 2023)",
+              "ref": "11.2, 11.3, 11.5–11.8, 11.16",
+              "strength": "industry-code"
+            },
+            {
+              "label": "HKMA circular: incentives for investment products",
+              "ref": "13 July 2009 (B1/15C)",
+              "strength": "hkma-guidance",
+              "note": "Reported in search results; the circular's own text was not reviewed.",
+              "url": "https://www.hkma.gov.hk/eng/regulatory-resources/regulatory-guides/circulars/2009/07/circu_20090713-2"
+            },
+            {
+              "label": "Insurance Authority GL25: Guideline on Offering of Gifts",
+              "ref": "2019",
+              "strength": "statutory-guideline",
+              "note": "For insurers and licensed insurance intermediaries, including banks licensed as insurance agencies.",
+              "url": "https://ia.org.hk/en/legislative_framework/files/GL25.pdf"
+            },
+            {
+              "label": "PDPO (Cap. 486)",
+              "ref": "ss.35C, 35J, 35K; Sch. 1 DPP4(2)",
+              "strength": "statute",
+              "cites": [
+                {
+                  "cap": "486",
+                  "section": "35C"
+                },
+                {
+                  "cap": "486",
+                  "section": "35J"
+                },
+                {
+                  "cap": "486",
+                  "section": "35K"
+                },
+                {
+                  "cap": "486",
+                  "section": "Sch. 1 s.4"
+                }
+              ]
+            }
+          ],
+          "playbook": {
+            "stance": "must-have",
+            "why": "An unlicensed lucky draw risks a criminal offence, and the Code says the bank is responsible for ensuring its partners' promotional materials are fair and not misleading (CoBP 11.7). The contract is how the bank keeps control of both; the approvals and deadlines below are contract controls, not Code requirements.",
+            "preferred": [
+              "**Bank approves everything:** every promotional material, channel and change is approved by the Bank before use, and withdrawn within [24] hours on the Bank's request (contract controls supporting CoBP 11.2, 11.7).",
+              "**Licence first:** for any lucky draw, a trade promotion competition licence is in place before launch, and the draw, results and records follow its conditions (Gambling Ordinance s.22).",
+              "**Fulfilment:** the Supplier delivers rewards to eligible customers within [10] Business Days, tells the Bank at once of any shortfall, and funds a substitute benefit of equal or greater value that the Bank approves (contract controls supporting CoBP 11.3).",
+              "**Records and verification:** the Supplier keeps all materials and communications for [2] years after the campaign and points enquiries to the Bank's verification channel (CoBP 11.5, 11.8).",
+              "**Data for this campaign only:** the Supplier uses Personal Data only on the Bank's instructions, for this promotion, and never for its own or anyone else's marketing (PDPO Sch. 1 DPP4(2); s.35K)."
+            ],
+            "fallback": [
+              "**Pre-approved templates:** accept partner posts without per-post approval only if they are drawn from a template set the Bank has approved, with take-down within [24] hours.",
+              "**Partner holds the licence:** accept the partner holding the trade promotion competition licence in its own name only if the licence is granted before any draw starts, the Bank reviews the licence and its conditions first, and the partner indemnifies the Bank for any breach.",
+              "**Partner's own audience:** accept the partner promoting the campaign to its own customers with its own data and consents, provided no Bank customer data is shared with it."
+            ],
+            "redLines": [
+              "**No unlicensed draw:** no lucky draw or other promotion in which chance decides prizes without a trade promotion competition licence (Gambling Ordinance s.22).",
+              "**No uncontrolled materials:** no partner material about the Bank's products published outside the Bank's approval (directly or through an approved template set) and take-down control (CoBP 11.7).",
+              "**No data for the partner's own marketing** without the customer's written consent (PDPO s.35K).",
+              "**No gift as an inducement** to invest in an investment product, and no gift for an insurance product beyond what GL25 allows."
+            ],
+            "model": [
+              "(a) The Supplier shall not publish, share or change any advertisement or promotional material about the Bank or its products, or run any promotion for them, unless the Bank has approved it in writing, and shall withdraw any material within [24] hours of the Bank's request.",
+              "(b) Before any lucky draw or other competition in which chance decides prizes starts, the [Bank] [Supplier] shall obtain a trade promotion competition licence, and the Supplier shall run the competition, publish the results and keep records as the licence requires.",
+              "(c) The Supplier shall deliver each promotional benefit to eligible customers within [10] Business Days after eligibility is confirmed, shall tell the Bank at once if it cannot, and shall provide at its own cost a substitute benefit of equal or greater value that the Bank approves.",
+              "(d) The Supplier shall keep copies of all promotional materials and communications for at least [2] years after the promotion ends, give them to the Bank on request, and refer anyone who asks whether a promotion is genuine to the Bank's verification channel.",
+              "(e) The Supplier shall use Personal Data received for the promotion only on the Bank's documented instructions and for that promotion, and shall not use it in direct marketing for itself or anyone else."
+            ],
+            "watchFor": [
+              "Influencers or affiliates posting about the Bank's products outside the approved materials.",
+              "Lucky draws presented as in-app \"games\" or \"challenges\" with no licence.",
+              "Rewards that depend on a partner's stock, with no duty to substitute.",
+              "Data clauses that let the partner keep customer data for its own CRM."
+            ],
+            "pushback": [
+              {
+                "says": "Our influencers need creative freedom.",
+                "reply": "They can work from an approved template set with fast take-down. The Code says the Bank is responsible for ensuring what they publish is fair and not misleading (CoBP 11.7)."
+              },
+              {
+                "says": "It's a game in our app, not a lottery.",
+                "reply": "If chance decides who wins a prize, treat it as a trade promotion competition and have the licence in hand before launch. If you think no licence is needed, that goes to our Head of Legal first."
+              },
+              {
+                "says": "We need the customer list to send the rewards.",
+                "reply": "We will give you only what delivery needs, for this promotion, and you may not use it for your own or anyone else's marketing (PDPO s.35K; model wording (e))."
+              }
+            ],
+            "escalate": "A promotion in which chance decides prizes without a licence, or any use of customer data beyond the consents held, goes to the Head of Legal and the data protection officer. A gift linked to an investment or insurance product goes to Compliance."
           }
         }
       ],
