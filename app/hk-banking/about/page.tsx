@@ -108,18 +108,30 @@ export default function HkBankingAboutPage() {
         </p>
         <p>
           Three tools were added to Technology &amp; outsourcing in October 2026. The <strong>SaaS terms</strong> matrix
-          at the top of the Vendors tab sets 15 terms as they usually appear in a provider&apos;s standard paper
+          at the top of the Vendors tab sets 16 terms as they usually appear in a provider&apos;s standard paper
           against what SA-2 and TM-G-1 ask of the bank, with compromise wording drawn from each clause&apos;s fallback
           position; the descriptions of standard paper are general and name no provider. The{' '}
           <strong>Materiality</strong> tab walks one deployment through SA-2&apos;s outsourcing test, the
           banking-related trigger for advance discussion with the HKMA (SA-2 1.3.2) and a materiality screen. Neither
           SA-2 nor the digital bank guideline defines &ldquo;material&rdquo;, so the screen is our own and says so.
+          Its due-diligence checklist follows SA-2 2.3.1, TM-G-1 7.1.1 and OR-2 6.2; the split between every
+          outsourcing and material arrangements is our judgement, as SA-2 sets no tiers.
           The <strong>Incidents</strong> tab sets out the notification clocks when a critical vendor has an incident;
           the Cap. 653 deadlines come from the official text, the HKMA and customer tracks from TM-E-1, TM-G-1 and the
           HKMA&apos;s 2010 circular, and the SFC and PCPD tracks from practitioners&apos; summaries and the PCPD&apos;s
           2023 guidance, marked for checking. Each was drafted, then checked by independent reviewers against the
           source documents and statute text, and corrected. Where a clause or tool cites a statute section, its
           official text opens beneath the citation.
+        </p>
+        <p>
+          Two clauses were added in November 2026. <strong>Service parity</strong> answers a small bank&apos;s weaker
+          bargaining position: HKMA guidance does not ask for a most-favoured-customer clause, so the clause leans on
+          fixed service levels and restoration priority (SA-2, TM-G-1, OR-2) and notes the competition-law point,
+          which rests on the Competition Ordinance and a law-firm summary. <strong>Promotions with partners</strong>{' '}
+          draws on the Code of Banking Practice (December 2023) and the PDPO&apos;s official text; the lucky-draw
+          licence (Gambling Ordinance), the HKMA&apos;s 2009 circular on gifts with investment products and the
+          Insurance Authority&apos;s GL25 are cited from government and regulator pages found by search, whose own
+          text could not be opened here, so check their current wording.
         </p>
         <p>
           The <strong>Digital assets, wallets &amp; P2P</strong> stage (October 2026) was checked differently, because

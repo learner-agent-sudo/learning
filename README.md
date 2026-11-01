@@ -86,7 +86,8 @@ specifics and pitfalls, and a glossary. Content lives in
 `data/banking/stages.json`; `scripts/build_statute_extracts.py` matches
 every statute citation against the official text and fails the build if
 one does not resolve. Stage 6 (Technology & outsourcing) also has a
-**Vendors** tab: the 25 clauses a vendor, cloud or outsourcing contract needs,
+**Vendors** tab: the 27 clauses a vendor, cloud or outsourcing contract needs (including
+service parity for a small bank and promotions run with partners),
 each with its sources and their legal force (PDPO, HKMA guidelines and SPM
 modules, the AML Guideline, the Code of Banking Practice), a lifecycle from
 risk assessment to exit, and a negotiation playbook per clause: stance
@@ -96,12 +97,14 @@ pushback and who signs off a deviation. A review tracker marks each clause
 against the contract under review (meets, fallback agreed, gap, not
 applicable) with notes, kept in the browser, and exports the review as a
 spreadsheet (.csv) or the whole playbook as Markdown. The Vendors tab opens
-with a **SaaS terms** matrix: 15 terms as standard SaaS or cloud paper usually
+with a **SaaS terms** matrix: 16 terms as standard SaaS or cloud paper usually
 puts them, what SA-2 and TM-G-1 ask of the bank, the line to hold and
 compromise wording. Two more tabs sit beside it. **Materiality** walks one
 deployment through SA-2's outsourcing test, the banking-related trigger for
 advance discussion with the HKMA and a materiality screen, with a regulatory
-condition for signing early and a downloadable note. **Incidents** sets out
+condition for signing early, a due-diligence checklist by area (scaled to
+the result, with evidence to collect and red flags) and a downloadable note.
+**Incidents** sets out
 the notification clocks when a critical vendor has an incident (vendor, HKMA,
 Cap. 653 Commissioner, SFC and HKMA, customers, PCPD) as a scenario, a chart
 and a call sheet. Statute sources in these tools open their official text in
