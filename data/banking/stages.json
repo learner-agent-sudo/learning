@@ -2178,8 +2178,8 @@
       "addendum": {
         "intro": [
           "**Why a separate addendum:** most clauses in this kit put on the provider duties that the HKMA places on the bank, such as regulator access, records available in Hong Kong, notice of changes in time to consult the HKMA, and help on exit. A provider's standard paper is written for every customer and usually does not contain them. Putting them in one banking addendum, signed once and applying to every order, leaves the provider's base terms intact and gives the bank one document to negotiate, review and show the HKMA. Several large cloud providers publish their own financial-services addendum for the same reason (market practice, not a source requirement).",
-          "**The HKMA does not prescribe the form:** SA-2 asks for the type and level of services and the provider's contractual liabilities and obligations to be clearly set out in a service agreement (2.4.1), and for the outsourcing agreement to contain a clause allowing supervisory inspection or review of the provider's operations and controls (2.8.2). It does not say whether those terms sit in the main agreement or an addendum. An addendum does the job if it binds, covers every order and prevails over anything inconsistent, including documents the provider can change online.",
-          "**Not everything moves:** scope and service levels, price, the support tier, the liability cap, insurance and governing law are negotiated in any deal and stay in the main agreement or order form. Banking needs still shape them: service levels set out in the contract (SA-2 2.4.1), a cap that does not leave a breach of confidentiality without a remedy (SA-2 2.5.2), and Hong Kong law preferred for an overseas arrangement (SA-2 2.9.1). The addendum carries a bridging clause so that the main agreement's cap cannot empty its terms.",
+          "**The HKMA does not prescribe the form:** SA-2 asks for the type and level of services and the provider's contractual liabilities and obligations to be clearly set out in a service agreement (2.4.1), and for the outsourcing agreement to contain a clause allowing supervisory inspection or review of the provider's operations and controls (2.8.2). It does not say whether those terms sit in the main agreement or an addendum. An addendum does the job if it binds, covers every order and prevails over anything inconsistent, including documents the provider can change online (counsel's view).",
+          "**Not everything moves:** scope and service levels, price, the support tier, the liability cap, insurance and governing law are negotiated in any deal and stay in the main agreement or order form. Banking needs still shape them: service levels set out in the contract (SA-2 2.4.1), a cap that does not leave the bank's contractual right to act for a breach of confidentiality, which SA-2 lists as a typical safeguard, without a real remedy (SA-2 2.5.2; counsel's view), and Hong Kong law preferred for an overseas arrangement (SA-2 2.9.1). The addendum carries a bridging clause so that the main agreement's cap cannot empty its terms.",
           "**Agents and partners are different:** clauses for group companies, intermediaries relied on for customer due diligence, debt collectors and marketing or promotion partners belong in the agreement with that party, not in an addendum to a technology provider's paper.",
           "**Review it regularly:** SA-2 asks banks to review their outsourcing agreements regularly, for example annually, and to consider renegotiating them to keep them in line with current market standards and changes in their business (2.4.2). One addendum per provider makes that review, and any HKMA request for the terms, easier to handle (inference)."
         ],
@@ -2208,37 +2208,42 @@
           {
             "term": "Order",
             "meaning": "any order form, statement of work, subscription or other document under which the Supplier provides Services to the Bank, whenever made."
+          },
+          {
+            "term": "this Agreement",
+            "meaning": "the Main Agreement, every Order and this Addendum, read together."
           }
         ],
         "mechanics": [
           {
             "id": "precedence",
-            "title": "Status, precedence and interpretation",
+            "title": "Status and precedence",
             "why": "The addendum is only as strong as its link to the provider's paper. Standard terms often say that they prevail, that order forms add terms, or that online terms apply; a later order or click-through can then override the banking terms without anyone noticing (counsel's drafting).",
             "model": [
-              "(a) This Addendum amends and forms part of the Main Agreement and every Order, whether made before or after the date of this Addendum. In this Addendum, 'this Agreement' means the Main Agreement, every Order and this Addendum, read together.",
+              "(a) This Addendum amends the Main Agreement and every Order, whether made before or after the date of this Addendum.",
               "(b) If this Addendum conflicts or is inconsistent with the Main Agreement, an Order, a policy, a service description or any other document incorporated by reference, this Addendum prevails, whatever any of them says about priority. Only a written amendment signed by both parties that refers expressly to this clause can change that.",
-              "(c) No terms presented on a website, in a click-through or sign-in screen, on an invoice or in any other document that the Bank has not signed bind the Bank or vary this Agreement, even if a user at the Bank accepts them."
+              "(c) No terms presented on a website, in a click-through or sign-in screen, on an invoice or in any other document that the Bank has not signed bind the Bank or vary this Agreement, even if a user at the Bank accepts them, except an update that takes effect under clause [Documents the Supplier can update]."
             ]
           },
           {
             "id": "online-terms",
             "title": "Documents the Supplier can update",
-            "why": "Standard SaaS paper often lets the provider change its online terms, policies, service descriptions and sub-processor lists by posting an update, with continued use counting as acceptance. A bank should discuss a change in the scope of a banking-related outsourcing with the HKMA in advance (SA-2 1.3.2), and should not continue an arrangement that may weaken its operational resilience (OR-2 6.2). The change clause sets the process; this clause stops an online update getting round it.",
+            "why": "Standard SaaS paper often lets the provider change its online terms, policies, service descriptions and sub-processor lists by posting an update, with continued use counting as acceptance. A bank should discuss a change in the scope of a banking-related outsourcing with the HKMA in advance (SA-2 1.3.2), and should not continue an arrangement that may weaken the operational resilience of its critical operations (OR-2 6.2). The change clause sets the process; this clause stops an online update getting round it.",
             "model": [
-              "(a) Where the Main Agreement or an Order incorporates a document that the Supplier may update by publishing a new version, an update that reduces the Bank's rights, the Services, the service levels or the security or resilience of the Services does not apply to the Bank unless the Bank agrees in writing [or the update is required by Applicable Law and does not reduce the Bank's rights under this Addendum].",
-              "(b) Any other update takes effect for the Bank only after the notice required by [the change clause], and no update overrides this Addendum."
+              "(a) Where the Main Agreement or an Order incorporates a document that the Supplier may update by publishing a new version, an update that reduces the Bank's rights, the Services, the service levels or the security or resilience of the Services does not apply to the Bank unless the Bank agrees in writing [or Applicable Law requires the update and it reduces neither the Bank's rights under this Addendum nor the security or resilience of the Services].",
+              "(b) Any other update takes effect for the Bank [30] days after the Supplier notifies the Bank of it in writing, or after any longer notice [the change clause] requires. No update overrides this Addendum."
             ]
           },
           {
             "id": "liability-bridge",
             "title": "Liability for breach of this Addendum",
-            "why": "The liability cap usually stays in the main agreement, but a cap set at a few months' fees, with lost data and remediation excluded as indirect loss, can leave a breach of the addendum with no real remedy. SA-2 lists the bank's contractual right to act against the provider for a breach of confidentiality among the typical safeguards for customer data (2.5.2). This clause keeps the provider's cap but gives the addendum's core duties their own limit and treats the losses that matter as direct (counsel's drafting).",
+            "why": "The liability cap usually stays in the main agreement, but a cap set at a few months' fees, with lost data and remediation excluded as indirect loss, can leave a breach of the addendum with no real remedy. SA-2 lists the bank's contractual right to act against the provider for a breach of confidentiality among the typical safeguards for customer data (2.5.2). This clause keeps the provider's cap but gives the addendum's core duties their own limit and treats the losses that matter as direct (counsel's drafting). If the main agreement already follows the liability clause in this kit, the bridge adds nothing, and its last paragraph stops it reducing that position.",
             "model": [
               "(a) The limits and exclusions of liability in the Main Agreement apply to this Addendum except as this clause provides.",
               "(b) The Supplier's liability for breach of [the confidentiality, data protection, information security and Incident clauses] of this Addendum is subject to a separate aggregate limit of [the greater of HK$[ ] and [ ]% of the charges paid or payable in the [12] months before the event giving rise to the claim], which is in addition to, and does not reduce, the limit in the Main Agreement.",
               "(c) Nothing in this Agreement limits or excludes liability for fraud or wilful default of the Supplier, a Subcontractor or their personnel, or any liability that cannot lawfully be limited.",
-              "(d) The following are direct losses of the Bank, recoverable under this Agreement: the costs of restoring or recreating Bank Data, of investigating and remediating an Incident and of notifying customers and any Regulator, and compensation reasonably paid to customers."
+              "(d) The following are direct losses of the Bank, recoverable under this Agreement: the costs of restoring or recreating Bank Data; investigating and remediating an Incident; notifying customers and any Regulator; compensation reasonably paid to customers; and the reasonable additional cost of replacement services.",
+              "(e) Where the Main Agreement leaves any liability covered by this clause unlimited, or subject to a higher limit, or treats more losses as direct, that position applies and this clause does not reduce it."
             ]
           },
           {
@@ -2246,23 +2251,23 @@
             "title": "Survival",
             "why": "The bank's duties outlast the contract: it should ensure that all customer data is retrieved from the provider or destroyed when an outsourcing ends, for whatever reason (SA-2 2.5.4), and the HKMA's access should not stop while the provider still holds bank data. A standard survival clause may not list the regulatory terms (counsel's drafting).",
             "model": [
-              "(a) The following survive termination or expiry of the Main Agreement or any Order for as long as the Supplier or any Subcontractor holds Bank Data, and in any case until the end of the Exit Period: [the Regulator access, audit, records, confidentiality, data protection, information security, Incident and exit clauses] and this clause.",
+              "(a) The following survive termination or expiry of the Main Agreement or any Order until the later of the end of the Exit Period and the deletion of the last Bank Data held by the Supplier or any Subcontractor: [the Regulator access, audit, records, data protection, information security, Incident and exit clauses], clauses [Liability for breach of this Addendum] and [The Regulator and third-party rights], and this clause. A clause that states its own survival, such as [the confidentiality clause], survives as it states.",
               "(b) This Addendum continues in force while any Order or the Exit Period continues, even if the Main Agreement has ended."
             ]
           },
           {
             "id": "third-parties",
             "title": "The Regulator and third-party rights",
-            "why": "Standard paper usually excludes third-party rights altogether. The HKMA is not a party, so decide whether it should be able to enforce its access right directly: Hong Kong's Contracts (Rights of Third Parties) Ordinance (Cap. 623) lets the parties confer that right expressly, or exclude it. Either way the Bank must be able to enforce the access and cooperation terms itself (counsel's drafting).",
+            "why": "Under Hong Kong's Contracts (Rights of Third Parties) Ordinance (Cap. 623), a person who is not a party may enforce a term if the contract expressly says so, or if the term purports to benefit that person, unless on a proper construction the term is not intended to be enforceable by it; the person must be identified in the contract by name, class or description (s.4). Standard paper usually excludes third-party rights altogether. Decide whether the HKMA should be able to enforce its access right directly, say so either way, and keep the Bank's own right to enforce it. The Regulator access clause offers the same choice in brackets; keep the two consistent (counsel's drafting).",
             "model": [
-              "(a) [Option A: A Regulator may enforce [the Regulator access clause] in its own right under the Contracts (Rights of Third Parties) Ordinance (Cap. 623), and the parties shall not vary or rescind that clause so as to affect that right without the Regulator's consent.] [Option B: No person other than the parties may enforce any term of this Agreement under the Contracts (Rights of Third Parties) Ordinance (Cap. 623). The Bank may enforce [the Regulator access clause], including by seeking specific performance.]",
-              "(b) No exclusion of third-party rights, and no other term of the Main Agreement, limits what the Supplier must do for a Regulator under this Addendum."
+              "(a) [Option A: The HKMA may enforce paragraphs (a) to (c) of [the Regulator access clause] in its own right under the Contracts (Rights of Third Parties) Ordinance (Cap. 623), and the parties shall not vary or rescind those paragraphs so as to affect that right without the HKMA's consent.] [Option B: No person other than the parties may enforce any term of this Agreement under the Contracts (Rights of Third Parties) Ordinance (Cap. 623). The Bank may enforce [the Regulator access clause], including by seeking specific performance.]",
+              "(b) Any exclusion of third-party rights, in this Addendum or the Main Agreement, affects only who may enforce this Agreement. It does not reduce what the Supplier must do for a Regulator under it."
             ]
           }
         ],
         "vendorPaper": [
           "**Start from theirs if it exists:** a provider's own financial-services addendum has already been through its legal approvals and can shorten the negotiation. Review it clause by clause with the tracker below, mark each clause Meets, Fallback agreed or Gap, and add a short bank rider for the gaps (counsel's drafting).",
-          "**Check what is specific to Hong Kong:** such documents are often written for several regulators at once. Check that they name the HKMA and let it inspect the provider or obtain reports (Digital Bank Guideline para 23; SA-2 2.8.2), keep data available in Hong Kong on a timely basis (SA-2 2.8.1), give notice of changes in time to discuss them with the HKMA first (SA-2 1.3.2) and, if the bank is a designated operator under Cap. 653, give incident notice early enough for its deadlines.",
+          "**Check what is specific to Hong Kong:** such documents are often written for several regulators at once. Check that they name the HKMA and allow supervisory inspection or review of the provider (SA-2 2.8.2) and, for a digital bank, its inspection of the provider's security arrangements and other controls, or reports from a relevant supervisory authority, external auditors or other experts (Digital Bank Guideline para 23), keep data available in Hong Kong on a timely basis (SA-2 2.8.1), give notice of changes in time to discuss them with the HKMA first (SA-2 1.3.2) and, if the bank is a designated operator under Cap. 653, give incident notice early enough for its deadlines.",
           "**Check the link:** whichever addendum is used, check the precedence, online-terms and liability points above. A strong addendum that a later order form or online update overrides protects little.",
           "**One per provider:** sign one addendum per provider at master level rather than one per order, with the Critical Services and approved locations in its schedules, so that a new order cannot fall outside it (counsel's drafting)."
         ],
@@ -2307,7 +2312,7 @@
           "**How to read it:** each row takes a term as it usually appears in a SaaS or cloud provider's standard paper, sets it against what SA-2 and TM-G-1 ask of the bank (and, where they are silent, the source that fills the gap), and gives compromise wording the bank can accept when the provider pushes back.",
           "**Legal force:** SA-2 and TM-G-1 are non-statutory HKMA guidance; TM-E-1 and the digital bank guideline are statutory guidelines. The wording is our drafting from each clause's fallback position, so taking it still needs the sign-off the playbook sets for a fallback.",
           "**The regulator's rights are not for trade:** every compromise keeps the HKMA's access, inspection and information rights whole. It is the bank's own rights that bend.",
-          "**Where the wording goes:** the liability, governing law and support tier rows change the main agreement; the rest of the compromise wording belongs in the banking addendum described above."
+          "**Where the wording goes:** the governing law and support tier rows change the main agreement, and so does the liability row unless the provider will move only through the addendum's liability clause. The other rows' compromise wording belongs in the banking addendum described above."
         ],
         "rows": [
           {
@@ -3890,6 +3895,7 @@
             "material"
           ],
           "home": "addendum",
+          "homeNote": "Banking addendum. It overrides the provider's own change terms, including any right to change the Services, terms or locations by posting an update.",
           "summary": "A bank planning to change an outsourcing in a banking-related area, or its scope, should discuss the plans with the HKMA in advance (SA-2 1.3.2), and should review its agreements regularly to keep them in line with market standards and its business (2.4.2). The contract has to give the bank sight and control of changes before they happen, whether they come from the vendor, the bank or the law.",
           "require": [
             "**HKMA first:** before changing an outsourcing of a banking-related area, or widening or narrowing its scope, the bank should take its plans to the HKMA and show that the major concerns in SA-2 section 2 are dealt with before going ahead (SA-2 1.3.2). Digital banks should discuss plans for material outsourcing in advance (Digital Bank Guideline para 23).",
@@ -4604,7 +4610,7 @@
             "critical"
           ],
           "home": "addendum",
-          "homeNote": "Banking addendum. Ordinary termination stays in the main agreement; the addendum adds the regulatory triggers, limits on suspension and exit assistance.",
+          "homeNote": "Banking addendum. The main agreement keeps the provider's own termination terms; the addendum adds the Bank's rights they may lack (termination for convenience and on regulatory triggers), limits on suspension and exit assistance, and prevails where they conflict.",
           "summary": "The bank should be able to leave: get its customer data back or destroyed (SA-2 2.5.4), move the service elsewhere (2.7.3), and do so if the HKMA, in extreme cases, requires alternative arrangements (1.3.5).",
           "require": [
             "**Data at the end:** when the agreement ends, for whatever reason, all customer data is retrieved from the vendor or destroyed (SA-2 2.5.4).",
