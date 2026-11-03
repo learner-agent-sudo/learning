@@ -117,7 +117,7 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
           <ActivityKit
             kit={stage.activityKit}
             storage="hk-securities"
-            title={stage.title}
+            title={stage.title.split(":")[0]}
             idBase={`${idBase}-launch`}
             routeTitle="The legal route to launch"
           />
