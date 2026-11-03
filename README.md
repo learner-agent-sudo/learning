@@ -97,9 +97,14 @@ pushback and who signs off a deviation. A review tracker marks each clause
 against the contract under review (meets, fallback agreed, gap, not
 applicable) with notes, kept in the browser, and exports the review as a
 spreadsheet (.csv) or the whole playbook as Markdown. The Vendors tab opens
-with a **SaaS terms** matrix: 16 terms as standard SaaS or cloud paper usually
-puts them, what SA-2 and TM-G-1 ask of the bank, the line to hold and
-compromise wording. Two more tabs sit beside it. **Materiality** walks one
+with a strip of recent additions, then **Main agreement or banking addendum**: each clause is placed in the
+provider's main agreement, a banking addendum signed once for every order, or
+the agreement with an agent or partner, with the clauses that tie the
+addendum to the provider's paper (precedence, online terms, liability,
+survival, third-party rights) and a builder that downloads a draft addendum
+from the model wording. A **SaaS terms** matrix follows: 16 terms as standard
+SaaS or cloud paper usually puts them, what SA-2 and TM-G-1 ask of the bank,
+the line to hold and compromise wording. Two more tabs sit beside it. **Materiality** walks one
 deployment through SA-2's outsourcing test, the banking-related trigger for
 advance discussion with the HKMA and a materiality screen, with a regulatory
 condition for signing early, a due-diligence checklist by area (scaled to

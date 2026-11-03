@@ -134,6 +134,15 @@ export default function HkBankingAboutPage() {
           text could not be opened here, so check their current wording.
         </p>
         <p>
+          The Vendors tab now also sorts the clauses by where they belong: the provider&apos;s main agreement (scope,
+          service levels, support tier, liability, governing law), a <strong>banking addendum</strong> signed once
+          for every order (the regulatory terms), or the agreement with an agent, partner or group company. SA-2 does
+          not prescribe the form (2.4.1, 2.8.2), so the split and the clauses that tie the addendum to the
+          provider&apos;s paper are counsel&apos;s drafting, checked by an independent reviewer against SA-2, OR-2
+          and the digital bank guideline. The draft addendum it downloads assembles the model wording already on the
+          site.
+        </p>
+        <p>
           The <strong>Digital assets, wallets &amp; P2P</strong> stage (October 2026) was checked differently, because
           HKMA, SFC and government websites could not be opened directly while it was written. Statements about
           legislation were checked against the official text of the AMLO, the Stablecoins, Stored Value Facilities,
