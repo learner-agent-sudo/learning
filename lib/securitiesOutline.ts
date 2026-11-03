@@ -20,6 +20,15 @@ export function securitiesOutline(stage: SecuritiesStage): OutlineTab[] {
       essentialsSections(idBase, stage, deeper.length ? [{ id: `${idBase}-deeper`, label: 'Go deeper' }] : [])
     ),
     tab('provisions', 'Provisions'),
+    ...(stage.activityKit
+      ? [
+          tab('launch', 'Launch kit', [
+            { id: `${idBase}-launch-route`, label: 'The legal route to launch' },
+            ...(stage.activityKit.workplan?.length ? [{ id: `${idBase}-launch-workplan`, label: "Legal's workplan" }] : []),
+            { id: `${idBase}-launch-cards`, label: 'Can the bank do it?' },
+          ]),
+        ]
+      : []),
     tab('checklist', 'Checklist'),
     tab(
       'notes',

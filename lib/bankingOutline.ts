@@ -66,7 +66,14 @@ export function bankingOutline(stage: BankingStage): OutlineTab[] {
           ]),
         ]
       : []),
-    ...(stage.activityKit ? [tab('activities', 'Activities')] : []),
+    ...(stage.activityKit
+      ? [
+          tab('activities', 'Activities', [
+            { id: 'activities-route', label: 'Classify the product' },
+            { id: 'activities-cards', label: 'Can the bank do it?' },
+          ]),
+        ]
+      : []),
     tab('checklist', 'Checklist'),
     tab(
       'notes',

@@ -8,7 +8,7 @@ import { load, save, useChecklists } from '@/lib/useStudyState';
 import { download, plain } from '@/lib/vendorExport';
 import { RichText } from '../RichText';
 import { BODY, CARD, CHEVRON, EDGE, PILL_BASE, SUMMARY, TITLE, chipClass } from '../cardStyles';
-import { BulletList, SectionTitle } from '../ui/Bullets';
+import { BulletList, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
 import { ViewTabs } from '../ui/ViewTabs';
 import { SourceList, STRENGTH, StrengthLegend } from './Sources';
@@ -38,7 +38,6 @@ const REGIME: Record<Regime, { pill: string; dot: string; title: string }> = {
 const REGIMES = Object.keys(REGIME) as Regime[];
 
 type View = 'rules' | 'gates' | 'sources';
-const VIEW_KEY = 'hk-banking:activity-view';
 const VIEWS: { id: View; label: string }[] = [
   { id: 'rules', label: 'Rules' },
   { id: 'gates', label: 'Launch gates' },
@@ -195,19 +194,39 @@ function ActivityCard({
   );
 }
 
-/** Digital-asset and platform activities: can the bank do it, and what must be true before launch. */
-export function ActivityKit({ kit }: { kit: Kit }) {
+// Section anchors, for the contents tree.
+export const activitySectionIds = (idBase: string) => ({
+  route: `${idBase}-route`,
+  workplan: `${idBase}-workplan`,
+  cards: `${idBase}-cards`,
+});
+
+/** New-business activities: can the bank do it, and what must be true before launch. */
+export function ActivityKit({
+  kit, storage = 'hk-banking', title = 'Digital assets', idBase = 'activities', routeTitle,
+}: {
+  kit: Kit;
+  // Prefix for this browser's saved view and gate ticks.
+  storage?: string;
+  // Name used in the launch notes download.
+  title?: string;
+  idBase?: string;
+  // Heading over the triage visual, when it is a route rather than a triage.
+  routeTitle?: string;
+}) {
+  const VIEW_KEY = `${storage}:activity-view`;
+  const ids = activitySectionIds(idBase);
   const [group, setGroup] = useState<ActivityGroup | 'all'>('all');
   const [regime, setRegime] = useState<Regime | 'any'>('any');
   const [query, setQuery] = useState('');
   const [view, setView] = useState<View>('rules');
   const [sizes] = useState(() => Object.fromEntries(kit.activities.map((a) => [a.id, a.gates.length])));
-  const [ticks, toggle, reset] = useChecklists('hk-banking:gates', sizes);
+  const [ticks, toggle, reset] = useChecklists(`${storage}:gates`, sizes);
 
   useEffect(() => {
     const v = load(VIEW_KEY);
     if (v === 'rules' || v === 'gates' || v === 'sources') setView(v);
-  }, []);
+  }, [VIEW_KEY]);
   const changeView = (v: View) => {
     setView(v);
     save(VIEW_KEY, v);
@@ -226,7 +245,7 @@ export function ActivityKit({ kit }: { kit: Kit }) {
 
   const exportMd = () => {
     const d = today();
-    download(`launch-notes-${d}.md`, launchNotesMarkdown(shown, kit, ticks, d), 'text/markdown;charset=utf-8');
+    download(`launch-notes-${d}.md`, launchNotesMarkdown(shown, kit, ticks, d, title), 'text/markdown;charset=utf-8');
   };
   const clear = () => {
     if (window.confirm('Untick every launch gate?')) reset();
@@ -234,12 +253,24 @@ export function ActivityKit({ kit }: { kit: Kit }) {
 
   return (
     <div className="space-y-10">
-      <section>
+      <section id={ids.route}>
         <BulletList items={kit.intro} />
+        {routeTitle && (
+          <div className="mt-8">
+            <SectionTitle>{routeTitle}</SectionTitle>
+          </div>
+        )}
         <SectionVisual visual={kit.triage} />
       </section>
 
-      <section>
+      {kit.workplan && kit.workplan.length > 0 && (
+        <section id={ids.workplan}>
+          <SectionTitle>Legal&apos;s workplan</SectionTitle>
+          <SectionedPoints sections={kit.workplan} idPrefix={`${idBase}-wp`} />
+        </section>
+      )}
+
+      <section id={ids.cards}>
         <SectionTitle
           aside={
             <span className="font-mono text-xs text-muted">

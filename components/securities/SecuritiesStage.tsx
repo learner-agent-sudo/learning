@@ -1,4 +1,4 @@
-import { BookOpen, BookText, Check, Cpu, Landmark, Lightbulb, ListChecks, Scale, TriangleAlert } from 'lucide-react';
+import { BookOpen, BookText, Check, Cpu, Landmark, Lightbulb, ListChecks, Rocket, Scale, TriangleAlert } from 'lucide-react';
 import {
   CAP571_ANATOMY,
   SECURITIES_PHASES,
@@ -9,6 +9,7 @@ import {
 } from '@/lib/securities';
 import { SEC_NOTE_CARDS, secIdBase, securitiesOutline } from '@/lib/securitiesOutline';
 import { toneVars } from '@/lib/theme';
+import { ActivityKit } from '../banking/ActivityKit';
 import { ActAnatomy } from '../ui/ActAnatomy';
 import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { Checklist } from '../ui/Checklist';
@@ -46,6 +47,9 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
   const tabs: (TabDef & { id: SecuritiesTab })[] = [
     { id: 'essentials', label: 'Essentials', icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
+    ...(stage.activityKit
+      ? [{ id: 'launch' as const, label: 'Launch kit', short: 'Launch', icon: Rocket, count: stage.activityKit.activities.length }]
+      : []),
     { id: 'checklist', label: 'Checklist', icon: ListChecks, count: `${done}/${stage.checklist.length}` },
     { id: 'notes', label: 'Notes', icon: Lightbulb, count: noteCount },
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
@@ -104,6 +108,18 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
             provisions={stage.provisions}
             lookup={sfoExtract}
             note="Statute cards include the official text. SFC, HKMA and HKEX material is summarised in our own words, with a link to the source where we have one."
+          />
+        </TabPanel>
+      )}
+
+      {tab === 'launch' && stage.activityKit && (
+        <TabPanel idBase={idBase} id="launch">
+          <ActivityKit
+            kit={stage.activityKit}
+            storage="hk-securities"
+            title={stage.title}
+            idBase={`${idBase}-launch`}
+            routeTitle="The legal route to launch"
           />
         </TabPanel>
       )}

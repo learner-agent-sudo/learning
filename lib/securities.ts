@@ -3,6 +3,7 @@ import extractsJson from '@/data/securities/statute-extracts.json';
 import type { PointSection } from '@/components/ui/Bullets';
 import type { DeeperLink } from '@/components/ui/GoDeeper';
 import type { SectionVisualData } from '@/components/ui/SectionVisual';
+import type { ActivityKit } from './banking';
 import type { CapAnatomy, Provision, StatuteExtract } from './statute';
 import { TONES, type Tone } from './theme';
 
@@ -31,6 +32,9 @@ export interface SecuritiesStage {
   // Overview stages point to where each topic is covered in depth: a stage
   // of this volume by id, or a page elsewhere by href.
   related?: { stage?: string; href?: string; label?: string; why: string }[];
+  // The bank's route stages: the legal route to launch, Legal's workplan and
+  // what each activity needs.
+  activityKit?: ActivityKit;
 }
 
 export const SECURITIES_STAGES = stagesJson as SecuritiesStage[];
@@ -74,5 +78,5 @@ export const SECURITIES_PHASES: Record<SecuritiesPhase, { label: string; tone: T
 };
 
 // Tabs of a stage view, in order; the first is the default (no hash suffix).
-export const SECURITIES_TABS = ['essentials', 'provisions', 'checklist', 'notes', 'glossary'] as const;
+export const SECURITIES_TABS = ['essentials', 'provisions', 'launch', 'checklist', 'notes', 'glossary'] as const;
 export type SecuritiesTab = (typeof SECURITIES_TABS)[number];

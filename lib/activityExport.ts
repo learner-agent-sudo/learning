@@ -8,6 +8,13 @@ export const GROUP_LABEL: Record<ActivityGroup, string> = {
   wallets: 'Wallets & payments',
   lending: 'P2P & platform lending',
   web3: 'Web3 & DeFi',
+  markets: 'Markets & execution',
+  'listed-products': 'Listed products',
+  'trading-services': 'Around the trade',
+  'funds-bonds': 'Funds, bonds & structured products',
+  advice: 'Advice & portfolios',
+  'insurance-pensions': 'Insurance & MPF',
+  'deposits-crossborder': 'Deposits & cross-boundary',
 };
 
 export const REGIME_LABEL: Record<Regime, string> = {
@@ -22,9 +29,10 @@ export function launchNotesMarkdown(
   acts: Activity[],
   kit: ActivityKit,
   ticks: Record<string, boolean[]>,
-  date: string
+  date: string,
+  title = 'Digital assets'
 ): string {
-  const out: string[] = ['# Digital assets: launch notes', ''];
+  const out: string[] = [`# ${title}: launch notes`, ''];
   out.push(`Exported ${date}. Study material, not legal advice.`, '');
   if (kit.caveat) out.push(plain(kit.caveat), '');
   for (const a of acts) {

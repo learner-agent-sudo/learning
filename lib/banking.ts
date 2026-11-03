@@ -182,7 +182,12 @@ export interface VendorKit {
   caveat?: string;
 }
 
-export type ActivityGroup = 'crypto' | 'stablecoins' | 'tokenisation' | 'wallets' | 'lending' | 'web3';
+export type ActivityGroup =
+  // Digital assets (banking volume)
+  | 'crypto' | 'stablecoins' | 'tokenisation' | 'wallets' | 'lending' | 'web3'
+  // Share trading and wealth management (securities volume)
+  | 'markets' | 'listed-products' | 'trading-services'
+  | 'funds-bonds' | 'advice' | 'insurance-pensions' | 'deposits-crossborder';
 
 // State of the regime that mainly governs an activity.
 export type Regime = 'in-force' | 'transitional' | 'proposed' | 'pilot';
@@ -205,8 +210,10 @@ export interface Activity {
 
 export interface ActivityKit {
   intro: string[];
-  // How to classify a new product.
+  // How to classify a new product, or the legal route to launch.
   triage: SectionVisualData;
+  // Legal's work by workstream, shown after the triage.
+  workplan?: PointSection[];
   activities: Activity[];
   caveat?: string;
 }

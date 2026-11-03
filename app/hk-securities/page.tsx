@@ -53,7 +53,8 @@ export default function HkSecuritiesPage() {
     group: s.phase,
     progress: s.checklist.length ? doneOf(s.id) / s.checklist.length : undefined,
   }));
-  const shownTab = tab as SecuritiesTab;
+  // A stage without a launch kit shows Essentials instead.
+  const shownTab = (OUTLINES[stage.id].some((t) => t.id === tab) ? tab : 'essentials') as SecuritiesTab;
   const jump = useOutlineJump(go, stage.id, shownTab, TABS_TOP);
   const railProps = { groups: GROUPS, stages: rail, selectedId, visited, onSelect: (id: string) => go(id), label: 'Securities stages' };
 
