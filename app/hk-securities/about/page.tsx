@@ -87,6 +87,18 @@ export default function HkSecuritiesAboutPage() {
           that name the relationship). A map simplifies; the notes and the sources behind them govern. Dashed boxes mark
           something proposed or not binding.
         </p>
+        <p>
+          Stages 4 (share trading) and 5 (wealth management) gained a <strong>Launch kit</strong> in November 2026,
+          written for Legal at a digital bank adding these services to its app: the legal route from the business
+          decision to go-live, Legal&apos;s workplan by workstream, and 24 activity cards, each giving the route, what the
+          rules require, the gates to confirm before launch, the traps and the sources with their legal force. Low-cost
+          drafting agents wrote the kits from this volume&apos;s fact-checked stages and the official statute text;
+          separate checkers then tested every statement, a critic looked for contradictions and gaps across both kits,
+          and each finding was reviewed against the sources before it was accepted or rejected. Statements resting on
+          circulars or guidelines whose text could not be opened here say so (&ldquo;reported; check&rdquo;). The
+          Insurance Ordinance and the MPF Schemes Ordinance are not held locally, so points on them are worded
+          cautiously and marked for checking.
+        </p>
 
         <h2>Disclaimer</h2>
         <p>

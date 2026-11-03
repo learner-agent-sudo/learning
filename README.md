@@ -151,7 +151,14 @@ enforcement. Each has the same tabs as the banking stages, with notes on what
 changes when the firm is a bank. Content lives in
 `data/securities/stages.json`; statute cards carry the official text of the
 SFO, nine of its rule sets and Cap. 32 (prospectuses), attached by
-`scripts/build_statute_extracts.py`.
+`scripts/build_statute_extracts.py`. Stages 4 (share trading) and 5 (wealth
+management) have a **Launch kit** tab for Legal at a digital bank adding
+these services: the legal route from decision to go-live, Legal's workplan
+by workstream, and 12 activity cards each (for example overseas shares,
+margin lending, IPOs, fund distribution, robo-advice, insurance, MPF and
+Wealth Management Connect) with the route, requirements, launch gates to
+tick, traps and sources, exportable as launch notes. It reuses the banking
+volume's activity kit (`components/banking/ActivityKit.tsx`).
 
 ## Privacy — DataGuard
 
