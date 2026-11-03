@@ -21,7 +21,13 @@ The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
 
 The learning modules share one layout (`components/ui/`): a masthead with
 counts and progress, a contents rail of numbered stages grouped by phase (a
-sticky strip of stage pills on phones), and a stage view with tabs. Stage
+sticky strip of stage pills on phones), and a stage view with tabs. The rail
+is a tree: the open stage unfolds into its tabs, and the open tab into its
+sections (the numbered notes, or the parts of a tool such as the vendor kit),
+with the section being read highlighted; any stage or tab can be unfolded to
+jump straight to one of its sections. Each module's outline is built from its
+data (`lib/bankingOutline.ts`, `lib/securitiesOutline.ts`,
+`lib/mnaOutline.ts`). Stage
 notes are bullet points: the short version first, then the detail under
 headings, with a bold lead-in on each bullet, a "bottom line" where a section
 has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
@@ -42,8 +48,8 @@ lighter twin for each module and stage colour in dark mode (`lib/theme.ts`).
 
 On phones and tablets the stage strip and tab bar slide away while you read
 down and come back when you scroll up. A floating button, which comes and
-goes with them, shows which section of a long tab you are in and opens a list
-to jump between sections, or takes you back to the top. Each tab ends with a link to the next one, and glossary
+goes with them, shows which section of a long tab you are in and opens the
+same tree for the stage: its tabs, and the sections of each. Each tab ends with a link to the next one, and glossary
 definitions open as a sheet at the foot of the screen. The site can be added
 to a phone's home screen (`app/manifest.ts`), where it opens full screen.
 
