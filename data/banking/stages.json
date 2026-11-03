@@ -2123,7 +2123,7 @@
         "items": [
           {
             "label": "Main agreement or banking addendum",
-            "section": "addendum"
+            "section": "vendors-addendum"
           },
           {
             "label": "Service parity and most-favoured customer terms",

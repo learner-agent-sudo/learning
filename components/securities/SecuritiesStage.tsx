@@ -7,15 +7,16 @@ import {
   deeperLinks,
   sfoExtract,
 } from '@/lib/securities';
+import { SEC_NOTE_CARDS, secIdBase, securitiesOutline } from '@/lib/securitiesOutline';
 import { toneVars } from '@/lib/theme';
 import { ActAnatomy } from '../ui/ActAnatomy';
-import { KeyPoints, SectionedPoints, SectionTitle, sectionId } from '../ui/Bullets';
+import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { Checklist } from '../ui/Checklist';
 import { DraftNotice } from '../ui/DraftNotice';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
 import { GoDeeper } from '../ui/GoDeeper';
 import { NoteCard } from '../ui/NoteCard';
-import { PageContents, type PageSection } from '../ui/PageContents';
+import { PageContents } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
 import { ProvisionList } from '../ui/ProvisionList';
 import { SectionVisual } from '../ui/SectionVisual';
@@ -31,11 +32,13 @@ interface Props {
   onNavigate: (id: string) => void;
   tab: SecuritiesTab;
   onTabChange: (tab: SecuritiesTab) => void;
+  // Move to a tab, or a section in it, from the contents sheet.
+  onJump: (tab: SecuritiesTab, section?: string) => void;
   ticks: boolean[];
   onToggle: (i: number) => void;
 }
 
-export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onTabChange, ticks, onToggle }: Props) {
+export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onTabChange, onJump, ticks, onToggle }: Props) {
   const phase = SECURITIES_PHASES[stage.phase];
   const done = ticks.filter(Boolean).length;
   const noteCount = stage.itAngle.length + stage.bankNotes.length + stage.pitfalls.length;
@@ -47,17 +50,10 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
     { id: 'notes', label: 'Notes', icon: Lightbulb, count: noteCount },
     { id: 'glossary', label: 'Glossary', icon: BookText, count: stage.glossary.length },
   ];
-  const idBase = `sec-${stage.id}`;
+  const idBase = secIdBase(stage.id);
   const deeper = deeperLinks(stage);
-  const sections: PageSection[] =
-    tab === 'essentials'
-      ? [
-          { id: `${idBase}-key`, label: 'In 30 seconds' },
-          ...(stage.conceptMap ? [{ id: `${idBase}-map`, label: 'How it fits together' }] : []),
-          ...stage.deepDive.map((d, i) => ({ id: sectionId(idBase, i), label: d.heading, mark: `§${i + 1}` })),
-          ...(deeper.length ? [{ id: `${idBase}-deeper`, label: 'Go deeper' }] : []),
-        ]
-      : [];
+  const outline = securitiesOutline(stage);
+  const sections = outline.find((t) => t.id === tab)?.sections ?? [];
 
   return (
     <div style={toneVars('--phase', phase.tone)}>
@@ -127,16 +123,25 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
       {tab === 'notes' && (
         <TabPanel idBase={idBase} id="notes">
           <div className="grid gap-5">
-            <NoteCard title="The IT angle" subtitle="Where law meets the stack" icon={Cpu} tone="sky" items={stage.itAngle} />
             <NoteCard
-              title="When the firm is a bank"
+              id={`${idBase}-${SEC_NOTE_CARDS.it.key}`}
+              title={SEC_NOTE_CARDS.it.label}
+              subtitle="Where law meets the stack"
+              icon={Cpu}
+              tone="sky"
+              items={stage.itAngle}
+            />
+            <NoteCard
+              id={`${idBase}-${SEC_NOTE_CARDS.bank.key}`}
+              title={SEC_NOTE_CARDS.bank.label}
               subtitle="What changes for a registered institution"
               icon={Landmark}
               tone="violet"
               items={stage.bankNotes}
             />
             <NoteCard
-              title="Common pitfalls"
+              id={`${idBase}-${SEC_NOTE_CARDS.pitfalls.key}`}
+              title={SEC_NOTE_CARDS.pitfalls.label}
               subtitle="Where firms and their counsel get caught"
               icon={TriangleAlert}
               tone="rose"
@@ -154,7 +159,11 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
 
       <NextTab idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as SecuritiesTab)} />
       <PrevNext prev={prev} next={next} onNavigate={onNavigate} />
-      <PageContents sections={sections} topId={tabsTopId(idBase)} />
+      <PageContents
+        sections={sections}
+        topId={tabsTopId(idBase)}
+        outline={{ tabs: outline, current: tab, onJump: (t, section) => onJump(t as SecuritiesTab, section) }}
+      />
     </div>
   );
 }

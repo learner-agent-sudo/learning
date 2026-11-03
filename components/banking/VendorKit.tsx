@@ -8,7 +8,8 @@ import {
 import type {
   AddendumKit, ClausePlaybook, ContractTerm, KitPlaybook, KitRecent, Stance, Strength, TermHome, VendorKit as Kit,
 } from '@/lib/banking';
-import { load, save } from '@/lib/useStudyState';
+import { BANK_SECTION } from '@/lib/bankingOutline';
+import { jumpTo, load, save } from '@/lib/useStudyState';
 import { REVIEW_STATUSES, useVendorReview, type ReviewStatus } from '@/lib/useVendorReview';
 import {
   STANCE_LABEL, STATUS_LABEL, download, exportName, modelText, plain, playbookMarkdown, reviewCsv,
@@ -447,11 +448,7 @@ function Recent({ recent, stageId }: { recent: KitRecent; stageId: string }) {
             key={i.label}
             type="button"
             className={`${link} text-left`}
-            onClick={() =>
-              i.term
-                ? openClause(i.term)
-                : document.getElementById(i.section ?? '')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-            }
+            onClick={() => (i.term ? openClause(i.term) : i.section && jumpTo(i.section))}
           >
             {i.label}
           </button>
@@ -546,7 +543,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
       </section>
 
       {kit.addendum && (
-        <section id="addendum" className="scroll-mt-24">
+        <section id={BANK_SECTION.vendorsAddendum}>
           <SectionTitle
             aside={
               <span className="font-mono text-xs text-muted">
@@ -566,7 +563,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
       )}
 
       {kit.saasMatrix && (
-        <section>
+        <section id={BANK_SECTION.vendorsSaas}>
           <SectionTitle
             aside={<span className="font-mono text-xs text-muted">{kit.saasMatrix.rows.length} terms</span>}
           >
@@ -576,7 +573,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
         </section>
       )}
 
-      <section>
+      <section id={BANK_SECTION.vendorsClauses}>
         <SectionTitle
           aside={
             <span className="font-mono text-xs text-muted">
@@ -745,7 +742,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
       </section>
 
       {kit.process.length > 0 && (
-        <section>
+        <section id={BANK_SECTION.vendorsProcess}>
           <SectionTitle>Around the contract</SectionTitle>
           <SectionedPoints sections={kit.process} />
         </section>

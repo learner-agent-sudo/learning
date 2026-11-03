@@ -268,6 +268,95 @@ export function scrollToElement(el: HTMLElement) {
   window.scrollTo({ top: Math.max(0, top - offset), behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
 }
 
+/**
+ * Scrolls to an element by id and, for a section, moves focus to its heading
+ * so keyboard and screen reader users land there too.
+ */
+export function jumpTo(id: string, focus = true): boolean {
+  const el = document.getElementById(id);
+  if (!el) return false;
+  scrollToElement(el);
+  if (focus) {
+    const heading = el.querySelector<HTMLElement>('h2, h3, h4') ?? el;
+    heading.setAttribute('tabindex', '-1');
+    heading.focus({ preventScroll: true });
+  }
+  return true;
+}
+
+/**
+ * Index of the section being read: the last one whose top has passed a third
+ * of the way down the viewport, or -1 above the first.
+ */
+export function useActiveSection(ids: string[]): number {
+  const [current, setCurrent] = useState(-1);
+  const latest = useRef(ids);
+  latest.current = ids;
+  const key = ids.join('|');
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      let at = -1;
+      latest.current.forEach((id, i) => {
+        const el = document.getElementById(id);
+        if (el && el.getBoundingClientRect().top < window.innerHeight * 0.35) at = i;
+      });
+      setCurrent(at);
+    };
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      cancelAnimationFrame(frame);
+    };
+  }, [key]);
+  return current;
+}
+
+/**
+ * Moves to a stage, a tab and optionally a section in one step, as the
+ * contents tree does. When the stage or tab changes, the target is scrolled
+ * to once it has rendered.
+ */
+export function useOutlineJump(
+  go: (stage: string, tab?: string) => void,
+  stage: string,
+  tab: string,
+  tabsTop: (stage: string) => string
+) {
+  const pending = useRef<{ id: string; focus: boolean } | null>(null);
+  useEffect(() => {
+    const target = pending.current;
+    if (!target) return;
+    pending.current = null;
+    let tries = 0;
+    let frame = 0;
+    const attempt = () => {
+      if (!jumpTo(target.id, target.focus) && tries++ < 30) frame = requestAnimationFrame(attempt);
+    };
+    frame = requestAnimationFrame(attempt);
+    return () => cancelAnimationFrame(frame);
+  }, [stage, tab]);
+  return useCallback(
+    (s: string, t: string, section?: string) => {
+      const target = { id: section ?? tabsTop(s), focus: !!section };
+      if (s === stage && t === tab) {
+        jumpTo(target.id, target.focus);
+        return;
+      }
+      pending.current = target;
+      go(s, t);
+    },
+    [go, stage, tab, tabsTop]
+  );
+}
+
 /** Height of the sticky stage strip above the tab bar at the current width. */
 export function stripHeight(): number {
   return window.matchMedia(WIDE).matches ? 0 : STRIP;

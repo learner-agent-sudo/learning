@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import { DealType, MNA_TABS, MnaTab, STAGES } from '@/lib/workflow';
-import { focusStageTitle, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { mnaIdBase, mnaOutline } from '@/lib/mnaOutline';
+import { focusStageTitle, useOutlineJump, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
 import { TONES, toneVars } from '@/lib/theme';
 import { DealTypeSelector } from '@/components/DealTypeSelector';
 import { MNA_ABBR } from '@/lib/abbreviations';
@@ -11,6 +12,7 @@ import { AbbrProvider } from '@/components/AbbrContext';
 import { MnaStage } from '@/components/mna/MnaStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
 import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
+import { tabsTopId } from '@/components/ui/Tabs';
 
 const IDS = STAGES.map((s) => s.id);
 const TABS: string[] = [...MNA_TABS];
@@ -34,6 +36,8 @@ const NOTES: Record<string, string> = {
 
 const CLAUSES = STAGES.reduce((n, s) => n + s.clauses.length, 0);
 const TERMS = STAGES.reduce((n, s) => n + s.glossary.length, 0);
+const OUTLINES = Object.fromEntries(STAGES.map((s) => [s.id, mnaOutline(s)]));
+const TABS_TOP = (id: string) => tabsTopId(mnaIdBase(id));
 
 export default function Page() {
   const [dealType, setDealType] = useState<DealType>('apa');
@@ -57,6 +61,7 @@ export default function Page() {
     note: NOTES[s.kind],
   }));
   const select = (id: string) => go(id);
+  const jump = useOutlineJump(go, stage.id, tab, TABS_TOP);
   const railProps = { groups: GROUPS, stages: rail, selectedId: stage.id, visited, onSelect: select, label: 'Deal stages' };
 
   return (
@@ -82,7 +87,7 @@ export default function Page() {
 
           <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-10 lg:mt-10 lg:grid-cols-[16.5rem_minmax(0,1fr)] xl:gap-14">
             <aside className="hidden lg:block">
-              <StageRail {...railProps} />
+              <StageRail {...railProps} outlines={OUTLINES} tab={tab} onJump={jump} />
             </aside>
 
             <article
@@ -103,6 +108,7 @@ export default function Page() {
                 }}
                 tab={tab as MnaTab}
                 onTabChange={(t) => go(stage.id, t)}
+                onJump={(t, section) => jump(stage.id, t, section)}
               />
             </article>
           </div>

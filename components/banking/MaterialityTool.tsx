@@ -11,6 +11,7 @@ import { BulletList, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
 import { SourceList } from './Sources';
 import { Bracketed, CopyButton } from './Wording';
+import { BANK_SECTION } from '@/lib/bankingOutline';
 
 type Answer = 'yes' | 'no' | 'unsure';
 interface Saved {
@@ -275,7 +276,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
         <BulletList items={kit.intro} />
       </section>
 
-      <section aria-labelledby="materiality-questions">
+      <section id={BANK_SECTION.matAssess} aria-labelledby="materiality-questions">
         <SectionTitle>
           <span id="materiality-questions">Assess one deployment</span>
         </SectionTitle>
@@ -372,7 +373,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
       </section>
 
       {kit.dueDiligence && (
-        <section aria-labelledby="due-diligence">
+        <section id={BANK_SECTION.matDiligence} aria-labelledby="due-diligence">
           <SectionTitle>
             <span id="due-diligence">Due diligence before signing</span>
           </SectionTitle>
@@ -386,13 +387,13 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
         </section>
       )}
 
-      <section>
+      <section id={BANK_SECTION.matFriction}>
         <SectionTitle>Why procurement feels the friction</SectionTitle>
         <SectionVisual visual={kit.friction} />
         <BulletList items={kit.frictionPoints} className="mt-4" />
       </section>
 
-      <section>
+      <section id={BANK_SECTION.matCondition}>
         <SectionTitle>Signing before the HKMA discussion ends</SectionTitle>
         <p className="mb-3 text-sm leading-relaxed text-muted">
           Model wording for a regulatory condition, using the playbook&apos;s defined terms (Vendors tab). Choices and
@@ -411,7 +412,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
         </div>
       </section>
 
-      <section>
+      <section id={BANK_SECTION.matSources}>
         <SectionTitle>Sources</SectionTitle>
         <SourceList sources={kit.sources} />
       </section>

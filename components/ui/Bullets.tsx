@@ -1,3 +1,4 @@
+import { sectionId } from '@/lib/outline';
 import { CornerDownRight } from 'lucide-react';
 import { RichText } from '../RichText';
 import { SectionVisual, type SectionVisualData } from './SectionVisual';
@@ -50,7 +51,7 @@ export function KeyPoints({ title, points, id }: { title: string; points: string
 }
 
 // Section anchors for the "On this page" list: §1 is index 0.
-export const sectionId = (prefix: string, i: number) => `${prefix}-s${i + 1}`;
+export { sectionId };
 
 /** Headed groups of bullets, numbered like the sections of a note. */
 export function SectionedPoints({ sections, idPrefix }: { sections: PointSection[]; idPrefix?: string }) {

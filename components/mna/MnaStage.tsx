@@ -14,6 +14,7 @@ import {
   ScrollText,
 } from 'lucide-react';
 import type { MnaTab, Stage } from '@/lib/workflow';
+import { mnaIdBase, mnaOutline } from '@/lib/mnaOutline';
 import { prefersReducedMotion } from '@/lib/useStudyState';
 import { ClauseCard } from '../ClauseCard';
 import { BulletList, SectionTitle } from '../ui/Bullets';
@@ -33,12 +34,15 @@ interface Props {
   onNavigate: (id: string) => void;
   tab: MnaTab;
   onTabChange: (tab: MnaTab) => void;
+  // Move to a tab, or a section in it, from the contents sheet.
+  onJump: (tab: MnaTab, section?: string) => void;
 }
 
 const CHIP =
   'inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-xs transition-colors focus-visible:outline-offset-1';
 
-function Explainer({ title, subtitle, icon: Icon, points, strong }: {
+function Explainer({ id, title, subtitle, icon: Icon, points, strong }: {
+  id: string;
   title: string;
   subtitle: string;
   icon: typeof BookOpen;
@@ -47,6 +51,7 @@ function Explainer({ title, subtitle, icon: Icon, points, strong }: {
 }) {
   return (
     <section
+      id={id}
       className={
         'rounded-xl border px-5 py-5 ' +
         (strong ? 'border-phase/25 bg-phase/[0.06]' : 'border-line bg-panel shadow-card')
@@ -71,14 +76,15 @@ function Explainer({ title, subtitle, icon: Icon, points, strong }: {
   );
 }
 
-export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab, onTabChange }: Props) {
+export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab, onTabChange, onJump }: Props) {
   // A clause picked from the Essentials chips opens (and scrolls to) its card.
   const [target, setTarget] = useState<string | null>(null);
   // Bumping the version remounts the cards with every card open or closed.
   const [expand, setExpand] = useState({ open: false, version: 0 });
   const cuad = stage.clauses.filter((c) => c.provenance === 'cuad');
   const gapFills = stage.clauses.filter((c) => c.provenance === 'hand-authored');
-  const idBase = `mna-${stage.id}`;
+  const idBase = mnaIdBase(stage.id);
+  const outline = mnaOutline(stage);
 
   useEffect(() => {
     if (tab !== 'clauses') {
@@ -132,6 +138,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
         <TabPanel idBase={idBase} id="essentials">
           <div className="grid items-start gap-5 xl:grid-cols-2">
             <Explainer
+              id={`${idBase}-plain`}
               title="In plain terms"
               subtitle="What is going on at this stage"
               icon={Handshake}
@@ -139,6 +146,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
               strong
             />
             <Explainer
+              id={`${idBase}-practice`}
               title="Practitioner's view"
               subtitle="What deal lawyers focus on"
               icon={Briefcase}
@@ -146,7 +154,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
             />
           </div>
           {stage.clauses.length > 0 && (
-            <section className="mt-8">
+            <section id={`${idBase}-know`} className="mt-8">
               <SectionTitle>Clauses to know at this stage</SectionTitle>
               <ul className="flex flex-wrap gap-2">
                 {stage.clauses.map((c) => (
@@ -212,7 +220,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
             </button>
           </div>
           {cuad.length > 0 && (
-            <section>
+            <section id={`${idBase}-cuad`}>
               <SectionTitle aside={<span className="font-mono text-xs text-blue-800 dark:text-blue-300">{cuad.length}</span>}>
                 From real contracts (CUAD)
               </SectionTitle>
@@ -220,7 +228,7 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
             </section>
           )}
           {gapFills.length > 0 && (
-            <section className={cuad.length > 0 ? 'mt-10' : ''}>
+            <section id={`${idBase}-apa`} className={cuad.length > 0 ? 'mt-10' : ''}>
               <SectionTitle aside={<span className="font-mono text-xs text-amber-800 dark:text-amber-300">{gapFills.length}</span>}>
                 APA-specific drafting (hand-authored)
               </SectionTitle>
@@ -238,7 +246,11 @@ export function MnaStage({ stage, total, phaseLabel, prev, next, onNavigate, tab
 
       <NextTab idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as MnaTab)} />
       <PrevNext prev={prev} next={next} onNavigate={onNavigate} />
-      <PageContents sections={[]} topId={tabsTopId(idBase)} />
+      <PageContents
+        sections={outline.find((t) => t.id === tab)?.sections ?? []}
+        topId={tabsTopId(idBase)}
+        outline={{ tabs: outline, current: tab, onJump: (t, section) => onJump(t as MnaTab, section) }}
+      />
     </div>
   );
 }

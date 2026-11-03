@@ -9,6 +9,7 @@ import { RichText } from '../RichText';
 import { CARD, chipClass } from '../cardStyles';
 import { BulletList, SectionTitle } from '../ui/Bullets';
 import { STRENGTH, SourceList, StrengthPill } from './Sources';
+import { BANK_SECTION } from '@/lib/bankingOutline';
 
 type Answers = Record<string, boolean>;
 
@@ -82,7 +83,7 @@ export function IncidentClocks({ kit }: { kit: IncidentKit }) {
         <BulletList items={kit.intro} />
       </section>
 
-      <section aria-labelledby="incident-scenario">
+      <section id={BANK_SECTION.incScenario} aria-labelledby="incident-scenario">
         <SectionTitle>
           <span id="incident-scenario">The scenario: a critical vendor incident</span>
         </SectionTitle>
@@ -110,7 +111,7 @@ export function IncidentClocks({ kit }: { kit: IncidentKit }) {
         </ol>
       </section>
 
-      <section aria-labelledby="incident-clocks">
+      <section id={BANK_SECTION.incClocks} aria-labelledby="incident-clocks">
         <SectionTitle>
           <span id="incident-clocks">The clocks</span>
         </SectionTitle>
@@ -171,7 +172,7 @@ export function IncidentClocks({ kit }: { kit: IncidentKit }) {
         )}
       </section>
 
-      <section aria-labelledby="incident-calls">
+      <section id={BANK_SECTION.incCalls} aria-labelledby="incident-calls">
         <SectionTitle
           aside={
             <button
@@ -224,7 +225,7 @@ export function IncidentClocks({ kit }: { kit: IncidentKit }) {
         </ol>
       </section>
 
-      <section>
+      <section id={BANK_SECTION.incPlan}>
         <SectionTitle>Points to settle in the incident plan</SectionTitle>
         <BulletList items={kit.notes} />
       </section>

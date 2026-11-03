@@ -14,14 +14,15 @@ import {
   TriangleAlert,
 } from 'lucide-react';
 import { BankingStage as Stage, BankingTab, CAP155_ANATOMY, PHASES, statuteExtract } from '@/lib/banking';
+import { NOTE_CARDS, bankIdBase, bankingOutline } from '@/lib/bankingOutline';
 import { toneVars } from '@/lib/theme';
 import { ActAnatomy } from '../ui/ActAnatomy';
-import { KeyPoints, SectionedPoints, SectionTitle, sectionId } from '../ui/Bullets';
+import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { Checklist } from '../ui/Checklist';
 import { DraftNotice } from '../ui/DraftNotice';
 import { GlossaryGrid } from '../ui/GlossaryGrid';
 import { NoteCard } from '../ui/NoteCard';
-import { PageContents, type PageSection } from '../ui/PageContents';
+import { PageContents } from '../ui/PageContents';
 import { PrevNext } from '../ui/PrevNext';
 import { ProvisionList } from '../ui/ProvisionList';
 import { SectionVisual } from '../ui/SectionVisual';
@@ -41,11 +42,13 @@ interface Props {
   onNavigate: (id: string) => void;
   tab: BankingTab;
   onTabChange: (tab: BankingTab) => void;
+  // Move to a tab, or a section in it, from the contents sheet.
+  onJump: (tab: BankingTab, section?: string) => void;
   ticks: boolean[];
   onToggle: (i: number) => void;
 }
 
-export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabChange, ticks, onToggle }: Props) {
+export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabChange, onJump, ticks, onToggle }: Props) {
   const phase = PHASES[stage.phase];
   const done = ticks.filter(Boolean).length;
   const noteCount = stage.itAngle.length + stage.virtualBankNotes.length + stage.pitfalls.length;
@@ -67,15 +70,9 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
     { id: 'notes', label: 'Notes', icon: Lightbulb, count: noteCount },
     { id: 'glossary', label: 'Glossary', short: crowded ? 'Terms' : undefined, icon: BookText, count: stage.glossary.length },
   ];
-  const idBase = `bank-${stage.id}`;
-  const sections: PageSection[] =
-    tab === 'essentials'
-      ? [
-          { id: `${idBase}-key`, label: 'In 30 seconds' },
-          ...(stage.conceptMap ? [{ id: `${idBase}-map`, label: 'How it fits together' }] : []),
-          ...stage.deepDive.map((d, i) => ({ id: sectionId(idBase, i), label: d.heading, mark: `§${i + 1}` })),
-        ]
-      : [];
+  const idBase = bankIdBase(stage.id);
+  const outline = bankingOutline(stage);
+  const sections = outline.find((t) => t.id === tab)?.sections ?? [];
 
   return (
     <div style={toneVars('--phase', phase.tone)}>
@@ -168,16 +165,25 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
       {tab === 'notes' && (
         <TabPanel idBase={idBase} id="notes">
           <div className="grid gap-5">
-            <NoteCard title="The IT angle" subtitle="Where law meets the stack" icon={Cpu} tone="sky" items={stage.itAngle} />
             <NoteCard
-              title="Digital bank specifics"
+              id={`${idBase}-${NOTE_CARDS.it.key}`}
+              title={NOTE_CARDS.it.label}
+              subtitle="Where law meets the stack"
+              icon={Cpu}
+              tone="sky"
+              items={stage.itAngle}
+            />
+            <NoteCard
+              id={`${idBase}-${NOTE_CARDS.vb.key}`}
+              title={NOTE_CARDS.vb.label}
               subtitle="What changes for a bank without branches"
               icon={Smartphone}
               tone="violet"
               items={stage.virtualBankNotes}
             />
             <NoteCard
-              title="Common pitfalls"
+              id={`${idBase}-${NOTE_CARDS.pitfalls.key}`}
+              title={NOTE_CARDS.pitfalls.label}
               subtitle="Where banks and their counsel get caught"
               icon={TriangleAlert}
               tone="rose"
@@ -195,7 +201,11 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
 
       <NextTab idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as BankingTab)} />
       <PrevNext prev={prev} next={next} onNavigate={onNavigate} />
-      <PageContents sections={sections} topId={tabsTopId(idBase)} />
+      <PageContents
+        sections={sections}
+        topId={tabsTopId(idBase)}
+        outline={{ tabs: outline, current: tab, onJump: (t, section) => onJump(t as BankingTab, section) }}
+      />
     </div>
   );
 }

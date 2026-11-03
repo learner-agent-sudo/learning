@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import { Check } from 'lucide-react';
-import { prefersReducedMotion, useAutoHideChrome } from '@/lib/useStudyState';
+import { useEffect, useRef, useState } from 'react';
+import { Check, ChevronRight } from 'lucide-react';
+import type { OutlineTab } from '@/lib/outline';
+import { prefersReducedMotion, useActiveSection, useAutoHideChrome } from '@/lib/useStudyState';
 import { toneVars, type Tone } from '@/lib/theme';
 
 export interface RailGroup {
@@ -28,6 +29,11 @@ interface Props {
   visited: Set<string>;
   onSelect: (id: string) => void;
   label: string;
+  // Contents tree: each stage's tabs and their sections, the open tab, and
+  // how to move to a tab or section. Without it the rail lists stages only.
+  outlines?: Record<string, OutlineTab[]>;
+  tab?: string;
+  onJump?: (stage: string, tab: string, section?: string) => void;
 }
 
 const pad = (n: number) => String(n).padStart(2, '0');
@@ -53,10 +59,126 @@ function Marker({ stage, active, seen, tone }: { stage: RailStage; active: boole
   );
 }
 
-/** Table-of-contents rail for wide screens. */
-export function StageRail({ groups, stages, selectedId, visited, onSelect, label }: Props) {
+function Toggle({ open, onClick, controls, label, small }: { open: boolean; onClick: () => void; controls: string; label: string; small?: boolean }) {
   return (
-    <nav aria-label={label} className="no-scrollbar sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pb-6 pr-1">
+    <button
+      type="button"
+      onClick={onClick}
+      aria-expanded={open}
+      aria-controls={controls}
+      aria-label={label}
+      title={label}
+      className={
+        'flex shrink-0 items-center justify-center rounded-md text-muted transition-colors hover:bg-panel hover:text-ink focus-visible:outline-offset-[-2px] ' +
+        (small ? 'h-6 w-6' : 'h-8 w-7')
+      }
+    >
+      <ChevronRight className={`${small ? 'h-3 w-3' : 'h-3.5 w-3.5'} transition-transform ${open ? 'rotate-90' : ''}`} aria-hidden />
+    </button>
+  );
+}
+
+/** A stage's tabs, and under each its sections: the sub-chapters. */
+function StageTree({
+  stage, tabs, here, tab, active, onJump,
+}: {
+  stage: RailStage;
+  tabs: OutlineTab[];
+  here: boolean;
+  tab?: string;
+  active: number;
+  onJump: (stage: string, tab: string, section?: string) => void;
+}) {
+  const [open, setOpen] = useState<Record<string, boolean>>({});
+  return (
+    <ul id={`rail-${stage.id}`} className="mb-2 ml-[42px] mt-0.5 space-y-px border-l border-line pl-1.5" aria-label={`Parts of ${stage.title}`}>
+      {tabs.map((t) => {
+        const current = here && t.id === tab;
+        const shown = open[t.id] ?? current;
+        const listId = `rail-${stage.id}-${t.id}`;
+        return (
+          <li key={t.id}>
+            <div className="flex items-center gap-0.5">
+              <button
+                type="button"
+                onClick={() => onJump(stage.id, t.id)}
+                aria-current={current ? 'true' : undefined}
+                data-here={current && active < 0 ? 'true' : undefined}
+                className={
+                  'min-w-0 flex-1 rounded-md px-2 py-1 text-left text-[12.5px] leading-snug transition-colors focus-visible:outline-offset-[-2px] ' +
+                  (current ? 'font-semibold text-phase' : 'text-ink/75 hover:bg-panel/70 hover:text-ink')
+                }
+              >
+                {t.label}
+                {t.sections.length > 0 && !shown && (
+                  <>
+                    <span aria-hidden className="ml-1.5 font-mono text-[10px] font-normal text-muted">
+                      {t.sections.length}
+                    </span>
+                    <span className="sr-only">{` (${t.sections.length} ${t.sections.length === 1 ? 'section' : 'sections'})`}</span>
+                  </>
+                )}
+              </button>
+              {t.sections.length > 0 && (
+                <Toggle
+                  small
+                  open={shown}
+                  controls={listId}
+                  label={`${shown ? 'Hide' : 'Show'} the sections of ${t.label}`}
+                  onClick={() => setOpen((o) => ({ ...o, [t.id]: !shown }))}
+                />
+              )}
+            </div>
+            {t.sections.length > 0 && shown && (
+              <ol id={listId} className="mb-1 ml-2 space-y-px border-l border-line/70 pl-1.5">
+                {t.sections.map((x, i) => {
+                  const on = current && i === active;
+                  return (
+                    <li key={x.id}>
+                      <button
+                        type="button"
+                        onClick={() => onJump(stage.id, t.id, x.id)}
+                        aria-current={on ? 'location' : undefined}
+                        data-here={on ? 'true' : undefined}
+                        className={
+                          'flex w-full gap-1.5 rounded-md px-1.5 py-[3px] text-left text-[12px] leading-snug transition-colors focus-visible:outline-offset-[-2px] ' +
+                          (on ? 'bg-phase/[0.09] font-medium text-ink' : 'text-muted hover:bg-panel/70 hover:text-ink')
+                        }
+                      >
+                        {x.mark && <span className="w-5 shrink-0 pt-px font-mono text-[10px] text-phase/80">{x.mark}</span>}
+                        <span className="min-w-0">{x.label}</span>
+                      </button>
+                    </li>
+                  );
+                })}
+              </ol>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+/** Table-of-contents rail for wide screens: stages, and with an outline their tabs and sections. */
+export function StageRail({ groups, stages, selectedId, visited, onSelect, label, outlines, tab, onJump }: Props) {
+  const nav = useRef<HTMLElement>(null);
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const currentIds = (outlines?.[selectedId]?.find((t) => t.id === tab)?.sections ?? []).map((x) => x.id);
+  const activeIdx = useActiveSection(currentIds);
+
+  // Keep the reader's place in view inside the rail.
+  useEffect(() => {
+    const box = nav.current;
+    const el = box?.querySelector<HTMLElement>('[data-here="true"]');
+    if (!box || !el) return;
+    const b = box.getBoundingClientRect();
+    const r = el.getBoundingClientRect();
+    if (r.top < b.top + 8 || r.bottom > b.bottom - 8) box.scrollTop += r.top - b.top - b.height / 3;
+  }, [selectedId, tab, activeIdx]);
+
+  return (
+    <nav ref={nav} aria-label={label} className="no-scrollbar sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pb-6 pr-1">
       <p className="kicker mb-3 pl-1">Contents</p>
       {groups.map((g) => {
         const items = stages.filter((s) => s.group === g.id);
@@ -71,16 +193,20 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
               <span aria-hidden className="absolute bottom-3 left-[17px] top-3 w-px bg-line" />
               {items.map((s) => {
                 const active = s.id === selectedId;
+                const tabs = outlines?.[s.id];
+                const open = !!tabs && (expanded[s.id] ?? active);
                 return (
                   <li key={s.id}>
+                    <div className="flex items-center">
                     <button
                       type="button"
                       onClick={() => onSelect(s.id)}
                       aria-current={active ? 'step' : undefined}
                       className={
-                        'group flex w-full items-center gap-3 rounded-lg py-1.5 pl-1 pr-2 text-left transition-colors focus-visible:outline-offset-[-2px] ' +
+                        'group flex min-w-0 flex-1 items-center gap-3 rounded-lg py-1.5 pl-1 pr-2 text-left transition-colors focus-visible:outline-offset-[-2px] ' +
                         (active ? 'bg-panel shadow-card' : 'hover:bg-panel/70')
                       }
+                      data-here={active && !open ? 'true' : undefined}
                     >
                       <Marker stage={s} active={active} seen={visited.has(s.id)} tone={g.tone} />
                       <span className="min-w-0 flex-1">
@@ -100,6 +226,20 @@ export function StageRail({ groups, stages, selectedId, visited, onSelect, label
                         </span>
                       )}
                     </button>
+                    {tabs && (
+                      <Toggle
+                        open={open}
+                        controls={`rail-${s.id}`}
+                        label={`${open ? 'Hide' : 'Show'} the parts of ${s.title}`}
+                        onClick={() => setExpanded((e) => ({ ...e, [s.id]: !open }))}
+                      />
+                    )}
+                    </div>
+                    {tabs && open && onJump && (
+                      <div style={toneVars('--phase', g.tone)}>
+                        <StageTree stage={s} tabs={tabs} here={active} tab={tab} active={active ? activeIdx : -1} onJump={onJump} />
+                      </div>
+                    )}
                   </li>
                 );
               })}

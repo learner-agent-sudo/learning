@@ -29,6 +29,8 @@ const TONES = {
 const LEAD = /^\*\*([^*]+?):?\*\*:?\s*/;
 
 interface Props {
+  // Anchor for the contents tree.
+  id?: string;
   title: string;
   subtitle?: string;
   icon: LucideIcon;
@@ -36,12 +38,12 @@ interface Props {
   items: string[];
 }
 
-export function NoteCard({ title, subtitle, icon: Icon, tone, items }: Props) {
+export function NoteCard({ id, title, subtitle, icon: Icon, tone, items }: Props) {
   if (items.length === 0) return null;
   const t = TONES[tone];
   // No overflow clipping: glossary pop-ups must be able to spill out.
   return (
-    <section className={`rounded-xl border bg-panel shadow-card ${t.ring}`}>
+    <section id={id} className={`rounded-xl border bg-panel shadow-card ${t.ring}`}>
       <header className={`flex items-center gap-3 rounded-t-xl px-4 py-3 sm:px-5 ${t.head}`}>
         <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-white ${t.icon}`}>
           <Icon className="h-4 w-4" aria-hidden />

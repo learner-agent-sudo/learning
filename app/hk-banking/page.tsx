@@ -2,7 +2,8 @@
 
 import Link from 'next/link';
 import { BANKING_STAGES, BANKING_TABS, BankingPhase, BankingTab, CAP155_ANATOMY, PHASES, defineBankingTerm } from '@/lib/banking';
-import { focusStageTitle, useChecklists, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { bankIdBase, bankingOutline } from '@/lib/bankingOutline';
+import { focusStageTitle, useChecklists, useOutlineJump, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
 import { TONES, toneVars } from '@/lib/theme';
 import { REGULATION_ABBR } from '@/lib/abbreviations';
 import { AbbrProvider } from '@/components/AbbrContext';
@@ -10,6 +11,7 @@ import { GlossaryProvider } from '@/components/GlossaryContext';
 import { BankingStage } from '@/components/banking/BankingStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
 import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
+import { tabsTopId } from '@/components/ui/Tabs';
 
 // Module-level so hooks get stable inputs.
 const IDS = BANKING_STAGES.map((s) => s.id);
@@ -20,6 +22,8 @@ const GROUPS: RailGroup[] = (Object.entries(PHASES) as [BankingPhase, (typeof PH
 );
 const PROVISIONS = BANKING_STAGES.reduce((n, s) => n + s.provisions.length, 0);
 const CHECK_TOTAL = BANKING_STAGES.reduce((n, s) => n + s.checklist.length, 0);
+const OUTLINES = Object.fromEntries(BANKING_STAGES.map((s) => [s.id, bankingOutline(s)]));
+const TABS_TOP = (id: string) => tabsTopId(bankIdBase(id));
 
 export default function HkBankingPage() {
   const { stage: selectedId, tab, ready, go } = useStageHash('hk-banking', IDS, TABS);
@@ -41,7 +45,10 @@ export default function HkBankingPage() {
     group: s.phase,
     progress: s.checklist.length ? doneOf(s.id) / s.checklist.length : undefined,
   }));
+  // A stage without the tool a tab needs shows Essentials instead.
+  const shownTab = (OUTLINES[stage.id].some((t) => t.id === tab) ? tab : 'essentials') as BankingTab;
   const select = (id: string) => go(id);
+  const jump = useOutlineJump(go, stage.id, shownTab, TABS_TOP);
   const railProps = { groups: GROUPS, stages: rail, selectedId, visited, onSelect: select, label: 'Banking stages' };
 
   return (
@@ -71,7 +78,7 @@ export default function HkBankingPage() {
 
             <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-10 lg:mt-10 lg:grid-cols-[16.5rem_minmax(0,1fr)] xl:gap-14">
               <aside className="hidden lg:block">
-                <StageRail {...railProps} />
+                <StageRail {...railProps} outlines={OUTLINES} tab={shownTab} onJump={jump} />
               </aside>
 
               <article ref={articleRef} className="min-w-0 max-w-3xl">
@@ -85,13 +92,9 @@ export default function HkBankingPage() {
                     go(id);
                     focusStageTitle();
                   }}
-                  // A stage without the toolkit a tab needs shows Essentials instead.
-                  tab={
-                    (tab === 'vendors' && !stage.vendorKit) || (tab === 'activities' && !stage.activityKit)
-                      ? 'essentials'
-                      : (tab as BankingTab)
-                  }
+                  tab={shownTab}
                   onTabChange={(t) => go(stage.id, t)}
+                  onJump={(t, section) => jump(stage.id, t, section)}
                   ticks={ticks[stage.id] ?? []}
                   onToggle={(i) => toggle(stage.id, i)}
                 />

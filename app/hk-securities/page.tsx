@@ -10,7 +10,8 @@ import {
   SecuritiesTab,
   defineSecuritiesTerm,
 } from '@/lib/securities';
-import { focusStageTitle, useChecklists, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { focusStageTitle, useChecklists, useOutlineJump, useScrollTopOnChange, useStageHash, useVisited } from '@/lib/useStudyState';
+import { secIdBase, securitiesOutline } from '@/lib/securitiesOutline';
 import { TONES, toneVars } from '@/lib/theme';
 import { REGULATION_ABBR } from '@/lib/abbreviations';
 import { AbbrProvider } from '@/components/AbbrContext';
@@ -18,6 +19,7 @@ import { GlossaryProvider } from '@/components/GlossaryContext';
 import { SecuritiesStage } from '@/components/securities/SecuritiesStage';
 import { ModuleMasthead } from '@/components/ui/ModuleMasthead';
 import { RailGroup, StageRail, StageStrip } from '@/components/ui/StageRail';
+import { tabsTopId } from '@/components/ui/Tabs';
 
 // Module-level so hooks get stable inputs.
 const IDS = SECURITIES_STAGES.map((s) => s.id);
@@ -28,6 +30,8 @@ const GROUPS: RailGroup[] = (
 ).map(([id, p]) => ({ id, label: p.label, tone: p.tone }));
 const PROVISIONS = SECURITIES_STAGES.reduce((n, s) => n + s.provisions.length, 0);
 const CHECK_TOTAL = SECURITIES_STAGES.reduce((n, s) => n + s.checklist.length, 0);
+const OUTLINES = Object.fromEntries(SECURITIES_STAGES.map((s) => [s.id, securitiesOutline(s)]));
+const TABS_TOP = (id: string) => tabsTopId(secIdBase(id));
 
 export default function HkSecuritiesPage() {
   const { stage: selectedId, tab, ready, go } = useStageHash('hk-securities', IDS, TABS);
@@ -49,6 +53,8 @@ export default function HkSecuritiesPage() {
     group: s.phase,
     progress: s.checklist.length ? doneOf(s.id) / s.checklist.length : undefined,
   }));
+  const shownTab = tab as SecuritiesTab;
+  const jump = useOutlineJump(go, stage.id, shownTab, TABS_TOP);
   const railProps = { groups: GROUPS, stages: rail, selectedId, visited, onSelect: (id: string) => go(id), label: 'Securities stages' };
 
   return (
@@ -78,7 +84,7 @@ export default function HkSecuritiesPage() {
 
             <div className="mt-6 grid grid-cols-[minmax(0,1fr)] gap-10 lg:mt-10 lg:grid-cols-[16.5rem_minmax(0,1fr)] xl:gap-14">
               <aside className="hidden lg:block">
-                <StageRail {...railProps} />
+                <StageRail {...railProps} outlines={OUTLINES} tab={shownTab} onJump={jump} />
               </aside>
 
               <article ref={articleRef} className="min-w-0 max-w-3xl">
@@ -92,8 +98,9 @@ export default function HkSecuritiesPage() {
                     go(id);
                     focusStageTitle();
                   }}
-                  tab={tab as SecuritiesTab}
+                  tab={shownTab}
                   onTabChange={(t) => go(stage.id, t)}
+                  onJump={(t, section) => jump(stage.id, t, section)}
                   ticks={ticks[stage.id] ?? []}
                   onToggle={(i) => toggle(stage.id, i)}
                 />
