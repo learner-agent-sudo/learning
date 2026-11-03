@@ -1,4 +1,6 @@
-import { STRENGTH_LABEL, type ContractTerm, type KitPlaybook, type Stance } from './banking';
+import {
+  STRENGTH_LABEL, type AddendumKit, type ContractTerm, type KitPlaybook, type Stance, type TermHome,
+} from './banking';
 import type { ReviewStatus, VendorReview } from './useVendorReview';
 
 export const STANCE_LABEL: Record<Stance, string> = {
@@ -34,9 +36,14 @@ function cell(v: string): string {
 }
 
 /** One row per clause: the playbook plus this contract's review, for Excel. */
-export function reviewCsv(terms: ContractTerm[], review: VendorReview, appliesLabel: (a: string) => string): string {
+export function reviewCsv(
+  terms: ContractTerm[],
+  review: VendorReview,
+  appliesLabel: (a: string) => string,
+  homeLabel: (h?: TermHome) => string = () => ''
+): string {
   const head = [
-    'Clause', 'Applies to', 'Main source', 'Stance', 'Status', 'Your notes',
+    'Clause', 'Applies to', 'Where it sits', 'Main source', 'Stance', 'Status', 'Your notes',
     'Preferred position', 'Fallback', 'Red lines', 'Model clause', 'Sources',
   ];
   const rows = terms.map((t) => {
@@ -44,6 +51,7 @@ export function reviewCsv(terms: ContractTerm[], review: VendorReview, appliesLa
     return [
       t.title,
       t.appliesTo.map(appliesLabel).join('; '),
+      homeLabel(t.home),
       t.sources[0] ? STRENGTH_LABEL[t.sources[0].strength] : '',
       pb ? STANCE_LABEL[pb.stance] : '',
       statusOf(review, t.id),
@@ -64,7 +72,8 @@ export function playbookMarkdown(
   terms: ContractTerm[],
   kit: KitPlaybook | undefined,
   review: VendorReview,
-  date: string
+  date: string,
+  homeLabel: (h?: TermHome) => string = () => ''
 ): string {
   const out: string[] = ['# Vendor contract playbook', ''];
   if (review.contract) out.push(`Contract under review: ${review.contract}`, '');
@@ -77,7 +86,11 @@ export function playbookMarkdown(
   for (const t of terms) {
     const pb = t.playbook;
     out.push(`## ${t.title}`, '');
-    const meta = [pb && `Stance: ${STANCE_LABEL[pb.stance]}`, `Status: ${statusOf(review, t.id)}`].filter(Boolean);
+    const meta = [
+      pb && `Stance: ${STANCE_LABEL[pb.stance]}`,
+      homeLabel(t.home) && `Sits in: ${homeLabel(t.home)}`,
+      `Status: ${statusOf(review, t.id)}`,
+    ].filter(Boolean);
     out.push(meta.join(' · '), '');
     const note = review.items[t.id]?.note;
     if (note) out.push(`> Your notes: ${note.replace(/\n/g, '\n> ')}`, '');
@@ -104,6 +117,50 @@ export function playbookMarkdown(
       out.push(...t.require.map((s) => `- ${s}`), '');
     }
     out.push(`Sources: ${sources(t).join('; ')}`, '');
+  }
+  return out.join('\n');
+}
+
+const quoteBlock = (paras: string[]) => paras.map(plain).join('\n\n');
+
+/**
+ * A starting draft of the banking addendum: the linking clauses, the defined
+ * terms and the model wording of each included clause, numbered in order.
+ */
+export function addendumMarkdown({
+  kit, definitions, terms, notes, contract, chosen, date,
+}: {
+  kit: AddendumKit;
+  definitions: { term: string; meaning: string }[];
+  terms: ContractTerm[];
+  // Points left to the main agreement, as 'Title: note'.
+  notes: string[];
+  contract: string;
+  chosen: string[];
+  date: string;
+}): string {
+  const out: string[] = ['# Banking regulatory addendum', ''];
+  out.push(
+    `Starting draft exported ${date} from the HK banking study notes. Not legal advice and not HKMA text: the wording is original drafting, square brackets mark choices and illustrative figures, and bracketed cross-references name the clause meant.`,
+    ''
+  );
+  out.push(`Main Agreement: ${contract.trim() || '[name and date]'}`, '');
+  if (chosen.length) out.push(`Includes the optional clauses for: ${chosen.join('; ')}.`, '');
+  let n = 1;
+  out.push(`## ${n++}. Definitions`, '');
+  out.push('In this Addendum:', '');
+  for (const d of [...kit.definitions, ...definitions]) out.push(`"${d.term}" means ${plain(d.meaning)}`, '');
+  for (const m of kit.mechanics) {
+    out.push(`## ${n++}. ${m.title}`, '', quoteBlock(m.model), '');
+  }
+  for (const t of terms) {
+    if (!t.playbook?.model.length) continue;
+    out.push(`## ${n++}. ${t.title}`, '', quoteBlock(t.playbook.model), '');
+  }
+  if (notes.length) {
+    out.push('## Drafting notes (delete before sending)', '');
+    out.push('Check these points in the Main Agreement or Order, which this Addendum does not cover:', '');
+    out.push(...notes.map((s) => `- ${plain(s)}`), '');
   }
   return out.join('\n');
 }

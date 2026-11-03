@@ -5,17 +5,7 @@ import type { SaasMatrix as Matrix } from '@/lib/banking';
 import { plain } from '@/lib/vendorExport';
 import { RichText } from '../RichText';
 import { BulletList } from '../ui/Bullets';
-import { Bracketed, CopyButton } from './Wording';
-
-// The stage reads its stage and tab from the URL hash, so a link to a card
-// would navigate away; open the card and scroll to it instead.
-function openClause(id: string) {
-  const el = document.getElementById(`term-${id}`);
-  if (!(el instanceof HTMLDetailsElement)) return;
-  el.open = true;
-  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  el.querySelector<HTMLElement>('summary')?.focus({ preventScroll: true });
-}
+import { Bracketed, CopyButton, openClause } from './Wording';
 
 const CELL = 'align-top px-3 py-3 max-md:block max-md:w-auto max-md:px-0 max-md:py-1.5';
 // On phones each row becomes a card and each cell is labelled.

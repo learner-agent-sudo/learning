@@ -4,6 +4,26 @@ import { useState } from 'react';
 import { Check, Copy } from 'lucide-react';
 import { RichText } from '../RichText';
 
+// Asks the vendor kit to clear its clause filters.
+export const SHOW_ALL_CLAUSES = 'hk-banking:show-all-clauses';
+
+// The stage reads its stage and tab from the URL hash, so a link to a card
+// would navigate away; open the card and scroll to it instead. A card hidden
+// by the filters is shown first.
+export function openClause(id: string) {
+  const go = () => {
+    const el = document.getElementById(`term-${id}`);
+    if (!(el instanceof HTMLDetailsElement)) return false;
+    el.open = true;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    el.querySelector<HTMLElement>('summary')?.focus({ preventScroll: true });
+    return true;
+  };
+  if (go()) return;
+  window.dispatchEvent(new Event(SHOW_ALL_CLAUSES));
+  setTimeout(go, 60);
+}
+
 /** Model wording with each outermost [choice] highlighted. */
 export function Bracketed({ text }: { text: string }) {
   const parts: { s: string; b: boolean }[] = [];

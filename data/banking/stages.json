@@ -2118,6 +2118,27 @@
         "**Digital banks specifically:** the MA does not object in principle to outsourcing, including to group companies. Digital banks should discuss material outsourcing with the MA in advance and demonstrate that SA-2 will be complied with. The MA must be satisfied on security controls, the confidentiality and integrity of customer information, the PDPO and common-law confidentiality, and that its powers (in particular s.52) will not be hindered; and it should have the right to inspect the provider's security arrangements and controls, or obtain reports from its supervisor, external auditors or other experts (para 23).",
         "**Scope is wide:** SA-2 covers services the bank used to do itself and new ones, providers in Hong Kong or overseas, and group entities as well as third parties (SA-2 1.1.1). OR-2 asks for dependencies on third parties and intragroup entities to be managed as they would be under outsourcing arrangements (OR-2 6.2)."
       ],
+      "recent": {
+        "date": "November 2026",
+        "items": [
+          {
+            "label": "Main agreement or banking addendum",
+            "section": "addendum"
+          },
+          {
+            "label": "Service parity and most-favoured customer terms",
+            "term": "service-parity"
+          },
+          {
+            "label": "Promotions with partners",
+            "term": "promotions"
+          },
+          {
+            "label": "Due diligence before signing",
+            "tab": "materiality"
+          }
+        ]
+      },
       "lifecycle": {
         "type": "steps",
         "caption": "SA-2 sections 1.3 and 2; in on-site examinations, off-site reviews and prudential interviews, the HKMA checks whether the section 2 concerns have been addressed and deficiencies rectified (SA-2 1.3.6).",
@@ -2154,11 +2175,139 @@
           }
         ]
       },
+      "addendum": {
+        "intro": [
+          "**Why a separate addendum:** most clauses in this kit put on the provider duties that the HKMA places on the bank, such as regulator access, records available in Hong Kong, notice of changes in time to consult the HKMA, and help on exit. A provider's standard paper is written for every customer and usually does not contain them. Putting them in one banking addendum, signed once and applying to every order, leaves the provider's base terms intact and gives the bank one document to negotiate, review and show the HKMA. Several large cloud providers publish their own financial-services addendum for the same reason (market practice, not a source requirement).",
+          "**The HKMA does not prescribe the form:** SA-2 asks for the type and level of services and the provider's contractual liabilities and obligations to be clearly set out in a service agreement (2.4.1), and for the outsourcing agreement to contain a clause allowing supervisory inspection or review of the provider's operations and controls (2.8.2). It does not say whether those terms sit in the main agreement or an addendum. An addendum does the job if it binds, covers every order and prevails over anything inconsistent, including documents the provider can change online.",
+          "**Not everything moves:** scope and service levels, price, the support tier, the liability cap, insurance and governing law are negotiated in any deal and stay in the main agreement or order form. Banking needs still shape them: service levels set out in the contract (SA-2 2.4.1), a cap that does not leave a breach of confidentiality without a remedy (SA-2 2.5.2), and Hong Kong law preferred for an overseas arrangement (SA-2 2.9.1). The addendum carries a bridging clause so that the main agreement's cap cannot empty its terms.",
+          "**Agents and partners are different:** clauses for group companies, intermediaries relied on for customer due diligence, debt collectors and marketing or promotion partners belong in the agreement with that party, not in an addendum to a technology provider's paper.",
+          "**Review it regularly:** SA-2 asks banks to review their outsourcing agreements regularly, for example annually, and to consider renegotiating them to keep them in line with current market standards and changes in their business (2.4.2). One addendum per provider makes that review, and any HKMA request for the terms, easier to handle (inference)."
+        ],
+        "homes": {
+          "main": {
+            "label": "Main agreement",
+            "short": "Main agreement",
+            "blurb": "Commercial terms negotiated in any deal, usually on the provider's paper and order form. Banking needs shape the outcome, but the terms themselves are not banking-specific."
+          },
+          "addendum": {
+            "label": "Banking addendum",
+            "short": "Addendum",
+            "blurb": "Terms a provider gives because the customer is a regulated bank. Signed once, applying to every order, and prevailing over the provider's paper."
+          },
+          "own": {
+            "label": "Separate agreement",
+            "short": "Separate agreement",
+            "blurb": "Terms for group companies, intermediaries, collection agencies and marketing partners, which go in the agreement with that party."
+          }
+        },
+        "definitions": [
+          {
+            "term": "Main Agreement",
+            "meaning": "the [master services or subscription] agreement between the Bank and the Supplier dated [ ], including its schedules and every document it incorporates by reference, but not this Addendum."
+          },
+          {
+            "term": "Order",
+            "meaning": "any order form, statement of work, subscription or other document under which the Supplier provides Services to the Bank, whenever made."
+          }
+        ],
+        "mechanics": [
+          {
+            "id": "precedence",
+            "title": "Status, precedence and interpretation",
+            "why": "The addendum is only as strong as its link to the provider's paper. Standard terms often say that they prevail, that order forms add terms, or that online terms apply; a later order or click-through can then override the banking terms without anyone noticing (counsel's drafting).",
+            "model": [
+              "(a) This Addendum amends and forms part of the Main Agreement and every Order, whether made before or after the date of this Addendum. In this Addendum, 'this Agreement' means the Main Agreement, every Order and this Addendum, read together.",
+              "(b) If this Addendum conflicts or is inconsistent with the Main Agreement, an Order, a policy, a service description or any other document incorporated by reference, this Addendum prevails, whatever any of them says about priority. Only a written amendment signed by both parties that refers expressly to this clause can change that.",
+              "(c) No terms presented on a website, in a click-through or sign-in screen, on an invoice or in any other document that the Bank has not signed bind the Bank or vary this Agreement, even if a user at the Bank accepts them."
+            ]
+          },
+          {
+            "id": "online-terms",
+            "title": "Documents the Supplier can update",
+            "why": "Standard SaaS paper often lets the provider change its online terms, policies, service descriptions and sub-processor lists by posting an update, with continued use counting as acceptance. A bank should discuss a change in the scope of a banking-related outsourcing with the HKMA in advance (SA-2 1.3.2), and should not continue an arrangement that may weaken its operational resilience (OR-2 6.2). The change clause sets the process; this clause stops an online update getting round it.",
+            "model": [
+              "(a) Where the Main Agreement or an Order incorporates a document that the Supplier may update by publishing a new version, an update that reduces the Bank's rights, the Services, the service levels or the security or resilience of the Services does not apply to the Bank unless the Bank agrees in writing [or the update is required by Applicable Law and does not reduce the Bank's rights under this Addendum].",
+              "(b) Any other update takes effect for the Bank only after the notice required by [the change clause], and no update overrides this Addendum."
+            ]
+          },
+          {
+            "id": "liability-bridge",
+            "title": "Liability for breach of this Addendum",
+            "why": "The liability cap usually stays in the main agreement, but a cap set at a few months' fees, with lost data and remediation excluded as indirect loss, can leave a breach of the addendum with no real remedy. SA-2 lists the bank's contractual right to act against the provider for a breach of confidentiality among the typical safeguards for customer data (2.5.2). This clause keeps the provider's cap but gives the addendum's core duties their own limit and treats the losses that matter as direct (counsel's drafting).",
+            "model": [
+              "(a) The limits and exclusions of liability in the Main Agreement apply to this Addendum except as this clause provides.",
+              "(b) The Supplier's liability for breach of [the confidentiality, data protection, information security and Incident clauses] of this Addendum is subject to a separate aggregate limit of [the greater of HK$[ ] and [ ]% of the charges paid or payable in the [12] months before the event giving rise to the claim], which is in addition to, and does not reduce, the limit in the Main Agreement.",
+              "(c) Nothing in this Agreement limits or excludes liability for fraud or wilful default of the Supplier, a Subcontractor or their personnel, or any liability that cannot lawfully be limited.",
+              "(d) The following are direct losses of the Bank, recoverable under this Agreement: the costs of restoring or recreating Bank Data, of investigating and remediating an Incident and of notifying customers and any Regulator, and compensation reasonably paid to customers."
+            ]
+          },
+          {
+            "id": "survival",
+            "title": "Survival",
+            "why": "The bank's duties outlast the contract: it should ensure that all customer data is retrieved from the provider or destroyed when an outsourcing ends, for whatever reason (SA-2 2.5.4), and the HKMA's access should not stop while the provider still holds bank data. A standard survival clause may not list the regulatory terms (counsel's drafting).",
+            "model": [
+              "(a) The following survive termination or expiry of the Main Agreement or any Order for as long as the Supplier or any Subcontractor holds Bank Data, and in any case until the end of the Exit Period: [the Regulator access, audit, records, confidentiality, data protection, information security, Incident and exit clauses] and this clause.",
+              "(b) This Addendum continues in force while any Order or the Exit Period continues, even if the Main Agreement has ended."
+            ]
+          },
+          {
+            "id": "third-parties",
+            "title": "The Regulator and third-party rights",
+            "why": "Standard paper usually excludes third-party rights altogether. The HKMA is not a party, so decide whether it should be able to enforce its access right directly: Hong Kong's Contracts (Rights of Third Parties) Ordinance (Cap. 623) lets the parties confer that right expressly, or exclude it. Either way the Bank must be able to enforce the access and cooperation terms itself (counsel's drafting).",
+            "model": [
+              "(a) [Option A: A Regulator may enforce [the Regulator access clause] in its own right under the Contracts (Rights of Third Parties) Ordinance (Cap. 623), and the parties shall not vary or rescind that clause so as to affect that right without the Regulator's consent.] [Option B: No person other than the parties may enforce any term of this Agreement under the Contracts (Rights of Third Parties) Ordinance (Cap. 623). The Bank may enforce [the Regulator access clause], including by seeking specific performance.]",
+              "(b) No exclusion of third-party rights, and no other term of the Main Agreement, limits what the Supplier must do for a Regulator under this Addendum."
+            ]
+          }
+        ],
+        "vendorPaper": [
+          "**Start from theirs if it exists:** a provider's own financial-services addendum has already been through its legal approvals and can shorten the negotiation. Review it clause by clause with the tracker below, mark each clause Meets, Fallback agreed or Gap, and add a short bank rider for the gaps (counsel's drafting).",
+          "**Check what is specific to Hong Kong:** such documents are often written for several regulators at once. Check that they name the HKMA and let it inspect the provider or obtain reports (Digital Bank Guideline para 23; SA-2 2.8.2), keep data available in Hong Kong on a timely basis (SA-2 2.8.1), give notice of changes in time to discuss them with the HKMA first (SA-2 1.3.2) and, if the bank is a designated operator under Cap. 653, give incident notice early enough for its deadlines.",
+          "**Check the link:** whichever addendum is used, check the precedence, online-terms and liability points above. A strong addendum that a later order form or online update overrides protects little.",
+          "**One per provider:** sign one addendum per provider at master level rather than one per order, with the Critical Services and approved locations in its schedules, so that a new order cannot fall outside it (counsel's drafting)."
+        ],
+        "options": [
+          {
+            "id": "personal-data",
+            "label": "The Supplier processes personal data for the Bank",
+            "terms": [
+              "pdpo-processor"
+            ],
+            "default": true
+          },
+          {
+            "id": "offshore",
+            "label": "Services or Bank Data outside Hong Kong, including the cloud",
+            "terms": [
+              "overseas-authorities",
+              "location"
+            ],
+            "default": true
+          },
+          {
+            "id": "aml",
+            "label": "The Supplier does part of the Bank's AML/CFT work (eKYC, screening or monitoring)",
+            "terms": [
+              "aml-vendors"
+            ],
+            "default": false
+          },
+          {
+            "id": "cap653",
+            "label": "The Bank is a designated operator of critical infrastructure under Cap. 653",
+            "terms": [
+              "cap653"
+            ],
+            "default": false
+          }
+        ]
+      },
       "saasMatrix": {
         "intro": [
           "**How to read it:** each row takes a term as it usually appears in a SaaS or cloud provider's standard paper, sets it against what SA-2 and TM-G-1 ask of the bank (and, where they are silent, the source that fills the gap), and gives compromise wording the bank can accept when the provider pushes back.",
           "**Legal force:** SA-2 and TM-G-1 are non-statutory HKMA guidance; TM-E-1 and the digital bank guideline are statutory guidelines. The wording is our drafting from each clause's fallback position, so taking it still needs the sign-off the playbook sets for a fallback.",
-          "**The regulator's rights are not for trade:** every compromise keeps the HKMA's access, inspection and information rights whole. It is the bank's own rights that bend."
+          "**The regulator's rights are not for trade:** every compromise keeps the HKMA's access, inspection and information rights whole. It is the bank's own rights that bend.",
+          "**Where the wording goes:** the liability, governing law and support tier rows change the main agreement; the rest of the compromise wording belongs in the banking addendum described above."
         ],
         "rows": [
           {
@@ -2438,6 +2587,8 @@
           "appliesTo": [
             "all"
           ],
+          "home": "main",
+          "homeNote": "Main agreement or order form, usually the provider's service description and service levels. Check that they form part of the contract rather than a web page the provider can change: SA-2 asks for the type and level of services to be clearly set out in a service agreement (2.4.1).",
           "summary": "The agreement should clearly set out the type and level of services and the vendor's contractual obligations (SA-2 2.4.1). The liabilities that 2.4.1 also mentions are dealt with under Liability, indemnities and insurance. Concrete, measurable service levels are what let the bank monitor performance against target (2.3.2).",
           "require": [
             "**Services:** the type and level of services to be provided, clearly set out (SA-2 2.4.1). Describing them precisely enough to monitor is counsel's drafting point.",
@@ -2531,6 +2682,8 @@
             "all",
             "critical"
           ],
+          "home": "main",
+          "homeNote": "Main agreement or order form. A commercial term, not an HKMA requirement: fix the support tier in the order form and put any restoration-priority or most-favoured-customer wording in the main agreement.",
           "summary": "A small digital bank often gets a lower support tier, slower answers and a later place in the restoration queue than a provider's large clients. HKMA guidance does not ask for a most-favoured-customer (MFN) clause. It does expect service levels to be set out and monitored, and it asks the bank not to enter into or continue a third-party arrangement that may weaken a critical operation's resilience; that test has no size qualifier. Fixed service commitments and restoration priority do more than a price MFN.",
           "require": [
             "**Service levels in the contract:** the type and level of service, and the provider's contractual liabilities and obligations, should be clearly set out (SA-2 2.4.1), and performance monitored against target service levels (SA-2 2.3.2). For technology outsourcing the agreement should specify the provider's performance standards (TM-G-1 7.1.1).",
@@ -2624,6 +2777,8 @@
           "appliesTo": [
             "all"
           ],
+          "home": "main",
+          "homeNote": "Main agreement. The cap stays there, but the addendum's liability clause keeps it from leaving the addendum's core duties without a remedy.",
           "summary": "SA-2 asks for the provider's contractual liabilities, not only its obligations, to be clearly set out in the service agreement (2.4.1). Liability terms move cost, not accountability, which stays with the bank (2.1.1). Caps, carve-outs, indemnities and insurance should leave the bank able to recover what a vendor failure is likely to cost it.",
           "require": [
             "**Liabilities set out:** the vendor's contractual liabilities, as well as its obligations, clearly set out in the service agreement (SA-2 2.4.1). SA-2 says nothing on the size of caps; that is a commercial judgment.",
@@ -2776,6 +2931,7 @@
             "all",
             "offshore"
           ],
+          "home": "addendum",
           "summary": "The HKMA's examination powers under BO ss.55–56 run against the bank (and, for a locally incorporated bank, its branches, offices and subsidiaries), not against a third-party, parent or sister-company vendor. For those vendors, the contract is what gives the HKMA access to the vendor's operations.",
           "require": [
             "**Inspection clause:** the agreement allows supervisory inspection or review of the vendor's operations and controls, so far as they relate to the outsourced activity (SA-2 2.8.2).",
@@ -2894,6 +3050,7 @@
             "all",
             "critical"
           ],
+          "home": "addendum",
           "summary": "The bank's internal and external auditors need unimpeded access to outsourced data (SA-2 2.8.2), and the bank should assess the IT control environment of each provider of critical technology services every year (TM-G-1 7.1.1). The contract has to give them, and the assessors the bank appoints, the access to do this.",
           "require": [
             "**Auditors:** access to data by the bank's internal and external auditors should not be impeded by the outsourcing (SA-2 2.8.2). SA-2 asks for an express clause only for supervisory inspection; an equivalent audit-access clause for the bank's auditors is the usual way to deliver this (drafting point).",
@@ -2984,6 +3141,7 @@
             "all",
             "offshore"
           ],
+          "home": "addendum",
           "summary": "The bank should keep appropriate, up-to-date records at its own premises and be able to get accurate data back from the vendor in Hong Kong on a timely basis (SA-2 2.8.1). Under BO s.56 it must also produce books and information when the MA examines it, wherever the vendor holds them.",
           "require": [
             "**Records at the bank:** appropriate, up-to-date records kept at the bank's own premises and available for HKMA inspection under BO ss.55–56 (SA-2 2.8.1).",
@@ -3080,6 +3238,8 @@
           "appliesTo": [
             "all"
           ],
+          "home": "addendum",
+          "homeNote": "Banking addendum. The main agreement's mutual confidentiality clause usually stays; the addendum extends protection to all customer information and lets the Bank disclose to the Regulator.",
           "summary": "The bank's common-law duty of confidentiality covers corporate as well as individual customers (SA-2 footnote 1), and SA-2 2.5.2 asks for safeguards for customer information generally. The confidentiality clause should therefore reach all customer information, not only personal data (drafting conclusion).",
           "require": [
             "**Undertakings:** SA-2 expects controls and proper safeguards for customer information, and lists as typical safeguards (examples, not a mandatory list) undertakings by the vendor that it and its staff will abide by confidentiality rules, including taking account of the PDPO data protection principles (2.5.2).",
@@ -3176,6 +3336,8 @@
           "appliesTo": [
             "personal-data"
           ],
+          "home": "addendum",
+          "homeNote": "Banking addendum, or the provider's own data processing addendum if it has one. Check that document against this clause; the banking addendum adds what is missing and prevails.",
           "summary": "This is the main place where statute itself requires the bank to control a vendor (the other statutory hooks are narrower: AMLO Sch. 2 s.18 for CDD intermediaries, and Cap. 653 for a designated CI operator). Whenever the bank engages a data processor, in or outside Hong Kong, it must adopt contractual or other means to stop the processor keeping the data longer than necessary for processing and to protect it against unauthorized or accidental access, processing, erasure, loss or use. For an external vendor, a contract is the practical means.",
           "require": [
             "**Retention (DPP2(3)):** prevent personal data transferred to the processor being kept longer than necessary for processing it.",
@@ -3315,6 +3477,7 @@
             "all",
             "personal-data"
           ],
+          "home": "addendum",
           "summary": "SA-2 lists two typical safeguards the bank should have in place to protect customer data confidentiality: keeping the bank's customer data segregated or compartmentalised from the vendor's own data and its other clients' data, and giving access only to authorized vendor employees on a need basis (SA-2 2.5.2). For personal data they are also practical ways to meet the statutory DPP4(2) duty (inference).",
           "require": [
             "**Segregation:** the bank's customer data is segregated or compartmentalised from data of the vendor and its other clients (SA-2 2.5.2).",
@@ -3385,6 +3548,7 @@
             "all",
             "critical"
           ],
+          "home": "addendum",
           "summary": "For a digital bank, the MA must be satisfied that outsourced operations remain subject to adequate security controls and that the confidentiality and integrity of customer information will not be compromised (Digital Bank Guideline para 23). TM-G-1 sets out the expected controls, and TM-E-1, a statutory guideline, adds specific ones for e-banking. The contract should turn these into specific vendor obligations that the vendor cannot lower on its own (drafting conclusion). The statutory security duty for personal data (PDPO DPP4(2)) is in the data processor clause.",
           "require": [
             "**Adequate controls:** the MA must be satisfied that the outsourced operations remain subject to adequate security controls (Digital Bank Guideline para 23). Controls should be 'fit for purpose' for the bank's transactions (para 14) and regularly reviewed as technology develops (para 15). Stating them as vendor obligations is counsel's drafting.",
@@ -3497,6 +3661,7 @@
             "all",
             "agents"
           ],
+          "home": "addendum",
           "summary": "Vendor staff work inside the bank's premises, systems and customer relationships, and the bank stays answerable for them (CoBP 2.5). TM-G-1 expects approved, monitored access for third-party personnel and proper screening, including background checks, for technology staff and contractors (3.6.3). The core is non-statutory guidance; TM-E-1, a statutory guideline, adds controls where vendor staff handle customer authentication (4.1.3, 7.4.1), and the PDPO and the Prevention of Bribery Ordinance apply underneath.",
           "require": [
             "**Access to secure areas:** third-party personnel, such as service providers' staff, enter the bank's secure areas only with proper approval, and their activities are closely monitored (TM-G-1 3.6.3).",
@@ -3634,6 +3799,7 @@
             "all",
             "critical"
           ],
+          "home": "addendum",
           "summary": "Vendors pass work to their own suppliers. For technology outsourcing, TM-G-1 asks the bank to consider requiring notice of, or its approval for, significant sub-contracting, and to keep the original vendor responsible. The Code of Banking Practice bans sub-contracting outright for debt collection agencies.",
           "require": [
             "**Notice or approval:** for technology outsourcing, TM-G-1 expects the bank to consider requiring notice of, or its approval for, significant sub-contracting (7.1.1). SA-2 does not address sub-contracting. Extending a notice-or-approval right to every material vendor, not only technology providers, is drafting advice rather than an HKMA expectation.",
@@ -3723,6 +3889,7 @@
             "all",
             "material"
           ],
+          "home": "addendum",
           "summary": "A bank planning to change an outsourcing in a banking-related area, or its scope, should discuss the plans with the HKMA in advance (SA-2 1.3.2), and should review its agreements regularly to keep them in line with market standards and its business (2.4.2). The contract has to give the bank sight and control of changes before they happen, whether they come from the vendor, the bank or the law.",
           "require": [
             "**HKMA first:** before changing an outsourcing of a banking-related area, or widening or narrowing its scope, the bank should take its plans to the HKMA and show that the major concerns in SA-2 section 2 are dealt with before going ahead (SA-2 1.3.2). Digital banks should discuss plans for material outsourcing in advance (Digital Bank Guideline para 23).",
@@ -3834,6 +4001,7 @@
             "all",
             "critical"
           ],
+          "home": "addendum",
           "summary": "The vendor's outages are the bank's outages. The HKMA expects the bank to understand the vendor's contingency plan, to monitor the plan and its test results, and to include the vendor dependency in its own testing (SA-2 2.6.2, 2.7.1–2.7.2; OR-2 7.2). SA-2 and OR-2 are non-statutory guidance; TM-E-1, which extends the bank's e-banking resilience controls and monitoring to relevant service providers (9.1.2, 9.4.2), is a statutory guideline.",
           "require": [
             "**Vendor BCP:** the vendor maintains contingency plans and tests them regularly (SA-2 2.7.1).",
@@ -3922,6 +4090,7 @@
           "appliesTo": [
             "all"
           ],
+          "home": "addendum",
           "summary": "The HKMA expects the bank to notify it promptly of significant incidents: TM-E-1 8.2.5 covers e-banking, and TM-G-1 3.3.3 covers confirmed IT-related fraud and major security breaches. A bank designated as a CI operator under Cap. 653 also has a statutory duty to notify the Commissioner of computer-system security incidents within specified times (s.28). That only works if the vendor tells the bank faster.",
           "require": [
             "**Escalation:** reporting procedures that escalate problems promptly to the management of both the bank and the vendor (SA-2 2.6.4).",
@@ -4034,6 +4203,8 @@
           "appliesTo": [
             "critical"
           ],
+          "home": "addendum",
+          "homeNote": "Banking addendum, only if the Bank is a designated operator under Cap. 653.",
           "summary": "If the bank is designated under Cap. 653, statute reaches its suppliers through the bank's own duties: its security management plan must cover managing supplier contracts, and a critical computer system can be one the bank does not control.",
           "require": [
             "**Supplier contracts in the plan:** the computer-system security management plan must cover managing contracts and other communications with suppliers of computer-related services and products for the critical systems, so that the bank complies with its obligations and its required security measures are properly implemented (s.23(3); Sch. 3 item 3(h)).",
@@ -4125,6 +4296,7 @@
           "appliesTo": [
             "all"
           ],
+          "home": "addendum",
           "summary": "The bank should monitor the vendor's performance on a continuous basis and have effective procedures for monitoring the relationship and its risks (SA-2 2.3.2, 2.6.1). SA-2 does not say how the bank gets the information; contractual reporting duties are the practical way (drafting inference).",
           "require": [
             "**Reports:** the information the bank needs for what SA-2 says its monitoring should cover: contract performance, material problems the vendor encounters, regular review of the vendor's financial condition and risk profile, and the vendor's contingency plan, its test results and scope for improvement (SA-2 2.6.2). SA-2 lists these as the bank's monitoring scope; the vendor's duty to report them is counsel's drafting.",
@@ -4204,6 +4376,7 @@
           "appliesTo": [
             "offshore"
           ],
+          "home": "addendum",
           "summary": "Data held offshore may be reachable by foreign police, tax or other authorities under compulsion of law. The bank should notify the HKMA if overseas authorities seek access to its customers' data (SA-2 2.9.1), so it needs the vendor to tell it first.",
           "require": [
             "**Notice:** the vendor tells the bank promptly of any request by an overseas authority for the bank's customer data, so far as the law allows (inference from SA-2 2.9.1, which asks the bank to notify the HKMA of such requests).",
@@ -4275,6 +4448,7 @@
           "appliesTo": [
             "offshore"
           ],
+          "home": "addendum",
           "summary": "Where the data sits decides which laws and authorities can reach it. The bank needs to choose locations deliberately and control changes.",
           "require": [
             "**Named locations:** the contract names where the vendor is located and where the bank's data is stored and processed (drafting inference). That lets the bank do what SA-2 says it should generally do: tell customers the country in which the vendor is located, any later changes, and any right of access overseas authorities have (SA-2 2.9.1).",
@@ -4356,6 +4530,8 @@
           "appliesTo": [
             "offshore"
           ],
+          "home": "main",
+          "homeNote": "Main agreement. A different law for the addendum alone invites argument. If the provider will not move from its home law, take a local-law opinion that the regulatory terms still work (see the red lines).",
           "summary": "For overseas outsourcing, SA-2 prefers the agreement to be governed by Hong Kong law. It is a preference, not an absolute rule.",
           "require": [
             "**Hong Kong law:** preferably Hong Kong law for an overseas outsourcing agreement (SA-2 2.9.1)."
@@ -4427,6 +4603,8 @@
             "all",
             "critical"
           ],
+          "home": "addendum",
+          "homeNote": "Banking addendum. Ordinary termination stays in the main agreement; the addendum adds the regulatory triggers, limits on suspension and exit assistance.",
           "summary": "The bank should be able to leave: get its customer data back or destroyed (SA-2 2.5.4), move the service elsewhere (2.7.3), and do so if the HKMA, in extreme cases, requires alternative arrangements (1.3.5).",
           "require": [
             "**Data at the end:** when the agreement ends, for whatever reason, all customer data is retrieved from the vendor or destroyed (SA-2 2.5.4).",
@@ -4524,6 +4702,8 @@
           "appliesTo": [
             "intragroup"
           ],
+          "home": "own",
+          "homeNote": "The intragroup services agreement itself. Where the provider is a wholly-owned subsidiary of the bank, or the head office or another branch of a foreign bank, SA-2 says a memorandum of understanding may be acceptable (2.4.3).",
           "summary": "Services from a parent or affiliate are still outsourcing (SA-2 1.1.1). Being in the group earns no discount: whether or not the provider is in the group, the MA must be satisfied that the outsourced operations keep adequate security controls, that customer confidentiality and the PDPO are respected, and that his Banking Ordinance powers, in particular s.52, are not hindered (Digital Bank Guideline para 23). Responsibilities should be set out in writing. The bank is a separate legal entity: its directors are not absolved from responsibility for the effects of group policies and actions applied to it, and its board remains ultimately responsible for their implementation and effectiveness in the bank (CG-1 V.4 9.2.2).",
           "require": [
             "**Form:** SA-2 expects a service agreement (2.4.1). A memorandum of understanding 'may be acceptable' where the provider is a wholly-owned subsidiary of the bank, or the head office or another branch of a foreign bank (2.4.3). A tech-group parent or sister company falls outside 2.4.3, so use a full agreement (inference from 2.4.1 and 2.4.3).",
@@ -4624,6 +4804,8 @@
             "aml",
             "offshore"
           ],
+          "home": "addendum",
+          "homeNote": "Banking addendum, for providers of eKYC, screening or transaction monitoring only.",
           "summary": "eKYC, screening and transaction-monitoring vendors do part of the bank's AML work, but the bank keeps the legal duty. The AML Guideline treats every 'should' as mandatory (para 1.6).",
           "require": [
             "**Bank's procedures:** a vendor or agent that applies CDD on the bank's behalf, following the bank's procedures and under the bank's control of their effective implementation, is an outsourcing or agency arrangement rather than reliance on an intermediary (4.11.2), and the bank remains liable for any CDD failure (AMLO Sch. 2 s.18(6)). Binding the vendor to the bank's CDD procedures and giving the bank control rights follows from this (drafting inference).",
@@ -4722,6 +4904,8 @@
             "aml",
             "agents"
           ],
+          "home": "own",
+          "homeNote": "The reliance agreement with the intermediary.",
           "summary": "Reliance is a separate regime: a regulated intermediary performs part of CDD with its own procedures, and the bank should obtain confirmations and undertakings that secure access to what it collected (4.11.3–4.11.5). The bank keeps ultimate responsibility (4.11.1).",
           "require": [
             "**Eligible intermediary:** only the categories in AMLO Sch. 2 s.18(3) qualify, and the bank must take appropriate measures to confirm the intermediary meets the criteria (4.11.8–4.11.14).",
@@ -4820,6 +5004,8 @@
             "agents",
             "personal-data"
           ],
+          "home": "own",
+          "homeNote": "The agreement with the collection agency.",
           "summary": "The Code of Banking Practice sets detailed, prescriptive terms for collection agencies, and the bank remains accountable to customers for complaints about the agency and should not disclaim responsibility for its misconduct (CoBP 46.5).",
           "require": [
             "**Formal contract:** a formal contractual relationship, with the contract or written instructions requiring collectors to observe the conduct rules in 46.1 to 46.3 (46.4).",
@@ -4937,6 +5123,8 @@
             "agents",
             "personal-data"
           ],
+          "home": "own",
+          "homeNote": "The partnership or referral agreement with the partner.",
           "summary": "Partners who promote the bank's products, run its digital channels or sell third-party products through it expose the bank to Code and PDPO duties that the contract has to carry.",
           "require": [
             "**Fair promotion:** the bank is responsible for ensuring that the promotional activities and materials its engaged or collaborating partners publish or share during the engagement are fair and reasonable, not misleading, and compliant with CoBP 11.2, 11.4 and 11.6 (11.7). Approval, take-down and control rights over partner materials, and over any sub-affiliates or publishers the partner uses, follow from this (drafting inference). The bank should also keep a convenient channel for the public to verify promotions by third parties it engages (11.8).",
@@ -5025,6 +5213,8 @@
             "agents",
             "personal-data"
           ],
+          "home": "own",
+          "homeNote": "The partnership or campaign agreement with the partner running the promotion.",
           "summary": "When an agency, platform or merchant partner runs a promotion for the bank, the bank stays responsible for it. A lucky draw needs a licence, the Code of Banking Practice governs the materials and the delivery of promised benefits, gifts tied to investment or insurance products are restricted, and using personal data for marketing engages PDPO Part 6A.",
           "require": [
             "**Lucky draws need a licence:** a trade promotion competition, such as a lucky draw for customers, must be licensed by the Office of the Licensing Authority under s.22 of the Gambling Ordinance (Cap. 148). An unlicensed one can be an unlawful lottery: the Government told LegCo in 2017 that a merchant which ran an online lucky draw without a licence was prosecuted for organising an unlawful lottery under s.9 (as reported; check the reply). The licence carries conditions on prizes, entry, the draw and publication of results; check the current conditions with the OLA before launch.",

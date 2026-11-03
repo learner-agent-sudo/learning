@@ -131,7 +131,7 @@ export function BankingStage({ stage, total, prev, next, onNavigate, tab, onTabC
 
       {tab === 'vendors' && stage.vendorKit && (
         <TabPanel idBase={idBase} id="vendors">
-          <VendorKit kit={stage.vendorKit} />
+          <VendorKit kit={stage.vendorKit} stageId={stage.id} />
         </TabPanel>
       )}
 

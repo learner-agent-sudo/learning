@@ -77,12 +77,18 @@ export interface ContractSource {
   cites?: StatuteCite[];
 }
 
+// Where a clause sits: the provider's main agreement, a banking addendum to
+// it, or the agreement with an agent, partner or group company.
+export type TermHome = 'main' | 'addendum' | 'own';
+
 export interface ContractTerm {
   id: string;
   title: string;
   // Which engagements need it: all, material, personal-data, offshore,
   // critical, intragroup, agents.
   appliesTo: string[];
+  home?: TermHome;
+  homeNote?: string;
   summary: string;
   require: string[];
   sources: ContractSource[];
@@ -132,9 +138,43 @@ export interface SaasMatrix {
   rows: SaasRow[];
 }
 
+// A clause that links the banking addendum to the provider's paper.
+export interface AddendumMechanic {
+  id: string;
+  title: string;
+  why: string;
+  model: string[];
+}
+
+// Optional parts of the addendum, each switching on the clauses it names.
+export interface AddendumOption {
+  id: string;
+  label: string;
+  terms: string[];
+  default: boolean;
+}
+
+export interface AddendumKit {
+  intro: string[];
+  homes: Record<TermHome, { label: string; short: string; blurb: string }>;
+  definitions: { term: string; meaning: string }[];
+  mechanics: AddendumMechanic[];
+  // Working from the provider's own financial-services addendum.
+  vendorPaper: string[];
+  options: AddendumOption[];
+}
+
+// Recent additions, each pointing at a section, a clause or a tab.
+export interface KitRecent {
+  date: string;
+  items: { label: string; section?: string; term?: string; tab?: string }[];
+}
+
 export interface VendorKit {
   intro: string[];
+  recent?: KitRecent;
   lifecycle: SectionVisualData;
+  addendum?: AddendumKit;
   saasMatrix?: SaasMatrix;
   terms: ContractTerm[];
   playbook?: KitPlaybook;

@@ -3,9 +3,11 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import {
   Check, ChevronRight, CircleCheck, Cloud, Download, FileSpreadsheet,
-  Flag, Handshake, Minus, PenLine, RotateCcw, Signature, TriangleAlert, Undo2,
+  Flag, Handshake, Layers, Minus, PenLine, RotateCcw, Signature, Sparkles, TriangleAlert, Undo2,
 } from 'lucide-react';
-import type { ClausePlaybook, ContractTerm, KitPlaybook, Stance, Strength, VendorKit as Kit } from '@/lib/banking';
+import type {
+  AddendumKit, ClausePlaybook, ContractTerm, KitPlaybook, KitRecent, Stance, Strength, TermHome, VendorKit as Kit,
+} from '@/lib/banking';
 import { load, save } from '@/lib/useStudyState';
 import { REVIEW_STATUSES, useVendorReview, type ReviewStatus } from '@/lib/useVendorReview';
 import {
@@ -16,8 +18,9 @@ import { BODY, CARD, CHEVRON, EDGE, INNER_DISCLOSURE, PILL_BASE, SUMMARY, TITLE,
 import { BulletList, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
 import { ViewTabs } from '../ui/ViewTabs';
+import { Addendum, HOME_TONE, HOMES } from './Addendum';
 import { SaasMatrix } from './SaasMatrix';
-import { Bracketed, CopyButton } from './Wording';
+import { Bracketed, CopyButton, SHOW_ALL_CLAUSES, openClause } from './Wording';
 import { SourceList, STRENGTH, StrengthLegend } from './Sources';
 
 // How hard to hold the line in negotiation.
@@ -198,12 +201,24 @@ function PlaybookView({ term, pb }: { term: ContractTerm; pb: ClausePlaybook }) 
   );
 }
 
-function RequireView({ term }: { term: ContractTerm }) {
+type Homes = AddendumKit['homes'] | undefined;
+
+function RequireView({ term, homes }: { term: ContractTerm; homes: Homes }) {
+  const home = term.home && homes?.[term.home];
   return (
     <div className="space-y-4">
       <p className="leading-relaxed">
         <RichText text={term.summary} />
       </p>
+      {home && (
+        <p className="flex gap-2.5 rounded-lg bg-ink/[0.03] px-3.5 py-2.5 text-sm leading-relaxed ring-1 ring-line">
+          <Layers className="mt-0.5 h-4 w-4 shrink-0 text-muted" aria-hidden />
+          <span>
+            <span className="font-semibold">Where it sits: </span>
+            <RichText text={term.homeNote ?? `${home.label}. ${home.blurb}`} />
+          </span>
+        </p>
+      )}
       <Block title="The contract should">
         <BulletList items={term.require} />
       </Block>
@@ -289,9 +304,10 @@ function ReviewBar({
 }
 
 function TermCard({
-  term, view, onView, status, note, onStatus, onNote,
+  term, homes, view, onView, status, note, onStatus, onNote,
 }: {
   term: ContractTerm;
+  homes: Homes;
   view: View;
   onView: (v: View) => void;
   status?: ReviewStatus;
@@ -325,6 +341,15 @@ function TermCard({
                 {STANCE_LABEL[pb.stance]}
               </span>
             )}
+            {term.home && homes && (
+              <span
+                className={`inline-flex items-center gap-1 rounded-full px-2 py-px text-[10.5px] font-medium ring-1 ${HOME_TONE[term.home].chip}`}
+                title={`Sits in: ${homes[term.home].label}`}
+              >
+                <Layers className="h-2.5 w-2.5" aria-hidden />
+                {homes[term.home].short}
+              </span>
+            )}
             {term.appliesTo.map((a) => (
               <span key={a} className="rounded-full bg-ink/[0.06] px-2 py-px text-[10.5px] font-normal text-muted">
                 {APPLIES[a] ?? a}
@@ -347,7 +372,7 @@ function TermCard({
       <div className={`${BODY} break-words`}>
         <ViewTabs id={tabId} label="Clause view" view={shown} views={views} onView={onView} />
         <div id={`${tabId}-panel`} role="tabpanel" aria-labelledby={`${tabId}-tab-${shown}`}>
-          {shown === 'require' && <RequireView term={term} />}
+          {shown === 'require' && <RequireView term={term} homes={homes} />}
           {shown === 'playbook' && pb && <PlaybookView term={term} pb={pb} />}
           {shown === 'sources' && <SourcesView term={term} />}
         </div>
@@ -405,10 +430,42 @@ function PlaybookGuide({ kit }: { kit: KitPlaybook }) {
   );
 }
 
+function Recent({ recent, stageId }: { recent: KitRecent; stageId: string }) {
+  const link = 'text-accent underline underline-offset-2 hover:text-ink';
+  return (
+    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1.5 rounded-xl border border-phase/25 bg-phase/[0.05] px-4 py-3 text-sm leading-snug">
+      <span className="kicker flex items-center gap-1.5 text-phase">
+        <Sparkles className="h-3.5 w-3.5" aria-hidden /> Added in {recent.date}
+      </span>
+      {recent.items.map((i) =>
+        i.tab ? (
+          <a key={i.label} href={`#${stageId}/${i.tab}`} className={link}>
+            {i.label}
+          </a>
+        ) : (
+          <button
+            key={i.label}
+            type="button"
+            className={`${link} text-left`}
+            onClick={() =>
+              i.term
+                ? openClause(i.term)
+                : document.getElementById(i.section ?? '')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }
+          >
+            {i.label}
+          </button>
+        )
+      )}
+    </div>
+  );
+}
+
 /** Vendor-contract toolkit: lifecycle, clauses with sources and playbook, and a review tracker. */
-export function VendorKit({ kit }: { kit: Kit }) {
+export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
   const [filter, setFilter] = useState('all-terms');
   const [stance, setStance] = useState<Stance | 'any'>('any');
+  const [home, setHome] = useState<TermHome | 'any'>('any');
   const [statusFilter, setStatusFilter] = useState<ReviewStatus | 'open' | 'any'>('any');
   const [view, setView] = useState<View>('require');
   const { review, setStatus, setNote, setContract, reset } = useVendorReview();
@@ -417,6 +474,19 @@ export function VendorKit({ kit }: { kit: Kit }) {
     const v = load(VIEW_KEY);
     if (v === 'require' || v === 'playbook' || v === 'sources') setView(v);
   }, []);
+  // A link to a clause hidden by the filters clears them first.
+  useEffect(() => {
+    const showAll = () => {
+      setFilter('all-terms');
+      setStance('any');
+      setHome('any');
+      setStatusFilter('any');
+    };
+    window.addEventListener(SHOW_ALL_CLAUSES, showAll);
+    return () => window.removeEventListener(SHOW_ALL_CLAUSES, showAll);
+  }, []);
+  const homes = kit.addendum?.homes;
+  const homeLabel = (h?: TermHome) => (h && homes ? homes[h].label : '');
   const changeView = (v: View) => {
     setView(v);
     save(VIEW_KEY, v);
@@ -428,6 +498,7 @@ export function VendorKit({ kit }: { kit: Kit }) {
     (t) =>
       (filter === 'all-terms' || t.appliesTo.includes(filter)) &&
       (stance === 'any' || t.playbook?.stance === stance) &&
+      (home === 'any' || t.home === home) &&
       (statusFilter === 'any' || (statusFilter === 'open' ? !statusOf(t) : statusOf(t) === statusFilter))
   );
   const count = (s: ReviewStatus | 'open') =>
@@ -438,11 +509,11 @@ export function VendorKit({ kit }: { kit: Kit }) {
 
   const exportCsv = () => {
     const d = today();
-    download(exportName(review.contract, 'csv', d), reviewCsv(kit.terms, review, (a) => APPLIES[a] ?? a), 'text/csv;charset=utf-8');
+    download(exportName(review.contract, 'csv', d), reviewCsv(kit.terms, review, (a) => APPLIES[a] ?? a, homeLabel), 'text/csv;charset=utf-8');
   };
   const exportMd = () => {
     const d = today();
-    download(exportName(review.contract, 'md', d), playbookMarkdown(kit.terms, kit.playbook, review, d), 'text/markdown;charset=utf-8');
+    download(exportName(review.contract, 'md', d), playbookMarkdown(kit.terms, kit.playbook, review, d, homeLabel), 'text/markdown;charset=utf-8');
   };
   const clear = () => {
     if (window.confirm('Clear the status and notes for every clause, and the contract name?')) reset();
@@ -465,9 +536,34 @@ export function VendorKit({ kit }: { kit: Kit }) {
   return (
     <div className="space-y-10">
       <section>
+        {kit.recent && (
+          <div className="mb-5">
+            <Recent recent={kit.recent} stageId={stageId} />
+          </div>
+        )}
         <BulletList items={kit.intro} />
         <SectionVisual visual={kit.lifecycle} />
       </section>
+
+      {kit.addendum && (
+        <section id="addendum" className="scroll-mt-24">
+          <SectionTitle
+            aside={
+              <span className="font-mono text-xs text-muted">
+                {kit.terms.filter((t) => t.home === 'addendum').length} of {kit.terms.length} in the addendum
+              </span>
+            }
+          >
+            Main agreement or banking addendum
+          </SectionTitle>
+          <Addendum
+            kit={kit.addendum}
+            terms={kit.terms}
+            definitions={kit.playbook?.definitions ?? []}
+            contract={review.contract}
+          />
+        </section>
+      )}
 
       {kit.saasMatrix && (
         <section>
@@ -558,6 +654,27 @@ export function VendorKit({ kit }: { kit: Kit }) {
             )
           )}
         </div>
+        {homes && (
+          <div className="mb-2 flex flex-wrap gap-1.5" role="group" aria-label="Show clauses that sit in">
+            {HOMES.map((h) => {
+              const n = kit.terms.filter((t) => t.home === h).length;
+              return n === 0 ? null : (
+                <button
+                  key={h}
+                  type="button"
+                  onClick={() => setHome(home === h ? 'any' : h)}
+                  aria-pressed={home === h}
+                  title={homes[h].blurb}
+                  className={chipClass(home === h)}
+                >
+                  <span aria-hidden className={`h-1.5 w-1.5 rounded-full ${HOME_TONE[h].dot}`} />
+                  {homes[h].label}
+                  <span className="font-mono tabular-nums">{n}</span>
+                </button>
+              );
+            })}
+          </div>
+        )}
         {hasPlaybook && (
           <div className="mb-3 flex flex-wrap gap-1.5" role="group" aria-label="Show clauses with stance">
             {STANCES.map((s) => {
@@ -590,6 +707,14 @@ export function VendorKit({ kit }: { kit: Kit }) {
                   },
                 ]
               : []),
+            ...(homes
+              ? [
+                  {
+                    title: 'Where the clause sits',
+                    entries: HOMES.map((h) => ({ label: homes[h].label, meaning: homes[h].blurb, dot: HOME_TONE[h].dot })),
+                  },
+                ]
+              : []),
             {
               title: 'Review status for this contract',
               entries: REVIEW_STATUSES.map((s) => ({ label: STATUS_LABEL[s], meaning: STATUS_HINT[s], dot: STATUS[s].dot })),
@@ -602,6 +727,7 @@ export function VendorKit({ kit }: { kit: Kit }) {
             <TermCard
               key={t.id}
               term={t}
+              homes={homes}
               view={view}
               onView={changeView}
               status={review.items[t.id]?.status}
