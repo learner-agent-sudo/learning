@@ -43,11 +43,12 @@ BUNDLES = [
     ("https://resource.data.one.gov.hk/doj/data/hkel_c_leg_cap_601_cap_end_en.zip", 601, 10**6),
 ]
 
-# Chapters used by the HK banking and securities modules. Large technical
+# Chapters used by the HK banking, securities and insurance modules. Large technical
 # rule-books are kept index-only (Parts and headings, no text) to keep the
 # repo small.
 CAPS = [
     "32",    # Companies (Winding Up and Miscellaneous Provisions) Ordinance
+    "41",    # Insurance Ordinance
     "66",    # Exchange Fund Ordinance
     "71",    # Control of Exemption Clauses Ordinance
     "155",   # Banking Ordinance
