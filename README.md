@@ -13,7 +13,7 @@ branch.
 | Privacy & data protection — GDPR (DataGuard) | `/privacy/dataguard/index.html` | Live |
 | HK banking regulation — Banking Ordinance (Cap. 155), HKMA | `/hk-banking/` | Live |
 | HK securities regulation — SFO (Cap. 571), SFC | `/hk-securities/` | Live |
-| HK insurance regulation — Insurance Ordinance (Cap. 41), IA | — | Up next |
+| HK insurance regulation — Insurance Ordinance (Cap. 41), IA | `/hk-insurance/` | Live |
 
 The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
 
@@ -27,11 +27,11 @@ sections (the numbered notes, or the parts of a tool such as the vendor kit),
 with the section being read highlighted; any stage or tab can be unfolded to
 jump straight to one of its sections. Each module's outline is built from its
 data (`lib/bankingOutline.ts`, `lib/securitiesOutline.ts`,
-`lib/mnaOutline.ts`). Stage
+`lib/insuranceOutline.ts`, `lib/mnaOutline.ts`). Stage
 notes are bullet points: the short version first, then the detail under
 headings, with a bold lead-in on each bullet, a "bottom line" where a section
 has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
-from the figures in the notes. Banking and securities stages also have concept maps: boxes
+from the figures in the notes. Banking, securities and insurance stages also have concept maps: boxes
 joined by arrows that name the relationship, one under "How it fits together"
 and more beside the sections they illustrate. They are drawn in CSS
 (`components/ui/ConceptMap.tsx`), and screen readers get the same links as a
@@ -159,6 +159,29 @@ margin lending, IPOs, fund distribution, robo-advice, insurance, MPF and
 Wealth Management Connect) with the route, requirements, launch gates to
 tick, traps and sources, exportable as launch notes. It reuses the banking
 volume's activity kit (`components/banking/ActivityKit.tsx`).
+
+## HK insurance regulation
+
+Twelve stages through the Insurance Ordinance (Cap. 41), written for counsel
+at a digital bank that wants to offer or resell insurance in its app. The
+Ordinance has no general exemption for banks: a bank that invites customers
+to buy a policy, arranges one or advises on one needs its own Insurance
+Authority licence (usually as a licensed insurance agency), and its staff
+need individual licences, while the HKMA inspects and investigates that
+business under powers the IA has delegated. Stages 3 and 4 ("The digital
+bank's route") cover the choice of distribution model and selling in the
+app, each with a **Launch kit**: the legal route, Legal's workplan and
+activity cards (agency or broker, referrals, embedded cover, cross-boundary
+sales, people, insurer agreements, premiums and the levy, data sharing; then
+general and protection cover, VHIS, savings and participating policies,
+QDAPs, ILAS, premium financing, self-service and advised journeys,
+vulnerable and mainland customers, promotions and after-sale servicing). The
+other stages cover the regulatory map, the perimeter, authorized insurers,
+licensing, conduct, investment-linked and savings products, digital sales,
+AML/CFT, supervision and redress. Content lives in
+`data/insurance/stages.json`; statute cards carry the official text of the
+Insurance Ordinance and four of its subsidiary instruments (levy, appointing
+insurers, broker companies).
 
 ## Privacy — DataGuard
 

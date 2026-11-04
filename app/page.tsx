@@ -3,6 +3,7 @@ import { ArrowRight, ChartLine, Handshake, Landmark, Lock, Umbrella, type Lucide
 import { STAGES } from '@/lib/workflow';
 import { BANKING_STAGES } from '@/lib/banking';
 import { SECURITIES_STAGES } from '@/lib/securities';
+import { INSURANCE_STAGES } from '@/lib/insurance';
 import { TONES, toneVars, type Tone } from '@/lib/theme';
 import { ContinueReading, ModuleInfo, VolumeProgress } from '@/components/hub/StudyProgress';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -86,10 +87,19 @@ const TOPICS: Topic[] = [
   {
     title: 'HK insurance regulation',
     scope: 'Insurance Ordinance (Cap. 41) · IA',
-    description: 'Insurers, intermediaries, and policyholders: authorization, conduct, and discipline.',
-    status: 'next',
+    description:
+      'Insurers, intermediaries and conduct, written for counsel at a digital bank that wants to sell insurance in its app.',
+    status: 'live',
     icon: Umbrella,
     tone: TONES.bronze,
+    meta: [
+      `${INSURANCE_STAGES.length} stages`,
+      `${INSURANCE_STAGES.reduce((n, s) => n + s.provisions.length, 0)} provisions`,
+      `${INSURANCE_STAGES.reduce((n, s) => n + s.checklist.length, 0)} checklist items`,
+    ],
+    href: '/hk-insurance/',
+    module: 'hk-insurance',
+    stageIds: INSURANCE_STAGES.map((s) => s.id),
   },
 ];
 
@@ -183,6 +193,13 @@ const MODULES: ModuleInfo[] = [
     tone: TONES.plum,
     stages: SECURITIES_STAGES.map(({ id, index, title }) => ({ id, index, title })),
   },
+  {
+    module: 'hk-insurance',
+    title: 'HK insurance',
+    href: '/hk-insurance/',
+    tone: TONES.bronze,
+    stages: INSURANCE_STAGES.map(({ id, index, title }) => ({ id, index, title })),
+  },
   { module: 'mna', title: 'M&A', href: '/mna/', tone: TONES.navy, stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
 ];
 
@@ -229,16 +246,18 @@ export default function HomePage() {
         </ul>
       </section>
 
-      <section className="mt-12">
-        <h2 className="kicker mb-4">In preparation</h2>
-        <ul className="grid gap-4 md:grid-cols-2">
-          {coming.map((t) => (
-            <li key={t.title}>
-              <Forthcoming topic={t} n={TOPICS.indexOf(t)} />
-            </li>
-          ))}
-        </ul>
-      </section>
+      {coming.length > 0 && (
+        <section className="mt-12">
+          <h2 className="kicker mb-4">In preparation</h2>
+          <ul className="grid gap-4 md:grid-cols-2">
+            {coming.map((t) => (
+              <li key={t.title}>
+                <Forthcoming topic={t} n={TOPICS.indexOf(t)} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <footer className="mt-16 border-t border-line pt-5 text-xs text-muted">
         Personal study site. Educational only, not legal advice.
