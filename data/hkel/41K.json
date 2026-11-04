@@ -1,0 +1,53 @@
+{
+ "cap": "41K",
+ "title": "Insurance (Maximum Number of Authorized Insurers) Rules",
+ "longTitle": "",
+ "versionDate": "2020-03-19",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap41K",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "text": "  (1) In these Rules—\n    licensed person (持牌人士) means—\n      (a) a licensed insurance agency; or\n      (b) a licensed individual insurance agent.\n  (2) A reference in rules 3 and 4 to an insurer or authorized insurer includes a member of Lloyd’s.\n  (3) For the purposes of subrule (2), where a member of Lloyd’s carries on long term or general business (as the case may be) in or from Hong Kong, that member is taken to be an insurer authorized to carry on that line of business."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Maximum number of authorized insurers",
+   "status": "in-effect",
+   "text": "A person may be appointed as a licensed person in carrying on a regulated activity for a maximum of 4 authorized insurers, of which no more than 2 can be insurers authorized to carry on long term business."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "General principles",
+   "status": "in-effect",
+   "text": "  (1) Subject to rules 5 and 6, this rule applies to the counting of the number of authorized insurers for the purposes of rule 3.\n  (2) A licensed person is taken to be appointed by 1 insurer authorized to carry on general business if the licensed person is appointed by an authorized insurer as its agent to carry on regulated activities in general business only.\n  (3) A licensed person is taken to be appointed by 1 insurer authorized to carry on long term business if the licensed person is appointed by an authorized insurer as its agent to carry on regulated activities in long term business only.\n  (4) A licensed person is taken to be appointed by—\n    (a) 1 insurer authorized to carry on general business; and\n    (b) 1 insurer authorized to carry on long term business,\n  if the licensed person is appointed by an authorized insurer as its agent to carry on regulated activities in both general business and long term business."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Principles for appointments by authorized insurers in group of companies",
+   "status": "in-effect",
+   "text": "  (1) When a licensed person is appointed as agent to carry on regulated activities by 2 or more authorized insurers which are in the same group of companies, this rule applies to the counting of the number of authorized insurers for the purposes of rule 3.\n  (2) Where all the appointments of the licensed person as agent made by the insurers referred to in subrule (1) are limited to either general business or long term business, but not both, the licensed person is taken to be appointed by 1 insurer authorized to carry on the line of business for which that licensed person is appointed.\n  (3) Where the appointments of the licensed person as agent made by the insurers referred to in subrule (1) are not limited to only general business or only long term business, the licensed person is taken to be appointed by 1 insurer authorized to carry on general business and 1 insurer authorized to carry on long term business."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Principles for appointments by members of Lloyd’s",
+   "status": "in-effect",
+   "text": "  (1) When a licensed person is appointed as agent to carry on regulated activities by 2 or more members of Lloyd’s, irrespective of whether those members are in the same group of companies, this rule applies to the counting of the number of authorized insurers for the purposes of rule 3.\n  (2) Where all the appointments of the licensed person as agent made by the members of Lloyd’s referred to in subrule (1) are limited to either general business or long term business, but not both, the licensed person is taken to be appointed by 1 insurer authorized to carry on the line of business for which that licensed person is appointed.\n  (3) Where the appointments of the licensed person as agent made by the members of Lloyd’s referred to in subrule (1) are not limited to only general business or only long term business, the licensed person is taken to be appointed by 1 insurer authorized to carry on general business and 1 insurer authorized to carry on long term business."
+  }
+ ],
+ "schedules": []
+}

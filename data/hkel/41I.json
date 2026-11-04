@@ -1,0 +1,74 @@
+{
+ "cap": "41I",
+ "title": "Insurance (Levy) Regulation",
+ "longTitle": "",
+ "versionDate": "2020-03-19",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap41I",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "",
+   "status": "omitted"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "text": "In this Regulation—\n  prescribed levy (訂明徵費) means a levy prescribed in the Insurance (Levy) Order (Cap. 41 sub. leg. J);\n  remittance period (轉付期) means a period specified under section 4(2);\n  specified form (指明格式) means a form specified by the Authority;\n  specified period (指明期間) means a period specified by the Authority;\n  specified way (指明方式) means a way specified by the Authority."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Payment of prescribed levies",
+   "status": "in-effect",
+   "text": "  (1) Subject to subsection (2), the policy holder under a contract of insurance issued by an authorized insurer must, each time a premium is paid, also pay to the insurer a prescribed levy for the premium.\n  (2) If an intermediary collects for the authorized insurer an amount of money purportedly paid by a policy holder as a prescribed levy, the intermediary must, as soon as practicable after the collection, forward the amount of money to the insurer.\n  (3) An authorized insurer must not retain any part of an amount of money purportedly paid by a policy holder as a prescribed levy that is in excess of the levy.\n  (4) If a policy holder contravenes subsection (1), the Authority may impose on the policy holder a pecuniary penalty not exceeding $5,000.\n  (5) If an authorized insurer contravenes subsection (3), the Authority may impose on the insurer a pecuniary penalty not exceeding $10,000.\n  (6) A pecuniary penalty imposed under subsection (4) or (5) is recoverable as a civil debt due to the Authority.\n  (7) In subsection (2)—\n    intermediary (中介人) means—\n      (a) an appointed insurance agent;\n      (b) an authorized insurance broker; or\n      (c) a licensed insurance intermediary."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Remittance of prescribed levies and remittance return",
+   "status": "in-effect",
+   "text": "  (1) Subject to subsections (6) and (7), an authorized insurer must—\n    (a) remit to the Authority, in accordance with section 5 and in the specified way, the amount of prescribed levies payable under section 3(1) in respect of a remittance period; and\n    (b) lodge, at the same time, a remittance return in the specified form.\n  (2) For the purposes of subsection (1), the Authority may from time to time by notice specify a period as a remittance period, whether generally or in a particular case.\n  (3) A notice issued under subsection (2) is not subsidiary legislation.\n  (4) If an authorized insurer contravenes subsection (1), the Authority may impose on the insurer a pecuniary penalty not exceeding the amount which is the greater of—\n    (a) $10,000; or\n    (b) 20 times the amount of the prescribed levies that were not remitted.\n  (5) A pecuniary penalty imposed under subsection (4) is recoverable as a civil debt due to the Authority.\n  (6) If a policy holder fails to pay a prescribed levy, the authorized insurer—\n    (a) is not required to remit the levy to the Authority; but\n    (b) must, within the specified period and in the specified way, inform the Authority of the failure.\n  (7) The Authority may, on a written request of an authorized insurer, vary the basis for the calculation of the amount of prescribed levies to be remitted by the insurer for a period agreed between the Authority and the insurer."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Timing of remittance",
+   "status": "in-effect",
+   "text": "An authorized insurer must, for each remittance period, make the remittance—\n  (a) within 2 months after the end of that period; and\n  (b) on a basis of accounting approved by the Authority."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Revision of remittance return",
+   "status": "in-effect",
+   "text": "An authorized insurer may revise the insurer’s remittance return or the amount of prescribed levies to which the return relates to correct any error in a previous remittance return or reflect any refund made to a policy holder in respect of a prescribed levy covered by a previous remittance."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Authorized insurer to lodge remittance report",
+   "status": "in-effect",
+   "text": "  (1) An authorized insurer must lodge with the Authority a remittance report annually to certify that—\n    (a) the remittance returns lodged under section 4(1)(b) in respect of the remittance periods covered by the report are correct and comply with this Regulation; and\n    (b) the insurer has remitted the prescribed levies in accordance with section 4.\n  (2) A remittance report must cover the remittances made in respect of the 2 remittance periods immediately preceding the date of the report unless otherwise approved by the Authority.\n  (3) A remittance report must be—\n    (a) in the specified form; and\n    (b) certified by an auditor appointed by and at the expense of the authorized insurer."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Refund of money paid as prescribed levy",
+   "status": "in-effect",
+   "text": "  (1) This section applies if—\n    (a) a policy holder paid an amount of money to an authorized insurer or an intermediary for compliance with section 3(1); and\n    (b) the policy holder was not liable, or becomes not liable, to pay that amount or any part of it.\n  (2) An authorized insurer must refund, in the specified way, to a policy holder any amount of money that is purportedly paid by the policy holder as a prescribed levy but is not required by this Regulation to be paid as a prescribed levy."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Providing particulars of policy holder if prescribed levy is unpaid",
+   "status": "in-effect",
+   "text": "If a policy holder contravenes section 3(1), the Authority may require the authorized insurer to provide the particulars of the policy holder reasonably required by the Authority for recovering a prescribed levy under section 134(3) of the Ordinance."
+  }
+ ],
+ "schedules": []
+}
