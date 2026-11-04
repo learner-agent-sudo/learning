@@ -49,6 +49,10 @@ BUNDLES = [
 CAPS = [
     "32",    # Companies (Winding Up and Miscellaneous Provisions) Ordinance
     "41",    # Insurance Ordinance
+    "41I",   # Insurance (Levy) Regulation
+    "41J",   # Insurance (Levy) Order
+    "41K",   # Insurance (Maximum Number of Authorized Insurers) Rules
+    "41L",   # Insurance (Financial and Other Requirements for Licensed Insurance Broker Companies) Rules
     "66",    # Exchange Fund Ordinance
     "71",    # Control of Exemption Clauses Ordinance
     "155",   # Banking Ordinance
