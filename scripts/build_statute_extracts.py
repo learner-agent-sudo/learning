@@ -27,7 +27,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 HKEL = ROOT / "data" / "hkel"
 
 # Module folder under data/, and the chapter whose anatomy it shows.
-MODULES = [("banking", "155"), ("securities", "571")]
+MODULES = [("banking", "155"), ("securities", "571"), ("insurance", "41")]
 
 MAX_CHARS = 6000  # long sections (e.g. s. 2 definitions) are cut; HKeL has the rest
 

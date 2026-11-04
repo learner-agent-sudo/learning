@@ -32,7 +32,7 @@ const REGIME: Record<Regime, { pill: string; dot: string; title: string }> = {
   pilot: {
     pill: 'bg-sky-50 text-sky-800 dark:bg-sky-400/15 dark:text-sky-200',
     dot: 'bg-sky-500',
-    title: 'An HKMA pilot or sandbox: terms are set case by case',
+    title: 'A regulator\'s pilot or sandbox: terms are set case by case',
   },
 };
 const REGIMES = Object.keys(REGIME) as Regime[];
@@ -204,6 +204,7 @@ export const activitySectionIds = (idBase: string) => ({
 /** New-business activities: can the bank do it, and what must be true before launch. */
 export function ActivityKit({
   kit, storage = 'hk-banking', title = 'Digital assets', idBase = 'activities', routeTitle,
+  searchHint = 'e.g. custody, stablecoin, money lender, SFC',
 }: {
   kit: Kit;
   // Prefix for this browser's saved view and gate ticks.
@@ -213,6 +214,8 @@ export function ActivityKit({
   idBase?: string;
   // Heading over the triage visual, when it is a route rather than a triage.
   routeTitle?: string;
+  // Example search terms for this kit.
+  searchHint?: string;
 }) {
   const VIEW_KEY = `${storage}:activity-view`;
   const ids = activitySectionIds(idBase);
@@ -295,7 +298,7 @@ export function ActivityKit({
                   type="search"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="e.g. custody, stablecoin, money lender, SFC"
+                  placeholder={searchHint}
                   className="block min-h-10 w-full rounded-lg border border-line bg-paper pl-9 pr-3 text-base placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
                 />
               </span>

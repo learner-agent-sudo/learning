@@ -189,7 +189,9 @@ export type ActivityGroup =
   | 'crypto' | 'stablecoins' | 'tokenisation' | 'wallets' | 'lending' | 'web3'
   // Share trading and wealth management (securities volume)
   | 'markets' | 'listed-products' | 'trading-services'
-  | 'funds-bonds' | 'advice' | 'insurance-pensions' | 'deposits-crossborder';
+  | 'funds-bonds' | 'advice' | 'insurance-pensions' | 'deposits-crossborder'
+  // Distributing insurance (insurance volume)
+  | 'ins-models' | 'ins-setup' | 'ins-general' | 'ins-savings' | 'ins-journeys';
 
 // State of the regime that mainly governs an activity.
 export type Regime = 'in-force' | 'transitional' | 'proposed' | 'pilot';

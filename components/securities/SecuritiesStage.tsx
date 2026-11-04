@@ -122,6 +122,7 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
               title={stage.title.split(":")[0]}
               idBase={`${idBase}-launch`}
               routeTitle="The legal route to launch"
+              searchHint="e.g. margin, IPO, custody, robo-advice"
             />
           </StatuteLookupProvider>
         </TabPanel>

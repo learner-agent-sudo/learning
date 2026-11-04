@@ -15,6 +15,11 @@ export const GROUP_LABEL: Record<ActivityGroup, string> = {
   advice: 'Advice & portfolios',
   'insurance-pensions': 'Insurance & MPF',
   'deposits-crossborder': 'Deposits & cross-boundary',
+  'ins-models': 'Distribution models',
+  'ins-setup': 'Setting up',
+  'ins-general': 'General & protection',
+  'ins-savings': 'Savings & investment-linked',
+  'ins-journeys': 'Journeys & customers',
 };
 
 export const REGIME_LABEL: Record<Regime, string> = {
