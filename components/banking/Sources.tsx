@@ -1,5 +1,9 @@
+'use client';
+
+import { createContext, useContext } from 'react';
 import { ExternalLink } from 'lucide-react';
-import { STRENGTH_LABEL, statuteExtract, type ContractSource, type Strength } from '@/lib/banking';
+import { STRENGTH_LABEL, statuteExtract, type ContractSource, type StatuteCite, type Strength } from '@/lib/banking';
+import type { StatuteExtract } from '@/lib/statute';
 import { PILL_BASE } from '../cardStyles';
 import { StatuteText } from '../ui/StatuteText';
 
@@ -22,7 +26,7 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
     pill: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200',
     bar: 'bg-violet-500',
     title:
-      'Guideline issued under a statutory power, such as s.7(3) or s.16(10) of the Banking Ordinance or s.7 of the AMLO',
+      'Guideline or code issued under a statutory power, such as s.7(3) or s.16(10) of the Banking Ordinance, s.7 of the AMLO, or s.95 or s.133 of the Insurance Ordinance',
   },
   'hkma-guidance': {
     label: STRENGTH_LABEL['hkma-guidance'],
@@ -35,6 +39,12 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
     pill: 'bg-teal-50 text-teal-700 dark:bg-teal-400/15 dark:text-teal-200',
     bar: 'bg-teal-500',
     title: 'Non-statutory SFC code, circular or FAQ: a breach can reflect on whether a licensed or registered person is fit and proper',
+  },
+  'ia-guidance': {
+    label: STRENGTH_LABEL['ia-guidance'],
+    pill: 'bg-orange-50 text-orange-800 dark:bg-orange-400/15 dark:text-orange-200',
+    bar: 'bg-orange-500',
+    title: 'Non-statutory IA circular, FAQ or explanatory note: it shows how the IA reads the Ordinance, codes and guidelines',
   },
   'industry-code': {
     label: STRENGTH_LABEL['industry-code'],
@@ -124,10 +134,17 @@ export function StrengthLegend({ sources, more = [] }: { sources: ContractSource
   );
 }
 
+// Each volume resolves cites against its own statute extracts (the build
+// collects every {cap, section} in that volume's stages); banking by default.
+type StatuteLookup = (cite: StatuteCite) => StatuteExtract | undefined;
+const StatuteLookupContext = createContext<StatuteLookup>(statuteExtract);
+export const StatuteLookupProvider = StatuteLookupContext.Provider;
+
 /** The statute text behind a source, one closed disclosure per cited provision. */
 export function Cites({ source }: { source: { cites?: ContractSource['cites'] } }) {
+  const lookup = useContext(StatuteLookupContext);
   const found = (source.cites ?? []).flatMap((c) => {
-    const extract = statuteExtract(c);
+    const extract = lookup(c);
     return extract ? [{ key: `${c.cap}|${c.section}`, extract }] : [];
   });
   if (found.length === 0) return null;

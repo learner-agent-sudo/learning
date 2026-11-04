@@ -45,6 +45,7 @@ export type Strength =
   | 'statutory-guideline'
   | 'hkma-guidance'
   | 'sfc-guidance'
+  | 'ia-guidance'
   | 'industry-code'
   | 'proposal'
   | 'good-practice';
@@ -55,6 +56,7 @@ export const STRENGTH_LABEL: Record<Strength, string> = {
   'statutory-guideline': 'Statutory guideline',
   'hkma-guidance': 'HKMA guidance',
   'sfc-guidance': 'SFC guidance',
+  'ia-guidance': 'IA guidance',
   'industry-code': 'Industry code',
   proposal: 'Proposal',
   'good-practice': 'Good practice',

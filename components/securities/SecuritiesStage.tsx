@@ -10,6 +10,7 @@ import {
 import { SEC_NOTE_CARDS, secIdBase, securitiesOutline } from '@/lib/securitiesOutline';
 import { toneVars } from '@/lib/theme';
 import { ActivityKit } from '../banking/ActivityKit';
+import { StatuteLookupProvider } from '../banking/Sources';
 import { ActAnatomy } from '../ui/ActAnatomy';
 import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { Checklist } from '../ui/Checklist';
@@ -114,13 +115,15 @@ export function SecuritiesStage({ stage, total, prev, next, onNavigate, tab, onT
 
       {tab === 'launch' && stage.activityKit && (
         <TabPanel idBase={idBase} id="launch">
-          <ActivityKit
-            kit={stage.activityKit}
-            storage="hk-securities"
-            title={stage.title.split(":")[0]}
-            idBase={`${idBase}-launch`}
-            routeTitle="The legal route to launch"
-          />
+          <StatuteLookupProvider value={sfoExtract}>
+            <ActivityKit
+              kit={stage.activityKit}
+              storage="hk-securities"
+              title={stage.title.split(":")[0]}
+              idBase={`${idBase}-launch`}
+              routeTitle="The legal route to launch"
+            />
+          </StatuteLookupProvider>
         </TabPanel>
       )}
 

@@ -55,7 +55,7 @@ export function deeperLinks(stage: SecuritiesStage): DeeperLink[] {
   });
 }
 
-export function sfoExtract(p: Provision): StatuteExtract | undefined {
+export function sfoExtract(p: Pick<Provision, 'cap' | 'section'>): StatuteExtract | undefined {
   return p.cap && p.section ? EXTRACTS[`${p.cap}|${p.section}`] : undefined;
 }
 
