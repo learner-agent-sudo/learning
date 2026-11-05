@@ -449,7 +449,7 @@
    "**Insurers:** Under s.6(1) of the Insurance Ordinance (Cap. 41), only an authorized insurer, Lloyd's or an approved association of underwriters may carry on insurance business in or from Hong Kong.",
    "**Regulated activities:** Negotiating or arranging a contract, inviting or inducing a purchase, inviting or inducing a material decision, and giving regulated advice are restricted by s.64G.",
    "**Who may act:** Licensed insurance agencies, licensed individual agents, licensed broker companies and their licensed technical representatives may carry on these acts within their licence and appointment.",
-   "**The insurer's side:** An authorized insurer must not contract through, or accept a referral from, an unlicensed person in Hong Kong (s.64N). Breach can make the contract voidable by the policy holder.",
+   "**The insurer's side:** An authorized insurer must not contract through, or accept a referral from, an unlicensed person in Hong Kong (s.64N). A contract made in breach of s.64N(1) can be enforced or voided at the policy holder's option.",
    "**Exceptions:** Section 123 covers certain professionals, advice through public media, claims handling and clerical work. Each is narrow, and none covers selling in an app.",
    "**Counsel's role:** Test every app feature against Schedule 1A before design, not after launch, and record the answer."
   ],
@@ -525,7 +525,7 @@
     "points": [
      "**Contracting (s.64N(1)):** An authorized insurer must not enter into a contract through another person in Hong Kong unless that person is a licensed agency or agent appointed by it, a licensed broker company, or does only clerical or administrative work.",
      "**Referrals (s.64N(2)):** The same limits apply to an insurer accepting a referral of insurance business from a person in Hong Kong.",
-     "**Remedy (s.64N(3)-(4)):** At the policy holder's option, the contract is enforceable against the insurer or void. A policy holder who voids it can recover what was paid.",
+     "**Remedy (s.64N(3)-(4)):** Only for a contract entered into in breach of s.64N(1): at the policy holder's option it is enforceable against the insurer or void. A referral breach under s.64N(2) gives no enforce-or-void right, although the insurer still commits an offence (s.64N(5)).",
      "**Offence (s.64N(5)):** An insurer in breach commits an offence. On indictment the fine is $1,000,000 and two years' imprisonment. On summary conviction the fine is level 6 and six months.",
      "**Practical effect:** A referral model under which an unlicensed bank sends customers to an insurer, for a fee or otherwise, falls within s.64N(2). IA guidance on referral fees is reported to add further limits, which are not covered here."
     ],
@@ -681,7 +681,7 @@
     "instrument": "Insurance Ordinance (Cap. 41)",
     "ref": "s.64N(1)-(5)",
     "title": "Contracts of insurance made through persons other than licensed insurance intermediaries, etc.",
-    "summary": "An authorized insurer must not contract through, or accept a referral from, a person in Hong Kong unless that person is a licensed agency or agent appointed by the insurer, a licensed broker company, or does only clerical or administrative work. Contracts made in breach are voidable or enforceable at the policy holder's option, and the insurer commits an offence.",
+    "summary": "An authorized insurer must not contract through, or accept a referral from, a person in Hong Kong unless that person is a licensed agency or agent appointed by the insurer, a licensed broker company, or does only clerical or administrative work. A contract made in breach of the contracting limit (s.64N(1)) is, at the policy holder's option, enforceable against the insurer or void; a referral breach (s.64N(2)) gives no such right. The insurer commits an offence either way.",
     "counselNote": "The bank's route must be licensed before any referral is accepted. Section 64N(2) does not refer to fees, but IA guidance on referral fees is separate and should be checked before any fee arrangement is agreed.",
     "url": "https://www.elegislation.gov.hk/hk/cap41",
     "cap": "41",
@@ -773,7 +773,7 @@
    },
    {
     "term": "Licensed insurance agency",
-    "definition": "A business licensed under Cap. 41 to carry on regulated activities as agent of the insurer that appointed it (s.64G(3)(a))."
+    "definition": "A business licensed under Cap. 41 to carry on regulated activities as agent of one or more authorized insurers that appointed it (s.64G(3)(a), s.64U(1), (5)(b))."
    },
    {
     "term": "Licensed insurance broker company",
@@ -879,7 +879,7 @@
       },
       {
        "label": "(e) Embedded or group cover",
-       "value": "Not confirmed",
+       "value": "Check with IA",
        "note": "IA position unclear for a bank as policy holder"
       }
      ]
@@ -990,11 +990,11 @@
     },
     "points": [
      "**Sequence:** Decide the model, file TR and RO applications, apply for the entity licence, notify insurer appointments, engage the HKMA, then launch.",
-     "**Renewal:** An agency licence is valid for 3 years unless the IA sets another period (s.64V). The renewal process for entities still needs checking with the IA; diary it early.",
+     "**Renewal:** An agency licence is valid for 3 years unless the IA sets another period (s.64V). A renewal application must be made no later than 45 days before expiry (s.64ZV(3)), so diary that date early.",
      "**Broker add-ons:** A broker company must appoint an auditor within 1 month of its licence and file audited accounts within 6 months of year end (s.72(1), s.73(1)). Build both into the plan.",
-     "**HKMA consultation:** The IA must consult the Monetary Authority before investigating or disciplining an authorized institution or its agent (s.64ZZH(2), s.82(4), s.84(4)). Early HKMA dialogue on a new line is good practice; a formal prior-notification duty for this line still needs checking."
+     "**HKMA consultation:** The IA must consult the Monetary Authority before investigating or disciplining an authorized institution or its agent (s.64ZZH(2), s.82(4), s.84(4)). Early HKMA dialogue on a new line is good practice. HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars)."
     ],
-    "takeaway": "File the TR and RO applications with the entity application, as s.64U(3) requires."
+    "takeaway": "File the RO application with the entity application, plus a TR (agent) application unless the RO is already a licensed TR (s.64U(3))."
    }
   ],
   "provisions": [
@@ -1146,12 +1146,12 @@
   "checklist": [
    "**Pick the model:** Record why agency, broker or partner insurer was chosen. Check the single-entity rule (s.64U(5)(c), s.64ZA(4)(e)) and the Cap. 41K count.",
    "**Map app journeys:** List each screen that invites, induces or advises, and name the person or controlled process that performs it.",
-   "**Licence roles:** Confirm the RO and each TR candidate. File the TR and RO applications with the entity application (s.64U(3)).",
+   "**Licence roles:** Confirm the RO and each TR candidate. File the RO application with the entity application, plus a TR application unless the RO is already a licensed TR (s.64U(3)).",
    "**Insurer appointments:** Diary the 14-day prior notice for each appointment (s.64Q) and the 14-day notice on termination (s.64R).",
    "**Agency terms:** Check each agency agreement against s.68 and s.68A, and the 4-insurer, 2-long-term cap.",
    "**Conduct controls:** Build the s.90 duties and the s.91 control and best endeavours duties into product and journey design.",
    "**HKMA engagement:** Brief the HKMA early on the model and the app journey, and record what it says.",
-   "**Renewal and records:** Calendar the 3-year validity (s.64V). For a broker company, calendar the auditor appointment and audited accounts (s.72(1), s.73(1))."
+   "**Renewal and records:** Calendar the 3-year validity (s.64V) and the renewal application 45 days before expiry (s.64ZV(3)). For a broker company, calendar the auditor appointment and audited accounts (s.72(1), s.73(1))."
   ],
   "itAngle": [
    "**Journey mapping:** Treat each app step as a regulated activity with a named owner, a record and a control. Logs of what the customer saw will matter in any complaint or inquiry.",
@@ -1256,15 +1256,15 @@
      },
      {
       "label": "Choose the distribution model",
-      "note": "The options are an agency licence (s.64U), a broker company licence (s.64ZA) or a referral model. Cap. 41K s.3 limits a licensed person to appointments by up to 4 insurers, no more than 2 for long-term business (check the current text)."
+      "note": "The options are an agency licence (s.64U), a broker company licence (s.64ZA) or a referral model. Cap. 41K r.3 limits a licensed person to appointments by up to 4 insurers, no more than 2 for long-term business (check the current text)."
      },
      {
       "label": "Apply for the licence with its people",
-      "note": "An agency licence application must be accompanied either by a technical representative application and a responsible officer approval application, or by a responsible officer approval application for a licensed technical representative (s.64U(3)). Staff who sell or advise need their own licences (s.64Y)."
+      "note": "An agency licence application must be accompanied either by a technical representative application and a responsible officer approval application, or by a responsible officer approval application for a licensed technical representative (s.64U(3)). A technical representative can be appointed by an applicant for the agency licence (s.64Y(3)(b)(ii)), so the individual and entity filings can be prepared together. Staff who sell or advise need their own licences (s.64Y)."
      },
      {
       "label": "Secure insurer appointments and notify the IA",
-      "note": "Where one insurer appoints the agent, that insurer is liable for the agent's acts in its dealings, even outside its authority (s.68(2)). Where several insurers appoint the agent, s.68(3) to (4A) allocate liability. Agreement terms that cut across the agent's s.90(a) duty are void (s.68A)."
+      "note": "Where one insurer appoints the agent, that insurer is liable for the agent's acts in its dealings, even outside its authority (s.68(2)). Where several insurers appoint the agent, s.68(3) to (4B) allocate liability, and s.68(4A) and (4B) make the appointing insurers jointly and severally liable in the cases they describe. Agreement terms that cut across the agent's s.90(a) duty are void (s.68A)."
      },
      {
       "label": "Engage the HKMA on supervision and governance",
@@ -1284,7 +1284,7 @@
      },
      {
       "label": "After launch: renewals, notices and inspections",
-      "note": "An agency licence is valid for 3 years unless the IA sets another period (s.64V), and a renewal application must reach the IA no later than 45 days before expiry (s.64ZV(3)). Insurers must notify the IA at least 14 days before appointing an agency (s.64Q(1)) and within 14 days after terminating one (s.64R(1))."
+      "note": "An agency licence is valid for 3 years unless the IA sets another period (s.64V), and a renewal application must be made no later than 45 days before expiry (s.64ZV(3)). Insurers must notify the IA at least 14 days before appointing an agency (s.64Q(1)) and within 14 days after terminating one (s.64R(1))."
      }
     ]
    },
@@ -1295,8 +1295,9 @@
      "points": [
       "**Feature mapping:** Test each feature, including banners, product pages, comparison tools, chat, quotes and renewal prompts, against Sch. 1A, Pt 1. Arranging a contract is also caught, and the IA explanatory note reads it widely (reported; check). Inviting or inducing a purchase is caught even if no sale completes.",
       "**Clerical limit:** s.64N(1)(b) and s.123(2) cover only clerical or administrative work for an insurer or intermediary. Product advice and quote generation do not fit inside them.",
+      "**Bank exemption:** Section 51(f) exempts an authorized institution only for classes G or H, classes 16 and 17, or groups 1, 7 and 11 of Schedule 1, and only where it carries on that business solely for its banking business. This concerns the bank's own insurance business, not selling or referring a third party's cover, so record Legal's reading before relying on it.",
       "**Model choice:** Compare the agency, the broker company, a partner-led referral model and the bank as policy holder. Each carries different licences, liability and conduct duties.",
-      "**Agency limits:** Cap. 41K s.3 allows up to 4 appointing insurers, with no more than 2 for long-term business. Count the group rules before choosing partners.",
+      "**Agency limits:** Cap. 41K r.3 allows up to 4 appointing insurers, with no more than 2 for long-term business. Count the group rules before choosing partners.",
       "**Referral risk:** s.64N(2) stops an insurer accepting a referral from an unlicensed person in Hong Kong. A referral-only design therefore fails unless the bank holds a licence or the role is clerical. Reported bank guidance (IA, HKMA and HKAB, 2019) also treats a bank's referral as regulated activity where it steers customers to one intermediary's product or earns a payment for the referral (reported; check)."
      ]
     },
@@ -1318,7 +1319,7 @@
       "**Appointment notice:** The insurer must notify the IA in writing at least 14 days before appointing a licensed agency (s.64Q(1)). Build this into the partner timetable.",
       "**Insurer liability:** Where one insurer appoints the agent, that insurer is liable for the agent's acts in the dealings, even outside the scope of authority (s.68(2)).",
       "**Agreement terms:** A term that affects the agent's s.90(a) duty is void (s.68A). Review each partner agreement for clauses that limit the bank's duties to customers.",
-      "**Exclusivity and capacity:** Plan product lines against the 4-insurer and 2-long-term limits in Cap. 41K s.3, so that one partner does not block another.",
+      "**Exclusivity and capacity:** Plan product lines against the 4-insurer and 2-long-term limits in Cap. 41K r.3, so that one partner does not block another.",
       "**Commission and incentives:** Gifts, rebates and referral fees are limited by IA guidelines and circulars. The rebate rules and the 2025 referral-fee circular are reported, so check the originals before agreeing terms."
      ]
     },
@@ -1329,7 +1330,7 @@
       "**Delegated supervision:** The IA has delegated its inspection and investigation powers over authorized institutions' insurance business to the Monetary Authority, a delegation in place since 23 September 2019 (s.4G; reported in IA and HKMA releases), and the IA can still act itself (s.4G(5)). The IA must consult the Monetary Authority before investigating or disciplining the bank (ss.64ZZH(2), 82(4), 84(4)). Confirm the delegation's current terms with the HKMA.",
       "**IA and HKMA consultation:** The IA must consult the Monetary Authority before investigating a bank's insurance business (s.64ZZH(2)) or taking disciplinary action (ss.82(4), 84(4)).",
       "**Customer records:** An inspector or investigator may require customer information only in the limited cases in s.64ZZJ. Set a protocol for how the bank responds to such requests.",
-      "**Pre-launch engagement:** Hold an HKMA discussion on model, target segment and channel before launch. A 2022 HKMA notice on prior notification for ILAS distribution is reported only; confirm it.",
+      "**Pre-launch engagement:** Hold an HKMA discussion on model, target segment and channel before launch. HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars).",
       "**Board oversight:** Record the board's approval of the model, the partner contracts and the conduct policy. This is good practice, not a statutory test, but it evidences oversight."
      ]
     },
@@ -1339,9 +1340,9 @@
      "points": [
       "**Codes of conduct:** Codes for licensed agents and brokers are issued under s.95, and a breach can be weighed in a fit and proper assessment. Their effective date is reported as 23 September 2019; check it.",
       "**Needs analysis:** IA guideline GL30 requires a financial needs analysis before a policy is recommended. Confirm the current text before designing the questions.",
-      "**Cooling-off:** IA guideline GL29 gives a cooling-off right. The 21-day period is reported; some products may carry other periods, so check each product.",
+      "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself. For other cover, check each policy's own cancellation terms.",
       "**Remote sales:** HKMA circulars set risk-based alternatives to audio recording for video-conference sales (reported, December 2024). Confirm the current IA position on video sales of long-term products.",
-      "**Investment-linked products:** ILAS offers need SFC authorization under SFO s.104 and must meet the SFC Code on ILAS (reported; check the current Code). PLP sales follow HKMA circulars of 2022 and August 2023 (reported). Map each product to its regime before launch."
+      "**Investment-linked products:** ILAS offers need SFC authorization under SFO s.104 and must meet the SFC Code on ILAS (reported; check the current Code). PLP sales follow HKMA circulars of 8 July 2022 and 30 August 2023, which are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars). Map each product to its regime before launch."
      ]
     },
     {
@@ -1349,10 +1350,10 @@
      "lede": "Customer data, consent and money-laundering controls run alongside the licence and must be designed in from the start.",
      "points": [
       "**Data use and consent:** The PDPO (Cap. 486) governs sharing customer data with insurers and using it for direct marketing. Obtain consent for each purpose and keep the record.",
-      "**AML/CFT:** AMLO (Cap. 615) sets customer due diligence and reporting duties. The IA AML/CFT guideline number is not confirmed, so check it before citing it in the design file.",
+      "**AML/CFT:** AMLO (Cap. 615) sets customer due diligence and reporting duties. Check the current IA AML/CFT guideline before relying on its detail.",
       "**Records access:** Inspectors may require records under s.64ZZF. Keep sales, suitability and complaint records in a form that can be produced quickly.",
       "**Record transfer:** If a licence is revoked or suspended, the IA may require copies of client records to be transferred to clients (s.64ZT). Plan the data export before it is needed.",
-      "**Cyber controls:** The IA cyber guideline GL20 applies to insurers, with a reported 72-hour notice duty. Its application to intermediaries is not confirmed, so check the bank's own cyber obligations too."
+      "**Cyber controls:** The IA cyber guideline GL20 applies to insurers, with a reported 72-hour notice duty. Check whether it reaches intermediaries, and the bank's own cyber obligations too."
      ]
     },
     {
@@ -1394,7 +1395,7 @@
       "**Name a responsible officer:** Choose a technical representative (agent) with real authority and resources, and file the approval application with the licence application (s.64U(3)).",
       "**Count the insurer appointments:** Before adding any insurer, check the cap of 4 authorized insurers, of which no more than 2 may be long term (s.64I(1); Cap. 41K r.3). Insurers in the same group are counted under Cap. 41K r.5.",
       "**Write the controls:** Document the controls and procedures required by s.91(1), covering app journeys, staff training, complaints and monitoring, and have the responsible officer sign them off.",
-      "**Diarise the licence term:** Note that the licence is normally valid for three years (s.64V). Calendar the renewal application, which must reach the IA no later than 45 days before expiry (s.64ZV(3))."
+      "**Diarise the licence term:** Note that the licence is normally valid for three years (s.64V). Calendar the renewal application, which must be made no later than 45 days before expiry (s.64ZV(3))."
      ],
      "watchFor": [
       "**Unlicensed selling in the app:** Staff or app features that recommend a policy without the right licence breach s.64G(1). The breach carries a fine and imprisonment (s.64G(4)).",
@@ -1741,7 +1742,7 @@
       "**Partner distribution:** The partner insurer appoints the bank as its agent (s.64U(5)(b)). The bank is a separate person from the insurer, so it still needs its own agency licence to sell the products (s.64G(1)).",
       "**Authorization of an own insurer:** The company applies under s.7 for authorization to carry on long term or general business, and the IA may authorize it under s.8. The IA must refuse if a director or controller is not fit and proper (s.8(2)).",
       "**Controllers:** The IA must approve an individual appointed as a controller, such as a managing director or chief executive (s.13A). A person who becomes a minority or majority shareholder controller needs prior IA approval (s.13B(2) and (2A)). A controller includes a managing director or chief executive, or a person whom the directors are accustomed to act on, or who holds 15% or more of the voting power (s.9(1)(a)).",
-      "**Fast Track for digital insurers:** The IA launched Fast Track in September 2017 as a queue for applicants that would sell only through digital channels. The IA reports four digital insurers authorized under it as at December 2025. The scope limits are reported and need checking.",
+      "**Fast Track for digital insurers:** The IA launched Fast Track in September 2017 as a queue for applicants that would sell only through digital channels. A December 2025 speech by the Secretary for Financial Services and the Treasury reports four digital insurers authorized under it. The scope limits are reported and need checking.",
       "**Group counting:** Under Cap. 41K r.5, appointments by insurers in the same group are counted as one or two insurers for the cap in s.64I and Cap. 41K r.3. This matters for an agency appointed by several group insurers.",
       "**Conflicts of interest:** An intermediary must use best endeavours to avoid conflicts with the customer and must disclose any conflict it cannot avoid (s.90(f) and (g)). A bank that sells its own group insurer's cover must disclose that tie."
      ],
@@ -1867,7 +1868,7 @@
       "**Agree the insurer's position:** Get the insurer's written position on s.64N(1) and (2) before launch, because the insurer carries the offence risk.",
       "**Confirm tied selling:** Check the Code of Banking Practice and any HKMA expectations on tied selling and bundling. Check these points before launch.",
       "**Disclose the terms:** Show customers the cover, whether it is free or paid, and the bank's interest in it. Section 90(e) and (g) apply if the bank is a licensed intermediary.",
-      "**Check cooling-off rights:** Check whether the cooling-off period under GL29 (reported) applies to group certificates, and build cancellation and refund flows if it does."
+      "**Check cooling-off rights:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain life policies (its para 4.2 lists them; check the current text). General cover follows each policy's own cancellation terms. Build cancellation and refund flows for any group certificate that falls within it."
      ],
      "watchFor": [
       "**Default enrolment:** Pre-ticked or default opt-in journeys in the app can amount to arranging, or inviting or inducing (Sch. 1A Pt 1 item 1(b)).",
@@ -1918,7 +1919,7 @@
        "label": "IA GL29, cooling-off period",
        "ref": "GL29",
        "strength": "statutory-guideline",
-       "note": "The 21-day period is reported; check the current GL29 text. Whether it covers group certificates needs checking.",
+       "note": "GL29 gives a 21 calendar day cooling-off period for certain life policies (its para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself.",
        "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf"
       }
      ]
@@ -2037,7 +2038,7 @@
       "**Confirm the licence route:** Decide which entity applies for the agency licence and confirm the route with the IA before the product committee approves the model. Record the answer.",
       "**Name the responsible officer:** Choose a licensed or applicant technical representative (agent) with real authority over insurance sales. Test the choice against s.64ZE(4)(b) and (c) before nomination.",
       "**Map every app role:** List each person who answers product questions, arranges cover or handles claims. Treat each role as needing a licence unless counsel confirms it is clerical or administrative only.",
-      "**Check examination and renewal status:** Confirm each licensed person's IIQE route, CPD record and renewal date. Renewal applications must reach the IA at least 45 days before expiry (reported).",
+      "**Check examination and renewal status:** Confirm each licensed person's IIQE route, CPD record and renewal date. Renewal applications must be made no later than 45 days before expiry (s.64ZV(1) and (3)).",
       "**Check group conflicts:** Confirm that no licensed person holds a role with another agency, a broker company or a group entity that s.64J forbids.",
       "**Approve the training plan:** Agree a training plan for front-line staff. The HKMA's Enhanced Competency Framework (ECF) is non-statutory, so use its insurance module as a benchmark (good practice)."
      ],
@@ -2137,9 +2138,9 @@
       "HKMA"
      ],
      "summary": "An insurance agency signs an agency agreement with each insurer it sells for. The law caps how many insurers an agency may act for, makes the insurer liable for the agent's acts in dealings with clients, and voids any agreement term that cuts back the agent's duty to act in the client's best interests.",
-     "route": "Yes, as a licensed agency appointed by no more than four insurers, and no more than two of them long-term insurers (Cap. 41K s.3). The agreement must stay within s.68 and must not contract out of the conduct duty in s.90(a) (s.68A).",
+     "route": "Yes, as a licensed agency appointed by no more than four insurers, and no more than two of them long-term insurers (Cap. 41K r.3). The agreement must stay within s.68 and must not contract out of the conduct duty in s.90(a) (s.68A).",
      "require": [
-      "**Appointment cap:** An agency may be appointed for at most four authorized insurers, and no more than two of them may be insurers authorized for long-term business (Cap. 41K s.3). Plan the insurer panel within that limit.",
+      "**Appointment cap:** An agency may be appointed for at most four authorized insurers, and no more than two of them may be insurers authorized for long-term business (Cap. 41K r.3). An insurer that knows the agency already holds the maximum must not appoint it, and a breach is an offence with a fine of up to HK$1,000,000 and 2 years' imprisonment on indictment (s.64I(3), (4)(a)).",
       "**Insurer liability:** An insurer is liable for its agent's acts in dealings with clients, even where the act was outside the agent's authority, if the agent is appointed by that insurer alone (s.68(2)). With several insurers, liability depends on which insurers' authority covers the act (s.68(3) to (4B)).",
       "**Authority disclosure:** An insurer is not liable for an act outside its authority if the agent disclosed that fact before the client relied on it, with the clarity and prominence a reasonable client would need (s.68(4C)). The court may still weigh other factors (s.68(4D)).",
       "**Void terms:** A contract or agency agreement term inconsistent with s.68 is void (s.68(4E)). A term that affects the agent's obligation under s.90(a), to act honestly, fairly and in the policy holder's best interests, is void (s.68A).",
@@ -2196,7 +2197,7 @@
       },
       {
        "label": "Insurance (Maximum Number of Authorized Insurers) Rules (Cap. 41K)",
-       "ref": "s.3",
+       "ref": "r.3",
        "strength": "statute",
        "url": "https://www.elegislation.gov.hk/hk/cap41K",
        "cites": [
@@ -2228,7 +2229,7 @@
      "route": "Yes, as a licensed agency collecting premium for its appointing insurer, under the agency agreement. The insurer remains liable for the agency's dealings (s.68). The bank must forward any levy it collects to the insurer as soon as practicable (Cap. 41I s.3(2)).",
      "require": [
       "**Accounting for premium:** The bank must account for premium promptly and properly (s.90(h)). The agreement should set the remittance cycle and the insurer's audit rights.",
-      "**Levy on each premium:** The policy holder must pay a prescribed levy each time a premium is paid to an authorized insurer (Cap. 41I s.3(1)).",
+      "**Levy on each premium:** The policy holder owes a prescribed levy to the IA and pays it to the insurer with each premium under a contract of specified general or long term business, other than reinsurance and captive contracts (Cap. 41 s.134(1); Cap. 41I s.3(1); Cap. 41J s.4).",
       "**Levy rate and caps:** From 1 April 2021 the levy is 0.1% of the premium, capped per policy year at HK$5,000 for specified general business and HK$100 for specified long-term business (Cap. 41J ss.4 to 6 and the Schedule). Where premiums are paid more than once a year, the cap applies across the scheduled and extra payments (s.6).",
       "**Intermediary forwarding:** An intermediary, including a licensed insurance intermediary, that collects a levy for the insurer must forward it as soon as practicable (s.3(2) and (7)). The insurer must not keep any excess over the levy (s.3(3)).",
       "**Penalties:** The IA may impose a penalty of up to HK$5,000 on a policy holder who does not pay the levy, and up to HK$10,000 on an insurer that keeps an excess (s.3(4) and (5)).",
@@ -2241,7 +2242,7 @@
       "**Agree the remittance cycle:** Set a remittance cycle with the insurer that meets the 'as soon as practicable' standard, and record the levy separately from the premium.",
       "**Confirm no broker activity:** Check that the bank does not hold client monies in a way that makes it a broker company, or that triggers the s.71 and Cap. 41L client account rules.",
       "**Run the AML review:** Confirm the third-party payer rules, source checks and record retention with the AML team, and reflect the outcome in the app flow.",
-      "**Agree refunds and cooling-off:** Set how premium is refunded when a policy is cancelled in the cooling-off period, which is 21 days under IA guideline GL29 (reported)."
+      "**Agree refunds and cooling-off:** Set how premium is refunded when a policy is cancelled in the cooling-off period. IA guideline GL29 gives 21 calendar days for certain life policies (para 4.2; check the current text). For general cover, check each policy's own cancellation terms."
      ],
      "watchFor": [
       "**Levy error:** Charging the levy twice, or keeping it, exposes the insurer to a penalty of up to HK$10,000 (s.3(5)) and strains the agency agreement.",
@@ -2329,7 +2330,7 @@
        "label": "IA Guideline GL29, cooling-off period",
        "ref": "GL29",
        "strength": "statutory-guideline",
-       "note": "21-day period reported; a 30-day product variant is also reported. Check the current text.",
+       "note": "Gives 21 calendar days for certain life policies (para 4.2; check the current text). A guideline under s.133, not law in itself. A 30-day product variant is also reported.",
        "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf"
       }
      ]
@@ -2438,8 +2439,8 @@
       "**IA consultation before discipline:** Before the IA uses its s.81 disciplinary powers, or an agreed-action power under s.84(1), against an authorized institution or its agent, it must consult the Monetary Authority (ss.82(4) and 84(4)).",
       "**Procedural safeguards:** Before the IA exercises a s.81 power, it must give the bank a reasonable opportunity to be heard, and must issue written notice with reasons (s.82(1) to (3)).",
       "**IA-HKMA memorandum of understanding:** The HKMA and IA signed a memorandum of understanding on 19 July 2019, covering supervision, complaints and enforcement for insurance activities of authorized institutions. The date and title are confirmed; check the MoU text for its full content.",
-      "**Prior notification:** HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect an authorized institution to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars).",
-      "**ILAS authorization (reported):** An ILAS offered to the public needs SFC authorization under SFO s.104 (SFO s.103 applies to unauthorized offers). Professional investors are outside s.103 (reported; check)."
+      "**Prior notification:** HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars).",
+      "**ILAS authorization:** An ILAS offered to the public needs SFC authorization under SFO s.104 (SFO s.103 applies to unauthorized offers). The carve-out in s.103(2)(k) covers only offers intended to be disposed of to professional investors, so it does not reach a retail sale (check the current text)."
      ],
      "gates": [
       "**Open the HKMA conversation early:** Brief the HKMA relationship team on the model, product shelf, target segment and sales channel. Keep a note of what was said and any feedback.",
@@ -2524,7 +2525,7 @@
      "route": "Yes, but only if the party carrying on each regulated step is licensed. Promoting a product in the app is a regulated act if it invites or induces a customer to buy or to make a material decision (Sch. 1A, Part 1 item 1(b) and (c)), so the bank needs an agency appointment for the steps it takes, or must leave those steps to a licensed insurer or intermediary. An insurer may not accept a referral from an unlicensed person (s.64N(2)).",
      "require": [
       "**Who carries on the regulated steps:** Negotiating or arranging a contract, inviting or inducing a person to buy or to make a material decision, and giving regulated advice are all regulated acts (Sch. 1A, Part 1 items 1(a) to (d)). Map each step to a licensed party before design.",
-      "**Holding out:** No one may hold out as carrying on regulated activity in the course of business or for reward without a licence (s.64G(2)). Slogans that suggest a partnership with an insurer can amount to holding out (reported; check).",
+      "**Holding out:** No one may hold out as carrying on regulated activity in the course of business or for reward without a licence (s.64G(2)). An agency may hold out that it acts as agent of the insurer that appointed it (s.64G(3)(a)(ii)), so co-branding that names the appointing insurer and the bank's agency role can fit that exception. A slogan that suggests the bank is the insurer or an unlicensed partner does not.",
       "**No unlicensed referrals:** An insurer must not enter a contract through a person in Hong Kong, or accept a referral from one, unless that person is a licensed agency or individual agent appointed by the insurer, a licensed broker company, or has only clerical or administrative duties (s.64N(1) and (2)).",
       "**Consequence of breach:** A contract made in breach of s.64N(1) can be enforced or voided at the policy holder's option, and a policy holder who voids it can recover the consideration paid (s.64N(3) and (4)).",
       "**Arranging is wider than negotiating:** Under the IA's explanatory note on regulated activities, a party is arranging where its conduct brings the contract into effect, for example by helping a customer apply and passing the application to the insurer (reported; check the current text).",
@@ -2618,8 +2619,8 @@
    "**Product families:** Sch. 1 sorts business into long term classes (Pt 2) and general classes (Pt 3). Para 3A stops retirement-scheme classes G and H from being combined with other business, subject to exemptions.",
    "**Conduct duties:** s.90 applies whenever the intermediary carries on a [[regulated activity|Regulated activity]]. The duties cover best interests, care, needs, disclosure and conflicts.",
    "**Wide scope:** Sch. 1A, Pt 1 treats inviting or inducing a person to buy as a regulated activity. Promotions in the app therefore count, not only the sale itself.",
-   "**Cooling-off:** Under IA GL29, a policy holder can cancel within 21 calendar days and get a premium refund. Some products are reported to give 30 days (reported; check), so check each product's terms.",
-   "**Premium and levy:** The policy holder pays the insurance levy on each premium payment for prescribed classes (Cap. 41I s.3(1)). The app's premium flow must carry the levy with each payment."
+   "**Cooling-off:** IA guideline GL29 gives 21 calendar days to cancel for a premium refund on certain life policies (para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself. For general cover, check each policy's own cancellation terms.",
+   "**Premium and levy:** The policy holder owes the levy to the IA (Cap. 41 s.134(1)) and pays it to the insurer with each premium (Cap. 41I s.3(1)); the insurer remits it to the IA (Cap. 41I s.4). The app's premium flow must carry the levy with each payment."
   ],
   "conceptMap": {
    "type": "hub",
@@ -2667,7 +2668,7 @@
     {
      "label": "Cooling-off",
      "value": "GL29",
-     "note": "21 calendar days",
+     "note": "21 calendar days, certain life policies",
      "rel": "gives rise to"
     },
     {
@@ -2751,12 +2752,12 @@
       {
        "label": "Premium and levy",
        "value": "Cap. 41I s.3(1)",
-       "note": "Levy collected with each premium"
+       "note": "Levy paid to the insurer with each premium"
       },
       {
        "label": "Cooling-off",
        "value": "GL29",
-       "note": "From delivery of the policy or notice"
+       "note": "Certain life policies; from delivery or notice"
       }
      ]
     },
@@ -2765,7 +2766,7 @@
      "**Needs analysis:** GL30, the IA's Guideline on Financial Needs Analysis, asks intermediaries to carry out a needs analysis before recommending a policy. Its Interpretation Notes are reported to say they do not have the force of law.",
      "**Disclosure:** s.90(e) requires disclosure needed for an informed decision. s.90(f) and (g) require conflicts to be avoided where possible and disclosed where they remain.",
      "**Application and signature:** An electronic signature meets a signing requirement only if the method is reliable for its purpose and the other party consents to it (ETO s.6(1)). ETO s.17 says an electronic contract is not denied effect solely because it is electronic.",
-     "**Cooling-off:** GL29 gives 21 calendar days from delivery of the policy or a cooling-off notice, whichever is earlier, with a premium refund. The app must record the delivery date."
+     "**Cooling-off:** For certain life policies, GL29 gives 21 calendar days from delivery of the policy or a cooling-off notice, whichever is earlier, with a premium refund (para 4.2; check the current text). The app must record the delivery date."
     ],
     "takeaway": "Each step produces evidence, so design the records before the screens."
    },
@@ -2784,7 +2785,7 @@
     "heading": "Special customers",
     "lede": "Some customers need extra care, and the rules for them are thinner than the rules for others.",
     "points": [
-     "**Elderly and vulnerable customers:** No IA or HKMA rule specific to these customers was confirmed. Work through s.90(d), which asks the intermediary to consider the customer's circumstances, and through the needs analysis.",
+     "**Elderly and vulnerable customers:** No IA or HKMA rule specific to these customers is known; check the current text. Work through s.90(d), which asks the intermediary to consider the customer's circumstances, and through the needs analysis.",
      "**Non-residents:** s.64H treats active marketing to the public from outside Hong Kong as holding out as carrying on a regulated activity, whether the marketing is done by the person or for it. An app marketed to overseas customers needs review.",
      "**Mainland visitors:** A 2016 IA circular is reported to require an Important Facts Statement for new long-term applications from mainland visitors (reported; check the current requirement).",
      "**Minors:** Sales to minors are not covered here. Treat any app sale to a minor as a separate question and take advice before offering it."
@@ -2795,7 +2796,7 @@
     "heading": "Premium financing and tie-ins",
     "lede": "Loans linked to insurance are where bank and insurer duties most often overlap.",
     "points": [
-     "**Premium financing:** IA and HKMA circulars of 1 April 2022 set standards for [[premium financing|Premium financing]] used to buy life policies, applying from 1 January 2023. Affordability should be tested, not assumed.",
+     "**Premium financing:** HKMA circular announced by press release on 1 April 2022 (see stage 8) sets standards for [[premium financing|Premium financing]] used to buy life policies, applying from 1 January 2023. Affordability should be tested, not assumed.",
      "**Separation:** A reported HKMA circular of 19 November 2025 stresses separating financing from insurance applications and prohibits return-enhancing promotions. Confidence is low, so check the HKMA original.",
      "**Tied selling:** Check the current Code of Banking Practice text for tied-selling rules before designing any loan or insurance tie-in.",
      "**Mortgage-linked cover:** Fire and life cover tied to a mortgage needs review for tying and conduct rules. Agree the standard wording with counsel."
@@ -2857,7 +2858,7 @@
     "instrument": "Insurance Ordinance (Cap. 41)",
     "ref": "s.64G(1), (3), (4)",
     "title": "Restrictions on carrying on regulated activities",
-    "summary": "Cap. 41, s.64G(1) bars carrying on a regulated activity in the course of business or for reward. s.64G(3)(c) exempts only a licensed technical representative acting for a licensed agency. Contravention is an offence (s.64G(4)).",
+    "summary": "Cap. 41, s.64G(1) bars carrying on a regulated activity in the course of business or for reward. s.64G(3) carves out several licensed roles: an agency or individual agent acting for its appointing insurer, a broker company acting for policy holders, and technical representatives acting for the agency or broker that appointed them ((3)(a) to (e)). Contravention is an offence (s.64G(4)).",
     "counselNote": "This is the core licensing bar, and it limits which bank staff may sell or promote in the app. Map those roles before launch.",
     "url": "https://www.elegislation.gov.hk/hk/cap41",
     "cap": "41",
@@ -2925,8 +2926,8 @@
     "instrument": "IA Guideline on Cooling-off Period (GL29)",
     "ref": "GL29",
     "title": "Cooling-off period",
-    "summary": "GL29 applies to authorized insurers and licensed intermediaries. It gives a 21 calendar day cooling-off period from delivery of the policy or a cooling-off notice, whichever is earlier, during which the policy holder can cancel and get a premium refund. Some products carry 30 days. The period is reported to come from the guideline rather than from statute, so confirm this against the GL29 PDF.",
-    "counselNote": "Set the cooling-off period from each product's terms and record the delivery date, since the clock depends on it. Confirm the start rules and the legal status against the GL29 PDF.",
+    "summary": "GL29 gives a 21 calendar day cooling-off period, from delivery of the policy or a cooling-off notice, whichever is earlier, during which the policy holder can cancel and get a premium refund. It covers certain types of life insurance policies (its para 4.2 lists them; check the current text), so general cover follows each policy's own cancellation terms. Some products carry 30 days. It is a guideline under s.133, not law in itself.",
+    "counselNote": "Set the cooling-off period from each product's terms and record the delivery date, since the clock depends on it. For general cover, check each policy's own cancellation terms.",
     "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf",
     "confidence": "medium"
    },
@@ -2935,8 +2936,8 @@
     "instrument": "Insurance (Levy) Regulation (Cap. 41I)",
     "ref": "s.3(1), (2)",
     "title": "Payment of prescribed levies",
-    "summary": "The policy holder must pay the prescribed levy each time a premium is paid (s.3(1)). An intermediary that collects a levy for the insurer must forward it as soon as practicable, and the insurer must not keep any excess (s.3(2), (3)).",
-    "counselNote": "The levy is part of the premium flow the app must show and collect. Agree with the insurer who collects it and how it is remitted, and read s.3(2) before relying on it.",
+    "summary": "The policy holder owes the levy to the IA (Cap. 41 s.134(1)) and must pay it to the insurer each time a premium is paid (s.3(1)). An intermediary that collects it must forward it to the insurer as soon as practicable, and the insurer must not keep any excess (s.3(2), (3)). The insurer remits it to the IA (s.4).",
+    "counselNote": "The levy is part of the premium flow the app must show and collect. Agree with the insurer how each levy is collected and remitted to the IA, and read s.3(2) before relying on it.",
     "url": "https://www.elegislation.gov.hk/hk/cap41I!en",
     "cap": "41I",
     "section": "3",
@@ -2997,7 +2998,7 @@
    "**Regulated-activity map:** List every screen that invites, recommends or arranges a sale under Sch. 1A.",
    "**Needs analysis:** Build a GL30 needs analysis step for each product family that needs one, and keep the answers.",
    "**Disclosure set:** Agree the key facts, capacity, commission and conflicts disclosure needed under s.90(e) to (g).",
-   "**Cooling-off:** Record the delivery date and set the cooling-off period from each product's terms under GL29.",
+   "**Cooling-off:** Record the delivery date and set the cooling-off period from each product's terms, using GL29 for certain life policies.",
    "**Consent:** Capture PDPO s.35E consent before any direct marketing, with written confirmation if the consent was oral.",
    "**Eligibility and records:** Set rules for special customers and keep the evidence trail for each sale."
   ],
@@ -3009,14 +3010,14 @@
   ],
   "bankNotes": [
    "**Authorized institution:** The IA has delegated its inspection and investigation powers over authorized institutions' insurance business to the Monetary Authority, a delegation in place since 23 September 2019 (s.4G; reported in IA and HKMA releases). The IA can still act itself (s.4G(5)), and it must consult the Monetary Authority before investigating or disciplining a bank (ss.64ZZH(2), 82(4), 84(4)).",
-   "**Two regulators:** The IA regulates how insurance is sold, and the HKMA regulates the bank's own dealings. Agree a single contact point for each.",
+   "**Two regulators:** The IA licenses and disciplines the bank and its people, and regulates how insurance is sold. Under the s.4G delegation the HKMA, as Monetary Authority, inspects and investigates the bank's insurance business and supervises the bank as a whole. Agree a single contact point for each.",
    "**Referral risk:** The IA's 2019 explanatory note for banks treats a referral as a regulated activity where the bank steers a customer to a specific intermediary or earns remuneration for it (reported; check).",
    "**Premium financing:** Where the bank also lends for premiums, it can act as both intermediary and financier, which the HKMA and IA circulars address separately."
   ],
   "pitfalls": [
    "**Labels:** Calling a product non-advised does not remove the s.90 duties from the agency.",
    "**Promotions:** A banner that invites a purchase is a regulated activity, even if the bank is not the seller.",
-   "**Cooling-off:** Applying 21 days without checking each product's terms may miss a longer period if one applies. Confirm each product's cooling-off period from its terms.",
+   "**Cooling-off:** GL29 covers certain life policies only, so do not apply its 21 days to every product. For general cover, check each policy's own cancellation terms.",
    "**Consent:** Oral consent without written confirmation within 14 days breaches s.35E(1)(b)."
   ],
   "glossary": [
@@ -3034,7 +3035,7 @@
    },
    {
     "term": "Cooling-off period",
-    "definition": "A set number of days after delivery of a policy during which the policy holder can cancel and get a premium refund, under IA GL29."
+    "definition": "A set number of days after delivery of a policy during which the policy holder can cancel and get a premium refund. For certain life policies it comes from IA GL29; general cover follows each policy's own terms."
    },
    {
     "term": "Financial needs analysis",
@@ -3046,7 +3047,7 @@
    },
    {
     "term": "Insurance levy",
-    "definition": "A prescribed amount the policy holder pays to the Insurance Authority with each premium for covered classes, collected through the insurer under Cap. 41I."
+    "definition": "A prescribed amount the policy holder owes to the Insurance Authority and pays to the insurer with each premium for covered classes (Cap. 41 s.134(1); Cap. 41I s.3(1)). The insurer remits it to the Authority (Cap. 41I s.4)."
    },
    {
     "term": "Direct marketing",
@@ -3112,7 +3113,7 @@
      },
      {
       "label": "Settle payments, premium financing and the levy",
-      "note": "The policy holder pays the prescribed levy on a prescribed contract (Cap. 41 s.134(1); Cap. 41I s.3). Premium financing by a bank carries separate HKMA circular conditions (reported; check)."
+      "note": "The policy holder owes the levy to the IA (Cap. 41 s.134(1)) and pays it to the insurer with each premium (Cap. 41I s.3(1)); the insurer remits it to the IA (Cap. 41I s.4). Premium financing by a bank carries separate HKMA circular conditions (reported; check)."
      },
      {
       "label": "Clear marketing and promotions with Legal",
@@ -3120,11 +3121,11 @@
      },
      {
       "label": "Set after-sale servicing and complaint routes",
-      "note": "Tell customers how to reach the insurer, the bank and the Insurance Complaints Bureau. Where the bank acts as a broker company, client monies must be kept separate under s.71."
+      "note": "Tell customers how to reach the insurer and the bank. Regulatory complaints about the bank's conduct go to the HKMA; money claims go to the Financial Dispute Resolution Centre (sales) or the Insurance Complaints Bureau (policy terms and claims) (reported). Where the bank acts as a broker company, client monies must be kept separate under s.71."
      },
      {
       "label": "Post-sale: cooling-off, renewals, claims help and complaints",
-      "note": "Honour the cooling-off right under GL29 (reported; check the current text). Track renewals, claims help and complaints for the life of each policy, and keep the records that inspectors may require under s.64ZZF."
+      "note": "Honour the cooling-off right under IA guideline GL29 for the life policies it covers (para 4.2; check the current text), and each policy's own cancellation terms for general cover."
      }
     ]
    },
@@ -3133,8 +3134,8 @@
      "heading": "Product shelf and due diligence",
      "lede": "Only list products the bank can lawfully sell, from insurers that can lawfully sell them.",
      "points": [
-      "**Class check:** Confirm each product falls within a class in Cap. 41 Sch. 1. Para 3A bars combining long-term classes G or H with other business, unless a gazette notice under para 3B disapplies it. Para 3 treats general business written with class 1 or 2 as long-term.",
-      "**Insurer status:** Confirm each insurer is authorized and that the bank holds an appointment for that product line. A single insurer is liable for its agent's acts in dealings with customers (s.68(2)). With several insurers, s.68(3) and (4) decide which insurer is liable.",
+      "**Class check:** Confirm each product falls within a class in Cap. 41 Sch. 1. Para 3A bars combining long-term classes G or H with other business, unless a gazette notice under para 3B disapplies it. Para 3 treats class 1 or 2 business written in the same contract as long-term business, where the insurer is authorized for long-term business, as long-term business.",
+      "**Insurer status:** Confirm each insurer is authorized and that the bank holds an appointment for that product line. A single insurer is liable for its agent's acts in dealings with customers (s.68(2)). With several insurers, s.68(3) to (4B) decide which insurers are liable, including jointly and severally under (4A) and (4B).",
       "**Agreement terms:** Review each partner agreement. A term that cuts across the agent's duty to customers under s.90(a) is void (s.68A).",
       "**Product approval:** Record a product committee decision for each product. The record should cover the class, charges, cooling-off terms, target customers and fit with the bank's customer base.",
       "**Investment-linked and protection-linked plans:** These need extra approvals. Investment-linked plans also need SFC approval; SFO s.104 (collective investment schemes) is the provision to check against the current ILAS Code. Protection-linked plan sales follow HKMA circulars. HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars)."
@@ -3157,7 +3158,7 @@
      "points": [
       "**Material information:** The intermediary must disclose what the customer needs to be sufficiently informed for each material decision (s.90(e)). Sch. 1A defines the material decisions.",
       "**Records of advice:** Keep records of the needs analysis, the recommendation and the customer's answers. Inspectors may require these records (s.64ZZF).",
-      "**Cooling-off notice:** GL29 gives a cooling-off right with a premium refund, reported as 21 calendar days from delivery of the policy or the cooling-off notice, whichever is earlier (check the current text and any product-specific periods).",
+      "**Cooling-off notice:** IA guideline GL29 gives a cooling-off period, with a premium refund, of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself. For general cover, check each policy's own cancellation terms.",
       "**Language:** Provide key documents in the language the customer uses, and check that the app and the policy documents match. This is good practice, not a statutory test.",
       "**Point-of-sale disclosure:** Show the key terms before the customer commits, not only in a follow-up email. This is good practice and supports the disclosure duty in s.90(e)."
      ]
@@ -3177,7 +3178,7 @@
      "heading": "Payments, premium financing and the levy",
      "lede": "Money moves at several points in the sale, and each point carries a legal duty.",
      "points": [
-      "**Levy liability:** The policy holder pays the prescribed levy on a prescribed contract (Cap. 41 s.134(1)). Insurers and intermediaries collect it, and the rules are in Cap. 41I s.3.",
+      "**Levy liability:** The policy holder owes the levy to the IA (Cap. 41 s.134(1)) and pays it to the insurer with each premium (Cap. 41I s.3(1)); the insurer remits it to the IA (Cap. 41I s.4).",
       "**Levy amount:** From 1 April 2021 the levy is 0.1% of each premium, capped at HK$5,000 for specified general business and HK$100 for specified long term business per policy year (Cap. 41J, ss.5 and 6 and the Schedule).",
       "**Levy handling:** An intermediary that collects levy money must pass it to the insurer as soon as practicable, and the insurer may not keep any excess (Cap. 41I s.3(2) and (3)). A policy holder who does not pay the levy can face a penalty of up to HK$5,000 (s.3(4)).",
       "**Premium financing:** A bank that acts as both the intermediary and the premium financier must keep the lending and the insurance sale separate. HKMA circulars from 2022 onward set the conditions (reported; check the current version).",
@@ -3202,7 +3203,7 @@
       "**Cooling-off and cancellation:** Process cancellations within the cooling-off period and refund the premium promptly. Test this path before launch, not only the purchase path.",
       "**Renewals and changes:** Track renewal dates, premium changes and policy changes, and send notices in time for the customer to act.",
       "**Claims help:** The insurer decides claims. The bank's role is to route the customer and explain the process, not to decide or promise payment. Keep that line clear in scripts and in the app.",
-      "**Complaints route:** The IA and HKMA signed a 2019 MoU covering complaint handling for insurance-related activities of authorized institutions (HKMA guidance). The Insurance Complaints Bureau is reported to have a HK$1.5m limit from 1 January 2025 (reported; check).",
+      "**Complaints route:** Two tracks. A regulatory complaint about the bank's conduct as an agency goes to the HKMA, which handles complaints about authorized institutions' insurance business under the 2019 IA-HKMA memorandum (reported). A money claim goes to the Financial Dispute Resolution Centre if it is about how the bank sold the product (reported from bank disclosures), or to the Insurance Complaints Bureau if it is a personal policy-term or claims dispute with the insurer (reported; check its current scope and limit).",
       "**Review and compensation:** The Insurance Appeals Tribunal under Cap. 41 Part XII hears applications for review of specified decisions. A Policyholders' Protection Scheme was consulted on in 2022 and 2023, but no official timetable has been confirmed (proposal; reported)."
      ]
     }
@@ -3224,7 +3225,7 @@
       "**Technical representatives:** A staff member who gives regulated advice needs a technical representative licence, and an agency representative may act only in a line the agency is licensed for (s.64L(2)).",
       "**Appointment model:** An agency acts for an authorized insurer that appoints it, while a broker company acts as agent of the policy holder (s.64G(3)(a) and (d)). The model must be settled before the licence application.",
       "**Insurer referrals:** An authorized insurer may accept business only through a licensed intermediary or a clerical role, so the insurer cannot take the bank's referrals unless the bank is licensed (s.64N(1)-(2)).",
-      "**Levy:** The policy holder pays a levy for each premium payment on specified general or long term business, excluding reinsurance and captive contracts, which covers general classes 1, 2, 3, 4, 8, 9, 10, 13, 14, 15, 16 and 17 (Cap. 41J s.2 and s.4). Where the bank collects the levy for the insurer, it must forward it as soon as practicable (Cap. 41I s.3(2)).",
+      "**Levy:** The policy holder owes the levy to the IA (Cap. 41 s.134(1)) and pays it to the insurer with each premium (Cap. 41I s.3(1)); the insurer remits it to the IA (Cap. 41I s.4). An intermediary that collects it must forward it to the insurer as soon as practicable (Cap. 41I s.3(2)). The levy covers specified general or long term business, excluding reinsurance and captive contracts, in general classes 1, 2, 3, 4, 8, 9, 10, 13, 14, 15, 16 and 17 (Cap. 41J s.2 and s.4).",
       "**Code of conduct:** The IA code of conduct for agents is issued under s.95, and a broker code applies to broker companies (reported). A breach does not by itself create liability, but it can count against the bank's fitness to remain licensed (s.95(5)-(6)).",
       "**Licence application:** The agency licence application must be accompanied either by a technical representative application and a responsible officer application, or by a responsible officer application for a licensed technical representative (s.64U(3)). The applicant must also be appointed by at least one authorized insurer (s.64U(5)(b))."
      ],
@@ -3233,8 +3234,8 @@
       "**Product mapping:** Map each product to a Schedule 1 class and record the reason, product by product, since an app bundle can mix classes.",
       "**Disclosure and conflicts:** Build the disclosure of the bank's interest and any conflict (s.90(e)-(g)) into the app before a quote is shown.",
       "**Needs check:** Confirm the journey asks about the customer's circumstances that matter for the cover, and records the answers (s.90(d)).",
-      "**Cooling-off:** GL29 is reported to target new life policies, not general cover. Check the cancellation terms in each general policy wording before build, and confirm the scope in the current IA text (reported; check).",
-      "**Levy and premium display:** Confirm the levy amount, who collects it and how it is remitted, before any premium is displayed."
+      "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). For general cover, check each policy's own cancellation terms before build.",
+      "**Levy and premium display:** Confirm the levy amount and how it is remitted to the IA through the insurer, before any premium is displayed."
      ],
      "watchFor": [
       "**Selling outside the licence:** A licence covers only the lines listed in it (s.64G(1), s.64U(4)). Adding a new cover line to the app without an approved variation is an offence risk.",
@@ -3339,8 +3340,8 @@
       "**Classification:** Check each benefit against Schedule 1. Sums payable on death are class A life. Incapacity cover is class D only if it runs for at least 5 years, to retirement age or without limit, and the insurer can terminate it only in special circumstances stated in the contract. Accident-only benefits can be class 1.",
       "**Licence scope:** The agency licence must list every long term and general class sold (s.64U(4)). Adding a line needs an approved variation (s.64S).",
       "**Financial needs analysis:** An intermediary must carry out a financial needs analysis before recommending a policy, under IA guideline GL30 (reported; check the current text).",
-      "**Cooling-off:** The cooling-off period under IA guideline GL29 is reported as 21 days from delivery of the policy or a cooling-off notice, whichever is earlier. The app must support a cancel and refund within that period (reported; check).",
-      "**Underwriting guideline:** The IA revised GL16 on 6 February 2026, effective 31 March 2026, for long term business other than class C (reported; check the current text). Ask the insurer whether the revision changes the health questions, and record its answer.",
+      "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself. The period is reported to run from delivery of the policy or a cooling-off notice, whichever is earlier. The app must support a cancel and refund within that period.",
+      "**Underwriting guideline:** The IA is reported to have revised GL16 (underwriting long term business other than class C) on 6 February 2026, effective 31 March 2026 (reported; check the IA text). Ask the insurer whether the revision changes the health questions, and record its answer.",
       "**Health data:** Health answers are personal data under the Personal Data (Privacy) Ordinance (Cap. 486). Limit collection to what underwriting needs and tell the customer how the data will be used."
      ],
      "gates": [
@@ -3409,7 +3410,7 @@
        "label": "IA Guideline GL29 on cooling-off",
        "ref": "GL29",
        "strength": "statutory-guideline",
-       "note": "The 21-day rule and its definition are reported; check the current text and its scope before use.",
+       "note": "The 21-day rule and its scope are reported; check the current text (para 4.2 lists the covered policies).",
        "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf"
       },
       {
@@ -3490,7 +3491,7 @@
        "label": "GovHK, VHIS tax deduction",
        "ref": "VHIS certification and tax deduction",
        "strength": "good-practice",
-       "note": "The HK$ cap and year-of-assessment wording are reported differently. Confirm against the official page before use. Official tax page; not verified against the Inland Revenue Ordinance.",
+       "note": "The HK$ cap and year-of-assessment wording are reported differently. Confirm against the official page before use. Official tax page; check it against the Inland Revenue Ordinance.",
        "url": "https://www.gov.hk/en/residents/taxes/salaries/allowances/deductions/vhis.htm"
       },
       {
@@ -3630,7 +3631,7 @@
       "**Needs analysis:** Carry out a financial needs analysis under GL30 before a deferred annuity is recommended, and record the customer's age and income position.",
       "**Video-sale controls:** For any video-conference sale, apply the HKMA's recording or alternative measures and keep the record (reported).",
       "**Surrender cost:** Show the cost of early surrender, and any effect on the tax position, at the point of sale.",
-      "**Complaints route:** Agree with the insurer who handles complaints and claims disputes, and how they reach the Insurance Complaints Bureau."
+      "**Complaints route:** A regulatory complaint about the bank's conduct as an agency goes to the HKMA (reported). A money claim about how the bank sold the product goes to the Financial Dispute Resolution Centre (reported from bank disclosures). A personal policy-term or claims dispute with the insurer goes to the Insurance Complaints Bureau (reported)."
      ],
      "watchFor": [
       "**Tax promises:** Telling customers they will get the deduction can mislead them, because it depends on their own tax position.",
@@ -3699,13 +3700,14 @@
       "**SFC authorization:** The SFC may authorize a collective investment scheme under SFO s.104, subject to conditions including an approved person for SFC notices. A public offering document needs its own authorization under s.105.",
       "**Unauthorized public offer:** Under SFO s.103, issuing an advertisement or document that invites the public to buy an interest in a scheme without authorization is an offence. The carve-out for offers disposed of only to professional investors is in s.103(2)(k), so a retail ILAS offer is not covered by it.",
       "**Dealing licence question:** The SFO Sch. 5 exemption covers transactions by an authorized insurer for its insurance business. It does not name intermediaries, so the bank's position is not settled by that exemption. The SFC view is needed.",
+      "**Securities definition:** SFO Sch. 1, Pt 1 excludes from 'securities' an interest in a collective investment scheme that is a contract of insurance in a Cap. 41 Sch. 1 class. On that reading an insurance-wrapped ILAS may sit outside 'dealing in securities', but that is not a settled SFC position, so get the SFC's written view before launch.",
       "**Suitability tools:** HKMA guidance on protection-linked plans points to the financial needs analysis and risk profile questionnaire in IA guidelines GL26 and GL30 (reported; check the titles and the current texts).",
       "**No gifts:** For class C business, insurers and intermediaries may not offer gifts when marketing or distributing it (GL25, reported)."
      ],
      "gates": [
       "**SFC authorization check:** Confirm that the scheme and each offering document are authorized under s.104 and s.105 before the app shows them.",
       "**Dealing licence view:** Get the SFC's written view on whether the bank needs a licence for ILAS distribution before the product committee approves launch.",
-      "**HKMA notification:** Notify and discuss the product with the HKMA before launch, as a 2022 HKMA circular is reported to require for ILAS, including protection-linked plans (reported; check the circular's current title and text).",
+      "**HKMA prior notice:** HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars).",
       "**Suitability journey:** Build the risk profile questionnaire and the needs analysis into the app. Check whether the HKMA audio-recording rule for complex products covers face-to-face ILAS sales, and apply the ILAS segregation measures (25 September 2019 circular, reported).",
       "**Benefit disclosure:** Disclose the bank's monetary and non-monetary benefits in writing before sale, as the HKMA's 2013 circular required (reported).",
       "**Gifts and rewards:** Remove any gift or reward from the ILAS campaign, including referral incentives.",
@@ -3860,14 +3862,14 @@
       "HKMA"
      ],
      "summary": "The customer buys a policy in the bank's app without speaking to an adviser. The sale is still a regulated activity, because negotiating, arranging, inviting and inducing a contract of insurance are caught by Schedule 1A, so the bank needs its own licence and the conduct duties in s.90 still apply.",
-     "route": "Yes, through the bank's own licensed insurance agency or broker company, with each product covered by the licences of the technical representatives behind the journey. Before launching an ILAS or protection linked plan, discuss it with the HKMA: HKMA circulars of 8 July 2022 and 30 August 2023 are reported to expect this (reported; check both circulars). Keep the journey execution-only in fact, because a recommendation turns it into regulated advice.",
+     "route": "Yes, through the bank's own licensed insurance agency or broker company, with each product covered by the licences of the technical representatives behind the journey. Before launching an ILAS or protection linked plan, discuss it with the HKMA: HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars). Keep the journey execution-only in fact, because a recommendation turns it into regulated advice.",
      "require": [
       "**Licence first:** s.64G(1) bars a person from carrying on a regulated activity in the course of business or for reward. Schedule 1A Part 1 lists negotiating, arranging, inviting and inducing as regulated activities, so the bank needs a licence even when it gives no advice.",
       "**No-advice label:** A label such as 'no advice needed' does not take a sale outside the rules. A button, prompt or quote that invites a customer to buy is an invitation under Schedule 1A Part 1, item 1(b).",
       "**Conduct duties:** s.90 applies to every regulated activity. The bank must act honestly and fairly (s.90(a)), must have regard to the customer's circumstances so the sale is appropriate (s.90(d)), and must disclose what the customer needs to make an informed decision (s.90(e)).",
-      "**Execution-only status:** Whether IA Guideline GL30, the financial needs analysis, applies to execution-only long term sales is not confirmed (reported; check). Until Legal answers it, treat the point as open rather than settled.",
+      "**Execution-only status:** Whether IA Guideline GL30, the financial needs analysis, applies to execution-only long term sales is unsettled (reported; check). Until Legal answers it, treat the point as open rather than settled.",
       "**E-signature:** Cap. 553 s.6(1) lets an electronic signature satisfy a signature requirement if the method is reliable and appropriate for the purpose and the other party consents. s.17(2A) stops an electronic signature losing legal effect only because it is electronic. The insurer's own signing rules still apply.",
-      "**Cooling-off:** The IA's cooling-off guideline (GL29) gives the customer a period, reported as 21 calendar days, to cancel for a refund. A guideline issued under Cap. 41 s.133 is not law in itself: a breach does not by itself create liability, but a court takes its relevant provisions into account (s.133). Show the cancellation right and the refund route in the app.",
+      "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). For general cover, check each policy's own cancellation terms. It is a guideline under Cap. 41 s.133, not law in itself: a breach does not by itself create liability, but a court takes its relevant provisions into account (s.133). Show the cancellation right and the refund route in the app.",
       "**Journey testing and records:** Test each screen path before launch, including warnings and error states, and keep dated versions of the journey and its disclosures. Treat this as good practice; check whether the IA sets specific record rules for execution-only sales."
      ],
      "gates": [
@@ -3949,14 +3951,14 @@
        "label": "IA Guideline GL30, financial needs analysis",
        "ref": "GL30; Interpretation Notes (version 8, 26 August 2020)",
        "strength": "statutory-guideline",
-       "note": "Whether GL30 applies to execution-only sales is not confirmed (reported; check).",
+       "note": "Whether GL30 applies to execution-only sales is unsettled (reported; check).",
        "url": "https://www.ia.org.hk/en/legislative_framework/files/GL30.pdf"
       },
       {
        "label": "IA Guideline GL29, cooling-off period",
        "ref": "GL29",
        "strength": "statutory-guideline",
-       "note": "The 21-day period is reported; check the current text.",
+       "note": "Scope and the 21-day period for certain life policies are reported; check the current text.",
        "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf"
       }
      ]
@@ -3976,7 +3978,7 @@
       "**Licensed advisers only:** Only the bank's licensed agency or broker company, acting through licensed individual agents or technical representatives, may give regulated advice for the bank (s.64G(1), with the exceptions in s.64G(3)). A relationship manager who discusses policy terms without a licence breaches s.64G(1).",
       "**Competence:** s.90(c) limits advice to matters the intermediary is competent to advise on. Set a product-by-product competence list for each adviser, and enforce it in the tools they use.",
       "**Needs analysis:** IA Guideline GL30 requires a financial needs analysis before a policy is recommended (reported; check the current text). s.90(d) separately requires regard to the customer's circumstances, so build the needs step into the remote flow before any recommendation.",
-      "**Remote-sale measures:** The HKMA circular of 24 September 2021 covers distribution of investment and insurance products through non-face-to-face channels, including video conference (reported; check). The IA's circular of 5 August 2020 set conditions for video-conference sales of long term policies, but its current status is not confirmed.",
+      "**Remote-sale measures:** The HKMA circular of 24 September 2021 covers distribution of investment and insurance products through non-face-to-face channels, including video conference (reported; check). The IA's circular of 5 August 2020 set conditions for video-conference sales of long term policies, but check whether it is still in force.",
       "**Recording and identity:** The HKMA circular of December 2024 allows alternatives to audio recording for video-conference sales of investment and annuity products, provided controls such as identity authentication and secure video facilities apply (reported; check). Keep a record of each session in a form the bank can produce.",
       "**Disclosure and conflicts:** s.90(e) requires disclosure enough for an informed decision. s.90(f) and (g) require the bank to avoid conflicts where it can and to disclose any that remain, which covers relationship manager targets and incentives.",
       "**Records of advice:** Keep a record of the needs analysis, the advice given and the customer's acceptance, whichever channel was used. Treat this as good practice; check whether the IA sets specific record rules for remote advice."
@@ -4057,7 +4059,7 @@
        "label": "IA circular on non-face-to-face distribution of long term policies",
        "ref": "Circular of 5 August 2020",
        "strength": "ia-guidance",
-       "note": "Current status of these temporary measures is not confirmed.",
+       "note": "Check whether these temporary measures are still in force.",
        "url": "https://www.ia.org.hk/en/legislative_framework/circulars/reg_matters/files/Circular_05082020.pdf"
       }
      ]
@@ -4071,16 +4073,16 @@
       "IA",
       "HKMA"
      ],
-     "summary": "Older and vulnerable customers can be harmed most by sales of long term and investment-linked policies. No IA rule specific to elderly customers was confirmed, so the duties that bite are the general conduct duties in s.90 and the HKMA's investor-protection measures. The bank should apply those duties with extra care, and treat the extra steps below as good practice where no rule was found.",
+     "summary": "Older and vulnerable customers can be harmed most by sales of long term and investment-linked policies. Check whether any IA rule specific to elderly customers applies. Until then, the duties that bite are the general conduct duties in s.90 and the HKMA's investor-protection measures. The bank should apply those duties with extra care, and treat the extra steps below as good practice where no specific rule applies.",
      "route": "Yes, the bank can sell to older and vulnerable customers under the same licence and conduct rules, plus its own vulnerability policy. Consider raising the approach with the HKMA relationship team before launch (good practice).",
      "require": [
       "**Core conduct duties:** s.90(a) requires the bank to act honestly, fairly and in the customer's best interests. s.90(d) requires regard to the customer's circumstances, which matters more when the customer may be vulnerable.",
       "**Disclosure:** s.90(e) requires enough information for an informed decision. Plain-language key points and a clear cooling-off route are the practical steps for older customers.",
       "**HKMA investor protection:** The HKMA circular of 25 September 2019 covers investment, insurance and MPF sales, including audio recording for face-to-face sales of complex products (reported; check the text). Check what it says about vulnerable customers.",
-      "**Cooling-off:** IA Guideline GL29 gives a cooling-off period, reported as 21 days, in which the customer can cancel for a refund (reported; check the current text). Older customers need a clear reminder of this right.",
-      "**Age and change triggers:** No IA rule specific to older customers was confirmed, so an age-based flag is good practice. Flag customers for an extra review on age band, bereavement, a change in health or a first purchase.",
-      "**Third parties present:** Where a family member or other third party is present, the adviser or the app should confirm that the customer makes the decision. This is good practice; no specific rule was confirmed.",
-      "**Post-sale contact:** No confirmed IA or HKMA rule requires a call after the sale. A check-in call for flagged customers is good practice."
+      "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). For general cover, check each policy's own cancellation terms. Older customers need a clear reminder of whichever right applies.",
+      "**Age and change triggers:** Check whether an IA rule specific to older customers applies; an age-based flag is good practice either way. Flag customers for an extra review on age band, bereavement, a change in health or a first purchase.",
+      "**Third parties present:** Where a family member or other third party is present, the adviser or the app should confirm that the customer makes the decision. This is good practice; check whether a specific rule applies.",
+      "**Post-sale contact:** Check whether any IA or HKMA rule requires a call after the sale. A check-in call for flagged customers is good practice."
      ],
      "gates": [
       "**Vulnerability policy:** Compliance approves a written policy that defines vulnerable customers, lists the triggers and sets the response for each trigger.",
@@ -4088,13 +4090,13 @@
       "**Needs review:** For flagged customers, run a needs review under GL30 (reported) before any recommendation, and confirm whether GL30 applies to the product.",
       "**Training:** Front-line staff complete training on recognising vulnerability, with records kept. A code of conduct can require continuing training (s.95(3)(b)).",
       "**Monitoring:** Track complaints, cancellations and early surrenders by age band and by flag, and review the results each quarter.",
-      "**Guidance check:** Legal confirms whether any IA or HKMA guidance specific to older or vulnerable customers exists. None was confirmed, so the point stays open until checked.",
+      "**Guidance check:** Legal confirms whether any IA or HKMA guidance specific to older or vulnerable customers exists; the point stays open until then.",
       "**Sign-off:** The board or risk committee signs off the vulnerability policy and the monitoring measures."
      ],
      "watchFor": [
       "**Pressure selling:** Countdown timers, limited-time offers or repeated prompts aimed at older customers can breach the honesty and fairness duty in s.90(a).",
       "**Generic checks:** A standard eligibility check does not show that a customer understands the product. Flagged customers need a human check.",
-      "**Silence is not clearance:** No rule specific to older customers was found, but s.90 still applies in full. Do not treat the gap as permission."
+      "**Silence is not clearance:** Where no rule specific to older customers applies, s.90 still applies in full. Do not treat the gap as permission."
      ],
      "sources": [
       {
@@ -4132,7 +4134,7 @@
        "label": "IA Guideline GL29, cooling-off period",
        "ref": "GL29",
        "strength": "statutory-guideline",
-       "note": "The 21-day period is reported; check the current text.",
+       "note": "Scope and the 21-day period for certain life policies are reported; check the current text.",
        "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf"
       }
      ]
@@ -4155,14 +4157,14 @@
       "**Marketing from outside Hong Kong:** s.64H treats active marketing to the public from a place outside Hong Kong as holding out. It is aimed at overseas marketers, so it does not settle where the bank's sale takes place. Legal should confirm the position for each customer group.",
       "**Mainland law:** Whether mainland law lets mainland residents buy Hong Kong policies, or lets a Hong Kong bank sell them, is a separate question. Mainland counsel should advise before any feature for mainland residents goes live (check).",
       "**Greater Bay Area service:** Some insurers reportedly run after-sales service centres in the Greater Bay Area for Hong Kong policyholders (reported; check the arrangements and the licensing position).",
-      "**Language and format:** Give the Important Facts Statement and product documents in a language the customer reads, and record the choice. This is good practice; no specific rule was confirmed."
+      "**Language and format:** Give the Important Facts Statement and product documents in a language the customer reads, and record the choice. This is good practice; check whether a specific rule applies."
      ],
      "gates": [
       "**Residence list:** Decide which residence groups the app serves, block other residences by default, and get Legal sign-off on the list.",
       "**Mainland advice:** Obtain written mainland advice before showing any product to a mainland resident.",
       "**Statement build:** Build the Important Facts Statement step with the customer's acknowledgement and the record the IA requires (reported; check). Test the step for mainland visitors before release.",
       "**Non-resident due diligence:** Confirm the bank's customer due diligence and risk rating for non-resident customers under Cap. 615 Sch. 2, and document the approach.",
-      "**Complaints route:** Agree how a complaint from an overseas customer reaches the insurer and the bank, and check the Insurance Complaints Bureau's current scope (reported; check).",
+      "**Complaints route:** Agree how a complaint from an overseas customer reaches the insurer and the bank. Complaints about the bank's conduct as an agency go to the HKMA, and a personal policy-term or claims dispute with the insurer goes to the Insurance Complaints Bureau (reported; check its current scope).",
       "**Insurer agreement:** Each insurer confirms in writing that it accepts applications from the chosen residence groups and will provide the service the bank promises.",
       "**Service centre licensing:** If the bank uses Greater Bay Area service centres, Legal confirms the licensing and contract position first."
      ],
@@ -4329,7 +4331,7 @@
       "**Replacement:** IA Guideline GL27 covers replacement of long term policies, and IA interpretation notes of 22 September 2020 cover GL27 with GL25 (reported; check the current text). A suggested switch needs a comparison and proper disclosure.",
       "**Client money:** s.90(h) requires the assets of the policy holder to be promptly and properly accounted for. Refunds, surrender values and claim payments routed through the bank need tracking and reconciliation.",
       "**Surrender disclosure:** s.90(e) requires enough disclosure for the customer to be sufficiently informed before a surrender decision. Showing the surrender value and any charges before the request is processed is the practical way to meet it (good practice).",
-      "**Complaints routing:** Agree with each insurer where a complaint about a policy goes first, and check the Insurance Complaints Bureau's current scope and limit before writing the routing down."
+      "**Complaints routing:** Agree with each insurer where a complaint about a policy goes first, and check the Insurance Complaints Bureau's current scope and limit before writing the routing down. Complaints about the bank's own conduct as an agency go to the HKMA (reported)."
      ],
      "gates": [
       "**Task map:** Map each after-sale task as administrative, regulated or insurer-only, with the licence that covers it.",
@@ -4666,7 +4668,7 @@
     "instrument": "Insurance Ordinance (Cap. 41)",
     "ref": "s.64N(1)-(5)",
     "title": "Contracts of insurance made through persons other than licensed insurance intermediaries, etc.",
-    "summary": "An authorized insurer must not contract through, or accept a referral from, a person in Hong Kong unless that person is a licensed agency or licensed individual agent appointed by the insurer, a licensed broker company, or performs only clerical or administrative duties. Breach is an offence, and the policy holder may enforce or void the contract.",
+    "summary": "An authorized insurer must not contract through, or accept a referral from, a person in Hong Kong unless that person is a licensed agency or licensed individual agent appointed by the insurer, a licensed broker company, or performs only clerical or administrative duties. Breach is an offence (s.64N(5)). For a contract made through an unlicensed person in breach of s.64N(1), the policy holder may enforce it or treat it as void (s.64N(3)).",
     "counselNote": "The bank may sell or refer only through the routes s.64N allows. An unlicensed or unappointed bank puts both the insurer and the contract at risk.",
     "url": "https://www.elegislation.gov.hk/hk/cap41",
     "cap": "41",
@@ -4793,7 +4795,7 @@
    },
    {
     "term": "licensed insurance agency",
-    "definition": "A company licensed by the IA to act as an intermediary, which may act for an authorized insurer that has appointed it. Under s.64N, an insurer may contract through a licensed agency or licensed individual agent it has appointed, or a licensed broker company. Clerical or administrative roles are also allowed."
+    "definition": "A business licensed under Cap. 41 to carry on regulated activities as agent of one or more authorized insurers that appointed it (s.64G(3)(a), s.64U(1), (5)(b)). Under s.64N, an insurer may contract only through its own appointed agencies or agents, a licensed broker company, or a person doing clerical or administrative work."
    }
   ],
   "related": [
@@ -4830,7 +4832,7 @@
    "**Two layers of licence:** The bank holds an insurance agency or broker company licence. Its staff hold technical representative licences. Cap. 41 sets out the five licence types in s.64F.",
    "**Validity:** Agency, TR (agent), broker company and TR (broker) licences each run for three years from grant, unless the Insurance Authority (IA) sets another period (ss.64V, 64Z, 64ZB, 64ZD).",
    "**[[Responsible officer]]:** Every agency needs an IA-approved responsible officer who is a licensed TR (agent), or an applicant for that licence (s.64ZE(4)(a)).",
-   "**Limits on appointments:** A TR (agent) may hold only one agency licence (s.64L(1)). An agency may be appointed by no more than the prescribed number of insurers (s.64I(1); Cap. 41K, s.3).",
+   "**Limits on appointments:** A TR (agent) may act for only one agency at a time (s.64L(1)). An agency may be appointed by at most four insurers, no more than two of them for long term business (s.64I(1); Cap. 41K, r.3).",
    "**Notice duties:** New TR appointments need 14 days' prior notice (s.64Q(3)). Leavers and changes in particulars need notice within 14 days (ss.64R, 64P(3)). Changes in directors or controllers need notice within one month (s.64ZZD(1)).",
    "**HKMA role:** The IA has delegated its inspection and investigation powers over authorized institutions' insurance business to the [[Monetary Authority]], a delegation in place since 23 September 2019 (s.4G; reported in IA and HKMA releases). The IA can still act itself (s.4G(5)), and must consult the Monetary Authority before investigating or disciplining a bank (ss.64ZZH(2), 82(4), 84(4))."
   ],
@@ -4947,7 +4949,7 @@
     "heading": "Limits on personnel and appointments",
     "lede": "The Ordinance restricts how many insurers an agency can serve and how individuals can be shared between firms.",
     "points": [
-     "**Insurer limit:** An agency must not be appointed for more than the prescribed number of insurers (s.64I(1)). Cap. 41K, s.3 sets that at four, of which no more than two may be insurers authorized for long term business (text dated 19 March 2020).",
+     "**Insurer limit:** An agency must not be appointed for more than the prescribed number of insurers (s.64I(1)). Cap. 41K, r.3 sets that at four, of which no more than two may be insurers authorized for long term business (text dated 19 March 2020).",
      "**Insurer side:** An insurer that knows the agency is already at the limit must not appoint it (s.64I(3)). Breach can bring a fine of $1,000,000 and two years' imprisonment on indictment (s.64I(4)(a)).",
      "**Dual roles:** A proprietor, partner, or a director or employee who manages regulated activities cannot also be a partner or proprietor of another agency, an individual agent, a TR (agent) of another agency, a TR (broker), or a manager at another agency or broker company (s.64J(2)).",
      "**One agency per TR:** A TR (agent) must not be licensed for a second agency (s.64L(1)). The TR may sell only lines of business that the appointing agency is licensed for (s.64L(2)).",
@@ -5020,7 +5022,7 @@
      "**Scope:** An agency licence covers one or more lines of business specified in it (s.64U(4)). A TR (agent) licence is limited in the same way (s.64Y(2)).",
      "**Variation:** A licensed intermediary may apply to vary its lines of business (s.64S(1)). The IA must be satisfied the applicant remains fit and proper after the change (s.64S(4)), and must update the register (s.64S(7)).",
      "**Individuals follow the agency:** A TR (agent) must not sell in a line of business unless the appointing agency is also licensed for it (s.64L(2)).",
-     "**Long term and general classes:** The Ordinance refers to long term business for insurer limits (Cap. 41K, s.3). The class definitions should be checked against the current text before a licence application."
+     "**Long term and general classes:** The Ordinance refers to long term business for insurer limits (Cap. 41K, r.3). The class definitions should be checked against the current text before a licence application."
     ],
     "takeaway": "Before a new product line goes live, check that the agency and the TR are both licensed for it, and that the insurer is authorized for that class.",
     "visual": null
@@ -5102,7 +5104,7 @@
    {
     "kind": "subsidiary",
     "instrument": "Insurance (Maximum Number of Authorized Insurers) Rules (Cap. 41K)",
-    "ref": "Cap. 41K, s.3",
+    "ref": "Cap. 41K, r.3",
     "title": "Maximum number of authorized insurers",
     "summary": "A person may be appointed as a licensed person for a maximum of four authorized insurers, of which no more than two may be insurers authorized for long term business. The text is dated 19 March 2020.",
     "counselNote": "The text is dated 19 March 2020. Confirm the current number on the Cap. 41K amendment history and with the IA before planning a multi-insurer product shelf. Insurers in the same group count as one general and one long term insurer, or as one insurer if every appointment is limited to one line of business (Cap. 41K, r.5).",
@@ -5175,7 +5177,7 @@
   "checklist": [
    "**Confirm the entity route:** Decide whether the bank will be a licensed insurance agency, a broker company, or both, and record the reasoning against ss.64U and 64ZA.",
    "**Name the first responsible officer:** Identify a bank TR (agent) who can be approved under s.64ZE, and check the fit and proper file before filing.",
-   "**Secure insurer appointments first:** Obtain at least one insurer appointment before filing, as s.64U(5)(b) requires, and check the four-insurer limit under Cap. 41K, s.3.",
+   "**Secure insurer appointments first:** Obtain at least one insurer appointment before filing, as s.64U(5)(b) requires, and check the four-insurer limit under Cap. 41K, r.3.",
    "**Plan TR licensing for every seller:** Map each staff member who will sell insurance to a TR (agent) application, the IIQE papers for the relevant lines, and an appointment under s.64Y(3)(b).",
    "**Run a 14-day notice calendar:** Set up a workflow for s.64Q appointments, s.64R terminations and s.64P changes, with named owners.",
    "**Diarise renewals and officer succession:** Record every expiry, set renewal reminders 45 days before expiry under s.64ZV(3), and keep a back-up responsible officer.",
@@ -5417,7 +5419,7 @@
      "**Conflicts:** Under s.90(g), any conflict the intermediary cannot avoid must be disclosed. Remuneration and group links are the usual sources of conflict.",
      "**Remuneration:** For ILAS sold by banks, an HKMA circular of 22 April 2013 is reported to require written pre-sale disclosure of the monetary and non-monetary benefits the bank receives. Confirm the current text.",
      "**Benefit illustrations:** GL28 governs illustrations for long-term policies. Check its current text before the app shows projected values.",
-     "**Cooling-off:** GL29 is reported to give 21 calendar days from delivery of the policy or a Cooling-off Notice, whichever is earlier, to cancel with a premium refund. Some products are reported to carry 30 days.",
+     "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days, from delivery of the policy or a Cooling-off Notice, whichever is earlier, for certain types of life insurance policies (its para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself.",
      "**Gifts, rebates and replacement:** GL25 limits gifts for Class C products and sets conditions for long-term premium rebates. GL27 covers long-term policy replacement; check its current text before drafting replacement steps."
     ],
     "takeaway": "Put capacity, remuneration and the cancellation right on the first screens, not only in the terms."
@@ -5566,7 +5568,7 @@
     "instrument": "IA Guideline on Cooling-off Period (GL29)",
     "ref": "GL29",
     "title": "Cooling-off period",
-    "summary": "Gives a policy holder 21 calendar days from delivery of the policy or a Cooling-off Notice, whichever is earlier, to cancel and receive a premium refund. Applies to authorized insurers and licensed intermediaries; commenced 23 September 2019 (reported).",
+    "summary": "Gives a policy holder 21 calendar days from delivery of the policy or a Cooling-off Notice, whichever is earlier, to cancel and receive a premium refund, for certain types of life insurance policies (para 4.2). Applies to authorized insurers and licensed intermediaries.",
     "counselNote": "Build the cancellation option and refund into the post-sale flow. Some products are reported to carry 30 days. Check each product.",
     "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf",
     "confidence": "medium"
@@ -5608,7 +5610,7 @@
    },
    {
     "term": "Regulated activity",
-    "definition": "An insurance intermediary activity, such as advising on or arranging policies, that Cap. 41 regulates when a licensed intermediary carries it on. The s.90 duties depend on it."
+    "definition": "An act listed in Sch. 1A, Pt 1 (s.3A(a)): negotiating or arranging a contract of insurance, inviting or inducing a person to enter one or to make a material decision, or giving regulated advice. The s.90 duties depend on it."
    },
    {
     "term": "Best interests",
@@ -5632,7 +5634,7 @@
    },
    {
     "term": "Cooling-off period",
-    "definition": "A window in which the policy holder may cancel and receive a premium refund. GL29 sets 21 calendar days, subject to confirmation for each product."
+    "definition": "A window in which the policy holder may cancel and receive a premium refund. IA guideline GL29 sets 21 calendar days for certain types of life insurance policies."
    },
    {
     "term": "Code of conduct",
@@ -5785,7 +5787,7 @@
      "**Non-guaranteed benefits:** Part of the illustrated benefit depends on bonuses the insurer declares later. The customer may receive less than the illustration shows.",
      "**Benefit illustrations:** GL28 governs benefit illustrations for long term policies. A 2025 IA practice note on illustration rate caps supplements it, and a secondary source reports that the caps took effect on 1 July 2025.",
      "**Fulfilment ratio:** This measures how far declared bonuses match the amounts illustrated at sale, by product series. Obtain the insurer's calculation method and the IA material it relies on, and confirm it before use.",
-     "**Revised GL16 (unconfirmed):** A law-firm item reports a revised IA guideline issued on 6 February 2026. It is not confirmed that this is GL16, and its content is not confirmed. Check the IA text and commencement before relying on any disclosure duty.",
+     "**Revised GL16:** The IA is reported to have revised GL16 (underwriting long term business other than class C) on 6 February 2026, effective 31 March 2026 (reported; check the IA text). Confirm commencement before relying on any disclosure duty.",
      "**Customer expectations:** Check the IA's current position on how far customers may rely on non-guaranteed bonuses before describing them.",
      "**Asset ring-fence:** Under s.23(1), assets of a fund kept for part of the business may only be applied for that part of the business. Blurring participating assets with the bank's own funds is a risk to avoid."
     ],
@@ -5821,7 +5823,7 @@
     "points": [
      "**Risk profiling:** Use a financial needs analysis under GL30 and a risk profile before recommending a linked or participating product. The HKMA's 2022 guidance on protection linked plans refers to these tools.",
      "**Concentration:** Limit premium financing and single-product concentration for each customer. Flag repeat purchases for review.",
-     "**Older customers:** Check age, income and retirement horizon. No HKMA circular on vulnerable customers was confirmed, so the bank should set its own test.",
+     "**Older customers:** Check age, income and retirement horizon. If no HKMA circular on vulnerable customers applies, the bank should set its own test.",
      "**Exit terms:** Explain surrender values, early termination charges and any loss of capital in plain language, at the point of sale.",
      "**Post-sale follow-up:** Use confirmation calls or digital checks after sale. Separately, the HKMA's December 2024 circular allows alternative digital measures in place of audio recording at sale, subject to conditions. It excludes protection linked plans."
     ],
@@ -5946,8 +5948,8 @@
     "kind": "guideline",
     "instrument": "IA Guideline GL16",
     "ref": "GL16",
-    "title": "Underwriting long-term insurance business (other than Class C)",
-    "summary": "A revised IA guideline is reported as issued on 6 February 2026. It is not confirmed as GL16, and its content is not confirmed.",
+    "title": "Underwriting long term business other than class C (GL16, revised 2026; reported)",
+    "summary": "The IA is reported to have revised GL16 (underwriting long term business other than class C) on 6 February 2026, effective 31 March 2026 (reported; check the IA text).",
     "counselNote": "Confirm the revised text and its commencement before relying on the disclosure duties.",
     "confidence": "low"
    },
@@ -5971,24 +5973,23 @@
    },
    {
     "kind": "circular",
-    "instrument": "HKMA circular of 4 March 2022 (ref. 20220304-1-EN)",
-    "ref": "4 March 2022",
-    "title": "Long-term insurance distribution by authorized institutions",
-    "summary": "Reported to require an authorized institution planning to distribute any ILAS product, including a PLP, to notify and discuss the product with the HKMA before launch.",
-    "counselNote": "Make prior notice a launch gate. Check that the circular has not been superseded.",
-    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20220304-1-EN/20220304-1-EN.pdf",
+    "instrument": "HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023)",
+    "ref": "8 July 2022; 30 August 2023",
+    "title": "Discussion with the HKMA before an ILAS launch",
+    "summary": "HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars).",
+    "counselNote": "Make prior discussion with the HKMA a launch gate. Check the current text of both circulars.",
     "confidence": "medium"
    }
   ],
   "checklist": [
    "Confirm the SFC authorization status of each ILAS (s.104 scheme, s.105 documents) before any app copy goes live.",
    "Classify each product as class C, participating, annuity or other, and map it to the correct fund and disclosure rules.",
-   "Give the HKMA prior notice required for any ILAS or PLP under the 4 March 2022 circular, and record the date.",
+   "Discuss any ILAS or PLP launch with the HKMA beforehand, as the 8 July 2022 and 30 August 2023 HKMA circulars are reported to expect (reported; check both circulars), and record the date.",
    "Check the current GL28 text and rate caps before publishing any benefit illustration.",
    "Show the fulfilment ratio history for each participating series in the sales journey, where the insurer discloses it.",
    "Separate the premium financing journey from the insurance application, and log each s.90(g) conflict disclosure.",
    "Confirm QDAP certification, the deduction cap and the year-of-assessment rules against the IA and IRD sources.",
-   "Set a vulnerable-customer and concentration test for the bank's own long term products, since no HKMA rule was confirmed."
+   "Set a vulnerable-customer and concentration test for the bank's own long term products, since the HKMA's current position on vulnerable customers should be checked."
   ],
   "itAngle": [
    "**Product catalogue:** Tag every product with its class, SFC status, IA certification and fund type. Filter the app by these tags, not by marketing name.",
@@ -5998,7 +5999,7 @@
   ],
   "bankNotes": [
    "**Bank as lender and seller:** A bank that lends to buy a policy and then sells the policy has a built-in conflict. s.90(f) and (g) are the anchors, and HKMA circulars test how the bank manages it.",
-   "**HKMA prior notice:** Under the 4 March 2022 circular, as reported, an authorized institution planning to distribute any ILAS product, including a PLP, should notify and discuss it with the HKMA before launch.",
+   "**HKMA prior notice:** HKMA circulars on selling protection linked plans (8 July 2022 and 30 August 2023) are reported to expect a bank to discuss an ILAS launch with the HKMA beforehand (reported; check both circulars).",
    "**Investment corner and recording:** Secondary sources report HKMA circulars of 2011 and 2013 on investment corners and pre-sale disclosure for ILAS. Later circulars of 2019 and December 2024 set recording rules. Check each current version.",
    "**Bank-linked agency:** If the bank sells through its own appointed agency, that agency must be licensed. The bank's controls should match the duties the licensed firm owes under s.90.",
    "**HKMA delegation:** The IA has delegated its inspection and investigation powers over authorized institutions' insurance business to the Monetary Authority (HKMA), a delegation in place since 23 September 2019 (s.4G; reported in IA and HKMA releases), and the IA can still act itself (s.4G(5)). The IA must consult the Monetary Authority before investigating or disciplining a bank (ss.64ZZH(2), 82(4), 84(4))."
@@ -6007,7 +6008,7 @@
    "**Treating ILAS as an ordinary fund:** An ILAS is both a Cap. 41 product and an SFC-authorized scheme. Skipping either approval creates offence risk under SFO s.103, per an SFC FAQ summary.",
    "**Using the highest illustration:** A projection that assumes the top bonus rate misleads the customer. Use approved assumptions and state that bonuses are not guaranteed.",
    "**Assuming the QDAP deduction:** Certification does not guarantee the customer's deduction, which depends on the customer's own tax position.",
-   "**Treating 2026 items as settled:** The August 2026 HKMA letter, the 20 August 2026 IA circular and the revised GL16 are reported but not confirmed. Check the current texts before relying on them."
+   "**Treating 2026 items as settled:** The August 2026 HKMA letter, the 20 August 2026 IA circular and the revised GL16 are reported; check the current texts before relying on them."
   ],
   "glossary": [
    {
@@ -6088,7 +6089,7 @@
   "keyPoints": [
    "**Same duties, new channel:** The app does not change the conduct rules. Section 90 binds any licensed intermediary carrying on a regulated activity. Section 91 adds controls and duties for the licensed agency and its responsible officer.",
    "**Advice by algorithm:** Automated needs analysis is still advice by the licensed intermediary. Responsibility stays with the agency and its [[Responsible officer]]. Software cannot take it over.",
-   "**Electronic contracts:** Where a rule of law requires a signature, the Electronic Transactions Ordinance accepts an e-signature that is reliable, appropriate and consented to by the other party (s.6(1)). IA guidance on internet insurance activities (GL8) also applies.",
+   "**Electronic contracts:** Where a rule of law requires a signature, the Electronic Transactions Ordinance accepts an e-signature that is reliable, appropriate and consented to by the other party (s.6(1)). IA guidance on internet insurance activities (GL8), reported to apply to these sales, should be read in full before design freeze.",
    "**Personal data:** Collection notices, purpose limits and consent for [[Direct marketing]] under PDPO Part 6A apply to every data flow, including sharing with the insurer partner.",
    "**Records and inspection:** The IA can inspect and copy business records, including records held in information systems. Each journey version must be retrievable.",
    "**Counsel's role:** Map each app step to a legal duty, a control and an owner, then fix the split of duties with the insurer before launch."
@@ -6159,7 +6160,7 @@
      "**Distribution route:** An authorized insurer must not contract through another person unless that person is a licensed insurance agency or licensed individual insurance agent appointed by the insurer, a licensed insurance broker company, or only does clerical or administrative duties (s.64N(1)(a), (b)).",
      "**Internet guidance:** The IA's Guideline on the Use of Internet for Insurance Activities (GL8) is reported to cover insurers, intermediaries and other groups doing insurance business wholly or partly online. [Reported; read the full text.]",
      "**Accurate materials:** GL8 is reported to require online sales materials and illustrations to be accurate and kept up to date.",
-     "**Remote video sales:** The IA's circular of 5 August 2020 set terms for video-conference sales of long-term policies under the InsurTech sandbox. The HKMA's December 2024 circular added audio alternatives for video sales of investment and annuity products. Current IA status is not confirmed.",
+     "**Remote video sales:** The IA's circular of 5 August 2020 set terms for video-conference sales of long-term policies under the InsurTech sandbox. The HKMA's December 2024 circular added audio alternatives for video sales of investment and annuity products. Check the current IA status.",
      "**Electronic signatures:** Where a rule of law requires a signature, ETO s.6(1) accepts an electronic signature if the method is reliable and appropriate and the other party consents (s.6(1)(c) to (e)). The section does not apply where a government entity is a party (s.6(1)(b)). Schedule 1 excludes wills, trusts, powers of attorney and some other documents, but not insurance contracts."
     ],
     "takeaway": "Map every online step to a consent, a signature method and a record of what the customer saw."
@@ -6230,7 +6231,7 @@
     "lede": "The insurer and the bank each carry cyber duties, and the insurance journey runs across both systems.",
     "points": [
      "**Insurer duties:** The IA's Guideline on Cybersecurity (GL20), issued under s.133(1), was revised with effect from 1 January 2025 (reported; check the current text). It applies to authorized insurers. It is reported to require notice of reportable incidents to the IA within 72 hours of detection.",
-     "**Scope gap:** It is not confirmed that GL20 binds licensed intermediaries directly. Confirm the bank's own duties before assuming the insurer's controls cover the app.",
+     "**Scope gap:** Check whether GL20 binds licensed intermediaries directly. Confirm the bank's own duties before assuming the insurer's controls cover the app.",
      "**Bank's framework:** The bank already works under HKMA technology risk and outsourcing requirements. Map the insurance journey and each insurer interface into them rather than building a parallel regime.",
      "**Interfaces:** Each quote or policy API needs an agreed data map, access controls and logging. The insurer and the bank should each own the controls on their side.",
      "**Incident clocks:** Notify each regulator under its own rules and timing. Do not assume one clock covers both.",
@@ -6259,7 +6260,7 @@
      "**Inspection powers:** An IA inspector may enter business premises, inspect and copy business records, and require answers about them (s.64ZZF(2), (3)). This applies to licensed insurance intermediaries.",
      "**Information systems:** Where a record required under s.64ZZF or s.64ZZH is recorded in a form that is not legible, the IA may require a legible reproduction, including one from an information system (s.64ZZS). App logs and databases are within reach.",
      "**What to keep:** Each journey version, the disclosures shown, consents, e-signature evidence and any calls or chats.",
-     "**Retention period:** No statutory retention period for agencies was confirmed. Agree the bank's period with the insurer and check the IA's current requirements.",
+     "**Retention period:** AMLO Sch. 2, s.20 requires at least five years for CDD and transaction records of the agency's in-scope transactions (stage 10). Check whether the IA sets a general period for conduct records, and agree the bank's period with the insurer.",
      "**Replay test:** Be able to reproduce the screen a customer saw on a given date. This is the practical test of s.64ZZS and of the ETO reliability test."
     ],
     "takeaway": "Build the evidence trail into the product, not into an after-the-fact file.",
@@ -6472,7 +6473,7 @@
   "glossary": [
    {
     "term": "Responsible officer",
-    "definition": "The individual a licensed insurance agency appoints to oversee its compliance controls. Under s.91(2) the officer must use best endeavours to ensure that the controls exist and are observed."
+    "definition": "An individual approved by the IA under s.64ZE as the agency's responsible officer, who must use best endeavours to ensure the agency's conduct controls exist and are observed (s.91(2))."
    },
    {
     "term": "Regulated activity",
@@ -6873,7 +6874,7 @@
    "**One customer, two regimes:** A customer may hold a bank account and a policy. Each relationship needs its own CDD, but the customer file can be shared within the bank.",
    "**Shared processes:** Plan one CDD process and one suspicion review for both, so the same red flags are not reviewed twice.",
    "**Who files:** The duty falls on the person who knows or suspects, and an employee may report through the bank's or insurer's internal procedure (OSCO s.25A(4)). Agree in writing which entity files, and how the other is informed without breaching s.25A(5).",
-   "**Regulators:** The HKMA supervises AML for banking business and the IA supervises AML for insurance. Keep records for both ready for inspection."
+   "**Regulators:** The Monetary Authority is the relevant authority for the bank as an authorized institution. Where the bank acts as a licensed insurance agency, the IA is the relevant authority for those transactions (AMLO Sch. 1). Keep records for both ready for inspection."
   ],
   "pitfalls": [
    "**Assuming bank CDD covers the policy:** Beneficiary steps under Sch. 2, s.11 apply to the policy even where the holder is already a bank customer.",
@@ -7025,7 +7026,7 @@
       {
        "label": "Investigation",
        "value": "s.64ZZH",
-       "note": "Needs reasonable cause and MA consultation"
+       "note": "Reasonable cause needed; consult the MA if a bank, its staff or agent is involved (s.64ZZH(2))."
       },
       {
        "label": "Warrant",
@@ -7044,7 +7045,7 @@
      "**Consultation:** Before directing its staff or appointing an investigator on an authorized institution, or on its employee or agent, the IA must consult the MA (s.64ZZH(2)).",
      "**Investigator powers:** An investigator may require documents, explanations, attendance for questions and written answers, and may demand customer information only on the conditions in s.64ZZJ(2) (s.64ZZH(6)).",
      "**Warrants:** A magistrate may authorize entry, by force if necessary, within 7 days of the warrant, to search for and seize relevant records (s.64ZZP(1)-(2)).",
-     "**Self-incrimination:** If a person claims before answering that the answer might incriminate them, the answer is not admissible in most criminal proceedings. This does not cover offences under s.64ZZL(1)-(5), Part V of the Crimes Ordinance (Cap. 200), or perjury (s.64ZZM(2)(b), (3)). Incrimination is no excuse for refusing to comply (s.64ZZL(6))."
+     "**Self-incrimination:** If a person claims before answering that the answer might incriminate them, the answer is not admissible in most criminal proceedings. This does not cover offences under s.64ZZL(1)-(5), Part V of the Crimes Ordinance (Cap. 200), or perjury (s.64ZZM(2), (3)). Incrimination is no excuse for refusing to comply (s.64ZZL(6))."
     ]
    },
    {
@@ -7386,8 +7387,8 @@
   "oneLiner": "Customers reach the bank first, then the insurer, then industry bodies and the courts, and protection after an insurer fails is thinner than many customers assume.",
   "keyPoints": [
    "**Own the complaint:** The bank should log, route and track every insurance complaint it receives, even where the insurer or agency makes the final decision.",
-   "**Escalation path:** Personal policy disputes usually run from the seller to the insurer, then to the Insurance Complaints Bureau (ICB), and then to the courts.",
-   "**Cooling-off:** A short free-look period for new life policies comes from an Insurance Authority (IA) guideline, GL29, not from the Ordinance itself. Check its exemptions before relying on it.",
+   "**Escalation path:** Personal policy disputes usually run from the seller to the insurer, then to the Insurance Complaints Bureau (ICB) for policy-term or claims disputes, or to the Financial Dispute Resolution Centre (FDRC) for bank selling-process disputes (both reported), and then to the courts.",
+   "**Cooling-off:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). It is a guideline under s.133, not law in itself. For general cover, check each policy's own cancellation terms.",
    "**Insurer failure:** Long term assets sit in ring-fenced funds (s.21B), and a liquidator must carry on long term business with a view to a going concern transfer, unless the Court orders otherwise (s.46(2)). Most life and general policies have no compensation scheme in force.",
    "**Void contracts:** A policy sold through a route the Ordinance does not allow can be voided at the policy holder's option, with premium refunded (s.64N(3)–(4)).",
    "**Counsel's role:** Map each complaint route into the agency and partner agreements, and keep records that can be produced to the IA, the HKMA or the ICB."
@@ -7424,15 +7425,15 @@
     "points": [
      "**Code of Conduct:** The Code of Conduct for Licensed Insurance Agents is published under s.95 and sets practice standards for licensed intermediaries. Breach does not by itself create liability (s.95(5)), but it can count against fitness to stay licensed (s.95(6)), and in proceedings under the Ordinance a court must take relevant provisions into account (s.95(7)).",
      "**Who answers:** Where the bank sells as an appointed agent, s.68 makes the insurer answerable for the agent's dealings on issue or related business, even outside authority. Complaint handling may fall within that scope.",
-     "**Agency route:** If a licensed insurance agency or broker company sells the policy, that firm holds the licence and the conduct duties. The agreement should say who answers which complaint and within what time.",
+     "**Agency route:** If a licensed insurance agency or broker company sells the policy, that firm holds the licence and the conduct duties, and the agreement should say who answers which complaint and within what time. Where the bank itself is the agent, a regulatory complaint about its conduct goes to the HKMA (reported).",
      "**Records:** A dated log of each complaint, product, outcome and reason is the first thing a reviewer will look at to judge the handling.",
-     "**Timing gap:** This stage does not confirm a regulatory response deadline for insurer complaints. Set internal targets, and check the Code text for any fixed period before publishing one."
+     "**Timing gap:** No regulatory response deadline for insurer complaints is stated here. Set internal targets, and check the Code text for any fixed period before publishing one."
     ],
     "takeaway": "Agree in writing who answers each complaint type, and keep one log that the bank, the agency and the insurer can all see."
    },
    {
     "heading": "The ICB and the FDRC",
-    "lede": "Two bodies handle most disputes after the firm has answered, but their remits differ and the sources are not all current.",
+    "lede": "Two bodies handle most disputes after the firm has answered, but their remits differ and some figures are dated.",
     "points": [
      "**ICB limit:** The ICB announced an increase in its monetary limit from HK$1.2m to HK$1.5m, effective 1 January 2025. Older material gives HK$1m, so confirm the current figure with the ICB before quoting it.",
      "**ICB scope:** Reported exclusions include industrial, commercial and third-party insurance, and matters already in legal proceedings or arbitration.",
@@ -7464,8 +7465,8 @@
     "heading": "Cooling-off and cancellation",
     "lede": "A short free-look period is the customer's easiest exit, and it comes from guidance rather than from the Ordinance.",
     "points": [
-     "**GL29:** The IA Guideline on Cooling-off Period (GL29) is reported to give new life policy holders 21 calendar days to cancel for a refund of premium. Some product sources say 30 days, so check GL29 itself before quoting either figure.",
-     "**Scope:** GL29 is reported to exclude some policy types, including group policies. Read its exemptions before applying the period to a product.",
+     "**GL29:** IA guideline GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies (its para 4.2 lists them; check the current text). Some product sources say 30 days, so check GL29 itself before quoting either figure.",
+     "**Scope:** GL29 covers only the life policy types its para 4.2 lists (reported to exclude group policies). For general cover, check each policy's own cancellation terms before applying the period.",
      "**Voidable contracts:** Under s.64N(3)–(4), a policy holder may choose to enforce or void a contract made in breach of the intermediary rule, and recover premium if it is voided before expiry. This is a separate route from cooling-off.",
      "**Sales practice:** A customer who did not understand the cancellation right is a conduct issue for the bank, to be handled under stage 7."
     ],
@@ -7478,8 +7479,8 @@
      "**Ring-fencing:** s.21B requires separate funds for class C, G and H business and for specified business. Under s.23(1), assets in a fund may be applied only for that part of the business.",
      "**Liquidation:** Under s.46(2), a liquidator carries on the long term business with a view to a going concern transfer, but may not enter new contracts. The court may reduce contracts (s.46(5)).",
      "**Motor and employees' compensation:** Two industry schemes cover insurer failure in compulsory classes. The Motor Insurers' Bureau pays victims where the at-fault driver is uninsured or untraceable, or the insurer has failed (reported). The Employees Compensation Insurer Insolvency Bureau, set up by the industry in 2003, runs a scheme in force since 1 April 2004 that meets employees' compensation claims when an insurer becomes insolvent; it took over Target Insurance's employees' compensation policies after the winding-up petition of 15 July 2022.",
-     "**Proposed scheme:** The government published conclusions on 28 December 2023 for a statutory Policyholders' Protection Scheme. Reported payout options were HK$1m, HK$2m or HK$4m per policy. No enacted law or 2025 or 2026 timetable was confirmed.",
-     "**Gap:** No equivalent scheme is confirmed in force for life or most general policies, so disclosure should say so rather than imply cover."
+     "**Proposed scheme:** The government published conclusions on 28 December 2023 for a statutory Policyholders' Protection Scheme. Reported payout options were HK$1m, HK$2m or HK$4m per policy. No enacted law or 2025 or 2026 timetable is reported.",
+     "**Gap:** No equivalent scheme is reported in force for life or most general policies, so disclosure should say so rather than imply cover."
     ],
     "takeaway": "Tell customers which protection applies to their product, and do not describe the proposed scheme as in force.",
     "visual": {
@@ -7503,7 +7504,7 @@
       {
        "label": "Policyholders' Protection Scheme",
        "value": "Proposed",
-       "note": "Not in force on the sources found",
+       "note": "Not in force",
        "soft": true
       }
      ]
@@ -7612,8 +7613,8 @@
     "instrument": "Code of Conduct for Licensed Insurance Agents (IA)",
     "ref": "Code of Conduct for Licensed Insurance Agents",
     "title": "Code of Conduct for Licensed Insurance Agents",
-    "summary": "Issued under s.95, with a first edition effective 23 September 2019. It sets practice standards for licensed agents. The complaint-handling paragraphs need checking against the current text, and the IA may handle conduct complaints about intermediaries. Complaints about banks acting as intermediaries are reported to be referred to the HKMA.",
-    "counselNote": "Read the complaint section of the current Code before writing the bank's procedure. The HKMA referral point is reported only and should be confirmed with the HKMA.",
+    "summary": "Issued under s.95, with a first edition effective 23 September 2019. It sets practice standards for licensed agents. The complaint-handling paragraphs need checking against the current text, and the IA may handle conduct complaints about intermediaries. Complaints about banks acting as intermediaries are reported to go to the HKMA under the 2019 IA-HKMA memorandum.",
+    "counselNote": "Read the complaint section of the current Code before writing the bank's procedure. The HKMA routing is reported; check it with the HKMA.",
     "url": "https://www.ia.org.hk/en/legislative_framework/files/Agent_Code_Eng.pdf",
     "confidence": "medium"
    },
@@ -7622,8 +7623,8 @@
     "instrument": "IA Guideline on Cooling-off Period (GL29)",
     "ref": "GL29",
     "title": "Guideline on Cooling-off Period",
-    "summary": "Reported to give policy holders of new life policies 21 calendar days to cancel and receive a premium refund, subject to exemptions such as group policies. Some product sources cite 30 days. The guideline is not an Ordinance provision.",
-    "counselNote": "Build the period into the app from the GL29 text, not from product summaries. Confirm the exemptions. The period runs 21 calendar days from delivery of the policy or a Cooling-off Notice, whichever is earlier (reported; check GL29).",
+    "summary": "GL29 gives a cooling-off period of 21 calendar days for certain types of life insurance policies, to cancel for a premium refund (its para 4.2 lists them; check the current text). Some product sources cite 30 days. It is a guideline under s.133, not law in itself.",
+    "counselNote": "Build the period into the app from the GL29 text, not from product summaries. For general cover, check each policy's own cancellation terms. The period runs 21 calendar days from delivery of the policy or a Cooling-off Notice, whichever is earlier (reported; check GL29).",
     "url": "https://www.ia.org.hk/en/legislative_framework/files/GL29.pdf",
     "confidence": "medium"
    },
@@ -7642,7 +7643,7 @@
     "instrument": "Financial Dispute Resolution Centre (FDRC) terms of reference",
     "ref": "FDRS jurisdiction",
     "title": "Financial Dispute Resolution Centre: intake for bank-related disputes",
-    "summary": "The FDRC is reported to handle disputes with a bank about the selling process of an insurance product, while disputes over policy terms go to the ICB. The sources found are from 2014 to 2017, and reform proposals to widen the scheme were reported but not confirmed as adopted.",
+    "summary": "The FDRC is reported to handle disputes with a bank about the selling process of an insurance product, while disputes over policy terms go to the ICB. Its published material dates from 2014 to 2017, and reform proposals to widen the scheme are reported (check their status).",
     "counselNote": "Confirm the current terms of reference before telling a customer that the FDRC covers a bank-sold policy. Bank disclosures say a bank must join the FDRC scheme for selling-process disputes. Confirm this against the FDRC's own terms before relying on it.",
     "confidence": "low"
    },
@@ -7651,7 +7652,7 @@
     "instrument": "Government policy announcement (proposed)",
     "ref": "Policyholders' Protection Scheme (proposed)",
     "title": "Policyholders' Protection Scheme (proposed)",
-    "summary": "The government published consultation conclusions on 28 December 2023 for a statutory scheme to protect policy holders when an insurer fails. The December 2022 consultation proposed per-policy payout options of HK$1m, HK$2m or HK$4m (reported). Check the final design and its legislative status. No enacted law or timetable was confirmed for 2025 or 2026.",
+    "summary": "The government published consultation conclusions on 28 December 2023 for a statutory scheme to protect policy holders when an insurer fails. The December 2022 consultation proposed per-policy payout options of HK$1m, HK$2m or HK$4m (reported). Check the final design and its legislative status. No enacted law or timetable for 2025 or 2026 is reported.",
     "counselNote": "Describe the scheme only as proposed. Check its status with the Financial Services and the Treasury Bureau and the IA before any customer communication refers to it.",
     "url": "https://www.info.gov.hk/gia/general/202312/28/P2023122800437.htm",
     "confidence": "low"
@@ -7676,14 +7677,14 @@
   "bankNotes": [
    "**Bank owns the relationship:** Customers expect the bank to take their complaint, even where the insurer decides the claim. Route it quickly and tell the customer who makes the decision.",
    "**Agent position:** Where the bank is an appointed agent, s.68 makes the insurer answerable for the bank's dealings, which gives both parties a reason to align complaint handling.",
-   "**HKMA referral:** Under the HKMA-IA MoU of 19 July 2019, complaints about banks acting as licensed insurance agencies are handled by the HKMA, and the IA refers them there (reported). Confirm the current routing with the HKMA.",
+   "**Two complaint tracks (reported):** A regulatory complaint about the bank's conduct as an agency goes to the HKMA under the 2019 IA-HKMA memorandum. A money claim over the sale goes to the FDRC (reported from bank disclosures), and a personal policy-term or claims dispute to the ICB. Confirm the routing with both bodies.",
    "**Partner terms:** Put complaint cooperation, data sharing and cost sharing into the agency or insurer agreement, and check the data terms against stage 9."
   ],
   "pitfalls": [
    "**Quoting a stale ICB limit:** Sources differ on the figure, so publish only the current limit from the ICB.",
    "**Treating the Appeals Tribunal as a complaints route:** It reviews specified IA decisions, not customer claims against insurers or agents.",
    "**Assuming a protection scheme exists:** The motor and employees' compensation arrangements are the only ones found in force, and the Policyholders' Protection Scheme is proposed only.",
-   "**Assuming one cooling-off period:** Sources disagree between 21 and 30 days, and exemptions vary, so take the period from GL29 for each product."
+   "**Assuming one cooling-off period:** Sources disagree between 21 and 30 days, and exemptions vary, so take the period from GL29 for each life product and check each general policy's own terms."
   ],
   "glossary": [
    {
@@ -7712,7 +7713,7 @@
    },
    {
     "term": "Policyholders' Protection Scheme",
-    "definition": "Proposed statutory scheme to protect policy holders when an insurer fails. Announced by government in December 2023 and not confirmed as in force."
+    "definition": "Proposed statutory scheme to protect policy holders when an insurer fails. Announced by government in December 2023 and not reported as in force."
    },
    {
     "term": "Motor Insurers' Bureau",
