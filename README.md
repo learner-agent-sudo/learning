@@ -1,8 +1,8 @@
 # Learning
 
 A personal study site: interactive notes on deals, privacy, and Hong Kong
-financial regulation. Static Next.js site (no backend), published on GitHub
-Pages by `.github/workflows/deploy-pages.yml` on every push to the default
+and Canadian financial regulation. Static Next.js site (no backend),
+published on GitHub Pages by `.github/workflows/deploy-pages.yml` on every push to the default
 branch.
 
 ## Topics
@@ -14,6 +14,7 @@ branch.
 | HK banking regulation — Banking Ordinance (Cap. 155), HKMA | `/hk-banking/` | Live |
 | HK securities regulation — SFO (Cap. 571), SFC | `/hk-securities/` | Live |
 | HK insurance regulation — Insurance Ordinance (Cap. 41), IA | `/hk-insurance/` | Live |
+| Canadian banking regulation — Bank Act (S.C. 1991, c. 46), OSFI | `/ca-banking/` | Live |
 
 The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
 
@@ -27,7 +28,7 @@ sections (the numbered notes, or the parts of a tool such as the vendor kit),
 with the section being read highlighted; any stage or tab can be unfolded to
 jump straight to one of its sections. Each module's outline is built from its
 data (`lib/bankingOutline.ts`, `lib/securitiesOutline.ts`,
-`lib/insuranceOutline.ts`, `lib/mnaOutline.ts`). Stage
+`lib/insuranceOutline.ts`, `lib/caBankingOutline.ts`, `lib/mnaOutline.ts`). Stage
 notes are bullet points: the short version first, then the detail under
 headings, with a bold lead-in on each bullet, a "bottom line" where a section
 has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
@@ -182,6 +183,36 @@ AML/CFT, supervision and redress. Content lives in
 `data/insurance/stages.json`; statute cards carry the official text of the
 Insurance Ordinance and four of its subsidiary instruments (levy, appointing
 insurers, broker companies).
+
+## Canadian banking regulation
+
+Thirteen stages through the federal rules for a bank in Canada, for the same
+reader as the HK volumes, with the weight on vendors and third parties.
+Canada has no separate licence for a digital bank: it is a bank under the
+Bank Act, supervised by OSFI. Stages 5 to 8 ("Vendors & third parties")
+cover OSFI Guideline B-10 (third-party risk), technology, cyber and
+operational resilience (B-13, E-21 and OSFI's 24-hour incident reporting),
+data, privacy and records (Bank Act ss.238-245, PIPEDA, Quebec), and partners
+who deal with customers for the bank (Bank Act s.627.15, CDIC's disclosure
+by-law, PCMLTFR agents, anti-spam and contest law). Stage 5 carries the
+**vendor-contract kit** in the same form as the HK one: 33 clauses with
+sources, legal force and a negotiation playbook with model wording, the
+banking addendum builder, a SaaS terms matrix against B-10 and the Bank Act,
+and a **crosswalk from the Hong Kong kit** that shows which HKMA-driven
+clauses Canada still needs (and on what source), which it puts in statute,
+which it softens or drops, and what it adds. Stage 5 also has a **Risk &
+criticality** screen for one arrangement under B-10, with due diligence by
+area, and stage 6 the incident clocks for a critical vendor's incident
+(OSFI, the Privacy Commissioner, individuals, Quebec's CAI, Payments Canada,
+and the Critical Cyber Systems Protection Act once in force). Content lives
+in `data/ca-banking/stages.json`. Statute cards carry the text of the Bank
+Act, PIPEDA, the PCMLTFA and its regulations, the CDIC Act and by-laws and
+other federal instruments from the Justice Laws consolidated XML
+(`scripts/extract_justice.py`, refreshed weekly by
+`.github/workflows/refresh-caleg.yml` into `data/caleg/`); the extracts are
+not the official version and link to it. The shared vendor tools read the
+volume's storage prefix and labels from `components/banking/ModuleContext.tsx`
+and the kit data, so the HK pages are unchanged.
 
 ## Privacy — DataGuard
 

@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import { ArrowRight, ChartLine, Handshake, Landmark, Lock, Umbrella, type LucideIcon } from 'lucide-react';
+import { ArrowRight, ChartLine, Handshake, Landmark, Leaf, Lock, Umbrella, type LucideIcon } from 'lucide-react';
 import { STAGES } from '@/lib/workflow';
 import { BANKING_STAGES } from '@/lib/banking';
 import { SECURITIES_STAGES } from '@/lib/securities';
 import { INSURANCE_STAGES } from '@/lib/insurance';
+import { CA_STAGES } from '@/lib/caBanking';
 import { TONES, toneVars, type Tone } from '@/lib/theme';
 import { ContinueReading, ModuleInfo, VolumeProgress } from '@/components/hub/StudyProgress';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -100,6 +101,23 @@ const TOPICS: Topic[] = [
     href: '/hk-insurance/',
     module: 'hk-insurance',
     stageIds: INSURANCE_STAGES.map((s) => s.id),
+  },
+  {
+    title: 'Canadian banking regulation',
+    scope: 'Bank Act (S.C. 1991, c. 46) · OSFI',
+    description:
+      'The federal rulebook for a digital bank in Canada, weighted to vendors and partners: the contract clauses OSFI and the Bank Act need, set against Hong Kong.',
+    status: 'live',
+    icon: Leaf,
+    tone: TONES.brick,
+    meta: [
+      `${CA_STAGES.length} stages`,
+      `${CA_STAGES.reduce((n, s) => n + (s.vendorKit?.terms.length ?? 0), 0)} vendor clauses`,
+      `${CA_STAGES.reduce((n, s) => n + s.checklist.length, 0)} checklist items`,
+    ],
+    href: '/ca-banking/',
+    module: 'ca-banking',
+    stageIds: CA_STAGES.map((s) => s.id),
   },
 ];
 
@@ -200,6 +218,13 @@ const MODULES: ModuleInfo[] = [
     tone: TONES.bronze,
     stages: INSURANCE_STAGES.map(({ id, index, title }) => ({ id, index, title })),
   },
+  {
+    module: 'ca-banking',
+    title: 'Canadian banking',
+    href: '/ca-banking/',
+    tone: TONES.brick,
+    stages: CA_STAGES.map(({ id, index, title }) => ({ id, index, title })),
+  },
   { module: 'mna', title: 'M&A', href: '/mna/', tone: TONES.navy, stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
 ];
 
@@ -229,7 +254,7 @@ export default function HomePage() {
           className="mt-5 max-w-2xl animate-rise font-serif text-xl leading-snug text-ink/75 sm:text-2xl"
           style={{ animationDelay: '120ms' }}
         >
-          Deals, privacy and Hong Kong financial regulation, broken into stages you can work through one at a
+          Deals, privacy, and Hong Kong and Canadian financial regulation, broken into stages you can work through one at a
           time: key points first, then the detail, the law and a checklist.
         </p>
         <ContinueReading modules={MODULES} />
