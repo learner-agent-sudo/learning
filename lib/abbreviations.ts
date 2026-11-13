@@ -4,6 +4,8 @@ import data from '@/data/abbreviations.json';
 export type AbbrDict = Record<string, string>;
 
 export const REGULATION_ABBR: AbbrDict = data.regulation;
+// The Canadian volume: the shared entries, plus Canadian ones (which win where the meaning differs).
+export const CA_ABBR: AbbrDict = { ...data.regulation, ...data.caRegulation };
 export const MNA_ABBR: AbbrDict = data.mna;
 
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

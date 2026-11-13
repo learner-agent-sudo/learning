@@ -6,6 +6,7 @@ import { STRENGTH_LABEL, statuteExtract, type ContractSource, type StatuteCite, 
 import type { StatuteExtract } from '@/lib/statute';
 import { PILL_BASE } from '../cardStyles';
 import { StatuteText } from '../ui/StatuteText';
+import { useBankingModule } from './ModuleContext';
 
 // Legal force of a source, strongest first.
 export const STRENGTH: Record<Strength, { label: string; pill: string; bar: string; title: string }> = {
@@ -46,6 +47,20 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
     bar: 'bg-orange-500',
     title: 'Non-statutory IA circular, FAQ or explanatory note: it shows how the IA reads the Ordinance, codes and guidelines',
   },
+  'osfi-guidance': {
+    label: STRENGTH_LABEL['osfi-guidance'],
+    pill: 'bg-sky-50 text-sky-700 dark:bg-sky-400/15 dark:text-sky-200',
+    bar: 'bg-sky-500',
+    title:
+      'OSFI guideline or advisory: not law, but OSFI supervises and rates the bank against it and can direct it to stop an unsafe or unsound practice (Bank Act s.645)',
+  },
+  'agency-guidance': {
+    label: STRENGTH_LABEL['agency-guidance'],
+    pill: 'bg-teal-50 text-teal-700 dark:bg-teal-400/15 dark:text-teal-200',
+    bar: 'bg-teal-500',
+    title:
+      'Guidance from FCAC, FINTRAC, the Privacy Commissioner, Quebec’s CAI, CDIC or the Bank of Canada: how the regulator reads the law it enforces, not law in itself',
+  },
   'industry-code': {
     label: STRENGTH_LABEL['industry-code'],
     pill: 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200',
@@ -68,8 +83,17 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
 
 export const STRENGTH_ORDER = Object.keys(STRENGTH) as Strength[];
 
+/** The strength key with this volume's explanations (a Canadian code or proposal differs from an HK one). */
+export function useStrengths(): typeof STRENGTH {
+  const { strengthTitles } = useBankingModule();
+  if (!strengthTitles) return STRENGTH;
+  return Object.fromEntries(
+    STRENGTH_ORDER.map((s) => [s, strengthTitles[s] ? { ...STRENGTH[s], title: strengthTitles[s]! } : STRENGTH[s]])
+  ) as typeof STRENGTH;
+}
+
 export function StrengthPill({ strength }: { strength: Strength }) {
-  const st = STRENGTH[strength];
+  const st = useStrengths()[strength];
   return (
     <span className={`${PILL_BASE} ${st.pill}`} title={st.title}>
       {st.label}
@@ -88,6 +112,7 @@ export interface KeyGroup {
  * (hover titles never show on a touch screen).
  */
 export function StrengthLegend({ sources, more = [] }: { sources: ContractSource[]; more?: KeyGroup[] }) {
+  const STRENGTH = useStrengths();
   const used = STRENGTH_ORDER.filter((s) => sources.some((x) => x.strength === s));
   const groups: KeyGroup[] = [
     {

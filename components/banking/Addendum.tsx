@@ -9,6 +9,7 @@ import { RichText } from '../RichText';
 import { CARD, CHEVRON, SUMMARY, TITLE } from '../cardStyles';
 import { BulletList } from '../ui/Bullets';
 import { Bracketed, CopyButton, openClause } from './Wording';
+import { useBankingModule } from './ModuleContext';
 
 export const HOMES: TermHome[] = ['main', 'addendum', 'own'];
 
@@ -30,7 +31,6 @@ export const HOME_TONE: Record<TermHome, { chip: string; dot: string; edge: stri
   },
 };
 
-const OPTIONS_KEY = 'hk-banking:addendum-options';
 
 const today = () => new Date().toISOString().slice(0, 10);
 
@@ -47,6 +47,7 @@ export function Addendum({
   definitions: { term: string; meaning: string }[];
   contract: string;
 }) {
+  const OPTIONS_KEY = `${useBankingModule().storage}:addendum-options`;
   const [opts, setOpts] = useState<Record<string, boolean>>(() => defaults(kit));
 
   useEffect(() => {
@@ -55,7 +56,7 @@ export function Addendum({
       const saved = v as Record<string, unknown>;
       setOpts((o) => Object.fromEntries(Object.entries(o).map(([k, d]) => [k, typeof saved[k] === 'boolean' ? (saved[k] as boolean) : d])));
     }
-  }, []);
+  }, [OPTIONS_KEY]);
   const toggle = (id: string) =>
     setOpts((o) => {
       const next = { ...o, [id]: !o[id] };

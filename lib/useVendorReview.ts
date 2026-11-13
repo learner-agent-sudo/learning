@@ -17,8 +17,7 @@ export interface VendorReview {
   items: Record<string, ClauseReview>;
 }
 
-const KEY = 'hk-banking:vendor-review:v2';
-// Version 1 stored one "found" tick per clause, by position in this order.
+// Version 1 (HK banking only) stored one "found" tick per clause, by position in this order.
 const V1_KEY = 'hk-banking:vendor-review';
 const V1_ORDER = [
   'scope-service-levels', 'hkma-access', 'audit-assessment', 'records-hk', 'confidentiality', 'pdpo-processor',
@@ -56,8 +55,9 @@ function migrate(): VendorReview | null {
   return { contract: '', items };
 }
 
-/** The review of one contract against the kit, kept in this browser. */
-export function useVendorReview() {
+/** The review of one contract against the kit, kept in this browser under the volume's storage prefix. */
+export function useVendorReview(storage = 'hk-banking') {
+  const KEY = `${storage}:vendor-review:v2`;
   const [review, setReview] = useState<VendorReview>(EMPTY);
 
   useEffect(() => {
@@ -66,20 +66,23 @@ export function useVendorReview() {
       setReview(current);
       return;
     }
-    const moved = migrate();
+    const moved = storage === 'hk-banking' ? migrate() : null;
     if (moved) {
       save(KEY, moved);
       setReview(moved);
     }
-  }, []);
+  }, [KEY, storage]);
 
-  const update = useCallback((fn: (r: VendorReview) => VendorReview) => {
-    setReview((prev) => {
-      const next = fn(prev);
-      save(KEY, next);
-      return next;
-    });
-  }, []);
+  const update = useCallback(
+    (fn: (r: VendorReview) => VendorReview) => {
+      setReview((prev) => {
+        const next = fn(prev);
+        save(KEY, next);
+        return next;
+      });
+    },
+    [KEY]
+  );
 
   const setItem = useCallback(
     (id: string, patch: ClauseReview) =>

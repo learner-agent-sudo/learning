@@ -22,7 +22,9 @@ import { ViewTabs } from '../ui/ViewTabs';
 import { Addendum, HOME_TONE, HOMES } from './Addendum';
 import { SaasMatrix } from './SaasMatrix';
 import { Bracketed, CopyButton, SHOW_ALL_CLAUSES, openClause } from './Wording';
-import { SourceList, STRENGTH, StrengthLegend } from './Sources';
+import { Crosswalk } from './Crosswalk';
+import { useBankingModule } from './ModuleContext';
+import { SourceList, StrengthLegend, useStrengths } from './Sources';
 
 // How hard to hold the line in negotiation.
 export const STANCE: Record<Stance, { chip: string; dot: string; title: string }> = {
@@ -91,7 +93,6 @@ export const APPLIES: Record<string, string> = {
 };
 
 type View = 'require' | 'playbook' | 'sources';
-const VIEW_KEY = 'hk-banking:vendor-view';
 const VIEWS: { id: View; label: string }[] = [
   { id: 'require', label: 'Requirements' },
   { id: 'playbook', label: 'Playbook' },
@@ -305,10 +306,12 @@ function ReviewBar({
 }
 
 function TermCard({
-  term, homes, view, onView, status, note, onStatus, onNote,
+  term, homes, view, onView, status, note, onStatus, onNote, stanceTitle, applies,
 }: {
   term: ContractTerm;
   homes: Homes;
+  stanceTitle: (s: Stance) => string;
+  applies: Record<string, string>;
   view: View;
   onView: (v: View) => void;
   status?: ReviewStatus;
@@ -316,7 +319,7 @@ function TermCard({
   onStatus: (s: ReviewStatus | undefined) => void;
   onNote: (n: string) => void;
 }) {
-  const top = STRENGTH[primary(term)];
+  const top = useStrengths()[primary(term)];
   const pb = term.playbook;
   const views = pb ? VIEWS : VIEWS.filter((v) => v.id !== 'playbook');
   const shown = views.some((v) => v.id === view) ? view : 'require';
@@ -336,7 +339,7 @@ function TermCard({
             {pb && (
               <span
                 className={`inline-flex items-center gap-1 rounded-full px-2 py-px text-[10.5px] font-medium ring-1 ${STANCE[pb.stance].chip}`}
-                title={STANCE[pb.stance].title}
+                title={stanceTitle(pb.stance)}
               >
                 <span aria-hidden className={`h-1.5 w-1.5 rounded-full ${STANCE[pb.stance].dot}`} />
                 {STANCE_LABEL[pb.stance]}
@@ -353,7 +356,7 @@ function TermCard({
             )}
             {term.appliesTo.map((a) => (
               <span key={a} className="rounded-full bg-ink/[0.06] px-2 py-px text-[10.5px] font-normal text-muted">
-                {APPLIES[a] ?? a}
+                {applies[a] ?? a}
               </span>
             ))}
           </span>
@@ -383,7 +386,7 @@ function TermCard({
   );
 }
 
-function PlaybookGuide({ kit }: { kit: KitPlaybook }) {
+function PlaybookGuide({ kit, stanceTitle }: { kit: KitPlaybook; stanceTitle: (s: Stance) => string }) {
   return (
     <div className="mb-5 rounded-xl border border-phase/25 bg-phase/[0.05] px-4 py-4 sm:px-5">
       <h3 className="kicker text-phase">Using the playbook</h3>
@@ -395,7 +398,7 @@ function PlaybookGuide({ kit }: { kit: KitPlaybook }) {
               <span aria-hidden className={`h-1.5 w-1.5 rounded-full ${STANCE[s].dot}`} />
               {STANCE_LABEL[s]}
             </span>
-            {STANCE[s].title}
+            {stanceTitle(s)}
           </li>
         ))}
       </ul>
@@ -465,12 +468,18 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
   const [home, setHome] = useState<TermHome | 'any'>('any');
   const [statusFilter, setStatusFilter] = useState<ReviewStatus | 'open' | 'any'>('any');
   const [view, setView] = useState<View>('require');
-  const { review, setStatus, setNote, setContract, reset } = useVendorReview();
+  const { storage } = useBankingModule();
+  const VIEW_KEY = `${storage}:vendor-view`;
+  const { review, setStatus, setNote, setContract, reset } = useVendorReview(storage);
+  const labels = kit.labels ?? {};
+  const stanceTitle = (s: Stance) => labels.stance?.[s] ?? STANCE[s].title;
+  const applies = { ...APPLIES, ...labels.applies };
+  const titles = Object.fromEntries(kit.terms.map((t) => [t.id, t.title]));
 
   useEffect(() => {
     const v = load(VIEW_KEY);
     if (v === 'require' || v === 'playbook' || v === 'sources') setView(v);
-  }, []);
+  }, [VIEW_KEY]);
   // A link to a clause hidden by the filters clears them first.
   useEffect(() => {
     const showAll = () => {
@@ -506,7 +515,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
 
   const exportCsv = () => {
     const d = today();
-    download(exportName(review.contract, 'csv', d), reviewCsv(kit.terms, review, (a) => APPLIES[a] ?? a, homeLabel), 'text/csv;charset=utf-8');
+    download(exportName(review.contract, 'csv', d), reviewCsv(kit.terms, review, (a) => applies[a] ?? a, homeLabel), 'text/csv;charset=utf-8');
   };
   const exportMd = () => {
     const d = today();
@@ -542,6 +551,15 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
         <SectionVisual visual={kit.lifecycle} />
       </section>
 
+      {kit.crosswalk && (
+        <section id={BANK_SECTION.vendorsCrosswalk}>
+          <SectionTitle aside={<span className="font-mono text-xs text-muted">{kit.crosswalk.rows.length} rows</span>}>
+            From the Hong Kong kit to Canada
+          </SectionTitle>
+          <Crosswalk data={kit.crosswalk} titles={titles} />
+        </section>
+      )}
+
       {kit.addendum && (
         <section id={BANK_SECTION.vendorsAddendum}>
           <SectionTitle
@@ -567,9 +585,13 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
           <SectionTitle
             aside={<span className="font-mono text-xs text-muted">{kit.saasMatrix.rows.length} terms</span>}
           >
-            SaaS terms against SA-2 and TM-G-1
+            {labels.saasTitle ?? 'SaaS terms against SA-2 and TM-G-1'}
           </SectionTitle>
-          <SaasMatrix matrix={kit.saasMatrix} titles={Object.fromEntries(kit.terms.map((t) => [t.id, t.title]))} />
+          <SaasMatrix
+            matrix={kit.saasMatrix}
+            titles={titles}
+            {...(labels.saasAsk ? { ask: labels.saasAsk, caption: `${labels.saasTitle ?? 'Standard SaaS terms'}, with compromise wording` } : {})}
+          />
         </section>
       )}
 
@@ -583,7 +605,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
         >
           Clauses the contract needs
         </SectionTitle>
-        {kit.playbook && <PlaybookGuide kit={kit.playbook} />}
+        {kit.playbook && <PlaybookGuide kit={kit.playbook} stanceTitle={stanceTitle} />}
         <p className="mb-3 text-sm leading-relaxed text-muted">
           Each card has three views: what the sources require, the negotiation playbook with model wording, and the
           sources with their legal force. Mark each clause against the contract you are reviewing; the status and notes
@@ -637,7 +659,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
         </div>
 
         <div className="mb-2 flex flex-wrap gap-1.5" role="group" aria-label="Show clauses that apply to">
-          {[{ id: 'all-terms', label: `All ${kit.terms.length}` }, ...tags.map((t) => ({ id: t, label: APPLIES[t] ?? t }))].map(
+          {[{ id: 'all-terms', label: `All ${kit.terms.length}` }, ...tags.map((t) => ({ id: t, label: applies[t] ?? t }))].map(
             (c) => (
               <button
                 key={c.id}
@@ -682,7 +704,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
                   type="button"
                   onClick={() => setStance(stance === s ? 'any' : s)}
                   aria-pressed={stance === s}
-                  title={STANCE[s].title}
+                  title={stanceTitle(s)}
                   className={chipClass(stance === s)}
                 >
                   <span aria-hidden className={`h-1.5 w-1.5 rounded-full ${STANCE[s].dot}`} />
@@ -700,7 +722,7 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
               ? [
                   {
                     title: 'Stance in the playbook',
-                    entries: STANCES.map((s) => ({ label: STANCE_LABEL[s], meaning: STANCE[s].title, dot: STANCE[s].dot })),
+                    entries: STANCES.map((s) => ({ label: STANCE_LABEL[s], meaning: stanceTitle(s), dot: STANCE[s].dot })),
                   },
                 ]
               : []),
@@ -731,6 +753,8 @@ export function VendorKit({ kit, stageId }: { kit: Kit; stageId: string }) {
               note={review.items[t.id]?.note}
               onStatus={(s) => setStatus(t.id, s)}
               onNote={(n) => setNote(t.id, n)}
+              stanceTitle={stanceTitle}
+              applies={applies}
             />
           ))}
           {shown.length === 0 && (

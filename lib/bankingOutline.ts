@@ -3,6 +3,7 @@ import { essentialsSections, noteSections, tab, type OutlineTab } from './outlin
 
 // Section anchors inside the banking tools; the components use the same ids.
 export const BANK_SECTION = {
+  vendorsCrosswalk: 'vendors-crosswalk',
   vendorsAddendum: 'vendors-addendum',
   vendorsSaas: 'vendors-saas',
   vendorsClauses: 'vendors-clauses',

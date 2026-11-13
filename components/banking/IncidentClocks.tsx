@@ -8,19 +8,19 @@ import { download, plain } from '@/lib/vendorExport';
 import { RichText } from '../RichText';
 import { CARD, chipClass } from '../cardStyles';
 import { BulletList, SectionTitle } from '../ui/Bullets';
-import { STRENGTH, SourceList, StrengthPill } from './Sources';
+import { SourceList, StrengthPill, useStrengths } from './Sources';
 import { BANK_SECTION } from '@/lib/bankingOutline';
+import { useBankingModule } from './ModuleContext';
 
 type Answers = Record<string, boolean>;
 
-const KEY = 'hk-banking:incident-scenario';
 // A critical SaaS vendor is down and customers notice: the usual starting point.
-const DEFAULTS: Answers = { significant: true, customers: true };
+const HK_DEFAULTS = ['significant', 'customers'];
 
 const today = () => new Date().toISOString().slice(0, 10);
 
-function parse(v: unknown): Answers {
-  if (!v || typeof v !== 'object') return DEFAULTS;
+function parse(v: unknown, defaults: Answers): Answers {
+  if (!v || typeof v !== 'object') return defaults;
   return Object.fromEntries(Object.entries(v as Record<string, unknown>).filter(([, b]) => typeof b === 'boolean')) as Answers;
 }
 
@@ -57,10 +57,14 @@ function callSheet(kit: IncidentKit, a: Answers, order: (t: IncidentTrack) => nu
  * and the call sheet in the order the calls are due.
  */
 export function IncidentClocks({ kit }: { kit: IncidentKit }) {
+  const KEY = `${useBankingModule().storage}:incident-scenario`;
+  const DEFAULTS: Answers = Object.fromEntries((kit.defaults ?? HK_DEFAULTS).map((id) => [id, true]));
+  const STRENGTH = useStrengths();
   const [answers, setAnswers] = useState<Answers>(DEFAULTS);
   useEffect(() => {
     const v = load(KEY);
-    if (v) setAnswers(parse(v));
+    if (v) setAnswers(parse(v, DEFAULTS));
+    // Read once on mount; KEY and DEFAULTS are fixed for the page.
   }, []);
   const set = (id: string, on: boolean) => {
     const next = { ...answers, [id]: on };

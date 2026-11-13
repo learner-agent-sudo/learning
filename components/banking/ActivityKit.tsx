@@ -11,7 +11,7 @@ import { BODY, CARD, CHEVRON, EDGE, PILL_BASE, SUMMARY, TITLE, chipClass } from 
 import { BulletList, SectionedPoints, SectionTitle } from '../ui/Bullets';
 import { SectionVisual } from '../ui/SectionVisual';
 import { ViewTabs } from '../ui/ViewTabs';
-import { SourceList, STRENGTH, StrengthLegend } from './Sources';
+import { SourceList, StrengthLegend, useStrengths } from './Sources';
 
 const REGIME: Record<Regime, { pill: string; dot: string; title: string }> = {
   'in-force': {
@@ -145,7 +145,7 @@ function ActivityCard({
   ticks: boolean[];
   onToggle: (i: number) => void;
 }) {
-  const top = STRENGTH[act.sources[0]?.strength ?? 'good-practice'];
+  const top = useStrengths()[act.sources[0]?.strength ?? 'good-practice'];
   const rg = REGIME[act.regime];
   const done = ticks.filter(Boolean).length;
   const id = `activity-${act.id}`;

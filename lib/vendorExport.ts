@@ -141,7 +141,7 @@ export function addendumMarkdown({
 }): string {
   const out: string[] = ['# Banking regulatory addendum', ''];
   out.push(
-    `Starting draft exported ${date} from the HK banking study notes. Not legal advice and not HKMA text: the wording is original drafting, square brackets mark choices and illustrative figures, and bracketed cross-references name the clause meant.`,
+    `Starting draft exported ${date} from the ${kit.exportNote ?? 'HK banking study notes. Not legal advice and not HKMA text'}: the wording is original drafting, square brackets mark choices and illustrative figures, and bracketed cross-references name the clause meant.`,
     ''
   );
   out.push(`Main Agreement: ${contract.trim() || '[name and date]'}`, '');

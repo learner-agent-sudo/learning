@@ -46,6 +46,8 @@ export type Strength =
   | 'hkma-guidance'
   | 'sfc-guidance'
   | 'ia-guidance'
+  | 'osfi-guidance'
+  | 'agency-guidance'
   | 'industry-code'
   | 'proposal'
   | 'good-practice';
@@ -57,6 +59,8 @@ export const STRENGTH_LABEL: Record<Strength, string> = {
   'hkma-guidance': 'HKMA guidance',
   'sfc-guidance': 'SFC guidance',
   'ia-guidance': 'IA guidance',
+  'osfi-guidance': 'OSFI guidance',
+  'agency-guidance': 'Agency guidance',
   'industry-code': 'Industry code',
   proposal: 'Proposal',
   'good-practice': 'Good practice',
@@ -158,6 +162,8 @@ export interface AddendumOption {
 
 export interface AddendumKit {
   intro: string[];
+  // Opening note of the downloaded draft (defaults to the HK wording).
+  exportNote?: string;
   homes: Record<TermHome, { label: string; short: string; blurb: string }>;
   definitions: { term: string; meaning: string }[];
   mechanics: AddendumMechanic[];
@@ -172,8 +178,35 @@ export interface KitRecent {
   items: { label: string; section?: string; term?: string; tab?: string }[];
 }
 
+// How each clause of the Hong Kong kit carries over to another jurisdiction.
+export type CrosswalkChange = 'same' | 'stronger' | 'softer' | 'changed' | 'dropped' | 'new';
+
+export interface CrosswalkRow {
+  // The Hong Kong clause (its title), or empty for a clause new in this jurisdiction.
+  hk?: string;
+  // The clause id in this kit that carries it, if any.
+  term?: string;
+  change: CrosswalkChange;
+  note: string;
+}
+
+export interface Crosswalk {
+  intro: string[];
+  rows: CrosswalkRow[];
+}
+
+// Wording that differs between jurisdictions; each falls back to the HK text.
+export interface VendorKitLabels {
+  saasTitle?: string;
+  saasAsk?: string;
+  stance?: Partial<Record<Stance, string>>;
+  applies?: Record<string, string>;
+}
+
 export interface VendorKit {
   intro: string[];
+  labels?: VendorKitLabels;
+  crosswalk?: Crosswalk;
   recent?: KitRecent;
   lifecycle: SectionVisualData;
   addendum?: AddendumKit;
@@ -257,6 +290,13 @@ export interface DueDiligence {
 
 export interface MaterialityKit {
   intro: string[];
+  // Wording that differs between jurisdictions; each falls back to the HK text.
+  labels?: {
+    steps?: [string, string, string];
+    pending?: string;
+    unsureNote?: string;
+    conditionTitle?: string;
+  };
   // Asked in order: is it outsourcing, and is it banking-related?
   gates: MaterialityQuestion[];
   // Any yes makes it material on our screen.
@@ -303,6 +343,8 @@ export interface IncidentTrack {
 
 export interface IncidentKit {
   intro: string[];
+  // Questions answered yes when the tool first opens.
+  defaults?: string[];
   questions: IncidentQuestion[];
   columns: { id: string; label: string }[];
   tracks: IncidentTrack[];

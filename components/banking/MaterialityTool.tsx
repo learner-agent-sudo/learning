@@ -12,6 +12,7 @@ import { SectionVisual } from '../ui/SectionVisual';
 import { SourceList } from './Sources';
 import { Bracketed, CopyButton } from './Wording';
 import { BANK_SECTION } from '@/lib/bankingOutline';
+import { useBankingModule } from './ModuleContext';
 
 type Answer = 'yes' | 'no' | 'unsure';
 interface Saved {
@@ -21,7 +22,6 @@ interface Saved {
   dd: Record<string, boolean[]>;
 }
 
-const KEY = 'hk-banking:materiality';
 const EMPTY: Saved = { name: '', answers: {}, dd: {} };
 const LABEL: Record<Answer, string> = { yes: 'Yes', no: 'No', unsure: 'Not sure' };
 
@@ -56,6 +56,17 @@ function outcomeOf(kit: MaterialityKit, a: Record<string, Answer>): { id: Materi
   return { id: 'banking', complete: kit.factors.every((f) => a[f.id]) };
 }
 
+// The Hong Kong wording, used when a kit does not set its own.
+const HK_LABELS = {
+  steps: ['Step 1 · Is it outsourcing?', 'Step 2 · Is it banking-related?', 'Step 3 · Is it material? Any yes makes it material on this screen'],
+  pending: 'Answer the remaining questions: one yes would make it material.',
+  unsureNote:
+    "You were not sure it is banking-related, so it is treated as banking-related; SA-2 1.3.2 says to seek the HKMA's advice when in doubt.",
+  conditionTitle: 'Signing before the HKMA discussion ends',
+};
+
+const labelsOf = (kit: MaterialityKit) => ({ ...HK_LABELS, ...kit.labels });
+
 function noteMarkdown(kit: MaterialityKit, saved: Saved, id: MaterialityOutcomeId, date: string): string {
   const o = kit.outcomes[id];
   const asked = [...kit.gates, ...(id === 'procurement' || id === 'non-banking' ? [] : kit.factors)];
@@ -86,7 +97,7 @@ function noteMarkdown(kit: MaterialityKit, saved: Saved, id: MaterialityOutcomeI
     }
   }
   if (id === 'banking' || id === 'material') {
-    lines.push('', '## Signing before the HKMA discussion ends (model wording)', '', ...kit.condition.map((c) => `${plain(c)}\n`));
+    lines.push('', `## ${labelsOf(kit).conditionTitle} (model wording)`, '', ...kit.condition.map((c) => `${plain(c)}\n`));
   }
   lines.push('', '---', '', plain(kit.caveat), '', 'Study material, not legal advice.', '');
   return lines.join('\n');
@@ -240,8 +251,10 @@ function DueDiligenceList({
 
 /** Step-by-step check of whether a SaaS or cloud deployment is (material) outsourcing, and what follows. */
 export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
+  const KEY = `${useBankingModule().storage}:materiality`;
+  const L = labelsOf(kit);
   const [saved, setSaved] = useState<Saved>(EMPTY);
-  useEffect(() => setSaved(parse(load(KEY))), []);
+  useEffect(() => setSaved(parse(load(KEY))), [KEY]);
 
   const update = (next: Saved) => {
     setSaved(next);
@@ -303,11 +316,11 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
         </div>
 
         <div className="space-y-3">
-          <QuestionRow q={service} step="Step 1 · Is it outsourcing?" value={a[service.id]} options={['yes', 'no']} onAnswer={(v) => answer(service.id, v)} />
+          <QuestionRow q={service} step={L.steps[0]} value={a[service.id]} options={['yes', 'no']} onAnswer={(v) => answer(service.id, v)} />
           {showBanking && (
             <QuestionRow
               q={banking}
-              step="Step 2 · Is it banking-related?"
+              step={L.steps[1]}
               value={a[banking.id]}
               options={['yes', 'no', 'unsure']}
               onAnswer={(v) => answer(banking.id, v)}
@@ -315,7 +328,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
           )}
           {showFactors && (
             <div className="space-y-3 border-l-2 border-phase/30 pl-3 sm:pl-4">
-              <p className="kicker text-phase">Step 3 · Is it material? Any yes makes it material on this screen</p>
+              <p className="kicker text-phase">{L.steps[2]}</p>
               {kit.factors.map((f) => (
                 <QuestionRow key={f.id} q={f} value={a[f.id]} options={['yes', 'no']} onAnswer={(v) => answer(f.id, v)} />
               ))}
@@ -332,12 +345,11 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
                 <RichText text={outcome.verdict} />
               </p>
               {!result.complete && (
-                <p className="mt-2 text-sm text-ink/75">Answer the remaining questions: one yes would make it material.</p>
+                <p className="mt-2 text-sm text-ink/75">{L.pending}</p>
               )}
               {a[banking.id] === 'unsure' && (
                 <p className="mt-2 text-sm text-ink/75">
-                  You were not sure it is banking-related, so it is treated as banking-related; SA-2 1.3.2 says to seek the
-                  HKMA&apos;s advice when in doubt.
+                  <RichText text={L.unsureNote} />
                 </p>
               )}
               {marked.length > 0 && (
@@ -394,7 +406,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
       </section>
 
       <section id={BANK_SECTION.matCondition}>
-        <SectionTitle>Signing before the HKMA discussion ends</SectionTitle>
+        <SectionTitle>{L.conditionTitle}</SectionTitle>
         <p className="mb-3 text-sm leading-relaxed text-muted">
           Model wording for a regulatory condition, using the playbook&apos;s defined terms (Vendors tab). Choices and
           figures are in brackets.

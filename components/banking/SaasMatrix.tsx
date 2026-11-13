@@ -11,17 +11,25 @@ const CELL = 'align-top px-3 py-3 max-md:block max-md:w-auto max-md:px-0 max-md:
 // On phones each row becomes a card and each cell is labelled.
 const LABELLED = `${CELL} max-md:before:kicker max-md:before:mb-1 max-md:before:block max-md:before:content-[attr(data-label)]`;
 
-/** Standard SaaS terms mapped to SA-2 and TM-G-1, with where to land in negotiation. */
-export function SaasMatrix({ matrix, titles }: { matrix: Matrix; titles: Record<string, string> }) {
+/** Standard SaaS terms mapped to what the regulator needs, with where to land in negotiation. */
+export function SaasMatrix({
+  matrix, titles, ask = 'What SA-2 / TM-G-1 need', caption = 'Standard SaaS terms against SA-2 and TM-G-1, with compromise wording',
+}: {
+  matrix: Matrix;
+  titles: Record<string, string>;
+  // Column heading for the regulatory ask, and the table's caption for screen readers.
+  ask?: string;
+  caption?: string;
+}) {
   return (
     <div>
       <BulletList items={matrix.intro} className="mb-4" />
       <div className="overflow-hidden rounded-xl border border-line bg-panel shadow-card max-md:border-0 max-md:bg-transparent max-md:shadow-none">
         <table className="w-full border-collapse text-left text-sm leading-relaxed max-md:block">
-          <caption className="sr-only">Standard SaaS terms against SA-2 and TM-G-1, with compromise wording</caption>
+          <caption className="sr-only">{caption}</caption>
           <thead className="bg-paper/60 max-md:hidden">
             <tr className="border-b border-line">
-              {['SaaS term', 'Their standard paper', 'What SA-2 / TM-G-1 need', 'Where to land'].map((h) => (
+              {['SaaS term', 'Their standard paper', ask, 'Where to land'].map((h) => (
                 <th key={h} scope="col" className="kicker px-3 py-2.5 font-medium">
                   {h}
                 </th>
@@ -48,7 +56,7 @@ export function SaasMatrix({ matrix, titles }: { matrix: Matrix; titles: Record<
                 <td data-label="Their standard paper" className={`${LABELLED} w-[24%] text-ink/80`}>
                   <RichText text={r.standard} />
                 </td>
-                <td data-label="What SA-2 / TM-G-1 need" className={`${LABELLED} w-[27%]`}>
+                <td data-label={ask} className={`${LABELLED} w-[27%]`}>
                   <RichText text={r.ask} />
                   <span className="mt-1.5 flex flex-wrap gap-1">
                     {r.refs.map((ref) => (
