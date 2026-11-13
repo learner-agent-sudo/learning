@@ -1,0 +1,63 @@
+{
+ "cap": "SOR-2018-64",
+ "title": "Breach of Security Safeguards Regulations",
+ "longTitle": "Breach of Security Safeguards Regulations",
+ "instrument": "SOR/2018-64",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-64/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-64/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Definition of Act",
+   "status": "in-effect",
+   "part": null,
+   "text": "  In these Regulations, Act means the Personal Information Protection and Electronic Documents Act."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Report — content, form and manner",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) A report of a breach of security safeguards referred to in subsection 10.1(2) of the Act must be in writing and must contain\n    (a) a description of the circumstances of the breach and, if known, the cause;\n    (b) the day on which, or the period during which, the breach occurred or, if neither is known, the approximate period;\n    (c) a description of the personal information that is the subject of the breach to the extent that the information is known;\n    (d) the number of individuals affected by the breach or, if unknown, the approximate number;\n    (e) a description of the steps that the organization has taken to reduce the risk of harm to affected individuals that could result from the breach or to mitigate that harm;\n    (f) a description of the steps that the organization has taken or intends to take to notify affected individuals of the breach in accordance with subsection 10.1(3) of the Act; and\n    (g) the name and contact information of a person who can answer, on behalf of the organization, the Commissioner’s questions about the breach.\n  New information\n  (2) An organization may submit to the Commissioner any new information referred to in subsection (1) that the organization becomes aware of after having made the report.\n  Means of communication\n  (3) The report may be sent to the Commissioner by any secure means of communication."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Contents of notification",
+   "status": "in-effect",
+   "part": null,
+   "text": "  A notification provided by an organization, in accordance with subsection 10.1(3) of the Act, to an affected individual with respect to a breach of security safeguards must contain\n    (a) a description of the circumstances of the breach;\n    (b) the day on which, or period during which, the breach occurred or, if neither is known, the approximate period;\n    (c) a description of the personal information that is the subject of the breach to the extent that the information is known;\n    (d) a description of the steps that the organization has taken to reduce the risk of harm that could result from the breach;\n    (e) a description of the steps that affected individuals could take to reduce the risk of harm that could result from the breach or to mitigate that harm; and\n    (f) contact information that the affected individual can use to obtain further information about the breach."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Direct notification — form and manner",
+   "status": "in-effect",
+   "part": null,
+   "text": "  For the purposes of subsection 10.1(5) of the Act, direct notification must be given to the affected individual in person, by telephone, mail, email or any other form of communication that a reasonable person would consider appropriate in the circumstances."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Indirect notification — circumstances",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) For the purposes of subsection 10.1(5) of the Act, indirect notification must be given by an organization in any of the following circumstances:\n    (a) direct notification would be likely to cause further harm to the affected individual;\n    (b) direct notification would be likely to cause undue hardship for the organization; or\n    (c) the organization does not have contact information for the affected individual.\n  Indirect notification — form and manner\n  (2) For the purposes of subsection 10.1(5) of the Act, indirect notification must be given by public communication or similar measure that could reasonably be expected to reach the affected individuals."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Record-keeping requirements",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) For the purposes of subsection 10.3(1) of the Act, an organization must maintain a record of every breach of security safeguards for 24 months after the day on which the organization determines that the breach has occurred.\n  Compliance\n  (2) The record referred to in subsection 10.3(1) of the Act must contain any information that enables the Commissioner to verify compliance with subsections 10.1(1) and (3) of the Act."
+  }
+ ],
+ "schedules": []
+}

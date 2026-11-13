@@ -1,0 +1,69 @@
+{
+ "cap": "SOR-2010-292",
+ "title": "Canada Deposit Insurance Corporation Data and System Requirements By-law",
+ "longTitle": "Canada Deposit Insurance Corporation Data and System Requirements By-law",
+ "instrument": "SOR/2010-292",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2010-292/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2010-292/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Definitions",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) The following definitions apply in this By-law.\n    Act means the Canada Deposit Insurance Corporation Act.\n    business day, in respect of a member institution, means a weekday that is not a holiday at the location of its head office.\n    Data Requirements[Repealed, SOR/2019-187, s. 1]\n    determination date, in respect of a member institution, means\n      (a) if a winding-up order is made in respect of the institution before the day on which the Corporation makes a payment under section 14 of the Act, the day on which the petition or other originating process is filed in respect of the winding-up; and\n      (b) if a winding-up order is not made in respect of the institution, the day on which any of the circumstances described in subsection 14(2.1) of the Act first occurred in respect of the institution.\n    determination time means\n      (a) in respect of the deposit liabilities of a member institution that are located in Canada\n        (i) if the determination date is a business day, the time by which all of the transactions made on that business day are processed and posted to the deposit records of the depositors of the member institution, and\n        (ii) if the determination date is not a business day, the time by which all of the transactions made on the business day immediately preceding the determination date are processed and posted to the deposit records of the depositors of the member institution; and\n      (b) in respect of the deposit liabilities of a member institution that are located in a foreign branch of the member institution or posted in the records of that foreign branch\n        (i) if the determination date is a business day, the time by which all of the transactions made on that business day are processed and posted to the deposit records of the depositors of the foreign branch of the member institution, and\n        (ii) if the determination date is not a business day, the time by which all of the transactions made on the business day immediately preceding the determination date are processed and posted to the deposit records of the depositors of the foreign branch of the member institution.\n    foreign branch means a branch of a member institution that is located outside Canada.\n    standardized data[Repealed, SOR/2019-187, s. 1]\n  Reference to day or time\n  (2) In this By-law,\n    (a) a reference to a day, in respect of a member institution, is a reference to a period of 24 hours beginning immediately after midnight at the location of its head office; and\n    (b) a reference to a particular time, in respect of a member institution, is a reference to that time at the location of its head office."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Capabilities",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) For the purpose of facilitating the Corporation’s exercise of its functions under section 14 of the Act or in the event that an order is made under any of paragraphs 39.13(1)(a) to (c) of the Act, every member institution must be capable of\n    (a) producing the following data, as of the determination time, in relation to its deposit liabilities — other than those posted in the records of a foreign branch of the member institution — and providing that data or making it available to the Corporation in a usable format no later than the time referred to in subsection (2):\n      (i) data that enables the Corporation to identify and contact each depositor and ascertain their preferred official language and their province of residence,\n      (ii) data that enables the Corporation to identify and group those deposit liabilities by\n        (A) unique depositor,\n        (B) eligibility to be insured by the Corporation,\n        (C) insurance category, and\n        (D) account type, and\n      (iii) the interest accrued and payable in relation to each deposit liability as of the determination date; and\n    (b) temporarily preventing withdrawals of deposit liabilities or any portion of them according to account type within six hours after receiving instructions from the Corporation.\n  Time limit — provision of data\n  (2) The member institution must be capable of providing or making available to the Corporation the data referred to in paragraph (1)(a) no later than\n    (a) in the case of the data referred to in subparagraphs (1)(a)(i) and (ii),\n      (i) if the determination time occurs on or after the determination date, the earlier of\n        (A) six hours after the determination time, and\n        (B) 4:00 p.m. on the day after the determination date, and\n      (ii) if the determination time occurs before the determination date, 4:00 p.m. on the day after the determination date; and\n    (b) in the case of the data referred to in subparagraph (1)(a)(iii),\n      (i) if the determination time occurs on or after the determination date, the earlier of\n        (A) 30 hours after the determination time, and\n        (B) 4:00 p.m. on the second day after the determination date, and\n      (ii) if the determination time occurs before the determination date, 4:00 p.m. on the second day after the determination date.\n  Policies and procedures\n  (3) The member institution must develop and implement policies and procedures to ensure that it has the capabilities referred to in subsections (1) and (2)."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Provision of information and evidence",
+   "status": "in-effect",
+   "part": null,
+   "text": "  Every member institution must, on request of the Corporation and within the period set out in the request,\n    (a) provide to the Corporation a copy of the policies and procedures referred to in subsection 2(3);\n    (b) inform the Corporation of the time by which all of the transactions made on a given day are processed and posted to the deposit records of the depositors of the member institution;\n    (c) provide or make available to the Corporation the data referred to in paragraph 2(1)(a), including as of a time or date specified by the Corporation if there is no determination time or determination date;\n    (d) demonstrate that any data provided or made available to the Corporation is consistent with the records of the member institution and explain any variances; and\n    (e) provide or make available to the Corporation any other evidence that the member institution has the capabilities referred to in subsections 2(1) and (2)."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Certification",
+   "status": "in-effect",
+   "part": null,
+   "text": "  Every member institution must, within 30 days after the day on which a request to that effect is sent by the Corporation, certify whether it has, in all material respects, the capabilities referred to in subsections 2(1) and (2) and whether it adheres to the policies and procedures referred to in subsection 2(3)."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Timing of compliance",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) Subject to subsections (2) and (3), an institution must\n    (a) provide to the Corporation, within 30 days after the day on which it becomes a member institution, a plan to become compliant with this By-law; and\n    (b) comply with this By-law as soon as feasible but within 18 months after the day on which it becomes a member institution.\n  Amalgamated member institutions\n  (2) A member institution that results from an amalgamation of two or more institutions must\n    (a) in respect of the deposit liabilities of any amalgamating institution that became a member institution during the 18 months before the amalgamation date,\n      (i) provide to the Corporation, within 30 days after that date, a plan to become compliant with this By-law, and\n      (ii) comply with this By-law as soon as feasible but within 18 months after the day on which the amalgamating institution became a member institution;\n    (b) in respect of the deposit liabilities of any amalgamating institution that was not a member institution before the amalgamation date,\n      (i) provide to the Corporation, within 30 days after that date, a plan to become compliant with this By-law, and\n      (ii) comply with this By-law as soon as feasible but within 18 months after the amalgamation date; and\n    (c) in respect of its other deposit liabilities, comply with this By-law without delay.\n  Assumed deposit liabilities\n  (3) A member institution that assumes deposit liabilities of another institution must, in respect of the assumed liabilities,\n    (a) provide to the Corporation, within 30 days after the day on which it assumes the deposit liabilities, a plan to become compliant with this By-law; and\n    (b) comply with this By-law as soon as feasible but within 18 months after the day on which it assumes the deposit liabilities."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Obligations of Member Institutions",
+   "status": "repealed",
+   "part": null
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Obligations of Member Institutions",
+   "status": "repealed",
+   "part": null
+  }
+ ],
+ "schedules": []
+}

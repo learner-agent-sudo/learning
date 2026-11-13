@@ -2,7 +2,9 @@
 """Attach official statute text to the regulation modules' cited provisions.
 
 For each module in MODULES, reads data/<module>/stages.json and the
-e-Legislation extracts in data/hkel/<cap>.json, and writes
+legislation extracts (Hong Kong e-Legislation in data/hkel/<cap>.json, or the
+Justice Laws Website in data/caleg/<id>.json, e.g. "B-1.01" for the Bank Act
+or "SOR-2021-181" for a regulation), and writes
 data/<module>/statute-extracts.json:
 
   extracts   one entry per cited (cap, section) that resolves, from the
@@ -25,9 +27,10 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 HKEL = ROOT / "data" / "hkel"
+CALEG = ROOT / "data" / "caleg"
 
 # Module folder under data/, and the chapter whose anatomy it shows.
-MODULES = [("banking", "155"), ("securities", "571"), ("insurance", "41")]
+MODULES = [("banking", "155"), ("securities", "571"), ("insurance", "41"), ("ca-banking", "B-1.01")]
 
 MAX_CHARS = 6000  # long sections (e.g. s. 2 definitions) are cut; HKeL has the rest
 
@@ -38,12 +41,14 @@ ORDINALS = {
         "nineteenth twentieth".split(), start=1)
 }
 
+# Canadian numbering adds decimals (Bank Act s. 627.04, Part XII.2), roman
+# schedules (Bank Act Schedule I) and clauses (PIPEDA Schedule 1, cl. 4.1.3).
 SCHEDULE = re.compile(
-    r"(?i)^(?:sch(?:edule|ed)?\.?\s*(?P<n>\d+[A-Z]?)|(?P<word>[a-z]+)\s+schedule)"
-    r"(?:\s*[,;]?\s*(?:s(?:ection)?s?\.?|para(?:graph)?s?\.?)\s*(?P<item>\d+[A-Z]*))?"
+    r"(?i)^(?:sch(?:edule|ed)?\.?\s*(?P<n>\d+[A-Z]?|[IVX]+\b)|(?P<word>[a-z]+)\s+schedule)"
+    r"(?:\s*[,;]?\s*(?:s(?:ection)?s?\.?|para(?:graph)?s?\.?|cl(?:ause)?s?\.?)\s*(?P<item>\d+(?:\.\d+)*[A-Z]*))?"
 )
-SECTION = re.compile(r"(?i)^(?:s(?:ection)?s?\.?\s*)?(?P<num>\d+[A-Z]*)")
-PART = re.compile(r"(?i)^(?:pt|part)\.?\s*(?P<num>[0-9]+[A-Z]*|[IVXL]+[A-Z]*)\b")
+SECTION = re.compile(r"(?i)^(?:s(?:ection)?s?\.?\s*)?(?P<num>\d+(?:\.\d+)*[A-Z]*)")
+PART = re.compile(r"(?i)^(?:pt|part)\.?\s*(?P<num>[0-9]+[A-Z]*|[IVXL]+(?:\.\d+)*[A-Z]*)(?![\w.])")
 
 
 def parse_ref(section: str) -> tuple[str, str, str | None] | None:
@@ -61,8 +66,8 @@ def parse_ref(section: str) -> tuple[str, str, str | None] | None:
 
 def load_cap(cap: str, cache: dict) -> dict | None:
     if cap not in cache:
-        path = HKEL / f"{cap}.json"
-        cache[cap] = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+        path = next((d / f"{cap}.json" for d in (HKEL, CALEG) if (d / f"{cap}.json").exists()), None)
+        cache[cap] = json.loads(path.read_text(encoding="utf-8")) if path else None
     return cache[cap]
 
 
@@ -80,7 +85,7 @@ def resolve_part(doc: dict, num: str) -> dict | None:
     by_id = {s["id"]: s for s in doc["sections"]}
     lines = [f"s. {by_id[i]['num']}  {by_id[i]['heading']}"
              for i in part["sections"] if i in by_id and by_id[i]["status"] == "in-effect"]
-    return {
+    entry = {
         "label": part["num"],
         "heading": part["heading"],
         "capTitle": doc["title"],
@@ -90,6 +95,9 @@ def resolve_part(doc: dict, num: str) -> dict | None:
         "text": "\n".join(lines),
         "truncated": False,
     }
+    if doc.get("source"):
+        entry["source"] = doc["source"]
+    return entry
 
 
 def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
@@ -106,7 +114,7 @@ def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
         label = sch["num"] if sch else f"Schedule {num}"
         if sch and item:
             hit = next((i for i in sch.get("items", []) if i["num"] == item), None)
-            label = f"{sch['num']}, s. {item}"
+            label = f"{sch['num']}, {'cl.' if '.' in item else 's.'} {item}"
         part = None
     if not hit or hit.get("status") != "in-effect":
         return None
@@ -119,6 +127,11 @@ def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
     }
     if part:
         entry["part"] = f"{part['num']} — {part['heading']}"
+    if doc.get("source"):
+        # Justice Laws: name the source, and link the section itself.
+        entry["source"] = doc["source"]
+        if kind == "s" and doc.get("sectionUrl"):
+            entry["hkelUrl"] = doc["sectionUrl"].format(n=num)
     if "text" in hit:
         entry["text"], entry["truncated"] = clip(hit["text"])
     return entry
@@ -129,12 +142,13 @@ def anatomy(doc: dict) -> dict:
         return [i[1:] for i in ids]
     # Parts inside Schedules are numbered in arabic (Part 1, 2, ...); when the
     # body's Parts are in roman numerals, keep only those.
-    roman = bool(doc["parts"]) and re.fullmatch(r"Part [IVXL]+[A-Z]*", doc["parts"][0]["num"])
+    roman_part = r"Part [IVXL]+(?:\.\d+)*[A-Z]*"
+    roman = bool(doc["parts"]) and re.fullmatch(roman_part, doc["parts"][0]["num"])
     parts = []
     for p in doc["parts"]:
         if p["status"] != "in-effect" or not p["heading"] or not p["sections"]:
             continue
-        if roman and not re.fullmatch(r"Part [IVXL]+[A-Z]*", p["num"]):
+        if roman and not re.fullmatch(roman_part, p["num"]):
             continue
         secs = nums(p["sections"])
         parts.append({"num": p["num"], "heading": p["heading"],

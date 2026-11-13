@@ -1,0 +1,55 @@
+{
+ "cap": "SOR-2001-59",
+ "title": "Supervisory Information (Banks) Regulations",
+ "longTitle": "Supervisory Information (Banks) Regulations",
+ "instrument": "SOR/2001-59",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-59/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-59/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Prescribed Supervisory Information",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) For the purposes of section 637 of the Bank Act, the following information or any component of that information is prescribed supervisory information in relation to a bank:\n    (a) any rating assigned by the Superintendent to the bank to assess its financial condition and any other such rating that is substantially based on information obtained from the Superintendent;\n    (b) any stage of intervention assigned to the bank under the Guide to Intervention for Federal Financial Institutions;\n    (c) any order made in respect of the bank under subsection 485(3) of the Bank Act, any prudential agreement entered into by the bank under section 644.1 of that Act or any direction issued to it under section 645 of that Act;\n    (d) any report prepared by or at the request of the Superintendent or any recommendation made by the Superintendent as a result of an annual or special examination or other supervisory review of the bank, including any related correspondence to or from the directors or officers of the bank; and\n    (e) [Repealed, SOR/2011-196, s. 4]\n    (f) any category in which the bank is classified under the Canada Deposit Insurance Corporation Differential Premiums By-law and any premium rate assigned to it and any annual premium determined for it under that By-law.\n  (2) For the purposes of section 637 of the Bank Act, the information prescribed by the following regulations is prescribed supervisory information in relation to an affiliate of a bank:\n    (a) the Supervisory Information (Authorized Foreign Banks) Regulations, if the affiliate is an authorized foreign bank to which the Bank Act applies;\n    (b) the Supervisory Information (Cooperative Credit Associations) Regulations, if the affiliate is an association to which the Cooperative Credit Associations Act applies;\n    (c) the Supervisory Information (Insurance Companies) Regulations, if the affiliate is a company, society, foreign company or provincial company to which the Insurance Companies Act applies;\n    (d) the Supervisory Information (Trust and Loan Companies) Regulations, if the affiliate is a company to which the Trust and Loan Companies Act applies;\n    (e) the Supervisory Information (Bank Holding Companies) Regulations, if the affiliate is a bank holding company to which the Bank Act applies; and\n    (f) the Supervisory Information (Insurance Holding Companies) Regulations, if the affiliate is an insurance holding company to which the Insurance Companies Act applies."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Prohibited Disclosure",
+   "status": "in-effect",
+   "part": null,
+   "text": "  Subject to sections 3 and 4, a bank shall not, directly or indirectly, disclose information referred to in section 1."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Limited Disclosure",
+   "status": "in-effect",
+   "part": null,
+   "text": "  A bank may disclose information referred to in section 1 to its affiliates or to its directors, officers, employees, auditors, securities underwriters or legal advisors, or to those of its affiliates, if the bank ensures that the information remains confidential."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Limited Disclosure",
+   "status": "in-effect",
+   "part": null,
+   "text": "  A bank or any of its affiliates may disclose information referred to in paragraph 1(1)(c) if the bank or affiliate considers the information to contain a material fact or material change that is required by the securities laws of the relevant jurisdiction to be disclosed."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Coming into Force",
+   "status": "in-effect",
+   "part": null,
+   "text": "  These Regulations come into force on the day on which they are registered."
+  }
+ ],
+ "schedules": []
+}

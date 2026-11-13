@@ -39,10 +39,16 @@ export function StatuteText({ extract, open = 'Read the statute text' }: { extra
           className="whitespace-pre-wrap px-3.5 py-3 font-serif text-[15px] leading-relaxed text-ink/90 focus-visible:outline-offset-[-2px] sm:max-h-96 sm:overflow-auto"
         >
           {extract.text}
-          {extract.truncated && <span className="text-muted">{'\n'}… (continues on HKeL)</span>}
+          {extract.truncated && (
+            <span className="text-muted">
+              {'\n'}… (continues on {extract.source ? 'Justice Laws' : 'HKeL'})
+            </span>
+          )}
         </div>
         <div className="border-t border-line px-3.5 py-2 text-[11px] text-muted">
-          As at {formatDate(extract.versionDate)} · Hong Kong e-Legislation (DoJ) via DATA.GOV.HK · not a verified copy
+          {extract.source
+            ? `Current to ${formatDate(extract.versionDate)} · ${extract.source} · not the official version`
+            : `As at ${formatDate(extract.versionDate)} · Hong Kong e-Legislation (DoJ) via DATA.GOV.HK · not a verified copy`}{' '}
           ·{' '}
           <a href={extract.hkelUrl} target="_blank" rel="noreferrer" className="inline-block py-1 text-accent underline underline-offset-2">
             Official text ↗

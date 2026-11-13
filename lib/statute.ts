@@ -30,7 +30,10 @@ export interface StatuteExtract {
   heading: string;
   capTitle: string;
   versionDate: string;
+  // Link to the official text (HK e-Legislation, or the Justice Laws section).
   hkelUrl: string;
+  // Set for Canadian extracts: where the text comes from.
+  source?: string;
   part?: string;
   text?: string;
   truncated?: boolean;
