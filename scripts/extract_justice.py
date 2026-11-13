@@ -66,6 +66,7 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("SOR-2023-229", "regulations", None),  # Retail Payment Activities Regulations
     ("SOR-96-542", "regulations", None),    # CDIC Deposit Insurance Information By-law
     ("SOR-2010-292", "regulations", None),  # CDIC Data and System Requirements By-law
+    ("SOR-2026-133", "regulations", None),  # Real-Time Rail By-law (Payments Canada)
 ]
 
 # Acts without an official short title, named as they are commonly cited.
