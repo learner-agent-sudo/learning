@@ -296,6 +296,7 @@ export interface MaterialityKit {
     pending?: string;
     unsureNote?: string;
     conditionTitle?: string;
+    assessTitle?: string;
   };
   // Asked in order: is it outsourcing, and is it banking-related?
   gates: MaterialityQuestion[];

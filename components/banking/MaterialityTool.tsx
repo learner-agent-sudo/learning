@@ -63,6 +63,7 @@ const HK_LABELS = {
   unsureNote:
     "You were not sure it is banking-related, so it is treated as banking-related; SA-2 1.3.2 says to seek the HKMA's advice when in doubt.",
   conditionTitle: 'Signing before the HKMA discussion ends',
+  assessTitle: 'Assess one deployment',
 };
 
 const labelsOf = (kit: MaterialityKit) => ({ ...HK_LABELS, ...kit.labels });
@@ -291,7 +292,7 @@ export function MaterialityTool({ kit }: { kit: MaterialityKit }) {
 
       <section id={BANK_SECTION.matAssess} aria-labelledby="materiality-questions">
         <SectionTitle>
-          <span id="materiality-questions">Assess one deployment</span>
+          <span id="materiality-questions">{L.assessTitle}</span>
         </SectionTitle>
         <div className="mb-4 flex flex-wrap items-end gap-3">
           <label className="min-w-[14rem] flex-1">

@@ -102,7 +102,7 @@
      "**FCAC:** Supervises compliance with the consumer provisions, including Bank Act Part XII.2. Penalties for violations can reach $10 million (FCAC Act s.19(2)).",
      "**FINTRAC:** Administers the PCMLTFA for banks as reporting entities (PCMLTFA s.5(a)).",
      "**CDIC:** Insures deposits and acts as the resolution authority for its member institutions (CDIC Act s.7(a), (d)).",
-     "**Privacy and payments:** The Privacy Commissioner oversees PIPEDA for commercial personal information. The Bank of Canada oversees payment activity and registers non-bank payment providers under the RPAA (banks' own retail payments are excluded, s.9(a)). It is also to administer the consumer-driven banking framework (Part 2 of Bill C-8; check commencement). The Competition Bureau and CRTC sit outside this stage. Payments Canada membership is mandatory for all banks."
+     "**Privacy and payments:** The Privacy Commissioner oversees PIPEDA for commercial personal information. The Bank of Canada oversees payment activity and registers non-bank payment providers under the RPAA (banks' own retail payments are excluded, s.9(a)). It is also to administer the consumer-driven banking framework under the Consumer-Driven Banking Act (S.C. 2026, c. 3). Most of it depends on an order, so check commencement.. The Competition Bureau and CRTC sit outside this stage. Payments Canada membership is mandatory for all banks."
     ]
    },
    {
@@ -383,7 +383,7 @@
    },
    {
     "term": "authorized foreign bank",
-    "definition": "A foreign bank authorized under the Bank Act to carry on business in Canada through an agency or other office in Canada."
+    "definition": "A foreign bank authorized under Bank Act Part XII.1 to carry on business in Canada through a branch. Such banks are listed in Schedule III."
    },
    {
     "term": "OSFI guideline",
@@ -407,7 +407,7 @@
    },
    {
     "term": "third-party arrangement",
-    "definition": "Any business or strategic arrangement with an outside party, by contract or otherwise, including outsourcing, cloud services and services from group companies (B-10)."
+    "definition": "Any business or strategic arrangement with an outside party, by contract or otherwise, including outsourcing, cloud services and services from group companies (B-10). Arrangements with customers and employment contracts are excluded."
    }
   ]
  },
@@ -546,7 +546,7 @@
     "lede": "Two perimeter rules catch most fintech launches: who may take deposits, and who may use the word bank.",
     "points": [
      "**Deposit routes:** A bank may accept deposits in Canada only if it is a [[Member institution|member institution]] under the CDIC Act, is authorized to take deposits without membership, or its order to commence business allows the limited deposits in s.413(3) (s.413(1)).",
-     "**Small deposits:** A non-member bank must ensure that, each day from 30 days after its authorization, deposits under $150,000 payable in Canada (averaged over the preceding 30 days) are at most 1% of all deposits payable in Canada (s.413(3)). Its agents may not take those deposits except as the regulations allow (s.413.2(1)).",
+     "**Small deposits:** A non-member bank must ensure that, each day from 30 days after its authorization, deposits under $150,000 payable in Canada (averaged over the preceding 30 days) are at most 1% of all deposits payable in Canada (s.413(3)). It may not act as agent for any person in taking those deposits, except as the regulations allow (s.413.2(1)).",
      "**Use of the word:** It is an offence for a person other than a bank to use “bank”, “banker” or “banking” to describe its business, products or services in Canada, unless authorized (s.983(2.1)). Causing or authorizing another person to do so is also an offence (s.983(2.11)).",
      "**Connection statements:** No one may say its business is connected or affiliated with a bank or foreign bank without authority (s.983(2.3))."
     ],
@@ -783,7 +783,7 @@
    },
    {
     "term": "Member institution",
-    "definition": "An institution that is a member of the Canada Deposit Insurance Corporation under the CDIC Act. A bank taking deposits in Canada must be one, or have another route (Bank Act s.413(1))."
+    "definition": "A corporation that has deposit insurance under the CDIC Act (C-3 s.2). A bank taking deposits in Canada must be one, or have another route (Bank Act s.413(1))."
    },
    {
     "term": "Business of banking",
@@ -886,7 +886,7 @@
      "**Conditions:** The order may carry conditions or limitations on the bank's business (s.53(1)). The Superintendent may later vary them, after giving the bank a chance to make representations (s.54(1)).",
      "**Public notice:** The bank must publish notice of the order in a local newspaper, and the Superintendent publishes it in the Canada Gazette (s.56).",
      "**Unlike Hong Kong:** The HKMA's authorization under s.16 of the Banking Ordinance is one licensing decision, assessed against the Seventh Schedule criteria. Canada uses two decisions, so the timetable needs two sets of milestones.",
-     "**Ownership approval:** Acquiring a significant interest in a bank needs the Minister's approval (s.373(1)). A major shareholder, meaning a holder of more than 20% of a class of voting shares (s.2.2), faces further limits (s.372, and s.374 for a bank with equity of $12 billion or more). The ownership approval can run alongside the two charter decisions."
+     "**Ownership approval:** Acquiring a significant interest in a bank needs the Minister's approval (s.373(1)). A major shareholder, meaning a holder of more than 20% of a class of voting shares, or more than 30% of a non-voting class (s.2.2), faces further limits (s.372, and s.374 for a bank with equity of $12 billion or more). The ownership approval can run alongside the two charter decisions."
     ],
     "takeaway": "Plan the timetable around two approvals, and check that any order conditions are achievable at launch."
    },
@@ -986,7 +986,7 @@
     "points": [
      "**Membership:** The bank may accept deposits in Canada only as a member institution, or under one of the authorizations in s.413(1).",
      "**Insurance limit:** CDIC insures each deposit with a member, but not the part of any one deposit above $100,000 (C-3 s.12(c)). CDIC's category rules then decide what each depositor is covered for (reported; check).",
-     "**Small deposits:** A non-member bank must keep deposits under $150,000 at no more than 1% of its deposits (s.413(3)), and may not act as agent for taking them (s.413.2).",
+     "**Small deposits:** A non-member bank must keep deposits under $150,000 at no more than 1% of all deposits payable in Canada (averaged over the preceding 30 days, from the 30th day after authorization) (s.413(3)), and may not act as agent for taking them (s.413.2).",
      "**Foreign branches:** An authorized foreign bank that is not subject to the s.524(2) restrictions may not act as agent for taking deposits under $150,000 payable in Canada (s.546).",
      "**Foreign banks:** A foreign bank may enter as a Schedule II subsidiary, or operate in Canada through a branch as an authorized foreign bank under Part XII.1, with an order under s.524(1) listed in Schedule III (s.14.1). A branch that is not subject to the s.524(2) restrictions may not act as agent for taking deposits under $150,000 (s.546(1)). A subsidiary's deposit route runs through s.413."
     ],
@@ -1083,7 +1083,7 @@
     "instrument": "Bank Act (S.C. 1991, c. 46)",
     "ref": "s.413(1), (3)",
     "title": "Restriction on deposit taking",
-    "summary": "A bank may accept deposits in Canada only if it is a CDIC member institution, or if it is authorized to take deposits without membership, or if its order permits deposits solely in accordance with s.413(3). Deposits under $150,000 held by a non-member bank must stay at or below 1% of its deposits.",
+    "summary": "A bank may accept deposits in Canada only if it is a CDIC member institution, or if it is authorized to take deposits without membership, or if its order permits deposits solely in accordance with s.413(3). Deposits under $150,000 held by a non-member bank must stay at or below 1% of all deposits payable in Canada (averaged over the preceding 30 days, from the 30th day after authorization).",
     "counselNote": "A bank that takes deposits on the usual route is a CDIC member from the order. Any non-member route is an exception that needs its own analysis, including the 1% test.",
     "confidence": "high",
     "cap": "B-1.01",
@@ -1207,7 +1207,7 @@
   "oneLiner": "Who may own a Canadian bank, who must sit on its board, and what the board must oversee, including its vendors.",
   "keyPoints": [
    "**Ownership:** A holder of more than 10% of a class of shares has a [[significant interest|significant interest]]. Acquiring or increasing one needs the Minister's approval under s.373.",
-   "**Major shareholders:** A holder of more than 20% of voting shares is a major shareholder. No person may be a major shareholder of a bank with equity of $12 billion or more, subject to exceptions in s.374(2) to (6), so the ownership plan must be set before the bank grows.",
+   "**Major shareholders:** A holder of more than 20% of voting shares, or more than 30% of a non-voting class, is a major shareholder. No person may be a major shareholder of a bank with equity of $12 billion or more, subject to exceptions in s.374(2) to (6), so the ownership plan must be set before the bank grows.",
    "**Directors:** The bank needs at least seven directors, a Canadian-resident majority, and no more than two thirds affiliated with the bank (ss.159, 163).",
    "**Board duty:** The directors manage or supervise the bank's business and must set up audit and conduct review committees and conflict procedures (s.157).",
    "**Related-party contracts:** Services bought for the ordinary course of business need a written contract (s.495(1)(a)); transactions with insiders and group companies must be on market terms (s.501(1)), and the conduct review committee oversees the procedures (s.195(3)).",
@@ -1600,7 +1600,7 @@
    },
    {
     "term": "responsible persons",
-    "definition": "Directors and senior management who must be assessed for integrity and suitability under OSFI Guideline E-17 and the Integrity and Security Guideline."
+    "definition": "Persons who must be assessed for integrity and suitability. Directors and senior management are assessed under E-17. Under the Integrity and Security Guideline (Principle 6) risk-based background checks also cover employees and contractors."
    },
    {
     "term": "oversight functions",
@@ -1759,7 +1759,7 @@
      "**Records (s.643(2)(a)):** OSFI's right of access reaches records held by or on behalf of the bank, so records a provider holds for the bank fall within it. The bank's records must generally be kept at its head office or another place in Canada (s.239(1)), with limited exceptions in s.239(3) and (3.1).",
      "**Continuity (2.3.4.1):** The provider should set out its continuity measures, test its business continuity and disaster recovery plans regularly, share the results and fix material gaps. The bank plans for severe but plausible disruption.",
      "**[[Exit plans|exit plan]] (2.3.5.1):** For high-risk and critical arrangements, set triggers and two playbooks, one for a stressed exit after provider failure and one for a planned exit. Check the notice and post-termination service terms in the contract.",
-     "**Resolution (CDIC Act s.39.15):** After an order under CDIC Act s.39.13(1), made by the Governor in Council, no one may terminate or amend the bank's agreement only because of insolvency, the order, a change of control or a monetary default that is remedied within 60 days after the order. Contrary terms have no effect (see stage 13)."
+     "**Resolution (CDIC Act s.39.15):** Once the Governor in Council makes an order under s.39.13(1), no one may terminate, amend or accelerate the bank's agreement only because of its insolvency, the order or a related change of control, a pre-order default (a monetary one only if remedied within 60 days), or a transfer to a bridge institution or third party. Contrary terms have no effect (see stage 13)."
     ],
     "takeaway": "Exit and resolution terms matter most when the bank is weakest, so draft them at signing."
    },
@@ -1849,7 +1849,7 @@
     "instrument": "Bank Act (S.C. 1991, c. 46)",
     "ref": "s.245(1), (1.1), (2)",
     "title": "Requirement to maintain copies and process information in Canada",
-    "summary": "The Superintendent must direct a bank not to keep copies of its records, or process related data, abroad where that is incompatible with OSFI's responsibilities or the Minister advises it is against the national interest. Where a bank exempt under s.239(3.1) or s.251(3) keeps records outside Canada, OSFI may order a Canadian copy if it lacks immediate, direct, complete and ongoing access, and the bank must comply without delay.",
+    "summary": "The Superintendent must direct a bank not to keep copies of its records, or process related data, abroad where that is incompatible with OSFI's responsibilities or the Minister advises it is against the national interest. Where a bank exempt under s.239(3.1) or s.251(3) keeps records outside Canada, OSFI may order a Canadian copy if it lacks immediate, direct, complete and ongoing access; where the Minister advises that foreign holding is not in the national interest, OSFI must order one (s.245(1.1)(b)), and the bank must comply without delay.",
     "counselNote": "Before a vendor hosts or processes record data outside Canada, check this section, and keep the contract able to deliver a Canadian copy quickly. The Canadian-copy power applies only to a bank exempt under s.239(3.1) or s.251(3).",
     "url": "https://laws-lois.justice.gc.ca/eng/acts/B-1.01/",
     "cap": "B-1.01",
@@ -1968,7 +1968,7 @@
    },
    {
     "term": "critical operations",
-    "definition": "The bank's services, products or functions whose disruption could put at risk its continued operation, safety and soundness, or role in the financial system."
+    "definition": "A service, product or function whose disruption would put the bank's continued operations or safety and soundness at risk, or harm other institutions because of its interconnectedness."
    },
    {
     "term": "TPRMF",
@@ -2162,7 +2162,7 @@
       "hk": "Intragroup services",
       "term": "related-party",
       "change": "stronger",
-      "note": "Statute in Canada: Part XI of the Bank Act permits services from a related party only by written contract (s.495(1)(a)), on terms at least as favourable as market terms (s.501), under the conduct review committee's procedures (s.195). B-10 treats group companies as third parties."
+      "note": "Statute in Canada: Part XI of the Bank Act permits a written contract to buy services used in the ordinary course (s.495(1)(a)), subject to the Superintendent's order power in s.495(2), on terms at least as favourable as market terms (s.501), under the conduct review committee's procedures (s.195). B-10 treats group companies as third parties."
      },
      {
       "hk": "Onboarding, screening and monitoring vendors (AML)",
@@ -2397,7 +2397,9 @@
       "id": "quebec",
       "label": "Quebec customers or data",
       "terms": [
-       "french-language"
+       "french-language",
+       "privacy-processor",
+       "location"
       ],
       "default": false
      },
@@ -2490,8 +2492,8 @@
       ],
       "compromise": [
        "(a) Bank Data shall be stored, processed and accessed only in the countries and regions listed in [Schedule [ ]], including by Subcontractors and for support.",
-       "(b) The Supplier may add a country only on at least [90] days' written notice, with the information the Bank needs to assess it. No Bank Data goes there while an objection by the Bank is open, and if an objection is not resolved within [30] Business Days the Bank may end the affected Services without charge and with exit assistance.",
-       "(c) The Supplier shall move Bank Data, or stop a Service in a location, within [10] Business Days after the Bank notifies it that a Regulator or Applicable Law requires this, and shall bear the cost of doing so."
+       "(b) The Supplier may add a country only on at least [60] days' written notice, with the information the Bank needs to assess it. No Bank Data goes there while an objection by the Bank is open, and if an objection is not resolved within [30] Business Days the Bank may end the affected Services without charge and with exit assistance.",
+       "(c) The Supplier shall move Bank Data, or stop a Service in a location, within the time the Bank specifies so that the Bank can comply with the direction, where a Regulator or Applicable Law requires this, and shall bear the cost of doing so."
       ],
       "holdLine": "No new country or hosting move by notice alone: the bank keeps an objection right, nothing moves while an objection is open, and it may exit without charge if the objection is not resolved."
      },
@@ -2525,8 +2527,8 @@
        "Integrity and Security Guideline, Principle 9"
       ],
       "compromise": [
-       "(a) The Supplier shall not sub-contract any Critical Service without the Bank's prior written consent.",
-       "(b) For any other Subcontractor that stores, processes or can access Bank Data, the Supplier gives at least [30] days' written notice of its identity, location and role. If the Bank reasonably objects and the objection is not resolved, the Bank may end the affected Services without penalty.",
+       "(a) The Supplier shall not sub-contract any Critical Service, or any part of the Services under which a Subcontractor stores, processes or can access Bank Data, without the Bank's prior written consent.",
+       "(b) For any other Subcontractor, the Supplier gives at least [30] days' written notice of its identity, location and role. If the Bank reasonably objects and the objection is not resolved, the Bank may end the affected Services without penalty.",
        "(c) The Supplier remains responsible for each Subcontractor as for itself, binds each one that holds or can access Bank Data to terms no less protective on confidentiality, data protection, security, Incidents, audit and Regulator access, and keeps a current register of them for the Bank."
       ],
       "holdLine": "No release of the provider from responsibility for its Subcontractors, and no Subcontractor that can reach Bank Data is added without notice, a right for the bank to object, and the same audit and Regulator access terms."
@@ -2542,7 +2544,7 @@
        "Critical Cyber Systems Protection Act (Bill C-8; commencement by order)"
       ],
       "compromise": [
-       "(a) The Supplier shall give the Bank at least [90] days' written notice of any change that materially reduces the Services, alters the Bank's rights under this Agreement, or changes the Supplier's ownership or control.",
+       "(a) The Supplier shall give the Bank at least [60] days' written notice of any change that materially reduces the Services, alters the Bank's rights under this Agreement, or changes the Supplier's ownership or control.",
        "(b) No change to the terms of this Agreement that is adverse to the Bank binds the Bank unless the Bank agrees in writing. The Supplier may make other changes to the Services by notice.",
        "(c) The Supplier shall notify the Bank promptly of any significant change in its organization or operations, and of any material non-compliance with Applicable Law or litigation that may affect the Services."
       ],
@@ -2563,7 +2565,7 @@
       ],
       "compromise": [
        "(a) The Supplier shall notify the Bank of any Incident affecting the Services or Bank Data without undue delay, and in any case within [4] hours after it becomes aware of it, with the information the Bank needs to meet its reporting duties to Regulators and individuals.",
-       "(b) The Supplier shall give updates at least [daily] until the Incident is contained, a written root-cause report within [10] Business Days after it is resolved, and shall cooperate with the Bank and any Regulator, including by providing evidence and logs.",
+       "(b) The Supplier shall give updates at least [daily] until the Incident is contained, a written root-cause report within [10] Business Days after containment, and shall cooperate with the Bank and any Regulator, including by providing evidence and logs.",
        "(c) The Supplier shall notify the Bank of an Incident at a Subcontractor within the same period. The Bank alone decides whether an Incident is reportable to a Regulator or to individuals."
       ],
       "holdLine": "No notice period that leaves the bank without time to report to OSFI within 24 hours, no decision on reportability left to the provider, and root cause shared with the bank."
@@ -2634,7 +2636,7 @@
       ],
       "compromise": [
        "(a) On expiry or termination for any reason, the Supplier shall continue to provide the Services for the Exit Period at the then current charges, and shall give the Bank exit assistance in accordance with the exit plan in [Schedule [ ]].",
-       "(b) The Supplier shall return all Bank Data and Records to the Bank, in a usable format and without unreasonable expense, within [30] days after the Bank requests it, and shall delete them only on the Bank's instruction.",
+       "(b) The Supplier shall return all Bank Data and Records to the Bank, in a usable format and without unreasonable expense, within [10] Business Days after the Bank requests it, and shall delete them only on the Bank's instruction.",
        "(c) The Bank may terminate the affected Services without liability on written notice if a Regulator requires it, or if the Supplier breaches [the confidentiality, security, location or Incident clauses] and does not cure the breach within [30] days."
       ],
       "holdLine": "No termination or suspension that cuts off the bank's exit: the bank keeps the Services through the Exit Period, gets its data back in a usable format, and can terminate without liability when a Regulator requires it."
@@ -2668,7 +2670,7 @@
       ],
       "compromise": [
        "(a) This Agreement is governed by the laws of [Ontario] and the federal laws of Canada applicable there, and the courts of [Toronto, Ontario] have non-exclusive jurisdiction over disputes, without limiting any Regulator's rights under Applicable Law.",
-       "(b) The parties shall first refer a dispute to senior executives for [30] days. Pending resolution, the Supplier shall continue to perform the Services, and the Bank shall continue to pay undisputed amounts.",
+       "(b) The parties shall first refer a dispute to senior executives within [5] Business Days, and try to resolve it within [15] Business Days. Pending resolution, the Supplier shall continue to perform the Services, and the Bank shall continue to pay undisputed amounts.",
        "(c) Nothing in this clause prevents the Bank or a Regulator from seeking urgent relief in any court, or requires a Regulator's requirement to go through the dispute process."
       ],
       "holdLine": "No governing law, forum or dispute process that lets the provider stop the Services or the Regulator's access while a dispute is open, or that routes a Regulator's requirement through the dispute process."
@@ -2703,7 +2705,7 @@
       ],
       "compromise": [
        "(a) The Supplier shall give the Bank a written report each [month] covering performance against the service levels in [Schedule [ ]], incidents, changes to Subcontractors and locations, and the risk measures in [Schedule [ ]], and shall give the Bank on request any financial information it reasonably needs to assess the Supplier's soundness.",
-       "(b) The Supplier shall notify the Bank within [5] Business Days of any event that may materially affect the Services, Bank Data or the Supplier's financial condition.",
+       "(b) The Supplier shall notify the Bank within [2] Business Days of any event that may materially affect the Services, Bank Data or the Supplier's financial condition.",
        "(c) The Supplier shall meet the Bank at least [quarterly] to review performance, risks and remediation, and shall change its reporting where the Bank reasonably asks in order to meet OSFI's expectations."
       ],
       "holdLine": "No reporting that stops without notice, leaves the bank unable to see service, risk and financial soundness, or waits for the provider's convenience to disclose an event that may materially affect the Services."
@@ -2718,7 +2720,7 @@
       "all"
      ],
      "home": "main",
-     "summary": "The main agreement must say, in enough detail to test, what the Supplier provides, where, for what fees and against what measures. OSFI expects arrangements to have a written agreement where a customised contract is feasible, and prefers a written contract for every third-party arrangement (B-10, 2.3.1.1, 3.2.1), and the same terms become the yardstick the bank uses to monitor performance and to test its tolerances for disruption. Unlike SA-2, B-10 has no materiality gate, so the expectation applies to every arrangement, scaled to risk.",
+     "summary": "The main agreement must say, in enough detail to test, what the Supplier provides, where, for what fees and against what measures. OSFI expects arrangements to have a written agreement where a customised contract is feasible, and prefers a written contract for every third-party arrangement (B-10, 2.3.1.1, 3.2.1), and the same terms become the yardstick the bank uses to monitor performance and to test its tolerances for disruption. Unlike SA-2, B-10 has no advance-discussion gate, so the expectation applies to every arrangement, scaled to risk.",
      "require": [
       "**Written agreement:** arrangements should have a written contract or agreement, such as an SLA, setting out each party's rights and responsibilities, reviewed by the bank's legal counsel (OSFI Guideline B-10, Principle 6, 2.3.1.1). This is OSFI guidance, not statute.",
       "**Scope and location:** for high-risk and critical arrangements, OSFI expects the agreement to set the nature and scope of the services, their frequency, content and format, the duration and the physical location of the services (B-10, Annex 2, item 1).",
@@ -3020,7 +3022,7 @@
       "**Annual examination:** the Superintendent must examine each bank at least once a calendar year, including whether it has adequate policies and procedures against threats to its integrity or security and whether it follows them (Bank Act s.643(1)). The vendor's controls form part of that picture.",
       "**Evaluation rights:** the agreement gives the bank and OSFI the right to evaluate the third party's risk management practices, or to appoint independent auditors to do so, and to access audit reports on the service (OSFI expects; B-10, 2.3.3.3).",
       "**Timely data access:** the agreement addresses timely access to data by the bank and OSFI on request, and the Supplier's controls over it (OSFI expects; B-10, 2.3.2.1).",
-      "**Records held abroad:** where an exempt bank keeps records outside Canada, OSFI expects immediate, direct, complete and ongoing access to them (B-10, 2.3.2.2). If OSFI lacks that access, the Superintendent may order a copy kept in Canada (Bank Act s.245(1.1), which applies only to a bank exempt under s.239(3.1) or s.251(3)).",
+      "**Records held abroad:** where an exempt bank keeps records outside Canada, OSFI expects immediate, direct, complete and ongoing access to them (B-10, 2.3.2.2). If OSFI lacks that access, the Superintendent may order a copy kept in Canada (Bank Act s.245(1.1), which applies only to a bank exempt under s.239(3.1) or s.251(3)), and must do so if the Minister so advises (s.245(1.1)(b)).",
       "**Powers not constrained:** OSFI expects its supervisory powers not to be constrained, whether an activity is done in-house or outsourced (B-10, Overview)."
      ],
      "sources": [
@@ -3271,7 +3273,7 @@
       "preferred": [
        "**Records held in Canada:** the Supplier keeps Records in Canada at the places listed in a schedule, unless the Bank has confirmed in writing that an exemption applies (Bank Act s.239(1)).",
        "**Daily currency and format:** Records are updated and accurate as at the end of each Business Day, and electronic Records can be reproduced in intelligible written form within a reasonable time (B-10, 2.3.2.2; Bank Act s.239(5.1) permits an electronic system that can reproduce the records).",
-       "**Move or copy on direction:** the Supplier moves, stops processing or makes a copy in Canada of Records within [5] Business Days, or any shorter period a Regulator order requires (Bank Act s.245(1), (1.1), (2); drafting position on the period).",
+       "**Move or copy on direction:** the Supplier moves, stops processing or makes a copy in Canada of Records within the time the Bank specifies so that the Bank can comply with the direction (Bank Act s.245(1), (1.1), (2)).",
        "**Protection by the Supplier:** the Supplier takes reasonable precautions against loss, falsification and unauthorised access to Records, as the bank and its agents must (Bank Act s.244).",
        "**Records through disruption:** the Supplier keeps Records accessible to the Bank for its operations, its statutory duties and each Regulator request during a disruption (B-10, 2.3.4.1)."
       ],
@@ -3288,7 +3290,7 @@
        "(a) Location. The Supplier shall keep the Records, and each copy and backup of them, only at the places in Canada listed in [Schedule [ ] (Locations)], unless the Bank has confirmed in writing that they may be kept elsewhere. The Supplier shall give the Bank [30] days' notice of any proposed change of location, and no change may take effect without the Bank's written consent.",
        "(b) Currency and format. The Supplier shall keep the Records updated and accurate as at the end of each Business Day, and shall keep electronic Records in a form that can be reproduced in intelligible written form within a reasonable time using commercially available software.",
        "(c) Protection. The Supplier shall take reasonable precautions to prevent loss or destruction of, and falsification of entries in, the Records, to facilitate detection and correction of inaccuracies, and to ensure that unauthorised persons do not have access to or use of them.",
-       "(d) Directions. The Supplier shall comply, and shall enable the Bank to comply without delay, with any direction or order of the Regulator requiring the Bank to stop keeping copies of Records or processing related data outside Canada, or to keep a copy in Canada. The Supplier shall make the necessary copy or move within [5] Business Days, or any shorter period the Regulator sets.",
+       "(d) Directions. The Supplier shall comply, and shall enable the Bank to comply without delay, with any direction or order of the Regulator requiring the Bank to stop keeping copies of Records or processing related data outside Canada, or to keep a copy in Canada. The Supplier shall make the necessary copy or move within the time the Bank specifies so that the Bank can comply with the direction.",
        "(e) Access. The Supplier shall give the Bank and the Regulator immediate, direct, complete and ongoing access to the Records, wherever they are kept, on request and in a form they can read. The Supplier shall not delay or condition that access.",
        "(f) Records in disruption. During any disruption, the Supplier shall keep the Records accessible to the Bank for its operations, its statutory duties and each Regulator request, and shall return them in accordance with [the termination clause] at the end of the Exit Period."
       ],
@@ -3985,7 +3987,7 @@
       {
        "label": "Critical Cyber Systems Protection Act (S.C. 2026, c. 9)",
        "ref": "s.14",
-       "strength": "proposal",
+       "strength": "statute",
        "note": "Enacted 15 June 2026 as Part 2 of Bill C-8 (S.C. 2026, c. 9); not in force as at November 2026. Classes of designated operators are set by order; check whether a banking class has been designated."
       }
      ],
@@ -4092,7 +4094,7 @@
       "why": "B-10 is a guideline, but its Section 2 minimum expectations for critical and high-risk arrangements make continuity terms essential there. OSFI can direct a bank to stop an unsafe or unsound practice and to remedy it (Bank Act s.645(1)), so the Bank needs the contractual evidence to show it meets those expectations.",
       "preferred": [
        "**Full continuity commitment:** the Supplier maintains, tests and updates documented continuity and disaster recovery plans for the Services, covering severe but plausible disruption, including prolonged or multiple disruptions at once (B-10 2.3.4.1).",
-       "**Test cadence and results:** tests at a frequency proportionate to criticality and after significant change, with a written summary to the Bank within [10] Business Days and fixes for material deficiencies within [60] days (drafting inference; B-10 2.3.4.1 requires notice of results and remediation; E-21 3.3, 4.1.3 for joint testing).",
+       "**Test cadence and results:** tests at a frequency proportionate to criticality and after significant change, with a written summary to the Bank within [10] Business Days and fixes for material deficiencies within [60] days (drafting inference; OSFI expects notice of results and remediation under B-10 2.3.4.1; E-21 3.3, 4.1.3 for joint testing).",
        "**Joint scenario exercises:** participation in the Bank's severe but plausible scenario exercises for Critical Services, using tabletop, simulation or live-systems testing as criticality requires (E-21 3.3).",
        "**Redundancy and recovery targets:** recovery time and recovery point objectives for each Critical Service in a schedule, redundancy matched to criticality, and access to Records during disruption (B-10 2.3.4.1, Annex 2 item 11; B-13 2.9.1).",
        "**Dependencies:** continuity plans cover the Supplier's own critical technology dependencies, on and off premises (B-13 2.9.3)."
@@ -4149,7 +4151,7 @@
      "summary": "The Supplier reports on performance and risk at the frequency the Bank sets, tells the Bank promptly of events that could materially affect risk or service, and supports the Bank's monitoring of its financial soundness. OSFI expects this under B-10 Principles 8 and 10. The Bank must be able to answer OSFI's requests about its third-party arrangements, and the contract has to make that possible.",
      "require": [
       "**Reporting content and frequency:** the agreement sets the type and frequency of reports, including performance and risk measures (B-10 Principle 8, 2.3.3.1). Reports should carry thresholds that trigger escalation (B-10 2.4.1.2).",
-      "**Timely event reporting:** the Supplier must report in a timely way any event that may materially affect risk or service delivery (B-10 2.3.3.2). Incident reporting to OSFI has its own timetable under OSFI's Technology and Cyber Security Incident Reporting Advisory, an advisory rather than law (report within 24 hours or sooner, in writing); B-10 Principle 11, 2.4.2.1 requires timely notice.",
+      "**Timely event reporting:** the Supplier must report in a timely way any event that may materially affect risk or service delivery (B-10 2.3.3.2). Incident reporting to OSFI has its own timetable under OSFI's Technology and Cyber Security Incident Reporting Advisory, an advisory rather than law (report within 24 hours or sooner, in writing); OSFI expects timely notice under B-10 Principle 11, 2.4.2.1.",
       "**Ongoing monitoring:** the Bank monitors delivery and the Supplier's financial soundness, at a depth matched to risk and criticality (B-10 Principle 10, 2.4.1.1, 2.4.1.2). The Supplier must give what the Bank needs to confirm residual risk stays within appetite.",
       "**Information for OSFI:** the Bank must provide OSFI, on request, information about its third-party arrangements, risk management and control environments (B-10 Overview). The Superintendent may require access to records held by or on behalf of a bank (Bank Act s.643(2)(a)).",
       "**Board reporting:** the Bank reports tolerance and risk status to its board, so the Supplier's reports must be detailed enough to support that (E-21 1.1, 2.4.2; drafting inference)."
@@ -4192,7 +4194,7 @@
       "why": "OSFI expects reporting, event notice and monitoring rights in the agreement (B-10 Principles 8 and 10), but these are guideline terms, not statute. The access right in Bank Act s.643(2)(a) reaches records held for the Bank, so it sets the floor for what the Bank can be required to produce.",
       "preferred": [
        "**Defined reporting set:** a schedule of reports, metrics and frequency, including performance and risk measures, set at signing and changed only by agreement (B-10 Principle 8, 2.3.3.1).",
-       "**Prompt event reporting:** notice within [2] Business Days (drafting inference; B-10 2.3.3.2 requires timely reporting) after the Supplier becomes aware of any event that may materially affect its ability to perform or the risk to the Bank.",
+       "**Prompt event reporting:** notice within [2] Business Days (drafting inference; OSFI expects timely reporting under B-10 2.3.3.2) after the Supplier becomes aware of any event that may materially affect its ability to perform or the risk to the Bank.",
        "**Thresholds and early escalation:** agreed thresholds that trigger escalation to the Bank's named contact before a breach occurs (B-10 2.4.1.2).",
        "**Financial and risk monitoring:** the financial information needed to confirm the third party remains financially sound, and the information needed to confirm residual risk stays within appetite (B-10 Principle 10, 2.4.1.1).",
        "**Information for OSFI and the board:** a response within [5] Business Days to the Bank's requests for information it needs for OSFI or its board, with access to reports the Bank needs (B-10 Overview; Bank Act s.643(2)(a))."
@@ -4391,7 +4393,7 @@
       {
        "label": "Critical Cyber Systems Protection Act (S.C. 2026, c. 9)",
        "ref": "ss.9, 14, 15, 17, 18; Sch. 1, item 5",
-       "strength": "proposal",
+       "strength": "statute",
        "note": "Enacted (Royal Assent 15 June 2026); not in force as at November 2026. Check commencement and whether a banking class has been designated by order."
       },
       {
@@ -4418,7 +4420,7 @@
        "**Conditional activation:** the clause applies from the date the Bank gives written notice that it is a designated operator, and ends on written notice that it is no longer one. The Supplier cooperates with the Bank's review and program from then on (ss.9, 12, 13).",
        "**Program support:** the Supplier gives the Bank the information it reasonably needs for its supply-chain risk assessment, and mitigates each identified risk within [60] days or any shorter period the Bank needs to meet the Act (ss.9, 15).",
        "**Shorter incident clock:** the Supplier notifies the Bank of each cyber security incident affecting the Services within [4] hours, well inside the 72-hour ceiling for the Bank's own report (s.17).",
-       "**Change notices:** the Supplier gives the Bank [30] days' prior notice of any material change in its supply chain or use of third-party products, so the Bank can meet its own prescribed period (s.14).",
+       "**Change notices:** the Supplier gives the Bank at least [60] days' written notice (the period in the change-notice clause) of any material change in its supply chain or use of third-party products, so the Bank can meet its own prescribed period (s.14).",
        "**Regulator copies:** the Supplier gives the Bank, on request, a copy of any report it makes about a cyber security incident affecting the Services, to support the Bank's notice under s.18."
       ],
       "fallback": [
@@ -4433,7 +4435,7 @@
       "model": [
        "(a) Designation. If the Bank notifies the Supplier in writing that it is a designated operator under the Critical Cyber Systems Protection Act, this clause applies from the date of that notice until the Bank notifies the Supplier in writing that it is no longer one. Until then this clause has no effect.",
        "(b) Supply chain. The Supplier shall give the Bank the information it reasonably needs to identify and assess supply-chain and third-party cyber security risks relating to the Services, including each Subcontractor and each third-party product it uses. It shall mitigate each risk identified within [60] days, or any shorter period the Bank requires to meet that Act.",
-       "(c) Changes. The Supplier shall give the Bank at least [30] days' written notice before any material change in its supply chain or its use of third-party products and services that affects the Services, or as soon as it becomes aware of the change if that is sooner.",
+       "(c) Changes. The Supplier shall give the Bank at least [60] days' written notice before any material change in its supply chain or its use of third-party products and services that affects the Services, or as soon as it becomes aware of the change if that is sooner.",
        "(d) Incidents. The Supplier shall notify the Bank of each cyber security incident affecting the Services, Bank Data or Customer Data within [4] hours after it becomes aware of it, and shall give the Bank the information it needs to report that incident to the Communications Security Establishment within the period set by regulation under that Act.",
        "(e) Regulator notice. On request, the Supplier shall give the Bank a copy of any report it makes about a cyber security incident affecting the Services. It shall support the Bank in notifying a Regulator under that Act immediately after the Bank makes its report.",
        "(f) Changes in law. If regulations or orders under that Act change a time limit or a designation, the Bank may give notice requiring this clause to be amended to match, and the Supplier shall agree the amendment within [10] Business Days. [The termination and exit clause] applies if the parties cannot agree."
@@ -4455,7 +4457,7 @@
        },
        {
         "says": "We cannot tell you about supply-chain changes in advance.",
-        "reply": "The Act requires the designated operator to notify its regulator of material supply-chain changes within a prescribed period (s.14). The Bank can only do that if it hears of them first, so [30] days' prior notice is the practical minimum (drafting inference)."
+        "reply": "The Act requires the designated operator to notify its regulator of material supply-chain changes within a prescribed period (s.14). The Bank can only do that if it hears of them first, so prior notice on the change-notice clause's [60] days is the practical minimum (drafting inference)."
        }
       ],
       "escalate": "Suggested: General Counsel and the Chief Information Security Officer approve the drafting; any deviation on the designation trigger or the incident period goes to the Chief Risk Officer and the outsourcing committee, and the Bank's designation status should be reported to the board risk committee once known (drafting inference)."
@@ -5539,11 +5541,13 @@
      "home": "own",
      "summary": "Bank Act s.627.15 bars the bank from selling its products through an agent or intermediary unless that party complies with the consumer provisions as if it were an institution. The partner agreement has to carry those obligations across, together with training, pay, advertising and complaint access.",
      "require": [
-      "**Consumer provisions apply:** the bank may not arrange with, or cooperate with, its representatives, agents or intermediaries to sell or further the sale of its products or services (and, for a group finance entity, of an affiliate's products) unless they comply with the consumer provisions as if they were an institution (Bank Act s.627.15(a), statute).",
+      "**Consumer provisions apply:** the bank may not arrange with, or cooperate with, its representatives, agents or intermediaries to sell or further the sale of its products or services (and, for a group finance entity, of an affiliate's products) unless they comply with the consumer provisions as if they were an institution (Bank Act s.627.15(a), statute). A designated consumer provision breached by a financial institution can attract an administrative monetary penalty of up to $10 million (FCAC Act s.19(2), statute). Whether a partner's breach counts as the bank's violation under s.19(2) is for Legal to confirm (drafting inference).",
       "**Complaints and whistleblowing:** customers of the partner must have access to the bank's complaint procedures. Partner staff may report wrongdoing as if they were bank employees (s.979.2), and the anti-reprisal rule in s.979.4 applies to the partner (s.627.15(b), (c)(i)-(ii) and (d), statute).",
       "**Training, conduct and pay:** the bank must train anyone who sells its products (s.627.02). It must prevent false or misleading information (s.627.03) and undue pressure (s.627.04), keep advertising accurate (s.627.14), and ensure seller pay does not undermine compliance (s.627.07) (statute).",
       "**Insurance and networking:** the bank may act as agent for, or refer customers to, other financial institutions and permitted entities (s.411). It must not act in Canada as agent for anyone placing insurance (s.416(2), statute). Insurance promotion is also limited by ss.6-7.1 of the Insurance Business (Banks and Bank Holding Companies) Regulations, and branch space may not be leased to insurance placers (s.416(2)). An insurance partner needs Legal's sign-off before launch (drafting inference).",
-      "**Penalties:** a designated consumer provision breached by a financial institution can attract an administrative monetary penalty of up to $10 million (FCAC Act s.19(2), statute). Whether a partner's breach counts as the bank's violation under s.19(2) is for Legal to confirm (drafting inference)."
+      "**No customer data to insurers:** the Supplier must not provide, directly or indirectly, any insurance company, agent or broker with information about the Bank's customers in Canada (and the related persons listed in SOR/92-330 s.8(1)(a), statute). Where the Supplier is a subsidiary of the Bank, the Bank may not permit it to pass such information on (s.8(1)(b)).",
+      "**Bank as intermediary for another entity's product:** where the Bank acts as intermediary for a partner's product (s.627.16), the agreement must meet the requirements the regulations prescribe for it; Legal confirms those requirements before signing (drafting inference).",
+      "**Non-bank payment partners:** where a partner performs retail payment activities, it must be registered under the RPAA and keep that registration. It must notify the Bank without delay of an incident with a material impact (RPAA s.18(1)). The Bank of Canada expects its first incident notice within 48 hours after it determines the incident is material (reported; check the current expectation)."
      ],
      "sources": [
       {
@@ -5639,7 +5643,8 @@
        "**Bank-approved materials:** the Bank approves sales scripts, advertising and product disclosure before use. The Supplier's advertising is accurate, clear and not misleading (ss.627.03, 627.14).",
        "**Trained sellers:** each seller is trained on the Bank's policies and procedures before selling, with completion records the Bank can inspect (s.627.02).",
        "**Pay that does not reward poor sales:** commission and incentives are reviewed by the Bank against its appropriate-sales policies, with a right to require changes (s.627.07; drafting inference on the review right).",
-       "**Complaint and whistleblowing access:** customers see the Bank's complaint route, and partner staff can use the Bank's whistleblowing channels with protection from reprisal (s.627.15(b)–(d); s.979.4). See the complaints-routing clause."
+       "**Complaint and whistleblowing access:** customers see the Bank's complaint route, and partner staff can use the Bank's whistleblowing channels with protection from reprisal (s.627.15(b)–(d); s.979.4). See the complaints-routing clause.",
+       "**No customer data to insurers:** the Supplier must not provide, directly or indirectly, any insurance company, agent or broker with information about the Bank's customers in Canada (and the related persons listed in SOR/92-330 s.8(1)(a), statute). Where the Supplier is a subsidiary of the Bank, the Bank may not permit it to pass such information on (s.8(1)(b))."
       ],
       "fallback": [
        "**Partner's own training:** accept training delivered from the Supplier's own materials, only if the Bank approves the content and tests completion (s.627.02).",
@@ -6412,7 +6417,8 @@
      "Step 2 · Does it touch a critical operation, the bank's data, systems, records or customers?",
      "Step 3 · Is it high-risk or critical? Any yes makes it so on this screen"
     ],
-    "pending": "Answer the remaining questions: one yes would make it high-risk or critical."
+    "pending": "Answer the remaining questions: one yes would make it high-risk or critical.",
+    "assessTitle": "Assess one arrangement"
    },
    "gates": [
     {
@@ -6996,7 +7002,8 @@
      "**Recipients:** Notify OSFI's Technology Risk Division and the Lead Supervisor. Telephone followed by paper is a fallback only where electronic means fail.",
      "**Vendor triggers:** An incident is reportable where a third party's impact affects the bank, or where a third-party vendor declares a disaster that affects it. Appendix I gives a material third party's breach as an example.",
      "**Updates:** Expect regular updates, for example daily, situation updates until containment, and a post-incident report.",
-     "**Precaution:** When in doubt, report as a precaution. Failure to report can lead to more supervision, including watch-listing or staging of the bank."
+     "**Precaution:** When in doubt, report as a precaution. Failure to report can lead to more supervision, including watch-listing or staging of the bank.",
+     "**Payment partners (RPAA):** A payment service provider that performs retail payment activities has its own incident duties (RPAA ss.17-18). The Bank of Canada expects its first incident notice no later than 48 hours after it finds the incident material (reported; check)."
     ],
     "takeaway": "Write the vendor's notice duty so the bank can meet its own 24-hour clock without waiting for the vendor's root-cause analysis."
    },
@@ -7317,11 +7324,11 @@
      "id": "vendor",
      "who": "Vendor to the bank",
      "applies": "always",
-     "when": "Within [2] hours (contract clock, set by the bank)",
+     "when": "Within [4] hours (contract clock, set by the bank)",
      "marks": [
       {
        "col": "now",
-       "label": "Vendor notice: [2] hours"
+       "label": "Vendor notice: [4] hours"
       },
       {
        "col": "open",
@@ -7641,7 +7648,7 @@
       {
        "label": "Critical Cyber Systems Protection Act (S.C. 2026, c. 9)",
        "ref": "ss.17, 18",
-       "strength": "proposal",
+       "strength": "statute",
        "note": "Sections 17 and 18 of Bill C-8 as enacted (S.C. 2026, c. 9). Check commencement and the regulations."
       }
      ]
@@ -7649,7 +7656,7 @@
    ],
    "notes": [
     "**One clock sheet:** keep one incident clock sheet for the plan, with a named owner for each track. Several tracks can start on the same day, and the bank should not rely on one team to remember them.",
-    "**The vendor clock sits inside the OSFI clock:** a vendor notice at [2] hours leaves the bank time to assess and report within 24 hours. If the vendor waits, the bank has less time to report within the 24-hour window.",
+    "**The vendor clock sits inside the OSFI clock:** a vendor notice at [4] hours leaves the bank time to assess and report within 24 hours. If the vendor waits, the bank has less time to report within the 24-hour window.",
     "**Who decides real risk of significant harm:** the bank does, on the PIPEDA factors. Record the reasons for each decision, since the breach record must let the Commissioner check compliance (SOR/2018-64 s.6(2)).",
     "**Precautionary reports:** where an incident does not clearly meet an OSFI criterion, the Advisory encourages a precautionary notice. Decide early and record the decision.",
     "**Root cause comes from the vendor:** B-10 2.4.2.4 expects the bank to request a root cause analysis proportionate to severity, and to carry out its own where appropriate. Put that right in the contract.",
@@ -7671,7 +7678,7 @@
   "oneLiner": "The bank keeps its records in Canada or under OSFI's access, and it stays accountable for personal data its vendors handle.",
   "keyPoints": [
    "**Records:** The Bank Act requires the bank to keep prescribed records at its head office or another place in Canada, and the bank and its agents must protect them.",
-   "**Records abroad:** The Superintendent of Financial Institutions (OSFI) must direct a bank to keep copies or process data only in Canada where that is incompatible with OSFI's responsibilities, or the Minister advises it is not in the national interest. For an exempt bank, OSFI may order a copy kept in Canada if it lacks immediate, direct, complete and ongoing access.",
+   "**Records abroad:** OSFI must direct a bank to keep copies or process data only in Canada where foreign holding is incompatible with its responsibilities or the Minister advises it is not in the national interest (s.245(1)). For an exempt bank, OSFI may also order a copy kept in Canada (s.245(1.1)).",
    "**Accountability:** PIPEDA keeps the bank responsible for personal information it transfers to a vendor for processing, and the bank must use contracts or other means to protect it.",
    "**Breaches:** A breach that creates a real risk of significant harm must be reported to the Privacy Commissioner and to affected individuals as soon as feasible, and every breach must be recorded for 24 months.",
    "**Quebec:** Quebec's private-sector Act adds a privacy impact assessment and a written agreement before data leaves Quebec, and its own incident regime (reported; check).",
@@ -7742,11 +7749,11 @@
      "**National interest:** The same direction is required where the Minister advises that foreign holding is not in the national interest (s.245(1)).",
      "**[[Exempt banks|exempt bank]]:** A subsidiary of a foreign bank from a Schedule IV country, or of a regulated foreign entity, may keep records abroad (s.239(3.1)), subject to s.245(1.1). OSFI may then order a copy kept in Canada if it lacks immediate, direct, complete and ongoing access.",
      "**Compliance:** The bank must comply without delay with any order under s.245(1) or (1.1) (s.245(2)).",
-     "**Practical test:** For an exempt bank, OSFI's access test under s.245(1.1) decides whether it may order a copy kept in Canada. For other banks, the question is whether the Superintendent is of the opinion that foreign holding is incompatible with OSFI's responsibilities (s.245(1)). A contract with no access or audit rights makes the access test hard to meet (B-10, 2.3.3.3)."
+     "**Practical test:** For an exempt bank, OSFI may order a copy kept in Canada if it lacks immediate, direct, complete and ongoing access (s.245(1.1)(a)), and must do so if the Minister advises that foreign holding is not in the national interest (s.245(1.1)(b)). For other banks, the question is whether the Superintendent is of the opinion that foreign holding is incompatible with OSFI's responsibilities (s.245(1)). A contract without access or audit rights makes that test hard to meet (B-10, 2.3.3.3)."
     ],
     "visual": {
      "type": "flow",
-     "caption": "For an exempt bank, a foreign-held record stays lawful only while OSFI keeps its access.",
+     "caption": "For an exempt bank, a foreign-held record can be ordered back to Canada if OSFI loses its access or the Minister advises against foreign holding.",
      "items": [
       {
        "label": "Records held abroad",
@@ -7759,7 +7766,7 @@
       {
        "label": "Copy ordered to Canada",
        "value": "s.245(1.1)",
-       "rel": "follows if access fails"
+       "rel": "follows if access fails or the Minister advises"
       }
      ]
     }
@@ -7824,11 +7831,11 @@
     "lede": "Federal rules are not the only layer, and reform is still moving.",
     "points": [
      "**Quebec transfers:** Before communicating personal information outside Quebec, a business must carry out a [[privacy impact assessment]] and conclude a written agreement (reported; check s.17).",
-     "**Quebec service providers:** A written contract must set confidentiality measures, limit use and require deletion when the mandate ends (reported; check s.18.3).",
+     "**Quebec service providers:** A written contract must set confidentiality measures, limit use and prohibit retention after the mandate ends (reported; check s.18.3).",
      "**Quebec incidents:** A confidentiality incident with a risk of serious injury must be reported to the CAI and to affected persons, and every incident must go in a register (reported; check ss.3.5 to 3.8).",
      "**Supervisory information:** Ratings, stages and directions are [[prescribed supervisory information]] that the bank may not disclose to a vendor (SOR-2001-59 s.2).",
      "**Reform:** Bill C-27 died in January 2025. Bill C-36 (Protecting Privacy and Consumer Data Act) was introduced on 15 June 2026. As at November 2026 it was reported at second reading (check status).",
-     "**Consumer-driven banking:** The Consumer-Driven Banking Act (S.C. 2026, c. 3) makes the Bank of Canada its administrator and lets it accredit third-party service providers. Most of it depends on an order, so confirm the commencement status before relying on it."
+     "**Consumer-driven banking:** The consumer-driven banking Act enacted by S.C. 2026, c. 3 (replacing the 2024 Act; check the short title) makes the Bank of Canada its administrator and lets it accredit third-party service providers. Most of it depends on an order, so confirm the commencement status before relying on it."
     ],
     "visual": {
      "type": "compare",
@@ -7894,7 +7901,7 @@
     "instrument": "Bank Act, S.C. 1991, c. 46",
     "ref": "s.245(1), (1.1), (2)",
     "title": "Requirement to maintain copies and process information in Canada",
-    "summary": "The Superintendent must direct a bank to keep copies of records, or to process data, only in Canada where that is incompatible with OSFI's responsibilities or the Minister advises it is not in the national interest. Where an exempt bank (s.239(3.1) or s.251(3)) keeps records abroad, the Superintendent may order a copy kept in Canada if OSFI lacks immediate, direct, complete and ongoing access. The bank must comply without delay.",
+    "summary": "The Superintendent must direct a bank to keep copies of records, or to process data, only in Canada where that is incompatible with OSFI's responsibilities or the Minister advises it is not in the national interest. Where an exempt bank (s.239(3.1) or s.251(3)) keeps records abroad, the Superintendent may order a copy kept in Canada if OSFI lacks immediate, direct, complete and ongoing access; where the Minister advises that foreign holding is not in the national interest, the Superintendent must order one (s.245(1.1)(b)). The bank must comply without delay.",
     "counselNote": "For an exempt bank, this is the basis for OSFI's copy-back order where OSFI lacks immediate, direct, complete and ongoing access. Keep the access rights in the vendor contract strong enough to meet it at short notice.",
     "cap": "B-1.01",
     "section": "245",
@@ -7985,11 +7992,11 @@
     "kind": "guideline",
     "instrument": "OPC, draft guidance on assessing third-party service providers (2026)",
     "ref": "Draft, September 2026",
-    "title": "Assessing third-party service providers",
+    "title": "Assessing third-party service providers (draft guidance, proposed)",
     "summary": "The draft sets out what an organization should assess before engaging a provider, including subcontractors, storage locations, training data, breach handling, data portability and destruction at the end of the contract. Comments are open to 4 December 2026.",
     "counselNote": "This is a draft and is cited as proposed. Build the vendor questionnaire to it now, and check the final text when it is issued.",
     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/gd_third-party_202609/",
-    "confidence": "high"
+    "confidence": "medium"
    },
    {
     "kind": "statute",
@@ -8081,7 +8088,7 @@
    },
    {
     "term": "prescribed supervisory information",
-    "definition": "OSFI ratings, intervention stages, orders, prudential agreements and directions. The bank may disclose them only to listed persons who keep them confidential (SOR-2001-59 s.2)."
+    "definition": "OSFI ratings, intervention stages, orders, prudential agreements and directions. The bank may disclose them only to listed persons who keep them confidential, or under the securities-law exception in s.4 (SOR-2001-59 s.2)."
    },
    {
     "term": "privacy impact assessment",
@@ -8179,7 +8186,7 @@
      "**Referral and co-brand partners:** Referral is allowed under s.411. If the partner also sells, s.627.15 applies to that sale.",
      "**White-label and [[banking-as-a-service]] fintechs:** Check whether the bank acts as an intermediary for another entity's product (s.627.16). The prescribed requirements for that agreement are in the regulations, so check them before signing.",
      "**Deposit brokers, payment and identity partners:** Each is a third-party arrangement under B-10. Non-bank payment partners register under the RPAA, and identity agents work under PCMLTFR s.106.",
-     "**Scope rule:** B-10 applies to every partner arrangement, scaled to risk and criticality. Unlike SA-2, it has no materiality gate and no advance discussion with the regulator."
+     "**Scope rule:** B-10 applies to every partner arrangement, scaled to risk and criticality. Unlike the HKMA's advance discussion of banking-related outsourcing (SA-2 1.3.2), B-10 has no advance discussion with the regulator."
     ]
    },
    {
@@ -8242,8 +8249,8 @@
      "**Due diligence (s.33):** This is a defence only if the bank can show it exercised due diligence to prevent the violation, so keep the evidence from onboarding and monitoring.",
      "**Aiding (s.9):** Aiding, inducing, procuring or causing a partner's non-compliant message is itself prohibited.",
      "**Contests (Competition Act s.74.06):** Prize numbers and approximate values, the areas, and any fact that materially affects the chances of winning must be adequately and fairly disclosed, prizes must not be unduly delayed, and selection must be by skill or at random. Criminal Code s.206 also reaches some chance-based draws that require payment. Quebec has its own rules for publicity contests open to Quebec residents (reported; check before running a contest there).",
-     "**Payments (RPAA s.9(a)):** The Act does not apply to a bank's own retail payment activities. A non-bank payment partner must register and carry its own framework and incident duties (ss.17-18).",
-     "**Consumer-driven banking:** S.C. 2026, c. 3 adds accreditation for third-party service providers. Most of it comes into force by order, so confirm the commencement status before relying on it."
+     "**Payments (RPAA s.9(a)):** The Act does not apply to a bank's own retail payment activities. A non-bank payment partner must register and carry its own framework and incident duties (ss.17-18). A registered partner's first incident notice is expected within 48 hours of its determination that an incident is material (Bank of Canada expectation; reported; check).",
+     "**Consumer-driven banking:** The consumer-driven banking Act enacted by S.C. 2026, c. 3 (replacing the 2024 Act; check the short title) adds accreditation for third-party service providers. Most of it comes into force by order, so confirm the commencement status before relying on it."
     ],
     "takeaway": "Route every partner campaign and contest through counsel, with sender identity, consent and prize terms settled first."
    },
@@ -8508,7 +8515,7 @@
   "keyPoints": [
    "**Statutory duty:** Bank Act s.485(1) requires a bank to maintain adequate capital and adequate, appropriate liquidity, and to comply with the regulations that apply to them.",
    "**Guidelines:** OSFI sets the detail in its Capital Adequacy, Leverage and Liquidity Adequacy guidelines. OSFI expects compliance; the guidelines are not themselves law.",
-   "**Superintendent's direction:** Under s.485(3) the Superintendent can order a bank to increase capital or provide more liquidity, even when the bank complies with the rules.",
+   "**Superintendent's order:** Under s.485(3) the Superintendent can order a bank to increase capital or provide more liquidity, even when the bank complies with the rules.",
    "**Proportionality:** The SMSB guideline places non-D-SIB banks in three categories by total assets, loans and derivatives, so a new digital bank is categorised from its business plan, and an existing one from the threshold tests.",
    "**Deposit insurance:** CDIC insures each eligible deposit only up to $100,000 per category, and the bank must produce depositor data and stop withdrawals within hours of a CDIC instruction.",
    "**Counsel's role:** Tie capital headroom, dividend policy and data-processing contracts to these duties, and confirm that core banking and deposit vendors can meet the CDIC timetable."
@@ -8547,7 +8554,7 @@
      "**Duty:** s.485(1) requires adequate capital and adequate, appropriate liquidity, and compliance with any regulations on them. The directors manage the bank's business, so they own this duty in practice (s.157).",
      "**Rule-making:** s.485(2) lets the Governor in Council make regulations and the Superintendent make guidelines on capital, liquidity and, for D-SIBs, loss-absorbing capacity.",
      "**Direction:** s.485(3) lets the Superintendent order a bank to increase capital or provide additional liquidity, even while it complies with the guidelines. The bank must comply within the time the order sets (s.485(4)).",
-     "**Rule form:** Canada's main capital and liquidity standards are OSFI guidelines made under s.485(2), not Governor in Council regulations. The Superintendent's direction power under s.485(3) is the backstop."
+     "**Rule form:** Canada's main capital and liquidity standards are OSFI guidelines made under s.485(2), not Governor in Council regulations. The Superintendent's order power under s.485(3) is the backstop."
     ]
    },
    {
@@ -8623,7 +8630,7 @@
      "**Not covered:** mutual funds, stocks, bonds, ETFs and crypto-assets, including stablecoins, are outside coverage.",
      "**Data by-law:** SOR-2010-292 s.2 requires the bank to produce depositor data, identify insurance categories and stop withdrawals within six hours of CDIC's instruction. The bank must also keep policies to ensure these capabilities.",
      "**Disclosure:** SOR-96-542 s.6 governs brochure delivery at account opening. Location and display must not suggest that the bank is a member when it is not, or that an ineligible deposit is insured.",
-     "**Resolution:** CDIC Act s.39.15(1)(e) stops anyone from ending or amending an agreement with a member merely because of insolvency, the order or a change of control, so vendor termination-on-resolution clauses may not bite."
+     "**Resolution:** Once a CDIC order is made, s.39.15(1)(e) stops anyone ending or amending a member's agreement merely because of insolvency, the order, a change of control, a pre-order non-monetary default or an assignment to a bridge or third party (see stage 13), so vendor termination-on-resolution clauses may not bite."
     ]
    },
    {
@@ -8647,14 +8654,14 @@
        "note": "No payment where there are reasonable grounds to believe it would breach a s.485 rule or direction"
       },
       {
-       "label": "Direction to add capital",
+       "label": "Order to add capital",
        "value": "s.485(3)",
        "note": "Superintendent may order more capital or liquidity"
       }
      ]
     },
     "points": [
-     "**Dividend bar:** s.79(4) stops the directors declaring or the bank paying a dividend where there are reasonable grounds to believe the payment would breach a s.485 regulation or a s.485(3) direction.",
+     "**Dividend bar:** s.79(4) stops the directors declaring or the bank paying a dividend where there are reasonable grounds to believe the payment would breach a s.485 regulation or a direction under s.485(3).",
      "**Director exposure:** the Bank Act makes directors liable for a dividend paid contrary to s.79 (s.207(2)(c)), so the capital test belongs in the board paper.",
      "**Business plan:** an early-stage bank should show how losses reduce capital and liquidity over the planning period, and what it does if the plan misses."
     ],
@@ -8679,7 +8686,7 @@
     "instrument": "Bank Act",
     "ref": "s.79(2), (4)",
     "title": "Declaration of dividend or patronage allocation",
-    "summary": "Directors must notify the Superintendent at least 15 days before a dividend is paid. They must not declare or pay a dividend if there are reasonable grounds to believe the payment would breach a s.485 regulation or a s.485(3) direction.",
+    "summary": "Directors must notify the Superintendent at least 15 days before a dividend is paid. They must not declare or pay a dividend if there are reasonable grounds to believe the payment would breach a s.485 regulation or a direction made under s.485(3).",
     "counselNote": "Build the Superintendent notice into the dividend calendar, and record the capital and liquidity test in each declaration.",
     "url": "https://laws-lois.justice.gc.ca/eng/acts/B-1.01/",
     "cap": "B-1.01",
@@ -8835,7 +8842,7 @@
     "definition": "The internal capital adequacy assessment process, in which the bank assesses the capital its risks require. OSFI's E-19 guideline sets expectations for it."
    },
    {
-    "term": "Superintendent's direction",
+    "term": "Superintendent's order (s.485(3))",
     "definition": "An order under Bank Act s.485(3) requiring a bank to increase its capital or provide additional liquidity, even when it complies with the rules."
    },
    {
@@ -8860,7 +8867,8 @@
    "**Compliance program:** PCMLTFA s.9.6 requires a risk-based [[compliance program]]. PCMLTFR s.156 sets its parts: a responsible person, written policies, a documented risk assessment, training and a periodic review.",
    "**Remote identity checks:** PCMLTFR s.105 lists the approved verification methods. Agents and vendors may verify identity under s.106, but only under a written agreement and by a method in s.105(1)(a) to (d). FINTRAC guidance says the bank remains responsible.",
    "**Reports and records:** [[Suspicious transactions|suspicious transaction report]] go to FINTRAC under PCMLTFA s.7, including suspected sanctions evasion. Records are kept for at least five years under PCMLTFR s.148.",
-   "**Sanctions and fraud:** Sanctions reporting and laundering risk run on separate tracks. Criminal Code s.462.31 makes laundering an offence. Banks must check for, and report, property of listed persons under the Criminal Code and the sanctions regulations. Responsibility for receiving these reports is reported to have moved from OSFI to FINTRAC in 2025 (reported; check FINTRAC's current instructions).",
+   "**Listed persons:** Banks must check for, and report, property of listed persons under the Criminal Code and the sanctions regulations. Confirm with FINTRAC and OSFI which body receives these reports before writing the procedure (reported to have moved from OSFI to FINTRAC in 2025; check).",
+   "**Laundering offence:** Criminal Code s.462.31 makes laundering an offence.",
    "**Penalties:** FINTRAC can impose up to $20 million per violation on an entity under PCMLTFA s.73.1, with a cumulative cap, for all violations on one notice of violation, of the greater of $20 million and 3% of gross global revenue."
   ],
   "conceptMap": {
@@ -9053,7 +9061,7 @@
      "**Cumulative cap:** For one notice, the greater of $20 million and 3% of gross global revenue for an entity (s.73.1(3)(b)). Affiliated entities use the group's revenue (s.73.1(4)).",
      "**Designation:** The regulations decide which provisions are penalised (s.73.1(1)(a)). Check the amounts in those regulations before relying on them.",
      "**Accountability:** Responsibility for the program sits with an appointed person (s.156(1)(a)). Regulators look at governance as well as at controls.",
-     "**Comparison:** The HKMA can reprimand, order remedial action and impose penalties under AMLO s.21 (see stage 12). In Canada the penalty regime sits in the PCMLTFA with FINTRAC as the penalty authority.",
+     "**Comparison:** The HKMA can reprimand, order remedial action and impose penalties under the AMLO (reported; check the section number). In Canada the penalty regime sits in the PCMLTFA, with FINTRAC as the penalty authority. For the HKMA supervisory powers, see stage 12. In Canada the penalty regime sits in the PCMLTFA with FINTRAC as the penalty authority.",
      "**Hong Kong comparison:** Hong Kong's statutory customer due diligence duties sit in AMLO Schedule 2, supported by the HKMA AML/CFT Guideline, which is a statutory guideline (reported; check the section numbers). Canada's equivalent is the PCMLTFA and PCMLTFR, with FINTRAC guidance such as Guide 11 setting out how the Regulations are read."
     ],
     "takeaway": "Penalty exposure is per violation, so a board should see the count of control failures, not just the total."
@@ -9457,7 +9465,7 @@
     "heading": "Partners, whistleblowing and Quebec",
     "lede": "The bank stays responsible when partners sell to or handle complaints from its customers.",
     "points": [
-     "**Partner conditions:** The bank must not arrange for agents or intermediaries to sell its products unless they comply with the consumer provisions as if they were a bank, customers can reach the bank's complaint process, their staff can use the whistleblowing channels, and they observe s.979.4 as if they were a bank (s.627.15(a)-(d)).",
+     "**Partner conditions:** The bank must not arrange for agents or intermediaries to sell its products unless they comply with the consumer provisions as if they were an institution (s.627.15(a)), customers can reach the bank's complaint process, their staff can use the whistleblowing channels, and they observe s.979.4 as if they were a bank (s.627.15(a)-(d)).",
      "**Call centres:** Partners must give customers access to the bank's complaint procedures, or the bank cannot use them to sell (s.627.15(b)). Script the hand-off and record the complaint under s.627.44.",
      "**Whistleblowing:** Part XVI.1 protects staff who report wrongdoing. Wrongdoing includes breach of a voluntary code or public commitment the bank has adopted (s.979.1).",
      "**Quebec customers:** Quebec's Charter of the French Language sets language rules for consumer contracts and documents (reported; check the current text of the Charter before launch in Quebec).",
@@ -9654,7 +9662,7 @@
   ],
   "virtualBankNotes": [
    "**Opening accounts:** s.627.17(1) assumes a request made in person at a branch or point of service. For app-only opening, check the prescribed manners under s.627.17(3) and the current regulations.",
-   "**Basic banking:** A member bank may not require a minimum deposit or balance (s.627.17(4)). A refusal to open a retail deposit account must be given in writing, with the information in s.627.65(a) to (c) (s.627.19).",
+   "**Basic banking:** A member bank may not require a natural person opening a retail deposit account to make an initial minimum deposit or keep a minimum balance (s.627.17(4)). A refusal to open a retail deposit account must be given in writing, with the information in s.627.65(a) to (c) (s.627.19).",
    "**No branch, no posters:** Complaint routes and the FCAC contact details must be disclosed to customers and the public (s.627.65). The codes and public commitments must be available at each point of service and on each website (s.627.66(a)).",
    "**Digital complaints:** A complaint raised in chat, an app form or email is still a complaint, whatever the channel (s.627.01). Acknowledge it in writing with the date received (s.627.43(4)).",
    "**Partners carry the front end:** Much of a digital bank's sales may run through a partner's app. s.627.15 applies to it, so test the partner's consent and complaint flow, not only the bank's own."
@@ -9716,7 +9724,7 @@
    "**Ratings:** The [[ORR|Overall Risk Rating (ORR)]] runs from 1 to 8 and measures risk to the bank's viability. A separate Tier Rating reflects size, complexity and impact on the financial system. Both are confidential.",
    "**Powers:** The Bank Act gives OSFI access to records, directions of compliance, prudential agreements, capital and liquidity orders, removal of directors and senior officers, and in the end control of the bank.",
    "**Integrity and security:** Supervision now covers whether the bank protects itself against threats to its integrity and security, including foreign interference. Those expectations reach vendors and their staff.",
-   "**Confidentiality:** Ratings, intervention stages, s.485(3) orders, prudential agreements, every direction under s.645, and examination reports and related correspondence are prescribed supervisory information. The bank may share them only with listed recipients. Unaffiliated vendors are not among them. A group affiliate is, but only if it keeps the information confidential.",
+   "**Confidentiality:** Ratings, intervention stages, s.485(3) orders, prudential agreements, s.645 directions and examination reports are prescribed supervisory information. The bank may share them only with listed recipients, such as affiliates that keep them confidential, but not unaffiliated vendors; securities-law disclosure is a narrow exception (SOR/2001-59 ss.3, 4).",
    "**Counsel's role:** Keep OSFI informed early, keep vendor contracts aligned with supervisory access, and document every rating-related decision."
   ],
   "conceptMap": {
@@ -9840,7 +9848,7 @@
       {
        "label": "Directions and agreements",
        "value": "ss.644.1, 645",
-       "note": "After a chance to make representations"
+       "note": "Directions: after a chance to make representations (s.645(2)). Prudential agreements are negotiated (s.644.1)."
       },
       {
        "label": "Capital, liquidity and removal",
@@ -10015,14 +10023,14 @@
     "instrument": "OSFI Supervisory Framework",
     "ref": "ORR, Tier Rating and risk categories",
     "title": "OSFI Supervisory Framework",
-    "summary": "Describes how OSFI supervises institutions. It sets an Overall Risk Rating from 1 to 8, a Tier Rating from 1 to 5, and category ratings for larger institutions. Intensity of supervision follows from those ratings. The page was modified in May 2026.",
+    "summary": "Describes how OSFI supervises institutions. It sets an Overall Risk Rating from 1 to 8, a Tier Rating from 1 to 5, and category ratings for larger institutions. Intensity of supervision follows from those ratings. Check the page for its current date before quoting it.",
     "counselNote": "OSFI expects this framework to drive the bank's supervisory dealings. Check the current text before quoting ratings, because the framework’s effective date and category rules may have changed.",
     "confidence": "medium",
     "url": "https://www.osfi-bsif.gc.ca/en/supervision/supervisory-framework"
    },
    {
     "kind": "guideline",
-    "instrument": "OSFI Guide to Intervention for Federally Regulated Deposit-Taking Institutions",
+    "instrument": "OSFI Guide to Intervention for Federally Regulated Deposit-Taking Institutions (issue date and issuers: check OSFI's page)",
     "ref": "Sections 4–5 and stages 0–4",
     "title": "Guide to Intervention (stages 0 to 4)",
     "summary": "Maps the Overall Risk Rating to intervention stages 0 to 4, describes the supervisory response at each stage and lists OSFI's legal powers. The guide is flexible, and OSFI may intervene earlier or later and with different tools.",
@@ -10081,7 +10089,7 @@
    },
    {
     "term": "Guide to Intervention",
-    "definition": "The OSFI and CDIC guide that maps the Overall Risk Rating to stages 0 to 4 and describes the supervisory response at each stage. It is a guide, not binding."
+    "definition": "The OSFI Guide to Intervention for Federally Regulated Deposit-Taking Institutions, which maps the Overall Risk Rating to stages 0 to 4 and describes the supervisory response at each stage. It is a guide, not binding."
    },
    {
     "term": "Assessment surcharge",
@@ -10115,7 +10123,7 @@
   "keyPoints": [
    "**Escalation:** OSFI's Guide to Intervention moves a bank through stages 0 to 4 as its risk rating worsens. Stage 4 is where the statutory conditions for taking control are met, or are about to be met.",
    "**Taking control:** Bank Act s.648 lets the Superintendent take control of a bank's assets, or of the bank itself, on listed circumstances. For control beyond sixteen days, or control of the bank itself, the bank must first get notice and up to ten days to respond (s.648(1.2)).",
-   "**CDIC orders:** after a report from the Superintendent, the Governor in Council may vest shares in CDIC, appoint it receiver, direct the creation of a bridge institution or order a conversion (CDIC Act s.39.13).",
+   "**CDIC orders:** after a report from the Superintendent, and on the Minister's recommendation, the Governor in Council may vest shares in CDIC, appoint it receiver, direct the creation of a bridge institution or order a conversion (CDIC Act s.39.13).",
    "**Stay:** once a CDIC order is made, no person may end or amend an agreement with the bank, or accelerate it, by reason only of the listed triggers. Contrary terms have no force or effect (s.39.15).",
    "**Payout:** the bank must produce depositor data and stop withdrawals within tight deadlines, so data held by vendors sits on the critical path (Data and System Requirements By-law s.2).",
    "**Vendors:** agreements should stay enforceable in resolution, return data in a usable form and not inhibit OSFI, a resolution authority or a compensation scheme (B-10 Annex 2, item 12)."
@@ -10145,7 +10153,7 @@
      "label": "Bridge institution",
      "value": "s.39.13(1)(c)",
      "note": "Needs a receivership order first",
-     "rel": "can create"
+     "rel": "is incorporated under"
     },
     {
      "label": "Vendor contracts",
@@ -10177,7 +10185,7 @@
       {
        "label": "Stage 1",
        "value": "ORR 5",
-       "note": "Warning signs of safety and soundness concerns"
+       "note": "Warning signs about viability, integrity or security (see stage 12)"
       },
       {
        "label": "Stage 2",
@@ -10264,7 +10272,7 @@
      "**Listed triggers:** insolvency or weaker finances, pre-order non-monetary defaults, and pre-order monetary defaults remedied within 60 days after the order, the order itself or a related change of control, and assignment or transfer to a bridge or third party.",
      "**Void terms:** a term that would let a counterparty cut the bank's rights to use its assets on those triggers has no force or effect (s.39.15(2)(b)).",
      "**Limits:** the stay does not stop termination for a default after the order. A provider may demand cash for post-order services (s.39.15(5)(a)), and need not advance money or credit after the order (s.39.15(5)(b)).",
-     "**Assignment:** s.39.152 applies similar protection when an agreement is assigned to a bridge institution or a third party. Subsection (2) excludes eligible financial contracts from the non-monetary default and 60-day monetary default limbs (s.39.152(2)).",
+     "**Assignment:** s.39.152 applies similar protection when an agreement is assigned to a bridge institution or a third party. Subsection (2) excludes eligible financial contracts from the non-monetary default and 60-day monetary default limbs (s.39.152(2)). For an assignment, the 60-day window for a monetary default runs from the assignment date (s.39.152(1)(a)(iv)).",
      "**Compared with Hong Kong:** like FIRO, the CDIC Act overrides termination rights in a resolution, but only once an order under s.39.13(1) is made (s.39.15(1))."
     ],
     "takeaway": "A vendor cannot end the contract only because the bank failed or was placed under a CDIC order. It can still end the contract for an unremedied post-order default, so draft for that."
@@ -10349,7 +10357,7 @@
     "ref": "s.39.15(1)(a) to (f), (2)",
     "title": "Stay of proceedings",
     "summary": "After a CDIC order, creditors cannot enforce against the bank. No one may end or amend an agreement with the bank, or accelerate it, by reason only of listed triggers, including insolvency, pre-order non-monetary defaults, and pre-order monetary defaults remedied within 60 days after the order, the order and assignment to a bridge. Contrary terms have no force or effect.",
-    "counselNote": "Draft as if the stay is narrow. It does not stop termination for a post-order default. The cash-payment point in subsection (5)(a) is reported; check the current text.",
+    "counselNote": "Draft as if the stay is narrow. It does not stop termination for a post-order default. Subsection (5)(a) lets a provider require cash payment for what it supplies after the order. Subsection (5)(b) means the bank cannot assume that a provider will advance money or credit.",
     "url": "https://laws-lois.justice.gc.ca/eng/acts/C-3/",
     "cap": "C-3",
     "section": "39.15",
@@ -10437,7 +10445,7 @@
    },
    {
     "kind": "guideline",
-    "instrument": "Guide to Intervention for Federally Regulated Deposit-Taking Institutions, issued jointly by OSFI and CDIC",
+    "instrument": "OSFI Guide to Intervention for Federally Regulated Deposit-Taking Institutions (issue date and issuers: check OSFI's page)",
     "ref": "Stages 0 to 4; ORR 8 (stage 4)",
     "title": "Guide to Intervention",
     "summary": "Maps the Overall Risk Rating to intervention stages 0 to 4. Stage 4 is where the statutory conditions for taking control are met or about to be met. Its powers include taking control and triggering conversion of non-viability contingent capital. The guide is not binding.",
@@ -10487,7 +10495,7 @@
   "glossary": [
    {
     "term": "Bridge institution",
-    "definition": "A federal institution that CDIC causes to be created under a s.39.13(1)(c) order, to take over a failed bank's insured deposits and business. It is designated for two years, extendable under s.39.3711."
+    "definition": "A federal institution that the Minister incorporates under a Governor in Council order under s.39.13(1)(c), to take over a failed bank's insured deposits and business. It is designated for two years, extendable under s.39.3711."
    },
    {
     "term": "Bail-in",
