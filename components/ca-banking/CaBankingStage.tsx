@@ -68,7 +68,7 @@ export function CaBankingStage({ stage, total, prev, next, onNavigate, tab, onTa
   const tabs: (TabDef & { id: CaTab })[] = [
     { id: 'essentials', label: 'Essentials', short: stage.vendorKit || stage.activityKit ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
-    ...(stage.onboardingKit ? [{ id: 'onboarding' as const, label: 'New IT vendor', short: 'IT vendor', icon: ClipboardList }] : []),
+    ...(stage.onboardingKit ? [{ id: 'onboarding' as const, label: 'New IT vendor', short: 'Onboard', icon: ClipboardList }] : []),
     ...(stage.vendorKit
       ? [{ id: 'vendors' as const, label: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
       : []),
