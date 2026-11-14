@@ -225,6 +225,15 @@
   "HST": "Harmonized sales tax: GST combined with a provincial portion in participating provinces.",
   "WCAG": "Web Content Accessibility Guidelines: the W3C standard for accessible websites and apps.",
   "SDLC": "Software development life cycle: the stages and controls software goes through from design to retirement.",
-  "SBOM": "Software bill of materials: a list of the components, including open-source code, inside a piece of software."
+  "SBOM": "Software bill of materials: a list of the components, including open-source code, inside a piece of software.",
+  "CBA": "Canadian Bankers Association, the banks' industry association.",
+  "CEM": "Commercial electronic message: under CASL, an electronic message meant to encourage commercial activity.",
+  "CRTC": "Canadian Radio-television and Telecommunications Commission: enforces CASL and the telemarketing rules.",
+  "DM": "Direct message on a social media platform.",
+  "FCA": "Federal Court of Appeal (in a case citation).",
+  "HELOC": "Home equity line of credit: a line of credit secured on a home.",
+  "ONSC": "Ontario Superior Court of Justice (in a case citation).",
+  "SCC": "Supreme Court of Canada (in a case citation).",
+  "SDK": "Software development kit: code from a vendor built into an app, such as an analytics or ad tool."
  }
 }
