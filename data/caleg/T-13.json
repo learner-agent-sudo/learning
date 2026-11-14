@@ -1,0 +1,47 @@
+{
+ "cap": "T-13",
+ "title": "Trademarks Act",
+ "longTitle": "An Act relating to trademarks and unfair competition",
+ "instrument": "",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/T-13/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/T-13/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Prohibitions",
+   "status": "in-effect",
+   "part": null,
+   "text": "  No person shall\n    (a) make a false or misleading statement tending to discredit the business, goods or services of a competitor;\n    (b) direct public attention to his goods, services or business in such a way as to cause or be likely to cause confusion in Canada, at the time he commenced so to direct attention to them, between his goods, services or business and the goods, services or business of another;\n    (c) pass off other goods or services as and for those ordered or requested; or\n    (d) make use, in association with goods or services, of any description that is false in a material respect and likely to mislead the public as to\n      (i) the character, quality, quantity or composition,\n      (ii) the geographical origin, or\n      (iii) the mode of the manufacture, production or performance\n    of the goods or services.\n    (e) [Repealed, 2014, c. 32, s. 10]"
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Rights conferred by registration",
+   "status": "in-effect",
+   "part": null,
+   "text": "  Subject to sections 21, 32 and 67, the registration of a trademark in respect of any goods or services, unless shown to be invalid, gives to the owner of the trademark the exclusive right to the use throughout Canada of the trademark in respect of those goods or services."
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Infringement",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) The right of the owner of a registered trademark to its exclusive use is deemed to be infringed by any person who is not entitled to its use under this Act and who\n    (a) sells, distributes or advertises any goods or services in association with a confusing trademark or trade name;\n    (b) manufactures, causes to be manufactured, possesses, imports, exports or attempts to export any goods in association with a confusing trademark or trade name, for the purpose of their sale or distribution;\n    (c) sells, offers for sale or distributes any label or packaging, in any form, bearing a trademark or trade name, if\n      (i) the person knows or ought to know that the label or packaging is intended to be associated with goods or services that are not those of the owner of the registered trademark, and\n      (ii) the sale, distribution or advertisement of the goods or services in association with the label or packaging would be a sale, distribution or advertisement in association with a confusing trademark or trade name; or\n    (d) manufactures, causes to be manufactured, possesses, imports, exports or attempts to export any label or packaging, in any form, bearing a trademark or trade name, for the purpose of its sale or distribution or for the purpose of the sale, distribution or advertisement of goods or services in association with it, if\n      (i) the person knows or ought to know that the label or packaging is intended to be associated with goods or services that are not those of the owner of the registered trademark, and\n      (ii) the sale, distribution or advertisement of the goods or services in association with the label or packaging would be a sale, distribution or advertisement in association with a confusing trademark or trade name.\n  Deemed infringement under paragraph (1)(b)\n  (1.01) An infringement under paragraph (1)(b) is presumed, unless the contrary is proven, if a person who is not entitled to use a registered trademark imports goods on a commercial scale that bear a trademark that is identical to, or cannot be distinguished in its essential aspects from, the trademark registered for such goods.\n  Exception — bona fide use\n  (1.1) The registration of a trademark does not prevent a person from making, in a manner that is not likely to have the effect of depreciating the value of the goodwill attaching to the trademark,\n    (a) any bona fide use of his or her personal name as a trade name; or\n    (b) any bona fide use, other than as a trademark, of the geographical name of his or her place of business or of any accurate description of the character or quality of his or her goods or services.\n  Exception — utilitarian feature\n  (1.2) The registration of a trademark does not prevent a person from using any utilitarian feature embodied in the trademark.\n  Exception\n  (2) The registration of a trademark does not prevent a person from making any use of any of the indications mentioned in subsection 11.18(3) in association with a wine, any of the indications mentioned in subsection 11.18(4) in association with a spirit or any of the indications mentioned in subsection 11.18(4.1) in association with an agricultural product or food."
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Depreciation of goodwill",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) No person shall use a trademark registered by another person in a manner that is likely to have the effect of depreciating the value of the goodwill attaching thereto.\n  Action\n  (2) In any action in respect of a use of a trademark contrary to subsection (1), the court may decline to order the recovery of damages or profits and may permit the defendant to continue to sell goods bearing the trademark that were in the defendant’s possession or under their control at the time notice was given to them that the owner of the registered trademark complained of the use of the trademark."
+  }
+ ],
+ "schedules": []
+}

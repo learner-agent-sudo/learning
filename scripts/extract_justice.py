@@ -56,7 +56,10 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("P-24.501", "acts", None),        # Proceeds of Crime (Money Laundering) and Terrorist Financing Act
     ("R-7.36", "acts", None),          # Retail Payment Activities Act
     ("E-1.6", "acts", None),           # Canada's anti-spam legislation (CASL)
-    ("C-34", "acts", ["45", "74.01", "74.06", "90.1"]),   # Competition Act
+    ("C-34", "acts", ["36", "45", "52", "52.01", "52.1", "74.01", "74.011", "74.02", "74.03",
+                      "74.04", "74.05", "74.06", "74.1", "90.1"]),   # Competition Act
+    ("T-13", "acts", ["7", "19", "20", "22"]),            # Trademarks Act
+    ("T-3.4", "acts", ["41", "41.7", "72.01"]),           # Telecommunications Act
     ("C-46", "acts", ["206", "347", "426", "462.31"]),    # Criminal Code
     ("C-42", "acts", ["13", "14.1"]),                     # Copyright Act
     ("B-3", "acts", ["65.1", "65.11", "72.1", "246.1"]),  # Bankruptcy and Insolvency Act
@@ -75,6 +78,8 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("SOR-96-542", "regulations", None),    # CDIC Deposit Insurance Information By-law
     ("SOR-2010-292", "regulations", None),  # CDIC Data and System Requirements By-law
     ("SOR-2026-133", "regulations", None),  # Real-Time Rail By-law (Payments Canada)
+    ("SOR-2012-36", "regulations", None),   # Electronic Commerce Protection Regulations (CRTC)
+    ("SOR-2013-221", "regulations", None),  # Electronic Commerce Protection Regulations
     ("C.R.C.,_c._945", "regulations", ["105"]),  # Income Tax Regulations
 ]
 

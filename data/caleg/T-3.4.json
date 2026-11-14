@@ -1,0 +1,59 @@
+{
+ "cap": "T-3.4",
+ "title": "Telecommunications Act",
+ "longTitle": "An Act respecting telecommunications",
+ "instrument": "",
+ "versionDate": "2026-06-17",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/T-3.4/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/T-3.4/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "PIII",
+   "num": "Part III",
+   "heading": "Rates, Facilities and Services",
+   "status": "in-effect",
+   "sections": [
+    "s41",
+    "s41.7"
+   ]
+  },
+  {
+   "id": "PV",
+   "num": "Part V",
+   "heading": "Investigation and Enforcement",
+   "status": "in-effect",
+   "sections": [
+    "s72.01"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Prohibition or regulation by Commission",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) The Commission may, by order, prohibit or regulate the use by any person of the telecommunications facilities of a Canadian carrier for the provision of unsolicited telecommunications to the extent that the Commission considers it necessary to prevent undue inconvenience or nuisance, giving due regard to freedom of expression.\n  Exception\n  (2) Despite subsection (1), the Commission may not prohibit or regulate the use by any person of the telecommunications facilities of a Canadian carrier for the provision of unsolicited telecommunications, if the telecommunication is\n    (a) a commercial electronic message to which section 6 of An Act to promote the efficiency and adaptability of the Canadian economy by regulating certain activities that discourage reliance on electronic means of carrying out commercial activities, and to amend the Canadian Radio-television and Telecommunications Commission Act, the Competition Act, the Personal Information Protection and Electronic Documents Act and the Telecommunications Act applies; or\n    (b) a commercial electronic message referred to in subsection 6(5) of that Act, except to the extent that it is one referred to in subsection 6(8) of that Act."
+  },
+  {
+   "id": "s41.7",
+   "num": "41.7",
+   "heading": "Exemptions",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) An order made by the Commission that imposes a prohibition or requirement under section 41 that relates to information contained in any database or any information, administrative or operational system administered under section 41.2 for the purpose of a national do not call list does not apply in respect of a telecommunication\n    (a) made by or on behalf of a registered charity within the meaning of subsection 248(1) of theIncome Tax Act;\n    (b) made to a person\n      (i) with whom the person making the telecommunication, or the person or or­ganization on whose behalf the telecommunication is made, has an existing business relationship, and\n      (ii) who has not made a do not call request in respect of the person or organization on whose behalf the telecommunication is made;\n    (c) made by or on behalf of a political party that is a registered party as defined in subsection 2(1) of the Canada Elections Act or that is registered under provincial law for the purposes of a provincial or municipal election;\n    (d) made by or on behalf of a nomination contestant, leadership contestant or candidate of a political party described in paragraph (c) or by or on behalf of the official campaign of such a contestant or candidate;\n    (e) made by or on behalf of an association of members of a political party described in paragraph (c) for an electoral district;\n    (f) made for the sole purpose of collecting information for a survey of members of the public; or\n    (g) made for the sole purpose of soliciting a subscription for a newspaper of general circulation.\n  Definitions\n  (2) The following definitions apply in subsection (1).\n    candidate means a candidate as defined in subsection 2(1) of the Canada Elections Act or a candidate whose nomination has been confirmed, for the purposes of a provincial or municipal election, by a political party that is registered under provincial law.\n    existing business relationship means a business relationship that has been formed by a voluntary two-way communication between the person making the telecommunication and the person to whom the telecommunication is made, arising from\n      (a) the purchase of services or the purchase, lease or rental of products, within the eighteen-month period immediately preceding the date of the telecommunication, by the person to whom the telecommunication is made from the person or organization on whose behalf the telecommunication is made;\n      (b) an inquiry or application, within the six-month period immediately preceding the date of the telecommunication, by the person to whom the telecommunication is made in respect of a product or service offered by the person or organization on whose behalf the telecommunication is made; or\n      (c) any other written contract between the person to whom the telecommunication is made and the person or organization on whose behalf the telecommunication is made that is currently in existence or that expired within the eighteen-month period immediately preceding the date of the telecommunication.\n    leadership contestant means a leadership contestant as defined in subsection 2(1) of the Canada Elections Act or a contestant for the leadership of a political party that is registered under provincial law.\n    nomination contestant means a nomination contestant as defined in subsection 2(1) of the Canada Elections Act or a contestant for nomination by a political party that is registered under provincial law as its candidate in a provincial or municipal election.\n  Identification of purpose\n  (3) Any person making a telecommunication referred to in subsection (1) must, at the beginning of the telecommunication, identify the purpose of the telecommunication and the person or organization on whose behalf the telecommunication is made.\n  Distinct do not call lists\n  (4) Every person or organization that, by virtue of subsection (1), is exempt from the application of an order made by the Commission that imposes a prohibition or requirement under section 41 shall maintain their own do not call list and shall ensure that no telecommunication is made on their behalf to any person who has requested that they receive no telecommunication made on behalf of that person or organization.\n  Exception\n  (5) Subsections (3) and (4) do not apply in respect of a person making a telecommunication referred to in paragraph (1)(f)."
+  },
+  {
+   "id": "s72.01",
+   "num": "72.01",
+   "heading": "Commission of violation",
+   "status": "in-effect",
+   "part": "PV",
+   "text": "  Every contravention of a prohibition or requirement of the Commission under section 41 and every contravention of any provision of Division 1.1 of Part 16.1 of the Canada Elections Act constitutes a violation and the person who commits the violation is liable\n    (a) in the case of an individual, to an administrative monetary penalty of up to $1,500; or\n    (b) in the case of a corporation, to an administrative monetary penalty of up to $15,000."
+  }
+ ],
+ "schedules": []
+}
