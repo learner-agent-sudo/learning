@@ -33,6 +33,16 @@ export default function CaBankingAboutPage() {
         has an incident.
       </p>
       <p>
+        Stage 5 also has a <strong>New IT vendor</strong> tab: counsel&apos;s checklist for taking on an IT vendor, from
+        intake to exit, in nine phases. A profile of the deal (what the vendor provides; personal information, Quebec,
+        offshore, critical, related party, standard terms and so on) narrows it to the steps that apply. Each step says
+        what to do, who owns it, what goes on the file and why, with the legal force of each source, and links to the
+        clause cards and the addendum builder. Beyond the banking rules it covers the general Canadian law an IT
+        contract has to work under: copyright and moral rights, the insolvency stays and licence protection, the
+        Competition Act&apos;s no-poaching offence, withholding tax, Quebec&apos;s privacy Act and Civil Code, and the
+        leading contract cases. Progress and notes stay in the browser and download as a checklist or a tracker.
+      </p>
+      <p>
         Abbreviations are explained where they appear, so a stage can be read on its own and in any order. The first
         use in each bullet has a dotted underline; tap or hover it for the full name.
       </p>

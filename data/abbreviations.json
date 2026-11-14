@@ -218,6 +218,13 @@
   "STR": "Suspicious transaction report, filed with FINTRAC.",
   "TFSA": "Tax-free savings account.",
   "TPRM": "Third-party risk management.",
-  "TPRMF": "Third-party risk management framework: OSFI Guideline B-10's term for the bank's policies and processes for third parties."
+  "TPRMF": "Third-party risk management framework: OSFI Guideline B-10's term for the bank's policies and processes for third parties.",
+  "BIA": "Bankruptcy and Insolvency Act: the federal Act for bankruptcies, receiverships and proposals to creditors.",
+  "CCAA": "Companies' Creditors Arrangement Act: the federal Act for restructuring large insolvent companies under court supervision.",
+  "GST": "Goods and services tax: the federal value-added tax under the Excise Tax Act.",
+  "HST": "Harmonized sales tax: GST combined with a provincial portion in participating provinces.",
+  "WCAG": "Web Content Accessibility Guidelines: the W3C standard for accessible websites and apps.",
+  "SDLC": "Software development life cycle: the stages and controls software goes through from design to retirement.",
+  "SBOM": "Software bill of materials: a list of the components, including open-source code, inside a piece of software."
  }
 }

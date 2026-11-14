@@ -195,7 +195,7 @@ operational resilience (B-13, E-21 and OSFI's 24-hour incident reporting),
 data, privacy and records (Bank Act ss.238-245, PIPEDA, Quebec), and partners
 who deal with customers for the bank (Bank Act s.627.15, CDIC's disclosure
 by-law, PCMLTFR agents, anti-spam and contest law). Stage 5 carries the
-**vendor-contract kit** in the same form as the HK one: 33 clauses with
+**vendor-contract kit** in the same form as the HK one: 42 clauses with
 sources, legal force and a negotiation playbook with model wording, the
 banking addendum builder, a SaaS terms matrix against B-10 and the Bank Act,
 and a **crosswalk from the Hong Kong kit** that shows which HKMA-driven
@@ -204,7 +204,17 @@ which it softens or drops, and what it adds. Stage 5 also has a **Risk &
 criticality** screen for one arrangement under B-10, with due diligence by
 area, and stage 6 the incident clocks for a critical vendor's incident
 (OSFI, the Privacy Commissioner, individuals, Quebec's CAI, Payments Canada,
-and the Critical Cyber Systems Protection Act once in force). Content lives
+and the Critical Cyber Systems Protection Act once in force). Stage 5's **New
+IT vendor** tab is counsel's checklist for taking on an IT vendor: 66 steps in
+nine phases from intake to exit, narrowed by a profile of the deal, each with
+owners, file evidence, sources and their legal force, and links to the clause
+cards and the addendum builder (which the profile can set up). It adds the
+general law an IT deal runs into (Copyright Act assignments and moral rights,
+BIA and CCAA stays and licence protection, Competition Act s.45 no-poaching,
+Part XIII and Reg. 105 withholding, Quebec's privacy Act and Civil Code, and
+the leading contract cases), with nine matching clauses in the kit; ticks and
+notes export as Markdown or CSV (`components/banking/OnboardingKit.tsx`,
+`lib/onboardingExport.ts`). Content lives
 in `data/ca-banking/stages.json`. Statute cards carry the text of the Bank
 Act, PIPEDA, the PCMLTFA and its regulations, the CDIC Act and by-laws and
 other federal instruments from the Justice Laws consolidated XML
