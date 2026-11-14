@@ -1,0 +1,59 @@
+{
+ "cap": "L-2",
+ "title": "Canada Labour Code",
+ "longTitle": "An Act to consolidate certain statutes respecting labour",
+ "instrument": "",
+ "versionDate": "2025-12-29",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/L-2/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/L-2/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "PI",
+   "num": "Part I",
+   "heading": "Industrial Relations",
+   "status": "in-effect",
+   "sections": [
+    "s44"
+   ]
+  },
+  {
+   "id": "PIII",
+   "num": "Part III",
+   "heading": "Standard Hours, Wages, Vacations and Holidays",
+   "status": "in-effect",
+   "sections": [
+    "s189",
+    "s212"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Definitions",
+   "status": "in-effect",
+   "part": "PI",
+   "text": "  (1) In this section and sections 45 to 47.1,\n    business means any federal work, undertaking or business and any part thereof;\n    provincial business means a work, undertaking or business, or any part of a work, undertaking or business, the labour relations of which are subject to the laws of a province;\n    sell, in relation to a business, includes the transfer or other disposition of the business and, for the purposes of this definition, leasing a business is deemed to be selling it.\n  Sale of business\n  (2) Where an employer sells a business,\n    (a) a trade union that is the bargaining agent for the employees employed in the business continues to be their bargaining agent;\n    (b) a trade union that made application for certification in respect of any employees employed in the business before the date on which the business is sold may, subject to this Part, be certified by the Board as their bargaining agent;\n    (c) the person to whom the business is sold is bound by any collective agreement that is, on the date on which the business is sold, applicable to the employees employed in the business; and\n    (d) the person to whom the business is sold becomes a party to any proceeding taken under this Part that is pending on the date on which the business was sold and that affects the employees employed in the business or their bargaining agent.\n  Change of activity or sale of a provincial business\n  (3) Where, as a result of a change of activity, a provincial business becomes subject to this Part, or such a business is sold to an employer who is subject to this Part,\n    (a) the trade union that, pursuant to the laws of the province, is the bargaining agent for the employees employed in the provincial business continues to be their bargaining agent for the purposes of this Part;\n    (b) a collective agreement that applied to employees employed in the provincial business at the time of the change or sale continues to apply to them and is binding on the employer or on the person to whom the business is sold;\n    (c) any proceeding that at the time of the change or sale was before the labour relations board or other person or authority that, under the laws of the province, is competent to decide the matter, continues as a proceeding under this Part, with such modifications as the circumstances require and, where applicable, with the person to whom the provincial business is sold as a party; and\n    (d) any grievance that at the time of the change or sale was before an arbitrator or arbitration board continues to be processed under this Part, with such modifications as the circumstances require and, where applicable, with the person to whom the provincial business is sold as a party."
+  },
+  {
+   "id": "s189",
+   "num": "189",
+   "heading": "Transfer",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) Despite the lease or transfer of a work, undertaking or business, or any part of a work, undertaking or business, from one employer to another employer by sale, merger or otherwise, the employment of the employee, before and after the lease or transfer, who is employed in or in connection with the operation of that work, undertaking or business, is, for the purposes of this Division, deemed to be continuous with one employer if the work, undertaking or business\n    (a) is a federal work, undertaking or business; or\n    (b) becomes a federal work, undertaking or business due to the lease or transfer.\n  Retendering\n  (1.1) If, due to a contract being awarded through a retendering process, a second employer becomes responsible for carrying out any particular federal work, undertaking or business, or part of one, that was previously carried out by a first employer, an employee who is employed in or in connection with the its operation before and after the retendering, is, for the purposes of this Division, deemed to be continuously employed with one employer.\n  Non-application\n  (1.2) Subsections (1) and (1.1) do not apply if the employee’s first day of employment by the second employer is more than 13 weeks after the day that is the earlier of\n    (a) the employee’s last day of employment by the first employer; and\n    (b) the day on which the federal work, undertaking or business is transferred or the first day the second employer carries out the federal work, undertaking or business, as the case may be.\n  Period of continuous employment\n  (1.3) For greater certainty, if an employer’s work, undertaking or business becomes a federal work, undertaking or business due to a change in its activities, for the purposes of this Division, an employee’s period of continuous employment by the employer includes any period in which the work, undertaking or business in or in connection with the operation of which the employee is employed was not a federal work, undertaking or business.\n  Calculation of period of employment\n  (1.4) If subsection (1) or (1.1) applies in respect of an employee, any period between their employment by the first employer and their employment by the second employer is not included in the calculation of their period of continuous employment.\n  Exception\n  (1.5) For the purposes of an employee’s employment by the second employer, this section does not apply in respect of the calculation of the employee’s entitlement under section 230 if the first employer complied with that section in respect of their employment by that employer.\n  Exception — severance pay\n  (1.6) For the purposes of an employee’s employment by the second employer, this section does not apply in respect of the calculation of their entitlement to severance pay under section 235 if the first employer paid them severance pay in respect of their employment by that employer.\n  Inclusion\n  (2) For the purposes of subsection (1), a federal work, undertaking or business includes\n    (a) any portion of the federal public administration specified from time to time in Schedule I, IV or V to the Financial Administration Act that is deleted from one of those Schedules and that is established as or becomes a part of a corporation or any federal work, undertaking or business to which this Part applies; or\n    (b) a portion of the federal public administration included in a portion of the federal public administration so specified in one of those Schedules that is severed from the portion in which it was included and that is established as or becomes a part of such a corporation or federal work, undertaking or business."
+  },
+  {
+   "id": "s212",
+   "num": "212",
+   "heading": "Notice of group termination",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) Any employer who terminates, either simultaneously or within any period not exceeding four weeks, the employment of a group of 50 or more employees employed by the employer within a particular industrial establishment, or of such lesser number of employees as prescribed by regulations applicable to the employer made under paragraph 227(b), shall, in addition to any notice required to be given under section 230, give notice to the Head, in writing, of his intention to so terminate at least 16 weeks before the date of termination of the employment of the employee in the group whose employment is first to be terminated.\n  Copies of notice\n  (2) A copy of any notice given to the Head under subsection (1) must be given immediately by the employer to the Minister of Employment and Social Development and the Canada Employment Insurance Commission and any trade union representing a redundant employee, and if any redundant employee is not represented by a trade union, a copy of that notice must be given to the employee or immediately posted by the employer in a conspicuous place within the industrial establishment in which that employee is employed.\n  Contents of notice\n  (3) A notice referred to in subsection (1) shall set out\n    (a) the date or dates on which the employer intends to terminate the employment of any one or more employees;\n    (b) the estimated number of employees in each occupational classification whose employment will be terminated; and\n    (c) such other information as is prescribed by the regulations.\n  Where employer deemed to terminate employment\n  (4) Except where otherwise prescribed by regulation, an employer shall, for the purposes of this Division, be deemed to have terminated the employment of an employee where the employer lays off that employee."
+  }
+ ],
+ "schedules": []
+}

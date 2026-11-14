@@ -1,0 +1,76 @@
+{
+ "cap": "B-3",
+ "title": "Bankruptcy and Insolvency Act",
+ "longTitle": "An Act respecting bankruptcy and insolvency",
+ "instrument": "",
+ "versionDate": "2026-06-21",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/B-3/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/B-3/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "PIII",
+   "num": "Part III",
+   "heading": "Proposals",
+   "status": "in-effect",
+   "sections": [
+    "s65.1",
+    "s65.11"
+   ]
+  },
+  {
+   "id": "PIV",
+   "num": "Part IV",
+   "heading": "Property of the Bankrupt",
+   "status": "in-effect",
+   "sections": [
+    "s72.1"
+   ]
+  },
+  {
+   "id": "PXI",
+   "num": "Part XI",
+   "heading": "Secured Creditors and Receivers",
+   "status": "in-effect",
+   "sections": [
+    "s246.1"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s65.1",
+   "num": "65.1",
+   "heading": "Certain rights limited",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) If a notice of intention or a proposal has been filed in respect of an insolvent person, no person may terminate or amend any agreement, including a security agreement, with the insolvent person, or claim an accelerated payment, or a forfeiture of the term, under any agreement, including a security agreement, with the insolvent person, by reason only that\n    (a) the insolvent person is insolvent; or\n    (b) a notice of intention or a proposal has been filed in respect of the insolvent person.\n  Idem\n  (2) Where the agreement referred to in subsection (1) is a lease or a licensing agreement, subsection (1) shall be read as including the following paragraph:\n      “(c) the insolvent person has not paid rent or royalties, as the case may be, or other payments of a similar nature, in respect of a period preceding the filing of\n        (i) the notice of intention, if one was filed, or\n        (ii) the proposal, if no notice of intention was filed.”\n  Idem\n  (3) Where a notice of intention or a proposal has been filed in respect of an insolvent person, no public utility may discontinue service to that insolvent person by reason only that\n    (a) the insolvent person is insolvent;\n    (b) a notice of intention or a proposal has been filed in respect of the insolvent person; or\n    (c) the insolvent person has not paid for services rendered, or material provided, before the filing of\n      (i) the notice of intention, if one was filed, or\n      (ii) the proposal, if no notice of intention was filed.\n  Certain acts not prevented\n  (4) Nothing in subsections (1) to (3) shall be construed\n    (a) as prohibiting a person from requiring immediate payment for goods, services, use of leased or licensed property or other valuable consideration provided after the filing of\n      (i) the notice of intention, if one was filed, or\n      (ii) the proposal, if no notice of intention was filed;\n    (b) as requiring the further advance of money or credit; or\n    (c) [Repealed, 2012, c. 31, s. 415]\n  Provisions of section override agreement\n  (5) Any provision in an agreement that has the effect of providing for, or permitting, anything that, in substance, is contrary to subsections (1) to (3) is of no force or effect.\n  Powers of court\n  (6) The court may, on application by a party to an agreement or by a public utility, declare that subsections (1) to (3) do not apply, or apply only to the extent declared by the court, where the applicant satisfies the court that the operation of those subsections would likely cause it significant financial hardship.\n  Eligible financial contracts\n  (7) Subsection (1) does not apply\n    (a) in respect of an eligible financial contract; or\n    (b) to prevent a member of the Canadian Payments Association established by the Canadian Payments Act from ceasing to act as a clearing agent or group clearer for an insolvent person in accordance with that Act and the by-laws and rules of that Association.\n  (8) [Repealed, 2007, c. 29, s. 92]\n  Permitted actions\n  (9) Despite subsections 69(1) and 69.1(1), the following actions are permitted in respect of an eligible financial contract that is entered into before the filing, in respect of an insolvent person of a notice of intention or, where no notice of intention is filed, a proposal, and that is terminated on or after that filing, but only in accordance with the provisions of that contract:\n    (a) the netting or setting off or compensation of obligations between the insolvent person and the other parties to the eligible financial contract; and\n    (b) any dealing with financial collateral including\n      (i) the sale or foreclosure or, in the Province of Quebec, the surrender of financial collateral, and\n      (ii) the setting off or compensation of financial collateral or the application of the proceeds or value of financial collateral.\n  Net termination values\n  (10) If net termination values determined in accordance with an eligible financial contract referred to in subsection (9) are owed by the insolvent person to another party to the eligible financial contract, that other party is deemed, for the purposes of paragraphs 69(1)(a) and 69.1(1)(a), to be a creditor of the insolvent person with a claim provable in bankruptcy in respect of those net termination values."
+  },
+  {
+   "id": "s65.11",
+   "num": "65.11",
+   "heading": "Disclaimer or resiliation of agreements",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) Subject to subsections (3) and (4), a debtor in respect of whom a notice of intention was filed under section 50.4 or a proposal was filed under subsection 62(1) may — on notice given in the prescribed form and manner to the other parties to the agreement and the trustee — disclaim or resiliate any agreement to which the debtor is a party on the day on which the notice of intention or proposal was filed. The debtor may not give notice unless the trustee approves the proposed disclaimer or resiliation.\n  Individuals\n  (2) In the case of an individual,\n    (a) they may not disclaim or resiliate an agreement under subsection (1) unless they are carrying on a business; and\n    (b) only an agreement in relation to the business may be disclaimed or resiliated.\n  Court may prohibit disclaimer or resiliation\n  (3) Within 15 days after the day on which the debtor gives notice under subsection (1), a party to the agreement may, on notice to the other parties to the agreement and the trustee, apply to a court for an order that the agreement is not to be disclaimed or resiliated.\n  Court ordered disclaimer or resiliation\n  (4) If the trustee does not approve the proposed disclaimer or resiliation, the debtor may, on notice to the other parties to the agreement and the trustee, apply to a court for an order that the agreement be disclaimed or resiliated.\n  Factors to be considered\n  (5) In deciding whether to make the order, the court is to consider, among other things,\n    (a) whether the trustee approved the proposed disclaimer or resiliation;\n    (b) whether the disclaimer or resiliation would enhance the prospects of a viable proposal being made in respect of the debtor; and\n    (c) whether the disclaimer or resiliation would likely cause significant financial hardship to a party to the agreement.\n  Date of disclaimer or resiliation\n  (6) An agreement is disclaimed or resiliated\n    (a) if no application is made under subsection (3), on the day that is 30 days after the day on which the debtor gives notice under subsection (1);\n    (b) if the court dismisses the application made under subsection (3), on the day that is 30 days after the day on which the debtor gives notice under subsection (1) or any later day fixed by the court; or\n    (c) if the court orders that the agreement is disclaimed or resiliated under subsection (4), on the day that is 30 days after the day on which the debtor gives notice or any later day fixed by the court.\n  Intellectual property\n  (7) If the debtor has granted a right to use intellectual property to a party to an agreement, the disclaimer or resiliation does not affect the party’s right to use the intellectual property — including the party’s right to enforce an exclusive use — during the term of the agreement, including any period for which the party extends the agreement as of right, as long as the party continues to perform its obligations under the agreement in relation to the use of the intellectual property.\n  Loss related to disclaimer or resiliation\n  (8) If an agreement is disclaimed or resiliated, a party to the agreement who suffers a loss in relation to the disclaimer or resiliation is considered to have a provable claim.\n  Reasons for disclaimer or resiliation\n  (9) A debtor shall, on request by a party to the agreement, provide in writing the reasons for the proposed disclaimer or resiliation within five days after the day on which the party requests them.\n  Exceptions\n  (10) This section does not apply in respect of\n    (a) an eligible financial contract;\n    (b) a lease referred to in subsection 65.2(1);\n    (c) a collective agreement;\n    (d) a financing agreement if the debtor is the borrower; or\n    (e) a lease of real property or of an immovable if the debtor is the lessor."
+  },
+  {
+   "id": "s72.1",
+   "num": "72.1",
+   "heading": "Intellectual property — sale or disposition",
+   "status": "in-effect",
+   "part": "PIV",
+   "text": "  (1) If the bankrupt is a party to an agreement that grants to another party a right to use intellectual property that is included in a sale or disposition by the trustee, that sale or disposition does not affect that other party’s right to use the intellectual property — including the other party’s right to enforce an exclusive use — during the term of the agreement, including any period for which the other party extends the agreement as of right, as long as the other party continues to perform its obligations under the agreement in relation to the use of the intellectual property.\n  Intellectual property — disclaimer or resiliation\n  (2) If the bankrupt is a party to an agreement that grants to another party a right to use intellectual property, the disclaimer or resiliation of that agreement by the trustee does not affect that other party’s right to use the intellectual property — including the other party’s right to enforce an exclusive use — during the term of the agreement, including any period for which the other party extends the agreement as of right, as long as the other party continues to perform its obligations under the agreement in relation to the use of the intellectual property."
+  },
+  {
+   "id": "s246.1",
+   "num": "246.1",
+   "heading": "Intellectual property — sale or disposition",
+   "status": "in-effect",
+   "part": "PXI",
+   "text": "  (1) If the insolvent person or the bankrupt is a party to an agreement that grants to another party a right to use intellectual property that is included in a sale or disposition by the receiver, that sale or disposition does not affect that other party’s right to use the intellectual property — including the other party’s right to enforce an exclusive use — during the term of the agreement, including any period for which the other party extends the agreement as of right, as long as the other party continues to perform its obligations under the agreement in relation to the use of the intellectual property.\n  Intellectual property — disclaimer or resiliation\n  (2) If the insolvent person or the bankrupt is a party to an agreement that grants to another party a right to use intellectual property, the disclaimer or resiliation of that agreement by the receiver does not affect that other party’s right to use the intellectual property — including the other party’s right to enforce an exclusive use — during the term of the agreement, including any period for which the other party extends the agreement as of right, as long as the other party continues to perform its obligations under the agreement in relation to the use of the intellectual property."
+  }
+ ],
+ "schedules": []
+}

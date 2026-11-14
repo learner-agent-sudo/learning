@@ -1,0 +1,50 @@
+{
+ "cap": "F-10.6",
+ "title": "Fighting Against Forced Labour and Child Labour in Supply Chains Act",
+ "longTitle": "An Act to enact the Fighting Against Forced Labour and Child Labour in Supply Chains Act and to amend the Customs Tariff",
+ "instrument": "",
+ "versionDate": "2025-08-11",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/F-10.6/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/F-10.6/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "Reporting Obligation — Entities",
+   "status": "in-effect",
+   "sections": [
+    "s9",
+    "s11"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Definitions",
+   "status": "in-effect",
+   "part": null,
+   "text": "  The following definitions apply in this Act.\n  child labour means labour or services provided or offered to be provided by persons under the age of 18 years and that\n    (a) are provided or offered to be provided in Canada under circumstances that are contrary to the laws applicable in Canada;\n    (b) are provided or offered to be provided under circumstances that are mentally, physically, socially or morally dangerous to them;\n    (c) interfere with their schooling by depriving them of the opportunity to attend school, obliging them to leave school prematurely or requiring them to attempt to combine school attendance with excessively long and heavy work; or\n    (d) constitute the worst forms of child labour as defined in article 3 of the Worst Forms of Child Labour Convention, 1999, adopted at Geneva on June 17, 1999.\n  entity means a corporation or a trust, partnership or other unincorporated organization that\n    (a) is listed on a stock exchange in Canada;\n    (b) has a place of business in Canada, does business in Canada or has assets in Canada and that, based on its consolidated financial statements, meets at least two of the following conditions for at least one of its two most recent financial years:\n      (i) it has at least $20 million in assets,\n      (ii) it has generated at least $40 million in revenue, and\n      (iii) it employs an average of at least 250 employees; or\n    (c) is prescribed by regulations.\n  forced labour means labour or service provided or offered to be provided by a person under circumstances that\n    (a) could reasonably be expected to cause the person to believe their safety or the safety of a person known to them would be threatened if they failed to provide or offer to provide the labour or service; or\n    (b) constitute forced or compulsory labour as defined in article 2 of the Forced Labour Convention, 1930, adopted in Geneva on June 28, 1930.\n  governing body means the body or group of members of the entity with primary responsibility for the governance of the entity.\n  government institution has the same meaning as in section 3 of the Access to Information Act.\n  head has the same meaning as in section 3 of the Access to Information Act.\n  Minister means the Minister of Public Safety and Emergency Preparedness.\n  production of goods includes the manufacturing, growing, extracting and processing of goods."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Entities",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  This Part applies to any entity\n    (a) producing, selling or distributing goods in Canada or elsewhere;\n    (b) importing into Canada goods produced outside Canada; or\n    (c) controlling an entity engaged in any activity described in paragraph (a) or (b)."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Annual report",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Every entity must, on or before May 31 of each year, report to the Minister on the steps the entity has taken during its previous financial year to prevent and reduce the risk that forced labour or child labour is used at any step of the production of goods in Canada or elsewhere by the entity or of goods imported into Canada by the entity.\n  Single or joint report\n  (2) An entity may comply with subsection (1) either\n    (a) by providing a report in respect of the entity; or\n    (b) by being party to a joint report in respect of more than one entity.\n  Supplementary information\n  (3) The report must also include the following information in respect of each entity subject to the report:\n    (a) its structure, activities and supply chains;\n    (b) its policies and its due diligence processes in relation to forced labour and child labour;\n    (c) the parts of its business and supply chains that carry a risk of forced labour or child labour being used and the steps it has taken to assess and manage that risk;\n    (d) any measures taken to remediate any forced labour or child labour;\n    (e) any measures taken to remediate the loss of income to the most vulnerable families that results from any measure taken to eliminate the use of forced labour or child labour in its activities and supply chains;\n    (f) the training provided to employees on forced labour and child labour; and\n    (g) how the entity assesses its effectiveness in ensuring that forced labour and child labour are not being used in its business and supply chains.\n  Approval of report\n  (4) The report must be approved,\n    (a) in the case of a report in respect of a single entity, by its governing body; or\n    (b) in the case of a joint report, either\n      (i) by the governing body of each entity included in the report, or\n      (ii) by the governing body of the entity, if any, that controls each entity included in the report.\n  Attestation of the report\n  (5) The approval of the report must be evidenced by\n    (a) a statement that sets out whether it was approved pursuant to paragraph (4)(a) or subparagraph (4)(b)(i) or (ii); and\n    (b) the signature of one or more members of the governing body of each entity that approved the report.\n  Form and manner\n  (6) The Minister may specify, in writing, the form and manner in which a report is to be provided. The requirements must be made available to the public in the manner that the Minister considers appropriate."
+  }
+ ],
+ "schedules": []
+}

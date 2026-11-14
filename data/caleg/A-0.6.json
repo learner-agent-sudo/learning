@@ -1,0 +1,49 @@
+{
+ "cap": "A-0.6",
+ "title": "Accessible Canada Act",
+ "longTitle": "An Act to ensure a barrier-free Canada",
+ "instrument": "",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/A-0.6/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/A-0.6/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Duties of Regulated Entities",
+   "status": "in-effect",
+   "sections": [
+    "s69"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Purpose",
+   "status": "in-effect",
+   "part": null,
+   "text": "  The purpose of this Act is to benefit all persons, especially persons with disabilities, through the realization, within the purview of matters coming within the legislative authority of Parliament, of a Canada without barriers, on or before January 1, 2040, particularly by the identification and removal of barriers, and the prevention of new barriers, in the following areas:\n    (a) employment;\n    (b) the built environment;\n    (c) information and communication technologies;\n    (c.1) communication, other than information and communication technologies;\n    (d) the procurement of goods, services and facilities;\n    (e) the design and delivery of programs and services;\n    (f) transportation; and\n    (g) areas designated under regulations made under paragraph 117(1)(b)."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) This Act applies to the following entities and persons:\n    (a) each entity named or set out in any of Schedules I to V to the Financial Administration Act;\n    (b) each Crown corporation, as defined in subsection 83(1) of the Financial Administration Act that is not referred to in Schedule III to that Act;\n    (c) every portion of the federal public administration that is designated under subsection (3);\n    (d) the Canadian Forces;\n    (e) any person, partnership or unincorporated organization that operates a work or carries on an undertaking or business that is within the legislative authority of Parliament, other than a work, undertaking or business of a local or private nature in Yukon, the Northwest Territories or Nunavut; and\n    (f) any entity or person — including a trustee, executor, administrator, liquidator of the succession, guardian, curator or tutor — that acts in the name of, or for the benefit of, any entity or person in the operation of a work or carrying on of an undertaking or business that is within the legislative authority of Parliament, other than a work, undertaking or business of a local or private nature in Yukon, the Northwest Territories or Nunavut.\n  Parliamentary entities\n  (2) This Act also applies, to the extent provided for in Part 9, to the entities referred to in the definition of parliamentary entity in section 134.\n  Designation\n  (3) For the purposes of paragraph (1)(c), the Governor in Council may, by order, designate any portion of the federal public administration that is not named or set out in any of Schedules I to V to the Financial Administration Act."
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "Initial accessibility plan",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) A regulated entity – other than a regulated entity referred to in any of subsections 42(1), 51(1) and 60(1) — must, before the expiry of one year after the day fixed or determined by regulations made under subsection 117(1) that apply to that regulated entity, prepare and publish, in accordance with this Act and regulations made under subsection 117(1), an accessibility plan respecting\n    (a) its policies, programs, practices and services in relation to the identification and removal of barriers, and the prevention of new barriers, in the areas referred to in paragraphs 5(a) to (g); and\n    (b) the provisions of regulations made under subsection 117(1) that apply to it.\n  Updated accessibility plan\n  (2) The regulated entity must prepare and publish, in accordance with this Act and regulations made under subsection 117(1), an updated version of its accessibility plan no later than the third anniversary of the day on which the plan was last published or before the expiry of the applicable period prescribed by regulations made under that subsection.\n  Notice to Accessibility Commissioner\n  (3) The regulated entity must notify the Accessibility Commissioner, within the time and in the manner prescribed in regulations made under subsection 117(1), of the publication of every version of its accessibility plan.\n  Duty to consult\n  (4) The regulated entity must consult persons with disabilities in the preparation of its accessibility plan and every updated version of its accessibility plan.\n  Manner of consultation\n  (5) The accessibility plan must set out the manner in which the regulated entity consulted persons with disabilities in the preparation of the plan.\n  Applicable requirements\n  (6) The accessibility plan need not address a requirement that applies to the regulated entity and that is set out in regulations made under subsection 117(1) unless the requirement has been in force at least three months before the day on which the accessibility plan must be published.\n  Duty to make plan available on request\n  (7) If a person makes a request in accordance with subsection (8), the regulated entity must, within the time prescribed by regulations made under subsection 117(1), make its accessibility plan available to the person in the format prescribed by regulations made under that subsection that is indicated in the request.\n  Conditions\n  (8) The request must be made in the form and manner prescribed by regulations made under subsection 117(1) and must indicate the format prescribed by regulations made under that subsection in which the accessibility plan is to be made available to the person making the request.\n  Principles\n  (9) The regulated entity must take into account the principles set out in section 6 when it prepares an accessibility plan or an updated version of its accessibility plan."
+  }
+ ],
+ "schedules": []
+}

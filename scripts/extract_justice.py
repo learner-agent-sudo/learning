@@ -56,8 +56,16 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("P-24.501", "acts", None),        # Proceeds of Crime (Money Laundering) and Terrorist Financing Act
     ("R-7.36", "acts", None),          # Retail Payment Activities Act
     ("E-1.6", "acts", None),           # Canada's anti-spam legislation (CASL)
-    ("C-34", "acts", ["74.01", "74.06", "90.1"]),         # Competition Act
-    ("C-46", "acts", ["206", "347", "462.31"]),           # Criminal Code
+    ("C-34", "acts", ["45", "74.01", "74.06", "90.1"]),   # Competition Act
+    ("C-46", "acts", ["206", "347", "426", "462.31"]),    # Criminal Code
+    ("C-42", "acts", ["13", "14.1"]),                     # Copyright Act
+    ("B-3", "acts", ["65.1", "65.11", "72.1", "246.1"]),  # Bankruptcy and Insolvency Act
+    ("C-36", "acts", ["32", "34", "36"]),                 # Companies' Creditors Arrangement Act
+    ("I-3.3", "acts", ["212", "215"]),                    # Income Tax Act
+    ("E-15", "acts", ["218"]),                            # Excise Tax Act
+    ("L-2", "acts", ["44", "189", "212"]),                # Canada Labour Code
+    ("A-0.6", "acts", ["5", "7", "69"]),                  # Accessible Canada Act
+    ("F-10.6", "acts", ["2", "9", "11"]),                 # Fighting Against Forced Labour and Child Labour in Supply Chains Act
     ("SOR-2021-181", "regulations", None),  # Financial Consumer Protection Framework Regulations
     ("SOR-92-330", "regulations", None),    # Insurance Business (Banks and Bank Holding Companies) Regulations
     ("SOR-2002-184", "regulations", None),  # PCMLTF Regulations
@@ -67,7 +75,11 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("SOR-96-542", "regulations", None),    # CDIC Deposit Insurance Information By-law
     ("SOR-2010-292", "regulations", None),  # CDIC Data and System Requirements By-law
     ("SOR-2026-133", "regulations", None),  # Real-Time Rail By-law (Payments Canada)
+    ("C.R.C.,_c._945", "regulations", ["105"]),  # Income Tax Regulations
 ]
+
+# Ids that are awkward as file names and citation keys, and the key used instead.
+CAP_ALIAS = {"C.R.C.,_c._945": "CRC-945"}
 
 # Acts without an official short title, named as they are commonly cited.
 TITLES = {"E-1.6": "Canada's Anti-Spam Legislation (S.C. 2010, c. 23)"}
@@ -144,6 +156,9 @@ def render(el: "ET.Element", depth: int, out: list[str]) -> None:
             out.append(" " * (depth + 2) + clean(" ".join(child.itertext())))
         elif tag == "TableGroup":
             out.extend(table_text(child, " " * (depth + 2)))
+        elif tag in ("ReadAsText", "SectionPiece"):
+            # Words an Act tells the reader to read into another provision.
+            render(child, depth + 2 if tag == "ReadAsText" else depth, out)
         elif tag in ("Provision", "List", "Item"):
             label = child.findtext("Label") or ""
             text_el = child.find("Text")
@@ -294,7 +309,7 @@ def extract(kind: str, ident: str, xml: bytes, keep: list[str] | None) -> dict:
             print(f"  ! {ident}: kept sections not found: {', '.join(missing)}", file=sys.stderr)
 
     return {
-        "cap": ident,
+        "cap": CAP_ALIAS.get(ident, ident),
         "title": title,
         "longTitle": long_title,
         "instrument": instrument,
@@ -330,7 +345,7 @@ def main() -> int:
             print(f"  ! {ident}: {e}", file=sys.stderr)
             failures += 1
             continue
-        path = OUT / f"{ident}.json"
+        path = OUT / f"{CAP_ALIAS.get(ident, ident)}.json"
         path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         live = sum(1 for s in doc["sections"] if s["status"] == "in-effect")
         print(f"{ident}: {doc['title']} | current to {doc['versionDate']} | {live} sections, "

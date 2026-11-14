@@ -1,0 +1,33 @@
+{
+ "cap": "E-15",
+ "title": "Excise Tax Act",
+ "longTitle": "An Act respecting excise taxes",
+ "instrument": "",
+ "versionDate": "2026-06-21",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/E-15/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/E-15/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "PIX",
+   "num": "Part IX",
+   "heading": "Goods and Services Tax",
+   "status": "in-effect",
+   "sections": [
+    "s218"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s218",
+   "num": "218",
+   "heading": "Imposition of goods and services tax",
+   "status": "in-effect",
+   "part": "PIX",
+   "text": "  Subject to this Part, every recipient of an imported taxable supply shall pay to Her Majesty in right of Canada tax calculated at the rate of 5% on the value of the consideration for the imported taxable supply."
+  }
+ ],
+ "schedules": []
+}

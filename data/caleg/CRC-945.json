@@ -1,0 +1,33 @@
+{
+ "cap": "CRC-945",
+ "title": "Income Tax Regulations",
+ "longTitle": "Income Tax Regulations",
+ "instrument": "C.R.C., c. 945",
+ "versionDate": "2026-06-21",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._945/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "PI",
+   "num": "Part I",
+   "heading": "Tax Deductions",
+   "status": "in-effect",
+   "sections": [
+    "s105"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s105",
+   "num": "105",
+   "heading": "Non-Residents",
+   "status": "in-effect",
+   "part": "PI",
+   "text": "  (1) Every person paying to a non-resident person a fee, commission or other amount in respect of services rendered in Canada, of any nature whatever, shall deduct or withhold 15 per cent of such payment.\n  (2) Subsection (1) does not apply to a payment\n    (a) described in the definition remuneration in subsection 100(1);\n    (b) made to a registered non-resident insurer (within the meaning assigned by section 804); or\n    (c) made to an authorized foreign bank in respect of its Canadian banking business."
+  }
+ ],
+ "schedules": []
+}
