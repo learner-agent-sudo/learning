@@ -38,6 +38,8 @@ export interface BankingStage {
   incidentKit?: IncidentKit;
   // Counsel's step-by-step checklist for taking on a new vendor.
   onboardingKit?: OnboardingKit;
+  // The same kind of checklist for reviewing one advertisement or promotion.
+  reviewKit?: OnboardingKit;
 }
 
 // Legal force of a source behind a requirement, strongest first.
@@ -256,7 +258,24 @@ export interface OnboardingItem {
   tab?: 'vendors' | 'materiality' | 'incidents';
   // What goes on the file.
   evidence?: string[];
+  // Model wording counsel can adapt, one line each.
+  wording?: string[];
   sources: ContractSource[];
+}
+
+// The words that change when the checklist is about something other than a deal.
+export interface OnboardingLabels {
+  // Heading of the profile section, e.g. "Describe the deal".
+  profileTitle: string;
+  // Label and example for the free-text name.
+  nameLabel: string;
+  namePlaceholder: string;
+  // What one use of the checklist is called ("deal", "piece").
+  noun: string;
+  documentsTitle: string;
+  // Title of the downloaded checklist, and the start of its file name.
+  exportTitle: string;
+  fileStem: string;
 }
 
 export interface OnboardingKit {
@@ -271,6 +290,10 @@ export interface OnboardingKit {
   addendumOptions?: Record<string, string[]>;
   exportNote: string;
   caveat?: string;
+  // Defaults are the new-vendor wording.
+  labels?: Partial<OnboardingLabels>;
+  // Where progress is saved in the browser, so two checklists do not share it.
+  storageKey?: string;
 }
 
 export type ActivityGroup =

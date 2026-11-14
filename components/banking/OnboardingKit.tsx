@@ -9,7 +9,7 @@ import { BANK_SECTION, onboardPhaseId } from '@/lib/bankingOutline';
 import { load, save } from '@/lib/useStudyState';
 import { download } from '@/lib/vendorExport';
 import {
-  STEP_LABEL, STEP_STATUSES, applies, onboardingCsv, onboardingMarkdown, onboardingName,
+  STEP_LABEL, STEP_STATUSES, applies, kitLabels, onboardingCsv, onboardingMarkdown, onboardingName,
   type OnboardingState, type StepState, type StepStatus,
 } from '@/lib/onboardingExport';
 import { RichText } from '../RichText';
@@ -81,10 +81,11 @@ function whenPresent(id: string, then: () => void) {
 }
 
 function StepCard({
-  item, n, state, terms, onStatus, onNote, onTab, onClause,
+  item, n, noun, state, terms, onStatus, onNote, onTab, onClause,
 }: {
   item: OnboardingItem;
   n: string;
+  noun: string;
   state?: StepState;
   terms: Record<string, ContractTerm>;
   onStatus: (s: StepStatus | undefined) => void;
@@ -160,6 +161,21 @@ function StepCard({
               </p>
             </div>
           )}
+          {item.wording && item.wording.length > 0 && (
+            <div>
+              <h5 className="kicker mb-1.5">Model wording</h5>
+              <ul className="space-y-1.5">
+                {item.wording.map((w) => (
+                  <li
+                    key={w}
+                    className="rounded-r-lg border-l-2 border-phase/60 bg-ink/[0.03] px-3 py-2 text-sm leading-relaxed text-ink/85"
+                  >
+                    <RichText text={w} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           {(linked.length > 0 || item.tab) && (
             <div>
               <h5 className="kicker mb-1.5">Carry it forward</h5>
@@ -194,7 +210,7 @@ function StepCard({
           </div>
           <div className="space-y-2.5 border-t border-line/80 pt-4">
             <fieldset>
-              <legend className="kicker mb-2">This deal</legend>
+              <legend className="kicker mb-2">This {noun}</legend>
               <div className="flex flex-wrap gap-1.5">
                 {STEP_STATUSES.map((s) => {
                   const Icon = STATUS[s].icon;
@@ -225,7 +241,9 @@ function StepCard({
               </div>
             </fieldset>
             <label className="block">
-              <span className="sr-only">Notes on {item.title} for this deal</span>
+              <span className="sr-only">
+                Notes on {item.title} for this {noun}
+              </span>
               <textarea
                 value={state?.note ?? ''}
                 onChange={(e) => onNote(e.target.value)}
@@ -241,7 +259,7 @@ function StepCard({
   );
 }
 
-/** Counsel's step-by-step checklist for taking on a new vendor, narrowed by a profile of the deal. */
+/** Counsel's step-by-step checklist (a new vendor, or one advertisement), narrowed by a profile. */
 export function OnboardingKit({
   kit, terms, addendum, onGo,
 }: {
@@ -252,7 +270,8 @@ export function OnboardingKit({
   onGo: (tab: string, section?: string) => void;
 }) {
   const { storage } = useBankingModule();
-  const KEY = `${storage}:onboarding:v1`;
+  const KEY = `${storage}:${kit.storageKey ?? 'onboarding'}:v1`;
+  const L = kitLabels(kit);
   const ids = useMemo(() => new Set(kit.items.map((i) => i.id)), [kit]);
   const options = useMemo(() => new Set(kit.profile.flatMap((g) => g.options.map((o) => o.id))), [kit]);
   const [state, setState] = useState<OnboardingState>(EMPTY);
@@ -288,12 +307,16 @@ export function OnboardingKit({
 
   const exportMd = () =>
     download(
-      onboardingName(state.deal, 'md', today()),
+      onboardingName(state.deal, 'md', today(), L.fileStem),
       onboardingMarkdown(kit, state, shown, terms, today()),
       'text/markdown;charset=utf-8'
     );
   const exportCsv = () =>
-    download(onboardingName(state.deal, 'csv', today()), onboardingCsv(kit, state, shown, terms), 'text/csv;charset=utf-8');
+    download(
+      onboardingName(state.deal, 'csv', today(), L.fileStem),
+      onboardingCsv(kit, state, shown, terms),
+      'text/csv;charset=utf-8'
+    );
 
   // Switch on the addendum options this profile calls for, then show the builder.
   const setUpAddendum = () => {
@@ -328,15 +351,15 @@ export function OnboardingKit({
 
       <section id={BANK_SECTION.onboardProfile} aria-labelledby="onboard-profile-title">
         <SectionTitle>
-          <span id="onboard-profile-title">Describe the deal</span>
+          <span id="onboard-profile-title">{L.profileTitle}</span>
         </SectionTitle>
         <label className="block">
-          <span className="kicker mb-1.5 block">Vendor or deal</span>
+          <span className="kicker mb-1.5 block">{L.nameLabel}</span>
           <input
             type="text"
             value={state.deal}
             onChange={(e) => update((s) => ({ ...s, deal: e.target.value }))}
-            placeholder="e.g. Acme Cloud CRM, 2027 renewal"
+            placeholder={L.namePlaceholder}
             className="block w-full rounded-lg border border-line bg-paper px-3 py-2 text-base placeholder:text-muted/80 focus:border-phase focus:outline-none focus:ring-1 focus:ring-phase"
           />
         </label>
@@ -370,7 +393,11 @@ export function OnboardingKit({
             <span className="font-medium">
               {shown.length} of {kit.items.length} steps
             </span>{' '}
-            {filtering ? 'apply to this deal' : state.picks.length ? 'shown (every step)' : 'shown: pick the profile to narrow them'}
+            {filtering
+              ? `apply to this ${L.noun}`
+              : state.picks.length
+                ? 'shown (every step)'
+                : 'shown: pick the profile to narrow them'}
             <span className="text-muted">
               {' '}· {done} done · {issues} open {issues === 1 ? 'issue' : 'issues'} · {na} not applicable
             </span>
@@ -406,7 +433,7 @@ export function OnboardingKit({
             <button
               type="button"
               onClick={() => {
-                if (!window.confirm('Clear the deal name, the profile, the ticks and the notes?')) return;
+                if (!window.confirm(`Clear the ${L.nameLabel.toLowerCase()}, the profile, the ticks and the notes?`)) return;
                 update(() => EMPTY);
                 setNotice('Cleared');
                 setTimeout(() => setNotice(''), 1800);
@@ -424,7 +451,7 @@ export function OnboardingKit({
 
       <section id={BANK_SECTION.onboardDocuments} aria-labelledby="onboard-documents-title">
         <SectionTitle>
-          <span id="onboard-documents-title">The document set</span>
+          <span id="onboard-documents-title">{L.documentsTitle}</span>
         </SectionTitle>
         <SectionVisual visual={kit.documents} />
         {kit.documentsNote && <BulletList items={kit.documentsNote} className="mt-4" />}
@@ -459,6 +486,7 @@ export function OnboardingKit({
                       key={i.id}
                       item={i}
                       n={`${n}.${kit.items.filter((x) => x.phase === p.id).indexOf(i) + 1}`}
+                      noun={L.noun}
                       state={state.items[i.id]}
                       terms={byTerm}
                       onStatus={(s) => setItem(i.id, { status: s })}

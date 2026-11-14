@@ -1,6 +1,7 @@
 import type { CaBankingStage } from './caBanking';
 import { BANK_SECTION, onboardPhaseId } from './bankingOutline';
 import { essentialsSections, noteSections, tab, type OutlineTab } from './outline';
+import { kitLabels } from './onboardingExport';
 
 export const CA_NOTE_CARDS = {
   it: { key: 'it', label: 'The IT angle' },
@@ -17,16 +18,22 @@ export function caOutline(stage: CaBankingStage): OutlineTab[] {
   const vk = stage.vendorKit;
   const mk = stage.materialityKit;
   const ok = stage.onboardingKit;
+  const rk = stage.reviewKit;
+  const checklistSections = (k: NonNullable<typeof ok>) => {
+    const L = kitLabels(k);
+    return [
+      { id: S.onboardProfile, label: L.profileTitle },
+      { id: S.onboardDocuments, label: L.documentsTitle },
+      ...k.phases.map((p, i) => ({ id: onboardPhaseId(p.id), label: `${i + 1}. ${p.title}` })),
+    ];
+  };
   return [
     tab('essentials', 'Essentials', essentialsSections(idBase, stage)),
     tab('provisions', 'Provisions'),
+    ...(rk ? [tab('review', 'Ad review', checklistSections(rk))] : []),
     ...(ok
       ? [
-          tab('onboarding', 'New IT vendor', [
-            { id: S.onboardProfile, label: 'Describe the deal' },
-            { id: S.onboardDocuments, label: 'The document set' },
-            ...ok.phases.map((p, i) => ({ id: onboardPhaseId(p.id), label: `${i + 1}. ${p.title}` })),
-          ]),
+          tab('onboarding', 'New IT vendor', checklistSections(ok)),
         ]
       : []),
     ...(vk

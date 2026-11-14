@@ -6,6 +6,7 @@ import {
   BookText,
   ClipboardCheck,
   ClipboardList,
+  Megaphone,
   Check,
   Gauge,
   Cpu,
@@ -66,8 +67,9 @@ export function CaBankingStage({ stage, total, prev, next, onNavigate, tab, onTa
   // The Technology stage carries two extra tools, so its tab labels shorten.
   const crowded = !!(stage.materialityKit || stage.incidentKit);
   const tabs: (TabDef & { id: CaTab })[] = [
-    { id: 'essentials', label: 'Essentials', short: stage.vendorKit || stage.activityKit ? 'Basics' : undefined, icon: BookOpen },
+    { id: 'essentials', label: 'Essentials', short: stage.vendorKit || stage.activityKit || stage.reviewKit ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
+    ...(stage.reviewKit ? [{ id: 'review' as const, label: 'Ad review', short: 'Review', icon: Megaphone }] : []),
     ...(stage.onboardingKit ? [{ id: 'onboarding' as const, label: 'New IT vendor', short: 'Onboard', icon: ClipboardList }] : []),
     ...(stage.vendorKit
       ? [{ id: 'vendors' as const, label: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
@@ -133,6 +135,12 @@ export function CaBankingStage({ stage, total, prev, next, onNavigate, tab, onTa
             lookup={caExtract}
             note="Statute cards include the text of the Act or regulation from the Justice Laws Website. OSFI and other regulators' guidance is summarised in our own words, with a link to the source."
           />
+        </TabPanel>
+      )}
+
+      {tab === 'review' && stage.reviewKit && (
+        <TabPanel idBase={idBase} id="review">
+          <OnboardingKit kit={stage.reviewKit} terms={[]} onGo={(t, section) => onJump(t as CaTab, section)} />
         </TabPanel>
       )}
 
