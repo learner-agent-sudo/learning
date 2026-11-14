@@ -16,7 +16,7 @@ export default function CaBankingAboutPage() {
       tone={TONES.brick}
     >
       <p>
-        A thirteen-stage path through the federal rules for a bank in Canada, written for the reader of the Hong Kong
+        A fourteen-stage path through the federal rules for a bank in Canada, written for the reader of the Hong Kong
         volumes: an experienced lawyer with an IT background who is counsel to a <strong>digital bank</strong>. Canada
         has no separate licence for one: a digital bank is a bank under the Bank Act, supervised by OSFI, that serves
         its customers mainly through an app.
@@ -43,6 +43,15 @@ export default function CaBankingAboutPage() {
         leading contract cases. Progress and notes stay in the browser and download as a checklist or a tracker.
       </p>
       <p>
+        Stage 12, <strong>Advertising &amp; promotion</strong>, covers what counsel checks before the bank&apos;s
+        ads, messages, offers and partner content go out: the Bank Act&apos;s advertising standard and the
+        disclosures a rate, payment or fee brings in, the Competition Act&apos;s deceptive-marketing rules, the
+        anti-spam and telemarketing rules, the CDIC by-law, the limits on bank names and insurance promotion, and
+        Quebec&apos;s French-language and consumer rules. Its <strong>Ad review</strong> tab is a checklist for
+        one piece of material, narrowed by what it promotes, what it says, where it runs, who sees it and who
+        makes it, with model wording where it helps.
+      </p>
+      <p>
         Abbreviations are explained where they appear, so a stage can be read on its own and in any order. The first
         use in each bullet has a dotted underline; tap or hover it for the full name.
       </p>
@@ -57,8 +66,9 @@ export default function CaBankingAboutPage() {
           </a>
           ), refreshed weekly: the Bank Act, PIPEDA, the PCMLTFA and its regulations, the CDIC Act and two CDIC
           by-laws, the OSFI and FCAC Acts, the Retail Payment Activities Act and its regulations, Canada&apos;s
-          anti-spam legislation, the Financial Consumer Protection Framework Regulations, the Supervisory Information
-          (Banks) Regulations, the Real-Time Rail By-law, and selected Criminal Code and Competition Act sections.
+          anti-spam legislation and its two sets of regulations, the Financial Consumer Protection Framework
+          Regulations, the Supervisory Information (Banks) Regulations, the Real-Time Rail By-law, and selected
+          sections of the Criminal Code, the Competition Act, the Trademarks Act and the Telecommunications Act.
           Federal enactments may be reproduced under the Reproduction of Federal Law Order; this is not the official
           version, and each extract links to the official text.
           {BANK_ACT_ANATOMY && ` Bank Act text shown: current to ${BANK_ACT_ANATOMY.versionDate}.`}
@@ -69,9 +79,11 @@ export default function CaBankingAboutPage() {
           reproduced. Cards link to the source where we have a confirmed address.
         </li>
         <li>
-          <strong>Quebec law</strong> (the private-sector privacy Act as amended by Law 25, and the Charter of the
-          French language) could be checked only through official guidance and reports, so points that rest on it are
-          marked &ldquo;reported; check&rdquo;.
+          <strong>Quebec law</strong> (the private-sector privacy Act as amended by Law 25, the Charter of the
+          French language and the Consumer Protection Act) could be checked only through official guidance and
+          reports, so points that rest on it are marked &ldquo;reported; check&rdquo;. So are court and tribunal
+          decisions, Ad Standards&apos; Code and guidelines, and regulator positions on advertising that were found
+          only in reports of them.
         </li>
       </ul>
 

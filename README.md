@@ -186,7 +186,7 @@ insurers, broker companies).
 
 ## Canadian banking regulation
 
-Thirteen stages through the federal rules for a bank in Canada, for the same
+Fourteen stages through the federal rules for a bank in Canada, for the same
 reader as the HK volumes, with the weight on vendors and third parties.
 Canada has no separate licence for a digital bank: it is a bank under the
 Bank Act, supervised by OSFI. Stages 5 to 8 ("Vendors & third parties")
@@ -214,7 +214,16 @@ BIA and CCAA stays and licence protection, Competition Act s.45 no-poaching,
 Part XIII and Reg. 105 withholding, Quebec's privacy Act and Civil Code, and
 the leading contract cases), with nine matching clauses in the kit; ticks and
 notes export as Markdown or CSV (`components/banking/OnboardingKit.tsx`,
-`lib/onboardingExport.ts`). Content lives
+`lib/onboardingExport.ts`). Stage 12, **Advertising & promotion**, sets out
+the rules for a bank's ads, messages, offers and partner content: the Bank
+Act's advertising standard and disclosure triggers (ss.627.14, 627.63,
+627.85-627.91 and SOR/2021-181), the Competition Act's deceptive-marketing
+rules, CASL and the telemarketing rules, the CDIC by-law, s.983 on bank names,
+insurance promotion, and Quebec's French-language and consumer rules. Its
+**Ad review** tab reuses the checklist tool (with its own labels and saved
+state) for signing off one piece: 62 steps in nine phases, narrowed by what
+the piece promotes, says, where it runs, who sees it and who makes it, with
+model wording where it helps. Content lives
 in `data/ca-banking/stages.json`. Statute cards carry the text of the Bank
 Act, PIPEDA, the PCMLTFA and its regulations, the CDIC Act and by-laws and
 other federal instruments from the Justice Laws consolidated XML
