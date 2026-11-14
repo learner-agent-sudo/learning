@@ -80,6 +80,8 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("SOR-2026-133", "regulations", None),  # Real-Time Rail By-law (Payments Canada)
     ("SOR-2012-36", "regulations", None),   # Electronic Commerce Protection Regulations (CRTC)
     ("SOR-2013-221", "regulations", None),  # Electronic Commerce Protection Regulations
+    ("SOR-2001-409", "regulations", None),  # Name Use in Securities-related Transactions (Banks and BHCs) Regulations
+    ("SOR-2002-101", "regulations", None),  # FCAC Designated Violations Regulations
     ("C.R.C.,_c._945", "regulations", ["105"]),  # Income Tax Regulations
 ]
 

@@ -1,0 +1,31 @@
+{
+ "cap": "SOR-2001-409",
+ "title": "Name Use in Securities-related Transactions (Banks and Bank Holding Companies) Regulations",
+ "longTitle": "Name Use in Securities-related Transactions (Banks and Bank Holding Companies) Regulations",
+ "instrument": "SOR/2001-409",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-409/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2001-409/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Use of name of bank or bank holding company",
+   "status": "in-effect",
+   "part": null,
+   "text": "  A person may use the name of a bank or of a bank holding company in a prospectus, offering memorandum, takeover bid circular, advertisement for a transaction related to securities or in any other document in connection with a transaction related to securities if the use is required by law or if the bank or bank holding company, as the case may be, has given its written permission for the use."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Repeal",
+   "status": "in-effect",
+   "part": null,
+   "text": "  [Repeal]"
+  }
+ ],
+ "schedules": []
+}
