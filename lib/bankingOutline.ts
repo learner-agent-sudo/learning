@@ -17,7 +17,12 @@ export const BANK_SECTION = {
   incClocks: 'incidents-clocks',
   incCalls: 'incidents-calls',
   incPlan: 'incidents-plan',
+  onboardProfile: 'onboard-profile',
+  onboardDocuments: 'onboard-documents',
 } as const;
+
+// Each phase of the new-vendor checklist has its own anchor.
+export const onboardPhaseId = (phase: string) => `onboard-${phase}`;
 
 export const NOTE_CARDS = {
   it: { key: 'it', label: 'The IT angle' },

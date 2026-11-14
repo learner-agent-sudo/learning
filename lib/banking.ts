@@ -36,6 +36,8 @@ export interface BankingStage {
   // is notified, by when, when a vendor has an incident.
   materialityKit?: MaterialityKit;
   incidentKit?: IncidentKit;
+  // Counsel's step-by-step checklist for taking on a new vendor.
+  onboardingKit?: OnboardingKit;
 }
 
 // Legal force of a source behind a requirement, strongest first.
@@ -214,6 +216,60 @@ export interface VendorKit {
   terms: ContractTerm[];
   playbook?: KitPlaybook;
   process: PointSection[];
+  caveat?: string;
+}
+
+// Counsel's checklist for taking on a new vendor, filtered by a profile of the deal.
+export interface OnboardingOption {
+  id: string;
+  label: string;
+  hint?: string;
+}
+
+export interface OnboardingGroup {
+  id: string;
+  label: string;
+  help?: string;
+  options: OnboardingOption[];
+}
+
+export interface OnboardingPhase {
+  id: string;
+  title: string;
+  lede: string;
+}
+
+export interface OnboardingItem {
+  id: string;
+  phase: string;
+  // The action, short and imperative.
+  title: string;
+  // What to do and what to look for, one point each.
+  detail: string[];
+  // Who does the work; the first leads.
+  owner: string[];
+  // Profile options that make the item apply; absent means every deal.
+  when?: string[];
+  // Clauses in the vendor kit that carry the point into the contract.
+  terms?: string[];
+  // Another tool in the stage that does this step.
+  tab?: 'vendors' | 'materiality' | 'incidents';
+  // What goes on the file.
+  evidence?: string[];
+  sources: ContractSource[];
+}
+
+export interface OnboardingKit {
+  intro: string[];
+  profile: OnboardingGroup[];
+  phases: OnboardingPhase[];
+  items: OnboardingItem[];
+  // The documents a deal usually needs, in signing order.
+  documents: SectionVisualData;
+  documentsNote?: string[];
+  // Addendum options the profile switches on: option id -> profile option ids.
+  addendumOptions?: Record<string, string[]>;
+  exportNote: string;
   caveat?: string;
 }
 

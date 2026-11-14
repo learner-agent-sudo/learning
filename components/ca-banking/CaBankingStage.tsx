@@ -5,6 +5,7 @@ import {
   BookOpen,
   BookText,
   ClipboardCheck,
+  ClipboardList,
   Check,
   Gauge,
   Cpu,
@@ -34,6 +35,7 @@ import { Badge, StageHeader } from '../ui/StageHeader';
 import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 import { IncidentClocks } from '../banking/IncidentClocks';
 import { MaterialityTool } from '../banking/MaterialityTool';
+import { OnboardingKit } from '../banking/OnboardingKit';
 import { BankingModuleProvider } from '../banking/ModuleContext';
 import { StatuteLookupProvider } from '../banking/Sources';
 import { VendorKit } from '../banking/VendorKit';
@@ -66,6 +68,7 @@ export function CaBankingStage({ stage, total, prev, next, onNavigate, tab, onTa
   const tabs: (TabDef & { id: CaTab })[] = [
     { id: 'essentials', label: 'Essentials', short: stage.vendorKit || stage.activityKit ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
+    ...(stage.onboardingKit ? [{ id: 'onboarding' as const, label: 'New IT vendor', short: 'IT vendor', icon: ClipboardList }] : []),
     ...(stage.vendorKit
       ? [{ id: 'vendors' as const, label: 'Vendors', icon: ClipboardCheck, count: stage.vendorKit.terms.length }]
       : []),
@@ -129,6 +132,17 @@ export function CaBankingStage({ stage, total, prev, next, onNavigate, tab, onTa
             provisions={stage.provisions}
             lookup={caExtract}
             note="Statute cards include the text of the Act or regulation from the Justice Laws Website. OSFI and other regulators' guidance is summarised in our own words, with a link to the source."
+          />
+        </TabPanel>
+      )}
+
+      {tab === 'onboarding' && stage.onboardingKit && (
+        <TabPanel idBase={idBase} id="onboarding">
+          <OnboardingKit
+            kit={stage.onboardingKit}
+            terms={stage.vendorKit?.terms ?? []}
+            addendum={stage.vendorKit?.addendum}
+            onGo={(t, section) => onJump(t as CaTab, section)}
           />
         </TabPanel>
       )}

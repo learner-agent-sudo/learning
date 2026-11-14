@@ -37,7 +37,7 @@ export const CA_PHASES: Record<CaPhase, { label: string; tone: Tone }> = {
 };
 
 // Tabs of a stage view, in order; the first is the default (no hash suffix).
-export const CA_TABS = ['essentials', 'provisions', 'vendors', 'materiality', 'incidents', 'checklist', 'notes', 'glossary'] as const;
+export const CA_TABS = ['essentials', 'provisions', 'onboarding', 'vendors', 'materiality', 'incidents', 'checklist', 'notes', 'glossary'] as const;
 export type CaTab = (typeof CA_TABS)[number];
 
 // How the legal force of a Canadian source differs from the HK wording.
