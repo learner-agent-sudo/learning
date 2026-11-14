@@ -56,7 +56,7 @@ export function onboardingMarkdown(
     '',
     `**Profile:** ${picks.length ? picks.join('; ') : 'none chosen (every step shown)'}`,
     '',
-    `**Progress:** ${count('done')} of ${shown.length} steps done; ${count('issue')} open issues; ${count('na')} not applicable.`,
+    `**Progress:** ${count('done')} of ${shown.length} steps done; ${count('issue')} open ${count('issue') === 1 ? 'issue' : 'issues'}; ${count('na')} not applicable.`,
     '',
   ];
   kit.phases.forEach((p, n) => {
