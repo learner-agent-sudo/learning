@@ -221,7 +221,7 @@ Act's advertising standard and disclosure triggers (ss.627.14, 627.63,
 rules, CASL and the telemarketing rules, the CDIC by-law, s.983 on bank names,
 insurance promotion, and Quebec's French-language and consumer rules. Its
 **Ad review** tab reuses the checklist tool (with its own labels and saved
-state) for signing off one piece: 62 steps in nine phases, narrowed by what
+state) for signing off one piece: 64 steps in nine phases, narrowed by what
 the piece promotes, says, where it runs, who sees it and who makes it, with
 model wording where it helps. Content lives
 in `data/ca-banking/stages.json`. Statute cards carry the text of the Bank

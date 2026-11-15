@@ -13759,8 +13759,8 @@
    "**Disclosure triggers:** a rate, payment or charge in an ad brings in required information: how deposit interest is calculated (s.627.85), the APR and term for loans, and the annual rate and fees for cards and lines of credit (SOR/2021-181 ss.50, 57, 70), as prominently and in the same medium.",
    "**Competition Act in full:** the general impression counts as well as the words; prices must include fixed mandatory fees; performance and green claims need proof before they are made; testimonials need permission (ss.74.01-74.03). Corporate penalties start at $10 million (s.74.1).",
    "**Deposit insurance and names:** membership statements use CDIC's prescribed wording, and no one may misstate what is insured (SOR/96-542 ss.2, 4). A partner using 'bank' words or implying an affiliation without authority commits an offence (Bank Act s.983).",
-   "**Messages and calls:** commercial emails, texts and similar messages need consent, sender identity and a working unsubscribe (CASL ss.6, 11). Calls follow the do-not-call rules (Telecommunications Act s.41.7) and the Competition Act's telemarketing disclosures (s.52.1).",
-   "**Quebec and counsel's role:** a piece that reaches Quebec needs French and meets Quebec's consumer rules (reported; check). Counsel runs a written sign-off, keeps the proof and every version, and controls partner material: the due diligence defences depend on it."
+   "**Messages and calls:** commercial emails, texts and similar messages need consent, sender identity and a working unsubscribe (CASL ss.6, 11). Calls follow the CRTC's do-not-call rules (Telecommunications Act ss.41, 41.7) and the Competition Act's telemarketing disclosures (s.52.1).",
+   "**Quebec and counsel's role:** a piece that reaches Quebec needs French and meets Quebec's consumer rules (reported; check). Counsel runs a written sign-off, keeps the proof and every version, and controls partner material, which makes the due diligence defences easier to prove (drafting inference)."
   ],
   "conceptMap": {
    "type": "hub",
@@ -13781,6 +13781,13 @@
      "label": "Influencers and reviewers",
      "note": "Disclose their connection (reported; check)",
      "rel": "add endorsements to"
+    },
+    {
+     "dir": "in",
+     "label": "Ad Standards",
+     "note": "Voluntary code; complaints-based (reported; check)",
+     "rel": "hears complaints about",
+     "soft": true
     },
     {
      "label": "FCAC",
@@ -13837,12 +13844,12 @@
       {
        "label": "General federal law",
        "value": "Statute",
-       "note": "Competition Act, CASL, PIPEDA, Trademarks Act, CDIC by-law"
+       "note": "Competition Act, CASL, PIPEDA, Trademarks, Telecom Act, Criminal Code, CDIC"
       },
       {
-       "label": "Quebec law",
+       "label": "Provincial law",
        "value": "Statute",
-       "note": "French Charter, Consumer Protection Act (reported; check)"
+       "note": "Quebec French and consumer law; personality rights (reported; check)"
       },
       {
        "label": "Ad Standards",
@@ -13920,7 +13927,7 @@
       {
        "label": "Advertise the offer",
        "value": "At launch",
-       "note": "Conditions, end date and what applies after (s.627.14)"
+       "note": "Accurate and clear (s.627.14): conditions, end date, what applies after"
       },
       {
        "label": "First notice",
@@ -13943,9 +13950,9 @@
      "**Bundles yes, conditions no:** the bank may offer better terms if the person also takes another product (Bank Act s.627.05(1)), but must not coerce or pressure anyone into one product as a condition of getting another (s.627.04(a)).",
      "**End-of-offer notices:** when an individual accepts a promotional, introductory or special offer, the bank discloses the post-offer rate, charges, rights and cancellation period 21 and 5 days before the end, or 5 days before for offers of 30 days or less (s.627.61).",
      "**Charging after a free period:** for an optional product given under an offer, no charge after the offer ends without express consent obtained within five business days before (s.627.42(1)), given after the disclosures in s.627.95.",
-     "**Prices and promises:** a price not attainable because of fixed mandatory fees is misleading (Competition Act s.74.01(1.1)); empty promises, bait advertising and charging above the advertised price are reviewable (ss.74.01(1)(c), 74.04, 74.05).",
-     "**Contests:** disclose the number and approximate value of prizes, the regions and anything that materially affects the odds, and do not delay prizes (s.74.06). A paid game of chance, or of mixed chance and skill, is an offence (Criminal Code s.206(1)(f)), hence free entry and a skill question (good practice).",
-     "**Quebec contests:** Quebec stopped regulating publicity contests launched on or after 27 October 2023, so a new contest needs no Régie filing; the French-language and consumer rules still apply (reported; check)."
+     "**Prices and promises:** a price not attainable because of fixed mandatory fees is misleading (Competition Act s.74.01(1.1)); 'regular price' claims need real sales or offers at that price (s.74.01(2)-(3)); empty promises, bait advertising and charging above the advertised price are reviewable (ss.74.01(1)(c), 74.04, 74.05).",
+     "**Contests:** disclose the number and approximate value of prizes, the regions and anything that materially affects the odds (s.74.06). Disposing of goods by a game of chance, or mixed chance and skill, where entrants pay is an offence (Criminal Code s.206(1)(f)): use free entry and a skill question (good practice).",
+     "**Prepaid and Quebec contests:** prepaid card funds may not expire, and no maintenance charge applies in the first 12 months, unless it is a promotional product (Bank Act ss.627.38-627.39). Quebec no longer regulates publicity contests launched from 27 October 2023, but French rules apply (reported; check)."
     ],
     "takeaway": "Treat an offer as a lifecycle: the ad, the notices before it ends and the consent to charge afterwards are all legal steps."
    },
@@ -13956,9 +13963,9 @@
      "**Two routes:** a materially false or misleading representation is reviewable conduct (s.74.01(1)(a)); making one knowingly or recklessly is an offence, with fines in the court's discretion and up to 14 years on indictment (s.52(1), (5)).",
      "**General impression:** the general impression and the literal meaning both count (ss.52(4), 74.03(5)), and no one need have been misled (s.74.03(4)). The Supreme Court described the average consumer as credulous and inexperienced (Richard v. Time Inc., 2012 SCC 8; reported; check).",
      "**Permitting counts:** making a representation includes permitting it to be made (s.52(1.2)), and supplying material to distributors makes the supplier the one representing (s.74.03(3)). Partner and influencer content can be the bank's own.",
-     "**Proof before the claim:** performance claims and claims about a product's environmental benefits need an adequate and proper test; claims about the bank's own environmental benefits need adequate and proper substantiation; the proof is on the bank (s.74.01(1)(b), (b.1), (b.2)).",
+     "**Proof before the claim:** performance claims and claims about a product's environmental benefits need an adequate and proper test; claims about the bank's own environmental benefits need adequate and proper substantiation (s.74.01(1)(b), (b.1), (b.2)). Private applicants cannot rely on (b.2) (s.74.01(1.01)).",
      "**Tests and testimonials:** saying a test was done, or publishing a testimonial, needs the tester's or giver's earlier publication or written permission, and the ad must match it (s.74.02).",
-     "**Penalties and private cases:** a court may order a corporation to pay the greater of $10 million ($15 million after a prior order) and three times the benefit, or 3% of worldwide revenue, and restitution (s.74.1(1)(c), (d)); due diligence avoids these (s.74.1(3)). Private parties may apply with leave (s.74.1(1))."
+     "**Penalties:** for a corporation, the greater of $10 million ($15 million after a prior order) and three times the benefit, or 3% of worldwide revenue if the benefit cannot be determined (s.74.1(1)(c)); restitution for misleading claims (s.74.1(1)(d)); due diligence avoids these (s.74.1(3))."
     ],
     "takeaway": "Keep the proof file before launch: the burden of proof for performance and green claims, and the due diligence defence, both depend on it."
    },
@@ -13969,7 +13976,7 @@
      "**No misstatements by anyone:** no person may misrepresent what is a deposit, what CDIC insures or who is a member institution (SOR/96-542 s.2). The rule binds partners and fintechs as well as the bank.",
      "**Prescribed wording:** a member describing its membership in advertising uses a prescribed phrase such as 'Member of the CDIC', placed so it does not suggest an ineligible product is insured (s.4(1)-(2)). The sign and digital badge have set web placements (ss.5(2), 7(1)).",
      "**Trade names:** a member using a trade name in deposit-insurance statements must list its trade names on its website, file the list with CDIC and give CDIC 15 days' notice of a new one (s.10). Amendments proposed in July 2026 add trade-name disclosure (proposal; check).",
-     "**'Bank' words and marks:** a bank may trade under another name (Bank Act s.42(3)). A non-bank describing its business with 'bank' words, a bank's name or marks, or claiming an affiliation without authority commits an offence (s.983(2.1)-(2.3)); an entity faces fines up to $5 million (s.985(1)(b)).",
+     "**'Bank' words and marks:** a bank may trade under another name (Bank Act s.42(3)). A non-bank using 'bank' words, a bank's name or marks, or claiming an affiliation without authority, or letting another do so for it, commits an offence (s.983(2.1)-(2.3)): up to $500,000 on summary conviction, $5 million on indictment (s.985(1)(b)).",
      "**Securities ads:** using the bank's name in an advertisement for a securities transaction is an offence unless the law requires it or the bank gave written permission (s.983(1); SOR/2001-409 s.1).",
      "**Insurance:** the bank may promote only authorized types of insurance, apart from promotions outside branches to whole customer groups; its web pages must not lead to promotion of other insurance (SOR/92-330 ss.6, 7, 7.1), and customer information must not go to insurers (s.8)."
     ],
@@ -14011,7 +14018,7 @@
      "**Implied consent:** a purchase or contract in the past two years, or an inquiry in the past six months, implies consent; for an ongoing account or loan the two years run from when it ends (CASL s.10(9)-(10), (14)).",
      "**Exceptions:** account notices and transaction confirmations need no consent but still need identity and an unsubscribe (s.6(6)); solicited replies and messages to a secure account only the bank can send to are outside s.6 (SOR/2013-221 s.3(b), (e)).",
      "**Penalties:** up to $10 million per CASL violation for a business (s.20(4)), with liability for agents (s.32) and a due diligence defence (s.33). False sender, subject or link information in a message also breaches the Competition Act (ss.52.01, 74.011).",
-     "**Calls and targeting:** callers with a recent relationship (18 months from a purchase, 6 from an inquiry) may skip the national list but keep their own (Telecommunications Act s.41.7); penalties reach $15,000 per violation (s.72.01). Targeting needs valid consent (PIPEDA s.6.1)."
+     "**Calls and targeting:** the CRTC's do-not-call rules (s.41) exempt callers with a recent relationship, who keep their own list instead (s.41.7); penalties reach $15,000 per violation for a corporation, $1,500 for an individual (s.72.01). Targeting needs valid consent (PIPEDA s.6.1)."
     ],
     "takeaway": "For any message or call campaign, check the consent and suppression data first and the creative second."
    },
@@ -14019,11 +14026,11 @@
     "heading": "Quebec and French",
     "lede": "A piece that reaches Quebec meets Quebec's language and consumer rules, which counsel should treat as applying in practice.",
     "points": [
-     "**French in advertising:** commercial advertising must be in French, and another language may appear only if French is [[markedly predominant]] (Charter of the French language s.58). Brochures and similar publications, including websites and social media, must be in French (s.52) (reported; check).",
+     "**French in advertising:** commercial advertising must be in French, and another language may appear only if French is [[markedly predominant]] (Charter of the French language s.58) (reported; check). Brochures and similar publications must be in French (s.52); the OQLF applies this to websites and social media (reported; check).",
      "**Contracts and penalties:** contracts of adhesion must be given in French first, with English only at the customer's express choice (s.55, since 1 June 2023); fines for a business run from $3,000 to $30,000 per offence (s.205) (reported; check).",
      "**A federal bank:** whether the Charter binds a federal bank is unsettled. The federal Use of French in Federally Regulated Private Businesses Act would give consumers in Quebec a right to be served in French (s.7), but it was passed in 2023 and is not in force (proposal; check).",
-     "**Consumer rules:** Quebec's Consumer Protection Act bars false or misleading representations, charging more than the advertised price and omitting important facts (ss.219, 224(c), 228), and allows punitive damages (s.272) (reported; check).",
-     "**Children:** commercial advertising directed at children under 13 is banned (ss.248-249), a rule the Supreme Court upheld in Irwin Toy, [1989] 1 SCR 927 (reported; check). Youth account promotions need a careful audience check.",
+     "**Consumer rules:** Quebec's Consumer Protection Act bars false or misleading representations and omitting important facts (ss.219, 228), requires advertised prices to include all charges (s.224) and allows punitive damages (s.272); a 2026 amendment reportedly added s.272.1 on charging more than advertised (reported; check).",
+     "**Children:** commercial advertising directed at children under 13 is banned (s.248, with criteria in ss.249-250), a rule the Supreme Court upheld in Irwin Toy, [1989] 1 SCR 927 (reported; check). Youth account promotions need a careful audience check.",
      "**Prospecting and profiling:** Quebec's private-sector privacy Act has its own rules for using personal information for prospecting and for technology that locates or profiles people (ss.22, 8.1) (reported; check). Stage 7 covers the privacy framework."
     ],
     "takeaway": "Have counsel review the French version as a legal document, and apply Quebec's consumer rules to any piece that reaches Quebec."
@@ -14032,10 +14039,10 @@
     "heading": "Partners, influencers and the approval process",
     "lede": "The bank answers for material its partners and creators make, so the approval process is a legal control.",
     "points": [
-     "**Partners comply as the bank does:** the bank may work with agents and intermediaries that sell or further the sale of its products only if they comply with the consumer provisions as if they were the bank (Bank Act s.627.15(a)). Stage 5's Vendors tab has the partner clauses.",
+     "**Partners:** the bank may work with agents and intermediaries that sell or further the sale of its products only if they comply with the consumer provisions as if they were the bank, customers can use its complaint procedures, and the whistleblowing rules apply (Bank Act s.627.15(a)-(d)). Stage 5 has the partner clauses.",
      "**Influencers:** the Competition Bureau and Ad Standards expect any [[material connection]], free products included, to be disclosed clearly in the content, and AI-generated influencers too (reported; check). An undisclosed connection can make a post misleading (Competition Act s.74.01(1)(a)).",
      "**Names and faces:** using a person's name, image or voice in an ad without consent risks claims under the Civil Code of Québec (art. 36), British Columbia's Privacy Act (s.3) and the common law of misappropriation of personality (reported; check).",
-     "**Comparisons:** naming a competitor is lawful if the claim is true and proven, but discrediting statements (Trademarks Act s.7(a)) and uses of its registered mark that depreciate its goodwill (s.22(1)) create risk (Veuve Clicquot, 2006 SCC 23; reported; check).",
+     "**Comparisons:** naming a competitor is not in itself unlawful; the risk is a false or misleading statement about it (Trademarks Act s.7(a)) or use of its registered mark that depreciates its goodwill (s.22(1); Veuve Clicquot, 2006 SCC 23; Energizer v. Gillette, 2023 FC 804) (reported; check).",
      "**Training and pay:** staff and anyone who sells the bank's products are trained on the consumer policies (s.627.02), and pay must not undermine appropriate sales (s.627.07). FCAC's 2018 review linked sales incentives to mis-selling risk (reported; check).",
      "**The file is the defence:** due diligence answers a Competition Act claim for penalties or restitution (s.74.1(3)) and a CASL violation (s.33). A written review procedure, the proof file and as-run copies are what show it."
     ],
@@ -14144,7 +14151,7 @@
     "instrument": "Bank Act (S.C. 1991, c. 46)",
     "ref": "s.627.61",
     "title": "Promotional and other offers",
-    "summary": "When an individual accepts a promotional, preferential, introductory or special offer for a non-optional product, the bank must disclose the post-offer rate, charges, rights and cancellation period 21 and 5 days before the end of offers longer than 30 days, or 5 days before for shorter ones.",
+    "summary": "When a natural person accepts, other than for business purposes, a promotional, preferential, introductory or special offer for a non-optional product, the bank must disclose the post-offer rate, charges, rights and cancellation period 21 and 5 days before the end of offers longer than 30 days, or 5 days before for shorter ones.",
     "counselNote": "Schedule the notices in the offer record before launch, and make sure the ad's description of what applies after the offer matches them.",
     "confidence": "high",
     "cap": "B-1.01",
@@ -14157,7 +14164,7 @@
     "ref": "s.627.42",
     "title": "Express consent: temporary offer",
     "summary": "Where an optional product is given to an individual under a promotional or introductory offer, the bank may not charge for it after the offer ends without express consent obtained within five business days before that day, or immediately after the last use for offers based on a number of uses. Use is not consent.",
-    "counselNote": "Free-trial offers for optional services need a consent step before the first charge, preceded by the s.627.95 disclosures.",
+    "counselNote": "Free-trial offers for optional services need express consent obtained within five business days before the offer ends, or immediately after the last use for use-based offers, preceded by the s.627.95 disclosures.",
     "confidence": "high",
     "cap": "B-1.01",
     "section": "627.42",
@@ -14169,7 +14176,7 @@
     "ref": "s.627.15",
     "title": "Arrangements with affiliates, etc.",
     "summary": "The bank must not arrange or cooperate with representatives, agents or intermediaries to sell or further the sale of its products unless they comply with the consumer provisions as if they were an institution, customers can use the bank's complaint procedures, and the whistleblowing rules apply.",
-    "counselNote": "Marketing and distribution partners carry the bank's advertising duties. The partner clauses on stage 5's Vendors tab put this into the contract.",
+    "counselNote": "Partners that sell the bank's products must comply with the consumer provisions as if they were the bank, to the extent those provisions apply to their activities. The partner clauses on stage 5's Vendors tab put this into the contract.",
     "confidence": "high",
     "cap": "B-1.01",
     "section": "627.15",
@@ -14288,7 +14295,7 @@
     "instrument": "CDIC Deposit Insurance Information By-law (SOR/96-542)",
     "ref": "s.10",
     "title": "Lists of trade names",
-    "summary": "A member may use a trade name in representations about membership or insured deposits only if it keeps and publishes a current list of trade names, files it with CDIC and gives CDIC at least 15 days' notice of a new trade name before first public use.",
+    "summary": "A member may use a trade name in representations about membership or insured deposits for deposits eligible for CDIC insurance, only if it keeps and publishes a current list of trade names, provides it to CDIC with its Return of Insured Deposits and gives CDIC at least 15 days' notice of a new trade name before first public use.",
     "counselNote": "Add the CDIC notice to the launch plan for any new digital brand.",
     "confidence": "high",
     "cap": "SOR-96-542",
@@ -14360,7 +14367,7 @@
     "instrument": "Competition Act (R.S.C. 1985, c. C-34)",
     "ref": "s.74.1",
     "title": "Orders and penalties",
-    "summary": "On application by the Commissioner or a private party with leave, a court may order the conduct stopped, a corrective notice, an administrative monetary penalty (for a corporation, the greater of $10 million or $15 million for a subsequent order, and three times the benefit, or 3% of worldwide revenue) and restitution. Due diligence avoids the notice, penalty and restitution.",
+    "summary": "On application by the Commissioner or a private party with leave, a court may order the conduct stopped, a corrective notice, an administrative monetary penalty (for a corporation, the greater of $10 million, or $15 million for a subsequent order, and three times the benefit, or 3% of worldwide revenue if the benefit cannot be determined) and, for false or misleading representations, restitution capped at the amounts paid. Due diligence avoids the notice, penalty and restitution.",
     "counselNote": "A documented review process is the due diligence evidence.",
     "confidence": "high",
     "cap": "C-34",
@@ -14420,7 +14427,7 @@
     "instrument": "Telecommunications Act (S.C. 1993, c. 38)",
     "ref": "s.41.7",
     "title": "Exemptions from the do-not-call list",
-    "summary": "The national do-not-call rules do not apply to calls to people with an existing business relationship (a purchase in 18 months, an inquiry in 6 months or a current contract) who have not asked the caller not to call. Exempt callers identify themselves and the purpose at the start and keep their own do-not-call list.",
+    "summary": "The national do-not-call rules do not apply to calls to people with an existing business relationship (a purchase in 18 months, an inquiry in 6 months, or a written contract in existence or expired within 18 months) who have not asked the caller not to call. Exempt callers identify themselves and the purpose at the start and keep their own do-not-call list.",
     "counselNote": "The exemption does not cover robocalls or the calling-hours rules (reported; check).",
     "confidence": "high",
     "cap": "T-3.4",
@@ -14455,7 +14462,7 @@
   "checklist": [
    "**Map every channel:** list where the bank's ads, messages and partner content run, including app store pages, push messages and influencer posts, and give each a reviewer.",
    "**Write the review procedure:** who signs off what, turnaround, escalation and the records kept (good practice; it supports the defences in Competition Act s.74.1(3) and CASL s.33).",
-   "**Build the disclosure library:** approved legends for deposit rates (Bank Act s.627.85), GICs and notes (s.627.87), loans, lines of credit and cards (SOR/2021-181 ss.50, 57, 70) and interest-free offers (s.51).",
+   "**Build the disclosure library:** approved legends for deposit rates (Bank Act s.627.85), GICs and notes (s.627.87), loans, lines of credit and cards (SOR/2021-181 ss.50, 57, 70) and interest-free offers (SOR/2021-181 s.51).",
    "**Fix the CDIC wording:** keep the prescribed membership phrases, the sign and badge placements and the trade-name list current (SOR/96-542 ss.4, 5, 7, 10).",
    "**Keep a claims register:** each claim with its proof, test or source and date, reviewed before reuse (Competition Act s.74.01(1)(b)).",
    "**Audit consent data:** check CASL consent records, implied-consent expiry and suppression lists before each campaign (CASL ss.10, 11, 13).",
@@ -14472,10 +14479,10 @@
    "**AI content:** generated copy and images are the bank's representations. Log the prompt, the output and the reviewer for each published piece, and block synthetic likenesses of real people without consent (good practice)."
   ],
   "virtualBankNotes": [
-   "**App store pages are ads:** the listing text, screenshots and promotional text are advertisements in Canada made by the bank (Bank Act s.627.14); review them like any other piece, including each update.",
+   "**App store pages:** the listing text, screenshots and promotional text are likely advertisements in Canada made by the bank under Bank Act s.627.14 (drafting inference); review them like any other piece, including each update.",
    "**Push and in-app messages:** a commercial push message may be a CEM, which is unsettled (reported; check); messages to a secure inbox only the bank can send to are outside s.6 (SOR/2013-221 s.3(e)). Keep promotions out of service notices that rely on s.6(6).",
-   "**Refer-a-friend:** the first message after a referral needs no consent only if it names the referrer in full and says it follows the referral (SOR/2013-221 s.4). The referral bonus is an offer that needs clear terms.",
-   "**Digital brands:** a bank trading under a brand lists it for CDIC and gives notice before first use in deposit-insurance statements (SOR/96-542 s.10; Bank Act s.42(3)).",
+   "**Refer-a-friend:** the first message after a referral needs no consent only if the referrer has a relationship with both the sender and the recipient, and the message names the referrer in full and says it follows the referral (SOR/2013-221 s.4(1)). The form and unsubscribe rules still apply.",
+   "**Digital brands:** a bank using a brand as a trade name in statements about CDIC membership or insured deposits lists it on its website, files the list with CDIC and gives 15 days' notice before first use (SOR/96-542 s.10). The right to use another name is in Bank Act s.42(3).",
    "**Partner apps:** a fintech showing the bank's products must not use 'bank' words or the bank's marks without authority, or misstate CDIC coverage (Bank Act s.983; SOR/96-542 s.2)."
   ],
   "pitfalls": [
@@ -14526,6 +14533,14 @@
    {
     "term": "material connection",
     "definition": "A link between an endorser and the bank, such as payment, free products, employment or family ties, that could affect how people read the endorsement and should be disclosed (Competition Bureau and Ad Standards positions; reported; check)."
+   },
+   {
+    "term": "advertisement",
+    "definition": "Not defined in the Bank Act. Read widely: any representation the bank makes in Canada to promote a product, in any medium (Bank Act s.627.14; Competition Act s.74.01(1), by any means whatever)."
+   },
+   {
+    "term": "express consent (CASL)",
+    "definition": "Consent to commercial electronic messages given in answer to a request that states its purpose and who seeks it, and says consent can be withdrawn (CASL s.10(1); SOR/2012-36 s.4). Separate from consent to a product under Bank Act s.627.08."
    },
    {
     "term": "deposit-type instrument",
@@ -14584,7 +14599,8 @@
       },
       {
        "id": "business",
-       "label": "Business banking only"
+       "label": "Business banking only",
+       "hint": "Also tick Loan, Line of credit or Credit card if it offers credit, so the credit steps show"
       }
      ]
     },
@@ -14614,7 +14630,7 @@
       },
       {
        "id": "performance",
-       "label": "A speed, approval or security claim"
+       "label": "A speed, approval or other performance claim"
       },
       {
        "id": "green",
@@ -14625,8 +14641,13 @@
        "label": "Deposit insurance or CDIC"
       },
       {
+       "id": "cover",
+       "label": "An insurance benefit or cover",
+       "hint": "For example purchase, travel or payment protection with a card or loan"
+      },
+      {
        "id": "testimonial",
-       "label": "A review, story or endorsement"
+       "label": "A review, endorsement or influencer"
       },
       {
        "id": "contest",
@@ -14634,7 +14655,7 @@
       },
       {
        "id": "example",
-       "label": "A worked example or chart"
+       "label": "A worked example, chart or past results"
       }
      ]
     },
@@ -14660,7 +14681,7 @@
       },
       {
        "id": "targeted",
-       "label": "Search, display or targeted ads"
+       "label": "Targeted digital ads or social audiences"
       },
       {
        "id": "broadcast",
@@ -14679,11 +14700,11 @@
     {
      "id": "audience",
      "label": "Who sees it",
-     "help": "Leave blank for a general audience outside Quebec.",
+     "help": "Tick Quebec if the piece can be seen in Quebec, which includes national web, social, search and broadcast pieces.",
      "options": [
       {
        "id": "quebec",
-       "label": "People in Quebec"
+       "label": "Reaches people in Quebec"
       },
       {
        "id": "minors",
@@ -14859,7 +14880,7 @@
      "title": "Establish who makes, publishes and controls the piece",
      "detail": [
       "**The bank can be the representer:** making a representation includes permitting it to be made (Competition Act s.52(1.2)), and supplying material to a distributor makes the supplier the one representing (s.74.03(3)).",
-      "**Partners carry the bank's duties:** an agent or intermediary that sells or furthers the sale of the bank's products must comply with the consumer provisions as if it were the bank (Bank Act s.627.15(a)).",
+      "**Partners:** the bank must not arrange with an agent or intermediary to sell or further the sale of its products unless it complies with the consumer provisions as if it were the bank, customers can use the bank's complaint procedures and the whistleblowing rules apply (Bank Act s.627.15(a)-(d)).",
       "**Record the chain:** agency, partner, platform and creator, with who approves and who can take the piece down (good practice)."
      ],
      "owner": [
@@ -14906,8 +14927,8 @@
      "phase": "intake",
      "title": "Classify each channel: ad, electronic message or call",
      "detail": [
-      "**Electronic messages:** a message meant to encourage commercial activity, or asking consent to send one, is a commercial electronic message under CASL (s.1(2)-(3)), with consent and form rules.",
-      "**Calls:** promoting by phone is telemarketing with its own disclosures (Competition Act s.52.1) and the do-not-call rules (Telecommunications Act s.41.7). Live calls and voice recordings fall outside CASL's s.6 (CASL s.6(8)).",
+      "**Electronic messages:** a message meant to encourage commercial activity, or asking consent to send one, is a commercial electronic message under CASL (s.1(2)-(3)), with consent and form rules; the Competition Act also covers false sender, subject or content information in it (ss.52.01, 74.011).",
+      "**Calls:** promoting by phone is telemarketing with its own disclosures (Competition Act s.52.1) and the CRTC's do-not-call rules (Telecommunications Act s.41, with the exemptions in s.41.7). Live calls and voice recordings fall outside CASL's s.6 (CASL s.6(8)).",
       "**Overlap:** one campaign can be an ad, a set of CEMs and a call script at once, and each part meets its own rules (drafting inference)."
      ],
      "owner": [
@@ -14965,7 +14986,7 @@
      "phase": "intake",
      "title": "Decide who the piece is for, and who else it reaches",
      "detail": [
-      "**Appropriateness:** the bank's policies must make sure products offered to individuals suit their circumstances and financial needs (Bank Act s.627.06), so targeting a high-cost product at a vulnerable group needs a reason.",
+      "**Appropriateness:** the bank's policies must make sure products it offers to a natural person, other than for business purposes, suit that person's circumstances and financial needs (Bank Act s.627.06), so targeting a high-cost product at a vulnerable group needs a reason.",
       "**Reach:** under the Competition Act it does not matter whether the people reached were in Canada (s.74.03(4)(b)); a piece that reaches Quebec brings in Quebec's rules (reported; check).",
       "**Seniors:** the CBA's voluntary seniors code, which FCAC monitors, covers customers aged 60 and over (reported; check)."
      ],
@@ -15015,7 +15036,7 @@
      "phase": "intake",
      "title": "Take extra care with pieces aimed at seniors or vulnerable people",
      "detail": [
-      "**Bank Act:** the bank must not take advantage of a person or impose undue pressure (s.627.04), and what it offers individuals must suit their circumstances and financial needs (s.627.06).",
+      "**Bank Act:** the bank must not take advantage of a person or impose undue pressure (s.627.04), and what it offers a natural person, other than for business purposes, must suit their circumstances and financial needs (s.627.06).",
       "**Penalties rise:** the vulnerability of those likely to be affected is a factor in setting a Competition Act penalty (s.74.1(5)(c)) and an aggravating factor in sentencing for deceptive telemarketing (s.52.1(10)(b)).",
       "**Seniors code:** the CBA's voluntary code for customers aged 60 and over, monitored by FCAC, expects clear communication with older customers (reported; check)."
      ],
@@ -15286,7 +15307,7 @@
      "detail": [
       "**Like for like:** compare products of the same kind on the same date, name the source and date, and keep the data (good practice; Competition Act s.74.01(1)(a)).",
       "**'Best' and '#1':** an unqualified superiority claim is a factual claim that needs proof covering the whole market claimed (drafting inference).",
-      "**Competitors' marks:** a false or misleading statement discrediting a competitor is prohibited (Trademarks Act s.7(a)), and showing its registered mark can depreciate its goodwill even in a true comparison (s.22(1); Veuve Clicquot, 2006 SCC 23; reported; check)."
+      "**Competitors' marks:** a false or misleading statement discrediting a competitor is prohibited (Trademarks Act s.7(a)), and showing its registered mark can depreciate its goodwill even in a true comparison (s.22(1); Energizer Brands v. Gillette, 2023 FC 804; reported; check)."
      ],
      "owner": [
       "Legal",
@@ -15329,8 +15350,8 @@
        ]
       },
       {
-       "label": "Veuve Clicquot Ponsardin v. Boutiques Cliquot Ltée",
-       "ref": "2006 SCC 23",
+       "label": "Energizer Brands, LLC v. Gillette Company",
+       "ref": "2023 FC 804",
        "strength": "case-law",
        "note": "Summary; check the judgment. Reported; check."
       }
@@ -15398,7 +15419,7 @@
       "Disclosure of any connection in the piece"
      ],
      "wording": [
-      "[Name] is a [Bank] customer and was [paid / given a gift card] for sharing their experience. Individual results vary."
+      "[Name] is a [Bank] customer and was [paid / given a gift card] for sharing their experience."
      ],
      "sources": [
       {
@@ -15541,7 +15562,7 @@
      "phase": "disclose",
      "title": "Deposit rate shown: say how interest is calculated and what changes it",
      "detail": [
-      "**Trigger:** any ad that indicates the rate the bank offers on a deposit (Bank Act s.627.85).",
+      "**Trigger:** any ad in Canada that indicates the rate of interest the bank offers on a deposit or debt obligation (Bank Act s.627.85).",
       "**What to add:** how the amount of interest is calculated and any circumstances that affect the rate, including the account balance, such as tiers, minimums or the end of a promotional rate.",
       "**Same manner:** the information appears the same way the rate does, so a spoken rate needs a spoken disclosure (s.627.85). FCAC has treated a missing calculation method as a breach (reported; check)."
      ],
@@ -15551,8 +15572,7 @@
      ],
      "when": [
       "deposit",
-      "term",
-      "rate"
+      "term"
      ],
      "evidence": [
       "Disclosure check for each format",
@@ -15643,7 +15663,7 @@
      "title": "Market-linked product: add the principal-protected note disclosures",
      "detail": [
       "**Character:** a product whose return depends on an index or market price, with principal repaid at least in full at maturity, is a principal-protected note (Bank Act s.627.01).",
-      "**In the ad:** how to get information, how interest accrues and its limits (such as caps), and CDIC status if ineligible (s.627.87(1)); with past performance, the assumptions and that past performance is no indicator (s.627.87(3)-(4)).",
+      "**In the ad:** how to get information, how interest accrues and its limits (such as caps), and CDIC status if ineligible (s.627.87(1)); with past performance, the assumptions behind any example, that past performance is no indicator, fair representation and realistic assumptions (s.627.87(3)-(4)).",
       "**Examples:** pair any example with one showing no return, or only the minimum (SOR/2021-181 s.30)."
      ],
      "owner": [
@@ -15995,16 +16015,17 @@
      "phase": "disclose",
      "title": "Insurance offers: check the bank may promote it at all",
      "detail": [
-      "**Limits:** a bank may promote only insurers and policies of authorized types, except promotions outside a branch to all cardholders, all individual customers receiving statements, or the public (SOR/92-330 ss.6, 7(1)).",
-      "**Web pages:** a bank web page must not link, directly or through another page, to promotion of other insurance (s.7.1(2)); the bank must not act as agent placing insurance (Bank Act s.416(2)).",
-      "**Data:** no customer information to an insurance company, agent or broker, unless the procedures and undertaking in s.8(2) are in place (SOR/92-330 s.8)."
+      "**Limits:** a bank may promote only insurers and policies of authorized types, except promotions outside a branch to all cardholders, all individual customers receiving statements, or the public; also non-profit travel cover and personal accident cover promoted outside a branch (SOR/92-330 ss.6, 7(1)).",
+      "**Web pages:** a bank web page must not give access, directly or through another page, to promotion of an insurer that does not deal only in authorized types, or of a policy that is not of an authorized type (s.7.1(2)); the bank must not act as agent placing insurance (Bank Act s.416(2)).",
+      "**Data:** no information about a customer in Canada to an insurance company, agent or broker (SOR/92-330 s.8(1)), unless there are procedures and the insurer's undertaking, in a form acceptable to the Superintendent, that it will not be used to promote insurance (s.8(2))."
      ],
      "owner": [
       "Legal",
       "Compliance"
      ],
      "when": [
-      "insurance"
+      "insurance",
+      "cover"
      ],
      "evidence": [
       "Legal's note on the insurance type and the promotion route",
@@ -16056,7 +16077,7 @@
      "detail": [
       "**Name use:** using a bank's name in an advertisement for a securities transaction is an offence (Bank Act s.983(1)) unless the law requires it or the bank gives written permission (SOR/2001-409 s.1).",
       "**Dealer's rules:** fund and brokerage ads by a bank-owned dealer also follow provincial securities rules and the dealer's own approval process (reported; check).",
-      "**Deposits and investments apart:** keep deposit and investment products visually distinct, and make no CDIC statements about investments (SOR/96-542 s.2)."
+      "**Deposits and investments apart:** do not imply an investment is a deposit or CDIC-insured (SOR/96-542 s.2(a)-(b)); keeping deposit and investment products visually distinct is good practice (drafting inference)."
      ],
      "owner": [
       "Legal",
@@ -16115,7 +16136,8 @@
      "detail": [
       "**Drip pricing:** a price that cannot be had because of fixed obligatory charges or fees is false or misleading, unless the extra amounts are only those imposed by law, such as taxes (Competition Act ss.74.01(1.1), 52(1.3)).",
       "**For banks:** a 'no monthly fee' account with a mandatory fee to use it, or a card price that leaves out a fixed annual fee, is a drip-pricing risk (drafting inference).",
-      "**Stakes:** the Competition Tribunal ordered Cineplex to pay $38,978,000 for drip pricing, upheld on appeal in January 2026 (reported; check)."
+      "**Stakes:** the Competition Tribunal ordered Cineplex to pay $38,978,000 for drip pricing, upheld on appeal in January 2026; Cineplex said it would seek leave to the Supreme Court (reported; check).",
+      "**Quebec:** the Consumer Protection Act is reported to require the advertised price to include all charges the consumer must pay (s.224), and a 2026 amendment reportedly added s.272.1 on charging more than advertised (reported; check)."
      ],
      "owner": [
       "Legal",
@@ -16279,7 +16301,7 @@
       "offer"
      ],
      "evidence": [
-      "Operations sign-off on eligibility tracking and payment",
+      "Product sign-off on eligibility tracking and payment",
       "Cap or budget, and the plan if it is reached"
      ],
      "sources": [
@@ -16320,7 +16342,8 @@
      ],
      "when": [
       "offer",
-      "fee"
+      "fee",
+      "rate"
      ],
      "evidence": [
       "Rate or fee history supporting the reference price"
@@ -16401,8 +16424,8 @@
      "title": "Run contests on published rules, free entry and a skill question",
      "detail": [
       "**Disclose:** the number and approximate value of prizes, the regions they relate to and any fact that materially affects the odds; award prizes without undue delay, by skill or at random in each region (Competition Act s.74.06).",
-      "**No paid chance:** a game of chance or mixed chance and skill in which entrants pay money or other valuable consideration is an offence (Criminal Code s.206(1)(f)); offer a no-purchase entry and a skill-testing question (good practice).",
-      "**Quebec:** no Régie filing for contests launched on or after 27 October 2023, but the rules and entry must be available in French (reported; check). By phone, s.52.1(3)(b) also applies."
+      "**No paid chance:** disposing of goods by a game of chance, or mixed chance and skill, in which entrants pay money or other valuable consideration is an offence (Criminal Code s.206(1)(f)); offer a no-purchase entry and a skill-testing question (good practice).",
+      "**Quebec:** no Régie filing for contests launched on or after 27 October 2023, but rules and entry must be in French, and raffles and draws are still treated as lotteries (reported; check). By phone, s.52.1(3)(b) also applies."
      ],
      "owner": [
       "Legal",
@@ -16614,11 +16637,11 @@
     {
      "id": "dp-brand",
      "phase": "deposit",
-     "title": "Trade name or digital brand: list it and give CDIC notice first",
+     "title": "Trade name in CDIC statements: list it and give CDIC notice first",
      "detail": [
       "**Other names:** a bank may carry on business under a name other than its corporate name, subject to the Superintendent's power to stop a prohibited name (Bank Act s.42(3)-(4)).",
       "**CDIC list:** to use a trade name in deposit-insurance statements, keep and publish a current list of trade names, file it with CDIC and give CDIC at least 15 days' notice of a new one before first public use (SOR/96-542 s.10).",
-      "**Coming change:** amendments proposed in July 2026 would add disclosure where eligible products are sold under a trade name (proposal; check whether made)."
+      "**Coming change:** amendments published 4 July 2026 would add disclosure where eligible products are sold under a trade name and a CDIC statement in video ads, proposed to take effect 1 December 2026 (proposal; check whether made)."
      ],
      "owner": [
       "Legal",
@@ -16631,7 +16654,7 @@
       "Trade-name list on the website and the date CDIC was notified"
      ],
      "wording": [
-      "[Brand] is a trade name of [Bank legal name], a member of the Canada Deposit Insurance Corporation."
+      "[Bank legal name] is a member of the Canada Deposit Insurance Corporation. [Brand] is a trade name of [Bank legal name]."
      ],
      "sources": [
       {
@@ -16671,9 +16694,9 @@
      "phase": "deposit",
      "title": "Partners: no 'bank' words, bank marks or implied affiliation",
      "detail": [
-      "**Offences:** a non-bank that uses 'bank', 'banker' or 'banking' to describe its business, products or how they are obtained, uses a bank's name or marks, or states an affiliation with a bank without authority, commits an offence (Bank Act s.983(2.1)-(2.3)).",
+      "**Offences:** a non-bank that uses 'bank', 'banker' or 'banking' to describe its business, products or how they are obtained, causes or authorizes another to do so, uses a bank's name or marks, or states an affiliation with a bank without authority, commits an offence (Bank Act s.983(2.1)-(2.3)).",
       "**Exceptions:** describing a corporate relationship with an entity the bank controls (s.983(4)); otherwise Superintendent approval, and the bank's consent for its name or marks (s.983(12)).",
-      "**Stakes:** fines up to $5 million for an entity on indictment (s.985(1)(b)); the Superintendent may direct the person to stop (s.989.2). OSFI Advisory 2017-01 reads the rule broadly (reported; check)."
+      "**Stakes:** fines up to $5 million for an entity on indictment (s.985(1)(b)); the Superintendent may direct the person to stop (s.989.2). OSFI Advisory 2017-01 reads the rule broadly; its compliance expectations have since been revised (reported; check the current status)."
      ],
      "owner": [
       "Legal",
@@ -16844,7 +16867,7 @@
       "Unsubscribe test, with the time it took to take effect"
      ],
      "wording": [
-      "Sent by [Bank legal name] ([brand]), [mailing address], [phone or web]. Unsubscribe: [link]. We'll stop within 10 business days."
+      "Sent by [Bank legal name] ([brand]), [mailing address], [phone or web]. Unsubscribe: [link]. Requests take effect without delay."
      ],
      "sources": [
       {
@@ -16887,8 +16910,8 @@
      "title": "Use the transactional, secure-inbox and referral exceptions as written",
      "detail": [
       "**Transactional:** a message that solely confirms a transaction or gives factual account or loan information needs no consent but still needs identity and an unsubscribe (CASL s.6(6)). Adding an offer makes it a promotional CEM (drafting inference).",
-      "**Outside s.6:** replies to a request or complaint, and messages to a secure account only the bank can send to, such as the online banking inbox (SOR/2013-221 s.3(b), (e)).",
-      "**Referrals:** the first message after a referral needs no consent if it names the referrer in full and says it follows the referral (s.4)."
+      "**Outside s.6:** replies to a request or complaint, notices that satisfy or give notice of a legal obligation or right, and messages to a secure account only the bank can send to, such as the online banking inbox (SOR/2013-221 s.3(b), (c), (e)).",
+      "**Referrals:** the first message after a referral needs no consent only if the referrer has a business, non-business, family or personal relationship with both the sender and the recipient, and the message names the referrer in full and says it follows the referral (s.4(1))."
      ],
      "owner": [
       "Legal",
@@ -16975,9 +16998,9 @@
      "phase": "channel",
      "title": "Calls: check do-not-call lists, the exemption and the script",
      "detail": [
-      "**Do-not-call:** the national list rules do not apply to people with an existing business relationship (purchase within 18 months, inquiry within 6, or a current contract) who have not asked the caller to stop; exempt callers keep their own list (Telecommunications Act s.41.7(1)(b), (2), (4)).",
-      "**Opening:** say who the call is for, the product and the purpose at the start, and the price and material terms fairly (Competition Act s.52.1(2); s.41.7(3)).",
-      "**CRTC rules:** calling hours, a 14-day internal list and prior express consent for robocalls (reported; check); penalties up to $15,000 per violation for a corporation (s.72.01)."
+      "**Do-not-call:** the national list rules do not apply to people with an existing business relationship (purchase within 18 months, inquiry within 6, or a written contract in force or expired within 18 months) who have not asked it to stop; exempt callers keep their own list (Telecommunications Act s.41.7(1)(b), (2), (4)).",
+      "**Opening:** say who the call is for, the product and the purpose at the start, and the price and material terms fairly (Competition Act s.52.1(2); s.41.7(3)). Live calls and voice recordings fall outside CASL's s.6 (CASL s.6(8)).",
+      "**CRTC rules:** calls only 9:00 a.m. to 9:30 p.m. weekdays and 10:00 a.m. to 6:00 p.m. weekends, local time; a 14-day internal list; prior express consent for robocalls; rules under review since June 2026 (reported; check). Penalties up to $15,000 per violation for a corporation (s.72.01)."
      ],
      "owner": [
       "Compliance",
@@ -16987,8 +17010,9 @@
       "phone"
      ],
      "evidence": [
-      "National list download date and internal list check",
-      "Approved call script"
+      "National list download date, internal list and calling-hours check",
+      "Approved call script",
+      "Express consent records for any automated or recorded calls"
      ],
      "sources": [
       {
@@ -17036,9 +17060,9 @@
      "phase": "channel",
      "title": "Use customer data for targeting only within the consent held",
      "detail": [
-      "**Valid consent:** consent counts only if the person would understand the nature, purpose and consequences of the use (PIPEDA s.6.1), for purposes a reasonable person would find appropriate (s.5(3); Sch. 1, cl. 4.3).",
+      "**Valid consent:** consent counts only if the person would understand the nature, purpose and consequences of the use (PIPEDA s.6.1), for purposes identified at or before collection (Sch. 1, cl. 4.2) that a reasonable person would find appropriate (s.5(3); cl. 4.3).",
       "**OPC positions:** opt-out consent for online behavioural advertising only for non-sensitive information with easy opt-out; Bell had to get express consent for its targeting programme (reported; check). Financial data is often sensitive (drafting inference).",
-      "**Insurance:** customer data must not go to insurers for their marketing (SOR/92-330 s.8). Stage 7 covers the privacy framework."
+      "**Insurance:** the bank must not give an insurance company, agent or broker any information about a customer in Canada (SOR/92-330 s.8(1)), save with procedures and the insurer's undertaking under s.8(2). Stage 7 covers privacy."
      ],
      "owner": [
       "Privacy office",
@@ -17047,7 +17071,8 @@
      "when": [
       "targeted",
       "email",
-      "push"
+      "push",
+      "social"
      ],
      "evidence": [
       "Data fields used for targeting, mapped to the consent and notice"
@@ -17078,6 +17103,18 @@
        "ref": "Policy position on online behavioural advertising (2012); PIPEDA-2015-001",
        "strength": "agency-guidance",
        "note": "Reported; check."
+      },
+      {
+       "label": "Insurance Business (Banks and Bank Holding Companies) Regulations",
+       "ref": "s.8",
+       "strength": "statute",
+       "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-92-330/",
+       "cites": [
+        {
+         "cap": "SOR-92-330",
+         "section": "8"
+        }
+       ]
       }
      ]
     },
@@ -17097,7 +17134,8 @@
      "when": [
       "targeted",
       "web",
-      "push"
+      "push",
+      "social"
      ],
      "evidence": [
       "Tag inventory with the consent each relies on"
@@ -17261,6 +17299,49 @@
      ]
     },
     {
+     "id": "ch-keywords",
+     "phase": "channel",
+     "title": "Check search keywords, URLs and app-store terms for others' marks",
+     "detail": [
+      "**Marks in ads:** advertising services with a confusing trademark or trade name infringes (Trademarks Act s.20(1)(a)), directing attention so as to cause confusion is prohibited (s.7(b)), and uses that depreciate a registered mark's goodwill are barred (s.22(1)).",
+      "**Search and app stores:** bidding on a competitor's mark as a keyword, or using it in ad text, display URLs or app-store keywords, raises these risks; how far keyword bidding alone is caught is unsettled (drafting inference).",
+      "**Check:** run the keyword list against the bank's and competitors' marks before launch (good practice)."
+     ],
+     "owner": [
+      "Legal",
+      "Digital marketing"
+     ],
+     "when": [
+      "targeted",
+      "web"
+     ],
+     "evidence": [
+      "Keyword and URL list reviewed against third-party marks, with Legal sign-off"
+     ],
+     "sources": [
+      {
+       "label": "Trademarks Act",
+       "ref": "ss.7(b), 20(1)(a), 22(1)",
+       "strength": "statute",
+       "url": "https://laws-lois.justice.gc.ca/eng/acts/T-13/",
+       "cites": [
+        {
+         "cap": "T-13",
+         "section": "7"
+        },
+        {
+         "cap": "T-13",
+         "section": "20"
+        },
+        {
+         "cap": "T-13",
+         "section": "22"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "id": "qc-french",
      "phase": "quebec",
      "title": "Produce the French version, with French at least predominant",
@@ -17302,9 +17383,9 @@
      "phase": "quebec",
      "title": "Apply Quebec's consumer rules on price, omissions and credit ads",
      "detail": [
-      "**Prohibited practices:** no false or misleading representation by any means, no higher price than advertised, and no omission of an important fact (Consumer Protection Act ss.219, 224(c), 228) (reported; check).",
+      "**Prohibited practices:** no false or misleading representation by any means, and no omission of an important fact (Consumer Protection Act ss.219, 228) (reported; check).",
       "**It reaches banks:** the Supreme Court applied the Act to banks' credit card conversion charges (Bank of Montreal v. Marcotte, 2014 SCC 55), and punitive damages are available (s.272) (reported; check).",
-      "**All-in price:** a 2026 amendment reportedly requires the advertised price to include all charges the consumer must pay (reported; check the current s.224)."
+      "**All-in price:** s.224 is reported to require the advertised price to include all charges the consumer must pay, and a 2026 amendment reportedly moved the rule against charging more than advertised to a new s.272.1 (reported; check)."
      ],
      "owner": [
       "Legal",
@@ -17319,7 +17400,7 @@
      "sources": [
       {
        "label": "Consumer Protection Act (Quebec)",
-       "ref": "ss.219, 224(c), 228, 272",
+       "ref": "ss.219, 224, 228, 272, 272.1",
        "strength": "statute",
        "note": "Reported; check the current text.",
        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-40.1"
@@ -17341,11 +17422,11 @@
     {
      "id": "qc-children",
      "phase": "quebec",
-     "title": "No commercial advertising directed at children under 13 in Quebec",
+     "title": "Children: Quebec's under-13 ban, and suitability everywhere",
      "detail": [
-      "**The ban:** no commercial advertising directed at persons under 13 in Quebec, judged by criteria such as the product, the presentation and the time and place shown (Consumer Protection Act ss.248-249; reported; check).",
+      "**The ban:** no commercial advertising directed at persons under 13 in Quebec, judged by criteria such as the product, the presentation and the time and place shown (Consumer Protection Act s.248, criteria in ss.249-250; reported; check).",
       "**Upheld:** the Supreme Court upheld the ban as a justified limit on expression (Irwin Toy v. Quebec, [1989] 1 SCR 927; reported; check).",
-      "**Youth accounts:** aim promotions for children's and teen accounts at parents, and check products suit young customers (Bank Act s.627.06)."
+      "**Anywhere in Canada:** products offered to young customers must be appropriate for them (Bank Act s.627.06); directing youth-account promotions at parents is good practice (drafting inference)."
      ],
      "owner": [
       "Legal",
@@ -17360,7 +17441,7 @@
      "sources": [
       {
        "label": "Consumer Protection Act (Quebec)",
-       "ref": "ss.248-249",
+       "ref": "ss.248-250",
        "strength": "statute",
        "note": "Reported; check the current text.",
        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-40.1"
@@ -17390,7 +17471,7 @@
      "phase": "quebec",
      "title": "Quebec: prospecting and profiling rules for targeted marketing",
      "detail": [
-      "**Prospecting:** Quebec's private-sector privacy Act has its own rules for using personal information for commercial prospecting, including identifying the business and the right to withdraw (s.22; reported; check the text).",
+      "**Prospecting:** Quebec's private-sector privacy Act has its own rules for using personal information for commercial prospecting, including prior consent for commercial prospecting, sought for each purpose, and identifying the business (s.22; reported; check the text).",
       "**Profiling technology:** inform people about technology that identifies, locates or profiles them and how to activate it (s.8.1), with privacy settings at the most private level by default (s.9.1) (reported; check).",
       "**CAI:** the Commission d'accès à l'information issued consent guidelines on 31 October 2023 (reported; check)."
      ],
@@ -17481,7 +17562,7 @@
      "title": "Keep the proof, the consents and every version that ran",
      "detail": [
       "**Proof on the bank:** for performance and environmental claims (Competition Act s.74.01(1)(b)-(b.2)) and for CASL consent (CASL s.13).",
-      "**How long:** damages actions for s.52 breaches can be brought within two years (Competition Act s.36(4)); set retention at least that long and in line with the bank's records policy (good practice).",
+      "**How long:** damages claims for s.52 breaches run two years from the conduct or, if later, the end of criminal proceedings (Competition Act s.36(4)(a)); complaint records are kept seven years (Bank Act s.627.44). Retain at least that long (good practice).",
       "**Public outcomes:** FCAC publishes each violation, the bank's name and the penalty (FCAC Act s.31(1)), so the file should be ready for an examination."
      ],
      "owner": [
@@ -17521,14 +17602,14 @@
        ]
       },
       {
-       "label": "Financial Consumer Agency of Canada Act",
-       "ref": "s.31(1)",
+       "label": "Bank Act",
+       "ref": "s.627.44",
        "strength": "statute",
-       "url": "https://laws-lois.justice.gc.ca/eng/acts/F-11.1/",
+       "url": "https://laws-lois.justice.gc.ca/eng/acts/B-1.01/",
        "cites": [
         {
-         "cap": "F-11.1",
-         "section": "31"
+         "cap": "B-1.01",
+         "section": "627.44"
         }
        ]
       }
@@ -17539,7 +17620,7 @@
      "phase": "signoff",
      "title": "Approve partner, agency and affiliate material before it runs",
      "detail": [
-      "**Bank's duty:** partners that sell or further the sale of the bank's products comply with the consumer provisions as if they were the bank (Bank Act s.627.15(a)).",
+      "**Bank's duty:** the bank may use partners to sell or further the sale of its products only if they comply with the consumer provisions as if they were the bank, with access to its complaint procedures and whistleblowing rules (Bank Act s.627.15(a)-(d)).",
       "**Liability:** permitting a representation, or supplying material to a distributor, makes the bank the representer (Competition Act ss.52(1.2), 74.03(3)); aiding a CASL breach is prohibited and the bank answers for its agents (CASL ss.9, 32).",
       "**Contract:** approval, takedown and record rights; the marketing-partner clauses are on stage 5's Vendors tab."
      ],
@@ -17637,13 +17718,58 @@
      ]
     },
     {
+     "id": "so-incentives",
+     "phase": "signoff",
+     "title": "Check referral, affiliate and cashback payouts do not reward mis-selling",
+     "detail": [
+      "**Pay and benefits:** the pay of anyone who offers or sells the bank's products, and any payment or benefit the bank offers them, must not interfere with its appropriate-products policies (Bank Act s.627.07, s.627.06).",
+      "**Who is caught:** affiliates, partners and creators paid per account are plainly covered; whether a customer paid a referral bonus 'offers' the bank's products is for Legal (drafting inference).",
+      "**Design:** pay on accounts used, not only opened; claw back for early closures; cap payouts per referrer (good practice). FCAC's 2018 review linked incentives to mis-selling risk (reported; check)."
+     ],
+     "owner": [
+      "Compliance",
+      "Partner manager"
+     ],
+     "when": [
+      "partner",
+      "offer"
+     ],
+     "evidence": [
+      "Payout rules for each referral, affiliate or creator scheme, approved by Compliance"
+     ],
+     "sources": [
+      {
+       "label": "Bank Act",
+       "ref": "ss.627.06, 627.07",
+       "strength": "statute",
+       "url": "https://laws-lois.justice.gc.ca/eng/acts/B-1.01/",
+       "cites": [
+        {
+         "cap": "B-1.01",
+         "section": "627.06"
+        },
+        {
+         "cap": "B-1.01",
+         "section": "627.07"
+        }
+       ]
+      },
+      {
+       "label": "FCAC",
+       "ref": "Domestic Bank Retail Sales Practices Review (2018)",
+       "strength": "agency-guidance",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
      "id": "mk-current",
      "phase": "market",
      "title": "Keep rates and offers current, and pull stale material",
      "detail": [
       "**Rate changes:** a change in a deposit account's rate or how interest is calculated must be disclosed without delay, to the holder or publicly on branches and websites (Bank Act s.627.71); update the ads at the same time.",
       "**Stale ads:** an ad that shows an ended offer or an old rate is no longer accurate (s.627.14). A correcting ad that immediately follows a price error is a defence to s.74.05 (Competition Act s.74.05(2)(b)).",
-      "**Supply:** if a bonus or rate is capped, stop the ad when the cap is reached (s.74.04)."
+      "**Supply:** if a bonus or rate is capped, stop the ad when the cap is reached (good practice); running it past the cap risks review as bait selling (Competition Act s.74.04(2))."
      ],
      "owner": [
       "Marketing",
@@ -17793,7 +17919,7 @@
      "phase": "market",
      "title": "Treat complaints about the piece as complaints",
      "detail": [
-      "**Definition:** a complaint includes dissatisfaction about the manner in which a product is offered (Bank Act s.627.01), so a complaint about an ad goes into the complaint process (s.627.43) and is recorded (s.627.44).",
+      "**Definition:** a complaint includes dissatisfaction about the manner in which a product is offered (Bank Act s.627.01), so a complaint about an ad goes into the complaint process (s.627.43) and is recorded and kept for at least seven years (s.627.44).",
       "**Other routes:** Ad Standards takes consumer complaints and its Council decides them (reported; check); the Competition Bureau and FCAC also receive complaints.",
       "**Feedback:** send complaint trends back to the reviewers (good practice). Stage 11 covers complaint handling."
      ],
@@ -17802,7 +17928,8 @@
       "Compliance"
      ],
      "evidence": [
-      "Complaints about the piece logged in the complaint system"
+      "Routing rule sending complaints about ads to the complaint system",
+      "Complaints about the piece logged, if any"
      ],
      "sources": [
       {
