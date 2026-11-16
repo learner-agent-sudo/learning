@@ -127,7 +127,9 @@ def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
     if kind in ("s", "def"):
         hit = next((s for s in doc["sections"] if s["id"] == f"s{num}"), None)
         label = (hit or {}).get("label") or sec_label.format(n=num)
-        part = next((p for p in doc["parts"] if p["id"] == hit.get("part")), None) if hit else None
+        # The Part that lists the section (Part ids can repeat inside Schedules, e.g. Cap. 528).
+        part = (next((p for p in doc["parts"] if hit["id"] in p.get("sections", [])), None)
+                or next((p for p in doc["parts"] if p["id"] == hit.get("part")), None)) if hit else None
         if hit and kind == "def":
             d = next((d for d in hit.get("defs", []) if d["term"] == item), None)
             hit = {**hit, "text": d["text"]} if d else None
