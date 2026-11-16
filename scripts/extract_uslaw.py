@@ -52,7 +52,14 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "usleg"
 UA = {"User-Agent": "learning-site-statute-extractor/1.0 (+https://github.com)"}
 
-DOWNLOAD_PAGE = "https://uscode.house.gov/download/download.shtml"
+# The House publishes the current release point's per-title XML zips from its
+# download page; the first of these that answers is used.
+DOWNLOAD_PAGES = [
+    "https://uscode.house.gov/download/download.shtml",
+    "https://uscode.house.gov/download/download.html",
+    "https://uscode.house.gov/download/",
+    "https://uscode.house.gov/",
+]
 USC_SECTION_URL = "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title{t}-section{n}&num=0&edition=prelim"
 USC_TITLE_URL = "https://uscode.house.gov/browse/prelim@title{t}&edition=prelim"
 
@@ -197,6 +204,24 @@ def status_of(sec: "ET.Element") -> str:
     return "in-effect"
 
 
+def download_page() -> str:
+    """The first download page that lists per-title XML zips; logs what it sees."""
+    for url in DOWNLOAD_PAGES:
+        try:
+            page = get(url).decode("utf-8", "replace")
+        except Exception as e:
+            print(f"  {url}: {e}", file=sys.stderr)
+            continue
+        links = re.findall(r'href="([^"]+)"', page)
+        zips = [h for h in links if "xml_usc" in h]
+        print(f"  {url}: {len(page)} bytes, {len(links)} links, {len(zips)} title zips", file=sys.stderr)
+        if zips:
+            return page if url.endswith(("shtml", "html")) else page.replace('href="', f'href="{url}')
+        print("    links: " + " ".join(h for h in links if any(k in h.lower() for k in ("download", "xml", "release")))[:1500],
+              file=sys.stderr)
+    raise RuntimeError("no download page lists the title XML zips")
+
+
 def release_point(page: str, title: int) -> tuple[str, str]:
     """URL of the title's XML zip at the current release point, and the release point."""
     m = re.search(rf'href="([^"]*xml_usc{title:02d}@([^"]+?)\.zip)"', page)
@@ -261,7 +286,7 @@ def usc_title(title: int, xml: bytes, rp: str, stamp: str) -> dict:
 
 def run_usc(xml_dir: str | None) -> int:
     failures = 0
-    page = "" if xml_dir else get(DOWNLOAD_PAGE).decode("utf-8", "replace")
+    page = "" if xml_dir else download_page()
     for title in sorted(USC):
         try:
             if xml_dir:
