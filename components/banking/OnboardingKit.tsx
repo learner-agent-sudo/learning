@@ -307,13 +307,13 @@ export function OnboardingKit({
 
   const exportMd = () =>
     download(
-      onboardingName(state.deal, 'md', today(), L.fileStem),
+      onboardingName(state.deal, 'md', today(), L.fileStem, L.noun),
       onboardingMarkdown(kit, state, shown, terms, today()),
       'text/markdown;charset=utf-8'
     );
   const exportCsv = () =>
     download(
-      onboardingName(state.deal, 'csv', today(), L.fileStem),
+      onboardingName(state.deal, 'csv', today(), L.fileStem, L.noun),
       onboardingCsv(kit, state, shown, terms),
       'text/csv;charset=utf-8'
     );

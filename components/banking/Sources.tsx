@@ -22,6 +22,12 @@ export const STRENGTH: Record<Strength, { label: string; pill: string; bar: stri
     bar: 'bg-blue-500',
     title: 'A court judgment: binding on the points it decides, subject to appeal and later cases',
   },
+  licence: {
+    label: STRENGTH_LABEL.licence,
+    pill: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-400/15 dark:text-emerald-200',
+    bar: 'bg-emerald-500',
+    title: 'A term of the licence under which the code is used: it binds whoever copies, changes or distributes the code under that licence',
+  },
   'statutory-guideline': {
     label: STRENGTH_LABEL['statutory-guideline'],
     pill: 'bg-violet-50 text-violet-700 dark:bg-violet-400/15 dark:text-violet-200',

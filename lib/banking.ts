@@ -46,6 +46,7 @@ export interface BankingStage {
 export type Strength =
   | 'statute'
   | 'case-law'
+  | 'licence'
   | 'statutory-guideline'
   | 'hkma-guidance'
   | 'sfc-guidance'
@@ -59,6 +60,7 @@ export type Strength =
 export const STRENGTH_LABEL: Record<Strength, string> = {
   statute: 'Statute',
   'case-law': 'Case law',
+  licence: 'Licence term',
   'statutory-guideline': 'Statutory guideline',
   'hkma-guidance': 'HKMA guidance',
   'sfc-guidance': 'SFC guidance',
@@ -273,6 +275,9 @@ export interface OnboardingLabels {
   // What one use of the checklist is called ("deal", "piece").
   noun: string;
   documentsTitle: string;
+  // The checklist's tab, when a stage names it (e.g. "Ad review", "OSS review").
+  tabLabel?: string;
+  tabShort?: string;
   // Title of the downloaded checklist, and the start of its file name.
   exportTitle: string;
   fileStem: string;

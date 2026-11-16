@@ -18,6 +18,7 @@ export const KIND: Record<ProvisionKind, { label: string; className: string; bar
   guideline: { label: 'Guideline', className: 'bg-teal-50 text-teal-700 dark:bg-teal-400/15 dark:text-teal-200', bar: 'bg-teal-500', title: 'Regulatory guideline' },
   circular: { label: 'Circular', className: 'bg-cyan-50 text-cyan-700 dark:bg-cyan-400/15 dark:text-cyan-200', bar: 'bg-cyan-500', title: 'Regulator\'s circular, guidance letter or FAQ' },
   code: { label: 'Code', className: 'bg-amber-50 text-amber-800 dark:bg-amber-400/15 dark:text-amber-200', bar: 'bg-amber-500', title: 'Industry or statutory code' },
+  licence: { label: 'Licence', className: 'bg-emerald-50 text-emerald-800 dark:bg-emerald-400/15 dark:text-emerald-200', bar: 'bg-emerald-500', title: 'Open source or source-available licence: binds whoever uses the code under it' },
   case: { label: 'Case', className: 'bg-rose-50 text-rose-700 dark:bg-rose-400/15 dark:text-rose-200', bar: 'bg-rose-500', title: 'Case law' },
   other: { label: 'Other', className: 'bg-slate-100 text-slate-600 dark:bg-slate-400/15 dark:text-slate-200', bar: 'bg-slate-400', title: 'Other source' },
 };

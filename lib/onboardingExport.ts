@@ -143,11 +143,11 @@ export function onboardingCsv(kit: OnboardingKit, state: OnboardingState, shown:
   return '﻿' + [head, ...rows].map((r) => r.map(csvCell).join(',')).join('\r\n') + '\r\n';
 }
 
-export function onboardingName(deal: string, ext: string, date: string, stem = DEFAULT_LABELS.fileStem) {
+export function onboardingName(deal: string, ext: string, date: string, stem = DEFAULT_LABELS.fileStem, noun = DEFAULT_LABELS.noun) {
   const slug = deal
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 40);
-  return `${stem}-${slug || 'deal'}-${date}.${ext}`;
+  return `${stem}-${slug || noun.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}-${date}.${ext}`;
 }

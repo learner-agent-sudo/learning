@@ -8,6 +8,7 @@ export type ProvisionKind =
   | 'guideline'
   | 'circular'
   | 'code'
+  | 'licence'
   | 'case'
   | 'other';
 
@@ -34,6 +35,10 @@ export interface StatuteExtract {
   hkelUrl: string;
   // Set for Canadian extracts: where the text comes from.
   source?: string;
+  // Short name of the source for "continues on ..." (e.g. "the U.S. Code", "SPDX").
+  sourceShort?: string;
+  // A licence's text rather than a statute's.
+  kind?: 'licence';
   part?: string;
   text?: string;
   truncated?: boolean;
