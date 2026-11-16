@@ -2,7 +2,7 @@
  "cap": "571V",
  "title": "Securities and Futures (Stock Market Listing) Rules",
  "longTitle": "",
- "versionDate": "2017-04-21",
+ "versionDate": "2026-11-16",
  "hkelUrl": "https://www.elegislation.gov.hk/hk/cap571V",
  "indexOnly": false,
  "parts": [
@@ -44,7 +44,7 @@
   {
    "id": "P4",
    "num": "Part 4",
-   "heading": "Approved Share Registrars",
+   "heading": "Securities Registrar for Prescribed Securities",
    "status": "in-effect",
    "sections": [
     "s12",
@@ -81,7 +81,7 @@
    "heading": "Interpretation",
    "status": "in-effect",
    "part": "P1",
-   "text": "In these Rules, unless the context otherwise requires—\n  applicant (申請人) means a corporation or other body which has submitted an application under section 3;\n  application (申請) means an application submitted under section 3 and all documents in support of or in connection with the application including any replacement of and amendment and supplement to the application;\n  approved share registrar (認可股份登記員) means a share registrar who is a member of an association of persons approved by the Commission under section 12;\n  issuer (發行人) means a corporation or other body the securities of which are listed, or proposed to be listed, on a recognized stock market;\n  share registrar (股份登記員) means any person who maintains in Hong Kong the register of members of a corporation the securities of which are listed, or proposed to be listed, on a recognized stock market."
+   "text": "In these Rules, unless the context otherwise requires—\n  applicant (申請人) means a corporation or other body which has submitted an application under section 3;\n  application (申請) means an application submitted under section 3 and all documents in support of or in connection with the application including any replacement of and amendment and supplement to the application;\n  issuer (發行人)—\n    (a) except in Part 4—means a corporation or other body the securities of which are listed, or proposed to be listed, on a recognized stock market; and\n    (b) in Part 4—see section 12."
   },
   {
    "id": "s3",
@@ -158,42 +158,41 @@
   {
    "id": "s12",
    "num": "12",
-   "heading": "Approval of share registrars",
+   "heading": "Interpretation of Part 4",
    "status": "in-effect",
    "part": "P4",
-   "text": "  (1) The Commission may approve an association of persons as an association each of whose members shall be an approved share registrar for the purposes of these Rules.\n  (2) The Commission may cancel the approval of any association of persons approved under subsection (1).\n  (3) The Commission shall maintain a list of associations of persons approved under subsection (1)."
+   "text": "In this Part—\n  corresponding exchange company (相應交易所), in relation to any prescribed securities, means the recognized exchange company operating the recognized stock market on which those securities are listed or proposed to be listed;\n  issuer (發行人), in relation to any prescribed securities, has the meaning given by rule 2(1) of the Securities and Futures (Uncertificated Securities Market) Rules;\n  securities registrar (證券登記機構), in relation to any prescribed securities, means the person appointed to maintain in Hong Kong the register of holders of those securities that the issuer of those securities is required to keep under Part 2 of the Securities and Futures (Uncertificated Securities Market) Rules."
   },
   {
    "id": "s13",
    "num": "13",
-   "heading": "Securities not to be listed where approved share registrar not employed",
+   "heading": "Prescribed securities to be listed only if approved securities registrar acting as securities registrar",
    "status": "in-effect",
    "part": "P4",
-   "text": "No application made by a corporation to a recognized exchange company for the listing of any securities issued or to be issued by that applicant shall be approved by the recognized exchange company unless the applicant is an approved share registrar or employs an approved share registrar as its share registrar."
+   "text": "A corresponding exchange company may approve an application for the listing of any prescribed securities only if it is satisfied that an approved securities registrar is acting as the securities registrar for those securities."
   },
   {
    "id": "s14",
    "num": "14",
-   "heading": "Suspension of dealings on cessation of employment, etc. of approved share registrar",
+   "heading": "Dealings in prescribed securities to be suspended if no approved securities registrar acting as securities registrar",
    "status": "in-effect",
    "part": "P4",
-   "text": "  (1) Where—\n    (a) the securities of a corporation are listed on a recognized stock market; and\n    (b) the corporation ceases either to be an approved share registrar or to employ an approved share registrar as its share registrar,\n  the recognized exchange company shall give the corporation a notice of its intention to suspend dealings in the securities of the corporation unless, before the date specified in the notice, being 3 months after the date on which the recognized exchange company first learned of such cessation or 21 days from the date of the notice, whichever is the later, the corporation becomes an approved share registrar or employs an approved share registrar as its share registrar.\n  (2) Where the corporation fails to comply with the requirement stated in the notice given under subsection (1), the recognized exchange company shall suspend dealings in the securities of the corporation.\n  (3) The Commission may require a recognized exchange company to give notice under subsection (1) to a corporation which has ceased either to be an approved share registrar or to employ an approved share registrar as its share registrar if, in the opinion of the Commission, the recognized exchange company has failed or neglected to do so within a reasonable time, and the recognized exchange company shall comply with the requirement without delay.\n  (4) A recognized exchange company which has suspended dealings in the securities of any corporation under subsection (2) shall permit the recommencement of dealings in those securities when it is satisfied that the corporation has become an approved share registrar or has employed an approved share registrar as its share registrar."
+   "text": "  (1) If there is no approved securities registrar acting as the securities registrar for any prescribed securities, the corresponding exchange company must, unless the Commission has given a permission under subsection (3)(a) in respect of the vacancy, suspend dealings in those securities no later than the beginning of the first trading session after the vacancy arises or its becoming aware of the vacancy, whichever is the later.\n  (2) Where dealings in any prescribed securities are suspended under subsection (1), the corresponding exchange company may permit the recommencement of dealings in those securities if—\n    (a) it is satisfied that an approved securities registrar is acting as the securities registrar for those securities; or\n    (b) the Commission has given a permission under subsection (3)(b) in respect of the vacancy concerned.\n  (3) If the Commission is of the opinion that exceptional circumstances exist to justify the continuation or recommencement of dealings in any prescribed securities despite a vacancy mentioned in subsection (1), the Commission may, by notice to the corresponding exchange company—\n    (a) if dealings in those securities are yet to be suspended under subsection (1)—permit the continuation of dealings in those securities despite that vacancy; or\n    (b) if dealings in those securities are suspended under subsection (1)—permit the recommencement of dealings in those securities despite that vacancy.\n  (4) The Commission may, in a notice under subsection (3) or by another notice to the corresponding exchange company—\n    (a) impose any condition in respect of a permission given by the notice; or\n    (b) amend or revoke any such condition.\n  (5) The Commission may, by notice to the corresponding exchange company, withdraw a permission given under subsection (3) in respect of any prescribed securities if it is of the opinion that—\n    (a) the exceptional circumstances mentioned in subsection (3) no longer exist in respect of those securities; or\n    (b) there has been a failure to comply with any condition imposed or amended under subsection (4).\n  (6) If a notice is given under subsection (5), the corresponding exchange company must suspend dealings in those securities no later than the beginning of the first trading session after the notice is given or, if a direction regarding such suspension is specified in the notice, in accordance with the direction.\n  (7) The Commission must notify the issuer of any prescribed securities of—\n    (a) a permission given under subsection (3) in respect of a vacancy concerning those securities;\n    (b) any condition imposed, and any amendment or revocation of a condition, under subsection (4) in respect of such a permission; and\n    (c) the withdrawal of such a permission under subsection (5).\n  (8) In this section—\n    trading session (交易時段), in relation to any prescribed securities, means a separate period of a day during which the recognized stock market on which those securities are listed is open for trading."
   },
   {
    "id": "s15",
    "num": "15",
-   "heading": "Power to exempt",
+   "heading": "Notification of change in securities registrar",
    "status": "in-effect",
    "part": "P4",
-   "text": "  (1) The Commission may exempt all or any particular class of securities issued by a corporation specified in a notice under subsection (2) from all or any of the provisions of this Part.\n  (2) An exemption granted under subsection (1) shall be notified by the Commission to the corporation specified in the notice and to the recognized exchange company which operates the recognized stock market on which the exempted class of securities is, or is proposed to be, listed.\n  (3) The Commission may withdraw any exemption granted under subsection (1), and the withdrawal shall be notified in the same manner as an exemption is required to be notified under subsection (2).\n  (4) Where an exemption in respect of any securities of a corporation has been withdrawn under subsection (3), the recognized exchange company shall suspend dealings in those securities unless—\n    (a) at the date of notification of the withdrawal, the corporation is an approved share registrar or employs an approved share registrar as its share registrar; or\n    (b) within 3 months after the date of notification of the withdrawal, the corporation becomes an approved share registrar or employs an approved share registrar as its share registrar."
+   "text": "  (1) Subject to subsection (5), the issuer of any prescribed securities must notify the Commission and the corresponding exchange company in writing of each of the following changes in accordance with subsection (2)—\n    (a) a person’s ceasing to act as the securities registrar for those securities;\n    (b) a person’s beginning to act as the securities registrar for those securities.\n  (2) A notification under subsection (1) must—\n    (a) be given no later than 3 months before the change takes effect or as soon as reasonably practicable after the issuer becomes aware of the change, whichever is the later; and\n    (b) specify—\n      (i) the prescribed securities to which the change relates;\n      (ii) the date on which the change takes effect; and\n      (iii) the name and address of the person ceasing or beginning to act as the securities registrar.\n  (3) The issuer of any prescribed securities must notify the Commission and the corresponding exchange company in writing of any change in the information specified in a notification given by the issuer under subsection (1) as soon as reasonably practicable, and in any event within 1 business day, after becoming aware of the change.\n  (4) The Commission may, by notice in writing, require the issuer of any prescribed securities to provide any information relating to a change notified under subsection (1) or (3) it reasonably requires for performing its functions.\n  (5) For a cessation mentioned in subsection (1)(a), if the person ceases to act only because the securities are no longer prescribed securities, the issuer—\n    (a) is not required to notify the corresponding exchange company of the cessation; and\n    (b) where the securities are subscription warrants or rights under a rights issue, is also not required to notify the Commission of the cessation if—\n      (i) the person ceases to act as the securities registrar for those warrants or rights by reason of their having lapsed or expired; and\n      (ii) the person is, and continues to be, the securities registrar for the securities that the holders of those warrants or rights are entitled to subscribe for.\n  (6) An issuer that, without reasonable excuse, contravenes subsection (1) or (3), or a requirement made under subsection (4), commits an offence and is liable on conviction to a fine at level 5.\n  Note—See rule 27 of the Securities and Futures (Approved Securities Registrars) Rules for the requirement on an approved securities registrar to give notification of a change in its status as the securities registrar for any prescribed securities."
   },
   {
    "id": "s16",
    "num": "16",
-   "heading": "Appeal against suspension",
-   "status": "in-effect",
-   "part": "P4",
-   "text": "  (1) Where a recognized exchange company suspends dealings in the securities of a corporation under section 14 or 15(4) the corporation may, within 21 days of the suspension, appeal in writing to the Commission against the suspension.\n  (2) An appeal under subsection (1) shall be accompanied by such submissions in writing as the corporation wishes to make.\n  (3) On any appeal under subsection (1), the Commission may—\n    (a) dismiss the appeal;\n    (b) direct the recognized exchange company to permit the recommencement of dealings in the securities; or\n    (c) direct the recognized exchange company to permit the recommencement of dealings in the securities subject to such conditions as the Commission thinks fit."
+   "heading": "",
+   "status": "repealed",
+   "part": "P4"
   },
   {
    "id": "s17",

@@ -1,0 +1,31 @@
+{
+ "cap": "P-4",
+ "title": "Patent Act",
+ "longTitle": "An Act respecting patents of invention",
+ "instrument": "",
+ "versionDate": "2025-07-24",
+ "hkelUrl": "https://laws-lois.justice.gc.ca/eng/acts/P-4/",
+ "sectionUrl": "https://laws-lois.justice.gc.ca/eng/acts/P-4/section-{n}.html",
+ "source": "Justice Laws Website (Department of Justice Canada)",
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Commissioner may grant patents",
+   "status": "in-effect",
+   "part": null,
+   "text": "  (1) The Commissioner shall grant a patent for an invention to the inventor or the inventor’s legal representative if an application for the patent in Canada is filed in accordance with this Act and all other requirements for the issuance of a patent under this Act are met.\n  Application requirements\n  (2) The prescribed application fee must be paid and the application must be filed in accordance with the regulations by the inventor or the inventor’s legal representative and the application must contain a petition and a specification of the invention.\n  Specification\n  (3) The specification of an invention must\n    (a) correctly and fully describe the invention and its operation or use as contemplated by the inventor;\n    (b) set out clearly the various steps in a process, or the method of constructing, making, compounding or using a machine, manufacture or composition of matter, in such full, clear, concise and exact terms as to enable any person skilled in the art or science to which it pertains, or with which it is most closely connected, to make, construct, compound or use it;\n    (c) in the case of a machine, explain the principle of the machine and the best mode in which the inventor has contemplated the application of that principle; and\n    (d) in the case of a process, explain the necessary sequence, if any, of the various steps, so as to distinguish the invention from other inventions.\n  Claims\n  (4) The specification must end with a claim or claims defining distinctly and in explicit terms the subject-matter of the invention for which an exclusive privilege or property is claimed.\n  Separate claims\n  (5) For greater certainty, if a claim defines the subject-matter of an invention in the alternative, each alternative is a separate claim for the purposes of sections 2, 28.1 to 28.3, 56 and 78.3.\n  Drawings\n  (5.1) In the case of a machine, or in any other case in which an invention admits of illustration by means of drawings, the applicant shall, as part of the application, furnish drawings of the invention that clearly show all parts of the invention.\n  Particulars\n  (5.2) Each drawing is to include references corresponding with the specification. The Commissioner may, as the Commissioner sees fit, require further drawings or dispense with the requirement to furnish any drawing.\n  Requirements not met\n  (6) If, on its filing date, an application does not meet the requirements of subsection (2), other than the payment of the application fee, the Commissioner shall, by notice, require the applicant to meet those requirements on or before the prescribed date.\n  Application fee not paid\n  (7) If, on the filing date of the application, the application fee is not paid, the Commissioner shall, by notice, require the applicant to pay the application fee and the prescribed late fee on or before the prescribed date.\n  What may not be patented\n  (8) No patent shall be granted for any mere scientific principle or abstract theorem."
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Contents of patent",
+   "status": "in-effect",
+   "part": null,
+   "text": "  Every patent granted under this Act shall contain the title or name of the invention, with a reference to the specification, and shall, subject to this Act, grant to the patentee and the patentee’s legal representatives for the term of the patent referred to in section 44 or 45 and, if applicable, for the additional term granted under section 46.1, from the granting of the patent, the exclusive right, privilege and liberty of making, constructing and using the invention and selling it to others to be used, subject to adjudication in respect thereof before any court of competent jurisdiction."
+  }
+ ],
+ "schedules": []
+}
