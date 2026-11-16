@@ -43,7 +43,8 @@ BUNDLES = [
     ("https://resource.data.one.gov.hk/doj/data/hkel_c_leg_cap_601_cap_end_en.zip", 601, 10**6),
 ]
 
-# Chapters used by the HK banking, securities and insurance modules. Large technical
+# Chapters used by the HK banking, securities and insurance modules and the
+# software IP volume's Hong Kong notes. Large technical
 # rule-books are kept index-only (Parts and headings, no text) to keep the
 # repo small.
 CAPS = [
@@ -65,6 +66,8 @@ CAPS = [
     "455",   # Organized and Serious Crimes Ordinance
     "458",   # Unconscionable Contracts Ordinance
     "486",   # Personal Data (Privacy) Ordinance
+    "514",   # Patents Ordinance
+    "528",   # Copyright Ordinance
     "537",   # United Nations Sanctions Ordinance
     "553",   # Electronic Transactions Ordinance
     "571",   # Securities and Futures Ordinance

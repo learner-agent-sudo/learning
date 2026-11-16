@@ -61,7 +61,8 @@ INSTRUMENTS: list[tuple[str, str, list[str] | None]] = [
     ("T-13", "acts", ["7", "19", "20", "22"]),            # Trademarks Act
     ("T-3.4", "acts", ["41", "41.7", "72.01"]),           # Telecommunications Act
     ("C-46", "acts", ["206", "347", "426", "462.31"]),    # Criminal Code
-    ("C-42", "acts", ["13", "14.1"]),                     # Copyright Act
+    ("C-42", "acts", ["3", "13", "14.1", "27", "29", "30.6", "30.61", "41.1", "41.12"]),  # Copyright Act
+    ("P-4", "acts", ["27", "42"]),                         # Patent Act
     ("B-3", "acts", ["65.1", "65.11", "72.1", "246.1"]),  # Bankruptcy and Insolvency Act
     ("C-36", "acts", ["32", "34", "36"]),                 # Companies' Creditors Arrangement Act
     ("I-3.3", "acts", ["212", "215"]),                    # Income Tax Act
