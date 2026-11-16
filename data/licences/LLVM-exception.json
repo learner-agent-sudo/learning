@@ -1,0 +1,28 @@
+{
+ "cap": "LLVM-exception",
+ "title": "LLVM Exception",
+ "longTitle": "LLVM Exception",
+ "instrument": "licence exception",
+ "versionDate": "2026-10-28T00:00:00Z",
+ "listVersion": "8791eda",
+ "hkelUrl": "https://spdx.org/licenses/LLVM-exception.html",
+ "sectionLabel": "Section {n}",
+ "source": "SPDX License List 8791eda, licence text as published by its steward",
+ "sourceShort": "SPDX",
+ "kind": "licence",
+ "osiApproved": false,
+ "fsfLibre": false,
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "sFULL-TEXT",
+   "num": "Full text",
+   "heading": "",
+   "status": "in-effect",
+   "label": "Full text",
+   "text": "---- LLVM Exceptions to the Apache 2.0 License ----\n\nAs an exception, if, as a result of your compiling your source code, portions of this Software are embedded into an Object form of such source code, you may redistribute such embedded portions in such Object form without complying with the conditions of Sections 4(a), 4(b) and 4(d) of the License.\n\nIn addition, if you combine or link compiled forms of this Software with software that is licensed under the GPLv2 (\"Combined Software\") and if a court of competent jurisdiction determines that the patent provision (Section 3), the indemnity provision (Section 9) or other Section of the License conflicts with the conditions of the GPLv2, you may retroactively and prospectively choose to deem waived or otherwise exclude such Section(s) of the License, but only in their entirety and only with respect to the Combined Software."
+  }
+ ],
+ "schedules": []
+}

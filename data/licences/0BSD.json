@@ -1,0 +1,28 @@
+{
+ "cap": "0BSD",
+ "title": "BSD Zero Clause License",
+ "longTitle": "BSD Zero Clause License",
+ "instrument": "licence",
+ "versionDate": "2026-10-28T00:00:00Z",
+ "listVersion": "8791eda",
+ "hkelUrl": "https://spdx.org/licenses/0BSD.html",
+ "sectionLabel": "Section {n}",
+ "source": "SPDX License List 8791eda, licence text as published by its steward",
+ "sourceShort": "SPDX",
+ "kind": "licence",
+ "osiApproved": true,
+ "fsfLibre": false,
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "sFULL-TEXT",
+   "num": "Full text",
+   "heading": "",
+   "status": "in-effect",
+   "label": "Full text",
+   "text": "Copyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+  }
+ ],
+ "schedules": []
+}

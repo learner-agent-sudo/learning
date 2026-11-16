@@ -1,0 +1,28 @@
+{
+ "cap": "Classpath-exception-2.0",
+ "title": "Classpath exception 2.0",
+ "longTitle": "Classpath exception 2.0",
+ "instrument": "licence exception",
+ "versionDate": "2026-10-28T00:00:00Z",
+ "listVersion": "8791eda",
+ "hkelUrl": "https://spdx.org/licenses/Classpath-exception-2.0.html",
+ "sectionLabel": "Section {n}",
+ "source": "SPDX License List 8791eda, licence text as published by its steward",
+ "sourceShort": "SPDX",
+ "kind": "licence",
+ "osiApproved": false,
+ "fsfLibre": false,
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "sFULL-TEXT",
+   "num": "Full text",
+   "heading": "",
+   "status": "in-effect",
+   "label": "Full text",
+   "text": "Linking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.\n\nAs a special exception, the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you may extend this exception to your version of the library, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version."
+  }
+ ],
+ "schedules": []
+}

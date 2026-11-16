@@ -1,0 +1,28 @@
+{
+ "cap": "ISC",
+ "title": "ISC License",
+ "longTitle": "ISC License",
+ "instrument": "licence",
+ "versionDate": "2026-10-28T00:00:00Z",
+ "listVersion": "8791eda",
+ "hkelUrl": "https://spdx.org/licenses/ISC.html",
+ "sectionLabel": "Section {n}",
+ "source": "SPDX License List 8791eda, licence text as published by its steward",
+ "sourceShort": "SPDX",
+ "kind": "licence",
+ "osiApproved": true,
+ "fsfLibre": true,
+ "indexOnly": false,
+ "parts": [],
+ "sections": [
+  {
+   "id": "sFULL-TEXT",
+   "num": "Full text",
+   "heading": "",
+   "status": "in-effect",
+   "label": "Full text",
+   "text": "ISC License\n\nCopyright <year> <owner>\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+  }
+ ],
+ "schedules": []
+}
