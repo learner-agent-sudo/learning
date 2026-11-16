@@ -59,7 +59,10 @@ DOWNLOAD_PAGES = [
 ]
 # GovInfo (Government Publishing Office) publishes each annual edition of the
 # Code in USLM XML; used when the House pages refuse automated clients.
-GOVINFO_USLM = "https://www.govinfo.gov/content/pkg/USCODE-{year}-title{t}/uslm/USCODE-{year}-title{t}.xml"
+GOVINFO_XML = [
+    "https://www.govinfo.gov/content/pkg/USCODE-{year}-title{t}/uslm/USCODE-{year}-title{t}.xml",
+    "https://www.govinfo.gov/content/pkg/USCODE-{year}-title{t}/xml/USCODE-{year}-title{t}.xml",
+]
 GOVINFO_PAGE = "https://www.govinfo.gov/app/details/USCODE-{year}-title{t}"
 USC_SECTION_URL = "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title{t}-section{n}&num=0&edition=prelim"
 USC_TITLE_URL = "https://uscode.house.gov/browse/prelim@title{t}&edition=prelim"
@@ -117,8 +120,8 @@ def clean(s: str) -> str:
     return s.replace(" ;", ";").replace(" ,", ",").replace(" .", ".")
 
 
-def get(url: str) -> bytes:
-    req = urllib.request.Request(url, headers=UA)
+def get(url: str, accept: str = "*/*") -> bytes:
+    req = urllib.request.Request(url, headers={**UA, "Accept": accept})
     with urllib.request.urlopen(req, timeout=180) as r:  # noqa: S310 (fixed https hosts)
         return r.read()
 
@@ -290,16 +293,19 @@ def govinfo(title: int) -> tuple[bytes, str, str]:
     """The latest annual edition of a title in USLM XML from GovInfo."""
     this_year = dt.date.today().year
     for year in range(this_year, this_year - 4, -1):
-        url = GOVINFO_USLM.format(year=year, t=title)
-        try:
-            xml = get(url)
-        except Exception as e:
-            print(f"  {url}: {e}", file=sys.stderr)
-            continue
-        if not xml.lstrip().startswith(b"<"):
-            print(f"  {url}: not XML ({xml[:80]!r})", file=sys.stderr)
-            continue
-        return xml, f"{year} edition", f"{year}-01-01"
+        for pattern in GOVINFO_XML:
+            url = pattern.format(year=year, t=title)
+            try:
+                xml = get(url, "application/xml")
+            except Exception as e:
+                print(f"  {url}: {e}", file=sys.stderr)
+                continue
+            head = xml.lstrip()[:400].lower()
+            if not head.startswith(b"<") or b"<html" in head or b"<!doctype html" in head:
+                print(f"  {url}: not XML", file=sys.stderr)
+                continue
+            print(f"  {url}: {len(xml)} bytes; root {xml.lstrip()[:300]!r}", file=sys.stderr)
+            return xml, f"{year} edition", f"{year}-01-01"
     raise RuntimeError("no GovInfo edition found")
 
 
@@ -365,7 +371,7 @@ def ecfr_lines(div: "ET.Element") -> list[str]:
 def run_cfr() -> int:
     failures = 0
     try:
-        titles = json.loads(get(ECFR_TITLES))["titles"]
+        titles = json.loads(get(ECFR_TITLES, "application/json"))["titles"]
     except Exception as e:
         print(f"  ! eCFR titles: {e}", file=sys.stderr)
         return 1
@@ -377,7 +383,7 @@ def run_cfr() -> int:
         try:
             for num in CFR[t]:
                 part = num.split(".")[0]
-                xml = get(ECFR_SECTION.format(date=date, t=t, part=part, sec=num))
+                xml = get(ECFR_SECTION.format(date=date, t=t, part=part, sec=num), "application/xml")
                 root = SafeET.fromstring(xml)
                 div = next((d for d in root.iter("DIV8")
                             if (d.get("N") or "").replace("§", "").strip() == num), None)
