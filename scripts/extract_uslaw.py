@@ -56,10 +56,11 @@ UA = {"User-Agent": "learning-site-statute-extractor/1.0 (+https://github.com)"}
 # download page; the first of these that answers is used.
 DOWNLOAD_PAGES = [
     "https://uscode.house.gov/download/download.shtml",
-    "https://uscode.house.gov/download/download.html",
-    "https://uscode.house.gov/download/",
-    "https://uscode.house.gov/",
 ]
+# GovInfo (Government Publishing Office) publishes each annual edition of the
+# Code in USLM XML; used when the House pages refuse automated clients.
+GOVINFO_USLM = "https://www.govinfo.gov/content/pkg/USCODE-{year}-title{t}/uslm/USCODE-{year}-title{t}.xml"
+GOVINFO_PAGE = "https://www.govinfo.gov/app/details/USCODE-{year}-title{t}"
 USC_SECTION_URL = "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title{t}-section{n}&num=0&edition=prelim"
 USC_TITLE_URL = "https://uscode.house.gov/browse/prelim@title{t}&edition=prelim"
 
@@ -277,6 +278,7 @@ def usc_title(title: int, xml: bytes, rp: str, stamp: str) -> dict:
         "sectionUrl": USC_SECTION_URL.format(t=title, n="{n}"),
         "sectionLabel": "§ {n}",
         "source": f"United States Code, Office of the Law Revision Counsel (release point {rp})",
+        "sourceShort": "the U.S. Code",
         "indexOnly": False,
         "parts": parts,
         "sections": sections,
@@ -284,21 +286,49 @@ def usc_title(title: int, xml: bytes, rp: str, stamp: str) -> dict:
     }
 
 
+def govinfo(title: int) -> tuple[bytes, str, str]:
+    """The latest annual edition of a title in USLM XML from GovInfo."""
+    this_year = dt.date.today().year
+    for year in range(this_year, this_year - 4, -1):
+        url = GOVINFO_USLM.format(year=year, t=title)
+        try:
+            xml = get(url)
+        except Exception as e:
+            print(f"  {url}: {e}", file=sys.stderr)
+            continue
+        if not xml.lstrip().startswith(b"<"):
+            print(f"  {url}: not XML ({xml[:80]!r})", file=sys.stderr)
+            continue
+        return xml, f"{year} edition", f"{year}-01-01"
+    raise RuntimeError("no GovInfo edition found")
+
+
 def run_usc(xml_dir: str | None) -> int:
     failures = 0
-    page = "" if xml_dir else download_page()
+    page = ""
+    if not xml_dir:
+        try:
+            page = download_page()
+        except Exception as e:
+            print(f"  House download page unavailable ({e}); using GovInfo", file=sys.stderr)
     for title in sorted(USC):
         try:
             if xml_dir:
                 xml = (pathlib.Path(xml_dir) / f"usc{title:02d}.xml").read_bytes()
                 rp, stamp = "local", dt.date.today().isoformat()
-            else:
+            elif page:
                 url, rp = release_point(page, title)
                 z = zipfile.ZipFile(io.BytesIO(get(url)))
                 name = next(n for n in z.namelist() if n.endswith(".xml"))
                 xml = z.read(name)
                 stamp = dt.date(*z.getinfo(name).date_time[:3]).isoformat()
+            else:
+                xml, rp, stamp = govinfo(title)
+                if b"xml.house.gov/schemas/uslm" not in xml[:4000]:
+                    print(f"  title {title}: not USLM; starts {xml[:1500]!r}", file=sys.stderr)
             doc = usc_title(title, xml, rp, stamp)
+            if not page and not xml_dir:
+                doc["source"] = f"United States Code, {rp}, via GovInfo (U.S. Government Publishing Office)"
         except Exception as e:  # keep going; report at the end
             print(f"  ! {title} U.S.C.: {e}", file=sys.stderr)
             if not xml_dir and title == min(USC):
@@ -334,7 +364,11 @@ def ecfr_lines(div: "ET.Element") -> list[str]:
 
 def run_cfr() -> int:
     failures = 0
-    titles = json.loads(get(ECFR_TITLES))["titles"]
+    try:
+        titles = json.loads(get(ECFR_TITLES))["titles"]
+    except Exception as e:
+        print(f"  ! eCFR titles: {e}", file=sys.stderr)
+        return 1
     for t in sorted(CFR):
         meta = next(x for x in titles if x["number"] == t)
         date = meta.get("up_to_date_as_of") or meta.get("latest_issue_date")
@@ -376,6 +410,7 @@ def run_cfr() -> int:
             "sectionUrl": ECFR_SECTION_URL.format(t=t, n="{n}"),
             "sectionLabel": "§ {n}",
             "source": "Electronic Code of Federal Regulations (eCFR), Office of the Federal Register",
+            "sourceShort": "the eCFR",
             "indexOnly": False,
             "parts": list(parts.values()),
             "sections": sections,
