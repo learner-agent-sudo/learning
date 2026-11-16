@@ -1,0 +1,35 @@
+{
+ "cap": "CA-CIV",
+ "title": "California Civil Code",
+ "longTitle": "California Civil Code",
+ "instrument": "",
+ "versionDate": "2026-04-04",
+ "hkelUrl": "https://leginfo.legislature.ca.gov/faces/codes.xhtml",
+ "sectionUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum={n}.",
+ "sectionLabel": "§ {n}",
+ "source": "California Legislative Information (leginfo.legislature.ca.gov)",
+ "sourceShort": "California Legislative Information",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Title 5",
+   "heading": "Uniform Trade Secrets Act",
+   "status": "in-effect",
+   "sections": [
+    "s3426.1"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s3426.1",
+   "num": "3426.1",
+   "heading": "Uniform Trade Secrets Act: definitions",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "As used in this title, unless the context requires otherwise:\n(a) “Improper means” includes theft, bribery, misrepresentation, breach or inducement of a breach of a duty to maintain secrecy, or espionage through electronic or other means. Reverse engineering or independent derivation alone shall not be considered improper means.\n(b) “Misappropriation” means:\n  (1) Acquisition of a trade secret of another by a person who knows or has reason to know that the trade secret was acquired by improper means; or\n  (2) Disclosure or use of a trade secret of another without express or implied consent by a person who:\n    (A) Used improper means to acquire knowledge of the trade secret; or\n    (B) At the time of disclosure or use, knew or had reason to know that his or her knowledge of the trade secret was:\n      (i) Derived from or through a person who had utilized improper means to acquire it;\n      (ii) Acquired under circumstances giving rise to a duty to maintain its secrecy or limit its use; or\n      (iii) Derived from or through a person who owed a duty to the person seeking relief to maintain its secrecy or limit its use; or\n    (C) Before a material change of his or her position, knew or had reason to know that it was a trade secret and that knowledge of it had been acquired by accident or mistake.\n(c) “Person” means a natural person, corporation, business trust, estate, trust, partnership, limited liability company, association, joint venture, government, governmental subdivision or agency, or any other legal or commercial entity.\n(d) “Trade secret” means information, including a formula, pattern, compilation, program, device, method, technique, or process, that:\n  (1) Derives independent economic value, actual or potential, from not being generally known to the public or to other persons who can obtain economic value from its disclosure or use; and\n  (2) Is the subject of efforts that are reasonable under the circumstances to maintain its secrecy.\n(Amended by Stats. 1994, Ch. 1010, Sec. 54. Effective January 1, 1995.)"
+  }
+ ],
+ "schedules": []
+}
