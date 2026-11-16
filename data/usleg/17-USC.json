@@ -101,7 +101,11 @@
     },
     {
      "term": "architectural work",
-     "text": "  An \"architectural work\" is the design of a building as embodied in any tangible medium of expression, including a building, architectural plans, or drawings. The work includes the overall form as well as the arrangement and composition of spaces and elements in the design, but does not include individual standard features.\n  \"Audiovisual works\" are works that consist of a series of related images which are intrinsically intended to be shown by the use of machines, or devices such as projectors, viewers, or electronic equipment, together with accompanying sounds, if any, regardless of the nature of the material objects, such as films or tapes, in which the works are embodied."
+     "text": "  An \"architectural work\" is the design of a building as embodied in any tangible medium of expression, including a building, architectural plans, or drawings. The work includes the overall form as well as the arrangement and composition of spaces and elements in the design, but does not include individual standard features."
+    },
+    {
+     "term": "audiovisual works",
+     "text": "  \"Audiovisual works\" are works that consist of a series of related images which are intrinsically intended to be shown by the use of machines, or devices such as projectors, viewers, or electronic equipment, together with accompanying sounds, if any, regardless of the nature of the material objects, such as films or tapes, in which the works are embodied."
     },
     {
      "term": "berne convention",
@@ -125,7 +129,15 @@
     },
     {
      "term": "computer program",
-     "text": "  A \"computer program\" is a set of statements or instructions to be used directly or indirectly in a computer in order to bring about a certain result.\n  \"Copies\" are material objects, other than phonorecords, in which a work is fixed by any method now known or later developed, and from which the work can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. The term \"copies\" includes the material object, other than a phonorecord, in which the work is first fixed.\n  \"Copyright owner\", with respect to any one of the exclusive rights comprised in a copyright, refers to the owner of that particular right."
+     "text": "  A \"computer program\" is a set of statements or instructions to be used directly or indirectly in a computer in order to bring about a certain result."
+    },
+    {
+     "term": "copies",
+     "text": "  \"Copies\" are material objects, other than phonorecords, in which a work is fixed by any method now known or later developed, and from which the work can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. The term \"copies\" includes the material object, other than a phonorecord, in which the work is first fixed."
+    },
+    {
+     "term": "copyright owner",
+     "text": "  \"Copyright owner\", with respect to any one of the exclusive rights comprised in a copyright, refers to the owner of that particular right."
     },
     {
      "term": "copyright royalty judge",
@@ -181,15 +193,31 @@
     },
     {
      "term": "joint work",
-     "text": "  A \"joint work\" is a work prepared by two or more authors with the intention that their contributions be merged into inseparable or interdependent parts of a unitary whole.\n  \"Literary works\" are works, other than audiovisual works, expressed in words, numbers, or other verbal or numerical symbols or indicia, regardless of the nature of the material objects, such as books, periodicals, manuscripts, phonorecords, film, tapes, disks, or cards, in which they are embodied."
+     "text": "  A \"joint work\" is a work prepared by two or more authors with the intention that their contributions be merged into inseparable or interdependent parts of a unitary whole."
+    },
+    {
+     "term": "literary works",
+     "text": "  \"Literary works\" are works, other than audiovisual works, expressed in words, numbers, or other verbal or numerical symbols or indicia, regardless of the nature of the material objects, such as books, periodicals, manuscripts, phonorecords, film, tapes, disks, or cards, in which they are embodied."
     },
     {
      "term": "motion picture exhibition facility",
-     "text": "  The term \"motion picture exhibition facility\" means a movie theater, screening room, or other venue that is being used primarily for the exhibition of a copyrighted motion picture, if such exhibition is open to the public or is made to an assembled group of viewers outside of a normal circle of a family and its social acquaintances.\n  \"Motion pictures\" are audiovisual works consisting of a series of related images which, when shown in succession, impart an impression of motion, together with accompanying sounds, if any.\n  To \"perform\" a work means to recite, render, play, dance, or act it, either directly or by means of any device or process or, in the case of a motion picture or other audiovisual work, to show its images in any sequence or to make the sounds accompanying it audible."
+     "text": "  The term \"motion picture exhibition facility\" means a movie theater, screening room, or other venue that is being used primarily for the exhibition of a copyrighted motion picture, if such exhibition is open to the public or is made to an assembled group of viewers outside of a normal circle of a family and its social acquaintances."
+    },
+    {
+     "term": "motion pictures",
+     "text": "  \"Motion pictures\" are audiovisual works consisting of a series of related images which, when shown in succession, impart an impression of motion, together with accompanying sounds, if any.\n  To \"perform\" a work means to recite, render, play, dance, or act it, either directly or by means of any device or process or, in the case of a motion picture or other audiovisual work, to show its images in any sequence or to make the sounds accompanying it audible."
     },
     {
      "term": "performing rights society",
-     "text": "  A \"performing rights society\" is an association, corporation, or other entity that licenses the public performance of nondramatic musical works on behalf of copyright owners of such works, such as the American Society of Composers, Authors and Publishers (ASCAP), Broadcast Music, Inc. (BMI), and SESAC, Inc.\n  \"Phonorecords\" are material objects in which sounds, other than those accompanying a motion picture or other audiovisual work, are fixed by any method now known or later developed, and from which the sounds can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. The term \"phonorecords\" includes the material object in which the sounds are first fixed.\n  \"Pictorial, graphic, and sculptural works\" include two-dimensional and three-dimensional works of fine, graphic, and applied art, photographs, prints and art reproductions, maps, globes, charts, diagrams, models, and technical drawings, including architectural plans. Such works shall include works of artistic craftsmanship insofar as their form but not their mechanical or utilitarian aspects are concerned; the design of a useful article, as defined in this section, shall be considered a pictorial, graphic, or sculptural work only if, and only to the extent that, such design incorporates pictorial, graphic, or sculptural features that can be identified separately from, and are capable of existing independently of, the utilitarian aspects of the article."
+     "text": "  A \"performing rights society\" is an association, corporation, or other entity that licenses the public performance of nondramatic musical works on behalf of copyright owners of such works, such as the American Society of Composers, Authors and Publishers (ASCAP), Broadcast Music, Inc. (BMI), and SESAC, Inc."
+    },
+    {
+     "term": "phonorecords",
+     "text": "  \"Phonorecords\" are material objects in which sounds, other than those accompanying a motion picture or other audiovisual work, are fixed by any method now known or later developed, and from which the sounds can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. The term \"phonorecords\" includes the material object in which the sounds are first fixed."
+    },
+    {
+     "term": "pictorial, graphic, and sculptural works",
+     "text": "  \"Pictorial, graphic, and sculptural works\" include two-dimensional and three-dimensional works of fine, graphic, and applied art, photographs, prints and art reproductions, maps, globes, charts, diagrams, models, and technical drawings, including architectural plans. Such works shall include works of artistic craftsmanship insofar as their form but not their mechanical or utilitarian aspects are concerned; the design of a useful article, as defined in this section, shall be considered a pictorial, graphic, or sculptural work only if, and only to the extent that, such design incorporates pictorial, graphic, or sculptural features that can be identified separately from, and are capable of existing independently of, the utilitarian aspects of the article."
     },
     {
      "term": "proprietor",
@@ -197,7 +225,23 @@
     },
     {
      "term": "pseudonymous work",
-     "text": "  A \"pseudonymous work\" is a work on the copies or phonorecords of which the author is identified under a fictitious name.\n  \"Publication\" is the distribution of copies or phonorecords of a work to the public by sale or other transfer of ownership, or by rental, lease, or lending. The offering to distribute copies or phonorecords to a group of persons for purposes of further distribution, public performance, or public display, constitutes publication. A public performance or display of a work does not of itself constitute publication.\n  To perform or display a work \"publicly\" means—\n    (1) to perform or display it at a place open to the public or at any place where a substantial number of persons outside of a normal circle of a family and its social acquaintances is gathered; or\n    (2) to transmit or otherwise communicate a performance or display of the work to a place specified by clause (1) or to the public, by means of any device or process, whether the members of the public capable of receiving the performance or display receive it in the same place or in separate places and at the same time or at different times.\n  \"Registration\", for purposes of sections 205(c)(2), 405, 406, 410(d), 411, 412, and 506(e), means a registration of a claim in the original or the renewed and extended term of copyright.\n  \"Sound recordings\" are works that result from the fixation of a series of musical, spoken, or other sounds, but not including the sounds accompanying a motion picture or other audiovisual work, regardless of the nature of the material objects, such as disks, tapes, or other phonorecords, in which they are embodied.\n  \"State\" includes the District of Columbia and the Commonwealth of Puerto Rico, and any territories to which this title is made applicable by an Act of Congress."
+     "text": "  A \"pseudonymous work\" is a work on the copies or phonorecords of which the author is identified under a fictitious name."
+    },
+    {
+     "term": "publication",
+     "text": "  \"Publication\" is the distribution of copies or phonorecords of a work to the public by sale or other transfer of ownership, or by rental, lease, or lending. The offering to distribute copies or phonorecords to a group of persons for purposes of further distribution, public performance, or public display, constitutes publication. A public performance or display of a work does not of itself constitute publication.\n  To perform or display a work \"publicly\" means—\n    (1) to perform or display it at a place open to the public or at any place where a substantial number of persons outside of a normal circle of a family and its social acquaintances is gathered; or\n    (2) to transmit or otherwise communicate a performance or display of the work to a place specified by clause (1) or to the public, by means of any device or process, whether the members of the public capable of receiving the performance or display receive it in the same place or in separate places and at the same time or at different times."
+    },
+    {
+     "term": "registration",
+     "text": "  \"Registration\", for purposes of sections 205(c)(2), 405, 406, 410(d), 411, 412, and 506(e), means a registration of a claim in the original or the renewed and extended term of copyright."
+    },
+    {
+     "term": "sound recordings",
+     "text": "  \"Sound recordings\" are works that result from the fixation of a series of musical, spoken, or other sounds, but not including the sounds accompanying a motion picture or other audiovisual work, regardless of the nature of the material objects, such as disks, tapes, or other phonorecords, in which they are embodied."
+    },
+    {
+     "term": "state",
+     "text": "  \"State\" includes the District of Columbia and the Commonwealth of Puerto Rico, and any territories to which this title is made applicable by an Act of Congress."
     },
     {
      "term": "transfer of copyright ownership",
