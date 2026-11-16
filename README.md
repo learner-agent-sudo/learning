@@ -1,7 +1,7 @@
 # Learning
 
-A personal study site: interactive notes on deals, privacy, and Hong Kong
-and Canadian financial regulation. Static Next.js site (no backend),
+A personal study site: interactive notes on deals, privacy, software IP, and
+Hong Kong and Canadian financial regulation. Static Next.js site (no backend),
 published on GitHub Pages by `.github/workflows/deploy-pages.yml` on every push to the default
 branch.
 
@@ -15,6 +15,7 @@ branch.
 | HK securities regulation — SFO (Cap. 571), SFC | `/hk-securities/` | Live |
 | HK insurance regulation — Insurance Ordinance (Cap. 41), IA | `/hk-insurance/` | Live |
 | Canadian banking regulation — Bank Act (S.C. 1991, c. 46), OSFI | `/ca-banking/` | Live |
+| Open source & software IP — U.S. law, with EU, UK, HK and Canada notes | `/software-ip/` | Live |
 
 The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
 
@@ -28,7 +29,8 @@ sections (the numbered notes, or the parts of a tool such as the vendor kit),
 with the section being read highlighted; any stage or tab can be unfolded to
 jump straight to one of its sections. Each module's outline is built from its
 data (`lib/bankingOutline.ts`, `lib/securitiesOutline.ts`,
-`lib/insuranceOutline.ts`, `lib/caBankingOutline.ts`, `lib/mnaOutline.ts`). Stage
+`lib/insuranceOutline.ts`, `lib/caBankingOutline.ts`, `lib/softwareIpOutline.ts`,
+`lib/mnaOutline.ts`). Stage
 notes are bullet points: the short version first, then the detail under
 headings, with a bold lead-in on each bullet, a "bottom line" where a section
 has one, and small diagrams (layers, tiers, escalation steps, deadlines) drawn
@@ -232,6 +234,33 @@ other federal instruments from the Justice Laws consolidated XML
 not the official version and link to it. The shared vendor tools read the
 volume's storage prefix and labels from `components/banking/ModuleContext.tsx`
 and the kit data, so the HK pages are unchanged.
+
+## Open source & software IP
+
+Fifteen stages on the law of software for counsel at a bank or fintech in the
+United States, with short notes at the end of each stage on what differs in
+the EU, the UK, Hong Kong and Canada. Stages 1 to 6 cover the rights in code
+(copyright, ownership of code written by staff, contractors and vendors,
+patents, trade secrets and trademarks); stages 7 to 10 explain open source
+licences (how they work, then the permissive, copyleft and network-copyleft
+families and source-available licences); stages 11 to 15 cover practice
+(using open source, releasing code and contributing, deals and vendor
+contracts, AI-generated code and models, and disputes). Stage 7's **Licence
+finder** (`components/software-ip/LicenceFinder.tsx`) takes a licence and the
+ways the bank uses the code and shows what the licence asks, with the
+licence's own words one tap away, whether two licences can be combined in one
+program, and a Markdown note to download. Stages 11 to 13 carry checklists
+built on the shared checklist tool: an **OSS review** for one component, a
+**Release** checklist for publishing code or contributing, and a
+**Diligence** checklist for acquisitions, in-licensing, SaaS and outsourced
+development, each narrowed by a profile, with owners, evidence, sources and
+model wording, exported as Markdown or CSV. Content lives in
+`data/software-ip/stages.json`. Statute cards carry the text of the cited U.S.
+Code sections from GovInfo's annual edition (`scripts/extract_uscode.py`, run
+monthly by `.github/workflows/refresh-usleg.yml` into `data/usleg/`), a few
+California code sections, and the Hong Kong and Canadian copyright and patent
+statutes; licence cards carry licence texts from the SPDX License List
+(`scripts/extract_licences.py` into `data/licences/`).
 
 ## Privacy — DataGuard
 

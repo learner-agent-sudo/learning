@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { ArrowRight, ChartLine, Handshake, Landmark, Leaf, Lock, Umbrella, type LucideIcon } from 'lucide-react';
+import { ArrowRight, Braces, ChartLine, Handshake, Landmark, Leaf, Lock, Umbrella, type LucideIcon } from 'lucide-react';
 import { STAGES } from '@/lib/workflow';
 import { BANKING_STAGES } from '@/lib/banking';
 import { SECURITIES_STAGES } from '@/lib/securities';
 import { INSURANCE_STAGES } from '@/lib/insurance';
 import { CA_STAGES } from '@/lib/caBanking';
+import { SW_STAGES } from '@/lib/softwareIp';
 import { TONES, toneVars, type Tone } from '@/lib/theme';
 import { ContinueReading, ModuleInfo, VolumeProgress } from '@/components/hub/StudyProgress';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -119,6 +120,23 @@ const TOPICS: Topic[] = [
     module: 'ca-banking',
     stageIds: CA_STAGES.map((s) => s.id),
   },
+  {
+    title: 'Open source & software IP',
+    scope: 'United States · with EU, UK, HK and Canada notes',
+    description:
+      'Who owns the code, what open source licences ask, and how to use, release, buy and defend software, written for counsel at a bank or fintech.',
+    status: 'live',
+    icon: Braces,
+    tone: TONES.amber,
+    meta: [
+      `${SW_STAGES.length} stages`,
+      `${SW_STAGES.reduce((n, s) => n + (s.licenceKit?.licences.length ?? 0), 0)} licences`,
+      `${SW_STAGES.reduce((n, s) => n + (s.reviewKit ? 1 : 0), 0)} checklists`,
+    ],
+    href: '/software-ip/',
+    module: 'software-ip',
+    stageIds: SW_STAGES.map((s) => s.id),
+  },
 ];
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
@@ -225,6 +243,13 @@ const MODULES: ModuleInfo[] = [
     tone: TONES.brick,
     stages: CA_STAGES.map(({ id, index, title }) => ({ id, index, title })),
   },
+  {
+    module: 'software-ip',
+    title: 'Software IP',
+    href: '/software-ip/',
+    tone: TONES.amber,
+    stages: SW_STAGES.map(({ id, index, title }) => ({ id, index, title })),
+  },
   { module: 'mna', title: 'M&A', href: '/mna/', tone: TONES.navy, stages: STAGES.map(({ id, index, title }) => ({ id, index, title })) },
 ];
 
@@ -254,7 +279,7 @@ export default function HomePage() {
           className="mt-5 max-w-2xl animate-rise font-serif text-xl leading-snug text-ink/75 sm:text-2xl"
           style={{ animationDelay: '120ms' }}
         >
-          Deals, privacy, and Hong Kong and Canadian financial regulation, broken into stages you can work through one at a
+          Deals, privacy, software IP, and Hong Kong and Canadian financial regulation, broken into stages you can work through one at a
           time: key points first, then the detail, the law and a checklist.
         </p>
         <ContinueReading modules={MODULES} />
