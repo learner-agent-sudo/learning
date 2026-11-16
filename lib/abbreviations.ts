@@ -7,6 +7,8 @@ export const REGULATION_ABBR: AbbrDict = data.regulation;
 // The Canadian volume: the shared entries, plus Canadian ones (which win where the meaning differs).
 export const CA_ABBR: AbbrDict = { ...data.regulation, ...data.caRegulation };
 export const MNA_ABBR: AbbrDict = data.mna;
+// The software IP volume: the shared entries, plus its own (which win where the meaning differs, e.g. SFC, BIS, CI).
+export const SW_ABBR: AbbrDict = { ...data.regulation, ...data.softwareIp };
 
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const patterns = new WeakMap<AbbrDict, RegExp>();
