@@ -113,7 +113,7 @@ def lines_of(fragment: str) -> list[str]:
     return p.lines
 
 
-DEF_START = re.compile(r"^(?:\(\w+\)\s*)?(?:An?|The|Each|As used|For purposes)\b[^“\"]{0,80}[“\"]([^”\"]+)[”\"]")
+DEF_START = re.compile(r"^(?:\(\w+\)\s*)?(?:(?:An?|The|Each|As used|For purposes)\b[^“\"]{0,80})?[“\"]([^”\"]+)[”\"]")
 
 
 def definitions(lines: list[str]) -> list[dict]:
