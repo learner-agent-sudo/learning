@@ -2,9 +2,11 @@
 """Attach official statute text to the regulation modules' cited provisions.
 
 For each module in MODULES, reads data/<module>/stages.json and the
-legislation extracts (Hong Kong e-Legislation in data/hkel/<cap>.json, or the
+legislation extracts (Hong Kong e-Legislation in data/hkel/<cap>.json, the
 Justice Laws Website in data/caleg/<id>.json, e.g. "B-1.01" for the Bank Act
-or "SOR-2021-181" for a regulation), and writes
+or "SOR-2021-181" for a regulation, the U.S. Code and eCFR in
+data/usleg/<id>.json, e.g. "17-USC" or "15-CFR", or an open source licence in
+data/licences/<SPDX id>.json), and writes
 data/<module>/statute-extracts.json:
 
   extracts   one entry per cited (cap, section) that resolves, from the
@@ -28,9 +30,13 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 HKEL = ROOT / "data" / "hkel"
 CALEG = ROOT / "data" / "caleg"
+USLEG = ROOT / "data" / "usleg"
+LICENCES = ROOT / "data" / "licences"
+SOURCES = (HKEL, CALEG, USLEG, LICENCES)
 
 # Module folder under data/, and the chapter whose anatomy it shows.
-MODULES = [("banking", "155"), ("securities", "571"), ("insurance", "41"), ("ca-banking", "B-1.01")]
+MODULES = [("banking", "155"), ("securities", "571"), ("insurance", "41"), ("ca-banking", "B-1.01"),
+           ("software-ip", "17-USC")]
 
 MAX_CHARS = 6000  # long sections (e.g. s. 2 definitions) are cut; HKeL has the rest
 
@@ -49,10 +55,17 @@ SCHEDULE = re.compile(
 )
 SECTION = re.compile(r"(?i)^(?:s(?:ection)?s?\.?\s*)?(?P<num>\d+(?:\.\d+)*[A-Z]*)")
 PART = re.compile(r"(?i)^(?:pt|part)\.?\s*(?P<num>[0-9]+[A-Z]*|[IVXL]+(?:\.\d+)*[A-Z]*)(?![\w.])")
+# Licences: unnumbered parts shown whole ("full text", "preamble", "appendix").
+NAMED = re.compile(r"(?i)^(full text|preamble|appendix)$")
+# One definition in a definitions section: 101 "computer program" (U.S. Code).
+DEFINED = re.compile(r'^\s*[“"](?P<term>[^”"]+)[”"]\s*$')
 
 
 def parse_ref(section: str) -> tuple[str, str, str | None] | None:
     text = section.strip()
+    m = NAMED.match(text)
+    if m:
+        return ("s", m.group(1).upper().replace(" ", "-"), None)
     m = PART.match(text)
     if m:
         return ("part", m.group("num").upper(), None)
@@ -61,12 +74,18 @@ def parse_ref(section: str) -> tuple[str, str, str | None] | None:
         n = m.group("n") or ORDINALS.get((m.group("word") or "").lower())
         return ("sch", str(n), m.group("item")) if n else None
     m = SECTION.match(text)
-    return ("s", m.group("num").upper(), None) if m else None
+    if not m:
+        return None
+    rest = text[m.end():]
+    if rest.strip():
+        d = DEFINED.match(rest)
+        return ("def", m.group("num").upper(), d.group("term").lower()) if d else None
+    return ("s", m.group("num").upper(), None)
 
 
 def load_cap(cap: str, cache: dict) -> dict | None:
     if cap not in cache:
-        path = next((d / f"{cap}.json" for d in (HKEL, CALEG) if (d / f"{cap}.json").exists()), None)
+        path = next((d / f"{cap}.json" for d in SOURCES if (d / f"{cap}.json").exists()), None)
         cache[cap] = json.loads(path.read_text(encoding="utf-8")) if path else None
     return cache[cap]
 
@@ -104,10 +123,15 @@ def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
     kind, num, item = ref
     if kind == "part":
         return resolve_part(doc, num)
-    if kind == "s":
+    sec_label = doc.get("sectionLabel", "s. {n}")
+    if kind in ("s", "def"):
         hit = next((s for s in doc["sections"] if s["id"] == f"s{num}"), None)
-        label = f"s. {num}"
+        label = (hit or {}).get("label") or sec_label.format(n=num)
         part = next((p for p in doc["parts"] if p["id"] == hit.get("part")), None) if hit else None
+        if hit and kind == "def":
+            d = next((d for d in hit.get("defs", []) if d["term"] == item), None)
+            hit = {**hit, "text": d["text"]} if d else None
+            label = f"{label} (“{item}”)"
     else:
         sch = next((s for s in doc["schedules"] if s["id"] == f"sch{num}"), None)
         hit = sch
@@ -128,10 +152,13 @@ def resolve(doc: dict, ref: tuple[str, str, str | None]) -> dict | None:
     if part:
         entry["part"] = f"{part['num']} — {part['heading']}"
     if doc.get("source"):
-        # Justice Laws: name the source, and link the section itself.
+        # Justice Laws, the U.S. Code or SPDX: name the source, and link the section itself.
         entry["source"] = doc["source"]
-        if kind == "s" and doc.get("sectionUrl"):
+        if kind in ("s", "def") and doc.get("sectionUrl"):
             entry["hkelUrl"] = doc["sectionUrl"].format(n=num)
+    for key in ("kind", "sourceShort"):
+        if doc.get(key):
+            entry[key] = doc[key]
     if "text" in hit:
         entry["text"], entry["truncated"] = clip(hit["text"])
     return entry
