@@ -15,12 +15,43 @@
    "heading": "Copyright and Moral Rights in Works",
    "status": "in-effect",
    "sections": [
+    "s3",
     "s13",
     "s14.1"
+   ]
+  },
+  {
+   "id": "PIII",
+   "num": "Part III",
+   "heading": "Infringement of Copyright and Moral Rights and Exceptions to Infringement",
+   "status": "in-effect",
+   "sections": [
+    "s27",
+    "s29",
+    "s30.6",
+    "s30.61"
+   ]
+  },
+  {
+   "id": "PIV",
+   "num": "Part IV",
+   "heading": "Remedies",
+   "status": "in-effect",
+   "sections": [
+    "s41.1",
+    "s41.12"
    ]
   }
  ],
  "sections": [
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Copyright in works",
+   "status": "in-effect",
+   "part": "PI",
+   "text": "  (1) For the purposes of this Act, copyright, in relation to a work, means the sole right to produce or reproduce the work or any substantial part thereof in any material form whatever, to perform the work or any substantial part thereof in public or, if the work is unpublished, to publish the work or any substantial part thereof, and includes the sole right\n    (a) to produce, reproduce, perform or publish any translation of the work,\n    (b) in the case of a dramatic work, to convert it into a novel or other non-dramatic work,\n    (c) in the case of a novel or other non-dramatic work, or of an artistic work, to convert it into a dramatic work, by way of performance in public or otherwise,\n    (d) in the case of a literary, dramatic or musical work, to make any sound recording, cinematograph film or other contrivance by means of which the work may be mechanically reproduced or performed,\n    (e) in the case of any literary, dramatic, musical or artistic work, to reproduce, adapt and publicly present the work as a cinematographic work,\n    (f) in the case of any literary, dramatic, musical or artistic work, to communicate the work to the public by telecommunication,\n    (g) to present at a public exhibition, for a purpose other than sale or hire, an artistic work created after June 7, 1988, other than a map, chart or plan,\n    (h) in the case of a computer program that can be reproduced in the ordinary course of its use, other than by a reproduction during its execution in conjunction with a machine, device or computer, to rent out the computer program,\n    (i) in the case of a musical work, to rent out a sound recording in which the work is embodied, and\n    (j) in the case of a work that is in the form of a tangible object, to sell or otherwise transfer ownership of the tangible object, as long as that ownership has never previously been transferred in or outside Canada with the authorization of the copyright owner,\n  and to authorize any such acts.\n  Simultaneous fixing\n  (1.1) A work that is communicated in the manner described in paragraph (1)(f) is fixed even if it is fixed simultaneously with its communication.\n  (1.2) to (4) [Repealed, 1997, c. 24, s. 3]"
+  },
   {
    "id": "s13",
    "num": "13",
@@ -36,6 +67,54 @@
    "status": "in-effect",
    "part": "PI",
    "text": "  (1) The author of a work has, subject to section 28.2, the right to the integrity of the work and, in connection with an act mentioned in section 3, the right, where reasonable in the circumstances, to be associated with the work as its author by name or under a pseudonym and the right to remain anonymous.\n  No assignment of moral rights\n  (2) Moral rights may not be assigned but may be waived in whole or in part.\n  No waiver by assignment\n  (3) An assignment of copyright in a work does not by that act alone constitute a waiver of any moral rights.\n  Effect of waiver\n  (4) Where a waiver of any moral right is made in favour of an owner or a licensee of copyright, it may be invoked by any person authorized by the owner or licensee to use the work, unless there is an indication to the contrary in the waiver."
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Infringement generally",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) It is an infringement of copyright for any person to do, without the consent of the owner of the copyright, anything that by this Act only the owner of the copyright has the right to do.\n  Secondary infringement\n  (2) It is an infringement of copyright for any person to\n    (a) sell or rent out,\n    (b) distribute to such an extent as to affect prejudicially the owner of the copyright,\n    (c) by way of trade distribute, expose or offer for sale or rental, or exhibit in public,\n    (d) possess for the purpose of doing anything referred to in paragraphs (a) to (c), or\n    (e) import into Canada for the purpose of doing anything referred to in paragraphs (a) to (c),\n  a copy of a work, sound recording or fixation of a performer’s performance or of a communication signal that the person knows or should have known infringes copyright or would infringe copyright if it had been made in Canada by the person who made it.\n  Clarification\n  (2.1) For greater certainty, a copy made outside Canada does not infringe copyright under subsection (2) if, had it been made in Canada, it would have been made under a limitation or exception under this Act.\n  Secondary infringement — exportation\n  (2.11) It is an infringement of copyright for any person, for the purpose of doing anything referred to in paragraphs (2)(a) to (c), to export or attempt to export a copy — of a work, sound recording or fixation of a performer’s performance or of a communication signal — that the person knows or should have known was made without the consent of the owner of the copyright in the country where the copy was made.\n  Exception\n  (2.12) Subsection (2.11) does not apply with respect to a copy that was made under a limitation or exception under this Act or, if it was made outside Canada, that would have been made under such a limitation or exception had it been made in Canada.\n  Secondary infringement related to lesson\n  (2.2) It is an infringement of copyright for any person to do any of the following acts with respect to anything that the person knows or should have known is a lesson, as defined in subsection 30.01(1), or a fixation of one:\n    (a) to sell it or to rent it out;\n    (b) to distribute it to an extent that the owner of the copyright in the work or other subject-matter that is included in the lesson is prejudicially affected;\n    (c) by way of trade, to distribute it, expose or offer it for sale or rental or exhibit it in public;\n    (d) to possess it for the purpose of doing anything referred to in any of paragraphs (a) to (c);\n    (e) to communicate it by telecommunication to any person other than a person referred to in paragraph 30.01(3)(a); or\n    (f) to circumvent or contravene any measure taken in conformity with paragraph 30.01(6)(b), (c) or (d).\n  Infringement — provision of services\n  (2.3) It is an infringement of copyright for a person, by means of the Internet or another digital network, to provide a service primarily for the purpose of enabling acts of copyright infringement if an actual infringement of copyright occurs by means of the Internet or another digital network as a result of the use of that service.\n  Factors\n  (2.4) In determining whether a person has infringed copyright under subsection (2.3), the court may consider\n    (a) whether the person expressly or implicitly marketed or promoted the service as one that could be used to enable acts of copyright infringement;\n    (b) whether the person had knowledge that the service was used to enable a significant number of acts of copyright infringement;\n    (c) whether the service has significant uses other than to enable acts of copyright infringement;\n    (d) the person’s ability, as part of providing the service, to limit acts of copyright infringement, and any action taken by the person to do so;\n    (e) any benefits the person received as a result of enabling the acts of copyright infringement; and\n    (f) the economic viability of the provision of the service if it were not used to enable acts of copyright infringement.\n  Knowledge of importer\n  (3) In determining whether there is an infringement under subsection (2) in the case of an activity referred to in any of paragraphs (2)(a) to (d) in relation to a copy that was imported in the circumstances referred to in paragraph (2)(e), it is irrelevant whether the importer knew or should have known that the importation of the copy infringed copyright.\n  Plates\n  (4) It is an infringement of copyright for any person to make or possess a plate that has been specifically designed or adapted for the purpose of making infringing copies of a work or other subject-matter.\n  Public performance for profit\n  (5) It is an infringement of copyright for any person, for profit, to permit a theatre or other place of entertainment to be used for the performance in public of a work or other subject-matter without the consent of the owner of the copyright unless that person was not aware, and had no reasonable ground for suspecting, that the performance would be an infringement of copyright."
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Research, private study, etc.",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  Fair dealing for the purpose of research, private study, education, parody or satire does not infringe copyright."
+  },
+  {
+   "id": "s30.6",
+   "num": "30.6",
+   "heading": "Permitted acts",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  It is not an infringement of copyright in a computer program for a person who owns a copy of the computer program that is authorized by the owner of the copyright, or has a licence to use a copy of the computer program, to\n    (a) reproduce the copy by adapting, modifying or converting it, or translating it into another computer language, if the person proves that the reproduced copy\n      (i) is essential for the compatibility of the computer program with a particular computer,\n      (ii) is solely for the person’s own use, and\n      (iii) was destroyed immediately after the person ceased to be the owner of the copy of the computer program or to have a licence to use it; or\n    (b) reproduce for backup purposes the copy or a reproduced copy referred to in paragraph (a) if the person proves that the reproduction for backup purposes was destroyed immediately after the person ceased to be the owner of the copy of the computer program or to have a licence to use it."
+  },
+  {
+   "id": "s30.61",
+   "num": "30.61",
+   "heading": "Interoperability of computer programs",
+   "status": "in-effect",
+   "part": "PIII",
+   "text": "  (1) It is not an infringement of copyright in a computer program for a person who owns a copy of the computer program that is authorized by the owner of the copyright, or has a licence to use a copy of the computer program, to reproduce the copy if\n    (a) they reproduce the copy for the sole purpose of obtaining information that would allow the person to make the program and another computer program interoperable; and\n    (b) they do not use or disclose that information, except as necessary to make the program and another computer program interoperable or to assess that interoperability.\n  No limitation\n  (2) In the case where that information is used or disclosed as necessary to make another computer program interoperable with the program, subsection (1) applies even if the other computer program incorporates the information and is then sold, rented or otherwise distributed."
+  },
+  {
+   "id": "s41.1",
+   "num": "41.1",
+   "heading": "Prohibition",
+   "status": "in-effect",
+   "part": "PIV",
+   "text": "  (1) No person shall\n    (a) circumvent a technological protection measure within the meaning of paragraph (a) of the definition technological protection measure in section 41;\n    (b) offer services to the public or provide services if\n      (i) the services are offered or provided primarily for the purposes of circumventing a technological protection measure,\n      (ii) the uses or purposes of those services are not commercially significant other than when they are offered or provided for the purposes of circumventing a technological protection measure, or\n      (iii) the person markets those services as being for the purposes of circumventing a technological protection measure or acts in concert with another person in order to market those services as being for those purposes; or\n    (c) manufacture, import, distribute, offer for sale or rental or provide — including by selling or renting — any technology, device or component if\n      (i) the technology, device or component is designed or produced primarily for the purposes of circumventing a technological protection measure,\n      (ii) the uses or purposes of the technology, device or component are not commercially significant other than when it is used for the purposes of circumventing a technological protection measure, or\n      (iii) the person markets the technology, device or component as being for the purposes of circumventing a technological protection measure or acts in concert with another person in order to market the technology, device or component as being for those purposes.\n  Circumvention of technological protection measure\n  (2) The owner of the copyright in a work, a performer’s performance fixed in a sound recording or a sound recording in respect of which paragraph (1)(a) has been contravened is, subject to this Act and any regulations made under section 41.21, entitled to all remedies — by way of injunction, damages, accounts, delivery up and otherwise — that are or may be conferred by law for the infringement of copyright against the person who contravened that paragraph.\n  No statutory damages\n  (3) The owner of the copyright in a work, a performer’s performance fixed in a sound recording or a sound recording in respect of which paragraph (1)(a) has been contravened may not elect under section 38.1 to recover statutory damages from an individual who contravened that paragraph only for his or her own private purposes.\n  Services, technology, device or component\n  (4) Every owner of the copyright in a work, a performer’s performance fixed in a sound recording or a sound recording in respect of which a technological protection measure has been or could be circumvented as a result of the contravention of paragraph (1)(b) or (c) is, subject to this Act and any regulations made under section 41.21, entitled to all remedies — by way of injunction, damages, accounts, delivery up and otherwise — that are or may be conferred by law for the infringement of copyright against the person who contravened paragraph (1)(b) or (c)."
+  },
+  {
+   "id": "s41.12",
+   "num": "41.12",
+   "heading": "Interoperability",
+   "status": "in-effect",
+   "part": "PIV",
+   "text": "  (1) Paragraph 41.1(1)(a) does not apply to a person who circumvents a technological protection measure that protects a lawfully obtained computer program for the purpose of\n    (a) obtaining information that would allow the person to make the program or a device in which it is embedded interoperable with any other computer program, device or component; or\n    (b) making the program or a device in which it is embedded interoperable with any other computer program, device or component.\n  Services\n  (2) Paragraph 41.1(1)(b) does not apply to a person who offers services to the public or provides services for the purposes of circumventing a technological protection measure if the person does so for the purpose of making the computer program and any other computer program interoperable.\n  Technology, device or component\n  (3) Paragraph 41.1(1)(c) does not apply to a person who manufactures, imports or provides a technology, device or component for the purposes of circumventing a technological protection measure if the person does so for the purpose of making the computer program and any other computer program interoperable and\n    (a) uses that technology, device or component only for that purpose; or\n    (b) provides that technology, device or component to another person only for that purpose.\n  Sharing of information\n  (4) A person referred to in paragraph (1)(a) may communicate the information obtained under that paragraph to another person for the purposes of allowing that person to make the computer program or a device in which it is embedded interoperable with any other computer program, device or component.\n  Limitation — technology\n  (5) A person to whom the technology, device or component referred to in subsection (3) is provided may use it only for the purpose of making the computer program and any other computer program interoperable.\n  Limitation — information\n  (6) A person to whom the information referred to in subsection (4) is communicated may use it only for the purpose of making the computer program or a device in which it is embedded interoperable with any other computer program, device or component.\n  Non-application\n  (7) A person is not entitled to benefit from the exceptions under subsection (1) or (6) if, for the purposes of making the computer program or a device in which it is embedded interoperable with any other computer program, device or component, the person does an act that constitutes an infringement of copyright.\n  Non-application\n  (8) A person is not entitled to benefit from the exceptions under subsection (2), (3) or (5) if, for the purposes of making the computer program and any other computer program interoperable, the person does an act that constitutes an infringement of copyright.\n  Non-application\n  (9) A person is not entitled to benefit from the exception under subsection (4) if, for the purposes of making the computer program or a device in which it is embedded interoperable with any other computer program, device or component, the person does an act that constitutes an infringement of copyright or an act that contravenes any Act of Parliament or any Act of the legislature of a province."
   }
  ],
  "schedules": []
