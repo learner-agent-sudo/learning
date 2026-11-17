@@ -11,7 +11,7 @@
    "**Copyright:** Under the Copyright Act (17 U.S.C.), code and documentation are protected once [[fixed|fixation]] in a tangible medium, but not the ideas, methods or functions behind them (17 U.S.C. § 102(a), (b)).",
    "**Patent:** The Patent Act (35 U.S.C.) covers a new and useful process, machine, manufacture or composition of matter, for a term ending 20 years from filing (35 U.S.C. §§ 101, 154(a)(2)). Software claims face eligibility challenges first.",
    "**Trade secret:** The Defend Trade Secrets Act (DTSA) protects information that the owner keeps secret and that has economic value from not being generally known (18 U.S.C. § 1839(3)). California's version works the same way (Cal. Civ. Code § 3426.1(d)).",
-   "**Trademark:** The Lanham Act (15 U.S.C.) protects names and logos used in commerce to identify a source. It does not protect the code behind them (15 U.S.C. §§ 1125(a), 1127).",
+   "**Trademark:** The Lanham Act (15 U.S.C.) protects names and logos used in commerce to identify a source. It does not protect the code behind them, because the Act covers marks that identify a source (15 U.S.C. §§ 1125(a), 1127; drafting inference).",
    "**Contract:** Licences, NDAs and terms of use decide who may copy, change or disclose the code and data. Open source licences are copyright licences with terms attached, and some, such as Apache-2.0, add a patent licence (Apache-2.0 s.2, s.3)."
   ],
   "conceptMap": {
@@ -133,7 +133,7 @@
      "**Code:** Programs are sets of statements or instructions (17 U.S.C. § 101). Courts have held object code protected too (Apple Computer, Inc. v. Franklin Computer Corp., 714 F.2d 1240 (3d Cir. 1983)).",
      "**Ideas and methods:** Architecture, algorithms and methods of operation are outside copyright (17 U.S.C. § 102(b)). Those layers need a patent, a trade secret or a contract.",
      "**Data:** Copyright does little for raw data, so the contract and the bank's secrecy measures do most of the work (drafting inference).",
-     "**Names:** A product name earns trademark rights through [[use in commerce]], meaning bona fide use in the ordinary course of trade (15 U.S.C. § 1127). Clear the name before launch (good practice)."
+     "**Names:** A product name can earn trademark rights through [[use in commerce]], meaning bona fide use in the ordinary course of trade (15 U.S.C. § 1127), but a merely descriptive name may need proof that it identifies the source (drafting inference). Clear the name before launch (good practice)."
     ]
    },
    {
@@ -191,7 +191,7 @@
     "heading": "Federal law, state law and the courts",
     "lede": "Federal law sets most of the rules. State law still governs contracts, employment and much of trade secret practice.",
     "points": [
-     "**Federal claims:** No state court may hear a claim under the patent or copyright Acts; trademark claims can be heard in federal or state courts (28 U.S.C. § 1338(a)).",
+     "**Federal claims:** No state court may hear a claim under the patent or copyright Acts; trademark claims can be heard in federal courts under 28 U.S.C. § 1338(a), and state courts may hear them too (drafting inference).",
      "**Patent appeals:** The [[Federal Circuit]] has exclusive jurisdiction over appeals in patent cases from district courts (28 U.S.C. § 1295(a)(1)). Copyright and trademark appeals go to the regional circuit (drafting inference).",
      "**Trade secrets:** The DTSA gives the owner a federal civil action (18 U.S.C. § 1836(b)(1)). State claims under California's version run alongside it (Cal. Civ. Code § 3426.1).",
      "**Employment:** State law can limit what staff must assign. California voids an assignment clause for an invention made entirely on the employee's own time, with exceptions (Cal. Lab. Code § 2870(a), (b))."
@@ -539,7 +539,7 @@
    "**Exclusive rights:** The owner controls copying, adapting and distributing the program (§ 106). Sections 109 and 117 then carve out rights that software users need.",
    "**Owner or licensee:** Whether a user owns its copy or only licenses it decides whether the owner's rights under § 117(a) and § 109(a) apply. The contract matters.",
    "**Registration:** No infringement suit can be brought on a U.S. work until registration has been made or refused (§ 411(a)). Late registration can cost statutory damages and fees (§ 412).",
-   "**DMCA:** Stripping licence terms from code can breach § 1202(b) if done knowing it will enable infringement. Bypassing an access control breaches § 1201(a)(1)."
+   "**DMCA:** Stripping licence terms from code can breach § 1202(b) if done knowing it will enable infringement. Circumventing a technological measure that effectively controls access to a work, without authority, breaches § 1201(a)(1), subject to the exemptions the Librarian of Congress sets (§ 1201(a)(1)(B) to (D))."
   ],
   "conceptMap": {
    "type": "hub",
@@ -731,7 +731,7 @@
     },
     "points": [
      "**Suit:** No infringement suit on a U.S. work until registration has been made or refused (§ 411(a)). Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019), held that registration has been made when the Copyright Office registers the work, not when the application is filed.",
-     "**Late registration:** No award of [[statutory damages]] or attorney's fees is made for infringement that began before registration, or for infringement after first publication unless registration came within three months of publication (§ 412).",
+     "**Late registration:** No award of [[statutory damages]] or attorney's fees is made for infringement of an unpublished work that began before registration, or for infringement that began after first publication and before registration, unless registration came within three months of first publication (§ 412).",
      "**Amounts:** The owner may elect $750 to $30,000 per work instead of actual damages and profits, rising to $150,000 for wilful infringement and falling to $200 for innocent infringement (§ 504(c)).",
      "**Deposits:** Applicants can deposit redacted source code to protect trade secrets, using page options set by the Copyright Office (37 C.F.R. § 202.20(c)(2)(vii)) (reported; check the current options)."
     ],
@@ -949,14 +949,14 @@
    {
     "place": "HK",
     "points": [
-     "**Back-up and adaptation:** a lawful user may make a back-up copy (Cap. 528 s.60) and copy or adapt a program (s.61), but s.60 gives way to any agreement to the contrary (s.60(3)).",
-     "**Technological measures:** circumventing an effective technological measure is restricted (Cap. 528 ss.273A-273H), so the bank's licence-key and security controls need checking against the exceptions in s.273H."
+     "**Back-up and adaptation:** a lawful user, meaning a person with a contractual right to use the program, may make a back-up copy where necessary for that use (Cap. 528 ss.60(1)-(2)) and may copy or adapt the program where necessary for its lawful use (s.61(1)), but s.60 gives way to any agreement to the contrary (s.60(3)).",
+     "**Technological measures:** circumventing an effective technological measure is restricted (Cap. 528 ss.273A-273H), so the bank's licence-key and security controls need checking, since s.273H lets the Secretary for Commerce and Economic Development exclude classes of works or devices from ss.273A-273C and 273G only by Gazette notice and sets out no exceptions of its own."
     ]
    },
    {
     "place": "CA",
     "points": [
-     "**Owner and licensee exceptions:** an owner or licensee of a program may adapt it for compatibility and make a back-up copy (Copyright Act s.30.6), and reproduce it for interoperability (s.30.61).",
+     "**Owner and licensee exceptions:** an owner or licensee of a program may adapt it, where essential for compatibility with a particular computer, and make a back-up copy, provided the person proves the copy is solely for its own use and is destroyed when it stops owning or licensing the program (Copyright Act s.30.6); it may reproduce a program to obtain interoperability information, without using or disclosing that information beyond that purpose (s.30.61).",
      "**Anti-circumvention carve-out:** s.41.12 gives an interoperability exception to the anti-circumvention rules for a lawfully obtained program."
     ]
    }
@@ -1016,7 +1016,7 @@
   "review": "draft",
   "oneLiner": "Authors own code first, so the bank gets staff code through work made for hire and contractor or vendor code only through a signed assignment.",
   "keyPoints": [
-   "Under the Copyright Act (17 U.S.C.), copyright in code vests first in its author, so the bank owns code only if it is the author or takes a signed transfer (§ 201(a)).",
+   "Under the Copyright Act (17 U.S.C.), copyright in code vests first in its author, so the bank owns code if it is the author, or if it takes a transfer that is in writing unless it passes by operation of law (§ 201(a); § 204(a)).",
    "**Employees:** Code an employee writes within the scope of employment is a work made for hire, so the bank is treated as the author (§ 101; § 201(b)).",
    "**Contractors and vendors:** Their code is usually not a work made for hire, so the bank needs a transfer signed by the author (§ 101; § 204(a)).",
    "**Termination:** An author's grant of rights, other than in a work made for hire, can be terminated decades later despite any contrary agreement (§ 203(a)(5)).",
@@ -1117,12 +1117,12 @@
    },
    {
     "heading": "Transfers need a signed writing",
-    "lede": "A transfer of ownership is valid only if it is in writing. A non-exclusive licence needs no writing.",
+    "lede": "A transfer of ownership is valid only if it is in writing, unless it passes by operation of law. A non-exclusive licence needs no writing.",
     "points": [
      "**Writing:** A transfer of copyright ownership is not valid unless the owner of the rights conveyed, or its agent, signs a writing that records it (§ 204(a)).",
      "**What counts:** A transfer covers assignments and exclusive licences, but not a [[non-exclusive licence]] (§ 101). A non-exclusive licence therefore needs no signed writing under § 204(a), although signing one is still sensible (good practice).",
      "**Recording:** Recording with the Copyright Office gives [[constructive notice]] only if the document identifies the work and the work is registered (§ 205(c)).",
-     "**Priority:** Between two conflicting transfers, the earlier one prevails if it is recorded within one month after signing in the United States, or before the later one is recorded. A later transfer prevails only if it was recorded first, taken in good faith, for value and without notice (§ 205(d))."
+     "**Priority:** Between two conflicting transfers, the earlier one prevails if it is recorded within one month after signing in the United States, or before the later one is recorded. Otherwise the later transfer prevails only if it was recorded first, taken in good faith, for valuable consideration or on a binding promise to pay royalties, and without notice of the earlier transfer (§ 205(d))."
     ]
    },
    {
@@ -1211,7 +1211,7 @@
     "lede": "Ownership is most often lost at the edges: vendor deliverables, side projects and staff contributions to public projects.",
     "points": [
      "**Deliverables:** Decide in the contract which deliverables the bank owns by assignment, which it licenses, and which stay with the vendor. A work made for hire label does not turn most software into a work made for hire (§ 101(2); good practice).",
-     "**Customisations:** A vendor's changes to the bank's code create a derivative work of it (§ 101). The contract should say who owns the changes and whether the bank can keep using them after the engagement ends (good practice).",
+     "**Customisations:** A vendor's changes to the bank's code are usually a derivative work of it (§ 101). The contract should say who owns the changes and whether the bank can keep using them after the engagement ends (good practice).",
      "**Licence-backs:** If the bank assigns its own improvements back to a vendor, it may lose title to code it wrote. A licence back is the safer route if it covers the bank's affiliates and future use (good practice).",
      "**Side projects:** Code an employee writes on their own time, outside the job, may not be a work made for hire (§ 101(1)). For inventions, California's own-time rule may still protect the employee (§ 2870), so check the agreement.",
      "**Open source contributions:** Code a staff member writes within the job is usually the bank's work made for hire. Contributing it to a public project is then the bank's grant under that project's licence, so approve such contributions in advance (good practice)."
@@ -1297,7 +1297,7 @@
     "ref": "§ 2870",
     "title": "Employee inventions: employment agreements",
     "summary": "An employment-agreement clause requiring assignment does not reach an invention the employee developed entirely on their own time, without the employer's equipment, supplies, facilities or trade secret information. The exceptions are inventions related to the employer's business or actual or demonstrably anticipated research, and inventions that result from work for the employer. A clause that goes further is unenforceable.",
-    "counselNote": "Bank templates used for California staff need this carve-out. Without it the clause cannot be enforced for side inventions, and the bank cannot make a void clause a condition of employment (§ 2871).",
+    "counselNote": "The § 2870 carve-out applies by statute, so a clause that reaches side inventions is void to that extent, and the bank cannot make a void clause a condition of employment (§ 2871).",
     "confidence": "high",
     "cap": "CA-LAB",
     "section": "2870",
@@ -1388,7 +1388,7 @@
   "pitfalls": [
    "**Relying on a work made for hire label for vendors:** Assuming that a vendor's clause makes its software the bank's, when most software does not fit the nine categories in § 101(2).",
    "**Unsigned contractor code:** Merging contractor code without a signed transfer, so the bank may hold no title to code it ships (§ 204(a)).",
-   "**Missing California carve-out:** Using one invention clause for all staff, without the § 2870 exclusion and the § 2872 notice for California employees.",
+   "**Missing California carve-out:** Using one invention clause for all staff that reaches inventions § 2870 excludes, or leaving out the § 2872 notice for California employees.",
    "**Agree-to-assign wording:** Using 'agrees to assign' where the bank needs title now, so that ownership waits for a further signed document (Stanford v. Roche, 583 F.3d 832 (Fed. Cir. 2009)).",
    "**Unrecorded patent assignments:** Leaving a patent assignment unrecorded beyond three months, which risks losing it to a later purchaser or mortgagee without notice (35 U.S.C. § 261).",
    "**Assuming open source contributions carry no ownership consequences:** The bank's position in staff contributions still follows the employment and assignment rules (good practice)."
@@ -1411,8 +1411,8 @@
    {
     "place": "HK",
     "points": [
-     "**Employer first owner, with a payment:** the employer owns a work made by an employee, subject to agreement, but must pay an award for exploitation not reasonably contemplated when it was made (Cap. 528 s.14(1)-(2)).",
-     "**Commissioned work:** the contract governs if it expressly provides for ownership; otherwise the commissioner has an exclusive licence for contemplated purposes (s.15).",
+     "**Employer first owner, with a payment:** the employer owns a work made by an employee, subject to agreement, and unless the agreement says otherwise must pay an award for exploitation not reasonably contemplated when it was made (Cap. 528 s.14(1)-(2)).",
+     "**Commissioned work:** the contract governs if it expressly provides for ownership, but the commissioner still has an exclusive licence for purposes reasonably contemplated at commissioning and a power to restrain objectionable exploitation (s.15(2), which applies notwithstanding s.15(1)).",
      "**Computer-generated works:** the author is the person who made the arrangements (s.11(3)), and copyright runs 50 years from the end of the year the work was made (s.17(6))."
     ]
    },
@@ -1421,7 +1421,7 @@
     "points": [
      "**Employer owns by default:** where a work is made in the course of employment, the employer is the first owner absent agreement to the contrary (Copyright Act s.13(3)).",
      "**Moral rights need waivers:** moral rights cannot be assigned (s.14.1(2)), so employee and contractor agreements should take waivers in addition to the assignment.",
-     "**Software the employee was not asked to write:** the employer did not own it (Nexus Solutions Inc. v. Krougly, 2026 ONCA 199, reported; check)."
+     "**Software the employee was not asked or expected to write:** the employer did not own it, as reported in Nexus Solutions Inc. v. Krougly, 2026 ONCA 199 (reported; check)."
     ]
    }
   ],
@@ -1479,7 +1479,7 @@
    "Patents protect how software works, not its code. The Patent Act (35 U.S.C.) allows a new and useful process or machine to be patented, so a patent can stop an independent rewrite of the same method (35 U.S.C. §§ 101, 154(a)(1)).",
    "**Four tests:** A claim must be eligible (§ 101), novel (§ 102), non-obvious (§ 103) and clearly drafted (§ 112). Eligibility and functional wording are where software claims are most often challenged (drafting inference).",
    "**Timing:** Publishing code can destroy novelty. An inventor's own disclosure is excused only if the application is filed within one year (35 U.S.C. § 102(b)(1)).",
-   "**Infringement:** Software methods often run across the bank, a cloud host and customers. The bank can still be liable for steps that others perform if it directs or controls them (35 U.S.C. § 271(a)).",
+   "**Infringement:** Software methods often run across the bank, a cloud host and customers. The bank can still be liable for steps that others perform if it directs or controls them (35 U.S.C. § 271(a); Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc)).",
    "**Remedies:** Damages are at least a reasonable royalty (35 U.S.C. § 284), and marking and notice can limit how far back a patentee may recover (§ 287(a)).",
    "**Counsel's role:** Screen features for eligibility and publication timing before release, keep dated development records, and plan the forum (district court, the Patent Trial and Appeal Board or the International Trade Commission) before any demand letter arrives."
   ],
@@ -1675,7 +1675,7 @@
      "**District court:** A patent suit may be brought where the defendant resides, or where it has committed infringing acts and has a regular and established place of business (28 U.S.C. § 1400(b)). TC Heartland LLC v. Kraft Foods Group Brands LLC, 581 U.S. 258 (2017), limits a domestic corporation's residence to its state of incorporation.",
      "**Appeals:** The Federal Circuit hears appeals from district courts in patent cases, from PTAB decisions and from final ITC determinations (28 U.S.C. § 1295(a)).",
      "**Inter partes review:** A petition may raise only §§ 102 or 103 grounds, using patents or printed publications (35 U.S.C. § 311(b)). It may be filed after the later of nine months from grant or the end of any post-grant review (§ 311(c)).",
-     "**Timing bars:** An [[inter partes review]] cannot start if the petitioner has already sued on validity. It must be filed within one year after the petitioner is served with an infringement complaint (35 U.S.C. § 315(a)(1), (b)). After a final written decision, the petitioner cannot later argue any ground it raised or could reasonably have raised (§ 315(e)(2)).",
+     "**Timing bars:** An [[inter partes review]] cannot start if the petitioner has sued on validity. It must be filed within one year of service of an infringement complaint (35 U.S.C. § 315(a)(1), (b)). A final written decision bars later grounds the petitioner raised or could reasonably have raised (§ 315(e)).",
      "**Post-grant review:** A petition filed within nine months of grant may raise any ground under § 282(b)(2) or (3), including §§ 101 and 112 (35 U.S.C. § 321(b)-(c)).",
      "**ITC:** Importing articles that infringe a valid and enforceable US patent is unlawful where a US industry exists or is being established (19 U.S.C. § 1337(a)(1)(B), (a)(2)). The remedy includes an [[exclusion order]]."
     ],
@@ -1738,7 +1738,7 @@
     "ref": "§ 112",
     "title": "Specification",
     "summary": "Requires a written description that enables a skilled person to make and use the invention, and claims that particularly and distinctly point out the subject matter. An element written as a means or step for a function covers the disclosed structure and its equivalents (§ 112(f)).",
-    "counselNote": "Functional software claims are narrowed to the code the specification describes. Describe the implementation, not only the result.",
+    "counselNote": "Only functional elements within § 112(f) are narrowed to the code the specification describes. Describe the implementation, not only the result.",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section112&num=0&edition=prelim",
     "cap": "35-USC",
     "section": "112",
@@ -1870,7 +1870,7 @@
    "**Require vendor indemnities for patents:** Ask vendors to warrant non-infringement and defend claims over the code they supply, and check the carve-outs (good practice).",
    "**Calendar the patent deadlines:** Record the one-year IPR bar from service of a complaint (§ 315(b)) and the nine-month post-grant window for a rival's new patent (§ 321(c)).",
    "**Read each licence for its patent terms:** Check the patent grant and termination clauses (for example Apache-2.0 s.3), and record any patents the bank contributes or licenses out.",
-   "**Mark patented products:** Post a patent marking page for products that practise the bank's patents, so that damages are not lost for lack of notice (35 U.S.C. § 287(a)).",
+   "**Mark patented products:** Post a patent marking page for patented articles the bank sells or offers, so that damages are not lost for lack of notice (35 U.S.C. § 287(a)); a method-only patent needs no marking (drafting inference).",
    "**Document prior commercial use:** For in-house processes that may matter, keep dated evidence of good-faith US use, because § 273 requires clear and convincing proof.",
    "**Screen imported hardware:** Where the bank imports terminals or devices with embedded software, check for ITC exposure under 19 U.S.C. § 1337 before purchase."
   ],
@@ -2140,7 +2140,7 @@
     "points": [
      "**Public release:** Posting code online, or open sourcing it, makes it generally known, so the trade secret in that code is lost (18 U.S.C. § 1839(3)(B)).",
      "**Partial release:** A release of part of a code base ends secrecy only for what was released, so define the boundary of each release (drafting inference).",
-     "**Patents:** A patent describes the invention to the public, so the same material cannot be kept secret once filed (drafting inference). Choose the right before filing.",
+     "**Patents:** A patent describes the invention to the public, so the same material cannot stay secret once the application publishes, normally 18 months after the earliest filing date (35 U.S.C. § 122(b)) (drafting inference). Choose the right before filing.",
      "**Leaks:** A mistaken public repository or a shared link can make code generally known, so check settings and monitor for copies (good practice)."
     ]
    },
@@ -2334,7 +2334,7 @@
     "ref": "108 F.4th 458 (7th Cir. 2024)",
     "title": "Extraterritorial reach of the DTSA",
     "summary": "The Seventh Circuit held that the DTSA can reach misappropriation abroad where an act in furtherance of it occurred in the United States. Damages may therefore rest on sales made outside the United States.",
-    "counselNote": "A US act, such as a download, a server or a meeting, can bring foreign sales into the damages claim. Map where copied code was used, not just where it was taken.",
+    "counselNote": "A US act in furtherance, such as a download or a server used to store the code, can bring foreign sales into the damages claim (drafting inference). Map where copied code was used, not just where it was taken.",
     "confidence": "high"
    },
    {
@@ -2592,7 +2592,7 @@
     "points": [
      "**Confusion:** The core question is whether customers are [[likely to be confused|likelihood of confusion]] about source, sponsorship or affiliation (§ 1125(a)(1)(A)).",
      "**Dilution:** § 1125(c)(1) gives the owner of a famous mark an injunction against blurring or tarnishment, without proof of confusion.",
-     "**Fair use:** A [[nominative fair use]] of a famous mark, other than as a designation of source for one's own goods, is not actionable dilution (§ 1125(c)(3)(A)).",
+     "**Fair use:** Any fair use of a famous mark, including nominative or descriptive use, other than as a designation of source for one's own goods, is not actionable dilution (§ 1125(c)(3)(A)).",
      "**Source identifiers:** Jack Daniel's Properties, Inc. v. VIP Products LLC, 599 U.S. 140 (2023), held that the Rogers test does not apply where the accused mark is used as a source identifier.",
      "**Compatibility:** Say 'compatible with' and name the other product, with no logo, no stylised version and no suggestion of endorsement (good practice)."
     ],
@@ -2672,7 +2672,7 @@
     "points": [
      "**Nonuse:** A mark is abandoned when use stops with intent not to resume. Three consecutive years of nonuse is prima facie evidence of [[abandonment]] (§ 1127).",
      "**Generic use:** Conduct that makes the mark the generic name for the goods or services, or otherwise removes its significance as a mark, also leads to abandonment (§ 1127).",
-     "**Naked licensing:** [[Licensing a mark without quality control|naked licensing]] can lead to abandonment. The Ninth Circuit cases Barcamerica International USA Trust v. Tyfield Importers, Inc., 289 F.3d 589 (9th Cir. 2002), and FreecycleSunnyvale v. Freecycle Network, 626 F.3d 509 (9th Cir. 2010), are reported as authority for that point (reported; check).",
+     "**Naked licensing:** [[Licensing a mark without quality control|naked licensing]] can lead to abandonment. Barcamerica International USA Trust v. Tyfield Importers, Inc., 289 F.3d 589 (9th Cir. 2002), and FreecycleSunnyvale v. Freecycle Network, 626 F.3d 509 (9th Cir. 2010), are reported for that point (reported; check).",
      "**Partner use:** Give licensees approved logo files, usage rules and a right to approve quality, and keep ownership of the mark with the bank (good practice)."
     ],
     "visual": {
@@ -3287,7 +3287,7 @@
     "ref": "(Cal. Super. Ct., Orange County, filed 2021)",
     "title": "Purchaser's claim as third-party beneficiary of the GPL",
     "summary": "A nonprofit sued as a purchaser of Vizio TVs, claiming to be a third-party beneficiary of the GPL with a right to source code. Pre-trial rulings reportedly let the claim proceed. No final judgment is confirmed as at November 2026.",
-    "counselNote": "The case tests who can enforce the GPL. A bank that distributes GPL code in devices or apps should expect enforcement by parties other than the copyright holders.",
+    "counselNote": "The case tests who can enforce the GPL. A bank that distributes GPL code in devices or apps should allow for enforcement by purchasers as well as copyright holders, although that theory is not settled (drafting inference).",
     "confidence": "medium"
    },
    {
@@ -3397,7 +3397,7 @@
    "**SPDX in manifests:** Declare licences as SPDX expressions in package manifests, such as GPL-2.0-only or GPL-2.0-or-later, so that scanners and counsel read the same answer.",
    "**Transitive dependencies:** Scanners need to walk the full dependency tree, because a permissive top-level package can pull in a copyleft library several levels down.",
    "**Linking is a build decision:** Static linking, dynamic linking, plugin loading and separate processes change the combined-work analysis, so record how each component is linked in the build.",
-   "**Network services:** Track which services run modified AGPL-3.0 code. The source offer must reach remote users, which usually means a link in the service's user interface or API response.",
+   "**Network services:** Track which services run modified AGPL-3.0 code. AGPL-3.0 s.13 requires the source offer to be prominent and made through a standard or customary means, such as a link in the service's user interface or API response (drafting inference on the form).",
    "**Notices in artefacts:** Generate licence and notice files during the build and ship them in mobile apps, container images and firmware, not only in the repository."
   ],
   "virtualBankNotes": [
@@ -3474,7 +3474,7 @@
    },
    {
     "term": "or later version",
-    "definition": "The option to use a later version of a licence, which GPL-2.0 allows only where the program says 'any later version' (GPL-2.0 s.9)."
+    "definition": "The option to use a later version of a licence, which GPL-2.0 allows where the program names a version and says 'any later version', or, where it names no version, any version ever published (GPL-2.0 s.9)."
    },
    {
     "term": "dual licensing",
@@ -4023,7 +4023,7 @@
      "name": "Apache License 2.0",
      "family": "permissive",
      "osi": true,
-     "summary": "The licence grants a perpetual, worldwide, royalty-free copyright licence and an express patent licence from each contributor, to use, modify and distribute the work in source or object form (Apache-2.0 s.2, s.3). Its conditions apply on redistribution: a copy of the licence, marked changes, retained notices, the NOTICE file's attributions, and no use of the project's marks beyond describing its origin (s.4, s.6).",
+     "summary": "The licence grants a perpetual, worldwide, royalty-free copyright licence and an express patent licence from each contributor, to use, modify and distribute the work in source or object form (Apache-2.0 s.2, s.3). Its conditions apply on redistribution: a copy of the licence, marked changes, retained notices and the NOTICE file's attributions (s.4). Section 6 separately withholds any right to use the project's marks beyond describing its origin (s.6).",
      "trigger": "Distributing the work or derivative works in source or object form sets off the section 4 conditions; running the work internally or as a hosted service does not (Apache-2.0 s.4).",
      "patent": "Section 3 gives an express patent licence from each contributor for the claims its contribution necessarily infringes, and that licence ends for any licensee who sues alleging the work infringes a patent (Apache-2.0 s.3).",
      "duties": [
@@ -4074,7 +4074,7 @@
         "online",
         "modify"
        ],
-       "text": "Before the bank sues over a patent that a product using the work might infringe, check whether the termination in section 3 would end its licence to the work (Apache-2.0 s.3).",
+       "text": "Before the bank starts patent litigation alleging that the work, or a contribution in it, infringes a patent, check whether the termination in section 3 would end its patent licence to the work (Apache-2.0 s.3).",
        "cites": [
         {
          "cap": "Apache-2.0",
@@ -4168,7 +4168,7 @@
      ],
      "watch": [
       "The text has no fallback licence: if a court does not give effect to the dedication, the text grants no permission, unlike CC0-1.0 s.3 (Unlicense, full text).",
-      "A dedication is only as good as the author's title, so confirm the author owned the rights, especially for code written by an employee or contractor (17 U.S.C. § 201(b)).",
+      "A dedication is only as good as the author's title, so confirm the author owned the rights, especially for code written by an employee (17 U.S.C. § 201(b)) or by a contractor, whose work is made for hire only in the categories listed in 17 U.S.C. § 101 (drafting inference).",
       "The licence says nothing about trademarks or patents, so the bank's use of the author's name needs its own check (drafting inference)."
      ],
      "sources": [
@@ -4375,7 +4375,7 @@
      "osi": true,
      "summary": "Permits use, modification and distribution, including in larger works that carry other terms. Its main condition is file-level copyleft: distributed MPL-covered files stay under the MPL, with their source available.",
      "trigger": "Distributing Covered Software, in source or executable form, to anyone outside the bank (s.3); internal use alone does not.",
-     "patent": "Express patent licence from each Contributor for its Patent Claims (s.2.1(b)); it ends if you sue a Contributor alleging that its Contributor Version infringes a patent (s.5.2).",
+     "patent": "Express patent licence from each Contributor for its Patent Claims (s.2.1(b)); it ends if you start patent litigation against any entity alleging that a Contributor Version directly or indirectly infringes a patent (s.5.2).",
      "duties": [
       {
        "uses": [
@@ -4485,7 +4485,7 @@
        "uses": [
         "combine"
        ],
-       "text": "Keep the EPL-2.0 copyright, patent and attribution notices in the Program files when you combine them with other code (s.3.3).",
+       "text": "When you distribute copies of the Program, keep the EPL-2.0 copyright, patent and attribution notices in the Program files, including when you combine them with other code (s.3.3).",
        "cites": [
         {
          "cap": "EPL-2.0",
@@ -4495,7 +4495,7 @@
       }
      ],
      "watch": [
-      "GPL-2.0 is a 'Secondary License' only where the initial Contributor attaches the Exhibit A notice (s.1; Appendix); without that notice, do not treat the code as GPL-2.0.",
+      "GPL-2.0 is a 'Secondary License' only where the initial Contributor attaches the Exhibit A notice (s.1 defines the term; s.3.2(a) and Appendix); without that notice, do not treat the code as GPL-2.0.",
       "Patent litigation over the Program ends the patent licences (s.7); route any patent dispute with a contributor through counsel first."
      ],
      "sources": [
@@ -4540,7 +4540,7 @@
         "combine",
         "ship"
        ],
-       "text": "For a work that uses the library, give prominent notice that the library is used, supply a copy of the licence, and let users modify the library and reverse engineer it for debugging (s.6).",
+       "text": "For a work that uses the library, give prominent notice that the library is used, supply a copy of the licence, and let users modify the work for their own use and reverse engineer it for debugging such modifications (s.6).",
        "cites": [
         {
          "cap": "LGPL-2.1-only",
@@ -4631,7 +4631,7 @@
        "uses": [
         "ship"
        ],
-       "text": "Header-file material may sit under your own terms only if it is numerical parameters, data layouts, accessors, or small macros, inline functions and templates of ten lines or fewer (s.3).",
+       "text": "Header-file material may be conveyed under your own terms, but if the incorporated material is more than numerical parameters, data layouts, accessors, or small macros, inline functions and templates of ten lines or fewer, you must give prominent notice that the Library is used and include the GNU GPL and LGPL-3.0 texts (s.3(a)-(b)).",
        "cites": [
         {
          "cap": "LGPL-3.0-only",
@@ -4804,7 +4804,7 @@
        "uses": [
         "contractor"
        ],
-       "text": "You may give copies to a contractor only to make modifications exclusively for you, on terms that bar the contractor from copying them for others (s.2).",
+       "text": "You may give copies to a contractor only to make modifications exclusively for you or to provide facilities for running them, on terms that bar the contractor from copying them outside its relationship with you (s.2).",
        "cites": [
         {
          "cap": "GPL-3.0-only",
@@ -4902,7 +4902,7 @@
      ],
      "watch": [
       "Internal users count: employees who use a modified version over the bank's network are users interacting remotely, so the s.13 offer is owed to them (drafting inference; check the wording).",
-      "GPL-3.0 and AGPL-3.0 code may be combined into one work in either direction; the AGPL network requirement then applies to the combination (GPL-3.0 s.13; AGPL-3.0 s.13).",
+      "GPL-3.0 and AGPL-3.0 code may be combined into one work in either direction. Each part keeps its own licence, but the AGPL network source offer reaches the combination, including the GPL-3.0 code in it (GPL-3.0 s.13; AGPL-3.0 s.13).",
       "Added terms can be enforced against AGPL licensees: Neo4j, Inc. v. PureThink LLC treated a Commons Clause added to AGPL code as enforceable under the further-restrictions term (reported; check)."
      ],
      "sources": [
@@ -5000,7 +5000,7 @@
      ],
      "watch": [
       "Change Dates and Change Licenses vary by version, so each release needs its own date check (reported; check).",
-      "Not open source: the OSI does not approve it. HashiCorp moved Terraform from MPL-2.0 to BUSL-1.1 in August 2023, and OpenTofu forked the last open version (reported; check)."
+      "Not open source: it is source-available, and the OSI has not approved it (reported; check). HashiCorp moved Terraform from MPL-2.0 to BUSL-1.1 in August 2023, and OpenTofu forked the last open version (reported; check)."
      ],
      "sources": [
       {
@@ -5064,7 +5064,7 @@
        "uses": [
         "ship"
        ],
-       "text": "Do not sell the software, or any copy of it, under the underlying licence without the Commons Clause limit (reported; check).",
+       "text": "Do not sell the software, or any copy of it, since the Commons Clause bars selling it (reported; check).",
        "cites": []
       },
       {
@@ -5318,7 +5318,7 @@
     "points": [
      "**Copyright base:** Code is protected once it is fixed in a tangible medium (17 U.S.C. § 102(a)). The owner holds the exclusive rights in § 106, and a permissive licence authorises some of them (17 U.S.C. § 106).",
      "**Non-exclusive:** The author can license the same code to others. A [[Non-exclusive licence]] is not a transfer of ownership, so the signed-writing rule for transfers does not apply to it (17 U.S.C. § 204(a)).",
-     "**Enforceable terms:** Licences are often accepted by download or in a package. US courts have enforced shrink-wrap terms unless they are objectionable on general contract grounds (ProCD, Inc. v. Zeidenberg, 86 F.3d 1447 (7th Cir. 1996)).",
+     "**Enforceable terms:** Licences are often accepted by download or in a package. The Seventh Circuit held that shrink-wrap terms are enforceable unless they are objectionable on general contract grounds (ProCD, Inc. v. Zeidenberg, 86 F.3d 1447 (7th Cir. 1996)).",
      "**Ideas stay free:** Copyright never protects an idea, procedure or method of operation (17 U.S.C. § 102(b)). A licence cannot create that protection, so a method in permissive code is a patent question, not a licence question.",
      "**Scope:** Terms that the courts treat as conditions limit the licence itself. Breaking one can be infringement, not only breach of contract (Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008))."
     ]
@@ -5405,7 +5405,7 @@
       },
       {
        "label": "Confirm whether copies leave",
-       "note": "Internal use and hosted services usually trigger no notice duty"
+       "note": "Internal copies still need the MIT and ISC notices, and only copies sent to others trigger the distribution duties"
       }
      ]
     },
@@ -5414,7 +5414,7 @@
      "**Container images:** A pushed image copies its layers to others, so put the licence and notice files inside the image, not only in the source repository (drafting inference).",
      "**Hosted services:** The permissive texts attach duties to copies, and Apache-2.0 s.4 attaches them to distribution. Running code on your own servers and serving results to users sends no copies of the code (drafting inference).",
      "**Client code:** Scripts, SDKs or libraries sent to a browser or device are distributed, even when the hosted service that uses them is not (drafting inference).",
-     "**Apache attribution:** Apache-2.0 s.4(d) requires the [[NOTICE file]] text wherever third-party notices normally appear, such as an about screen (Apache-2.0 s.4(d))."
+     "**Apache attribution:** Apache-2.0 s.4(d) requires the [[NOTICE file]] text in one of three places: a NOTICE file in the distribution, the source or documentation, or a display where third-party notices normally appear, such as an about screen (Apache-2.0 s.4(d))."
     ]
    },
    {
@@ -5519,7 +5519,7 @@
     "ref": "§ 102",
     "title": "Subject matter of copyright; ideas excluded",
     "summary": "Copyright protects original works of authorship fixed in a tangible medium, which covers code. Section 102(b) denies protection to any idea, procedure, process, system, method of operation or concept, however the work describes it.",
-    "counselNote": "A licence grants permission under copyright. It cannot give rights in an idea or method, so a patent is the only route for those.",
+    "counselNote": "A licence grants permission under copyright. It cannot give rights in an idea or method, so for an idea or method a patent is the usual route, and a trade secret may protect what stays confidential (drafting inference).",
     "confidence": "high",
     "cap": "17-USC",
     "section": "102",
@@ -5701,14 +5701,14 @@
   "virtualBankNotes": [
    "**Third-party guidance:** The interagency third-party guidance (88 Fed. Reg. 37920, 9 June 2023) is technology-neutral. Open source components are usually not the business arrangement, but the vendors that supply or support them are (drafting inference).",
    "**FFIEC booklet:** The FFIEC IT Examination Handbook's development and acquisition booklet is reported to cover open source components in supply-chain risk (reported; check the booklet's wording).",
-   "**NYDFS rules:** 23 NYCRR 500.8 covers written secure development procedures for in-house applications and for evaluating the security of externally developed applications, and 500.11 covers a third-party service provider security policy.",
+   "**NYDFS rules:** For entities regulated by the New York Department of Financial Services, 23 NYCRR 500.8 covers written secure development procedures for in-house applications and for evaluating the security of externally developed applications, and 500.11 covers a third-party service provider security policy.",
    "**Inventory expectations:** PCI DSS is an industry standard, not a statute. Its requirement 6.3.2 asks for an inventory of bespoke software and third-party components (reported; check).",
    "**Vendor deliverables:** Where a vendor ships permissive code in its product, ask for the notice file and component list in the delivery, since those are compliance evidence (good practice)."
   ],
   "pitfalls": [
    "**Dropping notices:** Treating MIT or BSD code as free of duties and stripping its notice. If the notice is a licence condition, the copying may be infringement, not just a breach (Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008)).",
    "**Patent trap:** Suing a partner over a patent while relying on Apache-2.0 code it uses, because the licence for that Work can end (Apache-2.0 s.3).",
-   "**Implied patent licence:** Assuming an implied patent permission in MIT or BSD code survives an acquisition. Non-exclusive patent licences are personal and cannot be assigned without consent unless the licence allows it (In re CFLC, Inc., 89 F.3d 673 (9th Cir. 1996)).",
+   "**Implied patent licence:** Assuming an implied patent permission in MIT or BSD code survives an acquisition. Non-exclusive patent licences are generally personal and cannot be assigned without consent unless the licence allows it (In re CFLC, Inc., 89 F.3d 673 (9th Cir. 1996)). That case concerned express patent licences, so applying it to MIT or BSD code is a drafting inference.",
    "**Name use in launches:** Using an upstream project's name or logo in product marketing in a way that suggests approval (15 U.S.C. § 1125(a); BSD-3-Clause cl.3).",
    "**Silent variants:** Accepting a renamed licence whose text changed one clause, which can change the conditions or the open source status (drafting inference).",
    "**Hosted services as safe:** Treating a hosted service as free of duties when the client code and SDKs sent to users are distributed (drafting inference)."
@@ -5724,14 +5724,14 @@
    {
     "place": "UK",
     "points": [
-     "**Broadly the same:** the notes held record no UK rule specific to the notices of a permissive licence, which work as copyright permissions under CDPA 1988 s.3(1)(b).",
+     "**Broadly the same:** no UK rule specific to the notices of a permissive licence is identified, so the notices are read as ordinary copyright permissions with conditions, since programs are literary works (CDPA 1988 s.3(1)(b)) (drafting inference).",
      "**Model training:** a trained model was not an 'infringing copy' in Getty Images v Stability AI [2025] EWHC 2863 (Ch), 4 November 2025; permission to appeal was granted (reported; check)."
     ]
    },
    {
     "place": "HK",
     "points": [
-     "**Broadly the same:** the notes held record no Hong Kong rule specific to permissive licence notices, which work under Cap. 528 as copyright permissions.",
+     "**Broadly the same:** no Hong Kong rule specific to permissive licence notices is known, so they work under Cap. 528 as copyright permissions (drafting inference).",
      "**Text and data mining:** a text and data mining exception has stalled, and Hong Kong is reported to be preparing guidelines first (reported; check)."
     ]
    },
@@ -5739,7 +5739,7 @@
     "place": "CA",
     "points": [
      "**Attribution waivers, not assignments:** moral rights, including the right to be named, may be waived but not assigned (Copyright Act s.14.1(2)), so contributor or credit terms should be drafted as waivers; check with Canadian counsel.",
-     "**Broadly the same otherwise:** the notes held record no separate Canadian rule for permissive licence notices."
+     "**Broadly the same otherwise:** no separate Canadian rule for permissive licence notices is identified here (drafting inference; check)."
     ]
    }
   ],
@@ -5758,7 +5758,7 @@
    },
    {
     "term": "NOTICE file",
-    "definition": "An optional text file in an Apache-2.0 work that carries attribution notices. A distributor must show its contents where third-party notices normally appear (Apache-2.0 s.4(d))."
+    "definition": "An optional text file in an Apache-2.0 work that carries attribution notices. A distributor must include its attribution text in a NOTICE file, in the source or documentation, or in a display where third-party notices normally appear (Apache-2.0 s.4(d))."
    },
    {
     "term": "Non-endorsement clause",
@@ -5794,11 +5794,11 @@
   "review": "draft",
   "oneLiner": "Copyleft duties start when the bank conveys code to others, and they reach the whole work it distributes, so scope comes first.",
   "keyPoints": [
-   "Copyleft duties arise when the bank conveys copies to others. Running software inside the bank, or letting users reach it over a network, is not [[conveying|conveying]] under GPL-3.0 (GPL-3.0 s.0).",
+   "For GPL, LGPL and MPL code, the duties arise when the bank conveys copies to others (network copyleft is covered separately). Running software inside the bank, or letting users reach it over a network, is not [[conveying|conveying]] under GPL-3.0 (GPL-3.0 s.0).",
    "**Strong copyleft:** A work based on GPL code, when distributed, must be licensed as a whole under the GPL (GPL-2.0 s.2(b); GPL-3.0 s.5(c)). Mere aggregation on a shared medium does not spread the licence (GPL-2.0 s.2).",
    "**Weak copyleft:** LGPL lets a combined work carry the user's terms if the user can relink or replace the library and reverse engineer for debugging (LGPL-2.1 s.6; LGPL-3.0 s.4). MPL-2.0 is file-level, so a [[Larger Work|Larger Work]] may carry other terms (MPL-2.0 s.3.3).",
-   "**Source duty:** Each binary must come with its [[Corresponding Source|Corresponding Source]], or with a written offer valid for at least three years (GPL-2.0 s.3(b); GPL-3.0 s.6). Consumer devices add installation information duties (GPL-3.0 s.6).",
-   "**Breach:** GPL-2.0 s.4 ends the licence on any breach, and the text gives no cure period. GPL-3.0 s.8 reinstates a licensee who cures within 30 days of the first notice (GPL-3.0 s.8).",
+   "**Source duty:** Each binary must come with its [[Corresponding Source|Corresponding Source]], or with a written offer valid for at least three years (GPL-2.0 s.3(b); GPL-3.0 s.6). Installation information duties apply only when object code is conveyed in a User Product (in essence a consumer product) and possession and use pass to the recipient (GPL-3.0 s.6).",
+   "**Breach:** GPL-2.0 s.4 ends the licence on any breach, and the text gives no cure period. GPL-3.0 s.8 permanently reinstates a licensee who cures within 30 days after receiving the first notice from that copyright holder (GPL-3.0 s.8).",
    "**Counsel's role:** Make copyleft a release gate. Confirm which code is conveyed, to whom and in which form, before each release (good practice)."
   ],
   "conceptMap": {
@@ -5964,7 +5964,7 @@
      ]
     },
     "points": [
-     "**Three years:** GPL-2.0 s.3(b) needs a written offer valid for at least three years. GPL-3.0 s.6(b) runs the offer for as long as the bank offers spare parts or customer support for that model (GPL-3.0 s.6(b)).",
+     "**Three years:** GPL-2.0 s.3(b) needs a written offer valid for at least three years. GPL-3.0 s.6(b) requires an offer valid for at least three years and for as long as the bank offers spare parts or customer support for that model (GPL-3.0 s.6(b)).",
      "**Designated place:** Offering access to copy the object code from a place means offering equivalent access to the source from the same place (GPL-2.0 s.3; GPL-3.0 s.6(d)).",
      "**User Product duty:** For a [[User Product|User Product]], the buyer must receive installation information, unless no one can install modified object code on the device, as with ROM-only code (GPL-3.0 s.6).",
      "**Scope of source:** Corresponding Source excludes System Libraries and general tools used unmodified, but includes scripts and interface definition files (GPL-3.0 s.1).",
@@ -6237,7 +6237,7 @@
    "**Keep notices intact:** Retain licence headers and the licence text with each copy, and do not strip per-file notices.",
    "**Treat internal copies with care:** Confirm that no copy leaves the bank or its group, and record the group-company position as a documented policy choice.",
    "**Check for consumer devices:** Identify any product sold for personal or household use, because GPL-3.0 s.6 installation information duties then apply.",
-   "**Calendar the cure clock:** On any notice, start the 30-day GPL-3.0 s.8 window at once and inform the legal team the same day.",
+   "**Calendar the cure clock:** On a notice that is the first from that copyright holder, start the 30-day GPL-3.0 s.8 window at once and inform the legal team the same day.",
    "**Agree a response protocol** for compliance letters, with a named owner, the facts, the source offer, a fix plan and one point of contact.",
    "**Register exceptions and secondary licences** for each component, so the terms that apply to each file are known before release."
   ],
@@ -6295,7 +6295,7 @@
   "glossary": [
    {
     "term": "copyleft",
-    "definition": "A licence model under which distributed works based on the licensed code must carry the same terms. Strong copyleft (GPL) covers the whole work; weak copyleft (LGPL, MPL, EPL) covers the library or the file (GPL-2.0 s.2(b))."
+    "definition": "A licence model under which distributed works based on the licensed code must carry the same terms. Strong copyleft (GPL) covers the whole work; weak copyleft (LGPL, MPL, EPL) covers the library or the file (LGPL-2.1 s.6; MPL-2.0 s.3.3)."
    },
    {
     "term": "conveying",
@@ -6466,7 +6466,7 @@
    },
    {
     "heading": "Business Source License: time-limited restrictions",
-    "lede": "BUSL 1.1 restricts production use for each version until that version converts.",
+    "lede": "BUSL 1.1 restricts production use for each version until that version converts, unless the Additional Use Grant allows it.",
     "points": [
      "**Production use:** Production use is limited unless the licensor's [[Additional Use Grant|Additional Use Grant]] allows it (reported; check). Internal bank use needs a check against that grant.",
      "**Change Date:** Each version converts to a Change License on its Change Date, so the restriction on that version is time-limited (reported; check).",
@@ -6477,7 +6477,7 @@
    },
    {
     "heading": "The Commons Clause and further restrictions",
-    "lede": "Adding a sale ban to AGPL code runs into the licence's own text.",
+    "lede": "Adding a sale ban to AGPL code is contested: the text bars further restrictions, but a reported court holding went the other way on removal (reported; check).",
     "visual": {
      "type": "steps",
      "caption": "How the dispute was reported to run (reported; check).",
@@ -6499,7 +6499,7 @@
     },
     "points": [
      "**Added terms:** AGPL s.7 limits added terms to listed kinds, such as attribution or trademark requests, and treats other non-permissive terms as [[further restrictions|Further restrictions]] (AGPL-3.0 s.7).",
-     "**Bar on restrictions:** A licensee may not impose further restrictions on the rights the licence grants, such as a fee, royalty or other charge (AGPL-3.0 s.10).",
+     "**Bar on restrictions:** A party that conveys the work may not impose further restrictions on the rights the licence grants, such as a fee, royalty or other charge (AGPL-3.0 s.10).",
      "**Court view:** In Neo4j, Inc. v. PureThink LLC the courts reportedly held that a licensor adding the Commons Clause to AGPL code could stop a licensee removing it under that term (reported; check).",
      "**Misdescription:** The courts reportedly also held that calling the fork 'free and open source' was false advertising (reported; check).",
      "**Appeal:** A further appeal, No. 24-5538, is reported pending as at November 2026 (reported; check)."
@@ -6645,7 +6645,7 @@
     "instrument": "GNU Affero General Public License v3.0",
     "ref": "s.13",
     "title": "Remote network interaction",
-    "summary": "If you modify the program, your modified version must prominently offer the users who interact with it remotely through a computer network an opportunity to receive its Corresponding Source, at no charge, from a network server. The section also lets you combine the covered work with a GPL-3.0 work and convey the combined work, with each part remaining under its own licence.",
+    "summary": "If you modify the program, your modified version must prominently offer the users who interact with it remotely through a computer network an opportunity to receive its Corresponding Source, at no charge, from a network server. The section also lets you combine the covered work with a GPL-3.0 work and convey the combined work, with the GPL-3.0 part staying under GPL-3.0, but the AGPL network source offer then applying to the combination as such.",
     "counselNote": "The duty arises from modification plus remote use, and no distribution is needed. Count staff, partners and customers who use a modified service remotely as users, and build the source offer before launch.",
     "confidence": "high",
     "cap": "AGPL-3.0-only",
@@ -6681,8 +6681,8 @@
     "instrument": "GNU Affero General Public License v3.0",
     "ref": "s.7",
     "title": "Additional terms and further restrictions",
-    "summary": "Lets the holder of material add certain terms to it, such as requests for attribution, marking of modified versions or trademark limits. All other non-permissive additional terms are treated as further restrictions under s.10, and a recipient may remove them.",
-    "counselNote": "On the text, a sale ban added to AGPL code is a further restriction that the licensee may remove. The reported Neo4j holding points the other way on removal, so treat any added sale ban as a live dispute (drafting inference; reported; check).",
+    "summary": "Lets the holder of material add certain terms to it, such as requests for attribution, marking of modified versions or trademark limits. All other non-permissive additional terms are treated as further restrictions under s.10. A recipient may remove such a term only where the Program carries a notice that it is governed by the licence along with that term.",
+    "counselNote": "On the text, a sale ban added to AGPL code is a further restriction, which a recipient may remove only where the Program carries a notice that it is governed by the licence along with that term. The reported Neo4j holding points the other way on removal, so treat any added sale ban as a live dispute (drafting inference; reported; check).",
     "confidence": "high",
     "cap": "AGPL-3.0-only",
     "section": "7",
@@ -6839,7 +6839,7 @@
    {
     "place": "CA",
     "points": [
-     "**Broadly the same:** no Canadian decision on AGPL-3.0 s.13 or source-available terms is held; licences are enforced as contract or through copyright (Copyright Act, C-42).",
+     "**Broadly the same:** no Canadian decision on AGPL-3.0 s.13 or source-available terms is identified, and Canada has no general open source statute, so licences are enforced as contracts or through copyright (drafting inference).",
      "**Interoperability exceptions:** adaptation for compatibility and reproduction for interoperability are permitted (Copyright Act ss.30.6, 30.61), and s.41.12 excepts interoperability from the anti-circumvention rules."
     ]
    }
@@ -7069,7 +7069,7 @@
    },
    {
     "heading": "Federal and bank expectations",
-    "lede": "Federal software rules have been rolled back, but bank supervisors still ask about the same controls.",
+    "lede": "Federal attestation duties have reportedly been rolled back (reported; check), but bank supervisors still ask about the same controls.",
     "visual": {
      "type": "timeline",
      "caption": "Dates that shape vendor questions. The federal attestation duties were later rolled back (reported; check).",
@@ -7112,7 +7112,7 @@
      ]
     },
     "points": [
-     "**Federal attestations:** Executive Order 14306 amended the earlier order and removed the validated attestation requirement. OMB Memorandum M-26-05 (January 2026) is reported to have rescinded M-22-18 and M-23-16 (reported; check).",
+     "**Federal attestations:** Executive Order 14306 amended the earlier order and removed the validated attestation requirement (reported; check). OMB Memorandum M-26-05 (January 2026) is reported to have rescinded M-22-18 and M-23-16 (reported; check).",
      "**Secure development:** NIST SP 800-218, the Secure Software Development Framework (version 1.1, February 2022), is a common reference for secure development questions. A draft revision was published for comment in December 2025 (reported).",
      "**Third parties:** The interagency guidance, 88 Fed. Reg. 37920 (9 June 2023), covers the whole life cycle of third-party relationships. It is technology-neutral and does not single out open source, but the vendors that support or host open source fall within it (drafting inference).",
      "**Applications:** NYDFS requires written procedures for secure development of in-house applications and for assessing externally developed ones (23 NYCRR 500.8). Section 500.11 requires a policy on third-party service providers."
@@ -7133,9 +7133,9 @@
     "heading": "Attribution, notices and source offers",
     "lede": "Notices are the cheapest compliance duty, and the easiest to lose in a build.",
     "points": [
-     "**Copyright management information:** Licence headers can be copyright management information (17 U.S.C. § 1202(c)(6)). Intentionally removing or altering them, knowing or having reasonable grounds to know that it will enable infringement, is prohibited (§ 1202(b)).",
+     "**Copyright management information:** Licence headers can be copyright management information (17 U.S.C. § 1202(c)(6)). Intentionally removing or altering them, knowing that it will induce, enable, facilitate or conceal infringement, is prohibited (§ 1202(b)). Reasonable grounds to know suffice only for civil claims.",
      "**Apache-2.0 notices:** Recipients get a copy of the licence, modified files carry a notice, and attribution notices from any NOTICE file travel with the derivative work (Apache-2.0 s.4).",
-     "**Written offers:** GPL-2.0 allows distribution with a [[written offer|Written offer]] valid for at least three years (GPL-2.0 s.3). GPL-3.0 ties the offer to spare parts or customer support for the product model (GPL-3.0 s.6).",
+     "**Written offers:** GPL-2.0 allows distribution with a [[written offer|Written offer]] valid for at least three years (GPL-2.0 s.3). For physical products, GPL-3.0 ties the written offer to spare parts or customer support for the product model (GPL-3.0 s.6(b)).",
      "**Release bundle:** Keep the notice bundle, the source offer and the SBOM with each shipped version, so a question about a past release can be answered (good practice)."
     ]
    },
@@ -7156,7 +7156,7 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 1202",
     "title": "Integrity of copyright management information",
-    "summary": "Bars intentionally removing or altering copyright management information without authority, where the person knows, or has reasonable grounds to know, that this will induce, enable, facilitate or conceal infringement (§ 1202(b)). Copyright management information includes the title, the author, the owner and the terms and conditions for use (§ 1202(c)).",
+    "summary": "Bars intentionally removing or altering copyright management information without authority, where the person knows that this will induce, enable, facilitate or conceal infringement, or, for civil remedies, has reasonable grounds to know (§ 1202(b)). Copyright management information includes the title, the author, the owner and the terms and conditions for use (§ 1202(c)).",
     "counselNote": "Licence headers and notices in shipped code can be copyright management information. A build step that strips them needs a review before it runs in a release pipeline.",
     "confidence": "high",
     "cap": "17-USC",
@@ -7284,7 +7284,7 @@
    "**Gate new dependencies:** Block a new dependency in the pipeline until its intake record and tier approval exist (good practice).",
    "**Scan every release:** Check licences and known vulnerabilities for each release, including indirect dependencies and base images (good practice).",
    "**Ship the notices:** Include licence texts, NOTICE files and copyright notices in each app, SDK and container image (Apache-2.0 s.4; MIT, full text).",
-   "**Hold the source offers:** Keep written source offers for at least three years after each distribution, and for as long as support is offered (GPL-2.0 s.3; GPL-3.0 s.6).",
+   "**Hold the source offers:** Keep written source offers for at least three years after each distribution (GPL-2.0 s.3(b)). For GPL-3.0 object code in a physical product, the offer must also run for as long as spare parts or customer support are offered (GPL-3.0 s.6(b)).",
    "**Vet vendors:** Ask vendors for their SBOM and open source policy in due diligence, and map them into the third-party inventory (88 Fed. Reg. 37920).",
    "**Set exception rules:** Require a written reason, an owner and an expiry date for every exception, and review open exceptions each quarter (good practice).",
    "**Keep the release record:** Retain approvals, SBOMs, scan results and notice bundles with each release for as long as the product is supported (good practice).",
@@ -7330,14 +7330,14 @@
    {
     "place": "HK",
     "points": [
-     "**Broadly the same:** no Hong Kong rule requires SBOMs or licence scanning as such, so the same approval steps work; for a bank, the HKMA's technology risk expectations cover the software supply chain (drafting inference).",
+     "**Broadly the same:** no Hong Kong rule requires SBOMs or licence scanning as such, so the same approval steps work; for a bank, the HKMA's technology risk guidance may also reach the software supply chain (drafting inference; check the HKMA text before relying on it).",
      "**Adaptation rights:** a lawful user may back up and copy or adapt a program (Cap. 528 ss.60-61), so a review should check any licence limit on adaptation against those sections."
     ]
    },
    {
     "place": "CA",
     "points": [
-     "**Broadly the same:** no Canadian statute requires SBOMs or licence scanning; for a bank, OSFI's third-party and technology risk guidelines (B-10 and B-13) are where supply-chain expectations sit (see the Canadian banking volume).",
+     "**Broadly the same:** no Canadian statute requires SBOMs or licence scanning; for a bank, OSFI's third-party and technology risk guidelines (B-10 and B-13) may also bear on supply-chain expectations (drafting inference; check the current guideline text).",
      "**User exceptions:** adaptation for compatibility and back-up copies (Copyright Act s.30.6) and interoperability reproduction (s.30.61) bear on what a review must allow for."
     ]
    }
@@ -7705,7 +7705,7 @@
       "tool"
      ],
      "detail": [
-      "**Output:** A build tool's licence usually does not claim the code it produces, so compiling or testing with the tool does not make the bank's product subject to that licence (good practice).",
+      "**Output:** A build tool's licence usually does not claim the code it produces, so compiling or testing with the tool usually does not make the bank's product subject to that licence (drafting inference; check the tool's licence text).",
       "**Runtime libraries:** Check for runtime code copied into the build. The GCC Runtime Library exception lets non-GPL programs compiled with GCC use the runtime libraries it covers (GCC-exception-3.1).",
       "**Test tools:** Keep test and lint tools out of release packages, so their notices never ship by accident (good practice)."
      ],
@@ -8119,7 +8119,7 @@
      "title": "Keep copyright and licence notices",
      "detail": [
       "**Keep the notice:** The MIT licence requires the copyright notice and the permission notice in all copies or substantial portions of the software (MIT full text).",
-      "**Apache notices:** Apache-2.0 s.4 requires a copy of the licence, prominent marks on changed files, retained notices and the NOTICE file's attribution (Apache-2.0 s.4).",
+      "**Apache notices:** On distribution, Apache-2.0 s.4 requires a copy of the licence, prominent marks on changed files, retained notices and the NOTICE file's attribution (Apache-2.0 s.4).",
       "**Stripping risk:** Licence headers can count as copyright management information, so removing them can engage 17 U.S.C. § 1202(b) where the bank knows or has reasonable grounds to know that infringement follows (17 U.S.C. § 1202(b), (c); drafting inference)."
      ],
      "owner": [
@@ -8177,7 +8177,7 @@
       "permissive"
      ],
      "detail": [
-      "**Changed files:** Mark each modified file with a prominent notice that the bank changed it, and keep the original copyright, patent, trademark and attribution notices (Apache-2.0 s.4(b)-(c)).",
+      "**Changed files:** If the bank distributes modified files, mark each one with a prominent notice that the bank changed it, and keep the original copyright, patent, trademark and attribution notices (Apache-2.0 s.4(b)-(c)).",
       "**NOTICE file:** If the work has a NOTICE file, pass its attribution notices on in at least one place: the NOTICE file, the documentation or a display where such notices normally appear (Apache-2.0 s.4(d)).",
       "**Patent termination:** The patent licence ends if the bank sues alleging that the Work or a Contribution infringes a patent. Check the bank's litigation plans before any suit touching the code (Apache-2.0 s.3)."
      ],
@@ -8364,7 +8364,7 @@
       "weak"
      ],
      "detail": [
-      "**LGPL relinking:** A combined work built on LGPL code must not restrict users from modifying the library and reverse engineering for debugging such changes. In practice that often means a shared library or relinking route (LGPL-2.1-only s.6; LGPL-3.0-only s.4).",
+      "**LGPL relinking:** When a combined work built on LGPL code is distributed, its terms must permit modification of the work for the customer's own use and reverse engineering for debugging such modifications. In practice that often means a shared library or relinking route (LGPL-2.1-only s.6; LGPL-3.0-only s.4).",
       "**MPL file level:** Covered MPL files stay under MPL-2.0 when distributed in source form, while a Larger Work may combine them with material under other terms (MPL-2.0 s.3.1, s.3.3).",
       "**EPL duties:** Distributing EPL-2.0 code requires making the Program available as source code and telling recipients how to obtain it (EPL-2.0 s.3.1)."
      ],
@@ -8508,7 +8508,7 @@
       "modify"
      ],
      "detail": [
-      "**Change notices:** Mark the bank's changes with prominent notices and dates, as GPL-3.0 s.5(a) and GPL-2.0 s.2(a) require. Apache-2.0 s.4(b) asks for the same on modified files (GPL-3.0-only s.5; GPL-2.0-only s.2; Apache-2.0 s.4).",
+      "**Change notices:** Where the bank distributes a modified copy, mark the changes with prominent notices and dates, as GPL-3.0 s.5(a) and GPL-2.0 s.2(a) require. Apache-2.0 s.4(b) asks for the same on modified files (GPL-3.0-only s.5; GPL-2.0-only s.2; Apache-2.0 s.4).",
       "**Change register:** Keep a list of the bank's changes by file and by version, so each release can show what changed and which notices apply (good practice).",
       "**Upstream decision:** Decide whether to offer fixes upstream. Contributing can cut the cost of keeping a fork current, but each contribution follows the project's licence and contribution terms (good practice)."
      ],
@@ -8624,7 +8624,7 @@
      ],
      "detail": [
       "**Grants:** Apache-2.0 s.3, GPL-3.0 s.11 and MPL-2.0 s.2.1 each grant recipients a licence under the contributors' patent claims that their code would infringe (Apache-2.0 s.3; GPL-3.0-only s.11; MPL-2.0 s.2.1).",
-      "**Retaliation:** If the bank sues alleging that the Work infringes a patent, its Apache-2.0 patent licence ends (Apache-2.0 s.3). If the bank asserts a patent against a Contributor Version, its grants from Contributors under MPL-2.0 end (MPL-2.0 s.5).",
+      "**Retaliation:** If the bank sues alleging that the Work infringes a patent, its Apache-2.0 patent licence ends (Apache-2.0 s.3). If the bank starts litigation alleging that a Contributor Version infringes a patent, its grants from Contributors under MPL-2.0 end (MPL-2.0 s.5.2).",
       "**Own patents:** A contribution can license the bank's own patents to recipients where it infringes them, under Apache-2.0 s.3 or GPL-3.0 s.11. Check the bank's patents before release (good practice)."
      ],
      "owner": [
@@ -8687,7 +8687,7 @@
       "online"
      ],
      "detail": [
-      "**Apache-2.0 limit:** Apache-2.0 s.6 gives no permission to use the licensor's trade names or marks, except to describe the origin of the work and reproduce the NOTICE file (Apache-2.0 s.6).",
+      "**Apache-2.0 limit:** Apache-2.0 s.6 gives no permission to use the licensor's trade names or marks, except as required for reasonable and customary use in describing the origin of the work and reproducing the NOTICE file (Apache-2.0 s.6).",
       "**MPL and GPL:** MPL-2.0 s.2.3 grants no rights in a Contributor's trademarks, service marks or logos. GPL-3.0 s.7(e) lets a licensor decline trademark rights in some names (MPL-2.0 s.2.3; GPL-3.0-only s.7).",
       "**Product naming:** Use the project's name only to say the product is built on it. Using a registered name in commerce in a way likely to cause confusion can infringe (15 U.S.C. § 1114(1)) (good practice)."
      ],
@@ -8924,7 +8924,7 @@
      "title": "For critical systems, plan support, patching and exit",
      "detail": [
       "**Name the support route:** Decide whether the component has commercial support, a vendor or only community fixes, and record who patches it and how fast (good practice).",
-      "**Oversee the vendor:** The interagency guidance says that a bank should manage third-party relationships across their life cycle, including vendors that supply or support open source (88 Fed. Reg. 37920).",
+      "**Oversee the vendor:** The interagency guidance expects a bank to manage third-party relationships across their life cycle (88 Fed. Reg. 37920). It does not mention open source as such, so vendors that supply open source are best treated as in scope (drafting inference).",
       "**Plan the exit:** Record how the bank would replace the component, including a fork or commercial alternative. A NYDFS-regulated bank also needs written procedures for evaluating externally developed applications (23 NYCRR 500.8)."
      ],
      "owner": [
@@ -8957,7 +8957,7 @@
      "title": "Keep the PCI DSS inventory of third-party components",
      "detail": [
       "**Inventory the components:** Requirement 6.3.2 requires an inventory of bespoke and custom software and of the third-party components in it (PCI DSS v4.0.1, requirement 6.3.2; reported).",
-      "**Keep it current:** The requirement has applied since 31 March 2025, so a new open source library should reach the inventory before it enters a card environment (good practice).",
+      "**Keep it current:** The requirement has applied since 31 March 2025 (reported; check), so a new open source library should reach the inventory before it enters a card environment (good practice).",
       "**Share the records with the SBOM:** Use the same component records for the card inventory and the product SBOM, so the two match (good practice)."
      ],
      "owner": [
@@ -9154,7 +9154,7 @@
      "title": "For critical dependencies, review the project's governance",
      "detail": [
       "**Foundation or single vendor:** A foundation-hosted project usually has a neutral process for licence and maintainer decisions. A single-vendor project depends on that company's choices (good practice).",
-      "**Licence-change history:** Elastic, Redis and HashiCorp each moved products away from open licences after a change of control or strategy (reported; check). Check the history before relying on a critical dependency.",
+      "**Licence-change history:** Elastic, Redis and HashiCorp each moved products away from open licences (reported; check). Check the history before relying on a critical dependency.",
       "**Plan the fallback:** Identify which fork or foundation project would carry the code if the licence changes (good practice)."
      ],
      "owner": [
@@ -9241,7 +9241,7 @@
      "title": "Check sanctions exposure for contributors, hosting and users",
      "detail": [
       "**Screen the parties:** Check contributors, hosting providers and users against the sanctions lists before giving them access, because OFAC rules apply to the bank's dealings (good practice).",
-      "**Platform restrictions:** GitHub restricted accounts in sanctioned regions in 2019 and in January 2021 obtained an OFAC licence to serve developers in Iran (reported; check).",
+      "**Platform restrictions:** GitHub restricted accounts in sanctioned regions in 2019, and on 5 January 2021 announced an OFAC licence to serve developers in Iran (reported; check).",
       "**Document the decision:** Record whether access from sanctioned places is allowed and on what basis (good practice)."
      ],
      "owner": [
@@ -9882,7 +9882,7 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 204(a)",
     "title": "Execution of transfers of copyright ownership",
-    "summary": "A transfer of copyright ownership, other than by operation of law, is not valid unless an instrument of conveyance, or a note or memorandum of the transfer, is in writing and signed by the owner of the rights or its authorised agent. A signed acknowledgement is not needed for validity.",
+    "summary": "A transfer of copyright ownership, other than by operation of law, is not valid unless an instrument of conveyance, or a note or memorandum of the transfer, is in writing and signed by the owner of the rights or its authorised agent. A certificate of acknowledgement is not required for the validity of a transfer, but it is prima facie evidence of execution when properly issued (§ 204(b)).",
     "counselNote": "A contractor's code stays with the contractor until a signed transfer says otherwise. Check the signature block and the signatory's authority before relying on it.",
     "confidence": "high",
     "cap": "17-USC",
@@ -9999,7 +9999,7 @@
     "instrument": "Export Administration Regulations (15 C.F.R.)",
     "ref": "§ 742.15(b)",
     "title": "Encryption source code with non-standard cryptography",
-    "summary": "Software that is published is generally outside the Export Administration Regulations. Since a rule of 29 March 2021, publicly available encryption source code needs a notification only where it implements non-standard cryptography.",
+    "summary": "Software that is published is generally outside the Export Administration Regulations (reported; check the eCFR). Since a rule of 29 March 2021, publicly available encryption source code needs a notification only where it implements non-standard cryptography.",
     "counselNote": "Most release code needs no export step, but any release that implements encryption needs a recorded answer before the first public push. The test turns on the implementation, not on the licence.",
     "confidence": "medium"
    }
@@ -10025,7 +10025,7 @@
   ],
   "virtualBankNotes": [
    "**Third-party oversight:** Interagency guidance on third-party relationships (88 Fed. Reg. 37920) is technology-neutral and does not single out open source. Where a vendor supplies or supports code the bank publishes, treat that vendor relationship under the guidance (drafting inference).",
-   "**Secure development:** NYDFS 23 NYCRR 500.8 requires written procedures for the secure development of in-house applications. A release of in-house code should follow the same written process, and the release record should show it (drafting inference).",
+   "**Secure development:** If the bank is covered by NYDFS Part 500, 23 NYCRR 500.8 requires written procedures for the secure development of in-house applications. A release of in-house code should follow the same written process, and the release record should show it (drafting inference).",
    "**Data and secrets:** A release that exposes customer data or working credentials is a security incident for the bank to investigate, whatever the licence says (good practice).",
    "**Brand and fraud:** A bank's name or product code on a public repository invites lookalikes and phishing sites. Keep the reporting route clear in the readme and the security policy (good practice).",
    "**Examiner evidence:** Examiners may ask who approved a release, what was removed and which licence applied. Keep the release record where it can be produced quickly (good practice)."
@@ -10548,7 +10548,7 @@
      "title": "Handle AI-assisted code: authorship and match checks",
      "detail": [
       "**Record the human authorship:** Human authorship is required for registration (Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025)). Prompts alone are not enough control, but human expression in the output, or human selection and arrangement, can be protected.",
-      "**Disclose in any registration:** Material generated by AI that is more than de minimis must be excluded from the claim and described in the application (88 Fed. Reg. 16190 (16 March 2023)).",
+      "**Disclose in any registration:** The Copyright Office's policy expects AI-generated material that is more than de minimis to be excluded from the claim and described in the application (agency policy, not statute) (88 Fed. Reg. 16190 (16 March 2023)).",
       "**Check for matches:** Scan AI-suggested code for verbatim matches to licensed code before release, since copied code brings its original licence terms with it (good practice)."
      ],
      "owner": [
@@ -10869,7 +10869,7 @@
      "title": "Copyleft outbound: confirm the bank wants reciprocity",
      "detail": [
       "**Confirm the reciprocity:** A GPL-3.0 work conveyed in source form must be licensed as a whole under GPL-3.0, so recipients keep the same freedoms (GPL-3.0 s.5(c)). Check that the bank wants that outcome.",
-      "**Note the network term:** AGPL-3.0 s.13 requires a modified version to offer its source to users who interact with it remotely over a network. A bank release under AGPL-3.0 can reach its own services that way (AGPL-3.0 s.13).",
+      "**Note the network term:** AGPL-3.0 s.13 requires a modified version to offer its source to users who interact with it remotely over a network. A bank that modifies an AGPL-3.0 program and runs the modified version as a service must offer its source to remote users (AGPL-3.0 s.13).",
       "**Consider the file-level option:** MPL-2.0 is file-level copyleft. Changed files must be shared in source form, but a larger work may be distributed under other terms (MPL-2.0 s.3.3)."
      ],
      "owner": [
@@ -11022,7 +11022,7 @@
      "phase": "licence",
      "title": "Documentation and data: choose a content licence",
      "detail": [
-      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link where practicable (CC-BY-4.0 s.3(a)(1)).",
+      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link, each only if the licensor supplied it, and the link only where reasonably practicable (CC-BY-4.0 s.3(a)(1)).",
       "**Check the waiver:** CC0-1.0 does not waive trademark or patent rights held by the person waiving (CC0-1.0 s.4(a)). Fedora stopped allowing CC0 for code in 2022 for that reason (reported; check).",
       "**Keep the licences apart:** A content licence on documentation does not change the licence of the code it describes. Keep the two licence files separate (good practice)."
      ],
@@ -11071,7 +11071,7 @@
      "detail": [
       "**Read the licence as a licence:** Many model licences carry use limits that open source licences do not. The Llama 4 Community License requires a separate licence above 700 million monthly active users (reported; check).",
       "**Read the use policy with the licence:** An acceptable use policy sets limits on use beyond copyright, so read it together with the licence and record the version reviewed (good practice).",
-      "**Do not rely on the label:** OSI's Open Source AI Definition 1.0 (28 October 2024) is OSI's view, not law. Judge the release by the licence's actual terms (good practice)."
+      "**Do not rely on the label:** OSI's Open Source AI Definition 1.0 (28 October 2024, reported; check) is OSI's view, not law. Judge the release by the licence's actual terms (good practice)."
      ],
      "owner": [
       "Legal",
@@ -11106,7 +11106,7 @@
      "detail": [
       "**Separate the two sets of terms:** The SDK licence governs copying and use of the code (Apache-2.0 s.2). The API service terms govern use of the bank's service, so keep them in separate documents (good practice).",
       "**Ship the licence with the code:** Give each recipient the SDK licence text with the distribution, as Apache-2.0 requires (Apache-2.0 s.4(a)).",
-      "**Limit added terms:** Apache-2.0 lets a distributor add terms only for its own modifications, not for the SDK code as released (Apache-2.0 s.4). Keep API restrictions out of the SDK licence."
+      "**Limit added terms:** Apache-2.0 lets a distributor add terms only for its own modifications or for derivative works as a whole, not for the SDK code as released (Apache-2.0 s.4). Keep API restrictions out of the SDK licence."
      ],
      "owner": [
       "Legal",
@@ -11603,7 +11603,7 @@
      "detail": [
       "**Name at least two maintainers:** Give named maintainers authority to merge changes and to release security fixes, so one departure does not stop the project (good practice).",
       "**Publish response times:** State how quickly the project answers security reports and pull requests, and what it will not support, so users can plan (good practice).",
-      "**Name a takedown contact:** Give one person the handling of copyright takedown notices and licence complaints. The notice-and-takedown safe harbour for hosts depends on acting on valid notices (17 U.S.C. § 512(c))."
+      "**Name a takedown contact:** Give one person the handling of copyright takedown notices and licence complaints. The notice-and-takedown safe harbour for hosts depends on acting on valid notices and on a designated agent registered with the Copyright Office (17 U.S.C. § 512(c)(2))."
      ],
      "owner": [
       "Engineering",
@@ -11714,7 +11714,7 @@
      "phase": "governance",
      "title": "Foundation hosting: transfer assets and marks under its rules",
      "detail": [
-      "**Transfer copyright in writing:** Moving code to a foundation transfers ownership, which is valid only if an instrument signed by the owner records it (17 U.S.C. § 204(a)). A patent assignment must be in writing, and recording it within three months protects it against later buyers (35 U.S.C. § 261).",
+      "**Transfer copyright in writing:** Moving code to a foundation transfers ownership, which is valid only if an instrument signed by the owner records it (17 U.S.C. § 204(a)). A patent assignment must be in writing, and recording it within three months, or before a later purchase, protects it against later buyers (35 U.S.C. § 261).",
       "**Read the foundation's IP rules:** Foundations such as FINOS, the Linux Foundation and the Apache Software Foundation set their own contribution and IP terms, which may require particular licences or contributor paperwork (good practice).",
       "**Keep the governance terms:** Decide what the bank keeps, such as maintainer seats, marks and an exit right, before the transfer, because the foundation's rules govern the project afterwards (good practice)."
      ],
@@ -12160,7 +12160,7 @@
      "**Staff code:** A work an employee prepares within the scope of employment is a [[work made for hire]], so the bank owns it without a further transfer (17 U.S.C. §§ 101, 201(b)).",
      "**Contractor code:** Software from an independent contractor usually falls outside the nine work-for-hire categories, so the bank needs a signed assignment (17 U.S.C. §§ 101, 204(a)).",
      "**Termination:** An author's grant can be terminated in a window that opens about 35 years after the grant, and the agreement cannot override that right (17 U.S.C. § 203(a)(3), (a)(5)). Record which key code is contractor-written (good practice).",
-     "**Recordation:** Recording a copyright transfer gives constructive notice and sets priority between conflicting transfers (17 U.S.C. § 205(c)-(d)). An earlier transfer recorded within one month of signing generally prevails.",
+     "**Recordation:** Recording a copyright transfer gives constructive notice only if the work is identified and registered, and it sets priority between conflicting transfers (17 U.S.C. § 205(c)-(d)). The earlier transfer prevails if recorded within one month of execution (two months outside the United States) or before the later transfer is recorded.",
      "**Patents:** The Patent Act (35 U.S.C.) requires assignments in writing. An unrecorded assignment is void against a later purchaser or mortgagee for value without notice, unless it is recorded within three months or before the later purchase (35 U.S.C. § 261)."
     ],
     "takeaway": "Ask for the signed writings, not just a clause saying staff assign their work."
@@ -12250,7 +12250,7 @@
      "**Share deal:** The target keeps its IP and contracts, so the main risks are existing title defects and clauses that a change of control triggers (good practice).",
      "**Personal licences:** A [[personal licence]] needs the licensor's consent to transfer. Under federal law, a non-exclusive patent licence is personal unless it allows transfer (In re CFLC, Inc., 89 F.3d 673 (9th Cir. 1996)).",
      "**Copyright licences:** Gardner v. Nike, Inc., 279 F.3d 774 (9th Cir. 2002), reportedly held that an exclusive copyright licensee could not sublicense without the owner's consent, a rule since criticised and not followed everywhere (reported; check).",
-     "**Entity transactions:** A transaction that transfers control, substantially all assets or the organisation itself passes the GPL licences to each party that receives the work, as an [[entity transaction]] (GPL-3.0 s.10)."
+     "**Entity transactions:** Where a covered work is propagated as a result of a transaction that transfers control of an organisation, substantially all its assets, or subdivides or merges it, each party that receives a copy also receives the predecessor's GPL licences, as an [[entity transaction]] (GPL-3.0 s.10)."
     ],
     "takeaway": "Choose the structure after mapping the consents, not before."
    },
@@ -12487,7 +12487,7 @@
     "ref": "88 Fed. Reg. 37920 (9 June 2023)",
     "title": "Interagency Guidance on Third-Party Relationships: Risk Management",
     "summary": "The three bank agencies' guidance on managing third-party relationships across their whole life cycle. It is technology-neutral and does not deal with open source as such. The agencies proposed a revision in 2026 (reported; check).",
-    "counselNote": "Vendors that supply or support open source are third parties under this guidance, so the bank's diligence and contract terms must reach them (drafting inference).",
+    "counselNote": "Vendors that supply or support open source are third parties under this guidance, so the agencies expect the bank's diligence and contract terms to reach them (drafting inference).",
     "confidence": "high"
    }
   ],
@@ -12566,7 +12566,7 @@
    },
    {
     "term": "entity transaction",
-    "definition": "A transaction that transfers control of an organisation or substantially all its assets, subdivides it or merges it. Under GPL-3.0 s.10, each party that receives the work also receives its predecessor's licences."
+    "definition": "A transaction that transfers control of an organisation or substantially all its assets, subdivides it or merges it. Under GPL-3.0 s.10, where a covered work is propagated as a result of the transaction, each party that receives a copy also receives its predecessor's licences."
    },
    {
     "term": "recordation",
@@ -12756,7 +12756,7 @@
      "title": "Map the software and IP the deal covers",
      "detail": [
       "**List the assets:** Map each product, code base, patent, mark, data set and model in the deal, and the entity that holds it. Rights often sit in a subsidiary or with a contractor, not the named seller (good practice).",
-      "**Trace title:** Record how each code base reached its holder. Copyright vests first in the author and moves only by a signed writing (17 U.S.C. § 201(a); § 204(a)).",
+      "**Trace title:** Record how each code base reached its holder. Copyright vests first in the author and passes to a new owner by a signed writing, unless the transfer is by operation of law (17 U.S.C. § 201(a); § 204(a)).",
       "**Note the licences:** Mark which open source and inbound licences each product depends on, since the target can transfer only the rights it holds (good practice)."
      ],
      "owner": [
@@ -13230,7 +13230,7 @@
      "title": "Assess copyleft in products that are distributed",
      "detail": [
       "**Find the trigger:** GPL duties start when the bank conveys a covered work, such as giving copies to customers. Internal use is not conveying (GPL-3.0 s.0; s.6).",
-      "**Check the source offer:** A GPL-3.0 product must ship the Corresponding Source or a written offer valid for at least three years, plus installation information for User Products (GPL-3.0 s.6).",
+      "**Check the source offer:** A GPL-3.0 product that conveys object code must provide the Corresponding Source by one of the methods in s.6, such as a written offer valid for at least three years and for as long as spare parts or customer support are offered, plus installation information for User Products (GPL-3.0 s.6).",
       "**Check the whole work:** Under GPL-2.0, code that contains or is derived from the program must be licensed as a whole under the GPL when distributed (GPL-2.0 s.2(b))."
      ],
      "owner": [
@@ -13322,7 +13322,7 @@
      "phase": "oss",
      "title": "Agree remediation before or after closing",
      "detail": [
-      "**Fix before close:** Require the target to remove or re-license non-compliant code before closing. A GPL-2.0 breach can end the licence, and GPL-3.0 allows reinstatement only if cured within 30 days of the first notice (GPL-2.0 s.4; GPL-3.0 s.8).",
+      "**Fix before close:** Require the target to remove or re-license non-compliant code before closing. A GPL-2.0 breach can end the licence, and GPL-3.0 reinstates a licence provisionally once the breach stops, permanently if the holder gives no notice within 60 days, or if a first notice is cured within 30 days (GPL-2.0 s.4; GPL-3.0 s.8).",
       "**Hold money back:** Where a fix falls after closing, use a price escrow or special indemnity sized to the cost of rewriting or re-licensing the code (good practice).",
       "**Write the duty:** Set a covenant with a date, a named owner and evidence of completion, so the obligation can be enforced (good practice)."
      ],
@@ -13589,7 +13589,7 @@
      "detail": [
       "**Test reasonable measures:** A trade secret needs the owner's reasonable measures to keep it secret, and independent economic value from not being generally known (18 U.S.C. § 1839(3)(A)-(B)).",
       "**Check access controls:** Review how source code is stored, who can read it and what confidentiality terms those people signed. Weak controls weaken the trade secret claim (good practice).",
-      "**Note the reverse engineering point:** Reverse engineering and independent derivation do not count as improper means, so a rival's lawful rebuild of a shipped product is not misappropriation (18 U.S.C. § 1839(6)(B))."
+      "**Note the reverse engineering point:** Reverse engineering and independent derivation do not count as improper means, so a rival's lawful rebuild of a shipped product is not misappropriation under the DTSA (18 U.S.C. § 1839(6)(B)), though a licence term barring reverse engineering can still bind a licensee (Bowers v. Baystate Technologies, Inc., 320 F.3d 1317 (Fed. Cir. 2003))."
      ],
      "owner": [
       "Legal",
@@ -13629,7 +13629,7 @@
      "title": "Check key departures and confidentiality exposure",
      "detail": [
       "**List key people:** Identify engineers and founders who are leaving or have left, and check what confidentiality and assignment terms each signed (good practice).",
-      "**Check the immunity notice:** Agreements with employees and contractors that govern trade secrets must give notice of the DTSA immunity or cross-refer to a policy. Without it, exemplary damages and fees are unavailable against that person (18 U.S.C. § 1833(b)(3)-(4)).",
+      "**Check the immunity notice:** Agreements with employees and contractors that govern trade secrets, entered into or updated after 11 May 2016, must give notice of the DTSA immunity or cross-refer to a policy. Without it, exemplary damages and fees are unavailable against that person (18 U.S.C. § 1833(b)(3)-(4)).",
       "**Check non-competes:** California voids employee non-competes, so a key engineer based there cannot be bound by one (Cal. Bus. & Prof. Code § 16600)."
      ],
      "owner": [
@@ -14138,7 +14138,7 @@
      "title": "SBOM, vulnerability notice and secure development duties",
      "detail": [
       "**Ask for an SBOM:** Require an SBOM that carries the NTIA minimum data fields: supplier, component, version, other identifiers, dependency relationships, author and timestamp (NTIA, 12 July 2021).",
-      "**Set notice duties:** Require prompt notice of known vulnerabilities and a fix timeline, since NYDFS-regulated firms must run a written policy for third-party service providers (23 NYCRR 500.11).",
+      "**Set notice duties:** Require prompt notice of known vulnerabilities and a fix timeline (good practice). For NYDFS-regulated firms, 23 NYCRR 500.11 requires a written third-party service provider policy, which these terms can support (drafting inference).",
       "**Write in secure development:** Require the vendor to follow secure development practice and give evidence on request, as 23 NYCRR 500.8 contemplates for externally developed applications (good practice)."
      ],
      "owner": [
@@ -14534,7 +14534,7 @@
      "title": "List closing deliverables: assignments, source, credentials",
      "detail": [
       "**Get the copyright assignments:** Obtain signed assignments from the seller, its founders and its contractors, since a transfer of copyright ownership is not valid unless it is in a signed writing (17 U.S.C. § 204(a)).",
-      "**Get the patent assignments:** Obtain signed patent assignments in writing, and have the acknowledgement needed for recording (35 U.S.C. § 261).",
+      "**Get the patent assignments:** Obtain signed patent assignments in writing, and consider a certificate of acknowledgment, which the statute treats as prima facie evidence of execution rather than a condition of recording (35 U.S.C. § 261).",
       "**Hand over the code:** Deliver the repositories, build credentials, signing keys and escrow access, and check each against the asset map before payment (good practice)."
      ],
      "owner": [
@@ -14587,7 +14587,7 @@
      "phase": "closing",
      "title": "Record assignments at the USPTO and Copyright Office",
      "detail": [
-      "**Record patents within three months:** Record each patent assignment at the USPTO within three months of its date, since an unrecorded assignment is void against a later purchaser or mortgagee for value without notice (35 U.S.C. § 261).",
+      "**Record patents within three months:** Record each patent assignment at the USPTO within three months of its date, or before any later purchase or mortgage, since an unrecorded assignment is void against a later purchaser or mortgagee for value without notice (35 U.S.C. § 261).",
       "**Record copyright transfers:** Identify each work and register it, since recordal in the Copyright Office gives constructive notice only then, and priority between conflicting transfers turns on timing (17 U.S.C. § 205(c)-(d)).",
       "**Keep the proof:** Keep the filing receipts and recordal certificates with the closing file, with the date of each filing (good practice)."
      ],
@@ -14899,7 +14899,7 @@
      "**Definition:** The Patent Act defines an inventor as the individual, or the individuals jointly, who invented the claimed subject matter (35 U.S.C. § 100(f)).",
      "**Natural persons:** In Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022), the court held that only natural persons can be inventors, so an AI system cannot be named.",
      "**USPTO practice:** The USPTO's February 2024 guidance on AI-assisted inventions was reported to have been rescinded in November 2025. Its replacement treats AI as a tool and looks for conception by a natural person (reported; check).",
-     "**Declarations:** The Patent Act requires each individual inventor to sign an oath or declaration for the application (35 U.S.C. § 115(a)).",
+     "**Declarations:** The Patent Act requires each individual inventor to sign an oath or declaration for the application, unless a substitute statement is permitted (35 U.S.C. § 115(a), (d)).",
      "**Inventor record:** Record which staff member conceived each claimed step, and which steps an AI tool suggested, so the inventor list can be defended (good practice)."
     ]
    },
@@ -14943,7 +14943,7 @@
    },
    {
     "heading": "Code tools, output and licence compliance",
-    "lede": "AI tools can reproduce licensed code verbatim, and the licence conditions then apply to the copy.",
+    "lede": "AI tools can reproduce licensed code verbatim, and the licence conditions apply to the copy when it is distributed or conveyed.",
     "visual": {
      "type": "layers",
      "caption": "Risk layers, from the copy in the codebase to the claim against the bank.",
@@ -14971,8 +14971,8 @@
     "points": [
      "**Doe v. GitHub:** In Doe v. GitHub, Inc. (GitHub Copilot), most claims were dismissed in the district court. The Ninth Circuit was reported on 16 September 2026 to have affirmed dismissal of the § 1202(b) claim (reported; check).",
      "**Identicality:** The Ninth Circuit was reported to have rejected a strict identicality rule, but to have found that the outputs alleged were not copies with copyright management information removed (reported; check).",
-     "**CMI:** Copyright management information includes the terms and conditions for use of a work (17 U.S.C. § 1202(c)(6)). Removing it without authority breaches § 1202(b) only where done knowingly, with reasonable grounds to know it will conceal infringement.",
-     "**Licence duties:** Distributing GPL-licensed code in object form requires the Corresponding Source, offered by one of the routes the licence allows (GPL-3.0 s.6). Apache-2.0 requires recipients to get a copy of the licence and modified files to carry notices (Apache-2.0 s.4).",
+     "**CMI:** Copyright management information includes the terms and conditions for use of a work (17 U.S.C. § 1202(c)(6)). Removing it without authority breaches § 1202(b) only where done intentionally and with knowledge that it will induce, enable, facilitate or conceal infringement; reasonable grounds to know suffice only for civil remedies.",
+     "**Licence duties:** Distributing GPL-licensed code in object form requires the Corresponding Source, offered by one of the routes the licence allows (GPL-3.0 s.6). Apache-2.0 requires anyone who distributes the work to give recipients a copy of the licence and to mark modified files with notices (Apache-2.0 s.4).",
      "**Vendor cover:** Microsoft's Copilot Copyright Commitment, announced in September 2023 and renamed the Customer Copyright Commitment, defends customers against IP claims over output if they use the built-in content filters and guardrails (reported; check).",
      "**Limit of cover:** A vendor defence does not cure a licence breach in the bank's own code, so treat it as a backstop for claims and not as clearance (good practice)."
     ]
@@ -15063,8 +15063,8 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 1202",
     "title": "Integrity of copyright management information",
-    "summary": "It bans knowingly giving false copyright management information (CMI). It also bars removing or altering CMI without authority, where the person knows, or has reasonable grounds to know, that this will induce, enable, facilitate or conceal infringement (§ 1202(a), (b)). CMI includes the terms and conditions for use of a work (§ 1202(c)(6)).",
-    "counselNote": "Licence headers and notices in code are CMI, so an AI rewrite or refactor that strips them can create exposure beyond the licence itself.",
+    "summary": "It bans knowingly giving false copyright management information (CMI). It also bars intentionally removing or altering CMI without authority, where the person knows that this will induce, enable, facilitate or conceal infringement (for civil claims, reasonable grounds to know is enough) (§ 1202(a), (b)). CMI includes the terms and conditions for use of a work (§ 1202(c)(6)).",
+    "counselNote": "Licence headers and notices in code may count as CMI (reported; courts have accepted this in some cases), so an AI rewrite or refactor that strips them can create exposure beyond the licence itself.",
     "cap": "17-USC",
     "section": "1202",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section1202&num=0&edition=prelim",
@@ -15284,7 +15284,7 @@
    "**Copyright:** Owners can seek injunctions, actual damages and profits, or statutory damages, but suit needs registration and statutory damages depend on timing (17 U.S.C. §§ 411(a), 412, 502, 504).",
    "**Patents:** Damages are at least a reasonable royalty and can reach three times the award. Marking and notice limit early damages, and the PTAB and the ITC run as separate routes (35 U.S.C. §§ 284, 287; 19 U.S.C. § 1337).",
    "**Trade secrets:** The Defend Trade Secrets Act (DTSA) allows injunctions, damages and exemplary damages up to twice the award, but an injunction cannot bar a person from a job merely for what they know (18 U.S.C. § 1836(b)(3)).",
-   "**Open source:** GPL-2.0 ends the licensee's rights on any breach, while GPL-3.0 allows reinstatement after a timely cure, so a fast, documented response matters (GPL-2.0 s.4; GPL-3.0 s.8).",
+   "**Open source:** GPL-2.0 ends the licensee's rights on any attempt to copy, modify, sublicense or distribute the program outside the licence, while GPL-3.0 allows reinstatement after a timely cure, so a fast, documented response matters (GPL-2.0 s.4; GPL-3.0 s.8).",
    "**Counsel's role:** Preserve evidence, check the facts before replying, and put every demand, response and insurer notice in writing (good practice)."
   ],
   "conceptMap": {
@@ -15430,7 +15430,7 @@
       {
        "label": "District court",
        "value": "35 U.S.C. § 284; 28 U.S.C. § 1400(b)",
-       "note": "Damages and fees; venue where the defendant resides or has a regular place of business"
+       "note": "Damages and fees; venue where the defendant resides (for a corporation, its state of incorporation), or where it has committed acts of infringement and has a regular and established place of business"
       },
       {
        "label": "PTAB (IPR or PGR)",
@@ -15639,7 +15639,7 @@
     "cap": "19-USC",
     "section": "1337",
     "title": "Unfair practices in import trade",
-    "summary": "Makes certain unfair import practices unlawful, including importing articles that infringe a valid US patent. When the ITC finds a violation, it directs that the articles be excluded from entry, unless the public interest weighs against that. All legal and equitable defences may be presented.",
+    "summary": "Makes certain unfair import practices unlawful, including importing articles that infringe a valid US patent. When the ITC finds a violation, it directs that the articles be excluded from entry, unless the public interest weighs against that. All legal and equitable defences may be presented (19 U.S.C. § 1337(c)).",
     "counselNote": "An exclusion order works at the border and can disrupt hardware the bank buys from abroad, so check supplier indemnities before a dispute starts.",
     "confidence": "high",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title19-section1337&num=0&edition=prelim"
@@ -15730,7 +15730,7 @@
    "**Third-party guidance:** The interagency guidance (88 Fed. Reg. 37920) expects banks to manage vendor risk across the life of the relationship. A dispute with a vendor or open source supplier is a risk event to log and report.",
    "**Cybersecurity rules:** Where NYDFS Part 500 applies, the regulation requires written procedures for secure development (23 NYCRR 500.8) and a third-party service provider security policy (500.11). Link dispute outcomes to those procedures.",
    "**Examiner access:** Examiners may ask for dispute files, vendor correspondence and remediation records. Keep them organised, mark privileged material, and keep them apart from ordinary business records.",
-   "**Customer data in disputes:** Code reviews and seized materials can contain customer data. Redact it and limit access, as the bank would for any third-party disclosure. Courts hold seized material in custody with access limits (18 U.S.C. § 1836(b)(2)(D)).",
+   "**Customer data in disputes:** Code reviews and seized materials can contain customer data. Redact it and limit access, as the bank would for any third-party disclosure. A DTSA civil seizure order requires the court to take seized material into its custody and limit access to it (18 U.S.C. § 1836(b)(2)(D)), and seizure is available only in extraordinary circumstances.",
    "**Public attention:** An open source dispute involving a bank can reach the press and the community quickly. Regulators and customers may hear of it from others first (good practice)."
   ],
   "pitfalls": [
