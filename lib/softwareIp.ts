@@ -80,10 +80,12 @@ export interface LicenceKit {
   caveat: string;
 }
 
-// Same shape as a banking stage; `itAngle` holds the engineering angle and
-// `virtualBankNotes` the notes for a bank or fintech.
+// Same shape as a banking stage; `itAngle` holds the engineering angle,
+// `virtualBankNotes` the notes for a bank or fintech and `productNotes` what
+// product counsel asks and tells the product team.
 export type SwStage = Omit<BankingStage, 'phase'> & {
   phase: SwPhase;
+  productNotes?: string[];
   elsewhere?: ElsewhereNote[];
   licenceKit?: LicenceKit;
 };

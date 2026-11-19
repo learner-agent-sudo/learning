@@ -15,13 +15,15 @@ interface Props {
   watermark: string;
   stats: Stat[];
   aboutHref: string;
+  // The volume's interview Desk, where it has one.
+  deskHref?: string;
   controls?: React.ReactNode;
   progress?: { done: number; total: number; label: string };
 }
 
 const NAV_LINK = 'inline-flex min-h-10 items-center gap-1.5 text-muted transition-colors hover:text-ink';
 
-export function ModuleMasthead({ kicker, title, standfirst, watermark, stats, aboutHref, controls, progress }: Props) {
+export function ModuleMasthead({ kicker, title, standfirst, watermark, stats, aboutHref, deskHref, controls, progress }: Props) {
   const pct = progress && progress.total > 0 ? Math.round((progress.done / progress.total) * 100) : 0;
   return (
     <header className="border-b border-line pb-5 pt-2 sm:pb-9 sm:pt-4">
@@ -31,6 +33,12 @@ export function ModuleMasthead({ kicker, title, standfirst, watermark, stats, ab
           Library
         </Link>
         <div className="flex items-center gap-3 sm:gap-5">
+          {deskHref && (
+            <Link href={deskHref} className={`${NAV_LINK} underline-offset-4 hover:underline`}>
+              <span className="sm:hidden">Desk</span>
+              <span className="hidden sm:inline">The Desk: interview questions</span>
+            </Link>
+          )}
           <Link href={aboutHref} className={`${NAV_LINK} underline-offset-4 hover:underline`}>
             {/* Phones: one word, so the bar stays on one line at 320px. */}
             <span className="sm:hidden">Sources</span>

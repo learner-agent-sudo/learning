@@ -16,6 +16,13 @@ const TONES = {
     label: 'text-violet-800 dark:text-violet-300',
     dot: 'bg-violet-500',
   },
+  amber: {
+    ring: 'border-amber-200 dark:border-amber-400/30',
+    head: 'bg-amber-50 text-amber-950 dark:bg-amber-400/10 dark:text-amber-100',
+    icon: 'bg-amber-700',
+    label: 'text-amber-800 dark:text-amber-300',
+    dot: 'bg-amber-500',
+  },
   rose: {
     ring: 'border-rose-200 dark:border-rose-400/30',
     head: 'bg-rose-50 text-rose-900 dark:bg-rose-400/10 dark:text-rose-100',

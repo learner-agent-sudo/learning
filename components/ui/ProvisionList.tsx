@@ -14,10 +14,12 @@ interface Props {
   lookup: (p: Provision) => StatuteExtract | undefined;
   // What the list holds, shown above it.
   note: string;
+  // Anchor for each card, for links to one provision.
+  idOf?: (p: Provision) => string;
 }
 
 /** A stage's sources as cards, filterable by kind, with open/close all. */
-export function ProvisionList({ provisions, lookup, note }: Props) {
+export function ProvisionList({ provisions, lookup, note, idOf }: Props) {
   const [filter, setFilter] = useState<ProvisionKind | 'all'>('all');
   // Bumping the version remounts the cards with every card open or closed.
   const [expand, setExpand] = useState({ open: false, version: 0 });
@@ -67,6 +69,7 @@ export function ProvisionList({ provisions, lookup, note }: Props) {
             provision={p}
             extract={lookup(p)}
             defaultOpen={expand.open}
+            id={idOf?.(p)}
           />
         ))}
       </div>

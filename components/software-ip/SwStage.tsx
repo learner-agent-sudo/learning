@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useMemo, useState } from 'react';
 import {
   BookOpen,
   BookText,
@@ -13,10 +14,16 @@ import {
   Scale,
   SearchCheck,
   TriangleAlert,
+  Users,
 } from 'lucide-react';
 import { PLACES, SW_PHASES, SW_STRENGTH_TITLES, swExtract, USC17_ANATOMY, type SwStage as Stage, type SwTab } from '@/lib/softwareIp';
 import { reviewTabLabel, SW_NOTE_CARDS as NOTE_CARDS, swIdBase, swOutline } from '@/lib/softwareIpOutline';
 import { toneVars } from '@/lib/theme';
+import { loadSettings, SEEN_EVENT } from '@/lib/seen';
+import { checklistUnitId, headUnitId, provisionUnitId, SW_MODULE, swUnits } from '@/lib/swUnits';
+import { DESK_QUESTIONS } from '@/lib/desk';
+import { ReadingAsk } from '../desk/ReadingAsk';
+import { SeenTracker } from '../ui/SeenTracker';
 import { RichText } from '../RichText';
 import { ActAnatomy } from '../ui/ActAnatomy';
 import { KeyPoints, SectionedPoints, SectionTitle } from '../ui/Bullets';
@@ -39,6 +46,22 @@ import { LicenceFinder } from './LicenceFinder';
 // The shared tools keep their state under this volume's prefix and explain
 // legal force in US terms.
 const MODULE = { storage: 'software-ip', strengthTitles: SW_STRENGTH_TITLES };
+const DESK_HREF = '/software-ip/desk/';
+
+/** "Questions while reading" (off unless the reader turns it on on the Desk). */
+function useReadingQuestions(stageId: string) {
+  const [on, setOn] = useState(false);
+  useEffect(() => {
+    const read = () => setOn(loadSettings(SW_MODULE).reading);
+    read();
+    window.addEventListener(SEEN_EVENT, read);
+    return () => window.removeEventListener(SEEN_EVENT, read);
+  }, []);
+  return useMemo(
+    () => (on ? DESK_QUESTIONS.filter((q) => q.stage === stageId && q.primes && q.colleague) : []),
+    [on, stageId]
+  );
+}
 
 interface Props {
   stage: Stage;
@@ -90,7 +113,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
   const phase = SW_PHASES[stage.phase];
   const done = ticks.filter(Boolean).length;
   const noteCount =
-    stage.itAngle.length + stage.virtualBankNotes.length + stage.pitfalls.length +
+    stage.itAngle.length + stage.virtualBankNotes.length + (stage.productNotes?.length ?? 0) + stage.pitfalls.length +
     (stage.elsewhere ?? []).reduce((n, e) => n + e.points.length, 0);
   const tool = !!(stage.licenceKit || stage.reviewKit);
   const tabs: (TabDef & { id: SwTab })[] = [
@@ -114,12 +137,18 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
   ];
   const idBase = swIdBase(stage.id);
   const outline = swOutline(stage);
+  const units = useMemo(() => swUnits(stage).filter((u) => u.tab === tab), [stage, tab]);
+  const asks = useReadingQuestions(stage.id);
+  const askFor = (unit: string) =>
+    asks.filter((q) => q.primes === unit).map((q) => <ReadingAsk key={q.id} q={q} deskHref={DESK_HREF} />);
   const sections = outline.find((t) => t.id === tab)?.sections ?? [];
 
   return (
     <BankingModuleProvider value={MODULE}>
       <StatuteLookupProvider value={swExtract}>
         <div style={toneVars('--phase', phase.tone)}>
+          <SeenTracker module={SW_MODULE} units={units} />
+          <div id={headUnitId(stage.id)}>
           <StageHeader
             index={stage.index}
             total={total}
@@ -138,6 +167,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
               )
             }
           />
+          </div>
 
           <AbbrKey stage={stage} className="mt-4" />
           <Tabs className="mt-5" idBase={idBase} tabs={tabs} active={tab} onChange={(id) => onTabChange(id as SwTab)} />
@@ -145,6 +175,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
           {tab === 'essentials' && (
             <TabPanel idBase={idBase} id="essentials">
               {stage.review === 'draft' && <DraftNotice what="case citations, agency guidance" />}
+              {askFor(`${idBase}-key`)}
               <KeyPoints id={`${idBase}-key`} title="In 30 seconds" points={stage.keyPoints} />
               {stage.conceptMap && (
                 <section id={`${idBase}-map`} className="mt-8">
@@ -154,7 +185,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
               )}
               <div className="mt-10">
                 <SectionTitle>In depth · how it bites in practice</SectionTitle>
-                <SectionedPoints sections={stage.deepDive} idPrefix={idBase} />
+                <SectionedPoints sections={stage.deepDive} idPrefix={idBase} before={(i) => askFor(`${idBase}-s${i + 1}`)} />
               </div>
               {stage.id === 'copyright' && <ActAnatomy anatomy={USC17_ANATOMY} name="Title 17 (as cited here)" />}
             </TabPanel>
@@ -165,6 +196,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
               <ProvisionList
                 provisions={stage.provisions}
                 lookup={swExtract}
+                idOf={(p) => provisionUnitId(stage.id, p)}
                 note="Statute cards include the text of the U.S. Code (GovInfo's annual edition) or the state code; licence cards include the licence text from the SPDX License List. Agency guidance and cases are summarised in our own words, with a link where there is one."
               />
             </TabPanel>
@@ -184,6 +216,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
 
           {tab === 'checklist' && (
             <TabPanel idBase={idBase} id="checklist">
+              <div id={checklistUnitId(stage.id)}>
               <Checklist
                 items={stage.checklist}
                 ticks={ticks}
@@ -191,6 +224,7 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
                 notesKey={`software-ip:checklist-notes:${stage.id}`}
                 title={`Open source & software IP: ${stage.index}. ${stage.title}`}
               />
+              </div>
             </TabPanel>
           )}
 
@@ -212,6 +246,14 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
                   icon={Landmark}
                   tone="violet"
                   items={stage.virtualBankNotes}
+                />
+                <NoteCard
+                  id={`${idBase}-${NOTE_CARDS.product.key}`}
+                  title={NOTE_CARDS.product.label}
+                  subtitle="What to ask and tell product managers, designers and marketing"
+                  icon={Users}
+                  tone="amber"
+                  items={stage.productNotes ?? []}
                 />
                 <Elsewhere stage={stage} idBase={idBase} />
                 <NoteCard

@@ -8,6 +8,7 @@ import { FINDER_SECTION } from '@/components/software-ip/LicenceFinder';
 export const SW_NOTE_CARDS = {
   eng: { key: 'engineering', label: 'The engineering angle' },
   bank: { key: 'bank', label: 'In a bank or fintech' },
+  product: { key: 'product', label: 'With the product team' },
   elsewhere: { key: 'elsewhere', label: 'What differs elsewhere' },
   pitfalls: { key: 'pitfalls', label: 'Common pitfalls' },
 } as const;
@@ -26,6 +27,7 @@ export function swOutline(stage: SwStage): OutlineTab[] {
   const notes = [
     ...(stage.itAngle.length ? [{ id: `${idBase}-${N.eng.key}`, label: N.eng.label }] : []),
     ...(stage.virtualBankNotes.length ? [{ id: `${idBase}-${N.bank.key}`, label: N.bank.label }] : []),
+    ...(stage.productNotes?.length ? [{ id: `${idBase}-${N.product.key}`, label: N.product.label }] : []),
     ...(stage.elsewhere?.length
       ? stage.elsewhere.map((e) => ({ id: `${idBase}-${N.elsewhere.key}-${e.place.toLowerCase()}`, label: PLACES[e.place] }))
       : []),

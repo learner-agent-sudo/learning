@@ -75,6 +75,7 @@ export default function SoftwareIpPage() {
               ]}
               progress={{ done: ticked, total: CHECK_TOTAL, label: 'Checklist done' }}
               aboutHref="/software-ip/about/"
+              deskHref="/software-ip/desk/"
             />
 
             <StageStrip {...railProps} />

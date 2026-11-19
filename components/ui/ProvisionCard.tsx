@@ -33,15 +33,18 @@ export function ProvisionCard({
   provision: p,
   extract,
   defaultOpen = false,
+  id,
 }: {
   provision: Provision;
   // Official text of the cited section, when it has been attached.
   extract?: StatuteExtract;
   defaultOpen?: boolean;
+  // Anchor for links to this card (and for the reading record).
+  id?: string;
 }) {
   const kind = KIND[p.kind] ?? KIND.other;
   return (
-    <details className={`${CARD} min-w-0`} open={defaultOpen}>
+    <details id={id} className={`${CARD} min-w-0 scroll-mt-28`} open={defaultOpen}>
       <summary className={SUMMARY}>
         <span aria-hidden className={`${EDGE} ${kind.bar}`} />
         <ChevronRight className={CHEVRON} aria-hidden />

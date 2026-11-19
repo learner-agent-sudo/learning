@@ -68,17 +68,21 @@ export function prefersReducedMotion(): boolean {
  */
 export function useStageHash(module: string, ids: string[], tabs: string[]) {
   const [state, setState] = useState({ stage: ids[0], tab: tabs[0], ready: false });
+  // A third part, #stage/tab/section, names a section to scroll to once.
+  const [section, setSection] = useState<string | null>(null);
 
   useEffect(() => {
     const read = () => {
-      const [rawStage = '', rawTab = ''] = window.location.hash.slice(1).split('/');
+      const [rawStage = '', rawTab = '', rawSection = ''] = window.location.hash.slice(1).split('/');
       const stage = decode(rawStage);
       const tab = decode(rawTab);
+      const sec = decode(rawSection);
       setState((prev) => ({
         stage: stage && ids.includes(stage) ? stage : prev.stage,
         tab: tab && tabs.includes(tab) ? tab : stage && ids.includes(stage) ? tabs[0] : prev.tab,
         ready: true,
       }));
+      setSection(sec && /^[\w-]{1,120}$/.test(sec) ? sec : null);
     };
     read();
     window.addEventListener('hashchange', read);
@@ -108,6 +112,29 @@ export function useStageHash(module: string, ids: string[], tabs: string[]) {
   useEffect(() => {
     if (state.ready) save(lastKey(module), { stage: state.stage, tab: state.tab, at: Date.now() });
   }, [module, state.stage, state.tab, state.ready]);
+
+  // Scroll to the linked section once the stage has rendered, then drop it
+  // from the address so a reload keeps the reader's place.
+  useEffect(() => {
+    if (!state.ready || !section) return;
+    let tries = 0;
+    let frame = 0;
+    const attempt = () => {
+      if (jumpTo(section, true) || tries++ > 40) {
+        setSection(null);
+        const hash = `#${encodeURIComponent(state.stage)}${state.tab === tabs[0] ? '' : `/${encodeURIComponent(state.tab)}`}`;
+        try {
+          history.replaceState(null, '', hash);
+        } catch {
+          // as above
+        }
+        return;
+      }
+      frame = requestAnimationFrame(attempt);
+    };
+    frame = requestAnimationFrame(attempt);
+    return () => cancelAnimationFrame(frame);
+  }, [state.ready, state.stage, state.tab, section, tabs]);
 
   return { ...state, go };
 }
@@ -275,6 +302,8 @@ export function scrollToElement(el: HTMLElement) {
 export function jumpTo(id: string, focus = true): boolean {
   const el = document.getElementById(id);
   if (!el) return false;
+  // A link to a closed card (a provision) opens it.
+  if (el instanceof HTMLDetailsElement) el.open = true;
   scrollToElement(el);
   if (focus) {
     const heading = el.querySelector<HTMLElement>('h2, h3, h4') ?? el;

@@ -54,7 +54,16 @@ export function KeyPoints({ title, points, id }: { title: string; points: string
 export { sectionId };
 
 /** Headed groups of bullets, numbered like the sections of a note. */
-export function SectionedPoints({ sections, idPrefix }: { sections: PointSection[]; idPrefix?: string }) {
+export function SectionedPoints({
+  sections,
+  idPrefix,
+  before,
+}: {
+  sections: PointSection[];
+  idPrefix?: string;
+  // Shown at the top of a section, above its heading (index from 0).
+  before?: (i: number) => React.ReactNode;
+}) {
   return (
     <div className="space-y-9">
       {sections.map((s, i) => (
@@ -63,6 +72,7 @@ export function SectionedPoints({ sections, idPrefix }: { sections: PointSection
             §{i + 1}
           </span>
           <div className="min-w-0">
+            {before?.(i)}
             <h4 className="font-serif text-[1.35rem] font-semibold leading-tight">{s.heading}</h4>
             {s.lede && (
               <p className="mt-1.5 font-serif text-[1.075rem] italic leading-snug text-ink/75">

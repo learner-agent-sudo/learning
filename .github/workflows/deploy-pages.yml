@@ -43,6 +43,8 @@ jobs:
 
       # Re-attach current statute text; fails if a citation no longer resolves.
       - run: python3 scripts/build_statute_extracts.py
+      # Every Desk answer line must still match a sentence of its stage.
+      - run: python3 scripts/check_desk.py
 
       - run: npm run build
         env:

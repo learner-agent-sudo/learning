@@ -1,0 +1,5422 @@
+{
+ "questions": [
+  {
+   "id": "map-fraud-engine-protection",
+   "stage": "map",
+   "ask": "The bank has built its own fraud-scoring engine; which rights would you rely on to protect the scoring logic, and why is copyright alone not enough?",
+   "colleague": {
+    "role": "Data science lead",
+    "text": "Our fraud model and its rules took two years to build; if a competitor rebuilds the same logic, can our copyright stop them?"
+   },
+   "primes": "sw-map-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Architecture, algorithms and methods of operation are outside copyright"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Protects original works of authorship fixed in a tangible medium, including literary works. Section 102(b) excludes"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "map",
+      "quote": "covers a new and useful process, machine, manufacture or composition of matter, for a term ending 20 years from filing"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "The bank's models, rules and fraud logic are protected as trade secrets only while access is controlled"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "map",
+      "quote": "Stops misappropriation, not independent discovery. Reverse engineering is not an improper means"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the rights that can protect the scoring logic itself",
+    "multi": true,
+    "options": [
+     {
+      "label": "Trade secret",
+      "in": true,
+      "pin": {
+       "stage": "map",
+       "quote": "Trained models, prompts and training data need access controls and contract terms"
+      }
+     },
+     {
+      "label": "Patent, if the claim passes eligibility",
+      "in": true,
+      "pin": {
+       "stage": "map",
+       "quote": "Before the bank patents a software method, counsel should test the claim for eligibility as well as novelty"
+      }
+     },
+     {
+      "label": "Contract terms such as NDAs",
+      "in": true,
+      "pin": {
+       "stage": "map",
+       "quote": "Licences, NDAs and terms of use decide who may copy, change or disclose the code and data."
+      }
+     },
+     {
+      "label": "Copyright",
+      "in": false,
+      "pin": {
+       "stage": "map",
+       "quote": "It protects expression only. Ideas, methods and functions need a patent, a trade secret or a contract"
+      }
+     },
+     {
+      "label": "Trademark",
+      "in": false,
+      "pin": {
+       "stage": "map",
+       "quote": "It does not protect the code behind them, because the Act covers marks that identify a source"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "confidentiality rests on the common law of confidence and contract, so the bank's NDAs and code-access terms carry more of the load"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "map-estate-register",
+   "stage": "map",
+   "ask": "In your first month as counsel at a digital bank, how would you map its software IP, and what would the register record for each asset?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "If an examiner asked tomorrow which code we own and which we only license, could we answer without a special project?"
+   },
+   "primes": "sw-map-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "A bank's software estate has three parts: what it owns, what it licenses in and what it licenses out."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "The bank owns code its employees wrote within the scope of employment, because it is treated as the author"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "map",
+      "quote": "The bank holds permission, not title. The licence sets the scope and conditions of use"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Keep one register of owned, in-licensed and out-licensed assets, with the right, the owner and the governing contract for each"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "map",
+      "quote": "Say whether copyright, trade secret, patent, trademark or contract does most of the protecting, so controls match the right."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "map",
+      "quote": "Examiners may ask for code inventories, licence records and vendor evidence, so keep them retrievable without a special project"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "Does the third-party risk guidance treat open source differently?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "covers the vendors who supply or support software across the relationship's life cycle. It does not single out open source as such."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Who decides when a takedown request or licence breach comes in?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "map",
+        "quote": "Appoint the person who decides on IP disputes, takedown requests and licence breaches."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "map-open-source-not-ownership",
+   "stage": "map",
+   "ask": "A product manager says the bank owns an Apache-2.0 library because it is now in the app; how do you correct that, and what follows for how it is managed?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We pulled an Apache-2.0 library into the app and changed it, so it is ours now and we can market it with the project's name and logo, right?"
+   },
+   "primes": "sw-map-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "is a licence of rights, not a transfer of them."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "The grant is subject to the licence's terms and conditions, so the licensee must meet them to rely on it"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "map",
+      "quote": "Apache-2.0 grants a copyright licence to reproduce, adapt and distribute the work, and a patent licence from each contributor"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Treat licensed code as a dependency to be managed, not as an asset the bank owns"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "map",
+      "quote": "The same licence grants no right to use the licensor's trade names or marks"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "What does that mean for the engineers day to day?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "map",
+        "quote": "Compiled apps, libraries and container images still carry copyright and any licence conditions"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "map",
+        "quote": "Track every open source and third-party licence against the product that uses it, with its version and conditions."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyright-api-compatibility",
+   "stage": "copyright",
+   "ask": "Engineering wants to copy a competitor's published API so partners can switch to the bank easily; what is your advice?",
+   "colleague": {
+    "role": "CTO",
+    "text": "If we reproduce the rival's API calls exactly so partner code just works, is that fine after the big API case?"
+   },
+   "primes": "sw-copyright-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "Reuse of an interface is a licence question first and a fair use question second."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "assumed without deciding that the Java SE declaring code was copyrightable"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "The answer depended on those facts, so it is not a general licence to copy interfaces."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "Treat reuse of a third party's code or published interface as needing a licence"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyright",
+      "quote": "Treat it as a defence to budget for, not a planning assumption for reusing a third party's interface"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the route you would recommend",
+    "multi": false,
+    "options": [
+     {
+      "label": "Seek a licence for the interface",
+      "in": true,
+      "pin": {
+       "stage": "copyright",
+       "quote": "Treat API reuse as a licence question, not a free pass."
+      }
+     },
+     {
+      "label": "Rely on fair use for interface copying",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "Fair use is decided case by case on the facts."
+      }
+     },
+     {
+      "label": "Copy freely, since APIs are not copyrightable",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "The Court did not decide copyrightability."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Is a command structure not just a method of operation?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyright",
+        "quote": "held that the Lotus 1-2-3 menu command hierarchy was an uncopyrightable method of operation"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "copyright",
+        "quote": "The Supreme Court affirmed by an equally divided court"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And in the EU?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyright",
+        "quote": "functionality, programming language and data file formats are not protected (SAS Institute v World Programming, C-406/10, 2 May 2012)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyright-sdk-registration",
+   "stage": "copyright",
+   "ask": "The bank is about to publish an SDK for fintech partners; when would you register its copyright, and what does the bank lose if it waits until someone copies it?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "Copyright is automatic, so why would we spend time registering the SDK before launch?"
+   },
+   "primes": "sw-copyright-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "Register code on release, not when a dispute starts."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "No infringement suit on a U.S. work until registration has been made or refused"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "unless registration came within three months of first publication (§ 412)"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "copyright",
+      "quote": "The owner may elect $750 to $30,000 per work instead of actual damages and profits"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "copyright",
+      "quote": "A bank that relies on its code for competitive advantage should register it so that it can enforce"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "When would you register?",
+    "multi": false,
+    "options": [
+     {
+      "label": "On release, within three months of first publication",
+      "in": true,
+      "pin": {
+       "stage": "copyright",
+       "quote": "File registration on release, ideally within three months of first publication"
+      }
+     },
+     {
+      "label": "Only once someone copies it",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "Waiting until a dispute to register can remove statutory damages and fees"
+      }
+     },
+     {
+      "label": "Never, because copyright is automatic",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "Unregistered code cannot be sued on in U.S. courts."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Does registering put our source code on the public record?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyright",
+        "quote": "Applicants can deposit redacted source code to protect trade secrets"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ownership-vendor-deliverables",
+   "stage": "ownership",
+   "ask": "A vendor is building the bank's new mobile app and its draft contract calls the deliverables a work made for hire; is that enough, and what ownership points would you negotiate?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "The vendor's paper says everything they build for us is work made for hire, so we own the app outright; can I sign?"
+   },
+   "primes": "sw-ownership-s7",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "whether a vendor's work made for hire clause does anything. For most software from a vendor or contractor, it does not."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Their code is usually not a work made for hire, so the bank needs a transfer signed by the author"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Decide in the contract which deliverables the bank owns by assignment, which it licenses, and which stay with the vendor."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ownership",
+      "quote": "A vendor's changes to the bank's code are usually a derivative work of it"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ownership",
+      "quote": "If the bank assigns its own improvements back to a vendor, it may lose title to code it wrote."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three ownership points to negotiate",
+    "multi": true,
+    "options": [
+     {
+      "label": "Split owned, licensed and vendor background code",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "with schedules for any background code"
+      }
+     },
+     {
+      "label": "Who owns vendor changes to the bank's code",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "The contract should say who owns the changes and whether the bank can keep using them"
+      }
+     },
+     {
+      "label": "License, rather than assign, bank improvements to the vendor",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "A licence back is the safer route if it covers the bank's affiliates and future use"
+      }
+     },
+     {
+      "label": "Rely on the work made for hire label",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Assuming that a vendor's clause makes its software the bank's"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And under Hong Kong law, where the bank commissions the app?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "the contract governs if it expressly provides for ownership, but the commissioner still has an exclusive licence"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And what do you check on the signature page?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Check that the person who signs for a vendor or contractor holds the rights and has authority to sign."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ownership-contractor-gap",
+   "stage": "ownership",
+   "ask": "You find that freelance contractors have written core code for a year under purchase orders with no IP terms; what is the bank's position, and what do you do first?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Three freelancers wrote most of our payments service last year on purchase orders only; do we actually own that code?"
+   },
+   "primes": "sw-ownership-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Writing the code makes the writer the author, and the bank must then show how the rights reached it."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Code from an independent contractor is not a work made for hire under"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "A transfer of copyright ownership is not valid unless the owner of the rights conveyed, or its agent, signs a writing"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Obtain a written, signed assignment before contractor code is merged"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ownership",
+      "quote": "Require a signed contributor licence or assignment before outside code is merged"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which step fixes the title gap?",
+    "multi": false,
+    "options": [
+     {
+      "label": "A signed written assignment from each freelancer",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "is in writing and signed by the owner of the rights conveyed or its duly authorised agent"
+      }
+     },
+     {
+      "label": "Add a work made for hire clause now",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "covers only nine categories, and software usually does not fit one of them"
+      }
+     },
+     {
+      "label": "Rely on the commit history",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Version control records who committed each change, but a commit author is not the legal owner."
+      }
+     },
+     {
+      "label": "Nothing, because the bank paid the invoices",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Copyright in a protected work vests first in its author or authors"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Could the freelancers count as employees, so the bank owns the code anyway?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "'Employee' follows common-law agency principles, not payroll status"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ownership",
+        "quote": "A contractor label does not settle employee status, and neither does a payroll record."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Once they sign, is the bank's title safe for good?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "The right covers exclusive and non-exclusive grants that an author executed on or after 1 January 1978."
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Termination takes effect in a five-year period that starts 35 years after the grant."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Treat a contractor's assignment of core code as a long-term exposure"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ownership-invention-assignment",
+   "stage": "ownership",
+   "ask": "An engineer has devised a new way to detect mule accounts that may be patentable; how do you make sure the bank owns the patent rights, and what wording do you look for?",
+   "colleague": {
+    "role": "Data science lead",
+    "text": "My team just came up with a new mule-account detection method; their contracts say they agree to assign inventions, so the bank owns it, right?"
+   },
+   "primes": "sw-ownership-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Patent rights start with the inventor, so the bank needs a written, present assignment and should record it."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "The Federal Circuit read 'agree to assign' as a promise to assign in future."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "It is void against a later purchaser or mortgagee for value without notice, unless it is recorded within three months of its date"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ownership",
+      "quote": "Route them through an invention process so that present assignments attach before the patent application is filed"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ownership",
+      "quote": "A general 'we own the IP' clause may not transfer patent rights."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which wording do you want in staff agreements?",
+    "multi": false,
+    "options": [
+     {
+      "label": "'hereby assigns' future inventions",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Present-tense wording in staff and vendor agreements is the practical route to title"
+      }
+     },
+     {
+      "label": "'agrees to assign' inventions",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "so that ownership waits for a further signed document"
+      }
+     },
+     {
+      "label": "'All IP belongs to the bank'",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "The bank should check that each inventor has signed a present assignment of the invention."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And for staff based in California?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "does not reach an invention made entirely on the employee's own time"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ownership",
+        "quote": "the employer must give written notice, when the agreement is made, that § 2870 inventions are excluded"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "where an invention might reasonably be expected from the duties, or the employee has a special obligation, the employer owns it"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "patents",
+        "quote": "an employee may seek compensation where a patent on an employer-owned invention is of outstanding benefit"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ownership-staff-contribution",
+   "stage": "ownership",
+   "ask": "An engineer wants to submit a fix she wrote at work to a public open source project; whose approval is needed, and why is it not just her decision?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "One of my engineers fixed a bug in an open source library during a sprint; can she open the pull request upstream today?"
+   },
+   "primes": "sw-ownership-s7",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Contributing it to a public project is then the bank's grant under that project's licence, so approve such contributions in advance"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Code an employee writes within the scope of employment is a work made for hire, so the bank is treated as the author"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Require pre-approval for staff contributions to public projects that use bank code"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Require legal sign-off before any code moves to a public repository, a release or a conference talk."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "patents",
+      "quote": "Clear every open source release, conference talk, blog post and API document with patent counsel before it goes public"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if she wrote it at the weekend on her own laptop?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Code an employee writes on their own time, outside the job, may not be a work made for hire"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patents-conference-disclosure",
+   "stage": "patents",
+   "ask": "The product team wants to demo a new payments feature at a fintech conference next month, and it may be patentable; what do you advise?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "We have a keynote slot to show the new instant-payments feature next month; is there any reason legal would want us to hold back?"
+   },
+   "primes": "sw-patents-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "Set a rule that no candidate invention is published until counsel has decided whether to file"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "A claim is not patentable if the invention was patented"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "is not prior art if made one year or less before the effective filing date"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "patents",
+      "quote": "Clear every open source release, conference talk, blog post and API document with patent counsel before it goes public"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "Publishing a method or code before filing and assuming the grace period covers it."
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if we decide not to patent it at all?",
+     "lines": [
+      {
+       "beat": "options",
+       "pin": {
+        "stage": "patents",
+        "quote": "Publishing an invention makes it prior art for later filers"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Choose between a patent and secrecy for each invention before filing or publication."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Once we file, can marketing call the feature patented?",
+     "lines": [
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "patents",
+        "quote": "Calling a product 'patented' when only an application is pending can mislead customers."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patents-ml-eligibility",
+   "stage": "patents",
+   "ask": "The board asks whether the bank should patent its new credit-scoring method, which applies standard machine learning to its own data; what is your honest assessment?",
+   "colleague": {
+    "role": "Board",
+    "text": "We have invested heavily in this scoring model; can we not just patent it and stop competitors copying the idea?"
+   },
+   "primes": "sw-patents-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "held that claims applying established machine-learning methods to a new data environment are ineligible"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "Alice asks first whether the claim is directed to an abstract idea"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "patents",
+      "quote": "Implementing an abstract idea on a generic computer adds nothing"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "held that a self-referential database table improving computer functionality was not abstract"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "patents",
+      "quote": "Draft each claim around a specific technical improvement, and describe that improvement in the specification"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which claim stands the best chance?",
+    "multi": false,
+    "options": [
+     {
+      "label": "A specific improvement to how the computer works",
+      "in": true,
+      "pin": {
+       "stage": "patents",
+       "quote": "Ask whether the claim describes a specific technical improvement, not only a business process run on a computer"
+      }
+     },
+     {
+      "label": "Established machine learning applied to our credit data",
+      "in": false,
+      "pin": {
+       "stage": "patents",
+       "quote": "claims applying established machine-learning methods to a new data environment are ineligible"
+      }
+     },
+     {
+      "label": "The scoring process run on the bank's servers",
+      "in": false,
+      "pin": {
+       "stage": "patents",
+       "quote": "The claim must show something more than the idea performed on a computer."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "So how else would you protect the scoring model?",
+     "lines": [
+      {
+       "beat": "options",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Fraud logic, pricing models and scoring code can be trade secrets if they meet the"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Treat a model or rule as a secret only if it meets the same measures test as the code."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "a program for a computer is not an invention as such"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patents-fintech-partner-terms",
+   "stage": "patents",
+   "ask": "If the bank launches a payments feature built and hosted by a fintech partner, what three patent points would you negotiate, and why can the bank not leave the risk with the partner?",
+   "colleague": {
+    "role": "COO",
+    "text": "The fintech runs the whole service on its own cloud; if someone claims a patent, that is their problem, not ours, isn't it?"
+   },
+   "primes": "sw-patents-bank",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "A bank-fintech arrangement should say who gives patent indemnities, who may change the product, and who pays for a design-around"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "holds one party liable for a method performed by several actors if it directs or controls them"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "patents",
+      "quote": "A vendor's hosting does not remove that risk if the bank directs the steps"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "Ask vendors to warrant non-infringement and defend claims over the code they supply, and check the carve-outs"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "patents",
+      "quote": "A patent claim against a payment or app feature can force a product change"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And when a complaint is served, what deadline do you diarise first?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "It must be filed within one year of service of an infringement complaint"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "patents",
+        "quote": "The one-year clock runs from service of the complaint, so calendar it on the day any complaint is served."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Does the third-party risk guidance reach a patent claim against the partner?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "A patent claim against a vendor's product is a third-party risk to assess"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patents-sdk-inducement",
+   "stage": "patents",
+   "ask": "The bank is publishing an SDK and developer guide so merchants can run its payment flow; what patent exposure does that create for the bank?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "The merchants run the code on their own servers, so if the flow infringes someone's patent, the bank is not on the hook, right?"
+   },
+   "primes": "sw-patents-s4",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "A bank can infringe directly, by inducing others, or by supplying a component."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "User guides that tell customers to run a claimed method are a typical risk"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "An SDK can fall within this"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "patents",
+      "quote": "Map which party performs each claimed step, including customers, cloud providers and vendors, before launch."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "patents",
+      "quote": "Assuming the bank is not liable because a customer or a cloud provider runs the steps"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "What do you need from the engineers before launch?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "patents",
+        "quote": "Where a rule runs (device, bank server or vendor cloud) decides who performs each step"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "patents",
+        "quote": "For every method claim, record who performs each step"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade-secrets-open-sourcing",
+   "stage": "trade-secrets",
+   "ask": "The CTO wants to open source the bank's internal transaction-monitoring library to attract developers; what does the bank give up, and who should sign off first?",
+   "colleague": {
+    "role": "CTO",
+    "text": "Open sourcing our monitoring library would be great for hiring, and we would still own it, so what is the downside?"
+   },
+   "primes": "sw-trade-secrets-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Releasing code publicly, including as open source, ends its secrecy, so the right must be chosen before release"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Posting code online, or open sourcing it, makes it generally known, so the trade secret in that code is lost"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "A release of part of a code base ends secrecy only for what was released"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Require legal sign-off before any code moves to a public repository, a release or a conference talk."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Before code leaves the bank, scan for internal hostnames, customer data and proprietary modules"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "patents",
+      "quote": "Clear every open source release, conference talk, blog post and API document with patent counsel before it goes public"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which right does the release end?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Trade secret status in the released code",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "makes it generally known, so the trade secret in that code is lost"
+      }
+     },
+     {
+      "label": "The bank's copyright in the code",
+      "in": false,
+      "pin": {
+       "stage": "map",
+       "quote": "is a licence of rights, not a transfer of them."
+      }
+     },
+     {
+      "label": "Trade secret status in the code not released",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "ends secrecy only for what was released, so define the boundary of each release"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Could a restrictive licence keep the code protected as a secret after release?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "Open sourcing or publishing code ends its trade secret status, and a licence cannot restore it"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade-secrets-reasonable-measures",
+   "stage": "trade-secrets",
+   "ask": "If the bank had to prove in court that its fraud-detection code is a trade secret, what evidence would you want already in place?",
+   "colleague": {
+    "role": "Security lead",
+    "text": "We have a confidentiality policy on the intranet; is that enough if a former engineer walks off with our fraud rules?"
+   },
+   "primes": "sw-trade-secrets-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "The measures are the proof, so they need to exist before a dispute starts."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "The owner must take reasonable measures to keep the information secret, and it must derive independent economic value"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Restrict repositories and build secrets by role, and log access, so the bank can show who could see the code"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Keep dated evidence of policies, training and access reviews, because the owner must show reasonable measures."
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Confidentiality policies that nobody enforces, which a court may not treat as reasonable measures."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the evidence that shows reasonable measures",
+    "multi": true,
+    "options": [
+     {
+      "label": "Role-based repository access with logs",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "export the map as evidence of reasonable measures"
+      }
+     },
+     {
+      "label": "Dated access reviews and training records",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "Keep dated evidence of policies, training and access reviews"
+      }
+     },
+     {
+      "label": "Confidentiality terms binding staff, contractors and vendors",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "Staff, contractor and vendor agreements should cover code"
+      }
+     },
+     {
+      "label": "A confidentiality policy on the intranet",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "The statute asks what the owner has taken, so a policy on paper needs practice behind it"
+      }
+     },
+     {
+      "label": "Non-competes for every engineer",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "do not treat a non-compete as a code control"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "protection rests on the common law of confidence and contract."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade-secrets-departing-engineer",
+   "stage": "trade-secrets",
+   "ask": "A senior engineer is leaving for a competitor in California; what can the bank do to protect its code, and what can it not do?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Our lead payments engineer has resigned to join a rival; can we hold him to the non-compete in his contract?"
+   },
+   "primes": "sw-trade-secrets-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "A non-compete will not protect code in California, so the protection has to come from confidentiality terms, access limits and evidence."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Section 16600 voids employee non-competes however narrowly tailored"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "A court may not bar a person from taking a job, and any condition must rest on evidence of threatened misappropriation"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Revoke access, recover devices and restate confidentiality duties in writing when someone leaves"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "which removes exemplary damages and fees against the employee"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what the bank can do",
+    "multi": true,
+    "options": [
+     {
+      "label": "Revoke access, recover devices, restate duties in writing",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "Revoke access, recover devices and restate confidentiality duties in writing when people leave."
+      }
+     },
+     {
+      "label": "Seek an injunction backed by evidence of threatened misuse",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "not merely on what the person knows"
+      }
+     },
+     {
+      "label": "Enforce the non-compete",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "read broadly in accordance with Edwards v. Arthur Andersen LLP"
+      }
+     },
+     {
+      "label": "Seek an order stopping him taking the new job",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "Restrictions on former staff that go beyond the DTSA injunction limits"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if he downloads the repository on his last day?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Stealing or copying a trade secret, or possessing one known to be stolen, is a federal offence"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Criminal exposure arises when a departing employee takes code or a model."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if he were leaving the bank in Hong Kong?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "NDAs, code-access terms and exit undertakings carry the weight"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trademarks-fork-name",
+   "stage": "trademarks",
+   "ask": "Engineering wants to fork an Apache-2.0 project and ship the fork under the upstream project's name; what do you advise?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We forked an Apache-2.0 library for the mobile SDK and want to keep its name so developers recognise it; the licence allows forks, so that is fine, isn't it?"
+   },
+   "primes": "sw-trademarks-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "A fork that keeps the upstream name takes on a trademark risk that the code licence does not cover."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "The licence gives no permission to use the licensor's trade names or marks, except reasonable and customary use to describe the work's origin and to reproduce the NOTICE file."
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Before the bank uses an upstream name for a fork, package or product, decide whether the name is needed only to describe what the product does (good practice)."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "When you fork a project, change the package name, binary names and user-facing strings that use the upstream mark, and keep the upstream licence notices intact."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "A rename changes package names, binary names and provenance, so the SBOM and the licence inventory must record the new name and the upstream source (drafting inference)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the two steps you would take",
+    "multi": true,
+    "options": [
+     {
+      "label": "Rename the fork and keep the upstream licence notices",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "When you fork a project, change the package name, binary names and user-facing strings that use the upstream mark"
+      }
+     },
+     {
+      "label": "Describe where the code came from, without using the name as a brand",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Gives no permission to use the licensor's trade names, trademarks, service marks or product names, except reasonable and customary use to describe the origin of the work"
+      }
+     },
+     {
+      "label": "Keep the upstream name, since Apache-2.0 permits forks",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Treating a permissive licence as permission to use the project's name in marketing or product names (Apache-2.0 s.6)."
+      }
+     },
+     {
+      "label": "Remove the upstream notices along with the name",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Stripping copyright and licence notices during packaging, which breaks licence conditions"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Does the answer change if the project is under MPL-2.0 or GPL-3.0?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "The licence grants no rights in any contributor's trademarks, service marks or logos, except as needed to meet its notice duties in s.3.4."
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "A licensor may add a term declining to grant trademark rights for some names or marks, so check each project's notices for one."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trademarks-launch-name",
+   "stage": "trademarks",
+   "ask": "The bank will announce a new app name in six weeks; what are the three things you do on the name before launch?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "We have chosen the name for the new wealth app and the launch is in six weeks; what do you need from us before we announce it?"
+   },
+   "primes": "sw-trademarks-checklist",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Search the federal register, state registers, company names, domain names and app stores before any launch or rename (good practice)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "marks are registered under the Trade Marks Ordinance (Cap. 559); an unregistered name relies on passing off, so register before launch in Hong Kong."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Register core names early in the bank's own name, and keep a list of every domain, store account and package owner (good practice)."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Choosing a product or project name without clearance, then learning of a prior user or registrant after launch, when a rebrand is most expensive."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three steps before launch",
+    "multi": true,
+    "options": [
+     {
+      "label": "Search registers, company names, domains and app stores",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Search the federal register, state registers, company names, domain names and app stores before any launch or rename (good practice)."
+      }
+     },
+     {
+      "label": "File for the core marks before launch",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "File for the product and bank names that matter most, and keep the filings current (good practice)."
+      }
+     },
+     {
+      "label": "Hold domains and store accounts in the bank's own name",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Keep domain names, documentation sites, package registry accounts and app store listings in an inventory, registered to the bank rather than to an individual developer (good practice)."
+      }
+     },
+     {
+      "label": "Rely on use after launch to build the rights",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "an unregistered name relies on passing off, so register before launch in Hong Kong."
+      }
+     },
+     {
+      "label": "Let the developer register the launch domain personally",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Leaving a launch domain or app store account in an individual employee's name, where it can be lost or transferred when that person leaves."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the app will also be offered to customers in the United States?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "these claims reach only infringing use in commerce in the United States, so use abroad alone does not infringe."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "A name used only outside the United States is not caught by these US claims, but the same name used in US markets may be. Clearance should follow where the product is actually offered."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Who should own the name and logo work the agency produces for the launch?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Vendor contracts should say who owns names, logos and brand assets made for the bank, and whether the vendor may name the bank as a customer (drafting inference)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trademarks-partner-logo",
+   "stage": "trademarks",
+   "ask": "A fintech partner wants to show the bank's name and logo in its app; what terms do you insist on, and why?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "Our buy-now-pay-later partner wants our logo on its checkout screen next week; can we just send them the logo file?"
+   },
+   "primes": "sw-trademarks-bank",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Issue approved logo files and usage rules, and require approval of quality, so the marks are not licensed naked."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "A partner product that uses the bank's name or logo may suggest a sponsorship the bank has not approved."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Partner pages and app store listings should state the bank's role accurately, so customers can tell what the bank provides and what the partner provides (good practice)."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Licensing a mark without quality control can lead to abandonment."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three terms you would insist on",
+    "multi": true,
+    "options": [
+     {
+      "label": "Approved logo files and written usage rules",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Give licensees approved logo files, usage rules and a right to approve quality, and keep ownership of the mark with the bank (good practice)."
+      }
+     },
+     {
+      "label": "Bank approval of quality, with monitoring",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Fintech and affiliate use of the bank's name needs written rules, approval and monitoring"
+      }
+     },
+     {
+      "label": "An accurate statement of what the bank provides",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Partner pages and app store listings should state the bank's role accurately"
+      }
+     },
+     {
+      "label": "Free use of the logo once the contract is signed",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Letting partners or vendors use the bank's marks without rules or quality control, which can lead to naked licensing (reported; check)."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Where does the evidence of these controls sit in the bank's vendor oversight?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Keep the marks register, brand approvals and monitoring reports in the third-party risk file, so the bank can show its controls over partner use (good practice)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "What goes wrong if the partner's page implies the bank endorses the partner's product?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "It also reaches misleading claims about partnerships or endorsements, which fintech marketing can create."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trademarks-compatible-with",
+   "stage": "trademarks",
+   "ask": "Marketing wants the launch page to say the bank's card works with a big tech wallet and to show the wallet's logo, with no brand agreement in place; what do you approve?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "Can we put the wallet's logo next to 'works with' on our launch page, since customers will recognise it at once?"
+   },
+   "primes": "sw-trademarks-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Use another company's name only to say what your product works with or replaces."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "The core question is whether customers are likely to be confused about source, sponsorship or affiliation"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "The fair use exclusion supports careful 'compatible with' wording, but it is not a licence to use another company's logo."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Say 'compatible with' and name the other product, with no logo, no stylised version and no suggestion of endorsement (good practice)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what you would approve",
+    "multi": false,
+    "options": [
+     {
+      "label": "Plain text saying 'works with' and the wallet's name",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Describe compatibility with 'compatible with' and the other party's name only, with no logo and no suggestion of endorsement."
+      }
+     },
+     {
+      "label": "The wallet's logo beside 'works with'",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "The fair use exclusion supports careful 'compatible with' wording, but it is not a licence to use another company's logo."
+      }
+     },
+     {
+      "label": "'Official partner of' the wallet",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "It also reaches misleading claims about partnerships or endorsements, which fintech marketing can create."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if Marketing wants a playful parody of the wallet's name as our own product name?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "A parody or joke name is not an automatic defence when it is used as a product's own brand."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oss-basics-which-act",
+   "stage": "oss-basics",
+   "ask": "The product team asks whether using GPL-3.0 code in the bank's internal tools needs legal sign-off; what do you tell them, and what would change your answer?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We want to run a GPL-3.0 reporting tool on our own servers for the operations team; do we need a legal review before we start?"
+   },
+   "primes": "sw-oss-basics-s4",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Duties start on specific acts: distributing or conveying the code and, under AGPL-3.0 s.13, offering a modified version to remote users. Running unmodified GPL-3.0 code internally carries no conditions (GPL-3.0 s.2)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Under GPL-3.0, conveying is propagation that enables others to make or receive copies. Mere interaction with a user over a network, with no copy transferred, is not conveying (GPL-3.0 s.0)."
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Changing covered code for the bank's own use carries no conditions; the duties start when the changed version is passed on."
+     },
+     "core": true
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Ask whether the use is internal, modified, distributed or run as a network service, because each act attracts different duties."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Treating every use as distribution, or assuming that a modified AGPL program run for remote users carries no source duty."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which act starts the GPL-3.0 duties?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Shipping the tool to customers inside the bank's app",
+      "in": true,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Conveying is the trigger for most GPL-3.0 duties."
+      }
+     },
+     {
+      "label": "Running it on bank servers for staff",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Running unmodified GPL-3.0 code carries no conditions at all (GPL-3.0 s.2)."
+      }
+     },
+     {
+      "label": "Letting customers reach it over the web, with no copy sent",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying."
+      }
+     },
+     {
+      "label": "Changing it for the bank's own use",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Changing covered code for the bank's own use carries no conditions"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the tool were AGPL-3.0 and the bank had modified it?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "AGPL-3.0 s.13 requires a modified version to offer its Corresponding Source to remote users. Running an unmodified version triggers nothing under that section."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the bank hands the tool to an outsourced developer or a group company?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "GPL-3.0 s.2 allows the bank to give covered code to a contractor who modifies it only for the bank, on terms that bar copies outside that relationship."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oss-basics-approval-tiers",
+   "stage": "oss-basics",
+   "ask": "If you were writing the bank's open source approval policy, how would you route approvals, and what must come to legal?",
+   "colleague": {
+    "role": "CTO",
+    "text": "Engineers wait days for licence approvals; can we let them approve open source libraries themselves and send you only the risky ones?"
+   },
+   "primes": "sw-oss-basics-bank",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Set licence approval tiers by family and by act, so that permissive libraries clear fast and AGPL or source-available code goes to counsel."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Licences run from permissive (MIT, Apache-2.0) through copyleft (GPL, LGPL, MPL) to"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Require legal sign-off before a modified AGPL-3.0 component runs in a customer-facing service, and plan the source offer (good practice)."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Send SSPL, BUSL and Elastic License 2.0 code to commercial review and the vendor process, not the open source queue."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Internal policies often use the word 'open source'. Ask which test the policy means, and whether it reaches source-available code."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the ones that go to legal rather than the fast track",
+    "multi": true,
+    "options": [
+     {
+      "label": "A modified AGPL-3.0 component in online banking",
+      "in": true,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "AGPL-3.0 code in online banking or in APIs raises the network duty for any modified version"
+      }
+     },
+     {
+      "label": "A BUSL-licensed database for production",
+      "in": true,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Approving SSPL, BUSL or Elastic License 2.0 code under an open source policy, when those licences restrict use and are not open source."
+      }
+     },
+     {
+      "label": "An unmodified MIT date library in the app",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "MIT, BSD, ISC and Apache-2.0 mainly ask for notices. They do not require the bank's own code to be released."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And what will an examiner ask to see?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Keep each approval with the licence text, version, date and reviewer, so that the bank can show its basis at audit."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Examiners may ask for a current inventory of components, licences and approvals."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Does the bank's third-party risk framework cover open source at all?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Vendors that supply or support open source components fall within it, while the components themselves usually do not (drafting inference)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oss-basics-breach-exposure",
+   "stage": "oss-basics",
+   "ask": "If the bank ships an app that drops a licence's required notices, is the exposure breach of contract, copyright infringement, or both?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "If we got the open source notices wrong in the last release, is that just a contract point, or could someone get an injunction against the app?"
+   },
+   "primes": "sw-oss-basics-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "A failure to comply with a notice or attribution condition can take the bank outside the licence, which exposes it to infringement claims and injunctions."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "held that the Artistic License's attribution and change notices were conditions limiting the licence, so breaking them could support a copyright infringement claim and not only a breach of contract."
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "the court refused to dismiss a claim that the GPL was an enforceable contract, on the facts pleaded. The case then settled, so it sets no rule."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Assume a licensor can argue both copyright and contract, and keep compliance records that would satisfy either (good practice)."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "A bank that distributes GPL code in devices or apps should allow for enforcement by purchasers as well as copyright holders, although that theory is not settled (drafting inference)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the best description of the exposure",
+    "multi": false,
+    "options": [
+     {
+      "label": "Both: infringement for a broken condition, and possibly contract",
+      "in": true,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "A licence can work as a copyright permission, as a contract, or as both, and the label affects the remedy."
+      }
+     },
+     {
+      "label": "Contract only, so damages are the limit",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "A user who broke them could be sued for copyright infringement, and not only for breach of contract."
+      }
+     },
+     {
+      "label": "None, because the code was free",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Without a licence, copying, changing and distributing code need the owner's permission under the Copyright Act"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And under the GPL, can the bank put it right once a notice arrives?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Provides the cure route: provisional reinstatement once the violation stops, permanent reinstatement if no notice arrives within 60 days, and permanent reinstatement after a cure within 30 days of the first notice."
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Any attempt to copy, modify, sublicense or distribute otherwise terminates the licence automatically."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Treat a licence notice as a clock: the 30-day cure window starts when the notice arrives."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oss-basics-dual-licence",
+   "stage": "oss-basics",
+   "ask": "A vendor offers its library under GPL-3.0 or a paid commercial licence; what do you check before the bank signs the commercial licence?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "The vendor says we can use its library free under the GPL or pay for a commercial licence; if we pay, are we covered?"
+   },
+   "primes": "sw-oss-basics-s7",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Before accepting a dual-licence offer, confirm who owns the copyright and holds the right to grant both licences."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "A licensor can offer the same code under a commercial licence and a copyleft licence, but only if it owns the copyright or holds the rights to grant both (drafting inference)."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "network",
+      "quote": "A vendor can relicense only code it has rights to, so a change in a project with many outside contributors depends on their agreements (drafting inference)."
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if the bank takes the library under GPL-3.0 instead of paying?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Conveying is the trigger for most GPL-3.0 duties. Hosting a service that users reach over a network is not conveying unless a copy is transferred."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "permissive-mit-vs-apache",
+   "stage": "permissive",
+   "ask": "Two libraries do the same job in the bank's app, one under MIT and one under Apache-2.0; what is the legal difference that matters to the bank?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We can use either an MIT or an Apache-2.0 library for document parsing; legal treats those two the same, doesn't it?"
+   },
+   "primes": "sw-permissive-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "The MIT and BSD texts say nothing about patents. Apache-2.0 gives an express patent licence that ends if you sue alleging the Work infringes a patent (Apache-2.0 s.3)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Apache-2.0 s.3 gives each contributor a perpetual, royalty-free patent licence over the claims its contribution necessarily infringes, alone or in combination with the Work."
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "permissive",
+      "quote": "MIT and ISC require the notice in copies, BSD-2-Clause adds the binary form, and Apache-2.0 adds change-marking and NOTICE-file duties (Apache-2.0 s.4)."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "permissive",
+      "quote": "The MIT, ISC and BSD texts contain no patent terms, so any patent permission is implied."
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "makes the bank's own patent claims a risk to its rights in that code (Apache-2.0 s.3)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the statements that are right",
+    "multi": true,
+    "options": [
+     {
+      "label": "Apache-2.0 gives an express patent licence",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "This is the only short permissive text here with an express patent grant."
+      }
+     },
+     {
+      "label": "MIT says nothing about patents",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "The licence disclaims warranties and liability, and says nothing about patents or names."
+      }
+     },
+     {
+      "label": "MIT grants a patent licence in its text",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Do not rely on an implied patent permission for a product that practises a claimed method (good practice)."
+      }
+     },
+     {
+      "label": "Both ask only for the copyright notice",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Confirm that a licence copy travels with each distribution, changed files are marked, and NOTICE text appears where users see attributions (Apache-2.0 s.4)."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the bank later wants to sue that contributor over a patent?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Before the bank sues over a patent, check whether the accused product uses Apache-2.0 code, because suing over the Work ends that licence (Apache-2.0 s.3)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the library is dedicated to the public domain under CC0?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "CC0 leaves the affirmer's patent rights untouched, so a public domain dedication does not clear patents (CC0-1.0 s.4(a))."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "permissive-app-notices",
+   "stage": "permissive",
+   "ask": "The bank's mobile app bundles hundreds of permissive libraries; what must be in place before release so that the notices are right?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Our scanner says every library in the app is MIT, BSD or Apache, so we are clear to release, aren't we?"
+   },
+   "primes": "sw-permissive-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Installing an app on a customer's device distributes object code, so notices must reach the user, typically in a licence screen or bundled file (drafting inference; BSD-2-Clause cl.2)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "MIT and ISC give the permission only if the notice appears in all copies (MIT, full text; ISC, full text)."
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "permissive",
+      "quote": "text in one of three places: a NOTICE file in the distribution, the source or documentation, or a display where third-party notices normally appear"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Add a build step that copies LICENSE and NOTICE files into each artefact, such as an app bundle, container layer, wheel or npm package, and fails if one is missing (good practice)."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "permissive",
+      "quote": "Licence scanners match SPDX identifiers and notice text, so a clean scan does not prove that the shipped binary carries the notices (good practice)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three release controls",
+    "multi": true,
+    "options": [
+     {
+      "label": "A build step that copies LICENSE and NOTICE files and fails if missing",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Add a build step that copies LICENSE and NOTICE files into each artefact"
+      }
+     },
+     {
+      "label": "Notices inside every app bundle, confirmed in the build output",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Put licence texts and copyright notices inside every app bundle, container image and SDK package, and confirm them in the build output (good practice)."
+      }
+     },
+     {
+      "label": "Minifier settings that keep licence comments",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Bundlers and minifiers can drop comments, including licence banners."
+      }
+     },
+     {
+      "label": "A clean scanner report on its own",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "a clean scan does not prove that the shipped binary carries the notices"
+      }
+     },
+     {
+      "label": "Notices kept in the source repository only",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "A pushed image copies its layers to others, so put the licence and notice files inside the image, not only in the source repository (drafting inference)."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And for a purely hosted web service?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Running code on your own servers and serving results to users sends no copies of the code (drafting inference)."
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Scripts, SDKs or libraries sent to a browser or device are distributed, even when the hosted service that uses them is not (drafting inference)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And what goes wrong if the build strips the notices?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "A deleted header can be a copyright problem as well as a licence breach."
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "If the notice is a licence condition, the copying may be infringement, not just a breach"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Deleting licence headers or copyright notices to conceal copying carries a separate civil claim."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "permissive-vendor-terms",
+   "stage": "permissive",
+   "ask": "A vendor's product for the bank embeds open source components; if you had three points to negotiate on them, what would they be?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "The core banking vendor says its product uses some open source; what should I ask for in the contract about that?"
+   },
+   "primes": "sw-permissive-bank",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Where a vendor ships permissive code in its product, ask for the notice file and component list in the delivery, since those are compliance evidence (good practice)."
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "The no-warranty clause means the bank has no licensor warranty or indemnity to rely on."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Mobile or vendor SDKs shipped inside bank apps can carry copyleft obligations to every customer who receives the app, so vendor warranties on open source components matter (drafting inference)."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Require notice of any licence change or new source-available component, with a right to exit and a transition period."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "network",
+      "quote": "When a vendor offers a managed service on source-available code, the vendor's licence limits what it may offer. The contract should say who carries the risk if those limits change (good practice)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three points",
+    "multi": true,
+    "options": [
+     {
+      "label": "Component list and notice files with each delivery",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "ask for the notice file and component list in the delivery, since those are compliance evidence"
+      }
+     },
+     {
+      "label": "Warranties on the open source components",
+      "in": true,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "so vendor warranties on open source components matter (drafting inference)."
+      }
+     },
+     {
+      "label": "Notice of licence changes, with a right to exit",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "Require notice of any licence change and of any new source-available component, with a right to exit (good practice)."
+      }
+     },
+     {
+      "label": "Reliance on the open source licences' own warranties",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Permissive licences disclaim warranty, and MIT provides the software 'AS IS' (MIT full text)."
+      }
+     },
+     {
+      "label": "Carving open source out of the contract altogether",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Open source components are usually not the business arrangement, but the vendors that supply or support them are (drafting inference)."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Does the bank's third-party risk framework reach the open source itself?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "The interagency third-party guidance (88 Fed. Reg. 37920, 9 June 2023) is technology-neutral."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "permissive-licence-variant",
+   "stage": "permissive",
+   "ask": "An engineer says a library is 'basically MIT', but its text adds a clause; how do you treat it, and why does it matter?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "This library's licence is MIT with one extra line limiting how it may be used; can we approve it as MIT?"
+   },
+   "primes": "sw-permissive-s7",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Small edits to standard text create new licences, and each one needs its own review."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "The OSI Open Source Definition bars licences that discriminate against persons, groups or fields of endeavour. A use restriction can therefore take a licence outside that definition (a view, not law)."
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "permissive",
+      "quote": "Variants such as the JSON licence are MIT-style texts with added terms, so read the full text, not the name (drafting inference)."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Accept the standard SPDX texts on the policy list, and send any edited or custom licence to counsel as a new licence."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "permissive",
+      "quote": "Accepting a renamed licence whose text changed one clause, which can change the conditions or the open source status (drafting inference)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "How do you record it?",
+    "multi": false,
+    "options": [
+     {
+      "label": "As a new licence, sent to counsel for review",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Treat each variant as a new licence, not a synonym (good practice)."
+      }
+     },
+     {
+      "label": "As MIT, since the extra line is short",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Accepting a renamed licence whose text changed one clause"
+      }
+     },
+     {
+      "label": "As MIT, because the project calls it MIT",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "so read the full text, not the name (drafting inference)."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "How do you stop engineers creating variants by accident?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Keep a short approved list of licence texts, so that engineers do not create variants by accident (good practice)."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "permissive",
+        "quote": "the standard set in ISO/IEC 5962:2021, so that scans, approvals and the register use one vocabulary."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyleft-partner-sdk",
+   "stage": "copyleft",
+   "ask": "The bank plans to give fintech partners an SDK that includes a GPL-2.0 library; what are your concerns, and what do you do before release?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "Our partner SDK uses a GPL-2.0 library for some helper functions; partners are not customers, so the GPL does not bite, does it?"
+   },
+   "primes": "sw-copyleft-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Copyleft duties start when the bank conveys code to others, and they reach the whole work it distributes, so scope comes first."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "A work based on the program, when distributed, must be licensed as a whole under the GPL, at no charge to all third parties (GPL-2.0 s.2(b))."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "When a bank opens APIs or SDKs to fintech partners, copyleft conveying rules apply to any code the partner receives."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Publish a source offer with each binary, or a written offer valid for at least three years, and keep the source available for as long as the offer runs."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Whether linking creates a derivative work is unsettled in US courts (17 U.S.C. § 106(2))."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "What do you do first?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Map where the GPL code meets the bank's code",
+      "in": true,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Map where copyleft code meets proprietary code before deciding whether the product is one work."
+      }
+     },
+     {
+      "label": "Ship it, since partners are not customers",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Internal running is generally not conveying, but a copy sent to an affiliate, contractor or partner can be"
+      }
+     },
+     {
+      "label": "Treat the FSF's linking view as settled law",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "The FSF's view that linking creates a combined work has not been adopted by any US court, and should not be presented as settled."
+      }
+     },
+     {
+      "label": "Strip the GPL headers from the SDK build",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Retain licence headers and the licence text with each copy, and do not strip per-file notices."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the library were LGPL instead?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "LGPL lets a combined work carry the user's terms if the user can relink or replace the library and reverse engineer for debugging"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "Under LGPL-2.1, relinking support is the price of proprietary linking."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "programs are literary works under Cap. 528, so a licensor has the same footing; no Hong Kong statute deals with open source licences, which are enforced through contract and copyright (drafting inference)."
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "there is no reported Hong Kong decision enforcing a copyleft licence, so rely on the licence text and each contributor's copyright (reported; check)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyleft-compliance-letter",
+   "stage": "copyleft",
+   "ask": "A copyright holder writes that the bank's app breaches the GPL; what do you do in the first week?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "We have just received a GPL compliance letter about the mobile app; how worried should I be, and what happens this week?"
+   },
+   "primes": "sw-copyleft-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Answer a compliance letter quickly, with the facts, the source offer and a fix plan."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "GPL-2.0 s.4 ends the licence on any breach, and the text gives no cure period. GPL-3.0 s.8 permanently reinstates a licensee who cures within 30 days after receiving the first notice from that copyright holder (GPL-3.0 s.8)."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "On a notice that is the first from that copyright holder, start the 30-day GPL-3.0 s.8 window at once and inform the legal team the same day."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Agree a response protocol for compliance letters, with a named owner, the facts, the source offer, a fix plan and one point of contact."
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "The text has no cure period for GPL-2.0, so a breach can end the bank's rights at once."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the two first steps",
+    "multi": true,
+    "options": [
+     {
+      "label": "Log the date of receipt and get it to legal that day",
+      "in": true,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Counsel should set up a notice intake so that a letter reaches the legal team on the day it arrives."
+      }
+     },
+     {
+      "label": "Name one owner and one point of contact",
+      "in": true,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "with a named owner, the facts, the source offer, a fix plan and one point of contact."
+      }
+     },
+     {
+      "label": "Wait to see whether a second letter follows",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "a licensee who is first notified must cure within 30 days of receipt to be permanently reinstated, so a slow reply can cost the bank that reinstatement."
+      }
+     },
+     {
+      "label": "Assume a 30-day cure applies whatever the GPL version",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Counsel should treat a compliance problem as urgent even before any notice arrives."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "What does the general counsel need to know about the exposure?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "Open source conditions can carry copyright remedies. The bank's release and attribution failures can therefore be framed as infringement, which affects insurance and disclosure decisions."
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "Counsel should expect both theories in a dispute."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And could a customer, rather than the copyright holder, enforce it?",
+     "lines": [
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "A bank that distributes GPL code in devices or apps should allow for enforcement by purchasers as well as copyright holders, although that theory is not settled (drafting inference)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyleft-affiliate-contractor",
+   "stage": "copyleft",
+   "ask": "The bank wants to share a modified GPL-3.0 tool with a group affiliate and with an outsourced developer; does either step trigger copyleft duties?",
+   "colleague": {
+    "role": "COO",
+    "text": "Our insurance affiliate wants a copy of the operations tool we modified, and an offshore vendor maintains it for us; that is all still internal, isn't it?"
+   },
+   "primes": "sw-copyleft-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Running software inside the bank is not conveying. Giving a copy to someone else is."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "The FSF has no clear statement on transfers between affiliated companies, which are separate legal persons. Treat them as distribution unless a licence term says otherwise (drafting inference)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "The bank may give covered works to contractors who make changes only for the bank, if those contractors cannot copy the work outside their relationship with the bank (GPL-3.0 s.2)."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Confirm that no copy leaves the bank or its group, and record the group-company position as a documented policy choice."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Internal running and remote access without a copy fall outside it, but any transfer of a copy to a third party, including a group company, needs analysis."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "How do you treat the copy for the affiliate?",
+    "multi": false,
+    "options": [
+     {
+      "label": "As distribution, unless a licence term says otherwise",
+      "in": true,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Treat them as distribution unless a licence term says otherwise (drafting inference)."
+      }
+     },
+     {
+      "label": "As internal use, because it is the same group",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "Internal running is generally not conveying, but a copy sent to an affiliate, contractor or partner can be"
+      }
+     },
+     {
+      "label": "As contractor work under the contractor permission",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "if those contractors cannot copy the work outside their relationship with the bank (GPL-3.0 s.2)."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the affiliate's staff only use the tool over the network, with no copy?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "GPL-2.0 has no network clause, and GPL-3.0 treats remote interaction without a copy as not conveying (GPL-3.0 s.0)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "What must the contract with the outsourced developer say?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "The bank may convey covered works to contractors who make modifications exclusively for it, on terms that bar copies outside that relationship."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyleft-card-reader",
+   "stage": "copyleft",
+   "ask": "The bank wants to give personal customers a branded card reader running GPL-3.0 firmware, locked against modified code; what do you advise?",
+   "colleague": {
+    "role": "Security lead",
+    "text": "We want to lock the card reader firmware so nobody can load modified code on it; does the GPL let us do that?"
+   },
+   "primes": "sw-copyleft-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Branded hardware sold to personal customers, such as card readers, can be a User Product, which brings installation information duties under GPL-3.0 s.6."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "For a User Product, the buyer must receive installation information, unless no one can install modified object code on the device, as with ROM-only code (GPL-3.0 s.6)."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Identify any product sold for personal or household use, because GPL-3.0 s.6 installation information duties then apply."
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "A bank that ships a device for personal use may owe installation information, which can conflict with device lock-down and security controls."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "When does the installation information duty fall away?",
+    "multi": false,
+    "options": [
+     {
+      "label": "When no one, the bank included, can install modified code",
+      "in": true,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "unless no one retains the ability to install modified object code."
+      }
+     },
+     {
+      "label": "When the bank keeps the update key to itself",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "unless no one can install modified object code on the device, as with ROM-only code (GPL-3.0 s.6)."
+      }
+     },
+     {
+      "label": "When customers get the reader for a fixed term only",
+      "in": false,
+      "pin": {
+       "stage": "copyleft",
+       "quote": "where possession and use pass to the recipient in perpetuity or for a fixed term"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how long must the source offer for the firmware stay open?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "GPL-3.0 s.6(b) requires an offer valid for at least three years and for as long as the bank offers spare parts or customer support for that model (GPL-3.0 s.6(b))."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-agpl-portal",
+   "stage": "network",
+   "ask": "Engineering wants to run a modified AGPL-3.0 component behind the bank's customer portal; whose sign-off is needed, and what must be ready before launch?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We patched an AGPL-3.0 search engine for the customer portal, but we never distribute it, so there is nothing to give out, right?"
+   },
+   "primes": "sw-network-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Network use can create a duty: a modified AGPL-3.0 program that remote users interact with must offer them its source, even if the bank never distributes it (AGPL-3.0 s.13)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "If you modify the program, your modified version must prominently offer everyone interacting with it remotely through a computer network an opportunity to receive its Corresponding Source (AGPL-3.0 s.13)."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Require legal sign-off before a modified AGPL-3.0 component runs in a customer-facing service, and plan the source offer (good practice)."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "network",
+      "quote": "For a modified AGPL service, publish a prominent, free link to the Corresponding Source of the deployed version, approved by counsel."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "network",
+      "quote": "A patched container image, a forked module or a local change to a vendored AGPL library is a modified version."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "When does the source duty arise?",
+    "multi": false,
+    "options": [
+     {
+      "label": "A modified version that remote users interact with",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "The duty arises from modification plus remote use, and no distribution is needed."
+      }
+     },
+     {
+      "label": "Any network use, modified or not",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "Running an unmodified AGPL-3.0 program over a network triggers nothing under s.13"
+      }
+     },
+     {
+      "label": "Only when the bank distributes copies",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "The network duty therefore applies without any distribution."
+      }
+     },
+     {
+      "label": "Only when outside customers use it",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "Assuming AGPL duties reach only customers, and missing modified internal portals and partner tools that users reach over a network."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the component runs exactly as released upstream?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "Running an unmodified AGPL program for staff or customers creates no s.13 duty. Confirm that the deployed copy matches the upstream release, because any patch can change the answer."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Where does the source offer go, and what must it cover?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "network",
+        "quote": "Place the offer where remote users can see it, such as a footer link in a web console, and point it to the exact commit for the deployed version (drafting inference from AGPL-3.0 s.13)."
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "The Corresponding Source includes the source needed to generate, install, run and modify the work, including the scripts that control those activities (AGPL-3.0 s.1)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-vendor-relicense",
+   "stage": "network",
+   "ask": "A database vendor the bank relies on moves its next release from an open licence to source-available terms; what do you do?",
+   "colleague": {
+    "role": "CTO",
+    "text": "Our database vendor has announced that its next version is under a source-available licence; do we have to rip it out now?"
+   },
+   "primes": "sw-network-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "A licence change normally applies to new versions. Code received under the earlier licence keeps those terms (drafting inference; check each licence's own wording)."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "A vendor's move to source-available terms changes the risk of the relationship. The interagency guidance (88 Fed. Reg. 37920) expects banks to reassess third-party relationships through their life cycle, so log the change as a trigger."
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "For each critical source-available component, identify an open fork or replacement and test the migration (good practice)."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "network",
+      "quote": "Provider and module versions can move to a new licence on upgrade, so pin versions and read the licence before each bump."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "network",
+      "quote": "Assuming a community fork is clear of obligations without reading its licence, its trademark position and its governance."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three steps",
+    "multi": true,
+    "options": [
+     {
+      "label": "Pin the current version and read the new licence before upgrading",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "Check licence files at every upgrade, and gate builds on any new or changed licence."
+      }
+     },
+     {
+      "label": "Log it as a third-party risk event and reassess",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "Log it as a third-party event in the risk register (drafting inference)."
+      }
+     },
+     {
+      "label": "Identify and test an open fork or replacement",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "For each critical source-available component, name an open alternative and test the migration."
+      }
+     },
+     {
+      "label": "Treat the versions already deployed as unlicensed",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "Treating a licence change as removing rights already granted, when the terms of earlier releases usually stay (drafting inference)."
+      }
+     },
+     {
+      "label": "Move to the community fork without further review",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "Assuming a community fork is clear of obligations without reading its licence"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "What should the vendor contract have said to protect the bank?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "network",
+        "quote": "Require notice of any licence change or new source-available component, with a right to exit and a transition period."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "network",
+        "quote": "The contract should say who carries the risk if those limits change (good practice)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the vendor is later acquired?",
+     "lines": [
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "network",
+        "quote": "A change of control can bring a new owner with a different licensing approach, so review the licence after any deal (drafting inference)."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-source-available",
+   "stage": "network",
+   "ask": "Procurement wants a database under the Business Source License for the bank's production payments platform; who reviews it, and what do you check?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "The vendor says its database is open and the code is on GitHub; can it go through the normal open source approval?"
+   },
+   "primes": "sw-network-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Confirm that the Additional Use Grant covers the bank's production use, and record each version's Change Date."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Production use is limited unless the licensor's Additional Use Grant allows it (reported; check). Internal bank use needs a check against that grant."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Send SSPL, BUSL and Elastic License 2.0 code to commercial review and the vendor process, not the open source queue."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "network",
+      "quote": "Ask whether the licence text, not the vendor's marketing, permits the bank's intended use, and label the component to match (good practice)."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "network",
+      "quote": "Restrictions run version by version, so an older version can become open while a newer one is still restricted (drafting inference)."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which route does it take?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Commercial and vendor review, reading the licence text",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "Ask whether the licence text, not the vendor's marketing, permits the bank's intended use"
+      }
+     },
+     {
+      "label": "The open source fast track, as the code is public",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "Filing source-available components as open source in policy, scanner output or board papers."
+      }
+     },
+     {
+      "label": "No review, since each version later converts to an open licence",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "BUSL 1.1 restricts production use for each version until that version converts, unless the Additional Use Grant allows it."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the bank offers that platform as a service to other fintechs on an SSPL database?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "A service built on SSPL code can pull the surrounding stack into scope. Ask engineering which software makes a hosted service available before the bank offers one to others."
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "network",
+        "quote": "Check whether the bank's service is offered to others, since that is the trigger for SSPL-style service-source duties (reported; check)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And how do you report these components to the board?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "network",
+        "quote": "Show open source, network copyleft and source-available components separately in policy, scanning and board reporting."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "using-gpl-in-app-approval",
+   "stage": "using",
+   "ask": "A product team wants to ship a GPL-licensed library inside the bank's mobile app; whose approval is required, and what decides the approval tier?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We want to drop a GPL charting library into the app for Friday's release; who do I need sign-off from?"
+   },
+   "primes": "sw-using-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Distributing GPL-2.0 object code requires source or a written offer"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "each trigger different licence terms, so the test is the use, not the name of the component"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "using",
+      "quote": "Permissive components that stay internal pass a light check"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "security reviews known vulnerabilities in any tier"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "so the tier decision is made without the product context"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick everyone who signs off before the GPL library ships",
+    "multi": true,
+    "options": [
+     {
+      "label": "Counsel",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "so shipped copyleft components go to counsel and the product owner"
+      }
+     },
+     {
+      "label": "The product owner",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "so shipped copyleft components go to counsel and the product owner"
+      }
+     },
+     {
+      "label": "Security, for known vulnerabilities",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "security reviews known vulnerabilities in any tier"
+      }
+     },
+     {
+      "label": "Nobody, because open source is free to use",
+      "in": false,
+      "pin": {
+       "stage": "using",
+       "quote": "Using open source is a licensing decision for every component"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the library only runs inside the bank and its group affiliates?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "so code run only inside the bank creates no conveying"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "deals",
+        "quote": "it has no clear view on transfers between affiliates"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "What do you tell the engineering teams so this does not land on release day?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "using",
+        "quote": "Put licence and vulnerability checks in CI so that a new dependency or a changed licence fails the build"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "using-first-month-programme",
+   "stage": "using",
+   "ask": "You join as the bank's first product counsel and find no open source policy; what do you put in place in your first month?",
+   "colleague": {
+    "role": "CTO",
+    "text": "We've never had an open source policy and we ship every two weeks; what is the minimum you need from my teams?"
+   },
+   "primes": "sw-using-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Write the approval tiers by licence family and by use"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "using",
+      "quote": "The international standard for open source licence compliance programmes"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "A small group owns the policy, the approved-component list and the exceptions"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Engineers record the component, version, use, product and owner before the code is merged"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "A policy that applies one process to every component will be bypassed"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And when a team asks for an exception to hit a launch date?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "using",
+        "quote": "Each exception needs a written reason, an owner and an expiry date"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "using",
+        "quote": "and review open exceptions each quarter"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "What evidence do you keep for each release?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "using",
+        "quote": "Retain approvals, SBOMs, scan results and notice bundles with each release"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "using-supply-chain-controls",
+   "stage": "using",
+   "ask": "After Log4Shell and the xz Utils backdoor, the CRO asks which three controls show the bank's open source supply chain is under control; what do you say?",
+   "colleague": {
+    "role": "Risk",
+    "text": "After xz Utils, which three controls do we need so that one bad library cannot quietly reach our apps?"
+   },
+   "primes": "sw-using-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "showed that one shared component can reach many products"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "using",
+      "quote": "Regulators expect third-party and secure development controls"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Produce the SBOM from the build in SPDX or CycloneDX"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Scanning must reach transitive dependencies, base images and framework packages"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "using",
+      "quote": "Maintainers and project governance are therefore a risk factor at intake"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "A clean licence does not make a component safe"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three controls",
+    "multi": true,
+    "options": [
+     {
+      "label": "An SBOM generated from each build",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "Produce the SBOM from the build in SPDX or CycloneDX"
+      }
+     },
+     {
+      "label": "Scans that reach transitive dependencies and base images",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "Scanning must reach transitive dependencies, base images and framework packages"
+      }
+     },
+     {
+      "label": "Maintainer and governance checks at intake",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "Maintainers and project governance are therefore a risk factor at intake"
+      }
+     },
+     {
+      "label": "A manually kept component spreadsheet",
+      "in": false,
+      "pin": {
+       "stage": "using",
+       "quote": "Relying on a manually kept list, which misses indirect dependencies"
+      }
+     },
+     {
+      "label": "Approval by the licence label alone",
+      "in": false,
+      "pin": {
+       "stage": "using",
+       "quote": "Treating the licence identifier as the whole story"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And what do you ask of the bank's software vendors?",
+     "lines": [
+      {
+       "beat": "options",
+       "pin": {
+        "stage": "using",
+        "quote": "Ask vendors for an SBOM that matches the version the bank receives"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "using",
+        "quote": "Accepting a vendor SBOM produced once and never refreshed"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And for a digital bank in Hong Kong?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "no Hong Kong rule requires SBOMs or licence scanning as such"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "using-stripped-notices",
+   "stage": "using",
+   "ask": "The build team wants to strip licence headers and NOTICE files to slim the app bundle; what do you advise, and what goes wrong if they do it anyway?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Our build drops all the licence headers and NOTICE files to keep the app small; is that actually a problem?"
+   },
+   "primes": "sw-using-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Build steps that drop licence headers or NOTICE files"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Licence headers can be copyright management information"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "MIT needs the notice in all copies"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "using",
+      "quote": "Generate the third-party notices from the SBOM, and check that they land in each app bundle"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "Notices are the cheapest compliance duty, and the easiest to lose in a build"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And what about the GPL components in the same app?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "GPL-2.0 allows distribution with a written offer valid for at least three years"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "using",
+        "quote": "Keep written source offers for at least three years after each distribution"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "releasing-sdk-licence-choice",
+   "stage": "releasing",
+   "ask": "If you could choose the open source licence for the bank's payments SDK, which would you pick, and why?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We're putting our payments SDK on GitHub so partners can embed it; which licence should go on it?"
+   },
+   "primes": "sw-releasing-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Apache-2.0 gives an express patent licence and ends it for a licensee who sues over the work"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Each contributor grants a patent licence for the claims its contribution necessarily infringes"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "releasing",
+      "quote": "It has no patent language, so the bank gets no express patent licence from it"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "It also means the bank loses its own patent licence under the work if it starts patent litigation over it"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the licence you would use for the SDK",
+    "multi": false,
+    "options": [
+     {
+      "label": "Apache-2.0",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "This patent grant is the main reason to choose Apache-2.0 for code with patent value"
+      }
+     },
+     {
+      "label": "MIT",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "where a patent grant matters the bank should choose a licence that has one"
+      }
+     },
+     {
+      "label": "GPL-3.0",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Copyleft licences add duties on whoever distributes the code"
+      }
+     },
+     {
+      "label": "No licence file at all",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Publishing code with no licence file, so users may read it but cannot copy or change it"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And what must the repository and packages carry when you publish?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "releasing",
+        "quote": "The repository should carry the licence file, the NOTICE file where one applies, and changed-file notices"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Ship the licence file and NOTICE content inside each package, container image and source archive"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "What do you tell the product team about the SDK's own dependencies?",
+     "lines": [
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "releasing",
+        "quote": "A copyleft dependency can change what the release must carry and how it is distributed"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "releasing-open-source-sign-off",
+   "stage": "releasing",
+   "ask": "The engineering team wants to open-source an internal fraud-scoring library next month; whose sign-off do you need, and what must be checked before you give yours?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We'd like to put our fraud-scoring library on GitHub next month; what do you need from us before it goes public?"
+   },
+   "primes": "sw-releasing-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Get sign-off from the business owner, security and counsel, and keep the approval with the release record"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Counsel approves the release in writing, after the title, scan and licence checks are signed off"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "code written by employees within the scope of their jobs belongs to the bank as a work made for hire"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Keep the licence choice, the scan results, the export answer and the approver's name in one release record"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Published code can no longer meet the secrecy test for a trade secret"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the checks that come before counsel signs",
+    "multi": true,
+    "options": [
+     {
+      "label": "Title traced for every file",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Trace each file to an employee, a signed contractor transfer, a vendor deliverable term or a licence the bank holds"
+      }
+     },
+     {
+      "label": "Secret scan of the full history",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Run secret and credential scanning on every commit and branch"
+      }
+     },
+     {
+      "label": "Licence chosen and the reason recorded",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Note why Apache-2.0, MIT, MPL-2.0 or a copyleft licence was picked"
+      }
+     },
+     {
+      "label": "Secret scan of the latest commit only",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Scan the full history, not only the latest commit"
+      }
+     },
+     {
+      "label": "Push it public first to test it",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Pushing a repository public to test a feature before title and scan checks run"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if a contractor wrote part of the library?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Software from an independent contractor usually falls outside the nine work made for hire categories"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "releasing",
+        "quote": "the employer is first owner of a work made in the course of employment, subject to agreement"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "releasing",
+        "quote": "the author keeps copyright unless agreed, but the commissioner has an exclusive licence"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "releasing-dco-or-cla",
+   "stage": "releasing",
+   "ask": "Outside developers start sending pull requests to the bank's open-source SDK; would you use a DCO sign-off or a CLA, and what decides it?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We're getting our first outside pull requests on the SDK; can people just sign off, or do they need to sign an agreement with us?"
+   },
+   "primes": "sw-releasing-s4",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "A sign-off is light and fast. It shows that the contributor could submit the code"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Only an assignment moves title to the bank"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "releasing",
+      "quote": "A CLA that only licenses rights leaves the contributor owning the code"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Use it only where the bank needs to own the project's code outright"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Offering the same code under a commercial licence works only if the bank owns all of it"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Have the employer sign when its staff contribute, and check that the signer has authority"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And when the bank's own engineers contribute to someone else's project?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Staff should contribute to outside projects only under written approval that names the code and the licence"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "How do you make sure the route is actually followed?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Require a DCO sign-off check or a signed-CLA check in continuous integration"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "releasing-bank-name-and-logo",
+   "stage": "releasing",
+   "ask": "Marketing wants the open-source SDK named after the bank, with the bank's logo in the repository; what do you advise?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "Can we call the SDK by our bank's brand and put the logo on the GitHub page so developers know it's ours?"
+   },
+   "primes": "sw-releasing-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "A bank's release does not license its name or logo to forks"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Apache-2.0 s.6 gives no permission to use the licensor's names or marks"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Run a clearance search on the name, and state in the readme that the bank does not license its own names or marks"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "A bank's name or product code on a public repository invites lookalikes and phishing sites"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Using the bank's name or logo as the project name or in the repository"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And what else must the readme carry at launch?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Publish a security policy that says where to report a vulnerability"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "releasing",
+        "quote": "A name and a security contact are part of the release, not an afterthought"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deals-vendor-three-points",
+   "stage": "deals",
+   "ask": "If there are three points to negotiate with a vendor licensing core software to the bank, what would they be?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "We're about to sign the new card platform licence and I can push back on three things; which three should I pick?"
+   },
+   "primes": "sw-deals-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "so its contract must cover affiliates, regulators and outsourcers, disclose open source, and allocate IP indemnity risk"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "Grant use by affiliates, outsourcers, contractors and regulators"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "Limit the IP indemnity carve-outs to what the bank changes or combines"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "deals",
+      "quote": "Customisations belong to the vendor or its own staff unless the contract assigns them in writing"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "Negotiate the audit and metric terms before the vendor's pricing model changes"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three you would push hardest",
+    "multi": true,
+    "options": [
+     {
+      "label": "Use by affiliates, outsourcers and regulators",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "Grant use by affiliates, outsourcers, contractors and regulators"
+      }
+     },
+     {
+      "label": "Open source list, warranty and approval before copyleft enters",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "Require a list of open source components and licences in each deliverable"
+      }
+     },
+     {
+      "label": "An IP indemnity with narrow carve-outs",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "Limit the IP indemnity carve-outs to what the bank changes or combines"
+      }
+     },
+     {
+      "label": "Assume the bank owns the customisations it pays for",
+      "in": false,
+      "pin": {
+       "stage": "deals",
+       "quote": "Customisations belong to the vendor or its own staff unless the contract assigns them in writing"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And under Hong Kong law, who owns the customisations the bank paid for?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "the commissioner gets an exclusive licence only for reasonably contemplated purposes"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And what do you add now that the vendor uses AI tools?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "deals",
+        "quote": "Prohibit training AI models on bank data without written consent, and bind vendor AI tools"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deals-vendor-failure",
+   "stage": "deals",
+   "ask": "Your key software vendor is a start-up that may not last two years; how do you keep the bank's service running if it fails?",
+   "colleague": {
+    "role": "COO",
+    "text": "If this vendor goes bust next year, what stops our app from going dark?"
+   },
+   "primes": "sw-deals-s7",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "but escrow and exit terms do the practical work"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "A licensee of intellectual property may keep its rights after rejection"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "deals",
+      "quote": "Rejection does not by itself end the bank's rights as a licensee, but it does not supply the code, data or service"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "Continuity needs the environment, configuration, data export and access credentials, plus a tested exit plan"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "Ask for a build of the deposited source in a clean environment"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what actually keeps the service running",
+    "multi": true,
+    "options": [
+     {
+      "label": "A tested exit plan with data export and credentials",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "Continuity needs the environment, configuration, data export and access credentials, plus a tested exit plan"
+      }
+     },
+     {
+      "label": "An escrow deposit that has been built and run",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "Ask for a build of the deposited source in a clean environment"
+      }
+     },
+     {
+      "label": "A bare source code deposit that was never built",
+      "in": false,
+      "pin": {
+       "stage": "deals",
+       "quote": "A deposit that cannot be built or run gives little protection when the vendor fails"
+      }
+     },
+     {
+      "label": "The bankruptcy election on its own",
+      "in": false,
+      "pin": {
+       "stage": "deals",
+       "quote": "Rejection does not by itself end the bank's rights as a licensee, but it does not supply the code, data or service"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Does a US bank regulator require source code escrow?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "No US bank regulation mandates escrow"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deals-fintech-acquisition-diligence",
+   "stage": "deals",
+   "ask": "The bank plans to acquire a fintech start-up for its app; what are the three software IP points you check in diligence?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "We're buying the start-up for its app; which three IP questions could kill or reprice the deal?"
+   },
+   "primes": "sw-deals-key",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "decide who owns the code, which licences survive the transaction, and who pays when title or open source fails"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "requires a signed writing for any transfer of copyright"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "network duties follow modified services, so a scan must match each licence to how the target uses it"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "deals",
+      "quote": "Non-exclusive patent licences are personal and need consent to transfer"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "deals",
+      "quote": "Ask for a named indemnity or escrow for each known title, open source or AI defect"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "Ask for the signed writings, not just a clause saying staff assign their work"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three diligence points",
+    "multi": true,
+    "options": [
+     {
+      "label": "A signed chain of title for the code",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "requires a signed writing for any transfer of copyright"
+      }
+     },
+     {
+      "label": "Open source matched to how the target uses it",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "network duties follow modified services, so a scan must match each licence to how the target uses it"
+      }
+     },
+     {
+      "label": "Consents for licences that must transfer",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "Non-exclusive patent licences are personal and need consent to transfer"
+      }
+     },
+     {
+      "label": "A scan of the package manifests only",
+      "in": false,
+      "pin": {
+       "stage": "deals",
+       "quote": "Manifest-level scans miss vendored and copied code"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And does buying the shares instead avoid the consents?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "The target keeps its IP and contracts, so the main risks are existing title defects and clauses that a change of control triggers"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And under Hong Kong law, does the target own what its employees wrote?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "the employer owns employee works (Cap. 528 s.14) and inventions made in normal duties"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deals-vendor-sbom-terms",
+   "stage": "deals",
+   "ask": "How do you make sure a vendor tells the bank what open source is inside its deliverables, and tells you fast when part of it is vulnerable?",
+   "colleague": {
+    "role": "Security lead",
+    "text": "When the next Log4Shell hits, how will we know within a day whether the vendor product we run is affected?"
+   },
+   "primes": "sw-deals-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "require an open source list, an SBOM and vulnerability notice times in each deliverable"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "NTIA's 2021 minimum elements list fields such as supplier, component name, version, dependency relationships and timestamp"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "copied snippets and vendored code need file or snippet matching, so ask the vendor for its scan settings"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "deals",
+      "quote": "An SBOM produced in the pipeline, in SPDX or CycloneDX form, is more reliable than a hand-written list"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "because the bank inherits the supply-chain risk of the code it acquires"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And where does that vendor sit in the bank's own controls?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "deals",
+        "quote": "open source vendors and their support contracts fall within the bank's programme"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "deals",
+        "quote": "For covered entities, 23 NYCRR 500.8 covers evaluating the security of externally developed applications"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-coding-assistant-approval",
+   "stage": "ai",
+   "ask": "Engineers want to use an AI coding assistant on the bank's codebase; what conditions do you set before you approve it?",
+   "colleague": {
+    "role": "CTO",
+    "text": "My teams keep asking for an AI coding assistant; what has to be true before you will let us turn it on?"
+   },
+   "primes": "sw-ai-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Publish the list of tools and models, the data each may see and the settings that must be applied"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "ai",
+      "quote": "Prompts that carry customer data or confidential code can weaken the secrecy the bank needs"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Get written confirmation from each vendor that bank code, prompts and outputs are not used to train models"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "A named engineer reviews AI-generated code before merge, which also builds the human-authorship record"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ai",
+      "quote": "A vendor defence does not cure a licence breach in the bank's own code"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the conditions you would set",
+    "multi": true,
+    "options": [
+     {
+      "label": "Named tools, with the data each may see",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "Publish the list of tools and models, the data each may see and the settings that must be applied"
+      }
+     },
+     {
+      "label": "No training on bank code or prompts",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "Get written confirmation from each vendor that bank code, prompts and outputs are not used to train models"
+      }
+     },
+     {
+      "label": "Named human review before merge",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "A named engineer reviews AI-generated code before merge, which also builds the human-authorship record"
+      }
+     },
+     {
+      "label": "Treat the vendor's copyright commitment as clearance",
+      "in": false,
+      "pin": {
+       "stage": "ai",
+       "quote": "A vendor defence does not cure a licence breach in the bank's own code"
+      }
+     },
+     {
+      "label": "Let staff use any public tool they like",
+      "in": false,
+      "pin": {
+       "stage": "ai",
+       "quote": "Pasting confidential code or customer data into a tool the bank has not approved and assessed"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And who decides exceptions to the approved list?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "The policy owner decides exceptions in writing and reviews the approved list at least once a year"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And how do you vet the tool vendor itself?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "Run them through the third-party risk process, covering indemnity conditions, data use, audit rights and exit terms"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-generated-code-ownership",
+   "stage": "ai",
+   "ask": "Much of a new feature's code was written with an AI tool; can the bank own and register it, and what do you put in place now?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "Half the new onboarding flow was written by the AI assistant; do we still own it if a competitor copies it?"
+   },
+   "primes": "sw-ai-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "requires human authorship for registration, so the bank must document its own contribution"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "The Copyright Office says prompts alone do not give the user enough control to become an author"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "arrangement or modification of AI material, can be protected. The Office decides case by case"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ai",
+      "quote": "Keep dated evidence of who wrote, selected and edited each AI-assisted part of released or registered code"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ai",
+      "quote": "applicants must disclose AI-generated material that is more than de minimis, exclude it from the claim"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And under Hong Kong law?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "the author is the person who made the necessary arrangements (Cap. 528 s.11(3))"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the engineer wants to name the AI tool as a co-inventor on a patent?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "inventors are individuals, and the Federal Circuit held in Thaler v. Vidal"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "Record which staff member conceived each claimed step, and which steps an AI tool suggested"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-open-weights-model-licence",
+   "stage": "ai",
+   "ask": "The data science team wants to deploy an open-weights model in a customer-facing chatbot; what do you check in its licence before it goes live?",
+   "colleague": {
+    "role": "Data science lead",
+    "text": "The model's weights are free to download, so we can just put it in the customer chatbot, right?"
+   },
+   "primes": "sw-ai-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "A model licence is a contract that sets use limits. Open weights are not automatically open source"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "A released model comes under its own licence, which can limit use, set user thresholds and restrict outputs"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Check the use field, user thresholds, acceptable use rules and any patent terms before the bank deploys a model"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "ai",
+      "quote": "A model released under Apache-2.0 carries the licence's patent grant"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ai",
+      "quote": "Add AI tools and models that inform decisions or customers to the bank's model inventory and risk tiering"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ai",
+      "quote": "A model update can change output and licence terms, so pin the version in use"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what you check before deployment",
+    "multi": true,
+    "options": [
+     {
+      "label": "Use restrictions and acceptable use rules",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "Check the use field, user thresholds, acceptable use rules and any patent terms before the bank deploys a model"
+      }
+     },
+     {
+      "label": "User thresholds",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "Check the use field, user thresholds, acceptable use rules and any patent terms before the bank deploys a model"
+      }
+     },
+     {
+      "label": "Patent terms and what ends them",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "A model released under Apache-2.0 carries the licence's patent grant"
+      }
+     },
+     {
+      "label": "Only whether the weights are free to download",
+      "in": false,
+      "pin": {
+       "stage": "ai",
+       "quote": "Treating a model as open source because its weights are public"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "What goes in the engineering record for the model?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "Record model names, versions and licences alongside library components"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-verbatim-gpl-output",
+   "stage": "ai",
+   "ask": "An AI assistant reproduces a block of GPL code in the bank's mobile app; what is the exposure, and what control would have caught it?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "The scanner says a function the AI wrote matches a GPL project word for word; does it matter if we ship it?"
+   },
+   "primes": "sw-ai-s4",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "The copy keeps its licence, so distributing it brings the licence conditions with it"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Distributing GPL-licensed code in object form requires the Corresponding Source"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "ai",
+      "quote": "only where done intentionally and with knowledge that it will induce"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Run them in CI on AI-assisted pull requests, not only at release"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ai",
+      "quote": "Letting an AI rewrite or refactor remove licence headers or copyright notices from reused code"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "Does the AI vendor's copyright commitment solve this?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "A vendor defence does not cure a licence breach in the bank's own code"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "ai",
+        "quote": "Relying on a vendor's indemnity without checking its conditions"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disputes-patent-demand",
+   "stage": "disputes",
+   "ask": "A patent holder writes claiming a feature in the bank's app infringes; how do you size the exposure, and which routes do you weigh?",
+   "colleague": {
+    "role": "Risk",
+    "text": "We've had a patent letter about the app's cheque deposit feature; what is the realistic worst case, and do we fight or pay?"
+   },
+   "primes": "sw-disputes-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "The reasonable royalty is the floor, so counsel should model a licence fee as the baseline exposure"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "never less than a reasonable royalty, and may raise them up to three times"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "disputes",
+      "quote": "Damages reach back no more than six years before the complaint"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "Inter partes review tests only novelty and obviousness, on patents or printed publications"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "disputes",
+      "quote": "Record notice periods in the bank's IP, cyber and technology policies and in each vendor's indemnity clause"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "disputes",
+      "quote": "A weak demand can expose the sender to the bank's fees"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if the feature came from a vendor?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "disputes",
+        "quote": "Tender an IP claim to the vendor at once, and check its conditions"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disputes-leaked-code-takedown",
+   "stage": "disputes",
+   "ask": "Part of the bank's app source code has appeared on a public repository; can you send a takedown notice today, and what could go wrong?",
+   "colleague": {
+    "role": "Security lead",
+    "text": "Some of our app's source code just showed up on GitHub; can legal get it taken down this afternoon?"
+   },
+   "primes": "sw-disputes-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "Require legal sign-off on each § 512 notice, check its good-faith basis and penalty-of-perjury statement"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "needs a good-faith statement and a statement under penalty of perjury that the sender is authorised to act"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "knowingly and materially misrepresents that material is infringing is liable for damages and fees"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "disputes",
+      "quote": "The bank is both a sender and a recipient"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if the poster counter-notifies?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "The host must restore the material 10 to 14 business days later, unless the claimant has sued"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "A suit on a US work cannot start until registration has been made, not just applied for"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "disputes",
+        "quote": "Assuming the bank can sue on a US work before registration has been made"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
