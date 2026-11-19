@@ -70,6 +70,7 @@ CAPS = [
     "528",   # Copyright Ordinance
     "537",   # United Nations Sanctions Ordinance
     "553",   # Electronic Transactions Ordinance
+    "559",   # Trade Marks Ordinance
     "571",   # Securities and Futures Ordinance
     "571D",  # Securities and Futures (Professional Investor) Rules
     "571H",  # Securities and Futures (Client Securities) Rules

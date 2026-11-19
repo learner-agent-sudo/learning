@@ -54,6 +54,8 @@ LICENCES: dict[str, str] = {
     "GPL-2.0-only": "numbered",
     "GPL-3.0-only": "numbered",
     "AGPL-3.0-only": "numbered",
+    "OFL-1.1": "whole",
+    "ODbL-1.0": "whole",
 }
 # Licence exceptions (SPDX keeps them in a separate list).
 EXCEPTIONS = ["Classpath-exception-2.0", "GCC-exception-3.1", "LLVM-exception"]
