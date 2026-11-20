@@ -44,7 +44,7 @@ BUNDLES = [
 ]
 
 # Chapters used by the HK banking, securities and insurance modules and the
-# software IP volume's Hong Kong notes. Large technical
+# software IP volume's Hong Kong tab. Large technical
 # rule-books are kept index-only (Parts and headings, no text) to keep the
 # repo small.
 CAPS = [
@@ -56,17 +56,23 @@ CAPS = [
     "41L",   # Insurance (Financial and Other Requirements for Licensed Insurance Broker Companies) Rules
     "66",    # Exchange Fund Ordinance
     "71",    # Control of Exemption Clauses Ordinance
+    "106",   # Telecommunications Ordinance
     "155",   # Banking Ordinance
     "155L",  # Banking (Capital) Rules
     "155M",  # Banking (Disclosure) Rules
     "155Q",  # Banking (Liquidity) Rules
     "155S",  # Banking (Exposure Limits) Rules
     "163",   # Money Lenders Ordinance
+    "200",   # Crimes Ordinance
+    "347",   # Limitation Ordinance
+    "362",   # Trade Descriptions Ordinance
     "405",   # Drug Trafficking (Recovery of Proceeds) Ordinance
     "455",   # Organized and Serious Crimes Ordinance
+    "457",   # Supply of Services (Implied Terms) Ordinance
     "458",   # Unconscionable Contracts Ordinance
     "486",   # Personal Data (Privacy) Ordinance
     "514",   # Patents Ordinance
+    "522",   # Registered Designs Ordinance
     "528",   # Copyright Ordinance
     "537",   # United Nations Sanctions Ordinance
     "553",   # Electronic Transactions Ordinance
@@ -84,7 +90,10 @@ CAPS = [
     "575",   # United Nations (Anti-Terrorism Measures) Ordinance
     "581",   # Deposit Protection Scheme Ordinance
     "584",   # Payment Systems and Stored Value Facilities Ordinance
+    "609",   # Arbitration Ordinance
     "615",   # Anti-Money Laundering and Counter-Terrorist Financing Ordinance
+    "619",   # Competition Ordinance
+    "623",   # Contracts (Rights of Third Parties) Ordinance
     "628",   # Financial Institutions (Resolution) Ordinance
     "628B",  # Financial Institutions (Resolution) (Loss-absorbing Capacity Requirements—Banking Sector) Rules
     "653",   # Protection of Critical Infrastructures (Computer Systems) Ordinance
