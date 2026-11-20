@@ -46,6 +46,8 @@ export interface DeskQuestion {
   // that answers it when "questions while reading" is on.
   colleague?: { role: string; text: string };
   primes?: string;
+  // A question on Hong Kong law, answered from the stage's Hong Kong tab.
+  hk?: boolean;
   lines: DeskLine[];
   choices?: { prompt: string; multi: boolean; options: DeskChoice[] };
   followUps?: { ask: string; lines: DeskLine[] }[];

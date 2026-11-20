@@ -103,6 +103,7 @@ export function Desk() {
   const [query, setQuery] = useState('');
   const [order, setOrder] = useState<Order>('stage');
   const [stage, setStage] = useState('all');
+  const [law, setLaw] = useState<'all' | 'us' | 'hk'>('all');
   const [hashId, setHashId] = useState<string | null>(null);
   const [message, setMessage] = useState('');
   const fileRef = useRef<HTMLInputElement>(null);
@@ -131,12 +132,17 @@ export function Desk() {
   }, [hashId, rec]);
 
   const ready = useMemo(() => {
-    const qs = DESK_QUESTIONS.filter((q) => isReady(q, rec) && (stage === 'all' || q.stage === stage));
+    const qs = DESK_QUESTIONS.filter(
+      (q) =>
+        isReady(q, rec) &&
+        (stage === 'all' || q.stage === stage) &&
+        (law === 'all' || (law === 'hk') === !!q.hk)
+    );
     const byStage = (a: DeskQuestion, b: DeskQuestion) => (STAGE_INDEX[a.stage] ?? 0) - (STAGE_INDEX[b.stage] ?? 0);
     if (order === 'recent') return [...qs].sort((a, b) => readDay(b, rec) - readDay(a, rec) || byStage(a, b));
     if (order === 'oldest') return [...qs].sort((a, b) => readDay(a, rec) - readDay(b, rec) || byStage(a, b));
     return [...qs].sort(byStage);
-  }, [rec, order, stage]);
+  }, [rec, order, stage, law]);
 
   const tokens = query.toLowerCase().split(/\s+/).filter((t) => t.length > 1);
   const found = useMemo(() => {
@@ -260,6 +266,14 @@ export function Desk() {
                       {String(s.index).padStart(2, '0')} {s.title}
                     </option>
                   ))}
+                </select>
+              </label>
+              <label className="flex items-center gap-2 text-[13px] text-muted">
+                <span className="sr-only">Law</span>
+                <select value={law} onChange={(e) => setLaw(e.target.value as 'all' | 'us' | 'hk')} className="min-h-11 rounded-full border border-line bg-panel px-3 text-[13.5px] text-ink">
+                  <option value="all">US and Hong Kong</option>
+                  <option value="us">US law questions</option>
+                  <option value="hk">Hong Kong questions</option>
                 </select>
               </label>
             </div>

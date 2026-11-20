@@ -153,6 +153,7 @@ export function QuestionCard({ q, rec, words, onWords, pinned, onPin, defaultOpe
             {stageOf && (
               <span className="mt-1 block text-[12px] text-muted">
                 {String(stageOf.index).padStart(2, '0')} {stageOf.title}
+                {q.hk && ' · Hong Kong'}
                 {pinned && ' · pinned'}
               </span>
             )}
