@@ -3171,7 +3171,8 @@
       "**Gain and loss:** For that offence, gain includes keeping what one already has, and loss includes not getting what one might have got (Cap. 200 s.161(2)).",
       "**Unauthorised access:** Knowingly causing a computer, by telecommunications, to obtain unauthorised access to a program or data is an offence with a fine at level 4 (Cap. 106 s.27A(1)).",
       "**Who is unauthorised:** Access is unauthorised where the person is not entitled to control access of that kind, has no authority from someone who is, and does not believe they were or would have been authorised had they applied (Cap. 106 s.27A(2)(b)).",
-      "**Damage to programs and data:** A program or data held in a computer is property for the criminal damage offences, and altering, erasing or adding to it counts as damage (Cap. 200 s.59(1)(b), (1A))."
+      "**Damage to programs and data:** A program or data held in a computer is property for the criminal damage offences, and altering, erasing or adding to it counts as damage (Cap. 200 s.59(1)(b), (1A)).",
+      "**Own devices:** The Court of Final Appeal held that s.161(1)(c) does not extend to a person's use of their own computer, such as their own phone, so copying the bank's information on a personal device may fall outside the offence (Secretary for Justice v Cheng Ka Yee [2019] HKCFA 9)."
      ],
      "takeaway": "Map who may reach each system and record it, because the unauthorised-access offence turns on entitlement and the dishonest-access offence turns on intent, and a clear record helps prove both (good practice)."
     },
@@ -18112,7 +18113,9 @@
       "**Unauthorised access:** Knowingly causing a computer, by telecommunications, to obtain unauthorised access to a program or data is an offence with a level 4 fine (Cap. 106 s.27A(1)). Access is unauthorised where the person is not entitled to control access of that kind, has not been authorised by someone who is, and does not believe they were or would have been authorised (Cap. 106 s.27A(2)(b)).",
       "**Data as property:** A program or data held in a computer counts as property for the criminal damage offences, and altering or erasing it can be damage, and the s.60(1) offence needs property belonging to another person (Cap. 200 ss.59, 60(1)-(2)).",
       "**Platform safe harbour:** A service provider is not liable for copyright damages merely for providing online services if it takes reasonable steps once it is notified or aware, gets no direct financial benefit, does not interfere with standard technical measures and has a designated agent (Cap. 528 s.88B(1)-(2)).",
-      "**Presumption of compliance:** Where a provider shows that it complied with a condition, the court must presume compliance unless there is evidence to the contrary (Cap. 528 s.88I)."
+      "**Presumption of compliance:** Where a provider shows that it complied with a condition, the court must presume compliance unless there is evidence to the contrary (Cap. 528 s.88I).",
+      "**Own devices:** Section 161(1)(c) does not extend to a person's use of their own computer (Secretary for Justice v Cheng Ka Yee [2019] HKCFA 9), so a leak through a staff member's own phone is usually pursued through confidence and contract rather than this offence (drafting inference).",
+      "**Identifying infringers:** The court can order an internet service provider to disclose the identity of subscribers alleged to have infringed copyright (Norwich Pharmacal relief), as in Cinepoly Records Co Ltd v Hong Kong Broadband Network Ltd [2006] HKCFI 84 (reported; check)."
      ],
      "takeaway": "Write down when the bank first learned of copied code or scraped data, because the platform safe harbour turns on how quickly the provider acts after a notice (good practice)."
     }
@@ -18237,6 +18240,16 @@
      "cap": "609",
      "section": "103D",
      "url": "https://www.elegislation.gov.hk/hk/cap609"
+    },
+    {
+     "kind": "case",
+     "instrument": "Secretary for Justice v Cheng Ka Yee",
+     "ref": "[2019] HKCFA 9",
+     "title": "Using one's own computer is not 'obtaining access'",
+     "summary": "The Court of Final Appeal held that s.161(1)(c) of the Crimes Ordinance, obtaining access to a computer with a view to dishonest gain, does not apply to a person's use of their own computer. Teachers who used their own phones and a computer to send out interview questions were therefore outside the offence.",
+     "counselNote": "Staff who copy confidential material on their own devices may fall outside s.161, so the bank's protection rests more on confidence, contract and access controls on its own systems (drafting inference).",
+     "confidence": "high",
+     "url": "https://www.hklii.hk/en/cases/hkcfa/2019/9"
     }
    ],
    "bankNotes": [

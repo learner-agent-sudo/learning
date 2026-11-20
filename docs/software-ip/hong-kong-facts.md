@@ -246,3 +246,14 @@ corrected to what the text says). [R]: not in held text: a case, guidance, pract
 - Grace period wording: s.11A (standard patent (R)) says a prescribed exhibition or meeting; s.37B and s.109 say an official or officially recognised international exhibition under the 1928 Paris Convention.
 - Cap. 200 s.161: 'on any future occasion' refers to when the intended offence, gain or loss happens, not to when the intent is formed.
 - Cap. 71 Sch. 1 para 1(c): ss.7 to 9 do not apply to a contract so far as it relates to the creation or transfer of a right or interest in IP; the rest of the contract stays within them.
+
+## Checked against primary sources (Legal Data Hunter, 20 November 2026)
+- [V] Secretary for Justice v Cheng Ka Yee [2019] HKCFA 9 (Court of Final Appeal, 4 April 2019): s.161(1)(c) of the
+  Crimes Ordinance does not extend to a person's use of their own computer (paras 5, 32-33, 37-44, 48).
+  https://www.hklii.hk/en/cases/hkcfa/2019/9
+- [R] Cinepoly Records Co Ltd v Hong Kong Broadband Network Ltd [2006] HKCFI 84 (26 January 2006) exists; that it granted
+  Norwich Pharmacal disclosure against ISPs was not read before the daily limit (also [2006] HKCFI 1028).
+- Not found before the daily limit: a Hong Kong judgment applying Coco v A N Clark; one on ex-employees' use of
+  confidential information and restraint covenants; an appellate statement of the passing off elements; the date the
+  Madrid Protocol took effect for Hong Kong; a Copyright (Amendment) Bill on text and data mining; any Hong Kong judgment
+  on the s.9A "as such" exclusion or enforcing an open source licence. These stay "(reported; check)".
