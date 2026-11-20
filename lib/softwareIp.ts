@@ -1,5 +1,6 @@
 import stagesJson from '@/data/software-ip/stages.json';
 import extractsJson from '@/data/software-ip/statute-extracts.json';
+import type { PointSection } from '@/components/ui/Bullets';
 import type { BankingStage, ContractSource, StatuteCite, Strength } from './banking';
 import type { CapAnatomy, Provision, StatuteExtract } from './statute';
 import { TONES, type Tone } from './theme';
@@ -80,6 +81,17 @@ export interface LicenceKit {
   caveat: string;
 }
 
+// The stage's subject under Hong Kong law, on its own tab: the short version,
+// the in-depth sections, the ordinance cards and what an HK bank adds.
+export interface HongKongBlock {
+  review: 'draft' | 'fact-checked';
+  summary: string;
+  keyPoints: string[];
+  sections: PointSection[];
+  provisions: Provision[];
+  bankNotes: string[];
+}
+
 // Same shape as a banking stage; `itAngle` holds the engineering angle,
 // `virtualBankNotes` the notes for a bank or fintech and `productNotes` what
 // product counsel asks and tells the product team.
@@ -87,6 +99,7 @@ export type SwStage = Omit<BankingStage, 'phase'> & {
   phase: SwPhase;
   productNotes?: string[];
   elsewhere?: ElsewhereNote[];
+  hongKong?: HongKongBlock;
   licenceKit?: LicenceKit;
 };
 
@@ -116,12 +129,14 @@ export const SW_PHASES: Record<SwPhase, { label: string; tone: Tone }> = {
 };
 
 // Tabs of a stage view, in order; the first is the default (no hash suffix).
-export const SW_TABS = ['essentials', 'provisions', 'finder', 'review', 'checklist', 'notes', 'glossary'] as const;
+export const SW_TABS = ['essentials', 'provisions', 'hongkong', 'finder', 'review', 'checklist', 'notes', 'glossary'] as const;
 export type SwTab = (typeof SW_TABS)[number];
 
-// How the legal force of a US source is explained.
+// How the legal force of a source is explained (US sources, and the Hong Kong
+// ordinances on each stage's Hong Kong tab).
 export const SW_STRENGTH_TITLES: Partial<Record<Strength, string>> = {
-  statute: 'An Act of Congress, a federal regulation or a state statute: binding, with remedies or penalties for breach',
+  statute:
+    'An Act of Congress, a federal regulation, a state statute or a Hong Kong ordinance: binding, with remedies or penalties for breach',
   'case-law': 'A court judgment: binding on the points it decides in that court’s jurisdiction, subject to appeal and later cases',
   'agency-guidance':
     'Guidance or a report from a US agency (Copyright Office, USPTO, NIST, CISA, OMB, the bank regulators): how the agency applies the law, not law in itself',

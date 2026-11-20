@@ -11,6 +11,7 @@ import {
   Landmark,
   Lightbulb,
   ListChecks,
+  MapPin,
   Scale,
   SearchCheck,
   TriangleAlert,
@@ -41,6 +42,7 @@ import { NextTab, TabPanel, Tabs, tabsTopId, type TabDef } from '../ui/Tabs';
 import { OnboardingKit } from '../banking/OnboardingKit';
 import { BankingModuleProvider } from '../banking/ModuleContext';
 import { StatuteLookupProvider } from '../banking/Sources';
+import { HongKongTab } from './HongKongTab';
 import { LicenceFinder } from './LicenceFinder';
 
 // The shared tools keep their state under this volume's prefix and explain
@@ -76,7 +78,13 @@ interface Props {
   onToggle: (i: number) => void;
 }
 
-/** What differs in the EU, the UK, Hong Kong and Canada, one block per place. */
+/** "the EU, the UK and Canada": the places a stage's notes cover, in order. */
+function placeList(names: string[]): string {
+  const short = names.map((n) => (n === 'European Union' ? 'the EU' : n === 'United Kingdom' ? 'the UK' : n));
+  return short.length > 1 ? `${short.slice(0, -1).join(', ')} and ${short[short.length - 1]}` : short[0] ?? '';
+}
+
+/** What differs in the EU, the UK and Canada (Hong Kong has its own tab), one block per place. */
 function Elsewhere({ stage, idBase }: { stage: Stage; idBase: string }) {
   if (!stage.elsewhere?.length) return null;
   return (
@@ -87,7 +95,7 @@ function Elsewhere({ stage, idBase }: { stage: Stage; idBase: string }) {
         </span>
         <div>
           <h3 className="text-[15px] font-semibold leading-tight">{NOTE_CARDS.elsewhere.label}</h3>
-          <p className="text-xs opacity-80">Where the EU, the UK, Hong Kong and Canada part from US law</p>
+          <p className="text-xs opacity-80">Where {placeList(stage.elsewhere.map((e) => PLACES[e.place]))} part from US law</p>
         </div>
       </div>
       <div className="divide-y divide-line bg-panel">
@@ -119,6 +127,9 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
   const tabs: (TabDef & { id: SwTab })[] = [
     { id: 'essentials', label: 'Essentials', short: tool ? 'Basics' : undefined, icon: BookOpen },
     { id: 'provisions', label: 'Provisions', short: 'Law', icon: Scale, count: stage.provisions.length },
+    ...(stage.hongKong
+      ? [{ id: 'hongkong' as const, label: 'Hong Kong', short: 'HK', icon: MapPin, count: stage.hongKong.provisions.length }]
+      : []),
     ...(stage.licenceKit
       ? [{ id: 'finder' as const, label: 'Licence finder', short: 'Finder', icon: SearchCheck, count: stage.licenceKit.licences.length }]
       : []),
@@ -199,6 +210,12 @@ export function SwStage({ stage, total, prev, next, onNavigate, tab, onTabChange
                 idOf={(p) => provisionUnitId(stage.id, p)}
                 note="Statute cards include the text of the U.S. Code (GovInfo's annual edition) or the state code; licence cards include the licence text from the SPDX License List. Agency guidance and cases are summarised in our own words, with a link where there is one."
               />
+            </TabPanel>
+          )}
+
+          {tab === 'hongkong' && stage.hongKong && (
+            <TabPanel idBase={idBase} id="hongkong">
+              <HongKongTab stageId={stage.id} idBase={idBase} hk={stage.hongKong} askFor={askFor} />
             </TabPanel>
           )}
 

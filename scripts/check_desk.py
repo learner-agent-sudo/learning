@@ -52,6 +52,23 @@ def sources(st: dict) -> list[tuple[str, str]]:
         for t in d.get("points", []):
             add(u, t)
         add(u, d.get("takeaway"))
+    hk = st.get("hongKong")
+    if hk:
+        add(f"{b}-hk-key", hk.get("summary"))
+        for t in hk.get("keyPoints", []):
+            add(f"{b}-hk-key", t)
+        for i, d in enumerate(hk.get("sections", [])):
+            u = f"{b}-hk-s{i + 1}"
+            add(u, d.get("lede"))
+            for t in d.get("points", []):
+                add(u, t)
+            add(u, d.get("takeaway"))
+        for p in hk.get("provisions", []):
+            u = f"{b}-prov-{slug(p['instrument'] + ' ' + p['ref'])}"
+            add(u, p.get("summary"))
+            add(u, p.get("counselNote"))
+        for t in hk.get("bankNotes", []):
+            add(f"{b}-hk-bank", t)
     for key, field in (("engineering", "itAngle"), ("bank", "virtualBankNotes"), ("product", "productNotes")):
         for t in st.get(field) or []:
             add(f"{b}-{key}", t)

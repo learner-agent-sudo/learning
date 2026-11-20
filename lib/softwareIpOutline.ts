@@ -1,7 +1,7 @@
 import type { SwStage } from './softwareIp';
 import { PLACES } from './softwareIp';
 import { BANK_SECTION, onboardPhaseId } from './bankingOutline';
-import { essentialsSections, tab, type OutlineTab } from './outline';
+import { essentialsSections, sectionId, tab, type OutlineTab } from './outline';
 import { kitLabels } from './onboardingExport';
 import { FINDER_SECTION } from '@/components/software-ip/LicenceFinder';
 
@@ -12,6 +12,16 @@ export const SW_NOTE_CARDS = {
   elsewhere: { key: 'elsewhere', label: 'What differs elsewhere' },
   pitfalls: { key: 'pitfalls', label: 'Common pitfalls' },
 } as const;
+
+// The Hong Kong tab's blocks; sections are `${idBase}-hk-s1` and so on.
+export const SW_HK = {
+  prefix: 'hk',
+  key: { key: 'hk-key', label: 'Hong Kong in 30 seconds' },
+  provisions: { key: 'hk-provisions', label: 'Hong Kong provisions' },
+  bank: { key: 'hk-bank', label: 'For a Hong Kong bank' },
+} as const;
+
+export const swHkPrefix = (stageId: string) => `${swIdBase(stageId)}-${SW_HK.prefix}`;
 
 export const swIdBase = (stageId: string) => `sw-${stageId}`;
 
@@ -36,6 +46,16 @@ export function swOutline(stage: SwStage): OutlineTab[] {
   return [
     tab('essentials', 'Essentials', essentialsSections(idBase, stage)),
     tab('provisions', 'Provisions'),
+    ...(stage.hongKong
+      ? [
+          tab('hongkong', 'Hong Kong', [
+            { id: `${idBase}-${SW_HK.key.key}`, label: SW_HK.key.label },
+            ...stage.hongKong.sections.map((d, i) => ({ id: sectionId(swHkPrefix(stage.id), i), label: d.heading, mark: `§${i + 1}` })),
+            ...(stage.hongKong.provisions.length ? [{ id: `${idBase}-${SW_HK.provisions.key}`, label: SW_HK.provisions.label }] : []),
+            ...(stage.hongKong.bankNotes.length ? [{ id: `${idBase}-${SW_HK.bank.key}`, label: SW_HK.bank.label }] : []),
+          ]),
+        ]
+      : []),
     ...(stage.licenceKit
       ? [
           tab('finder', 'Licence finder', [

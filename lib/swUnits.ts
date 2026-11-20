@@ -3,7 +3,7 @@
 // quote that no longer matches the stage text fails the build.
 
 import { PLACES, SW_STAGES, type SwStage } from './softwareIp';
-import { SW_NOTE_CARDS as N, swIdBase } from './softwareIpOutline';
+import { SW_HK as HK, SW_NOTE_CARDS as N, swHkPrefix, swIdBase } from './softwareIpOutline';
 import { makeUnit, plainText, type SeenUnit } from './seen';
 
 export const SW_MODULE = 'software-ip';
@@ -43,6 +43,23 @@ export function swSources(stage: SwStage): SwSource[] {
     d.points.forEach((t) => add(u, t));
     add(u, d.takeaway);
   });
+  const hk = stage.hongKong;
+  if (hk) {
+    add(`${b}-${HK.key.key}`, hk.summary);
+    hk.keyPoints.forEach((t) => add(`${b}-${HK.key.key}`, t));
+    hk.sections.forEach((d, i) => {
+      const u = `${swHkPrefix(stage.id)}-s${i + 1}`;
+      add(u, d.lede);
+      d.points.forEach((t) => add(u, t));
+      add(u, d.takeaway);
+    });
+    hk.provisions.forEach((p) => {
+      const u = provisionUnitId(stage.id, p);
+      add(u, p.summary);
+      add(u, p.counselNote);
+    });
+    hk.bankNotes.forEach((t) => add(`${b}-${HK.bank.key}`, t));
+  }
   stage.itAngle.forEach((t) => add(`${b}-${N.eng.key}`, t));
   stage.virtualBankNotes.forEach((t) => add(`${b}-${N.bank.key}`, t));
   (stage.productNotes ?? []).forEach((t) => add(`${b}-${N.product.key}`, t));
@@ -68,6 +85,19 @@ export function swUnits(stage: SwStage): SeenUnit[] {
       makeUnit(`${b}-s${i + 1}`, s, 'essentials', `§${i + 1} ${d.heading}`, [d.heading, d.lede, ...d.points, d.takeaway])
     ),
   ];
+  const hk = stage.hongKong;
+  if (hk) {
+    units.push(makeUnit(`${b}-${HK.key.key}`, s, 'hongkong', HK.key.label, [hk.summary, ...hk.keyPoints]));
+    hk.sections.forEach((d, i) =>
+      units.push(
+        makeUnit(`${swHkPrefix(s)}-s${i + 1}`, s, 'hongkong', `Hong Kong §${i + 1} ${d.heading}`, [d.heading, d.lede, ...d.points, d.takeaway])
+      )
+    );
+    for (const p of hk.provisions) {
+      units.push(makeUnit(provisionUnitId(s, p), s, 'hongkong', `${p.title} (${p.ref})`, [p.title, p.summary, p.counselNote]));
+    }
+    if (hk.bankNotes.length) units.push(makeUnit(`${b}-${HK.bank.key}`, s, 'hongkong', HK.bank.label, hk.bankNotes));
+  }
   if (stage.itAngle.length) units.push(makeUnit(`${b}-${N.eng.key}`, s, 'notes', N.eng.label, stage.itAngle));
   if (stage.virtualBankNotes.length) units.push(makeUnit(`${b}-${N.bank.key}`, s, 'notes', N.bank.label, stage.virtualBankNotes));
   if (stage.productNotes?.length) units.push(makeUnit(`${b}-${N.product.key}`, s, 'notes', N.product.label, stage.productNotes));
