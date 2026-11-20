@@ -16450,6 +16450,1844 @@
     "term": "Feedback clause",
     "definition": "A term in the customer or developer terms that licenses to the company any suggestions or ideas the user sends. It is a common way to manage the risk of a claim that an idea was used for payment (Desny v. Wilder, 46 Cal. 2d 715 (1956), reported; check)."
    }
-  ]
+  ],
+  "reviewKit": {
+   "intro": [
+    "**What this is:** product counsel's checklist for one new feature or product, from the first brief to the weeks after launch: its name, its screens and assets, the code, services and data it is built from, any invention in it, and what ships with it. Each step says what to check, why, who owns it and what goes on the file, with the legal force of each source on its pill.",
+    "**Start with the profile:** say what the feature involves. The list then shows only the steps that apply (a step shows when any option it depends on is picked; steps for every feature always show). Ticks, open issues and notes stay in this browser and go into the downloads.",
+    "**Where it fits:** the open source review on stage 11 covers one component in depth, the release checklist on stage 12 covers publishing code, and the diligence checklist on stage 13 covers buying software or a company. This list is the product-level pass that sends work to them.",
+    "**Model wording:** some steps carry wording to adapt (feedback terms, notices, contract clauses). It is a template to fit to the facts."
+   ],
+   "profile": [
+    {
+     "id": "involves",
+     "label": "What the feature involves",
+     "help": "Pick all that apply.",
+     "options": [
+      {
+       "id": "name",
+       "label": "A new product or feature name",
+       "hint": "Or a new logo, tagline or app store listing"
+      },
+      {
+       "id": "design",
+       "label": "New screens, icons, illustrations or fonts"
+      },
+      {
+       "id": "third-party",
+       "label": "A third-party SDK, API or online service"
+      },
+      {
+       "id": "oss",
+       "label": "Open source code"
+      },
+      {
+       "id": "data",
+       "label": "Data from outside the bank",
+       "hint": "Licensed data, map data, scraped or public web data"
+      },
+      {
+       "id": "ai",
+       "label": "An AI model, or AI-generated code, text or images"
+      },
+      {
+       "id": "ugc",
+       "label": "Content or feedback from customers or partners"
+      }
+     ]
+    },
+    {
+     "id": "novelty",
+     "label": "Anything new and inventive",
+     "options": [
+      {
+       "id": "invention",
+       "label": "A new technical method",
+       "hint": "A new way to detect fraud, route payments or authenticate"
+      },
+      {
+       "id": "disclosure",
+       "label": "A demo, beta, talk or paper before launch"
+      }
+     ]
+    },
+    {
+     "id": "others",
+     "label": "Who else is involved",
+     "options": [
+      {
+       "id": "vendor",
+       "label": "A vendor or contractor builds part of it"
+      },
+      {
+       "id": "partner",
+       "label": "A partner's brand appears in it",
+       "hint": "Co-branding, a wallet or card scheme logo"
+      },
+      {
+       "id": "claims",
+       "label": "Marketing compares it with competitors"
+      }
+     ]
+    },
+    {
+     "id": "reach",
+     "label": "Where it goes",
+     "options": [
+      {
+       "id": "app",
+       "label": "In the bank's mobile app"
+      },
+      {
+       "id": "web",
+       "label": "On a website or customer portal"
+      },
+      {
+       "id": "abroad",
+       "label": "Customers or launches outside the US"
+      }
+     ]
+    }
+   ],
+   "phases": [
+    {
+     "id": "discover",
+     "title": "Idea and naming",
+     "lede": "Catch the IP questions while the feature is still a brief: what it will be called, what is new in it, and who will build it."
+    },
+    {
+     "id": "design",
+     "title": "Design and assets",
+     "lede": "Screens, icons, fonts and images come with their own rights and licences, and a competitor's look is not free to borrow."
+    },
+    {
+     "id": "build",
+     "title": "Code, services, data and AI",
+     "lede": "Most of a feature is built from other people's code, services and data, each on terms that limit what the bank may do."
+    },
+    {
+     "id": "launch",
+     "title": "Launch",
+     "lede": "What ships with the feature: notices, marks, claims and the terms customers accept."
+    },
+    {
+     "id": "after",
+     "title": "After launch",
+     "lede": "Features change, feedback arrives and letters come in. Some of these reopen the review."
+    }
+   ],
+   "items": [
+    {
+     "id": "dis-feature-brief",
+     "phase": "discover",
+     "title": "Triage the feature before any build starts",
+     "detail": [
+      "**Eight questions:** Ask what the feature is called, what assets it uses, which code and services it runs on, what data it reads, whether it uses AI, whether it has a new method, which partners appear in it and what it claims (good practice).",
+      "**Early flags:** Mark each answer that touches IP in the feature brief, so product counsel sees it before the design is fixed (good practice).",
+      "**Approval:** The OCC expects a bank to assess the risks of a new product before launch, through its own approval process (OCC Bulletin 2017-43) (check current status)."
+     ],
+     "owner": [
+      "Product manager",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Feature brief with IP flags",
+      "Names of the people who reviewed it, and the date"
+     ],
+     "sources": [
+      {
+       "label": "OCC Bulletin 2017-43, New, Modified, or Expanded Bank Products and Services",
+       "ref": "20 October 2017",
+       "strength": "agency-guidance",
+       "note": "Check current status before relying on it.",
+       "url": "https://occ.gov/news-issuances/bulletins/2017/bulletin-2017-43.html"
+      },
+      {
+       "label": "Bank product approval practice",
+       "ref": "Good practice",
+       "strength": "good-practice"
+      }
+     ]
+    },
+    {
+     "id": "dis-name-search",
+     "phase": "discover",
+     "when": [
+      "name"
+     ],
+     "title": "Clear the name before it is announced",
+     "detail": [
+      "**Search first:** Run a clearance search on the name, the logo and close variants before any announcement, app store listing or press release (good practice).",
+      "**Use decides rights:** Trademark rights arise from use in commerce, and an unregistered mark is protected under the Lanham Act (15 U.S.C. § 1125(a)).",
+      "**Record:** Keep the search results, the decision and its date on the file (good practice)."
+     ],
+     "owner": [
+      "Trademark counsel",
+      "Product manager",
+      "Marketing"
+     ],
+     "evidence": [
+      "Name clearance note: searches run, results and decision",
+      "Date of the announcement decision"
+     ],
+     "sources": [
+      {
+       "label": "Lanham Act, unfair competition",
+       "ref": "15 U.S.C. § 1125(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1125"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm"
+      },
+      {
+       "label": "Trademark search practice",
+       "ref": "Good practice",
+       "strength": "good-practice"
+      }
+     ]
+    },
+    {
+     "id": "dis-intent-to-use",
+     "phase": "discover",
+     "when": [
+      "name"
+     ],
+     "title": "File an intent-to-use application before the name is public",
+     "detail": [
+      "**Who may file:** A bank with a bona fide intention to use a mark in commerce may file an intent-to-use application (15 U.S.C. § 1051(b)(1)).",
+      "**Priority:** A filing to register gives nationwide priority from its date, but only if the mark registers, and it does not run against anyone who used or applied for the mark first (15 U.S.C. § 1057(c)).",
+      "**No ® yet:** No mark is registered until a verified statement of use is accepted (15 U.S.C. § 1051(d)), so the ® symbol waits for registration (USPTO TMEP § 906.02) (reported; check)."
+     ],
+     "owner": [
+      "Trademark counsel",
+      "Product manager"
+     ],
+     "evidence": [
+      "Intent-to-use filing receipt and date",
+      "Calendar entry for the statement of use deadline"
+     ],
+     "sources": [
+      {
+       "label": "Lanham Act, application based on intent to use",
+       "ref": "15 U.S.C. § 1051(b)(1), (d)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1051"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm"
+      },
+      {
+       "label": "Lanham Act, constructive use",
+       "ref": "15 U.S.C. § 1057(c)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1057"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm"
+      }
+     ]
+    },
+    {
+     "id": "dis-partner-marks",
+     "phase": "discover",
+     "when": [
+      "partner"
+     ],
+     "title": "Use a partner's mark only within its brand rules",
+     "detail": [
+      "**Brand rules first:** Get the partner's logo rules and approval steps in writing before any mock-up goes out (good practice).",
+      "**Nominative fair use:** Naming a partner's card or wallet is nominative fair use only where the product cannot be identified without the mark, only as much of the mark as needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)) (Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)).",
+      "**Logo lockups:** A combined logo suggests affiliation, so get written consent for it rather than relying on a reference (drafting inference)."
+     ],
+     "owner": [
+      "Partner manager",
+      "Trademark counsel",
+      "Marketing"
+     ],
+     "evidence": [
+      "Partner brand guide and approval record",
+      "Written consent for any logo lockup"
+     ],
+     "sources": [
+      {
+       "label": "New Kids on the Block v. News America Publishing",
+       "ref": "971 F.2d 302 (9th Cir. 1992)",
+       "strength": "case-law",
+       "url": "https://www.courtlistener.com/c/f2d/971/302/"
+      },
+      {
+       "label": "Toyota Motor Sales v. Tabari",
+       "ref": "610 F.3d 1171 (9th Cir. 2010)",
+       "strength": "case-law"
+      }
+     ]
+    },
+    {
+     "id": "dis-claims-comparison",
+     "phase": "discover",
+     "when": [
+      "claims"
+     ],
+     "title": "Check every comparison with a competitor before it is drafted",
+     "detail": [
+      "**False advertising:** A rival that is or is likely to be damaged may sue over a misstatement of a product's nature, qualities or characteristics in advertising (15 U.S.C. § 1125(a)(1)(B)). The rival must fall within the statute's zone of interests, an injury to a commercial interest in reputation or sales (Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
+      "**Naming a rival:** Naming a rival's product in a comparison needs the same care as a partner mark: only the name needed, and no suggestion of sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)) (drafting inference).",
+      "**Proof:** Keep the test data, the source of each figure and the date it was measured, so the claim can be defended (good practice)."
+     ],
+     "owner": [
+      "Marketing",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Substantiation file for each claim",
+      "Approval record for the comparison"
+     ],
+     "sources": [
+      {
+       "label": "Lanham Act, false advertising",
+       "ref": "15 U.S.C. § 1125(a)(1)(B)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1125"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm"
+      },
+      {
+       "label": "Lexmark International v. Static Control Components",
+       "ref": "572 U.S. 118 (2014)",
+       "strength": "case-law",
+       "url": "https://www.courtlistener.com/c/us/572/118/"
+      }
+     ]
+    },
+    {
+     "id": "dis-invention-disclosure",
+     "phase": "discover",
+     "when": [
+      "invention",
+      "disclosure"
+     ],
+     "title": "Disclose an invention to patent counsel before any demo, beta or talk",
+     "detail": [
+      "**Before the demo:** Record each new method and send an invention disclosure to patent counsel before any demo, beta, talk or paper (good practice).",
+      "**US grace period:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if it was made one year or less before filing, subject to the conditions in § 102(b)(1)(B) (35 U.S.C. § 102(b)(1)(A)).",
+      "**Who is the inventor:** Name the people who conceived each claim. An AI system cannot be an inventor (35 U.S.C. § 100(f); Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022))."
+     ],
+     "owner": [
+      "Product manager",
+      "Engineering lead",
+      "Patent counsel"
+     ],
+     "evidence": [
+      "Invention disclosure with dates and contributors",
+      "Date of the first public demo, beta or talk"
+     ],
+     "sources": [
+      {
+       "label": "Patent Act, prior art and inventor's disclosures",
+       "ref": "35 U.S.C. § 102(b)(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "102"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      },
+      {
+       "label": "Patent Act, inventor",
+       "ref": "35 U.S.C. § 100(f)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "100"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      },
+      {
+       "label": "Thaler v. Vidal",
+       "ref": "43 F.4th 1207 (Fed. Cir. 2022)",
+       "strength": "case-law"
+      }
+     ]
+    },
+    {
+     "id": "dis-provisional-filing",
+     "phase": "discover",
+     "when": [
+      "invention"
+     ],
+     "title": "Consider a provisional application to fix the filing date",
+     "detail": [
+      "**Low bar:** A provisional application needs no claims (35 U.S.C. § 111(b)(2)).",
+      "**Deadline:** The application is regarded as abandoned 12 months after filing unless it is converted, and a later application that claims its benefit gets its date, if filed within 12 months (35 U.S.C. § 111(b)(5); § 119(e)(1)) (reported; check).",
+      "**Timing:** The filing date is only as good as the disclosures before it: a public demo starts the one-year grace clock (35 U.S.C. § 102(b)(1)(A)) (drafting inference)."
+     ],
+     "owner": [
+      "Patent counsel"
+     ],
+     "evidence": [
+      "Provisional filing receipt and date",
+      "Conversion deadline entered on the docket"
+     ],
+     "sources": [
+      {
+       "label": "Patent Act, provisional application",
+       "ref": "35 U.S.C. § 111(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "111"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      }
+     ]
+    },
+    {
+     "id": "dis-foreign-grace",
+     "phase": "discover",
+     "when": [
+      "invention",
+      "abroad"
+     ],
+     "title": "Check the grace period in each market before a disclosure",
+     "detail": [
+      "**EU and UK:** A six-month window applies in both, but only for narrow cases: evident abuse or an official exhibition under the European Patent Convention (Art. 55(1)), and in the UK, matter obtained unlawfully or in breach of confidence as well (Patents Act 1977 s.2(4)) (reported; check).",
+      "**Hong Kong:** A disclosure within six months is disregarded only for evident abuse or an official exhibition, under the same two conditions in standard and short-term applications (Cap. 514 s.37B and s.109).",
+      "**Canada:** A disclosure by the applicant in the year before filing is not prior art, so the bank's own early demo does not count against it (Patent Act s.28.2(1)(a))."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Product manager"
+     ],
+     "evidence": [
+      "Market list for each launch and demo date",
+      "Patent counsel's grace period note for each market"
+     ],
+     "sources": [
+      {
+       "label": "Patents Ordinance, Cap. 514",
+       "ref": "s.37B, s.109",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "37B"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
+      },
+      {
+       "label": "Patent Act (Canada)",
+       "ref": "s.28.2(1)(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "P-4",
+         "section": "28.2"
+        }
+       ],
+       "url": "https://laws-lois.justice.gc.ca/eng/acts/P-4/section-28.2.html"
+      },
+      {
+       "label": "European Patent Convention",
+       "ref": "Art. 54, 55(1)",
+       "strength": "statute",
+       "note": "Reported; check.",
+       "url": "https://www.ippt.eu/legal-texts/european-patent-convention/article-55"
+      }
+     ]
+    },
+    {
+     "id": "dis-vendor-scope",
+     "phase": "discover",
+     "when": [
+      "vendor"
+     ],
+     "title": "Agree who owns vendor-built work before the work starts",
+     "detail": [
+      "**Signed writing:** A transfer of copyright needs a signed writing, so code a vendor writes without one may still belong to the vendor (17 U.S.C. § 204(a)).",
+      "**Scope:** Name the deliverables, the vendor's pre-existing code and any open source it brings in, and require a list of both (good practice).",
+      "**Inventions:** Patent assignments need their own written instrument (35 U.S.C. § 261) (drafting inference)."
+     ],
+     "owner": [
+      "Procurement",
+      "Product counsel",
+      "Engineering lead"
+     ],
+     "evidence": [
+      "Signed assignment or licence clause",
+      "Schedule of deliverables, pre-existing code and open source"
+     ],
+     "wording": [
+      "The vendor assigns to the bank all rights in the deliverables it creates for the bank under this agreement, with effect from creation, and will sign any document the bank needs to record that assignment. The vendor lists any pre-existing code and open source it includes in the deliverables."
+     ],
+     "sources": [
+      {
+       "label": "Copyright Act, transfers",
+       "ref": "17 U.S.C. § 204(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "204"
+        }
+       ],
+       "url": "https://www.law.cornell.edu/uscode/text/17/204"
+      },
+      {
+       "label": "Patent Act, assignments",
+       "ref": "35 U.S.C. § 261",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "261"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      }
+     ]
+    },
+    {
+     "id": "des-screen-copyright",
+     "phase": "design",
+     "when": [
+      "design"
+     ],
+     "title": "Know what copyright protects in a screen",
+     "detail": [
+      "**Expression only:** Copyright covers the creative expression in a screen, not the idea, method or function it serves (17 U.S.C. § 102(b)).",
+      "**Menus and command structures:** The First Circuit held that the Lotus 1-2-3 menu command hierarchy is an uncopyrightable method of operation (Lotus Development Corp. v. Borland International, 49 F.3d 807 (1st Cir. 1995)) (reported; check).",
+      "**Filtering:** Courts filter out unprotectable and licensed interface elements before comparing what remains, which gives the rest only thin protection against near-verbatim copying (Apple Computer v. Microsoft, 35 F.3d 1435 (9th Cir. 1994)) (reported; check)."
+     ],
+     "owner": [
+      "Design lead",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Design files with the author and date of each screen element",
+      "Reference list of competitor screens reviewed, with the reason"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Act, subject matter",
+       "ref": "17 U.S.C. § 102(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "102"
+        }
+       ],
+       "url": "https://www.law.cornell.edu/uscode/text/17/102"
+      },
+      {
+       "label": "Lotus Development Corp. v. Borland International",
+       "ref": "49 F.3d 807 (1st Cir. 1995)",
+       "strength": "case-law",
+       "note": "Reported; check.",
+       "url": "https://en.wikipedia.org/wiki/Lotus_Development_Corp._v._Borland_International,_Inc."
+      },
+      {
+       "label": "Apple Computer v. Microsoft",
+       "ref": "35 F.3d 1435 (9th Cir. 1994)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "des-trade-dress",
+     "phase": "design",
+     "when": [
+      "design"
+     ],
+     "title": "Do not copy a competitor's look",
+     "detail": [
+      "**Secondary meaning:** Product design is protected as unregistered trade dress only on proof of secondary meaning (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000)) (reported; check).",
+      "**Function:** A functional feature cannot be trade dress (TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)), and for unregistered dress the claimant must prove the dress is not functional (15 U.S.C. § 1125(a)(3)) (reported; check).",
+      "**Independent work:** A rival's distinctive look is a risk even when the bank designs independently, so compare the design with the rival's screens before design review (good practice)."
+     ],
+     "owner": [
+      "Design lead",
+      "Trademark counsel"
+     ],
+     "evidence": [
+      "Comparison of the design with named competitor screens",
+      "Record of who approved the final look"
+     ],
+     "sources": [
+      {
+       "label": "Lanham Act, trade dress and functionality",
+       "ref": "15 U.S.C. § 1125(a)(3)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1125"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm"
+      },
+      {
+       "label": "Wal-Mart Stores v. Samara Brothers",
+       "ref": "529 U.S. 205 (2000)",
+       "strength": "case-law"
+      },
+      {
+       "label": "TrafFix Devices v. Marketing Displays",
+       "ref": "532 U.S. 23 (2001)",
+       "strength": "case-law",
+       "url": "https://caselaw.findlaw.com/court/us-supreme-court/532/23.html"
+      }
+     ]
+    },
+    {
+     "id": "des-icon-design-patent",
+     "phase": "design",
+     "when": [
+      "design"
+     ],
+     "title": "Consider a design patent for a distinctive screen icon",
+     "detail": [
+      "**What it covers:** A design patent can protect the ornamental design of a computer-generated icon or interface shown on a display screen (35 U.S.C. § 171) (reported; check).",
+      "**Term:** The term is 15 years from grant for applications filed on or after 13 May 2015 (35 U.S.C. § 173) (reported; check).",
+      "**Drawings:** USPTO supplemental guidance from 13 March 2026 no longer requires the display screen to be drawn in broken lines where the title and claim name the article (Federal Register doc. 2026-04987) (reported; check). Check the drawing rules before filing."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Design lead"
+     ],
+     "evidence": [
+      "Drawings of the icon as shown on the screen",
+      "Filing decision, and the date the icon first appeared in public"
+     ],
+     "sources": [
+      {
+       "label": "Patent Act, design patents",
+       "ref": "35 U.S.C. § 171",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "171"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      },
+      {
+       "label": "USPTO supplemental design patent guidance",
+       "ref": "Federal Register doc. 2026-04987",
+       "strength": "agency-guidance",
+       "note": "Reported; check.",
+       "url": "https://public-inspection.federalregister.gov/2026-04987.pdf"
+      }
+     ]
+    },
+    {
+     "id": "des-fonts",
+     "phase": "design",
+     "when": [
+      "design"
+     ],
+     "title": "Check the font licence before the font ships",
+     "detail": [
+      "**Typeface and software:** A typeface as such is not copyright subject matter in the US (37 C.F.R. § 202.1(e)) (reported; check), but original font software can be registered as a literary work (Compendium (Third) § 723) (reported; check).",
+      "**Open Font License:** The bank may use, embed and bundle the font, but the font software cannot be sold alone, a modified version may not use a Reserved Font Name without permission, and redistributed font software must stay under the licence (OFL-1.1 conditions 1, 3 and 5).",
+      "**Output:** Documents and screens made with the font are not subject to the licence (OFL-1.1, Permission and Conditions)."
+     ],
+     "owner": [
+      "Design lead",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Font register: name, licence, version and source",
+      "Licence text kept with the design system"
+     ],
+     "sources": [
+      {
+       "label": "SIL Open Font License 1.1",
+       "ref": "Permission and Conditions",
+       "strength": "licence",
+       "cites": [
+        {
+         "cap": "OFL-1.1",
+         "section": "full text"
+        }
+       ]
+      },
+      {
+       "label": "Copyright Office rule on typefaces",
+       "ref": "37 C.F.R. § 202.1(e)",
+       "strength": "agency-guidance",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "des-stock-images",
+     "phase": "design",
+     "when": [
+      "design"
+     ],
+     "title": "Check the scope of each stock image licence",
+     "detail": [
+      "**Scope:** Check that the licence covers each use the bank needs: the app, the website, print, advertising and any template or resale use (good practice).",
+      "**People and marks:** Recognisable people and logos in a picture need their own releases and clearance, even when the picture is licensed (good practice).",
+      "**Record:** Keep the licence, the asset ID and the campaign it was used in, so a renewal or takedown can be answered quickly (good practice)."
+     ],
+     "owner": [
+      "Marketing",
+      "Design lead"
+     ],
+     "evidence": [
+      "Licence register: asset, licensor, scope and term",
+      "Usage record for each campaign"
+     ],
+     "sources": [
+      {
+       "label": "Stock image licence terms",
+       "ref": "Licensor's standard terms",
+       "strength": "good-practice",
+       "note": "Terms vary by provider; read the licence for each asset."
+      }
+     ]
+    },
+    {
+     "id": "des-ai-images",
+     "phase": "design",
+     "when": [
+      "design",
+      "ai"
+     ],
+     "title": "Record the human contribution in AI-generated images",
+     "detail": [
+      "**Registration:** Copyright Office guidance of 16 March 2023 asks applicants to disclose AI-generated material that is more than de minimis, explain the human contribution and exclude the AI material from the claim (88 Fed. Reg. 16190) (reported; check).",
+      "**Output terms:** Read the image tool's terms on who owns the output and what the vendor will defend, and note any conditions (good practice).",
+      "**Likeness and marks:** A generated image can reproduce a real person, a logo or a stock picture, so screen it like any other asset (drafting inference)."
+     ],
+     "owner": [
+      "Design lead",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Record of the tool, version and prompts used",
+      "Note of the human changes made to each image"
+     ],
+     "wording": [
+      "The bank created this image with [tool]. A person chose the concept, wrote the prompts, selected the output and changed it by [describe changes]. The claim covers the human contributions only and excludes the AI-generated material."
+     ],
+     "sources": [
+      {
+       "label": "Copyright Registration Guidance: Works Containing AI-Generated Material",
+       "ref": "88 Fed. Reg. 16190 (16 Mar. 2023)",
+       "strength": "agency-guidance",
+       "note": "Reported; check.",
+       "url": "https://www.govinfo.gov/content/pkg/FR-2023-03-16/html/2023-05321.htm"
+      },
+      {
+       "label": "Copyright Act, authorship",
+       "ref": "17 U.S.C. § 102(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "102"
+        }
+       ],
+       "url": "https://www.law.cornell.edu/uscode/text/17/102"
+      }
+     ]
+    },
+    {
+     "id": "bld-oss-review",
+     "phase": "build",
+     "when": [
+      "oss"
+     ],
+     "title": "Send open source through the stage 11 review before it is built in",
+     "detail": [
+      "**Route it:** Send each open source component to the open source office before any build uses it (good practice).",
+      "**Trigger:** Most open source licence duties attach on distribution or conveying, so an internal-only feature may carry fewer duties than a shipped one (GPL-3.0 s.0).",
+      "**Online use:** A copyleft licence can attach to a service that users reach over a network, so flag copyleft code in any online feature (drafting inference)."
+     ],
+     "owner": [
+      "Product manager",
+      "Engineering lead",
+      "Open source office"
+     ],
+     "evidence": [
+      "Intake record for each component, with its licence",
+      "Routing decision from the open source office"
+     ],
+     "sources": [
+      {
+       "label": "GNU General Public License v3.0",
+       "ref": "s.0",
+       "strength": "licence",
+       "cites": [
+        {
+         "cap": "GPL-3.0-only",
+         "section": "0"
+        }
+       ],
+       "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+      },
+      {
+       "label": "OpenChain (ISO/IEC 5230)",
+       "ref": "ISO/IEC 5230:2020",
+       "strength": "industry-code",
+       "note": "Licence compliance programme standard; good practice."
+      }
+     ]
+    },
+    {
+     "id": "bld-sdk-terms",
+     "phase": "build",
+     "when": [
+      "third-party"
+     ],
+     "title": "Read SDK and API terms before the code ships",
+     "detail": [
+      "**Use limits:** SDK and API terms usually restrict use, caching and data handling, and the provider can change or end them (good practice).",
+      "**Example:** Google Maps Platform terms bar caching of map content except as the service-specific terms allow (Google Maps Platform Terms of Service) (reported; check).",
+      "**Third-party risk:** The guidance covers the whole life cycle of third-party relationships, including contracting (88 Fed. Reg. 37920) (reported; check)."
+     ],
+     "owner": [
+      "Engineering lead",
+      "Procurement",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Terms version and date reviewed",
+      "Record of the caching and data uses in the design"
+     ],
+     "sources": [
+      {
+       "label": "Google Maps Platform Terms of Service",
+       "ref": "EEA version, s.3.2.3(b)",
+       "strength": "good-practice",
+       "note": "A provider's contract terms: they bind the bank as a licensee.",
+       "url": "https://cloud.google.com/archive/terms/maps-platform/eea-20250604"
+      },
+      {
+       "label": "Interagency Guidance on Third-Party Relationships",
+       "ref": "88 Fed. Reg. 37920 (9 June 2023)",
+       "strength": "agency-guidance",
+       "note": "Reported; check.",
+       "url": "https://www.govinfo.gov/content/pkg/FR-2023-06-09/html/2023-12340.htm"
+      }
+     ]
+    },
+    {
+     "id": "bld-online-terms",
+     "phase": "build",
+     "when": [
+      "third-party"
+     ],
+     "title": "Accept online terms only through a process that shows assent",
+     "detail": [
+      "**Assent:** Online terms bind only where the notice is reasonably conspicuous and the user takes an action that shows assent. Terms behind a link, with no sign-up step, were not enforced (Nguyen v. Barnes & Noble, 763 F.3d 1171 (9th Cir. 2014)) (reported; check).",
+      "**Clickwrap:** A sign-up screen with clear notice was enforced (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017)), while a small notice and a button that does not signal agreement failed (Berman v. Freedom Financial Network, 30 F.4th 849 (9th Cir. 2022)) (reported; check).",
+      "**Who clicks:** Route vendor sign-ups through procurement, so that the person accepting the terms has authority for the bank (good practice)."
+     ],
+     "owner": [
+      "Procurement",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Copy of the terms accepted, with the date and the account that accepted them"
+     ],
+     "sources": [
+      {
+       "label": "Berman v. Freedom Financial Network",
+       "ref": "30 F.4th 849 (9th Cir. 2022)",
+       "strength": "case-law",
+       "note": "Reported; check.",
+       "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/20-16900/20-16900-2022-04-05.html"
+      },
+      {
+       "label": "Nguyen v. Barnes & Noble; Meyer v. Uber Technologies",
+       "ref": "763 F.3d 1171 (9th Cir. 2014); 868 F.3d 66 (2d Cir. 2017)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "bld-scraping",
+     "phase": "build",
+     "when": [
+      "data"
+     ],
+     "title": "Do not scrape a site without its terms and the CFAA in view",
+     "detail": [
+      "**CFAA:** Exceeding authorised access means obtaining information from areas of a computer that are off limits, not misusing data one is entitled to reach (Van Buren v. United States, 593 U.S. 374 (2021)) (reported; check).",
+      "**No safe harbour:** Scraping public pages was held likely not to be access without authorisation (hiQ Labs v. LinkedIn, 31 F.4th 1180 (9th Cir. 2022)), but the case then ended in a contract finding and a settlement with a permanent injunction (reported; check).",
+      "**Decision:** Use an approved data supplier or a licence where one exists, and get counsel's sign-off before any scraper goes live (good practice)."
+     ],
+     "owner": [
+      "Data engineering",
+      "Product counsel",
+      "Privacy"
+     ],
+     "evidence": [
+      "Source list with the terms reviewed and the date",
+      "Counsel sign-off for each scraper"
+     ],
+     "sources": [
+      {
+       "label": "Van Buren v. United States",
+       "ref": "593 U.S. 374 (2021)",
+       "strength": "case-law",
+       "note": "Reported; check.",
+       "url": "https://supreme.justia.com/cases/federal/us/593/19-783/"
+      },
+      {
+       "label": "hiQ Labs v. LinkedIn",
+       "ref": "31 F.4th 1180 (9th Cir. 2022)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "bld-licensed-data",
+     "phase": "build",
+     "when": [
+      "data"
+     ],
+     "title": "Check the licence on map and database data",
+     "detail": [
+      "**Share-alike:** A public derivative database must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4) (reported; check).",
+      "**Produced works:** A rendered map or text made from the database needs only an attribution notice (ODbL-1.0 s.4.3), but publicly using such a work can also count as publicly using the derivative database (reported; check).",
+      "**Contract limits:** Where no database right or copyright applies, a contract can still limit use (Ryanair v PR Aviation, Case C-30/14 (CJEU 2015)) (reported; check)."
+     ],
+     "owner": [
+      "Product manager",
+      "Data engineering",
+      "Product counsel"
+     ],
+     "evidence": [
+      "Data licence register: source, licence, attribution text and share-alike check"
+     ],
+     "sources": [
+      {
+       "label": "Open Data Commons Open Database License 1.0",
+       "ref": "ss.4.3, 4.4",
+       "strength": "licence",
+       "cites": [
+        {
+         "cap": "ODbL-1.0",
+         "section": "full text"
+        }
+       ],
+       "url": "https://spdx.org/licenses/ODbL-1.0.html"
+      },
+      {
+       "label": "Ryanair v PR Aviation",
+       "ref": "Case C-30/14 (CJEU, 15 January 2015)",
+       "strength": "case-law",
+       "note": "Reported; check.",
+       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62014CJ0030"
+      }
+     ]
+    },
+    {
+     "id": "bld-ai-models",
+     "phase": "build",
+     "when": [
+      "ai"
+     ],
+     "title": "Read the model licence as a contract",
+     "detail": [
+      "**User threshold:** Meta's Llama 4 Community License needs a separate licence from Meta if the licensee had more than 700 million monthly active users in the preceding calendar month, and the licensee may not use the rights until Meta grants it (Llama 4 Community License Agreement, s.2).",
+      "**Branding:** Where Llama materials or derivatives are distributed or made available, 'Built with Llama' must be prominently displayed on a related website, user interface or product documentation (Llama 4 Community License Agreement, s.1.b.i).",
+      "**Output and use limits:** A model licence can set user thresholds and restrict outputs, so check the terms for each use before launch (good practice)."
+     ],
+     "owner": [
+      "Product manager",
+      "Product counsel",
+      "Engineering lead"
+     ],
+     "evidence": [
+      "Model licence, version and date reviewed",
+      "Threshold and branding check, with the result"
+     ],
+     "sources": [
+      {
+       "label": "Llama 4 Community License Agreement",
+       "ref": "s.2, s.1.b.i",
+       "strength": "licence",
+       "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/LICENSE"
+      }
+     ]
+    },
+    {
+     "id": "bld-ai-code-authorship",
+     "phase": "build",
+     "when": [
+      "ai"
+     ],
+     "title": "Keep a record of human authorship in AI-assisted code",
+     "detail": [
+      "**Authorship:** The D.C. Circuit held that registration requires human authorship (Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025); 17 U.S.C. § 102(a)). The bank should therefore document its own contribution (drafting inference).",
+      "**Copies:** An AI tool can reproduce licensed code word for word. The copy keeps its licence, so shipping it brings that licence's conditions with it, and removing notices can engage 17 U.S.C. § 1202(b) (drafting inference).",
+      "**Training data:** Early decisions point in different directions on whether training is fair use, and building a library from pirated copies is treated differently from training on lawfully acquired works (17 U.S.C. § 107)."
+     ],
+     "owner": [
+      "Engineering lead",
+      "Product counsel",
+      "Open source office"
+     ],
+     "evidence": [
+      "Record of which code an AI tool wrote or changed",
+      "Licence scan of AI-suggested snippets"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Act, authorship",
+       "ref": "17 U.S.C. § 102(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "102"
+        }
+       ],
+       "url": "https://www.law.cornell.edu/uscode/text/17/102"
+      },
+      {
+       "label": "Copyright Act, copyright management information",
+       "ref": "17 U.S.C. § 1202(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "1202"
+        }
+       ],
+       "url": "https://www.law.cornell.edu/uscode/text/17/1202"
+      },
+      {
+       "label": "Copyright Act, fair use",
+       "ref": "17 U.S.C. § 107",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "107"
+        }
+       ],
+       "url": "https://www.law.cornell.edu/uscode/text/17/107"
+      },
+      {
+       "label": "Thaler v. Perlmutter",
+       "ref": "130 F.4th 1039 (D.C. Cir. 2025)",
+       "strength": "case-law"
+      }
+     ]
+    },
+    {
+     "id": "bld-freedom-to-operate",
+     "phase": "build",
+     "when": [
+      "invention"
+     ],
+     "title": "Run a freedom-to-operate check before a new method ships",
+     "detail": [
+      "**Scope:** Check whether the new method may infringe a patent held by others by reading the claims, not only by confirming that the bank invented the method (good practice).",
+      "**Enhanced damages:** Courts may award enhanced damages, up to three times, in egregious cases of culpable, typically subjective, wilful infringement (35 U.S.C. § 284; Halo Electronics v. Pulse Electronics, 579 U.S. 93 (2016)) (reported; check).",
+      "**Opinions:** Failing to obtain or present advice of counsel cannot by itself prove wilful infringement (35 U.S.C. § 298), but relying on an opinion can still waive privilege, and courts may consider the omission when setting enhanced damages (drafting inference)."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Product manager"
+     ],
+     "evidence": [
+      "Freedom-to-operate note with the claims checked and the date",
+      "Decision on any opinion of counsel and who holds it"
+     ],
+     "sources": [
+      {
+       "label": "Patent Act, damages",
+       "ref": "35 U.S.C. § 284",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "284"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      },
+      {
+       "label": "Patent Act, advice of counsel",
+       "ref": "35 U.S.C. § 298",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "298"
+        }
+       ],
+       "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      },
+      {
+       "label": "Halo Electronics v. Pulse Electronics",
+       "ref": "579 U.S. 93 (2016)",
+       "strength": "case-law",
+       "note": "Reported; check.",
+       "url": "https://www.oyez.org/cases/2015/14-1513"
+      }
+     ]
+    },
+    {
+     "id": "fl-name-marks",
+     "phase": "launch",
+     "title": "Clear the name and any partner mark before the announcement",
+     "when": [
+      "name",
+      "partner"
+     ],
+     "detail": [
+      "**Clear the name first:** Run a search before the name is announced (good practice). A bona fide intention to use a mark in commerce is enough to file an intent-to-use application (15 U.S.C. § 1051(b)(1)). Filing gives nationwide priority from the filing date, unless someone used the mark or applied for it first (15 U.S.C. § 1057(c)).",
+      "**Use the registration notice correctly:** Use ® only once the mark is registered. A registrant that omits the notice cannot recover profits or damages unless the defendant had actual notice (15 U.S.C. § 1111). Using ® on a mark that is not registered is improper (USPTO TMEP § 906.02; reported; check).",
+      "**Use a partner's mark with care:** A wallet, card scheme or partner logo may name the partner's product, but only as much of the mark as is needed, and nothing may suggest sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)). Follow the partner's brand rules too (good practice)."
+     ],
+     "owner": [
+      "Legal",
+      "Brand and marketing"
+     ],
+     "evidence": [
+      "Search results and the filing decision, with dates",
+      "Partner's written approval of its logo and brand use"
+     ],
+     "sources": [
+      {
+       "label": "Lanham Act (15 U.S.C.)",
+       "ref": "§ 1051(b)(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1051"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1051&num=0&edition=prelim"
+      },
+      {
+       "label": "Lanham Act (15 U.S.C.)",
+       "ref": "§ 1057(c); § 1111",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1057"
+        },
+        {
+         "cap": "15-USC",
+         "section": "1111"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1111&num=0&edition=prelim"
+      },
+      {
+       "label": "New Kids on the Block v. News America Publishing",
+       "ref": "971 F.2d 302 (9th Cir. 1992)",
+       "strength": "case-law"
+      },
+      {
+       "label": "USPTO Trademark Manual of Examining Procedure",
+       "ref": "§ 906.02",
+       "strength": "agency-guidance",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fl-claims",
+     "phase": "launch",
+     "title": "Support every comparison and performance claim before it is published",
+     "when": [
+      "claims"
+     ],
+     "detail": [
+      "**Keep the evidence:** Keep the test method, the data and the date behind each claim on file before the marketing copy is final (good practice).",
+      "**Comparisons:** A false or misleading statement about a product in commercial advertising can be challenged by a person who is or is likely to be damaged (15 U.S.C. § 1125(a)(1)(B)). The claimant must show an injury to a commercial interest in reputation or sales, and that the statement caused it (Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
+      "**Competitor names:** Comparative advertising is excluded from federal dilution (15 U.S.C. § 1125(c)(3)(A)), but a competitor's name should appear only as far as needed to identify the competitor, and never in a way that suggests the competitor backs the bank's product (good practice)."
+     ],
+     "owner": [
+      "Marketing",
+      "Legal"
+     ],
+     "evidence": [
+      "Substantiation file for each claim, dated",
+      "Approved claims list with the approver named"
+     ],
+     "sources": [
+      {
+       "label": "Lanham Act (15 U.S.C.)",
+       "ref": "§ 1125(a)(1)(B), (c)(3)(A)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "15-USC",
+         "section": "1125"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1125&num=0&edition=prelim"
+      },
+      {
+       "label": "Lexmark International v. Static Control Components",
+       "ref": "572 U.S. 118 (2014)",
+       "strength": "case-law"
+      }
+     ]
+    },
+    {
+     "id": "fl-notices",
+     "phase": "launch",
+     "title": "Ship the notices: the open source screen and the copyright line",
+     "detail": [
+      "**Open source notices:** Ship each licence notice and copyright line that the open source review set for the release, in the app or its documentation. The MIT licence, for example, requires the copyright notice and the permission notice in all copies or substantial portions of the software (MIT full text).",
+      "**Copyright line:** A copyright notice is optional for works published since 1 March 1989, but a proper notice on published copies stops an infringer from relying on innocent infringement to reduce damages (17 U.S.C. § 401(d)). The notice takes three elements: the symbol, the year of first publication and the owner's name (17 U.S.C. § 401(b)).",
+      "**Keep third-party notices:** Removing a licence header or copyright line can engage 17 U.S.C. § 1202(b) where the bank knows, or has reasonable grounds to know, that infringement will follow (drafting inference)."
+     ],
+     "owner": [
+      "Engineering",
+      "Open source office"
+     ],
+     "evidence": [
+      "Notices screen text and the licence list for this release",
+      "Copyright line approved by legal"
+     ],
+     "wording": [
+      "© [year of first publication] [bank's legal name]. All rights reserved."
+     ],
+     "sources": [
+      {
+       "label": "Copyright Act (17 U.S.C.)",
+       "ref": "§ 401(b), (d)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "401"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section401&num=0&edition=prelim"
+      },
+      {
+       "label": "Copyright Act (17 U.S.C.)",
+       "ref": "§ 1202(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "1202"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section1202&num=0&edition=prelim"
+      },
+      {
+       "label": "MIT License",
+       "ref": "Full text",
+       "strength": "licence",
+       "cites": [
+        {
+         "cap": "MIT",
+         "section": "full text"
+        }
+       ],
+       "url": "https://spdx.org/licenses/MIT.html"
+      }
+     ]
+    },
+    {
+     "id": "fl-patent-marks",
+     "phase": "launch",
+     "title": "Mark only what a patent covers, and never with a false patent claim",
+     "when": [
+      "invention"
+     ],
+     "detail": [
+      "**Marking:** Mark an article with a patent number only once an issued patent covers it, either on the article or through a public web address that links the article to the number (35 U.S.C. § 287(a)). Marking an unpatented article with the word 'patent' to deceive the public is prohibited (35 U.S.C. § 292(a)).",
+      "**Wording while pending:** Say 'patent pending' only while an application is pending: marking it when none is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). Add a number only once the patent issues (good practice).",
+      "**Damages and false marking:** A patentee that does not mark loses damages for the period before notice, and filing an infringement action counts as notice (35 U.S.C. § 287(a)). Only the United States may sue for the fine, but a person with a competitive injury may sue for damages (35 U.S.C. § 292(a), (b)). Marking with an expired patent is not a violation (35 U.S.C. § 292(c))."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Product"
+     ],
+     "evidence": [
+      "Marking list for each product, with patent numbers and expiry dates",
+      "Web page for virtual marking, if used"
+     ],
+     "sources": [
+      {
+       "label": "Patent Act (35 U.S.C.)",
+       "ref": "§ 287(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "287"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section287&num=0&edition=prelim"
+      },
+      {
+       "label": "Patent Act (35 U.S.C.)",
+       "ref": "§ 292(a)-(c)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "292"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section292&num=0&edition=prelim"
+      }
+     ]
+    },
+    {
+     "id": "fl-disclosure",
+     "phase": "launch",
+     "title": "File the invention disclosure before any demo, beta or talk",
+     "when": [
+      "disclosure"
+     ],
+     "detail": [
+      "**Disclose first:** Send an invention disclosure to patent counsel before any demo, beta, talk or paper, because a public showing can start the clock on filing (good practice). If a filing is needed quickly, a provisional application needs no claims, but it is regarded as abandoned 12 months after filing unless it is converted (35 U.S.C. § 111(b)(2), (b)(5)).",
+      "**US grace period:** A disclosure made by the inventor one year or less before the effective filing date is not prior art (35 U.S.C. § 102(b)(1)(A)). The grace period is subject to the conditions in § 102(b)(1)(B).",
+      "**Elsewhere the grace is narrow:** Under the European Patent Convention, a disclosure is disregarded only in narrow cases, such as evident abuse or an official exhibition (EPC Art. 54 and 55; reported; check). Hong Kong gives six months only for abuse or official exhibitions (Cap. 514 s.37B and s.109). Canada gives one year for the applicant's own disclosures (Patent Act s.28.2(1)(a))."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Engineering lead"
+     ],
+     "evidence": [
+      "Invention disclosure form, with the date it was received",
+      "Filing decision, including any provisional application"
+     ],
+     "sources": [
+      {
+       "label": "Patent Act (35 U.S.C.)",
+       "ref": "§ 102(b)(1)(A)-(B)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "102"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section102&num=0&edition=prelim"
+      },
+      {
+       "label": "Patent Act (35 U.S.C.)",
+       "ref": "§ 111(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "35-USC",
+         "section": "111"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section111&num=0&edition=prelim"
+      },
+      {
+       "label": "Patents Ordinance (Cap. 514)",
+       "ref": "s.37B; s.109",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "37B"
+        },
+        {
+         "cap": "514",
+         "section": "109"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
+      },
+      {
+       "label": "Patent Act (R.S.C. 1985, c. P-4)",
+       "ref": "s.28.2(1)(a)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "P-4",
+         "section": "28.2"
+        }
+       ],
+       "url": "https://laws-lois.justice.gc.ca/eng/acts/P-4/section-28.2.html"
+      },
+      {
+       "label": "European Patent Convention",
+       "ref": "Art. 54 and 55",
+       "strength": "statute",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fl-terms",
+     "phase": "launch",
+     "title": "Make customers accept the terms through a clear clickwrap step",
+     "when": [
+      "app",
+      "web"
+     ],
+     "detail": [
+      "**Clear notice and assent:** Online terms bind a user only where the notice is reasonably conspicuous and the user takes an action that clearly shows assent. A sign-up step with a visible link and a button that says the user agrees is the usual approach (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017)) (reported; check).",
+      "**Browsewrap risk:** Terms reached only by a link at the foot of a page were not enforced in Nguyen v. Barnes & Noble, 763 F.3d 1171 (9th Cir. 2014) (reported; check). Berman v. Freedom Financial Network, 30 F.4th 849 (9th Cir. 2022), refused to enforce terms where the notice was small and the button did not signal agreement (reported; check).",
+      "**Keep the proof and review changes:** Log the terms version, the date and the screen each customer accepted, and have counsel review any redesign of the sign-up step, since the layout decides whether assent is clear (good practice)."
+     ],
+     "owner": [
+      "Product",
+      "Legal"
+     ],
+     "evidence": [
+      "Screen capture of the acceptance step, dated",
+      "Acceptance log showing the terms version"
+     ],
+     "wording": [
+      "By tapping Agree, you accept the [bank] Terms of Use and Privacy Notice."
+     ],
+     "sources": [
+      {
+       "label": "Nguyen v. Barnes & Noble",
+       "ref": "763 F.3d 1171 (9th Cir. 2014)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      },
+      {
+       "label": "Meyer v. Uber Technologies",
+       "ref": "868 F.3d 66 (2d Cir. 2017)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      },
+      {
+       "label": "Berman v. Freedom Financial Network",
+       "ref": "30 F.4th 849 (9th Cir. 2022)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fl-ugc",
+     "phase": "launch",
+     "title": "Set up a takedown agent and a feedback clause for customer content",
+     "when": [
+      "ugc"
+     ],
+     "detail": [
+      "**Designate an agent:** A hosting service qualifies for the storage safe harbour only if it has designated an agent to receive infringement notices with the Copyright Office (17 U.S.C. § 512(c)(2)). An electronic designation expires three years after registration unless it is renewed, and a lapsed designation loses the safe harbour (37 C.F.R. § 201.38; reported; check).",
+      "**Feedback clause:** Ask customers and partners to accept terms that license their suggestions to the bank. A feedback clause is a common way to manage the risk of a claim for payment for an idea, because California law can enforce such a claim where the recipient knew payment was expected (Desny v. Wilder, 46 Cal. 2d 715 (1956)) (reported; check).",
+      "**Content licence:** Take a licence to host and display customer content, and publish a route for rights holders to give notice (good practice)."
+     ],
+     "owner": [
+      "Legal",
+      "Product"
+     ],
+     "evidence": [
+      "Copyright Office agent designation, with its renewal date",
+      "Feedback and content clause as accepted by users"
+     ],
+     "wording": [
+      "By sending feedback, you give the bank a worldwide, royalty-free right to use it for any purpose, without payment or credit to you."
+     ],
+     "sources": [
+      {
+       "label": "Copyright Act (17 U.S.C.)",
+       "ref": "§ 512(c)(2)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "512"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section512&num=0&edition=prelim"
+      },
+      {
+       "label": "Copyright Office rule (37 C.F.R.)",
+       "ref": "§ 201.38",
+       "strength": "statute",
+       "note": "Reported; check."
+      },
+      {
+       "label": "Desny v. Wilder",
+       "ref": "46 Cal. 2d 715 (1956)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fl-app-store",
+     "phase": "launch",
+     "title": "Check the app store rules before the app is submitted",
+     "when": [
+      "app"
+     ],
+     "detail": [
+      "**Own or licence all content:** Apple's App Review Guidelines say an app should include only content the developer created or has a licence to use, and should not use third-party trademarks, copyrighted works or patented ideas without permission (App Review Guidelines 5.2 and 5.2.1).",
+      "**Right entity submits:** The app should be submitted by the entity that owns or licenses the intellectual property (App Review Guidelines 5.2.1). Name that entity on the listing and in the licence record (good practice).",
+      "**Open source in a store:** The Free Software Foundation holds that store terms conflict with the GPL, because they restrict redistribution that the GPL permits. That is a view, not a court ruling, and VLC was removed from the App Store in January 2011 after a GPL complaint (reported; check)."
+     ],
+     "owner": [
+      "Engineering",
+      "Legal"
+     ],
+     "evidence": [
+      "Submission record with the owning entity named",
+      "Licence check for each open source component in the app, from the open source review"
+     ],
+     "sources": [
+      {
+       "label": "Apple App Review Guidelines",
+       "ref": "§ 5.2 and 5.2.1",
+       "strength": "industry-code",
+       "url": "https://developer.apple.com/app-store/review/guidelines/"
+      },
+      {
+       "label": "Free Software Foundation view on the GPL in app stores",
+       "ref": "View on App Store terms",
+       "strength": "good-practice",
+       "note": "A view, not a ruling. Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fl-abroad",
+     "phase": "launch",
+     "title": "Check marks, notices and filings in each market before a foreign launch",
+     "when": [
+      "abroad"
+     ],
+     "detail": [
+      "**Registration claims:** Falsely representing a mark as registered is an offence in Hong Kong where the person knows, or has reason to believe, the claim is false (Trade Marks Ordinance (Cap. 559) s.94). In the UK, falsely representing a trade mark as registered is an offence (Trade Marks Act 1994 s.95(1)(a); reported; check). Use ® only where the mark is registered in that place.",
+      "**Notice and action:** EU hosting services must run notice and action mechanisms for illegal content, including IP-infringing content, and must tell the notifier whether they acted (Regulation (EU) 2022/2065 Art. 16; reported; check). Hong Kong has a notice-based safe harbour for online service providers (Copyright Ordinance (Cap. 528) ss.88A to 88J).",
+      "**Marks in Canada:** Canada has registered trademarks without prior use since 17 June 2019, so a name cleared only in the US may be taken there first (reported; check; drafting inference). Passing off is prohibited by Trademarks Act s.7(b)."
+     ],
+     "owner": [
+      "Legal",
+      "Local counsel"
+     ],
+     "evidence": [
+      "Clearance note for each market",
+      "Local notice and marking list signed off by counsel"
+     ],
+     "sources": [
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "s.94",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "94"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
+      },
+      {
+       "label": "Copyright Ordinance (Cap. 528)",
+       "ref": "s.88C",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "88C"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
+      },
+      {
+       "label": "Trade Marks Act 1994 (UK)",
+       "ref": "s.95(1)(a)",
+       "strength": "statute",
+       "note": "Reported; check.",
+       "url": "https://www.legislation.gov.uk/ukpga/1994/26/section/95"
+      },
+      {
+       "label": "Regulation (EU) 2022/2065 (Digital Services Act)",
+       "ref": "Art. 16",
+       "strength": "statute",
+       "note": "Reported; check."
+      },
+      {
+       "label": "Trademarks Act (R.S.C. 1985, c. T-13)",
+       "ref": "s.7(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "T-13",
+         "section": "7"
+        }
+       ],
+       "url": "https://laws-lois.justice.gc.ca/eng/acts/T-13/"
+      }
+     ]
+    },
+    {
+     "id": "fl-ai-marking",
+     "phase": "launch",
+     "title": "Mark AI-generated output and keep a record of AI material",
+     "when": [
+      "ai"
+     ],
+     "detail": [
+      "**Machine-readable marking:** Providers of AI systems that generate synthetic audio, image, video or text must mark the outputs in a machine-readable way (Regulation (EU) 2024/1689 Art. 50(2)). The duty applies from 2 August 2026 to new systems, and generative systems already on the market have until 2 December 2026 under the 2026 Digital Omnibus (reported; check the timing).",
+      "**Copyright claims:** The Copyright Office's guidance expects applicants to disclose AI-generated content that is more than de minimis, to explain the human author's contribution, and to exclude that content from the claim (88 Fed. Reg. 16190 (16 March 2023); reported; check).",
+      "**Keep a record of AI material:** Log which screens, icons and images were AI-generated, with the tool used and the person who made the human contribution (good practice)."
+     ],
+     "owner": [
+      "Product",
+      "Legal"
+     ],
+     "evidence": [
+      "Marking method and its test result, for each output type",
+      "Register of AI-generated assets in the feature"
+     ],
+     "sources": [
+      {
+       "label": "Regulation (EU) 2024/1689 (AI Act)",
+       "ref": "Art. 50(2)",
+       "strength": "statute",
+       "note": "Timing reported; check."
+      },
+      {
+       "label": "Copyright Registration Guidance: AI-generated material",
+       "ref": "88 Fed. Reg. 16190 (16 March 2023)",
+       "strength": "agency-guidance",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fa-reopen",
+     "phase": "after",
+     "title": "Reopen the review when a dependency, licence, market or model changes",
+     "detail": [
+      "**Triggers:** Reopen the feature review when a new SDK, API or open source component is added, when an upstream licence changes, when the feature goes to a new market, or when the AI model is swapped (good practice).",
+      "**Route new components:** Send any new open source component through the open source review on stage 11 before it ships, and keep the approval with the release record (good practice).",
+      "**Keep a dated log:** Record each change and the outcome of its review, so the bank can show later who approved what and when (good practice)."
+     ],
+     "owner": [
+      "Product",
+      "Open source office"
+     ],
+     "evidence": [
+      "Change log for the feature, with dates",
+      "Re-review record and outcome for each trigger"
+     ],
+     "sources": [
+      {
+       "label": "OpenChain (ISO/IEC 5230)",
+       "ref": "ISO/IEC 5230:2020",
+       "strength": "industry-code",
+       "note": "Licence compliance programme standard; good practice."
+      }
+     ]
+    },
+    {
+     "id": "fa-letters",
+     "phase": "after",
+     "title": "Send infringement and takedown letters to counsel the same day",
+     "detail": [
+      "**Same-day routing:** Send any infringement or takedown letter to counsel on arrival, including a takedown notice for user content, so that counsel can decide the response before any deadline in the letter runs (good practice).",
+      "**Section 230 is no shield:** Section 230 does not limit any law pertaining to intellectual property (47 U.S.C. § 230(e)(2)), so it gives no general shield against IP claims over user content. Circuits differ on state-law IP claims (Perfect 10, Inc. v. CCBill LLC, 488 F.3d 1102 (9th Cir. 2007)) (reported; check).",
+      "**Outside the US:** EU hosts must run notice and action mechanisms and tell the notifier whether they acted (Regulation (EU) 2022/2065 Art. 16; reported; check). Canada's notice-and-notice regime requires an intermediary to forward a claimant's notice to the user, without a duty to remove the content (Copyright Act ss. 41.25 to 41.27; reported; check)."
+     ],
+     "owner": [
+      "Legal",
+      "Trust and safety"
+     ],
+     "evidence": [
+      "Letter log with the date received and the owner",
+      "Response and decision recorded for each notice"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Act (17 U.S.C.)",
+       "ref": "§ 512",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "17-USC",
+         "section": "512"
+        }
+       ],
+       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section512&num=0&edition=prelim"
+      },
+      {
+       "label": "Communications Decency Act (47 U.S.C.)",
+       "ref": "§ 230(e)(2)",
+       "strength": "statute",
+       "note": "Reported; check."
+      },
+      {
+       "label": "Perfect 10, Inc. v. CCBill LLC",
+       "ref": "488 F.3d 1102 (9th Cir. 2007)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fa-ai-models",
+     "phase": "after",
+     "title": "Check model licence terms and vendor indemnities at each model change",
+     "when": [
+      "ai"
+     ],
+     "detail": [
+      "**Model licence limits:** Meta's Llama 4 Community License requires a licensee with more than 700 million monthly active users in the preceding calendar month to request a separate licence from Meta, and until Meta grants it the licensee may not exercise the licence rights (Llama 4 Community License s.2). Where Llama materials or derivatives are made available, 'Built with Llama' must be displayed prominently (s.1.b.i).",
+      "**Vendor indemnities:** Vendor AI indemnities, such as Microsoft's Copilot Copyright Commitment, Google's generative AI indemnity and OpenAI's Copyright Shield, apply only on conditions, such as use of built-in guardrails or certain paid tiers (reported; check). Read the conditions before relying on one.",
+      "**A new model is a new review:** A model swap can change the licence, the indemnity and the output marking, so counsel reviews it before the switch (good practice)."
+     ],
+     "owner": [
+      "Legal",
+      "Procurement"
+     ],
+     "evidence": [
+      "Licence and indemnity terms for each model version",
+      "List of indemnity conditions and whether the bank meets each one"
+     ],
+     "sources": [
+      {
+       "label": "Llama 4 Community License",
+       "ref": "s.1.b.i; s.2",
+       "strength": "licence",
+       "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/LICENSE"
+      },
+      {
+       "label": "Vendor AI indemnity commitments",
+       "ref": "Copilot Copyright Commitment; Google generative AI indemnity; OpenAI Copyright Shield",
+       "strength": "good-practice",
+       "note": "Vendor terms with conditions. Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "fa-data",
+     "phase": "after",
+     "title": "Check data and map licences after launch and before any public database",
+     "when": [
+      "data"
+     ],
+     "detail": [
+      "**Share-alike on public databases:** Under the ODbL 1.0, a derivative database that is publicly used must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4). A produced work, such as a rendered map image, needs only the attribution notice (ODbL-1.0 s.4.3).",
+      "**Scraped and public web data:** Under the CFAA, a person exceeds authorized access by getting into areas that are off limits to them, not by misusing information they are entitled to reach (Van Buren v. United States, 593 U.S. 374 (2021); reported; check). Scraping terms bind only where notice and assent exist (drafting inference).",
+      "**Map caching limits:** Map terms can limit caching and data use, and the provider can change them. Google Maps Platform terms, for example, bar caching except as their service-specific terms allow (reported; check)."
+     ],
+     "owner": [
+      "Legal",
+      "Data office"
+     ],
+     "evidence": [
+      "Data licence register with caching and share-alike limits",
+      "Share-alike check for any public database or export"
+     ],
+     "sources": [
+      {
+       "label": "Open Data Commons Open Database License v1.0",
+       "ref": "Full text",
+       "strength": "licence",
+       "cites": [
+        {
+         "cap": "ODbL-1.0",
+         "section": "full text"
+        }
+       ],
+       "url": "https://spdx.org/licenses/ODbL-1.0.html"
+      },
+      {
+       "label": "Van Buren v. United States",
+       "ref": "593 U.S. 374 (2021)",
+       "strength": "case-law",
+       "note": "Reported; check."
+      },
+      {
+       "label": "Google Maps Platform Terms of Service",
+       "ref": "Caching terms (Geocoding API)",
+       "strength": "good-practice",
+       "note": "A provider's contract terms: they bind the bank as a licensee."
+      }
+     ]
+    }
+   ],
+   "documents": {
+    "type": "steps",
+    "caption": "What a complete file for one feature usually holds, in the order it is built.",
+    "items": [
+     {
+      "label": "Feature brief with IP flags",
+      "note": "What it does, who builds it, what is new"
+     },
+     {
+      "label": "Name clearance note",
+      "note": "Searches, results, filing decision"
+     },
+     {
+      "label": "Asset and licence register",
+      "note": "Fonts, images, icons, SDKs, APIs, data, models"
+     },
+     {
+      "label": "Invention disclosure and filing decision",
+      "note": "Before any public demo"
+     },
+     {
+      "label": "Open source review",
+      "note": "From the stage 11 checklist"
+     },
+     {
+      "label": "Launch sign-off",
+      "note": "Notices, marks, claims, terms"
+     }
+    ]
+   },
+   "documentsNote": [
+    "A small change to an existing feature may need only the asset register and the sign-off; a new product with a new name needs them all."
+   ],
+   "exportNote": "Study aid, not legal advice. Steps marked \"Reported; check\" rest on secondary reports of a decision or development. Check them before relying on them.",
+   "caveat": "This checklist is a starting point for one feature. It does not replace the bank's new product approval process, its open source policy or advice on a specific design, mark or invention.",
+   "labels": {
+    "profileTitle": "Describe the feature",
+    "nameLabel": "Feature or product",
+    "namePlaceholder": "e.g. Split-bill payments in the app",
+    "noun": "feature",
+    "documentsTitle": "The file for this feature",
+    "exportTitle": "Feature IP review",
+    "fileStem": "feature-ip-review",
+    "tabLabel": "Feature review",
+    "tabShort": "Feature"
+   },
+   "storageKey": "feature-review"
+  }
  }
 ]

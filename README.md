@@ -237,23 +237,26 @@ and the kit data, so the HK pages are unchanged.
 
 ## Open source & software IP
 
-Fifteen stages on the law of software for counsel at a bank or fintech in the
+Sixteen stages on the law of software for counsel at a bank or fintech in the
 United States, with short notes at the end of each stage on what differs in
 the EU, the UK, Hong Kong and Canada. Stages 1 to 6 cover the rights in code
 (copyright, ownership of code written by staff, contractors and vendors,
 patents, trade secrets and trademarks); stages 7 to 10 explain open source
 licences (how they work, then the permissive, copyleft and network-copyleft
-families and source-available licences); stages 11 to 15 cover practice
+families and source-available licences); stages 11 to 16 cover practice
 (using open source, releasing code and contributing, deals and vendor
-contracts, AI-generated code and models, and disputes). Stage 7's **Licence
+contracts, AI-generated code and models, disputes, and stage 16, product
+counsel's work from a feature's first brief to after launch). Every stage also
+has a **With the product team** card: what product counsel asks and tells
+product managers, designers, engineers and marketing. Stage 7's **Licence
 finder** (`components/software-ip/LicenceFinder.tsx`) takes a licence and the
 ways the bank uses the code and shows what the licence asks, with the
 licence's own words one tap away, whether two licences can be combined in one
-program, and a Markdown note to download. Stages 11 to 13 carry checklists
+program, and a Markdown note to download. Stages 11 to 13 and 16 carry checklists
 built on the shared checklist tool: an **OSS review** for one component, a
-**Release** checklist for publishing code or contributing, and a
+**Release** checklist for publishing code or contributing, a
 **Diligence** checklist for acquisitions, in-licensing, SaaS and outsourced
-development, each narrowed by a profile, with owners, evidence, sources and
+development, and a **Feature review** for one new product feature, each narrowed by a profile, with owners, evidence, sources and
 model wording, exported as Markdown or CSV. Content lives in
 `data/software-ip/stages.json`. Statute cards carry the text of the cited U.S.
 Code sections from GovInfo's annual edition (`scripts/extract_uscode.py`, run
@@ -261,6 +264,20 @@ monthly by `.github/workflows/refresh-usleg.yml` into `data/usleg/`), a few
 California code sections, and the Hong Kong and Canadian copyright and patent
 statutes; licence cards carry licence texts from the SPDX License List
 (`scripts/extract_licences.py` into `data/licences/`).
+
+**The Desk** (`/software-ip/desk/`, `components/desk/`) is interview practice:
+questions a panel might put to counsel at a digital bank or fintech, answered
+only in the site's own sentences and only from what the reader has read. The
+browser notes a section once it has been on screen long enough to skim, and a
+provision once its card is open (`lib/seen.ts`, `components/ui/SeenTracker.tsx`);
+a section whose text changes counts as unread again. Each question offers three
+lengths, cues or line-by-line reveal, optional choices, follow-ups and a box for
+the reader's own words, with pins, a Markdown download, a search of what has
+been read, and backup and restore between devices. Nothing is scored or timed,
+and colleagues' questions in the reading view stay off unless the reader turns
+them on. The questions live in `data/software-ip/desk.json`; each answer line
+is a quote that `scripts/check_desk.py` matches to exactly one sentence of a
+stage, and the deploy fails if one stops matching.
 
 ## Privacy — DataGuard
 

@@ -124,7 +124,7 @@ const TOPICS: Topic[] = [
     title: 'Open source & software IP',
     scope: 'United States · with EU, UK, HK and Canada notes',
     description:
-      'Who owns the code, what open source licences ask, and how to use, release, buy and defend software, written for counsel at a bank or fintech.',
+      'Who owns the code, what open source licences ask, how to use, release, buy and defend software, and how to work with a product team, written for counsel at a bank or fintech, with interview practice on the Desk.',
     status: 'live',
     icon: Braces,
     tone: TONES.amber,

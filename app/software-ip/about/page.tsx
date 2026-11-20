@@ -35,15 +35,26 @@ export default function SoftwareIpAboutPage() {
         can be combined in one program.
       </p>
       <p>
-        Stages 11 to 15 turn the law into practice. Three of them carry checklists built on the same tool as the
+        Stages 11 to 16 turn the law into practice. Four of them carry checklists built on the same tool as the
         Canadian volume&apos;s vendor and advertising checklists: an <strong>OSS review</strong> for approving one
         component ({STEPS('using')} steps), a <strong>Release</strong> checklist for publishing the bank&apos;s code
-        or contributing to outside projects ({STEPS('releasing')} steps), and a <strong>Diligence</strong> checklist
+        or contributing to outside projects ({STEPS('releasing')} steps), a <strong>Diligence</strong> checklist
         for buying a company or code base, licensing software in, or signing up to a SaaS service (
-        {STEPS('deals')} steps). A profile narrows each to the steps that apply; each step names its owners, the
+        {STEPS('deals')} steps), and a <strong>Feature review</strong> for one new product feature (
+        {STEPS('product')} steps). A profile narrows each to the steps that apply; each step names its owners, the
         evidence for the file and its sources with their legal force, and some carry model wording. Progress and
-        notes stay in the browser and download as a checklist or a tracker. The last two stages cover AI-generated
-        code and models, and disputes and enforcement.
+        notes stay in the browser and download as a checklist or a tracker. Stages 14 and 15 cover AI-generated code
+        and models, and disputes and enforcement. Stage 16 follows <strong>product counsel</strong> through one
+        feature, from the first brief and the name to the screens, the code and data it is built from, any
+        invention in it, launch and the changes after. Every stage also has a card on what product counsel asks and
+        tells the product team.
+      </p>
+      <p>
+        <strong>The Desk</strong> is interview practice: questions a panel might put to counsel at a digital bank or
+        fintech, answered only in the site&apos;s own sentences and only from what you have read. This browser notes a
+        section once it has been on screen long enough to skim, and a provision once its card is open; a section whose
+        text changes counts as unread again. Nothing is scored, timed or due. Each answer line is a quote matched to
+        exactly one sentence of a stage when the site is built, so the Desk cannot drift from the stages.
       </p>
       <p>
         Abbreviations are explained where they appear, so a stage can be read on its own and in any order. The first
@@ -66,7 +77,7 @@ export default function SoftwareIpAboutPage() {
         <li>
           <strong>California code sections</strong> (Labor Code §§ 2870-2872, Business and Professions Code § 16600,
           Civil Code § 3426.1) are copied from California Legislative Information as indexed in April 2026.
-          Hong Kong (Copyright and Patents Ordinances) and Canadian (Copyright and Patent Acts) text comes from the
+          Hong Kong (Copyright, Patents and Trade Marks Ordinances) and Canadian (Copyright and Patent Acts) text comes from the
           same official sources as the other volumes.
         </li>
         <li>
@@ -94,7 +105,9 @@ export default function SoftwareIpAboutPage() {
         Licence finder data, the notes on other places and the checklists from that file and the statute and
         licence text alone, and a checker script tested every citation, the house style and the shape of the data.
         Every statute and licence citation is also matched automatically against the extracted text: one that does
-        not resolve fails the build.
+        not resolve fails the build. Stage 16, the product team cards and the Feature review were made the same way in
+        November 2026 from a second set of checked points. The Desk&apos;s questions were written on a stronger model;
+        its answers are the stages&apos; own sentences, and nothing on the Desk is new legal text.
       </p>
       <p>
         The stages carry a <em>Fact-check pending</em> badge until an independent review of their case citations
