@@ -454,6 +454,12 @@
    "**Secrecy as a regulatory asset:** The bank's models, rules and fraud logic are protected as trade secrets only while access is controlled, so access reviews serve both security and IP purposes.",
    "**Examiner requests:** Examiners may ask for code inventories, licence records and vendor evidence, so keep them retrievable without a special project (good practice)."
   ],
+  "productNotes": [
+   "**Describe each feature by its parts at the idea stage:** Tell counsel what the feature is made of, including its code, screens, data, name, any new method and any partner or open source code. Each part usually needs a different right, and a method or idea falls outside copyright, so it needs a patent, a trade secret or a contract (17 U.S.C. § 102(b)). Counsel can then say early which parts need protection and which need only a licence (good practice).",
+   "**Clear the name before marketing announces it:** A product name earns trademark rights through use in commerce, and an uncleared name can infringe a registered mark or an unregistered one (15 U.S.C. §§ 1114(1), 1125(a)). Marketing should bring the name, any tagline and any partner logo to counsel before the first public use (good practice).",
+   "**Treat a licensed-in SDK or library as permission, not ownership:** Before engineering adopts a vendor SDK, a data feed or an open source library, ask counsel to review its licence, because the bank holds permission on stated terms and does not own the code (Apache-2.0 s.2). Record each one in the licence register (good practice).",
+   "**Set the terms before partners or customers get code or data:** Product and partnership teams should not promise a partner rights in the bank's SDK, API or sample code until counsel has written the licence, because that licence decides what others may do with it. Any open source code the bank releases carries its own terms (good practice)."
+  ],
   "pitfalls": [
    "**Copyright covers everything:** It protects expression only. Ideas, methods and functions need a patent, a trade secret or a contract (17 U.S.C. § 102(b)).",
    "**Publishing a secret:** Open sourcing or publishing code ends its trade secret status, and a licence cannot restore it (drafting inference).",
@@ -923,6 +929,12 @@
    "**Published SDKs and sample code:** Code the bank distributes to customers is a distribution under § 106(3). Fix the copyright notices and licence before release, not after a customer finds a problem (good practice).",
    "**Secure development records:** Under the NYDFS Cybersecurity Regulation (23 NYCRR 500.8), entities must maintain written procedures for in-house applications. Code ownership and licence records support that duty (drafting inference)."
   ],
+  "productNotes": [
+   "**Build the feature from its own specification:** Designers and engineers should not copy a competitor's screens, flows, code or documentation, even where the function is the same. Copyright protects expression, not the function a feature performs, so the bank can match a function with its own design and code (17 U.S.C. § 102(b)).",
+   "**Keep a record of reference material:** When the team uses a third-party document, sample app or open source snippet as a model, tell counsel and note what was taken and where it sits. In a dispute a court filters out ideas and standard elements before comparing what is left, so a clear record separates the bank's expression from the rest (Computer Associates Int'l, Inc. v. Altai, Inc., 982 F.2d 693 (2d Cir. 1992); good practice).",
+   "**Do not strip notices from third-party code during a rewrite:** When product asks for a redesign or rebrand of a vendor-supplied component, engineering should keep its licence text in place. Removing copyright management information, knowing it will enable infringement, breaches 17 U.S.C. § 1202(b).",
+   "**Tell counsel each release date so registration can follow:** A U.S. suit needs registration first, and statutory damages and fees are lost if registration comes late (17 U.S.C. §§ 411(a), 412). If a team used generative AI to make code or images, tell counsel too, because the Copyright Office expects applicants to disclose AI-generated content that is more than de minimis (88 Fed. Reg. 16190 (16 Mar. 2023); reported; check)."
+  ],
   "pitfalls": [
    "**Relying on a label:** Calling a user a licensee or an owner does not settle the question. Courts weigh the substance of the deal, and a label is only one factor (Vernor; Krause).",
    "**Assuming the API case clears reuse:** Google v. Oracle assumed copyrightability and turned on its facts. Treat API reuse as a licence question, not a free pass.",
@@ -1384,6 +1396,12 @@
    "**NYDFS:** Covered entities under 23 NYCRR Part 500 must have written procedures for secure development of in-house applications and for assessing externally developed applications (23 NYCRR 500.8). Knowing what the bank wrote and what it received makes that assessment possible (drafting inference).",
    "**Proof of title:** Examiners and diligence teams ask for signed assignments and invention records. Keep them in a searchable register that is owned by legal, not in individual inboxes (good practice).",
    "**Acquisitions:** Known title gaps are usually excluded from representations and warranties insurance, so buyers ask for special indemnities (reported; market practice)."
+  ],
+  "productNotes": [
+   "**Settle ownership in the contract before work starts:** Tell counsel before a vendor, agency or contractor starts a feature. Code belongs to its author, and the bank is treated as the author only for code an employee writes within the scope of employment. Otherwise the bank needs a transfer signed by the author (17 U.S.C. §§ 101, 201(a)-(b), 204(a)).",
+   "**Do not accept a deliverable without the signed paper:** Product managers should not take vendor or contractor code into a release until the signed assignment or licence is on file. Calling software a work made for hire does not make it one, because most software falls outside the nine categories in § 101(2) (17 U.S.C. §§ 101, 204(a)).",
+   "**Route side projects and public contributions through approval:** Staff should not contribute bank code to a public project, or build a personal product on it, without approval. Code written within the job is usually the bank's, so a contribution is the bank's grant under that project's licence (17 U.S.C. § 101; good practice).",
+   "**Tell HR and counsel when staff in California join product teams:** California limits an employer's invention clause, which cannot reach an own-time invention that does not use the employer's resources and is unrelated to its business. The employer must also give written notice of that limit (Cal. Lab. Code §§ 2870, 2872)."
   ],
   "pitfalls": [
    "**Relying on a work made for hire label for vendors:** Assuming that a vendor's clause makes its software the bank's, when most software does not fit the nine categories in § 101(2).",
@@ -1886,6 +1904,12 @@
    "**Assertions as operational risk:** A patent claim against a payment or app feature can force a product change, so product owners and risk staff should hear about assertions early (good practice).",
    "**Fintech partnerships:** A bank-fintech arrangement should say who gives patent indemnities, who may change the product, and who pays for a design-around (good practice).",
    "**Marketing claims:** Calling a product 'patented' when only an application is pending can mislead customers. Check every public claim against issued patents (good practice)."
+  ],
+  "productNotes": [
+   "**Hold publication until counsel has decided on filing:** Tell product and marketing teams that a demo, beta, talk, blog post or public release can start the patent clock. The inventor's own disclosure is excused only if the application is filed within one year (35 U.S.C. § 102(b)(1)(A)), and outside the US the grace period is narrower or absent (EPC Art. 54 and 55; reported; check).",
+   "**Describe the technical improvement in the spec:** Product managers and designers should describe what the feature changes in the system, not only the business result. A claim that is a business process run on a computer may be held ineligible (35 U.S.C. § 101; Alice Corp. v. CLS Bank International, 573 U.S. 208 (2014)). A specific technical improvement is easier to defend (good practice).",
+   "**Map who runs each step of a method:** When a flow runs partly on the bank's systems, partly on a cloud host and partly on a customer's device, product should tell counsel who performs each step. A bank that directs or controls others' steps can be liable for the whole method (35 U.S.C. § 271(a); Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc)).",
+   "**Tie product markings to issued patents:** Marketing and product teams should add a patent marking page or number to product pages once a patent issues. A patentee that does not mark can recover damages only from notice, and a web address that links the product to the patent number can serve as the marking (35 U.S.C. § 287(a))."
   ],
   "pitfalls": [
    "**Early release:** Publishing a method or code before filing and assuming the grace period covers it. Third-party disclosures, and the bank's own disclosures older than a year, are prior art (35 U.S.C. § 102).",
@@ -2391,6 +2415,12 @@
    "**Examiner requests:** Mark code and model documents given to examiners as confidential, and record what was sent. Ask counsel whether the bank's production terms protect them (good practice).",
    "**Customer data:** Code, test data and logs can carry customer information, so a trade secret review should also check privacy and security (good practice)."
   ],
+  "productNotes": [
+   "**Decide secret or patent before the feature is shown:** For a scoring model, pricing logic or fraud rule, tell counsel early whether to protect it by secrecy or by a patent. Secrecy lasts only while the information stays secret (18 U.S.C. § 1839(3)), and a patent application is normally published 18 months after the earliest filing date (35 U.S.C. § 122(b); drafting inference).",
+   "**Clear each public release, demo and talk:** Open sourcing a repository, publishing a package or showing internals in a conference talk can make the code generally known. A partial release ends secrecy only for what was released, so ask counsel to review the release boundary before a date is set (18 U.S.C. § 1839(3)(B); drafting inference).",
+   "**Share secrets only under confidentiality terms:** Sales and partnership teams should show partners a feature's internal logic only under a written confidentiality agreement, and keep it out of decks and public posts. Reverse engineering a shipped app is not improper means, so the licence needs its own limit on reverse engineering (18 U.S.C. § 1839(6)(B); Bowers v. Baystate Technologies, Inc., 320 F.3d 1317 (Fed. Cir. 2003)).",
+   "**Use only approved AI tools with secret material:** Product, design and marketing staff should not paste a feature's code, rules or training data into an AI tool unless the bank has approved it and its terms limit retention and training. Pasting material into a vendor's tool discloses it to that vendor (18 U.S.C. § 1839(3)(A); good practice)."
+  ],
   "pitfalls": [
    "**Accidental publication:** Making a repository public, or releasing a package that contains proprietary code, which can end secrecy for that code.",
    "**Paper controls:** Confidentiality policies that nobody enforces, which a court may not treat as reasonable measures.",
@@ -2868,6 +2898,12 @@
    "**Disclosure of roles:** Partner pages and app store listings should state the bank's role accurately, so customers can tell what the bank provides and what the partner provides (good practice).",
    "**Vendor deliverables:** Vendor contracts should say who owns names, logos and brand assets made for the bank, and whether the vendor may name the bank as a customer (drafting inference).",
    "**Records:** Keep the marks register, brand approvals and monitoring reports in the third-party risk file, so the bank can show its controls over partner use (good practice)."
+  ],
+  "productNotes": [
+   "**Clear the name before it is announced:** Ask counsel to search registers, company names, domains and app stores before a product, SDK, API or app name goes public, since a rename after launch is the costliest fix (15 U.S.C. § 1125(a)(1)(A)). Make the search a standing step for every new name (good practice).",
+   "**Keep partner names to description:** Marketing may name a wallet, card scheme or other partner only to say that a bank product is compatible with it, with no logo, no stylised version and no suggestion of endorsement (15 U.S.C. § 1125(a)(1)(A)). Check every partner reference in the copy review (good practice).",
+   "**Use an upstream name only to describe:** Before a bank fork, package or product carries an open source project's name, get counsel's view, because a code licence does not license the name (Apache-2.0 s.6). Ask whether the name is needed only to say what the product does (good practice).",
+   "**Tell counsel about a rename or upstream change early:** Forks such as OpenSearch, OpenTofu and Valkey took new names after upstream changes (reported; check). A change to a dependency that affects a product name, package name or logo is a decision for counsel and marketing together (good practice)."
   ],
   "pitfalls": [
    "**Launching unchecked:** Choosing a product or project name without clearance, then learning of a prior user or registrant after launch, when a rebrand is most expensive.",
@@ -3406,6 +3442,12 @@
    "**Contractors and affiliates:** GPL-3.0 s.2 allows the bank to give covered code to a contractor who modifies it only for the bank, on terms that bar copies outside that relationship. Treat transfers to affiliates as distribution unless a licence term says otherwise (drafting inference).",
    "**Third-party oversight:** The interagency guidance on third-party relationships is technology-neutral and does not deal with open source as such. Vendors that supply or support open source components fall within it, while the components themselves usually do not (drafting inference).",
    "**Examiner questions:** Examiners may ask for a current inventory of components, licences and approvals. The FFIEC development booklet covers open source components (reported; check the wording)."
+  ],
+  "productNotes": [
+   "**Say how the product will use the code:** Tell counsel whether the code stays inside the bank, is modified, goes to customers or runs as a service for users, because each act brings different duties (GPL-3.0 s.2; AGPL-3.0 s.13).",
+   "**Send the licence, not the label:** A vendor or colleague who says 'open source' does not settle the question, so send the licence text or its SPDX identifier with the request (OSI Open Source Definition). Source-available terms such as SSPL, BUSL and Elastic License 2.0 go to commercial review, not the open source queue (reported; check).",
+   "**Keep licence notices in the product:** Ask engineering to ship licence texts and copyright notices in the app, the About screen, the container image or the release package (MIT full text). Stripping them can also raise issues under 17 U.S.C. § 1202 (reported; check).",
+   "**Send licensor letters to counsel the same day:** A notice from a copyright holder can start a short cure clock, so the product or engineering lead who receives it should pass it on at once (GPL-3.0 s.8)."
   ],
   "pitfalls": [
    "**Source-available as open source:** Approving SSPL, BUSL or Elastic License 2.0 code under an open source policy, when those licences restrict use and are not open source.",
@@ -5705,6 +5747,12 @@
    "**Inventory expectations:** PCI DSS is an industry standard, not a statute. Its requirement 6.3.2 asks for an inventory of bespoke software and third-party components (reported; check).",
    "**Vendor deliverables:** Where a vendor ships permissive code in its product, ask for the notice file and component list in the delivery, since those are compliance evidence (good practice)."
   ],
+  "productNotes": [
+   "**Treat permissive code as a copyright clearance only:** A permissive licence does not clear the patents that the code may practise (35 U.S.C. § 271(a)). Route code that implements a claimed method to patent review before it ships (good practice).",
+   "**Ship the notices in every artefact:** Put the licence text and notice files inside each app bundle, container image and SDK. For Apache-2.0, put the NOTICE text where users see attributions, such as an about screen (Apache-2.0 s.4(d)).",
+   "**Keep contributor names out of launches:** Marketing must not use the name of an upstream project or its contributors to promote a bank product without written permission (BSD-3-Clause cl.3; 15 U.S.C. § 1125(a)(1)(A)).",
+   "**Send edited licences to counsel as new ones:** A tweaked MIT or BSD text, or a licence with added clauses, can change the conditions, so raise it with counsel before the code merges (good practice)."
+  ],
   "pitfalls": [
    "**Dropping notices:** Treating MIT or BSD code as free of duties and stripping its notice. If the notice is a licence condition, the copying may be infringement, not just a breach (Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008)).",
    "**Patent trap:** Suing a partner over a patent while relying on Apache-2.0 code it uses, because the licence for that Work can end (Apache-2.0 s.3).",
@@ -6254,6 +6302,12 @@
    "**Fintech partners:** When a bank opens APIs or SDKs to fintech partners, copyleft conveying rules apply to any code the partner receives. Partner terms should include the source offer where copyleft code is in the SDK (good practice).",
    "**Vendor oversight:** The interagency third-party guidance (88 Fed. Reg. 37920) is technology-neutral and does not deal with open source as such, so copyleft compliance sits in vendor contracts and the bank's own release controls (drafting inference).",
    "**Examiner evidence:** Examiners ask for software inventories and vendor evidence. A copyleft register and a documented release gate show that the bank controls what it ships (good practice)."
+  ],
+  "productNotes": [
+   "**Say where copyleft code meets the bank's code:** Tell counsel which parts of the product use GPL, LGPL, MPL or EPL code and how they are linked. A distributed combined work may have to carry the GPL as a whole (GPL-2.0 s.2(b); GPL-3.0 s.5(c)).",
+   "**Ask who receives a copy:** Running GPL code inside the bank is generally not conveying, but a copy sent to an affiliate, contractor or partner can be. Tell counsel before the code leaves the bank or its group (GPL-3.0 s.0; drafting inference).",
+   "**Put the source offer on the release checklist:** Each binary that goes out with GPL code needs its source or a written offer valid for at least three years (GPL-2.0 s.3(b); GPL-3.0 s.6(b)). Book that offer into the launch plan (good practice).",
+   "**Flag personal devices and partner SDKs:** Branded hardware sold to customers, such as card readers, may bring GPL-3.0 installation information duties (GPL-3.0 s.6). An SDK given to partners can carry copyleft duties to each recipient (drafting inference)."
   ],
   "pitfalls": [
    "**Assuming internal use is free:** Internal running is generally not conveying, but a copy sent to an affiliate, contractor or partner can be (GPL-3.0 s.0; drafting inference).",
@@ -6806,6 +6860,12 @@
    "**Examiner questions:** Examiners may ask which components the bank runs under non-OSI terms and who approved them. Keep the register and approvals retrievable (reported; check the FFIEC Development, Acquisition and Maintenance booklet).",
    "**Vendor-built services:** When a vendor offers a managed service on source-available code, the vendor's licence limits what it may offer. The contract should say who carries the risk if those limits change (good practice)."
   ],
+  "productNotes": [
+   "**Raise a change to an AGPL service at design time:** A modified AGPL-3.0 program that remote users reach must offer them its source, even though nothing is distributed (AGPL-3.0 s.13). Any customisation of such a component starts that duty, so design reviews should flag it.",
+   "**Running it unchanged is not the trigger:** Running an unmodified AGPL-3.0 program over a network triggers no source duty, but a patch or fork does (AGPL-3.0 s.2; AGPL-3.0 s.13). Keep a record of each patch against the upstream release.",
+   "**Ask about the vendor's licence history:** Several database and infrastructure vendors moved to source-available terms between 2018 and 2025 (reported; check). Ask for the licence history before a component is chosen, and write in a notice-of-change clause with a right to exit (good practice).",
+   "**Do not call source-available code open source:** Product copy, partner decks and board papers should not describe SSPL, BUSL or Elastic License 2.0 code as open source, since those licences restrict use (reported; check)."
+  ],
   "pitfalls": [
    "**Calling it open source:** Filing source-available components as open source in policy, scanner output or board papers.",
    "**Ignoring remote staff:** Assuming AGPL duties reach only customers, and missing modified internal portals and partner tools that users reach over a network.",
@@ -7303,6 +7363,12 @@
    "**Examiner requests:** Keep the inventory, approval records and SBOMs in a form examiners can read, because the FFIEC booklet tests how software is governed (reported; check).",
    "**Sanctions and access:** Contributors and vendors may be located in sanctioned regions. Screen them under the bank's sanctions programme (good practice), since a platform may restrict developers there (reported).",
    "**Federal rules:** Federal attestation duties for vendors have been rolled back (reported; check), but banks still ask vendors for the same secure development evidence in their own due diligence (good practice)."
+  ],
+  "productNotes": [
+   "**Send the component before the merge:** Tell counsel the component, its version, how the product uses it and whether it ships to customers or runs as a service before the code is merged, because the use decides the approval tier (good practice).",
+   "**Plan for notices at release:** Apache-2.0 and MIT code shipped in an app, SDK or container needs its licence text and notices with each copy, so product should build a notices screen into every release (Apache-2.0 s.4; MIT, full text).",
+   "**Flag any modified network service early:** A modified AGPL-3.0 program that remote users interact with must offer its source to them, so tell counsel before engineers change an AGPL component behind a customer-facing feature (AGPL-3.0 s.13).",
+   "**Do not copy code with no licence:** Code published with no licence keeps its copyright, so a designer, engineer or marketer cannot paste it into a feature without the owner's permission (17 U.S.C. § 106)."
   ],
   "pitfalls": [
    "**Inventory gaps:** Relying on a manually kept list, which misses indirect dependencies and the components that come in through base images.",
@@ -10030,6 +10096,12 @@
    "**Brand and fraud:** A bank's name or product code on a public repository invites lookalikes and phishing sites. Keep the reporting route clear in the readme and the security policy (good practice).",
    "**Examiner evidence:** Examiners may ask who approved a release, what was removed and which licence applied. Keep the release record where it can be produced quickly (good practice)."
   ],
+  "productNotes": [
+   "**Ask before any public push:** Tell counsel before a sample app, SDK or demo repository goes public, since a public push cannot be fully recalled and forks may keep copies (good practice).",
+   "**Bring the title trail with the code:** Name the authors of each part, including contractors and vendors, and send each contractor or vendor deliverable with its signed transfer, because contractor code stays with the contractor without one (17 U.S.C. §§ 101, 204(a)).",
+   "**Let product name the sensitive parts:** Ask engineering and product to flag secrets, customer data, internal hostnames and fraud or anti-abuse rules, and do not strip licence headers to tidy the repository (17 U.S.C. § 1202(b); Apache-2.0 s.4(c)).",
+   "**Agree the licence and the name early:** Apache-2.0 gives an express patent grant that ends for a licensee who sues over the work (Apache-2.0 s.3), so product should settle that choice with counsel, and the readme should say that the bank does not license its names or marks (Apache-2.0 s.6)."
+  ],
   "pitfalls": [
    "**Publishing first:** Pushing a repository public to test a feature before title and scan checks run. A public push cannot be fully recalled, and forks may keep copies (good practice).",
    "**Silent release:** Publishing code with no licence file, so users may read it but cannot copy or change it (17 U.S.C. § 106).",
@@ -12516,6 +12588,12 @@
    "**NYDFS duties:** For covered entities, 23 NYCRR 500.8 covers evaluating the security of externally developed applications, and 500.11 requires a third-party service provider security policy.",
    "**Examiner requests:** Keep vendor diligence files, SBOMs and open source reviews retrievable and tied to each deal, because examiners ask for them as evidence of control (good practice).",
    "**Partner use of marks:** A fintech partner that uses the bank's name or logo needs quality control. Without it, the mark may be abandoned through naked licensing (Barcamerica International USA Trust v. Tyfield Importers, Inc., 289 F.3d 589 (9th Cir. 2002)) (reported; check)."
+  ],
+  "productNotes": [
+   "**Bring the vendor build to counsel early:** Send the statement of work and the ownership and licence-back terms before the product team commits to a build, because a contractor's code is not the bank's until a signed writing says so (17 U.S.C. §§ 101, 204(a)).",
+   "**Ask vendors for an open source list:** Require the vendor's list of open source components and licences in each deliverable, and approval before any copyleft code enters, so the product team does not inherit a licence it never saw (good practice).",
+   "**Agree the licence metric before usage grows:** Licence metrics can change under a vendor's new pricing, as Oracle's move to a per-employee Java SE metric showed, so agree the metric and audit terms before the product scales (reported; check).",
+   "**Plan the exit with the contract:** Ask for escrow or SaaS exit terms and a tested data export. A licensee may keep its IP rights after a vendor's rejection in bankruptcy (11 U.S.C. § 365(n)), but rejection does not supply the code, data or service (Mission Product Holdings, Inc. v. Tempnology, LLC, 587 U.S. 370 (2019))."
   ],
   "pitfalls": [
    "**Relying on the warranty alone:** Known defects are usually excluded from R&W insurance and are hard to recover under a general warranty, so take special indemnities (reported; check).",
@@ -15190,6 +15268,12 @@
    "**Customer data and secrecy:** Prompts that carry customer data or confidential code can weaken the secrecy the bank needs to keep trade secret status, which depends on reasonable measures (18 U.S.C. § 1839(3)).",
    "**Examiner readiness:** Keep the AI policy, the approved list and the review evidence ready for supervisors at all times (good practice)."
   ],
+  "productNotes": [
+   "**Keep a record of human input:** Ask engineers and designers to keep dated notes of what they wrote, selected and edited in AI-assisted code and content, because prompts alone do not make the user an author (17 U.S.C. § 102(a); Copyright Office, Part 2, 29 January 2025). Tell counsel which AI coding tools engineers use and what data they may see (good practice).",
+   "**Name people as inventors:** Tell counsel who conceived each claimed step of a product invention before filing, and keep the AI tool off the inventor list, since only natural persons can be inventors (35 U.S.C. § 100(f); Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022)).",
+   "**Tell counsel where training data came from:** Describe the data a model will train on and how the bank acquired it before the feature is built, because training on lawfully acquired books was held fair use in Bartz, while building a library from pirated copies was not (17 U.S.C. § 107; Bartz v. Anthropic PBC (N.D. Cal. 23 June 2025)).",
+   "**Read the model licence before launch:** A model licence can set user thresholds and use limits, such as the Llama 4 separate-licence test at 700 million monthly active users, so bring the licence to counsel before a launch (Llama 4 Community License s.2). Do not call open weights open source in marketing, since they come under their own terms (good practice)."
+  ],
   "pitfalls": [
    "**Assuming ownership:** Treating prompt-only output as owned, registrable code without evidence of human authorship.",
    "**Naming the tool:** Listing an AI system as an inventor, or leaving off the staff who conceived a claimed step.",
@@ -15733,6 +15817,12 @@
    "**Customer data in disputes:** Code reviews and seized materials can contain customer data. Redact it and limit access, as the bank would for any third-party disclosure. A DTSA civil seizure order requires the court to take seized material into its custody and limit access to it (18 U.S.C. § 1836(b)(2)(D)), and seizure is available only in extraordinary circumstances.",
    "**Public attention:** An open source dispute involving a bank can reach the press and the community quickly. Regulators and customers may hear of it from others first (good practice)."
   ],
+  "productNotes": [
+   "**Route every letter to counsel the day it arrives:** Send any infringement, takedown or compliance letter to counsel at once, do not reply on your own, and keep the repositories, commit history and messages as they are, since a litigation hold may apply (good practice).",
+   "**Start the GPL clock on the first notice:** Under GPL-3.0 s.8 a licensee that cures within 30 days of a first notice keeps its licence, so the product team should stop any non-compliant copying straight away and log the date (GPL-3.0 s.8). GPL-2.0 has no cure window in its text, so the first step matters more (GPL-2.0 s.4).",
+   "**Do not send a takedown on a hunch:** A takedown notice needs a good-faith statement and a statement under penalty of perjury, and a knowing misrepresentation carries liability for damages and fees (17 U.S.C. § 512(c)(3), (f)).",
+   "**Do not call a colleague's access a hack:** Misuse of data an employee can already reach is usually a contract or trade secret matter, since the CFAA reaches only areas that are off limits (18 U.S.C. § 1030(e)(6); Van Buren v. United States, 593 U.S. 374 (2021))."
+  ],
   "pitfalls": [
    "**Suing on unregistered code:** Assuming the bank can sue on a US work before registration has been made, and learning late that the suit cannot be filed.",
    "**Missing the GPL-3.0 window:** Answering a compliance letter slowly and passing the 30-day cure period in s.8.",
@@ -15811,6 +15901,554 @@
    {
     "term": "Copyright Claims Board",
     "definition": "A tribunal created by the Copyright Alternative in Small-Claims Enforcement (CASE) Act of 2020, which hears copyright claims with capped damages. A respondent can opt out (reported; check the current caps)."
+   }
+  ]
+ },
+ {
+  "id": "product",
+  "index": 16,
+  "title": "Product counsel: IP from idea to launch",
+  "phase": "practice",
+  "review": "draft",
+  "oneLiner": "Product counsel at a bank spots IP questions while a feature is still an idea, settles the simple ones quickly, and brings in specialists for the rest.",
+  "keyPoints": [
+   "Product counsel is the lawyer embedded with a bank's product managers, designers and engineers. This stage shows how to find IP questions from the first idea for a feature, through naming, design and build, to launch and after.",
+   "**Triage early:** Run a short IP triage on each feature before design is fixed, covering the name, assets, code and services, data, AI, inventions, partners and claims (good practice). Send the hard points to specialists.",
+   "**Clear the name first:** Search for conflicting marks before any announcement, and file an intent-to-use application if the launch date is set (15 U.S.C. § 1051(b)). Once the mark registers, the filing date gives nationwide priority (15 U.S.C. § 1057(c)).",
+   "**Mark the product accurately:** Use ® only for a registered mark, and only in the form the statute allows (15 U.S.C. § 1111). Refer to a wallet, card scheme or partner's brand only as nominative fair use, and follow the partner's brand rules (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)).",
+   "**Protect the look, not the idea:** Copyright never reaches the idea, procedure or method of operation behind an interface (17 U.S.C. § 102(b)). Unregistered trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000)) (reported; check).",
+   "**Fonts, images and AI output:** Check the licence scope of each typeface, icon set and stock image before it ships, because the SIL Open Font License bars selling the font software by itself (OFL-1.1 condition 1) and bars a Reserved Font Name in a modified version without permission (OFL-1.1 condition 3)."
+  ],
+  "conceptMap": {
+   "type": "flow",
+   "caption": "Where product counsel checks IP as a feature moves from idea to launch and after",
+   "items": [
+    {
+     "label": "Idea and naming",
+     "value": "Clear the name",
+     "note": "Search for conflicting marks and decide on the filing before any public announcement (good practice)."
+    },
+    {
+     "label": "Design",
+     "value": "Screens, icons and fonts",
+     "note": "Screens get copyright only for their original expression. Trade dress and design rights need their own analysis.",
+     "rel": "name cleared, screens drawn"
+    },
+    {
+     "label": "Build",
+     "value": "Code, SDKs and data",
+     "note": "Open source goes to the stage 11 review. SDK, API and map terms set how the product may use and store data.",
+     "rel": "code and SDKs added"
+    },
+    {
+     "label": "Launch",
+     "value": "Notices and claims",
+     "note": "Marks, notices and customer terms must be accurate on the day the product goes live.",
+     "rel": "ready to ship"
+    },
+    {
+     "label": "After launch",
+     "value": "Changes and claims",
+     "note": "A new SDK, a licence change upstream, a new market or a new AI model reopens the review.",
+     "rel": "product changes"
+    }
+   ]
+  },
+  "deepDive": [
+   {
+    "heading": "The product counsel's seat",
+    "lede": "Product counsel works inside the product team, not at the end of it. The job is to spot IP problems early, settle the easy ones fast and bring in specialists for the rest.",
+    "points": [
+     "**Get in early:** Join the feature brief before the design is fixed, because a name, a font or an SDK chosen late is costly to change (good practice).",
+     "**Run the triage:** Ask the same eight questions for every feature: the name, assets, code and services, data, AI, inventions, partners and claims (good practice).",
+     "**Know who to call:** Patent counsel handles inventions and freedom to operate, the open source office handles licences, privacy handles personal data, and regulatory counsel handles the bank's approvals (good practice).",
+     "**Use the bank's approval gate:** The OCC's risk management principles for new bank products and services expect a bank to assess a new product's risks before it launches (OCC Bulletin 2017-43, 20 October 2017; check current status). An IP sign-off belongs in that gate (drafting inference).",
+     "**Escalate by risk:** Settle a point at the desk when the answer is a standard licence or a clear name search, and send anything that could block the launch to counsel (good practice)."
+    ],
+    "takeaway": "The seat works when product counsel is in the room before the decisions are made, not when it reviews a finished launch."
+   },
+   {
+    "heading": "Names, brands and partner marks",
+    "lede": "A name is cheap to choose and costly to change after launch, so the name check comes first.",
+    "points": [
+     "**Clear the name before it is announced:** Search for conflicting marks and act on the result before a logo, domain or press release goes out (good practice).",
+     "**File on intent:** A person with a bona fide intention to use a mark in commerce can file an intent-to-use application (15 U.S.C. § 1051(b)(1)). No registration issues until a verified statement of use is accepted (15 U.S.C. § 1051(d)).",
+     "**Use the filing date:** Filing an application to register is constructive use, contingent on registration, and gives nationwide priority from the filing date. Earlier users and earlier filers keep their position (15 U.S.C. § 1057(c)).",
+     "**Use the ® only when it is earned:** Using ® on a mark that is not registered is improper (USPTO TMEP § 906.02) (reported; check). Notice is optional, but a registrant that omits it cannot recover profits or damages unless the defendant knew of the registration (15 U.S.C. § 1111).",
+     "**Use a partner's mark with care:** A partner's name can be used to refer to that partner's product where the product cannot be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)). Follow the partner's brand rules as well (good practice).",
+     "**Make comparative claims provable:** Advertising that misrepresents the nature, characteristics or qualities of goods or services can be sued on by anyone who is or is likely to be damaged (15 U.S.C. § 1125(a)(1)(B)). Lexmark International v. Static Control Components, 572 U.S. 118 (2014), requires a plaintiff to fall within the statute's zone of interests and to show proximate cause. Keep evidence for every comparison (good practice)."
+    ],
+    "visual": {
+     "type": "compare",
+     "caption": "Four name and mark rules a product team will meet",
+     "items": [
+      {
+       "label": "Intent to use",
+       "value": "15 U.S.C. § 1051(b)",
+       "note": "File before the mark is in use. Nothing registers until a verified statement of use is accepted."
+      },
+      {
+       "label": "Filing priority",
+       "value": "15 U.S.C. § 1057(c)",
+       "note": "Nationwide priority from the filing date, if the mark registers, subject to earlier users."
+      },
+      {
+       "label": "Registration notice",
+       "value": "15 U.S.C. § 1111",
+       "note": "Optional. Without it, no profits or damages unless the defendant knew of the registration."
+      },
+      {
+       "label": "Partner names",
+       "value": "Nominative fair use",
+       "note": "Names a partner's product only as needed, with no suggestion of sponsorship."
+      }
+     ]
+    },
+    "takeaway": "Clear the name, file on intent, use ® only once a mark is registered, and treat a partner's brand as the partner's property."
+   },
+   {
+    "heading": "Screens, icons, fonts and images",
+    "lede": "Most of what a team builds on screen is protected in some way, but not by one right. Each right covers a different part of the work.",
+    "points": [
+     "**Copyright covers expression, not method:** Copyright protects original works of authorship but never an idea, procedure, process, system or method of operation (17 U.S.C. § 102(a), (b)). Lotus v. Borland treated a menu command hierarchy as an uncopyrightable method of operation, and Apple v. Microsoft filtered out unprotectable and licensed interface elements, leaving thin protection against near-verbatim copying (Lotus Development Corp. v. Borland International, 49 F.3d 807 (1st Cir. 1995); Apple Computer v. Microsoft, 35 F.3d 1435 (9th Cir. 1994)) (reported; check).",
+     "**Trade dress needs meaning and non-function:** A product's look is protected without registration only on proof of secondary meaning, and functional features cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)) (reported; check). The claimant must prove the trade dress is not functional (15 U.S.C. § 1125(a)(3)).",
+     "**Design patents cover the look of an icon:** A design patent can protect the ornamental design of a computer-generated icon or interface shown on a display screen (35 U.S.C. § 171). The term runs for 15 years from grant (35 U.S.C. § 173) (reported; check). Ask patent counsel before the design is shown outside the team, because a public showing can start a bar period (drafting inference).",
+     "**Typefaces and font software differ:** A typeface as such is not subject to US copyright (37 C.F.R. § 202.1(e)) (reported; check), but original font software can be registered as a literary work (reported; check). Under the SIL Open Font License, fonts may be used, embedded and bundled, but the font software may not be sold alone and a Reserved Font Name may not be used in a modified version without permission (OFL-1.1 conditions 1 and 3).",
+     "**Read the stock and AI licences:** A stock image licence sets the permitted use, the territory, the term and the number of users, and the bank's marketing use must fit inside them (good practice). The Copyright Office guidance says applicants must disclose AI-generated content that is more than de minimis and exclude it from the claim (88 Fed. Reg. 16190, 16 March 2023) (reported; check)."
+    ],
+    "visual": {
+     "type": "compare",
+     "caption": "Which right covers which part of an interface",
+     "items": [
+      {
+       "label": "Copyright",
+       "value": "17 U.S.C. § 102",
+       "note": "Covers original expression, not the idea or the method of operation."
+      },
+      {
+       "label": "Trade dress",
+       "value": "15 U.S.C. § 1125(a)(3)",
+       "note": "Needs secondary meaning and non-function, and the claimant proves non-function."
+      },
+      {
+       "label": "Design patent",
+       "value": "35 U.S.C. § 171",
+       "note": "Covers the ornamental look of an icon or screen shown on a display."
+      },
+      {
+       "label": "Font licence",
+       "value": "OFL-1.1",
+       "note": "Free to use and bundle, but the font software cannot be sold by itself."
+      }
+     ]
+    },
+    "takeaway": "Protect each design element by the right that fits it, and record the licence scope of every typeface, icon and image in the asset register (good practice)."
+   },
+   {
+    "heading": "Third-party code, SDKs, APIs and data",
+    "lede": "Open source, SDKs, APIs, scraped data and map data all arrive with terms attached. Product teams often pick them up during a sprint, so counsel needs to see each one before it reaches a build.",
+    "points": [
+     "**Open source goes to the stage 11 review:** Any third-party code, including a sample app or a snippet copied from a forum, goes through the open source approval before it reaches a build. A permissive licence still carries notice duties, and copyleft or network copyleft code needs counsel's view before the design is fixed (good practice).",
+     "**SDK and API terms are contracts:** An SDK or API comes with terms that limit use, caching and the data it returns. Google Maps Platform, for example, bars caching of map content except as its service-specific terms allow (Google Maps Platform Terms of Service) (reported; check). Product should read the terms before the SDK ships, because the provider can change or end them (good practice).",
+     "**Online terms bind only with notice and assent:** A website's or API's terms bind a user only if the notice is reasonably conspicuous and the user takes an action that shows assent. Terms behind a link were not enforced in Nguyen v. Barnes & Noble, 763 F.3d 1171 (9th Cir. 2014); a clear sign-up screen was enforced in Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017); and Berman v. Freedom Financial Network, 30 F.4th 849 (9th Cir. 2022), refused terms where the notice was small and the button did not signal agreement (reported; check). Product should design sign-up flows with that test in mind (good practice).",
+     "**Scraping and the CFAA:** Scraping public pages is not automatically lawful. Under the Computer Fraud and Abuse Act, exceeding authorised access means getting into areas that are off limits, not misusing data one is entitled to reach (Van Buren v. United States, 593 U.S. 374 (2021)) (reported; check). In hiQ Labs v. LinkedIn, 31 F.4th 1180 (9th Cir. 2022), the Ninth Circuit held that scraping public profiles was likely not access “without authorization”, but the district court later found that hiQ had breached LinkedIn's User Agreement, and the parties settled with a consent judgment and a permanent injunction; the settlement terms are not judicial findings (reported; check). Product should not plan a feature that collects a third party's data without counsel's review (good practice).",
+     "**Map and database licences:** A public derivative database must be offered under the ODbL or a compatible licence, while a produced work such as a rendered map needs an attribution notice (ODbL-1.0, full text). Product should decide early whether the feature keeps a derivative database or only renders map images, because each choice brings a different duty (drafting inference).",
+     "**App store rules:** Apple's App Review Guideline 5.2 says an app should include only content the developer created or is licensed to use, and guideline 5.2.1 says not to use third-party trademarks, copyrighted works or patented ideas without permission (Apple App Review Guidelines, s.5.2 and 5.2.1). The Free Software Foundation's view that App Store terms conflict with the GPL is a view, not a court ruling (reported; check), so GPL code goes into an app store only after counsel's review (good practice)."
+    ],
+    "takeaway": "Counsel should see the terms before the code or data is in the build, not after the launch date is set."
+   },
+   {
+    "heading": "Inventions found in product work",
+    "lede": "Product work often turns up a patentable idea: a better flow, a model technique or a data method. The first public showing can start a clock, so product should bring the idea to counsel before it shows the idea to anyone outside the bank.",
+    "points": [
+     "**Disclose to counsel before any demo, beta or talk:** An invention disclosure lets counsel decide whether to file before the idea is shown outside the bank. Internal design reviews are a safe place to raise the idea first (good practice).",
+     "**The US grace period is one year:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if it was made one year or less before the effective filing date (35 U.S.C. § 102(b)(1)(A)). The exceptions depend on the conditions in § 102(b)(1)(B), and the one-year clock still runs, so the grace period is not a reason to wait (drafting inference).",
+     "**Other markets give little or no grace:** The European Patent Convention applies absolute novelty, and Art. 55(1) disregards a disclosure made within six months only for evident abuse or an official exhibition (European Patent Convention Art. 54 and 55(1)) (reported; check). The UK has similar but not identical narrow exceptions within six months (Patents Act 1977 s.2(4)) (reported; check). Hong Kong's exceptions are also narrow and run for six months (Cap. 514 s.37B and s.109).",
+     "**Provisional applications give an early date:** A provisional application needs no claims (35 U.S.C. § 111(b)(2)), and it is regarded as abandoned 12 months after filing unless it is converted (§ 111(b)(5)). A later application that claims its benefit under § 119(e)(1) can take the provisional's filing date for an invention disclosed as § 112(a) requires, if it is filed within 12 months (reported; check). Product should ask for a provisional filing when a feature may launch within a year (good practice).",
+     "**Freedom to operate and willfulness:** A feature that may use a competitor's patent needs a freedom-to-operate review before launch. In Halo Electronics v. Pulse Electronics, 579 U.S. 93 (2016), the Supreme Court let courts increase damages up to three times in egregious cases of culpable willful infringement (35 U.S.C. § 284) (reported; check). Under 35 U.S.C. § 298, failing to get or present advice of counsel cannot be used to prove willful infringement, but relying on an opinion can still waive privilege. Product should route the review through counsel so that the privilege question is managed (good practice).",
+     "**Marking and false marking:** A patentee that does not mark its patented article cannot recover damages for infringement before the infringer was notified of it, and filing suit counts as notice (35 U.S.C. § 287(a)). Marking a product with a patent word or number to deceive the public is false marking, and only the United States may sue for the fine, while a person with a competitive injury may sue for damages (35 U.S.C. § 292(a), (b)). Product should check every patent marking and virtual marking page before it goes live (good practice)."
+    ],
+    "visual": {
+     "type": "compare",
+     "caption": "Grace periods for the inventor's own disclosure before filing",
+     "items": [
+      {
+       "label": "United States",
+       "value": "One year",
+       "note": "35 U.S.C. § 102(b)(1)(A) excludes the inventor's own disclosure from prior art."
+      },
+      {
+       "label": "Europe",
+       "value": "Narrow, six months",
+       "note": "EPC Art. 55(1) covers only evident abuse or an official exhibition (reported; check)."
+      },
+      {
+       "label": "United Kingdom",
+       "value": "Narrow, six months",
+       "note": "Patents Act 1977 s.2(4) covers unlawful or confidential disclosures and exhibitions (reported; check)."
+      },
+      {
+       "label": "Hong Kong",
+       "value": "Narrow, six months",
+       "note": "Cap. 514 s.37B and s.109 cover evident abuse and exhibitions only."
+      },
+      {
+       "label": "Canada",
+       "value": "One year",
+       "note": "Patent Act s.28.2(1)(a) disregards the applicant's own disclosures in the year before filing."
+      }
+     ]
+    },
+    "takeaway": "A first demo can start a clock in some markets, so the disclosure goes to counsel before the demo, not after it."
+   },
+   {
+    "heading": "Launch: notices, claims and terms",
+    "lede": "Launch puts the bank's notices, marks and terms in front of customers. Product, design and marketing write much of that text, and counsel reviews the words before release because they decide what the bank can enforce.",
+    "points": [
+     "**Open source notices screen:** Shipped open source needs the notices its licence requires, which often means the copyright lines and the licence text in the app or the product documentation. The notices screen is built from the open source review in stage 11 (good practice).",
+     "**Copyright notice:** A copyright notice is optional, but if a proper notice appears on the published copies, an infringer cannot rely on innocent infringement to reduce actual or statutory damages (17 U.S.C. § 401(d)). The notice takes the form of the symbol, the year of first publication and the name of the owner (17 U.S.C. § 401(b)). Product should put it in the footer of the app or on the legal page (good practice).",
+     "**Patent pending and marks:** Use “patent pending” only while an application is pending: marking it when no application is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). A mark is registered only once a statement of use is accepted (15 U.S.C. § 1051(d)), so the ® symbol waits until registration. The notice of registration is optional, but a registrant that does not give it recovers no profits or damages unless the defendant had actual notice (15 U.S.C. § 1111).",
+     "**Customer terms by clickwrap:** Customer terms bind when the notice is conspicuous and the customer's click shows assent (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017)) (reported; check). Product should place the terms link beside the button the customer presses, and label that button so it means agreement (good practice).",
+     "**User content, the DMCA agent and Section 230:** A platform that stores user uploads keeps the storage safe harbour only if it has designated an agent with the Copyright Office to receive infringement notices (17 U.S.C. § 512(c)(2); 37 C.F.R. § 201.38). The designation expires after three years unless it is renewed, and a lapsed designation loses the safe harbour (reported; check). Section 230 gives no general shield against IP claims, because 47 U.S.C. § 230(e)(2) leaves intellectual property law alone (reported; check). Product should put the renewal date in the team calendar and build a takedown route (good practice).",
+     "**Feedback clauses:** Under California law, a person who discloses an idea that the recipient accepts, knowing that payment is expected, can recover if the idea is used, even where the idea is not copyrightable (Desny v. Wilder, 46 Cal. 2d 715 (1956)) (reported; check). A feedback clause that licenses suggestions to the bank manages that risk (good practice). Product should not run idea contests, beta suggestion forms or pitch forms without that clause in the terms (good practice)."
+    ],
+    "takeaway": "Notices, marks and terms are cheap to fix before release and expensive to fix after customers have seen them (drafting inference)."
+   },
+   {
+    "heading": "After launch: changes, feedback and claims",
+    "lede": "Launch starts a new phase of IP work. Changes reopen the review, letters arrive, and AI features bring model licences and vendor promises that can change over time.",
+    "points": [
+     "**What reopens the review:** A new SDK, an upstream licence change, a new market, a new data source or an AI model swap each reopens the review (good practice). Product should tell counsel before the change ships, not at the next audit (good practice).",
+     "**Infringement and takedown letters:** Letters that claim infringement go to counsel at once, and no one on the product team replies to them (good practice). Some letters start a clock: for hosting services in the EU, Article 16 of the Digital Services Act requires a notice-and-action mechanism and a timely decision on each notice (Regulation (EU) 2022/2065, Art. 16) (reported; check).",
+     "**Llama 4 licence terms:** A licensee with more than 700 million monthly active users in the preceding calendar month must request a separate licence from Meta, and may not exercise the licence rights until Meta grants it (Llama 4 Community License, s.2). “Built with Llama” must be prominently displayed where Llama materials or derivatives are made available (Llama 4 Community License, s.1.b.i). Product should check these terms before a model is chosen, not after (good practice).",
+     "**Vendor AI indemnities:** Microsoft's Copilot Copyright Commitment (September 2023), Google's generative AI indemnity (12 October 2023) and OpenAI's Copyright Shield (6 November 2023) extend defence to customers for named or paid services, but each has conditions, such as using the built-in guardrails and not deliberately generating infringing material (reported; check). Product should record those conditions in the feature plan, because a missed guardrail can take away the cover (drafting inference).",
+     "**EU AI Act output marking:** Article 50(2) of Regulation (EU) 2024/1689 requires providers of AI systems that generate synthetic audio, image, video or text to mark the outputs in a machine-readable way, and it applies from 2 August 2026 to new systems. The reported 2026 Digital Omnibus gives systems already on the market until 2 December 2026 (Regulation (EU) 2026/1744, as reported; check the timing). Product should confirm which dates apply to the feature before it launches (good practice).",
+     "**Keep a record of the model:** Record the model name and version, its licence, its vendor indemnity and the conditions attached to it in the feature record, so counsel can see what changed when the model is swapped (good practice)."
+    ],
+    "takeaway": "Launch closes the first review, not the IP work: each change, letter and model swap needs its own check."
+   }
+  ],
+  "provisions": [
+   {
+    "kind": "statute",
+    "instrument": "Lanham Act (15 U.S.C.)",
+    "ref": "§ 1051(b), (d)",
+    "title": "Intent-to-use application and statement of use",
+    "summary": "A person with a bona fide intention to use a mark in commerce may apply to register it. No registration issues until the applicant files a verified statement of use, which is due within six months after the notice of allowance and can be extended (15 U.S.C. § 1051(b)(1), (d)(1), (d)(2)).",
+    "counselNote": "A name can be filed before the launch, which secures the filing date for priority. Nothing is registered until the statement of use is accepted, so launch copy cannot say 'registered' (drafting inference). Ask trademark counsel to clear the name before any announcement (good practice).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm",
+    "cap": "15-USC",
+    "section": "1051"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Lanham Act (15 U.S.C.)",
+    "ref": "§ 1057(c)",
+    "title": "Constructive use from the filing date",
+    "summary": "Filing an application to register is constructive use, which gives nationwide priority from the filing date if the mark registers. The priority does not run against a person who used the mark, or had a pending or registered application for it, before that filing (15 U.S.C. § 1057(c)(1) to (c)(3)).",
+    "counselNote": "An early filing protects the priority date against later adopters of the name. It does not beat a party that used the mark before the filing date, so a clearance search still comes first (drafting inference).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm",
+    "cap": "15-USC",
+    "section": "1057"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Lanham Act (15 U.S.C.)",
+    "ref": "§ 1111",
+    "title": "Notice of registration",
+    "summary": "A registrant may display 'Registered in U.S. Patent and Trademark Office', 'Reg. U.S. Pat. & Tm. Off.' or the letter R in a circle with the mark. The notice is optional, but a registrant that sues without it cannot recover profits or damages unless the defendant had actual notice of the registration (15 U.S.C. § 1111).",
+    "counselNote": "A symbol on an unregistered mark is improper (TMEP § 906.02, reported; check), so the product team uses ® only on registered marks (good practice). Marketing copy that calls a pending mark 'registered' creates the same problem (drafting inference).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm",
+    "cap": "15-USC",
+    "section": "1111"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Lanham Act (15 U.S.C.)",
+    "ref": "§ 1125(a)(1)(A), (B)",
+    "title": "False designations of origin and false advertising",
+    "summary": "A person who uses a word, name, symbol or false or misleading representation of fact in commerce is liable where it is likely to confuse as to origin or sponsorship, or where, in commercial advertising or promotion, it misrepresents the nature, characteristics or qualities of goods or services (15 U.S.C. § 1125(a)(1)(A), (B)).",
+    "counselNote": "A comparison claim in a launch advertisement needs evidence before it goes out, because a rival named in the comparison can sue under this section (drafting inference). Comparative advertising is excluded from federal dilution claims (15 U.S.C. § 1125(c)(3)(A)).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm",
+    "cap": "15-USC",
+    "section": "1125"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Copyright Act (17 U.S.C.)",
+    "ref": "§ 102(a), (b)",
+    "title": "Subject matter of copyright: in general",
+    "summary": "Copyright protects original works of authorship fixed in a tangible medium, including pictorial and graphic works. It does not extend to any idea, procedure, process, system, method of operation or concept, whatever form it takes (17 U.S.C. § 102(a), (b)).",
+    "counselNote": "Copyright in a screen covers the artwork and the code, not the workflow or the layout idea. A court treated a menu command hierarchy as an uncopyrightable method of operation (Lotus Development Corp. v. Borland International, 49 F.3d 807 (1st Cir. 1995), reported; check). Copying a rival's screen closely is where the risk sits, not a similar workflow (drafting inference).",
+    "confidence": "high",
+    "cap": "17-USC",
+    "section": "102"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Copyright Act (17 U.S.C.)",
+    "ref": "§ 401(a), (b), (d)",
+    "title": "Notice of copyright on published copies",
+    "summary": "A notice of copyright may be placed on publicly distributed copies. If a proper notice appears on the copies, a defendant cannot rely on innocent infringement to reduce its liability (17 U.S.C. § 401(a), (b), (d)).",
+    "counselNote": "The notice is optional, but a notice on the app, the documentation and the site defeats an innocent-infringer argument (17 U.S.C. § 401(d)). Product counsel adds the notice at launch, with the year of first publication (good practice).",
+    "confidence": "high",
+    "url": "https://www.law.cornell.edu/uscode/text/17/401",
+    "cap": "17-USC",
+    "section": "401"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Copyright Act (17 U.S.C.)",
+    "ref": "§ 512(c)(2)",
+    "title": "Storage safe harbour for user content",
+    "summary": "A service provider can use the storage safe harbour for material that users post only if it has designated an agent with the Copyright Office to receive infringement notices. A designation has to be renewed, and a lapsed designation loses the safe harbour (17 U.S.C. § 512(c)(2), reported; check).",
+    "counselNote": "A feature that lets customers upload images, reviews or comments needs the designated agent in place before launch. Someone must diarise the renewal date, because a lapse removes the protection (good practice).",
+    "confidence": "medium",
+    "cap": "17-USC",
+    "section": "512"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Patent Act (35 U.S.C.)",
+    "ref": "§ 102(a)(1), (b)(1)(A)",
+    "title": "Conditions for patentability: novelty and the inventor's grace period",
+    "summary": "A disclosure made one year or less before the effective filing date is not prior art if the inventor made it, or someone who got the subject matter directly or indirectly from the inventor made it, subject to the conditions in § 102(b)(1)(B) (35 U.S.C. § 102(a)(1), (b)(1)(A), (B)).",
+    "counselNote": "A demo, beta or conference talk by the product team counts as the inventor's own disclosure, so the one-year clock starts on that date (drafting inference). Outside the US the same demo can count against novelty, because the EPC applies absolute novelty with narrow exceptions (reported; check).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+    "cap": "35-USC",
+    "section": "102"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Patent Act (35 U.S.C.)",
+    "ref": "§ 111(b)",
+    "title": "Provisional application",
+    "summary": "A provisional application does not need the claims or the formal requirements of section 112(b) to (e), and it is treated as abandoned 12 months after filing unless it is converted into a non-provisional application (35 U.S.C. § 111(b)).",
+    "counselNote": "A provisional is a fast, low-cost early filing date for a feature the team is about to show publicly (good practice). It does not become a patent by itself, so the full application must be filed within 12 months to claim its date (reported; check).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+    "cap": "35-USC",
+    "section": "111"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Patent Act (35 U.S.C.)",
+    "ref": "§ 171",
+    "title": "Patents for designs",
+    "summary": "Whoever invents a new, original and ornamental design for an article of manufacture may obtain a design patent, subject to the conditions and requirements of the patent statute (35 U.S.C. § 171(a), (b)).",
+    "counselNote": "A screen icon or an interface layout can be protected by a design patent when it is shown on a display screen (MPEP § 1504.01(a), reported; check). A public showing before filing can use up the one-year grace period (35 U.S.C. § 102(b)(1)(A)), so the design team tells counsel before the first demo (good practice).",
+    "confidence": "medium",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+    "cap": "35-USC",
+    "section": "171"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Patent Act (35 U.S.C.)",
+    "ref": "§ 287(a)",
+    "title": "Marking and notice",
+    "summary": "A patentee may give notice by marking the article with 'patent' or 'pat.' and the patent number, or with an internet address of a free public posting that links the article to the number. Without marking, damages run only from when the infringer is notified of the infringement, and filing suit counts as notice (35 U.S.C. § 287(a)).",
+    "counselNote": "Virtual marking lets a product page show the patent number instead of the device or package. The marking rule covers articles claimed in the patent, not method claims alone (drafting inference), so ask patent counsel which claims issued before the team writes the marking text (good practice).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+    "cap": "35-USC",
+    "section": "287"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Patent Act (35 U.S.C.)",
+    "ref": "§ 292(a) to (c)",
+    "title": "False marking",
+    "summary": "Only the United States may sue for the fine of up to $500 per offence for false marking. A person who suffers a competitive injury may sue for damages. Marking a product with an expired patent is not a violation (35 U.S.C. § 292(a) to (c)).",
+    "counselNote": "Marking a product as 'patented' when no patent covers it is the risk the product team must avoid (drafting inference). Marking text should come from patent counsel, not from marketing (good practice).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+    "cap": "35-USC",
+    "section": "292"
+   },
+   {
+    "kind": "statute",
+    "instrument": "Patent Act (35 U.S.C.)",
+    "ref": "§ 298",
+    "title": "Advice of counsel",
+    "summary": "An infringer's failure to obtain advice of counsel, or to present it to the court or jury, may not be used to prove willful infringement or intent to induce infringement (35 U.S.C. § 298).",
+    "counselNote": "The team cannot be penalised for skipping an opinion, but relying on one can waive privilege over the advice (drafting inference). Product counsel should decide with patent counsel when an opinion is worth the cost, before a feature is built around a third party's claims (good practice).",
+    "confidence": "high",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
+    "cap": "35-USC",
+    "section": "298"
+   },
+   {
+    "kind": "licence",
+    "instrument": "SIL Open Font License 1.1",
+    "ref": "Conditions 1, 3 and 5",
+    "title": "Font software in products",
+    "summary": "Fonts may be used, studied, modified, embedded and bundled with software, but the font software cannot be sold by itself (OFL-1.1 condition 1). A modified version may not use a Reserved Font Name without written permission (OFL-1.1 condition 3), and font software must stay under the licence (OFL-1.1 condition 5). Documents made with the fonts are not covered.",
+    "counselNote": "A brand team that wants a custom build of an open font cannot keep a Reserved Font Name without permission, and cannot sell the font alone (drafting inference). Documents such as statements and marketing PDFs are outside the licence, so the brand team needs no font licence for them (drafting inference).",
+    "confidence": "high",
+    "cap": "OFL-1.1",
+    "section": "full text"
+   },
+   {
+    "kind": "licence",
+    "instrument": "Open Data Commons Open Database License v1.0",
+    "ref": "ss.4.3 and 4.4",
+    "title": "Share-alike for public derivative databases",
+    "summary": "A derivative database that is publicly used must be offered under the ODbL or a compatible licence. A produced work, such as a rendered map image, needs only an attribution notice, but publicly using a produced work made from a derivative database can also trigger the share-alike duty (ODbL-1.0 full text, reported; check).",
+    "counselNote": "A feature that builds a map or a dataset from OpenStreetMap data can oblige the bank to share the derivative database if it is publicly used (drafting inference). The product team should ask counsel before the data is merged with the bank's own records (good practice).",
+    "confidence": "medium",
+    "url": "https://spdx.org/licenses/ODbL-1.0.html",
+    "cap": "ODbL-1.0",
+    "section": "full text"
+   },
+   {
+    "kind": "case",
+    "instrument": "Lexmark International, Inc. v. Static Control Components, Inc.",
+    "ref": "572 U.S. 118 (2014)",
+    "title": "Zone of interests and proximate cause for false advertising",
+    "summary": "A false advertising plaintiff under § 1125(a)(1)(B) must fall within the statute's zone of interests, which means an injury to a commercial interest in reputation or sales, and must show proximate cause.",
+    "counselNote": "Only a party with a commercial injury can sue, so the likely plaintiff in a comparison dispute is a rival whose product is named (drafting inference). Keep the evidence behind each comparison ready to produce (good practice).",
+    "confidence": "high",
+    "url": "https://www.courtlistener.com/c/us/572/118/"
+   },
+   {
+    "kind": "code",
+    "instrument": "Apple App Review Guidelines",
+    "ref": "Guidelines 5.2 and 5.2.1",
+    "title": "Intellectual property in apps",
+    "summary": "Apps should include only content the developer created or has a licence to use. Third-party material such as trademarks, copyrighted works or patented ideas must not be used without permission, and an app should be submitted by the entity that owns or licenses the IP.",
+    "counselNote": "A partner logo or a licensed image in a bank app needs written permission before the build is submitted, because a rejection delays the launch (good practice). The submitting entity must be the one that holds the rights (drafting inference).",
+    "confidence": "high",
+    "url": "https://developer.apple.com/app-store/review/guidelines/"
+   }
+  ],
+  "checklist": [
+   "**Name and marks:** Clear the feature name before any announcement. If the bank has a bona fide intention to use the mark in commerce, file an intent-to-use application before launch (15 U.S.C. § 1051(b)(1)). Constructive use then dates from the filing date, if the mark registers (15 U.S.C. § 1057(c)).",
+   "**Partner marks:** Ask whether the feature shows a wallet, card scheme or partner mark, and get the partner's brand rules in writing before the first screen is drawn. Naming another owner's product with its mark can be nominative fair use only where the product cannot readily be identified without it and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)).",
+   "**Comparative claims:** Every launch claim that compares the bank's product with a rival, or states a quality or performance level, needs supporting evidence before it goes live (15 U.S.C. § 1125(a)(1)(B); Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
+   "**Screens and icons:** Ask early what in the design is worth protecting. Copyright covers the expression in an interface, not the method of operation (17 U.S.C. § 102(b); reported; check). Trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); reported; check). A design patent can cover an icon shown on a display screen (35 U.S.C. § 171; reported; check).",
+   "**Fonts and images:** Confirm that each typeface, font file, icon set and stock image is licensed for the bank's use, including app bundles, web delivery and print. Font software cannot be sold by itself, and a modified font may not use a reserved font name without permission (OFL-1.1 conditions 1 and 3). Stock licences often limit the number or type of uses (good practice).",
+   "**Code, SDKs and APIs:** Send each open source component to the open source review (stage 11). Read each SDK and API term before the SDK ships, because those terms often limit caching and data use (Google Maps Platform terms on caching; reported; check).",
+   "**Data sources:** Confirm that the bank holds a licence or contract for each data source, including public data gathered by scraping. Website terms bind a user only where notice is clear and assent is shown (Nguyen v. Barnes & Noble, 763 F.3d 1171 (9th Cir. 2014); reported; check). Scraping can also raise a CFAA question, which turns on access to areas that are off limits rather than on misuse of data the user can reach (Van Buren v. United States, 593 U.S. 374 (2021); reported; check).",
+   "**Inventions:** Ask whether the feature uses a new method, model or system. If it does, the invention disclosure should be filed before any demo, beta, pilot or conference talk (35 U.S.C. § 102(b)(1)(A); good practice).",
+   "**Notices:** Match every marking to the real position. Marking an article falsely can expose the bank to a fine that only the United States may sue for (35 U.S.C. § 292(a)). A registrant that omits the registration notice loses profits and damages in an infringement suit unless the defendant had actual notice (15 U.S.C. § 1111). A proper copyright notice stops an innocent infringer defence (17 U.S.C. § 401(d)).",
+   "**Customer terms:** Show the terms at the point of assent, with a button that signals agreement to them. Clear notice on a sign-up screen was enforced in Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017), while a small notice and a button that did not signal agreement were not enforced in Berman v. Freedom Financial Network, 30 F.4th 849 (9th Cir. 2022) (reported; check)."
+  ],
+  "itAngle": [
+   "**Feature flags:** Launch new features behind a flag, so that a name, asset or licence problem can be switched off without a new app store build (good practice).",
+   "**Asset register:** Record the source, licence, version and owner of each font, icon, image, SDK and model in the build manifest, so the notices screen and any takedown can be answered from one list (good practice).",
+   "**Generated notices:** Generate the open source notices and the copyright text from the software bill of materials at build time, and test that they appear in each app bundle and web build (good practice).",
+   "**Web delivery of fonts:** A font loaded from a third-party host or content delivery network is still font software delivered to users, so check that the licence covers that delivery method (OFL-1.1 condition 1; good practice).",
+   "**Scraping controls:** Route data collection through licensed feeds or APIs, with logged access and rate limits, so the bank can show what it took and under which terms (good practice)."
+  ],
+  "virtualBankNotes": [
+   "**Product approval:** Put the IP triage into the bank's new product approval record. The OCC expects new products and services to be risk-assessed before launch, as Bulletin 2017-43 sets out (check current status).",
+   "**Third-party risk:** The interagency guidance (88 Fed. Reg. 37920) covers the whole life cycle of third-party relationships, including contracting, and the agencies say it adds no new requirements (reported; check). SDK, API and AI model providers belong in the vendor inventory (drafting inference).",
+   "**Model risk for AI features:** SR 11-7 and OCC Bulletin 2011-12 were reported rescinded on 17 April 2026 and replaced by OCC Bulletin 2026-13 and SR 26-2 (reported; check). Whether the replacement applies from that date or from 2027 is unsettled, and commentary reports that it does not cover generative or agentic AI. Ask the model risk team which policy governs an AI feature (drafting inference).",
+   "**Customer terms:** Terms accepted by clickwrap need clear notice and an action that shows assent (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017); reported; check). Product should not change a sign-up flow without counsel's review of the terms (good practice).",
+   "**Vendor AI indemnities:** Vendor IP indemnities for AI output are conditional. Microsoft's Copilot Copyright Commitment, for example, depends on the customer using the built-in guardrails and not deliberately generating infringing material (reported; check). Product should know those conditions, because the bank loses the protection if it steps outside them (good practice)."
+  ],
+  "productNotes": [
+   "**Name and claims:** Ask what customers will call the feature, whether a partner's name or card scheme mark appears in it, and what the launch copy will say about rivals or performance. Those answers set the clearance and evidence work before any announcement (good practice; 15 U.S.C. § 1125(a)(1)(B)).",
+   "**Design assets:** Ask who made each icon, illustration, font and image, under what licence or contract, and whether any new screen or icon is meant to be distinctive enough to protect. Ask before the design is handed to engineering (good practice).",
+   "**Code, SDKs, data and models:** Ask which libraries, SDKs, APIs, datasets and AI models the feature uses, and which of them the bank does not yet hold a licence for. Send open source to the stage 11 review, and SDK terms to counsel, before the build starts (good practice).",
+   "**Inventions and disclosure:** Ask whether the feature has a new method or model, and when the team plans any demo, beta, pilot, conference talk or press release. A public disclosure can bar a patent abroad, where the US one-year grace period does not apply (35 U.S.C. § 102(b)(1)(A); EPC Art. 54; reported; check)."
+  ],
+  "pitfalls": [
+   "**Launch before clearance:** A public launch under a name nobody has cleared can force a rename after the marketing spend is committed. An intent-to-use filing before launch is the low-cost step (15 U.S.C. § 1051(b)(1); good practice).",
+   "**Demo before filing:** A beta, a conference talk or an app store listing can be a public disclosure. The US gives the inventor a one-year grace period, but Europe, the UK and Hong Kong give only narrow exceptions (35 U.S.C. § 102(b)(1)(A); EPC Art. 54; reported; check).",
+   "**Stock and font licences:** A stock licence bought for a website may not cover app screens, print or resale. A font licence may not allow the font to be sold alone or bundled in the way the product team plans (OFL-1.1 condition 1; good practice).",
+   "**Registration statements:** Writing 'registered' beside an unregistered mark is a false statement. In Hong Kong it is an offence (Cap. 559 s.94), and in the UK it is an offence under the Trade Marks Act 1994 s.95(1)(a) (reported; check).",
+   "**App store content:** An app that uses third-party material without permission can be rejected, and apps should be submitted by the entity that owns or licenses the IP (Apple App Review Guidelines 5.2 and 5.2.1).",
+   "**Model swaps:** Changing the AI model can change licence terms, indemnities and output marking. Llama 4's community licence requires a separate licence from Meta for a licensee above the 700 million monthly active user test, and it requires a 'Built with Llama' notice where the licence applies (Llama 4 Community License, s.2 and s.1.b.i)."
+  ],
+  "elsewhere": [
+   {
+    "place": "EU",
+    "points": [
+     "**Design law covers screens:** Regulation (EU) 2024/2822 defines product to include non-physical manifestations such as graphical user interfaces, but computer programs stay outside the definition (reported; check).",
+     "**No general grace period:** Europe applies absolute novelty. A disclosure before filing is disregarded only in narrow cases, such as an evident abuse or an official exhibition (EPC Art. 54 and 55; reported; check).",
+     "**Database right:** A database that needed substantial investment has a sui generis right against extraction or re-use of a substantial part of its contents (Directive 96/9/EC, Art. 7; reported; check)."
+    ]
+   },
+   {
+    "place": "UK",
+    "points": [
+     "**False registration:** Falsely representing a mark as registered is an offence, and the use of 'registered' or a similar word can count as a representation of registration (Trade Marks Act 1994 s.95(1)(a), (2); reported; check).",
+     "**Narrow six-month window:** The UK disregards a disclosure made within six months before filing only where the matter was obtained unlawfully or in breach of confidence, or was shown at a qualifying exhibition (Patents Act 1977 s.2(4); reported; check).",
+     "**Computer-generated works:** The government's report of 18 March 2026 recommends removing copyright protection for computer-generated works under CDPA 1988 s.9(3). Nothing has been legislated, and the report is not binding (reported; check)."
+    ]
+   },
+   {
+    "place": "HK",
+    "points": [
+     "**False registration offence:** Falsely representing that a sign is a registered trade mark, knowing or having reason to believe it is false, is an offence with a level 3 fine (Cap. 559 s.94).",
+     "**Narrow six-month window:** Cap. 514 s.37B and s.109 disregard a disclosure made up to six months before filing only for an evident abuse against the applicant or a display at an official or recognised exhibition (Cap. 514 s.37B(1) to (3), s.109).",
+     "**Online safe harbour and no database right:** Cap. 528 ss.88A to 88J give online service providers a notice-based safe harbour, and Hong Kong has no sui generis database right (reported; check)."
+    ]
+   },
+   {
+    "place": "CA",
+    "points": [
+     "**Registration without use:** Since 17 June 2019 a Canadian trademark can be registered on use or on an intention to use in Canada, without a declaration of first use. Prior use still decides priority in a dispute (Trademarks Act, R.S.C. 1985, c. T-13; reported; check).",
+     "**Generous grace period:** The applicant's own disclosures in the year before filing are not prior art (Patent Act s.28.2(1)(a)).",
+     "**Notice and notice:** An internet intermediary must forward a copyright owner's notice of claimed infringement to the user and tell the claimant, without a duty to remove the content (Copyright Act ss.41.25 to 41.27; reported; check)."
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Intent-to-use application",
+    "definition": "A trademark application filed by a person who has a bona fide intention to use the mark in commerce but is not yet using it. Registration waits until a verified statement of use is accepted (15 U.S.C. § 1051(b))."
+   },
+   {
+    "term": "Nominative fair use",
+    "definition": "Using another company's mark to name that company's product, where the product cannot readily be identified without the mark. Only as much of the mark as needed is used, and nothing suggests sponsorship. Partners and integrators rely on it when they name a wallet or card scheme (good practice) (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992))."
+   },
+   {
+    "term": "Trade dress",
+    "definition": "The overall look of a product or its packaging, which the law can protect as a sign of origin. Unregistered product design needs proof of secondary meaning, and a functional feature cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000), reported; check)."
+   },
+   {
+    "term": "Design patent",
+    "definition": "A patent for the new, original and ornamental design of an article of manufacture, such as a display screen showing an icon or interface (35 U.S.C. § 171). The term is 15 years from grant for applications filed on or after 13 May 2015 (reported; check)."
+   },
+   {
+    "term": "Font software",
+    "definition": "The program files that make a font work on screen or in print. A typeface as such is not protected by US copyright, but font software can be, where it has enough original authorship (reported; check). The Open Font License sets the terms for using and bundling it."
+   },
+   {
+    "term": "Clickwrap",
+    "definition": "Online terms that a user accepts by clicking a button after the terms are shown with clear notice. A court enforces them where the notice is clear and the click signals assent. Terms that sit behind a link without any prompt are much weaker (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017), reported; check)."
+   },
+   {
+    "term": "Produced work",
+    "definition": "A work such as a rendered map image or a report, made by using a substantial part of a database through a search or query. Under the ODbL it needs an attribution notice, and publicly using it can trigger the share-alike duty for the database behind it (reported; check)."
+   },
+   {
+    "term": "Invention disclosure",
+    "definition": "An internal record of a new idea that may be patentable, sent to patent counsel before any demo, beta, talk, paper or sale. The US grace period for the inventor's own disclosures is one year, but it is narrow or absent in most other markets (35 U.S.C. § 102(b)(1)(A)). Sending the record before any showing is good practice."
+   },
+   {
+    "term": "Freedom to operate",
+    "definition": "An assessment of whether a product or feature is likely to infringe a third party's valid patent claims, usually by a search of patents and a claim-by-claim review (good practice). Advice can matter to a willfulness claim, but relying on it can waive privilege (35 U.S.C. § 298)."
+   },
+   {
+    "term": "Virtual marking",
+    "definition": "Marking a product with the word 'patent' and an internet address of a free public web page that links the product to its patent number. It counts as marking under 35 U.S.C. § 287(a), so the number can sit on a product page rather than on the device or package."
+   },
+   {
+    "term": "Designated agent",
+    "definition": "The person a service provider names with the Copyright Office to receive infringement notices, so that it can use the storage safe harbour for user content. The designation must be renewed, and a lapsed one loses the safe harbour (17 U.S.C. § 512(c)(2), reported; check)."
+   },
+   {
+    "term": "Feedback clause",
+    "definition": "A term in the customer or developer terms that licenses to the company any suggestions or ideas the user sends. It is a common way to manage the risk of a claim that an idea was used for payment (Desny v. Wilder, 46 Cal. 2d 715 (1956), reported; check)."
    }
   ]
  }
