@@ -1401,7 +1401,7 @@
    "**Settle ownership in the contract before work starts:** Tell counsel before a vendor, agency or contractor starts a feature. Code belongs to its author, and the bank is treated as the author only for code an employee writes within the scope of employment. Otherwise the bank needs a transfer signed by the author (17 U.S.C. §§ 101, 201(a)-(b), 204(a)).",
    "**Do not accept a deliverable without the signed paper:** Product managers should not take vendor or contractor code into a release until the signed assignment or licence is on file. Calling software a work made for hire does not make it one, because most software falls outside the nine categories in § 101(2) (17 U.S.C. §§ 101, 204(a)).",
    "**Route side projects and public contributions through approval:** Staff should not contribute bank code to a public project, or build a personal product on it, without approval. Code written within the job is usually the bank's, so a contribution is the bank's grant under that project's licence (17 U.S.C. § 101; good practice).",
-   "**Tell HR and counsel when staff in California join product teams:** California limits an employer's invention clause, which cannot reach an own-time invention that does not use the employer's resources and is unrelated to its business. The employer must also give written notice of that limit (Cal. Lab. Code §§ 2870, 2872)."
+   "**Tell HR and counsel when staff in California join product teams:** California limits an employer's invention clause, which cannot reach an own-time invention that does not use the employer's resources, unless the invention relates to the employer's business or actual or demonstrably anticipated research or development, or results from work done for the employer (Cal. Lab. Code § 2870(a)). The employer must also give written notice of that limit (Cal. Lab. Code §§ 2870, 2872)."
   ],
   "pitfalls": [
    "**Relying on a work made for hire label for vendors:** Assuming that a vendor's clause makes its software the bank's, when most software does not fit the nine categories in § 101(2).",
@@ -3446,7 +3446,7 @@
   "productNotes": [
    "**Say how the product will use the code:** Tell counsel whether the code stays inside the bank, is modified, goes to customers or runs as a service for users, because each act brings different duties (GPL-3.0 s.2; AGPL-3.0 s.13).",
    "**Send the licence, not the label:** A vendor or colleague who says 'open source' does not settle the question, so send the licence text or its SPDX identifier with the request (OSI Open Source Definition). Source-available terms such as SSPL, BUSL and Elastic License 2.0 go to commercial review, not the open source queue (reported; check).",
-   "**Keep licence notices in the product:** Ask engineering to ship licence texts and copyright notices in the app, the About screen, the container image or the release package (MIT full text). Stripping them can also raise issues under 17 U.S.C. § 1202 (reported; check).",
+   "**Keep licence notices in the product:** Ask engineering to ship licence texts and copyright notices in the app, the About screen, the container image or the release package (MIT full text). Stripping them can also breach 17 U.S.C. § 1202(b) when it is done knowing it will enable infringement.",
    "**Send licensor letters to counsel the same day:** A notice from a copyright holder can start a short cure clock, so the product or engineering lead who receives it should pass it on at once (GPL-3.0 s.8)."
   ],
   "pitfalls": [
@@ -5748,9 +5748,9 @@
    "**Vendor deliverables:** Where a vendor ships permissive code in its product, ask for the notice file and component list in the delivery, since those are compliance evidence (good practice)."
   ],
   "productNotes": [
-   "**Treat permissive code as a copyright clearance only:** A permissive licence does not clear the patents that the code may practise (35 U.S.C. § 271(a)). Route code that implements a claimed method to patent review before it ships (good practice).",
-   "**Ship the notices in every artefact:** Put the licence text and notice files inside each app bundle, container image and SDK. For Apache-2.0, put the NOTICE text where users see attributions, such as an about screen (Apache-2.0 s.4(d)).",
-   "**Keep contributor names out of launches:** Marketing must not use the name of an upstream project or its contributors to promote a bank product without written permission (BSD-3-Clause cl.3; 15 U.S.C. § 1125(a)(1)(A)).",
+   "**Treat permissive code as a copyright clearance only:** A permissive licence does not clear third-party patents that the code may practise (35 U.S.C. § 271(a)). Apache-2.0 s.3 gives only a limited patent grant from each contributor, for patent claims that its own contribution necessarily infringes (Apache-2.0 s.3). Route code that implements a claimed method to patent review before it ships (good practice).",
+   "**Ship the notices in every artefact:** Put the licence text and notice files inside each app bundle, container image and SDK. If the Apache-2.0 work includes a NOTICE file, put its attribution text where users see attributions, such as an about screen, or in another place s.4(d) allows (Apache-2.0 s.4(d)).",
+   "**Keep contributor names out of launches:** Marketing must not use the names of an upstream copyright holder or its contributors to endorse or promote a bank product derived from that code without written permission (BSD-3-Clause cl.3). A project's own name is a trademark question (15 U.S.C. § 1125(a)(1)(A)).",
    "**Send edited licences to counsel as new ones:** A tweaked MIT or BSD text, or a licence with added clauses, can change the conditions, so raise it with counsel before the code merges (good practice)."
   ],
   "pitfalls": [
@@ -6306,8 +6306,8 @@
   "productNotes": [
    "**Say where copyleft code meets the bank's code:** Tell counsel which parts of the product use GPL, LGPL, MPL or EPL code and how they are linked. A distributed combined work may have to carry the GPL as a whole (GPL-2.0 s.2(b); GPL-3.0 s.5(c)).",
    "**Ask who receives a copy:** Running GPL code inside the bank is generally not conveying, but a copy sent to an affiliate, contractor or partner can be. Tell counsel before the code leaves the bank or its group (GPL-3.0 s.0; drafting inference).",
-   "**Put the source offer on the release checklist:** Each binary that goes out with GPL code needs its source or a written offer valid for at least three years (GPL-2.0 s.3(b); GPL-3.0 s.6(b)). Book that offer into the launch plan (good practice).",
-   "**Flag personal devices and partner SDKs:** Branded hardware sold to customers, such as card readers, may bring GPL-3.0 installation information duties (GPL-3.0 s.6). An SDK given to partners can carry copyleft duties to each recipient (drafting inference)."
+   "**Put the source offer on the release checklist:** Each binary that goes out with GPL-2.0 code needs its source with it or a written offer valid for at least three years (GPL-2.0 s.3(a), (b)). Under GPL-3.0 a written offer is available only for a physical product (GPL-3.0 s.6(b)); a download needs the source with it or access to it from a designated place (GPL-3.0 s.6(d)). Book that offer into the launch plan (good practice).",
+   "**Flag personal devices and partner SDKs:** Branded hardware sold to personal or household customers, such as card readers, may bring GPL-3.0 installation information duties where possession and use pass to the buyer (GPL-3.0 s.6). An SDK given to partners can carry copyleft duties to each recipient (drafting inference)."
   ],
   "pitfalls": [
    "**Assuming internal use is free:** Internal running is generally not conveying, but a copy sent to an affiliate, contractor or partner can be (GPL-3.0 s.0; drafting inference).",
@@ -7366,7 +7366,7 @@
   ],
   "productNotes": [
    "**Send the component before the merge:** Tell counsel the component, its version, how the product uses it and whether it ships to customers or runs as a service before the code is merged, because the use decides the approval tier (good practice).",
-   "**Plan for notices at release:** Apache-2.0 and MIT code shipped in an app, SDK or container needs its licence text and notices with each copy, so product should build a notices screen into every release (Apache-2.0 s.4; MIT, full text).",
+   "**Plan for notices at release:** Apache-2.0 and MIT code shipped in an app, SDK or container needs its licence text and notices with each copy, so product should put the notices into every release, in a NOTICE file or in a display where such notices normally appear (Apache-2.0 s.4(d); MIT, full text).",
    "**Flag any modified network service early:** A modified AGPL-3.0 program that remote users interact with must offer its source to them, so tell counsel before engineers change an AGPL component behind a customer-facing feature (AGPL-3.0 s.13).",
    "**Do not copy code with no licence:** Code published with no licence keeps its copyright, so a designer, engineer or marketer cannot paste it into a feature without the owner's permission (17 U.S.C. § 106)."
   ],
@@ -10098,7 +10098,7 @@
   ],
   "productNotes": [
    "**Ask before any public push:** Tell counsel before a sample app, SDK or demo repository goes public, since a public push cannot be fully recalled and forks may keep copies (good practice).",
-   "**Bring the title trail with the code:** Name the authors of each part, including contractors and vendors, and send each contractor or vendor deliverable with its signed transfer, because contractor code stays with the contractor without one (17 U.S.C. §§ 101, 204(a)).",
+   "**Bring the title trail with the code:** Name the authors of each part, including contractors and vendors, and send each contractor or vendor deliverable with its signed transfer of title, or with a licence to publish it where title stays with the vendor, because contractor code stays with the contractor without a transfer (17 U.S.C. §§ 101, 204(a)).",
    "**Let product name the sensitive parts:** Ask engineering and product to flag secrets, customer data, internal hostnames and fraud or anti-abuse rules, and do not strip licence headers to tidy the repository (17 U.S.C. § 1202(b); Apache-2.0 s.4(c)).",
    "**Agree the licence and the name early:** Apache-2.0 gives an express patent grant that ends for a licensee who sues over the work (Apache-2.0 s.3), so product should settle that choice with counsel, and the readme should say that the bank does not license its names or marks (Apache-2.0 s.6)."
   ],
@@ -12593,7 +12593,7 @@
    "**Bring the vendor build to counsel early:** Send the statement of work and the ownership and licence-back terms before the product team commits to a build, because a contractor's code is not the bank's until a signed writing says so (17 U.S.C. §§ 101, 204(a)).",
    "**Ask vendors for an open source list:** Require the vendor's list of open source components and licences in each deliverable, and approval before any copyleft code enters, so the product team does not inherit a licence it never saw (good practice).",
    "**Agree the licence metric before usage grows:** Licence metrics can change under a vendor's new pricing, as Oracle's move to a per-employee Java SE metric showed, so agree the metric and audit terms before the product scales (reported; check).",
-   "**Plan the exit with the contract:** Ask for escrow or SaaS exit terms and a tested data export. A licensee may keep its IP rights after a vendor's rejection in bankruptcy (11 U.S.C. § 365(n)), but rejection does not supply the code, data or service (Mission Product Holdings, Inc. v. Tempnology, LLC, 587 U.S. 370 (2019))."
+   "**Plan the exit with the contract:** Ask for escrow or SaaS exit terms and a tested data export. A licensee of IP can keep its rights after a vendor's rejection in bankruptcy if it makes the election in 11 U.S.C. § 365(n), but rejection does not supply the code, data or service (drafting inference)."
   ],
   "pitfalls": [
    "**Relying on the warranty alone:** Known defects are usually excluded from R&W insurance and are hard to recover under a general warranty, so take special indemnities (reported; check).",
@@ -15269,9 +15269,9 @@
    "**Examiner readiness:** Keep the AI policy, the approved list and the review evidence ready for supervisors at all times (good practice)."
   ],
   "productNotes": [
-   "**Keep a record of human input:** Ask engineers and designers to keep dated notes of what they wrote, selected and edited in AI-assisted code and content, because prompts alone do not make the user an author (17 U.S.C. § 102(a); Copyright Office, Part 2, 29 January 2025). Tell counsel which AI coding tools engineers use and what data they may see (good practice).",
+   "**Keep a record of human input:** Ask engineers and designers to keep dated notes of what they wrote, selected and edited in AI-assisted code and content, because the Copyright Office's guidance is that prompts alone do not make the user an author (17 U.S.C. § 102(a); Copyright Office, Part 2, 29 January 2025). Tell counsel which AI coding tools engineers use and what data they may see (good practice).",
    "**Name people as inventors:** Tell counsel who conceived each claimed step of a product invention before filing, and keep the AI tool off the inventor list, since only natural persons can be inventors (35 U.S.C. § 100(f); Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022)).",
-   "**Tell counsel where training data came from:** Describe the data a model will train on and how the bank acquired it before the feature is built, because training on lawfully acquired books was held fair use in Bartz, while building a library from pirated copies was not (17 U.S.C. § 107; Bartz v. Anthropic PBC (N.D. Cal. 23 June 2025)).",
+   "**Tell counsel where training data came from:** Describe the data a model will train on and how the bank acquired it before the feature is built, because one district court, in Bartz, held that training on lawfully acquired books was fair use while building a library from pirated copies was not; that ruling does not bind other courts and the answer is still unsettled (17 U.S.C. § 107; Bartz v. Anthropic PBC (N.D. Cal. 23 June 2025)).",
    "**Read the model licence before launch:** A model licence can set user thresholds and use limits, such as the Llama 4 separate-licence test at 700 million monthly active users, so bring the licence to counsel before a launch (Llama 4 Community License s.2). Do not call open weights open source in marketing, since they come under their own terms (good practice)."
   ],
   "pitfalls": [

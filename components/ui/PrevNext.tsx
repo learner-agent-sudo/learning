@@ -18,12 +18,12 @@ const pad = (n: number) => String(n).padStart(2, '0');
 export function PrevNext({ prev, next, onNavigate }: Props) {
   return (
     // Sits close under the "Next in this stage" button when that comes first.
-    <nav aria-label="Stage navigation" className="mt-12 grid gap-3 sm:grid-cols-2 [button+&]:mt-3">
+    <nav aria-label="Stage navigation" className="mt-12 grid grid-cols-[minmax(0,1fr)] gap-3 sm:grid-cols-2 [button+&]:mt-3">
       {prev ? (
         <button
           type="button"
           onClick={() => onNavigate(prev.id)}
-          className="group flex items-center gap-3 rounded-xl border border-line bg-panel px-4 py-3.5 text-left shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
+          className="group flex min-w-0 items-center gap-3 rounded-xl border border-line bg-panel px-4 py-3.5 text-left shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
         >
           <ArrowLeft className="h-5 w-5 shrink-0 text-muted transition group-hover:-translate-x-0.5 group-hover:text-ink" aria-hidden />
           <span className="min-w-0">
@@ -38,7 +38,7 @@ export function PrevNext({ prev, next, onNavigate }: Props) {
         <button
           type="button"
           onClick={() => onNavigate(next.id)}
-          className="group flex items-center justify-end gap-3 rounded-xl border border-module/30 bg-module px-4 py-3.5 text-right text-onaccent shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
+          className="group flex min-w-0 items-center justify-end gap-3 rounded-xl border border-module/30 bg-module px-4 py-3.5 text-right text-onaccent shadow-card transition hover:-translate-y-0.5 hover:shadow-lift"
         >
           <span className="min-w-0">
             <span className="block font-mono text-[11px] uppercase tracking-[0.14em] text-onaccent/80">Next · {pad(next.index)}</span>

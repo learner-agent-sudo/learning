@@ -77,7 +77,7 @@ export function Tabs({ idBase, tabs, active, onChange, className = '' }: Props) 
           role="tablist"
           aria-orientation="horizontal"
           onKeyDown={onKey}
-          className="no-scrollbar grid auto-cols-fr grid-flow-col border-b border-line md:flex md:gap-0.5 md:overflow-x-auto"
+          className="no-scrollbar grid auto-cols-fr grid-flow-col border-b border-line max-md:overflow-x-clip md:flex md:gap-0.5 md:overflow-x-auto"
         >
           {/* Counts are hidden from md to xl, where six tabs would not fit beside the rail. */}
           {tabs.map((t) => {
