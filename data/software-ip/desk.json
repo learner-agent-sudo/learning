@@ -985,6 +985,13 @@
         "stage": "patents",
         "quote": "Calling a product 'patented' when only an application is pending can mislead customers."
        }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "marking it when no application is pending, to deceive the public, is false marking"
+       }
       }
      ]
     }
@@ -1721,8 +1728,15 @@
      "beat": "rule",
      "core": true,
      "pin": {
-      "stage": "trademarks",
-      "quote": "marks are registered under the Trade Marks Ordinance (Cap. 559); an unregistered name relies on passing off, so register before launch in Hong Kong."
+      "stage": "product",
+      "quote": "A person with a bona fide intention to use a mark in commerce can file an intent-to-use application"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "Filing an application to register is constructive use, contingent on registration"
      }
     },
     {
@@ -1773,8 +1787,8 @@
       "label": "Rely on use after launch to build the rights",
       "in": false,
       "pin": {
-       "stage": "trademarks",
-       "quote": "an unregistered name relies on passing off, so register before launch in Hong Kong."
+       "stage": "product",
+       "quote": "Filing an application to register is constructive use, contingent on registration"
       }
      },
      {
@@ -1789,7 +1803,7 @@
    },
    "followUps": [
     {
-     "ask": "And if the app will also be offered to customers in the United States?",
+     "ask": "And if the app is also offered to customers outside the United States?",
      "lines": [
       {
        "beat": "rule",
@@ -1815,6 +1829,18 @@
        "pin": {
         "stage": "trademarks",
         "quote": "Vendor contracts should say who owns names, logos and brand assets made for the bank, and whether the vendor may name the bank as a customer (drafting inference)."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the app also launches in Hong Kong?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "an unregistered name relies on passing off, so register before launch in Hong Kong"
        }
       }
      ]
@@ -1920,8 +1946,8 @@
       {
        "beat": "rule",
        "pin": {
-        "stage": "trademarks",
-        "quote": "It also reaches misleading claims about partnerships or endorsements, which fintech marketing can create."
+        "stage": "product",
+        "quote": "likely to confuse as to origin or sponsorship"
        }
       }
      ]
@@ -1995,7 +2021,7 @@
       "in": false,
       "pin": {
        "stage": "trademarks",
-       "quote": "It also reaches misleading claims about partnerships or endorsements, which fintech marketing can create."
+       "quote": "The core question is whether customers are likely to be confused about source, sponsorship or affiliation"
       }
      }
     ]
@@ -2465,7 +2491,7 @@
       "in": true,
       "pin": {
        "stage": "permissive",
-       "quote": "The licence disclaims warranties and liability, and says nothing about patents or names."
+       "quote": "The MIT and BSD texts say nothing about patents."
       }
      },
      {
@@ -2739,14 +2765,6 @@
       "pin": {
        "stage": "oss-basics",
        "quote": "Permissive licences disclaim warranty, and MIT provides the software 'AS IS' (MIT full text)."
-      }
-     },
-     {
-      "label": "Carving open source out of the contract altogether",
-      "in": false,
-      "pin": {
-       "stage": "permissive",
-       "quote": "Open source components are usually not the business arrangement, but the vendors that supply or support them are (drafting inference)."
       }
      }
     ]
@@ -3107,10 +3125,10 @@
      "ask": "And could a customer, rather than the copyright holder, enforce it?",
      "lines": [
       {
-       "beat": "pressed",
+       "beat": "rule",
        "pin": {
         "stage": "oss-basics",
-        "quote": "A bank that distributes GPL code in devices or apps should allow for enforcement by purchasers as well as copyright holders, although that theory is not settled (drafting inference)."
+        "quote": "reportedly lets a purchaser pursue the GPL as a third-party beneficiary"
        }
       }
      ]
@@ -3852,13 +3870,6 @@
        "pin": {
         "stage": "using",
         "quote": "Each exception needs a written reason, an owner and an expiry date"
-       }
-      },
-      {
-       "beat": "pressed",
-       "pin": {
-        "stage": "using",
-        "quote": "and review open exceptions each quarter"
        }
       }
      ]
@@ -5412,6 +5423,387 @@
        "pin": {
         "stage": "disputes",
         "quote": "Assuming the bank can sue on a US work before registration has been made"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "product-demo-abroad",
+   "stage": "product",
+   "ask": "The product team will demo a possibly patentable payments feature at conferences in London and Singapore next month; what do you do before the demo?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We're showing the new instant-split feature at two conferences next month. Anything legal need to happen first?"
+   },
+   "primes": "sw-product-s5",
+   "lines": [
+    {
+     "beat": "answer",
+     "pin": {
+      "stage": "product",
+      "quote": "A first demo can start a clock in some markets, so the disclosure goes to counsel before the demo"
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "The US grace period is one year: A disclosure by the inventor"
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "Other markets give little or no grace: The European Patent Convention applies absolute novelty"
+     },
+     "core": true
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "product",
+      "quote": "Disclose to counsel before any demo, beta or talk: An invention disclosure lets counsel decide"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "product",
+      "quote": "Provisional applications give an early date: A provisional application needs no claims"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what you would do",
+    "multi": false,
+    "options": [
+     {
+      "label": "Get the disclosure to counsel and decide on filing before the demo",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "Disclose to counsel before any demo, beta or talk: An invention disclosure lets counsel decide"
+      }
+     },
+     {
+      "label": "Demo now and rely on the one-year grace period everywhere",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "Other markets give little or no grace: The European Patent Convention applies absolute novelty"
+      }
+     },
+     {
+      "label": "Demo now and file in the US within the year",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "A first demo can start a clock in some markets, so the disclosure goes to counsel before the demo"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the bank would rather keep the method secret?",
+     "lines": [
+      {
+       "beat": "options",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Decide secret or patent before the feature is shown"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And in Hong Kong and Canada?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "disregard a disclosure made up to six months before filing only for an evident abuse"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "The applicant's own disclosures in the year before filing are not prior art"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "product-sdk-map-data",
+   "stage": "product",
+   "ask": "A new feature uses a third-party mapping SDK and OpenStreetMap data; what IP points do you clear before it ships?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We're adding a branch and ATM finder with a maps SDK and some OpenStreetMap data. What do you need from us?"
+   },
+   "primes": "sw-product-s4",
+   "lines": [
+    {
+     "beat": "answer",
+     "pin": {
+      "stage": "product",
+      "quote": "Counsel should see the terms before the code or data is in the build, not after the launch date is set."
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "SDK and API terms are contracts: An SDK or API comes with terms that limit use, caching and the data it returns."
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "Map and database licences: A public derivative database must be offered under the ODbL or a compatible licence"
+     },
+     "core": true
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "product",
+      "quote": "Open source goes to the stage 11 review:"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the points you would clear",
+    "multi": true,
+    "options": [
+     {
+      "label": "The SDK's limits on use, caching and data",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "SDK and API terms are contracts: An SDK or API comes with terms that limit use, caching and the data it returns."
+      }
+     },
+     {
+      "label": "Whether the feature keeps a derivative database or only renders maps",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "Map and database licences: A public derivative database must be offered under the ODbL or a compatible licence"
+      }
+     },
+     {
+      "label": "Nothing, because public map data is free to use",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "Map and database licences: A public derivative database must be offered under the ODbL or a compatible licence"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if engineering wants to scrape a competitor's rates page for a comparison?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "Scraping and the CFAA: Scraping public pages is not automatically lawful."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "product-launch-copy",
+   "stage": "product",
+   "ask": "Marketing's launch copy calls the feature 'patent pending', puts ® on its new name and shows a wallet partner's logo; what do you approve?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "Launch page is ready: new name with the ® symbol, 'patent pending', and the wallet logo up top. Can you sign it off today?"
+   },
+   "primes": "sw-product-s6",
+   "lines": [
+    {
+     "beat": "answer",
+     "pin": {
+      "stage": "product",
+      "quote": "Clear the name, file on intent, use ® only once a mark is registered"
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "Patent pending and marks: Use “patent pending” only while an application is pending"
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "Use a partner's mark with care: A partner's name can be used to refer to that partner's product"
+     },
+     "core": true
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "product",
+      "quote": "Use the ® only when it is earned:"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what you would approve as drafted",
+    "multi": true,
+    "options": [
+     {
+      "label": "'Patent pending', if an application is on file and pending",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "Patent pending and marks: Use “patent pending” only while an application is pending"
+      }
+     },
+     {
+      "label": "® on the new name before it is registered",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "Use the ® only when it is earned:"
+      }
+     },
+     {
+      "label": "The wallet logo without the partner's brand rules",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "Use a partner's mark with care: A partner's name can be used to refer to that partner's product"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the copy compares the feature with a rival bank's app?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "Make comparative claims provable:"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "product-counsel-process",
+   "stage": "product",
+   "ask": "As product counsel embedded with a digital bank's app team, what would you put in place so IP issues surface before launch rather than after?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "You're joining the app squads next week. How will you make sure IP problems reach you early?"
+   },
+   "primes": "sw-product-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "pin": {
+      "stage": "product",
+      "quote": "The seat works when product counsel is in the room before the decisions are made"
+     },
+     "core": true
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "Run the triage: Ask the same eight questions for every feature"
+     },
+     "core": true
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "product",
+      "quote": "Use the bank's approval gate:"
+     },
+     "core": true
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "product",
+      "quote": "Know who to call: Patent counsel handles inventions and freedom to operate"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "product",
+      "quote": "Escalate by risk: Settle a point at the desk"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what you would put in place",
+    "multi": true,
+    "options": [
+     {
+      "label": "A short IP triage on every feature brief",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "Run the triage: Ask the same eight questions for every feature"
+      }
+     },
+     {
+      "label": "An IP sign-off inside the bank's product approval",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "Use the bank's approval gate:"
+      }
+     },
+     {
+      "label": "A legal review of each launch once the build is finished",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "The seat works when product counsel is in the room before the decisions are made"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And after launch, what brings the review back?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "What reopens the review: A new SDK, an upstream licence change"
        }
       }
      ]
