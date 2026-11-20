@@ -1,0 +1,974 @@
+{
+ "cap": "522",
+ "title": "Registered Designs Ordinance",
+ "longTitle": "An Ordinance to make new provision in respect of registered design right and related matters in substitution for the United Kingdom Designs (Protection) Ordinance.",
+ "versionDate": "2025-08-24",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap522",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part I",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part II",
+   "heading": "Registration of Designs",
+   "status": "in-effect",
+   "sections": [
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s8A",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25",
+    "s26",
+    "s27",
+    "s28",
+    "s29",
+    "s30"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part III",
+   "heading": "Rights in Registered Designs",
+   "status": "in-effect",
+   "sections": [
+    "s31",
+    "s32",
+    "s33",
+    "s34",
+    "s35"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part IV",
+   "heading": "Government Use of Registered Designs",
+   "status": "in-effect",
+   "sections": [
+    "s36",
+    "s37",
+    "s38",
+    "s39",
+    "s40"
+   ]
+  },
+  {
+   "id": "P5",
+   "num": "Part V",
+   "heading": "Legal Proceedings",
+   "status": "in-effect",
+   "sections": [
+    "s41",
+    "s42",
+    "s43",
+    "s44",
+    "s45",
+    "s46",
+    "s47",
+    "s48",
+    "s49",
+    "s50",
+    "s51",
+    "s52",
+    "s53",
+    "s54",
+    "s55",
+    "s56",
+    "s57",
+    "s58",
+    "s59",
+    "s60",
+    "s61",
+    "s62",
+    "s63"
+   ]
+  },
+  {
+   "id": "P6",
+   "num": "Part VI",
+   "heading": "Administrative and Miscellaneous Provisions",
+   "status": "in-effect",
+   "sections": [
+    "s64",
+    "s65",
+    "s66",
+    "s67",
+    "s68",
+    "s69",
+    "s70",
+    "s71",
+    "s72",
+    "s73",
+    "s74",
+    "s75",
+    "s76",
+    "s77",
+    "s78"
+   ]
+  },
+  {
+   "id": "P7",
+   "num": "Part VII",
+   "heading": "Rules and Regulations",
+   "status": "in-effect",
+   "sections": [
+    "s79",
+    "s80",
+    "s81",
+    "s82",
+    "s83",
+    "s84",
+    "s84A"
+   ]
+  },
+  {
+   "id": "P8",
+   "num": "Part VIII",
+   "heading": "Offences",
+   "status": "in-effect",
+   "sections": [
+    "s85",
+    "s86",
+    "s87",
+    "s88",
+    "s89"
+   ]
+  },
+  {
+   "id": "P9",
+   "num": "Part IX",
+   "heading": "Transitional Provisions, Consequential Amendments and Repeal",
+   "status": "in-effect",
+   "sections": [
+    "s90",
+    "s91",
+    "s92",
+    "s93",
+    "s94",
+    "s95",
+    "s96"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) This Ordinance may be cited as the Registered Designs Ordinance.\n  (2)"
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this Ordinance, unless the context otherwise requires—\n    application for registration (註冊申請) means an application for registration of a design made under section 12;\n    article (物品) means any article of manufacture and includes any part of an article if that part is made and sold separately;\n    artistic work (藝術作品) has the same meaning as in Part II of the Copyright Ordinance (Cap. 528);\n    assignee (承讓人) includes the personal representative of a deceased assignee, and references to the assignee of any person include references to the assignee of the personal representative or assignee of that person;\n    corresponding design (相應外觀設計), in relation to an artistic work, means a design which if applied to an article would produce something which would be treated for the purposes of Part II of the Copyright Ordinance (Cap. 528) as a copy of that work;\n    court (法院) means the Court of First Instance;\n    design (外觀設計) means features of shape, configuration, pattern or ornament applied to an article by any industrial process, being features which in the finished article appeal to and are judged by the eye, but does not include—\n      (a) a method or principle of construction; or\n      (b) features of shape or configuration of an article which—\n        (i) are dictated solely by the function which the article has to perform; or\n        (ii) are dependent upon the appearance of another article of which the article is intended by the designer to form an integral part;\n    designer (設計人), in relation to a design, means the person who creates it or, if there are 2 or more such persons, each of those persons;\n    employee (僱員) means a person who works or (where the employment has ceased) worked under a contract of employment (whether with the Government or with any other person);\n    employer (僱主), in relation to an employee, means the person by whom the employee is or was employed;\n    exclusive licence (專用特許) means a licence from the registered owner of a registered design conferring on the licensee, or on him and persons authorized by him, to the exclusion of all other persons (including the registered owner), any right in respect of the design that would otherwise be exercisable exclusively by the registered owner, and exclusive licensee (專用特許持有人) shall be construed accordingly;\n    filing date (提交日期), in relation to an application for registration, means the date determined under section 14 as the filing date of the application;\n    official journal (官方公報) means the publication for the time being specified under section 84A as the official journal of record;\n    owner (擁有人) has the meaning assigned by section 3;\n    Paris Convention (《巴黎公約》) means the Convention for the Protection of Industrial Property signed at Paris on 20 March 1883, as revised or amended from time to time;\n    Paris Convention country (巴黎公約國) means—\n      (a) any country for the time being specified in the Schedule as being a country which has acceded to the Paris Convention;\n      (b) any territory or area subject to the authority or under the suzerainty of any country referred to in paragraph (a), or any territory or area administered by any such country, on behalf of which such country has acceded to the Paris Convention;\n    prescribed (訂明) means prescribed or provided for by the rules;\n    priority date (優先權日期), in relation to an application for registration, means the date regarded as being the filing date of the application pursuant to section 17;\n    protected layout-design (topography) (受保護的布圖設計(拓樸圖)) has the meaning assigned to that term by section 2(1) of the Layout-design (Topography) of Integrated Circuits Ordinance (Cap. 445);\n    Register (註冊紀錄冊) means the Register of Designs kept under this Ordinance;\n    registered design (註冊外觀設計) means a design registered under section 25;\n    registered owner (註冊擁有人), in relation to a registered design, means the person whose name is for the time being entered in the Register as the owner of the design or, if there are 2 or more such persons, each of those persons;\n    Registrar (處長) means the Registrar of Designs;\n    Registrar of Designs (外觀設計註冊處處長) means the person holding that office by virtue of the Director of Intellectual Property (Establishment) Ordinance (Cap. 412);\n    Registry (註冊處) means the Designs Registry administered by the Registrar;\n    rules (規則) means rules made by the Registrar under section 79, 80, 81 or 82, as the case may be;\n    set of articles (物品套件) means 2 or more articles of the same general character that are ordinarily on sale together or intended to be used together, to each of which the same design, or the same design with modifications or variations not sufficient to alter the character or substantially to affect the identity thereof, is applied;\n    World Trade Organization Agreement (《世界貿易組織協議》) means the Agreement Establishing the World Trade Organization done at Marrakesh in 1994, as revised or amended from time to time;\n    WTO member (世界貿易組織成員) means any country, territory or area for the time being specified in the Schedule as being a country, territory or area which has acceded to the World Trade Organization Agreement.\n  (2) Unless the context otherwise requires, any reference in this Ordinance—\n    (a) to the filing of a document shall be construed as a reference to the filing of the document with the Registrar;\n    (b) to an article in respect of which a design is registered shall, in the case of a design registered in respect of a set of articles, be construed as a reference to any article of that set; or\n    (c) to the infringement of a design or registered design shall be construed as a reference to the infringement of any right in the design conferred by this Ordinance.\n  (3) The expressions listed in the left-hand column below are defined in, or fall to be construed in accordance with, the provisions of this Ordinance listed in the right-hand column in relation to those expressions.\n  Expressions Relevant provision Divisional application (分開申請) section 22(1) Formal requirements (形式上的規定) section 24(4) Government use (政府徵用) section 37(2) Kit (配套元件) section 31(5) Official international exhibition (正式國際展覽) section 9(3) Regular national filing (正規國家提交) section 15(4)"
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Ownership of designs",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) Subject to subsections (2) to (5), the designer of a design shall be treated for the purposes of this Ordinance as the original owner of the design.\n  (2) Where a design is created in pursuance of a commission for money or money’s worth, the person commissioning the design shall, subject to any contrary agreement between the parties, be treated as the original owner of the design.\n  (3) Where, in a case not falling within subsection (2), a design is created by an employee in the course of his employment, his employer shall, subject to any contrary agreement between the parties, be treated as the original owner of the design.\n  (4) Where a design, or the right to apply a design to any article, becomes vested, whether by assignment, transmission or operation of law, in any person other than the original owner, either alone or jointly with the original owner, that other person or, as the case may be, the original owner and that other person, shall be treated for the purposes of this Ordinance as the owner of the design or as the owner of the design in relation to that article.\n  (5) In the case of a design generated by computer in circumstances such that there is no human designer, the person by whom the arrangements necessary for the creation of the design are made shall be deemed to be the designer."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Application",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "Subject to Part IV, this Ordinance applies to the Government and the Offices set up by the Central People’s Government in the Hong Kong Special Administrative Region."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "New designs are registrable",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to this Ordinance, a design which is new may, upon application by the person claiming to be the owner, be registered in respect of any article or set of articles specified in the application.\n  (2) A design for which an application for registration is made shall not be regarded as new if it is the same as—\n    (a) a design that has been registered in pursuance of a prior application, whether or not that design has been registered in respect of the same article for which the application is made or in respect of any other article; or\n    (b) a design that has been published in Hong Kong or elsewhere before the filing date of the application, whether or not that design has been published in respect of the same article for which the application is made or in respect of any other article,\n  or if it differs from such a design only in immaterial details or in features which are variants commonly used in the trade.\n  (3) The Registrar may, in such cases as may be prescribed, direct that for the purpose of deciding whether a design is new an application for registration shall be treated as made on a date earlier or later than that on which it was in fact made."
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Designs are not registrable if appearance of article is not material",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "A design is not registrable in respect of an article if the appearance of the article is not material, that is, if aesthetic considerations are not normally taken into account to a material extent by persons acquiring or using articles of that description, and would not be so taken into account if the design were to be applied to the article."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Designs contrary to public order (“ordre public”) or morality are not registrable",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to subsection (2), a design the publication or use of which would be contrary to public order (“ordre public”) or morality is not registrable.\n  (2) The publication or use of a design shall not be considered to be contrary to public order (“ordre public”) merely because it is prohibited by any law in force in Hong Kong."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Computer programs, protected layout-designs (topographies) and designs for articles of a primarily literary or artistic character",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Computer programs and protected layout-designs (topographies) are not registrable.\n  (2) Provision may be made by rules for excluding from registration under this Ordinance designs for such articles of a primarily literary or artistic character as the rules may specify."
+  },
+  {
+   "id": "s8A",
+   "num": "8A",
+   "heading": "Designs with national flag, national emblem, regional flag or regional emblem are not registrable",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A design is not registrable if it consists of or contains the national flag, the national emblem, the regional flag, the regional emblem or their designs.\n  (2) In this section—\n    national emblem (國徽) has the meaning given by section 2(1) of the National Flag and National Emblem Ordinance (116 of 1997)*;\n    national flag (國旗) has the meaning given by section 2(1) of the National Flag and National Emblem Ordinance (116 of 1997)*;\n    regional emblem (區徽) has the meaning given by section 2(1) of the Regional Flag and Regional Emblem Ordinance (117 of 1997)#;\n    regional flag (區旗) has the meaning given by section 2(1) of the Regional Flag and Regional Emblem Ordinance (117 of 1997)#."
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Provisions as to confidential disclosure, etc.",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An application for the registration of a design shall not be refused, and the registration of a design shall not be invalidated, by reason only of—\n    (a) the disclosure of the design by the owner to any other person in such circumstances as would make it contrary to good faith for that other person to use or publish the design;\n    (b) the disclosure of the design in breach of good faith by any person other than the owner of the design;\n    (c) in the case of a new or original textile design intended for registration, the acceptance of a first and confidential order for goods bearing the design; or\n    (d) the communication of the design by the owner to a government department or to any person authorized by a government department to consider the merits of the design, or of anything done in consequence of such a communication.\n  (2) An application for the registration of a design shall not be refused, and the registration of a design shall not be invalidated, by reason only—\n    (a) that a representation of the design, or any article to which the design has been applied, has been displayed, with the consent of the owner of the design, at an official international exhibition;\n    (b) that after any such display as is mentioned in paragraph (a), and during the period of the exhibition, a representation of the design, or any article to which the design has been applied, has been displayed by any person without the consent of the owner; or\n    (c) that a representation of the design has been published in consequence of any such display as is mentioned in paragraph (a),\n  if the application for registration of the design is made not later than 6 months after the opening of the exhibition.\n  (3)\n    In this section, official international exhibition (正式國際展覽) means an official, or officially recognized, international exhibition falling within the terms of the Convention on International Exhibitions signed at Paris on 22 November 1928, and any protocols to that Convention, as revised or amended from time to time."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "Provisions as to artistic works",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to subsection (2), where an application is made by or with the consent of the owner of copyright in an artistic work for the registration of a corresponding design, the design shall not be treated for the purposes of this Ordinance as being other than new by reason only of any use previously made of the artistic work.\n  (2) Subsection (1) does not apply if the previous use consisted of or included the sale, letting for hire, or offer or exposure for sale or hire of articles to which had been applied industrially—\n    (a) the design in question; or\n    (b) a design differing from it only in immaterial details or in features which are variants commonly used in the trade,\n  and that previous use was made by or with the consent of the copyright owner.\n  (3) Provision may be made by rules as to the circumstances in which a design is to be regarded for the purposes of this section as “applied industrially” to articles or any description of articles."
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "Provisions as to registration of same design in respect of other articles, etc.",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where the registered owner of a design registered in respect of any article makes an application—\n    (a) for registration in respect of 1 or more other articles, of the registered design; or\n    (b) for registration in respect of the same or 1 or more other articles, of a design consisting of the registered design with modifications or variations not sufficient to alter the character or substantially affect the identity thereof,\n  the application shall not be refused, and the registration made on the application shall not be invalidated, by reason only of the previous registration or publication of the registered design.\n  (2) Where any person makes an application for the registration of a design in respect of any article and either—\n    (a) the design has been previously registered by another person in respect of some other article; or\n    (b) the design to which the application relates consists of a design previously registered by another person in respect of the same or some other article with modifications or variations not sufficient to alter the character or substantially affect the identity thereof,\n  then, if at any time while the application is pending the applicant becomes the registered owner of the design previously registered, subsection (1) shall apply as if at the time of making the application the applicant had been the registered owner of that design."
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Applications for registration",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An application for registration of a design shall be filed with the Registrar in the prescribed manner.\n  (2) The application shall include—\n    (a) a request for registration of the design;\n    (b) a representation of the design suitable for reproduction;\n    (c) the name and address of the applicant;\n    (d) where the applicant is not the designer, a statement explaining the applicant’s rights in relation to the design;\n    (e) an address in Hong Kong for service of documents; and\n    (f) such other information, documents or matter as may be required by the rules.\n  (3) The application may include such other information, documents or matter as may be authorized by the rules.\n  (4) The application shall be filed in one of the official languages and shall also comply with the requirements of this Ordinance and the rules as to the provision of information in, or the translation of documents into, one or both of the official languages.\n  (5) The application shall be accompanied by the prescribed filing fee and the prescribed advertisement fee."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "Multiple applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Two or more designs may be the subject of the same application for registration if the designs—\n  (a) relate to the same prescribed class of articles or to the same set of articles; and\n  (b) comply with any prescribed conditions."
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Filing date",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "The filing date of an application for registration of a design is the earliest date on which—\n  (a) documents containing everything required by section 12(2)(a) to (c) are filed; and\n  (b) the fees required by section 12(5) are paid."
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Priority right",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A person who has duly filed an application for registration of a design in, or in respect of, a Paris Convention country or WTO member, or his successor in title, shall enjoy, for the purpose of registering the same design under this Ordinance in respect of any or all of the same articles, a right of priority for the period of 6 months after the filing date of the first application, subject to compliance with any prescribed conditions.\n  (2) Any filing of an application for registration of a design in, or in respect of, a Paris Convention country or WTO member which is equivalent to a regular national filing under the law of that Paris Convention country or WTO member, or under any bilateral or multilateral agreement to which it is a party, shall be recognized as giving rise to a right of priority.\n  (3) A subsequent application for the registration of a design that was the subject of a previous application, and that is filed in or in respect of the same Paris Convention country or WTO member, shall be considered as the first application for the purpose of determining priority if, and only if, on the filing date of the subsequent application, the previous application has been withdrawn, abandoned or refused, without being open to public inspection and without leaving any rights outstanding, and has not served as a basis for claiming a right of priority.\n  (4)\n    In this section, regular national filing (正規國家提交) means any filing of an application for registration of a design in, or in respect of, a Paris Convention country or WTO member that establishes the date on which the application was filed, whatever the outcome of the application may be."
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Claiming priority",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An applicant who desires to take advantage of the priority of a previous application shall file with the Registrar in the prescribed manner a statement of priority and a copy of the previous application.\n  (2) Where a statement of priority is filed in accordance with this section, the applicant shall for the purposes of proceedings before the Registrar be deemed to be entitled to enjoy the right of priority shown in the statement."
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Effect of priority right",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The right of priority shall have the effect that the filing date of the previous application claimed under section 16 shall be regarded as being the filing date of the application for registration under this Ordinance for the purpose of determining whether the design in question is new.\n  (2) Subsection (1) shall not be construed as excluding the power to give directions under section 5(3) in relation to the application for registration under this Ordinance.\n  (3) Where an application for registration of a design is filed under this Ordinance and the priority of a previous application is claimed under section 16, then, notwithstanding anything contained in this Ordinance, the application shall not be refused and the registration of the design under this Ordinance shall not be invalidated by reason only of the fact that the previous application has been published at any time after the filing date of the previous application."
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Withdrawal of applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) An applicant may withdraw his application for registration of a design by filing a notice of withdrawal with the Registrar before the date on which preparations for publication under section 25 have been completed, as determined by the Registrar.\n  (2) A notice under this section shall be—\n    (a) made in writing; and\n    (b) filed in the prescribed manner.\n  (3) Where a notice is filed in accordance with this section, the application shall be deemed withdrawn.\n  (4) A notice filed in accordance with this section is irrevocable."
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Effect of withdrawal",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Where an application for registration of a design is deemed by any provision of this Ordinance to have been withdrawn, the following provisions shall apply—\n  (a) the applicant shall continue to enjoy the right of priority under section 17 which he enjoyed immediately before the withdrawal; and\n  (b) no other right may be claimed under this Ordinance in relation to the application."
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Reinstatement of applications deemed withdrawn",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where an application for registration of a design is deemed to have been withdrawn following the applicant’s failure to comply with a time limit under this Ordinance (including any time limit set by the Registrar) and the applicant has by notice filed with the Registrar requested reinstatement of the application, then—\n    (a) any deemed withdrawal of the application that occurred as a direct consequence of the failure to comply shall be deemed to be of no effect and the application shall be treated for the purposes of proceedings under this Ordinance as if there had been no such failure; and\n    (b) any right or means of redress lost by the applicant as a direct consequence of the failure to comply shall be restored to the applicant.\n  (2) A notice under this section shall be—\n    (a) made in writing; and\n    (b) filed in the prescribed manner within 1 month after such deemed withdrawal.\n  (3) A notice under this section shall be deemed not to have been filed until the omission which constituted the failure to comply with the time limit has been made good."
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Amendment of applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The Registrar may amend an application for registration of a design on request made to him by the applicant in the prescribed manner.\n  (2) An application for registration of a design shall not be amended under subsection (1) if, as a result of the amendment, the scope of the application would be increased by the inclusion of any matter that was not in substance disclosed in the application initially filed."
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Division of applications after amendment",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where a request for amendment of an application for registration of a design has been granted under section 21, and the amendment has the effect of excluding one or more designs from the application initially filed, the applicant may at any time while the initial application is pending make a further application, referred to in this section as a divisional application, for registration of the design or designs so excluded.\n  (2) A divisional application shall be entitled to the filing date and the priority date, if any, of the initial application."
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Rights in applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The provisions of sections 32 to 34 (which relate to rights in registered designs) apply, with necessary modification, in relation to an application for registration of a design as they apply in relation to a registered design.\n  (2) In section 33, as it applies in relation to an application for registration of a design, the reference in subsection (1) to the registration of a design shall be construed as a reference to the making of the application.\n  (3) In section 34, as it applies in relation to a transaction, instrument or event affecting an application for registration of a design, the references to the registration of particulars, and to the making of an application for the registration of particulars, shall be construed as a reference to the giving of written notice to the Registrar of those particulars."
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Examination of applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) If an application for registration of a design has been accorded a filing date under section 14 and has not been withdrawn, the Registrar shall examine the application to determine whether it satisfies the formal requirements.\n  (2) Where the Registrar determines that there are deficiencies as regards the formal requirements, he shall notify the applicant and give him an opportunity to correct the deficiencies within the prescribed period.\n  (3) If any deficiencies as regards the formal requirements are not corrected within the prescribed period, the application shall be deemed to be withdrawn.\n  (4)\n    In this Ordinance, formal requirements (形式上的規定) means such requirements of section 12 and of any rules made for the purposes of that section as are specified in the rules as being the formal requirements."
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Registration and publication",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "If on an examination by the Registrar under section 24 an application for registration of a design is found to have satisfied the formal requirements, then as soon as practicable after such examination, but subject to section 26, the Registrar shall—\n  (a) register the design by entering the prescribed particulars in the Register;\n  (b) enter the name of the applicant, or the successor in title to the application, in the Register as the owner of the design;\n  (c) issue a certificate of registration to the person who is the registered owner of the design at the time the design is registered; and\n  (d) advertise the fact of such registration and publish a representation of the design by notice in the official journal."
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Refusal of applications",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The Registrar may refuse an application for registration of a design if, after an examination by him under section 24 and after giving the applicant the opportunity to correct any deficiencies as provided for in that section, he determines—\n    (a) that the application does not satisfy the formal requirements; or\n    (b) that, on the face of the application, the design is not new or is not registrable for any other reason.\n  (2) The Registrar shall give notice of any such refusal to the applicant.\n  (3) Where the Registrar refuses an application for registration of a design under this section, the following provisions shall apply—\n    (a) the applicant shall continue to enjoy the right of priority under section 16 which he enjoyed immediately before such refusal; and\n    (b) no other right may be claimed under this Ordinance in relation to the application."
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Formality examination",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "Except as expressly provided to the contrary, nothing in this Ordinance shall be construed as imposing any obligation upon the Registrar to consider or have regard to, for the purpose of determining whether to accept an application for registration of a design, any question as to—\n  (a) the registrability of the design;\n  (b) whether the applicant is entitled to any priority claimed in the application; or\n  (c) whether the design is properly represented in the application."
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Period of registration",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The initial period of registration of a design is 5 years beginning on the filing date of the application for registration.\n  (2) The period of registration of a design may be extended for additional periods of 5 years each but the total period of registration may not exceed 25 years beginning on the filing date of the application for registration.\n  (3) If the owner of a registered design desires to renew the period of registration for a further period of 5 years, the prescribed renewal fee shall be paid before the end of the current period of registration but not earlier than 3 months immediately preceding the end of the current period.\n  (4) If the renewal fee is not paid in accordance with subsection (3), the registration of the design shall cease to have effect at the end of the current period of registration.\n  (5) If during the period of 6 months immediately following the end of the period specified in subsection (4) the renewal fee and any prescribed additional fee are paid, the registration of the design shall be treated as if it had never ceased to have effect, and accordingly—\n    (a) anything done under or in relation to any rights in or under the design by or with the consent of the owner during that period shall be deemed to be valid;\n    (b) an act which would have constituted an infringement of the design if the registration had not ceased to have effect shall be deemed to constitute such an infringement; and\n    (c) an act which would have constituted Government use of the design if the registration had not ceased to have effect shall be deemed to constitute Government use."
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Exceptions related to artistic works, etc.",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where it is shown that a registered design—\n    (a) was at the time it was registered a corresponding design in relation to an artistic work in which copyright subsists; or\n    (b) by reason of a previous use of that work would not have been registrable but for section 10(1),\n  then, notwithstanding section 28, the period of registration of the design expires when the copyright in that work expires, if that is earlier than the time at which it would otherwise expire, and it may not thereafter be renewed.\n  (2) Notwithstanding section 28, the period of registration of a design registered by virtue of section 11(1) shall not extend beyond the end of the period of registration, and any extended period of registration, of the original registered design."
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Surrender of registration",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The registration of a design may be surrendered by the registered owner in respect of any or all of the articles for which the design is registered.\n  (2) Provision may be made by rules—\n    (a) as to the manner and effect of a surrender; and\n    (b) for protecting the interest of other persons having a right in the design."
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "Rights conferred by registration",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Subject to this Ordinance, the registration of a design under this Ordinance gives to the registered owner the exclusive right—\n    (a) to make in Hong Kong or import into Hong Kong—\n      (i) for sale or hire; or\n      (ii) for use for the purpose of trade or business; or\n    (b) to sell, hire, or offer or expose for sale or hire in Hong Kong,\n  any article in respect of which the design is registered and to which that design or a design not substantially different from it has been applied.\n  (2) The right in a registered design is infringed by any person who, without the consent of the registered owner and while the registration is in force—\n    (a) does anything which by virtue of subsection (1) is the exclusive right of the registered owner;\n    (b) makes anything for enabling any article referred to in subsection (1) to be made in Hong Kong or elsewhere;\n    (c) does anything in relation to a kit that would constitute an infringement of the design if it had been done in relation to the assembled article; or\n    (d) makes anything for enabling a kit to be made or assembled, in Hong Kong or elsewhere, if the assembled article would be such an article as is referred to in subsection (1).\n  (3) The right conferred by the registration of a design does not extend to—\n    (a) acts done privately for non-commercial purposes; or\n    (b) acts done for the purpose of evaluation, analysis, research or teaching.\n  (4) The right in a registered design is not infringed by the reproduction of a feature of the design which, by virtue of paragraph (b) of the definition of design in section 2(1), is not taken into account for the purpose of determining whether the design is registrable.\n  (5)\n    In this section, kit (配套元件) means a complete or substantially complete set of components intended to be assembled into an article."
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "Nature of registered design",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) A registered design is personal property and any registered design, and any right in or under it, may be transferred, created or granted in accordance with subsections (2) to (7).\n  (2) Subject to section 33, any registered design, and any right in or under it, may be assigned or mortgaged.\n  (3) A registered design shall vest by operation of law in the same way as any other personal property and may be vested by an assent of personal representatives.\n  (4) Subject to section 33, a licence may be granted under any registered design for the use of the design and—\n    (a) to the extent that the licence so provides, a sub-licence may be granted under any such licence and any such licence or sub-licence may be assigned or mortgaged; and\n    (b) any such licence or sub-licence shall vest by operation of law in the same way as any other personal property and may be vested by an assent of personal representatives.\n  (5) Subsections (2) to (4) shall have effect subject to this Ordinance.\n  (6) Any of the following transactions, that is to say—\n    (a) any assignment or mortgage of a registered design or any right in or under it; or\n    (b) any assent relating to a registered design or any right in or under it,\n  shall be void unless it is in writing and is signed by or on behalf of the assignor, mortgagor or party granting such assent as the case may be (or, in the case of an assent or other transaction by a personal representative, by or on behalf of the personal representative) or, in the case of a body corporate, is so signed or is under the seal of that body.\n  (7) An assignment of a registered design or a share in it, and an exclusive licence granted under any registered design, may confer on the assignee or licensee the right of the assignor or licensor to bring proceedings by virtue of section 48 or to bring proceedings under section 40 for a previous act."
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Co-ownership of registered designs",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Subject to any agreement to the contrary, where there is more than one registered owner of a registered design, each of them shall be entitled to an equal undivided share in the design.\n  (2) Subject to this section and to any agreement to the contrary, where there is more than one registered owner of a registered design, each of them shall be entitled, by himself or his agent, to do in respect of the design concerned, for his own benefit and without the consent of or the need to account to any other registered owner, any act which would apart from this subsection and section 37 constitute an infringement of the design concerned; and any such act shall be deemed not to constitute an infringement of the design concerned.\n  (3) Subject to section 41 and to any agreement to the contrary, where there is more than one registered owner of a registered design, no registered owner shall, without the consent of each of the others, grant a licence under the design or assign or mortgage a share in it.\n  (4) Nothing in subsection (1) or (2) shall affect the mutual rights or obligations of trustees or of the personal representatives of a deceased person, or their rights or obligations as such."
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Transactions affecting rights in registered designs",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Any person who claims to have acquired any right in or under a registered design by virtue of any transaction, instrument or event to which this section applies shall be entitled as against any other person who claims to have acquired that right by virtue of an earlier transaction, instrument or event to which this section applies if, at the time of the later transaction, instrument or event—\n    (a) application has not been made for the registration of particulars concerning the earlier transaction, instrument or event; and\n    (b) the person claiming under the later transaction, instrument or event did not know of the earlier transaction, instrument or event.\n  (2) Subsection (1) shall apply equally to the case where any person claims to have acquired any right in or under a registered design by virtue of a transaction, instrument or event to which this section applies, and that right is incompatible with any such right acquired by virtue of an earlier transaction, instrument or event to which this section applies.\n  (3) This section applies to the following transactions, instruments and events—\n    (a) the assignment of a registered design or a right in or under it;\n    (b) the mortgage of a registered design or the granting of security over it;\n    (c) the grant or assignment of a licence or sub-licence or mortgage of a licence or sub-licence under a registered design;\n    (d) the death of the registered owner or one of the registered owners of a registered design or any person having a right in or under a registered design and the vesting by an assent of personal representatives of a registered design or any such right; and\n    (e) any order or directions of a court or other competent authority transferring a registered design or any right in or under it to any person and the event by virtue of which the court or authority had power to make any such order or give any such directions."
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Rights of third parties to continue use of registered designs",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) A person who in Hong Kong before the filing date of an application for registration of a design—\n    (a) does in good faith an act which would have constituted an infringement of the design if it had been registered at the time the act is done; or\n    (b) makes in good faith effective and serious preparations to do such an act,\n  has the rights specified in subsection (2).\n  (2) The rights referred to in subsection (1) are—\n    (a) the right to continue to do or, as the case may be, to do the act referred to in subsection (1);\n    (b) if such act was done, or such preparations had been made, by an individual in the course of a business—\n      (i) the right to assign the right to do the act or to transmit such right on death; and\n      (ii) the right to authorize the doing of the act by any of his partners for the time being in the business in the course of which the act was done or the preparations had been made; and\n    (c) if such act was done, or such preparations had been made, by a body corporate in the course of a business, the right to assign the right to do the act or to transmit such right on the body’s dissolution,\n  and the doing of such act by virtue of this subsection shall not constitute an infringement of the design concerned.\n  (3) The rights specified in subsection (2) shall not include the right to grant a licence to any person to do an act referred to in subsection (1).\n  (4) Where an article is disposed of to another person in exercise of a right conferred by subsection (2), that other person and any person claiming through him may deal with the article in the same way as if it had been disposed of by the owner of the design concerned."
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Declaration of extreme urgency",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "The Chief Executive in Council may, for the purposes of applying sections 37 to 39 by regulation declare a period of extreme urgency whenever he considers it to be necessary or expedient in the public interest for the maintenance of supplies and services essential to the life of the community or for securing sufficient supplies and services essential to the life of the community."
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Government use of registered designs",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) During a period of declared extreme urgency a public officer authorized in writing by the Chief Executive or any person authorized in writing by such public officer may in relation to a registered design, without the consent of the registered owner, do any act in Hong Kong in relation to the design as appears to the public officer or person to be necessary or expedient in connection with the urgency giving rise to the declaration under section 36.\n  (2) Any act done in relation to a registered design by virtue of this section is in this Ordinance referred to as use, or Government use, of the design; and use in sections 38 to 40 shall be construed accordingly.\n  (3) Government use may include any act which, apart from this section, would constitute an infringement of the registered design concerned.\n  (4) Any Government use of a registered design shall be made on such terms as may be agreed by the Government and the registered owner or as may in default of agreement be determined by the court on a reference under section 40.\n  (5) The authority of a public officer in respect of a registered design may be given to any person under subsection (1) either before or after the design is registered and may be given to any person whether or not that person is authorized directly or indirectly by the registered owner to do anything in relation to the design.\n  (6) Where any Government use of a registered design is made by or with the authority of a public officer under this section, the public officer shall notify the registered owner as soon as practicable after the use is begun, and furnish him with such information as to the extent of the use as he may from time to time require.\n  (7) A person acquiring anything disposed of in the exercise of powers conferred by this section, and any person claiming through him, may deal with it in the same manner as if the rights in the registered design were held on behalf of the Government.\n  (8) Subsection (1) is without prejudice to any rule of law relating to the confidentiality of information."
+  },
+  {
+   "id": "s38",
+   "num": "38",
+   "heading": "Rights of third parties",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) The provisions of any licence, assignment or agreement specified in subsection (3) are of no effect in relation to—\n    (a) any Government use of a registered design by a public officer, or a person authorized by a public officer, by virtue of section 37; or\n    (b) anything done for Government use in respect of a registered design by the registered owner to the order of a public officer,\n  so far as those provisions—\n    (i) restrict or regulate the use of the design or any model, document or information relating to it; or\n    (ii) provide for the making of payments in respect of, or calculated by reference to, such use.\n  (2) The reproduction or publication of any model or document in connection with a use referred to in subsection (1) shall be deemed not to constitute an infringement of any copyright or protected layout-design (topography) subsisting in the document.\n  (3) The licence, assignment or agreement referred to in subsection (1) is any licence, assignment or agreement which is made, whether before or after the date of commencement* of this Ordinance, between—\n    (a) the registered owner of the registered design or anyone who derives title from him or from whom he derives title; and\n    (b) any person other than the Government.\n  (4) Where an exclusive licence granted otherwise than for royalties or other benefits determined by reference to the use of a registered design is in force, then—\n    (a) section 37(4) applies in relation to anything done in respect of the design which, but for this section and section 37(1), would constitute an infringement of the rights of the licensee, with the substitution in those provisions of reference to the registered owner with reference to the licensee; and\n    (b) section 37(4) does not apply in relation to anything done in respect of the design by the licensee by virtue of an authority given under that section 37(1).\n  (5) Subject to subsection (4), where a registered design has been assigned to the registered owner in consideration of royalties or other benefits determined by reference to the use of the design, then—\n    (a) section 37(4) applies in relation to any Government use of the design as if reference to the registered owner included a reference to the assignor, and any sum payable for Government use under that section shall be divided between those persons in such proportion as may be agreed by them or as may in default of agreement be determined by the court on a reference under section 40; and\n    (b) section 37(4) applies in relation to any act done for Government use in respect of the design by the registered owner to the order of a public officer, as if that act were use made by virtue of an authority given under that section.\n  (6) Where section 37(4) applies to any use of a registered design and a person holds an exclusive licence under the design concerned (other than such a licence as is mentioned in subsection (4)) authorizing him to use the design, then subsections (8) and (9) shall apply.\n  (7)\n    In subsections (8) and (9), the section 37(4) payment (第37(4)條付款) means such payment (if any) as the registered owner and the Government agree under section 37(4), or the court determines under section 40, should be made by the public officer concerned to the registered owner in respect of the use of the design.\n  (8) The licensee shall be entitled to recover from the registered owner such part (if any) of the section 37(4) payment as may be agreed on by them or as may in default of agreement be determined by the court under section 40 to be just having regard to any expenditure incurred by the licensee—\n    (a) in developing the design; or\n    (b) in making payments to the registered owner of the design in consideration of the licence, other than royalties or other payments determined by reference to the use of the design.\n  (9) Any agreement between the registered owner and the Government under section 37(4) as to the amount of the section 37(4) payment shall be of no effect unless the licensee consents to the agreement; and any determination by the court under section 40 as to the amount of that payment shall be of no effect unless the licensee has been informed of the reference to the court and is given an opportunity to be heard.\n  (10)\n    In this section, the public officer concerned (有關公職人員), in relation to any Government use of a registered design, means the public officer by whom or on whose authority the use was made."
+  },
+  {
+   "id": "s39",
+   "num": "39",
+   "heading": "Compensation for loss of profit",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Where Government use is made of a registered design, the Government shall pay—\n    (a) to the registered owner; or\n    (b) if there is an exclusive licence in force in respect of the design, to the exclusive licensee,\n  compensation for any loss resulting from his not being awarded a contract to supply articles to which the design is applied.\n  (2) Compensation is payable only to the extent that a contract could have been fulfilled from the registered owner’s or exclusive licensee’s existing manufacturing or other capacity but is payable notwithstanding the existence of circumstances rendering him ineligible for the award of such a contract.\n  (3) In determining the loss, regard shall be had to the profit which would have been made on such a contract and to the extent to which any manufacturing or other capacity was underused.\n  (4) No compensation is payable in respect of any failure to secure contracts to supply articles which are not intended for Government use.\n  (5) The amount payable shall, if not agreed between the registered owner or exclusive licensee and the Government, be determined by the court on a reference under section 40, and is in addition to any amount payable under section 37 or 38."
+  },
+  {
+   "id": "s40",
+   "num": "40",
+   "heading": "References of disputes to court",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Any dispute as to—\n    (a) the exercise by a public officer, or a person authorized by a public officer, of the powers conferred by section 37;\n    (b) terms for Government use of a registered design under section 37;\n    (c) the payment, if any, which should be made to the registered owner under section 37(4);\n    (d) the right of any person to receive any part of a payment made under section 37(4);\n    (e) the right of any person to receive compensation under section 39; or\n    (f) the amount of compensation payable to any person under section 39,\n  may be referred to the court by either party to the dispute.\n  (2) In determining under this section any dispute between the Government and any person as to the terms for the Government use of a registered design, the court shall have regard—\n    (a) to any benefit or compensation which that person or any person from whom he derives title may have received or may be entitled to receive directly or indirectly from any public officer in respect of the design in question; and\n    (b) to whether that person or any person from whom he derives title has, in the court’s opinion, without reasonable cause, failed to comply with a request of the public officer concerned for Government use of the design on reasonable terms.\n  (3) On a reference under this section the court may refuse to grant relief by way of compensation in respect of Government use of a registered design at any time during the period referred to in section 28(5) but before the fees referred to in that section are paid.\n  (4) Where a person becomes the registered owner or one of the registered owners or an exclusive licensee of a registered design (the new owner or licensee) by virtue of a transaction, instrument or event to which section 34 applies, then unless—\n    (a) an application to register the prescribed particulars of the transaction, instrument or event is made before the end of the period of 6 months from the date of the transaction, instrument or event; or\n    (b) the court is satisfied that it was not practicable for such an application to be made before the end of that period and that an application was made as soon as practicable thereafter,\n  the new owner or licensee shall not be entitled to any compensation under section 37 (as it stands or as modified by section 38(4)) or to any compensation under section 39 in respect of any use of the design by a public officer or a person authorized by a public officer under section 37 after the date of the transaction, instrument or event and before the prescribed particulars of the transaction, instrument or event are registered.\n  (5) One of 2 or more registered owners of a registered design may without the concurrence of the others refer a dispute to the court under this section, but shall not do so unless the others are made parties to the proceedings; but any of the others made a defendant shall not be liable for any costs or expenses unless he takes part in the proceedings."
+  },
+  {
+   "id": "s41",
+   "num": "41",
+   "heading": "Determination of rights after registration",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) After a design is registered, any person having or claiming a proprietary interest in or under the design may refer to the court the question—\n    (a) who is or are the true owner or owners of the design;\n    (b) whether the design should have been registered in the name of the person or persons in whose name or names it was registered; or\n    (c) whether any right in or under the design should be transferred or granted to any other person or persons,\n  and the court shall determine the question and make such order as it thinks fit to give effect to the determination.\n  (2) Without prejudice to the generality of subsection (1), an order under that subsection may contain provision—\n    (a) directing that the name of the person by whom the reference is made shall be entered in the Register as the owner or one of the owners of the design (whether or not to the exclusion of any other person);\n    (b) directing the registration of a transaction, instrument or event by virtue of which that person has acquired any right in or under the design;\n    (c) granting any licence or other right in or under the design; or\n    (d) directing any person registered as the owner of the design or any person having any right in or under the design to do anything specified in the order as necessary to carry out the other provisions of the order.\n  (3) If any person to whom directions have been given under subsection (2)(d) fails to do anything necessary for carrying out any such directions within 14 days after the date of the order containing the directions, the court may, on application made to it by any person in whose favour or on whose reference the order was made, authorize him to do that thing on behalf of the person to whom the directions were given.\n  (4) If a reference under this section is made after the end of the period of 2 years beginning with the date of registration of the design to which the reference relates, no order shall be made under subsection (1) transferring any right in or under the design from the person registered as the owner of the design to any other person on the ground that the person so registered was not entitled to be registered as the owner unless it is shown that he knew at the time of the registration or, as the case may be, of the transfer of the design to him, that he was not entitled to be registered as the owner.\n  (5) Where a question is referred to the court under this section, no order shall be made by virtue of subsection (2) or under subsection (4) unless notice of the reference is given to all persons registered as owner of the design or as having a right in or under the registered design except those who are parties to the reference."
+  },
+  {
+   "id": "s42",
+   "num": "42",
+   "heading": "Effect of transfer of registered design under section 41",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Where an order is made under section 41 that a registered design shall be transferred from any person or persons (the old owner or owners) to one or more persons (whether or not including an old owner), then, except in a case falling within subsection (2), any licences or other rights granted or created by the old owner or owners shall, subject to section 32 and to the provisions of the order, continue in force and be treated as granted by the person or persons to whom the design is ordered to be transferred (the new owner or owners).\n  (2) Where an order is so made that a registered design shall be transferred from the old owner or owners to one or more persons none of whom was an old owner (on the ground that the design was registered in the name of a person not entitled to be registered as an owner), any licences or other rights in or under the design shall, subject to the provisions of the order and subsection (3), lapse on the registration of that person or those persons as the new owner or owners of the design.\n  (3) Where an order is so made that a registered design shall be transferred as mentioned in subsection (2) and, before particulars of the reference resulting in the making of the order are entered in the Register, the old owner or owners or a licensee—\n    (a) does in good faith an act which would have constituted an infringement of the design if particulars of the reference had been registered at the time the act is done; or\n    (b) makes in good faith effective and serious preparations to do such an act,\n  the old owner or owners or the licensee shall on making a request to the new owner or owners within the prescribed period be entitled to be granted a licence (but not an exclusive licence) to continue to do the act or, as the case may be, to do the act.\n  (4) Any such licence shall be granted for a reasonable period and on reasonable terms.\n  (5) The new owner or owners of the registered design or any person claiming that he is entitled to be granted any such licence may refer to the court the question whether that person is so entitled and whether any such period is, or any such terms are, reasonable, and the court shall determine the question and may, if it considers it appropriate, order the grant of such a licence."
+  },
+  {
+   "id": "s43",
+   "num": "43",
+   "heading": "Licences granted by order of court",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "Any order made under section 41(2) or 42(5) for the grant of a licence shall, without prejudice to any other method of enforcement, have effect as if it were a deed, executed by the owner of the registered design and all other necessary parties, granting a licence in accordance with the order."
+  },
+  {
+   "id": "s44",
+   "num": "44",
+   "heading": "Revocation on ground of public order (“ordre public”) or morality",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Any person may at any time after a design has been registered under this Ordinance refer to the Registrar the question of whether, having regard to section 7, the design is a registrable design.\n  (2) Subject to subsection (3), where a question is so referred to the Registrar, he shall determine the question.\n  (3) The Registrar may, if he thinks fit, refer the question to the court for determination and, without prejudice to the court’s jurisdiction apart from this subsection to determine any such question, the court shall have jurisdiction to do so.\n  (4) If the Registrar or the court determines that the design is not a registrable design under section 7, he or it shall order the registration of the design to be revoked.\n  (5) Any person may oppose a reference made under subsection (1)."
+  },
+  {
+   "id": "s45",
+   "num": "45",
+   "heading": "Revocation on ground that design was not registrable",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "The court may, on application by any person, order the registration of a design to be revoked on the ground that, at the time of its registration, the design was not new or was not registrable for any other reason."
+  },
+  {
+   "id": "s46",
+   "num": "46",
+   "heading": "Revocation on ground that person is not entitled to be registered as owner",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Subject to subsections (2) and (3), the court may, on application by any person, order the registration of a design to be revoked on the ground that the person whose name is entered in the Register as the owner of the design is not entitled to be registered as the owner.\n  (2) An application under subsection (1) may be made only by a person found by the court on a reference under section 41 to be entitled to be registered as the owner of the design.\n  (3) Where the reference under section 41 was commenced after the end of the period of 2 years beginning with the date of registration of the design, the court may not order the revocation of the registration of the design under this section unless the applicant shows that the person whose name is entered in the Register as the owner of the design knew at the time of its registration or of the registration of the transfer of the design to him that he was not entitled to be registered as the owner."
+  },
+  {
+   "id": "s47",
+   "num": "47",
+   "heading": "Effect of revocation",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "Without affecting transactions past and closed, where an order is made under section 44, 45 or 46 that the registration of a design be revoked, the Registrar shall rectify the Register accordingly and the registration of the design shall be deemed never to have been made."
+  },
+  {
+   "id": "s48",
+   "num": "48",
+   "heading": "Proceedings for infringement by registered owner",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) An infringement of the right in a registered design is actionable by the registered owner and in any action in respect of such an infringement all such relief, by way of damages, injunction, account of profits or otherwise shall be available to the plaintiff as is available in proceedings in respect of the infringement of other proprietary rights.\n  (2) The court shall not, in respect of the same infringement, both award damages and order an account of profits.\n  (3) No proceedings shall be taken in respect of an infringement of a registered design committed before the date on which the certificate of registration of the design is issued under section 25."
+  },
+  {
+   "id": "s49",
+   "num": "49",
+   "heading": "Proceedings for infringement by co-owner",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Subject to this section and to any agreement to the contrary, where there is more than one registered owner of a registered design, each of them shall be entitled to bring proceedings in respect of any infringement of the design.\n  (2) In the application of section 31 to a registered design of which there is more than one registered owner, the reference to the registered owner shall be construed—\n    (a) in relation to any act, as a reference to that registered owner or those registered owners who, by virtue of section 33 or any agreement referred to in that section, is or are entitled to do that act without its constituting an infringement; and\n    (b) in relation to any consent, as a reference to that registered owner or those registered owners who, by virtue of section 33 or any such agreement, is or are the proper person or persons to give the requisite consent.\n  (3) In any proceedings taken by a registered owner by virtue of this section the other registered owner or owners shall be made a party or parties to the proceedings, but if any other registered owner is made a defendant he shall not be liable for any costs or expenses unless he takes part in the proceedings."
+  },
+  {
+   "id": "s50",
+   "num": "50",
+   "heading": "Proceedings for infringement by exclusive licensee",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Subject to this section, the holder of an exclusive licence under a registered design shall have the same right as the registered owner to bring proceedings in respect of any infringement of the design committed after the date of the licence and references to the registered owner in the provisions of this Ordinance relating to infringement shall be construed accordingly.\n  (2) In awarding damages in any proceedings taken by an exclusive licensee by virtue of this section the court may take into consideration only the losses suffered or likely to be suffered by the exclusive licensee as a result of the infringement.\n  (3) In ordering an account of profits in any proceedings taken by an exclusive licensee by virtue of this section the court may take into consideration only the profits derived from the infringement which are attributable to the infringement of the exclusive licensee’s rights.\n  (4) In any proceedings taken by an exclusive licensee by virtue of this section the registered owner shall be made a party to the proceedings, but if the registered owner is made a defendant he shall not be liable for any costs or expenses unless he takes part in the proceedings."
+  },
+  {
+   "id": "s51",
+   "num": "51",
+   "heading": "General restriction on recovery of damages or profits",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) In proceedings for the infringement of a registered design damages shall not be awarded, and no order shall be made for an account of profits, against a defendant who proves that at the date of the infringement he was not aware, and had no reasonable grounds for believing, that the design was registered.\n  (2) For the purposes of subsection (1) a person shall not be taken to have been so aware or to have had reasonable grounds for so believing by reason only of the application to an article, or to any printed matter accompanying an article, of the word “registered” or “註冊”, or any word or words or abbreviation expressing or implying that a design has been registered, unless the registration number of the design accompanied the word or words or abbreviation in question.\n  (3) In proceedings for infringement of a registered design the court may, if it thinks fit, refuse to award any damages or make any such order in respect of an infringement committed at any time during the period referred to in section 28(5) but before the fees referred to in that section are paid."
+  },
+  {
+   "id": "s52",
+   "num": "52",
+   "heading": "Restriction on recovery of damages or profits for infringements occurring before transactions are registered",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "Where a person becomes the registered owner or one of the registered owners or an exclusive licensee of a registered design by virtue of a transaction, instrument or event to which section 34 applies, then unless—\n  (a) an application to register the prescribed particulars of the transaction, instrument or event is made before the end of the period of 6 months beginning with its date; or\n  (b) the court is satisfied that it was not practicable to make such an application before the end of that period and that an application was made as soon as practicable after the end of that period,\nhe is not entitled to damages or an account of profits in respect of any infringement occurring after the date of the transaction, instrument or event and before the prescribed particulars of the transaction, instrument or event are registered."
+  },
+  {
+   "id": "s53",
+   "num": "53",
+   "heading": "Order for delivery up",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Where a person has in his possession, custody or control in the course of a business—\n    (a) infringing articles; or\n    (b) anything specifically designed or adapted for the making of infringing articles, knowing or having reason to believe that the thing has been or is to be used to make infringing articles,\n  the registered owner of the design in question may apply to the court for an order that the articles or thing be delivered to him or to such other person as the court may direct.\n  (2) Where the court makes an order under subsection (1), it shall also make an order under section 54 unless it determines that there are grounds for not making such an order.\n  (3) No application may be made under subsection (1) after the end of the period of 6 years from the date the articles or thing concerned were made unless during the whole of that period the registered owner was under a disability or was prevented by fraud or concealment from discovering the facts entitling him to make the application, in which case the registered owner may make an application at any time before the end of the period of 6 years from the date on which he ceased to be under a disability or, as the case may be, could with reasonable diligence have discovered those facts.\n  (4) A person to whom any article or thing is delivered up under an order made under subsection (1) shall, if an order is not made under section 54 at the time of the making of the order under subsection (1), retain the article or thing pending the making of an order under section 54 or the decision of the court not to make such an order."
+  },
+  {
+   "id": "s54",
+   "num": "54",
+   "heading": "Order for disposal",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) An application may be made to the court for an order that the articles or thing delivered up under section 53 shall be—\n    (a) forfeited to the registered owner;\n    (b) destroyed; or\n    (c) disposed of in such manner as the court specifies.\n  (2) In deciding what order or decision to make under subsection (1), if any, the court shall consider whether any other remedies available in proceedings for infringement would be adequate to compensate the registered owner and any licensee and protect their interests.\n  (3) Where there is more than one person interested in the articles or thing in question, the court may make such order under subsection (1) as it thinks just and it may, in particular, direct that the articles or thing delivered up under section 53 be disposed of and the proceeds be divided among them as the court directs.\n  (4) If the court decides that no order should be made under subsection (1), the person who had possession, custody or control of the articles or thing before they were delivered up under section 53 is entitled to their return."
+  },
+  {
+   "id": "s55",
+   "num": "55",
+   "heading": "Declaration as to non-infringement",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "Without prejudice to the court’s jurisdiction to make a declaration apart from this section, a declaration that an act does not, or a proposed act would not, constitute an infringement of a registered design may be made by the court in any proceedings between the person doing or proposing to do the act and the registered owner, notwithstanding that no assertion to the contrary has been made by the registered owner, if it is shown that—\n  (a) that person has applied in writing to the registered owner for a written acknowledgement to the effect of the declaration claimed, and has furnished him with full particulars in writing of the act in question; and\n  (b) the registered owner has refused or failed to give any such acknowledgement."
+  },
+  {
+   "id": "s56",
+   "num": "56",
+   "heading": "Certificate of contested validity of registration",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) If in any proceedings before the court the validity of the registration of a design is contested and that registration is found by the court to be valid, the court may certify the finding and the fact that the validity of the registration was so contested.\n  (2) Where a certificate is granted under this section, then if, in any subsequent proceedings before the court for infringement of the registered design concerned or for revocation of the registration, a final order or judgment is made or given in favour of the party relying on the validity of the registration that party shall, unless the court otherwise directs, be entitled to his costs on the indemnity basis within the meaning of that term as appearing in Order 62, rule 28 of the Rules of the High Court (Cap. 4 sub. leg. A) (other than the costs of any appeal in the subsequent proceedings)."
+  },
+  {
+   "id": "s57",
+   "num": "57",
+   "heading": "Remedy for groundless threats of infringement proceedings",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Where a person (whether or not the registered owner of, or entitled to any right in, a registered design) by circulars, advertisements or otherwise threatens any other person with proceedings for infringement of a registered design, any person aggrieved by the threats (whether or not he is the person to whom the threats are made) may, subject to subsection (4), bring proceedings in the court against the person making the threats for any such relief as is mentioned in subsection (3).\n  (2) In any such proceedings the plaintiff shall, if he proves that the threats were so made and satisfies the court that he is a person aggrieved by them, be entitled to the relief claimed unless—\n    (a) the defendant proves that the acts in respect of which the proceedings were threatened constitute or, if done, would constitute an infringement of a registered design; and\n    (b) the plaintiff fails to show that the registration of the design concerned is invalid.\n  (3) The relief is—\n    (a) a declaration to the effect that the threats are unjustifiable;\n    (b) an injunction against the continuance of the threats; and\n    (c) such damages, if any, as have been sustained by the plaintiff by reason of the threats.\n  (4) Proceedings may not be brought under this section as regards a threat to bring proceedings for an infringement alleged to consist of the making of an article for sale or hire or the importing of anything.\n  (5) For the purposes of this section a notification of the existence of a registered design does not of itself constitute a threat to institute proceedings."
+  },
+  {
+   "id": "s58",
+   "num": "58",
+   "heading": "Appeal from decisions or orders of Registrar",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Except as otherwise provided by the regulations, an appeal lies to the court from any decision or order of the Registrar under this Ordinance.\n  (2) Any appeal under this Ordinance which concerns an application for registration of a design shall be heard in private unless the court otherwise directs.\n  (3) In any appeal under this Ordinance—\n    (a) the Registrar shall be entitled to appear and be represented and be heard in support of his decision or order;\n    (b) the Registrar shall appear if so directed by the court.\n  (4) In any appeal under this Ordinance the court may exercise any power which could have been exercised by the Registrar in proceedings from which the appeal is brought.\n  (5)\n    In this section, decision (決定) includes any act of the Registrar made in the exercise of a discretion vested in him by or under this Ordinance."
+  },
+  {
+   "id": "s59",
+   "num": "59",
+   "heading": "Registrar’s appearance in proceedings involving Register",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) In any proceedings before the court which concerns an application for the alteration or rectification of the Register—\n    (a) the Registrar shall be entitled to appear and be represented and be heard; and\n    (b) the Registrar shall appear if so directed by the court.\n  (2) Unless otherwise directed by the court, the Registrar may instead of appearing submit to the court a statement in writing signed by him, giving particulars of—\n    (a) any proceedings before him in relation to the matter in issue;\n    (b) the grounds of any decision given by him;\n    (c) the practice of the Registrar or the Registry in like cases, if any; and\n    (d) such matters relevant to the issues and within his knowledge as Registrar as he thinks fit,\n  and the statement shall be deemed to form part of the evidence in the proceedings."
+  },
+  {
+   "id": "s60",
+   "num": "60",
+   "heading": "General powers of court",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "The court may, for the purpose of determining any question in the exercise of its original or appellate jurisdiction under this Ordinance, make any order or exercise any other power which the Registrar could have made or exercised for the purpose of determining that question."
+  },
+  {
+   "id": "s61",
+   "num": "61",
+   "heading": "Procedure in case of option to apply to court or Registrar",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) Where under this Ordinance a person has an option to make an application either to the court or to the Registrar on a question concerning a registered design or an application for registration of a design, then—\n    (a) if any proceeding concerning the design or application for registration in question is pending before the court, the application must be made to the court; and\n    (b) if in any other case the application is made to the Registrar, he may, at any stage of the proceedings, refer the application to the court, or he may, after hearing the parties, determine the question, subject to appeal to the court.\n  (2) Subsection (1) is without prejudice to the court’s powers, apart from this section, to determine any question referred to in that subsection."
+  },
+  {
+   "id": "s62",
+   "num": "62",
+   "heading": "Costs and expenses in proceedings before court",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) In all proceedings before the court under this Ordinance the court may award to any party such costs as it may consider reasonable.\n  (2) If in any such proceedings the court directs that any costs of one party shall be paid by another party, the court may settle the amount of the costs by fixing a lump sum or may direct that the costs shall be taxed on a scale specified by the court, being a scale of costs prescribed by rules of court."
+  },
+  {
+   "id": "s63",
+   "num": "63",
+   "heading": "Costs and expenses in proceedings before Registrar",
+   "status": "in-effect",
+   "part": "P5",
+   "text": "  (1) The Registrar may, in proceedings before him under this Ordinance, by order award to any party such costs as he may consider reasonable and direct how and by what parties they are to be paid.\n  (2) Any costs awarded under this section shall, if the court so orders, be recoverable by execution issued from the court as if they were payable under an order of that court."
+  },
+  {
+   "id": "s64",
+   "num": "64",
+   "heading": "Register of designs to be kept",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) The Registrar shall keep at the Registry a register to be known as the Register of Designs.\n  (2) There shall be entered in the Register in accordance with this Ordinance and the rules—\n    (a) particulars as to applications for registration of designs, including the filing dates and priority dates;\n    (b) the names of owners of registered designs;\n    (c) particulars as to transactions, instruments or events affecting rights in or under registered designs and applications for registration; and\n    (d) such other matters as the Registrar may think fit.\n  (3) Notwithstanding subsection (2), no notice of any trust, whether express, implied or constructive, shall be entered in the Register, and the Registrar shall not be affected by any such notice.\n  (4) The Register need not be kept in documentary form."
+  },
+  {
+   "id": "s65",
+   "num": "65",
+   "heading": "Register is prima facie evidence",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to subsection (4), the Register shall be prima facie evidence of anything required or authorized by this Ordinance or the rules to be registered.\n  (2) A certificate purporting to be signed by the Registrar and certifying that any entry in the Register which he is authorized by this Ordinance or the rules to make has or has not been made, or that any other thing which he is so authorized to do has or has not been done, shall be prima facie evidence of the matters so certified.\n  (3) Each of the following, that is to say—\n    (a) a copy of an entry in the Register or an extract from the Register which is supplied under section 69(1);\n    (b) a copy of—\n      (i) any document kept in the Registry;\n      (ii) an extract from any such document;\n      (iii) any model or specification of a registered design; or\n      (iv) any application for registration of a design,\n  which purports to be a certified copy or a certified extract shall, subject to subsection (4), be admitted in evidence without further proof and without production of any original.\n  (4) This section is without prejudice to section 22A or 22B or Part IV of the Evidence Ordinance (Cap. 8) or any provision made by virtue of that section or Part.\n  (5)\n    In this section, certified copy (核證副本) and certified extract (核證摘錄) mean a copy and extract certified by the Registrar and sealed with the seal of the Registrar."
+  },
+  {
+   "id": "s66",
+   "num": "66",
+   "heading": "Rectification of Register",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) The court may, on the application of any person aggrieved, order the Register to be rectified by the making, or the variation or deletion, of any entry in it.\n  (2) In proceedings under this section the court may determine any question which it may be necessary or expedient to decide in connection with the rectification of the Register."
+  },
+  {
+   "id": "s67",
+   "num": "67",
+   "heading": "Correction of errors in Register",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to the rules, the Registrar may correct any error in the Register.\n  (2) A correction may be made under subsection (1) either upon a request in writing made by any person interested or on the Registrar’s own initiative.\n  (3) Where the Registrar is requested to correct such an error by a person interested, any person may in accordance with the rules give the Registrar notice of opposition to the request and the Registrar shall determine the matter."
+  },
+  {
+   "id": "s68",
+   "num": "68",
+   "heading": "Right to inspect Register",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to any rules, the public shall have a right to inspect the Register during the normal business hours of the Registry.\n  (2) In relation to any portion of the Register kept otherwise than in documentary form the right of inspection conferred by subsection (1) is a right to inspect the material on the Register."
+  },
+  {
+   "id": "s69",
+   "num": "69",
+   "heading": "Right to copies of entries",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Any person who applies for a certified copy of an entry in the Register or a certified extract from the Register shall be entitled to obtain such a copy or extract on payment of a fee prescribed in relation to certified copies and extracts.\n  (2) Any person who applies for an uncertified copy or extract shall be entitled to such a copy or extract on payment of a fee prescribed in relation to uncertified copies and extracts.\n  (3) Applications under this section shall be made in such manner as may be prescribed.\n  (4) In relation to any portion of the Register kept otherwise than in documentary form, the right to a copy or extract conferred by subsection (1) or (2) is a right to a copy or extract in a form in which it can be taken away and in which it is visible and legible."
+  },
+  {
+   "id": "s70",
+   "num": "70",
+   "heading": "Right to information",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) After the registration of a design and upon the filing of a written request by any person in the prescribed manner, the Registrar shall give the person making the request such information, and permit him to inspect such documents, relating to the application for registration or the design concerned (including any representation, sample or specimen of the design) as may be specified in the request, subject, however, to any prescribed conditions.\n  (2) Subject to this section, until notice of registration of a design is published under section 25, information or documents constituting or relating to the application shall not, without the consent of the owner or the applicant (as the case may be), be published or communicated to any person by the Registrar.\n  (3) Subsection (2) shall not prevent the Registrar from publishing or communicating to others any prescribed information relating to an application for registration of a design.\n  (4) Where a person is notified that an application for registration of a design has been made and that the applicant will, if the design is registered, bring proceedings against that person in the event of his doing an act specified in the notification, that person may make a request under subsection (1), notwithstanding that the design has not been registered, and that subsection shall apply accordingly."
+  },
+  {
+   "id": "s71",
+   "num": "71",
+   "heading": "Hours of business and business days",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) The Registrar may by notice published in the official journal give directions specifying the hours of business of the Registry for the purpose of the transaction of business under this Ordinance and the days that are business days for that purpose.\n  (2) Business done on any day after the specified hours of business, or on a day which is not a business day, shall be deemed to have been done on the next business day; and where the time for doing anything under this Ordinance expires on a day which is not a business day, that time shall be extended to the next business day.\n  (3) Directions made under this section may make different provision for different classes of business."
+  },
+  {
+   "id": "s72",
+   "num": "72",
+   "heading": "Language of proceedings before Registrar",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "Except as otherwise provided in the rules, and notwithstanding section 5 of the Official Languages Ordinance (Cap. 5), the official language in which an application for registration of a design is filed shall be used as the language of proceedings in all proceedings before the Registrar under this Ordinance."
+  },
+  {
+   "id": "s73",
+   "num": "73",
+   "heading": "Exercise of Registrar’s discretionary powers",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "Without prejudice to any rule of law, the Registrar shall give any party to a proceeding before him an opportunity of being heard before exercising adversely to that party any discretion vested in the Registrar by this Ordinance or the rules."
+  },
+  {
+   "id": "s74",
+   "num": "74",
+   "heading": "Immunity of Registrar as regards official acts",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "Neither the Registrar nor any public officer—\n  (a) shall be taken to warrant the validity of the registration of any design registered under this Ordinance; or\n  (b) shall incur any liability by reason of, or in connection with, any examination required or authorized by this Ordinance, or any report or other proceedings consequent on any such examination or investigation."
+  },
+  {
+   "id": "s75",
+   "num": "75",
+   "heading": "Recognition of agents",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to this section, where under this Ordinance any act has to be done by or to any person in connection with a registered design or any procedure relating to a registered design or the registration of a design, the act may be done by or to an agent of such person duly authorized by that person orally or in writing.\n  (2) A person duly authorized by another person under subsection (1) to act as his agent may (subject to any provision to the contrary in any agreement between the agent and that person) on giving notice to the Registrar and the other person, cease to act as agent for the other person.\n  (3) The Registrar may refuse to recognize as agent in respect of any business under this Ordinance any person specified for the purpose in the rules.\n  (4) The Registrar shall refuse to recognize as an agent a person who neither resides nor has a place of business in Hong Kong."
+  },
+  {
+   "id": "s76",
+   "num": "76",
+   "heading": "Correction of errors in filed documents",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Subject to the rules, the Registrar may upon request by any person interested correct any error of translation or transcription, any clerical error or any mistake made in—\n    (a) any application for registration of a design or document filed in connection with such an application;\n    (b) any representation of a design; or\n    (c) any document filed in connection with a registered design.\n  (2) Any person may in accordance with the rules give the Registrar notice of opposition to the request and the Registrar shall determine the matter."
+  },
+  {
+   "id": "s77",
+   "num": "77",
+   "heading": "Designs relevant for defence purposes",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "  (1) Where, either before or after the commencement* of this Ordinance, an application for registration of a design has been made and it appears to the Registrar that the design is one of a class notified to him by the Central People’s Government as relevant for defence purposes, the Registrar may give directions for prohibiting or restricting the publication of information with respect to the design, or the communication of such information to any person or class of persons specified in the directions.\n  (2) Rules may be made for securing that where such directions are given—\n    (a) the representation of the design; and\n    (b) any evidence filed in support of the applicant’s application for registration that the design is registrable,\n  shall not be open to public inspection in the Registry during the continuance in force of the directions.\n  (3) Where the Registrar gives such directions, he shall give notice of the application of the directions to the Central People’s Government, and thereupon the following provisions shall have effect—\n    (a) the Central People’s Government shall consider whether the publication of the design would be prejudicial to the defence of the People’s Republic of China;\n    (b) the Central People’s Government may at any time after the design has been registered or, with the consent of the applicant, at any time before the design has been registered, inspect the representation of the design, or any such evidence as to its registrability;\n    (c) if upon the consideration of the design at any time it appears to the Central People’s Government that the publication of the design would not, or would no longer, be prejudicial to the defence of the People’s Republic of China, notice may be given to the Registrar to that effect; and\n    (d) on the receipt of any such notice the Registrar shall revoke the directions and may, subject to such conditions, if any, as he thinks fit, extend the time for doing anything required or authorized to be done by or under this Ordinance in connection with the application for registration, whether or not that time has previously expired.\n  (4)"
+  },
+  {
+   "id": "s78",
+   "num": "78",
+   "heading": "Forfeited articles",
+   "status": "in-effect",
+   "part": "P6",
+   "text": "Nothing in this Ordinance affects the right of the Government or any person deriving title directly or indirectly from the Government to dispose of or use articles forfeited under the law relating to customs or excise."
+  },
+  {
+   "id": "s79",
+   "num": "79",
+   "heading": "General power to make rules",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Registrar may make rules—\n    (a) for the purposes of any provision of this Ordinance which contemplates or authorizes the making of rules (other than rules of court) with respect to any matter;\n    (b) for prescribing anything authorized or required by a provision of this Ordinance to be prescribed; and\n    (c) generally for regulating the practice and procedure under this Ordinance.\n  (2) Without prejudice to the generality of subsection (1), rules made under this section may make provision—\n    (a) in connection with applications for registration of designs and other documents which may be filed with the Registrar—\n      (i) prescribing the form and contents of any such documents;\n      (ii) requiring copies of any such documents to be filed with the Registrar; and\n      (iii) prescribing the manner of filing of any such documents;\n    (b) regulating the procedure to be followed in connection with any proceeding or other matter before the Registrar and authorizing the rectification of irregularities of procedure;\n    (c) requiring fees to be paid in connection with any such proceeding or matter or in connection with the provision of any service by the Registry and providing for the remission of fees in the prescribed circumstances;\n    (d) empowering the Registrar, in such cases as may be specified in the rules, to require a party in any such proceeding to give security for costs, in relation to that proceeding or to proceedings on appeal, and providing for the consequences if security is not given;\n    (e) regulating the mode of giving evidence in any such proceeding and empowering the Registrar to compel the attendance of witnesses and the discovery of and production of documents;\n    (f) prescribing time limits for doing anything required to be done in connection with any such proceeding by this Ordinance or the rules and providing for the alteration of any period of time specified in this Ordinance or the rules;\n    (g) without prejudice to section 72, requiring and regulating the translation of documents in connection with a registered design or an application for registration of a design into the language of the proceedings or into one or both of the official languages and the filing and verification of any such translations; and\n    (h) providing for the publication and sale of documents by the Registry and of information about such documents.\n  (3) Rules made under this section may make different provision for different cases.\n  (4) Rules made under this section—\n    (a) authorizing the rectification of irregularities of procedure; or\n    (b) providing for the alteration of any period of time,\n  may authorize the extension or further extension of any period of time notwithstanding that the period has already expired.\n  (5) Rules made under this section prescribing fees (including any penalty fee required by rules made under section 82(2)(b)) shall not be made except with the consent of the Financial Secretary.\n  (6) Any rules made under subsection (2)(c) may—\n    (a) prescribe fees fixed at; or\n    (b) provide for fees to be fixed at,\n  levels that provide for the recovery of expenditure incurred or likely to be incurred by the Government or other authority in the exercise of any or all functions under this Ordinance, and shall not be limited by reference to the amount of administrative or other costs incurred or likely to be incurred in the exercise of any particular function.\n  (7) Rules may be made under this section providing for arrangements to be made by the Registrar for the publication of reports of decisions or orders made by the Registrar under this Ordinance or decisions or orders relating to designs made by any court or body (whether in Hong Kong or elsewhere)."
+  },
+  {
+   "id": "s80",
+   "num": "80",
+   "heading": "Rules relating to applications for registration",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) Without prejudice to the generality of section 79, the Registrar may, for the purposes of section 12, make rules providing that an application for registration of a design shall or may contain—\n    (a) a statement describing the representation of the design;\n    (b) a statement describing the features of the design which the applicant considers to be new;\n    (c) the classification of the articles to which the design is intended to be applied, according to any class or sub-class specified by the rules; and\n    (d) a specimen or sample of the article to which the design reproduced in the representation is applied.\n  (2) Rules made under this section may provide for the manner in which the following matters shall or may be contained in an application—\n    (a) any claim that section 9, 10 or 11 applies in relation to the application; or\n    (b) any claim to the priority of an earlier application and supporting priority documents in accordance with section 16."
+  },
+  {
+   "id": "s81",
+   "num": "81",
+   "heading": "Rules relating to registration of designs, etc.",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) Without prejudice to any other provision of this Ordinance, the Registrar shall make rules requiring the registration of designs and of transactions, instruments or events affecting rights in or under registered designs and applications for registration of designs.\n  (2) Rules made under this section may provide for—\n    (a) the filing of any prescribed documents or description of documents in connection with any matter which is required to be registered;\n    (b) the correction of errors in the Register and in any documents filed in connection with applications for registration; and\n    (c) the publication and advertisement of anything done under this Ordinance in relation to the Register.\n  (3) Rules made under this section may provide for notification to the Registrar of any matter affecting rights in an application for registration of a design."
+  },
+  {
+   "id": "s82",
+   "num": "82",
+   "heading": "Rules relating to language of proceedings",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) Without prejudice to the generality of section 79, the Registrar may make rules—\n    (a) requiring, in respect of any document filed or to be filed in proceedings under this Ordinance, the filing of a translation of the document into the language of the proceedings or into one or both of the official languages;\n    (b) providing for the use by any person in oral proceedings before the Registrar of a language other than the language of the proceedings;\n    (c) in respect of documents to be used for the purpose of evidence in proceedings before the Registrar and which are in a language other than the language of the proceedings, providing for the filing of the document in that other language and the filing of a translation of the document into the language of the proceedings or into one of the official languages; and\n    (d) in respect of information provided or to be provided to the Registrar and which is to be entered in the Register, requiring the provision of that information in both official languages.\n  (2) Rules made under subsection (1)(a) or (d)—\n    (a) may specify periods within which translations of documents into the language of the proceedings or into the official languages are to be filed or within which information in the official languages is to be provided; and\n    (b) may provide for extensions, upon application by a party to the proceedings, of such periods, and may require that applications for such extension shall be subject to the payment of a prescribed penalty fee."
+  },
+  {
+   "id": "s83",
+   "num": "83",
+   "heading": "Regulations",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "The Chief Executive in Council may make regulations—\n  (a) providing that no appeal lies under section 58 from a decision or order of the Registrar that is of a class of decisions or orders specified in the regulations;\n  (b) adding to the Schedule the name of—\n    (i) any country which has acceded to the Paris Convention;\n    (ii) any territory or area subject to the authority or under the suzerainty of any country, or administered by any country, on behalf of which such country has acceded to the Paris Convention; or\n    (iii) any country, territory or area which has acceded to the World Trade Organization Agreement;\n  (c) deleting from the Schedule the name of—\n    (i) any country which has denounced the Paris Convention;\n    (ii) any territory or area on behalf of which the Paris Convention has been denounced; or\n    (iii) any country, territory or area which has denounced the World Trade Organization Agreement; and\n  (d) otherwise amending the Schedule."
+  },
+  {
+   "id": "s84",
+   "num": "84",
+   "heading": "Registrar may specify forms to be used",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Registrar may require the use of such forms as he may, by notice published in the official journal, specify in connection with the registration of a design or any other proceeding before him under this Ordinance.\n  (2) A notice under subsection (1) may contain any direction of the Registrar with respect to the use of a form specified in the notice.\n  (3) A notice published under subsection (1) shall not be regarded as subsidiary legislation for the purpose of section 34 of the Interpretation and General Clauses Ordinance (Cap. 1)."
+  },
+  {
+   "id": "s84A",
+   "num": "84A",
+   "heading": "Power to specify official journal, etc.",
+   "status": "in-effect",
+   "part": "P7",
+   "text": "  (1) The Registrar may from time to time, by notice published in the Gazette, specify a publication to be the official journal of record for the purposes of this Ordinance, with effect as of the date specified in the notice.\n  (2) Where a publication is specified under subsection (1), every notice, request, document or other matter required by this Ordinance or the rules to be published in the official journal shall, from the effective date specified in the notice, be published in the publication so specified, and any reference in this Ordinance or the rules to the official journal shall be construed accordingly.\n  (3) The Registrar may publish or cause to be published a journal in which there may be published such documents and information relating to a registered design or an application for registration as the Registrar thinks fit.\n  (4) For the avoidance of doubt, the Registrar may specify the Gazette or the journal referred to in subsection (3) to be the official journal of record.\n  (5) A publication specified under subsection (1) and the journal referred to in subsection (3) need not be in a documentary form.\n  (6) A notice published under subsection (1) shall not be regarded as subsidiary legislation for the purpose of section 34 of the Interpretation and General Clauses Ordinance (Cap. 1)."
+  },
+  {
+   "id": "s85",
+   "num": "85",
+   "heading": "Falsification of Register, etc.",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "Any person who makes or causes to be made a false entry in the Register, or a writing falsely purporting to be a copy or reproduction of an entry in the Register, or produces or tenders or causes to be produced or tendered in evidence any such writing, knowing or having reason to believe the entry or writing to be false, commits an offence and is liable—\n  (a) on summary conviction, to a fine at level 5 and to imprisonment for 6 months;\n  (b) on conviction on indictment, to imprisonment for 2 years."
+  },
+  {
+   "id": "s86",
+   "num": "86",
+   "heading": "False representation that design is registered",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "  (1) Subject to this section, any person who falsely represents that a design applied to any article disposed of by him for value is registered in respect of that article commits an offence and is liable on summary conviction to a fine at level 3.\n  (2) For the purposes of subsection (1), a person who for value disposes of an article having stamped, engraved or impressed on it or otherwise applied to it the word “registered” or “註冊” or anything expressing or implying that a design applied to the article is registered in respect of that article, shall be taken to represent that the design applied to the article is registered in respect of the article.\n  (3) In proceedings for an offence under this section it shall be a defence for the accused to prove that he used due diligence to prevent the commission of the offence."
+  },
+  {
+   "id": "s87",
+   "num": "87",
+   "heading": "Misuse of title “Designs Registry”",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "Any person who uses on his place of business, or on any document issued by him, or otherwise, the words “Designs Registry” or “外觀設計註冊處” or any other words suggesting that his place of business is, or is officially connected with, the Registry, commits an offence and is liable on summary conviction to a fine at level 4."
+  },
+  {
+   "id": "s88",
+   "num": "88",
+   "heading": "Contravention of directions given under section 77",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "Any person who contravenes a direction given by the Registrar under section 77 commits an offence and is liable—\n  (a) on summary conviction, to a fine at level 5 and to imprisonment for 6 months;\n  (b) on conviction on indictment, to imprisonment for 2 years."
+  },
+  {
+   "id": "s89",
+   "num": "89",
+   "heading": "Offences by corporations or partners",
+   "status": "in-effect",
+   "part": "P8",
+   "text": "  (1) Where an offence under this Ordinance committed by a body corporate is proved to have been committed with the consent or connivance of, or to be attributable to any neglect on the part of, a director, manager, secretary or other similar officer of the body corporate, or a person who was purporting to act in any such capacity, he as well as the body corporate, is guilty of the offence and is liable to be proceeded against and punished accordingly.\n  (2) The following provisions apply for the purposes of proceedings for an offence under this Ordinance alleged to have been committed by a body corporate—\n    (a) any rules of court relating to the service of documents; and\n    (b) section 19A (plea by a corporation before a magistrate) and section 87 (procedure on charge of indictable offence against corporation) of the Magistrates Ordinance (Cap. 227).\n  (3) Where the affairs of a body corporate are managed by its members, subsection (1) shall apply in relation to the acts and defaults of a member in connection with his functions of management as if he were a director of the body corporate.\n  (4) Where an offence under this Ordinance committed by a partner in a partnership is proved to have been committed with the consent or connivance of, or to be attributable to any neglect on the part of, any other partner of the partnership, that other partner shall be guilty of the offence and liable to be proceeded against and punished accordingly."
+  },
+  {
+   "id": "s90",
+   "num": "90",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1)\n    In this section and sections 91 to 93, the Registered Designs Act 1949 (《1949年註冊外觀設計法令》) means the Registered Designs Act 1949 (1949 c. 88 U.K.), as amended and as applied to Hong Kong by the United Kingdom Designs (Protection) Ordinance (Cap. 44).\n  (2) Unless the context otherwise requires, any word or expression used in sections 91 to 93 and defined in the Registered Designs Act 1949 has the same meaning as in that Act."
+  },
+  {
+   "id": "s91",
+   "num": "91",
+   "heading": "Designs deemed registered under this Ordinance",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1) Any design registered under the Registered Designs Act 1949 before the date of commencement* of this Ordinance the right in which is subsisting or is treated as subsisting on that date shall be deemed to be registered under this Ordinance in respect of the articles for which it is registered under that Act.\n  (2) Any design registered under the Registered Designs Act 1949 on or after the date of commencement of this Ordinance the application for which was pending on the date immediately preceding the date of commencement of this Ordinance shall be deemed to be registered under this Ordinance in respect of the articles for which it is registered under that Act.\n  (3) Notwithstanding any other provision of this Ordinance, the initial period of registration of a design deemed by subsection (1) to be registered under this Ordinance shall consist of the period—\n    (a) beginning on the date of commencement of this Ordinance; and\n    (b) ending on the earlier of—\n      (i) the date on which the right in the design expires under the Registered Designs Act 1949; and\n      (ii) the date on which the right in the design would expire under that Act if the period for which the right is subsisting on the date of commencement of this Ordinance could not be extended in accordance with section 8(2) of that Act.\n  (4) Notwithstanding any other provision of this Ordinance, the initial period of registration of a design deemed by subsection (2) to be registered under this Ordinance shall consist of the period—\n    (a) beginning on the date of registration of the design under the Registered Designs Act 1949; and\n    (b) ending on the earlier of—\n      (i) the date on which the right in the design expires under the Registered Designs Act 1949; and\n      (ii) the date on which the right in the design would expire under that Act if the period for which the right subsists under section 8(1) of that Act could not be extended in accordance with section 8(2) of that Act."
+  },
+  {
+   "id": "s92",
+   "num": "92",
+   "heading": "Renewal of registration",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1) The period of registration of a design deemed by section 91 to be registered under this Ordinance may be extended for additional periods of 5 years each but the total period of registration under this Ordinance and the Registered Designs Act 1949 may not exceed 25 years and 6 months in the aggregate.\n  (2) If the registered proprietor of the design desires to renew the period of registration for a further period of 5 years after the initial period of registration referred to in section 91(3) or (4) expires, he shall submit an application to the Registrar in accordance with subsection (3).\n  (3) The application referred to in subsection (2) shall—\n    (a) be submitted before the later of—\n      (i) the date that is 6 months prior to the expiration of the initial period of registration under this Ordinance; and\n      (ii) the date that is 6 months after the commencement* of this Ordinance;\n    (b) include—\n      (i) a representation of the design as registered under the Registered Designs Act 1949;\n      (ii) a certificate confirming registration of the design issued by the Registrar of the United Kingdom Designs Registry;\n      (iii) a certified copy of an entry in, or a certified extract from, the United Kingdom Designs Registry, stating the full name of the proprietor of the design immediately preceding the application; and\n      (iv) such other information, documents or matter as may be required by the rules; and\n    (c) be accompanied by the prescribed renewal fee.\n  (4) Section 28(3), (4) and (5) applies to any further renewal of the period of registration of a design deemed by section 91 to be registered under this Ordinance."
+  },
+  {
+   "id": "s93",
+   "num": "93",
+   "heading": "Restrictions on remedies",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1) The registered proprietor of a design deemed by section 91 to be registered under this Ordinance shall not be entitled to recover any damages in respect of any infringement of the design from any defendant who proves that at the date of the infringement he was not aware, nor had any reasonable means of making himself aware, of the existence of the registration of the design under the Registered Designs Act 1949.\n  (2) Nothing in subsection (1) shall affect any proceedings for an injunction.\n  (3) The court shall have the power, upon the application of any person who alleges that his interests have been prejudicially affected by this section, to declare that exclusive privileges and rights in a design have not been acquired in Hong Kong under section 91 upon any of the grounds upon which the United Kingdom registration might have been cancelled under the Registered Designs Act 1949; such grounds shall be deemed to include the publication of the design in Hong Kong prior to the date of registration of the design under that Act.\n  (4) In any proceedings for infringement of a design deemed by section 91 to be registered under this Ordinance, the court shall apply—\n    (a) the law applicable in Hong Kong in relation to infringements occurring before the date of commencement* of this Ordinance as if the United Kingdom Designs (Protection) Ordinance (Cap. 44) had not been repealed; and\n    (b) the law of Hong Kong in relation to infringements occurring on or after the date of commencement of this Ordinance."
+  },
+  {
+   "id": "s94",
+   "num": "94",
+   "heading": "",
+   "status": "omitted",
+   "part": "P9"
+  },
+  {
+   "id": "s95",
+   "num": "95",
+   "heading": "",
+   "status": "omitted",
+   "part": "P9"
+  },
+  {
+   "id": "s96",
+   "num": "96",
+   "heading": "Repeal and savings",
+   "status": "in-effect",
+   "part": "P9",
+   "text": "  (1) The United Kingdom Designs (Protection) Ordinance (Cap. 44) is repealed.\n  (2) Any thing done under—\n    (a) the United Kingdom Designs (Protection) Ordinance (Cap. 44); or\n    (b) the Registered Designs Act 1949 (1949 c. 88 U.K.), as amended and as applied to Hong Kong by the United Kingdom Designs (Protection) Ordinance (Cap. 44),\n  shall, if in force on the commencement* of this Ordinance, and so far as it could have been done under this Ordinance, continue in force and have effect as if done under the corresponding provisions of this Ordinance.\n  (3) A reference in any document to the United Kingdom Designs (Protection) Ordinance (Cap. 44) shall, unless the context otherwise requires, be construed as a reference to this Ordinance."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch0",
+   "num": "Schedule",
+   "heading": "Paris Convention Countries and WTO Members",
+   "status": "in-effect",
+   "text": "Countries which have acceded to the Paris Convention\nThe Islamic Republic of Afghanistan The Republic of Albania The People’s Democratic Republic of Algeria The Principality of Andorra The Republic of Angola Antigua and Barbuda Republic of Argentina The Republic of Armenia The Commonwealth of Australia The Republic of Austria The Republic of Azerbaijan The Commonwealth of The Bahamas The Kingdom of Bahrain The People’s Republic of Bangladesh Barbados The Republic of Belarus The Kingdom of Belgium Belize The Republic of Benin The Kingdom of Bhutan The Plurinational State of Bolivia Bosnia and Herzegovina The Republic of Botswana The Federative Republic of Brazil Negara Brunei Darussalam The Republic of Bulgaria The Burkina Faso The Republic of Burundi The Republic of Cabo Verde Kingdom of Cambodia The Republic of Cameroon Canada The Central African Republic The Republic of Chad Republic of Chile The People’s Republic of China The Republic of Colombia Union of the Comoros The Democratic Republic of the Congo The Republic of the Congo The Republic of Costa Rica The Republic of Côte d’Ivoire The Republic of Croatia The Republic of Cuba The Republic of Cyprus The Czech Republic The Kingdom of Denmark The Republic of Djibouti The Commonwealth of Dominica The Dominican Republic The Republic of Ecuador The Arab Republic of Egypt The Republic of El Salvador The Republic of Equatorial Guinea Republic of Estonia The Kingdom of Eswatini The Republic of Fiji The Republic of Finland The French Republic The Gabonese Republic The Republic of the Gambia Georgia The Federal Republic of Germany The Republic of Ghana Grenada The Republic of Guatemala The Republic of Guinea The Republic of Guinea-Bissau The Cooperative Republic of Guyana The Republic of Haiti The Hellenic Republic (Greece) Holy See The Republic of Honduras Hungary Iceland The Republic of India Republic of Indonesia The Islamic Republic of Iran The Republic of Iraq Ireland The State of Israel The Republic of Italy Jamaica Japan The Hashemite Kingdom of Jordan The Republic of Kazakhstan The Republic of Kenya The Republic of Kiribati The Democratic People’s Republic of Korea Republic of Korea The State of Kuwait The Kyrgyz Republic The Lao People’s Democratic Republic Republic of Latvia The Lebanese Republic The Kingdom of Lesotho The Republic of Liberia State of Libya The Principality of Liechtenstein The Republic of Lithuania The Grand Duchy of Luxembourg The Republic of Madagascar The Republic of Malawi Malaysia The Republic of Mali The Republic of Malta The Islamic Republic of Mauritania The Republic of Mauritius The Republic of Moldova The Principality of Monaco Mongolia Montenegro The Kingdom of Morocco The Republic of Mozambique The Republic of Namibia Nepal The Kingdom of the Netherlands New Zealand The Republic of Nicaragua The Republic of Niger The Federal Republic of Nigeria The Republic of North Macedonia The Kingdom of Norway The Sultanate of Oman The Islamic Republic of Pakistan The Republic of Panama The Independent State of Papua New Guinea Republic of Paraguay The Republic of Peru Republic of the Philippines The Republic of Poland The Portuguese Republic The State of Qatar Romania The Russian Federation The Republic of Rwanda The Federation of Saint Kitts and Nevis Saint Lucia Saint Vincent and the Grenadines The Independent State of Samoa The Republic of San Marino The Democratic Republic of Sao Tome and Principe Kingdom of Saudi Arabia The Republic of Senegal The Republic of Serbia The Republic of Seychelles The Republic of Sierra Leone The Republic of Singapore The Slovak Republic The Republic of Slovenia The Republic of South Africa The Kingdom of Spain The Democratic Socialist Republic of Sri Lanka The Republic of the Sudan The Republic of Suriname Sweden Swiss Confederation The Syrian Arab Republic The Republic of Tajikistan The Kingdom of Thailand The Republic of Togo The Kingdom of Tonga The Republic of Trinidad and Tobago The Republic of Tunisia Republic of Türkiye Turkmenistan The Republic of Uganda Ukraine The United Arab Emirates The United Kingdom of Great Britain and Northern Ireland The United Mexican States The United Republic of Tanzania The United States of America Oriental Republic of Uruguay The Republic of Uzbekistan Bolivarian Republic of Venezuela The Socialist Republic of Viet Nam Republic of Yemen The Republic of Zambia The Republic of Zimbabwe\nCountries, territories and areas which have acceded to the World Trade Organization Agreement (not including countries which have acceded to the Paris Convention)\nEuropean Union The Macao Special Administrative Region The Republic of Maldives The Republic of the Union of Myanmar Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu The Solomon Islands Democratic Republic of Timor-Leste The Republic of Vanuatu",
+   "items": []
+  }
+ ]
+}

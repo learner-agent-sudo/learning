@@ -1,0 +1,118 @@
+{
+ "cap": "457",
+ "title": "Supply of Services (Implied Terms) Ordinance",
+ "longTitle": "An Ordinance to consolidate and amend the law with respect to the terms to be implied in contracts for the supply of services.",
+ "versionDate": "2021-04-08",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap457",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part I",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part II",
+   "heading": "Implied Terms",
+   "status": "in-effect",
+   "sections": [
+    "s5",
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part III",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s8",
+    "s9"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "This Ordinance may be cited as the Supply of Services (Implied Terms) Ordinance."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "In this Ordinance—\n  business (業務) includes—\n    (a) a profession;\n    (b) the activities of a public body or public authority; and\n    (c) the activities of a board, commission, committee or other body appointed by the Chief Executive or Government."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Contracts for the supply of services",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1)\n    In this Ordinance a contract for the supply of a service (服務提供合約) means, subject to subsection (2), a contract under which a person (the supplier) agrees to carry out a service.\n  (2) For the purposes of this Ordinance—\n    (a) a contract of service or apprenticeship is not a contract for the supply of a service;\n    (b) a contract is a contract for the supply of a service whether or not goods are also—\n      (i) transferred or to be transferred; or\n      (ii) bailed or to be bailed by way of hire,\n    under the contract, and whatever is the nature of the consideration for which the service is to be carried out.\n  (3) The Chief Executive in Council may by order provide that one or more of sections 5 to 7 shall not apply to services of a description specified in the order, and such an order may make different provision for different circumstances.\n  [cf. 1982 c. 29 s. 12 U.K.]"
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Dealing as consumer",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) A party to a contract for the supply of a service deals as consumer (以消費者身分交易) in relation to another party if—\n    (a) he neither makes the contract in the course of a business nor holds himself out as doing so;\n    (b) the other party does make the contract in the course of a business; and\n    (c) the services provided under or in pursuance of the contract are of a type ordinarily supplied or provided for private consumption or benefit.\n  (2) It is for the person claiming that a party does not deal as consumer to prove that he does not."
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Implied term as to care and skill",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "In a contract for the supply of a service where the supplier is acting in the course of a business, there is an implied term that the supplier will carry out the service with reasonable care and skill.\n[cf. 1982 c. 29 s. 13 U.K.]"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Implied term as to time for performance",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where, under a contract for the supply of a service by a supplier acting in the course of a business, the time for the service to be carried out is not fixed by the contract, is not left to be fixed in a manner agreed by the contract or is not determined by the course of dealing between the parties, there is an implied term that the supplier will carry out the service within a reasonable time.\n  (2) What is a reasonable time is a question of fact.\n  [cf. 1982 c. 29 s. 14 U.K.]"
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Implied term as to consideration",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Where, under a contract for the supply of a service, the consideration for the service is not determined by the contract, is not left to be determined in a manner agreed by the contract or is not determined by the course of dealing between the parties, there is an implied term that the party contracting with the supplier will pay a reasonable charge.\n  (2) What is a reasonable charge is a question of fact.\n  [cf. 1982 c. 29 s. 15 U.K.]"
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Exclusion or restriction of implied terms",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) As against a party to a contract for the supply of a service who deals as consumer, the other party cannot, by reference to any contract term, exclude or restrict any liability of his arising under the contract by virtue of this Ordinance.\n  (2) Except as provided in subsection (1), where a right, duty or liability would arise under a contract for the supply of a service by virtue of this Ordinance, it may (subject to subsection (3) and the Control of Exemption Clauses Ordinance (Cap. 71)) be negatived or varied by express agreement, or by the course of dealing between the parties, or by such usage as binds both parties to the contract.\n  (3) An express term does not negative a term implied by this Ordinance unless inconsistent with it.\n  [cf. 1982 c. 29 s. 16(1) & (2) U.K.]"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Savings",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Nothing in this Ordinance prejudices—\n    (a) any rule of law which imposes on the supplier a duty stricter than that imposed by section 5 or 6; or\n    (b) subject to paragraph (a), any rule of law whereby any term not inconsistent with this Ordinance is to be implied in a contract for the supply of a service.\n  (2) This Ordinance has effect subject to any other enactment which defines or restricts the rights, duties or liabilities arising in connection with a service of any description.\n  [cf. 1982 c. 29 s. 16(3) & (4) U.K.]"
+  }
+ ],
+ "schedules": []
+}

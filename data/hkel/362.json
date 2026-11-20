@@ -1,0 +1,1059 @@
+{
+ "cap": "362",
+ "title": "Trade Descriptions Ordinance",
+ "longTitle": "To prohibit false trade descriptions, false, misleading or incomplete information, false marks and misstatements in respect of goods provided in the course of trade or suppliers of such goods; to confer power to require information or instruction relating to goods to be marked on or to accompany the goods or to be included in advertisements; to restate the law relating to forgery of trade marks; to prohibit certain unfair trade practices; to prohibit false trade descriptions in respect of services supplied by traders; to confer power to require any services to be accompanied by information or instruction relating to the services or an advertisement of any services to contain or refer to information relating to the services; and for purposes connected therewith.",
+ "versionDate": "2026-08-24",
+ "hkelUrl": "https://www.elegislation.gov.hk/hk/cap362",
+ "indexOnly": false,
+ "parts": [
+  {
+   "id": "P1",
+   "num": "Part 1",
+   "heading": "Preliminary",
+   "status": "in-effect",
+   "sections": [
+    "s1",
+    "s2",
+    "s2A",
+    "s3",
+    "s4",
+    "s5"
+   ]
+  },
+  {
+   "id": "P2",
+   "num": "Part 2",
+   "heading": "False Trade Descriptions or Representations and Forged Trade Marks",
+   "status": "in-effect",
+   "sections": [
+    "s6",
+    "s6A",
+    "s7",
+    "s7A",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13"
+   ]
+  },
+  {
+   "id": "P2A",
+   "num": "Part 2A",
+   "heading": "",
+   "status": "repealed",
+   "sections": [
+    "s13A",
+    "s13B",
+    "s13C"
+   ]
+  },
+  {
+   "id": "P2B",
+   "num": "Part 2B",
+   "heading": "Unfair Trade Practices",
+   "status": "in-effect",
+   "sections": [
+    "s13D",
+    "s13E",
+    "s13F",
+    "s13G",
+    "s13H",
+    "s13I"
+   ]
+  },
+  {
+   "id": "P3",
+   "num": "Part 3",
+   "heading": "Enforcement",
+   "status": "in-effect",
+   "sections": [
+    "s14",
+    "s15",
+    "s16",
+    "s16A",
+    "s16B",
+    "s16BA",
+    "s16C",
+    "s16D",
+    "s16E",
+    "s16F",
+    "s16G",
+    "s16H",
+    "s16I",
+    "s17",
+    "s18",
+    "s18A",
+    "s19",
+    "s20",
+    "s21",
+    "s21A",
+    "s22",
+    "s23",
+    "s24",
+    "s24A",
+    "s25",
+    "s26",
+    "s26AA",
+    "s26AAB",
+    "s26A",
+    "s26B",
+    "s27",
+    "s28",
+    "s29",
+    "s30",
+    "s31"
+   ]
+  },
+  {
+   "id": "P3A",
+   "num": "Part 3A",
+   "heading": "Proceedings Relating to Importation of Infringing Goods",
+   "status": "in-effect",
+   "sections": [
+    "s30A",
+    "s30B",
+    "s30C",
+    "s30D",
+    "s30E",
+    "s30F",
+    "s30G",
+    "s30H",
+    "s30I",
+    "s30J",
+    "s30K"
+   ]
+  },
+  {
+   "id": "P3B",
+   "num": "Part 3B",
+   "heading": "Enforcement (Undertakings and Injunctions)",
+   "status": "in-effect",
+   "sections": [
+    "s30L",
+    "s30M",
+    "s30N",
+    "s30O",
+    "s30P",
+    "s30Q",
+    "s30R",
+    "s30S"
+   ]
+  },
+  {
+   "id": "P4",
+   "num": "Part 4",
+   "heading": "Miscellaneous",
+   "status": "in-effect",
+   "sections": [
+    "s32",
+    "s33",
+    "s34",
+    "s35",
+    "s36",
+    "s37"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "num": "1",
+   "heading": "Short title",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "This Ordinance may be cited as the Trade Descriptions Ordinance."
+  },
+  {
+   "id": "s2",
+   "num": "2",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this Ordinance, unless the context otherwise requires—\n    advertisement (宣傳品) includes a catalogue, a circular and a price list;\n    authorized officer (獲授權人員) means a public officer appointed under section 14;\n    average consumer (一般消費者)—see section 13D;\n    commercial practice (營業行為) means any act, omission, course of conduct, representation or commercial communication (including advertising and marketing) by a trader which is directly connected with the promotion of a product to consumers or the sale or supply of a product to or from consumers, whether occurring before, during or after a commercial transaction (if any) in relation to a product;\n    Commissioner (關長) means the Commissioner of Customs and Excise and any Deputy or Assistant Commissioner of Customs and Excise;\n    Communications Authority (通訊事務管理局) means the Communications Authority established by section 3 of the Communications Authority Ordinance (Cap. 616);\n    consumer (消費者) means an individual who, in relation to a commercial practice, is acting, or purporting to act, primarily for purposes that are unrelated to the person’s trade or business;\n    Convention country (公約國家) means a Paris Convention country or WTO member as defined in section 2(1) of the Trade Marks Ordinance (Cap. 559);\n    exempt person (獲豁免人士) means a person who is acting in the capacity of a person described in an item of Schedule 3;\n    false trade description (虛假商品說明) means—\n      (a) a trade description which is false to a material degree; or\n      (b) a trade description which, though not false, is misleading, that is to say, likely to be taken for a trade description of a kind that would be false to a material degree;\n      (c)-(e)\n    forged trade mark (偽造商標) has the meaning assigned to it by section 9(3);\n    goods (貨品) includes vessel and aircraft, things attached to land and growing crops;\n    goods in transit (過境貨品) means goods which—\n      (a) are brought into Hong Kong on a vessel or aircraft for the sole purpose of taking them out of Hong Kong; and\n      (b) remain at all times while they are in Hong Kong on the vessel or aircraft;\n    import (進口) means to bring, or cause to be brought, into Hong Kong;\n    infringing goods (侵犯權利貨品) means goods to which—\n      (a) a forged trade mark is applied; or\n      (b) a trade mark or mark so nearly resembling a trade mark as to be calculated to deceive is falsely applied;\n    invitation to purchase (購買邀請) means a commercial communication that indicates characteristics of the product and its price in a way appropriate to the medium used for that communication and therefore enables the consumer to make a purchase;\n    mark (標記), when used as a noun, includes a sign capable of distinguishing the goods of one undertaking from those of other undertakings;\n    premises (處所) includes any place and any stall, vehicle, vessel or aircraft;\n    product (產品) means any goods or service but does not include any goods or service covered by Schedule 4;\n  Note—See subsection (4). (Added 25 of 2012 s. 3)\n    Secretary (局長) means the Secretary for Commerce and Economic Development;\n    service (服務) includes any right, benefit, privilege or facility that is, or is to be, provided, granted, conferred or offered under a contractual right other than one arising under a contract of employment as defined by section 2(1) of the Employment Ordinance (Cap. 57);\n    trade description (商品說明), in relation to goods, means an indication, direct or indirect, and by whatever means given, with respect to the goods or any part of the goods including an indication of any of the following matters—\n      (a) quantity (which includes length, width, height, area, volume, capacity, weight and number), size or gauge;\n      (b) method of manufacture, production, processing or reconditioning;\n      (c) composition;\n      (d) fitness for purpose, strength, performance, behaviour or accuracy;\n      (e)\n      (ea) availability;\n      (eb) compliance with a standard specified or recognized by any person;\n      (ec) price, how price is calculated or the existence of any price advantage or discount;\n      (ed) liability to pay duty on them under the laws of Hong Kong, generally or in specified circumstances;\n      (f) testing by any person and results thereof;\n      (g) approval by any person or conformity with a type approved by any person;\n      (ga) a person by whom they have been acquired, or who has agreed to acquire them;\n      (gb) their being of the same kind as goods supplied to a person;\n      (h) place or date of manufacture, production, processing or reconditioning;\n      (i) person by whom manufactured, produced, processed or reconditioned;\n      (j) other history, including previous ownership or use;\n      (k) availability in a particular place of—\n        (i) a service for the inspection, repair or maintenance of the goods; or\n        (ii) spare parts for the goods;\n      (l) warranty given in respect of the service or spare parts referred to in paragraph (k);\n      (m) the person by whom the service or spare parts referred to in paragraph (k) are provided;\n      (n) the scope of the service referred to in paragraph (k)(i);\n      (o) the period for which the service or spare parts referred to in paragraph (k) are available;\n      (p) the charge or cost at which the service or spare parts referred to in paragraph (k) are available;\n      [cf. 1968 c. 29 s. 2(1) U.K.]\n    trade description (商品說明), in relation to a service, means an indication, direct or indirect, and by whatever means given, with respect to the service or any part of the service including an indication of any of the following matters—\n      (a) nature, scope, quantity (including the number of occasions on which, and the length of time for which, the service is supplied or to be supplied), standard, quality, value or grade;\n      (b) fitness for purpose, strength, performance, effectiveness, benefits or risks;\n      (c) method and procedure by which, manner in which, and location at which, the service is supplied or to be supplied;\n      (d) availability;\n      (e) testing by any person and the results of the testing;\n      (f) approval by any person or conformity with a type approved by any person;\n      (g) a person by whom it has been acquired, or who has agreed to acquire it;\n      (h) the person by whom the service is supplied or to be supplied;\n      (i) after-sale service assistance concerning the service;\n      (j) price, how price is calculated or the existence of any price advantage or discount;\n    trade mark (商標) means—\n      (a) a trade mark relating to goods registered or deemed to be registered in Hong Kong under the Trade Marks Ordinance (Cap. 559);\n      (b) a certification mark or collective mark relating to goods registered or deemed to be registered in Hong Kong under the Trade Marks Ordinance (Cap. 559);\n      (c) a trade mark—\n        (i) registered in a Convention country; and\n        (ii) capable of registration in Hong Kong under the Trade Marks Ordinance (Cap. 559) as a trade mark relating to goods;\n      (d) a trade mark—\n        (i) in respect of which an application for registration has been made in a Convention country; and\n        (ii) capable of registration in Hong Kong under the Trade Marks Ordinance (Cap. 559) as a trade mark relating to goods; and\n        (iii) in respect of which a period of 6 months has not expired since the date of the application for the registration thereof in a Convention country;\n    trader (商戶) means any person (other than an exempt person) who, in relation to a commercial practice, is acting, or purporting to act, for purposes relating to the person’s trade or business;\n  Note—See subsection (5). (Added 25 of 2012 s. 3)\n    transactional decision (交易決定) means any decision made by a consumer, whether it is to act or to refrain from acting, concerning—\n      (a) whether, how or on what terms to purchase, make payment in whole or in part for, retain or dispose of a product; or\n      (b) whether, how or on what terms to exercise a contractual right in relation to a product.\n  (2)\n    (a) For the purposes of this Ordinance, goods shall be deemed to have been—\n      (i) manufactured in the place in which they last underwent a treatment or process which changed permanently and substantially the shape, nature, form or utility of the basic materials used in their manufacture; or\n      (ii) produced in the place in which they were wholly grown or mined.\n    (b) The Commissioner may by order specify—\n      (i) in relation to any description of goods, what treatment or process is to be regarded for the purposes of this Ordinance as resulting or not resulting in a permanent and substantial change in shape, nature, form or utility of the basic materials used in their manufacture;\n      (ii) in relation to any description of goods different parts of which were manufactured or produced in different places, or of goods assembled in a place different from that in which their parts were manufactured or produced, in which of those places the goods are to be regarded for the purposes of this Ordinance as having been manufactured or produced. [cf. 1968 c. 29 s. 36 U.K.]\n    (c) This subsection shall not apply to goods which are the subject of a notice published under subsection (2A).\n  (2A) The Director-General of Trade and Industry may by notice in the Gazette specify in relation to any description of goods (being goods that are subject to a scheme of import or export control specified in the notice) the place in which the goods are to be regarded for the purposes of this Ordinance as having been manufactured or produced, and any such goods shall, for the purposes of this Ordinance, be deemed to have been manufactured or produced in such place.\n  (2B) Subsections (2) and (2A) do not apply to specified goods, as defined in section 2A(1), that are covered by section 2A(3).\n  (3) For the purposes of this Ordinance, a trade description or statement published in any newspaper, book or periodical or in any film or sound or television broadcast shall not be deemed to be a trade description applied or statement made in the course of a trade or business unless it is or forms part of an advertisement. [cf. 1968 c. 29 s. 39(2) U.K.]\n  (4) To avoid doubt, immovable property is itself not a product (because it is not goods) while a service supplied in relation to immovable property may be a product.\n  (5) In this Ordinance a reference to a trader includes any person acting in the name of, or on behalf of, a trader.\n  (6) A note located in the text of this Ordinance is provided for information only and has no legislative effect."
+  },
+  {
+   "id": "s2A",
+   "num": "2A",
+   "heading": "Special provisions for place of manufacture or production under certain trade agreements or arrangements",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) In this section—\n    date of entry into force (生效日期), in relation to a trading partner place under a scheduled trade arrangement, means the date specified in column 4 of Schedule 1 corresponding to the place and the arrangement;\n    scheduled trade arrangement (表列貿易安排) means a regional or international trade agreement or arrangement specified in column 2 of Schedule 1;\n    specified goods (指明貨品), in relation to a trading partner place under a scheduled trade arrangement, means any goods that are—\n      (a) qualified for preferential tariff treatment, as between the place and Hong Kong, under the arrangement; and\n      (b) subject to rules, specified in the arrangement, for determining the place of manufacture or production of the goods;\n    trading partner place (貿易夥伴地), in relation to a scheduled trade arrangement, means a place to which the arrangement is applicable, other than Hong Kong, specified in column 3 of Schedule 1 corresponding to the arrangement.\n  (2)\n    The rules referred to in paragraph (b) of the definition of specified goods in subsection (1) (rules of origin) may be—\n      (a) rules based principally on—\n        (i) the place in which the goods last underwent a treatment or process which changed permanently and substantially the shape, nature, form or utility of the basic materials used in their manufacture; or\n        (ii) the place in which the goods were wholly grown or mined;\n      (b) rules based principally on—\n        (i) a maximum percentage of the value of the goods attributable to places other than Hong Kong or a trading partner place under the relevant scheduled trade arrangement; or\n        (ii) a minimum percentage of the value of the goods attributable to Hong Kong or a trading partner place under the relevant scheduled trade arrangement;\n      (c) rules of a kind described in paragraph (a)(i) or (ii) or (b)(i) or (ii) or any combination, with or without modifications; or\n      (d) any other rules.\n  (3) In relation to a trading partner place under a scheduled trade arrangement for the time being in force as between the place and Hong Kong, if, on or after the relevant date of entry into force, any specified goods are—\n    (a) exported or intended to be exported to the place in accordance with the arrangement; or\n    (b) imported from the place in accordance with the arrangement,\n  then the rules of origin for the goods, specified in the arrangement for the time being in force as between the place and Hong Kong, apply for the purpose of determining the place of manufacture or production of the goods under this Ordinance.\n  (4) The Secretary may by notice published in the Gazette amend Schedule 1.\n  (5) The Director-General of Trade and Industry is to make available at his or her office all scheduled trade arrangements for inspection, free of charge, by the public during normal office hours."
+  },
+  {
+   "id": "s3",
+   "num": "3",
+   "heading": "Special provisions applicable to goldware",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) Notwithstanding the definition of false trade description in section 2, a trade description which indicates the fineness (whether in parts per thousand or in carats) of gold shall be a false trade description if that indication is false to any extent or degree, except by understating the fineness. [cf. 1973 c. 43 s. 1(4) U.K.]\n  (2) For the purpose of construing descriptions relating to the fineness of gold—\n    (a) a description indicating that an article, or the metal in an article, is so many carats shall be presumed to be an indication that the article or metal is of gold, and that its fineness is that specified in the table in Schedule 1A for that number of carats;\n    (b) paragraph (a) shall not apply if (as in a case where the article is a precious stone) the word “carat” is used as a measure of weight for precious stones, and not as a measure of fineness. [cf. 1973 c. 43 Sch. 1 U.K.]\n  (3) Notwithstanding the definition of false trade description in section 2—\n    (a) a trade description which indicates that any article (other than an article of pure gold) is of gold shall be a false trade description unless the article consists solely of gold alloy and—\n      (i) contains not less than 8 carats of gold; or\n      (ii) bears a mark clearly indicating in carats, by number or by number and the letters “k”, “c” or “ct”, the fineness of the gold content; or\n      (iii) bears a mark clearly indicating in parts per thousand the fineness of the gold content; and\n    (b) a mark calculated to be taken as an indication of the fineness of gold of an article—\n      (i) which is plated with or enclosed in gold alloy or gilded; or\n      (ii) to which gold alloy is soldered or otherwise affixed,\n    shall be a false trade description unless it is manifest from the appearance of the article that the mark refers solely to the part of the article which consists of gold alloy.\n  (4) Any number of 1 or 2 digits on an article which indicates or purports to indicate, or is likely to be taken as an indication of, the fineness in carats of its gold content shall be a false trade description unless the article contains at least the same proportion of pure gold as the number bears to 24.\n  (5) Any number of 3 digits on an article which indicates or purports to indicate, or is likely to be taken as an indication of, the fineness in number of parts per thousand of its gold content shall be a false trade description unless the article contains gold of such a standard of fineness.\n  (6)\n    For the purposes of this section fineness (純度) means the proportion of pure gold in accordance with subsection (4) or the number of parts by weight of gold in accordance with subsection (5) as the case may require."
+  },
+  {
+   "id": "s4",
+   "num": "4",
+   "heading": "Marking and provision of information, etc. orders",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) The Chief Executive in Council may by order require that any goods specified in the order must be marked with or accompanied by any information, or that any services specified in the order must be accompanied by any information, (whether or not amounting to or including a trade description) or instruction relating to the goods or services and, subject to the provisions of this Ordinance, impose requirements for securing that the goods or services are so marked or accompanied, and regulate or prohibit the supply of goods or services with respect to which the requirements are not complied with; and the requirements may extend to the form and manner in which the information or instruction is to be given.\n  (2) Where an order under this section is in force with respect to goods or services of any description, any person who, in the course of any trade or business, supplies or offers to supply goods of that description in contravention of the order, or any trader who supplies or offers to supply services of that description to a consumer in contravention of the order, commits an offence.\n  (3) An order under this section may make different provision for different circumstances and may, in the case of goods supplied in circumstances where the information or instruction required by the order would not be conveyed until after delivery, require the whole or part thereof to be also displayed near the goods.\n  (4) Without prejudice to subsection (2), an order under this section may provide that a contravention of any provision of the order is an offence punishable with a fine at level 6 and a term of imprisonment for 3 months.\n  (5) For the avoidance of doubt, information required by 2 or more orders made under subsection (1) to be contained in an invoice or receipt may, where the information is provided in respect of the same item of goods or the same kind of service, be contained in one single invoice or receipt.\n[cf. 1968 c. 29 s. 8 U.K.]"
+  },
+  {
+   "id": "s5",
+   "num": "5",
+   "heading": "Information to be given in advertisements",
+   "status": "in-effect",
+   "part": "P1",
+   "text": "  (1) The Chief Executive in Council may by order require that any description of advertisements of any goods or services specified in the order shall contain or refer to information (whether or not amounting to or including a trade description) relating to such goods or services and subject to the provisions of this Ordinance impose requirements as to the inclusion of that information or of an indication of the means by which it may be obtained.\n  (2) An order under this section may specify the form and manner in which any such information or indication is to be included in advertisements of any description and may make different provision for different circumstances.\n  (3) Where an advertisement of any goods to be supplied in the course of any trade or business, or of any services to be supplied by a trader to a consumer, fails to comply with any requirement imposed under this section, any person who publishes the advertisement commits an offence.\n[cf. 1968 c. 29 s. 9 U.K.]"
+  },
+  {
+   "id": "s6",
+   "num": "6",
+   "heading": "Applying a trade description, trade mark or mark to goods",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A person applies a trade description or trade mark or mark to goods if he—\n    (a) affixes or annexes it to or in any manner marks it on or incorporates it with—\n      (i) the goods themselves; or\n      (ii) anything in, on or with which the goods are supplied;\n    (b) places the goods in, on or with anything which the trade description or trade mark or mark has been affixed or annexed to, marked on or incorporated with, or places any such thing with the goods;\n    (c) uses the trade description or trade mark or mark in any manner likely to be taken as referring to the goods; or\n    (d) makes in any affidavit, declaration or writing any statement to the effect that a trade description or trade mark or mark is applicable to the goods.\n  (2) An oral statement may amount to the use of a trade description or trade mark or mark.\n  (3) Where goods are supplied in pursuance of a request in which a trade description or trade mark or mark is used and the circumstances are such as to make it reasonable to infer that the goods are supplied as goods corresponding to that trade description or trade mark or mark, the person supplying the goods shall be deemed to have applied that trade description or trade mark or mark to the goods.\n  [cf. 1968 c. 29 s. 4 U.K.]"
+  },
+  {
+   "id": "s6A",
+   "num": "6A",
+   "heading": "Applying a trade description to services",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A person is to be regarded as applying a trade description to a service if the person gives (by whatever means and whether direct or indirect) an indication of any kind with respect to the service or any part of the service including—\n    (a) where the indication is given in such a manner that it is likely to be taken as referring to the service; and\n    (b) where the person makes in any affidavit, declaration or writing a statement to the effect that the indication is applicable to the service.\n  (2) An oral statement may amount to the use of a trade description.\n  (3) If a service is supplied in response to a request in which a trade description is used and the circumstances are such as to make it reasonable to infer that the service is supplied as a service corresponding to that trade description, the person supplying the service is to be regarded as having applied that trade description to the service."
+  },
+  {
+   "id": "s7",
+   "num": "7",
+   "heading": "Offences in respect of trade descriptions of goods",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to the provisions of this Ordinance, any person who—\n    (a) in the course of any trade or business—\n      (i) applies a false trade description to any goods; or\n      (ii) supplies or offers to supply any goods to which a false trade description is applied; or\n    (b) has in his possession for sale or for any purpose of trade or manufacture any goods to which a false trade description is applied,\n  commits an offence.\n  (2) A person exposing goods for supply or having goods in his possession for supply shall be deemed to offer to supply them.\n  (3) Subject to the provisions of this Ordinance any person who disposes of or has in his possession any die, block, machine, or other instrument for the purpose of making, or applying to goods a false trade description commits an offence unless he proves that he acted without intent to defraud.\n  [cf. 1968 c. 29 s. 1 U.K.]"
+  },
+  {
+   "id": "s7A",
+   "num": "7A",
+   "heading": "Offences in respect of trade description of services",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A trader who—\n    (a) applies a false trade description to a service supplied or offered to be supplied to a consumer; or\n    (b) supplies or offers to supply to a consumer a service to which a false trade description is applied,\n  commits an offence.\n  (2) In this section—\n    service (服務) does not include any service covered by Schedule 4."
+  },
+  {
+   "id": "s8",
+   "num": "8",
+   "heading": "Trade descriptions used in advertisements",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) The following provisions of this section shall have effect where in an advertisement a trade description is used in relation to any class of goods or services.\n  (2) The trade description is to be taken as referring to all goods or services of the class, whether or not in existence at the time the advertisement is published—\n    (a) for the purpose of determining whether an offence has been committed under section 7(1)(a)(i) or 7A(1)(a); and\n    (b) where goods or services of the class are supplied or offered to be supplied by a person publishing or displaying the advertisement, also for the purpose of determining whether an offence has been committed under section 7(1)(a)(ii) or 7A(1)(b).\n  (3) In determining for the purposes of this section whether any goods or services are of a class to which a trade description used in an advertisement relates, regard shall be had not only to the form and content of the advertisement but also to the time, place, manner and frequency of its publication and all other matters making it likely or unlikely that a person to whom the goods or services are supplied would think of the goods or services as belonging to the class in relation to which the trade description is used in the advertisement.\n[cf. 1968 c. 29 s. 5 U.K.]"
+  },
+  {
+   "id": "s9",
+   "num": "9",
+   "heading": "Offences in respect of trade marks",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) Subject to the provisions of this Ordinance, any person who—\n    (a) forges any trade mark;\n    (b) falsely applies to any goods any trade mark or any mark so nearly resembling a trade mark as to be calculated to deceive;\n    (c) makes any die, block, machine or other instrument for the purpose of forging, or of being used for forging, a trade mark;\n    (d) disposes of or has in his possession any die, block, machine or other instrument for the purpose of forging a trade mark; or\n    (e) causes to be done anything referred to in paragraph (a), (b), (c) or (d),\n  commits an offence unless he proves that he acted without intent to defraud.\n  (2) Subject to the provisions of this Ordinance, any person who sells or exposes or has in his possession for sale or for any purpose of trade or manufacture, any goods to which any forged trade mark is applied, or to which any trade mark or mark so nearly resembling a trade mark as to be calculated to deceive is falsely applied, commits an offence.\n  (3) For the purposes of this section but subject to subsection (3A), a person shall be deemed—\n    (a) to forge a trade mark who either—\n      (i) without the consent of the owner of the trade mark, makes that trade mark or a mark so nearly resembling that trade mark as to be calculated to deceive; or\n      (ii) falsifies any genuine trade mark, whether by alteration, addition, effacement or otherwise;\n    (b) falsely to apply to goods a trade mark who without the consent of the owner of that trade mark applies that trade mark to goods,\n  and forged trade mark (偽造商標) shall be construed accordingly.\n  (3A) A person shall not be deemed under subsection (3) to forge a trade mark, or falsely to apply to goods a trade mark, if the person proves—\n    (a) that he acted without infringing any right of the owner of the trade mark conferred by the Trade Marks Ordinance (Cap. 559);\n    (b) that the trade mark or mark was not used by him in the course of any trade or business as a trade mark in relation to goods;\n    (c) that the use made by him of the trade mark or mark is not a use in relation to goods for which the trade mark is registered and is not a use in relation to goods similar to those for which it is registered; or\n    (d) that the use made by him of the trade mark or mark is a use to which the rights of the owner of the trade mark do not extend by reason of a disclaimer, limitation or condition to which the trade mark is subject.\n  (4) In any prosecution for an offence under subsection (1)(a) or (b) the burden of proving the consent of the owner shall lie on the defendant."
+  },
+  {
+   "id": "s10",
+   "num": "10",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s11",
+   "num": "11",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s12",
+   "num": "12",
+   "heading": "Prohibited import and export of certain goods",
+   "status": "in-effect",
+   "part": "P2",
+   "text": "  (1) A person must not import or export any goods to which a false trade description or forged trade mark is applied.\n  (2) Any person who imports or exports any goods contrary to subsection (1) commits an offence.\n  (2A) Without limiting section 26, in any proceedings for an offence under this section, the person charged is entitled to be acquitted—\n    (a) if—\n      (i) sufficient evidence is adduced to raise an issue that the person charged—\n        (A) did not know;\n        (B) had no reason to suspect; and\n        (C) could not with reasonable diligence have ascertained,\n      that the goods are goods to which a false trade description or forged trade mark is applied; and\n      (ii) the contrary is not proved by the prosecution beyond reasonable doubt; or\n    (b) if the person charged proves that the goods are not intended for trade or business.\n  (3) This section shall not apply to any goods in transit."
+  },
+  {
+   "id": "s13",
+   "num": "13",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2"
+  },
+  {
+   "id": "s13A",
+   "num": "13A",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2A"
+  },
+  {
+   "id": "s13B",
+   "num": "13B",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2A"
+  },
+  {
+   "id": "s13C",
+   "num": "13C",
+   "heading": "",
+   "status": "repealed",
+   "part": "P2A"
+  },
+  {
+   "id": "s13D",
+   "num": "13D",
+   "heading": "Average consumer",
+   "status": "in-effect",
+   "part": "P2B",
+   "text": "  (1) In determining the effect on the average consumer of a commercial practice that reaches or is directed to a consumer or consumers, account must be taken of the material characteristics of such an average consumer including that the consumer is reasonably well informed, reasonably observant and circumspect.\n  (2) In determining the effect on the average consumer of a commercial practice in the circumstances specified in subsection (3), a reference to the average consumer is a reference to the average member of the particular group of consumers.\n  (3) For the purpose of subsection (2) the circumstances are—\n    (a) where the commercial practice is directed to a particular group of consumers; or\n    (b) where—\n      (i) a clearly identifiable group of consumers is particularly vulnerable to the commercial practice or the underlying product because of mental or physical infirmity, age or credulity in a way which the trader could reasonably be expected to foresee; and\n      (ii) the practice is likely to cause the average member of that group only to make a transactional decision that the member would not have made otherwise.\n  (4) Subsection (3)(b) does not prejudice the common and legitimate advertising practice of making exaggerated statements which are not meant to be taken literally."
+  },
+  {
+   "id": "s13E",
+   "num": "13E",
+   "heading": "Misleading omissions",
+   "status": "in-effect",
+   "part": "P2B",
+   "text": "  (1) A trader who engages in relation to a consumer in a commercial practice that is a misleading omission commits an offence.\n  (2) A commercial practice is a misleading omission if, in its factual context, taking account of the matters in subsection (3)—\n    (a) it omits material information;\n    (b) it hides material information;\n    (c) it provides material information in a manner that is unclear, unintelligible, ambiguous or untimely; or\n    (d) it fails to identify its commercial intent, unless this is already apparent from the context,\n  and as a result it causes, or is likely to cause, the average consumer to make a transactional decision that the consumer would not have made otherwise.\n  (3) The matters referred to in subsection (2) are—\n    (a) all the features and circumstances of the commercial practice;\n    (b) the limitations of the medium used to communicate the commercial practice (including limitations of space or time); and\n    (c) if the medium used to communicate the commercial practice imposes limitations of space or time, any measures taken by the trader to make the information available to consumers by other means.\n  (4) If a commercial practice is an invitation to purchase, the following information is material, if not already apparent from the context—\n    (a) the main characteristics of the product, to the extent appropriate to the product and to the medium by which the invitation to purchase is communicated;\n    (b) the identity (such as trading name) of the trader and of any other trader on whose behalf the trader is acting;\n    (c) the address (not including a postal box address) of the trader’s usual place of business and of any other trader on whose behalf the trader is acting;\n    (d) either—\n      (i) the price, including any taxes; or\n      (ii) if the nature of the product is such that the price cannot reasonably be calculated in advance, the manner in which the price is calculated;\n    (e) where appropriate, either—\n      (i) all additional freight, delivery or postal charges; or\n      (ii) if those charges cannot reasonably be calculated in advance, the fact that they may be payable;\n    (f) the following matters if they depart from the requirements of professional diligence—\n      (i) arrangements for payment;\n      (ii) arrangements for delivery of goods;\n      (iii) arrangements for supply of service;\n    (g) for products in relation to which there is a right of withdrawal or cancellation, the existence of that right.\n  (5) In this section—\n    material information (重要資料) means—\n      (a) in relation to a commercial practice that is an invitation to purchase, any information that is material as a result of subsection (4); and\n      (b) in every case—\n        (i) the information that the average consumer needs, according to the context, to make an informed transactional decision; or\n        (ii) any other information required in relation to a commercial communication under any other enactment;\n    professional diligence (專業勤勉) means the standard of skill and care that a trader may reasonably be expected to exercise towards consumers which is commensurate with either—\n      (a) honest market practice in the trader’s field of activity; or\n      (b) the general principle of good faith in that field."
+  },
+  {
+   "id": "s13F",
+   "num": "13F",
+   "heading": "Aggressive commercial practices",
+   "status": "in-effect",
+   "part": "P2B",
+   "text": "  (1) A trader who engages in relation to a consumer in a commercial practice that is aggressive commits an offence.\n  (2) A commercial practice is aggressive if, in its factual context, taking account of all of its features and circumstances—\n    (a) it significantly impairs or is likely significantly to impair the average consumer’s freedom of choice or conduct in relation to the product concerned through the use of harassment, coercion or undue influence; and\n    (b) it therefore causes or is likely to cause the consumer to make a transactional decision that the consumer would not have made otherwise.\n  (3) In determining whether a commercial practice uses harassment, coercion or undue influence, account must be taken of—\n    (a) its timing, location, nature or persistence;\n    (b) the use of threatening or abusive language or behaviour;\n    (c) the exploitation by the trader of any specific misfortune or circumstance, of which the trader is aware and which is of such gravity as to impair the consumer’s judgement, to influence the consumer’s decision with regard to the product;\n    (d) any onerous or disproportionate non-contractual barrier imposed by the trader where a consumer wishes to exercise rights under the contract, including rights to terminate the contract or to switch to another product or another trader; and\n    (e) any threat to take any action which cannot legally be taken.\n  (4) In this section—\n    coercion (威迫) includes the use of physical force;\n    undue influence (不當影響) means exploiting a position of power in relation to the consumer so as to apply pressure, even without using or threatening to use physical force, in a way which significantly impairs the consumer’s ability to make an informed decision."
+  },
+  {
+   "id": "s13G",
+   "num": "13G",
+   "heading": "Bait advertising",
+   "status": "in-effect",
+   "part": "P2B",
+   "text": "  (1) A trader who engages in relation to a consumer in a commercial practice that constitutes bait advertising commits an offence.\n  (2) Subject to subsection (3), advertising by a trader of products for supply at a specified price is bait advertising if there are no reasonable grounds for believing that the trader will be able to offer for supply those products at that price, or the trader fails to offer those products for supply at that price, for a period that is, and in quantities that are, reasonable, having regard to—\n    (a) the nature of the market in which the trader carries on business; and\n    (b) the nature of the advertisement.\n  (3) Advertising by a trader of products for supply at a specified price is not bait advertising if—\n    (a) the advertisement states clearly the period for which, or the quantities in which, the products are offered for supply at that price; and\n    (b) the trader offers those products for supply at that price for that period or in those quantities."
+  },
+  {
+   "id": "s13H",
+   "num": "13H",
+   "heading": "Bait and switch",
+   "status": "in-effect",
+   "part": "P2B",
+   "text": "  (1) A trader who engages in relation to a consumer in a commercial practice that constitutes a bait and switch commits an offence.\n  (2) The making by a trader of an invitation to purchase a product at a specified price is a bait and switch if, having made the invitation, the trader then, with the intention of promoting a different product—\n    (a) refuses to show or demonstrate the product to consumers;\n    (b) refuses to take orders for the product or deliver it within a reasonable time; or\n    (c) shows or demonstrates a defective sample of the product."
+  },
+  {
+   "id": "s13I",
+   "num": "13I",
+   "heading": "Wrongly accepting payment",
+   "status": "in-effect",
+   "part": "P2B",
+   "text": "  (1) A trader who engages in relation to a consumer in a commercial practice that constitutes wrongly accepting payment for a product commits an offence.\n  (2) A trader wrongly accepts payment for a product if the trader accepts payment or other consideration for the product and at the time of that acceptance—\n    (a) the trader intends not to supply the product;\n    (b) the trader intends to supply a product that is materially different from the product in respect of which the payment or other consideration is accepted; or\n    (c) there are no reasonable grounds for believing that the trader will be able to supply the product—\n      (i) within the period specified by the trader at or before the time at which the payment or other consideration is accepted; or\n      (ii) if no period is specified at or before that time, within a reasonable period."
+  },
+  {
+   "id": "s14",
+   "num": "14",
+   "heading": "Appointment of authorized officers",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) The Commissioner may appoint any public officer to be an authorized officer for the purposes of this Ordinance.\n  (2) The Commissioner may exercise any of the powers conferred on an authorized officer under this Ordinance."
+  },
+  {
+   "id": "s15",
+   "num": "15",
+   "heading": "Power to enter premises and inspect and seize goods and documents",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An authorized officer may, on production, if required, of evidence of his appointment—\n    (a) make such purchases of goods as may appear expedient for the purpose of determining whether or not the provisions of this Ordinance are being complied with;\n    (b) for the purpose of ascertaining whether any offence under this Ordinance has been or is being committed, inspect any goods and enter any premises other than domestic premises;\n    (c) if he has reasonable cause to suspect that an offence under this Ordinance has been committed, seize or detain any goods for the purpose of ascertaining, by testing or otherwise, whether the offence has been committed;\n    (ca) for the purpose of ascertaining whether any offence under this Ordinance has been or is being committed, require any person carrying on a trade or business or employed in connection with a trade or business to produce any books or documents required to be kept under this Ordinance and may take copies of, or of any entry in, any such book or document;\n    (d) if he has reasonable cause to suspect that an offence under this Ordinance has been committed and for the purpose of ascertaining whether it has been committed, require any person carrying on a trade or business or employed in connection with a trade or business to produce any books or documents relating to the trade or business and may take copies of, or of any entry in, any such book or document;\n    (e) in the case of any premises, vehicle, vessel (other than a ship of war) or aircraft (other than a military aircraft) in which he has reasonable cause to suspect that there are goods in respect of which an offence under this Ordinance has been or is being committed—\n      (i) subject to section 16, enter and search such premises;\n      (ii) stop and search such vehicle; or\n      (iii) stop, board and search such vessel or aircraft;\n    (f) seize, remove or detain—\n      (i) any goods in respect of which he has reasonable cause to suspect an offence under this Ordinance has been or is being committed; and\n      (ii) anything which he has reason to believe may be required as evidence in proceedings for an offence under this Ordinance.\n  Note—By virtue of section 3 of the Interpretation and General Clauses Ordinance (Cap. 1) a reference to an Ordinance includes subsidiary legislation made under it, unless the contrary intention appears. (Added 25 of 2012 s. 25)\n  (2) An authorized officer may—\n    (a) break open any container or open any vending machine for the purpose of exercising his powers under subsection (1)(f) to seize goods;\n    (b) break open any outer or inner door of any place which he is empowered or authorized by or under this Ordinance to enter and search;\n    (c) forcibly board any vessel or aircraft which he is empowered by this Ordinance to stop, board or search;\n    (d) remove by force any person or thing obstructing him in the exercise of any power conferred on him by this Ordinance;\n    (e) detain any person found in any premises which he is empowered or authorized by or under this Ordinance to search until such place has been so searched;\n    (f) detain any vessel or aircraft which he is empowered by this Ordinance to stop, board and search, and prevent any person from approaching or boarding such vessel or aircraft until it has been so searched;\n    (g) detain any vehicle which he is empowered by or under this Ordinance to stop and search until it has been so searched.\n    [cf. 1968 c. 29 ss. 27 & 28 U.K.]"
+  },
+  {
+   "id": "s16",
+   "num": "16",
+   "heading": "Restrictions on the entry and search of domestic premises",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) No domestic premises shall be entered and searched by an authorized officer unless—\n    (a) a magistrate has issued a warrant under subsection (2); or\n    (b) the Commissioner has given an authorization under subsection (3).\n  (2) A magistrate may, if he is satisfied by information on oath that there is reasonable ground for suspecting that there is in any domestic premises any goods or thing which may be seized, removed or detained under section 15(1)(f), issue a warrant authorizing an authorized officer to enter and search the premises.\n  (3) The Commissioner may, if he is satisfied that there is reasonable ground for suspecting—\n    (a) that there is in any domestic premises any goods or thing which may be seized, removed or detained under section 15(1)(f); and\n    (b) that unless the premises are entered and searched immediately such goods or thing are likely to be removed from the premises,\n  authorize in writing an authorized officer to enter and search the premises.\n  (4) An authorized officer authorized under subsection (2) or (3) to enter and search any domestic premises may take with him such other persons and such equipment as may appear to him to be necessary."
+  },
+  {
+   "id": "s16A",
+   "num": "16A",
+   "heading": "Power to detain goods by locking or sealing premises or container",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An authorized officer may, for the purpose of detaining, under section 15—\n    (a) any goods in respect of which he has reasonable cause to suspect that an offence under this Ordinance has been or is being committed; and\n    (b) anything which he has reason to believe may be required as evidence in proceedings for an offence under this Ordinance,\n  place a lock or seal on any premises or container in which the goods or things are.\n  (2) If a lock or seal is placed on any premises or container under subsection (1), the period for which the lock or seal is placed shall not exceed 7 days without the consent in writing of the owner of the premises or container, or his authorized agent.\n  (3) If an authorized officer has placed a lock or seal on any premises or container under subsection (1), any person who breaks or interferes with such lock or seal commits an offence unless he does so—\n    (a) in the bona fide belief that it is necessary immediately to break or interfere with the lock or seal in order to prevent—\n      (i) injury being suffered by any person; or\n      (ii) damage being incurred to any such premises or container, as the case may be; or\n    (b) in the exercise of his duties as a public officer."
+  },
+  {
+   "id": "s16B",
+   "num": "16B",
+   "heading": "Powers of arrest of authorized officers",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) An authorized officer may, subject to subsection (2), arrest or detain for further enquiries without warrant any person whom he reasonably suspects of having committed any offence under this Ordinance.\n  (2)\n  An authorized officer who arrests any person under subsection (1) shall forthwith take the person to a police station or, if further enquiries are necessary, first to an office of the Customs and Excise Department and then to a police station, there to be dealt with in accordance with the provisions of the Police Force Ordinance (Cap. 232):\n    Provided that in no case shall any person be detained for more than 48 hours without being charged and brought before a magistrate.\n  (3) If any person forcibly resists or attempts to evade arrest under this section, the authorized officer may use such force as is reasonably necessary to effect the arrest."
+  },
+  {
+   "id": "s16BA",
+   "num": "16BA",
+   "heading": "Guidelines—general",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) The Commissioner may issue guidelines on matters in relation to which an authorized officer may exercise powers under this Ordinance.\n  (2) Without limiting subsection (1), the guidelines may—\n    (a) indicate the manner in which powers will be exercised by authorized officers with respect to the matters to which the guidelines relate; or\n    (b) provide guidance on the operation of any provision of this Ordinance relating to those matters.\n  (3) Guidelines may be published in any manner that the Commissioner considers appropriate.\n  (4) Guidelines are not subsidiary legislation.\n  (5) The Commissioner may amend or revoke any guidelines. Subsections (3) and (4) apply to an amendment or revocation of guidelines in the same way as they apply to the guidelines.\n  (6) Before issuing any guidelines or amendments of guidelines, the Commissioner must consult any persons that the Commissioner considers appropriate.\n  (7) The Commissioner must make copies of all guidelines and amendments of guidelines available to the public for inspection at the Commissioner’s office during ordinary business hours.\n  (8) A person does not incur any civil or criminal liability only because the person has contravened any of the guidelines. If, in any legal proceedings, a court is satisfied that a guideline is relevant to determining a matter that is in issue—\n    (a) the guideline is admissible in evidence in the proceedings; and\n    (b) proof that the person contravened or did not contravene the guideline may be relied on by any party to the proceedings as tending to establish or negate the matter."
+  },
+  {
+   "id": "s16C",
+   "num": "16C",
+   "heading": "Disclosure of information, etc.",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where goods seized or detained under section 15 are, or are reasonably suspected by the Commissioner to be, goods to which a forged trade mark is applied, or to which a trade mark or mark so nearly resembling a trade mark as to be calculated to deceive is falsely applied, the Commissioner shall, wherever reasonably practicable, notify the owner of the trade mark or his authorized agent of the seizure or detention, as the case may be.\n  (2) In the circumstances specified in subsection (1), the Commissioner may disclose to the owner of the trade mark or to his authorized agent—\n    (a) the time, and the address of the place, of seizure or detention of the goods;\n    (b) the name and address of the person from whom the goods have been seized or detained;\n    (c) the nature and quantity of the goods seized or detained;\n    (d) any statement made to the Commissioner by any person in connection with the seizure or detention, either with the prior consent in writing of that person or without such consent where that person is dead or cannot after reasonable enquiries by the Commissioner as to his whereabouts be found by the Commissioner;\n    (e) any other information or document relating to the goods seized or detained which the Commissioner thinks fit to disclose.\n  (3) The owner of a trade mark or his authorized agent—\n    (a) where he seeks disclosure of any information or document that is not referred to in subsection (2); or\n    (b) where information or a document that is referred to in subsection (2) is not disclosed by the Commissioner,\n  may apply to the Court of First Instance for an order requiring the Commissioner to disclose such information or document and the Court of First Instance may on such an application make such order for disclosure as it deems fit.\n  (4) An application under subsection (3) may be begun by motion with previous notice to the Commissioner."
+  },
+  {
+   "id": "s16D",
+   "num": "16D",
+   "heading": "International co-operation",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "The Commissioner may, for the purpose of promoting international co-operation in the protection of intellectual property rights, disclose information obtained in pursuance of this Ordinance to the customs authorities of any Convention country."
+  },
+  {
+   "id": "s16E",
+   "num": "16E",
+   "heading": "Enforcement relating to telecommunications and broadcasting",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Subject to subsection (2), the Communications Authority may exercise any of the powers conferred on an authorized officer under this Ordinance (other than Part 3A).\n  (2) The Chief Executive in Council may, by notice published in the Gazette, specify powers covered by subsection (1) that are not exercisable by the Communications Authority.\n  (3) The Communications Authority, or any public officer authorized in writing in that behalf by that Authority, may exercise any of the powers that by virtue of this section are exercisable by that Authority but may only do so in relation to any commercial practices of licensees under the Telecommunications Ordinance (Cap. 106) or the Broadcasting Ordinance (Cap. 562) that are directly connected with the provision of a telecommunications service or broadcasting service under the relevant Ordinance.\n  (4) Nothing in this section enables the exercise of powers with respect to any conduct covered by section 9 or 12.\n  (5) The fact that a power is exercisable in relation to a commercial practice by the Communications Authority or any public officer authorized in writing by that Authority does not, subject to section 16F, prevent that power being exercised in relation to that practice by the Commissioner or an authorized officer.\n  (6) To avoid doubt, in exercising a power under this Ordinance the Communications Authority or any public officer authorized in writing by that Authority does not do so as an agent or delegate of the Commissioner."
+  },
+  {
+   "id": "s16F",
+   "num": "16F",
+   "heading": "Transfer of matters between enforcement bodies",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) If the Commissioner or the Communications Authority is performing a function under this Ordinance in relation to a matter over which the other has concurrent jurisdiction, the 2 bodies may agree that the matter be transferred to and be dealt with by one of them.\n  (2) Unless there is an agreement as mentioned in subsection (1), if the Commissioner or the Communications Authority is performing or has performed a function under this Ordinance in relation to a matter over which the other has concurrent jurisdiction, the other must not perform any function in relation to that matter."
+  },
+  {
+   "id": "s16G",
+   "num": "16G",
+   "heading": "Memorandum of understanding",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) The Commissioner and the Communications Authority must prepare and sign a memorandum of understanding for the purpose of co-ordinating the performance of their functions under this Ordinance.\n  (2) Without limiting subsection (1), a memorandum of understanding may provide for any or all of the following—\n    (a) the manner in which the parties will perform the functions that they have jurisdiction to perform concurrently under this Ordinance;\n    (b) the manner in which the parties will resolve any dispute between themselves;\n    (c) the provision of assistance by one party to the other;\n    (d) the allocation between the parties of responsibility for particular matters or classes of matters;\n    (e) arrangements for the supply by one party to the other of information relating to a matter over which they have concurrent jurisdiction;\n    (f) arrangements for keeping the other party informed about progress when one party is performing functions that may be performed concurrently under this Ordinance;\n    (g) the joint authorship of educational material or guidelines on matters over which the parties have concurrent jurisdiction.\n  (3) The parties to a memorandum of understanding may amend or replace any memorandum of understanding prepared and signed under this section.\n  (4) The parties to a memorandum of understanding must, within 6 weeks after the memorandum or any amendment of the memorandum is signed by both parties, publish it in any manner the parties consider appropriate.\n  (5) The Commissioner and the Communications Authority must prepare and sign their first memorandum of understanding under this section as soon as is reasonably practicable after the coming into operation of section 27 of the Trade Descriptions (Unfair Trade Practices) (Amendment) Ordinance 2012 (25 of 2012)."
+  },
+  {
+   "id": "s16H",
+   "num": "16H",
+   "heading": "Guidelines—telecommunications/broadcasting sector",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) The Communications Authority, or the Communications Authority jointly with the Commissioner, may issue guidelines on matters in relation to which the Communications Authority or any public officer authorized in writing by that Authority may exercise powers under section 16E(3).\n  (2) Subsections (2) to (6) and (8) of section 16BA apply to guidelines issued under this section in the same way as they apply to guidelines issued under that section. For this purpose—\n    (a) the reference in subsection (2)(a) of that section to authorized officers is to be taken to be a reference to the Communications Authority or any public officer authorized in writing by that Authority to exercise any of the powers that by virtue of section 16E are exercisable by that Authority; and\n    (b) any reference in subsection (3), (5) or (6) of that section to the Commissioner is to be taken to be a reference to the Communications Authority, or the Communications Authority jointly with the Commissioner, as the case requires.\n  (3) The Communications Authority or, in the case of jointly issued guidelines, both the Communications Authority and the Commissioner must make copies of all guidelines and amendments of guidelines available to the public for inspection at their office during ordinary business hours."
+  },
+  {
+   "id": "s16I",
+   "num": "16I",
+   "heading": "Transitional provision",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Subject to section 43 of the Telecommunications Ordinance (Cap. 106), anything that was done under that Ordinance as in force immediately before the commencement date* as defined by subsection (1) of that section and that was in effect immediately before that date continues, in so far as it may be done under this Ordinance, to have effect as if it had been done under this Ordinance."
+  },
+  {
+   "id": "s17",
+   "num": "17",
+   "heading": "Offences of obstruction and disclosure of information",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Without prejudice to any other Ordinance, any person who—\n    (a) wilfully obstructs an authorized officer in the exercise of his powers or the performance of his duties under this Ordinance;\n    (b) wilfully fails to comply with any requirement properly made to him by any such authorized officer; or\n    (c) without reasonable excuse fails to give such authorized officer any other assistance or information which the authorized officer may reasonably require of him for the purpose of the performance of the officer’s functions under this Ordinance,\n  commits an offence.\n  (2) Subject to subsection (2A), any person who discloses to any other person—\n    (a) any information with respect to any manufacturing process or trade secret obtained by him in premises which he has entered by virtue of this Ordinance; or\n    (b) any information obtained by him in pursuance of this Ordinance,\n  commits an offence unless the disclosure was made—\n    (i) in or for the purpose of the performance by him or any other person of functions under this Ordinance; or\n    (ii) in the case of paragraph (b) under the direction or order of a court.\n  (2A) A person does not commit an offence under subsection (2) by—\n    (a) disclosing information under section 16C(1) or (2) or under an order of the Court of First Instance made under section 16C(3);\n    (b) disclosing information under section 16D; or\n    (c) disclosing information under section 30F(1) or under an order of the Court of First Instance made under section 30F(2).\n  (3) Any person who, in giving any such information as is referred to in subsection (1)(c), makes any statement which he knows to be false commits an offence.\n  (4) Subject to subsection (5), nothing in this section shall be taken to—\n    (a) require a person to answer any question or give any information if to do so might incriminate that person or the wife or husband of that person; or\n    (b) compel the production by a solicitor of a document containing a privileged communication made by or to him in that capacity or authorize the seizure of any such document in his possession.\n  (5) A person shall not be excused, by reason that to do so may incriminate that person or the wife or husband of that person of an offence under this Ordinance—\n    (a) from answering any question put to that person in any civil proceedings;\n    (b) from complying with any order made in any such proceedings,\n  but no statement or admission made by a person in answering a question put or complying with an order made shall, in proceedings for an offence under this Ordinance, be admissible in evidence against that person or (unless they married after the making of the statement or admission) against the wife or husband of that person.\n  [cf. 1968 c. 29 s. 29 U.K.]"
+  },
+  {
+   "id": "s18",
+   "num": "18",
+   "heading": "Penalties",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Any person who commits an offence under section 4, 5, 7, 7A, 9, 12, 13E, 13F, 13G, 13H or 13I shall be liable—\n    (a) on conviction on indictment, to a fine of $500,000 and to imprisonment for 5 years; and\n    (b) on summary conviction, to a fine at level 6 and to imprisonment for 2 years.\n  (1A) Any person who commits an offence under section 16A(3) shall be liable to a fine at level 2 and to imprisonment for 3 months.\n  (2) Any person who commits an offence under section 17 shall be liable to a fine at level 3 and to imprisonment for 1 year."
+  },
+  {
+   "id": "s18A",
+   "num": "18A",
+   "heading": "Power to award compensation",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) If a person is convicted of an offence under section 4, 5, 7, 7A, 13E, 13F, 13G, 13H or 13I, the court may, in addition to passing any sentence that may otherwise be passed by law, order the person to pay an amount of compensation that it thinks reasonable to any person who has suffered financial loss resulting from that offence.\n  (2) An amount of compensation ordered to be paid to a person under subsection (1) is recoverable as a civil debt."
+  },
+  {
+   "id": "s19",
+   "num": "19",
+   "heading": "Time limit for prosecutions",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "No prosecution for an offence under this Ordinance shall be brought after—\n  (a) the expiration of 3 years from the date of commission of the offence; or\n  (b) the expiration of 1 year from the date of discovery of the offence by the prosecutor,\nwhichever is the earlier.\nNote—See section 30O. (Added 25 of 2012 s. 28)"
+  },
+  {
+   "id": "s20",
+   "num": "20",
+   "heading": "Liability of directors, partners, etc.",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) If an offence under this Ordinance is committed by a body corporate or by a person as a member of an unincorporated body, and it is proved that the offence has been committed with the consent or connivance or is attributable to the neglect of a person specified in subsection (2), that person also commits the offence and is liable to be proceeded against and punished accordingly.\n  (2) The person referred to in subsection (1) is a person who, at the time of the offence, was—\n    (a) (in the case of a body corporate) a director, shadow director, company secretary, principal officer or manager of the body corporate;\n    (b) (in the case of a member of an unincorporated body) a partner or office holder in or a member or manager of the unincorporated body; or\n    (c) (in either case mentioned in paragraph (a) or (b)) purporting to act in the capacity of a person referred to in that paragraph.\n  (3) In this section—\n    company secretary (公司秘書) includes any person occupying the position of company secretary, by whatever name called;\n    principal officer (主要人員), in relation to a body corporate, means—\n      (a) a person employed or engaged by the body corporate who, either alone or jointly with one or more other persons, is responsible under the immediate authority of the directors of the body corporate for the conduct of the business of the body corporate; or\n      (b) a person employed or engaged by the body corporate who, under the immediate authority of a director of the body corporate or a person to whom paragraph (a) applies, exercises managerial functions in respect of the body corporate;\n    shadow director (幕後董事), in relation to a body corporate, means a person in accordance with whose directions or instructions (excluding advice given in a professional capacity) the directors, or a majority of the directors, of the body corporate are accustomed to act."
+  },
+  {
+   "id": "s21",
+   "num": "21",
+   "heading": "Offences due to fault of other person",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where the commission by any person of an offence under this Ordinance is due to the act or default of some other person, that other person shall be guilty of the offence, and a person may be charged with and convicted of the offence by virtue of this section whether or not proceedings are taken against the first-mentioned person.\n  (2) In subsection (1) the reference to some other person does not include an exempt person in the case of an offence under section 7A, 13E, 13F, 13G, 13H or 13I.\n  [cf. 1968 c. 29 s. 23 U.K.]"
+  },
+  {
+   "id": "s21A",
+   "num": "21A",
+   "heading": "Extra-territoriality",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "A trader may commit an offence under this Ordinance with respect to a commercial practice even if the practice is directed to consumers who are outside Hong Kong if, at the time of engaging in the practice, the trader is in Hong Kong or Hong Kong is the trader’s usual place of business."
+  },
+  {
+   "id": "s22",
+   "num": "22",
+   "heading": "Accessory to offences committed outside Hong Kong",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Subject to the provisions of this Ordinance, any person who, in Hong Kong, procures, counsels, aids, abets or is accessory to the commission outside Hong Kong of an act which, if committed in Hong Kong, would be an offence under this Ordinance, commits that offence as a principal and shall be liable to be prosecuted in Hong Kong as if the offence had been committed within Hong Kong."
+  },
+  {
+   "id": "s23",
+   "num": "23",
+   "heading": "Samples",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Where any act or omission constitutes both an offence under this Ordinance and an offence under the Public Health and Municipal Services Ordinance (Cap. 132), evidence on behalf of the prosecution concerning any sample procured for analysis shall be admissible in proceedings in respect of the offence under this Ordinance if, but only if, the provisions of section 63 of the Public Health and Municipal Services Ordinance (Cap. 132) have been complied with.\n  (2) The Chief Executive in Council may by regulations provide that in any proceedings for an offence under this Ordinance in relation to such goods as may be specified in the regulations (other than proceedings for an offence referred to in subsection (1)) evidence on behalf of the prosecution concerning any sample procured for analysis shall not be admissible unless the sample has been dealt with in such manner as may be specified in the regulations."
+  },
+  {
+   "id": "s24",
+   "num": "24",
+   "heading": "Evidence by certificate",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) The Chief Executive in Council may by regulations provide that certificates issued by such persons as may be specified by the regulations in relation to such matters as may be so specified shall, subject to this section, be received in evidence of those matters in any proceedings under this Ordinance.\n  (2) Such a certificate shall not be received in evidence—\n    (a) unless the party against whom it is to be given in evidence has been served with a copy thereof not less than 7 days before the hearing; or\n    (b) if that party has, not less than 3 days before the hearing served on the other party a notice requiring the attendance of the person issuing the certificate.\n  (3) For the purposes of this section any document purporting to be such a certificate as is referred to in this section shall be deemed to be such a certificate unless the contrary is shown.\n  [cf. 1968 c. 29 s. 31 U.K.]"
+  },
+  {
+   "id": "s24A",
+   "num": "24A",
+   "heading": "Rule of evidence regarding imported goods",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) In any prosecution for an offence under this Ordinance in respect of the import of goods to which a false trade description of the place of manufacture, production, processing or reconditioning is applied, evidence that the goods were imported from a place shall be prima facie evidence that the goods were manufactured, produced, processed or reconditioned, as the case may be, in such place.\n  (2) Notwithstanding subsection (1), in any prosecution for an offence referred to in that subsection, a trade description which indicates that the goods were manufactured, produced, processed or reconditioned in a place shall not be regarded as false only because of the evidence that the goods were imported from another place, if—\n    (a) that other place is located within the first-mentioned place; or\n    (b) the first-mentioned place is located within that other place."
+  },
+  {
+   "id": "s25",
+   "num": "25",
+   "heading": "Description of trade mark in pleading",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "In any information, indictment, pleading, proceeding or document in which any trade mark or forged trade mark is intended to be mentioned, it shall be sufficient, without further description and without any copy or facsimile, to state that trade mark or forged trade mark to be a trade mark or forged trade mark."
+  },
+  {
+   "id": "s26",
+   "num": "26",
+   "heading": "Defence mistake, accident, etc.",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) In any proceedings for an offence under this Ordinance, the person charged is, subject to subsection (2), entitled to be acquitted if—\n    (a) sufficient evidence is adduced to raise an issue that—\n      (i) the commission of the offence was due to—\n        (A) a mistake;\n        (B) reliance on information supplied to the person charged by another person;\n        (C) the act or default of another person;\n        (D) an accident; or\n        (E) some other cause beyond the control of the person charged; and\n      (ii) the person charged took all reasonable precautions and exercised all due diligence to avoid the commission of the offence by—\n        (A) the person charged; or\n        (B) any person under the control of the person charged; and\n    (b) the contrary is not proved by the prosecution beyond reasonable doubt.\n  (2) If in any case the issue raised under subsection (1)(a) involves the allegation that the commission of the offence was due to the act or default of another person or to reliance on information supplied by another person, the person charged shall not, without leave of the court, be entitled to rely on that issue unless, within a period ending 7 clear days before the hearing, the person charged has served on the prosecutor a notice in writing giving such information identifying or assisting in the identification of that other person as was then in the possession of the person charged.\n  (3)-(4)\n[cf. 1968 c. 29 s. 24 U.K.]"
+  },
+  {
+   "id": "s26AA",
+   "num": "26AA",
+   "heading": "Additional defence (supply of goods or service to which false trade description is applied etc.)",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Without limiting section 26, in any proceedings for an offence under section 7(1)(a)(ii) or (b) or 7A(1)(b), the person charged is entitled to be acquitted if—\n  (a) sufficient evidence is adduced to raise an issue that the person charged—\n    (i) did not know;\n    (ii) had no reason to suspect; and\n    (iii) could not with reasonable diligence have ascertained,\n  that the goods or service did not conform to the trade description, or that the trade description had been applied to the goods or service; and\n  (b) the contrary is not proved by the prosecution beyond reasonable doubt."
+  },
+  {
+   "id": "s26AAB",
+   "num": "26AAB",
+   "heading": "Additional defence (sale of goods to which forged trade mark is applied etc.)",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Without limiting section 26, in any proceedings for an offence under section 9(2), the person charged is entitled to be acquitted if—\n  (a) sufficient evidence is adduced to raise an issue that the person charged—\n    (i) did not know;\n    (ii) had no reason to suspect; and\n    (iii) could not with reasonable diligence have ascertained,\n  that a forged trade mark had been applied to the goods, or that a trade mark or mark so nearly resembling a trade mark as to be calculated to deceive had falsely been applied to the goods; and\n  (b) the contrary is not proved by the prosecution beyond reasonable doubt."
+  },
+  {
+   "id": "s26A",
+   "num": "26A",
+   "heading": "Additional defence (bait advertising)",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Without limiting section 26, in any proceedings for an offence under section 13G the person charged is entitled to be acquitted if—\n  (a) sufficient evidence is adduced to raise an issue that—\n    (i) the trader offered to supply, or to procure a third person to supply, products of the kind advertised to the consumer within a reasonable time, in a reasonable quantity and at the advertised price and—\n      (A) if that offer was accepted by the consumer, the trader so supplied, or procured a third person to so supply, the products; or\n      (B) if that offer was not accepted by the consumer, the trader would have been able to so supply, or procure a third person to so supply, the products had the offer been accepted at the time it was made; or\n    (ii) the trader offered to supply immediately, or to procure a third person to supply within a reasonable time, equivalent products to the consumer in a reasonable quantity and at the price at which the advertised products were advertised and—\n      (A) if that offer was accepted by the consumer, the trader so supplied, or procured a third person to so supply, the equivalent products; or\n      (B) if that offer was not accepted by the consumer, the trader would have been able to so supply, or procure a third person to so supply, the equivalent products had the offer been accepted at the time it was made; and\n  (b) the contrary is not proved by the prosecution beyond reasonable doubt."
+  },
+  {
+   "id": "s26B",
+   "num": "26B",
+   "heading": "Additional defence (wrongly accepting payment)",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Without limiting section 26, in any proceedings for an offence under section 13I the person charged is entitled to be acquitted if—\n    (a) sufficient evidence is adduced to raise an issue that—\n      (i) the trader offered to procure a third person to supply the products and—\n        (A) if that offer was accepted by the consumer, the trader procured a third person to supply the products; or\n        (B) if that offer was not accepted by the consumer, the trader would have been able to procure a third person to supply the products had the offer been accepted at the time it was made; or\n      (ii) the trader offered to supply, or to procure a third person to supply, equivalent products—\n        (A) within the period specified by the trader at or before the time at which the payment or other consideration was accepted; or\n        (B) if no period was specified at or before that time, within a reasonable period,\n      and—\n        (C) if that offer was accepted by the consumer, the trader so supplied, or procured a third person to so supply, the equivalent products; or\n        (D) if that offer was not accepted by the consumer, the trader would have been able to so supply, or procure a third person to so supply, the equivalent products had the offer been accepted at the time it was made; and\n    (b) the contrary is not proved by the prosecution beyond reasonable doubt.\n  (2) Without limiting section 26, in any proceedings for an offence under section 13I(2)(c), the person charged is entitled to be acquitted if—\n    (a) sufficient evidence is adduced to raise an issue that a refund in full of the payment or other consideration for the product was made within a reasonable period after the expiry of the period referred to in section 13I(2)(c)(i) or (ii), as the case may be; and\n    (b) the contrary is not proved by the prosecution beyond reasonable doubt."
+  },
+  {
+   "id": "s27",
+   "num": "27",
+   "heading": "Innocent publication of advertisements",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "In proceedings for an offence under this Ordinance committed by the publication of an advertisement, it shall be a defence for the person charged to prove that he is a person whose business it is to publish or arrange for the publication of advertisements and that he received the advertisement for publication in the ordinary course of business and did not know and had no reason to suspect that its publication would amount to an offence under this Ordinance.\n[cf. 1968 c. 29 s. 25 U.K.]"
+  },
+  {
+   "id": "s28",
+   "num": "28",
+   "heading": "Costs in proceedings",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "In any proceedings under this Ordinance, the magistrate or court hearing the proceedings may, notwithstanding any provision of any other Ordinance, make such order as to costs as he or it may think fit."
+  },
+  {
+   "id": "s29",
+   "num": "29",
+   "heading": "Power to make orders with respect to property in possession of the Government",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "Where any property has come into the possession of the Government or any authorized officer acting under this Ordinance, section 102 of the Criminal Procedure Ordinance (Cap. 221) shall, subject to this Ordinance, apply to such property in all respects as though such property had come into the possession of the police in connection with a criminal offence and such section shall be construed as though references to the Government or such authorized officer, as the case may be, were substituted therein for references to the police."
+  },
+  {
+   "id": "s30",
+   "num": "30",
+   "heading": "Forfeiture and disposal of certain goods",
+   "status": "in-effect",
+   "part": "P3",
+   "text": "  (1) Any goods in respect of which an offence under this Ordinance has been committed shall be liable to forfeiture, whether or not any person has been convicted of any such offence.\n  (2) Where goods are seized or detained by an authorized officer under section 15, the Commissioner may at any time release such goods to the person who appears to him to be the owner thereof or his authorized agent subject to any such condition as the Commissioner may specify in writing.\n  (3) Where goods have not been released under subsection (2), the Commissioner may, whether in the same proceedings where an offence is prosecuted or in other proceedings under this Ordinance, apply to a court or magistrate for the forfeiture of the goods.\n  (4) If, on the hearing of an application under subsection (3), the court or magistrate is satisfied that the goods are liable to forfeiture, the court or magistrate may order that—\n    (a) the goods be forfeited to the Government;\n    (b) the goods be destroyed;\n    (c) any false trade description applied to the goods be obliterated and thereafter the goods be—\n      (i) disposed of in such manner and subject to any such condition as the court or magistrate may specify in the order; or\n      (ii) released to the owner thereof or his authorized agent subject to any condition which the court or magistrate may specify in the order; or\n    (d) in exceptional cases, any forged trade mark applied to the goods be obliterated and thereafter the goods be—\n      (i) disposed of in such manner and subject to any such condition as the court or magistrate may specify in the order; or\n      (ii) released to the owner thereof or his authorized agent subject to any condition which the court or magistrate may specify in the order.\n  (5)\n  Where under subsection (3) an application is made to a court or magistrate for the forfeiture of goods otherwise than in proceedings where an offence is prosecuted, the Commissioner shall forthwith notify in writing the owner of the goods or his authorized agent, unless the owner or his authorized agent has indicated in writing to the Commissioner that such notification is not required:\n    Provided that, if there is more than one owner of the goods, it shall be sufficient for the purposes of this subsection to give notice to one such owner or his authorized agent, unless one such owner or his authorized agent has indicated that such notification is not required."
+  },
+  {
+   "id": "s31",
+   "num": "31",
+   "heading": "",
+   "status": "repealed",
+   "part": "P3"
+  },
+  {
+   "id": "s30A",
+   "num": "30A",
+   "heading": "Interpretation",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "In this Part, detention order (扣留令) means an order made under section 30C(1)."
+  },
+  {
+   "id": "s30B",
+   "num": "30B",
+   "heading": "Application for detention order",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) The owner of a trade mark may apply to the Court of First Instance for an order under section 30C(1) where he has reasonable ground for suspecting that the importation of goods that constitute infringing goods may take place.\n  (2) An application under subsection (1) may be made ex parte but with previous notice to the Commissioner.\n  (3) An application under subsection (1) shall be in such form as is prescribed by rules of court and shall be supported by an affidavit of the owner which—\n    (a) states that the deponent is the owner of the trade mark in question;\n    (b) states that a copy of the trade mark exhibited to the affidavit is a true copy of the trade mark;\n    (c) states the grounds for the application, including the facts relied upon by the deponent as showing that the goods in question are prima facie infringing goods;\n    (d) sets out a sufficiently detailed description of the goods in question to make them readily recognizable by the Commissioner;\n    (e) sets out particulars regarding the expected mode of transportation and the expected date of importation and, if available, particulars identifying the importer; and\n    (f) sets out such other information and exhibits such other documents as may be prescribed by rules of court.\n  (4) Where the trade mark in question is registered, the affidavit of the owner shall exhibit a certified copy of each entry in the register that relates to the trade mark or, where it is not practicable for the deponent to obtain such a certified copy, shall state the reasons why it is not practicable to do so.\n  (5) No application may be made under subsection (1) with respect to goods in transit.\n  (6) No application may be made under subsection (1) with respect to the importation by a person of goods for his private and domestic use."
+  },
+  {
+   "id": "s30C",
+   "num": "30C",
+   "heading": "Issuance of detention order",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) Where, on the hearing of an application made under section 30B, the owner presents adequate evidence to satisfy the Court of First Instance that the goods in question are prima facie infringing goods, the Court of First Instance may make an order directing the Commissioner or an authorized officer to take reasonable measures to seize or detain the goods on or after their importation.\n  (2) The Court of First Instance may require the owner of the trade mark to provide security or an equivalent assurance in an amount sufficient to protect the importer and any other person having an interest in the goods to be detained, including the consignor and consignee, from any loss or damage that may be incurred in the event that the detention is wrongful or the goods are released to the importer under section 30D(6).\n  (3) A detention order may contain such terms and conditions as the Court of First Instance considers appropriate.\n  (4) The Court of First Instance shall not make a detention order with respect to any goods that have been seized or detained by, and that are in the custody of, the Commissioner or an authorized officer pursuant to any law.\n  (5) Where the Commissioner or an authorized officer seizes or detains any goods pursuant to any law, other than this Part, any detention order made with respect to those goods shall cease to have effect.\n  (6) Where the Court of First Instance makes a detention order, the owner of the trade mark shall forthwith serve a copy of the order on the Commissioner.\n  (7) A detention order has effect from the date on which it is made or such later date as may be specified by the Court of First Instance and shall cease to have effect 60 days from that date unless the Commissioner or an authorized officer has, pursuant to the order and within that period, seized or detained any goods to which the order applies."
+  },
+  {
+   "id": "s30D",
+   "num": "30D",
+   "heading": "Enforcement of detention order",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) Where a detention order is served on the Commissioner, the Commissioner or an authorized officer may, subject to the terms and conditions of the order, seize or detain any goods to which the order applies.\n  (2) The owner of the trade mark shall—\n    (a) supply to the Commissioner or an authorized officer sufficient information on the goods and the particular importation to render the goods recognizable and the shipment or particular importation identifiable and any other information the Commissioner or an authorized officer may reasonably require for the purpose of carrying out the detention order;\n    (b) deposit with the Commissioner an amount that is, in the opinion of the Commissioner, sufficient to reimburse the Government for the costs likely to be incurred in connection with the carrying out of the detention order; and\n    (c) upon notification in writing by the Commissioner or an authorized officer of the seizure or detention of the goods, provide such storage space and other facilities as he may require.\n  (3) The Commissioner or an authorized officer may refuse to carry out the detention order if the owner of the trade mark fails to comply with subsection (2).\n  (4) The Commissioner may, after giving written notice to the owner of the trade mark, apply to the Court of First Instance for directions in carrying out the detention order, and the Court of First Instance may, after giving the owner an opportunity to be heard, give such directions as it deems fit.\n  (5) The Commissioner or an authorized officer shall forthwith after goods are seized or detained pursuant to a detention order, give written notice of the seizure or detention to—\n    (a) the owner of the trade mark;\n    (b) the importer; and\n    (c) any other person to whom notice is required to be given by the terms of the order.\n  (6) Subject to subsection (7) and to any law authorizing the Commissioner or an authorized officer to seize or detain goods, the Commissioner or an authorized officer shall release any goods that have been seized or detained pursuant to a detention order to the importer if the owner of the trade mark has not, within a period of 10 days after notice of the seizure or detention is given to the owner, notified the Commissioner in writing that an action for infringement in respect of the goods has been brought under the Trade Marks Ordinance (Cap. 559).\n  (7) The Court of First Instance may, on application by the owner of the trade mark, after giving the Commissioner and each person to whom notice is required to be given under subsection (5) an opportunity to be heard, extend the period referred to in subsection (6) by a period not exceeding an additional 10 days if it is satisfied that the request for the extension is reasonable.\n  (8) In proceedings under subsection (7), the Court of First Instance may require the owner of the trade mark to provide security or an equivalent assurance in addition to that provided in accordance with section 30C(2).\n  (9) Where the owner of the trade mark has, within the period referred to in subsection (6), as may be extended under subsection (7), notified the Commissioner in writing that an action for infringement in respect of the goods has been brought under the Trade Marks Ordinance (Cap. 559), the Commissioner or an authorized officer shall retain custody of the goods subject to the direction of the Court of First Instance in the infringement proceedings.\n  (10) No public holiday, gale warning day or black rainstorm warning day shall be reckoned in the computation of the period referred to in subsection (6), as may be extended under subsection (7).\n  (11) In this section—\n    black rainstorm warning day (黑色暴雨警告日) means any day throughout or for part of which a black rainstorm warning is in force, and black rainstorm warning (黑色暴雨警告) means a warning issued by the Director of the Hong Kong Observatory of a heavy rainstorm in, or in the vicinity of, Hong Kong by the use of the heavy rainstorm signal commonly referred to as Black;\n    gale warning day (烈風警告日) means any day throughout or for part of which a gale warning is in force, and gale warning (烈風警告) has the meaning assigned to it by section 2 of the Judicial Proceedings (Adjournment During Gale Warnings) Ordinance (Cap. 62)."
+  },
+  {
+   "id": "s30E",
+   "num": "30E",
+   "heading": "Variation or setting aside of detention order",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) The Commissioner or the owner of the trade mark may at any time apply to the Court of First Instance to vary the detention order.\n  (2) The importer or any other person affected by the detention order may at any time apply to the Court of First Instance to vary or set aside the order.\n  (3) A person who makes an application under subsection (1) or (2) shall give to the other parties such notice of the day fixed for the hearing of the application as a judge of the Court of First Instance may order.\n  (4) On the hearing of an application under subsection (1) or (2) to vary a detention order, the Court of First Instance may vary the order in such manner as it thinks just.\n  (5) On the hearing of an application under subsection (2) to set aside a detention order, the Court of First Instance may set aside the order on such terms and conditions as it thinks just.\n  (6) For the purposes of subsection (3)—\n    (a) the parties to an application under subsection (1) are the Commissioner, the owner of the trade mark and, if the goods in question have been seized or detained pursuant to the detention order, the importer and any other person to whom notice is required to be given under section 30D(5); and\n    (b) the parties to an application under subsection (2) are the Commissioner, the owner of the trade mark, the applicant and the importer, if the importer is not the applicant."
+  },
+  {
+   "id": "s30F",
+   "num": "30F",
+   "heading": "Disclosure of information",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) Where goods are seized or detained pursuant to a detention order, the Commissioner may disclose to the owner of the trade mark—\n    (a) the names and addresses of the importer, the consignor and the consignee;\n    (b) the nature and quantity of goods seized or detained pursuant to the order;\n    (c) any statement made to the Commissioner or an authorized officer by any person in connection with the seizure or detention, either with the prior consent in writing of that person or without such consent where the person is dead or cannot after reasonable enquiries by the Commissioner as to his whereabouts be found by the Commissioner; and\n    (d) any other information or document relating to any goods seized or detained pursuant to the order which the Commissioner thinks fit to disclose.\n  (2) Where the owner of the trade mark seeks disclosure of—\n    (a) any information or document that is not referred to in subsection (1); or\n    (b) any information or document that is referred to in subsection (1) but which the Commissioner has not disclosed,\n  he may apply to the Court of First Instance for an order requiring the Commissioner to disclose such information or document and the Court of First Instance may on such an application make such order for disclosure as it deems fit.\n  (3) An application under subsection (2) may be begun by motion with previous notice to the Commissioner."
+  },
+  {
+   "id": "s30G",
+   "num": "30G",
+   "heading": "Inspection of goods, release of samples, etc.",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) Where goods are seized or detained pursuant to a detention order, the Commissioner or an authorized officer shall—\n    (a) give the owner of the trade mark sufficient opportunity to inspect the goods for the purpose of substantiating his claim; and\n    (b) give the importer an equivalent opportunity to inspect the goods for the purpose of refuting the owner’s claim.\n  (2) The Commissioner or an authorized officer may permit the owner of the trade mark or the importer to remove samples of the seized or detained goods if the owner or the importer, as the case may be, gives the Commissioner or authorized officer the requisite undertakings.\n  (3) For the purposes of subsection (2), the requisite undertakings are undertakings in writing that the person giving the undertaking will—\n    (a) return the samples to the Commissioner or authorized officer at a specified time that is satisfactory to the Commissioner or authorized officer; and\n    (b) take reasonable care to prevent damage to the samples.\n  (4) If the Commissioner or an authorized officer permits the inspection of the seized or detained goods, or the removal of a sample, by the owner of a trade mark in accordance with this section, the Government is not liable to the importer for any loss or damage suffered by the importer arising out of—\n    (a) damage to any of the goods incurred during the inspection; or\n    (b) anything done by the owner or any other person to, or in relation to, a sample removed by the owner or any use made by the owner of such sample."
+  },
+  {
+   "id": "s30H",
+   "num": "30H",
+   "heading": "Costs payable",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) The Commissioner may assess the costs incurred by the Government in connection with the carrying out of a detention order and may deduct those costs from the amount paid as a deposit by the owner of the trade mark under section 30D(2).\n  (2) Any costs assessed under subsection (1) shall be payable by the owner of the trade mark to the Government and recoverable as a civil debt."
+  },
+  {
+   "id": "s30I",
+   "num": "30I",
+   "heading": "Protection of Commissioner and authorized officers",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) The Commissioner and authorized officers are not liable for any loss or damage suffered by any person as a result of any action taken or omitted to be taken in good faith in connection with the carrying out of a detention order.\n  (2) The protection conferred by subsection (1) on the Commissioner and authorized officers in respect of any action taken or omitted to be taken in good faith in connection with the carrying out of a detention order shall not affect in any manner any liability of the Government for that action taken or omitted to be taken."
+  },
+  {
+   "id": "s30J",
+   "num": "30J",
+   "heading": "Compensation payable to importer, etc.",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "  (1) Where goods are seized or detained pursuant to a detention order and the goods are released pursuant to section 30D(6), the importer, the consignee or the owner of the goods may, within 6 months after the date on which the order is made, apply to the Court of First Instance for compensation for any loss or damage suffered by him by reason of the seizure or detention.\n  (2) Where—\n    (a) goods are seized or detained pursuant to a detention order;\n    (b) an action for infringement is brought under the Trade Marks Ordinance (Cap. 559) in respect of the goods within the period referred to in section 30D(6), as may be extended under section 30D(7); and\n    (c) the action is discontinued, the claim of infringement is withdrawn or the Court of First Instance in the infringement proceedings determines that the infringement is not proved,\n  the importer, the consignee or the owner of the goods may, within 6 months after the date on which the action is discontinued, the claim is withdrawn or the Court of First Instance renders its determination, as the case may be, apply to the Court of First Instance for compensation for any loss or damage suffered by him by reason of the seizure or detention.\n  (3) On an application under subsection (1) or (2), the Court of First Instance may make such order for compensation as it deems fit."
+  },
+  {
+   "id": "s30K",
+   "num": "30K",
+   "heading": "Rules",
+   "status": "in-effect",
+   "part": "P3A",
+   "text": "The Chief Justice may make rules of court regulating and prescribing the procedure and the practice to be followed in the Court of First Instance under this Part, and any matters incidental to or relating to that procedure or practice, including rules prescribing any matter or thing that under this Part is to be or may be prescribed by rules of court."
+  },
+  {
+   "id": "s30L",
+   "num": "30L",
+   "heading": "Undertakings",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) An authorized officer may, with the consent in writing of the Secretary for Justice, accept a written undertaking given by a person whom the officer believes has engaged, is engaging or is likely to engage, in conduct that constitutes an offence under section 4, 5, 7, 7A, 13E, 13F, 13G, 13H or 13I.\n  (2) An undertaking referred to in subsection (1) is an undertaking—\n    (a) not to continue or repeat the conduct covered by that subsection;\n    (b) not to engage in conduct of that kind, or any conduct of a substantially similar kind, in the course of any trade or business; or\n    (c) as a person referred to in section 20(1), not to continue, repeat or engage in any conduct referred to in paragraph (a) or (b) of this subsection that could constitute an offence by virtue of that section.\n  (3) Subject to subsection (4), a person who has given an undertaking may, with the consent of an authorized officer, withdraw or vary it, or give a new undertaking in substitution for it, at any time.\n  (4) An authorized officer may only consent under subsection (3) to the withdrawal of, or a variation of or substitution for, an undertaking if the officer has obtained the consent in writing of the Secretary for Justice to doing so.\n  (5) An authorized officer may cause an undertaking to be published in any form and manner, and to any extent, that the officer thinks appropriate.\n  (6) If an authorized officer considers that the person who gave an undertaking has breached any of its terms, the officer may apply to a court for an injunction under section 30P."
+  },
+  {
+   "id": "s30M",
+   "num": "30M",
+   "heading": "Effect of acceptance of undertaking",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) If an authorized officer accepts an undertaking under section 30L, neither the Commissioner nor an authorized officer may—\n    (a) commence or continue an investigation relating to the matter to which the undertaking relates; or\n    (b) bring or continue proceedings in a court relating to that matter.\n  (2) To avoid doubt, the Commissioner or an authorized officer may still commence or continue an investigation, or bring or continue proceedings in a court, after the acceptance of an undertaking—\n    (a) in relation to matters to which the undertaking does not relate; or\n    (b) in relation to persons who have not given the undertaking."
+  },
+  {
+   "id": "s30N",
+   "num": "30N",
+   "heading": "Withdrawal of acceptance of undertaking",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) Subject to subsection (2), an authorized officer may, by notice in writing given to the person who gave the undertaking, withdraw the acceptance of an undertaking, with effect from the date specified in the notice, if the officer—\n    (a) has reasonable grounds for believing that there has been a material change of circumstances since the undertaking was accepted;\n    (b) has reasonable grounds for suspecting that the person who gave the undertaking has breached any of its terms;\n    (c) has reasonable grounds for suspecting that the information on which the decision to accept the undertaking was based was incomplete, false or misleading in a material particular; or\n    (d) has reasonable grounds for suspecting that the acceptance of the undertaking was procured by improper or unlawful conduct.\n  (2) An authorized officer may only give a notice under this section if the officer has obtained the consent in writing of the Secretary for Justice to doing so.\n  (3) If the acceptance of an undertaking is withdrawn under this section—\n    (a) the undertaking is no longer binding on the person who gave it;\n    (b) an authorized officer may commence or resume an investigation, or bring or continue proceedings in a court, relating to the matter to which the undertaking related; and\n    (c) a statement of any fact contained in the undertaking may be admitted in evidence in any proceedings referred to in paragraph (b) and, on its admission, is conclusive evidence in those proceedings of the fact stated in the undertaking."
+  },
+  {
+   "id": "s30O",
+   "num": "30O",
+   "heading": "Effect of withdrawal on time limit for prosecutions",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "Despite section 19, if the acceptance of an undertaking is withdrawn, a prosecution for an offence under this Ordinance relating to the matter to which the undertaking related may be brought at any time before the expiration of 1 year after the effective date specified in the notice given under section 30N(1)."
+  },
+  {
+   "id": "s30P",
+   "num": "30P",
+   "heading": "Injunctions",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "  (1) The District Court may, on application by an authorized officer, grant an injunction, in any terms that the Court considers appropriate, if it is satisfied that a person—\n    (a) has engaged, is engaging or is likely to engage, in conduct that constitutes an offence under section 4, 5, 7, 7A, 13E, 13F, 13G, 13H or 13I; or\n    (b) has breached any of the terms of an undertaking given by the person under section 30L.\n  (2) On an application under subsection (1) the District Court may, if satisfied that there are grounds for granting an injunction, instead of doing so accept an undertaking given by the defendant not to continue or repeat the conduct or to take steps that the Court believes will ensure that the defendant does not continue or repeat the conduct.\n  (3) The District Court may require a person from whom it has accepted an undertaking to cause its terms (accompanied by any statement that may be specified by the Court) to be published in any form and manner, and to any extent, that the Court thinks appropriate.\n  (4) The power of the District Court to grant an injunction against a person under subsection (1) or accept an undertaking from a person under subsection (2) may be exercised—\n    (a) whether or not it appears to the Court that the person intends to engage again, or to continue to engage, in conduct of a kind referred to in subsection (1)(a);\n    (b) whether or not the person has previously engaged in conduct of that kind; or\n    (c) whether or not there is an imminent danger of substantial damage to any other person if the person engages in conduct of that kind."
+  },
+  {
+   "id": "s30Q",
+   "num": "30Q",
+   "heading": "Interim injunctions",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "If an application is made under section 30P, the District Court may, if it considers it desirable to do so, grant an interim injunction pending the determination of the application."
+  },
+  {
+   "id": "s30R",
+   "num": "30R",
+   "heading": "Variation and discharge of injunctions",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "The District Court may vary or discharge an injunction that it has granted under section 30P or 30Q."
+  },
+  {
+   "id": "s30S",
+   "num": "30S",
+   "heading": "Court of First Instance may exercise powers of District Court in certain cases",
+   "status": "in-effect",
+   "part": "P3B",
+   "text": "The Court of First Instance may exercise the powers conferred on the District Court under section 30P, 30Q or 30R—\n  (a) in a case of urgency; or\n  (b) if the Court of First Instance is satisfied that special circumstances exist which make it appropriate for the Court of First Instance rather than the District Court to exercise those powers."
+  },
+  {
+   "id": "s32",
+   "num": "32",
+   "heading": "Trade marks containing trade descriptions",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "The fact that a trade description is a trade mark, or part of a trade mark, does not prevent it from being a false trade description when applied to any goods, except where the following conditions are satisfied, that is to say—\n  (a) that it could have been lawfully applied to the goods if this Ordinance had not been enacted;\n  (b) that the trade mark as applied is used to indicate such a connection between the goods and the owner of the trade mark or a person licensed to use the trade mark; and\n  (c) that the person who is the proprietor or owner of the trade mark is the same person as, or a successor in title of, the proprietor or owner on the commencement of this Ordinance.\n  [cf. 1968 c. 29 s. 34 U.K.]"
+  },
+  {
+   "id": "s33",
+   "num": "33",
+   "heading": "Definition Orders",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "Where it appears to the Chief Executive in Council—\n  (a) that it would be in the interest of persons to whom any goods or services are supplied; or\n  (b) that it would be in the interest of persons by whom any goods are exported, or of traders by whom any services are supplied to consumers who are outside Hong Kong, and would not be contrary to the interest of persons to whom such goods or services are supplied in Hong Kong,\nthat any expressions used in relation to the goods or services should be understood as having definite meanings, the Chief Executive in Council may by regulations assign such meanings either—\n  (i) to those expressions when used in connection with the supply of goods in the course of a trade or business or the supply of services by a trader to a consumer as, or as part of, a trade description applied to the goods or services; or\n  (ii) to those expressions when so used in such circumstances as may be specified in the regulations,\nand where such a meaning is so assigned to an expression, it shall be deemed for the purposes of this Ordinance to have that meaning when used as referred to in paragraph (i) or, as the case may be, paragraph (ii) of this section.\n[cf. 1968 c. 29 s. 7 U.K.]"
+  },
+  {
+   "id": "s34",
+   "num": "34",
+   "heading": "Saving for civil rights",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "A contract for the supply of any goods or service shall not be void or unenforceable by reason only of a contravention of any provision of this Ordinance.\n[cf. 1968 c. 29 s. 35 U.K.]"
+  },
+  {
+   "id": "s35",
+   "num": "35",
+   "heading": "Compensation for loss of goods seized under section 15(1)(f)",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) Where any goods are seized or detained by an authorized officer under section 15 the Government shall, subject to this section, be liable to compensate the owner of the goods for any loss suffered by him by reason of the seizure or detention thereof or by reason that the goods, during the detention, are lost or damaged or deteriorate; but the owner shall not be entitled to compensation for any such loss if—\n    (a) the goods are forfeited;\n    (b) he is convicted of an offence under this Ordinance committed in relation to the goods; or\n    (c) an order has been made in respect of the goods under section 30(4).\n  (2) In any proceedings against the Government in respect of a claim for compensation on any of the grounds referred to in subsection (1), the amount of the compensation recoverable shall be such amount as is just and equitable in all the circumstances of the case, including the conduct and comparative blameworthiness of—\n    (a) the owner of the goods;\n    (b) the person in charge or control of the goods at the time they were seized;\n    (c) the agents of the person specified in paragraphs (a) and (b); and\n    (d) authorized officers, public officers and other persons concerned.\n  (3) No proceedings shall be maintainable in respect of any claim for compensation on any of the grounds referred to in subsection (1) unless the proceedings are commenced—\n    (a) in the case of a claim for compensation in respect of goods released to their owner by order of a court or magistrate or by any person having authority to release the goods to him, not later than 6 months after the release thereof;\n    (b) in the case of a claim for compensation on the ground that any goods were lost during the detention thereof, not later than 6 months after—\n      (i) the discovery by the owner of the existence of such ground; or\n      (ii) the date on which the owner could, by the exercise of reasonable diligence, have discovered the existence of such ground,\n    whichever is the earlier.\n    [cf. 1968 c. 29 s. 33 U.K.]"
+  },
+  {
+   "id": "s36",
+   "num": "36",
+   "heading": "Actions for damages",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "  (1) If—\n    (a) a person (the claimant) suffers loss or damage because of conduct of another person (not being an exempt person) that is directed to the claimant; and\n    (b) the conduct constitutes an offence under section 4, 5, 7, 7A, 13E, 13F, 13G, 13H or 13I,\n  the claimant may recover the amount of the loss or damage by action against that other person, or against any person (not being an exempt person) involved in the contravention.\n  (2) An action under subsection (1) may be commenced at any time within 6 years after the day on which the cause of action that relates to the conduct accrued.\n  (3) A term of a contract that purports to exclude or restrict the right of a claimant to bring an action under subsection (1) against any person is of no effect."
+  },
+  {
+   "id": "s37",
+   "num": "37",
+   "heading": "Amendment of Schedules 3 and 4",
+   "status": "in-effect",
+   "part": "P4",
+   "text": "The Secretary may, by notice published in the Gazette, amend Schedule 3 or 4."
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch1",
+   "num": "Schedule 1",
+   "heading": "Scheduled Trade Arrangements",
+   "status": "in-effect",
+   "text": "Column 1 Item Column 2 Trade arrangement Column 3 Trading partnerplace Column 4 Date of entry into force 1. Free Trade Agreement between the EFTA States and Hong Kong, China signed on 21 June 2011 Iceland A date in accordance with Article 11.8 of the Agreement Principality of Liechtenstein A date in accordance with Article 11.8 of the Agreement Kingdom ofNorway A date in accordance with Article 11.8 of the Agreement Swiss Confederation A date in accordance with Article 11.8 of the Agreement 2. Agreement on Agriculture between Hong Kong, China and Iceland signed on 21 June 2011 Iceland A date in accordance with Article 9 of the Agreement 3. Agreement on Agriculture between Hong Kong, China and the Kingdom of Norway signed on 21 June 2011 Kingdom of Norway A date in accordance with Article 9 of the Agreement 4. Agreement on Agriculture between Hong Kong, China and the Swiss Confederation signed on 21 June 2011 Swiss Confederation A date in accordance with Article 9 of the Agreement Principality of Liechtenstein A date in accordance with Article 9 of the Agreement 5. Free Trade Agreement between Hong Kong, China and Chile signed on 7 September 2012 Republic of Chile A date in accordance with Article 19.7 of the Agreement 6. ASEAN–Hong Kong, China Free Trade Agreement signed on 28 March 2018 Brunei Darussalam A date in accordance with Article 4 of Chapter 14 of the Agreement Kingdom of Cambodia A date in accordance with Article 4 of Chapter 14 of the Agreement Republic of Indonesia A date in accordance with Article 4 of Chapter 14 of the Agreement Lao People’s Democratic Republic A date in accordance with Article 4 of Chapter 14 of the Agreement Malaysia A date in accordance with Article 4 of Chapter 14 of the Agreement Republic of the Union of Myanmar A date in accordance with Article 4 of Chapter 14 of the Agreement Republic of the Philippines A date in accordance with Article 4 of Chapter 14 of the Agreement Republic of Singapore A date in accordance with Article 4 of Chapter 14 of the Agreement Kingdom of Thailand A date in accordance with Article 4 of Chapter 14 of the Agreement Socialist Republic of Viet Nam A date in accordance with Article 4 of Chapter 14 of the Agreement 7. Mainland and Hong Kong Closer Economic Partnership Arrangement (a translation of “《內地與香港關於建立更緊密經貿關係的安排》”) signed on 29 June 2003 (including the annexes signed on 29 September 2003) The part of China other than Hong Kong Special Administrative Region, Macao Special Administrative Region and Taiwan A date in accordance with Article 23 of Chapter 6 of the Arrangement 8. Hong Kong, China – New Zealand Closer Economic Partnership Agreement signed on 29 March 2010 New Zealand A date in accordance with Article 4 of Chapter 20 of the Agreement 9. Hong Kong Special Administrative Region and Macao Special Administrative Region Closer Economic Partnership Arrangement (a translation of “《香港特別行政區與澳門特別行政區關於建立更緊密經貿關係的安排》”) signed on 27 October 2017 Macao Special Administrative Region of China A date in accordance with Article 34 of Chapter 12 of the Arrangement 10. Hong Kong, China – Georgia Free Trade Agreement signed on 28 June 2018 Georgia A date in accordance with Article 2 of Chapter 18 of the Agreement 11. Free Trade Agreement between Hong Kong, China and Australia signed on 26 March 2019 Australia A date in accordance with Article 20.3 of Chapter 20 of the Agreement 12. Free Trade Agreement between Hong Kong, China and the Republic of Peru signed on 15 November 2024 Republic of Peru A date in accordance with Article 20.4 of Chapter 20 of the Agreement",
+   "items": []
+  },
+  {
+   "id": "sch1A",
+   "num": "Schedule 1A",
+   "heading": "Table",
+   "status": "in-effect",
+   "text": "Number of carats Indicates gold offineness of 8 333 parts per thousand 9 375 parts per thousand 12 500 parts per thousand 14 585 parts per thousand 15 625 parts per thousand 18 750 parts per thousand 22 916.6 parts per thousand and so in proportion for any other number of carats.",
+   "items": []
+  },
+  {
+   "id": "sch2",
+   "num": "Schedule 2",
+   "heading": "",
+   "status": "repealed",
+   "items": []
+  },
+  {
+   "id": "sch3",
+   "num": "Schedule 3",
+   "heading": "Exempt Persons",
+   "status": "in-effect",
+   "text": "1. A certified public accountant as defined by section 2(1) of the Professional Accountants Ordinance (Cap. 50).\n1A. A corporate practice as defined by section 2(1) of the Accounting and Financial Reporting Council Ordinance (Cap. 588).\n2. A person who falls within paragraph (a) of the definition of CPA firm in section 2(1) of the Accounting and Financial Reporting Council Ordinance (Cap. 588).\n3. A person whose name is entered in the register of pharmacists under section 5 of the Pharmacy and Poisons Ordinance (Cap. 138).\n4. A registered dentist, or a person with provisional registration, within the meaning of the Dentists Registration Ordinance (Cap. 156), or a person deemed to be a registered dentist under that Ordinance.\n5. A registered dental care professional as defined by section 2(1) of the Dentists Registration Ordinance (Cap. 156).\n6. A barrister, solicitor, foreign lawyer, foreign firm, Hong Kong firm or notary public, as defined by section 2(1) of the Legal Practitioners Ordinance (Cap. 159).\n7. A pupil serving pupillage in accordance with the Barristers (Qualification) Rules (Cap. 159 sub. leg. E).\n8. A trainee solicitor as defined by rule 2 of the Trainee Solicitors Rules (Cap. 159 sub. leg. J).\n9. A registered medical practitioner as defined by section 2(1) of the Medical Registration Ordinance (Cap. 161) or a person who is provisionally registered in accordance with the provisions of section 12 of that Ordinance.\n10. A registered midwife as defined by section 2(1) of the Midwives Registration Ordinance (Cap. 162) or a person deemed by section 25 of that Ordinance to be a registered midwife.\n11. A registered nurse or an enrolled nurse, as defined by section 2(1) of the Nurses Registration Ordinance (Cap. 164), or a person deemed by section 26 of that Ordinance to be a registered nurse or an enrolled nurse.\n12. A person whose name is entered in the register kept under section 10 of the Allied Health Professions Ordinance (Cap. 359) for the profession of medical laboratory technologist, radiographer, physiotherapist, occupational therapist or optometrist or a person who is deemed by section 30(2) of that Ordinance to be so registered.\n13. A person whose name is currently entered in the register of registered architects established and maintained under section 8 of the Architects Registration Ordinance (Cap. 408).\n14. A registered professional engineer as defined by section 2(1) of the Engineers Registration Ordinance (Cap. 409).\n15. A registered professional surveyor as defined by section 2(1) of the Surveyors Registration Ordinance (Cap. 417).\n16. A registered professional planner as defined by section 2(1) of the Planners Registration Ordinance (Cap. 418).\n17. A registered chiropractor as defined by section 2 of the Chiropractors Registration Ordinance (Cap. 428).\n18. An authorized land surveyor as defined by section 2 of the Land Survey Ordinance (Cap. 473).\n19. A registered social worker as defined by section 2(1) of the Social Workers Registration Ordinance (Cap. 505).\n20. A licensed estate agent or a licensed salesperson, as defined by section 2(1) of the Estate Agents Ordinance (Cap. 511).\n21. A person whose name is currently entered in the register of registered landscape architects established and maintained under section 7 of the Landscape Architects Registration Ordinance (Cap. 516).\n22. A registered veterinary surgeon as defined by section 2 of the Veterinary Surgeons Registration Ordinance (Cap. 529).\n23. A listed Chinese medicine practitioner or a registered Chinese medicine practitioner, as defined by section 2(1) of the Chinese Medicine Ordinance (Cap. 549).\n24. A registered professional housing manager as defined by section 2(1) of the Housing Managers Registration Ordinance (Cap. 550).",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A certified public accountant as defined by section 2(1) of the Professional Accountants Ordinance (Cap. 50)."
+    },
+    {
+     "id": "s1A",
+     "num": "1A",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A corporate practice as defined by section 2(1) of the Accounting and Financial Reporting Council Ordinance (Cap. 588)."
+    },
+    {
+     "id": "s2",
+     "num": "2",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person who falls within paragraph (a) of the definition of CPA firm in section 2(1) of the Accounting and Financial Reporting Council Ordinance (Cap. 588)."
+    },
+    {
+     "id": "s3",
+     "num": "3",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person whose name is entered in the register of pharmacists under section 5 of the Pharmacy and Poisons Ordinance (Cap. 138)."
+    },
+    {
+     "id": "s4",
+     "num": "4",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered dentist, or a person with provisional registration, within the meaning of the Dentists Registration Ordinance (Cap. 156), or a person deemed to be a registered dentist under that Ordinance."
+    },
+    {
+     "id": "s5",
+     "num": "5",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered dental care professional as defined by section 2(1) of the Dentists Registration Ordinance (Cap. 156)."
+    },
+    {
+     "id": "s6",
+     "num": "6",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A barrister, solicitor, foreign lawyer, foreign firm, Hong Kong firm or notary public, as defined by section 2(1) of the Legal Practitioners Ordinance (Cap. 159)."
+    },
+    {
+     "id": "s7",
+     "num": "7",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A pupil serving pupillage in accordance with the Barristers (Qualification) Rules (Cap. 159 sub. leg. E)."
+    },
+    {
+     "id": "s8",
+     "num": "8",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A trainee solicitor as defined by rule 2 of the Trainee Solicitors Rules (Cap. 159 sub. leg. J)."
+    },
+    {
+     "id": "s9",
+     "num": "9",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered medical practitioner as defined by section 2(1) of the Medical Registration Ordinance (Cap. 161) or a person who is provisionally registered in accordance with the provisions of section 12 of that Ordinance."
+    },
+    {
+     "id": "s10",
+     "num": "10",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered midwife as defined by section 2(1) of the Midwives Registration Ordinance (Cap. 162) or a person deemed by section 25 of that Ordinance to be a registered midwife."
+    },
+    {
+     "id": "s11",
+     "num": "11",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered nurse or an enrolled nurse, as defined by section 2(1) of the Nurses Registration Ordinance (Cap. 164), or a person deemed by section 26 of that Ordinance to be a registered nurse or an enrolled nurse."
+    },
+    {
+     "id": "s12",
+     "num": "12",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person whose name is entered in the register kept under section 10 of the Allied Health Professions Ordinance (Cap. 359) for the profession of medical laboratory technologist, radiographer, physiotherapist, occupational therapist or optometrist or a person who is deemed by section 30(2) of that Ordinance to be so registered."
+    },
+    {
+     "id": "s13",
+     "num": "13",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person whose name is currently entered in the register of registered architects established and maintained under section 8 of the Architects Registration Ordinance (Cap. 408)."
+    },
+    {
+     "id": "s14",
+     "num": "14",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered professional engineer as defined by section 2(1) of the Engineers Registration Ordinance (Cap. 409)."
+    },
+    {
+     "id": "s15",
+     "num": "15",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered professional surveyor as defined by section 2(1) of the Surveyors Registration Ordinance (Cap. 417)."
+    },
+    {
+     "id": "s16",
+     "num": "16",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered professional planner as defined by section 2(1) of the Planners Registration Ordinance (Cap. 418)."
+    },
+    {
+     "id": "s17",
+     "num": "17",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered chiropractor as defined by section 2 of the Chiropractors Registration Ordinance (Cap. 428)."
+    },
+    {
+     "id": "s18",
+     "num": "18",
+     "heading": "",
+     "status": "in-effect",
+     "text": "An authorized land surveyor as defined by section 2 of the Land Survey Ordinance (Cap. 473)."
+    },
+    {
+     "id": "s19",
+     "num": "19",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered social worker as defined by section 2(1) of the Social Workers Registration Ordinance (Cap. 505)."
+    },
+    {
+     "id": "s20",
+     "num": "20",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A licensed estate agent or a licensed salesperson, as defined by section 2(1) of the Estate Agents Ordinance (Cap. 511)."
+    },
+    {
+     "id": "s21",
+     "num": "21",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A person whose name is currently entered in the register of registered landscape architects established and maintained under section 7 of the Landscape Architects Registration Ordinance (Cap. 516)."
+    },
+    {
+     "id": "s22",
+     "num": "22",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered veterinary surgeon as defined by section 2 of the Veterinary Surgeons Registration Ordinance (Cap. 529)."
+    },
+    {
+     "id": "s23",
+     "num": "23",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A listed Chinese medicine practitioner or a registered Chinese medicine practitioner, as defined by section 2(1) of the Chinese Medicine Ordinance (Cap. 549)."
+    },
+    {
+     "id": "s24",
+     "num": "24",
+     "heading": "",
+     "status": "in-effect",
+     "text": "A registered professional housing manager as defined by section 2(1) of the Housing Managers Registration Ordinance (Cap. 550)."
+    }
+   ]
+  },
+  {
+   "id": "sch4",
+   "num": "Schedule 4",
+   "heading": "Excluded Products",
+   "status": "in-effect",
+   "text": "1. Goods or services sold or supplied by a person regulated, licensed, registered, recognized or authorized under the Insurance Ordinance (Cap. 41), the Banking Ordinance (Cap. 155), the Mandatory Provident Fund Schemes Ordinance (Cap. 485) or the Securities and Futures Ordinance (Cap. 571), being goods or services the sale or supply of which by that person is itself regulated under an Ordinance that is referred to in this item and under which the person is regulated, licensed, registered, recognized or authorized.",
+   "items": [
+    {
+     "id": "s1",
+     "num": "1",
+     "heading": "",
+     "status": "in-effect",
+     "text": "Goods or services sold or supplied by a person regulated, licensed, registered, recognized or authorized under the Insurance Ordinance (Cap. 41), the Banking Ordinance (Cap. 155), the Mandatory Provident Fund Schemes Ordinance (Cap. 485) or the Securities and Futures Ordinance (Cap. 571), being goods or services the sale or supply of which by that person is itself regulated under an Ordinance that is referred to in this item and under which the person is regulated, licensed, registered, recognized or authorized."
+    }
+   ]
+  }
+ ]
+}
