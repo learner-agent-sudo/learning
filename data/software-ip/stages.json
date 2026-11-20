@@ -16011,8 +16011,8 @@
     "lede": "Most of what a team builds on screen is protected in some way, but not by one right. Each right covers a different part of the work.",
     "points": [
      "**Copyright covers expression, not method:** Copyright protects original works of authorship but never an idea, procedure, process, system or method of operation (17 U.S.C. § 102(a), (b)). Lotus v. Borland treated a menu command hierarchy as an uncopyrightable method of operation, and Apple v. Microsoft filtered out unprotectable and licensed interface elements, leaving thin protection against near-verbatim copying (Lotus Development Corp. v. Borland International, 49 F.3d 807 (1st Cir. 1995); Apple Computer v. Microsoft, 35 F.3d 1435 (9th Cir. 1994)) (reported; check).",
-     "**Trade dress needs meaning and non-function:** A product's look is protected without registration only on proof of secondary meaning, and functional features cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)) (reported; check). The claimant must prove the trade dress is not functional (15 U.S.C. § 1125(a)(3)).",
-     "**Design patents cover the look of an icon:** A design patent can protect the ornamental design of a computer-generated icon or interface shown on a display screen (35 U.S.C. § 171). The term runs for 15 years from grant (35 U.S.C. § 173) (reported; check). Ask patent counsel before the design is shown outside the team, because a public showing can start a bar period (drafting inference).",
+     "**Trade dress needs meaning and non-function:** Product-design trade dress is protected without registration only on proof of secondary meaning, and functional features cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)) (reported; check). The claimant must prove the trade dress is not functional (15 U.S.C. § 1125(a)(3)).",
+     "**Design patents cover the look of an icon:** A design patent can protect the ornamental design of a computer-generated icon or interface shown on a display screen (35 U.S.C. § 171; MPEP § 1504.01(a)) (reported; check). The term runs for 15 years from grant (35 U.S.C. § 173) (reported; check). Ask patent counsel before the design is shown outside the team, because a public showing can start a bar period (drafting inference).",
      "**Typefaces and font software differ:** A typeface as such is not subject to US copyright (37 C.F.R. § 202.1(e)) (reported; check), but original font software can be registered as a literary work (reported; check). Under the SIL Open Font License, fonts may be used, embedded and bundled, but the font software may not be sold alone and a Reserved Font Name may not be used in a modified version without permission (OFL-1.1 conditions 1 and 3).",
      "**Read the stock and AI licences:** A stock image licence sets the permitted use, the territory, the term and the number of users, and the bank's marketing use must fit inside them (good practice). The Copyright Office guidance says applicants must disclose AI-generated content that is more than de minimis and exclude it from the claim (88 Fed. Reg. 16190, 16 March 2023) (reported; check)."
     ],
@@ -16052,7 +16052,7 @@
      "**SDK and API terms are contracts:** An SDK or API comes with terms that limit use, caching and the data it returns. Google Maps Platform, for example, bars caching of map content except as its service-specific terms allow (Google Maps Platform Terms of Service) (reported; check). Product should read the terms before the SDK ships, because the provider can change or end them (good practice).",
      "**Online terms bind only with notice and assent:** A website's or API's terms bind a user only if the notice is reasonably conspicuous and the user takes an action that shows assent. Terms behind a link were not enforced in Nguyen v. Barnes & Noble, 763 F.3d 1171 (9th Cir. 2014); a clear sign-up screen was enforced in Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017); and Berman v. Freedom Financial Network, 30 F.4th 849 (9th Cir. 2022), refused terms where the notice was small and the button did not signal agreement (reported; check). Product should design sign-up flows with that test in mind (good practice).",
      "**Scraping and the CFAA:** Scraping public pages is not automatically lawful. Under the Computer Fraud and Abuse Act, exceeding authorised access means getting into areas that are off limits, not misusing data one is entitled to reach (Van Buren v. United States, 593 U.S. 374 (2021)) (reported; check). In hiQ Labs v. LinkedIn, 31 F.4th 1180 (9th Cir. 2022), the Ninth Circuit held that scraping public profiles was likely not access “without authorization”, but the district court later found that hiQ had breached LinkedIn's User Agreement, and the parties settled with a consent judgment and a permanent injunction; the settlement terms are not judicial findings (reported; check). Product should not plan a feature that collects a third party's data without counsel's review (good practice).",
-     "**Map and database licences:** A public derivative database must be offered under the ODbL or a compatible licence, while a produced work such as a rendered map needs an attribution notice (ODbL-1.0, full text). Product should decide early whether the feature keeps a derivative database or only renders map images, because each choice brings a different duty (drafting inference).",
+     "**Map and database licences:** A public derivative database must be offered under the ODbL or a compatible licence, while a produced work such as a rendered map needs an attribution notice (ODbL-1.0 s.4.3). Publicly using a produced work made from a derivative database also makes that database publicly used, so it must then be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4(c)). Product should decide early whether the feature keeps a derivative database or only renders map images, because each choice brings a different duty (drafting inference).",
      "**App store rules:** Apple's App Review Guideline 5.2 says an app should include only content the developer created or is licensed to use, and guideline 5.2.1 says not to use third-party trademarks, copyrighted works or patented ideas without permission (Apple App Review Guidelines, s.5.2 and 5.2.1). The Free Software Foundation's view that App Store terms conflict with the GPL is a view, not a court ruling (reported; check), so GPL code goes into an app store only after counsel's review (good practice)."
     ],
     "takeaway": "Counsel should see the terms before the code or data is in the build, not after the launch date is set."
@@ -16107,9 +16107,9 @@
     "points": [
      "**Open source notices screen:** Shipped open source needs the notices its licence requires, which often means the copyright lines and the licence text in the app or the product documentation. The notices screen is built from the open source review in stage 11 (good practice).",
      "**Copyright notice:** A copyright notice is optional, but if a proper notice appears on the published copies, an infringer cannot rely on innocent infringement to reduce actual or statutory damages (17 U.S.C. § 401(d)). The notice takes the form of the symbol, the year of first publication and the name of the owner (17 U.S.C. § 401(b)). Product should put it in the footer of the app or on the legal page (good practice).",
-     "**Patent pending and marks:** Use “patent pending” only while an application is pending: marking it when no application is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). A mark is registered only once a statement of use is accepted (15 U.S.C. § 1051(d)), so the ® symbol waits until registration. The notice of registration is optional, but a registrant that does not give it recovers no profits or damages unless the defendant had actual notice (15 U.S.C. § 1111).",
+     "**Patent pending and marks:** Use “patent pending” only while an application is pending: marking it when no application is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). For an intent-to-use application, a mark is registered only once a statement of use is accepted (15 U.S.C. § 1051(d)), so the ® symbol waits until registration. The notice of registration is optional, but a registrant that does not give it recovers no profits or damages unless the defendant had actual notice (15 U.S.C. § 1111).",
      "**Customer terms by clickwrap:** Customer terms bind when the notice is conspicuous and the customer's click shows assent (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017)) (reported; check). Product should place the terms link beside the button the customer presses, and label that button so it means agreement (good practice).",
-     "**User content, the DMCA agent and Section 230:** A platform that stores user uploads keeps the storage safe harbour only if it has designated an agent with the Copyright Office to receive infringement notices (17 U.S.C. § 512(c)(2); 37 C.F.R. § 201.38). The designation expires after three years unless it is renewed, and a lapsed designation loses the safe harbour (reported; check). Section 230 gives no general shield against IP claims, because 47 U.S.C. § 230(e)(2) leaves intellectual property law alone (reported; check). Product should put the renewal date in the team calendar and build a takedown route (good practice).",
+     "**User content, the DMCA agent and Section 230:** A platform that stores user uploads keeps the storage safe harbour only if it has designated an agent with the Copyright Office to receive infringement notices (17 U.S.C. § 512(c)(2); 37 C.F.R. § 201.38). The designation expires after three years unless it is renewed, and a lapsed designation loses the safe harbour (reported; check). Section 230 gives no shield against federal IP claims, because 47 U.S.C. § 230(e)(2) leaves intellectual property law alone, but the circuits differ on state-law IP claims (reported; check). Product should put the renewal date in the team calendar and build a takedown route (good practice).",
      "**Feedback clauses:** Under California law, a person who discloses an idea that the recipient accepts, knowing that payment is expected, can recover if the idea is used, even where the idea is not copyrightable (Desny v. Wilder, 46 Cal. 2d 715 (1956)) (reported; check). A feedback clause that licenses suggestions to the bank manages that risk (good practice). Product should not run idea contests, beta suggestion forms or pitch forms without that clause in the terms (good practice)."
     ],
     "takeaway": "Notices, marks and terms are cheap to fix before release and expensive to fix after customers have seen them (drafting inference)."
@@ -16120,9 +16120,9 @@
     "points": [
      "**What reopens the review:** A new SDK, an upstream licence change, a new market, a new data source or an AI model swap each reopens the review (good practice). Product should tell counsel before the change ships, not at the next audit (good practice).",
      "**Infringement and takedown letters:** Letters that claim infringement go to counsel at once, and no one on the product team replies to them (good practice). Some letters start a clock: for hosting services in the EU, Article 16 of the Digital Services Act requires a notice-and-action mechanism and a timely decision on each notice (Regulation (EU) 2022/2065, Art. 16) (reported; check).",
-     "**Llama 4 licence terms:** A licensee with more than 700 million monthly active users in the preceding calendar month must request a separate licence from Meta, and may not exercise the licence rights until Meta grants it (Llama 4 Community License, s.2). “Built with Llama” must be prominently displayed where Llama materials or derivatives are made available (Llama 4 Community License, s.1.b.i). Product should check these terms before a model is chosen, not after (good practice).",
+     "**Llama 4 licence terms:** A licensee that had more than 700 million monthly active users in the preceding calendar month, measured at the Llama 4 release date of 5 April 2025, must request a separate licence from Meta, and may not exercise the licence rights until Meta grants it (Llama 4 Community License, s.2). “Built with Llama” must be prominently displayed where Llama materials or derivatives are made available (Llama 4 Community License, s.1.b.i). Product should check these terms before a model is chosen, not after (good practice).",
      "**Vendor AI indemnities:** Microsoft's Copilot Copyright Commitment (September 2023), Google's generative AI indemnity (12 October 2023) and OpenAI's Copyright Shield (6 November 2023) extend defence to customers for named or paid services, but each has conditions, such as using the built-in guardrails and not deliberately generating infringing material (reported; check). Product should record those conditions in the feature plan, because a missed guardrail can take away the cover (drafting inference).",
-     "**EU AI Act output marking:** Article 50(2) of Regulation (EU) 2024/1689 requires providers of AI systems that generate synthetic audio, image, video or text to mark the outputs in a machine-readable way, and it applies from 2 August 2026 to new systems. The reported 2026 Digital Omnibus gives systems already on the market until 2 December 2026 (Regulation (EU) 2026/1744, as reported; check the timing). Product should confirm which dates apply to the feature before it launches (good practice).",
+     "**EU AI Act output marking:** Article 50(2) of Regulation (EU) 2024/1689 requires providers of AI systems that generate synthetic audio, image, video or text to mark the outputs in a machine-readable way, and it applies from 2 August 2026 to new systems. The reported 2026 Digital Omnibus gives generative systems already on the market before 2 August 2026 until 2 December 2026 (Regulation (EU) 2026/1744, as reported; check the timing). Product should confirm which dates apply to the feature before it launches (good practice).",
      "**Keep a record of the model:** Record the model name and version, its licence, its vendor indemnity and the conditions attached to it in the feature record, so counsel can see what changed when the model is swapped (good practice)."
     ],
     "takeaway": "Launch closes the first review, not the IP work: each change, letter and model swap needs its own check."
@@ -16193,8 +16193,8 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 401(a), (b), (d)",
     "title": "Notice of copyright on published copies",
-    "summary": "A notice of copyright may be placed on publicly distributed copies. If a proper notice appears on the copies, a defendant cannot rely on innocent infringement to reduce its liability (17 U.S.C. § 401(a), (b), (d)).",
-    "counselNote": "The notice is optional, but a notice on the app, the documentation and the site defeats an innocent-infringer argument (17 U.S.C. § 401(d)). Product counsel adds the notice at launch, with the year of first publication (good practice).",
+    "summary": "A notice of copyright may be placed on publicly distributed copies. If a proper notice appears on the copies, no weight is given to a defence of innocent infringement in mitigation of actual or statutory damages, if the notice is in the form and position the section specifies (17 U.S.C. § 401(a), (b), (d)).",
+    "counselNote": "The notice is optional, but a proper notice on the app, the documentation and the site means an innocent-infringement defence is given no weight in reducing damages (17 U.S.C. § 401(d)). Product counsel adds the notice at launch, with the year of first publication (good practice).",
     "confidence": "high",
     "url": "https://www.law.cornell.edu/uscode/text/17/401",
     "cap": "17-USC",
@@ -16205,7 +16205,7 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 512(c)(2)",
     "title": "Storage safe harbour for user content",
-    "summary": "A service provider can use the storage safe harbour for material that users post only if it has designated an agent with the Copyright Office to receive infringement notices. A designation has to be renewed, and a lapsed designation loses the safe harbour (17 U.S.C. § 512(c)(2), reported; check).",
+    "summary": "A service provider can use the storage safe harbour for material that users post only if it has designated an agent with the Copyright Office to receive infringement notices. A designation has to be renewed, and a lapsed designation loses the safe harbour (37 C.F.R. § 201.38, reported; check). Section 512(c)(2) requires the designated agent, not the renewal.",
     "counselNote": "A feature that lets customers upload images, reviews or comments needs the designated agent in place before launch. Someone must diarise the renewal date, because a lapse removes the protection (good practice).",
     "confidence": "medium",
     "cap": "17-USC",
@@ -16217,7 +16217,7 @@
     "ref": "§ 102(a)(1), (b)(1)(A)",
     "title": "Conditions for patentability: novelty and the inventor's grace period",
     "summary": "A disclosure made one year or less before the effective filing date is not prior art if the inventor made it, or someone who got the subject matter directly or indirectly from the inventor made it, subject to the conditions in § 102(b)(1)(B) (35 U.S.C. § 102(a)(1), (b)(1)(A), (B)).",
-    "counselNote": "A demo, beta or conference talk by the product team counts as the inventor's own disclosure, so the one-year clock starts on that date (drafting inference). Outside the US the same demo can count against novelty, because the EPC applies absolute novelty with narrow exceptions (reported; check).",
+    "counselNote": "A demo, beta or conference talk counts as the inventor's own disclosure only if the person giving it is the inventor or got the subject matter from the inventor, so the one-year clock starts on that date for those disclosures (drafting inference). Outside the US the same demo can count against novelty, because the EPC applies absolute novelty with narrow exceptions (reported; check).",
     "confidence": "high",
     "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
     "cap": "35-USC",
@@ -16228,7 +16228,7 @@
     "instrument": "Patent Act (35 U.S.C.)",
     "ref": "§ 111(b)",
     "title": "Provisional application",
-    "summary": "A provisional application does not need the claims or the formal requirements of section 112(b) to (e), and it is treated as abandoned 12 months after filing unless it is converted into a non-provisional application (35 U.S.C. § 111(b)).",
+    "summary": "A provisional application does not need the claims that section 112(b) to (e) would otherwise require (35 U.S.C. § 111(b)(2)), and it is treated as abandoned 12 months after filing unless it is converted into a non-provisional application (35 U.S.C. § 111(b)).",
     "counselNote": "A provisional is a fast, low-cost early filing date for a feature the team is about to show publicly (good practice). It does not become a patent by itself, so the full application must be filed within 12 months to claim its date (reported; check).",
     "confidence": "high",
     "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
@@ -16444,7 +16444,7 @@
    },
    {
     "term": "Designated agent",
-    "definition": "The person a service provider names with the Copyright Office to receive infringement notices, so that it can use the storage safe harbour for user content. The designation must be renewed, and a lapsed one loses the safe harbour (17 U.S.C. § 512(c)(2), reported; check)."
+    "definition": "The person a service provider names with the Copyright Office to receive infringement notices, so that it can use the storage safe harbour for user content. The designation must be renewed, and a lapsed one loses the safe harbour (17 U.S.C. § 512(c)(2); renewal under 37 C.F.R. § 201.38, reported; check)."
    },
    {
     "term": "Feedback clause",
@@ -17071,7 +17071,7 @@
      "detail": [
       "**What it covers:** A design patent can protect the ornamental design of a computer-generated icon or interface shown on a display screen (35 U.S.C. § 171) (reported; check).",
       "**Term:** The term is 15 years from grant for applications filed on or after 13 May 2015 (35 U.S.C. § 173) (reported; check).",
-      "**Drawings:** USPTO supplemental guidance from 13 March 2026 no longer requires the display screen to be drawn in broken lines where the title and claim name the article (Federal Register doc. 2026-04987) (reported; check). Check the drawing rules before filing."
+      "**Drawings:** USPTO supplemental guidance from 13 March 2026 no longer requires the display screen to be drawn in solid or broken lines where the title and claim name the article (Federal Register doc. 2026-04987) (reported; check). Check the drawing rules before filing."
      ],
      "owner": [
       "Patent counsel",
@@ -17113,7 +17113,7 @@
      "detail": [
       "**Typeface and software:** A typeface as such is not copyright subject matter in the US (37 C.F.R. § 202.1(e)) (reported; check), but original font software can be registered as a literary work (Compendium (Third) § 723) (reported; check).",
       "**Open Font License:** The bank may use, embed and bundle the font, but the font software cannot be sold alone, a modified version may not use a Reserved Font Name without permission, and redistributed font software must stay under the licence (OFL-1.1 conditions 1, 3 and 5).",
-      "**Output:** Documents and screens made with the font are not subject to the licence (OFL-1.1, Permission and Conditions)."
+      "**Output:** Documents created using the font are not subject to the licence, but an app or website that ships the font file distributes the font software, which stays under the licence (OFL-1.1, Permission and Conditions)."
      ],
      "owner": [
       "Design lead",
@@ -17228,7 +17228,7 @@
      "detail": [
       "**Route it:** Send each open source component to the open source office before any build uses it (good practice).",
       "**Trigger:** Most open source licence duties attach on distribution or conveying, so an internal-only feature may carry fewer duties than a shipped one (GPL-3.0 s.0).",
-      "**Online use:** A copyleft licence can attach to a service that users reach over a network, so flag copyleft code in any online feature (drafting inference)."
+      "**Online use:** A network copyleft licence such as AGPL-3.0 can reach a modified service that users interact with over a network (AGPL-3.0 s.13), but GPL-3.0 s.0 says that mere interaction through a computer network is not conveying, so flag AGPL or other network copyleft code in any online feature (drafting inference)."
      ],
      "owner": [
       "Product manager",
@@ -17379,7 +17379,7 @@
      "title": "Check the licence on map and database data",
      "detail": [
       "**Share-alike:** A public derivative database must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4) (reported; check).",
-      "**Produced works:** A rendered map or text made from the database needs only an attribution notice (ODbL-1.0 s.4.3), but publicly using such a work can also count as publicly using the derivative database (reported; check).",
+      "**Produced works:** A rendered map or text made from the database needs only an attribution notice (ODbL-1.0 s.4.3), but publicly using a produced work made from a derivative database makes that database publicly used, so the share-alike then applies (ODbL-1.0 s.4.4(c)).",
       "**Contract limits:** Where no database right or copyright applies, a contract can still limit use (Ryanair v PR Aviation, Case C-30/14 (CJEU 2015)) (reported; check)."
      ],
      "owner": [
@@ -17420,7 +17420,7 @@
      ],
      "title": "Read the model licence as a contract",
      "detail": [
-      "**User threshold:** Meta's Llama 4 Community License needs a separate licence from Meta if the licensee had more than 700 million monthly active users in the preceding calendar month, and the licensee may not use the rights until Meta grants it (Llama 4 Community License Agreement, s.2).",
+      "**User threshold:** Meta's Llama 4 Community License needs a separate licence from Meta if, on the Llama 4 release date, the licensee had more than 700 million monthly active users in the preceding calendar month, and the licensee may not use the rights until Meta grants it (Llama 4 Community License Agreement, s.2).",
       "**Branding:** Where Llama materials or derivatives are distributed or made available, 'Built with Llama' must be prominently displayed on a related website, user interface or product documentation (Llama 4 Community License Agreement, s.1.b.i).",
       "**Output and use limits:** A model licence can set user thresholds and restrict outputs, so check the terms for each use before launch (good practice)."
      ],
@@ -17511,9 +17511,11 @@
      "id": "bld-freedom-to-operate",
      "phase": "build",
      "when": [
-      "invention"
+      "invention",
+      "third-party",
+      "ai"
      ],
-     "title": "Run a freedom-to-operate check before a new method ships",
+     "title": "Run a freedom-to-operate check before a feature that may use third-party patents ships",
      "detail": [
       "**Scope:** Check whether the new method may infringe a patent held by others by reading the claims, not only by confirming that the bank invented the method (good practice).",
       "**Enhanced damages:** Courts may award enhanced damages, up to three times, in egregious cases of culpable, typically subjective, wilful infringement (35 U.S.C. § 284; Halo Electronics v. Pulse Electronics, 579 U.S. 93 (2016)) (reported; check).",
@@ -17956,7 +17958,7 @@
      "detail": [
       "**Own or licence all content:** Apple's App Review Guidelines say an app should include only content the developer created or has a licence to use, and should not use third-party trademarks, copyrighted works or patented ideas without permission (App Review Guidelines 5.2 and 5.2.1).",
       "**Right entity submits:** The app should be submitted by the entity that owns or licenses the intellectual property (App Review Guidelines 5.2.1). Name that entity on the listing and in the licence record (good practice).",
-      "**Open source in a store:** The Free Software Foundation holds that store terms conflict with the GPL, because they restrict redistribution that the GPL permits. That is a view, not a court ruling, and VLC was removed from the App Store in January 2011 after a GPL complaint (reported; check)."
+      "**Open source in a store:** The Free Software Foundation holds that store terms conflict with the GPL, because they restrict redistribution that the GPL permits. That is a view, not a court ruling, and VLC was removed from the App Store in January 2011 after a complaint by a VLC contributor under the GPL, though sources disagree on whether VideoLAN itself asked for removal (reported; check)."
      ],
      "owner": [
       "Engineering",
@@ -18120,7 +18122,7 @@
      "title": "Send infringement and takedown letters to counsel the same day",
      "detail": [
       "**Same-day routing:** Send any infringement or takedown letter to counsel on arrival, including a takedown notice for user content, so that counsel can decide the response before any deadline in the letter runs (good practice).",
-      "**Section 230 is no shield:** Section 230 does not limit any law pertaining to intellectual property (47 U.S.C. § 230(e)(2)), so it gives no general shield against IP claims over user content. Circuits differ on state-law IP claims (Perfect 10, Inc. v. CCBill LLC, 488 F.3d 1102 (9th Cir. 2007)) (reported; check).",
+      "**Section 230 is no shield:** Section 230 does not limit any law pertaining to intellectual property (47 U.S.C. § 230(e)(2)), so it gives no general shield against IP claims over user content. Circuits differ on state-law IP claims: the Ninth Circuit reads the carve-out as federal IP only (Perfect 10, Inc. v. CCBill LLC, 488 F.3d 1102 (9th Cir. 2007)), while the Third Circuit held that a state publicity claim is not immunised (Hepp v. Facebook, 3d Cir. 2021) (reported; check).",
       "**Outside the US:** EU hosts must run notice and action mechanisms and tell the notifier whether they acted (Regulation (EU) 2022/2065 Art. 16; reported; check). Canada's notice-and-notice regime requires an intermediary to forward a claimant's notice to the user, without a duty to remove the content (Copyright Act ss. 41.25 to 41.27; reported; check)."
      ],
      "owner": [
@@ -18166,7 +18168,7 @@
       "ai"
      ],
      "detail": [
-      "**Model licence limits:** Meta's Llama 4 Community License requires a licensee with more than 700 million monthly active users in the preceding calendar month to request a separate licence from Meta, and until Meta grants it the licensee may not exercise the licence rights (Llama 4 Community License s.2). Where Llama materials or derivatives are made available, 'Built with Llama' must be displayed prominently (s.1.b.i).",
+      "**Model licence limits:** Meta's Llama 4 Community License requires a licensee that, on the Llama 4 release date, had more than 700 million monthly active users in the preceding calendar month to request a separate licence from Meta, and until Meta grants it the licensee may not exercise the licence rights (Llama 4 Community License s.2). Where Llama materials or derivatives are made available, 'Built with Llama' must be displayed prominently (s.1.b.i).",
       "**Vendor indemnities:** Vendor AI indemnities, such as Microsoft's Copilot Copyright Commitment, Google's generative AI indemnity and OpenAI's Copyright Shield, apply only on conditions, such as use of built-in guardrails or certain paid tiers (reported; check). Read the conditions before relying on one.",
       "**A new model is a new review:** A model swap can change the licence, the indemnity and the output marking, so counsel reviews it before the switch (good practice)."
      ],
