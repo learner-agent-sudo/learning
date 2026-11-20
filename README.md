@@ -15,7 +15,7 @@ branch.
 | HK securities regulation — SFO (Cap. 571), SFC | `/hk-securities/` | Live |
 | HK insurance regulation — Insurance Ordinance (Cap. 41), IA | `/hk-insurance/` | Live |
 | Canadian banking regulation — Bank Act (S.C. 1991, c. 46), OSFI | `/ca-banking/` | Live |
-| Open source & software IP — U.S. law, with EU, UK, HK and Canada notes | `/software-ip/` | Live |
+| Open source & software IP — U.S. and Hong Kong law, with EU, UK and Canada notes | `/software-ip/` | Live |
 
 The home page (`app/page.tsx`) shows the topics as volumes on a shelf.
 
@@ -238,8 +238,12 @@ and the kit data, so the HK pages are unchanged.
 ## Open source & software IP
 
 Sixteen stages on the law of software for counsel at a bank or fintech in the
-United States, with short notes at the end of each stage on what differs in
-the EU, the UK, Hong Kong and Canada. Stages 1 to 6 cover the rights in code
+United States, with a **Hong Kong** tab on every stage (the same subject under
+Hong Kong law: the short version, sections in depth, ordinance cards with
+e-Legislation text, and what the HKMA and the PCPD add for a Hong Kong bank;
+`components/software-ip/HongKongTab.tsx`, field `hongKong` in the stage data;
+the checked points are in `docs/software-ip/hong-kong-facts.md`) and short
+notes at the end of each stage on what differs in the EU, the UK and Canada. Stages 1 to 6 cover the rights in code
 (copyright, ownership of code written by staff, contractors and vendors,
 patents, trade secrets and trademarks); stages 7 to 10 explain open source
 licences (how they work, then the permissive, copyleft and network-copyleft
@@ -261,8 +265,8 @@ model wording, exported as Markdown or CSV. Content lives in
 `data/software-ip/stages.json`. Statute cards carry the text of the cited U.S.
 Code sections from GovInfo's annual edition (`scripts/extract_uscode.py`, run
 monthly by `.github/workflows/refresh-usleg.yml` into `data/usleg/`), a few
-California code sections, and the Hong Kong and Canadian copyright and patent
-statutes; licence cards carry licence texts from the SPDX License List
+California code sections, the Hong Kong ordinances the Hong Kong tabs cite,
+and the Canadian copyright and patent statutes; licence cards carry licence texts from the SPDX License List
 (`scripts/extract_licences.py` into `data/licences/`).
 
 **The Desk** (`/software-ip/desk/`, `components/desk/`) is interview practice:

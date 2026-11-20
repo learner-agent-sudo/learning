@@ -103,7 +103,7 @@
        "beat": "rule",
        "pin": {
         "stage": "map",
-        "quote": "confidentiality rests on the common law of confidence and contract, so the bank's NDAs and code-access terms carry more of the load"
+        "quote": "Confidential information is protected by the equitable action for breach of confidence and by contract, not by a trade secrets statute"
        }
       }
      ]
@@ -567,7 +567,7 @@
        "beat": "rule",
        "pin": {
         "stage": "ownership",
-        "quote": "the contract governs if it expressly provides for ownership, but the commissioner still has an exclusive licence"
+        "quote": "Unless the contract expressly says who owns the copyright, the developer keeps it"
        }
       }
      ]
@@ -827,15 +827,15 @@
       {
        "beat": "rule",
        "pin": {
-        "stage": "patents",
-        "quote": "where an invention might reasonably be expected from the duties, or the employee has a special obligation, the employer owns it"
+        "stage": "ownership",
+        "quote": "An invention belongs to the employer if it was made in the course of normal duties or specifically assigned duties where an invention might reasonably be expected"
        }
       },
       {
        "beat": "pressed",
        "pin": {
-        "stage": "patents",
-        "quote": "an employee may seek compensation where a patent on an employer-owned invention is of outstanding benefit"
+        "stage": "ownership",
+        "quote": "An employee may seek compensation where a granted patent on an employer-owned invention is of outstanding benefit to the employer"
        }
       }
      ]
@@ -1103,7 +1103,7 @@
        "beat": "rule",
        "pin": {
         "stage": "patents",
-        "quote": "a program for a computer is not an invention as such"
+        "quote": "A program for a computer is not an invention, but only to the extent the patent relates to it as such"
        }
       }
      ]
@@ -1469,7 +1469,7 @@
        "beat": "rule",
        "pin": {
         "stage": "trade-secrets",
-        "quote": "protection rests on the common law of confidence and contract."
+        "quote": "Hong Kong has no statute that creates a trade secret right, so confidential code and business information rests on the common law of confidence and on contract"
        }
       }
      ]
@@ -1840,7 +1840,7 @@
        "beat": "rule",
        "pin": {
         "stage": "trademarks",
-        "quote": "an unregistered name relies on passing off, so register before launch in Hong Kong"
+        "quote": "The Ordinance gives no proceedings to stop infringement of an unregistered mark, but it keeps the law of passing off"
        }
       }
      ]
@@ -2999,14 +2999,14 @@
        "beat": "rule",
        "pin": {
         "stage": "oss-basics",
-        "quote": "programs are literary works under Cap. 528, so a licensor has the same footing; no Hong Kong statute deals with open source licences, which are enforced through contract and copyright (drafting inference)."
+        "quote": "so a licence works as a permission under the Copyright Ordinance"
        }
       },
       {
        "beat": "pressed",
        "pin": {
         "stage": "copyleft",
-        "quote": "there is no reported Hong Kong decision enforcing a copyleft licence, so rely on the licence text and each contributor's copyright (reported; check)."
+        "quote": "No reported Hong Kong decision enforces a copyleft licence"
        }
       }
      ]
@@ -4017,7 +4017,7 @@
        "beat": "rule",
        "pin": {
         "stage": "using",
-        "quote": "no Hong Kong rule requires SBOMs or licence scanning as such"
+        "quote": "No Hong Kong statute requires SBOMs or licence scanning as such"
        }
       }
      ]
@@ -4325,14 +4325,14 @@
        "beat": "rule",
        "pin": {
         "stage": "releasing",
-        "quote": "the employer is first owner of a work made in the course of employment, subject to agreement"
+        "quote": "Code written in the course of employment belongs to the bank unless an agreement says otherwise"
        }
       },
       {
        "beat": "rule",
        "pin": {
         "stage": "releasing",
-        "quote": "the author keeps copyright unless agreed, but the commissioner has an exclusive licence"
+        "quote": "Commissioned code stays with the developer unless the contract expressly names the bank as the owner"
        }
       }
      ]
@@ -4589,7 +4589,7 @@
        "beat": "rule",
        "pin": {
         "stage": "deals",
-        "quote": "the commissioner gets an exclusive licence only for reasonably contemplated purposes"
+        "quote": "Unless the agreement expressly provides for the copyright, the developer keeps it"
        }
       }
      ]
@@ -4824,7 +4824,7 @@
        "beat": "rule",
        "pin": {
         "stage": "deals",
-        "quote": "the employer owns employee works (Cap. 528 s.14) and inventions made in normal duties"
+        "quote": "The employer owns copyright in an employee"
        }
       }
      ]
@@ -5081,7 +5081,7 @@
        "beat": "rule",
        "pin": {
         "stage": "ai",
-        "quote": "the author is the person who made the necessary arrangements (Cap. 528 s.11(3))"
+        "quote": "the author is the person who undertook the arrangements necessary for its creation (Cap. 528 s.11(3))"
        }
       }
      ]
@@ -5528,7 +5528,7 @@
        "beat": "rule",
        "pin": {
         "stage": "product",
-        "quote": "disregard a disclosure made up to six months before filing only for an evident abuse"
+        "quote": "A disclosure made no earlier than 6 months before filing is disregarded only where it was an evident abuse"
        }
       },
       {

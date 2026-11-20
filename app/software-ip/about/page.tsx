@@ -22,8 +22,10 @@ export default function SoftwareIpAboutPage() {
         A {SW_STAGES.length}-stage path through the law of software for the reader of the other volumes: an
         experienced lawyer with an IT background, here counsel to a <strong>bank or fintech in the United
         States</strong>. It covers US federal law in full, with state law where it decides the point (California is
-        the main example), and each stage ends with short notes on what differs in the European Union, the United
-        Kingdom, Hong Kong and Canada.
+        the main example). Every stage also has a <strong>Hong Kong</strong> tab that sets out the same subject under
+        Hong Kong law for counsel at a Hong Kong bank: the short version, the rules in depth, the ordinance cards and
+        what the HKMA and the PCPD add. Each stage's notes end with what differs in the European Union, the United
+        Kingdom and Canada.
       </p>
       <p>
         Stages 1 to 6 set out the rights in code: copyright, who owns code written by staff, contractors and vendors,
@@ -77,8 +79,11 @@ export default function SoftwareIpAboutPage() {
         <li>
           <strong>California code sections</strong> (Labor Code §§ 2870-2872, Business and Professions Code § 16600,
           Civil Code § 3426.1) are copied from California Legislative Information as indexed in April 2026.
-          Hong Kong (Copyright, Patents and Trade Marks Ordinances) and Canadian (Copyright and Patent Acts) text comes from the
-          same official sources as the other volumes.
+          Hong Kong ordinance text (Copyright, Patents, Registered Designs, Trade Marks, Trade Descriptions, Personal Data
+          (Privacy), Electronic Transactions, Control of Exemption Clauses, Crimes, Telecommunications, Limitation,
+          Arbitration, Competition and other Ordinances) and Canadian (Copyright and Patent Acts) text comes from the
+          same official sources as the other volumes. HKMA guidance on the Hong Kong tabs is taken from the
+          fact-checked Hong Kong banking volume.
         </li>
         <li>
           <strong>Licence texts</strong> come from the{' '}

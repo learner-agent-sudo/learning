@@ -20,7 +20,7 @@ const SIZES = Object.fromEntries(SW_STAGES.map((s) => [s.id, s.checklist.length]
 const GROUPS: RailGroup[] = (Object.entries(SW_PHASES) as [SwPhase, (typeof SW_PHASES)[SwPhase]][]).map(
   ([id, p]) => ({ id, label: p.label, tone: p.tone })
 );
-const PROVISIONS = SW_STAGES.reduce((n, s) => n + s.provisions.length, 0);
+const PROVISIONS = SW_STAGES.reduce((n, s) => n + s.provisions.length + (s.hongKong?.provisions.length ?? 0), 0);
 const LICENCES = SW_STAGES.reduce((n, s) => n + (s.licenceKit?.licences.length ?? 0), 0);
 const CHECK_TOTAL = SW_STAGES.reduce((n, s) => n + s.checklist.length, 0);
 const OUTLINES = Object.fromEntries(SW_STAGES.map((s) => [s.id, swOutline(s)]));
@@ -58,14 +58,14 @@ export default function SoftwareIpPage() {
         <div style={toneVars('--module', TONES.amber)}>
           <main className="mx-auto max-w-7xl px-4 pb-10 sm:px-6">
             <ModuleMasthead
-              kicker="United States · copyright, patents, trade secrets · open source"
+              kicker="United States and Hong Kong · copyright, patents, trade secrets · open source"
               title="Open source & software IP"
               watermark="17 U.S.C."
               standfirst={
                 <>
                   Who owns the bank's code, what an <em>open source licence</em> asks of it, and how to use, release,
-                  buy and defend software, from the seat of counsel at a <em>bank or fintech</em>, with notes on the EU,
-                  the UK, Hong Kong and Canada.
+                  buy and defend software, from the seat of counsel at a <em>bank or fintech</em>, with a{' '}
+                  <em>Hong Kong law</em> tab on every stage and notes on the EU, the UK and Canada.
                 </>
               }
               stats={[
