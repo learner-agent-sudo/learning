@@ -9279,6 +9279,11 @@
       {
        "id": "cards",
        "label": "In a card data environment"
+      },
+      {
+       "id": "hk",
+       "label": "Hong Kong law applies",
+       "hint": "The bank, its developers or the users are in Hong Kong"
       }
      ]
     }
@@ -9527,6 +9532,35 @@
        "label": "Interagency Guidance on Third-Party Relationships (2023)",
        "ref": "88 Fed. Reg. 37920",
        "strength": "agency-guidance"
+      }
+     ]
+    },
+    {
+     "id": "in-hk-vendor-outsourcing",
+     "phase": "intake",
+     "title": "Discuss vendor outsourcing with the HKMA before it starts",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Advance discussion:** Where a vendor runs a banking-related function on the component, the HKMA expects the bank to discuss the outsourcing with it in advance (HKMA SA-2 para 1.3.2).",
+      "**Guidance status:** This is guidance, not law. It covers outsourcing a banking-related business area, back office included, or changing the scope of such outsourcing, and the bank should be satisfied that the SA-2 section 2 issues are addressed before it implements the arrangement.",
+      "**Timing:** Build the HKMA discussion into procurement timelines, so that it does not come after the contract is signed (good practice)."
+     ],
+     "owner": [
+      "Open source office",
+      "Vendor management"
+     ],
+     "evidence": [
+      "Record of the HKMA discussion, with its date",
+      "Outsourcing scope note showing which banking-related functions the vendor runs"
+     ],
+     "sources": [
+      {
+       "label": "HKMA Supervisory Policy Manual SA-2 (Outsourcing)",
+       "ref": "para 1.3.2",
+       "strength": "hkma-guidance",
+       "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
       }
      ]
     },
@@ -9871,6 +9905,57 @@
        "ref": "Open Source Initiative, 28 October 2024",
        "strength": "industry-code",
        "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "li-hk-business-use",
+     "phase": "licence",
+     "title": "Hold a licence for every installed copy used in the business",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Offence:** Possessing an infringing copy of a computer program, without the owner's licence, for use in a trade or business is a criminal offence (Cap. 528 s.118(2A)-(2B)). Printed copies and programs needed only to view or hear a work are outside it (s.118(2C)-(2D)), so the main exposure is unlicensed installed software used inside the bank (drafting inference).",
+      "**Penalty and officers:** On indictment the fine is level 5 for each infringing copy and the term is up to 4 years (Cap. 528 s.119(1)). A director, manager or similar officer also commits the offence where it was committed with their consent or connivance, or is attributable to them (s.125(1)).",
+      "**Defences:** It is a defence for the accused to prove they did not know, and had no reason to believe, that the copy was infringing (s.118(3)). An employee given the copy by the employer for use at work also has a defence, unless they could make or influence the decision to acquire, use or remove it (s.118(3A)-(3B))."
+     ],
+     "owner": [
+      "Open source office",
+      "Engineering"
+     ],
+     "evidence": [
+      "Inventory of installed software checked against licence records, by product and copy count",
+      "Licence file for each product used in the business, with the date of the last check"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Ordinance (Cap. 528)",
+       "ref": "Cap. 528 s.118(2A)-(3B)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "118"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
+      },
+      {
+       "label": "Copyright Ordinance (Cap. 528), penalties and officers",
+       "ref": "Cap. 528 s.119(1), s.125(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "119"
+        },
+        {
+         "cap": "528",
+         "section": "125"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
       }
      ]
     },
@@ -10539,6 +10624,49 @@
      ]
     },
     {
+     "id": "ob-hk-lawful-user",
+     "phase": "obligations",
+     "title": "Check licence terms against the lawful-user rights and the interoperability limits",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Lawful user:** A person with a contractual right to use a program may make a back-up copy where necessary for that use, and may copy or adapt it where necessary for lawful use, including to correct errors (Cap. 528 s.60(1)-(2), s.61(1)-(2)). An agreement can exclude the back-up right (s.60(3)), but section 61 has no equivalent words, so whether a licence can exclude it is a question of construction (drafting inference).",
+      "**No decompilation exception:** The Ordinance has no express decompilation or reverse-engineering exception. Reverse engineering is therefore lawful only where the lawful-user rule applies, so any licence term that allows debugging should be checked against section 61 (good practice).",
+      "**Interoperability:** Circumventing an effective technological measure for interoperability is excused only on its conditions, which include that the copy is not infringing and that the analysis is not itself an infringement (Cap. 528 s.273D(1)(b)-(e)). The exception excuses circumvention, not copying or adapting."
+     ],
+     "owner": [
+      "Legal",
+      "Engineering"
+     ],
+     "evidence": [
+      "Licence clause review noting the back-up, adaptation and error-correction terms",
+      "Record of any interoperability work, showing each condition was met"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Ordinance (Cap. 528)",
+       "ref": "Cap. 528 s.60, s.61, s.273D",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "60"
+        },
+        {
+         "cap": "528",
+         "section": "61"
+        },
+        {
+         "cap": "528",
+         "section": "273D"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
+      }
+     ]
+    },
+    {
      "id": "se-scan",
      "phase": "security",
      "title": "Scan for known vulnerabilities and record the result",
@@ -10802,6 +10930,84 @@
        "label": "Vendor lifecycle practice",
        "ref": "drafting inference",
        "strength": "good-practice"
+      }
+     ]
+    },
+    {
+     "id": "se-hk-vendor-data",
+     "phase": "security",
+     "title": "Put security and retention terms in vendor and hosting contracts",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Security terms:** A bank that gives personal data to a data processor, in or outside Hong Kong, must adopt contractual or other means to prevent unauthorised or accidental access, processing, erasure, loss or use (Cap. 486 Sch. 1 s.4, DPP 4(2)).",
+      "**Retention:** The same kind of term must stop the processor keeping the data longer than necessary for the processing (Cap. 486 Sch. 1 s.2, DPP 2(3)).",
+      "**Processor test:** A data processor processes personal data on behalf of another and not for its own purposes (DPP 2(4)). A vendor that uses the data for its own purposes falls outside that definition, and the analysis then changes (drafting inference)."
+     ],
+     "owner": [
+      "Legal",
+      "Vendor management"
+     ],
+     "evidence": [
+      "Vendor contract clauses on security, retention and return or erasure of data",
+      "Register of hosts and processors that receive personal data from the component"
+     ],
+     "sources": [
+      {
+       "label": "Personal Data (Privacy) Ordinance (Cap. 486)",
+       "ref": "Cap. 486 Sch. 1 DPP 4(2), DPP 2(3)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "486",
+         "section": "Sch. 1 s.4"
+        },
+        {
+         "cap": "486",
+         "section": "Sch. 1 s.2"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap486"
+      }
+     ]
+    },
+    {
+     "id": "se-hk-critical-infrastructure",
+     "phase": "security",
+     "title": "Check whether the bank or a system is designated as critical infrastructure",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Material changes:** If the bank or a system is designated under the Protection of Critical Infrastructures (Computer Systems) Ordinance, a material change to the design, configuration, security or operation of a critical computer system must be notified to the regulator within 1 month (Cap. 653 s.22(1), (2)(a)).",
+      "**Incidents:** A computer-system security incident must be notified within 12 hours where the core function is disrupted or likely to be disrupted, and otherwise within 48 hours, with a written report within 14 days (Cap. 653 s.28; Sch. 6).",
+      "**Regulator:** The HKMA is the designated authority for authorized institutions, so it administers these duties for the bank (Cap. 653 Sch. 2)."
+     ],
+     "owner": [
+      "Information security",
+      "Compliance"
+     ],
+     "evidence": [
+      "Written confirmation of the designation status of the bank and each system, with the date checked",
+      "Change and incident log recording the date of awareness and the date of each notice"
+     ],
+     "sources": [
+      {
+       "label": "Protection of Critical Infrastructures (Computer Systems) Ordinance (Cap. 653)",
+       "ref": "Cap. 653 s.22, s.28; Sch. 6",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "653",
+         "section": "22"
+        },
+        {
+         "cap": "653",
+         "section": "28"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap653"
       }
      ]
     },
@@ -12162,6 +12368,17 @@
        "label": "AI-assisted code"
       }
      ]
+    },
+    {
+     "id": "where",
+     "label": "Where it happens",
+     "options": [
+      {
+       "id": "hk",
+       "label": "Hong Kong law applies",
+       "hint": "The bank, its developers or the users are in Hong Kong"
+      }
+     ]
     }
    ],
    "phases": [
@@ -12567,6 +12784,61 @@
      ]
     },
     {
+     "id": "ti-hk-ownership-before-release",
+     "phase": "title",
+     "title": "Settle who owns the code before release",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Employees:** Code an employee writes in the course of employment belongs to the employer, subject to any agreement to the contrary. The employer may owe an award for exploitation that neither side could reasonably have contemplated (Cap. 528 s.14(1)-(2)).",
+      "**Contractors:** Code commissioned from a contractor belongs to the contractor unless the agreement expressly says otherwise. The bank then has only an exclusive licence for the purposes both sides contemplated, plus a power to restrain objectionable exploitation (s.15(1)-(2)).",
+      "**Written assignments:** An assignment of copyright is effective only in writing signed by or for the assignor (s.101(3)). An electronic signature counts only if the method identifies the signer, shows approval, is reliable and suits the purpose, and the other party consents to it (Cap. 553 s.6(1))."
+     ],
+     "owner": [
+      "Legal",
+      "Engineering management"
+     ],
+     "evidence": [
+      "Employee and contractor IP clauses, with the signed copies on file",
+      "Signed assignment, or signed electronic record, for each transfer of code"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Ordinance (Cap. 528)",
+       "ref": "Cap. 528 s.14, s.15, s.101(3)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "14"
+        },
+        {
+         "cap": "528",
+         "section": "15"
+        },
+        {
+         "cap": "528",
+         "section": "101"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
+      },
+      {
+       "label": "Electronic Transactions Ordinance (Cap. 553)",
+       "ref": "Cap. 553 s.6(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "553",
+         "section": "6"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap553"
+      }
+     ]
+    },
+    {
      "id": "cl-secrets",
      "phase": "clean",
      "title": "Scan the full history for secrets and rotate any found",
@@ -12721,6 +12993,45 @@
        "label": "Good practice: repository history review",
        "ref": "no statute",
        "strength": "good-practice"
+      }
+     ]
+    },
+    {
+     "id": "cl-hk-personal-data",
+     "phase": "clean",
+     "title": "Keep personal data out of code and test data",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**New purpose:** Using personal data for a new purpose needs the data subject's prescribed consent (Cap. 486 Sch. 1 s.3, DPP 3(1)). Real customer records should therefore not go into test data, fixtures or sample code.",
+      "**Security:** The bank must take all practicable steps to protect personal data against unauthorised access, having regard to the kind of data and the harm that could result (Cap. 486 Sch. 1 s.4, DPP 4(1)).",
+      "**Practice:** Replace real records with synthetic data before the code leaves the bank, and scan the release for personal data before it is published (good practice)."
+     ],
+     "owner": [
+      "Engineering",
+      "Data protection officer"
+     ],
+     "evidence": [
+      "Scan report for personal data in the release, with the result",
+      "Record of the synthetic data set used for testing"
+     ],
+     "sources": [
+      {
+       "label": "Personal Data (Privacy) Ordinance (Cap. 486)",
+       "ref": "Cap. 486 Sch. 1 DPP 3(1), DPP 4(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "486",
+         "section": "Sch. 1 s.3"
+        },
+        {
+         "cap": "486",
+         "section": "Sch. 1 s.4"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap486"
       }
      ]
     },
@@ -13470,6 +13781,92 @@
         }
        ],
        "url": "https://spdx.org/licenses/Apache-2.0.html"
+      }
+     ]
+    },
+    {
+     "id": "ip-hk-file-before-publish",
+     "phase": "ip",
+     "title": "File any patent before the code is published",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Novelty:** Anything made available to the public before the material date is part of the state of the art, so publishing code that embodies an invention can defeat novelty (Cap. 514 s.9B(1)-(2)).",
+      "**Narrow relief:** The six-month rule covers only an evident abuse against the applicant, or a display at an official or officially recognised international exhibition (for a standard patent (R), a prescribed exhibition or meeting) (ss.11A, 37B, 109). Do not plan a release on the basis that it applies (good practice).",
+      "**Timing:** Decide on filing before the code goes to a public repository, a public demo or a store listing (drafting inference)."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Engineering"
+     ],
+     "evidence": [
+      "Filing record, or a dated decision not to file, made before first publication",
+      "Planned publication dates for the component"
+     ],
+     "sources": [
+      {
+       "label": "Patents Ordinance (Cap. 514)",
+       "ref": "Cap. 514 s.9B, s.11A, s.37B, s.109",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "9B"
+        },
+        {
+         "cap": "514",
+         "section": "11A"
+        },
+        {
+         "cap": "514",
+         "section": "37B"
+        },
+        {
+         "cap": "514",
+         "section": "109"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
+      }
+     ]
+    },
+    {
+     "id": "ip-hk-project-names",
+     "phase": "ip",
+     "title": "Register project names used as brands in Hong Kong",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Registration:** A registered trade mark is a property right (Cap. 559 s.10(1)). An unregistered name is protected only by passing off, because the Ordinance gives no infringement action for it (s.10(3)), so a name that matters as a brand should be registered in Hong Kong (drafting inference).",
+      "**Markings:** Do not describe an unregistered mark as registered, or use the registered symbol for it. Using the word 'registered' in Hong Kong is treated as a representation of registration here (s.94(2)), and a knowing false representation is an offence with a level 3 fine (s.94(1)).",
+      "**Name search:** Run a search before the name appears in public material, so the bank does not build a brand on a name it cannot register (good practice)."
+     ],
+     "owner": [
+      "Brand team",
+      "Trade mark counsel"
+     ],
+     "evidence": [
+      "Name search result, with its date",
+      "Trade mark filing receipt, or a dated decision not to file"
+     ],
+     "sources": [
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "Cap. 559 s.10(1), (3); s.94(1)-(2)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "10"
+        },
+        {
+         "cap": "559",
+         "section": "94"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
       }
      ]
     },
@@ -14815,6 +15212,17 @@
        "label": "Bank data used to build, train or improve"
       }
      ]
+    },
+    {
+     "id": "where",
+     "label": "Where it happens",
+     "options": [
+      {
+       "id": "hk",
+       "label": "Hong Kong law applies",
+       "hint": "The bank, its developers or the users are in Hong Kong"
+      }
+     ]
     }
    ],
    "phases": [
@@ -15305,6 +15713,69 @@
        "ref": "Contract clauses",
        "strength": "good-practice",
        "note": "Reported; check."
+      }
+     ]
+    },
+    {
+     "id": "ti-hk-written-assignments",
+     "phase": "title",
+     "title": "Use written, signed assignments for each IP right",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Copyright:** An assignment of copyright is effective only in writing signed by or for the assignor (Cap. 528 s.101(3)).",
+      "**Patents and marks:** A patent assignment or mortgage is void unless it is in writing and signed (Cap. 514 s.50(6)), and a trade mark assignment is not effective unless it is in writing and signed (Cap. 559 s.27(4)).",
+      "**Commissioned code:** Commissioned code stays with the author unless the agreement expressly says who owns it (Cap. 528 s.15(1)), so the deal should name the owner in the contract (drafting inference)."
+     ],
+     "owner": [
+      "Deal counsel",
+      "IP counsel"
+     ],
+     "evidence": [
+      "Signed assignment for each IP right on the target's register",
+      "Schedule of contractor and commissioned code, with the contract reference for each"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Ordinance (Cap. 528)",
+       "ref": "Cap. 528 s.101(3); s.15(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "101"
+        },
+        {
+         "cap": "528",
+         "section": "15"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
+      },
+      {
+       "label": "Patents Ordinance (Cap. 514)",
+       "ref": "Cap. 514 s.50(6)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "50"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
+      },
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "Cap. 559 s.27(4)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "27"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
       }
      ]
     },
@@ -16332,6 +16803,122 @@
      ]
     },
     {
+     "id": "ct-hk-exclusions",
+     "phase": "contracts",
+     "title": "Test exclusion clauses and service terms against Hong Kong law",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**IP carve-out:** Sections 7 to 9 of the Control of Exemption Clauses Ordinance do not apply to a contract so far as it relates to the creation or transfer of a right or interest in IP (Cap. 71 Sch. 1 para 1(c)). The services, support or hosting parts of the same contract stay within those sections, so the carve-out must be applied clause by clause (drafting inference).",
+      "**Services:** Where a service contract is silent, the supplier must use reasonable care and skill (Cap. 457 s.5), and where the customer deals as consumer the supplier cannot exclude those liabilities by a contract term (s.8(1)).",
+      "**Consumers:** The court's unconscionability powers apply only where a party deals as consumer (Cap. 458 s.5(1)), so a business-to-business software licence would not generally fall within them."
+     ],
+     "owner": [
+      "Deal counsel",
+      "Commercial counsel"
+     ],
+     "evidence": [
+      "Clause mark-up showing which parts sit inside the IP carve-out",
+      "Services terms checked against the implied terms"
+     ],
+     "sources": [
+      {
+       "label": "Control of Exemption Clauses Ordinance (Cap. 71)",
+       "ref": "Cap. 71 Sch. 1 para 1(c)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "71",
+         "section": "Sch. 1"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap71"
+      },
+      {
+       "label": "Supply of Services (Implied Terms) Ordinance (Cap. 457)",
+       "ref": "Cap. 457 ss.5-8",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "457",
+         "section": "5"
+        },
+        {
+         "cap": "457",
+         "section": "8"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap457"
+      },
+      {
+       "label": "Unconscionable Contracts Ordinance (Cap. 458)",
+       "ref": "Cap. 458 s.5(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "458",
+         "section": "5"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap458"
+      }
+     ]
+    },
+    {
+     "id": "ct-hk-outsourcing-arbitration",
+     "phase": "contracts",
+     "title": "Discuss outsourcing with the HKMA and cover IP disputes in arbitration",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Regulator:** Where the deal outsources a banking-related function to the vendor, discuss the outsourcing with the HKMA in advance (HKMA SA-2 para 1.3.2). This is guidance, not law.",
+      "**Arbitration:** IP disputes, including those over ownership, validity, infringement and transactions in an IP right, can be arbitrated (Cap. 609 s.103C, s.103D(1)). An award binds the parties and those claiming through them (s.73(1)).",
+      "**Licensees:** A third-party licensee does not become a person claiming through a party just by holding a licence, although its contract and operation-of-law rights are preserved (s.103E(2)-(3)). Check the clause that binds each licensee (drafting inference)."
+     ],
+     "owner": [
+      "Deal counsel",
+      "Vendor management"
+     ],
+     "evidence": [
+      "Record of the HKMA discussion, with its date",
+      "Arbitration clause showing that IP disputes are in its scope"
+     ],
+     "sources": [
+      {
+       "label": "HKMA Supervisory Policy Manual SA-2 (Outsourcing)",
+       "ref": "para 1.3.2",
+       "strength": "hkma-guidance",
+       "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/guidelines-and-circular/2001/SA-2.pdf"
+      },
+      {
+       "label": "Arbitration Ordinance (Cap. 609)",
+       "ref": "Cap. 609 s.103C, s.103D(1), s.73(1), s.103E(2)-(3)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "609",
+         "section": "103C"
+        },
+        {
+         "cap": "609",
+         "section": "103D"
+        },
+        {
+         "cap": "609",
+         "section": "73"
+        },
+        {
+         "cap": "609",
+         "section": "103E"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap609"
+      }
+     ]
+    },
+    {
      "id": "sy-evidence",
      "phase": "security",
      "title": "Review secure development evidence and testing",
@@ -16649,6 +17236,41 @@
      ]
     },
     {
+     "id": "tm-hk-insolvency",
+     "phase": "terms",
+     "title": "Protect continuity if the vendor becomes insolvent",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Disclaimer:** In a winding up, a liquidator may, with leave of the court and within 12 months of the winding up starting, disclaim unprofitable contracts and other property that is not readily saleable because of onerous obligations (Cap. 32 s.268(1)).",
+      "**No IP rule:** Hong Kong has no equivalent of US 11 U.S.C. § 365(n), which protects licensees of IP when a licensor goes bankrupt (reported; check).",
+      "**Protection:** Negotiate escrow, step-in and transition terms, so the bank can keep running the code if the vendor fails (good practice)."
+     ],
+     "owner": [
+      "Deal counsel",
+      "Vendor management"
+     ],
+     "evidence": [
+      "Escrow, step-in and transition clauses in the vendor contract",
+      "Vendor financial health review at signing"
+     ],
+     "sources": [
+      {
+       "label": "Companies (Winding Up and Miscellaneous Provisions) Ordinance (Cap. 32)",
+       "ref": "Cap. 32 s.268(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "32",
+         "section": "268"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap32"
+      }
+     ]
+    },
+    {
      "id": "cl-deliverables",
      "phase": "closing",
      "title": "List closing deliverables: assignments, source, credentials",
@@ -16857,6 +17479,61 @@
        "ref": "Diligence file",
        "strength": "good-practice",
        "note": "Drafting inference; not a source of law."
+      }
+     ]
+    },
+    {
+     "id": "cl-hk-register-transactions",
+     "phase": "closing",
+     "title": "Register patent and trade mark transactions within 6 months",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Patents:** A new owner or exclusive licensee who does not register within 6 months cannot recover damages or an account of profits for the gap (Cap. 514 s.87(a)-(b)). An earlier unregistered transaction can also lose out to a later one (s.52(1)).",
+      "**Trade marks:** A new owner or licensee who does not register the transaction within 6 months loses damages and profits for the gap, and the transaction is ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)-(4)).",
+      "**Past infringement:** An assignment of a patent, or an exclusive patent licence, can carry the right to sue for earlier infringement (Cap. 514 s.50(7)). Decide and state expressly whether that right passes."
+     ],
+     "owner": [
+      "Deal counsel",
+      "IP counsel"
+     ],
+     "evidence": [
+      "Registration filing dated within 6 months of each transaction",
+      "Clause stating whether the right to sue for past infringement passes"
+     ],
+     "sources": [
+      {
+       "label": "Patents Ordinance (Cap. 514)",
+       "ref": "Cap. 514 s.50(7), s.52(1), s.87(a)-(b)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "50"
+        },
+        {
+         "cap": "514",
+         "section": "52"
+        },
+        {
+         "cap": "514",
+         "section": "87"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
+      },
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "Cap. 559 s.29(3)-(4)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "29"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
       }
      ]
     }
@@ -19126,6 +19803,10 @@
       {
        "id": "abroad",
        "label": "Customers or launches outside the US"
+      },
+      {
+       "id": "hk",
+       "label": "Customers or launch in Hong Kong"
       }
      ]
     }
@@ -19545,6 +20226,88 @@
         }
        ],
        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm"
+      }
+     ]
+    },
+    {
+     "id": "dis-hk-name-clearance",
+     "phase": "discover",
+     "title": "Clear and file the product name in Hong Kong",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Registration:** A registered trade mark is a property right (Cap. 559 s.10(1)). An unregistered name is protected only by passing off (s.10(3)), which is a weaker position to rely on (drafting inference), so file the name in Hong Kong before launch.",
+      "**Clashes:** An earlier registration over a similar mark for similar goods or services is the main clearance risk, so search the register for the name and close variants (good practice).",
+      "**Partner marks:** Where a partner's mark appears in the product, record the licence or consent for that use (good practice)."
+     ],
+     "owner": [
+      "Brand team",
+      "Trade mark counsel"
+     ],
+     "evidence": [
+      "Name search and register result, dated",
+      "Filing decision, with the filing date or the reason for not filing"
+     ],
+     "sources": [
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "Cap. 559 s.10(1), (3)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "10"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
+      }
+     ]
+    },
+    {
+     "id": "dis-hk-invention-disclosure",
+     "phase": "discover",
+     "title": "Disclose inventions only after filing",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Disclosure:** A demo, pitch or public release before filing makes the invention part of the state of the art (Cap. 514 s.9B(2)). The six-month relief covers only an evident abuse against the applicant or a display at an official or officially recognised international exhibition (for a standard patent (R), a prescribed exhibition or meeting) (ss.11A, 37B, 109).",
+      "**Earlier filings:** An earlier application published after the new application's material date can also defeat novelty (s.9B(3)), so competitor filings should be checked before the product is shown (drafting inference).",
+      "**Order:** File before any demo to an outside party, or agree confidentiality first (good practice)."
+     ],
+     "owner": [
+      "Patent counsel",
+      "Product lead"
+     ],
+     "evidence": [
+      "Invention disclosure record, with the date of each demo",
+      "Filing receipt, or a dated decision not to file"
+     ],
+     "sources": [
+      {
+       "label": "Patents Ordinance (Cap. 514)",
+       "ref": "Cap. 514 s.9B, ss.11A, 37B, 109",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "9B"
+        },
+        {
+         "cap": "514",
+         "section": "11A"
+        },
+        {
+         "cap": "514",
+         "section": "37B"
+        },
+        {
+         "cap": "514",
+         "section": "109"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
       }
      ]
     },
@@ -20145,6 +20908,73 @@
      ]
     },
     {
+     "id": "bld-hk-customer-terms",
+     "phase": "build",
+     "title": "Make customer terms enforceable and fair",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Acceptance:** An offer and its acceptance may be expressed by electronic records (Cap. 553 s.17(1)-(2)), and the bank may prescribe how acceptance is given (s.17(3)). Acceptance by conduct alone is a common-law question, not covered by section 17 (drafting inference).",
+      "**Exclusions:** Liability for death or personal injury from negligence cannot be excluded (Cap. 71 s.7(1)). Other exclusions must be reasonable, the bank must prove that they are (s.3(6)), and section 8 applies to consumers and written standard terms (s.8(1)-(2)).",
+      "**Unconscionability:** Relief for an unconscionable term is available only in consumer contracts for goods or services (Cap. 458 s.5(1)), so consumer terms should be fair when they are made."
+     ],
+     "owner": [
+      "Legal",
+      "Product"
+     ],
+     "evidence": [
+      "Acceptance record for each user, with the version of the terms and the time of acceptance",
+      "Exclusion clause review with a note on reasonableness"
+     ],
+     "sources": [
+      {
+       "label": "Electronic Transactions Ordinance (Cap. 553)",
+       "ref": "Cap. 553 s.17(1)-(3)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "553",
+         "section": "17"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap553"
+      },
+      {
+       "label": "Control of Exemption Clauses Ordinance (Cap. 71)",
+       "ref": "Cap. 71 s.3(6), s.7, s.8",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "71",
+         "section": "3"
+        },
+        {
+         "cap": "71",
+         "section": "7"
+        },
+        {
+         "cap": "71",
+         "section": "8"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap71"
+      },
+      {
+       "label": "Unconscionable Contracts Ordinance (Cap. 458)",
+       "ref": "Cap. 458 s.5(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "458",
+         "section": "5"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap458"
+      }
+     ]
+    },
+    {
      "id": "fl-name-marks",
      "phase": "launch",
      "title": "Clear the name and any partner mark before the announcement",
@@ -20672,6 +21502,104 @@
      ]
     },
     {
+     "id": "fl-hk-markings",
+     "phase": "launch",
+     "title": "Mark the product only with rights that exist in Hong Kong",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Registered symbol:** Use the registered symbol only where the mark is registered in Hong Kong. Using the word 'registered' here is treated as a representation of registration (Cap. 559 s.94(2)).",
+      "**Patent pending:** Use 'patent pending' only where an application is on file. Otherwise it is an offence, with a level 3 fine, to represent that an application has been made (Cap. 514 s.143(1), (3)). Due diligence is a defence (s.143(4)).",
+      "**Patent marking:** Marking an item sold for value as patented when it is not is an offence, with a due diligence defence (s.142(1)-(2), (4)), so the marking review should cover packaging, the website and the app store listing (good practice)."
+     ],
+     "owner": [
+      "Marketing",
+      "Patent counsel"
+     ],
+     "evidence": [
+      "Marking review of the packaging, website and app store listing",
+      "Application number for any 'patent pending' wording"
+     ],
+     "sources": [
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "Cap. 559 s.94(2)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "94"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
+      },
+      {
+       "label": "Patents Ordinance (Cap. 514)",
+       "ref": "Cap. 514 s.142, s.143",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "514",
+         "section": "142"
+        },
+        {
+         "cap": "514",
+         "section": "143"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap514"
+      }
+     ]
+    },
+    {
+     "id": "fl-hk-claims",
+     "phase": "launch",
+     "title": "Check comparative and service claims against Hong Kong rules",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Rival products:** Naming a rival in advertising needs honest practices (Cap. 559 s.21(1)). Use of a mark outside honest practices is treated as infringing.",
+      "**Banking services:** The Trade Descriptions Ordinance offences do not reach banking services whose supply is itself regulated under the Banking Ordinance (Cap. 362 s.2, Sch. 4). For those products the HKMA's conduct expectations do that work (drafting inference).",
+      "**Other products:** Non-regulated services, and services that partners not regulated under those Ordinances supply, stay within the offences, so each claim must be checked against the product it describes (good practice)."
+     ],
+     "owner": [
+      "Marketing",
+      "Legal"
+     ],
+     "evidence": [
+      "Claims review with the source for each comparison",
+      "Note of which products are Banking Ordinance services and which are not"
+     ],
+     "sources": [
+      {
+       "label": "Trade Marks Ordinance (Cap. 559)",
+       "ref": "Cap. 559 s.21(1)",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "559",
+         "section": "21"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap559"
+      },
+      {
+       "label": "Trade Descriptions Ordinance (Cap. 362)",
+       "ref": "Cap. 362 s.2; Sch. 4",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "362",
+         "section": "2"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap362"
+      }
+     ]
+    },
+    {
      "id": "fa-reopen",
      "phase": "after",
      "title": "Reopen the review when a dependency, licence, market or model changes",
@@ -20820,6 +21748,45 @@
        "ref": "Caching terms (Geocoding API)",
        "strength": "good-practice",
        "note": "A provider's contract terms: they bind the bank as a licensee."
+      }
+     ]
+    },
+    {
+     "id": "fa-hk-takedown",
+     "phase": "after",
+     "title": "Run a takedown process for user content",
+     "when": [
+      "hk"
+     ],
+     "detail": [
+      "**Safe harbour:** A service provider is not liable for damages for copyright infringement on its platform merely because it provides online services, if it meets the conditions in s.88B, such as taking reasonable steps once it is aware or notified (Cap. 528 s.88B(1)-(2)).",
+      "**Notices:** Notices and counter-notices must meet ss.88C and 88E, and a provider that shows evidence of compliance is presumed to comply, unless there is evidence to the contrary (s.88I).",
+      "**Record:** Keep a log of each takedown notice, action and counter-notice, with dates, so that compliance can be shown (good practice)."
+     ],
+     "owner": [
+      "Trust and safety",
+      "Legal"
+     ],
+     "evidence": [
+      "Takedown log showing each notice, the action taken and its date",
+      "Designated agent contact details as published"
+     ],
+     "sources": [
+      {
+       "label": "Copyright Ordinance (Cap. 528)",
+       "ref": "Cap. 528 ss.88A-88J",
+       "strength": "statute",
+       "cites": [
+        {
+         "cap": "528",
+         "section": "88B"
+        },
+        {
+         "cap": "528",
+         "section": "88I"
+        }
+       ],
+       "url": "https://www.elegislation.gov.hk/hk/cap528"
       }
      ]
     }
