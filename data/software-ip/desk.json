@@ -8435,6 +8435,899 @@
      ]
     }
    ]
+  },
+  {
+   "id": "deals-hk-patent-purchase",
+   "stage": "deals",
+   "hk": true,
+   "ask": "The bank is buying a fintech's portfolio of payment patents in an asset deal. What must happen at and after completion in Hong Kong for the bank's title and remedies to hold?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "We sign the patent purchase next Friday. Is the signed assignment enough, or is there something we must file afterwards, and by when?"
+   },
+   "primes": "sw-deals-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "Diary the six-month deadline from each completion date, and file every registrable patent or trade mark transaction within it"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "A patent assignment or mortgage is void unless it is in writing and signed (Cap. 514 s.50(6))"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "who does not apply to register the transaction within six months cannot recover damages or an account of profits for infringements in the gap"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "deals",
+      "quote": "An earlier unregistered transaction loses to a later one if the later party acquired without knowledge of it and the earlier one was not registered"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "deals",
+      "quote": "Patent deal documents should say expressly whether past infringement claims pass with the patent. Silence leaves the point open."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "The six months run from the date of the transaction, and the new owner must apply to register within that time"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three steps that protect the bank's title and remedies",
+    "multi": true,
+    "options": [
+     {
+      "label": "A signed written assignment",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "An assignment or mortgage of a patent, or a right in one, is void unless it is in writing and signed"
+      }
+     },
+     {
+      "label": "Apply to register within six months",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "who does not apply to register within six months cannot recover damages or an account of profits for infringements in the gap"
+      }
+     },
+     {
+      "label": "Say whether past infringement claims pass",
+      "in": true,
+      "pin": {
+       "stage": "deals",
+       "quote": "may pass the right to sue for earlier infringements, so the deal should say whether that right passes"
+      }
+     },
+     {
+      "label": "Register only when the bank needs to sue",
+      "in": false,
+      "pin": {
+       "stage": "deals",
+       "quote": "An unregistered patent transaction loses to a later transaction if the later party acquired its rights without knowing of the earlier one"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "An unrecorded assignment is void against a later purchaser or mortgagee for value without notice, unless it is recorded within three months or before the later purchase"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "a new patent or trade mark owner who does not register within six months loses damages for the gap"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the deal also transfers the fintech's app brand?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "a trade mark assignment is not effective unless it is in writing and signed (Cap. 559 s.27(4))"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "An unregistered trade mark transaction is ineffective against a later party with a conflicting interest who acquired it without knowledge"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "deals",
+        "quote": "Trade mark licences to group companies or vendors are registrable transactions"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deals-hk-vendor-liquidation",
+   "stage": "deals",
+   "hk": true,
+   "ask": "A small Hong Kong vendor licenses the software behind our loan platform and looks financially shaky. If it goes into liquidation, what happens to our licence, and what should the contract have said?",
+   "colleague": {
+    "role": "COO",
+    "text": "If the vendor behind our loan platform goes bust, can the liquidator just switch us off, and what do we fix in the contract now?"
+   },
+   "primes": "sw-deals-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "A vendor's insolvency can end the bank's licence unless the contract plans for it"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "With the court's leave, a liquidator may disclaim unprofitable contracts and other unsaleable property within 12 months"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "After a disclaimer, the counterparty can apply to the court to rescind the contract and to recover damages, which can be proved as a debt in the winding up"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "deals",
+      "quote": "Write into the vendor contract the processor's deletion and return duties, security terms, step-in rights and a transition period"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "deals",
+      "quote": "expects vendor dependencies to be mapped and critical operations tested in severe scenarios"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "lets a licensee of IP keep its rights when a debtor rejects the licence"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "There is no Hong Kong equivalent of US Bankruptcy Code s.365(n)"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And what must the contract say about the customer data the vendor holds?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "must adopt contractual or other means to stop the processor keeping the personal data longer than needed (Cap. 486 Sch. 1, DPP 2(3))"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "deals",
+        "quote": "The bank must adopt contractual or other means to prevent unauthorized or accidental access, processing, erasure, loss or use of personal data transferred to a processor"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "deals",
+        "quote": "If the vendor uses the data for its own purposes, it is not a processor and the analysis changes"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-hk-training-copies",
+   "stage": "ai",
+   "hk": true,
+   "ask": "Data science wants to train an internal fraud model on industry reports and news articles it has downloaded, and says nothing will be published so copyright does not matter. Is that right in Hong Kong?",
+   "colleague": {
+    "role": "Data science lead",
+    "text": "We only use the downloaded articles inside the model and never publish them. Do we still need licences in Hong Kong?"
+   },
+   "primes": "sw-ai-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Loading a work into a training set therefore needs the owner's licence or another permitted act, even if no output is ever published"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Because the Ordinance has no text and data mining exception, each training source needs its own licence or permitted act"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Fair dealing does not protect copying for another person if the copier knows or has reason to believe the copies will go to more than one person at the same time for the same purpose"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ai",
+      "quote": "A training copy kept in a dataset is unlikely to be transient"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ai",
+      "quote": "Obtain a licence or confirm a permitted act for each training source before the data is loaded, and keep that record with the dataset"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the basis you would rely on for the training store",
+    "multi": false,
+    "options": [
+     {
+      "label": "A licence for each source",
+      "in": true,
+      "pin": {
+       "stage": "ai",
+       "quote": "Loading a work into a training store is copying even if nothing is published"
+      }
+     },
+     {
+      "label": "Research fair dealing for the shared corpus",
+      "in": false,
+      "pin": {
+       "stage": "ai",
+       "quote": "Bank teams that share a dataset are the typical case that falls outside this defence"
+      }
+     },
+     {
+      "label": "A text and data mining exception",
+      "in": false,
+      "pin": {
+       "stage": "ai",
+       "quote": "No mining exception: Because the Ordinance has no text and data mining exception"
+      }
+     },
+     {
+      "label": "The copies are only transient",
+      "in": false,
+      "pin": {
+       "stage": "ai",
+       "quote": "Transient or incidental copies are also restricted"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the training set also includes customers' past chat transcripts?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "Personal data must not be used for a new purpose without the data subject's prescribed consent. A new purpose is any purpose other than"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "Reusing customer data to train a model is usually a new purpose"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "Before collecting or reusing customer data for training, record the purpose, give the required notice"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "Training on lawfully acquired books was held fair use in Bartz, but building a library from pirated copies was not"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "Fair dealing for research or private study is judged by the purpose and nature of the dealing, the amount taken, and its effect on the market for the work"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-hk-generated-code",
+   "stage": "ai",
+   "hk": true,
+   "ask": "Engineers used an AI coding assistant to generate most of a new payments module. Does the bank own copyright in that code in Hong Kong, and what do you put in place?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Most of the new payments module came out of the coding assistant. Is it still our code, and what do I need to keep to prove it?"
+   },
+   "primes": "sw-ai-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "AI output can be protected in Hong Kong, but ownership depends on who set up the generation and on the contract with any vendor"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Where no human author exists, the author is the person who undertook the arrangements needed to create the work"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Where a human author can be identified, the ordinary authorship rules apply instead"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "ai",
+      "quote": "A work made by an employee in the course of employment belongs to the employer unless agreed otherwise"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ai",
+      "quote": "Where the bank's own staff set up the generation, the bank is the likely author under this rule"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "ai",
+      "quote": "Before the first generation run, decide who sets up the arrangements, check what the vendor contract says about output, and record that choice"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "requires human authorship for registration, so the bank must document its own contribution"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "Unlike the US position on authorship, that protection exists"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the model helps the team come up with a patentable invention?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ai",
+        "quote": "The right to a patent belongs to the inventor or the inventor's successor in title (Cap. 514 s.9E(1))"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ai",
+        "quote": "Patent rights attach to people, so the bank's AI invention filings must name the people who made the inventive contribution"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disputes-hk-threat-letter",
+   "stage": "disputes",
+   "hk": true,
+   "ask": "A rival fintech's lawyers write that our new app infringes their patent, their registered trade mark and the copyright in their code, and threaten to sue. Which threats can the bank attack as groundless in Hong Kong, and what limits and clocks apply?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We got a letter saying our app infringes a rival's patent, trade mark and code, and they will sue. Can we hit back, should I reply, and how long do we have?"
+   },
+   "primes": "sw-disputes-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "Groundless-threats relief exists for patents, registered trade marks and registered designs"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "A person threatened over a patent can seek a declaration that the threats are unjustifiable, an injunction and damages, but a notice that a patent exists is not a threat"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "A person threatened over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "disputes",
+      "quote": "Where no certificate of substantive examination has issued, the defendant must prove infringement and validity"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "Diary the 28-day trade mark window and any 14-day patent information request on the day a threat letter arrives"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the rights that carry a statutory groundless-threats remedy",
+    "multi": true,
+    "options": [
+     {
+      "label": "Patent",
+      "in": true,
+      "pin": {
+       "stage": "disputes",
+       "quote": "A person aggrieved by threats of patent infringement proceedings may seek a declaration that the threats are unjustifiable"
+      }
+     },
+     {
+      "label": "Registered trade mark",
+      "in": true,
+      "pin": {
+       "stage": "disputes",
+       "quote": "A person threatened over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it"
+      }
+     },
+     {
+      "label": "Copyright in the app's code",
+      "in": false,
+      "pin": {
+       "stage": "disputes",
+       "quote": "A vendor or rights holder letter about software generally is outside this section"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "What do you tell the product team today?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "disputes",
+        "quote": "A letter from a patent holder to a product team can trigger this route, so it should go to counsel before any reply"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "disputes",
+        "quote": "the 28-day window works both ways and should be diarised from the date of the threat"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And when the bank writes to an infringer itself, how do you avoid handing them a threats claim?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "A notice that a patent exists is not itself a threat"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "Relief is lost if the registered owner, or a licensee with power to sue, begins an action within 28 days of the threat and pursues it with due diligence"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disputes-hk-vendor-copy",
+   "stage": "disputes",
+   "hk": true,
+   "ask": "A former vendor that maintained the bank's own onboarding code kept a copy when the contract ended, and now sells a near-copy to other banks. What can the bank recover in Hong Kong, and what strengthens the claim?",
+   "colleague": {
+    "role": "General counsel",
+    "text": "Our old vendor is selling a copy of our onboarding code to other banks. What do we ask the court for, and what evidence do we gather now?"
+   },
+   "primes": "sw-disputes-hk-key",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "Additional damages are the main lever on a copyright claim against a vendor or contractor, so evidence of flagrancy and benefit matters"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "The owner may sue for damages, injunctions and accounts (Cap. 528 s.107(2))"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "deals",
+      "quote": "Commissioned code stays with the developer unless the contract expressly says who owns the copyright"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "disputes",
+      "quote": "Delivery up is the practical remedy when unlicensed copies sit on a bank's servers or in a vendor's hands"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "disputes",
+      "quote": "The application may not be made more than 6 years after the copy or article was made, subject to exceptions for disability and fraud or concealment"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "disputes",
+      "quote": "Decide the right and the forum together, because a delivery-up order and a damages claim may need different courts"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "Owners can seek injunctions, actual damages and profits, or statutory damages, but suit needs registration and statutory damages depend on timing"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "Copyright needs no application or registration, and protection begins once the work is recorded in writing or otherwise"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "The vendor contract has an arbitration clause. Would an award bind the other banks using the copy?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "IP disputes over ownership, validity, infringement and transactions in an IP right can be arbitrated between the parties (Cap. 609 s.103D(1)), and an award binds those who claim through them"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "disputes",
+        "quote": "A licensee does not become a person claiming through a party merely because it holds a licence"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "product-hk-comparative-ad",
+   "stage": "product",
+   "hk": true,
+   "ask": "Marketing wants a campaign comparing our app's fees and features with a rival bank's, naming the rival. What do you check before it runs in Hong Kong?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "Can we put the rival bank's name next to ours in the fee comparison ad, and what keeps us safe?"
+   },
+   "primes": "sw-product-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "product",
+      "quote": "Using a registered trade mark to identify goods or services as those of the owner or a licensee does not infringe, but use that is not in accordance with honest practices"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "product",
+      "quote": "marketing copy that names a rival should be fair, accurate and free of disparagement"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "product",
+      "quote": "which excludes goods or services a bank authorised under the Banking Ordinance supplies where that supply is itself regulated under that Ordinance"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "product",
+      "quote": "Goods and services outside that regulated supply, such as merchandise, a rewards item or a non-bank partner's offer shown in the app, can still fall within those offences"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "product",
+      "quote": "Review each launch claim and each change to customer terms against these rules, and treat the HKMA's conduct expectations as the main control on regulated banking products"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what governs a comparison of the two banks' regulated accounts",
+    "multi": true,
+    "options": [
+     {
+      "label": "Honest practices test for the rival's mark",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "The court may consider unfair advantage, detriment to distinctive character or repute, and deception"
+      }
+     },
+     {
+      "label": "HKMA conduct expectations",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "treat the HKMA's conduct expectations as the main control on regulated banking products"
+      }
+     },
+     {
+      "label": "Trade descriptions offences",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "Most of the bank's regulated products sit outside the trade description and unfair practice offences"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And the campaign also gives new customers a partner's travel voucher. Does that change anything?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "A trader commits an offence if, in relation to a consumer, it engages in a commercial practice that omits or hides material information"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "product",
+        "quote": "Apply it to anything in the app that is not a regulated banking service, such as a partner's offer or a rewards catalogue"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "product-hk-one-tap-terms",
+   "stage": "product",
+   "hk": true,
+   "ask": "Product wants new app terms, including a cap on the bank's liability for failed transfers, accepted with one tap during sign-up. Will that bind customers in Hong Kong, and what could undo the cap?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "If customers tap 'I agree' on the new terms screen, is the liability cap locked in, or can they still challenge it?"
+   },
+   "primes": "sw-product-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "product",
+      "quote": "Click-through terms can form a contract, and the bank can require a specific click or confirmation step"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "product",
+      "quote": "An offer and its acceptance may be expressed by electronic records, and the bank may prescribe how acceptance is given"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "product",
+      "quote": "other exclusions of negligence liability, or of contract liability against a consumer or on the bank's written standard terms, must be reasonable, which the bank must prove"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "product",
+      "quote": "The bank's app terms and any partner terms it offers need these limits built in, and the bank carries the burden of proving reasonableness"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "If a customer challenges the cap, who must prove what?",
+    "multi": false,
+    "options": [
+     {
+      "label": "The bank proves the cap is reasonable",
+      "in": true,
+      "pin": {
+       "stage": "product",
+       "quote": "the bank carries the burden of proving reasonableness"
+      }
+     },
+     {
+      "label": "The customer proves the cap is unreasonable",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "must be reasonable, which the bank must prove"
+      }
+     },
+     {
+      "label": "Nobody: the tap binds the customer to any term",
+      "in": false,
+      "pin": {
+       "stage": "product",
+       "quote": "can be excluded or restricted only so far as the term is reasonable"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if a customer says the cap is unconscionable, what can the court do?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "product",
+        "quote": "the court may refuse to enforce the contract or part of it, enforce the rest, or revise the unconscionable part, judged at the time the contract was made"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "product",
+        "quote": "the customer must prove the unconscionability"
+       }
+      }
+     ]
+    }
+   ]
   }
  ]
 }
