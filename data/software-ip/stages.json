@@ -3793,7 +3793,7 @@
       "**Use that starts late:** Use that starts within 3 months before a revocation application is generally disregarded, unless preparations for it began before the owner became aware that an application might be made (Cap. 559 s.52(4)-(5)).",
       "**Use outside Hong Kong:** Export-only packaging, and services supplied outside Hong Kong, can count as use for this purpose (Cap. 559 s.52(3)(b)-(c)).",
       "**Licences in writing:** A licence is not effective unless it is in writing and signed by the grantor, and it binds a later owner of the mark unless the licence provides otherwise (Cap. 559 s.33(3), (5)).",
-      "**Registering transactions:** A transaction not registered within 6 months leaves the new owner or licensee unable to recover damages or profits for infringement in the gap, unless the court is satisfied that registration was not practicable within 6 months and an application was made as soon as practicable afterwards (Cap. 559 s.29(4)(a)-(b)).",
+      "**Registering transactions:** A new owner or licensee who does not apply to register the transaction within 6 months cannot recover damages or profits for infringement in the gap, unless the court is satisfied that an application was not practicable within 6 months and an application was made as soon as practicable afterwards (Cap. 559 s.29(4)(a)-(b)).",
       "**False claims of registration:** Falsely representing that a sign is registered, knowing or having reason to believe it is false, is an offence with a fine at level 3, and using 'registered' or '註冊' in Hong Kong counts as a representation of registration here unless it is shown that the reference is to registration elsewhere than in Hong Kong and that the mark is in fact so registered for those goods or services (Cap. 559 s.94(2))."
      ],
      "takeaway": "Record each assignment and licence of a mark in writing, sign it, register it within 6 months, and keep marketing free of registration claims the bank cannot support (good practice)."
@@ -3841,7 +3841,7 @@
      "instrument": "Trade Marks Ordinance (Cap. 559)",
      "ref": "s.29(2)-(4)",
      "title": "Registration of transactions",
-     "summary": "Assignments of a registered mark, licences under it and security interests are registrable transactions. A transaction not registered within 6 months leaves the new owner or licensee unable to recover damages or profits for the gap, and it can be ineffective against a conflicting interest acquired in ignorance of it.",
+     "summary": "Assignments of a registered mark, licences under it and security interests are registrable transactions. A new owner or licensee who does not apply to register the transaction within 6 months cannot recover damages or profits for the gap, and it can be ineffective against a conflicting interest acquired in ignorance of it.",
      "counselNote": "Co-branded licences and vendor-held marks should be registered promptly, or the bank may not recover profits for the gap.",
      "confidence": "high",
      "cap": "559",
@@ -7244,7 +7244,7 @@
     },
     "points": [
      "**Internal use:** Mere interaction with a user through a computer network, with no transfer of a copy, is not [[conveying|conveying]] (GPL-3.0 s.0). The FSF says copying within one organisation is not distribution (FSF view).",
-     "**Group companies:** The FSF has no clear statement on transfers between affiliated companies, which are separate legal persons. Treat them as distribution unless a licence term says otherwise (drafting inference).",
+     "**Group companies:** The FSF says that whether moving a copy to a majority-owned, controlled subsidiary is distribution turns on local copyright law, and that US law appears not to treat it as distribution (reported; check). Affiliates are separate legal persons, so treat other transfers between them as distribution unless a licence term says otherwise (drafting inference).",
      "**Contractors:** The bank may give covered works to contractors who make changes only for the bank, if those contractors cannot copy the work outside their relationship with the bank (GPL-3.0 s.2).",
      "**Network use:** GPL-2.0 has no network clause, and GPL-3.0 treats remote interaction without a copy as not conveying (GPL-3.0 s.0). Network-triggered duties sit in the network copyleft licences covered separately."
     ],
@@ -14533,7 +14533,7 @@
      "**Trigger:** Under the GPL, conveying means propagating copies to others, and mere interaction over a network is not conveying (GPL-3.0 s.0).",
      "**Internal running:** The GPL lets you run and propagate covered works you do not convey without conditions, so code run only inside the bank creates no conveying (GPL-3.0 s.2).",
      "**Network copyleft:** If a modified AGPL-3.0 version is used remotely, it must offer its Corresponding Source to those users (AGPL-3.0 s.13). Running an unmodified version over a network triggers nothing under that section.",
-     "**Affiliates:** The FSF treats copying inside one company as not distribution, but it has no clear view on transfers between affiliates (reported; check). Treat affiliate transfers as distribution unless the licence says otherwise (drafting inference).",
+     "**Affiliates:** The FSF treats copying inside one company as not distribution, and says that whether a move to a majority-owned, controlled subsidiary is distribution turns on local copyright law, though US law appears not to treat it as distribution (reported; check). Treat affiliate transfers as distribution unless the licence says otherwise (drafting inference).",
      "**Scan scope:** Manifest-based scanning misses copied and vendored code, so the scan must reach the source tree and the build output (good practice)."
     ],
     "takeaway": "Map each component to how the target conveys or hosts it, not just to its licence name."
@@ -14542,9 +14542,9 @@
     "heading": "Patents, trade secrets and litigation",
     "lede": "Diligence tests whether the target can keep what it claims and whether its own practices create exposure.",
     "points": [
-     "**Prior use:** A good-faith commercial use at least a year before the filing date or public disclosure is a defence to infringement, but it must be proved by clear and convincing evidence (35 U.S.C. § 273(a)-(b)).",
+     "**Prior use:** A good-faith commercial use in the United States at least a year before the earlier of the effective filing date or a qualifying public disclosure is a defence to infringement, but it must be proved by clear and convincing evidence (35 U.S.C. § 273(a)-(b)).",
      "**Trade secrets:** The Defend Trade Secrets Act (DTSA) protects code only where the owner has taken reasonable measures to keep it secret (18 U.S.C. § 1839(3)(A)). Publishing code under an open licence ends its secrecy (drafting inference).",
-     "**Registration:** No US infringement suit may be brought until registration has been made or refused (17 U.S.C. § 411(a)). Statutory damages and fees generally cannot be claimed for infringement that began before a late registration (§ 412).",
+     "**Registration:** No US infringement suit over a United States work may be brought until registration or preregistration has been made or refused (17 U.S.C. § 411(a)). Statutory damages and fees generally cannot be claimed for infringement that began before a late registration (§ 412).",
      "**Patent defence:** The Federal Circuit reportedly held USAA's mobile deposit claims ineligible under 35 U.S.C. § 101 on 12 June 2025, wiping out about $218 million of jury damages against PNC (reported; check). Banks are frequent patent defendants.",
      "**Export:** Ask whether the target publishes non-standard cryptography in source code, since that needs a notification (15 C.F.R. § 742.15(b)) (reported; check the eCFR).",
      "**AI tools:** Ask whether staff or contractors have pasted confidential code into third-party AI tools, since that can weaken the reasonable measures the target relies on (good practice)."
@@ -14847,7 +14847,7 @@
   ],
   "virtualBankNotes": [
    "**Third-party guidance:** The agencies' 2023 guidance (88 Fed. Reg. 37920) covers the whole life cycle of third-party relationships, so open source vendors and their support contracts fall within the bank's programme (drafting inference).",
-   "**Model risk:** Vendor models and AI tools may fall within model risk guidance, which the agencies are reported to have replaced in April 2026 (reported; check). Keep the inventory of models and their owners current.",
+   "**Model risk:** Vendor models and AI tools may fall within model risk guidance, which the agencies replaced on 17 April 2026 (Federal Reserve SR 26-2; OCC Bulletin 2026-13). Keep the inventory of models and their owners current.",
    "**NYDFS duties:** For covered entities, 23 NYCRR 500.8 covers evaluating the security of externally developed applications, and 500.11 requires a third-party service provider security policy.",
    "**Examiner requests:** Keep vendor diligence files, SBOMs and open source reviews retrievable and tied to each deal, because examiners ask for them as evidence of control (good practice).",
    "**Partner use of marks:** A fintech partner that uses the bank's name or logo needs quality control. Without it, the mark may be abandoned through naked licensing (Barcamerica International USA Trust v. Tyfield Importers, Inc., 289 F.3d 589 (9th Cir. 2002)) (reported; check)."
@@ -14891,12 +14891,12 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "The Copyright Ordinance and the signed writing rule decide who owns code and patents after a deal, and patent and trade mark transactions must be registered to protect the new owner. The two biggest differences from the US position are that Hong Kong has no work-made-for-hire rule for commissioned code, so the author keeps the copyright unless the agreement says otherwise, and that a new patent or trade mark owner who does not register within six months loses damages for the gap.",
+   "summary": "The Copyright Ordinance and the signed writing rule decide who owns code and patents after a deal, and patent and trade mark transactions must be registered to protect the new owner. The two biggest differences from the US position are that a commissioner who does not take the copyright still has an exclusive licence for the purposes both sides contemplated (Cap. 528 s.15(2)), where a US commissioner without an assignment usually has at most an implied non-exclusive licence, and that a new patent or trade mark owner who does not apply to register within six months loses damages and profits for the gap.",
    "keyPoints": [
     "**Written transfers only:** An assignment of copyright is not effective unless it is in writing and signed by or for the assignor (Cap. 528 s.101(3)). A patent assignment or mortgage is void unless it is in writing and signed (Cap. 514 s.50(6)), and a trade mark assignment is not effective unless it is in writing and signed (Cap. 559 s.27(4)).",
-    "**Commissioned code:** Unless the agreement expressly provides for the copyright, the developer keeps it. The commissioner gets an exclusive licence for the purposes both sides could reasonably have contemplated when the work was commissioned, and can restrain any exploitation it could reasonably object to (Cap. 528 s.15(2)(b)). The Ordinance has no work-made-for-hire rule for commissioned works, so the commissioner does not own the code by default (drafting inference).",
+    "**Commissioned code:** Unless the agreement expressly provides for the copyright, the developer keeps it. The commissioner gets an exclusive licence for the purposes both sides could reasonably have contemplated when the work was commissioned, and can restrain any exploitation it could reasonably object to (Cap. 528 s.15(2)(a)-(b)). The Ordinance has no work-made-for-hire rule for commissioned works, so the commissioner does not own the code by default (drafting inference).",
     "**Employee code:** The employer is the first owner of copyright in a work made by an employee in the course of employment, subject to any contrary agreement (Cap. 528 s.14(1)). Subject to any agreement to the contrary, the employer must pay an agreed or tribunal-set award if the work is exploited in a way neither side could have contemplated (Cap. 528 s.14(2)).",
-    "**Six-month registration window:** A new patent owner or exclusive licensee who does not apply to register the transaction within six months cannot recover damages or an account of profits for infringements in the gap, unless the court is satisfied that registration was not practicable within the six months and that an application was made as soon as practicable afterwards (Cap. 514 s.87(b)). The trade mark rule is the same (Cap. 559 s.29(4)).",
+    "**Six-month registration window:** A new patent owner or exclusive licensee who does not apply to register the transaction within six months cannot recover damages or an account of profits for infringements in the gap, unless the court is satisfied that registration was not practicable within the six months and that an application was made as soon as practicable afterwards (Cap. 514 s.87). The trade mark rule is the same (Cap. 559 s.29(4)).",
     "**Insolvent vendors:** A liquidator may disclaim unprofitable contracts with the court's leave, within 12 months of the winding up starting (Cap. 32 s.268(1)). The other party may then apply to rescind the contract and prove for damages (Cap. 32 s.268(5)). There is no Hong Kong equivalent of US Bankruptcy Code s.365(n) (reported; check)."
    ],
    "sections": [
@@ -14905,7 +14905,7 @@
      "lede": "Ownership moves only as the law and the signed paperwork allow, so the bank's title is only as good as its documents.",
      "points": [
       "**Author starts as owner:** Commissioned code stays with the developer unless the contract expressly says who owns the copyright (Cap. 528 s.15(1)). Look for an express assignment in every development contract (drafting inference).",
-      "**Employee work:** The employer owns copyright in an employee's work made in the course of employment, unless the contract says otherwise (Cap. 528 s.14(1)). Inventions made in the course of an employee's normal duties belong to the employer, as between them, only where the circumstances were such that an invention might reasonably be expected to result from those duties, or where the duties were specially assigned (Cap. 514 s.57(1)(a)); a special obligation to further the employer's interests also brings the invention within s.57(1)(b).",
+      "**Employee work:** The employer owns copyright in an employee's work made in the course of employment, unless the contract says otherwise (Cap. 528 s.14(1)). Inventions made in the course of an employee's normal duties, or of duties outside them that were specifically assigned, belong to the employer, as between them, where the circumstances in either case were such that an invention might reasonably be expected to result from those duties (Cap. 514 s.57(1)(a)); a special obligation to further the employer's interests also brings the invention within s.57(1)(b).",
       "**Assignment formality:** An assignment of copyright is not effective unless it is in writing and signed by or for the assignor (Cap. 528 s.101(3)). An oral transfer does not pass the copyright.",
       "**Prior licences:** A licence granted by the copyright owner binds a later owner, unless the buyer took in good faith, for valuable consideration and without notice of the licence (Cap. 528 s.101(4)). Licences already granted over acquired code generally pass with it (drafting inference).",
       "**Exclusive copyright licences:** An exclusive licensee has the same rights as an assignee for matters after the grant, but not against the copyright owner (Cap. 528 s.112(1)-(2))."
@@ -15821,7 +15821,7 @@
      "title": "Assess copyleft in products that are distributed",
      "detail": [
       "**Find the trigger:** GPL duties start when the bank conveys a covered work, such as giving copies to customers. Internal use is not conveying (GPL-3.0 s.0; s.6).",
-      "**Check the source offer:** A GPL-3.0 product that conveys object code must provide the Corresponding Source by one of the methods in s.6, such as a written offer valid for at least three years and for as long as spare parts or customer support are offered, plus installation information for User Products (GPL-3.0 s.6).",
+      "**Check the source offer:** A GPL-3.0 product that conveys object code must provide the Corresponding Source by one of the methods in s.6: for a download, equivalent access to the source from the same place; for object code in a physical product, the source on a durable medium or a written offer valid for at least three years and for as long as spare parts or customer support are offered; plus installation information for User Products (GPL-3.0 s.6).",
       "**Check the whole work:** Under GPL-2.0, code that contains or is derived from the program must be licensed as a whole under the GPL when distributed (GPL-2.0 s.2(b))."
      ],
      "owner": [
@@ -16221,7 +16221,7 @@
      "detail": [
       "**List key people:** Identify engineers and founders who are leaving or have left, and check what confidentiality and assignment terms each signed (good practice).",
       "**Check the immunity notice:** Agreements with employees and contractors that govern trade secrets, entered into or updated after 11 May 2016, must give notice of the DTSA immunity or cross-refer to a policy. Without it, exemplary damages and fees are unavailable against that person (18 U.S.C. § 1833(b)(3)-(4)).",
-      "**Check non-competes:** California voids employee non-competes, so a key engineer based there cannot be bound by one (Cal. Bus. & Prof. Code § 16600)."
+      "**Check non-competes:** California voids employee non-competes, so a key engineer based there cannot be bound by one as an employee, though a founder or other owner who sells the business or their whole ownership interest in it can agree one with the buyer (Cal. Bus. & Prof. Code §§ 16600, 16601)."
      ],
      "owner": [
       "Legal",
@@ -16429,7 +16429,7 @@
      "title": "Review inbound licences: scope, transfer, change of control",
      "detail": [
       "**Find the transfer terms:** Check whether each inbound licence passes to the buyer on an asset sale or change of control, since a non-exclusive patent licence is personal and not assignable without the licensor's consent unless its terms allow it (In re CFLC, Inc., 89 F.3d 673 (9th Cir. 1996)).",
-      "**Read the copyright licences:** A non-exclusive copyright licence needs no signed writing, so its transferability turns on its own terms, while an exclusive grant is a transfer that needs a signed writing (17 U.S.C. §§ 101, 204(a)).",
+      "**Read the copyright licences:** A non-exclusive copyright licence needs no signed writing, but courts have generally treated it as personal, so it passes only with the licensor's consent unless its terms allow transfer (Harris v. Emus Records Corp., 734 F.2d 1329 (9th Cir. 1984)), while an exclusive grant is a transfer that needs a signed writing (17 U.S.C. §§ 101, 204(a)).",
       "**Record the consents:** List each licence that needs consent and whether its terms treat a change of control as an assignment (good practice)."
      ],
      "owner": [
@@ -17490,8 +17490,8 @@
       "hk"
      ],
      "detail": [
-      "**Patents:** A new owner or exclusive licensee who does not register within 6 months cannot recover damages or an account of profits for the gap (Cap. 514 s.87(a)-(b)). An earlier unregistered transaction can also lose out to a later one (s.52(1)).",
-      "**Trade marks:** A new owner or licensee who does not register the transaction within 6 months loses damages and profits for the gap, and the transaction is ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)-(4)).",
+      "**Patents:** A new owner or exclusive licensee who does not apply to register within 6 months cannot recover damages or an account of profits for the gap (Cap. 514 s.87(a)-(b)). An earlier unregistered transaction can also lose out to a later one (s.52(1)).",
+      "**Trade marks:** A new owner or licensee who does not apply to register the transaction within 6 months loses damages and profits for the gap, and the transaction is ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)-(4)).",
       "**Past infringement:** An assignment of a patent, or an exclusive patent licence, can carry the right to sue for earlier infringement (Cap. 514 s.50(7)). Decide and state expressly whether that right passes."
      ],
      "owner": [
@@ -19494,7 +19494,7 @@
       "**Term:** Registration lasts 10 years and can be renewed for further 10-year periods (Cap. 559 s.49(1)-(2)).",
       "**Confusion refusal:** A mark identical to an earlier mark for identical goods or services is refused outright, and a mark identical or similar to an earlier mark for identical or similar goods or services is refused where confusion is likely (Cap. 559 s.12(1)-(3)).",
       "**Prior use:** A person who has used an unregistered sign in trade in Hong Kong, continuously from before the registrant's first use or registration date, is not infringed by the registered mark (Cap. 559 s.19(4)).",
-      "**Transactions:** An assignment of a registered mark must be in writing and signed (Cap. 559 s.27(4)), and a transaction not registered within 6 months cannot found a claim for damages or profits for the gap (Cap. 559 s.29(4))."
+      "**Transactions:** An assignment of a registered mark must be in writing and signed (Cap. 559 s.27(4)), and a transaction for which no application to register is made within 6 months cannot found a claim for damages or profits for the gap (Cap. 559 s.29(4))."
      ],
      "takeaway": "Run a clearance search and file before any public use of a new name, because the registration date is the filing date and prior use is a narrow defence (good practice)."
     },

@@ -3158,7 +3158,7 @@
      "core": true,
      "pin": {
       "stage": "copyleft",
-      "quote": "The FSF has no clear statement on transfers between affiliated companies, which are separate legal persons. Treat them as distribution unless a licence term says otherwise (drafting inference)."
+      "quote": "Affiliates are separate legal persons, so treat other transfers between them as distribution unless a licence term says otherwise"
      }
     },
     {
@@ -3193,7 +3193,7 @@
       "in": true,
       "pin": {
        "stage": "copyleft",
-       "quote": "Treat them as distribution unless a licence term says otherwise (drafting inference)."
+       "quote": "Affiliates are separate legal persons, so treat other transfers between them as distribution unless a licence term says otherwise"
       }
      },
      {
@@ -3793,7 +3793,7 @@
        "beat": "pressed",
        "pin": {
         "stage": "deals",
-        "quote": "it has no clear view on transfers between affiliates"
+        "quote": "says that whether a move to a majority-owned, controlled subsidiary is distribution turns on local copyright law"
        }
       }
      ]
@@ -7107,7 +7107,7 @@
      "core": true,
      "pin": {
       "stage": "trademarks",
-      "quote": "Registering transactions: A transaction not registered within 6 months"
+      "quote": "Registering transactions: A new owner or licensee who does not apply to register the transaction within 6 months"
      }
     },
     {
@@ -7142,7 +7142,7 @@
       "in": false,
       "pin": {
        "stage": "trademarks",
-       "quote": "Registering transactions: A transaction not registered within 6 months"
+       "quote": "Registering transactions: A new owner or licensee who does not apply to register the transaction within 6 months"
       }
      },
      {
@@ -8546,7 +8546,7 @@
        "beat": "rule",
        "pin": {
         "stage": "deals",
-        "quote": "a new patent or trade mark owner who does not register within six months loses damages for the gap"
+        "quote": "a new patent or trade mark owner who does not apply to register within six months loses damages and profits for the gap"
        }
       }
      ]
