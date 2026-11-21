@@ -10,7 +10,7 @@
    "Software is protected by four overlapping rights (copyright, patent, trade secret and trademark) and by contract. Each attaches to a different part of a product, lasts for a different time and fails in a different way.",
    "**Copyright:** Under the Copyright Act (17 U.S.C.), code and documentation are protected once [[fixed|fixation]] in a tangible medium, but not the ideas, methods or functions behind them (17 U.S.C. § 102(a), (b)).",
    "**Patent:** The Patent Act (35 U.S.C.) covers a new and useful process, machine, manufacture or composition of matter, for a term ending 20 years from filing (35 U.S.C. §§ 101, 154(a)(2)). Software claims face eligibility challenges first.",
-   "**Trade secret:** The Defend Trade Secrets Act (DTSA) protects information that the owner keeps secret and that has economic value from not being generally known (18 U.S.C. § 1839(3)). California's version works the same way (Cal. Civ. Code § 3426.1(d)).",
+   "**Trade secret:** The Defend Trade Secrets Act (DTSA) protects information that the owner keeps secret and that has economic value from not being generally known or readily ascertainable through proper means (18 U.S.C. § 1839(3)). California's version is close, though its definition leaves out 'readily ascertainable' (Cal. Civ. Code § 3426.1(d)).",
    "**Trademark:** The Lanham Act (15 U.S.C.) protects names and logos used in commerce to identify a source. It does not protect the code behind them, because the Act covers marks that identify a source (15 U.S.C. §§ 1125(a), 1127; drafting inference).",
    "**Contract:** Licences, NDAs and terms of use decide who may copy, change or disclose the code and data. Open source licences are copyright licences with terms attached, and some, such as Apache-2.0, add a patent licence (Apache-2.0 s.2, s.3)."
   ],
@@ -337,7 +337,7 @@
     "instrument": "Defend Trade Secrets Act (18 U.S.C.)",
     "ref": "§ 1839(3), (6)",
     "title": "Definitions",
-    "summary": "Defines a trade secret as information, including programs and codes, that the owner protects by reasonable measures and that derives independent economic value from not being generally known. Reverse engineering and independent derivation are not improper means.",
+    "summary": "Defines a trade secret as information, including programs and codes, that the owner protects by reasonable measures and that derives independent economic value from not being generally known or readily ascertainable through proper means. Reverse engineering and independent derivation are not improper means.",
     "counselNote": "Source code and models qualify only while the bank keeps them secret, so publishing them, including by an open source release, ends that protection.",
     "confidence": "high",
     "cap": "18-USC",
@@ -644,7 +644,7 @@
    },
    {
     "term": "trade secret",
-    "definition": "Information, including programs and codes, that the owner keeps secret by reasonable measures and that has independent economic value from not being generally known (18 U.S.C. § 1839(3))."
+    "definition": "Information, including programs and codes, that the owner keeps secret by reasonable measures and that has independent economic value from not being generally known or readily ascertainable through proper means (18 U.S.C. § 1839(3))."
    },
    {
     "term": "use in commerce",
@@ -2113,7 +2113,7 @@
     "points": [
      "**Prior art:** A claim is not patentable if the invention was patented, described in a printed publication, in public use, on sale or otherwise available to the public before its [[effective filing date]] (35 U.S.C. § 102(a)(1)).",
      "**Own disclosure:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if made one year or less before the effective filing date (35 U.S.C. § 102(b)(1)(A)).",
-     "**Open source:** A public repository, package release or published API document can count as a printed publication or as public availability (drafting inference). Only the inventor's own disclosure is excused, and only inside the one-year window.",
+     "**Open source:** A public repository, package release or published API document can count as a printed publication or as public availability (drafting inference). Only disclosures inside the one-year window are excused: the inventor's own, one by someone who got the subject matter from the inventor, and a third party's disclosure of what the inventor had already publicly disclosed (35 U.S.C. § 102(b)(1)).",
      "**Obviousness:** A claim is not patentable if the difference between it and the prior art would have been obvious to a person of ordinary skill before the effective filing date (35 U.S.C. § 103).",
      "**Filing rule:** The first-inventor-to-file rules apply to claims with an effective filing date on or after 16 March 2013."
     ],
@@ -2129,7 +2129,7 @@
      "**Nonce words:** Williamson v. Citrix Online, LLC, 792 F.3d 1339 (Fed. Cir. 2015) (en banc in relevant part), held that there is no strong presumption against § 112(f) where 'means' is absent, and that 'module' can be a [[nonce word]].",
      "**Drafting:** Describe in the specification how the code performs each function, so that a court construing a functional element has structure to match (good practice)."
     ],
-    "takeaway": "Treat 'module' and similar generic words as possible means-plus-function terms, and check each one against the code the specification describes."
+    "takeaway": "Treat 'module' and similar generic words as possible means-plus-function terms, and check each one against the algorithm the specification discloses."
    },
    {
     "heading": "Infringement: who performs the steps",
@@ -2157,7 +2157,7 @@
     },
     "points": [
      "**Direct:** Making, using, offering to sell, selling or importing a patented invention within the US infringes (35 U.S.C. § 271(a)).",
-     "**Inducement:** Whoever actively induces infringement is liable as an infringer (35 U.S.C. § 271(b)). User guides that tell customers to run a claimed method are a typical risk (drafting inference).",
+     "**Inducement:** Whoever actively induces infringement is liable as an infringer (35 U.S.C. § 271(b)), but only if it knows that the induced acts infringe a patent, and wilful blindness counts as knowledge (Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011)). User guides that tell customers to run a claimed method are a typical risk (drafting inference).",
      "**Contributory:** Supplying a component that is especially made for an infringing use, and is not a staple article suitable for substantial non-infringing use, is contributory infringement when sold knowing it (35 U.S.C. § 271(c)). An SDK that is sold, offered for sale or imported can fall within this; one given away free is mainly an inducement risk under § 271(b) (drafting inference).",
      "**Split steps:** Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc), holds one party liable for a method performed by several actors if it directs or controls them, for example by conditioning participation or a benefit on performance of the steps and setting the manner or timing of that performance, or if they form a joint enterprise.",
      "**Hosting:** A bank that runs a claimed method on its own systems in the US carries the direct risk. A vendor's hosting does not remove that risk if the bank directs the steps (drafting inference)."
@@ -2267,7 +2267,7 @@
     "ref": "§ 112",
     "title": "Specification",
     "summary": "Requires a written description that enables a skilled person to make and use the invention, and claims that particularly and distinctly point out the subject matter. An element written as a means or step for a function covers the disclosed structure and its equivalents (§ 112(f)).",
-    "counselNote": "Only functional elements within § 112(f) are narrowed to the code the specification describes. Describe the implementation, not only the result.",
+    "counselNote": "Only functional elements within § 112(f) are narrowed to the algorithm the specification describes and its equivalents, and without a disclosed algorithm the claim is indefinite. Describe the implementation, not only the result.",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section112&num=0&edition=prelim",
     "cap": "35-USC",
     "section": "112",
@@ -2338,7 +2338,7 @@
     "instrument": "Patent Act (35 U.S.C.)",
     "ref": "§ 315",
     "title": "Relation to other proceedings or actions",
-    "summary": "Bars an IPR if the petitioner has already sued on validity. Stays a later validity suit, bars an IPR filed more than one year after service of an infringement complaint, and estops later invalidity arguments after a final written decision.",
+    "summary": "Bars an IPR if the petitioner has already sued on validity. Stays a later validity suit, bars an IPR filed more than one year after service of an infringement complaint, and, after a final written decision, estops the petitioner from later invalidity grounds it raised or reasonably could have raised in the review.",
     "counselNote": "The one-year clock runs from service of the complaint, so calendar it on the day any complaint is served.",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section315&num=0&edition=prelim",
     "cap": "35-USC",
@@ -2423,7 +2423,7 @@
    "**Tie product markings to issued patents:** Marketing and product teams should add a patent marking page or number to product pages once a patent issues. A patentee that does not mark can recover damages only from notice, and a web address that links the product to the patent number can serve as the marking (35 U.S.C. § 287(a))."
   ],
   "pitfalls": [
-   "**Early release:** Publishing a method or code before filing and assuming the grace period covers it. Third-party disclosures, and the bank's own disclosures older than a year, are prior art (35 U.S.C. § 102).",
+   "**Early release:** Publishing a method or code before filing and assuming the grace period covers it. Third-party disclosures, unless derived from the inventor or of subject matter the inventor had already publicly disclosed within the year, and the bank's own disclosures older than a year, are prior art (35 U.S.C. § 102).",
    "**Functional claims:** Writing 'module for' or 'means for' language with no structure described, which § 112(f) narrows to the specification.",
    "**Single-actor assumption:** Assuming the bank is not liable because a customer or a cloud provider runs the steps (Akamai).",
    "**Late IPR:** Missing the one-year bar under § 315(b) by waiting until discovery or the expert phase.",
@@ -2672,7 +2672,7 @@
    },
    {
     "term": "prior commercial use defence",
-    "definition": "A personal defence for good-faith US commercial use at least one year before the effective filing date or public disclosure, proved by clear and convincing evidence (35 U.S.C. § 273)."
+    "definition": "A personal defence for good-faith US commercial use at least one year before the earlier of the effective filing date and any public disclosure that qualified for the grace period, proved by clear and convincing evidence (35 U.S.C. § 273)."
    },
    {
     "term": "Standard patent (R)",
@@ -2697,7 +2697,7 @@
    "**Reasonable measures:** The owner must have taken [[reasonable measures]] to keep the code secret (18 U.S.C. § 1839(3)(A)). For source code, that means controlled access, binding contracts and records showing both work in practice.",
    "**Reverse engineering:** Taking apart a lawfully obtained product is not improper means (18 U.S.C. § 1839(6)(B)). A contract is the usual way to restrict it (good practice).",
    "**Publication:** Releasing code publicly, including as open source, ends its secrecy, so the right must be chosen before release (drafting inference).",
-   "**Employees and contractors:** Agreements must carry the [[whistleblower immunity notice]], or the bank may not recover exemplary damages or fees against that individual (18 U.S.C. § 1833(b)(3))."
+   "**Employees and contractors:** Agreements made or updated after 11 May 2016 must carry the [[whistleblower immunity notice]], or a cross-reference to a policy that sets it out, or the bank may not recover exemplary damages or fees against that individual (18 U.S.C. § 1833(b)(3))."
   ],
   "conceptMap": {
    "type": "hub",
@@ -2777,8 +2777,8 @@
     },
     "points": [
      "**Definition:** The DTSA covers information, including programs and codes, however it is stored (18 U.S.C. § 1839(3)).",
-     "**Two tests:** The owner must take reasonable measures to keep the information secret, and it must derive independent economic value from not being generally known (18 U.S.C. § 1839(3)(A)-(B)).",
-     "**Misappropriation:** Acquiring a secret by improper means, or using or disclosing it in breach of a duty of secrecy, is misappropriation (18 U.S.C. § 1839(5)).",
+     "**Two tests:** The owner must take reasonable measures to keep the information secret, and it must derive independent economic value from not being generally known or readily ascertainable through proper means (18 U.S.C. § 1839(3)(A)-(B)).",
+     "**Misappropriation:** Acquiring a secret while knowing or having reason to know that it was obtained by improper means, or using or disclosing it without consent after getting it by improper means, or while knowing or having reason to know that it came, directly or through someone else, by improper means or under a duty of secrecy, is misappropriation (18 U.S.C. § 1839(5)).",
      "**Improper means:** Theft, bribery, misrepresentation and breach of a secrecy duty are [[improper means]]. Reverse engineering and independent derivation are not (18 U.S.C. § 1839(6)(A)-(B))."
     ],
     "takeaway": "Record why the code is valuable and kept secret, because both tests are proved with evidence."
@@ -2894,7 +2894,7 @@
       {
        "label": "Limitation period",
        "value": "Three years",
-       "note": "From discovery (§ 1836(d))"
+       "note": "From actual or constructive discovery (§ 1836(d))"
       }
      ]
     },
@@ -2912,7 +2912,7 @@
     "lede": "Theft is a federal crime, and the DTSA can follow conduct outside the United States.",
     "points": [
      "**Crime:** Stealing or copying a trade secret, or possessing one known to be stolen, is a federal offence when done with intent to convert it to the economic benefit of someone other than the owner and intending or knowing that it will injure the owner, with up to ten years' imprisonment (18 U.S.C. § 1832(a)).",
-     "**Criminal secrecy:** The court must act to preserve the confidentiality of trade secrets in a prosecution, and the owner may file a sealed submission (18 U.S.C. § 1835(a)-(b)).",
+     "**Secrecy in court:** The court must act to preserve the confidentiality of trade secrets in a prosecution or other proceeding under the chapter, including a DTSA civil action, and the owner may file a sealed submission (18 U.S.C. § 1835(a)-(b)).",
      "**Abroad:** In Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024), the court held that the DTSA can reach misappropriation abroad where an act in furtherance occurred in the United States. Damages can then rest on foreign sales.",
      "**Scale:** A 2020 Chicago jury award of about $764.6 million in that dispute was later reduced (reported; check), which shows what a foreign-sales claim can be worth.",
      "**Acts in the US:** A download or transfer in the United States is the act that can bring foreign use of copied code within reach (drafting inference)."
@@ -2965,7 +2965,7 @@
     "instrument": "Defend Trade Secrets Act (18 U.S.C.)",
     "ref": "§ 1836",
     "title": "Civil proceedings",
-    "summary": "Gives the owner of a misappropriated trade secret a federal civil action where the secret relates to a product or service used in interstate or foreign commerce. Courts may grant injunctions, damages for actual loss and unjust enrichment (or a reasonable royalty), and exemplary damages of up to twice that award for wilful and malicious misappropriation. An injunction may not stop a person from taking a job, and the claim must be brought within three years of discovery.",
+    "summary": "Gives the owner of a misappropriated trade secret a federal civil action where the secret relates to a product or service used in interstate or foreign commerce. Courts may grant injunctions, damages for actual loss and unjust enrichment (or a reasonable royalty), and exemplary damages of up to twice that award for wilful and malicious misappropriation. An injunction may not stop a person from taking a job, and the claim must be brought within three years of the date the misappropriation was, or with reasonable diligence should have been, discovered.",
     "counselNote": "The DTSA claim sits beside state law rather than replacing it. Its employment limits matter when the bank acts against a departing engineer, so the injunction request needs evidence.",
     "confidence": "high",
     "cap": "18-USC",
@@ -2977,7 +2977,7 @@
     "instrument": "Defend Trade Secrets Act (18 U.S.C.)",
     "ref": "§ 1839",
     "title": "Definitions",
-    "summary": "Defines a trade secret as information, including programs and codes, that the owner protects by reasonable measures and that derives independent economic value from not being generally known or readily ascertainable. Misappropriation covers improper acquisition, and use or disclosure in breach of a duty of secrecy. Reverse engineering and independent derivation are not improper means.",
+    "summary": "Defines a trade secret as information, including programs and codes, that the owner protects by reasonable measures and that derives independent economic value from not being generally known or readily ascertainable. Misappropriation covers improper acquisition, and use or disclosure by someone who got the secret by improper means, or who knows or has reason to know that it came, directly or through someone else, by improper means or under a duty of secrecy. Reverse engineering and independent derivation are not improper means.",
     "counselNote": "These definitions decide every DTSA claim. Code is named expressly, so disputes usually turn on the measures and on secrecy.",
     "confidence": "high",
     "cap": "18-USC",
@@ -2989,7 +2989,7 @@
     "instrument": "Defend Trade Secrets Act (18 U.S.C.)",
     "ref": "§ 1833",
     "title": "Exceptions to prohibitions",
-    "summary": "Protects individuals from liability under trade secret law for confidential disclosure to a government official or an attorney to report a suspected violation of law, and for filings made under seal. An employer must give notice of this immunity in any agreement with an employee that governs trade secrets or confidential information, and contractors count as employees. Without the notice, the employer may not recover exemplary damages or fees against that employee.",
+    "summary": "Protects individuals from liability under trade secret law for confidential disclosure to a government official or an attorney to report a suspected violation of law, and for filings made under seal. An employer must give notice of this immunity, or cross-refer to a policy document setting out its reporting policy, in any agreement with an employee entered into or updated after 11 May 2016 that governs trade secrets or confidential information, and contractors count as employees. Without the notice, the employer may not recover exemplary damages or fees against that employee.",
     "counselNote": "Every employee and contractor template needs the notice or a cross-reference to a reporting policy. It is a cheap fix with an expensive omission.",
     "confidence": "high",
     "cap": "18-USC",
@@ -3272,11 +3272,11 @@
   "glossary": [
    {
     "term": "trade secret",
-    "definition": "Information, including programs and codes, that the owner protects by reasonable measures and that derives independent economic value from not being generally known (18 U.S.C. § 1839(3))."
+    "definition": "Information, including programs and codes, that the owner protects by reasonable measures and that derives independent economic value from not being generally known or readily ascertainable through proper means (18 U.S.C. § 1839(3))."
    },
    {
     "term": "misappropriation",
-    "definition": "Acquisition of a secret by improper means, or its use or disclosure without consent by a person who owed a duty of secrecy (18 U.S.C. § 1839(5))."
+    "definition": "Acquisition of a secret by someone who knows or has reason to know that it was obtained by improper means, or its use or disclosure without consent by someone who got it by improper means, or who knows or has reason to know that it came, directly or through someone else, by improper means or under a duty of secrecy (18 U.S.C. § 1839(5))."
    },
    {
     "term": "improper means",
@@ -14668,7 +14668,7 @@
      ]
     },
     "points": [
-     "**Rejection:** Mission Product Holdings, Inc. v. Tempnology, LLC, 587 U.S. 370 (2019), held that rejecting a contract is a breach, not a termination, so a trademark licensee kept its rights.",
+     "**Rejection:** Mission Product Holdings, Inc. v. Tempnology, LLC, 587 U.S. 370 (2019), held that rejecting a contract is a breach, not a termination, so a trademark licensee kept the rights that would survive a breach outside bankruptcy.",
      "**Section 365(n):** A licensee of intellectual property may keep its rights after rejection, under a [[section 365(n) election]] (11 U.S.C. § 365(n)). Trademarks are not in the Code's definition of intellectual property.",
      "**Escrow:** Release events usually include insolvency and failure to support, but a source code deposit alone may not run a SaaS service (reported; check market practice).",
      "**No mandate:** No US bank regulation mandates escrow. The interagency guidance treats business continuity and exit as contract matters (drafting inference).",
@@ -16178,7 +16178,7 @@
      "phase": "secrets",
      "title": "Assess trade secret protection",
      "detail": [
-      "**Test reasonable measures:** A trade secret needs the owner's reasonable measures to keep it secret, and independent economic value from not being generally known (18 U.S.C. § 1839(3)(A)-(B)).",
+      "**Test reasonable measures:** A trade secret needs the owner's reasonable measures to keep it secret, and independent economic value from not being generally known or readily ascertainable through proper means (18 U.S.C. § 1839(3)(A)-(B)).",
       "**Check access controls:** Review how source code is stored, who can read it and what confidentiality terms those people signed. Weak controls weaken the trade secret claim (good practice).",
       "**Note the reverse engineering point:** Reverse engineering and independent derivation do not count as improper means, so a rival's lawful rebuild of a shipped product is not misappropriation under the DTSA (18 U.S.C. § 1839(6)(B)), though a licence term barring reverse engineering can still bind a licensee (Bowers v. Baystate Technologies, Inc., 320 F.3d 1317 (Fed. Cir. 2003))."
      ],
@@ -16652,7 +16652,7 @@
      "detail": [
       "**Set the release events:** Check that release events cover insolvency, ceasing business and failure to support, and that the bank may use the code when one occurs (market practice; reported; check).",
       "**Test the deposit:** Verify that the deposit builds and runs, and include the environment, configuration, data and credentials needed, since source code alone rarely keeps a SaaS service running (market practice; reported).",
-      "**Plan for the vendor's bankruptcy:** A licensee of intellectual property can keep its rights when the licensor rejects the licence (11 U.S.C. § 365(n)), and Tempnology held that rejection is a breach, so a trademark licensee keeps its rights (587 U.S. 370 (2019))."
+      "**Plan for the vendor's bankruptcy:** A licensee of intellectual property can keep its rights when the licensor rejects the licence (11 U.S.C. § 365(n)), and Tempnology held that rejection is a breach, so a trademark licensee keeps the rights that would survive a breach outside bankruptcy (587 U.S. 370 (2019))."
      ],
      "owner": [
       "Legal",
@@ -18508,7 +18508,7 @@
      "**[[counter-notice|counter-notification]]:** The poster may counter-notify under penalty of perjury. The host must restore the material 10 to 14 business days later, unless the claimant has sued, if it is to keep its protection against the poster's claims over the removal (§ 512(g)(1), (2)(C), (3)).",
      "**Takedown history:** GitHub disabled youtube-dl in October 2020 after a notice invoking § 1201, and restored it in November 2020 (reported; check).",
      "**Computer access:** The Computer Fraud and Abuse Act (CFAA) (18 U.S.C. § 1030(a)(2)) covers intentional access without authorisation, or beyond it, to obtain listed categories of information. Van Buren v. United States, 593 U.S. 374 (2021), held that this reaches off-limits areas, not misuse of data one may access (§ 1030(e)(6)).",
-     "**Scraping:** hiQ Labs, Inc. v. LinkedIn Corp., 31 F.4th 1180 (9th Cir. 2022), held that scraping publicly available profiles was likely not access without authorisation. A civil CFAA claim must start within two years (§ 1030(g))."
+     "**Scraping:** hiQ Labs, Inc. v. LinkedIn Corp., 31 F.4th 1180 (9th Cir. 2022), held that scraping publicly available profiles was likely not access without authorisation. A civil CFAA claim must start within two years of the act complained of or of the discovery of the damage (§ 1030(g))."
     ]
    },
    {
@@ -18628,7 +18628,7 @@
     "cap": "18-USC",
     "section": "1030",
     "title": "Fraud and related activity in connection with computers",
-    "summary": "Prohibits intentionally accessing a computer without authorisation, or beyond authorised access, to obtain information in the categories listed in (a)(2). Exceeds authorised access means using permitted access to obtain or alter information one is not entitled to obtain or alter (§ 1030(e)(6)). A civil action needs a listed harm factor and must start within two years (§ 1030(g)).",
+    "summary": "Prohibits intentionally accessing a computer without authorisation, or beyond authorised access, to obtain information in the categories listed in (a)(2). Exceeds authorised access means using permitted access to obtain or alter information one is not entitled to obtain or alter (§ 1030(e)(6)). A civil action needs a listed harm factor and must start within two years of the act complained of or of the discovery of the damage (§ 1030(g)).",
     "counselNote": "Employee misuse of data the employee can already reach is usually a contract, policy or trade secret matter. A CFAA claim needs the access boundary to be clear.",
     "confidence": "high",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1030&num=0&edition=prelim"
