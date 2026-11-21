@@ -3158,7 +3158,7 @@
      "core": true,
      "pin": {
       "stage": "copyleft",
-      "quote": "Affiliates are separate legal persons, so treat other transfers between them as distribution unless a licence term says otherwise"
+      "quote": "Affiliates are separate legal persons, so treat transfers between them, including to a subsidiary, as distribution unless a licence term says otherwise"
      }
     },
     {
@@ -3193,7 +3193,7 @@
       "in": true,
       "pin": {
        "stage": "copyleft",
-       "quote": "Affiliates are separate legal persons, so treat other transfers between them as distribution unless a licence term says otherwise"
+       "quote": "Affiliates are separate legal persons, so treat transfers between them, including to a subsidiary, as distribution unless a licence term says otherwise"
       }
      },
      {
@@ -4133,7 +4133,7 @@
      "core": true,
      "pin": {
       "stage": "releasing",
-      "quote": "It also means the bank grants every user a licence of its own patent claims"
+      "quote": "It also means the bank grants every user a licence under the patent claims it can license that its contribution necessarily infringes"
      }
     }
    ],

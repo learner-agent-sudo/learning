@@ -591,7 +591,7 @@
      "kind": "statute",
      "instrument": "Copyright Ordinance (Cap. 528)",
      "ref": "s.91(2)(a), (c)",
-     "title": "Attribution and integrity rights do not reach programs",
+     "title": "Identification and integrity rights do not reach programs",
      "summary": "The right to be identified as author does not apply to a computer program or a computer-generated work. The integrity right, which covers derogatory treatment, is also excluded for a program or computer-generated work (s.93(2)).",
      "counselNote": "Developers cannot rely on moral rights to stop the bank changing or retiring their code, so the commercial terms carry that risk.",
      "confidence": "high",
@@ -1141,7 +1141,7 @@
       "**Translation and adaptation:** For a program, an adaptation is an altered version or a translation, and a translation includes conversion into, out of or between computer languages or codes (Cap. 528 s.29(3)(b), s.29(4)).",
       "**Back-up by a lawful user:** A lawful user may make a back-up copy where necessary for lawful use, but the agreement can exclude this right (Cap. 528 s.60(1)-(3)).",
       "**Copying and adapting by a lawful user:** A lawful user may copy or adapt a program where necessary for lawful use, including to correct errors (Cap. 528 s.61(1)-(2)). The Ordinance gives no express contractual override for this right (drafting inference).",
-      "**Reverse engineering:** The Ordinance has no decompilation exception and no general interoperability exception for copying, so reverse engineering that copies or adapts a program infringes unless it falls within the lawful-user rule or another exception, such as fair dealing for research (s.38); circumventing a technological measure for interoperability is separately excused where s.273D(1) is met (Cap. 528 s.61(1)-(2); drafting inference)."
+      "**Reverse engineering:** The Ordinance has no decompilation exception and no general interoperability exception for copying, so reverse engineering that copies or adapts a program infringes unless the licence allows it or it falls within the lawful-user rule or another exception, such as fair dealing for research (s.38); circumventing a technological measure for interoperability is separately excused where s.273D(1) is met (Cap. 528 s.61(1)-(2); drafting inference)."
      ],
      "takeaway": "Before engineers decompile, translate or copy third-party code, confirm that the licence or a lawful-user right covers the act, and do not rely on a general exception (good practice)."
     },
@@ -2483,7 +2483,7 @@
      "heading": "Three routes to a Hong Kong patent",
      "lede": "The route decides how much the Registrar checks before grant and when the proprietor can start enforcement.",
      "points": [
-      "**Standard patent (R):** A designated patent application published abroad is recorded, the designated patent is registered once the designated office grants it, and a standard patent (R) is granted for the invention in its published specification (Cap. 514 s.3, s.8).",
+      "**Standard patent (R):** A designated patent application published abroad is recorded, the designated patent is registered on a second request filed within 6 months after the designated office grants it or the request to record is published, whichever is later, and a standard patent (R) is granted for the invention in its published specification (Cap. 514 s.3, s.8, s.23(1)-(2)).",
       "**Designated offices:** The Chief Executive in Council designates the foreign patent offices by Gazette notice (Cap. 514 s.8).",
       "**Standard patent (O):** The applicant must request substantive examination, and the Registrar examines patentability, disclosure, claims and added matter before grant (Cap. 514 s.37T, s.37U(3)).",
       "**Short-term patent:** The Registrar considers formalities only and has no duty to examine patentability, novelty, inventive step or disclosure (Cap. 514 s.117).",
@@ -2582,7 +2582,7 @@
      "instrument": "Patents Ordinance (Cap. 514)",
      "ref": "s.73(a)-(c)",
      "title": "Direct use of a patented invention",
-     "summary": "The proprietor may prevent third parties without consent from making, putting on the market, using, importing or stocking a patented product in Hong Kong, and from using a patented process, or offering it for use there where the third party knows or it is obvious that the use is prohibited, and from dealing in products obtained directly by a patented process.",
+     "summary": "The proprietor may prevent third parties without consent from making, putting on the market, using, importing or stocking a patented product in Hong Kong, and from using a patented process, or offering it for use there where the third party knows or it is obvious to a reasonable person that the use is prohibited, and from putting on the market, using, importing or stocking products obtained directly by a patented process.",
      "counselNote": "Using a licensed third-party product in Hong Kong can infringe where the product embodies a patented process, so vendor warranties should cover patent non-infringement.",
      "confidence": "high",
      "cap": "514",
@@ -2911,7 +2911,7 @@
     "heading": "Criminal exposure and reach abroad",
     "lede": "Theft is a federal crime, and the DTSA can follow conduct outside the United States.",
     "points": [
-     "**Crime:** Stealing or copying a trade secret, or possessing one known to be stolen, is a federal offence when done with intent to benefit someone other than the owner and intending or knowing that it will injure the owner, with up to ten years' imprisonment (18 U.S.C. § 1832(a)).",
+     "**Crime:** Stealing or copying a trade secret, or possessing one known to be stolen, is a federal offence when done with intent to convert it to the economic benefit of someone other than the owner and intending or knowing that it will injure the owner, with up to ten years' imprisonment (18 U.S.C. § 1832(a)).",
      "**Criminal secrecy:** The court must act to preserve the confidentiality of trade secrets in a prosecution, and the owner may file a sealed submission (18 U.S.C. § 1835(a)-(b)).",
      "**Abroad:** In Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024), the court held that the DTSA can reach misappropriation abroad where an act in furtherance occurred in the United States. Damages can then rest on foreign sales.",
      "**Scale:** A 2020 Chicago jury award of about $764.6 million in that dispute was later reduced (reported; check), which shows what a foreign-sales claim can be worth.",
@@ -3781,7 +3781,7 @@
       "**Well-known marks:** A mark entitled to protection under the Paris Convention as a well-known mark is protected against an identical or similar sign used without due cause in a way that takes unfair advantage of, or is detrimental to, its distinctive character or repute, for any goods or services (Cap. 559 s.18(4)).",
       "**Own name:** A registered mark is not infringed by a person's use of its own name, address or place of business, provided the use accords with honest practices (Cap. 559 s.19(3)(a)).",
       "**Prior use:** A registered mark is not infringed by continuous prior unregistered use in Hong Kong from a date before the earlier of the registrant's first use in Hong Kong and its registration (Cap. 559 s.19(4)).",
-      "**Threats:** A person threatened over use other than applying the mark to goods or packaging, or supplying services, can seek a declaration, an injunction and damages, unless the threatener shows that the acts infringe and the threatened person cannot then show that the registration is invalid or liable to be revoked; a notice that a mark is registered is not a threat (Cap. 559 s.26(1)-(5)). Proceedings are barred if the owner, or a licensee with power to sue, starts an infringement action within 28 days of the threat and pursues it with due diligence (Cap. 559 s.26(6)).",
+      "**Threats:** A person threatened over use other than applying the mark to goods or packaging, or supplying services, can seek a declaration, an injunction and damages, unless the threatener shows that the acts infringe, or would infringe if done, and the threatened person cannot then show that the registration is invalid or liable to be revoked in a relevant respect; a notice that a mark is registered is not a threat (Cap. 559 s.26(1)-(5)). Proceedings are barred if the owner, or a licensee with power to sue, starts an infringement action within 28 days of the threat and pursues it with due diligence (Cap. 559 s.26(6)).",
       "**Licensees:** Unless the licence provides otherwise, a licensee may call on the owner in writing to sue an infringer, and may sue in its own name if the owner refuses or does nothing for one month (Cap. 559 s.35(2)-(3))."
      ],
      "takeaway": "Check that any use of a name that is not the bank's own is covered by a licence or a clear right, because the own-name defence does not reach it (drafting inference)."
@@ -3890,7 +3890,7 @@
      "ref": "s.94(1)-(2)",
      "title": "Falsely representing a mark as registered",
      "summary": "Falsely representing that a sign is a registered trade mark, or making a false representation about the goods or services covered by a registration, is an offence if the person knows or has reason to believe it is false. The fine is level 3. In Hong Kong, the word 'registered' or '註冊', or another word or symbol referring to registration, is treated as a representation of registration in Hong Kong unless it is shown to refer to an actual registration elsewhere for those goods or services.",
-     "counselNote": "Marketing that describes a product name as registered needs a Hong Kong registration behind it, or a foreign registration that the claim is shown to refer to, or the bank may commit an offence.",
+     "counselNote": "Marketing that describes a product name as registered needs a Hong Kong registration behind it, or a foreign registration for those goods or services that the claim is shown to refer to, or the bank may commit an offence.",
      "confidence": "high",
      "cap": "559",
      "section": "94",
@@ -4158,7 +4158,7 @@
     },
     "points": [
      "**Internal use:** Running unmodified GPL-3.0 code carries no conditions at all (GPL-3.0 s.2). Internal changes can still matter later if the code is shipped.",
-     "**Modification:** Changing covered code for the bank's own use carries no conditions; the duties start when the changed version is passed on. Modified files must then carry change notices (GPL-2.0 s.2(a); GPL-3.0 s.5(a)), and a conveyed modified work must be licensed as a whole under GPL-3.0 (GPL-3.0 s.5(c)).",
+     "**Modification:** Changing covered code for the bank's own use carries no conditions; the duties start when the changed version is passed on. Modified files must then carry change notices (GPL-2.0 s.2(a)); under GPL-3.0 the work must carry a prominent notice that it was modified, with a relevant date (GPL-3.0 s.5(a)), and a conveyed modified work must be licensed as a whole under GPL-3.0 (GPL-3.0 s.5(c)).",
      "**Distribution:** Object code distributed under GPL-2.0 must come with the source, or with a written offer valid for at least three years (GPL-2.0 s.3(b)). GPL-3.0 s.6 gives comparable routes.",
      "**[[Conveying|conveying]]:** Under GPL-3.0, conveying is propagation that enables others to make or receive copies. Mere interaction with a user over a network, with no copy transferred, is not conveying (GPL-3.0 s.0).",
      "**Network copyleft:** AGPL-3.0 s.13 requires a modified version to offer its Corresponding Source to remote users. Running an unmodified version triggers nothing under that section."
@@ -7244,7 +7244,7 @@
     },
     "points": [
      "**Internal use:** Mere interaction with a user through a computer network, with no transfer of a copy, is not [[conveying|conveying]] (GPL-3.0 s.0). The FSF says copying within one organisation is not distribution (FSF view).",
-     "**Group companies:** The FSF says that whether moving a copy to a majority-owned, controlled subsidiary is distribution turns on local copyright law, and that US law appears not to treat it as distribution (reported; check). Affiliates are separate legal persons, so treat other transfers between them as distribution unless a licence term says otherwise (drafting inference).",
+     "**Group companies:** The FSF says that whether moving a copy to a majority-owned, controlled subsidiary is distribution turns on local copyright law, and that US law appears not to treat it as distribution (reported; check). Affiliates are separate legal persons, so treat transfers between them, including to a subsidiary, as distribution unless a licence term says otherwise (drafting inference).",
      "**Contractors:** The bank may give covered works to contractors who make changes only for the bank, if those contractors cannot copy the work outside their relationship with the bank (GPL-3.0 s.2).",
      "**Network use:** GPL-2.0 has no network clause, and GPL-3.0 treats remote interaction without a copy as not conveying (GPL-3.0 s.0). Network-triggered duties sit in the network copyleft licences covered separately."
     ],
@@ -10063,7 +10063,7 @@
      ],
      "detail": [
       "**Copies inside the bank:** GPL-3.0 treats conveying as propagation that lets others make or receive copies (GPL-3.0 s.0). Copies used only within the bank are generally treated as not conveyed (drafting inference; FSF view).",
-      "**Contractors:** Giving GPL-3.0 code to a contractor falls within the licence's contractor permission only if the contractor modifies or runs it exclusively on the bank's behalf, under the bank's direction and control, on terms that bar copies of the bank's copyrighted material outside that relationship; otherwise the copy is conveyed on the usual terms (GPL-3.0 s.2).",
+      "**Contractors:** Giving GPL-3.0 code to a contractor falls within the licence's contractor permission only if the contractor modifies or runs it exclusively on the bank's behalf, under the bank's direction and control, on terms that bar copies of the bank's copyrighted material outside that relationship; otherwise the copy is conveyed on the usual terms. Either way, the bank must comply with the licence for code whose copyright it does not control (GPL-3.0 s.2).",
       "**Affiliates:** The FSF's view is that copies within one organisation are not distribution (FSF view, not law). Affiliates are separate legal persons, so treat a copy to one as distribution unless the licence says otherwise (drafting inference)."
      ],
      "owner": [
@@ -11149,7 +11149,7 @@
      "phase": "export",
      "title": "Classify encryption in the component and the product",
      "detail": [
-      "**Published software sits outside:** Software that is published is not subject to the EAR, but published encryption software stays subject to it unless the publicly available source code rule releases it (15 C.F.R. § 734.3(b)(3); § 742.15(b); reported; check).",
+      "**Published software sits outside:** Software that is published is not subject to the EAR, but published encryption software classified under ECCN 5D002 stays subject to it unless the publicly available source code rule releases it (15 C.F.R. § 734.3(b)(3); § 734.7(b); § 742.15(b); reported; check).",
       "**Classify the encryption:** Record whether the component provides encryption functions and how the product uses them, before any release (good practice).",
       "**Licence is not a classification:** An open licence does not decide export status, which turns on the software's content and how it is made available (good practice)."
      ],
@@ -11274,7 +11274,7 @@
      "title": "Prepare source or a written offer where copyleft requires it",
      "detail": [
       "**GPL-2.0 release:** Object code must come with complete source, or with a written offer valid for at least three years (GPL-2.0 s.3(b)).",
-      "**GPL-3.0 release:** Convey the Corresponding Source with the object code, including the scripts that build and install it, or, for a physical product only, with a written offer; a download must offer equivalent access to the source from the same place (GPL-3.0 s.6(b), (d)).",
+      "**GPL-3.0 release:** Convey the Corresponding Source with the object code, including the scripts that build and install it, or, for a physical product only, with a written offer; a download must offer equivalent access to the source through the same place, or on another server that clear directions point to (GPL-3.0 s.6(b), (d)).",
       "**File and network scope:** MPL-2.0 requires the source of the MPL-covered files, changed or not, when they go out in executable form (MPL-2.0 s.3.2). AGPL-3.0 s.13 adds a network offer for modified versions."
      ],
      "owner": [
@@ -11886,7 +11886,7 @@
     "ref": "s.3",
     "title": "Grant of Patent License",
     "summary": "Each contributor grants a perpetual, worldwide, royalty-free patent licence for the claims its contribution necessarily infringes, alone or in combination with the work. The licence for a licensee ends if that licensee sues, alleging that the work or a contribution infringes a patent.",
-    "counselNote": "This patent grant is the main reason to choose Apache-2.0 for code with patent value. It also means the bank grants every user a licence of its own patent claims that its contribution necessarily infringes, and loses the patent licences other contributors grant it if it brings patent litigation alleging the work infringes.",
+    "counselNote": "This patent grant is the main reason to choose Apache-2.0 for code with patent value. It also means the bank grants every user a licence under the patent claims it can license that its contribution necessarily infringes, alone or combined with the work, and loses the patent licences other contributors grant it if it brings patent litigation alleging the work infringes.",
     "confidence": "high",
     "cap": "Apache-2.0",
     "section": "3",
@@ -13271,7 +13271,7 @@
      "phase": "licence",
      "title": "Documentation and data: choose a content licence",
      "detail": [
-      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link where the licensor supplied them, the link only where reasonably practicable, and in every case to say whether the material was modified and that it is under CC BY 4.0, with the licence text or a link to it (CC-BY-4.0 s.3(a)(1)).",
+      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link where the licensor supplied them, the link only where reasonably practicable, and in every case to say if they modified the material, keep any earlier note of changes, and state that it is under CC BY 4.0, with the licence text or a link to it (CC-BY-4.0 s.3(a)(1)).",
       "**Check the waiver:** CC0-1.0 does not waive trademark or patent rights held by the person waiving (CC0-1.0 s.4(a)). Fedora stopped allowing CC0 for code in 2022 for that reason (reported; check).",
       "**Keep the licences apart:** A content licence on documentation does not change the licence of the code it describes. Keep the two licence files separate (good practice)."
      ],
@@ -13629,7 +13629,7 @@
      "detail": [
       "**Apache-2.0 grants a patent licence:** Each contributor licenses the patent claims its contribution necessarily infringes. That licence ends if the licensee sues over patent infringement by the work (Apache-2.0 s.3).",
       "**MIT has no patent clause:** The MIT text grants no express patent licence, so a release under it should not be presented as a patent grant. MPL-2.0 s.2.1(b), by contrast, licenses the contributor's patent claims over its contribution (drafting inference).",
-      "**GPL-3.0 conditions its patent licence:** A party conveying a covered work while knowingly relying on a patent licence, where the source is not publicly available free of charge, must provide the source, give up the licence for that work or extend it to recipients (GPL-3.0 s.11).",
+      "**GPL-3.0 conditions its patent licence:** A party conveying a covered work while knowingly relying on a patent licence, where the source is not publicly available free of charge, must make the source so available, give up the licence for that work or extend it to recipients (GPL-3.0 s.11).",
       "**Name the licensed claims:** Where the bank contributes, its patent licence reaches the claims its contribution necessarily infringes, so the approval should say which claims those are (good practice)."
      ],
      "owner": [
@@ -14049,7 +14049,7 @@
      "phase": "governance",
      "title": "Foundation hosting: transfer assets and marks under its rules",
      "detail": [
-      "**Transfer copyright in writing:** Where the foundation takes ownership of the code, rather than a licence to it, the transfer is valid only if an instrument signed by the owner records it (17 U.S.C. § 204(a)). A patent assignment must be in writing, and recording it within three months, or before a later purchase, protects it against later buyers (35 U.S.C. § 261).",
+      "**Transfer copyright in writing:** Where the foundation takes ownership of the code, rather than a non-exclusive licence to it, the transfer is valid only if an instrument signed by the owner records it (17 U.S.C. § 204(a)). A patent assignment must be in writing, and recording it within three months, or before a later purchase, protects it against later buyers (35 U.S.C. § 261).",
       "**Read the foundation's IP rules:** Foundations such as FINOS, the Linux Foundation and the Apache Software Foundation set their own contribution and IP terms, which may require particular licences or contributor paperwork (good practice).",
       "**Keep the governance terms:** Decide what the bank keeps, such as maintainer seats, marks and an exit right, before the transfer, because the foundation's rules govern the project afterwards (good practice)."
      ],
@@ -14544,7 +14544,7 @@
     "points": [
      "**Prior use:** A good-faith commercial use in the United States at least a year before the earlier of the effective filing date or a qualifying public disclosure is a defence to infringement, but it must be proved by clear and convincing evidence (35 U.S.C. § 273(a)-(b)).",
      "**Trade secrets:** The Defend Trade Secrets Act (DTSA) protects code only where the owner has taken reasonable measures to keep it secret (18 U.S.C. § 1839(3)(A)). Publishing code under an open licence ends its secrecy (drafting inference).",
-     "**Registration:** No US infringement suit over a United States work may be brought until registration or preregistration has been made or refused (17 U.S.C. § 411(a)). Statutory damages and fees generally cannot be claimed for infringement that began before a late registration (§ 412).",
+     "**Registration:** No US infringement suit over a United States work may be brought until preregistration or registration has been made, or registration has been refused (17 U.S.C. § 411(a)). Statutory damages and fees generally cannot be claimed for infringement that began before a late registration (§ 412).",
      "**Patent defence:** The Federal Circuit reportedly held USAA's mobile deposit claims ineligible under 35 U.S.C. § 101 on 12 June 2025, wiping out about $218 million of jury damages against PNC (reported; check). Banks are frequent patent defendants.",
      "**Export:** Ask whether the target publishes non-standard cryptography in source code, since that needs a notification (15 C.F.R. § 742.15(b)) (reported; check the eCFR).",
      "**AI tools:** Ask whether staff or contractors have pasted confidential code into third-party AI tools, since that can weaken the reasonable measures the target relies on (good practice)."
@@ -14891,7 +14891,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "The Copyright Ordinance and the signed writing rule decide who owns code and patents after a deal, and patent and trade mark transactions must be registered to protect the new owner. The two biggest differences from the US position are that a commissioner who does not take the copyright still has an exclusive licence for the purposes both sides contemplated (Cap. 528 s.15(2)), where a US commissioner without an assignment usually has at most an implied non-exclusive licence, and that a new patent or trade mark owner who does not apply to register within six months loses damages and profits for the gap.",
+   "summary": "The Copyright Ordinance and the signed writing rule decide who owns code and patents after a deal, and patent and trade mark transactions must be registered to protect the new owner. The two biggest differences from the US position are that a commissioner who does not take the copyright still has an exclusive licence for the purposes both sides could reasonably have contemplated (Cap. 528 s.15(2)), where a US commissioner without an assignment usually has at most an implied non-exclusive licence, and that a new patent or trade mark owner who does not apply to register within six months loses damages and profits for the gap.",
    "keyPoints": [
     "**Written transfers only:** An assignment of copyright is not effective unless it is in writing and signed by or for the assignor (Cap. 528 s.101(3)). A patent assignment or mortgage is void unless it is in writing and signed (Cap. 514 s.50(6)), and a trade mark assignment is not effective unless it is in writing and signed (Cap. 559 s.27(4)).",
     "**Commissioned code:** Unless the agreement expressly provides for the copyright, the developer keeps it. The commissioner gets an exclusive licence for the purposes both sides could reasonably have contemplated when the work was commissioned, and can restrain any exploitation it could reasonably object to (Cap. 528 s.15(2)(a)-(b)). The Ordinance has no work-made-for-hire rule for commissioned works, so the commissioner does not own the code by default (drafting inference).",
@@ -18429,7 +18429,7 @@
      "**Seizure:** A court may seize property ex parte only in extraordinary circumstances, on specific findings, including that the applicant has not publicised the request (18 U.S.C. § 1836(b)(2)(A)).",
      "**Staff limit:** An injunction may not stop a person entering a job, and conditions on a job must rest on evidence of threatened misappropriation, not on what the person knows (§ 1836(b)(3)(A)(i)).",
      "**Money:** Damages cover actual loss and unjust enrichment, or, in place of those measures, a reasonable royalty (§ 1836(b)(3)(B)).",
-     "**Enhancement:** Exemplary damages go up to twice the award for wilful and malicious misappropriation, and fees can go to the prevailing party for a bad-faith claim or injunction motion, or for wilful and malicious misappropriation (§ 1836(b)(3)(C)-(D)).",
+     "**Enhancement:** Exemplary damages go up to twice the award for wilful and malicious misappropriation, and fees can go to the prevailing party where a claim is made in bad faith, a motion to terminate an injunction is made or opposed in bad faith, or the misappropriation was wilful and malicious (§ 1836(b)(3)(C)-(D)).",
      "**Limits and reach:** Suit must start within three years of the date the misappropriation was, or with reasonable diligence should have been, discovered (§ 1836(d)). The DTSA can reach misappropriation abroad where an act in furtherance occurred in the US (Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024))."
     ],
     "visual": {
@@ -20863,7 +20863,7 @@
      "detail": [
       "**Scope:** Check whether the new method may infringe a patent held by others by reading the claims, not only by confirming that the bank invented the method (good practice).",
       "**Enhanced damages:** Courts may award enhanced damages, up to three times, in egregious cases of culpable, typically subjective, wilful infringement (35 U.S.C. § 284; Halo Electronics v. Pulse Electronics, 579 U.S. 93 (2016)) (reported; check).",
-      "**Opinions:** Failing to obtain or present advice of counsel cannot by itself prove wilful infringement (35 U.S.C. § 298), but relying on an opinion can still waive privilege, and courts differ on whether the omission may be weighed in setting the amount of any enhanced damages (drafting inference)."
+      "**Opinions:** Failing to obtain or present advice of counsel cannot be used to prove wilful infringement or intent to induce infringement (35 U.S.C. § 298), but relying on an opinion can still waive privilege, and courts differ on whether the omission may be weighed in setting the amount of any enhanced damages (drafting inference)."
      ],
      "owner": [
       "Patent counsel",
