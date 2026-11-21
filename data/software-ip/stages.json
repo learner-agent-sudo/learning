@@ -2444,7 +2444,7 @@
     "points": [
      "**Program exclusion:** a program for a computer is not patentable as such (Patents Act 1977 s.1(2)(c)).",
      "**Neural networks on hardware:** an artificial neural network is a computer program but is not excluded merely as such when implemented on hardware (Emotional Perception [2026] UKSC 3, 11 February 2026; reported; check).",
-     "**Employee inventions:** an invention made in normal duties belongs to the employer, with compensation where the patent is of outstanding benefit (Patents Act 1977 ss.39-41; Shanks v Unilever [2019] UKSC 45)."
+     "**Employee inventions:** an invention made in normal or specifically assigned duties, where an invention might reasonably be expected to result, belongs to the employer, with compensation where the patent is of outstanding benefit (Patents Act 1977 ss.39-41; Shanks v Unilever [2019] UKSC 45)."
     ]
    },
    {
@@ -6926,14 +6926,14 @@
     "place": "EU",
     "points": [
      "**AI model copyright policy:** a general-purpose AI model provider must have a copyright policy and publish a training-content summary (Regulation (EU) 2024/1689, Art. 53(1)(c)-(d)).",
-     "**Open-source models:** they are exempt only from the documentation duties in Art. 53(1)(a)-(b) (Art. 53(2)), not from the copyright duties."
+     "**Open-source models:** they are exempt only from the documentation duties in Art. 53(1)(a)-(b) (Art. 53(2)), not from the copyright duties, and models with systemic risk get no exemption."
     ]
    },
    {
     "place": "UK",
     "points": [
      "**Broadly the same:** no UK rule specific to the notices of a permissive licence is identified, so the notices are read as ordinary copyright permissions with conditions, since programs are literary works (CDPA 1988 s.3(1)(b)) (drafting inference).",
-     "**Model training:** a trained model was not an 'infringing copy' in Getty Images v Stability AI [2025] EWHC 2863 (Ch), 4 November 2025; permission to appeal was granted (reported; check)."
+     "**Model training:** a trained model was not an 'infringing copy' in Getty Images v Stability AI [2025] EWHC 2863 (Ch), 4 November 2025, after Getty dropped its claim over the training itself, which took place outside the UK; permission to appeal was granted (reported; check)."
     ]
    },
    {
@@ -12023,7 +12023,7 @@
     "place": "UK",
     "points": [
      "**Employee works:** the employer is first owner of works made in employment, subject to agreement (CDPA 1988 s.11(2)).",
-     "**Employee inventions:** inventions made in normal duties belong to the employer, with compensation for outstanding benefit (Patents Act 1977 ss.39-41; Shanks v Unilever [2019] UKSC 45)."
+     "**Employee inventions:** inventions made in normal or specifically assigned duties, where an invention might reasonably be expected to result, belong to the employer, with compensation for outstanding benefit (Patents Act 1977 ss.39-41; Shanks v Unilever [2019] UKSC 45)."
     ]
    },
    {
@@ -14847,7 +14847,7 @@
   ],
   "virtualBankNotes": [
    "**Third-party guidance:** The agencies' 2023 guidance (88 Fed. Reg. 37920) covers the whole life cycle of third-party relationships, so open source vendors and their support contracts fall within the bank's programme (drafting inference).",
-   "**Model risk:** Vendor models and AI tools may fall within model risk guidance, which the agencies replaced on 17 April 2026 (Federal Reserve SR 26-2; OCC Bulletin 2026-13). Keep the inventory of models and their owners current.",
+   "**Model risk:** Vendor models, including AI models other than generative and agentic AI, may fall within model risk guidance, which the agencies replaced on 17 April 2026 (Federal Reserve SR 26-2; OCC Bulletin 2026-13). Keep the inventory of models and their owners current.",
    "**NYDFS duties:** For covered entities, 23 NYCRR 500.8 covers evaluating the security of externally developed applications, and 500.11 requires a third-party service provider security policy.",
    "**Examiner requests:** Keep vendor diligence files, SBOMs and open source reviews retrievable and tied to each deal, because examiners ask for them as evidence of control (good practice).",
    "**Partner use of marks:** A fintech partner that uses the bank's name or logo needs quality control. Without it, the mark may be abandoned through naked licensing (Barcamerica International USA Trust v. Tyfield Importers, Inc., 289 F.3d 589 (9th Cir. 2002)) (reported; check)."
@@ -14877,7 +14877,7 @@
    {
     "place": "UK",
     "points": [
-     "**Employee code and inventions:** the employer is first owner of employee works, subject to agreement (CDPA 1988 s.11(2)), and of employee inventions made in normal duties (Patents Act 1977 ss.39-41), so trace both.",
+     "**Employee code and inventions:** the employer is first owner of employee works, subject to agreement (CDPA 1988 s.11(2)), and of employee inventions made in normal or specifically assigned duties where an invention might reasonably be expected to result (Patents Act 1977 ss.39-41), so trace both.",
      "**Outside the UPC:** the UK is not part of the Unified Patent Court (opened 1 June 2023), so UK patents need separate diligence."
     ]
    },
@@ -16311,7 +16311,7 @@
      "detail": [
       "**List the models:** Record each AI model, its version, its provider and where it runs, including models inside the target's products and build tools (good practice).",
       "**Read the model terms:** Check each licence and use policy, since open weights often carry user thresholds and use limits, such as the separate Llama 4 licence above 700 million monthly active users (reported; check).",
-      "**Trace the training data:** Ask what each model was trained on and under what rights, since courts have treated training on pirated copies differently from training on lawfully acquired books (Bartz v. Anthropic PBC, N.D. Cal. 23 June 2025).",
+      "**Trace the training data:** Ask what each model was trained on and under what rights, since one court treated building a library from pirated copies differently from training on lawfully acquired books (Bartz v. Anthropic PBC, N.D. Cal. 23 June 2025).",
       "**Do not assume open means free:** Treat a model as open source only if it meets the OSI Open Source AI Definition 1.0, and read its licence before assuming it can be used commercially (reported; check)."
      ],
      "owner": [
@@ -17601,7 +17601,7 @@
    "**Training:** Early decisions point in different directions on whether training is [[fair use]]. Training on lawfully acquired books was held fair use in Bartz, but building a library from pirated copies was not (17 U.S.C. § 107).",
    "**Output:** AI tools can reproduce licensed code word for word. The copy keeps its licence, so distributing it brings the licence conditions with it, and stripping notices can engage [[copyright management information]] rules (17 U.S.C. § 1202(b)).",
    "**Model licences:** A released model comes under its own licence, which can limit use, set user thresholds and restrict outputs. Read it as a contract and do not assume it is open source (good practice).",
-   "**Bank overlay:** Model risk, third-party and NYDFS guidance all reach the AI tools and models the bank uses, and prompts can expose trade secrets and customer data (good practice)."
+   "**Bank overlay:** Third-party and NYDFS guidance reach the AI tools and models the bank uses, model risk guidance reaches those that are not generative or agentic AI and models the bank uses, and prompts can expose trade secrets and customer data (good practice)."
   ],
   "conceptMap": {
    "type": "hub",
@@ -17981,7 +17981,7 @@
    "**Pin model versions:** A model update can change output and licence terms, so pin the version in use and record it as a dependency (good practice)."
   ],
   "virtualBankNotes": [
-   "**Model risk:** The model risk guidance (SR 11-7 and OCC Bulletin 2011-12) was replaced on 17 April 2026 by SR 26-2 and OCC Bulletin 2026-13. Test whether an AI model that informs decisions is in scope under the bank's own model policy.",
+   "**Model risk:** The model risk guidance (SR 11-7 and OCC Bulletin 2011-12) was replaced on 17 April 2026 by SR 26-2 and OCC Bulletin 2026-13, which leave generative and agentic AI models out of their scope. Test whether an AI model that informs decisions is in scope under the bank's own model policy.",
    "**Third-party guidance:** The interagency third-party guidance (88 Fed. Reg. 37920) is technology-neutral. It covers AI vendors across the life of the relationship, not as a separate AI rule (drafting inference).",
    "**NYDFS:** Covered entities must have written procedures for secure development (23 NYCRR 500.8) and a third-party service provider policy (23 NYCRR 500.11). AI tools that touch code or data fall within those controls (drafting inference).",
    "**Customer data and secrecy:** Prompts that carry customer data or confidential code can weaken the secrecy the bank needs to keep trade secret status, which depends on reasonable measures (18 U.S.C. § 1839(3)).",
@@ -18005,16 +18005,16 @@
    {
     "place": "EU",
     "points": [
-     "**Training summary duty:** providers of general-purpose AI models must have a copyright policy and publish a training-content summary, from 2 August 2025 (AI Act, Regulation (EU) 2024/1689, Art. 53(1)(c)-(d)).",
-     "**Open models keep copyright duties:** open-source models are exempt only from the documentation duties in Art. 53(1)(a)-(b), not from the copyright duties (Art. 53(2)).",
-     "**Text and data mining:** Art. 4 of the DSM Directive allows text and data mining, subject to a machine-readable opt-out for online content (Directive (EU) 2019/790, Art. 4); Kneschke v LAION (Hamburg Regional Court, 27 September 2024) (reported; check)."
+     "**Training summary duty:** providers of general-purpose AI models must have a copyright policy and publish a training-content summary, from 2 August 2025, or by 2 August 2027 for models already on the market before then (AI Act, Regulation (EU) 2024/1689, Art. 53(1)(c)-(d), Art. 111(3)).",
+     "**Open models keep copyright duties:** open-source models are exempt only from the documentation duties in Art. 53(1)(a)-(b), not from the copyright duties, and models with systemic risk get no exemption (Art. 53(2)).",
+     "**Text and data mining:** Art. 4 of the DSM Directive allows text and data mining, subject to a machine-readable opt-out for online content (Directive (EU) 2019/790, Art. 4); Kneschke v LAION (Hamburg Regional Court, 27 September 2024), decided mainly under the scientific research exception in Art. 3 (reported; check)."
     ]
    },
    {
     "place": "UK",
     "points": [
      "**Computer-generated works:** the author is the person who made the arrangements necessary for creation, with a 50-year term (CDPA 1988 s.9(3), s.12(7)), unlike the US position on authorship.",
-     "**Training claims:** Getty Images v Stability AI [2025] EWHC 2863 (Ch) held a trained model was not an infringing copy, with permission to appeal granted (reported; check)."
+     "**Training claims:** Getty Images v Stability AI [2025] EWHC 2863 (Ch) held a trained model was not an infringing copy, with permission to appeal granted; Getty had dropped its claim over the training itself, which took place outside the UK (reported; check)."
     ]
    },
    {
@@ -18229,7 +18229,7 @@
    },
    {
     "term": "model risk management",
-    "definition": "The bank's framework for identifying, validating and governing models that inform decisions, shaped by supervisory model risk guidance. The guidance was reported replaced in April 2026 (reported; check)."
+    "definition": "The bank's framework for identifying, validating and governing models that inform decisions, shaped by supervisory model risk guidance. The guidance was replaced on 17 April 2026 (Federal Reserve SR 26-2; OCC Bulletin 2026-13)."
    },
    {
     "term": "de minimis",
@@ -19431,7 +19431,7 @@
   "virtualBankNotes": [
    "**Product approval:** Put the IP triage into the bank's new product approval record. The OCC expects new products and services to be risk-assessed before launch, as Bulletin 2017-43 sets out (check current status).",
    "**Third-party risk:** The interagency guidance (88 Fed. Reg. 37920) covers the whole life cycle of third-party relationships, including contracting, and the agencies say it adds no new requirements (reported; check). SDK, API and AI model providers belong in the vendor inventory (drafting inference).",
-   "**Model risk for AI features:** SR 11-7 and OCC Bulletin 2011-12 were rescinded on 17 April 2026 and replaced by OCC Bulletin 2026-13 and SR 26-2. Whether the replacement applies from that date or from 2027 is unsettled, and commentary reports that it does not cover generative or agentic AI. Ask the model risk team which policy governs an AI feature (drafting inference).",
+   "**Model risk for AI features:** SR 11-7 and OCC Bulletin 2011-12 were rescinded on 17 April 2026 and replaced by OCC Bulletin 2026-13 and SR 26-2. Whether the replacement applies from that date or from 2027 is unsettled, and the agencies say it does not cover generative or agentic AI models. Ask the model risk team which policy governs an AI feature (drafting inference).",
    "**Customer terms:** Terms accepted by clickwrap need clear notice and an action that shows assent (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017); reported; check). Product should not change a sign-up flow without counsel's review of the terms (good practice).",
    "**Vendor AI indemnities:** Vendor IP indemnities for AI output are conditional. Microsoft's Copilot Copyright Commitment, for example, depends on the customer using the built-in guardrails and not deliberately generating infringing material (reported; check). Product should know those conditions, because the bank loses the protection if it steps outside them (good practice)."
   ],
