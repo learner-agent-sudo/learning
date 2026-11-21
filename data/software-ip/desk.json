@@ -4110,7 +4110,7 @@
      "core": true,
      "pin": {
       "stage": "releasing",
-      "quote": "Apache-2.0 gives an express patent licence and ends it for a licensee who sues over the work"
+      "quote": "Apache-2.0 gives an express patent licence and ends it for a licensee who sues claiming the work infringes a patent"
      }
     },
     {

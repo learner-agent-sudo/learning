@@ -11552,7 +11552,7 @@
   "keyPoints": [
    "Releasing code is a grant of rights. The licence tells outsiders what they may do, so the bank must own the code, or hold a licence to it, before it grants anything.",
    "**Ownership:** Under the Copyright Act (17 U.S.C. § 201(b)), code written by employees within the scope of their jobs belongs to the bank as a work made for hire, unless the parties agree otherwise in writing. Contractor and vendor code needs a signed transfer or a licence first (17 U.S.C. § 204(a)).",
-   "**Licence choice:** Apache-2.0 gives an express patent licence and ends it for a licensee who sues over the work. MIT says nothing about patents. Copyleft licences add duties on whoever distributes the code.",
+   "**Licence choice:** Apache-2.0 gives an express patent licence and ends it for a licensee who sues claiming the work infringes a patent. MIT says nothing about patents. Copyleft licences add duties on whoever distributes the code.",
    "**Clean-up:** Secrets, customer data, internal hostnames and security-sensitive logic come out before the first public push. Published code can no longer meet the secrecy test for a trade secret (18 U.S.C. § 1839(3)).",
    "**Contributions:** Outside code reaches the project by sign-off (DCO) or by a contributor licence agreement (CLA). Only an assignment moves title to the bank (17 U.S.C. § 204(a)).",
    "**Counsel's role:** Approve the release in writing, and record the licence, the provenance and the export answer. Keep the bank's names and marks outside the grant (Apache-2.0 s.6)."
@@ -11614,7 +11614,7 @@
       {
        "label": "Employee",
        "value": "Work made for hire",
-       "note": "The bank is the author unless the parties agreed otherwise in a signed writing (17 U.S.C. § 201(b))"
+       "note": "The bank is the author, and owns the rights unless the parties agreed otherwise in a signed writing (17 U.S.C. § 201(b))"
       },
       {
        "label": "Contractor",
@@ -11634,7 +11634,7 @@
      ]
     },
     "points": [
-     "**Employees:** Under the Copyright Act (17 U.S.C. § 201(b)), code an employee writes within the scope of employment is a work made for hire, so the bank is the author unless the parties agreed otherwise in a signed writing.",
+     "**Employees:** Under the Copyright Act (17 U.S.C. § 201(b)), code an employee writes within the scope of employment is a work made for hire, so the bank is the author and, unless the parties agreed otherwise in a signed writing, owns the rights.",
      "**Contractors:** Software from an independent contractor usually falls outside the nine work made for hire categories, so the bank needs a signed transfer for title (17 U.S.C. §§ 101, 204(a)) or a licence to publish it.",
      "**Third-party code:** Code copied from another project keeps that project's licence, and its notices must stay with it (Apache-2.0 s.4(c)). Record the source and the licence for each piece.",
      "**Vendor terms:** Check the vendor contract for ownership and licence-back terms before the bank publishes what a vendor built (good practice).",
@@ -11814,7 +11814,7 @@
      "**Export:** Software that is published is generally outside the Export Administration Regulations (15 C.F.R. § 734.3(b)(3); reported; check). Encryption source that implements [[non-standard cryptography]] may still need a notification (15 C.F.R. § 742.15(b); reported; check).",
      "**Approval:** Counsel approves the release in writing, after the title, scan and licence checks are signed off (good practice).",
      "**Record:** Keep the licence choice, the scan results, the export answer and the approver's name in one release record (good practice).",
-     "**Publishing:** The repository should carry the licence file, the NOTICE file where one applies, and changed-file notices (Apache-2.0 s.4(b), s.4(d))."
+     "**Publishing:** The repository should carry the licence file, the NOTICE file where one applies, and changed-file notices (Apache-2.0 s.4(a), (b), (d))."
     ],
     "takeaway": "A complete release record is the evidence an examiner or a buyer will ask for later."
    }
@@ -12001,7 +12001,7 @@
    "**Ask before any public push:** Tell counsel before a sample app, SDK or demo repository goes public, since a public push cannot be fully recalled and forks may keep copies (good practice).",
    "**Bring the title trail with the code:** Name the authors of each part, including contractors and vendors, and send each contractor or vendor deliverable with its signed transfer of title, or with a licence to publish it where title stays with the vendor, because contractor code stays with the contractor without a transfer (17 U.S.C. §§ 101, 204(a)).",
    "**Let product name the sensitive parts:** Ask engineering and product to flag secrets, customer data, internal hostnames and fraud or anti-abuse rules, and do not strip licence headers to tidy the repository (17 U.S.C. § 1202(b); Apache-2.0 s.4(c)).",
-   "**Agree the licence and the name early:** Apache-2.0 gives an express patent grant that ends for a licensee who sues over the work (Apache-2.0 s.3), so product should settle that choice with counsel, and the readme should say that the bank does not license its names or marks (Apache-2.0 s.6)."
+   "**Agree the licence and the name early:** Apache-2.0 gives an express patent grant that ends for a licensee who sues claiming the work infringes a patent (Apache-2.0 s.3), so product should settle that choice with counsel, and the readme should say that the bank does not license its names or marks (Apache-2.0 s.6)."
   ],
   "pitfalls": [
    "**Publishing first:** Pushing a repository public to test a feature before title and scan checks run. A public push cannot be fully recalled, and forks may keep copies (good practice).",
@@ -12085,7 +12085,7 @@
      "points": [
       "**Identification:** The right to be identified as author does not apply to a computer program (Cap. 528 s.91(2)(a)).",
       "**Integrity:** The right to object to derogatory treatment does not apply to a computer program (Cap. 528 s.93(2)).",
-      "**Other works:** Documentation and other non-program works in the repository may carry moral rights, which can be waived by a signed writing but not assigned (Cap. 528 s.98(2)-(3); drafting inference).",
+      "**Other works:** Documentation and other non-program works in the repository may carry moral rights, which can be waived by a signed writing but not assigned (Cap. 528 ss.98(2)-(3), 105; drafting inference).",
       "**Contributor terms:** Release and contributor terms should take any waiver and any attribution promise that the bank needs (good practice)."
      ],
      "takeaway": "Put any attribution promise and any moral rights waiver in the release or contributor terms, not in an assumed statutory right (good practice)."
@@ -12231,7 +12231,7 @@
    },
    {
     "term": "Secondary licence",
-    "definition": "A licence, such as one in the GPL family, that an MPL-2.0 covered file may also be distributed under, named in the Exhibit B notice (MPL-2.0 s.3.3)."
+    "definition": "One of GPL-2.0, LGPL-2.1, AGPL-3.0 or a later version of them (MPL-2.0 s.1.12). Where MPL-2.0 covered software is combined with code under such a licence, it may also be distributed under that licence, unless the file carries the Exhibit B notice that it is incompatible with secondary licences (MPL-2.0 s.3.3)."
    },
    {
     "term": "Source offer",
@@ -12606,7 +12606,7 @@
      "detail": [
       "**Check for a signed writing:** A transfer of copyright needs a writing signed by the owner (17 U.S.C. § 204(a)). Contractor code is usually not a work made for hire, so get a signed assignment before release (§ 101; § 201(b)).",
       "**Check the wording:** The assignment should transfer ownership of the code, not just a licence, and should cover code written before the agreement was signed (good practice).",
-      "**Note the termination risk:** A grant by an author executed after 1 January 1978 can be terminated in a five-year window, notwithstanding any contrary agreement (17 U.S.C. § 203(a)(3), (a)(5)). Long-lived code carries that risk."
+      "**Note the termination risk:** A grant by an author executed on or after 1 January 1978 can be terminated in a five-year window, notwithstanding any contrary agreement (17 U.S.C. § 203(a)(3), (a)(5)). Long-lived code carries that risk."
      ],
      "owner": [
       "Legal",
@@ -12655,7 +12655,7 @@
      "title": "Inventory third-party code and confirm its licence allows release",
      "detail": [
       "**Inventory the components:** List each third-party component in the release with its licence identifier and version. Code with no licence gives no permission to copy, so it cannot go out until its owner grants one (drafting inference).",
-      "**Test each licence against the outbound one:** A permissive component fits most outbound choices. Conveying a modified GPL-3.0 work in source form requires licensing the whole work under GPL-3.0 (GPL-3.0 s.5(c)).",
+      "**Test each licence against the outbound one:** A permissive component fits most outbound choices. Conveying a modified GPL-3.0 work, in source or object form, requires licensing the whole work under GPL-3.0 (GPL-3.0 s.5(c), s.6).",
       "**Keep the notices:** Keep each component's copyright and licence notices in the release. Removing them can also engage the copyright management information rules (17 U.S.C. § 1202(b); reach to licence notices reported; check)."
      ],
      "owner": [
@@ -12702,7 +12702,7 @@
      "phase": "title",
      "title": "Handle AI-assisted code: authorship and match checks",
      "detail": [
-      "**Record the human authorship:** Human authorship is required for registration (Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025)). Prompts alone are not enough control, but human expression in the output, or human selection and arrangement, can be protected.",
+      "**Record the human authorship:** Human authorship is required for copyright protection (Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025)). Prompts alone are not enough control, but human expression in the output, or human selection and arrangement, can be protected.",
       "**Disclose in any registration:** The Copyright Office's policy expects AI-generated material that is more than de minimis to be excluded from the claim and described in the application (agency policy, not statute) (88 Fed. Reg. 16190 (16 March 2023)).",
       "**Check for matches:** Scan AI-suggested code for verbatim matches to licensed code before release, since copied code brings its original licence terms with it (good practice)."
      ],
@@ -13117,7 +13117,7 @@
      "phase": "licence",
      "title": "Copyleft outbound: confirm the bank wants reciprocity",
      "detail": [
-      "**Confirm the reciprocity:** A GPL-3.0 work conveyed in source form must be licensed as a whole under GPL-3.0, so recipients keep the same freedoms (GPL-3.0 s.5(c)). Check that the bank wants that outcome.",
+      "**Confirm the reciprocity:** A GPL-3.0 work conveyed in source or object form must be licensed as a whole under GPL-3.0, so recipients keep the same freedoms (GPL-3.0 s.5(c), s.6). Check that the bank wants that outcome.",
       "**Note the network term:** AGPL-3.0 s.13 requires a modified version to offer its source to users who interact with it remotely over a network. A bank that modifies an AGPL-3.0 program and runs the modified version as a service must offer its source to remote users (AGPL-3.0 s.13).",
       "**Consider the file-level option:** MPL-2.0 is file-level copyleft. Changed files must be shared in source form, but a larger work may be distributed under other terms (MPL-2.0 s.3.3)."
      ],
@@ -13271,7 +13271,7 @@
      "phase": "licence",
      "title": "Documentation and data: choose a content licence",
      "detail": [
-      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link, each only if the licensor supplied it, and the link only where reasonably practicable (CC-BY-4.0 s.3(a)(1)).",
+      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link where the licensor supplied them, the link only where reasonably practicable, and in every case to say whether the material was modified and that it is under CC BY 4.0, with the licence text or a link to it (CC-BY-4.0 s.3(a)(1)).",
       "**Check the waiver:** CC0-1.0 does not waive trademark or patent rights held by the person waiving (CC0-1.0 s.4(a)). Fedora stopped allowing CC0 for code in 2022 for that reason (reported; check).",
       "**Keep the licences apart:** A content licence on documentation does not change the licence of the code it describes. Keep the two licence files separate (good practice)."
      ],
@@ -13355,7 +13355,7 @@
      "detail": [
       "**Separate the two sets of terms:** The SDK licence governs copying and use of the code (Apache-2.0 s.2). The API service terms govern use of the bank's service, so keep them in separate documents (good practice).",
       "**Ship the licence with the code:** Give each recipient the SDK licence text with the distribution, as Apache-2.0 requires (Apache-2.0 s.4(a)).",
-      "**Limit added terms:** Apache-2.0 lets a distributor add terms only for its own modifications or for derivative works as a whole, not for the SDK code as released (Apache-2.0 s.4). Keep API restrictions out of the SDK licence."
+      "**Limit added terms:** Apache-2.0 lets a downstream distributor add terms only for its own modifications or for derivative works as a whole (Apache-2.0 s.4). The bank as licensor is not bound by that rule, but terms that restrict use of the SDK would make it something other than a plain Apache-2.0 release (drafting inference). Keep API restrictions out of the SDK licence."
      ],
      "owner": [
       "Legal",
@@ -13629,7 +13629,7 @@
      "detail": [
       "**Apache-2.0 grants a patent licence:** Each contributor licenses the patent claims its contribution necessarily infringes. That licence ends if the licensee sues over patent infringement by the work (Apache-2.0 s.3).",
       "**MIT has no patent clause:** The MIT text grants no express patent licence, so a release under it should not be presented as a patent grant. MPL-2.0 s.2.1(b), by contrast, licenses the contributor's patent claims over its contribution (drafting inference).",
-      "**GPL-3.0 conditions its patent licence:** A party conveying a covered work that relies on a patent licence, and does not make its source available, must provide the source, give up the licence for that work or extend it to recipients (GPL-3.0 s.11).",
+      "**GPL-3.0 conditions its patent licence:** A party conveying a covered work while knowingly relying on a patent licence, where the source is not publicly available free of charge, must provide the source, give up the licence for that work or extend it to recipients (GPL-3.0 s.11).",
       "**Name the licensed claims:** Where the bank contributes, its patent licence reaches the claims its contribution necessarily infringes, so the approval should say which claims those are (good practice)."
      ],
      "owner": [
@@ -13840,7 +13840,7 @@
      ],
      "detail": [
       "**Registration:** A registered trade mark is a property right (Cap. 559 s.10(1)). An unregistered name is protected only by passing off, because the Ordinance gives no infringement action for it (s.10(3)), so a name that matters as a brand should be registered in Hong Kong (drafting inference).",
-      "**Markings:** Do not describe an unregistered mark as registered, or use the registered symbol for it. Using the word 'registered' in Hong Kong is treated as a representation of registration here (s.94(2)), and a knowing false representation is an offence with a level 3 fine (s.94(1)).",
+      "**Markings:** Do not describe an unregistered mark as registered, or use the registered symbol for it. Using the word 'registered' in Hong Kong is treated as a representation of registration here, unless it refers to a registration elsewhere that in fact exists for those goods or services (s.94(2)), and a false representation made knowing, or having reason to believe, that it is false is an offence with a level 3 fine (s.94(1)).",
       "**Name search:** Run a search before the name appears in public material, so the bank does not build a brand on a name it cannot register (good practice)."
      ],
      "owner": [
@@ -13938,7 +13938,7 @@
      "detail": [
       "**Name at least two maintainers:** Give named maintainers authority to merge changes and to release security fixes, so one departure does not stop the project (good practice).",
       "**Publish response times:** State how quickly the project answers security reports and pull requests, and what it will not support, so users can plan (good practice).",
-      "**Name a takedown contact:** Give one person the handling of copyright takedown notices and licence complaints. The notice-and-takedown safe harbour for hosts depends on acting on valid notices and on a designated agent registered with the Copyright Office (17 U.S.C. § 512(c)(2))."
+      "**Name a takedown contact:** Give one person the handling of copyright takedown notices and licence complaints. The notice-and-takedown safe harbour for hosts depends on acting on valid notices and on a designated agent registered with the Copyright Office (17 U.S.C. § 512(c)(1)(C), (c)(2))."
      ],
      "owner": [
       "Engineering",
@@ -14049,7 +14049,7 @@
      "phase": "governance",
      "title": "Foundation hosting: transfer assets and marks under its rules",
      "detail": [
-      "**Transfer copyright in writing:** Moving code to a foundation transfers ownership, which is valid only if an instrument signed by the owner records it (17 U.S.C. § 204(a)). A patent assignment must be in writing, and recording it within three months, or before a later purchase, protects it against later buyers (35 U.S.C. § 261).",
+      "**Transfer copyright in writing:** Where the foundation takes ownership of the code, rather than a licence to it, the transfer is valid only if an instrument signed by the owner records it (17 U.S.C. § 204(a)). A patent assignment must be in writing, and recording it within three months, or before a later purchase, protects it against later buyers (35 U.S.C. § 261).",
       "**Read the foundation's IP rules:** Foundations such as FINOS, the Linux Foundation and the Apache Software Foundation set their own contribution and IP terms, which may require particular licences or contributor paperwork (good practice).",
       "**Keep the governance terms:** Decide what the bank keeps, such as maintainer seats, marks and an exit right, before the transfer, because the foundation's rules govern the project afterwards (good practice)."
      ],
