@@ -19517,7 +19517,7 @@
       "**Comparative claims:** Using a competitor's registered mark to identify its goods or services does not infringe if the use is in accordance with honest practices in industrial or commercial matters, and the court may weigh unfair advantage, detriment to the mark's distinctive character or repute, and deception (Cap. 559 s.21(1)-(2)). This is the rule comparative advertising meets (drafting inference); how the courts apply it to comparative advertising is reported only (reported; check).",
       "**Trade descriptions:** The false trade description offence for services and the unfair trade practice offences (misleading omissions, aggressive practices, bait advertising, bait and switch, wrongly accepting payment) apply to a \"product\", which excludes goods or services a bank authorised under the Banking Ordinance supplies where that supply is itself regulated under that Ordinance (Cap. 362 s.2, s.7A, ss.13E-13I, Sch. 4).",
       "**What stays in scope:** Goods and services outside that regulated supply, such as merchandise, a rewards item or a non-bank partner's offer shown in the app, can still fall within those offences (Cap. 362 Sch. 4; drafting inference).",
-      "**Online acceptance:** An offer and its acceptance may be expressed by electronic records, and the bank may prescribe how acceptance is given, such as a specific click or confirmation step (Cap. 553 s.17(1)-(3)).",
+      "**Online acceptance:** An offer and its acceptance may be expressed by electronic records, and section 17 keeps the common-law rule that the offeror, usually the bank, may prescribe how acceptance is given, such as a specific click or confirmation step (Cap. 553 s.17(1)-(3)).",
       "**Exclusion clauses:** The bank's customer terms cannot exclude liability for death or personal injury caused by negligence, and other exclusions of negligence liability, or of contract liability against a consumer or on the bank's written standard terms, must be reasonable, which the bank must prove (Cap. 71 s.3(6), s.7, s.8). In a consumer contract the court may also refuse to enforce an unconscionable term, and the customer must prove the unconscionability (Cap. 458 s.5)."
      ],
      "takeaway": "Review each launch claim and each change to customer terms against these rules, and treat the HKMA's conduct expectations as the main control on regulated banking products (good practice)."
@@ -20915,7 +20915,7 @@
       "hk"
      ],
      "detail": [
-      "**Acceptance:** An offer and its acceptance may be expressed by electronic records (Cap. 553 s.17(1)-(2)), and the bank may prescribe how acceptance is given (s.17(3)). Acceptance by conduct alone is a common-law question, not covered by section 17 (drafting inference).",
+      "**Acceptance:** An offer and its acceptance may be expressed by electronic records (Cap. 553 s.17(1)-(2)), and s.17(3) keeps the common-law rule that the offeror, usually the bank, may prescribe how acceptance is given. Acceptance by conduct alone is a common-law question, not covered by section 17 (drafting inference).",
       "**Exclusions:** Liability for death or personal injury from negligence cannot be excluded (Cap. 71 s.7(1)). Other exclusions must be reasonable, the bank must prove that they are (s.3(6)), and section 8 applies to consumers and written standard terms (s.8(1)-(2)).",
       "**Unconscionability:** Relief for an unconscionable term is available only in consumer contracts for goods or services (Cap. 458 s.5(1)), so consumer terms should be fair when they are made."
      ],
