@@ -112,11 +112,15 @@ export default function SoftwareIpAboutPage() {
         Every statute and licence citation is also matched automatically against the extracted text: one that does
         not resolve fails the build. Stage 16, the product team cards and the Feature review were made the same way in
         November 2026 from a second set of checked points. The Desk&apos;s questions were written on a stronger model;
-        its answers are the stages&apos; own sentences, and nothing on the Desk is new legal text.
+        its answers are the stages&apos; own sentences, and nothing on the Desk is new legal text. Later in November
+        2026 the whole volume, Hong Kong tabs included, was reviewed for accuracy on that stronger model, stage by
+        stage and then by theme, against the held statute and licence text; nearly 300 statements were corrected,
+        each correction was checked a second time, and points that could not be confirmed stay marked
+        &ldquo;reported; check&rdquo;.
       </p>
       <p>
-        The stages carry a <em>Fact-check pending</em> badge until an independent review of their case citations
-        and guidance references is complete.
+        That review was not independent, so the stages still carry a <em>Fact-check pending</em> badge until an
+        independent review of their case citations and guidance references is complete.
       </p>
 
       <h2>Disclaimer</h2>
