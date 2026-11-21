@@ -2923,7 +2923,7 @@
      "beat": "bank",
      "pin": {
       "stage": "copyleft",
-      "quote": "Publish a source offer with each binary, or a written offer valid for at least three years, and keep the source available for as long as the offer runs."
+      "quote": "Publish a source offer with each binary, or, under GPL-2.0 or for a GPL-3.0 physical product, a written offer valid for at least three years"
      }
     },
     {
@@ -2980,7 +2980,7 @@
        "beat": "rule",
        "pin": {
         "stage": "copyleft",
-        "quote": "LGPL lets a combined work carry the user's terms if the user can relink or replace the library and reverse engineer for debugging"
+        "quote": "LGPL lets a combined work carry the distributor's own terms if the recipient can relink or replace the library and reverse engineer for debugging"
        }
       },
       {
@@ -7648,7 +7648,7 @@
      "core": true,
      "pin": {
       "stage": "copyleft",
-      "quote": "Under Hong Kong copyright, a copyleft duty starts with the restricted acts, chiefly issuing copies to the public and making adaptations, so the bank's distribution and modification choices decide the scope."
+      "quote": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations"
      }
     },
     {
@@ -7697,7 +7697,7 @@
        "beat": "bank",
        "pin": {
         "stage": "copyleft",
-        "quote": "A modified or ported copyleft program is an adaptation, so the modification must fit the licence when it is made, whether or not it is ever distributed."
+        "quote": "A modified or ported copyleft program is an adaptation, so it needs the licence's permission when it is made"
        }
       }
      ]

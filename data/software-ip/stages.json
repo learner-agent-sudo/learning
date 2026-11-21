@@ -6946,10 +6946,10 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Hong Kong treats a permissive licence as a copyright permission and a contract, with no separate regime for notices. Two points differ from the US position: removing rights management information gives a civil remedy only against a person who knows or has reason to believe the act conceals infringement (Cap. 528 s.274(2A)), and Apache-2.0's patent grant is not limited to one jurisdiction, so it reaches a Hong Kong patent that a contributor owns over its contribution (Apache-2.0 s.3).",
+   "summary": "Hong Kong treats a permissive licence as a copyright permission and a contract, with no separate regime for notices. Two points stand out: removing rights management information gives only a civil remedy, with no criminal offence of the US kind, and only against a person who knows or has reason to believe the act induces, enables, facilitates or conceals infringement (Cap. 528 s.274(2A)), and Apache-2.0's patent grant is not limited to one jurisdiction, so it reaches a Hong Kong patent that a contributor owns over its contribution (Apache-2.0 s.3).",
    "keyPoints": [
     "**Permission, not transfer:** A permissive licence authorises the restricted acts it names, and the copyright itself stays with the author (Cap. 528 s.22(1)-(2); drafting inference).",
-    "**Notices:** Removing or altering electronic rights management information without authority gives copyright-type remedies only against a person who knows or has reason to believe the act conceals infringement (Cap. 528 s.274(2), (2A)).",
+    "**Notices:** Removing or altering electronic rights management information without authority gives copyright-type remedies only against a person who knows or has reason to believe the act induces, enables, facilitates or conceals infringement (Cap. 528 s.274(2), (2A)).",
     "**Knowledge for third-party code:** Possessing or distributing an infringing copy in a trade or business is secondary infringement only where the person knows or has reason to believe the copy is infringing (Cap. 528 s.31(1)(a)-(c)).",
     "**Patents:** A copyright licence does not clear patents. Among the common permissive texts, only Apache-2.0 has an express patent grant (Apache-2.0 s.3), and Hong Kong patents follow the Patents Ordinance (drafting inference).",
     "**Counsel's job:** Approve only known licence texts, and make sure the notice reaches every app, image and SDK the bank ships (good practice)."
@@ -6973,7 +6973,7 @@
       "**Trade possession and distribution:** Possessing, selling or distributing an infringing copy in the course of a trade or business is infringement only where the person knows or has reason to believe the copy is infringing (Cap. 528 s.31(1)(a)-(c), (2)).",
       "**Distribution outside trade:** Distribution outside trade counts only where it affects the owner prejudicially, judged by the factors in s.31(3) (Cap. 528 s.31(1)(d), (3)).",
       "**Authorising others:** A person who authorises another to do a restricted act infringes, and the court may weigh that person's control and any reasonable steps to stop it (Cap. 528 s.22(2), (2A)).",
-      "**Porting permissive code:** Porting a permissive library to another language is an adaptation (Cap. 528 s.29(3)(b), (4)). A lawful user may adapt only where that is necessary for lawful use (Cap. 528 s.61(1))."
+      "**Porting permissive code:** Porting a permissive library to another language is an adaptation (Cap. 528 s.29(3)(b), (4)). The permissive licence itself permits that; without it, a lawful user may adapt only where that is necessary for lawful use (Cap. 528 s.61(1))."
      ],
      "takeaway": "Record how each third-party component came into the bank, because knowledge or reason to believe is the test for liability (good practice)."
     },
@@ -7117,8 +7117,8 @@
   "keyPoints": [
    "For GPL, LGPL and MPL code, the duties arise when the bank conveys copies to others (network copyleft is covered separately). Running software inside the bank, or letting users reach it over a network, is not [[conveying|conveying]] under GPL-3.0 (GPL-3.0 s.0).",
    "**Strong copyleft:** A work based on GPL code, when distributed, must be licensed as a whole under the GPL (GPL-2.0 s.2(b); GPL-3.0 s.5(c)). Mere aggregation on a shared medium does not spread the licence (GPL-2.0 s.2).",
-   "**Weak copyleft:** LGPL lets a combined work carry the user's terms if the user can relink or replace the library and reverse engineer for debugging (LGPL-2.1 s.6; LGPL-3.0 s.4). MPL-2.0 is file-level, so a [[Larger Work|Larger Work]] may carry other terms (MPL-2.0 s.3.3).",
-   "**Source duty:** Each binary must come with its [[Corresponding Source|Corresponding Source]], or with a written offer valid for at least three years (GPL-2.0 s.3(b); GPL-3.0 s.6). Installation information duties apply only when object code is conveyed in a User Product (in essence a consumer product) and possession and use pass to the recipient (GPL-3.0 s.6).",
+   "**Weak copyleft:** LGPL lets a combined work carry the distributor's own terms if the recipient can relink or replace the library and reverse engineer for debugging (LGPL-2.1 s.6; LGPL-3.0 s.4). MPL-2.0 is file-level, so a [[Larger Work|Larger Work]] may carry other terms (MPL-2.0 s.3.3).",
+   "**Source duty:** Each binary must come with its [[Corresponding Source|Corresponding Source]], or with a written offer valid for at least three years (GPL-2.0 s.3(b)). Under GPL-3.0 the written offer is allowed only for object code in a physical product; a download needs equivalent access to the source, which may sit on another server if clear directions point to it (GPL-3.0 s.6(b), (d)). Installation information duties apply only when object code is conveyed in a User Product (in essence a consumer product) and possession and use pass to the recipient (GPL-3.0 s.6).",
    "**Breach:** GPL-2.0 s.4 ends the licence on any breach, and the text gives no cure period. GPL-3.0 s.8 permanently reinstates a licensee who cures within 30 days after receiving the first notice from that copyright holder (GPL-3.0 s.8).",
    "**Counsel's role:** Make copyleft a release gate. Confirm which code is conveyed, to whom and in which form, before each release (good practice)."
   ],
@@ -7328,7 +7328,7 @@
      ]
     },
     "points": [
-     "**LGPL-2.1:** A combined work may be distributed on the user's terms if they permit modification for the user's own use and reverse engineering for debugging such modifications (LGPL-2.1 s.6).",
+     "**LGPL-2.1:** A combined work may be distributed on the distributor's own terms if they permit modification for the customer's own use and reverse engineering for debugging such modifications (LGPL-2.1 s.6).",
      "**LGPL-3.0:** The combined work must come with the GPL and LGPL texts. The bank then either conveys minimal Corresponding Source with the application code or uses a shared library the user can replace (LGPL-3.0 s.4(d)).",
      "**MPL-2.0:** Covered software distributed in source form stays under the MPL, and an executable must be accompanied by a way to obtain its source (MPL-2.0 s.3.1-3.2). A [[Larger Work|Larger Work]] may use other terms (MPL-2.0 s.3.3).",
      "**Secondary licences:** Where MPL-covered software is combined with work under a [[Secondary License|Secondary License]], the covered software may also be distributed under that licence, unless it carries the Exhibit B notice (MPL-2.0 s.3.3; Exhibit B).",
@@ -7553,7 +7553,7 @@
   "checklist": [
    "**Inventory every copyleft component** with its SPDX identifier, version, the products that convey it and its linking pattern, drawn from the software bill of materials.",
    "**Set a release gate:** Block any build that conveys GPL, LGPL, MPL or EPL code until the source offer, notices and licence texts are in place.",
-   "**Publish a source offer** with each binary, or a written offer valid for at least three years, and keep the source available for as long as the offer runs.",
+   "**Publish a source offer** with each binary, or, under GPL-2.0 or for a GPL-3.0 physical product, a written offer valid for at least three years, and keep the source available for as long as the offer runs.",
    "**Record the boundary** of each work: where copyleft code is linked or combined with bank code, and engineering sign-off on that design.",
    "**Keep notices intact:** Retain licence headers and the licence text with each copy, and do not strip per-file notices.",
    "**Treat internal copies with care:** Confirm that no copy leaves the bank or its group, and record the group-company position as a documented policy choice.",
@@ -7614,9 +7614,9 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Under Hong Kong copyright, a copyleft duty starts with the restricted acts, chiefly issuing copies to the public and making adaptations, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the lawful-user rules and on the licence itself (Cap. 528 ss.22(1)(a), (g), 37, 61).",
+   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the lawful-user rules and on the licence itself (Cap. 528 ss.22(1)(a), (g), 37, 61).",
    "keyPoints": [
-    "**Who can license:** The bank can put its own code under a copyleft licence only if it owns the copyright. Code written by an employee in the course of employment belongs to the employer (Cap. 528 s.14(1)), but commissioned code belongs to the contractor unless the contract expressly says otherwise, but the bank always has an exclusive licence to exploit it for the purposes contemplated at commissioning (Cap. 528 s.15(2)(a)) (Cap. 528 s.15(1)).",
+    "**Who can license:** The bank can put its own code under a copyleft licence only if it owns the copyright. Code written by an employee in the course of employment belongs to the employer (Cap. 528 s.14(1)), and commissioned code belongs to the contractor unless the contract expressly gives the copyright to the bank (Cap. 528 ss.13, 15(1)), though the bank always has an exclusive licence to exploit it for the purposes contemplated at commissioning (Cap. 528 s.15(2)(a)).",
     "**Trigger:** Copyleft duties attach to conveying, which GPL-3.0 defines by reference to the acts copyright law restricts (GPL-3.0 s.0; Cap. 528 ss.22-29). Running software inside the bank is not conveying (GPL-3.0 s.0).",
     "**Lawful users:** A user with a contractual right to use a program may make a back-up copy unless the agreement says otherwise (Cap. 528 s.60(3)), and may copy or adapt it where necessary for lawful use, including to correct errors (Cap. 528 ss.60(1)-(2), 61(1)-(2)).",
     "**No decompilation right:** The Ordinance has no express decompilation or interoperability exception. Reverse engineering for interoperability is excused only in narrow cases, under the circumvention exception and the lawful-user rules (Cap. 528 s.273D(1); s.61).",
@@ -7666,7 +7666,7 @@
     {
      "kind": "statute",
      "instrument": "Copyright Ordinance (Cap. 528)",
-     "ref": "s.22(1)(a), (b), (g)",
+     "ref": "s.22(1)(a), (b), (fa), (g)",
      "title": "Acts restricted by copyright",
      "summary": "The owner has the exclusive right to copy the work, issue copies to the public, communicate it to the public and make an adaptation, and to do those acts in relation to an adaptation. Doing a restricted act without licence infringes.",
      "counselNote": "Each copy the bank makes or issues of copyleft code is a restricted act, so the licence is the only permission unless a statutory exception applies.",
@@ -7693,7 +7693,7 @@
      "ref": "s.29(1)-(2)",
      "title": "Adaptations",
      "summary": "Making an adaptation of a literary work is restricted, and so is doing a restricted act in relation to an adaptation. For a program, an adaptation includes an altered version or a translation.",
-     "counselNote": "A modified or ported copyleft program is an adaptation, so the modification must fit the licence when it is made, whether or not it is ever distributed.",
+     "counselNote": "A modified or ported copyleft program is an adaptation, so it needs the licence's permission when it is made. GPL-3.0 gives that permission without conditions for copies the bank does not convey (GPL-3.0 s.2).",
      "confidence": "high",
      "cap": "528",
      "section": "29",
@@ -8123,7 +8123,7 @@
     "instrument": "GNU Affero General Public License v3.0",
     "ref": "s.13",
     "title": "Remote network interaction",
-    "summary": "If you modify the program, your modified version must prominently offer the users who interact with it remotely through a computer network an opportunity to receive its Corresponding Source, at no charge, from a network server. The section also lets you combine the covered work with a GPL-3.0 work and convey the combined work, with the GPL-3.0 part staying under GPL-3.0, but the AGPL network source offer then applying to the combination as such.",
+    "summary": "If you modify the program, your modified version must prominently offer the users who interact with it remotely through a computer network an opportunity to receive its Corresponding Source, at no charge, from a network server. The section also lets you combine the covered work with a GPL-3.0 work and convey the combined work, with the GPL-3.0 part staying under GPL-3.0 and the AGPL terms still applying to the covered part. GPL-3.0 s.13 adds that the AGPL network clause then applies to the combination as such.",
     "counselNote": "The duty arises from modification plus remote use, and no distribution is needed. Count staff, partners and customers who use a modified service remotely as users, and build the source offer before launch.",
     "confidence": "high",
     "cap": "AGPL-3.0-only",
@@ -8325,7 +8325,7 @@
    "review": "draft",
    "summary": "Under Hong Kong copyright, making a work available online so that the public can access it at a time and place they choose is a restricted act, whether or not anyone downloads a copy. No Hong Kong decision on the AGPL network clause or on source-available terms is reported (reported; check), so the licence text and the vendor contract decide most questions.",
    "keyPoints": [
-    "**Network use is restricted:** Making a work available online to the public is a restricted act, whether or not anyone downloads a copy (Cap. 528 ss.22(1)(fa), 28A(2)(c), 28A(3)).",
+    "**Making available is restricted:** Making a work available online so that the public may access it is a restricted act, whether or not anyone downloads a copy (Cap. 528 ss.22(1)(fa), 28A(2)(c), 28A(3)). Whether letting users interact with a hosted program makes the program itself available is not settled (drafting inference).",
     "**Host determines content:** A host communicates a work when it determines the content of the communication. Clicking a link or providing mere facilities does not (Cap. 528 s.28A(4)-(6)).",
     "**Modified versions:** Communicating an adaptation is restricted too, separately from the AGPL s.13 duty (Cap. 528 s.29(2); AGPL-3.0 s.13).",
     "**AGPL trigger:** Section 13 needs a modified program that remote users interact with, and then an offer of Corresponding Source, with no distribution needed (AGPL-3.0 s.13). No Hong Kong decision applies it (reported; check).",
@@ -8374,7 +8374,7 @@
      "ref": "s.28A(1)-(6)",
      "title": "Communication to the public",
      "summary": "Electronic communication of a work to the public is restricted, including making it available online so that the public can access it from a place and at a time they choose. A host communicates a work when it determines the content, while links and mere facilities do not.",
-     "counselNote": "A hosted program that outside users reach is likely to involve a restricted act here, even with no download, so the bank's hosting terms need checking (drafting inference).",
+     "counselNote": "Code sent to users' browsers or devices is made available to them, but whether remote use of a hosted program's functions makes the program itself available is not settled, so the bank's hosting terms need checking (drafting inference).",
      "confidence": "high",
      "cap": "528",
      "section": "28A",
@@ -8407,10 +8407,10 @@
     {
      "kind": "statute",
      "instrument": "Copyright Ordinance (Cap. 528)",
-     "ref": "s.274(2A), (3)(a)",
+     "ref": "s.274(2A), (3)(a)-(b)",
      "title": "Interference with rights management information",
      "summary": "Removing or altering electronic rights management information is actionable only where the defendant knows or has reason to believe that the act induces, enables, facilitates or conceals an infringement. A notice that identifies the work, author or owner can be such information.",
-     "counselNote": "",
+     "counselNote": "Author, copyright and licence notices in AGPL code can be rights management information (s.274(3)(a)-(b)), so the bank's build and deployment should keep them intact (drafting inference).",
      "confidence": "high",
      "cap": "528",
      "section": "274",
