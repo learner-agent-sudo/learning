@@ -64,7 +64,7 @@
       {
        "label": "Copyright",
        "value": "Automatic",
-       "note": "Arises on fixation; suit needs registration (17 U.S.C. § 411(a))"
+       "note": "Arises on fixation; suit on a U.S. work needs registration (17 U.S.C. § 411(a))"
       },
       {
        "label": "Patent",
@@ -192,9 +192,9 @@
     "lede": "Federal law sets most of the rules. State law still governs contracts, employment and much of trade secret practice.",
     "points": [
      "**Federal claims:** No state court may hear a claim under the patent or copyright Acts; trademark claims can be heard in federal courts under 28 U.S.C. § 1338(a), and state courts may hear them too (drafting inference).",
-     "**Patent appeals:** The [[Federal Circuit]] has exclusive jurisdiction over appeals in patent cases from district courts (28 U.S.C. § 1295(a)(1)). Copyright and trademark appeals go to the regional circuit (drafting inference).",
+     "**Patent appeals:** The [[Federal Circuit]] has exclusive jurisdiction over appeals in patent cases from district courts (28 U.S.C. § 1295(a)(1)). Copyright and trademark appeals go to the regional circuit, unless the action also arises under the patent laws or has a compulsory patent counterclaim (drafting inference).",
      "**Trade secrets:** The DTSA gives the owner a federal civil action (18 U.S.C. § 1836(b)(1)). State claims under California's version run alongside it (Cal. Civ. Code § 3426.1).",
-     "**Employment:** State law can limit what staff must assign. California voids an assignment clause for an invention made entirely on the employee's own time, with exceptions (Cal. Lab. Code § 2870(a), (b))."
+     "**Employment:** State law can limit what staff must assign. California voids an assignment clause for an invention made entirely on the employee's own time without the employer's equipment, supplies, facilities or trade secret information, with exceptions (Cal. Lab. Code § 2870(a), (b))."
     ]
    },
    {
@@ -247,13 +247,13 @@
       },
       {
        "label": "In practice",
-       "value": "Stages 11-15",
-       "note": "Policy and SBOMs, releases, deals, AI-generated code and disputes"
+       "value": "Stages 11-16",
+       "note": "Policy and SBOMs, releases, deals, AI-generated code, disputes and product counsel"
       }
      ]
     },
     "points": [
-     "**Scope:** The volume covers US law in full. Other jurisdictions are covered separately, so the rules below are US rules unless stated.",
+     "**Scope:** The volume covers US law in full, and each stage has a Hong Kong law tab. EU, UK and Canadian points appear as short notes, so the rules below are US rules unless stated.",
      "**Reading order:** Start with the rights in code and ownership, because most open source and deal questions depend on who owns the code first.",
      "**Practice:** The later stages turn these rules into intake, release and diligence steps that the bank's teams can run."
     ]
@@ -397,7 +397,7 @@
     "instrument": "Judicial Code (28 U.S.C.)",
     "ref": "§ 1295(a)(1)",
     "title": "Jurisdiction of the United States Court of Appeals for the Federal Circuit",
-    "summary": "Gives the Federal Circuit exclusive jurisdiction over appeals from district courts in civil actions arising under Acts of Congress relating to patents. It also covers appeals from the Patent Trial and Appeal Board in patent proceedings.",
+    "summary": "Gives the Federal Circuit exclusive jurisdiction over appeals from district courts in civil actions arising under Acts of Congress relating to patents. Section 1295(a)(4)(A) also gives it appeals from the Patent Trial and Appeal Board in patent proceedings.",
     "counselNote": "Federal Circuit precedent on eligibility and damages governs the bank's patent disputes in every district, so track it when assessing patent risk.",
     "confidence": "high",
     "cap": "28-USC",
@@ -495,7 +495,7 @@
    "summary": "Hong Kong protects software through copyright, which arises on recording with no registration, through patents, designs and trade marks that each need a filing, and through confidence and contract. There is no trade secrets statute (reported; check). The biggest differences from the US are that there is no copyright register at all, so nothing is filed even before suing (Cap. 528 s.4(2); drafting inference), and that a computer program cannot be registered as a design (Cap. 522 s.8(1)).",
    "keyPoints": [
     "**Copyright arises on recording:** A computer program is a literary work, and copyright subsists once it is recorded in writing or otherwise (Cap. 528 s.4(1)(b), s.4(2)-(3)). The only register under the Ordinance is of copyright licensing bodies (Cap. 528 s.147(1)).",
-    "**Three patent routes:** A standard patent (R) registers a patent granted by a designated foreign patent office (Cap. 514 s.3(a), s.8). A standard patent (O) is granted after substantive examination (Cap. 514 s.37U). A short-term patent is granted after formality examination only (Cap. 514 s.117).",
+    "**Three patent routes:** A standard patent (R) registers a patent granted by a designated patent office outside Hong Kong (Cap. 514 s.3(b), s.8). A standard patent (O) is granted after substantive examination (Cap. 514 s.37U). A short-term patent is granted after formality examination only (Cap. 514 s.117).",
     "**Designs do not cover programs:** A computer program cannot be registered as a design (Cap. 522 s.8(1)). Whether a screen display or icon can be registered is a separate question (reported; check).",
     "**Trade marks need registration for statutory rights:** A registered trade mark is a property right (Cap. 559 s.10(1)). No proceedings lie for an unregistered mark, but passing off is preserved (Cap. 559 s.10(3)).",
     "**No trade secrets statute:** Confidential information is protected by the equitable action for breach of confidence and by contract, not by a trade secrets statute (reported; check)."
@@ -591,7 +591,7 @@
      "kind": "statute",
      "instrument": "Copyright Ordinance (Cap. 528)",
      "ref": "s.91(2)(a), (c)",
-     "title": "Moral rights do not reach programs",
+     "title": "Attribution and integrity rights do not reach programs",
      "summary": "The right to be identified as author does not apply to a computer program or a computer-generated work. The integrity right, which covers derogatory treatment, is also excluded for a program or computer-generated work (s.93(2)).",
      "counselNote": "Developers cannot rely on moral rights to stop the bank changing or retiring their code, so the commercial terms carry that risk.",
      "confidence": "high",
@@ -632,7 +632,7 @@
   "glossary": [
    {
     "term": "fixation",
-    "definition": "A work is fixed when it is embodied in a copy or medium from which it can be perceived, reproduced or communicated. Copyright protects original works once they are fixed (17 U.S.C. § 102(a))."
+    "definition": "A work is fixed when its embodiment in a copy, by or under the author's authority, is stable enough to be perceived, reproduced or communicated for more than a transitory period. Copyright protects original works once they are fixed (17 U.S.C. § 102(a))."
    },
    {
     "term": "source code",
@@ -664,7 +664,7 @@
    },
    {
     "term": "standard patent (R)",
-    "definition": "A standard patent registered in Hong Kong from a patent granted by a designated foreign patent office (Cap. 514 s.3(a), s.8)."
+    "definition": "A standard patent registered in Hong Kong from a patent granted by a designated patent office outside Hong Kong (Cap. 514 s.3(b), s.8)."
    },
    {
     "term": "standard patent (O)",
@@ -978,7 +978,7 @@
     "ref": "§ 411",
     "title": "Registration and civil infringement actions",
     "summary": "Bars a civil infringement action on a U.S. work until registration or preregistration has been made, or the application has been refused and notice given (§ 411(a)). The bar does not apply to claims under § 106A(a).",
-    "counselNote": "Unregistered code cannot be sued on in U.S. courts. A bank that relies on its code for competitive advantage should register it so that it can enforce (good practice).",
+    "counselNote": "Unregistered code that is a U.S. work cannot be sued on in U.S. courts. A bank that relies on its code for competitive advantage should register it so that it can enforce (good practice).",
     "confidence": "high",
     "cap": "17-USC",
     "section": "411",
@@ -1001,7 +1001,7 @@
     "instrument": "Digital Millennium Copyright Act (17 U.S.C. Chapter 12)",
     "ref": "§ 1201",
     "title": "Circumvention of copyright protection systems",
-    "summary": "Bars circumventing a technological measure that effectively controls access to a copyrighted work (§ 1201(a)(1)), and bars making or offering devices primarily designed for that purpose (§ 1201(a)(2)). Fair use and other defences to infringement are not affected (§ 1201(c)(1)).",
+    "summary": "Bars circumventing a technological measure that effectively controls access to a copyrighted work (§ 1201(a)(1)), and bars making or offering devices primarily designed for that purpose (§ 1201(a)(2)). Fair use and other defences to infringement are not affected (§ 1201(c)(1)), but the Second Circuit held that this does not make fair use a defence to a § 1201 claim (Universal City Studios, Inc. v. Corley, 273 F.3d 429 (2d Cir. 2001)).",
     "counselNote": "Licence keys, signing checks and obfuscation in an app may be access controls. Testing that defeats them needs legal review first, because the exceptions are narrow.",
     "confidence": "high",
     "cap": "17-USC",
@@ -1067,7 +1067,7 @@
    "**Deposit steps in release pipelines:** A release job can produce the redacted copy needed for a Copyright Office deposit. Add that step to the release checklist so it is not missed (good practice)."
   ],
   "virtualBankNotes": [
-   "**Vendor code:** Vendors that write the bank's code often keep copyright unless the contract assigns it or grants a licence. The interagency guidance on third-party relationships covers risk across the life of the relationship, so ownership and licence terms belong in vendor risk management (drafting inference).",
+   "**Vendor code:** Vendors that write the bank's code often keep copyright unless the contract assigns it, so without an assignment the bank's use rests on a licence. The interagency guidance on third-party relationships covers risk across the life of the relationship, so ownership and licence terms belong in vendor risk management (drafting inference).",
    "**Escrow and continuity:** Source code escrow needs a licence that survives vendor failure. Who owns the copy decides what the bank can use after that event (good practice).",
    "**Internal sharing:** Copying third-party code into internal systems is reproduction. Each licence must allow the bank's internal use and any sharing with affiliates or contractors (good practice).",
    "**Published SDKs and sample code:** Code the bank distributes to customers is a distribution under § 106(3). Fix the copyright notices and licence before release, not after a customer finds a problem (good practice).",
@@ -1141,7 +1141,7 @@
       "**Translation and adaptation:** For a program, an adaptation is an altered version or a translation, and a translation includes conversion into, out of or between computer languages or codes (Cap. 528 s.29(3)(b), s.29(4)).",
       "**Back-up by a lawful user:** A lawful user may make a back-up copy where necessary for lawful use, but the agreement can exclude this right (Cap. 528 s.60(1)-(3)).",
       "**Copying and adapting by a lawful user:** A lawful user may copy or adapt a program where necessary for lawful use, including to correct errors (Cap. 528 s.61(1)-(2)). The Ordinance gives no express contractual override for this right (drafting inference).",
-      "**Reverse engineering:** The Ordinance has no decompilation exception and no general interoperability exception for copying, so reverse engineering that copies or adapts a program is protected unless it falls within the lawful-user rule; circumventing a technological measure for interoperability is separately excused where s.273D(1) is met (Cap. 528 s.61(1)-(2); drafting inference)."
+      "**Reverse engineering:** The Ordinance has no decompilation exception and no general interoperability exception for copying, so reverse engineering that copies or adapts a program infringes unless it falls within the lawful-user rule or another exception, such as fair dealing for research (s.38); circumventing a technological measure for interoperability is separately excused where s.273D(1) is met (Cap. 528 s.61(1)-(2); drafting inference)."
      ],
      "takeaway": "Before engineers decompile, translate or copy third-party code, confirm that the licence or a lawful-user right covers the act, and do not rely on a general exception (good practice)."
     },
@@ -1201,7 +1201,7 @@
      "ref": "s.35A(1)-(2)",
      "title": "Copies lawfully made abroad",
      "summary": "A copy of a program that was lawfully made in the place where it was made is not an infringing copy for the purposes of the importation rule in s.35(3).",
-     "counselNote": "This protects copies lawfully made abroad from the importation rule in s.35(3), but not from the breach-of-exclusive-licence limb in s.35(3)(b), so the licence should still be checked before copies made outside Hong Kong are brought in.",
+     "counselNote": "This protects copies lawfully made abroad from the importation rule in s.35(3), including its breach-of-exclusive-licence limb in s.35(3)(b), but the bank's licence terms still bind it in contract, so check them before copies made outside Hong Kong are brought in (drafting inference).",
      "confidence": "high",
      "cap": "528",
      "section": "35A",
@@ -1458,7 +1458,7 @@
      "**Writing:** A transfer of copyright ownership is not valid unless the owner of the rights conveyed, or its agent, signs a writing that records it (§ 204(a)).",
      "**What counts:** A transfer covers assignments and exclusive licences, but not a [[non-exclusive licence]] (§ 101). A non-exclusive licence therefore needs no signed writing under § 204(a), although signing one is still sensible (good practice).",
      "**Recording:** Recording with the Copyright Office gives [[constructive notice]] only if the document identifies the work and the work is registered (§ 205(c)).",
-     "**Priority:** Between two conflicting transfers, the earlier one prevails if it is recorded within one month after signing in the United States, or before the later one is recorded. Otherwise the later transfer prevails only if it was recorded first, taken in good faith, for valuable consideration or on a binding promise to pay royalties, and without notice of the earlier transfer (§ 205(d))."
+     "**Priority:** Between two conflicting transfers, the earlier one prevails if it is recorded within one month after signing in the United States (two months if signed abroad), or before the later one is recorded. Otherwise the later transfer prevails only if it was recorded first, taken in good faith, for valuable consideration or on a binding promise to pay royalties, and without notice of the earlier transfer (§ 205(d))."
     ]
    },
    {
@@ -1608,7 +1608,7 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 205",
     "title": "Recordation of transfers and other documents",
-    "summary": "A transfer of copyright ownership may be recorded in the Copyright Office. Recording gives constructive notice only if the document identifies the work and the work is registered (§ 205(c)). Between conflicting transfers, the first prevails if recorded within one month after signing in the United States, or before the later transfer is recorded (§ 205(d)).",
+    "summary": "A transfer of copyright ownership may be recorded in the Copyright Office. Recording gives constructive notice only if the document identifies the work and the work is registered (§ 205(c)). Between conflicting transfers, the first prevails if recorded within one month after signing in the United States (two months if signed abroad), or before the later transfer is recorded (§ 205(d)).",
     "counselNote": "Recording is how the bank protects a contested title. A bank that signs first and records promptly is better placed against a later, conflicting transfer.",
     "confidence": "high",
     "cap": "17-USC",
