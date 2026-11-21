@@ -17981,7 +17981,7 @@
    "**Pin model versions:** A model update can change output and licence terms, so pin the version in use and record it as a dependency (good practice)."
   ],
   "virtualBankNotes": [
-   "**Model risk:** The model risk guidance (SR 11-7 and OCC Bulletin 2011-12) was reported replaced on 17 April 2026 by SR 26-2 and OCC Bulletin 2026-13 (reported; check). Test whether an AI model that informs decisions is in scope under the bank's own model policy.",
+   "**Model risk:** The model risk guidance (SR 11-7 and OCC Bulletin 2011-12) was replaced on 17 April 2026 by SR 26-2 and OCC Bulletin 2026-13. Test whether an AI model that informs decisions is in scope under the bank's own model policy.",
    "**Third-party guidance:** The interagency third-party guidance (88 Fed. Reg. 37920) is technology-neutral. It covers AI vendors across the life of the relationship, not as a separate AI rule (drafting inference).",
    "**NYDFS:** Covered entities must have written procedures for secure development (23 NYCRR 500.8) and a third-party service provider policy (23 NYCRR 500.11). AI tools that touch code or data fall within those controls (drafting inference).",
    "**Customer data and secrecy:** Prompts that carry customer data or confidential code can weaken the secrecy the bank needs to keep trade secret status, which depends on reasonable measures (18 U.S.C. § 1839(3)).",
@@ -18998,7 +18998,7 @@
    "**Triage early:** Run a short IP triage on each feature before design is fixed, covering the name, assets, code and services, data, AI, inventions, partners and claims (good practice). Send the hard points to specialists.",
    "**Clear the name first:** Search for conflicting marks before any announcement, and file an intent-to-use application if the launch date is set (15 U.S.C. § 1051(b)). Once the mark registers, the filing date gives nationwide priority (15 U.S.C. § 1057(c)).",
    "**Mark the product accurately:** Use ® only for a registered mark, and only in the form the statute allows (15 U.S.C. § 1111). Refer to a wallet, card scheme or partner's brand only as nominative fair use, and follow the partner's brand rules (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)).",
-   "**Protect the look, not the idea:** Copyright never reaches the idea, procedure or method of operation behind an interface (17 U.S.C. § 102(b)). Unregistered trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000)) (reported; check).",
+   "**Protect the look, not the idea:** Copyright never reaches the idea, procedure or method of operation behind an interface (17 U.S.C. § 102(b)). Product-design trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)) (reported; check).",
    "**Fonts, images and AI output:** Check the licence scope of each typeface, icon set and stock image before it ships, because the SIL Open Font License bars selling the font software by itself (OFL-1.1 condition 1) and bars a Reserved Font Name in a modified version without permission (OFL-1.1 condition 3)."
   ],
   "conceptMap": {
@@ -19144,7 +19144,7 @@
     "lede": "Product work often turns up a patentable idea: a better flow, a model technique or a data method. The first public showing can start a clock, so product should bring the idea to counsel before it shows the idea to anyone outside the bank.",
     "points": [
      "**Disclose to counsel before any demo, beta or talk:** An invention disclosure lets counsel decide whether to file before the idea is shown outside the bank. Internal design reviews are a safe place to raise the idea first (good practice).",
-     "**The US grace period is one year:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if it was made one year or less before the effective filing date (35 U.S.C. § 102(b)(1)(A)). The exceptions depend on the conditions in § 102(b)(1)(B), and the one-year clock still runs, so the grace period is not a reason to wait (drafting inference).",
+     "**The US grace period is one year:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if it was made one year or less before the effective filing date (35 U.S.C. § 102(b)(1)(A)). A second exception covers a later disclosure by others of subject matter the inventor had already publicly disclosed (§ 102(b)(1)(B)), but the one-year clock still runs, so the grace period is not a reason to wait (drafting inference).",
      "**Other markets give little or no grace:** The European Patent Convention applies absolute novelty, and Art. 55(1) disregards a disclosure made within six months only for evident abuse or an official exhibition (European Patent Convention Art. 54 and 55(1)) (reported; check). The UK has similar but not identical narrow exceptions within six months (Patents Act 1977 s.2(4)) (reported; check). Hong Kong's exceptions are also narrow and run for six months (Cap. 514 s.37B and s.109).",
      "**Provisional applications give an early date:** A provisional application needs no claims (35 U.S.C. § 111(b)(2)), and it is regarded as abandoned 12 months after filing unless it is converted (§ 111(b)(5)). A later application that claims its benefit under § 119(e)(1) can take the provisional's filing date for an invention disclosed as § 112(a) requires, if it is filed within 12 months (reported; check). Product should ask for a provisional filing when a feature may launch within a year (good practice).",
      "**Freedom to operate and willfulness:** A feature that may use a competitor's patent needs a freedom-to-operate review before launch. In Halo Electronics v. Pulse Electronics, 579 U.S. 93 (2016), the Supreme Court let courts increase damages up to three times in egregious cases of culpable willful infringement (35 U.S.C. § 284) (reported; check). Under 35 U.S.C. § 298, failing to get or present advice of counsel cannot be used to prove willful infringement, but relying on an opinion can still waive privilege. Product should route the review through counsel so that the privilege question is managed (good practice).",
@@ -19253,7 +19253,7 @@
     "ref": "§ 1125(a)(1)(A), (B)",
     "title": "False designations of origin and false advertising",
     "summary": "A person who uses a word, name, symbol or false or misleading representation of fact in commerce is liable where it is likely to confuse as to origin or sponsorship, or where, in commercial advertising or promotion, it misrepresents the nature, characteristics or qualities of goods or services (15 U.S.C. § 1125(a)(1)(A), (B)).",
-    "counselNote": "A comparison claim in a launch advertisement needs evidence before it goes out, because a rival named in the comparison can sue under this section (drafting inference). Comparative advertising is excluded from federal dilution claims (15 U.S.C. § 1125(c)(3)(A)).",
+    "counselNote": "A comparison claim in a launch advertisement needs evidence before it goes out, because a rival named in the comparison can sue under this section (drafting inference). Fair use of a famous mark in comparative advertising, other than as a designation of source for the bank's own goods or services, is not actionable as dilution (15 U.S.C. § 1125(c)(3)(A)).",
     "confidence": "high",
     "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm",
     "cap": "15-USC",
@@ -19298,7 +19298,7 @@
     "instrument": "Patent Act (35 U.S.C.)",
     "ref": "§ 102(a)(1), (b)(1)(A)",
     "title": "Conditions for patentability: novelty and the inventor's grace period",
-    "summary": "A disclosure made one year or less before the effective filing date is not prior art if the inventor made it, or someone who got the subject matter directly or indirectly from the inventor made it, subject to the conditions in § 102(b)(1)(B) (35 U.S.C. § 102(a)(1), (b)(1)(A), (B)).",
+    "summary": "A disclosure made one year or less before the effective filing date is not prior art if the inventor made it, or someone who got the subject matter directly or indirectly from the inventor made it. A second exception covers a later disclosure by others of subject matter the inventor had already publicly disclosed (35 U.S.C. § 102(a)(1), (b)(1)(A), (B)).",
     "counselNote": "A demo, beta or conference talk counts as the inventor's own disclosure only if the person giving it is the inventor or got the subject matter from the inventor, so the one-year clock starts on that date for those disclosures (drafting inference). Outside the US the same demo can count against novelty, because the EPC applies absolute novelty with narrow exceptions (reported; check).",
     "confidence": "high",
     "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title35/html/USCODE-2024-title35.htm",
@@ -19413,12 +19413,12 @@
    "**Name and marks:** Clear the feature name before any announcement. If the bank has a bona fide intention to use the mark in commerce, file an intent-to-use application before launch (15 U.S.C. § 1051(b)(1)). Constructive use then dates from the filing date, if the mark registers (15 U.S.C. § 1057(c)).",
    "**Partner marks:** Ask whether the feature shows a wallet, card scheme or partner mark, and get the partner's brand rules in writing before the first screen is drawn. Naming another owner's product with its mark can be nominative fair use only where the product cannot readily be identified without it and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)).",
    "**Comparative claims:** Every launch claim that compares the bank's product with a rival, or states a quality or performance level, needs supporting evidence before it goes live (15 U.S.C. § 1125(a)(1)(B); Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
-   "**Screens and icons:** Ask early what in the design is worth protecting. Copyright covers the expression in an interface, not the method of operation (17 U.S.C. § 102(b); reported; check). Trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); reported; check). A design patent can cover an icon shown on a display screen (35 U.S.C. § 171; reported; check).",
+   "**Screens and icons:** Ask early what in the design is worth protecting. Copyright covers the expression in an interface, not the method of operation (17 U.S.C. § 102(b); reported; check). Product-design trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001); reported; check). A design patent can cover an icon shown on a display screen (35 U.S.C. § 171; reported; check).",
    "**Fonts and images:** Confirm that each typeface, font file, icon set and stock image is licensed for the bank's use, including app bundles, web delivery and print. Font software cannot be sold by itself, and a modified font may not use a reserved font name without permission (OFL-1.1 conditions 1 and 3). Stock licences often limit the number or type of uses (good practice).",
    "**Code, SDKs and APIs:** Send each open source component to the open source review (stage 11). Read each SDK and API term before the SDK ships, because those terms often limit caching and data use (Google Maps Platform terms on caching; reported; check).",
    "**Data sources:** Confirm that the bank holds a licence or contract for each data source, including public data gathered by scraping. Website terms bind a user only where notice is clear and assent is shown (Nguyen v. Barnes & Noble, 763 F.3d 1171 (9th Cir. 2014); reported; check). Scraping can also raise a CFAA question, which turns on access to areas that are off limits rather than on misuse of data the user can reach (Van Buren v. United States, 593 U.S. 374 (2021); reported; check).",
    "**Inventions:** Ask whether the feature uses a new method, model or system. If it does, the invention disclosure should be filed before any demo, beta, pilot or conference talk (35 U.S.C. § 102(b)(1)(A); good practice).",
-   "**Notices:** Match every marking to the real position. Marking an article falsely can expose the bank to a fine that only the United States may sue for (35 U.S.C. § 292(a)). A registrant that omits the registration notice loses profits and damages in an infringement suit unless the defendant had actual notice (15 U.S.C. § 1111). A proper copyright notice stops an innocent infringer defence (17 U.S.C. § 401(d)).",
+   "**Notices:** Match every marking to the real position. Marking an article falsely can expose the bank to a fine that only the United States may sue for (35 U.S.C. § 292(a)). A registrant that omits the registration notice loses profits and damages in an infringement suit unless the defendant had actual notice (15 U.S.C. § 1111). A proper copyright notice means an infringer's plea of innocent infringement is given no weight in reducing damages (17 U.S.C. § 401(d)).",
    "**Customer terms:** Show the terms at the point of assent, with a button that signals agreement to them. Clear notice on a sign-up screen was enforced in Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017), while a small notice and a button that did not signal agreement were not enforced in Berman v. Freedom Financial Network, 30 F.4th 849 (9th Cir. 2022) (reported; check)."
   ],
   "itAngle": [
@@ -19431,7 +19431,7 @@
   "virtualBankNotes": [
    "**Product approval:** Put the IP triage into the bank's new product approval record. The OCC expects new products and services to be risk-assessed before launch, as Bulletin 2017-43 sets out (check current status).",
    "**Third-party risk:** The interagency guidance (88 Fed. Reg. 37920) covers the whole life cycle of third-party relationships, including contracting, and the agencies say it adds no new requirements (reported; check). SDK, API and AI model providers belong in the vendor inventory (drafting inference).",
-   "**Model risk for AI features:** SR 11-7 and OCC Bulletin 2011-12 were reported rescinded on 17 April 2026 and replaced by OCC Bulletin 2026-13 and SR 26-2 (reported; check). Whether the replacement applies from that date or from 2027 is unsettled, and commentary reports that it does not cover generative or agentic AI. Ask the model risk team which policy governs an AI feature (drafting inference).",
+   "**Model risk for AI features:** SR 11-7 and OCC Bulletin 2011-12 were rescinded on 17 April 2026 and replaced by OCC Bulletin 2026-13 and SR 26-2. Whether the replacement applies from that date or from 2027 is unsettled, and commentary reports that it does not cover generative or agentic AI. Ask the model risk team which policy governs an AI feature (drafting inference).",
    "**Customer terms:** Terms accepted by clickwrap need clear notice and an action that shows assent (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017); reported; check). Product should not change a sign-up flow without counsel's review of the terms (good practice).",
    "**Vendor AI indemnities:** Vendor IP indemnities for AI output are conditional. Microsoft's Copilot Copyright Commitment, for example, depends on the customer using the built-in guardrails and not deliberately generating infringing material (reported; check). Product should know those conditions, because the bank loses the protection if it steps outside them (good practice)."
   ],
@@ -19445,7 +19445,7 @@
    "**Launch before clearance:** A public launch under a name nobody has cleared can force a rename after the marketing spend is committed. An intent-to-use filing before launch is the low-cost step (15 U.S.C. § 1051(b)(1); good practice).",
    "**Demo before filing:** A beta, a conference talk or an app store listing can be a public disclosure. The US gives the inventor a one-year grace period, but Europe, the UK and Hong Kong give only narrow exceptions (35 U.S.C. § 102(b)(1)(A); EPC Art. 54; reported; check).",
    "**Stock and font licences:** A stock licence bought for a website may not cover app screens, print or resale. A font licence may not allow the font to be sold alone or bundled in the way the product team plans (OFL-1.1 condition 1; good practice).",
-   "**Registration statements:** Writing 'registered' beside an unregistered mark is a false statement. In Hong Kong it is an offence (Cap. 559 s.94), and in the UK it is an offence under the Trade Marks Act 1994 s.95(1)(a) (reported; check).",
+   "**Registration statements:** Writing 'registered' beside an unregistered mark is a false statement. In Hong Kong it is an offence where the person knows or has reason to believe the claim is false (Cap. 559 s.94(1)), and in the UK it is an offence on a similar test under the Trade Marks Act 1994 s.95(1)(a) (reported; check).",
    "**App store content:** An app that uses third-party material without permission can be rejected, and apps should be submitted by the entity that owns or licenses the IP (Apple App Review Guidelines 5.2 and 5.2.1).",
    "**Model swaps:** Changing the AI model can change licence terms, indemnities and output marking. Llama 4's community licence requires a separate licence from Meta for a licensee above the 700 million monthly active user test, and it requires a 'Built with Llama' notice where the licence applies (Llama 4 Community License, s.2 and s.1.b.i)."
   ],
@@ -19480,7 +19480,7 @@
    "summary": "Product counsel in Hong Kong works with registration-based brand rights, a short list of marking offences and narrow patent grace periods. Brands are protected by registration, with passing off for unregistered names (Cap. 559 s.10(1), (3)). The consumer offences in the Trade Descriptions Ordinance do not reach banking services whose supply is itself regulated under the Banking Ordinance (Cap. 362 s.2, Sch. 4), so for those products the HKMA's conduct expectations do that work. The biggest differences from the US are the six-month patent grace period limited to abuse or exhibitions (Cap. 514 ss.11A, 37B, 109) and the rule that software cannot be registered as a design (Cap. 522 s.8(1)).",
    "keyPoints": [
     "**Names and brands:** A registered trade mark is a property right (Cap. 559 s.10(1)), and an unregistered name is protected only by passing off, because the Ordinance gives no infringement action for an unregistered mark (Cap. 559 s.10(3)).",
-    "**False registration claim:** Falsely representing that a sign is a registered trade mark, knowing or having reason to believe it is false, is an offence with a level 3 fine, and the word 'registered' used in Hong Kong is treated as a representation of registration (Cap. 559 s.94(1)-(2)).",
+    "**False registration claim:** Falsely representing that a sign is a registered trade mark, knowing or having reason to believe it is false, is an offence with a level 3 fine, and the word 'registered', or a symbol importing registration, used in Hong Kong is treated as a representation of registration in Hong Kong unless it is shown to refer to a registration elsewhere that in fact covers the goods or services (Cap. 559 s.94(1)-(2)).",
     "**Patent applied for:** Representing that a patent has been applied for on an article sold for value, when no application exists or it was refused, withdrawn or deemed withdrawn, is an offence unless a defence applies (Cap. 514 s.143(1), (4)).",
     "**Software and designs:** Computer programs are not registrable as designs (Cap. 522 s.8(1)), so a screen or icon must be claimed as a feature applied to an article, and whether a screen is an article is an open point (reported; check).",
     "**Grace period:** A disclosure made no earlier than 6 months before filing is disregarded only where it was an evident abuse or a display at an official or officially recognised international exhibition (for a standard patent (R), a prescribed exhibition or meeting), and the filing must state the display (Cap. 514 ss.11A, 37B, 109)."
@@ -19493,7 +19493,7 @@
       "**Filing and registration:** An application is filed with the Registrar (Cap. 559 s.38). Once accepted and not successfully opposed, the mark is registered as of the filing date (Cap. 559 ss.47-48).",
       "**Term:** Registration lasts 10 years and can be renewed for further 10-year periods (Cap. 559 s.49(1)-(2)).",
       "**Confusion refusal:** A mark identical to an earlier mark for identical goods or services is refused outright, and a mark identical or similar to an earlier mark for identical or similar goods or services is refused where confusion is likely (Cap. 559 s.12(1)-(3)).",
-      "**Prior use:** A person who has used an unregistered sign in trade in Hong Kong, continuously from before the registrant's first use or registration date, is not infringed by the registered mark (Cap. 559 s.19(4)).",
+      "**Prior use:** A person who has used an unregistered sign in trade in Hong Kong, continuously from before the earlier of the registrant's first use in Hong Kong and its registration date, is not infringed by the registered mark (Cap. 559 s.19(4)).",
       "**Transactions:** An assignment of a registered mark must be in writing and signed (Cap. 559 s.27(4)), and a transaction for which no application to register is made within 6 months cannot found a claim for damages or profits for the gap (Cap. 559 s.29(4))."
      ],
      "takeaway": "Run a clearance search and file before any public use of a new name, because the registration date is the filing date and prior use is a narrow defence (good practice)."
@@ -19529,7 +19529,7 @@
      "instrument": "Trade Marks Ordinance (Cap. 559)",
      "ref": "s.94(1)-(2)",
      "title": "Falsely representing a registered trade mark",
-     "summary": "It is an offence to falsely represent that a sign is a registered trade mark, or to misdescribe the goods or services covered by a registration, if the person knows or has reason to believe the representation is false. Using 'registered' or a similar symbol in Hong Kong counts as a representation of registration here.",
+     "summary": "It is an offence to falsely represent that a sign is a registered trade mark, or to misdescribe the goods or services covered by a registration, if the person knows or has reason to believe the representation is false. Using 'registered' or a similar word or symbol in Hong Kong counts as a representation of registration here, unless it is shown to refer to a registration elsewhere that in fact covers the goods or services.",
      "counselNote": "Marketing teams often add a registered symbol to a brand that is only applied for or unregistered, so the marks on product pages and packaging should be reviewed before launch.",
      "confidence": "high",
      "cap": "559",
@@ -19706,7 +19706,7 @@
    },
    {
     "term": "Standard patent (R)",
-    "definition": "A Hong Kong patent registered from a patent granted by a designated foreign patent office, rather than examined in Hong Kong."
+    "definition": "A Hong Kong patent registered from a patent granted by a designated patent office outside Hong Kong (the Mainland's China National Intellectual Property Administration, the UK Intellectual Property Office, or the European Patent Office for a patent designating the UK), rather than examined in Hong Kong."
    }
   ],
   "reviewKit": {
@@ -20045,7 +20045,7 @@
      "title": "Disclose an invention to patent counsel before any demo, beta or talk",
      "detail": [
       "**Before the demo:** Record each new method and send an invention disclosure to patent counsel before any demo, beta, talk or paper (good practice).",
-      "**US grace period:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if it was made one year or less before filing, subject to the conditions in § 102(b)(1)(B) (35 U.S.C. § 102(b)(1)(A)).",
+      "**US grace period:** A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if it was made one year or less before filing (35 U.S.C. § 102(b)(1)(A)). A later disclosure by others of subject matter the inventor had already publicly disclosed is also excluded (§ 102(b)(1)(B)).",
       "**Who is the inventor:** Name the people who conceived each claim. An AI system cannot be an inventor (35 U.S.C. § 100(f); Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022))."
      ],
      "owner": [
@@ -20133,7 +20133,7 @@
      "title": "Check the grace period in each market before a disclosure",
      "detail": [
       "**EU and UK:** A six-month window applies in both, but only for narrow cases: evident abuse or an official exhibition under the European Patent Convention (Art. 55(1)), and in the UK, matter obtained unlawfully or in breach of confidence as well (Patents Act 1977 s.2(4)) (reported; check).",
-      "**Hong Kong:** A disclosure within six months is disregarded only for evident abuse or an official exhibition, under the same two conditions in standard and short-term applications (Cap. 514 s.37B and s.109).",
+      "**Hong Kong:** A disclosure within six months is disregarded only for evident abuse or an official exhibition, for standard (O) and short-term applications (Cap. 514 s.37B and s.109); for a standard patent (R) the exhibition limb covers a prescribed exhibition or meeting (s.11A).",
       "**Canada:** A disclosure by the applicant in the year before filing is not prior art, so the bank's own early demo does not count against it (Patent Act s.28.2(1)(a))."
      ],
      "owner": [
@@ -20272,7 +20272,7 @@
       "hk"
      ],
      "detail": [
-      "**Disclosure:** A demo, pitch or public release before filing makes the invention part of the state of the art (Cap. 514 s.9B(2)). The six-month relief covers only an evident abuse against the applicant or a display at an official or officially recognised international exhibition (for a standard patent (R), a prescribed exhibition or meeting) (ss.11A, 37B, 109).",
+      "**Disclosure:** A demo, pitch or release that makes the invention available to the public before filing puts it in the state of the art (Cap. 514 s.9B(2)). The six-month relief covers only an evident abuse against the applicant or a display at an official or officially recognised international exhibition (for a standard patent (R), a prescribed exhibition or meeting) (ss.11A, 37B, 109).",
       "**Earlier filings:** An earlier application published after the new application's material date can also defeat novelty (s.9B(3)), so competitor filings should be checked before the product is shown (drafting inference).",
       "**Order:** File before any demo to an outside party, or agree confidentiality first (good practice)."
      ],
@@ -20863,7 +20863,7 @@
      "detail": [
       "**Scope:** Check whether the new method may infringe a patent held by others by reading the claims, not only by confirming that the bank invented the method (good practice).",
       "**Enhanced damages:** Courts may award enhanced damages, up to three times, in egregious cases of culpable, typically subjective, wilful infringement (35 U.S.C. § 284; Halo Electronics v. Pulse Electronics, 579 U.S. 93 (2016)) (reported; check).",
-      "**Opinions:** Failing to obtain or present advice of counsel cannot by itself prove wilful infringement (35 U.S.C. § 298), but relying on an opinion can still waive privilege, and courts may consider the omission when setting enhanced damages (drafting inference)."
+      "**Opinions:** Failing to obtain or present advice of counsel cannot by itself prove wilful infringement (35 U.S.C. § 298), but relying on an opinion can still waive privilege, and courts differ on whether the omission may be weighed in setting the amount of any enhanced damages (drafting inference)."
      ],
      "owner": [
       "Patent counsel",
@@ -21047,7 +21047,7 @@
      "detail": [
       "**Keep the evidence:** Keep the test method, the data and the date behind each claim on file before the marketing copy is final (good practice).",
       "**Comparisons:** A false or misleading statement about a product in commercial advertising can be challenged by a person who is or is likely to be damaged (15 U.S.C. § 1125(a)(1)(B)). The claimant must show an injury to a commercial interest in reputation or sales, and that the statement caused it (Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
-      "**Competitor names:** Comparative advertising is excluded from federal dilution (15 U.S.C. § 1125(c)(3)(A)), but a competitor's name should appear only as far as needed to identify the competitor, and never in a way that suggests the competitor backs the bank's product (good practice)."
+      "**Competitor names:** Fair use of a famous mark in comparative advertising, other than as a designation of source, is not actionable as dilution (15 U.S.C. § 1125(c)(3)(A)), but a competitor's name should appear only as far as needed to identify the competitor, and never in a way that suggests the competitor backs the bank's product (good practice)."
      ],
      "owner": [
       "Marketing",
@@ -21192,7 +21192,7 @@
      ],
      "detail": [
       "**Disclose first:** Send an invention disclosure to patent counsel before any demo, beta, talk or paper, because a public showing can start the clock on filing (good practice). If a filing is needed quickly, a provisional application needs no claims, but it is regarded as abandoned 12 months after filing unless it is converted (35 U.S.C. § 111(b)(2), (b)(5)).",
-      "**US grace period:** A disclosure made by the inventor one year or less before the effective filing date is not prior art (35 U.S.C. § 102(b)(1)(A)). The grace period is subject to the conditions in § 102(b)(1)(B).",
+      "**US grace period:** A disclosure made by the inventor one year or less before the effective filing date is not prior art (35 U.S.C. § 102(b)(1)(A)). A second exception covers a later disclosure by others of subject matter the inventor had already publicly disclosed (§ 102(b)(1)(B)).",
       "**Elsewhere the grace is narrow:** Under the European Patent Convention, a disclosure is disregarded only in narrow cases, such as evident abuse or an official exhibition (EPC Art. 54 and 55; reported; check). Hong Kong gives six months only for abuse or official exhibitions (Cap. 514 s.37B and s.109). Canada gives one year for the applicant's own disclosures (Patent Act s.28.2(1)(a))."
      ],
      "owner": [
@@ -21402,7 +21402,7 @@
       "abroad"
      ],
      "detail": [
-      "**Registration claims:** Falsely representing a mark as registered is an offence in Hong Kong where the person knows, or has reason to believe, the claim is false (Trade Marks Ordinance (Cap. 559) s.94). In the UK, falsely representing a trade mark as registered is an offence (Trade Marks Act 1994 s.95(1)(a); reported; check). Use ® only where the mark is registered in that place.",
+      "**Registration claims:** Falsely representing a mark as registered is an offence in Hong Kong where the person knows, or has reason to believe, the claim is false (Trade Marks Ordinance (Cap. 559) s.94). In the UK, falsely representing a trade mark as registered is an offence (Trade Marks Act 1994 s.95(1)(a); reported; check). Use ® only where the mark is registered in that place (good practice); both laws excuse a reference to a registration elsewhere only if that is shown and the mark is in fact registered there for the goods or services (Cap. 559 s.94(2); Trade Marks Act 1994 s.95(2); reported; check).",
       "**Notice and action:** EU hosting services must run notice and action mechanisms for illegal content, including IP-infringing content, and must tell the notifier whether they acted (Regulation (EU) 2022/2065 Art. 16; reported; check). Hong Kong has a notice-based safe harbour for online service providers (Copyright Ordinance (Cap. 528) ss.88A to 88J).",
       "**Marks in Canada:** Canada has registered trademarks without prior use since 17 June 2019, so a name cleared only in the US may be taken there first (reported; check; drafting inference). Passing off is prohibited by Trademarks Act s.7(b)."
      ],
@@ -21509,7 +21509,7 @@
       "hk"
      ],
      "detail": [
-      "**Registered symbol:** Use the registered symbol only where the mark is registered in Hong Kong. Using the word 'registered' here is treated as a representation of registration (Cap. 559 s.94(2)).",
+      "**Registered symbol:** Use the registered symbol only where the mark is registered in Hong Kong (good practice). Using the word 'registered' or a symbol importing registration here is treated as a representation of registration in Hong Kong, unless it is shown to refer to a registration elsewhere that in fact covers the goods or services (Cap. 559 s.94(2)).",
       "**Patent pending:** Use 'patent pending' only where an application is on file. Otherwise it is an offence, with a level 3 fine, to represent that an application has been made (Cap. 514 s.143(1), (3)). Due diligence is a defence (s.143(4)).",
       "**Patent marking:** Marking an item sold for value as patented when it is not is an offence, with a due diligence defence (s.142(1)-(2), (4)), so the marking review should cover packaging, the website and the app store listing (good practice)."
      ],
