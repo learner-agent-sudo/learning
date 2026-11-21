@@ -17735,7 +17735,7 @@
      "**Kadrey:** In Kadrey v. Meta Platforms, Inc. (N.D. Cal. 25 June 2025), summary judgment went to Meta on fair use on the record presented. The court stressed that market dilution could defeat fair use in other cases.",
      "**Ross:** In Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc. (D. Del. February 2025), the court held that copying Westlaw headnotes to train a non-generative legal research tool was not fair use. The Third Circuit was reported to have affirmed on interlocutory appeal on 29 September 2026 (reported; check).",
      "**Copyright Office:** Its pre-publication Part 3 report (9 May 2025) says training is not automatically fair use and can weigh against it where outputs compete with or dilute the market. It is guidance, not law. A final version is not confirmed (reported; check).",
-     "**Open cases:** In re OpenAI Copyright Infringement Litigation (S.D.N.Y.) survived most motions to dismiss in March 2025. Fair use summary judgment motions were pending as at November 2026 (reported)."
+     "**Open cases:** The New York Times case, now part of In re OpenAI Copyright Infringement Litigation (S.D.N.Y.), largely survived the motions to dismiss in March 2025. Fair use summary judgment motions were reported pending as at November 2026 (reported; check)."
     ]
    },
    {
@@ -17860,7 +17860,7 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 1202",
     "title": "Integrity of copyright management information",
-    "summary": "It bans knowingly giving false copyright management information (CMI). It also bars intentionally removing or altering CMI without authority, where the person knows that this will induce, enable, facilitate or conceal infringement (for civil claims, reasonable grounds to know is enough) (§ 1202(a), (b)). CMI includes the terms and conditions for use of a work (§ 1202(c)(6)).",
+    "summary": "It bans knowingly giving false copyright management information (CMI) with intent to induce, enable, facilitate or conceal infringement. It also bars intentionally removing or altering CMI without authority, where the person knows that this will induce, enable, facilitate or conceal infringement (for civil claims, reasonable grounds to know is enough) (§ 1202(a), (b)). CMI includes the terms and conditions for use of a work (§ 1202(c)(6)).",
     "counselNote": "Licence headers and notices in code may count as CMI (reported; courts have accepted this in some cases), so an AI rewrite or refactor that strips them can create exposure beyond the licence itself.",
     "cap": "17-USC",
     "section": "1202",
@@ -17896,7 +17896,7 @@
     "instrument": "GNU General Public License v3.0",
     "ref": "s.6",
     "title": "Conveying Non-Source Forms",
-    "summary": "Object code may be conveyed only if the machine-readable Corresponding Source is also provided, by one of the routes the licence lists, such as a written offer valid for at least three years.",
+    "summary": "Object code may be conveyed only if the machine-readable Corresponding Source is also provided, by one of the routes the licence lists, such as, for object code in a physical product, a written offer valid for at least three years and for as long as spare parts or customer support are offered.",
     "counselNote": "A verbatim AI copy of GPL code in a shipped product brings these duties with it, which is why scanning AI output before release matters.",
     "cap": "GPL-3.0-only",
     "section": "6",
@@ -17939,7 +17939,7 @@
     "ref": "(D. Del. February 2025)",
     "title": "Copying to train a non-generative legal research tool was not fair use",
     "summary": "The court held that copying Westlaw headnotes to train a non-generative legal research tool was not fair use. The Third Circuit was reported to have affirmed on interlocutory appeal on 29 September 2026 (reported; check).",
-    "counselNote": "A bank that trains a model on third-party material for a competing product faces this reasoning, but the ruling turns on its facts and on the appeal's outcome.",
+    "counselNote": "A bank that trains a model on third-party material for a competing product faces this reasoning, but the ruling turns on its facts, and the Third Circuit's affirmance does not decide training for generative AI (reported; check).",
     "confidence": "medium"
    },
    {
@@ -18032,7 +18032,7 @@
     "**Computer-generated works:** Where no human author exists, the author is the person who undertook the arrangements needed to create the work (Cap. 528 s.11(3); s.198(1)). Copyright then lasts 50 years from the end of the calendar year in which the work was made (Cap. 528 s.17(6)).",
     "**Training copies:** Storing a work in any electronic form is copying (Cap. 528 s.23(2)). Loading a work into a training set therefore needs the owner's licence or another permitted act, even if no output is ever published.",
     "**No text and data mining exception:** The Ordinance has no such exception, and fair dealing for research or private study is narrow (Cap. 528 s.38(1), (3)). Reports say a proposed amendment has stalled and that guidelines may come first (reported; check).",
-    "**Personal data in training:** Data must be collected for a lawful purpose directly related to the bank's function, and it must not be used for a new purpose without the data subject's prescribed consent (Cap. 486 Sch. 1, DPP 1(1), s.3(1)).",
+    "**Personal data in training:** Data must be collected for a lawful purpose directly related to the bank's function, and it must not be used for a new purpose without the data subject's prescribed consent (Cap. 486 Sch. 1, DPP 1(1), DPP 3(1)).",
     "**Inventorship:** The right to a patent belongs to the inventor or the inventor's successor in title (Cap. 514 s.9E(1)). The inventor has a right to be mentioned as such (Cap. 514 s.9F(1))."
    ],
    "sections": [
@@ -18053,7 +18053,7 @@
      "lede": "Training copies the work at least once, so the input stage carries most of the copyright risk in Hong Kong.",
      "points": [
       "**Storage is copying:** Storing a work in any electronic form is copying (Cap. 528 s.23(2)), so a training store needs a licence or a permitted act.",
-      "**Transient copies:** Copies that are transient or incidental to another use are still copies and are restricted (Cap. 528 s.23(6)); only the narrow temporary-copy exemption for service providers in s.65A applies, and only if its conditions are met. A training copy kept in a dataset is unlikely to be transient (drafting inference).",
+      "**Transient copies:** Copies that are transient or incidental to another use are still copies and are restricted (Cap. 528 s.23(6)); only narrow exemptions apply, and only on their conditions: s.65 for a transient and incidental copy technically required to view or listen to a work communicated to the public, and s.65A for temporary copies made by service providers. A training copy kept in a dataset is unlikely to be transient (drafting inference).",
       "**Narrow research fair dealing:** Fair dealing for research or private study is judged by the purpose and nature of the dealing, the amount taken, and its effect on the market for the work (Cap. 528 s.38(1), (3)).",
       "**Shared datasets:** Fair dealing does not protect copying for another person if the copier knows or has reason to believe the copies will go to more than one person at the same time for the same purpose (Cap. 528 s.38(2)(b)).",
       "**No mining exception:** Because the Ordinance has no text and data mining exception, each training source needs its own licence or permitted act (drafting inference)."
@@ -18258,7 +18258,7 @@
   "oneLiner": "Each right brings its own remedies, deadlines and forums, and timing, notice and cure often decide the outcome.",
   "keyPoints": [
    "Start with the right, not the forum. Copyright, patent, trade secret, licence and computer-access claims each carry different remedies, deadlines and courts.",
-   "**Copyright:** Owners can seek injunctions, actual damages and profits, or statutory damages, but suit needs registration and statutory damages depend on timing (17 U.S.C. §§ 411(a), 412, 502, 504).",
+   "**Copyright:** Owners can seek injunctions, actual damages and profits, or statutory damages, but suit on a US work needs registration and statutory damages depend on timing (17 U.S.C. §§ 411(a), 412, 502, 504).",
    "**Patents:** Damages are at least a reasonable royalty and can reach three times the award. Marking and notice limit early damages, and the PTAB and the ITC run as separate routes (35 U.S.C. §§ 284, 287; 19 U.S.C. § 1337).",
    "**Trade secrets:** The Defend Trade Secrets Act (DTSA) allows injunctions, damages and exemplary damages up to twice the award, but an injunction cannot bar a person from a job merely for what they know (18 U.S.C. § 1836(b)(3)).",
    "**Open source:** GPL-2.0 ends the licensee's rights on any attempt to copy, modify, sublicense or distribute the program outside the licence, while GPL-3.0 allows reinstatement after a timely cure, so a fast, documented response matters (GPL-2.0 s.4; GPL-3.0 s.8).",
@@ -18428,9 +18428,9 @@
     "points": [
      "**Seizure:** A court may seize property ex parte only in extraordinary circumstances, on specific findings, including that the applicant has not publicised the request (18 U.S.C. § 1836(b)(2)(A)).",
      "**Staff limit:** An injunction may not stop a person entering a job, and conditions on a job must rest on evidence of threatened misappropriation, not on what the person knows (§ 1836(b)(3)(A)(i)).",
-     "**Money:** Damages cover actual loss and unjust enrichment, or a reasonable royalty where those measures do not fit (§ 1836(b)(3)(B)).",
-     "**Enhancement:** Exemplary damages go up to twice the award for wilful and malicious misappropriation, and fees follow bad-faith claims (§ 1836(b)(3)(C)-(D)).",
-     "**Limits and reach:** Suit must start within three years of discovery (§ 1836(d)). The DTSA can reach misappropriation abroad where an act in furtherance occurred in the US (Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024))."
+     "**Money:** Damages cover actual loss and unjust enrichment, or, in place of those measures, a reasonable royalty (§ 1836(b)(3)(B)).",
+     "**Enhancement:** Exemplary damages go up to twice the award for wilful and malicious misappropriation, and fees can go to the prevailing party for a bad-faith claim or injunction motion, or for wilful and malicious misappropriation (§ 1836(b)(3)(C)-(D)).",
+     "**Limits and reach:** Suit must start within three years of the date the misappropriation was, or with reasonable diligence should have been, discovered (§ 1836(d)). The DTSA can reach misappropriation abroad where an act in furtherance occurred in the US (Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024))."
     ],
     "visual": {
      "type": "layers",
@@ -18464,7 +18464,7 @@
     "lede": "Most licence disputes start with a compliance letter, and the licence text sets the clock.",
     "points": [
      "**Termination:** Under GPL-2.0 s.4, any attempt to copy, modify, sublicense or distribute outside the licence is void and automatically ends the licensee's rights. Recipients who stay in full compliance keep theirs.",
-     "**Cure:** GPL-3.0 s.8 reinstates rights provisionally once the violation stops. It reinstates them permanently if the holder gives no notice within 60 days, or if the licensee cures within 30 days of a first notice.",
+     "**Cure:** GPL-3.0 s.8 reinstates rights provisionally once the violation stops. It reinstates them permanently if the holder gives no notice within 60 days after the violation stops, or if the licensee cures within 30 days of receiving a first notice.",
      "**Court outcomes:** In Jacobsen, the licence conditions were enforced through copyright. In Artifex Software, Inc. v. Hancom, Inc. (N.D. Cal. 2017), the court refused to dismiss a claim that the GPL was an enforceable contract, and the case then settled.",
      "**Kernel statement:** The Linux Kernel Enforcement Statement (2017) has signatory developers apply GPLv3-style cure terms to the kernel, and some companies made similar commitments (reported; check).",
      "**Pending case:** Software Freedom Conservancy v. Vizio, Inc. (Cal. Super. Ct., Orange County) tests whether a buyer can enforce the GPL as a third-party beneficiary. Pre-trial rulings are reported to hold that the GPL requires source sharing, leaving scope for a jury; no final judgment is confirmed as at November 2026 (reported; check)."
@@ -18490,7 +18490,7 @@
       {
        "label": "No notice from holder",
        "value": "60 days",
-       "note": "Provisional rights become permanent if no notice comes within 60 days (GPL-3.0 s.8)"
+       "note": "Provisional rights become permanent if no notice comes within 60 days of stopping the violation (GPL-3.0 s.8)"
       },
       {
        "label": "Document the close",
@@ -18519,7 +18519,7 @@
      "**Source code protocol:** Produce code only under a protective order, in a review room with logged access and no copies, since the other side's experts will read it closely (good practice).",
      "**Insurers:** Give notice within each policy's deadline. R&W insurance usually excludes matters known from diligence, so known open source issues need special indemnities (reported; market practice).",
      "**Vendor indemnities:** Tender an IP claim to the vendor at once, and check its conditions, such as the use of content filters. Terms differ by vendor (reported; check each contract).",
-     "**Dispute terms:** Open source licences do not choose a forum or governing law, so the bank can set those only in its own contracts (drafting inference).",
+     "**Dispute terms:** Most open source licences, such as the GPL, Apache-2.0 and MIT, do not choose a forum or governing law, though some do (MPL-2.0 s.8; EUPL-1.2 ss.14-15), so the bank can usually set those only in its own contracts (drafting inference).",
      "**Regulators:** The interagency third-party guidance (88 Fed. Reg. 37920) treats vendor disputes as risks to manage across the relationship. A material dispute is worth logging and reporting internally, because examiners may ask about it (good practice)."
     ]
    }
@@ -18580,7 +18580,7 @@
     "cap": "18-USC",
     "section": "1836",
     "title": "Civil proceedings",
-    "summary": "Gives an owner a civil action for misappropriation of a trade secret related to a product or service in interstate or foreign commerce. Remedies include injunctions that cannot stop a person taking a job, damages for actual loss and unjust enrichment or a reasonable royalty, and exemplary damages up to twice the award. Suit must start within three years of discovery (§ 1836(d)).",
+    "summary": "Gives an owner a civil action for misappropriation of a trade secret related to a product or service in interstate or foreign commerce. Remedies include injunctions that cannot stop a person taking a job, damages for actual loss and unjust enrichment or a reasonable royalty, and exemplary damages up to twice the award. Suit must start within three years of the date the misappropriation was, or with reasonable diligence should have been, discovered (§ 1836(d)).",
     "counselNote": "The employment limit means the bank cannot stop a departing engineer joining a competitor only because of what they know. It must show threatened misappropriation.",
     "confidence": "high",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1836&num=0&edition=prelim"
@@ -18616,7 +18616,7 @@
     "cap": "19-USC",
     "section": "1337",
     "title": "Unfair practices in import trade",
-    "summary": "Makes certain unfair import practices unlawful, including importing articles that infringe a valid US patent. When the ITC finds a violation, it directs that the articles be excluded from entry, unless the public interest weighs against that. All legal and equitable defences may be presented (19 U.S.C. § 1337(c)).",
+    "summary": "Makes certain unfair import practices unlawful, including importing articles that infringe a valid and enforceable US patent, where a domestic industry relating to the patented articles exists or is being established (§ 1337(a)(1)(B), (a)(2)). When the ITC finds a violation, it directs that the articles be excluded from entry, unless the public interest weighs against that. All legal and equitable defences may be presented (19 U.S.C. § 1337(c)).",
     "counselNote": "An exclusion order works at the border and can disrupt hardware the bank buys from abroad, so check supplier indemnities before a dispute starts.",
     "confidence": "high",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title19-section1337&num=0&edition=prelim"
@@ -18640,8 +18640,8 @@
     "cap": "GPL-3.0-only",
     "section": "8",
     "title": "Termination",
-    "summary": "Rights end automatically for anyone who propagates or modifies outside the licence. They return provisionally once the violation stops, and permanently if the copyright holder gives no notice within 60 days. They also return permanently if the licensee cures within 30 days of a first notice from that holder.",
-    "counselNote": "Calendar the 30-day and 60-day windows from the first notice. A documented cure inside the window keeps the bank's licence intact.",
+    "summary": "Rights end automatically for anyone who propagates or modifies outside the licence. They return provisionally once the violation stops, and permanently if the copyright holder gives no notice within 60 days after the violation stops. They also return permanently if the licensee cures within 30 days of a first notice from that holder.",
+    "counselNote": "Calendar the 30-day window from receipt of the first notice and the 60-day window from the day the violation stopped. A documented cure inside the window keeps the bank's licence intact.",
     "confidence": "high",
     "url": "https://spdx.org/licenses/GPL-3.0-only.html"
    },
@@ -18652,7 +18652,7 @@
     "cap": "GPL-2.0-only",
     "section": "4",
     "title": "Termination",
-    "summary": "Any attempt to copy, modify, sublicense or distribute the program other than as the licence allows is void and automatically terminates the licensee's rights. Parties who received copies, or rights, from a licensee who stays in full compliance keep their licences.",
+    "summary": "Any attempt to copy, modify, sublicense or distribute the program other than as the licence allows is void and automatically terminates the licensee's rights. Parties who received copies, or rights, from the licensee keep their licences so long as those parties stay in full compliance.",
     "counselNote": "The text has no cure period, so a GPL-2.0 breach by the bank can end its rights at once. Review older GPL-2.0 components with that in mind.",
     "confidence": "high",
     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
@@ -18803,7 +18803,7 @@
      "instrument": "Copyright Ordinance (Cap. 528)",
      "ref": "s.108(1)-(2)",
      "title": "Additional damages and innocent infringers",
-     "summary": "The court considers all the circumstances when it awards damages, including flagrancy, benefit to the defendant, conduct and wide circulation. Damages are barred only where the defendant did not know and had no reason to believe that copyright subsisted, and other remedies stay available.",
+     "summary": "The court considers all the circumstances when it awards additional damages, including flagrancy, benefit to the defendant, conduct and wide circulation. Damages are barred only where the defendant did not know and had no reason to believe that copyright subsisted, and other remedies stay available.",
      "counselNote": "Additional damages are the main lever on a copyright claim against a vendor or contractor, so evidence of flagrancy and benefit matters. The innocence bar is narrow in effect, so an injunction or accounts can still follow even where damages are barred.",
      "confidence": "high",
      "cap": "528",
