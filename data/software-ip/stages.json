@@ -3998,7 +3998,7 @@
     {
      "label": "Conditions on the user",
      "value": "GPL-2.0 s.2",
-     "note": "Notices, source code and the same licence on distribution",
+     "note": "Notices and the same licence on distribution; source code under s.3",
      "rel": "attaches"
     },
     {
@@ -4190,7 +4190,7 @@
      ]
     },
     "points": [
-     "**Linking:** The FSF treats static and dynamic linking to GPL code as making a combined work, and says the answer depends on the facts. No US court has adopted that view.",
+     "**Linking:** The FSF treats static and dynamic linking to GPL code as making a combined work, and says that for other ways programs communicate, such as pipes, sockets or plug-ins, the answer depends on the facts. No US court has adopted that view.",
      "**Derivative works:** A derivative work is one based on a preexisting work and recast, transformed or adapted (17 U.S.C. § 101). Courts have not settled when software that links to another program becomes one.",
      "**One-way fit:** Compatibility is usually one way. Code under one licence can go into a program under another only if the second licence allows it. The FSF considers Apache-2.0 compatible with GPLv3 but not GPLv2.",
      "**GPL and AGPL:** GPL-3.0 s.13 lets the bank combine GPL-3.0 and AGPL-3.0 code into one work. The AGPL network requirements then apply to the combination as such.",
@@ -4229,7 +4229,7 @@
     "points": [
      "**GPL-2.0 s.4:** Any attempt to copy, modify, sublicense or distribute otherwise terminates the licence automatically. Parties who have received copies from the violator keep theirs while they stay in full compliance.",
      "**GPL-3.0 s.8:** Provides the cure route: provisional reinstatement once the violation stops, permanent reinstatement if no notice arrives within 60 days, and permanent reinstatement after a cure within 30 days of the first notice.",
-     "**Kernel statement:** Kernel developers who signed the Linux Kernel Enforcement Statement agreed to apply GPLv3-style cure terms to the kernel (reported; check).",
+     "**Kernel statement:** Kernel developers who signed the Linux Kernel Enforcement Statement agreed to apply GPLv3-style cure terms to their own contributions to the kernel (reported; check).",
      "**Enforcement culture:** The Principles of Community-Oriented GPL Enforcement, published by SFC and the FSF in 2015, put compliance before litigation (reported; check)."
     ],
     "takeaway": "Treat a licence notice as a clock: the 30-day cure window starts when the notice arrives."
@@ -4238,7 +4238,7 @@
     "heading": "Versions, notices and what no licence means",
     "lede": "Small details decide what the bank may do with a release.",
     "points": [
-     "**[[Or later version|or later version]]:** A recipient may choose a later GPL-2.0 version only where the program names a version and says 'any later version' (GPL-2.0 s.9). Where it names no version, any published version may be chosen (GPL-2.0 s.9).",
+     "**[[Or later version|or later version]]:** Where a program names a GPL version, a recipient may choose a later one only if the program also says 'any later version' (GPL-2.0 s.9). Where it names no version, any published version may be chosen (GPL-2.0 s.9).",
      "**[[Dual licensing|dual licensing]]:** A licensor can offer the same code under a commercial licence and a copyleft licence, but only if it owns the copyright or holds the rights to grant both (drafting inference).",
      "**No licence:** Code without a licence keeps the default position: copying, changing and distributing need the owner's permission (17 U.S.C. § 106). Publishing code in a public repository does not by itself grant open source rights (drafting inference).",
      "**Notices:** MIT requires the copyright and permission notice in all copies or substantial portions of the software (MIT full text). Stripping licence notices can raise issues under 17 U.S.C. § 1202 (reported; check).",
@@ -4417,7 +4417,7 @@
    "**SPDX in manifests:** Declare licences as SPDX expressions in package manifests, such as GPL-2.0-only or GPL-2.0-or-later, so that scanners and counsel read the same answer.",
    "**Transitive dependencies:** Scanners need to walk the full dependency tree, because a permissive top-level package can pull in a copyleft library several levels down.",
    "**Linking is a build decision:** Static linking, dynamic linking, plugin loading and separate processes change the combined-work analysis, so record how each component is linked in the build.",
-   "**Network services:** Track which services run modified AGPL-3.0 code. AGPL-3.0 s.13 requires the source offer to be prominent and made through a standard or customary means, such as a link in the service's user interface or API response (drafting inference on the form).",
+   "**Network services:** Track which services run modified AGPL-3.0 code. AGPL-3.0 s.13 requires the source offer to be prominent, with the source available from a network server at no charge through a standard or customary means of copying software; the offer itself might be a link in the service's user interface or API response (drafting inference on the form).",
    "**Notices in artefacts:** Generate licence and notice files during the build and ship them in mobile apps, container images and firmware, not only in the repository."
   ],
   "virtualBankNotes": [
@@ -4436,7 +4436,7 @@
   "pitfalls": [
    "**Source-available as open source:** Approving SSPL, BUSL or Elastic License 2.0 code under an open source policy, when those licences restrict use and are not open source.",
    "**Wrong trigger:** Treating every use as distribution, or assuming that a modified AGPL program run for remote users carries no source duty.",
-   "**Version drift:** Assuming a later GPL version applies when the program does not say 'any later version' (GPL-2.0 s.9).",
+   "**Version drift:** Assuming a later GPL version applies when the program names a version but does not say 'any later version' (GPL-2.0 s.9).",
    "**Notices lost in the build:** Stripping copyright and licence notices during packaging, which breaks licence conditions and can raise issues under 17 U.S.C. § 1202 (reported; check).",
    "**Views as law:** Treating FSF or OSI positions on linking or compatibility as settled law, when no US court has adopted the FSF position on linking.",
    "**Slow cure:** Starting remediation only after a licensor's notice arrives, which can leave the 30-day GPL-3.0 cure window missed."
@@ -4729,7 +4729,7 @@
     {
      "id": "public-domain",
      "label": "Public domain dedications",
-     "blurb": "The author gives up rights as far as the law allows, with a fallback licence."
+     "blurb": "The author gives up rights as far as the law allows; CC0 adds a fallback licence."
     },
     {
      "id": "permissive",
@@ -5369,7 +5369,7 @@
       }
      ],
      "watch": [
-      "The text has no fallback licence: if a court does not give effect to the dedication, the text grants no permission, unlike CC0-1.0 s.3 (Unlicense, full text).",
+      "The text has no drafted fallback licence like CC0-1.0 s.3: if a court does not give effect to the dedication, the bank must rely on its short statement that anyone is free to copy, modify and distribute the software (Unlicense, full text).",
       "A dedication is only as good as the author's title, so confirm the author owned the rights, especially for code written by an employee (17 U.S.C. § 201(b)) or by a contractor, whose work is made for hire only in the categories listed in 17 U.S.C. § 101 (drafting inference).",
       "The licence says nothing about trademarks or patents, so the bank's use of the author's name needs its own check (drafting inference)."
      ],
@@ -5577,7 +5577,7 @@
      "osi": true,
      "summary": "Permits use, modification and distribution, including in larger works that carry other terms. Its main condition is file-level copyleft: distributed MPL-covered files stay under the MPL, with their source available.",
      "trigger": "Distributing Covered Software, in source or executable form, to anyone outside the bank (s.3); internal use alone does not.",
-     "patent": "Express patent licence from each Contributor for its Patent Claims (s.2.1(b)); it ends if you start patent litigation against any entity alleging that a Contributor Version directly or indirectly infringes a patent (s.5.2).",
+     "patent": "Express patent licence from each Contributor for its Patent Claims (s.2.1(b)); all your s.2.1 rights from every Contributor, copyright as well as patent, end if you start patent litigation (other than a declaratory judgment action, counter-claim or cross-claim) against any entity alleging that a Contributor Version directly or indirectly infringes a patent (s.5.2).",
      "duties": [
       {
        "uses": [
@@ -5697,7 +5697,7 @@
       }
      ],
      "watch": [
-      "GPL-2.0 is a 'Secondary License' only where the initial Contributor attaches the Exhibit A notice (s.1 defines the term; s.3.2(a) and Appendix); without that notice, do not treat the code as GPL-2.0.",
+      "The GPL-2.0 'Secondary License' route is open only where the initial Contributor attaches the Exhibit A notice (s.1 defines the term; s.3.2(a) and Appendix); without that notice, do not treat the code as GPL-2.0.",
       "Patent litigation over the Program ends the patent licences (s.7); route any patent dispute with a contributor through counsel first."
      ],
      "sources": [
@@ -6105,7 +6105,7 @@
      "watch": [
       "Internal users count: employees who use a modified version over the bank's network are users interacting remotely, so the s.13 offer is owed to them (drafting inference; check the wording).",
       "GPL-3.0 and AGPL-3.0 code may be combined into one work in either direction. Each part keeps its own licence, but the AGPL network source offer reaches the combination, including the GPL-3.0 code in it (GPL-3.0 s.13; AGPL-3.0 s.13).",
-      "Added terms can be enforced against AGPL licensees: Neo4j, Inc. v. PureThink LLC treated a Commons Clause added to AGPL code as enforceable under the further-restrictions term (reported; check)."
+      "Added terms can be enforced against AGPL licensees: Neo4j, Inc. v. PureThink LLC held that the AGPL's further-restrictions term did not let a licensee strip a Commons Clause that the licensor had added (reported; check)."
      ],
      "sources": [
       {
@@ -6273,7 +6273,7 @@
        "uses": [
         "online"
        ],
-       "text": "Do not offer a hosted or support service whose value derives entirely or substantially from the software (reported; check).",
+       "text": "Do not offer, for a fee or other consideration, a hosted or support service whose value derives entirely or substantially from the software (reported; check).",
        "cites": []
       }
      ],
@@ -6356,7 +6356,7 @@
      "a": "MPL-2.0",
      "b": "GPL-3.0-only",
      "verdict": "yes",
-     "note": "MPL-2.0 s.3.3 lets a larger work carry other terms, and s.1.12 lists GPL-2.0 or any later version as a Secondary License; MPL files keep MPL terms unless marked Incompatible With Secondary Licenses (s.1.5)."
+     "note": "MPL-2.0 s.3.3 lets a larger work carry other terms, and s.1.12 lists GPL-2.0 or any later version as a Secondary License; MPL files may also be distributed under the GPL in that larger work unless they are marked Incompatible With Secondary Licenses (s.1.5, s.3.3)."
     },
     {
      "a": "MPL-2.0",
@@ -6368,7 +6368,7 @@
      "a": "EPL-2.0",
      "b": "GPL-2.0-only",
      "verdict": "check",
-     "note": "EPL-2.0 treats GPL-2.0 as a Secondary License only where the initial Contributor attaches the Exhibit A notice (EPL-2.0 s.1; Appendix). Without that notice, the EPL code cannot be relicensed under GPL-2.0-only."
+     "note": "EPL-2.0 lets the code be made available under GPL-2.0, its Secondary License, only where the initial Contributor attaches the Exhibit A notice (EPL-2.0 s.1, s.3.2(a); Appendix). Without that notice, the EPL code cannot be relicensed under GPL-2.0-only."
     },
     {
      "a": "GPL-2.0-only",
