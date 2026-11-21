@@ -401,7 +401,7 @@
      "core": true,
      "pin": {
       "stage": "copyright",
-      "quote": "No infringement suit on a U.S. work until registration has been made or refused"
+      "quote": "No infringement suit on a U.S. work until preregistration or registration has been made, or registration has been refused"
      }
     },
     {
@@ -5659,7 +5659,7 @@
      "beat": "rule",
      "pin": {
       "stage": "product",
-      "quote": "Use a partner's mark with care: A partner's name can be used to refer to that partner's product"
+      "quote": "Use a partner's mark with care: Under the Ninth Circuit's test, a partner's name can be used to refer to that partner's product"
      },
      "core": true
     },
@@ -5696,7 +5696,7 @@
       "in": false,
       "pin": {
        "stage": "product",
-       "quote": "Use a partner's mark with care: A partner's name can be used to refer to that partner's product"
+       "quote": "Use a partner's mark with care: Under the Ninth Circuit's test, a partner's name can be used to refer to that partner's product"
       }
      }
     ]

@@ -374,7 +374,7 @@
     "ref": "§ 1127",
     "title": "Construction and definitions; intent of chapter",
     "summary": "Defines use in commerce as the bona fide use of a mark in the ordinary course of trade, not made merely to reserve a right in it. It also says when a mark is deemed abandoned, on one of two grounds.",
-    "counselNote": "Trademark rights follow real use in trade, so a name reserved for a future launch but not used earns little protection (drafting inference).",
+    "counselNote": "Trademark rights follow real use in trade, so a name reserved for a future launch but not used earns little protection unless an intent-to-use application is filed, which gives priority from the filing date if the mark registers (15 U.S.C. §§ 1051(b), 1057(c); drafting inference).",
     "confidence": "high",
     "cap": "15-USC",
     "section": "1127",
@@ -688,7 +688,7 @@
    "**Idea limit:** Copyright never reaches an idea, procedure, process, system, method of operation or concept, however it is written down (§ 102(b)).",
    "**Exclusive rights:** The owner controls copying, adapting and distributing the program (§ 106). Sections 109 and 117 then carve out rights that software users need.",
    "**Owner or licensee:** Whether a user owns its copy or only licenses it decides whether the owner's rights under § 117(a) and § 109(a) apply. The contract matters.",
-   "**Registration:** No infringement suit can be brought on a U.S. work until registration has been made or refused (§ 411(a)). Late registration can cost statutory damages and fees (§ 412).",
+   "**Registration:** No infringement suit can be brought on a U.S. work until preregistration or registration has been made, or registration has been refused (§ 411(a)). Late registration can cost statutory damages and fees (§ 412).",
    "**DMCA:** Stripping licence terms from code can breach § 1202(b) if done knowing it will enable infringement. Circumventing a technological measure that effectively controls access to a work, without authority, breaches § 1201(a)(1), subject to the exemptions the Librarian of Congress sets (§ 1201(a)(1)(B) to (D))."
   ],
   "conceptMap": {
@@ -880,7 +880,7 @@
      ]
     },
     "points": [
-     "**Suit:** No infringement suit on a U.S. work until registration has been made or refused (§ 411(a)). Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019), held that registration has been made when the Copyright Office registers the work, not when the application is filed.",
+     "**Suit:** No infringement suit on a U.S. work until preregistration or registration has been made, or registration has been refused (§ 411(a)). Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019), held that registration has been made when the Copyright Office registers the work, not when the application is filed.",
      "**Late registration:** No award of [[statutory damages]] or attorney's fees is made for infringement of an unpublished work that began before registration, or for infringement that began after first publication and before registration, unless registration came within three months of first publication (§ 412).",
      "**Amounts:** The owner may elect $750 to $30,000 per work instead of actual damages and profits, rising to $150,000 for wilful infringement and falling to $200 for innocent infringement (§ 504(c)).",
      "**Deposits:** Applicants can deposit redacted source code to protect trade secrets, using page options set by the Copyright Office (37 C.F.R. § 202.20(c)(2)(vii)) (reported; check the current options)."
@@ -966,7 +966,7 @@
     "ref": "§ 117",
     "title": "Limitations on exclusive rights: computer programs",
     "summary": "Lets the owner of a copy of a program make another copy or adaptation as an essential step in using it with a machine, or for archive purposes only, with archive copies destroyed if rightful possession ends (§ 117(a)). Exact copies move only with the whole program (§ 117(b)). Maintenance and repair copies are covered by § 117(c).",
-    "counselNote": "This is the statutory safe harbour for owners. Any licence term that restricts these copies should be checked against it, since the owner's position here is set by statute (good practice).",
+    "counselNote": "This is the statutory safe harbour for owners of a copy. Whether the bank owns its copy or only holds a licence decides whether it applies (Vernor v. Autodesk, Inc., 621 F.3d 1102 (9th Cir. 2010)), and the Act does not void licence terms that restrict these copies, so check both (good practice).",
     "confidence": "high",
     "cap": "17-USC",
     "section": "117",
@@ -1013,7 +1013,7 @@
     "instrument": "Digital Millennium Copyright Act (17 U.S.C. Chapter 12)",
     "ref": "§ 1202",
     "title": "Integrity of copyright management information",
-    "summary": "Bars knowingly supplying false copyright management information (CMI) to induce or conceal infringement (§ 1202(a)). Bars intentionally removing or altering CMI, knowing it will induce, enable, facilitate or conceal infringement (§ 1202(b)). CMI includes terms and conditions for use of the work (§ 1202(c)(6)).",
+    "summary": "Bars knowingly supplying false copyright management information (CMI) to induce or conceal infringement (§ 1202(a)). Bars intentionally removing or altering CMI, knowing, or for civil claims having reasonable grounds to know, that it will induce, enable, facilitate or conceal infringement (§ 1202(b)). CMI includes terms and conditions for use of the work (§ 1202(c)(6)).",
     "counselNote": "A licence header in code can be CMI, so removing it during refactoring, minification or reuse of vendor code is a DMCA risk. The case law on licence headers is limited (reported; check).",
     "confidence": "high",
     "cap": "17-USC",
@@ -1098,7 +1098,7 @@
    {
     "place": "UK",
     "points": [
-     "**Statutory user rights:** lawful users have back-up copy, decompilation and observe-study-test rights (CDPA 1988 ss.50A-50C), so the bank's licence terms should be checked against them.",
+     "**Statutory user rights:** lawful users have back-up copy, decompilation and observe-study-test rights (CDPA 1988 ss.50A-50BA), and a licence term is void so far as it would prohibit or restrict them (CDPA 1988 s.296A).",
      "**Same core position:** programs are literary works (CDPA 1988 s.3(1)(b)), and the idea-expression line is drawn much as in the US."
     ]
    },
@@ -1112,7 +1112,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Hong Kong protects code as a literary work under the Copyright Ordinance (Cap. 528 s.4(1)(b)), with no registration step and no general fair use, only listed fair dealing purposes (Cap. 528 ss.38-39A). The biggest differences from the US are the statutory lawful-user rules for back-up, copying and adaptation (Cap. 528 s.60, s.61) and a criminal offence for business possession of infringing programs (Cap. 528 s.118(2A)).",
+   "summary": "Hong Kong protects code as a literary work under the Copyright Ordinance (Cap. 528 s.4(1)(b)), with no registration step and no general fair use, only listed fair dealing purposes (Cap. 528 ss.38-39A). The biggest differences from the US are statutory back-up, copying and adaptation rules for any lawful user, including a licensee (Cap. 528 ss.60-61), where the US gives them only to the owner of a copy (17 U.S.C. § 117(a)), and a criminal offence for business possession of infringing programs (Cap. 528 s.118(2A)).",
    "keyPoints": [
     "**Programs are literary works:** A computer program, its preparatory design material and a data compilation with an original selection or arrangement are literary works (Cap. 528 s.4(1)(a)-(c)).",
     "**Protection starts on recording:** A program is protected once it is recorded in writing or otherwise, and nothing needs to be filed (Cap. 528 s.4(2)-(3)).",
@@ -7601,7 +7601,7 @@
     "place": "UK",
     "points": [
      "**Same copyright footing:** programs are literary works (CDPA 1988 s.3(1)(b)), so a copyleft licence rests on the same copyright and contract base as in the US.",
-     "**Lawful-user rights:** back-up copies, decompilation and observe-study-test are permitted (CDPA 1988 ss.50A-50C), so check any copyleft or licence term that limits them against those sections."
+     "**Lawful-user rights:** back-up copies, decompilation and observe-study-test are permitted (CDPA 1988 ss.50A-50BA), and a licence term is void so far as it would prohibit or restrict them (CDPA 1988 s.296A)."
     ]
    },
    {
@@ -8310,7 +8310,7 @@
     "place": "UK",
     "points": [
      "**Broadly the same:** AGPL-3.0 s.13 operates as a licence condition on copyright, and programs are literary works (CDPA 1988 s.3(1)(b)), so the US analysis carries over.",
-     "**Lawful-user rights:** observe-study-test, back-up and decompilation rights (CDPA 1988 ss.50A-50C) should be checked against any source-available licence restriction on reverse engineering."
+     "**Lawful-user rights:** observe-study-test, back-up and decompilation rights (CDPA 1988 ss.50A-50BA) override any source-available licence restriction on reverse engineering, which is void so far as it would prohibit or restrict them (CDPA 1988 s.296A)."
     ]
    },
    {
@@ -11088,7 +11088,7 @@
      "detail": [
       "**Prompts alone are not enough:** The Copyright Office says a prompt alone does not give the user enough control to be an author. Human expression in the output, or human selection and arrangement, can be protected (Copyright Office, Part 2, 29 January 2025).",
       "**Record the human contribution:** The Copyright Office says applicants should disclose AI-generated material that is more than de minimis and exclude it from the claim (88 Fed. Reg. 16190). Keep a record of human edits and selection.",
-      "**Courts need a human author:** The D.C. Circuit held that the Copyright Act requires human authorship for registration (Thaler v. Perlmutter, 130 F.4th 1039)."
+      "**Courts need a human author:** The D.C. Circuit held that the Copyright Act requires human authorship for a work to be protected, and so for registration (Thaler v. Perlmutter, 130 F.4th 1039)."
      ],
      "owner": [
       "Legal",
@@ -17596,7 +17596,7 @@
   "review": "draft",
   "oneLiner": "AI output needs a human author, only people can be inventors, and training and licence questions are still being decided case by case.",
   "keyPoints": [
-   "Copyright protects human-authored work. The D.C. Circuit held in Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025), that the Copyright Act (17 U.S.C. § 102(a)) requires human authorship for registration, so the bank must document its own contribution.",
+   "Copyright protects human-authored work. The D.C. Circuit held in Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025), that the Copyright Act (17 U.S.C. § 102(a)) protects only work by a human author and requires human authorship for registration, so the bank must document its own contribution.",
    "**Inventorship:** Under the Patent Act (35 U.S.C. § 100(f)), inventors are individuals, and the Federal Circuit held in Thaler v. Vidal, 43 F.4th 1207 (Fed. Cir. 2022), that an AI system cannot be one. Name the people who conceived each claim.",
    "**Training:** Early decisions point in different directions on whether training is [[fair use]]. Training on lawfully acquired books was held fair use in Bartz, but building a library from pirated copies was not (17 U.S.C. § 107).",
    "**Output:** AI tools can reproduce licensed code word for word. The copy keeps its licence, so distributing it brings the licence conditions with it, and stripping notices can engage [[copyright management information]] rules (17 U.S.C. § 1202(b)).",
@@ -17682,7 +17682,7 @@
     },
     "points": [
      "**Statutory base:** The Copyright Act (17 U.S.C.) protects original works of authorship (§ 102(a)) and vests copyright initially in the author or authors (§ 201(a)).",
-     "**Registration:** The D.C. Circuit held in Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025), that the Act requires human authorship for registration. Certiorari was reported denied on 2 March 2026 (reported; check).",
+     "**Registration:** The D.C. Circuit held in Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025), that the Act protects only work by a human author and requires human authorship for registration. Certiorari was reported denied on 2 March 2026 (reported; check).",
      "**Prompts alone:** The Copyright Office says prompts alone do not give the user enough control to become an author (Copyright Office, Part 2, 29 January 2025).",
      "**Human expression:** Human expression perceptible in the output, and human selection, arrangement or modification of AI material, can be protected. The Office decides case by case (Copyright Office, Part 2, 29 January 2025).",
      "**Disclosure:** The Office's policy statement says applicants must disclose AI-generated material that is more than de minimis, exclude it from the claim and describe the human contribution (88 Fed. Reg. 16190)."
@@ -17920,7 +17920,7 @@
     "instrument": "Thaler v. Perlmutter",
     "ref": "130 F.4th 1039 (D.C. Cir. 2025)",
     "title": "Copyright registration requires human authorship",
-    "summary": "The D.C. Circuit held on 18 March 2025 that the Copyright Act requires human authorship for registration. Certiorari was reported denied on 2 March 2026 (reported; check).",
+    "summary": "The D.C. Circuit held on 18 March 2025 that the Copyright Act requires a human author for a work to be protected, so the Copyright Office was right to refuse registration. Certiorari was reported denied on 2 March 2026 (reported; check).",
     "counselNote": "A registration claim over output without human authorship will fail, so the bank's registration strategy must rest on documented human contribution.",
     "confidence": "high"
    },
@@ -18201,7 +18201,7 @@
   "glossary": [
    {
     "term": "human authorship",
-    "definition": "The requirement that copyright protection and registration rest on a human author's original expression. The D.C. Circuit held in Thaler v. Perlmutter that the Copyright Act requires it for registration (130 F.4th 1039)."
+    "definition": "The requirement that copyright protection and registration rest on a human author's original expression. The D.C. Circuit held in Thaler v. Perlmutter that the Copyright Act requires it for protection, not only for registration (130 F.4th 1039)."
    },
    {
     "term": "fair use",
@@ -18316,7 +18316,7 @@
     "lede": "Each right gives different relief, so the bank's exposure depends on which right is claimed.",
     "points": [
      "**Injunctions:** Under the Copyright Act (17 U.S.C.), a court may grant temporary and final injunctions, and they operate throughout the United States (§ 502(a)-(b)).",
-     "**Profits:** The owner recovers actual damages and the infringer's profits. It proves only gross revenue, and the infringer must prove its deductible costs (§ 504(b)).",
+     "**Profits:** The owner recovers actual damages and the infringer's profits attributable to the infringement, so far as the damages do not already count them. It proves only gross revenue, and the infringer must prove its deductible costs and the profit due to factors other than the work (§ 504(b)).",
      "**Choice of award:** The owner may elect instead [[statutory damages]] of $750 to $30,000 per work, up to $150,000 for wilful infringement and down to $200 for innocent infringement (§ 504(c)).",
      "**Fees:** The court may award costs and a reasonable attorney's fee to the prevailing party, at its discretion (§ 505).",
      "**Licence conditions:** Where a licence condition limits the licence itself, breaking it is infringement and not only a contract breach (Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008))."
@@ -18357,7 +18357,7 @@
     "heading": "Registration and timing",
     "lede": "Registration and dates often decide the money more than the merits.",
     "points": [
-     "**Registration first:** A suit on a US work cannot start until registration has been made, not just applied for (17 U.S.C. § 411(a); Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019)).",
+     "**Registration first:** A suit on a US work cannot start until registration has been made, not just applied for (17 U.S.C. § 411(a); Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019)). If the Office refuses registration, the applicant may still sue once it serves notice and the complaint on the Register (§ 411(a)).",
      "**Late registration:** Statutory damages and fees are lost for infringement that began before registration took effect, unless a published work was registered within three months of first publication (§ 412).",
      "**Time limit:** A civil claim must be brought within three years after it accrued (§ 507(b)). Warner Chappell Music, Inc. v. Nealy, 601 U.S. 366 (2024), held that a claim timely under the discovery rule is not capped at three years of damages, though the Court assumed the rule applies.",
      "**Criminal cases:** Criminal copyright proceedings must start within five years (§ 507(a))."
@@ -18505,7 +18505,7 @@
     "points": [
      "**Notices:** A takedown notice under the Digital Millennium Copyright Act (DMCA) (17 U.S.C. § 512(c)(3)) needs a good-faith statement and a statement under penalty of perjury that the sender is authorised to act (§ 512(c)(3)(A)(v)-(vi)).",
      "**Misrepresentation:** A person who knowingly and materially misrepresents that material is infringing is liable for damages and fees to anyone harmed when a host relies on that claim (§ 512(f)).",
-     "**[[counter-notice|counter-notification]]:** The poster may counter-notify under penalty of perjury. The host must restore the material 10 to 14 business days later, unless the claimant has sued (§ 512(g)(2)(C), (g)(3)).",
+     "**[[counter-notice|counter-notification]]:** The poster may counter-notify under penalty of perjury. The host must restore the material 10 to 14 business days later, unless the claimant has sued, if it is to keep its protection against the poster's claims over the removal (§ 512(g)(1), (2)(C), (3)).",
      "**Takedown history:** GitHub disabled youtube-dl in October 2020 after a notice invoking § 1201, and restored it in November 2020 (reported; check).",
      "**Computer access:** The Computer Fraud and Abuse Act (CFAA) (18 U.S.C. § 1030(a)(2)) covers intentional access without authorisation, or beyond it, to obtain listed categories of information. Van Buren v. United States, 593 U.S. 374 (2021), held that this reaches off-limits areas, not misuse of data one may access (§ 1030(e)(6)).",
      "**Scraping:** hiQ Labs, Inc. v. LinkedIn Corp., 31 F.4th 1180 (9th Cir. 2022), held that scraping publicly available profiles was likely not access without authorisation. A civil CFAA claim must start within two years (§ 1030(g))."
@@ -18544,7 +18544,7 @@
     "cap": "17-USC",
     "section": "504",
     "title": "Remedies for infringement: Damages and profits",
-    "summary": "The owner may recover actual damages and profits, or elect statutory damages of $750 to $30,000 per work. Wilful infringement can raise that to $150,000, and innocent infringement can reduce it to $200. The owner proves only gross revenue, and the infringer proves its deductible costs.",
+    "summary": "The owner may recover actual damages and profits, or elect statutory damages of $750 to $30,000 per work. Wilful infringement can raise that to $150,000, and innocent infringement can reduce it to $200. The owner proves only gross revenue, and the infringer proves its deductible costs and the profit due to factors other than the work.",
     "counselNote": "Statutory damages run per work, so how the bank counts works in a codebase matters. Timely registration decides whether they are available at all.",
     "confidence": "high",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section504&num=0&edition=prelim"
@@ -19057,7 +19057,7 @@
      "**File on intent:** A person with a bona fide intention to use a mark in commerce can file an intent-to-use application (15 U.S.C. § 1051(b)(1)). No registration issues until a verified statement of use is accepted (15 U.S.C. § 1051(d)).",
      "**Use the filing date:** Filing an application to register is constructive use, contingent on registration, and gives nationwide priority from the filing date. Earlier users and earlier filers keep their position (15 U.S.C. § 1057(c)).",
      "**Use the ® only when it is earned:** Using ® on a mark that is not registered is improper (USPTO TMEP § 906.02) (reported; check). Notice is optional, but a registrant that omits it cannot recover profits or damages unless the defendant knew of the registration (15 U.S.C. § 1111).",
-     "**Use a partner's mark with care:** A partner's name can be used to refer to that partner's product where the product cannot be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)). Follow the partner's brand rules as well (good practice).",
+     "**Use a partner's mark with care:** Under the Ninth Circuit's test, a partner's name can be used to refer to that partner's product where the product cannot be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)). Follow the partner's brand rules as well (good practice).",
      "**Make comparative claims provable:** Advertising that misrepresents the nature, characteristics or qualities of goods or services can be sued on by anyone who is or is likely to be damaged (15 U.S.C. § 1125(a)(1)(B)). Lexmark International v. Static Control Components, 572 U.S. 118 (2014), requires a plaintiff to fall within the statute's zone of interests and to show proximate cause. Keep evidence for every comparison (good practice)."
     ],
     "visual": {
@@ -19093,7 +19093,7 @@
     "lede": "Most of what a team builds on screen is protected in some way, but not by one right. Each right covers a different part of the work.",
     "points": [
      "**Copyright covers expression, not method:** Copyright protects original works of authorship but never an idea, procedure, process, system or method of operation (17 U.S.C. § 102(a), (b)). Lotus v. Borland treated a menu command hierarchy as an uncopyrightable method of operation, and Apple v. Microsoft filtered out unprotectable and licensed interface elements, leaving thin protection against near-verbatim copying (Lotus Development Corp. v. Borland International, 49 F.3d 807 (1st Cir. 1995); Apple Computer v. Microsoft, 35 F.3d 1435 (9th Cir. 1994)) (reported; check).",
-     "**Trade dress needs meaning and non-function:** Product-design trade dress is protected without registration only on proof of secondary meaning, and functional features cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)) (reported; check). The claimant must prove the trade dress is not functional (15 U.S.C. § 1125(a)(3)).",
+     "**Trade dress needs meaning and non-function:** Product-design trade dress is protected without registration only on proof of secondary meaning, and functional features cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001)) (reported; check). For trade dress not registered on the principal register, the claimant must prove it is not functional (15 U.S.C. § 1125(a)(3)).",
      "**Design patents cover the look of an icon:** A design patent can protect the ornamental design of a computer-generated icon or interface shown on a display screen (35 U.S.C. § 171; MPEP § 1504.01(a)) (reported; check). The term runs for 15 years from grant (35 U.S.C. § 173) (reported; check). Ask patent counsel before the design is shown outside the team, because a public showing can start a bar period (drafting inference).",
      "**Typefaces and font software differ:** A typeface as such is not subject to US copyright (37 C.F.R. § 202.1(e)) (reported; check), but original font software can be registered as a literary work (reported; check). Under the SIL Open Font License, fonts may be used, embedded and bundled, but the font software may not be sold alone and a Reserved Font Name may not be used in a modified version without permission (OFL-1.1 conditions 1 and 3).",
      "**Read the stock and AI licences:** A stock image licence sets the permitted use, the territory, the term and the number of users, and the bank's marketing use must fit inside them (good practice). The Copyright Office guidance says applicants must disclose AI-generated content that is more than de minimis and exclude it from the claim (88 Fed. Reg. 16190, 16 March 2023) (reported; check)."
@@ -19110,7 +19110,7 @@
       {
        "label": "Trade dress",
        "value": "15 U.S.C. § 1125(a)(3)",
-       "note": "Needs secondary meaning and non-function, and the claimant proves non-function."
+       "note": "Product design needs secondary meaning; no trade dress may be functional, and for unregistered dress the claimant proves non-function."
       },
       {
        "label": "Design patent",
@@ -19411,7 +19411,7 @@
   ],
   "checklist": [
    "**Name and marks:** Clear the feature name before any announcement. If the bank has a bona fide intention to use the mark in commerce, file an intent-to-use application before launch (15 U.S.C. § 1051(b)(1)). Constructive use then dates from the filing date, if the mark registers (15 U.S.C. § 1057(c)).",
-   "**Partner marks:** Ask whether the feature shows a wallet, card scheme or partner mark, and get the partner's brand rules in writing before the first screen is drawn. Naming another owner's product with its mark can be nominative fair use only where the product cannot readily be identified without it and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)).",
+   "**Partner marks:** Ask whether the feature shows a wallet, card scheme or partner mark, and get the partner's brand rules in writing before the first screen is drawn. Naming another owner's product with its mark can be nominative fair use only where the product cannot readily be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)).",
    "**Comparative claims:** Every launch claim that compares the bank's product with a rival, or states a quality or performance level, needs supporting evidence before it goes live (15 U.S.C. § 1125(a)(1)(B); Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
    "**Screens and icons:** Ask early what in the design is worth protecting. Copyright covers the expression in an interface, not the method of operation (17 U.S.C. § 102(b); reported; check). Product-design trade dress needs secondary meaning and cannot be functional (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001); reported; check). A design patent can cover an icon shown on a display screen (35 U.S.C. § 171; reported; check).",
    "**Fonts and images:** Confirm that each typeface, font file, icon set and stock image is licensed for the bank's use, including app bundles, web delivery and print. Font software cannot be sold by itself, and a modified font may not use a reserved font name without permission (OFL-1.1 conditions 1 and 3). Stock licences often limit the number or type of uses (good practice).",
@@ -19658,11 +19658,11 @@
    },
    {
     "term": "Nominative fair use",
-    "definition": "Using another company's mark to name that company's product, where the product cannot readily be identified without the mark. Only as much of the mark as needed is used, and nothing suggests sponsorship. Partners and integrators rely on it when they name a wallet or card scheme (good practice) (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992))."
+    "definition": "Using another company's mark to name that company's product, where the product cannot readily be identified without the mark. Only as much of the mark as needed is used, and nothing suggests sponsorship. Partners and integrators rely on it when they name a wallet or card scheme (good practice) (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); other circuits apply different tests)."
    },
    {
     "term": "Trade dress",
-    "definition": "The overall look of a product or its packaging, which the law can protect as a sign of origin. Unregistered product design needs proof of secondary meaning, and a functional feature cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000), reported; check)."
+    "definition": "The overall look of a product or its packaging, which the law can protect as a sign of origin. Unregistered product design needs proof of secondary meaning, and a functional feature cannot be trade dress (Wal-Mart Stores v. Samara Brothers, 529 U.S. 205 (2000); TrafFix Devices v. Marketing Displays, 532 U.S. 23 (2001), reported; check)."
    },
    {
     "term": "Design patent",
@@ -20794,7 +20794,7 @@
      ],
      "title": "Keep a record of human authorship in AI-assisted code",
      "detail": [
-      "**Authorship:** The D.C. Circuit held that registration requires human authorship (Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025); 17 U.S.C. § 102(a)). The bank should therefore document its own contribution (drafting inference).",
+      "**Authorship:** The D.C. Circuit held that copyright protection, and so registration, requires human authorship (Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025); 17 U.S.C. § 102(a)). The bank should therefore document its own contribution (drafting inference).",
       "**Copies:** An AI tool can reproduce licensed code word for word. The copy keeps its licence, so shipping it brings that licence's conditions with it, and removing notices can engage 17 U.S.C. § 1202(b) (drafting inference).",
       "**Training data:** Early decisions point in different directions on whether training is fair use, and building a library from pirated copies is treated differently from training on lawfully acquired works (17 U.S.C. § 107)."
      ],
@@ -20983,9 +20983,9 @@
       "partner"
      ],
      "detail": [
-      "**Clear the name first:** Run a search before the name is announced (good practice). A bona fide intention to use a mark in commerce is enough to file an intent-to-use application (15 U.S.C. § 1051(b)(1)). Filing gives nationwide priority from the filing date, unless someone used the mark or applied for it first (15 U.S.C. § 1057(c)).",
+      "**Clear the name first:** Run a search before the name is announced (good practice). A bona fide intention to use a mark in commerce is enough to file an intent-to-use application (15 U.S.C. § 1051(b)(1)). Filing gives nationwide priority from the filing date, if the mark registers, unless someone used the mark or applied for it first (15 U.S.C. § 1057(c)).",
       "**Use the registration notice correctly:** Use ® only once the mark is registered. A registrant that omits the notice cannot recover profits or damages unless the defendant had actual notice (15 U.S.C. § 1111). Using ® on a mark that is not registered is improper (USPTO TMEP § 906.02; reported; check).",
-      "**Use a partner's mark with care:** A wallet, card scheme or partner logo may name the partner's product, but only as much of the mark as is needed, and nothing may suggest sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)). Follow the partner's brand rules too (good practice)."
+      "**Use a partner's mark with care:** A wallet, card scheme or partner name may be used to name the partner's product, but only where it is needed to identify the product, only as much of the mark as is needed, which usually rules out the logo without the partner's consent, and nothing may suggest sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)). Follow the partner's brand rules too (good practice)."
      ],
      "owner": [
       "Legal",
