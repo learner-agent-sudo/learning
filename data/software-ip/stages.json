@@ -8694,7 +8694,7 @@
      ]
     },
     "points": [
-     "**Federal attestations:** Executive Order 14306 amended the earlier order and removed the validated attestation requirement (reported; check). OMB Memorandum M-26-05 (January 2026) is reported to have rescinded M-22-18 and M-23-16 (reported; check).",
+     "**Federal attestations:** Executive Order 14306 amended Executive Order 14144 (January 2025) and removed its validated attestation requirement (reported; check). OMB Memorandum M-26-05 (January 2026) is reported to have rescinded M-22-18 and M-23-16 (reported; check).",
      "**Secure development:** NIST SP 800-218, the Secure Software Development Framework (version 1.1, February 2022), is a common reference for secure development questions. A draft revision was published for comment in December 2025 (reported).",
      "**Third parties:** The interagency guidance, 88 Fed. Reg. 37920 (9 June 2023), covers the whole life cycle of third-party relationships. It is technology-neutral and does not single out open source, but the vendors that support or host open source fall within it (drafting inference).",
      "**Applications:** NYDFS requires written procedures for secure development of in-house applications and for assessing externally developed ones (23 NYCRR 500.8). Section 500.11 requires a policy on third-party service providers."
@@ -8912,7 +8912,7 @@
     "place": "UK",
     "points": [
      "**Same use analysis:** programs are literary works (CDPA 1988 s.3(1)(b)), so intake and approval steps carry over from the US.",
-     "**Lawful-user checks:** back-up, decompilation and observe-study-test rights (CDPA 1988 ss.50A-50C) should be checked against any licence term that restricts them."
+     "**Lawful-user checks:** back-up, decompilation and observe-study-test rights (CDPA 1988 ss.50A-50BA) override any licence term, which is void so far as it would prohibit or restrict them (CDPA 1988 s.296A)."
     ]
    },
    {
@@ -8962,7 +8962,7 @@
      "lede": "Terms accepted online can bind the bank, and a designated critical computer system carries statutory notice duties.",
      "points": [
       "**Electronic acceptance:** An offer and its acceptance may be expressed by electronic records, and a contract is not invalid only because an electronic record was used (Cap. 553 s.17(1)-(2)).",
-      "**Method of acceptance:** The offeror may prescribe how acceptance is to be communicated (Cap. 553 s.17(3)), so a vendor can require a specific click or confirmation step.",
+      "**Method of acceptance:** Section 17 leaves intact the common-law rule that the offeror may prescribe how acceptance is to be communicated (Cap. 553 s.17(3)), so a vendor can require a specific click or confirmation step.",
       "**Acceptance by conduct:** Acceptance by conduct alone is not covered by s.17 and is a common-law question (drafting inference).",
       "**Negligence liability:** Except for a contract so far as it relates to the creation or transfer of a right or interest in copyright or other intellectual property, which ss.7 to 9 do not reach (Cap. 71 Sch. 1, para 1(c)), no contract term can exclude liability for death or personal injury from negligence, and other negligence liability can be excluded only so far as the term is reasonable (Cap. 71 s.7(1)-(2)).",
       "**Designated systems:** A designated critical infrastructure operator must notify a computer-system security incident to the Commissioner as soon as practicable, and within 12 hours after becoming aware of it where the core function is disrupted or likely to be, or otherwise within 48 hours after becoming aware (Cap. 653 s.28(2)(a); Sch. 6, item 1)."
@@ -9024,7 +9024,7 @@
      "instrument": "Electronic Transactions Ordinance (Cap. 553)",
      "ref": "s.17(1)-(3)",
      "title": "Contracts formed by electronic records",
-     "summary": "An offer and its acceptance may be expressed by electronic records, and a contract is not invalid only because an electronic record was used. The offeror may prescribe how acceptance is communicated.",
+     "summary": "An offer and its acceptance may be expressed by electronic records, and a contract is not invalid only because an electronic record was used. The section does not affect the common-law rule that the offeror may prescribe how acceptance is communicated.",
      "counselNote": "Click-through terms in a vendor portal or in the bank's own tooling can bind the bank. Procurement should record the version accepted and who accepted it.",
      "confidence": "high",
      "cap": "553",
@@ -9659,7 +9659,7 @@
      "detail": [
       "**No permission:** Copyright gives the author the exclusive right to reproduce, adapt and distribute the work, so code with no licence carries no permission to do those things (17 U.S.C. § 106).",
       "**Ask or drop:** Ask the author or owner for a written licence before any copy is made, or drop the component (good practice).",
-      "**Unclear claims:** A licence named only in a README or on a web page may not bind the owner. Treat the component as unlicensed until the owner confirms the terms (good practice)."
+      "**Unclear claims:** A licence named only in a README or on a web page can leave the version, the files covered or who granted it unclear. Treat the component as unlicensed until the owner confirms the terms (good practice)."
      ],
      "owner": [
       "Legal",
@@ -10063,7 +10063,7 @@
      ],
      "detail": [
       "**Copies inside the bank:** GPL-3.0 treats conveying as propagation that lets others make or receive copies (GPL-3.0 s.0). Copies used only within the bank are generally treated as not conveyed (drafting inference; FSF view).",
-      "**Contractors:** A contractor may work on GPL-3.0 code for the bank only if it modifies or runs the code exclusively for the bank and copies nothing outside that relationship (GPL-3.0 s.2).",
+      "**Contractors:** Giving GPL-3.0 code to a contractor falls within the licence's contractor permission only if the contractor modifies or runs it exclusively on the bank's behalf, under the bank's direction and control, on terms that bar copies of the bank's copyrighted material outside that relationship; otherwise the copy is conveyed on the usual terms (GPL-3.0 s.2).",
       "**Affiliates:** The FSF's view is that copies within one organisation are not distribution (FSF view, not law). Affiliates are separate legal persons, so treat a copy to one as distribution unless the licence says otherwise (drafting inference)."
      ],
      "owner": [
@@ -10155,8 +10155,8 @@
      ],
      "detail": [
       "**Whole work:** Distributing a work that contains or derives from GPL-2.0 code requires licensing the whole work under the GPL, at no charge to every third party (GPL-2.0-only s.2).",
-      "**Source with object code:** Give complete corresponding source with object code, or a written offer valid for at least three years (GPL-2.0-only s.3; GPL-3.0-only s.6).",
-      "**Modified GPL-3.0 code:** Mark the changes with prominent notices and dates, and license the whole work under GPL-3.0 when it is conveyed in source form (GPL-3.0-only s.5)."
+      "**Source with object code:** Give complete corresponding source with object code, or a written offer valid for at least three years (GPL-2.0-only s.3). Under GPL-3.0 the written offer is available only for object code in a physical product, and a download must offer equivalent access to the source (GPL-3.0-only s.6(b), (d)).",
+      "**Modified GPL-3.0 code:** Mark the changes with prominent notices and dates, and license the whole work under GPL-3.0 when it is conveyed, as source or, through s.6, as object code (GPL-3.0-only ss.5-6)."
      ],
      "owner": [
       "Legal",
@@ -10632,7 +10632,7 @@
      ],
      "detail": [
       "**Lawful user:** A person with a contractual right to use a program may make a back-up copy where necessary for that use, and may copy or adapt it where necessary for lawful use, including to correct errors (Cap. 528 s.60(1)-(2), s.61(1)-(2)). An agreement can exclude the back-up right (s.60(3)), but section 61 has no equivalent words, so whether a licence can exclude it is a question of construction (drafting inference).",
-      "**No decompilation exception:** The Ordinance has no express decompilation or reverse-engineering exception. Reverse engineering is therefore lawful only where the lawful-user rule applies, so any licence term that allows debugging should be checked against section 61 (good practice).",
+      "**No decompilation exception:** The Ordinance has no express decompilation or reverse-engineering exception. Reverse engineering that copies or adapts the program therefore needs the owner's licence or a statutory exception, such as the lawful-user rule or fair dealing for research or private study (Cap. 528 ss.38, 61; drafting inference), so any licence term on debugging should be checked against section 61 (good practice).",
       "**Interoperability:** Circumventing an effective technological measure for interoperability is excused only on its conditions, which include that the copy is not infringing and that the analysis is not itself an infringement (Cap. 528 s.273D(1)(b)-(e)). The exception excuses circumvention, not copying or adapting."
      ],
      "owner": [
@@ -10982,7 +10982,7 @@
      "detail": [
       "**Material changes:** If the bank or a system is designated under the Protection of Critical Infrastructures (Computer Systems) Ordinance, a material change to the design, configuration, security or operation of a critical computer system must be notified to the regulator within 1 month (Cap. 653 s.22(1), (2)(a)).",
       "**Incidents:** A computer-system security incident must be notified within 12 hours where the core function is disrupted or likely to be disrupted, and otherwise within 48 hours, with a written report within 14 days (Cap. 653 s.28; Sch. 6).",
-      "**Regulator:** The HKMA is the designated authority for authorized institutions, so it administers these duties for the bank (Cap. 653 Sch. 2)."
+      "**Regulator:** The HKMA is the designated authority for authorized institutions, so material changes are notified to it, but incidents are notified to the Commissioner of Critical Infrastructure (Computer-system Security) (Cap. 653 Sch. 2; s.6; s.22(1); s.28(1))."
      ],
      "owner": [
       "Information security",
@@ -11121,7 +11121,7 @@
      "title": "For critical dependencies, review the project's governance",
      "detail": [
       "**Foundation or single vendor:** A foundation-hosted project usually has a neutral process for licence and maintainer decisions. A single-vendor project depends on that company's choices (good practice).",
-      "**Licence-change history:** Elastic, Redis and HashiCorp each moved products away from open licences (reported; check). Check the history before relying on a critical dependency.",
+      "**Licence-change history:** Elastic, Redis and HashiCorp each moved products away from open licences, and Elastic and Redis later added AGPL-3.0 as an option (reported; check). Check the history before relying on a critical dependency.",
       "**Plan the fallback:** Identify which fork or foundation project would carry the code if the licence changes (good practice)."
      ],
      "owner": [
@@ -11149,7 +11149,7 @@
      "phase": "export",
      "title": "Classify encryption in the component and the product",
      "detail": [
-      "**Published software sits outside:** Software that is published is not subject to the EAR (15 C.F.R. § 734.3(b)(3); reported; check).",
+      "**Published software sits outside:** Software that is published is not subject to the EAR, but published encryption software stays subject to it unless the publicly available source code rule releases it (15 C.F.R. § 734.3(b)(3); § 742.15(b); reported; check).",
       "**Classify the encryption:** Record whether the component provides encryption functions and how the product uses them, before any release (good practice).",
       "**Licence is not a classification:** An open licence does not decide export status, which turns on the software's content and how it is made available (good practice)."
      ],
@@ -11274,7 +11274,7 @@
      "title": "Prepare source or a written offer where copyleft requires it",
      "detail": [
       "**GPL-2.0 release:** Object code must come with complete source, or with a written offer valid for at least three years (GPL-2.0 s.3(b)).",
-      "**GPL-3.0 release:** Convey the Corresponding Source with the object code, including the scripts that build and install it, or with a written offer (GPL-3.0 s.6).",
+      "**GPL-3.0 release:** Convey the Corresponding Source with the object code, including the scripts that build and install it, or, for a physical product only, with a written offer; a download must offer equivalent access to the source from the same place (GPL-3.0 s.6(b), (d)).",
       "**File and network scope:** MPL-2.0 requires the source of the MPL-covered files, changed or not, when they go out in executable form (MPL-2.0 s.3.2). AGPL-3.0 s.13 adds a network offer for modified versions."
      ],
      "owner": [
@@ -11426,7 +11426,7 @@
      "phase": "records",
      "title": "Plan for a licence change and a fork",
      "detail": [
-      "**Recent history:** Elastic (2021), Redis (2024) and HashiCorp (2023) each moved products to source-available terms, and foundation-hosted forks followed (reported; check).",
+      "**Recent history:** Elastic (2021), Redis (2024) and HashiCorp (2023) each moved products to source-available terms, and foundation-hosted forks followed; Elastic (2024) and Redis (2025) later added AGPL-3.0 as an option (reported; check).",
       "**Pin the last open version:** Keep the last version released under an open licence, with its licence file, so the bank can keep running that code if the licence changes (good practice).",
       "**Test the fork path:** Identify the fork or replacement, check its licence and governance, and test a build before any change happens (good practice)."
      ],
