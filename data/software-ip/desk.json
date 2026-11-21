@@ -2355,7 +2355,7 @@
        "beat": "rule",
        "pin": {
         "stage": "oss-basics",
-        "quote": "Provides the cure route: provisional reinstatement once the violation stops, permanent reinstatement if no notice arrives within 60 days, and permanent reinstatement after a cure within 30 days of the first notice."
+        "quote": "Provides the cure route: provisional reinstatement once the violation stops, permanent reinstatement if no notice arrives within 60 days after the violation stops"
        }
       },
       {
@@ -2448,7 +2448,7 @@
      "core": true,
      "pin": {
       "stage": "permissive",
-      "quote": "Apache-2.0 s.3 gives each contributor a perpetual, royalty-free patent licence over the claims its contribution necessarily infringes, alone or in combination with the Work."
+      "quote": "Under Apache-2.0 s.3, each contributor grants a perpetual, royalty-free patent licence"
      }
     },
     {

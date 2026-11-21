@@ -4159,7 +4159,7 @@
     "points": [
      "**Internal use:** Running unmodified GPL-3.0 code carries no conditions at all (GPL-3.0 s.2). Internal changes can still matter later if the code is shipped.",
      "**Modification:** Changing covered code for the bank's own use carries no conditions; the duties start when the changed version is passed on. Modified files must then carry change notices (GPL-2.0 s.2(a)); under GPL-3.0 the work must carry a prominent notice that it was modified, with a relevant date (GPL-3.0 s.5(a)), and a conveyed modified work must be licensed as a whole under GPL-3.0 (GPL-3.0 s.5(c)).",
-     "**Distribution:** Object code distributed under GPL-2.0 must come with the source, or with a written offer valid for at least three years (GPL-2.0 s.3(b)). GPL-3.0 s.6 gives comparable routes.",
+     "**Distribution:** Object code distributed under GPL-2.0 must come with the source, or with a written offer valid for at least three years (GPL-2.0 s.3(b)). GPL-3.0 s.6 gives comparable routes, but allows a written offer only for object code in a physical product (GPL-3.0 s.6(b)).",
      "**[[Conveying|conveying]]:** Under GPL-3.0, conveying is propagation that enables others to make or receive copies. Mere interaction with a user over a network, with no copy transferred, is not conveying (GPL-3.0 s.0).",
      "**Network copyleft:** AGPL-3.0 s.13 requires a modified version to offer its Corresponding Source to remote users. Running an unmodified version triggers nothing under that section."
     ],
@@ -4228,7 +4228,7 @@
     },
     "points": [
      "**GPL-2.0 s.4:** Any attempt to copy, modify, sublicense or distribute otherwise terminates the licence automatically. Parties who have received copies from the violator keep theirs while they stay in full compliance.",
-     "**GPL-3.0 s.8:** Provides the cure route: provisional reinstatement once the violation stops, permanent reinstatement if no notice arrives within 60 days, and permanent reinstatement after a cure within 30 days of the first notice.",
+     "**GPL-3.0 s.8:** Provides the cure route: provisional reinstatement once the violation stops, permanent reinstatement if no notice arrives within 60 days after the violation stops, and permanent reinstatement after a cure within 30 days of the first notice.",
      "**Kernel statement:** Kernel developers who signed the Linux Kernel Enforcement Statement agreed to apply GPLv3-style cure terms to their own contributions to the kernel (reported; check).",
      "**Enforcement culture:** The Principles of Community-Oriented GPL Enforcement, published by SFC and the FSF in 2015, put compliance before litigation (reported; check)."
     ],
@@ -4351,7 +4351,7 @@
     "instrument": "GNU General Public License v3.0",
     "ref": "s.8",
     "title": "Termination and reinstatement",
-    "summary": "Makes any attempt to propagate or modify other than as the licence allows void and automatically terminates the licensee's rights. Rights are reinstated provisionally when the violation stops, and permanently if the holder gives no notice within 60 days or the violation is cured within 30 days of the first notice.",
+    "summary": "Makes any attempt to propagate or modify other than as the licence allows void and automatically terminates the licensee's rights. Rights are reinstated provisionally when the violation stops, and permanently if the holder gives no notice within 60 days after the violation stops or the violation is cured within 30 days of the first notice.",
     "counselNote": "The cure windows are short and run from notice. A compliance team needs a route for handling licensor notices within 30 days.",
     "confidence": "high",
     "cap": "GPL-3.0-only",
@@ -4744,7 +4744,7 @@
     {
      "id": "strong-copyleft",
      "label": "Strong copyleft",
-     "blurb": "A program distributed with the code must carry the same licence and come with source."
+     "blurb": "A distributed program that contains or is based on the code must carry the same licence and come with source."
     },
     {
      "id": "network-copyleft",
@@ -5345,7 +5345,7 @@
         "source",
         "online"
        ],
-       "text": "Confirm the dedication works where the bank ships or hosts the code, since the text has no fallback licence for places that do not recognise a dedication (drafting inference; Unlicense, full text).",
+       "text": "Confirm the dedication works where the bank ships or hosts the code, since the text has no drafted fallback licence for places that do not recognise a dedication (drafting inference; Unlicense, full text).",
        "cites": [
         {
          "cap": "Unlicense",
@@ -5656,7 +5656,7 @@
      "osi": true,
      "summary": "Permits use, modification and distribution, including in commercial products, with copyright and patent licences from each contributor. Its main condition is that distributed copies of the Program are also made available in source form under EPL-2.0.",
      "trigger": "Distributing the Program, in any form, to anyone outside the bank (s.3.1); internal use alone does not.",
-     "patent": "Express, royalty-free patent licence from each contributor for its licensed patents (s.2(b)); it ends if the recipient sues over the Program alleging patent infringement (s.7).",
+     "patent": "Express, royalty-free patent licence from each contributor for its licensed patents (s.2(b)); it ends if the recipient sues alleging that the Program itself, not a combination with other software or hardware, infringes the recipient's patents (s.7).",
      "duties": [
       {
        "uses": [
@@ -6016,7 +6016,7 @@
       }
      ],
      "watch": [
-      "Affiliates: the FSF says copying within one company is not distribution, but it has no clear view on transfers between affiliates, which are separate legal persons; treat them as conveying (drafting inference).",
+      "Affiliates: the FSF says copying within one company is not distribution, and that whether a move to a majority-owned, controlled subsidiary is distribution turns on local copyright law, though US law appears not to treat it as distribution (reported; check); affiliates are separate legal persons, so treat transfers between them, including to a subsidiary, as conveying (drafting inference).",
       "Cure: a violation stopped and cured within 30 days of the first notice from a copyright holder reinstates the licence (s.8)."
      ],
      "sources": [
@@ -6068,7 +6068,7 @@
         "online",
         "modify"
        ],
-       "text": "If you modify the program and users interact with it remotely, offer them the Corresponding Source of your version at no charge, from a network server or by similar means (s.13).",
+       "text": "If you modify the program and users interact with it remotely, offer them the Corresponding Source of your version at no charge, from a network server, through a standard or customary means of copying software (s.13).",
        "cites": [
         {
          "cap": "AGPL-3.0-only",
@@ -6484,7 +6484,7 @@
     {
      "label": "Express patent licence",
      "value": "Apache-2.0 s.3",
-     "note": "Ends if you sue over the Work",
+     "note": "Ends if you sue claiming the Work infringes a patent",
      "rel": "grants"
     },
     {
@@ -6662,7 +6662,7 @@
     },
     "points": [
      "**Silence:** The MIT, ISC and BSD texts contain no patent terms, so any patent permission is implied. Do not rely on an implied patent permission for a product that practises a claimed method (good practice).",
-     "**Express grant:** Apache-2.0 s.3 gives each contributor a perpetual, royalty-free patent licence over the claims its contribution necessarily infringes, alone or in combination with the Work.",
+     "**Express grant:** Under Apache-2.0 s.3, each contributor grants a perpetual, royalty-free patent licence over the claims its contribution necessarily infringes, alone or in combination with the Work.",
      "**Termination:** The grant ends if you start patent litigation alleging that the Work, or a contribution in it, infringes. A [[Patent termination clause]] makes the bank's own patent claims a risk to its rights in that code (Apache-2.0 s.3).",
      "**Patent exposure:** Under 35 U.S.C. § 271(a), making, using or selling a patented invention without authority is infringement, whichever copyright licence covers the code.",
      "**Dedication:** CC0 leaves the affirmer's patent rights untouched, so a public domain dedication does not clear patents (CC0-1.0 s.4(a))."
@@ -6981,7 +6981,7 @@
      "heading": "Patents and the Apache-2.0 grant",
      "lede": "A copyright licence does not clear patents, and the Apache-2.0 patent grant carries its own termination trap.",
      "points": [
-      "**Express grant:** Apache-2.0 s.3 gives each contributor a patent licence that is not limited to one jurisdiction. It covers claims the contribution necessarily infringes, alone or in combination with the Work (Apache-2.0 s.3).",
+      "**Express grant:** Under Apache-2.0 s.3, each contributor grants a patent licence that is not limited to one jurisdiction. It covers claims the contribution necessarily infringes, alone or in combination with the Work (Apache-2.0 s.3).",
       "**Termination trap:** The grant ends if the licensee sues alleging that the Work infringes a patent (Apache-2.0 s.3). A patent claim by the bank over the code can therefore end its rights in that code.",
       "**Short-term patents:** A short-term patent is granted after formality examination only, and lasts up to 8 years from filing, subject to a renewal fee at the end of year 4 (Cap. 514 ss.117, 126(1)(b), (2))."
      ],
@@ -7139,7 +7139,7 @@
     {
      "label": "Corresponding Source",
      "value": "GPL-3.0 s.6",
-     "note": "With object code, or a written offer",
+     "note": "With object code, or a written offer for a physical product",
      "rel": "requires"
     },
     {
@@ -7820,7 +7820,7 @@
    "Network use can create a duty: a modified AGPL-3.0 program that remote users interact with must offer them its source, even if the bank never distributes it (AGPL-3.0 s.13).",
    "**Unmodified use:** Running an unmodified AGPL-3.0 program over a network triggers nothing under s.13, and the licence expressly affirms unlimited permission to run it (AGPL-3.0 s.2).",
    "**Not open source:** [[Source-available|source-available]] licences such as SSPL, BUSL, Elastic License 2.0 and the Commons Clause show the code but limit its use, so policy must not file them as open source (reported; check).",
-   "**Licence changes:** Several database and infrastructure vendors moved from permissive or weak copyleft licences to source-available terms between 2018 and 2025, and some later added AGPL-3.0 as an option (reported; check).",
+   "**Licence changes:** Several database and infrastructure vendors moved from AGPL-3.0, permissive or weak copyleft licences to source-available terms between 2018 and 2025, and some later added AGPL-3.0 as an option (reported; check).",
    "**Released code:** A licence change normally applies to later versions, so code already received under the earlier terms keeps them (drafting inference; check each licence's wording).",
    "**Counsel's role:** Inventory network-facing components, read each licence's network and change terms, and write vendor clauses that require notice of changes and provide a fallback (good practice)."
   ],
@@ -8043,7 +8043,7 @@
      ]
     },
     "points": [
-     "**Pattern:** Several vendors moved from permissive or weak copyleft terms to source-available ones, and some later re-added an open licence as an option (reported; check).",
+     "**Pattern:** Several vendors moved from permissive, weak copyleft or AGPL-3.0 terms to source-available ones, and some later re-added an open licence as an option (reported; check).",
      "**Forks:** OpenSearch, OpenTofu and Valkey were each forked under a new name after the change, and each fork's own licence and governance then matter (reported; check).",
      "**Why it matters:** A bank that depends on one of these components inherits the vendor's licensing decisions, which it does not control (drafting inference).",
      "**Adding an option:** Adding AGPLv3 as an option does not change the terms of versions already released under the other licence (drafting inference).",
@@ -8171,7 +8171,7 @@
     "instrument": "GNU Affero General Public License v3.0",
     "ref": "s.8",
     "title": "Termination, provisional reinstatement and cure",
-    "summary": "Any propagation or modification not expressly allowed is void and terminates the licence. Rights are reinstated provisionally once the violation stops, and permanently if the copyright holder gives no notice within 60 days, or if the licensee cures within 30 days of a first notice.",
+    "summary": "Any propagation or modification not expressly allowed is void and terminates the licence. Rights are reinstated provisionally once the violation stops, and permanently if the copyright holder gives no notice within 60 days after the violation stops, or if the licensee cures within 30 days of a first notice.",
     "counselNote": "A missed notice can put the bank's rights in a component at risk. Route any notice from a copyright holder to counsel on receipt and log the date, because the cure period runs from the first notice.",
     "confidence": "high",
     "cap": "AGPL-3.0-only",
@@ -9472,7 +9472,7 @@
      ],
      "detail": [
       "**Output:** A build tool's licence usually does not claim the code it produces, so compiling or testing with the tool usually does not make the bank's product subject to that licence (drafting inference; check the tool's licence text).",
-      "**Runtime libraries:** Check for runtime code copied into the build. The GCC Runtime Library exception lets non-GPL programs compiled with GCC use the runtime libraries it covers (GCC-exception-3.1).",
+      "**Runtime libraries:** Check for runtime code copied into the build. The GCC Runtime Library exception lets programs compiled with GCC combine with the runtime libraries it covers on their own terms, provided all the compiled code came from an eligible compilation process, for example one with no GPL-incompatible plug-in (GCC-exception-3.1).",
       "**Test tools:** Keep test and lint tools out of release packages, so their notices never ship by accident (good practice)."
      ],
      "owner": [
@@ -11680,7 +11680,7 @@
      "**Secrets:** Scan the full history, not only the latest commit, and rotate any key that has appeared in it (good practice).",
      "**Trade secrets:** Under the Economic Espionage Act (18 U.S.C. § 1839(3)), information counts as a trade secret only while its owner keeps it secret by reasonable measures. Code the bank publishes cannot later be treated as a secret for what was shown.",
      "**Notices:** The ban on removing copyright management information applies where the person intends the removal and knows, or for civil claims has reasonable grounds to know, that it will enable infringement (17 U.S.C. § 1202(b)). Licence headers may count as that information (drafting inference; reported).",
-     "**Third-party notices:** Check a third-party licence before stripping anything from its code, since some licences make keeping notices a condition of use (Apache-2.0 s.4(c)).",
+     "**Third-party notices:** Check a third-party licence before stripping anything from its code, since some licences make keeping notices a condition of redistribution (Apache-2.0 s.4(c)).",
      "**Sign-off on the scan:** Let a named reviewer sign off the scan result, and keep the record with the release file (good practice)."
     ]
    },
@@ -11694,7 +11694,7 @@
       {
        "label": "Apache-2.0",
        "value": "Patent grant in",
-       "note": "Express patent licence, ended if the licensee sues over patents (s.3); trade names excluded (s.6)"
+       "note": "Express patent licence, ended if the licensee sues claiming the work infringes a patent (s.3); trade names excluded (s.6)"
       },
       {
        "label": "MIT",
@@ -11704,7 +11704,7 @@
       {
        "label": "MPL-2.0",
        "value": "File-level copyleft",
-       "note": "Changed files stay under MPL-2.0 in source form; the bank's own files can differ (s.3.1, s.3.3)"
+       "note": "MPL files, changed or not, stay under MPL-2.0 and their source goes with executables; the bank's own files can differ (s.3.1-3.3)"
       },
       {
        "label": "GPL-3.0",
@@ -12235,7 +12235,7 @@
    },
    {
     "term": "Source offer",
-    "definition": "A written promise to supply source code with object code. GPL-2.0 s.3(b) accepts an offer valid for at least three years, and GPL-3.0 s.6 sets similar options."
+    "definition": "A written promise to supply source code with object code. GPL-2.0 s.3(b) accepts an offer valid for at least three years, and GPL-3.0 s.6(b) allows one only for object code in a physical product."
    },
    {
     "term": "Work made for hire",
@@ -13119,7 +13119,7 @@
      "detail": [
       "**Confirm the reciprocity:** A GPL-3.0 work conveyed in source or object form must be licensed as a whole under GPL-3.0, so recipients keep the same freedoms (GPL-3.0 s.5(c), s.6). Check that the bank wants that outcome.",
       "**Note the network term:** AGPL-3.0 s.13 requires a modified version to offer its source to users who interact with it remotely over a network. A bank that modifies an AGPL-3.0 program and runs the modified version as a service must offer its source to remote users (AGPL-3.0 s.13).",
-      "**Consider the file-level option:** MPL-2.0 is file-level copyleft. Changed files must be shared in source form, but a larger work may be distributed under other terms (MPL-2.0 s.3.3)."
+      "**Consider the file-level option:** MPL-2.0 is file-level copyleft. MPL files, changed or not, must be made available in source form when the bank distributes them in executable form, but a larger work may be distributed under other terms (MPL-2.0 s.3.2, s.3.3)."
      ],
      "owner": [
       "Legal",
@@ -15913,7 +15913,7 @@
      "phase": "oss",
      "title": "Agree remediation before or after closing",
      "detail": [
-      "**Fix before close:** Require the target to remove or re-license non-compliant code before closing. A GPL-2.0 breach can end the licence, and GPL-3.0 reinstates a licence provisionally once the breach stops, permanently if the holder gives no notice within 60 days, or if a first notice is cured within 30 days (GPL-2.0 s.4; GPL-3.0 s.8).",
+      "**Fix before close:** Require the target to remove or re-license non-compliant code before closing. A GPL-2.0 breach can end the licence, and GPL-3.0 reinstates a licence provisionally once the breach stops, permanently if the holder gives no notice within 60 days after the breach stops, or if a first notice is cured within 30 days (GPL-2.0 s.4; GPL-3.0 s.8).",
       "**Hold money back:** Where a fix falls after closing, use a price escrow or special indemnity sized to the cost of rewriting or re-licensing the code (good practice).",
       "**Write the duty:** Set a covenant with a date, a named owner and evidence of completion, so the obligation can be enforced (good practice)."
      ],
