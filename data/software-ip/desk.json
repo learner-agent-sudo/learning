@@ -6570,7 +6570,7 @@
      "beat": "options",
      "pin": {
       "stage": "patents",
-      "quote": "A standard patent (R) registers a designated foreign grant, a standard patent (O) is examined on substance, and a short-term patent is granted after formality examination only"
+      "quote": "A standard patent (R) registers a patent granted by a designated patent office outside Hong Kong, a standard patent (O) is examined on substance, and a short-term patent is granted after formality examination only"
      }
     },
     {
@@ -7121,7 +7121,7 @@
      "beat": "pressed",
      "pin": {
       "stage": "trademarks",
-      "quote": "an unregistered transaction can be ineffective against a conflicting interest"
+      "quote": "a transaction for which no application to register has been made can be ineffective against a conflicting interest"
      }
     }
    ],
@@ -8475,7 +8475,7 @@
      "beat": "rule",
      "pin": {
       "stage": "deals",
-      "quote": "An earlier unregistered transaction loses to a later one if the later party acquired without knowledge of it and the earlier one was not registered"
+      "quote": "An earlier unregistered transaction loses to a later one if the later party acquired without knowledge of it and no application had been made to register the earlier one"
      }
     },
     {
@@ -8565,7 +8565,7 @@
        "beat": "rule",
        "pin": {
         "stage": "deals",
-        "quote": "An unregistered trade mark transaction is ineffective against a later party with a conflicting interest who acquired it without knowledge"
+        "quote": "A trade mark transaction for which no application to register has been made is ineffective against a later party with a conflicting interest who acquired it without knowledge."
        }
       },
       {

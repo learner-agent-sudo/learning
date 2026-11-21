@@ -672,7 +672,7 @@
    },
    {
     "term": "short-term patent",
-    "definition": "A patent granted after formality examination only, lasting up to 8 years from filing if renewed after the 4th year (Cap. 514 s.117, s.126(1)(b), (2))."
+    "definition": "A patent granted after formality examination only, lasting up to 8 years from filing if renewed at the end of the 4th year (Cap. 514 s.117, s.126(1)(b), (2))."
    }
   ]
  },
@@ -1152,7 +1152,7 @@
       "**Civil remedies:** The owner may claim damages, injunctions and accounts (Cap. 528 s.107(2)). The court may award additional damages having regard to flagrancy, benefit to the defendant and its conduct (Cap. 528 s.108(2)).",
       "**Innocent infringer:** Damages are barred only where the defendant did not know, and had no reason to believe, that copyright subsisted in the work. Other remedies remain available (Cap. 528 s.108(1)).",
       "**Knowledge for secondary acts:** Importing, dealing in or possessing an infringing copy needs knowledge or reason to believe that the copy is infringing (Cap. 528 s.30, s.31(1)). Primary infringement under s.22 does not need that knowledge.",
-      "**Business possession offence:** On indictment the penalty is a level 5 fine for each infringing copy and 4 years' imprisonment (Cap. 528 s.119(1)). The offence does not cover printed copies or programs technically required to view a work (Cap. 528 s.118(2C)-(2D)). Directors and managers commit the offence where it is done with their consent or connivance, or is attributable to them (Cap. 528 s.125(1)).",
+      "**Business possession offence:** On indictment the penalty is a level 5 fine for each infringing copy and 4 years' imprisonment (Cap. 528 s.119(1)). The offence does not cover printed copies or programs technically required to view a work (Cap. 528 s.118(2C)-(2D)). Directors and managers commit the offence where it is done with their consent or connivance, or is attributable to them (Cap. 528 s.125(1)), and a director responsible for internal management is presumed to have done the act unless there is evidence that they did not authorise it (Cap. 528 s.118(2H)-(2I)).",
       "**Circumvention:** Circumventing an effective technological measure is actionable where the person knows or has reason to believe the act circumvents it (Cap. 528 s.273A(1)). The Secretary for Commerce and Economic Development may exclude classes of works or devices from these rules by Gazette notice (Cap. 528 s.273H)."
      ],
      "takeaway": "Before raising an infringement claim, establish knowledge or reason to believe for the secondary acts, and check the business-use element before treating conduct as an offence (good practice)."
@@ -1870,7 +1870,7 @@
     {
      "kind": "statute",
      "instrument": "Copyright Ordinance (Cap. 528)",
-     "ref": "s.101(3)",
+     "ref": "s.101(3)-(4)",
      "title": "Assignment must be in writing",
      "summary": "An assignment of copyright is not effective unless it is in writing and signed by or on behalf of the assignor. A licence binds successors in title, except a good-faith purchaser for value without notice.",
      "counselNote": "A signed instrument is needed for an assignment, so the bank should not accept an email exchange or an unsigned statement of transfer as proof of ownership.",
@@ -1921,7 +1921,7 @@
      "ref": "s.9E(1)-(2)",
      "title": "Right to a patent",
      "summary": "The right to a patent belongs to the inventor or the inventor's successor in title. For an employee, the question is decided under the law where the employee is wholly or mainly employed.",
-     "counselNote": "With staff in more than one place, the law of the place of employment decides who owns an invention, so the employment contract should say which law governs.",
+     "counselNote": "With staff in more than one place, the law of the place where each employee is wholly or mainly employed decides who owns an invention, so the bank should record that place and check its rules; a governing-law clause in the contract may not displace the statutory test (drafting inference).",
      "confidence": "high",
      "cap": "514",
      "section": "9E",
@@ -2457,10 +2457,10 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Hong Kong has three patent routes: a standard patent (R) registers a patent granted abroad, a standard patent (O) is examined on substance by the Registrar, and a short-term patent is granted on formalities only. Software is excluded from patentability only as such, so the claim wording decides the outcome. The biggest differences from the US position are the narrow six-month disclosure exceptions and the rule that a short-term patent cannot be enforced until a certificate of substantive examination has issued, a request for substantive examination has been made and not terminated by a court order, or a court has certified it.",
+   "summary": "Hong Kong has three patent routes: a standard patent (R) registers a patent granted by a designated office outside Hong Kong, a standard patent (O) is examined on substance by the Registrar, and a short-term patent is granted on formalities only. Software is excluded from patentability only as such, so the claim wording decides the outcome. The biggest differences from the US position are the narrow six-month disclosure exceptions and the rule that a short-term patent cannot be enforced until a certificate of substantive examination has issued, a request for substantive examination has been made and not terminated by a court order, or a court has certified it.",
    "keyPoints": [
     "**Program exclusion:** A program for a computer is not an invention, but only to the extent the patent relates to it as such (Cap. 514 s.9A(2)(c), (3)). The courts are reported to follow the English approach to 'as such' (reported; check).",
-    "**Three routes:** A standard patent (R) registers a designated foreign grant, a standard patent (O) is examined on substance, and a short-term patent is granted after formality examination only (Cap. 514 s.3, s.37U, s.117).",
+    "**Three routes:** A standard patent (R) registers a patent granted by a designated patent office outside Hong Kong, a standard patent (O) is examined on substance, and a short-term patent is granted after formality examination only (Cap. 514 s.3, s.37U, s.117).",
     "**Novelty and the grace period:** A disclosure before filing counts against novelty unless it falls within six months and is an evident abuse or a display at an official or officially recognised international exhibition (for a standard patent (R), a prescribed exhibition or meeting) (Cap. 514 ss.11A, 37B, 109).",
     "**Own earlier applications:** An earlier application published after the new application's material date counts as state of the art for novelty, so the bank's own application can defeat its later one (Cap. 514 s.9B(3)).",
     "**Enforcement:** A short-term patent can be enforced only after a certificate of substantive examination, an unterminated request for substantive examination, or a court certificate (Cap. 514 s.129(1))."
@@ -2484,7 +2484,7 @@
      "lede": "The route decides how much the Registrar checks before grant and when the proprietor can start enforcement.",
      "points": [
       "**Standard patent (R):** A designated patent application published abroad is recorded, the designated patent is registered on a second request filed within 6 months after the designated office grants it or the request to record is published, whichever is later, and a standard patent (R) is granted for the invention in its published specification (Cap. 514 s.3, s.8, s.23(1)-(2)).",
-      "**Designated offices:** The Chief Executive in Council designates the foreign patent offices by Gazette notice (Cap. 514 s.8).",
+      "**Designated offices:** The Chief Executive in Council designates patent offices outside Hong Kong by Gazette notice (Cap. 514 s.8).",
       "**Standard patent (O):** The applicant must request substantive examination, and the Registrar examines patentability, disclosure, claims and added matter before grant (Cap. 514 s.37T, s.37U(3)).",
       "**Short-term patent:** The Registrar considers formalities only and has no duty to examine patentability, novelty, inventive step or disclosure (Cap. 514 s.117).",
       "**Term:** A standard patent lasts 20 years from filing, and a short-term patent lasts up to 8 years from filing, but lapses after the 4th year unless the renewal fee is paid (Cap. 514 s.39(1)(b), s.126(1)(b), (2))."
@@ -2629,7 +2629,7 @@
    "bankNotes": [
     "**Claim review:** Involve counsel in drafting software claims, so that each claim is tested against the program exclusion in s.9A(2)(c) and (3) before filing (good practice).",
     "**Filing before release:** Decide on any filing before a public code release, open source publication or conference talk, because the disclosure exceptions in s.11A and s.37B are narrow and limited to six months (good practice).",
-    "**Short-term patents:** Do not present a short-term patent as enforceable until a certificate of substantive examination or a court certificate is in place (Cap. 514 s.129(1)) (good practice).",
+    "**Short-term patents:** Do not present a short-term patent as enforceable until a certificate of substantive examination or a court certificate is in place, or a request for substantive examination has been made and not terminated by a court order (Cap. 514 s.129(1)) (good practice).",
     "**Notices to third parties:** Route any patent notice to a vendor or competitor through legal review, since a notice can amount to a threat under s.89 (good practice)."
    ]
   },
@@ -2676,11 +2676,11 @@
    },
    {
     "term": "Standard patent (R)",
-    "definition": "A Hong Kong patent that registers and grants a patent already granted by a designated foreign patent office (Cap. 514 s.3, s.8)."
+    "definition": "A Hong Kong patent that registers and grants a patent already granted by a designated patent office outside Hong Kong (Cap. 514 s.3, s.8)."
    },
    {
     "term": "Short-term patent",
-    "definition": "A Hong Kong patent granted after formality examination only, which lasts up to 8 years from filing if renewed after the 4th year (Cap. 514 s.117, s.126(1)(b), (2))."
+    "definition": "A Hong Kong patent granted after formality examination only, which lasts up to 8 years from filing if renewed at the end of the 4th year (Cap. 514 s.117, s.126(1)(b), (2))."
    }
   ]
  },
@@ -3231,7 +3231,7 @@
      "instrument": "Personal Data (Privacy) Ordinance (Cap. 486)",
      "ref": "DPP 4(1)",
      "title": "Security of personal data",
-     "summary": "A data user must take all practicable steps to protect personal data it holds against unauthorised or accidental access, processing, erasure, loss or use. The steps depend on the kind of data, the harm that could result, and where the data is stored.",
+     "summary": "A data user must take all practicable steps to protect personal data it holds against unauthorised or accidental access, processing, erasure, loss or use. The steps must have particular regard to the kind of data and the harm that could result, where the data is stored, security built into the storage equipment, the integrity, prudence and competence of people with access, and secure transmission.",
      "counselNote": "Customer records copied into test sets, logs or source repositories bring this duty into engineering work, not only into security work.",
      "confidence": "high",
      "cap": "486",
@@ -3760,7 +3760,7 @@
     "**Unregistered names:** The Ordinance gives no proceedings to stop infringement of an unregistered mark, but it keeps the law of passing off (Cap. 559 s.10(3)).",
     "**Infringement test:** Identical signs for identical goods or services infringe, identical signs for similar goods or services infringe where confusion is likely, and similar signs for identical or similar goods or services do too (Cap. 559 s.18(1)-(3)).",
     "**Non-use revocation:** Any person may apply to revoke a registration that the owner has not genuinely used in Hong Kong for a continuous 3 years, unless there are valid reasons for non-use (Cap. 559 s.52(1)-(2)).",
-    "**Transactions:** An assignment must be in writing and signed (Cap. 559 s.27(4)), and an unregistered transaction can be ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)(a))."
+    "**Transactions:** An assignment must be in writing and signed (Cap. 559 s.27(4)), and a transaction for which no application to register has been made can be ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)(a))."
    ],
    "sections": [
     {
@@ -4624,7 +4624,7 @@
      "ref": "Sch. 1 para 1(c)",
      "title": "IP contracts outside the reasonableness tests",
      "summary": "Sections 7, 8 and 9 do not apply to any contract so far as it relates to the creation or transfer of a right or interest in copyright or other intellectual property.",
-     "counselNote": "An upstream disclaimer in a licence is not tested under these sections. The bank's own terms for customers are still tested, so the two should not be confused.",
+     "counselNote": "An upstream disclaimer in a licence may not be tested under these sections, though whether a non-exclusive open source licence creates such an interest is arguable (drafting inference). The bank's own terms for customers are still tested, so the two should not be confused.",
      "confidence": "high",
      "cap": "71",
      "section": "Sch. 1",
@@ -6982,10 +6982,10 @@
      "lede": "A copyright licence does not clear patents, and the Apache-2.0 patent grant carries its own termination trap.",
      "points": [
       "**Express grant:** Under Apache-2.0 s.3, each contributor grants a patent licence that is not limited to one jurisdiction. It covers claims the contribution necessarily infringes, alone or in combination with the Work (Apache-2.0 s.3).",
-      "**Termination trap:** The grant ends if the licensee sues alleging that the Work infringes a patent (Apache-2.0 s.3). A patent claim by the bank over the code can therefore end its rights in that code.",
+      "**Termination trap:** The grant ends if the licensee sues alleging that the Work infringes a patent (Apache-2.0 s.3). A patent claim by the bank over the code can therefore end its patent licences for that code, though the copyright licence in s.2 continues.",
       "**Short-term patents:** A short-term patent is granted after formality examination only, and lasts up to 8 years from filing, subject to a renewal fee at the end of year 4 (Cap. 514 ss.117, 126(1)(b), (2))."
      ],
-     "takeaway": "Add the Apache-2.0 termination clause to the bank's patent-litigation approval, so that no team starts a patent claim without knowing it can end its rights in the code (good practice)."
+     "takeaway": "Add the Apache-2.0 termination clause to the bank's patent-litigation approval, so that no team starts a patent claim without knowing it can end the bank's patent licences for the code (good practice)."
     }
    ],
    "provisions": [
@@ -7614,12 +7614,12 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the lawful-user rules and on the licence itself (Cap. 528 ss.22(1)(a), (g), 37, 61).",
+   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a), (g), 37, 38, 61).",
    "keyPoints": [
     "**Who can license:** The bank can put its own code under a copyleft licence only if it owns the copyright. Code written by an employee in the course of employment belongs to the employer (Cap. 528 s.14(1)), and commissioned code belongs to the contractor unless the contract expressly gives the copyright to the bank (Cap. 528 ss.13, 15(1)), though the bank always has an exclusive licence to exploit it for the purposes contemplated at commissioning (Cap. 528 s.15(2)(a)).",
     "**Trigger:** Copyleft duties attach to conveying, which GPL-3.0 defines by reference to the acts copyright law restricts (GPL-3.0 s.0; Cap. 528 ss.22-29). Running software inside the bank is not conveying (GPL-3.0 s.0).",
     "**Lawful users:** A user with a contractual right to use a program may make a back-up copy unless the agreement says otherwise (Cap. 528 s.60(3)), and may copy or adapt it where necessary for lawful use, including to correct errors (Cap. 528 ss.60(1)-(2), 61(1)-(2)).",
-    "**No decompilation right:** The Ordinance has no express decompilation or interoperability exception. Reverse engineering for interoperability is excused only in narrow cases, under the circumvention exception and the lawful-user rules (Cap. 528 s.273D(1); s.61).",
+    "**No decompilation right:** The Ordinance has no express decompilation or interoperability exception. Reverse engineering for interoperability is excused only in narrow cases, under the circumvention exception, the lawful-user rules and fair dealing for research (Cap. 528 s.273D(1); ss.38, 61).",
     "**Breach:** Once a copyleft licence stops authorising a use, further copying or adapting infringes copyright, and the owner may claim damages and injunctions (Cap. 528 ss.22-24, 29, 107(1)-(2))."
    ],
    "sections": [
@@ -7655,7 +7655,7 @@
       "**Secondary infringement:** Importing or exporting, possessing for trade, selling or distributing an infringing copy needs knowledge or reason to believe that the copy is infringing (Cap. 528 ss.30, 31(1)-(2)).",
       "**Remedies:** The owner may claim damages, injunctions and accounts (Cap. 528 s.107(1)-(2)). Additional damages may be awarded for flagrancy, benefit to the defendant, conduct and wide circulation (Cap. 528 s.108(2)). Damages are barred only where the defendant did not know, and had no reason to believe, that copyright subsisted in the work (Cap. 528 s.108(1)).",
       "**Business offence:** Possessing an unlicensed copy of a program for the purpose of or in the course of a trade or business, with a view to its being used by any person for that business, is an offence, subject to the defences in s.118(3) to (3B) (Cap. 528 s.118(2A)-(2B)). On indictment the penalty is a level 5 fine per copy and 4 years' imprisonment (Cap. 528 s.118(2A), s.119(1)).",
-      "**Officers:** A director or manager commits the offence too if the company's offence was committed with their consent or connivance, or is attributable to them (Cap. 528 s.125(1)).",
+      "**Officers:** A director or manager commits the offence too if the company's offence was committed with their consent or connivance, or is attributable to them (Cap. 528 s.125(1)), and for this offence a director responsible for internal management is presumed to have done the act unless there is evidence that they did not authorise it (Cap. 528 s.118(2H)-(2I)).",
       "**Licence ends:** Continued copying or adapting outside the licence is infringement, so record the date a licence ends and remediate before the owner asks (good practice).",
       "**No local ruling:** No reported Hong Kong decision enforces a copyleft licence, so the bank should rely on the licence text and on each contributor's copyright (reported; check)."
      ],
@@ -8337,7 +8337,7 @@
      "lede": "Under Hong Kong copyright the question is who communicates the work to the public, not where the server sits.",
      "points": [
       "**Communication:** Electronic communication of a work to the public is restricted, and it includes making the work available so that members of the public can access it from a place and at a time they choose (Cap. 528 s.28A(1)-(3)).",
-      "**Who communicates:** The person who determines the content of the communication is the one who communicates it. A party that only provides facilities does not (Cap. 528 s.28A(4)-(5)).",
+      "**Who communicates:** The person who determines the content of the communication is the one who communicates it. A party that only provides facilities does not (Cap. 528 s.28A(4), (6)).",
       "**Direct access:** Facilities primarily designed for direct access to a work without permission are not mere facilities (Cap. 528 s.28A(6)).",
       "**Private access:** Access limited to staff or named partners may not amount to making the work available to the public, but the bank should not assume that without advice (drafting inference)."
      ],
@@ -8929,7 +8929,7 @@
    "keyPoints": [
     "**Business use offence:** Possessing an infringing copy of a program, without the owner's licence, for the purpose of or in the course of a trade or business, with a view to its use in that business, is a criminal offence (Cap. 528 s.118(2A)-(2B)).",
     "**Penalty:** On indictment the fine is level 5 for each infringing copy, and the term of imprisonment is up to four years (Cap. 528 s.119(1)).",
-    "**Officers:** A director, manager or similar officer commits the offence too where the company's offence was committed with their consent or connivance, or is attributable to them (Cap. 528 s.125(1)).",
+    "**Officers:** A director, manager or similar officer commits the offence too where the company's offence was committed with their consent or connivance, or is attributable to them (Cap. 528 s.125(1)), and a director responsible for the company's internal management is presumed to have done the act unless there is evidence that they did not authorise it (Cap. 528 s.118(2H)-(2I)).",
     "**Defences:** The accused has a defence if they prove they did not know and had no reason to believe the copy was infringing (Cap. 528 s.118(3)). An employee given the copy by the employer for use at work also has a defence, unless they could make or influence the decision to acquire, use or remove it (Cap. 528 s.118(3A)-(3B)).",
     "**Click acceptance:** An offer and its acceptance may be expressed by electronic records, so a licence accepted by click can bind the bank (Cap. 553 s.17(1)-(2))."
    ],
@@ -8947,7 +8947,7 @@
     },
     {
      "heading": "Lawful users and their limits",
-     "lede": "A person with a contractual right to use a program has statutory back-up and adaptation rights, but those rights stop short of the business use offence.",
+     "lede": "A person with a contractual right to use a program has statutory back-up and adaptation rights, but only for what the lawful use needs, so copies beyond that can still found the business use offence.",
      "points": [
       "**Lawful user:** A lawful user is a person with a contractual right to use the program (Cap. 528 s.60(2)).",
       "**Back-up copies:** A lawful user may make a back-up copy where it is necessary for the lawful use, but an agreement to the contrary can exclude that right (Cap. 528 s.60(1), (3)).",
@@ -9917,7 +9917,7 @@
      ],
      "detail": [
       "**Offence:** Possessing an infringing copy of a computer program, without the owner's licence, for use in a trade or business is a criminal offence (Cap. 528 s.118(2A)-(2B)). Printed copies and programs needed only to view or hear a work are outside it (s.118(2C)-(2D)), so the main exposure is unlicensed installed software used inside the bank (drafting inference).",
-      "**Penalty and officers:** On indictment the fine is level 5 for each infringing copy and the term is up to 4 years (Cap. 528 s.119(1)). A director, manager or similar officer also commits the offence where it was committed with their consent or connivance, or is attributable to them (s.125(1)).",
+      "**Penalty and officers:** On indictment the fine is level 5 for each infringing copy and the term is up to 4 years (Cap. 528 s.119(1)). A director, manager or similar officer also commits the offence where it was committed with their consent or connivance, or is attributable to them (s.125(1)), and a director responsible for internal management is presumed to have done the act unless there is evidence that they did not authorise it (s.118(2H)-(2I)).",
       "**Defences:** It is a defence for the accused to prove they did not know, and had no reason to believe, that the copy was infringing (s.118(3)). An employee given the copy by the employer for use at work also has a defence, unless they could make or influence the decision to acquire, use or remove it (s.118(3A)-(3B))."
      ],
      "owner": [
@@ -12110,7 +12110,7 @@
      "ref": "s.15(1)-(2)",
      "title": "Commissioned works",
      "summary": "Copyright in a commissioned work belongs to the person the commissioning agreement expressly entitles. Whatever the agreement says, the commissioner has an exclusive licence for the purposes reasonably contemplated when the work was commissioned, and may restrain exploitation it could reasonably object to.",
-     "counselNote": "Contractor code is the highest-risk title gap before a release. An express assignment in the contract is the only clean route to owning it outright.",
+     "counselNote": "Contractor code is the highest-risk title gap before a release. An express term in the contract giving the bank the copyright, or a signed assignment, is the only clean route to owning it outright.",
      "confidence": "high",
      "cap": "528",
      "section": "15",
@@ -14896,7 +14896,7 @@
     "**Written transfers only:** An assignment of copyright is not effective unless it is in writing and signed by or for the assignor (Cap. 528 s.101(3)). A patent assignment or mortgage is void unless it is in writing and signed (Cap. 514 s.50(6)), and a trade mark assignment is not effective unless it is in writing and signed (Cap. 559 s.27(4)).",
     "**Commissioned code:** Unless the agreement expressly provides for the copyright, the developer keeps it. The commissioner gets an exclusive licence for the purposes both sides could reasonably have contemplated when the work was commissioned, and can restrain any exploitation it could reasonably object to (Cap. 528 s.15(2)(a)-(b)). The Ordinance has no work-made-for-hire rule for commissioned works, so the commissioner does not own the code by default (drafting inference).",
     "**Employee code:** The employer is the first owner of copyright in a work made by an employee in the course of employment, subject to any contrary agreement (Cap. 528 s.14(1)). Subject to any agreement to the contrary, the employer must pay an agreed or tribunal-set award if the work is exploited in a way neither side could have contemplated (Cap. 528 s.14(2)).",
-    "**Six-month registration window:** A new patent owner or exclusive licensee who does not apply to register the transaction within six months cannot recover damages or an account of profits for infringements in the gap, unless the court is satisfied that registration was not practicable within the six months and that an application was made as soon as practicable afterwards (Cap. 514 s.87). The trade mark rule is the same (Cap. 559 s.29(4)).",
+    "**Six-month registration window:** A new patent owner or exclusive licensee who does not apply to register the transaction within six months cannot recover damages or an account of profits for infringements in the gap, unless the court is satisfied that an application was not practicable within the six months and that an application was made as soon as practicable afterwards (Cap. 514 s.87). The trade mark rule is the same (Cap. 559 s.29(4)).",
     "**Insolvent vendors:** A liquidator may disclaim unprofitable contracts with the court's leave, within 12 months of the winding up starting (Cap. 32 s.268(1)). The other party may then apply to rescind the contract and prove for damages (Cap. 32 s.268(5)). There is no Hong Kong equivalent of US Bankruptcy Code s.365(n) (reported; check)."
    ],
    "sections": [
@@ -14916,11 +14916,11 @@
      "heading": "Registration of patent and trade mark transactions",
      "lede": "A transfer or licence that is not registered loses priority to a later party, and it also limits the damages the new owner can claim.",
      "points": [
-      "**Registrable transactions:** Assignments, licences, mortgages and court transfers of a patent can be registered (Cap. 514 s.52(3)). An earlier unregistered transaction loses to a later one if the later party acquired without knowledge of it and the earlier one was not registered (Cap. 514 s.52(1)-(2)).",
+      "**Registrable transactions:** Assignments, licences, mortgages and court transfers of a patent can be registered (Cap. 514 s.52(3)). An earlier unregistered transaction loses to a later one if the later party acquired without knowledge of it and no application had been made to register the earlier one (Cap. 514 s.52(1)-(2)).",
       "**Six-month clock:** The six months run from the date of the transaction, and the new owner must apply to register within that time to keep its claim for damages or an account of profits (Cap. 514 s.87(a)).",
       "**Trade mark rule:** A registrable trade mark transaction is ineffective against a later party with a conflicting interest who acquired it without knowledge, until an application to register is made (Cap. 559 s.29(3)(a)).",
       "**Right to sue for past infringement:** An assignment of a patent, or an exclusive patent licence, may pass the right to sue for earlier infringements, so the deal should say whether that right passes (Cap. 514 s.50(7)).",
-      "**Practicability exception:** The six-month bar does not apply if the court is satisfied that registration was not practicable in time and an application was made as soon as practicable afterwards (Cap. 514 s.87(b); Cap. 559 s.29(4)(b))."
+      "**Practicability exception:** The six-month bar does not apply if the court is satisfied that an application was not practicable in time and an application was made as soon as practicable afterwards (Cap. 514 s.87(b); Cap. 559 s.29(4)(b))."
      ],
      "takeaway": "Diary the six-month deadline from each completion date, and file every registrable patent or trade mark transaction within it (good practice)."
     },
@@ -14954,7 +14954,7 @@
      "instrument": "Copyright Ordinance (Cap. 528)",
      "ref": "s.14(1)-(2)",
      "title": "Employee works",
-     "summary": "The employer is the first owner of copyright in a work made by an employee in the course of employment, subject to any agreement to the contrary. Where the work is exploited in a way neither side could have contemplated, the employer must pay the employee an award.",
+     "summary": "The employer is the first owner of copyright in a work made by an employee in the course of employment, subject to any agreement to the contrary. Where the work is exploited in a way neither side could reasonably have contemplated, the employer must pay the employee an award, unless the parties agreed otherwise.",
      "counselNote": "Employee code belongs to the bank by default, but the unforeseen-exploitation award can be claimed. Staff contracts and IP policies should cover both points.",
      "confidence": "high",
      "cap": "528",
@@ -14990,7 +14990,7 @@
      "instrument": "Patents Ordinance (Cap. 514)",
      "ref": "s.52(1)-(3)",
      "title": "Priority of unregistered transactions",
-     "summary": "An unregistered patent transaction loses to a later transaction if the later party acquired its rights without knowing of the earlier one and the earlier one was not registered. The rule covers assignments, licences, mortgages and court transfers.",
+     "summary": "An unregistered patent transaction loses to a later transaction if the later party acquired its rights without knowing of the earlier one and no application had been made to register the earlier one. The rule covers assignments, licences, mortgages and court transfers.",
      "counselNote": "A patent chain of title needs a registration check at each step. A buyer who does not search the register can lose to a later transferee.",
      "confidence": "high",
      "cap": "514",
@@ -15002,7 +15002,7 @@
      "instrument": "Patents Ordinance (Cap. 514)",
      "ref": "s.87(a)-(b)",
      "title": "Registration and infringement damages",
-     "summary": "A new patent owner or exclusive licensee who does not apply to register within six months cannot recover damages or an account of profits for infringements in the gap. The court can excuse the delay if registration was not practicable and an application followed as soon as practicable.",
+     "summary": "A new patent owner or exclusive licensee who does not apply to register within six months cannot recover damages or an account of profits for infringements in the gap. The court can excuse the delay if an application was not practicable and an application followed as soon as practicable.",
      "counselNote": "The six-month deadline is short for a bank that buys patents from many sellers. Build it into the completion checklist.",
      "confidence": "high",
      "cap": "514",
@@ -15014,7 +15014,7 @@
      "instrument": "Trade Marks Ordinance (Cap. 559)",
      "ref": "s.29(3)-(4)",
      "title": "Registration of trade mark transactions",
-     "summary": "An unregistered trade mark transaction is ineffective against a later party with a conflicting interest who acquired it without knowledge. A new owner or licensee who does not apply to register within six months cannot recover damages or an account of profits for the gap.",
+     "summary": "A trade mark transaction for which no application to register has been made is ineffective against a later party with a conflicting interest who acquired it without knowledge. A new owner or licensee who does not apply to register within six months cannot recover damages or an account of profits for the gap.",
      "counselNote": "Trade mark licences to group companies or vendors are registrable transactions. Missing the registration step weakens both the licence and the remedies.",
      "confidence": "high",
      "cap": "559",
@@ -15061,7 +15061,7 @@
    "bankNotes": [
     "**Outsourcing discussion:** The HKMA expects an authorised institution to discuss with it, in advance, any plan to outsource a banking-related business area, including back office work, or to change the scope of that outsourcing (SA-2, para 1.3.2). This is guidance, not law, but the bank should build the discussion into its procurement timetable.",
     "**Vendor clauses:** SA-2 is the main source of the HKMA's expected vendor clauses, including supervisory inspection and access rights. The digital bank guideline adds its own paragraph on advance discussion of material outsourcing.",
-    "**Operational resilience:** The HKMA's operational resilience module (OR-2) expects vendor dependencies to be mapped and critical operations tested in severe scenarios. The framework deadline of 31 May 2026 has passed, so examiners are likely to test these points."
+    "**Operational resilience:** The HKMA's operational resilience module (OR-2) expects vendor dependencies to be mapped and critical operations tested in severe scenarios. The 31 May 2026 deadline to be operationally resilient has passed, so examiners are likely to test these points."
    ]
   },
   "glossary": [
@@ -18924,7 +18924,7 @@
      "ref": "[2019] HKCFA 9",
      "title": "Using one's own computer is not 'obtaining access'",
      "summary": "The Court of Final Appeal held that s.161(1)(c) of the Crimes Ordinance, obtaining access to a computer with a view to dishonest gain, does not apply to a person's use of their own computer. Teachers who used their own phones and a computer to send out interview questions were therefore outside the offence.",
-     "counselNote": "Staff who copy confidential material on their own devices may fall outside s.161, so the bank's protection rests more on confidence, contract and access controls on its own systems (drafting inference).",
+     "counselNote": "Staff who send or use confidential material from their own devices, without obtaining access to the bank's computer, may fall outside s.161, so the bank's protection rests more on confidence, contract and access controls on its own systems (drafting inference).",
      "confidence": "high",
      "url": "https://www.hklii.hk/en/cases/hkcfa/2019/9"
     }
@@ -19613,7 +19613,7 @@
      "instrument": "Electronic Transactions Ordinance (Cap. 553)",
      "ref": "s.17(1)-(3)",
      "title": "Online formation of contracts",
-     "summary": "An offer and its acceptance may be expressed by electronic records, and a contract is not invalid only because electronic records were used. The offeror may prescribe the method by which acceptance is communicated.",
+     "summary": "An offer and its acceptance may be expressed by electronic records, and a contract is not invalid only because electronic records were used. The section does not affect the common-law rule that the offeror may prescribe the method by which acceptance is communicated.",
      "counselNote": "Click-through terms can form a contract, and the bank can require a specific click or confirmation step. Acceptance by conduct alone is a common-law question, not covered by this section (drafting inference).",
      "confidence": "high",
      "cap": "553",
@@ -19702,7 +19702,7 @@
    },
    {
     "term": "Short-term patent",
-    "definition": "A Hong Kong patent granted after formality examination only, lasting up to 8 years from filing if renewed after the 4th year."
+    "definition": "A Hong Kong patent granted after formality examination only, lasting up to 8 years from filing if renewed at the end of the 4th year."
    },
    {
     "term": "Standard patent (R)",
