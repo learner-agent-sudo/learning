@@ -5809,6 +5809,2632 @@
      ]
     }
    ]
+  },
+  {
+   "id": "map-hk-protect-app",
+   "stage": "map",
+   "hk": true,
+   "ask": "In your first month at the bank, how would you protect its mobile app's code, screens and name under Hong Kong law, and which of those rights need a filing?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "Before we launch the app in Hong Kong, what do we actually have to register to protect the code, the screens and the app name?"
+   },
+   "primes": "sw-map-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Each right attaches to a different layer of a Hong Kong software product, so a single right rarely covers the whole product."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "A computer program is a literary work, and copyright subsists once it is recorded in writing or otherwise"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Trade marks need registration for statutory rights: A registered trade mark is a property right"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "map",
+      "quote": "Because Hong Kong has no copyright register of works, the bank's own IP register should record each program's author, licence and each filing and renewal date"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "map",
+      "quote": "A user interface cannot be registered as software, so any design filing must claim an article."
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And once the filings are made, what does the register need to track?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "A standard patent runs for 20 years from filing. A short-term patent runs for up to 8 years from filing"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "A registered design runs for 5 years from filing, renewable in 5-year steps to 25 years in total"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "map",
+        "quote": "Record each right's expiry or renewal date in the bank's IP register, and check every product marking before launch"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "map-hk-marking",
+   "stage": "map",
+   "hk": true,
+   "ask": "Marketing wants 'patent pending' and the registered trade mark symbol on the new app's launch materials while the filings are still being prepared. What do you check before anything goes out?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "Can we put 'patent pending' and the registered symbol next to the app name in the launch campaign now, and sort out the filings later?"
+   },
+   "primes": "sw-map-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Product and marketing teams should check each 'patent pending' and registered-trade-mark marking before release, since some false markings are offences"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "map",
+      "quote": "Representing that a patent has been applied for in respect of an article disposed of for value, when no application has been made"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "map",
+      "quote": "Record each right's expiry or renewal date in the bank's IP register, and check every product marking before launch"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if the app name is not registered yet, what protects it in the meantime?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "A product name without a Hong Kong registration relies on passing off, a common law action, rather than on statutory remedies."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And once the patent is granted, how should the product be marked?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "Falsely representing an item sold for value as patented is an offence, but it is a defence for the seller to prove that it used due diligence"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "patents",
+        "quote": "Product labels and marketing material that mention patents must match the patents the bank actually holds."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyright-hk-business-possession",
+   "stage": "copyright",
+   "hk": true,
+   "ask": "An audit finds unlicensed copies of a paid design tool on staff laptops. Can the bank or its directors face criminal liability in Hong Kong, and on what conditions?",
+   "colleague": {
+    "role": "COO",
+    "text": "The audit found engineers running cracked copies of a paid tool; is this just a licence true-up with the vendor, or could it be worse for us?"
+   },
+   "primes": "sw-copyright-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "Possessing an infringing copy of a program for a trade or business, with a view to its use in that business, is a criminal offence"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "On indictment the penalty is a level 5 fine for each infringing copy and 4 years' imprisonment"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "This offence reaches the bank's own staff and contractors, so licence compliance for internal use is a criminal-law issue as well as a civil one."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyright",
+      "quote": "The court may award additional damages having regard to flagrancy, benefit to the defendant and its conduct"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And how long does the criminal exposure last?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "map",
+        "quote": "No prosecution under the Copyright Ordinance may start more than 3 years after the offence was committed"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "map",
+        "quote": "The criminal route for copyright offences is short-term compared with civil claims"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyright-hk-decompile",
+   "stage": "copyright",
+   "hk": true,
+   "ask": "Engineering wants to decompile a vendor's licensed library to fix a bug and make it work with the core banking system. What is your advice under Hong Kong law?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "The vendor will not fix a bug in its library for months; can we decompile it and patch it ourselves so it works with our core system?"
+   },
+   "primes": "sw-copyright-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "Before engineers decompile, translate or copy third-party code, confirm that the licence or a lawful-user right covers the act, and do not rely on a general exception"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "The Ordinance has no decompilation exception and no general interoperability exception for copying"
+     }
+    },
+    {
+     "beat": "options",
+     "core": true,
+     "pin": {
+      "stage": "copyright",
+      "quote": "A lawful user may copy or adapt a program where necessary for lawful use, including to correct errors"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyright",
+      "quote": "but s.61 has no equivalent words, so whether a contract can exclude the copy-or-adapt right is a question of construction"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the basis you would rely on to fix the bug",
+    "multi": false,
+    "options": [
+     {
+      "label": "The lawful-user right to copy or adapt where necessary",
+      "in": true,
+      "pin": {
+       "stage": "copyright",
+       "quote": "A lawful user may copy or adapt a program without infringement where that is necessary for lawful use, including to correct errors."
+      }
+     },
+     {
+      "label": "A decompilation exception",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "Reverse engineering: The Ordinance has no decompilation exception"
+      }
+     },
+     {
+      "label": "A general interoperability exception",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "The Ordinance has no separate interoperability exception, so this section is the route engineers will ask about first."
+      }
+     },
+     {
+      "label": "General fair use",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "with no registration step and no general fair use, only listed fair dealing purposes"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if they want to port the library to another language instead?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyright",
+        "quote": "a translation includes conversion into, out of or between computer languages or codes (Cap. 528 s.29(3)(b), s.29(4))"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "copyright",
+        "quote": "Porting code to another language or platform is a translation, so a migration or rewrite of licensed code needs a licence that allows it."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "answer",
+       "pin": {
+        "stage": "copyright",
+        "quote": "Courts protect reverse engineering that has a legitimate aim, but licence bans can still bind."
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyright",
+        "quote": "held that disassembly to reach unprotected functional elements can be fair use where it is the only way and the aim is interoperability"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "copyright",
+        "quote": "held 2-1 that a shrink-wrap ban on reverse engineering was enforceable and not preempted"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ownership-hk-silent-contractor",
+   "stage": "ownership",
+   "hk": true,
+   "ask": "A contractor wrote our fraud engine and the contract is silent on IP. Who owns it in Hong Kong, and what can the bank still do with it?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "The fraud engine vendor's statement of work never mentioned IP; do we own the code we paid for, and if not, what can we do with it?"
+   },
+   "primes": "sw-ownership-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Unless the contract expressly says who owns the copyright, the developer keeps it and the bank gets only an exclusive licence for the purposes both had in mind when the work was commissioned"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Whatever the agreement says, the commissioner has an exclusive licence to exploit the work for all purposes both sides could reasonably have contemplated when it was commissioned"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "ownership",
+      "quote": "The commissioner may restrain any exploitation for a purpose it could reasonably object to"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Name the owner of each deliverable in the contract, and state the purposes for which the bank will use it, because the statutory licence covers only what both sides contemplated"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ownership",
+      "quote": "A signed instrument is needed for an assignment, so the bank should not accept an email exchange or an unsigned statement of transfer as proof of ownership."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the bank's position under the silent contract",
+    "multi": false,
+    "options": [
+     {
+      "label": "Contractor owns it; bank has an exclusive licence for contemplated purposes",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Whatever the agreement says, the commissioner has an exclusive licence for purposes both sides could reasonably have contemplated"
+      }
+     },
+     {
+      "label": "The bank owns it because it paid",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Without an express term, the author stays first owner under s.13, subject to that licence"
+      }
+     },
+     {
+      "label": "The bank has only the copy delivered to it",
+      "in": false,
+      "pin": {
+       "stage": "copyright",
+       "quote": "the bank gets an exclusive licence for all purposes both sides could reasonably have contemplated when the work was commissioned"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Their code is usually not a work made for hire, so the bank needs a transfer signed by the author"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Copyright in commissioned code belongs to the developer unless the contract names someone else, but the commissioner keeps a statutory exclusive licence"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if an agency was paid to create a design the bank wants to register?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Where a design is commissioned for money or money's worth, the commissioner owns it"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "ownership",
+        "quote": "This reverses the copyright default for commissioned designs, so design agency contracts should state who owns each design expressly"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ownership-hk-employee-award",
+   "stage": "ownership",
+   "hk": true,
+   "ask": "An engineer built an internal reconciliation tool for the bank, and the bank now plans to license it to other banks. Does the engineer have any claim in Hong Kong, and how do you manage it?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We want to sell the reconciliation tool one of our engineers built to other banks; does the engineer get anything, given it was written on our time?"
+   },
+   "primes": "sw-ownership-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "Hong Kong gives the employer first ownership of staff work made in the course of employment, but it also gives the employee a right to an award in some cases."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "A literary work, which includes a computer program, made by an employee in the course of employment belongs first to the employer, subject to any agreement to the contrary"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "ownership",
+      "quote": "If the employer or someone with its permission exploits the work in a way neither side could reasonably have contemplated when it was made, the employer must pay an award"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "ownership",
+      "quote": "The parties agree the amount, or the Copyright Tribunal fixes it if they cannot agree"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "ownership",
+      "quote": "Keep the ownership clause in the employment contract up to date for engineers who write code for the bank, and record any agreed position on awards for unforeseen exploitation"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "ownership",
+      "quote": "Engineers' code is covered only if written in the course of employment, so the job description and the employment contract both matter to the bank."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the best description of the engineer's position",
+    "multi": false,
+    "options": [
+     {
+      "label": "Bank owns it; an award is due only for uncontemplated exploitation, unless agreed otherwise",
+      "in": true,
+      "pin": {
+       "stage": "ownership",
+       "quote": "The employer must pay an award for exploitation neither side could reasonably have contemplated, unless the parties agreed otherwise."
+      }
+     },
+     {
+      "label": "The engineer owns it because the engineer wrote it",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "A literary work, which includes a computer program, made by an employee in the course of employment belongs first to the employer"
+      }
+     },
+     {
+      "label": "The bank owns it and never owes anything",
+      "in": false,
+      "pin": {
+       "stage": "ownership",
+       "quote": "Where staff work is exploited in a way neither side could reasonably have contemplated, the employer must pay an award"
+      }
+     },
+     {
+      "label": "The engineer can block changes to the code",
+      "in": false,
+      "pin": {
+       "stage": "map",
+       "quote": "Developers cannot rely on moral rights to stop the bank changing or retiring their code"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if the tool also contains a patentable invention?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "An invention belongs to the employer if it was made in the course of normal duties or specifically assigned duties where an invention might reasonably be expected"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "ownership",
+        "quote": "An employee may seek compensation where a granted patent on an employer-owned invention is of outstanding benefit to the employer"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Code an employee writes within the scope of employment is a work made for hire, so the bank is treated as the author"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "ownership",
+        "quote": "The two biggest differences from the US position are the award an employer must pay for unforeseen exploitation of staff work"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patents-hk-conference-demo",
+   "stage": "patents",
+   "hk": true,
+   "ask": "Our product team demoed a new authentication method at a fintech conference last month. Can we still patent it in Hong Kong?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "We showed the new login flow on stage at a fintech conference last month; is it too late to file a patent, or is there a grace period?"
+   },
+   "primes": "sw-patents-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "The bank's own publication can cost it a patent, and the Ordinance excuses only a narrow set of disclosures."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "A disclosure before filing counts against novelty unless it falls within six months and is an evident abuse or a display at an official or officially recognised international exhibition"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "patents",
+      "quote": "which includes anything made available to the public anywhere before the material date"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "patents",
+      "quote": "Decide on any filing before a public code release, open source publication or conference talk"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "For a display, the filing must say so and include the prescribed evidence or statement"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the disclosures Hong Kong ignores for novelty, if within six months",
+    "multi": true,
+    "options": [
+     {
+      "label": "A display at an official or officially recognised international exhibition",
+      "in": true,
+      "pin": {
+       "stage": "patents",
+       "quote": "The disclosure must be due to an evident abuse against the applicant, or a display at an official or officially recognised international exhibition"
+      }
+     },
+     {
+      "label": "A disclosure due to an evident abuse against the bank",
+      "in": true,
+      "pin": {
+       "stage": "patents",
+       "quote": "A disclosure within 6 months before filing is disregarded for novelty only if it was due to an evident abuse against the applicant"
+      }
+     },
+     {
+      "label": "The bank's own product launch",
+      "in": false,
+      "pin": {
+       "stage": "patents",
+       "quote": "Other disclosures, such as a public code release or a product launch, are not excused by these sections"
+      }
+     },
+     {
+      "label": "A public code release",
+      "in": false,
+      "pin": {
+       "stage": "patents",
+       "quote": "The exception is narrow, so a bank's own launch or code release will usually count against novelty"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "A disclosure by the inventor, or by someone who got the subject matter from the inventor, is not prior art if made one year or less before the effective filing date"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And we filed a related application last year that is not yet published. Can it count against the new one?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "Earlier applications published after the material date count as state of the art for novelty, but not for inventive step"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "patents",
+        "quote": "The bank's own earlier application can defeat a later one, so the bank should check its filing history before filing a related application."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patents-hk-short-term",
+   "stage": "patents",
+   "hk": true,
+   "ask": "The board wants a Hong Kong patent on a new payments feature quickly, before a competitor copies it. Would you recommend a short-term patent, and what is the catch?",
+   "colleague": {
+    "role": "Board",
+    "text": "Our advisers say a short-term patent is the quickest route; why not file one and go after the competitor as soon as it is granted?"
+   },
+   "primes": "sw-patents-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "Choose the route by how soon the bank needs to enforce and how much it wants examination first, since a short-term patent is quicker to obtain but harder to enforce"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "The Registrar considers formalities only and has no duty to examine patentability, novelty, inventive step or disclosure"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "patents",
+      "quote": "A short-term patent can be enforced only after a certificate of substantive examination, an unterminated request for substantive examination, or a court certificate"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "patents",
+      "quote": "A standard patent (R) registers a designated foreign grant, a standard patent (O) is examined on substance, and a short-term patent is granted after formality examination only"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "patents",
+      "quote": "A standard patent lasts 20 years from filing, and a short-term patent lasts up to 8 years from filing, but lapses after the 4th year unless the renewal fee is paid"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "patents",
+      "quote": "A short-term patent is a registration of form, not a finding of validity, so the bank should not present it to a vendor or a court as proof that the invention is valid."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick what lets the bank start proceedings on a short-term patent",
+    "multi": true,
+    "options": [
+     {
+      "label": "A certificate of substantive examination",
+      "in": true,
+      "pin": {
+       "stage": "patents",
+       "quote": "can start enforcement proceedings only after a certificate of substantive examination has been issued"
+      }
+     },
+     {
+      "label": "A request for substantive examination, not terminated by court order",
+      "in": true,
+      "pin": {
+       "stage": "patents",
+       "quote": "a request for substantive examination has been made and not terminated by a court order, or a court has certified the patent"
+      }
+     },
+     {
+      "label": "A court certificate",
+      "in": true,
+      "pin": {
+       "stage": "patents",
+       "quote": "Do not present a short-term patent as enforceable until a certificate of substantive examination or a court certificate is in place"
+      }
+     },
+     {
+      "label": "The grant of the short-term patent alone",
+      "in": false,
+      "pin": {
+       "stage": "patents",
+       "quote": "The bank cannot sue on a short-term patent on the strength of the grant alone"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And can we write to the competitor once the patent is granted?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "A person aggrieved by groundless threats of proceedings can seek a declaration, an injunction and damages, but a mere notice that a patent exists is not a threat"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "patents",
+        "quote": "Route any patent notice to a vendor or competitor through legal review, since a notice can amount to a threat under s.89"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And the feature is mostly software. Is it patentable at all?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "patents",
+        "quote": "A program for a computer, a scheme for doing business and a presentation of information are not inventions, but only as such (Cap. 514 s.9A(2)(c)-(d), (3))"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "patents",
+        "quote": "This is the first test for any software claim, so a claim that reads as the program or the business method itself is at risk of refusal."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade-secrets-hk-leaving-engineer",
+   "stage": "trade-secrets",
+   "hk": true,
+   "ask": "A senior engineer is leaving for a rival Hong Kong fintech and knows our fraud-scoring code in detail. What protects that code here, and what can the bank stop him using?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Our lead fraud engineer resigned and joins a competitor next month. Can we stop him reusing what he knows about our scoring code?"
+   },
+   "primes": "sw-trade-secrets-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Protection for code and business information comes from the common law of confidence, from contract, and from the duties an employee owes while employed"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Hong Kong has no statute that creates a trade secret right"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "The equitable action needs information with the necessary quality of confidence"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Put confidentiality, return-of-code and post-exit undertakings in writing for every employee and contractor"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "only true trade secrets are protected, not general skill and knowledge"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "With no restraint covenant, what can the bank stop him using after he leaves?",
+    "multi": false,
+    "options": [
+     {
+      "label": "True trade secrets in the scoring code",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "only true trade secrets are protected, not general skill and knowledge"
+      }
+     },
+     {
+      "label": "His general skill and knowledge",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "After employment: Without a restraint covenant, only true trade secrets"
+      }
+     },
+     {
+      "label": "Anything he worked on, through his duty of fidelity",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "An employee owes the employer a duty of fidelity while employed"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "The Defend Trade Secrets Act (DTSA) gives a federal civil claim"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "NDAs, code-access terms and exit undertakings carry the weight that the Defend Trade Secrets Act and state statutes carry in the US"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if we only find out years later, how long does the bank have to sue?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "must be brought within 6 years of the cause of action accruing"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "A damages claim for breach of an NDA runs on this clock, while an injunction to stop use of code is usually sought in equity"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "If code or data was taken in a way the bank could not discover, the start of time may be postponed"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trade-secrets-hk-lingering-access",
+   "stage": "trade-secrets",
+   "hk": true,
+   "ask": "A contractor's engagement ended last month, but logs show his account pulled code from our repository last week. Is that a crime in Hong Kong, and what decides it?",
+   "colleague": {
+    "role": "Security lead",
+    "text": "Nobody switched off the contractor's repository access when his contract ended, and he pulled code last week. Is this a police matter or only a contract claim?"
+   },
+   "primes": "sw-trade-secrets-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Hong Kong makes dishonest or unauthorised access to programs and data a crime, which gives the bank a route beyond a civil claim"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Unauthorised access: Knowingly causing a computer, by telecommunications"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "This can cover a former employee or contractor who reaches production code or data after access should have ended"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Who is unauthorised: Access is unauthorised where the person is not entitled"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "is an offence carrying up to 5 years' imprisonment on indictment"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trade-secrets",
+      "quote": "Map who may reach each system and record it, because the unauthorised-access offence turns on entitlement"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "He copied code but changed nothing, and his purpose is unclear. Which offence fits best?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Unauthorised access to a computer by telecommunications",
+      "in": true,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "Unauthorised access: Knowingly causing a computer, by telecommunications"
+      }
+     },
+     {
+      "label": "Access with a dishonest intent",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "Dishonest access: Obtaining access to a computer with intent to commit an offence"
+      }
+     },
+     {
+      "label": "Criminal damage to programs or data",
+      "in": false,
+      "pin": {
+       "stage": "trade-secrets",
+       "quote": "altering, erasing or adding to it counts as damage"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if he had also deleted code on his way out?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Damage to programs and data: A program or data held in a computer is property"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "An employer holding code on its own systems can be treated as its owner for these offences"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "The repository also held customer records used as test data. What does that add for the bank?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Practicable security steps: A data user must take all practicable steps"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trade-secrets",
+        "quote": "Source code, logs and test sets that hold customer data fall under the security duty"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trademarks-hk-launch-name",
+   "stage": "trademarks",
+   "hk": true,
+   "ask": "We launch a new app brand in Hong Kong in three months, and marketing has already used the name in teaser posts. What do you do on the name before launch?",
+   "colleague": {
+    "role": "Marketing",
+    "text": "The teaser campaign has run for weeks, so the name is surely ours already. Do we really need to file anything before launch?"
+   },
+   "primes": "sw-trademarks-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Register the bank's core names and logos in Hong Kong before launch, and do not rely on goodwill alone to protect an unregistered name"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "The Ordinance gives no proceedings to stop infringement of an unregistered mark, but it keeps the law of passing off"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "once accepted and not successfully opposed the mark is registered as of the filing date"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Product and channel names need clearance against the register before launch"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "check every app store listing and domain name against the register"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "A mark that is not distinctive, is descriptive or has become customary in the trade is refused"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the three steps you take before launch",
+    "multi": true,
+    "options": [
+     {
+      "label": "File the name and logo in Hong Kong now",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Register marks for the bank's product and channel names before public launch"
+      }
+     },
+     {
+      "label": "Clear the name against the register",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Product and channel names need clearance against the register before launch"
+      }
+     },
+     {
+      "label": "Hold the domains and store listings in the bank's own accounts",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "so the bank should keep domain and listing ownership in its own accounts"
+      }
+     },
+     {
+      "label": "Rely on goodwill from the teaser campaign",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "do not rely on goodwill alone to protect an unregistered name"
+      }
+     },
+     {
+      "label": "Pick a descriptive name customers grasp at once",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "A mark that is not distinctive, is descriptive or has become customary in the trade is refused"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Rights arise from use in commerce, and the Lanham Act (15 U.S.C.) protects unregistered marks"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "The biggest difference from the US is that statutory infringement needs a registration"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if a rival files the same name a week before our launch?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "the Ordinance treats it as a ground for refusing registration, but only if the owner of the earlier right objects in opposition proceedings"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Prior use: A registered mark is not infringed by continuous prior unregistered use in Hong Kong"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Legacy brand use may survive a later registration, so the bank should document its own prior use in Hong Kong"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trademarks-hk-cobrand-licence",
+   "stage": "trademarks",
+   "hk": true,
+   "ask": "We are launching a co-branded card with an e-commerce platform, and each side will license its brand to the other. What must the trade mark licences get right in Hong Kong?",
+   "colleague": {
+    "role": "Product lead",
+    "text": "The platform's team says we can agree the logo swap on a call and paper it after launch. Is that good enough?"
+   },
+   "primes": "sw-trademarks-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Record each assignment and licence of a mark in writing, sign it, register it within 6 months"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Licences in writing: A licence is not effective unless it is in writing and signed by the grantor"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Registering transactions: A transaction not registered within 6 months"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "Co-branded licences and vendor-held marks should be registered promptly"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "trademarks",
+      "quote": "an unregistered transaction can be ineffective against a conflicting interest"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which gap leaves the licence not effective at all?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Agreed on a call, never put in writing",
+      "in": true,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Licences in writing: A licence is not effective unless it is in writing and signed by the grantor"
+      }
+     },
+     {
+      "label": "Signed, but registered eight months later",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Registering transactions: A transaction not registered within 6 months"
+      }
+     },
+     {
+      "label": "Silent on who sues infringers",
+      "in": false,
+      "pin": {
+       "stage": "trademarks",
+       "quote": "Unless the licence provides otherwise, a licensee may call on the owner"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if a copycat app uses the platform's mark and the platform does nothing, can the bank sue as licensee?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Unless the licence provides otherwise, a licensee may call on the owner"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "generally cannot proceed unless the owner is joined or the court gives leave"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "A brand licensee or vendor should have a clear clause on who enforces the mark"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Marketing wants the launch page to call the co-brand 'registered' while the filing is still pending. Can it?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "is an offence if the person knows or has reason to believe it is false"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "trademarks",
+        "quote": "Marketing that describes a product name as registered needs a Hong Kong registration behind it"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oss-basics-hk-non-commercial-library",
+   "stage": "oss-basics",
+   "hk": true,
+   "ask": "A product team built a customer feature on a library licensed free for non-commercial use only. Beyond a licence breach, does the bank face criminal exposure in Hong Kong, and what decides it?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "The library's licence says free for non-commercial use, but it is only one component inside our app. Is this really more than a contract issue?"
+   },
+   "primes": "sw-oss-basics-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Dealing in or possessing infringing copies of a program for a trade or business can be a criminal offence"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "the licence is the owner's permission to do these acts, and anything outside it is infringement"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Business possession of programs: Possessing an infringing copy of a computer program for a trade or business"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "The business possession offence is the one that reaches an internal team using unlicensed code in a product"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "The criminal route is a short-term exposure"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "Are the bank's directors exposed too?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "A director, manager or similar officer commits the offence too where the company's offence was committed"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "Penalty: On indictment the fine is level 5 for each infringing copy"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "How would you stop this happening again?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Set licence approvals by family and by act, so that permissive libraries clear quickly"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oss-basics-hk-port-and-fix",
+   "stage": "oss-basics",
+   "hk": true,
+   "ask": "Engineering wants to port an open source library from Java to Kotlin, fix its bugs and ship it in our app. Which acts must the licence cover, and can they rely on statutory user rights instead?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We are only translating the library into Kotlin and fixing a few bugs, not selling it. Do we need to check the licence at all?"
+   },
+   "primes": "sw-oss-basics-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "A licence grants some of the owner's exclusive rights, so its scope decides what the bank may do with the code"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Porting code to another language is an adaptation"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "A build shipped to customers therefore needs the licence to cover it"
+     }
+    },
+    {
+     "beat": "options",
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Copying and adapting: A lawful user may copy or adapt a program where it is necessary for the lawful use"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Map each planned act, such as building, modifying, shipping or hosting, to a licence term before engineering starts"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "oss-basics",
+      "quote": "Do not treat the statutory lawful-user rights as a safe harbour where the licence says otherwise"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "When can the team fall back on the statutory right to fix bugs?",
+    "multi": true,
+    "options": [
+     {
+      "label": "When it has a contractual right to use the program",
+      "in": true,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Who is a lawful user: A lawful user is a person with a contractual right to use the program"
+      }
+     },
+     {
+      "label": "When the fix is necessary for the lawful use",
+      "in": true,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Copying and adapting: A lawful user may copy or adapt a program where it is necessary for the lawful use"
+      }
+     },
+     {
+      "label": "Whenever it likes, whatever the licence says",
+      "in": false,
+      "pin": {
+       "stage": "oss-basics",
+       "quote": "Do not treat the statutory lawful-user rights as a safe harbour where the licence says otherwise"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And the back-up copies our build servers keep of it?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Back-up copies: A lawful user may make a back-up copy where it is necessary for the lawful use"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Engineering teams often assume a back-up right exists"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "The licence was accepted by clicking through on a download page. Is the bank bound by contract?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Offer and acceptance may be given by electronic records, so terms accepted online can form a contract"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "oss-basics",
+        "quote": "Procurement should keep the accepted version of any licence the bank agrees to online"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "permissive-hk-sdk-notices",
+   "stage": "permissive",
+   "hk": true,
+   "ask": "Our SDK for partner fintechs bundles MIT and Apache-2.0 code, and an engineer stripped the licence headers to tidy the files. What is the exposure in Hong Kong, and what do you fix?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We removed the old licence headers from the SDK files because they cluttered the code. The notices are on GitHub anyway, so is that a problem?"
+   },
+   "primes": "sw-permissive-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Shipping a permissive component to customers in an app or SDK is an issue of copies, so the notice must travel with it"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Stripping notices: A person who removes or alters electronic rights management information"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "permissive",
+      "quote": "What counts: Information that identifies the work, its author or owner, or its terms of use counts"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Keep the notice inside each shipped artefact, including the app's licence screen and the container image"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which of these meets the notice duty for the shipped SDK?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Notices inside the SDK package itself",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Keep the notice inside each shipped artefact, including the app's licence screen and the container image"
+      }
+     },
+     {
+      "label": "Notices kept only in the source repository",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Shipping a permissive component to customers in an app or SDK is an issue of copies, so the notice must travel with it"
+      }
+     },
+     {
+      "label": "No notices, because the code is permissive",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "make sure the notice reaches every app, image and SDK the bank ships"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if a vendor delivered components to us with the notices already stripped, is the bank liable for holding them?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Trade possession and distribution: Possessing, selling or distributing an infringing copy"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "A bank that receives third-party code in breach of its licence is not caught unless it has that knowledge"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Ask a vendor that ships permissive components for the notice file and component list with each delivery"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "permissive-hk-patent-choice",
+   "stage": "permissive",
+   "hk": true,
+   "ask": "Two libraries do the same job in our payment flow, one under MIT and one under Apache-2.0. If patents matter to the bank in Hong Kong, which do you pick, and what is the catch?",
+   "colleague": {
+    "role": "CTO",
+    "text": "Both libraries are free and permissive, so legal should not care which one we use. Is there any real difference for us in Hong Kong?"
+   },
+   "primes": "sw-permissive-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "Among the common permissive texts, only Apache-2.0 has an express patent grant"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "a patent licence that is not limited to one jurisdiction"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "permissive",
+      "quote": "Add the Apache-2.0 termination clause to the bank's patent-litigation approval"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "permissive",
+      "quote": "The grant ends if the licensee sues alleging that the Work infringes a patent"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick the library you would use where patents matter",
+    "multi": false,
+    "options": [
+     {
+      "label": "Apache-2.0",
+      "in": true,
+      "pin": {
+       "stage": "permissive",
+       "quote": "a patent licence that is not limited to one jurisdiction"
+      }
+     },
+     {
+      "label": "MIT",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "Among the common permissive texts, only Apache-2.0 has an express patent grant"
+      }
+     },
+     {
+      "label": "Either, since a permissive licence clears patents too",
+      "in": false,
+      "pin": {
+       "stage": "permissive",
+       "quote": "A copyright licence does not clear patents, and the Apache-2.0 patent grant carries"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "A rival holds a Hong Kong short-term patent on a method the library uses. What do you check about it?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "Short-term patents: A short-term patent is granted after formality examination only"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "is not required to consider patentability, priority entitlement or proper disclosure"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "permissive",
+        "quote": "may have expired or may still be running on a timetable the bank should check"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Engineering says the library's 'AS IS' disclaimer protects us if the payment flow fails. Does it?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "permissive",
+        "quote": "An MIT or Apache disclaimer protects the licensor, not the bank"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyleft-hk-customer-app",
+   "stage": "copyleft",
+   "hk": true,
+   "ask": "If the bank's customer app bundles a GPL-3.0 library, what triggers the copyleft duty under Hong Kong law, and what must the bank provide with the app?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "Our customer app bundles a GPL-3.0 library, and our build servers hold copies of it too. Which of those triggers the copyleft duty, and what do we have to publish?"
+   },
+   "primes": "sw-copyleft-hk-key",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Under Hong Kong copyright, a copyleft duty starts with the restricted acts, chiefly issuing copies to the public and making adaptations, so the bank's distribution and modification choices decide the scope."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Copyleft duties attach to conveying, which GPL-3.0 defines by reference to the acts copyright law restricts"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "so an app built on GPL-3.0 code and given to customers must come with its Corresponding Source in one of the ways GPL-3.0 s.6 allows"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Loading copyleft code into a build server, container image or repository is copying, so each internal copy needs a licence even if nothing is shipped."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "No Hong Kong ruling on whether linking creates a work based on another is reported"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And if engineering modifies the library before the app ships?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "A modified version is an adaptation, and for a program an adaptation includes an altered version or a translation into another language or code"
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "A modified or ported copyleft program is an adaptation, so the modification must fit the licence when it is made, whether or not it is ever distributed."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "copyleft-hk-breach-claim",
+   "stage": "copyleft",
+   "hk": true,
+   "ask": "If a developer tells the bank that its customer app ships GPL-3.0 code without the source, what is the bank's exposure in Hong Kong, and what do you do first?",
+   "colleague": {
+    "role": "Risk",
+    "text": "Someone outside has emailed to say our app breaks the GPL because we never published the source. How bad is this for us in Hong Kong, and what do we do now?"
+   },
+   "primes": "sw-copyleft-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Once a copyleft licence stops authorising a use, further copying or adapting infringes copyright, and the owner may claim damages and injunctions"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Copying or adapting without a licence infringes, and no knowledge requirement applies to that primary infringement"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Additional damages may be awarded for flagrancy, benefit to the defendant, conduct and wide circulation"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "copyleft",
+      "quote": "Continued copying or adapting outside the licence is infringement, so record the date a licence ends and remediate before the owner asks"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "What do you tell engineering to fix first?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "When a copyleft licence ends or is breached, treat later copying as unlicensed and remediate it promptly."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "for a download, that means equivalent access to the source from the same place"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "held that attribution and change-notice terms were conditions of the licence"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "Artifex Software, Inc. v. Hancom, Inc. (N.D. Cal. 2017) refused to dismiss a claim that the GPL is an enforceable contract"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "No reported Hong Kong decision enforces a copyleft licence, so the bank should rely on the licence text and on each contributor's copyright"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-hk-modified-agpl",
+   "stage": "network",
+   "hk": true,
+   "ask": "If the bank modifies an AGPL-3.0 database behind a customer service and never distributes a copy, what does it owe in Hong Kong, and what do you advise?",
+   "colleague": {
+    "role": "CTO",
+    "text": "We patched an AGPL database that sits behind our app, but the code never leaves our servers. Do we owe anyone source code?"
+   },
+   "primes": "sw-network-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Changing the code before running it for remote users adds a copyright act and a licence duty."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Section 13 needs a modified program that remote users interact with, and then an offer of Corresponding Source, with no distribution needed"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "network",
+      "quote": "A modified version must prominently offer its remote users the opportunity to receive its Corresponding Source, at no charge, from a network server"
+     }
+    },
+    {
+     "beat": "pressed",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Communicating a modified program over a network is restricted here as well as triggering the AGPL duty, so both analyses are needed."
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "network",
+      "quote": "Before modifying an AGPL service, decide who the remote users are and how the source offer will be made."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which change would take the service outside the AGPL source offer?",
+    "multi": false,
+    "options": [
+     {
+      "label": "Running the program unmodified",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "Section 13 needs a modified program that remote users interact with"
+      }
+     },
+     {
+      "label": "Keeping every copy on the bank's own servers",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "with no distribution needed (AGPL-3.0 s.13)"
+      }
+     },
+     {
+      "label": "Limiting the service to staff and partners",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "The offer is not confined to outside customers"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And if only staff and named partners can reach the service?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "The offer is not confined to outside customers, so staff or partners who use a modified service remotely are probably users too"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "network",
+        "quote": "Access limited to staff or named partners may not amount to making the work available to the public, but the bank should not assume that without advice"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Does it matter that the database runs on a cloud provider's servers outside Hong Kong?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "Under Hong Kong copyright the question is who communicates the work to the public, not where the server sits."
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "The person who determines the content of the communication is the one who communicates it. A party that only provides facilities does not"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "network-hk-licence-change",
+   "stage": "network",
+   "hk": true,
+   "ask": "If a vendor moves its database to source-available terms for new versions while the bank runs an older version in production, which terms bind the bank, and what goes in the contract?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "The database vendor has just changed its licence. Are we stuck with the new terms on the version we already run, and what should the renewal contract say?"
+   },
+   "primes": "sw-network-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "A vendor can change the terms for later versions, and the bank's rights follow the licence that came with each copy."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "A licence change normally applies to later versions, so code already received keeps the earlier terms"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "network",
+      "quote": "Source-available terms bind the bank as a contract and as a copyright licence."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "network",
+      "quote": "Know which licence governs each network-facing version, and secure notice and exit rights in the vendor contract."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "network",
+      "quote": "so a source-available term that bars modification of a hosted program should be read against that right"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which terms govern the version already in production?",
+    "multi": false,
+    "options": [
+     {
+      "label": "The licence that came with that copy",
+      "in": true,
+      "pin": {
+       "stage": "network",
+       "quote": "A licence change normally applies to later versions, so code already received keeps the earlier terms"
+      }
+     },
+     {
+      "label": "The vendor's new terms, for every version",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "A vendor can change the terms for later versions"
+      }
+     },
+     {
+      "label": "None, as source-available terms are unenforceable here",
+      "in": false,
+      "pin": {
+       "stage": "network",
+       "quote": "Source-available terms bind the bank as a contract and as a copyright licence."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "What else must that vendor contract cover for a bank?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "network",
+        "quote": "The HKMA's outsourcing guideline (SA-2) expects written agreements with vendors, covering confidentiality and HKMA access."
+       }
+      },
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "network",
+        "quote": "A bank that engages a data processor must adopt contractual or other means to prevent unauthorised access to the personal data it transfers"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "using-hk-staging-copies",
+   "stage": "using",
+   "hk": true,
+   "ask": "If engineering says unlicensed copies of a paid tool on test and staging servers do not matter because nothing reaches customers, what do you tell them under Hong Kong law?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We have a few unlicensed copies of a paid tool on our staging boxes, but nothing from them ships to customers. Is that really a problem?"
+   },
+   "primes": "sw-using-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Possessing an infringing copy of a program, without the owner's licence, for the purpose of or in the course of a trade or business, with a view to its use in that business, is a criminal offence"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "A production system or staff workstation running an unlicensed program would meet that test"
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Its licence inventory should cover each business function, including test and staging systems."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "IT managers and procurement staff carry the risk alongside the bank and its officers"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "The fine runs per copy, so the number of unlicensed installations drives the exposure."
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which unlicensed copies fall within the business use offence?",
+    "multi": true,
+    "options": [
+     {
+      "label": "Copies on production systems and staff workstations",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "The copy must be possessed for the purpose of, or in the course of, a trade or business, with a view to its use in that business"
+      }
+     },
+     {
+      "label": "Copies on test and staging servers",
+      "in": true,
+      "pin": {
+       "stage": "using",
+       "quote": "Inventory the licence for each program installed in a business function, including test and staging copies"
+      }
+     },
+     {
+      "label": "Printed copies of a program",
+      "in": false,
+      "pin": {
+       "stage": "using",
+       "quote": "Printed copies of a program are outside the offence"
+      }
+     },
+     {
+      "label": "A program technically required to view a work",
+      "in": false,
+      "pin": {
+       "stage": "using",
+       "quote": "and so are programs that are technically required to view or listen to a work"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "Can the directors be personally liable, and what defences are there?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "A director, manager or similar officer commits the offence too where the company's offence was committed with their consent or connivance, or is attributable to them"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "The accused has a defence if they prove they did not know and had no reason to believe the copy was infringing"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "using-hk-click-terms",
+   "stage": "using",
+   "hk": true,
+   "ask": "If engineers accept vendors' click-through terms to download tools for the bank, can those terms bind the bank in Hong Kong, and what should procurement do?",
+   "colleague": {
+    "role": "Procurement",
+    "text": "Developers keep clicking 'I agree' on vendor sites to get tools. Are we actually bound by those terms, and what should we be tracking?"
+   },
+   "primes": "sw-using-hk-s3",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "An offer and its acceptance may be expressed by electronic records, so a licence accepted by click can bind the bank"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "The offeror may prescribe how acceptance is to be communicated (Cap. 553 s.17(3)), so a vendor can require a specific click or confirmation step."
+     }
+    },
+    {
+     "beat": "bank",
+     "core": true,
+     "pin": {
+      "stage": "using",
+      "quote": "Click-through terms in a vendor portal or in the bank's own tooling can bind the bank. Procurement should record the version accepted and who accepted it."
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "using",
+      "quote": "Acceptance by conduct alone is not covered by s.17 and is a common-law question"
+     }
+    }
+   ],
+   "followUps": [
+    {
+     "ask": "And can those terms exclude the vendor's liability if the tool causes a loss?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "using",
+        "quote": "no contract term can exclude liability for death or personal injury from negligence, and other negligence liability can be excluded only so far as the term is reasonable"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "using",
+        "quote": "The reasonableness test may not reach a pure IP licence"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "releasing-hk-unfiled-invention",
+   "stage": "releasing",
+   "hk": true,
+   "ask": "What do you advise under Hong Kong law if the SDK the bank plans to open-source next week contains a new authentication method nobody has filed for?",
+   "colleague": {
+    "role": "Engineering lead",
+    "text": "We are about to push the SDK public, and it includes our new authentication flow. Is there any reason to hold off?"
+   },
+   "primes": "sw-releasing-hk-s2",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "A public push can destroy novelty for any invention in the code, and the relief is narrow."
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "state of the art, which comprises everything made available to the public before the material date"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "A disclosure is disregarded only if it occurred no earlier than six months before filing and was due to an evident abuse against the applicant, or to a display at a prescribed exhibition or meeting"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Settle the patent filing decision before any public push, because the six-month exception is narrow"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "releasing",
+      "quote": "so an ordinary open source release is unlikely to qualify, because it needs an evident abuse or a display at a prescribed exhibition or meeting"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Pick your advice",
+    "multi": false,
+    "options": [
+     {
+      "label": "Decide on a patent filing before the push",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Settle the patent filing decision before any public push"
+      }
+     },
+     {
+      "label": "Push now and rely on the six-month exception",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "so an ordinary open source release is unlikely to qualify"
+      }
+     },
+     {
+      "label": "Push now, since only Hong Kong disclosures count",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "The state of the art comprises everything made available to the public, in Hong Kong or elsewhere"
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "What do you tell the product team?",
+     "lines": [
+      {
+       "beat": "bank",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Publishing code that embodies an unfiled invention can remove patent protection for it. Product and engineering should flag any novel method in the code before a public push."
+       }
+      }
+     ]
+    },
+    {
+     "ask": "Does a short-term patent give the bank more room?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "releasing",
+        "quote": "The same kind of exception applies to a standard (O) patent and to a short-term patent"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "releasing-hk-title-check",
+   "stage": "releasing",
+   "hk": true,
+   "ask": "Before the bank open-sources an internal tool written by staff and two contractors, what must you have in hand on ownership under Hong Kong law?",
+   "colleague": {
+    "role": "CTO",
+    "text": "We want to publish our API testing tool on GitHub, and two contractors wrote part of it. Do we own enough of it to put an open source licence on it?"
+   },
+   "primes": "sw-releasing-hk-s1",
+   "lines": [
+    {
+     "beat": "answer",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Settle who owns each part of the code before anything leaves the bank."
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Code written in the course of employment belongs to the bank unless an agreement says otherwise"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "Commissioned code stays with the developer unless the contract expressly names the bank as the owner"
+     }
+    },
+    {
+     "beat": "rule",
+     "core": true,
+     "pin": {
+      "stage": "releasing",
+      "quote": "An assignment of copyright is effective only if it is in writing and signed by or for the assignor"
+     }
+    },
+    {
+     "beat": "bank",
+     "pin": {
+      "stage": "releasing",
+      "quote": "Collect a signed transfer or a licence for each contractor part, and the employer's records for each employee part, before the release review starts"
+     }
+    },
+    {
+     "beat": "pressed",
+     "pin": {
+      "stage": "releasing",
+      "quote": "the award right means the bank should record what it expects to do with the code, so the exploitation test can be answered later"
+     }
+    }
+   ],
+   "choices": {
+    "prompt": "Which of these gives the bank title to the contractors' code?",
+    "multi": true,
+    "options": [
+     {
+      "label": "A signed written assignment",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "An assignment of copyright is not effective unless it is in writing and signed by or on behalf of the assignor."
+      }
+     },
+     {
+      "label": "A commissioning contract expressly naming the bank as owner",
+      "in": true,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Copyright in a commissioned work belongs to the person the commissioning agreement expressly entitles."
+      }
+     },
+     {
+      "label": "Having commissioned and paid for the work",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "Unless the agreement expressly says who owns the copyright, the developer keeps it"
+      }
+     },
+     {
+      "label": "An unsigned note agreeing to transfer",
+      "in": false,
+      "pin": {
+       "stage": "releasing",
+       "quote": "An unsigned transfer from a contractor or vendor leaves the bank without title, however clear the intent."
+      }
+     }
+    ]
+   },
+   "followUps": [
+    {
+     "ask": "And how does that differ from the US position?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "releasing",
+        "quote": "code written by employees within the scope of their jobs belongs to the bank as a work made for hire, unless the parties agree otherwise in writing"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "releasing",
+        "quote": "The main difference from the US rule in this stage is that Hong Kong gives an employee an award for exploitation that neither side could reasonably have contemplated"
+       }
+      }
+     ]
+    },
+    {
+     "ask": "And if the contractors want to be credited and to object to later changes?",
+     "lines": [
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "releasing",
+        "quote": "The right to be identified and the integrity right do not apply to a computer program, so any attribution or integrity duty must come from the licence or the contract"
+       }
+      },
+      {
+       "beat": "pressed",
+       "pin": {
+        "stage": "releasing",
+        "quote": "Documentation and other non-program works in the repository may carry moral rights, which can be waived by a signed writing but not assigned"
+       }
+      }
+     ]
+    }
+   ]
   }
  ]
 }
