@@ -2159,7 +2159,7 @@
      "**Direct:** Making, using, offering to sell, selling or importing a patented invention within the US infringes (35 U.S.C. § 271(a)).",
      "**Inducement:** Whoever actively induces infringement is liable as an infringer (35 U.S.C. § 271(b)). User guides that tell customers to run a claimed method are a typical risk (drafting inference).",
      "**Contributory:** Supplying a component that is especially made for an infringing use, and is not a staple article suitable for substantial non-infringing use, is contributory infringement when sold knowing it (35 U.S.C. § 271(c)). An SDK can fall within this (drafting inference).",
-     "**Split steps:** Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc), holds one party liable for a method performed by several actors if it directs or controls them, for example by conditioning a benefit on performance of the steps, or if they form a joint enterprise.",
+     "**Split steps:** Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc), holds one party liable for a method performed by several actors if it directs or controls them, for example by conditioning participation or a benefit on performance of the steps and setting the manner or timing of that performance, or if they form a joint enterprise.",
      "**Hosting:** A bank that runs a claimed method on its own systems in the US carries the direct risk. A vendor's hosting does not remove that risk if the bank directs the steps (drafting inference)."
     ],
     "takeaway": "Map which party performs each claimed step, including customers, cloud providers and vendors, before launch."
@@ -2217,7 +2217,7 @@
      "**Prior commercial use:** A good-faith US commercial use at least one year before the earlier of the effective filing date or public disclosure is a defence (35 U.S.C. § 273(a)). The defence must be proved by clear and convincing evidence (§ 273(b)).",
      "**Limits:** The defence is personal. It can pass only with an enterprise or line of business, and only to sites where the use already occurred (35 U.S.C. § 273(e)(1)). It does not make the patent invalid (§ 273(g)).",
      "**Assertions:** Banks are frequent patent defendants. As reported, the Federal Circuit held USAA's mobile remote deposit claims ineligible under § 101 on 12 June 2025, wiping out about $218 million in jury damages in the USAA v. PNC Bank litigation (reported; check).",
-     "**Licences:** Apache-2.0 grants each contributor's patent licence for claims its contribution necessarily infringes. That licence ends for the Work if the licensee sues alleging direct or contributory infringement (Apache-2.0 s.3).",
+     "**Licences:** Apache-2.0 grants each contributor's patent licence for claims its contribution necessarily infringes. That licence ends for the Work if the licensee sues alleging that the Work, or a contribution in it, directly or contributorily infringes a patent (Apache-2.0 s.3).",
      "**Defensive pools:** Open Invention Network is a royalty-free patent non-aggression community covering a defined 'Linux System' (reported; check its current terms).",
      "**Defensive publication:** Publishing an invention makes it prior art for later filers under 35 U.S.C. § 102(a)(1), which can block a rival's later patent on it (drafting inference)."
     ],
@@ -2483,7 +2483,7 @@
      "heading": "Three routes to a Hong Kong patent",
      "lede": "The route decides how much the Registrar checks before grant and when the proprietor can start enforcement.",
      "points": [
-      "**Standard patent (R):** A designated patent application published abroad is recorded and registered, and a standard patent (R) is granted for the invention in the published specification (Cap. 514 s.3, s.8).",
+      "**Standard patent (R):** A designated patent application published abroad is recorded, the designated patent is registered once the designated office grants it, and a standard patent (R) is granted for the invention in its published specification (Cap. 514 s.3, s.8).",
       "**Designated offices:** The Chief Executive in Council designates the foreign patent offices by Gazette notice (Cap. 514 s.8).",
       "**Standard patent (O):** The applicant must request substantive examination, and the Registrar examines patentability, disclosure, claims and added matter before grant (Cap. 514 s.37T, s.37U(3)).",
       "**Short-term patent:** The Registrar considers formalities only and has no duty to examine patentability, novelty, inventive step or disclosure (Cap. 514 s.117).",
@@ -2582,7 +2582,7 @@
      "instrument": "Patents Ordinance (Cap. 514)",
      "ref": "s.73(a)-(c)",
      "title": "Direct use of a patented invention",
-     "summary": "The proprietor may prevent third parties without consent from making, putting on the market, using, importing or stocking a patented product in Hong Kong, and from using or offering a patented process for use there where the third party knows or it is obvious the use is prohibited.",
+     "summary": "The proprietor may prevent third parties without consent from making, putting on the market, using, importing or stocking a patented product in Hong Kong, and from using a patented process, or offering it for use there where the third party knows or it is obvious that the use is prohibited, and from dealing in products obtained directly by a patented process.",
      "counselNote": "Using a licensed third-party product in Hong Kong can infringe where the product embodies a patented process, so vendor warranties should cover patent non-infringement.",
      "confidence": "high",
      "cap": "514",
@@ -2865,7 +2865,7 @@
      "**Independent creation:** A competitor that builds the same function without the bank's secret is not misappropriating it (18 U.S.C. § 1839(6)(B)).",
      "**Injunctions:** A court may not bar a person from taking a job, and any condition must rest on evidence of threatened misappropriation, not merely on what the person knows (18 U.S.C. § 1836(b)(3)(A)(i)(I)).",
      "**State limits:** An injunction may not conflict with state law prohibiting restraints on a lawful profession, trade or business (18 U.S.C. § 1836(b)(3)(A)(i)(II)).",
-     "**Shipped product:** Reverse engineering a binary is lawful, so a licence term is often the only tool that forbids it (good practice)."
+     "**Shipped product:** Reverse engineering a lawfully obtained binary is not improper means under the DTSA, so a licence term is often the only tool that forbids it (good practice)."
     ],
     "takeaway": "Put reverse engineering bans in the licence, and support any employee injunction with evidence of threatened use."
    },
@@ -2911,7 +2911,7 @@
     "heading": "Criminal exposure and reach abroad",
     "lede": "Theft is a federal crime, and the DTSA can follow conduct outside the United States.",
     "points": [
-     "**Crime:** Stealing or copying a trade secret, or possessing one known to be stolen, is a federal offence when done for the benefit of someone other than the owner, with up to ten years' imprisonment (18 U.S.C. § 1832(a)).",
+     "**Crime:** Stealing or copying a trade secret, or possessing one known to be stolen, is a federal offence when done with intent to benefit someone other than the owner and intending or knowing that it will injure the owner, with up to ten years' imprisonment (18 U.S.C. § 1832(a)).",
      "**Criminal secrecy:** The court must act to preserve the confidentiality of trade secrets in a prosecution, and the owner may file a sealed submission (18 U.S.C. § 1835(a)-(b)).",
      "**Abroad:** In Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024), the court held that the DTSA can reach misappropriation abroad where an act in furtherance occurred in the United States. Damages can then rest on foreign sales.",
      "**Scale:** A 2020 Chicago jury award of about $764.6 million in that dispute was later reduced (reported; check), which shows what a foreign-sales claim can be worth.",
@@ -3100,7 +3100,7 @@
   "virtualBankNotes": [
    "**Vendor access:** The interagency guidance expects banks to manage risk from vendors that see bank code or models (88 Fed. Reg. 37920 (9 June 2023)).",
    "**Cybersecurity rules:** The NYDFS Cybersecurity Regulation requires written procedures for secure development and for assessing externally developed applications (23 NYCRR 500.8), and a third-party service provider policy (23 NYCRR 500.11).",
-   "**Model risk:** Supervisory guidance on model risk has covered vendor models, and the agencies reportedly replaced it in April 2026 (reported; check). Models and rules are both trade secrets and governed assets.",
+   "**Model risk:** Supervisory guidance on model risk has covered vendor models, and the agencies replaced it on 17 April 2026 (Federal Reserve SR 26-2; OCC Bulletin 2026-13). Models and rules are both trade secrets and governed assets.",
    "**Examiner requests:** Mark code and model documents given to examiners as confidential, and record what was sent. Ask counsel whether the bank's production terms protect them (good practice).",
    "**Customer data:** Code, test data and logs can carry customer information, so a trade secret review should also check privacy and security (good practice)."
   ],
@@ -3115,7 +3115,7 @@
    "**Paper controls:** Confidentiality policies that nobody enforces, which a court may not treat as reasonable measures.",
    "**Overbroad restraints:** Restrictions on former staff that go beyond the DTSA injunction limits or California's bar, and may be void.",
    "**Missing notice:** Leaving out the § 1833(b) notice, which removes exemplary damages and fees against the employee.",
-   "**Assuming shipped code is safe:** Reverse engineering is lawful, so protection for a shipped app depends on the licence terms (Bowers v. Baystate Technologies, Inc., 320 F.3d 1317 (Fed. Cir. 2003))."
+   "**Assuming shipped code is safe:** Reverse engineering is not improper means, so trade secret protection for a shipped app depends on the licence terms (Bowers v. Baystate Technologies, Inc., 320 F.3d 1317 (Fed. Cir. 2003))."
   ],
   "elsewhere": [
    {
@@ -3142,7 +3142,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Hong Kong has no trade secrets statute, so confidential code and business information is protected mainly by the equitable action for breach of confidence and by contract (reported; check). The biggest difference from the US is that there is no statutory misappropriation claim to rely on, so the bank's NDAs, code-access terms and exit undertakings carry most of the weight (drafting inference). Criminal offences for dishonest computer access, and for damaging programs or data, add a further layer (Cap. 200 s.161).",
+   "summary": "Hong Kong has no trade secrets statute, so confidential code and business information is protected mainly by the equitable action for breach of confidence and by contract (reported; check). The biggest difference from the US is that there is no statutory misappropriation claim to rely on, so the bank's NDAs, code-access terms and exit undertakings carry most of the weight (drafting inference). Criminal offences for dishonest computer access, and for damaging programs or data, add a further layer (Cap. 200 ss.59, 60, 161).",
    "keyPoints": [
     "**No trade secrets statute:** Hong Kong has no statute that creates a trade secret right, so confidential code and business information rests on the common law of confidence and on contract (reported; check).",
     "**Breach of confidence:** The equitable action needs information with the necessary quality of confidence, imparted in circumstances that import an obligation of confidence, and used without authority (reported; check).",
@@ -3172,7 +3172,7 @@
       "**Unauthorised access:** Knowingly causing a computer, by telecommunications, to obtain unauthorised access to a program or data is an offence with a fine at level 4 (Cap. 106 s.27A(1)).",
       "**Who is unauthorised:** Access is unauthorised where the person is not entitled to control access of that kind, has no authority from someone who is, and does not believe they were or would have been authorised had they applied (Cap. 106 s.27A(2)(b)).",
       "**Damage to programs and data:** A program or data held in a computer is property for the criminal damage offences, and altering, erasing or adding to it counts as damage (Cap. 200 s.59(1)(b), (1A)).",
-      "**Own devices:** The Court of Final Appeal held that s.161(1)(c) does not extend to a person's use of their own computer, such as their own phone, so copying the bank's information on a personal device may fall outside the offence (Secretary for Justice v Cheng Ka Yee [2019] HKCFA 9)."
+      "**Own devices:** The Court of Final Appeal held that s.161(1)(c) does not extend to a person's use of their own computer, such as their own phone, so sending or using information from a person's own device, without obtaining access to the bank's computer, may fall outside the offence (Secretary for Justice v Cheng Ka Yee [2019] HKCFA 9)."
      ],
      "takeaway": "Map who may reach each system and record it, because the unauthorised-access offence turns on entitlement and the dishonest-access offence turns on intent, and a clear record helps prove both (good practice)."
     },
@@ -3300,7 +3300,7 @@
    },
    {
     "term": "Uniform Trade Secrets Act (UTSA)",
-    "definition": "A model state law defining trade secrets and misappropriation. California's version is Cal. Civ. Code § 3426.1. Reported to be adopted in every state except New York (reported; check)."
+    "definition": "A model state law defining trade secrets and misappropriation. California's version is Cal. Civ. Code § 3426.1. Reported to be adopted in every state except New York and North Carolina (reported; check)."
    },
    {
     "term": "non-compete",
@@ -3661,7 +3661,7 @@
     "instrument": "Abitron Austria GmbH v. Hetronic International, Inc.",
     "ref": "600 U.S. 412 (2023)",
     "title": "Lanham Act claims limited to US use in commerce",
-    "summary": "Held that the Lanham Act's infringement provisions for registered marks and for unregistered marks (§§ 1114(1)(a), 1125(a)(1)) reach only infringing use in commerce in the United States. Use abroad that does not reach US commerce falls outside them.",
+    "summary": "Held that the Lanham Act's infringement provisions for registered marks and for unregistered marks (§§ 1114(1)(a), 1125(a)(1)) reach only infringing use in commerce in the United States. Use abroad falls outside them, even if it causes confusion or other effects in the United States.",
     "counselNote": "A name used only outside the United States is not caught by these US claims, but the same name used in US markets may be. Clearance should follow where the product is actually offered.",
     "confidence": "high"
    },
@@ -3781,7 +3781,7 @@
       "**Well-known marks:** A mark entitled to protection under the Paris Convention as a well-known mark is protected against an identical or similar sign used without due cause in a way that takes unfair advantage of, or is detrimental to, its distinctive character or repute, for any goods or services (Cap. 559 s.18(4)).",
       "**Own name:** A registered mark is not infringed by a person's use of its own name, address or place of business, provided the use accords with honest practices (Cap. 559 s.19(3)(a)).",
       "**Prior use:** A registered mark is not infringed by continuous prior unregistered use in Hong Kong from a date before the earlier of the registrant's first use in Hong Kong and its registration (Cap. 559 s.19(4)).",
-      "**Threats:** A person threatened over use other than applying the mark to goods or packaging, or supplying services, can seek a declaration, an injunction and damages, and a notice that a mark is registered is not a threat (Cap. 559 s.26(1)-(2), (5)). Proceedings are barred if the owner, or a licensee with power to sue, starts an infringement action within 28 days of the threat and pursues it with due diligence (Cap. 559 s.26(6)).",
+      "**Threats:** A person threatened over use other than applying the mark to goods or packaging, or supplying services, can seek a declaration, an injunction and damages, unless the threatener shows that the acts infringe and the threatened person cannot then show that the registration is invalid or liable to be revoked; a notice that a mark is registered is not a threat (Cap. 559 s.26(1)-(5)). Proceedings are barred if the owner, or a licensee with power to sue, starts an infringement action within 28 days of the threat and pursues it with due diligence (Cap. 559 s.26(6)).",
       "**Licensees:** Unless the licence provides otherwise, a licensee may call on the owner in writing to sue an infringer, and may sue in its own name if the owner refuses or does nothing for one month (Cap. 559 s.35(2)-(3))."
      ],
      "takeaway": "Check that any use of a name that is not the bank's own is covered by a licence or a clear right, because the own-name defence does not reach it (drafting inference)."
@@ -3791,7 +3791,7 @@
      "lede": "A mark can be lost through non-use, and a licence or assignment that is not in writing, signed or recorded can fail against others.",
      "points": [
       "**Use that starts late:** Use that starts within 3 months before a revocation application is generally disregarded, unless preparations for it began before the owner became aware that an application might be made (Cap. 559 s.52(4)-(5)).",
-      "**Use outside Hong Kong:** Export-only packaging, and services supplied outside Hong Kong, can count as use for this purpose (Cap. 559 s.52(3)(a)-(c)).",
+      "**Use outside Hong Kong:** Export-only packaging, and services supplied outside Hong Kong, can count as use for this purpose (Cap. 559 s.52(3)(b)-(c)).",
       "**Licences in writing:** A licence is not effective unless it is in writing and signed by the grantor, and it binds a later owner of the mark unless the licence provides otherwise (Cap. 559 s.33(3), (5)).",
       "**Registering transactions:** A transaction not registered within 6 months leaves the new owner or licensee unable to recover damages or profits for infringement in the gap, unless the court is satisfied that registration was not practicable within 6 months and an application was made as soon as practicable afterwards (Cap. 559 s.29(4)(a)-(b)).",
       "**False claims of registration:** Falsely representing that a sign is registered, knowing or having reason to believe it is false, is an offence with a fine at level 3, and using 'registered' or '註冊' in Hong Kong counts as a representation of registration here unless it is shown that the reference is to registration elsewhere than in Hong Kong and that the mark is in fact so registered for those goods or services (Cap. 559 s.94(2))."
@@ -3865,7 +3865,7 @@
      "instrument": "Trade Marks Ordinance (Cap. 559)",
      "ref": "s.26(1)-(5)",
      "title": "Groundless threats of infringement proceedings",
-     "summary": "A person threatened with infringement proceedings over use other than applying the mark to goods or packaging, or supplying services, may seek a declaration that the threats are unjustifiable, an injunction and damages. A notice that a mark is registered is not a threat.",
+     "summary": "A person threatened with infringement proceedings over use other than applying the mark to goods or packaging, or supplying services, may seek a declaration that the threats are unjustifiable, an injunction and damages. The threatener has a defence if it shows that the acts would infringe, unless the registration is shown to be invalid or liable to revocation in a relevant respect. A notice that a mark is registered is not a threat.",
      "counselNote": "A demand letter from the bank that threatens proceedings over use outside the goods, packaging and services limb can give the recipient this claim, so the bank's letters should be drafted with care.",
      "confidence": "high",
      "cap": "559",
@@ -3889,8 +3889,8 @@
      "instrument": "Trade Marks Ordinance (Cap. 559)",
      "ref": "s.94(1)-(2)",
      "title": "Falsely representing a mark as registered",
-     "summary": "Falsely representing that a sign is a registered trade mark, or making a false representation about the goods or services covered by a registration, is an offence if the person knows or has reason to believe it is false. The fine is level 3. In Hong Kong, the word 'registered' or '註冊' is treated as a representation of registration.",
-     "counselNote": "Marketing that describes a product name as registered needs a Hong Kong registration behind it, or the bank may commit an offence.",
+     "summary": "Falsely representing that a sign is a registered trade mark, or making a false representation about the goods or services covered by a registration, is an offence if the person knows or has reason to believe it is false. The fine is level 3. In Hong Kong, the word 'registered' or '註冊', or another word or symbol referring to registration, is treated as a representation of registration in Hong Kong unless it is shown to refer to an actual registration elsewhere for those goods or services.",
+     "counselNote": "Marketing that describes a product name as registered needs a Hong Kong registration behind it, or a foreign registration that the claim is shown to refer to, or the bank may commit an offence.",
      "confidence": "high",
      "cap": "559",
      "section": "94",
@@ -3912,7 +3912,7 @@
    "bankNotes": [
     "**Service names:** The false trade description offence for services does not reach services sold by a regulated bank where that sale is itself regulated under the Banking Ordinance (Cap. 362 Sch. 4, item 1), but whether a particular service falls within that test is a question of fact (drafting inference).",
     "**Registration before launch:** Register marks for the bank's product and channel names before public launch, and check every app store listing and domain name against the register (good practice).",
-    "**Domain names and listings:** Disputes over .hk domain names are reported to be decided under a policy administered by the Hong Kong International Arbitration Centre (reported; check), so the bank should keep domain and listing ownership in its own accounts (good practice)."
+    "**Domain names and listings:** Disputes over .hk domain names are reported to be decided under the domain registry's dispute resolution policy, with the Hong Kong International Arbitration Centre as the dispute resolution provider (reported; check), so the bank should keep domain and listing ownership in its own accounts (good practice)."
    ]
   },
   "glossary": [
