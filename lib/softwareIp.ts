@@ -137,7 +137,8 @@ export type SwTab = (typeof SW_TABS)[number];
 export const SW_STRENGTH_TITLES: Partial<Record<Strength, string>> = {
   statute:
     'An Act of Congress, a federal regulation, a state statute or a Hong Kong ordinance: binding, with remedies or penalties for breach',
-  'case-law': 'A court judgment: binding on the points it decides in that court’s jurisdiction, subject to appeal and later cases',
+  'case-law':
+    'A court judgment: binds the parties, and as precedent binds only the courts below it in the same system (a trial court’s ruling is persuasive at most); subject to appeal and later cases',
   'agency-guidance':
     'Guidance or a report from a US agency (Copyright Office, USPTO, NIST, CISA, OMB, the bank regulators): how the agency applies the law, not law in itself',
   'industry-code':

@@ -107,7 +107,8 @@ export default function SoftwareIpPage() {
 
             <footer className="mt-16 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-xs text-muted">
               <span>
-                Study material, not legal advice. US federal law with state examples; other places are noted, not covered.
+                Study material, not legal advice. US federal law with state examples, and Hong Kong law; other places are
+                noted, not covered.
                 {USC17_ANATOMY && ` U.S. Code text from GovInfo's annual edition, current through ${USC17_ANATOMY.versionDate}; not the official version.`}
               </span>
               <Link href="/software-ip/about/" className="inline-flex min-h-10 items-center underline-offset-4 hover:text-ink hover:underline">
