@@ -1161,7 +1161,7 @@
    ],
    "followUps": [
     {
-     "ask": "And when a complaint is served, what deadline do you diarise first?",
+     "ask": "And when a complaint is served, which deadline for challenging the patent at the PTAB do you diarise?",
      "lines": [
       {
        "beat": "rule",
@@ -1224,7 +1224,7 @@
      "core": true,
      "pin": {
       "stage": "patents",
-      "quote": "An SDK can fall within this"
+      "quote": "An SDK that is sold, offered for sale or imported can fall within this"
      }
     },
     {
@@ -1479,7 +1479,7 @@
   {
    "id": "trade-secrets-departing-engineer",
    "stage": "trade-secrets",
-   "ask": "A senior engineer is leaving for a competitor in California; what can the bank do to protect its code, and what can it not do?",
+   "ask": "A senior engineer based in California is leaving for a competitor; what can the bank do to protect its code, and what can it not do?",
    "colleague": {
     "role": "Engineering lead",
     "text": "Our lead payments engineer has resigned to join a rival; can we hold him to the non-compete in his contract?"
@@ -2514,7 +2514,7 @@
    },
    "followUps": [
     {
-     "ask": "And if the bank later wants to sue that contributor over a patent?",
+     "ask": "And if the bank later wants to sue someone claiming that the library infringes one of its patents?",
      "lines": [
       {
        "beat": "bank",
@@ -4133,7 +4133,7 @@
      "core": true,
      "pin": {
       "stage": "releasing",
-      "quote": "It also means the bank loses its own patent licence under the work if it starts patent litigation over it"
+      "quote": "It also means the bank grants every user a licence of its own patent claims"
      }
     }
    ],
@@ -5339,7 +5339,7 @@
      "beat": "pressed",
      "pin": {
       "stage": "disputes",
-      "quote": "A weak demand can expose the sender to the bank's fees"
+      "quote": "A weak claim that the sender takes to court can expose it to the bank's fees in an exceptional case"
      }
     }
    ],
@@ -7762,7 +7762,7 @@
        "beat": "bank",
        "pin": {
         "stage": "copyleft",
-        "quote": "for a download, that means equivalent access to the source from the same place"
+        "quote": "for a download, that means equivalent access to the source through the same place, or on another server that clear directions point to"
        }
       }
      ]
@@ -7834,7 +7834,7 @@
      "core": true,
      "pin": {
       "stage": "network",
-      "quote": "Communicating a modified program over a network is restricted here as well as triggering the AGPL duty, so both analyses are needed."
+      "quote": "Sending or making available a modified program over a network is restricted here, while the AGPL duty can arise from remote interaction alone"
      }
     },
     {

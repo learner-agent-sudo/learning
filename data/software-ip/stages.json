@@ -2158,7 +2158,7 @@
     "points": [
      "**Direct:** Making, using, offering to sell, selling or importing a patented invention within the US infringes (35 U.S.C. § 271(a)).",
      "**Inducement:** Whoever actively induces infringement is liable as an infringer (35 U.S.C. § 271(b)). User guides that tell customers to run a claimed method are a typical risk (drafting inference).",
-     "**Contributory:** Supplying a component that is especially made for an infringing use, and is not a staple article suitable for substantial non-infringing use, is contributory infringement when sold knowing it (35 U.S.C. § 271(c)). An SDK can fall within this (drafting inference).",
+     "**Contributory:** Supplying a component that is especially made for an infringing use, and is not a staple article suitable for substantial non-infringing use, is contributory infringement when sold knowing it (35 U.S.C. § 271(c)). An SDK that is sold, offered for sale or imported can fall within this; one given away free is mainly an inducement risk under § 271(b) (drafting inference).",
      "**Split steps:** Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc), holds one party liable for a method performed by several actors if it directs or controls them, for example by conditioning participation or a benefit on performance of the steps and setting the manner or timing of that performance, or if they form a joint enterprise.",
      "**Hosting:** A bank that runs a claimed method on its own systems in the US carries the direct risk. A vendor's hosting does not remove that risk if the bank directs the steps (drafting inference)."
     ],
@@ -4158,7 +4158,7 @@
     },
     "points": [
      "**Internal use:** Running unmodified GPL-3.0 code carries no conditions at all (GPL-3.0 s.2). Internal changes can still matter later if the code is shipped.",
-     "**Modification:** Changing covered code for the bank's own use carries no conditions; the duties start when the changed version is passed on. Modified files must then carry change notices (GPL-2.0 s.2(a)), and a conveyed modified work must be licensed as a whole under GPL-3.0 (GPL-3.0 s.5(a), (c)).",
+     "**Modification:** Changing covered code for the bank's own use carries no conditions; the duties start when the changed version is passed on. Modified files must then carry change notices (GPL-2.0 s.2(a); GPL-3.0 s.5(a)), and a conveyed modified work must be licensed as a whole under GPL-3.0 (GPL-3.0 s.5(c)).",
      "**Distribution:** Object code distributed under GPL-2.0 must come with the source, or with a written offer valid for at least three years (GPL-2.0 s.3(b)). GPL-3.0 s.6 gives comparable routes.",
      "**[[Conveying|conveying]]:** Under GPL-3.0, conveying is propagation that enables others to make or receive copies. Mere interaction with a user over a network, with no copy transferred, is not conveying (GPL-3.0 s.0).",
      "**Network copyleft:** AGPL-3.0 s.13 requires a modified version to offer its Corresponding Source to remote users. Running an unmodified version triggers nothing under that section."
@@ -7286,7 +7286,7 @@
     },
     "points": [
      "**Three years:** GPL-2.0 s.3(b) needs a written offer valid for at least three years. GPL-3.0 s.6(b) requires an offer valid for at least three years and for as long as the bank offers spare parts or customer support for that model (GPL-3.0 s.6(b)).",
-     "**Designated place:** Offering access to copy the object code from a place means offering equivalent access to the source from the same place (GPL-2.0 s.3; GPL-3.0 s.6(d)).",
+     "**Designated place:** Offering access to copy the object code from a place means offering equivalent access to the source from the same place; under GPL-3.0 the source may sit on another server if clear directions next to the object code point to it (GPL-2.0 s.3; GPL-3.0 s.6(d)).",
      "**User Product duty:** For a [[User Product|User Product]], the buyer must receive installation information, unless no one can install modified object code on the device, as with ROM-only code (GPL-3.0 s.6).",
      "**Scope of source:** Corresponding Source excludes System Libraries and general tools used unmodified, but includes scripts and interface definition files (GPL-3.0 s.1).",
      "**Release practice:** Ship source with every release that includes copyleft binaries, and keep the offer or the repository live for the full period (good practice)."
@@ -7761,7 +7761,7 @@
     }
    ],
    "bankNotes": [
-    "**Customer apps:** Issuing copies to the public is a restricted act (Cap. 528 s.22(1)(b)), so an app built on GPL-3.0 code and given to customers must come with its Corresponding Source in one of the ways GPL-3.0 s.6 allows; for a download, that means equivalent access to the source from the same place (GPL-3.0 s.6(d)). The written-offer route is only for object code in a physical product (GPL-3.0 s.6(b)).",
+    "**Customer apps:** Issuing copies to the public is a restricted act (Cap. 528 s.22(1)(b)), so an app built on GPL-3.0 code and given to customers must come with its Corresponding Source in one of the ways GPL-3.0 s.6 allows; for a download, that means equivalent access to the source through the same place, or on another server that clear directions point to (GPL-3.0 s.6(d)). The written-offer route is only for object code in a physical product (GPL-3.0 s.6(b)).",
     "**Vendor contracts:** The HKMA's outsourcing guideline (SA-2) expects written agreements with vendors. Guidance is not law, but ownership, open source warranty and audit terms belong in each contract (good practice).",
     "**Personal data in code:** Personal data in released code or test data is a risk under DPP 4(1), and reusing it for a new purpose needs the data subject's prescribed consent under DPP 3(1) (Cap. 486 Sch. 1, DPP 3(1), DPP 4(1); drafting inference)."
    ]
@@ -8386,7 +8386,7 @@
      "ref": "s.29(2)",
      "title": "Acts done in relation to an adaptation",
      "summary": "Doing an act in s.23, 24, 25, 27 or 28A, or making an adaptation, in relation to an adaptation of the work is also a restricted act. It does not matter whether the adaptation was recorded when the act is done.",
-     "counselNote": "Communicating a modified program over a network is restricted here as well as triggering the AGPL duty, so both analyses are needed.",
+     "counselNote": "Sending or making available a modified program over a network is restricted here, while the AGPL duty can arise from remote interaction alone, so both analyses are needed.",
      "confidence": "high",
      "cap": "528",
      "section": "29",
@@ -11886,7 +11886,7 @@
     "ref": "s.3",
     "title": "Grant of Patent License",
     "summary": "Each contributor grants a perpetual, worldwide, royalty-free patent licence for the claims its contribution necessarily infringes, alone or in combination with the work. The licence for a licensee ends if that licensee sues, alleging that the work or a contribution infringes a patent.",
-    "counselNote": "This patent grant is the main reason to choose Apache-2.0 for code with patent value. It also means the bank loses its own patent licence under the work if it starts patent litigation over it.",
+    "counselNote": "This patent grant is the main reason to choose Apache-2.0 for code with patent value. It also means the bank grants every user a licence of its own patent claims that its contribution necessarily infringes, and loses the patent licences other contributors grant it if it brings patent litigation alleging the work infringes.",
     "confidence": "high",
     "cap": "Apache-2.0",
     "section": "3",
@@ -12036,7 +12036,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "In Hong Kong the employer owns code that an employee writes in the course of employment, and the developer keeps copyright in commissioned code unless the contract expressly says otherwise (Cap. 528 s.13; s.15(1)). Publishing code can also destroy patent novelty, and the six-month relief is narrow (Cap. 514 ss.9B, 11A). The main difference from the US rule in this stage is that Hong Kong gives an employee an award for exploitation that neither side could reasonably have contemplated (Cap. 528 s.14(2); drafting inference).",
+   "summary": "In Hong Kong the employer owns code that an employee writes in the course of employment, and the developer keeps copyright in commissioned code unless the contract expressly says otherwise (Cap. 528 ss.13, 14(1), 15(1)). Publishing code can also destroy patent novelty, and the six-month relief is narrow (Cap. 514 ss.9B, 11A). The main difference from the US rule in this stage is that Hong Kong gives an employee an award for exploitation that neither side could reasonably have contemplated (Cap. 528 s.14(2); drafting inference).",
    "keyPoints": [
     "**Employee code:** The employer is the first owner of code an employee writes in the course of employment, subject to any agreement to the contrary and to an award for unexpected exploitation (Cap. 528 s.14(1)-(2)).",
     "**Commissioned code:** Unless the agreement expressly says who owns the copyright, the developer keeps it, and the bank gets only an exclusive licence for the purposes both sides had in mind (Cap. 528 s.15(1)-(2)).",
@@ -18605,7 +18605,7 @@
     "section": "285",
     "title": "Attorney fees",
     "summary": "The court in exceptional cases may award reasonable attorney fees to the prevailing party. The Supreme Court judges exceptional cases on the totality of the circumstances (Octane Fitness).",
-    "counselNote": "Fee shifting runs both ways. A weak demand can expose the sender to the bank's fees, so the bank should assess its own position early.",
+    "counselNote": "Fee shifting runs both ways. A weak claim that the sender takes to court can expose it to the bank's fees in an exceptional case, so the bank should assess its own position early.",
     "confidence": "high",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section285&num=0&edition=prelim"
    },
