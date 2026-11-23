@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import sys
 
+import build_statute_extracts as bse
 from build_statute_extracts import SOURCES, parse_ref, resolve
 
 
@@ -43,6 +44,9 @@ def main(argv: list[str]) -> int:
             print(f"  {s['num']:<10} {s.get('heading', '')}")
         return 0
     ref = parse_ref(args[1])
+    if full:
+        # The site clips long sections for display; --full must show all of the held text.
+        bse.MAX_CHARS = sys.maxsize
     hit = resolve(doc, ref) if ref else None
     if not hit:
         print(f"{args[1]!r} does not resolve in {args[0]}")
