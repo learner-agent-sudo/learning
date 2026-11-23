@@ -2155,7 +2155,7 @@
        "beat": "bank",
        "pin": {
         "stage": "oss-basics",
-        "quote": "GPL-3.0 s.2 allows the bank to give covered code to a contractor who modifies it only for the bank, on terms that bar copies outside that relationship."
+        "quote": "GPL-3.0 s.2 allows the bank to give covered code to a contractor who modifies it only for the bank, on terms that bar copies outside that relationship, provided it complies with the licence in conveying material whose copyright it does not control."
        }
       }
      ]
@@ -3241,7 +3241,7 @@
        "beat": "bank",
        "pin": {
         "stage": "oss-basics",
-        "quote": "The bank may convey covered works to contractors who make modifications exclusively for it, on terms that bar copies outside that relationship."
+        "quote": "The bank may convey covered works to contractors who make modifications exclusively for it, on terms that bar copies outside that relationship, provided it complies with the licence in conveying material whose copyright it does not control."
        }
       }
      ]
@@ -5535,7 +5535,7 @@
        "beat": "rule",
        "pin": {
         "stage": "product",
-        "quote": "A disclosure made no earlier than 6 months before filing is disregarded only where it was an evident abuse"
+        "quote": "A disclosure made no earlier than 6 months before filing (for a standard patent (R), the filing date of the designated application) is disregarded only where it was an evident abuse"
        }
       },
       {
@@ -5997,7 +5997,7 @@
      "core": true,
      "pin": {
       "stage": "copyright",
-      "quote": "This offence reaches the bank's own staff and contractors, so licence compliance for internal use is a criminal-law issue as well as a civil one."
+      "quote": "This offence reaches the bank and its officers, and staff who could make or influence decisions on acquiring, using or removing the copy, since the employee defence does not cover them (s.118(2H), (3A)-(3B)), so licence compliance for internal use is a criminal-law issue as well as a civil one."
      }
     },
     {
@@ -6098,7 +6098,7 @@
       "in": false,
       "pin": {
        "stage": "copyright",
-       "quote": "The Ordinance has no separate interoperability exception, so this section is the route engineers will ask about first."
+       "quote": "The Ordinance has no separate interoperability exception for copying or adapting a program (s.273D(1) excuses only circumvention for that purpose), so this section is the route engineers will ask about first."
       }
      },
      {
@@ -7164,7 +7164,7 @@
       "in": false,
       "pin": {
        "stage": "trademarks",
-       "quote": "Unless the licence provides otherwise, a licensee may call on the owner"
+       "quote": "Unless the licence provides otherwise, a licensee may call on the owner in writing to sue an infringer"
       }
      }
     ]
@@ -7177,7 +7177,7 @@
        "beat": "rule",
        "pin": {
         "stage": "trademarks",
-        "quote": "Unless the licence provides otherwise, a licensee may call on the owner"
+        "quote": "Unless the licence provides otherwise, a licensee may call on the owner in writing to sue an infringer"
        }
       },
       {
@@ -8424,7 +8424,7 @@
        "beat": "pressed",
        "pin": {
         "stage": "releasing",
-        "quote": "The main difference from the US rule in this stage is that Hong Kong gives an employee an award for exploitation that neither side could reasonably have contemplated"
+        "quote": "Two differences from the US rule in this stage stand out: a commissioner without the copyright still has an exclusive licence for all purposes both sides could reasonably have contemplated (Cap. 528 s.15(2)), and Hong Kong gives an employee an award for exploitation that neither side could reasonably have contemplated"
        }
       }
      ]
