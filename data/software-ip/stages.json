@@ -624,7 +624,7 @@
    ],
    "bankNotes": [
     "**Technology risk baseline:** The HKMA's technology risk guidance (TM-G-1) sets baseline expectations for governance, information security, change management and technology service providers.",
-    "**Marking control:** Product and marketing teams should check each 'patent pending' and registered-trade-mark marking before release, since some false markings are offences (Cap. 514 s.143(1); Cap. 559 s.94(1)). (good practice).",
+    "**Marking control:** Product and marketing teams should check each 'patent pending' and registered-trade-mark marking before release, since some false markings are offences (Cap. 514 s.143(1); Cap. 559 s.94(1)) (good practice).",
     "**Confidentiality:** Hong Kong has no trade secrets statute, so the bank's NDAs and code-access terms carry more of the load (reported; check).",
     "**Register of rights:** Because Hong Kong has no copyright register of works, the bank's own IP register should record each program's author, licence and each filing and renewal date (good practice)."
    ]
@@ -1765,7 +1765,7 @@
    "keyPoints": [
     "**Authors own first:** The author of a copyright work is its first owner, and the bank gets staff code through the employee rule or a written transfer (Cap. 528 s.13, s.14(1)).",
     "**Employee award:** Where staff work is exploited in a way neither side could reasonably have contemplated, the employer must pay an award unless the parties agreed otherwise (Cap. 528 s.14(2)).",
-    "**Commissioned code:** Unless the contract expressly says who owns the copyright, the developer keeps it and the bank gets only an exclusive licence for the purposes both had in mind when the work was commissioned (Cap. 528 s.15(1)-(2)).",
+    "**Commissioned code:** Unless the contract expressly says who owns the copyright, the developer keeps it and the bank gets only an exclusive licence for all purposes both sides could reasonably have contemplated when the work was commissioned (Cap. 528 s.15(1)-(2)).",
     "**Written transfers:** An assignment of copyright is not effective unless it is in writing and signed by or for the assignor (Cap. 528 s.101(3)).",
     "**Inventions:** The inventor owns the right to a patent, but an employer owns an employee's invention in the defined cases of s.57 (Cap. 514 s.9E(1), s.57(1))."
    ],
@@ -1811,7 +1811,7 @@
      "points": [
       "**Inventor first:** The right to a patent belongs to the inventor or the inventor's successor in title (Cap. 514 s.9E(1)).",
       "**Place of employment:** For an employee, the right is decided under the law of the place where the employee is wholly or mainly employed, or the place of the employer's business if that cannot be found (Cap. 514 s.9E(2)).",
-      "**Employer owns in defined cases:** An invention belongs to the employer if it was made in the course of normal duties or specifically assigned duties where an invention might reasonably be expected, or where the employee had a special obligation to further the employer's interests (Cap. 514 s.57(1)).",
+      "**Employer owns in defined cases:** An invention belongs to the employer if it was made in the course of normal duties or specifically assigned duties where an invention might reasonably be expected, or where the employee had a special obligation to further the employer's interests (Cap. 514 s.57(1)). Any other invention belongs to the employee, and a contract term that diminishes the employee's rights in it is unenforceable against the employee to that extent (Cap. 514 s.57(2), s.60(2)).",
       "**Compensation:** An employee may seek compensation where a granted patent on an employer-owned invention is of outstanding benefit to the employer (Cap. 514 s.58(1)).",
       "**Designs:** Where a design is commissioned for money or money's worth, the commissioner owns it, and an employer owns a design made by an employee in the course of employment, unless the parties agree otherwise (Cap. 522 s.3(2)-(3))."
      ],
@@ -2423,7 +2423,7 @@
    "**Tie product markings to issued patents:** Marketing and product teams should add a patent marking page or number to product pages once a patent issues. A patentee that does not mark can recover damages only from notice, and a web address that links the product to the patent number can serve as the marking (35 U.S.C. § 287(a))."
   ],
   "pitfalls": [
-   "**Early release:** Publishing a method or code before filing and assuming the grace period covers it. Third-party disclosures, unless derived from the inventor or of subject matter the inventor had already publicly disclosed within the year, and the bank's own disclosures older than a year, are prior art (35 U.S.C. § 102).",
+   "**Early release:** Publishing a method or code before filing and assuming the grace period covers it. Third-party disclosures, unless made within the year and either derived from the inventor or of subject matter the inventor had already publicly disclosed, and the bank's own disclosures older than a year, are prior art (35 U.S.C. § 102).",
    "**Functional claims:** Writing 'module for' or 'means for' language with no structure described, which § 112(f) narrows to the specification.",
    "**Single-actor assumption:** Assuming the bank is not liable because a customer or a cloud provider runs the steps (Akamai).",
    "**Late IPR:** Missing the one-year bar under § 315(b) by waiting until discovery or the expert phase.",
@@ -2697,7 +2697,7 @@
    "**Reasonable measures:** The owner must have taken [[reasonable measures]] to keep the code secret (18 U.S.C. § 1839(3)(A)). For source code, that means controlled access, binding contracts and records showing both work in practice.",
    "**Reverse engineering:** Taking apart a lawfully obtained product is not improper means (18 U.S.C. § 1839(6)(B)). A contract is the usual way to restrict it (good practice).",
    "**Publication:** Releasing code publicly, including as open source, ends its secrecy, so the right must be chosen before release (drafting inference).",
-   "**Employees and contractors:** Agreements made or updated after 11 May 2016 must carry the [[whistleblower immunity notice]], or a cross-reference to a policy that sets it out, or the bank may not recover exemplary damages or fees against that individual (18 U.S.C. § 1833(b)(3))."
+   "**Employees and contractors:** Agreements made or updated after 11 May 2016 must carry the [[whistleblower immunity notice]], or a cross-reference to a policy document setting out the bank's reporting policy, or the bank may not recover exemplary damages or fees against that individual (18 U.S.C. § 1833(b)(3))."
   ],
   "conceptMap": {
    "type": "hub",
@@ -3782,7 +3782,7 @@
       "**Own name:** A registered mark is not infringed by a person's use of its own name, address or place of business, provided the use accords with honest practices (Cap. 559 s.19(3)(a)).",
       "**Prior use:** A registered mark is not infringed by continuous prior unregistered use in Hong Kong from a date before the earlier of the registrant's first use in Hong Kong and its registration (Cap. 559 s.19(4)).",
       "**Threats:** A person threatened over use other than applying the mark to goods or packaging, or supplying services, can seek a declaration, an injunction and damages, unless the threatener shows that the acts infringe, or would infringe if done, and the threatened person cannot then show that the registration is invalid or liable to be revoked in a relevant respect; a notice that a mark is registered is not a threat (Cap. 559 s.26(1)-(5)). Proceedings are barred if the owner, or a licensee with power to sue, starts an infringement action within 28 days of the threat and pursues it with due diligence (Cap. 559 s.26(6)).",
-      "**Licensees:** Unless the licence provides otherwise, a licensee may call on the owner in writing to sue an infringer, and may sue in its own name if the owner refuses or does nothing for one month (Cap. 559 s.35(2)-(3))."
+      "**Licensees:** Unless the licence provides otherwise, a licensee may call on the owner in writing to sue an infringer, and may sue in its own name if the owner refuses or does nothing for one month (Cap. 559 s.35(2)-(3)), but only once an application to register the licence has been made (Cap. 559 s.29(3)(b))."
      ],
      "takeaway": "Check that any use of a name that is not the bank's own is covered by a licence or a clear right, because the own-name defence does not reach it (drafting inference)."
     },
@@ -6887,7 +6887,7 @@
    "**Approve known texts only:** Accept the standard SPDX texts on the policy list, and send any edited or custom licence to counsel as a new licence.",
    "**Meet Apache-2.0 duties:** Confirm that a licence copy travels with each distribution, changed files are marked, and NOTICE text appears where users see attributions (Apache-2.0 s.4).",
    "**Clear patents separately:** Do not treat a permissive copyright licence as patent clearance. Route code that implements claimed methods to patent review (good practice).",
-   "**Check the patent trigger:** Before the bank sues over a patent, check whether the accused product uses Apache-2.0 code, because suing over the Work ends that licence (Apache-2.0 s.3).",
+   "**Check the patent trigger:** Before the bank sues over a patent, check whether the accused product uses Apache-2.0 code, because suing over the Work ends the bank's patent licences for it (Apache-2.0 s.3).",
    "**Keep names out of launches:** Do not use an upstream project's or contributor's name to promote a bank product without written permission (BSD-3-Clause cl.3; 15 U.S.C. § 1125(a)).",
    "**Guard notices in pipelines:** Require review before any tool removes licence headers, and treat deliberate removal as a possible § 1202 issue (17 U.S.C. § 1202(b)).",
    "**Review forks and variants:** Treat a renamed fork, or a licence with changed wording, as a new approval request, even when most of the text is standard (good practice).",
@@ -7614,7 +7614,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a), (g), 37, 38, 61).",
+   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a)-(b), (g), 37, 38, 61).",
    "keyPoints": [
     "**Who can license:** The bank can put its own code under a copyleft licence only if it owns the copyright. Code written by an employee in the course of employment belongs to the employer (Cap. 528 s.14(1)), and commissioned code belongs to the contractor unless the contract expressly gives the copyright to the bank (Cap. 528 ss.13, 15(1)), though the bank always has an exclusive licence to exploit it for the purposes contemplated at commissioning (Cap. 528 s.15(2)(a)).",
     "**Trigger:** Copyleft duties attach to conveying, which GPL-3.0 defines by reference to the acts copyright law restricts (GPL-3.0 s.0; Cap. 528 ss.22-29). Running software inside the bank is not conveying (GPL-3.0 s.0).",
@@ -8310,7 +8310,7 @@
     "place": "UK",
     "points": [
      "**Broadly the same:** AGPL-3.0 s.13 operates as a licence condition on copyright, and programs are literary works (CDPA 1988 s.3(1)(b)), so the US analysis carries over.",
-     "**Lawful-user rights:** observe-study-test, back-up and decompilation rights (CDPA 1988 ss.50A-50BA) override any source-available licence restriction on reverse engineering, which is void so far as it would prohibit or restrict them (CDPA 1988 s.296A)."
+     "**Lawful-user rights:** observe-study-test, back-up and decompilation rights (CDPA 1988 ss.50A-50BA) limit any source-available licence restriction on reverse engineering, which is void only so far as it would prohibit or restrict them (CDPA 1988 s.296A)."
     ]
    },
    {
@@ -11704,7 +11704,7 @@
       {
        "label": "MPL-2.0",
        "value": "File-level copyleft",
-       "note": "MPL files, changed or not, stay under MPL-2.0 and their source goes with executables; the bank's own files can differ (s.3.1-3.3)"
+       "note": "MPL files, changed or not, stay under MPL-2.0 in source form, and executables must come with a way to get that source; the bank's own files can differ (s.3.1-3.3)"
       },
       {
        "label": "GPL-3.0",
@@ -12039,7 +12039,7 @@
    "summary": "In Hong Kong the employer owns code that an employee writes in the course of employment, and the developer keeps copyright in commissioned code unless the contract expressly says otherwise (Cap. 528 ss.13, 14(1), 15(1)). Publishing code can also destroy patent novelty, and the six-month relief is narrow (Cap. 514 ss.9B, 11A). The main difference from the US rule in this stage is that Hong Kong gives an employee an award for exploitation that neither side could reasonably have contemplated (Cap. 528 s.14(2); drafting inference).",
    "keyPoints": [
     "**Employee code:** The employer is the first owner of code an employee writes in the course of employment, subject to any agreement to the contrary and to an award for unexpected exploitation (Cap. 528 s.14(1)-(2)).",
-    "**Commissioned code:** Unless the agreement expressly says who owns the copyright, the developer keeps it, and the bank gets only an exclusive licence for the purposes both sides had in mind (Cap. 528 s.15(1)-(2)).",
+    "**Commissioned code:** Unless the agreement expressly says who owns the copyright, the developer keeps it, and the bank gets only an exclusive licence for all purposes both sides could reasonably have contemplated (Cap. 528 s.15(1)-(2)).",
     "**Publication is disclosure:** Anything made available to the public before the material date of the application is part of the state of the art, and the six-month exception covers only an evident abuse or a prescribed display (Cap. 514 ss.9B(2), 11A(1)-(2)).",
     "**Personal data:** Using personal data for a new purpose needs the data subject's prescribed consent, so real customer data should not go into test data or code samples (Cap. 486 Sch. 1, DPP 3(1); drafting inference).",
     "**Attribution:** The right to be identified and the integrity right do not apply to a computer program, so any attribution or integrity duty must come from the licence or the contract (Cap. 528 ss.91(2)(a), 93(2))."
@@ -17601,7 +17601,7 @@
    "**Training:** Early decisions point in different directions on whether training is [[fair use]]. Training on lawfully acquired books was held fair use in Bartz, but building a library from pirated copies was not (17 U.S.C. § 107).",
    "**Output:** AI tools can reproduce licensed code word for word. The copy keeps its licence, so distributing it brings the licence conditions with it, and stripping notices can engage [[copyright management information]] rules (17 U.S.C. § 1202(b)).",
    "**Model licences:** A released model comes under its own licence, which can limit use, set user thresholds and restrict outputs. Read it as a contract and do not assume it is open source (good practice).",
-   "**Bank overlay:** Third-party and NYDFS guidance reach the AI tools and models the bank uses, model risk guidance reaches those that are not generative or agentic AI and models the bank uses, and prompts can expose trade secrets and customer data (good practice)."
+   "**Bank overlay:** Third-party and NYDFS guidance reach the AI tools and models the bank uses, model risk guidance reaches the bank's models other than generative or agentic AI models, and prompts can expose trade secrets and customer data (good practice)."
   ],
   "conceptMap": {
    "type": "hub",
@@ -18357,7 +18357,7 @@
     "heading": "Registration and timing",
     "lede": "Registration and dates often decide the money more than the merits.",
     "points": [
-     "**Registration first:** A suit on a US work cannot start until registration has been made, not just applied for (17 U.S.C. § 411(a); Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019)). If the Office refuses registration, the applicant may still sue once it serves notice and the complaint on the Register (§ 411(a)).",
+     "**Registration first:** A suit on a US work cannot start until registration has been made, not just applied for (17 U.S.C. § 411(a); Fourth Estate Public Benefit Corp. v. Wall-Street.com, LLC, 586 U.S. 296 (2019)). Preregistration also opens the way to suit, and if the Office refuses registration, the applicant may still sue if notice of the suit, with a copy of the complaint, is served on the Register (§ 411(a)).",
      "**Late registration:** Statutory damages and fees are lost for infringement that began before registration took effect, unless a published work was registered within three months of first publication (§ 412).",
      "**Time limit:** A civil claim must be brought within three years after it accrued (§ 507(b)). Warner Chappell Music, Inc. v. Nealy, 601 U.S. 366 (2024), held that a claim timely under the discovery rule is not capped at three years of damages, though the Court assumed the rule applies.",
      "**Criminal cases:** Criminal copyright proceedings must start within five years (§ 507(a))."

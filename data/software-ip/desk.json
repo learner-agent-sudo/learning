@@ -832,6 +832,13 @@
        }
       },
       {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "Any other invention belongs to the employee, and a contract term that diminishes the employee's rights in it is unenforceable"
+       }
+      },
+      {
        "beat": "pressed",
        "pin": {
         "stage": "ownership",
@@ -2520,7 +2527,7 @@
        "beat": "bank",
        "pin": {
         "stage": "permissive",
-        "quote": "Before the bank sues over a patent, check whether the accused product uses Apache-2.0 code, because suing over the Work ends that licence (Apache-2.0 s.3)."
+        "quote": "Before the bank sues over a patent, check whether the accused product uses Apache-2.0 code"
        }
       }
      ]
@@ -3096,7 +3103,7 @@
       "in": false,
       "pin": {
        "stage": "copyleft",
-       "quote": "Counsel should treat a compliance problem as urgent even before any notice arrives."
+       "quote": "The text has no cure period for GPL-2.0"
       }
      }
     ]
@@ -6168,7 +6175,7 @@
      "core": true,
      "pin": {
       "stage": "ownership",
-      "quote": "Unless the contract expressly says who owns the copyright, the developer keeps it and the bank gets only an exclusive licence for the purposes both had in mind when the work was commissioned"
+      "quote": "Unless the contract expressly says who owns the copyright, the developer keeps it and the bank gets only an exclusive licence"
      }
     },
     {
@@ -6635,6 +6642,13 @@
        "pin": {
         "stage": "patents",
         "quote": "A person aggrieved by groundless threats of proceedings can seek a declaration, an injunction and damages, but a mere notice that a patent exists is not a threat"
+       }
+      },
+      {
+       "beat": "rule",
+       "pin": {
+        "stage": "disputes",
+        "quote": "Where no certificate of substantive examination has issued, the defendant must prove infringement and validity"
        }
       },
       {
