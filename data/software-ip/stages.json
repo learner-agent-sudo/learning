@@ -8487,7 +8487,7 @@
   "keyPoints": [
    "Using open source is a licensing decision for every component, so the bank needs a record of what it uses, how it uses it and which licence applies.",
    "**Policy tiers:** Approval should scale with risk. Permissive components that stay internal pass a light check, while copyleft, network copyleft and source-available code goes to counsel (good practice).",
-   "**SBOMs:** A [[SBOM|Software bill of materials]] lists the components in a product. Executive Order 14028 (2021) pushed SBOMs for software sold to the federal government, and NTIA's minimum elements set the baseline data fields.",
+   "**SBOMs:** A [[SBOM|Software bill of materials]] lists the components in a product. Executive Order 14028 (2021) pushed SBOMs for software sold to the federal government, and NTIA's 2021 minimum elements set the baseline data fields until CISA and partner agencies replaced them with the 2026 minimum elements on 29 July 2026.",
    "**Bank expectations:** Regulators expect third-party and secure development controls, citing interagency guidance and the FFIEC booklets. NYDFS regulation mandates written secure development procedures (23 NYCRR 500.8).",
    "**Supply chain:** Log4Shell (2021) and the xz Utils backdoor (2024) showed that one shared component can reach many products, so scanning must cover indirect dependencies.",
    "**Records:** Keep the approval, the licence texts and the attribution and source-offer files with each release, so the bank can show what it shipped and why (good practice)."
@@ -8829,7 +8829,7 @@
     "ref": "12 July 2021",
     "title": "Minimum elements for an SBOM",
     "summary": "Sets data fields (supplier, component name, version, other unique identifiers, dependency relationship, author of the SBOM data and timestamp), automation support (SPDX, CycloneDX and SWID tags), and practices and processes for producing and sharing SBOMs.",
-    "counselNote": "This is the baseline the bank can ask vendors to meet in due diligence. CISA's 2025 draft update should be checked before it is cited as current (reported; check).",
+    "counselNote": "This was the baseline the bank asked vendors to meet in due diligence. CISA and partner agencies replaced it with the 2026 minimum elements on 29 July 2026, which add fields, so cite the 2026 version as current.",
     "confidence": "high"
    },
    {
@@ -9098,7 +9098,7 @@
   "glossary": [
    {
     "term": "Software bill of materials",
-    "definition": "A machine-readable inventory of the components in a software product, with their suppliers, versions and dependency relationships. NTIA's 2021 minimum elements set its baseline."
+    "definition": "A machine-readable inventory of the components in a software product, with their suppliers, versions and dependency relationships. NTIA's 2021 minimum elements set its baseline until the 2026 minimum elements replaced them on 29 July 2026."
    },
    {
     "term": "Minimum elements",
