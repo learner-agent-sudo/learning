@@ -712,6 +712,13 @@
        }
       },
       {
+       "beat": "rule",
+       "pin": {
+        "stage": "ownership",
+        "quote": "A derivative work prepared under the grant before termination may keep being used on the old terms"
+       }
+      },
+      {
        "beat": "bank",
        "pin": {
         "stage": "ownership",
@@ -945,6 +952,13 @@
      "pin": {
       "stage": "patents",
       "quote": "is not prior art if made one year or less before the effective filing date"
+     }
+    },
+    {
+     "beat": "rule",
+     "pin": {
+      "stage": "patents",
+      "quote": "The inventor's own disclosure is excused only if the application is filed within one year"
      }
     },
     {
@@ -1565,7 +1579,7 @@
       "in": false,
       "pin": {
        "stage": "trade-secrets",
-       "quote": "Restrictions on former staff that go beyond the DTSA injunction limits"
+       "quote": "A court may not bar a person from taking a job"
       }
      }
     ]
@@ -4092,6 +4106,13 @@
        }
       },
       {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "Under GPL-3.0 the written offer is allowed only for object code in a physical product"
+       }
+      },
+      {
        "beat": "bank",
        "pin": {
         "stage": "using",
@@ -5346,7 +5367,7 @@
      "beat": "pressed",
      "pin": {
       "stage": "disputes",
-      "quote": "A weak claim that the sender takes to court can expose it to the bank's fees in an exceptional case"
+      "quote": "The PTAB's institution practice changed sharply in 2025, and a proposed rule would narrow review where parallel litigation is likely"
      }
     }
    ],
@@ -6802,7 +6823,7 @@
        "beat": "pressed",
        "pin": {
         "stage": "trade-secrets",
-        "quote": "If code or data was taken in a way the bank could not discover, the start of time may be postponed"
+        "quote": "If code or data was taken deliberately in a way the bank was unlikely to discover for some time, the start of time may be postponed"
        }
       }
      ]
@@ -7766,6 +7787,13 @@
      "ask": "What do you tell engineering to fix first?",
      "lines": [
       {
+       "beat": "rule",
+       "pin": {
+        "stage": "copyleft",
+        "quote": "GPL-3.0 s.8 permanently reinstates a licensee who cures within 30 days"
+       }
+      },
+      {
        "beat": "bank",
        "pin": {
         "stage": "copyleft",
@@ -8192,8 +8220,8 @@
       {
        "beat": "rule",
        "pin": {
-        "stage": "using",
-        "quote": "no contract term can exclude liability for death or personal injury from negligence, and other negligence liability can be excluded only so far as the term is reasonable"
+        "stage": "product",
+        "quote": "Other negligence liability, and contract liability where the other party deals as consumer or on written standard terms, can be excluded or restricted only so far as the term is reasonable"
        }
       },
       {

@@ -69,7 +69,7 @@
       {
        "label": "Patent",
        "value": "Granted",
-       "note": "Examined and granted; a right to exclude for 20 years from filing (35 U.S.C. § 154(a))"
+       "note": "Examined and granted; a right to exclude from grant until 20 years after filing (35 U.S.C. § 154(a))"
       },
       {
        "label": "Trade secret",
@@ -448,7 +448,7 @@
    "**Models and datasets need secrecy controls:** Trained models, prompts and training data need access controls and contract terms, because trade secret protection depends on reasonable secrecy measures (18 U.S.C. § 1839(3)(A))."
   ],
   "virtualBankNotes": [
-   "**Third-party oversight:** The interagency guidance on third-party relationships (88 Fed. Reg. 37920, 9 June 2023) covers the vendors who supply or support software across the relationship's life cycle. It does not single out open source as such.",
+   "**Third-party oversight:** The interagency guidance on third-party relationships (88 Fed. Reg. 37920, 9 June 2023) covers the vendors who supply or support software across the relationship's life cycle. It does not single out open source as such. A September 2026 interagency proposal would replace that guidance with a less prescriptive version (reported; check).",
    "**Cybersecurity rules:** New York's Part 500 requires written procedures for secure development of in-house applications and for assessing externally developed ones (23 NYCRR 500.8), and a policy for third-party service providers (23 NYCRR 500.11).",
    "**Models in model risk:** Models licensed in or built in house belong in the model inventory, with their licence terms and training-data sources recorded (good practice).",
    "**Secrecy as a regulatory asset:** The bank's models, rules and fraud logic are protected as trade secrets only while access is controlled, so access reviews serve both security and IP purposes.",
@@ -652,7 +652,7 @@
    },
    {
     "term": "abandonment",
-    "definition": "The loss of trademark rights when use stops with intent not to resume (three years of non-use is prima facie evidence), or when the owner's conduct lets the mark become generic or lose its significance as a mark (15 U.S.C. § 1127)."
+    "definition": "The loss of trademark rights when use stops with intent not to resume (three consecutive years of non-use is prima facie evidence), or when the owner's conduct lets the mark become generic or lose its significance as a mark (15 U.S.C. § 1127)."
    },
    {
     "term": "open source licence",
@@ -689,7 +689,7 @@
    "**Exclusive rights:** The owner controls copying, adapting and distributing the program (§ 106). Sections 109 and 117 then carve out rights that software users need.",
    "**Owner or licensee:** Whether a user owns its copy or only licenses it decides whether the owner's rights under § 117(a) and § 109(a) apply. The contract matters.",
    "**Registration:** No infringement suit can be brought on a U.S. work until preregistration or registration has been made, or registration has been refused (§ 411(a)). Late registration can cost statutory damages and fees (§ 412).",
-   "**DMCA:** Stripping licence terms from code can breach § 1202(b) if done knowing it will enable infringement. Circumventing a technological measure that effectively controls access to a work, without authority, breaches § 1201(a)(1), subject to the exemptions the Librarian of Congress sets (§ 1201(a)(1)(B) to (D))."
+   "**DMCA:** Stripping licence terms from code can breach § 1202(b) if done knowing it will enable infringement. Circumventing a technological measure that effectively controls access to a work, without authority, breaches § 1201(a)(1), subject to the statutory exceptions, such as interoperability and security testing (§ 1201(f), (j)), and the exemptions the Librarian of Congress sets (§ 1201(a)(1)(B) to (D))."
   ],
   "conceptMap": {
    "type": "hub",
@@ -1811,7 +1811,7 @@
      "points": [
       "**Inventor first:** The right to a patent belongs to the inventor or the inventor's successor in title (Cap. 514 s.9E(1)).",
       "**Place of employment:** For an employee, the right is decided under the law of the place where the employee is wholly or mainly employed, or the place of the employer's business if that cannot be found (Cap. 514 s.9E(2)).",
-      "**Employer owns in defined cases:** An invention belongs to the employer if it was made in the course of normal duties or specifically assigned duties where an invention might reasonably be expected, or where the employee had a special obligation to further the employer's interests (Cap. 514 s.57(1)). Any other invention belongs to the employee, and a contract term that diminishes the employee's rights in it is unenforceable against the employee to that extent (Cap. 514 s.57(2), s.60(2)).",
+      "**Employer owns in defined cases:** An invention belongs to the employer if it was made in the course of normal duties or specifically assigned duties where an invention might reasonably be expected, or where the employee had a special obligation to further the employer's interests (Cap. 514 s.57(1)). Any other invention belongs to the employee, and a contract term that diminishes the employee's rights in it is unenforceable against the employee to that extent, if the contract was made before the invention (Cap. 514 s.57(2), s.60(2)).",
       "**Compensation:** An employee may seek compensation where a granted patent on an employer-owned invention is of outstanding benefit to the employer (Cap. 514 s.58(1)).",
       "**Designs:** Where a design is commissioned for money or money's worth, the commissioner owns it, and an employer owns a design made by an employee in the course of employment, unless the parties agree otherwise (Cap. 522 s.3(2)-(3))."
      ],
@@ -2158,7 +2158,7 @@
     "points": [
      "**Direct:** Making, using, offering to sell, selling or importing a patented invention within the US infringes (35 U.S.C. § 271(a)).",
      "**Inducement:** Whoever actively induces infringement is liable as an infringer (35 U.S.C. § 271(b)), but only if it knows that the induced acts infringe a patent, and wilful blindness counts as knowledge (Global-Tech Appliances, Inc. v. SEB S.A., 563 U.S. 754 (2011)). User guides that tell customers to run a claimed method are a typical risk (drafting inference).",
-     "**Contributory:** Supplying a component that is especially made for an infringing use, and is not a staple article suitable for substantial non-infringing use, is contributory infringement when sold knowing it (35 U.S.C. § 271(c)). An SDK that is sold, offered for sale or imported can fall within this; one given away free is mainly an inducement risk under § 271(b) (drafting inference).",
+     "**Contributory:** Supplying a component that is a material part of the invention and especially made for an infringing use, and is not a staple article suitable for substantial non-infringing use, is contributory infringement when sold knowing it (35 U.S.C. § 271(c)). An SDK that is sold, offered for sale or imported can fall within this; one given away free is mainly an inducement risk under § 271(b) (drafting inference).",
      "**Split steps:** Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc), holds one party liable for a method performed by several actors if it directs or controls them, for example by conditioning participation or a benefit on performance of the steps and setting the manner or timing of that performance, or if they form a joint enterprise.",
      "**Hosting:** A bank that runs a claimed method on its own systems in the US carries the direct risk. A vendor's hosting does not remove that risk if the bank directs the steps (drafting inference)."
     ],
@@ -2278,7 +2278,7 @@
     "instrument": "Patent Act (35 U.S.C.)",
     "ref": "§ 271",
     "title": "Infringement of patent",
-    "summary": "Makes it infringement to make, use, offer to sell, sell or import a patented invention in the US. Inducing infringement is also liable, and so is knowingly selling, offering to sell or importing a component especially made for an infringing use unless it is a staple article.",
+    "summary": "Makes it infringement to make, use, offer to sell, sell or import a patented invention in the US. Inducing infringement is also liable, and so is knowingly selling, offering to sell or importing a component that is a material part of the invention and especially made for an infringing use, unless it is a staple article.",
     "counselNote": "Multi-party methods, SDKs and vendor-run systems can create liability for the bank even when others perform some steps.",
     "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title35-section271&num=0&edition=prelim",
     "cap": "35-USC",
@@ -2399,7 +2399,7 @@
    "**Require vendor indemnities for patents:** Ask vendors to warrant non-infringement and defend claims over the code they supply, and check the carve-outs (good practice).",
    "**Calendar the patent deadlines:** Record the one-year IPR bar from service of a complaint (§ 315(b)) and the nine-month post-grant window for a rival's new patent (§ 321(c)).",
    "**Read each licence for its patent terms:** Check the patent grant and termination clauses (for example Apache-2.0 s.3), and record any patents the bank contributes or licenses out.",
-   "**Mark patented products:** Post a patent marking page for patented articles the bank sells or offers, so that damages are not lost for lack of notice (35 U.S.C. § 287(a)); a method-only patent needs no marking (drafting inference).",
+   "**Mark patented products:** Post a patent marking page for patented articles the bank sells or offers, and mark each article with 'patent' and the page's address, so that damages are not lost for lack of notice (35 U.S.C. § 287(a)); a method-only patent needs no marking (drafting inference).",
    "**Document prior commercial use:** For in-house processes that may matter, keep dated evidence of good-faith US use, because § 273 requires clear and convincing proof.",
    "**Screen imported hardware:** Where the bank imports terminals or devices with embedded software, check for ITC exposure under 19 U.S.C. § 1337 before purchase."
   ],
@@ -2407,7 +2407,7 @@
    "**Claims follow the architecture:** Where a rule runs (device, bank server or vendor cloud) decides who performs each step, and so who may infringe (35 U.S.C. § 271(a); Akamai).",
    "**Repositories as evidence:** Commit history, design documents and issue trackers give dated proof of conception and of commercial use. Keep them complete and retain them under the records policy.",
    "**Publication gates:** Pipelines that publish packages, release tags, public repositories or API documentation should pass a patent check, because each public release is a disclosure (35 U.S.C. § 102(a)(1)).",
-   "**Marking in the product:** A product's public web page, app store description or documentation can carry the patent marking that § 287(a) allows, and the release build can insert it automatically.",
+   "**Marking in the product:** The product itself, for example its about screen, can carry the word 'patent' with the address of a free public web page that lists the patent numbers, which is the virtual marking § 287(a) allows, and the release build can insert it automatically (drafting inference).",
    "**Claim-to-code map:** Keep a map from claim elements to modules. It shows where § 112(f) may apply and lets the infringement analysis run against the code the bank actually ships."
   ],
   "virtualBankNotes": [
@@ -2420,7 +2420,7 @@
    "**Hold publication until counsel has decided on filing:** Tell product and marketing teams that a demo, beta, talk, blog post or public release can start the patent clock. The inventor's own disclosure is excused only if the application is filed within one year (35 U.S.C. § 102(b)(1)(A)), and outside the US the grace period is narrower or absent (EPC Art. 54 and 55; reported; check).",
    "**Describe the technical improvement in the spec:** Product managers and designers should describe what the feature changes in the system, not only the business result. A claim that is a business process run on a computer may be held ineligible (35 U.S.C. § 101; Alice Corp. v. CLS Bank International, 573 U.S. 208 (2014)). A specific technical improvement is easier to defend (good practice).",
    "**Map who runs each step of a method:** When a flow runs partly on the bank's systems, partly on a cloud host and partly on a customer's device, product should tell counsel who performs each step. A bank that directs or controls others' steps can be liable for the whole method (35 U.S.C. § 271(a); Akamai Technologies, Inc. v. Limelight Networks, Inc., 797 F.3d 1020 (Fed. Cir. 2015) (en banc)).",
-   "**Tie product markings to issued patents:** Marketing and product teams should add a patent marking page or number to product pages once a patent issues. A patentee that does not mark can recover damages only from notice, and a web address that links the product to the patent number can serve as the marking (35 U.S.C. § 287(a))."
+   "**Tie product markings to issued patents:** Marketing and product teams should mark the product itself, for example on its about screen, with 'patent' and the address of a patent marking page once a patent issues. A patentee that does not mark can recover damages only from notice, and a web address that links the product to the patent number can serve as the marking (35 U.S.C. § 287(a))."
   ],
   "pitfalls": [
    "**Early release:** Publishing a method or code before filing and assuming the grace period covers it. Third-party disclosures, unless made within the year and either derived from the inventor or of subject matter the inventor had already publicly disclosed, and the bank's own disclosures older than a year, are prior art (35 U.S.C. § 102).",
@@ -2899,7 +2899,7 @@
      ]
     },
     "points": [
-     "**Fees:** The court may award fees to the prevailing party for a bad-faith claim or motion, or for wilful and malicious misappropriation (18 U.S.C. § 1836(b)(3)(D)).",
+     "**Fees:** The court may award fees to the prevailing party for a claim made in bad faith, a motion to terminate an injunction made or opposed in bad faith, or for wilful and malicious misappropriation (18 U.S.C. § 1836(b)(3)(D)).",
      "**FTC rule:** The FTC's nationwide non-compete rule was set aside in Ryan LLC v. FTC (N.D. Tex., 20 August 2024) before it took effect. The FTC has reportedly dismissed its appeals and removed the rule (reported; check), so there is no federal ban on [[non-competes|non-compete]] as at November 2026.",
      "**California:** Section 16600 voids employee non-competes however narrowly tailored, read broadly in accordance with Edwards v. Arthur Andersen LLP (2008) 44 Cal.4th 937 (Cal. Bus. & Prof. Code § 16600(b)(1)).",
      "**Lookback:** The bar applies regardless of where and when a contract was signed (Cal. Bus. & Prof. Code § 16600.5; reported; check).",
@@ -3256,7 +3256,7 @@
      "ref": "s.26(1)(a)-(b)",
      "title": "Fraud and deliberate concealment",
      "summary": "Time does not start to run on an action based on the defendant's fraud, or where a relevant fact was deliberately concealed from the plaintiff by the defendant, until the plaintiff discovers it or could with reasonable diligence have discovered it.",
-     "counselNote": "If code or data was taken in a way the bank could not discover, the start of time may be postponed, but counsel should not plan on that.",
+     "counselNote": "If code or data was taken deliberately in a way the bank was unlikely to discover for some time, the start of time may be postponed, but counsel should not plan on that.",
      "confidence": "high",
      "cap": "347",
      "section": "26",
@@ -3292,7 +3292,7 @@
    },
    {
     "term": "exemplary damages",
-    "definition": "Damages of up to twice the award for actual loss and unjust enrichment, available only for wilful and malicious misappropriation (18 U.S.C. § 1836(b)(3)(C))."
+    "definition": "Damages of up to twice the damages awarded for actual loss and unjust enrichment or as a reasonable royalty, available only for wilful and malicious misappropriation (18 U.S.C. § 1836(b)(3)(C))."
    },
    {
     "term": "whistleblower immunity notice",
@@ -3376,13 +3376,13 @@
     {
      "label": "Nonuse or naked licensing",
      "value": "§ 1127",
-     "note": "Three years of nonuse is prima facie evidence of abandonment",
+     "note": "Three consecutive years of nonuse is prima facie evidence of abandonment",
      "rel": "can end"
     },
     {
      "label": "Domain names",
      "value": "§ 1125(d)",
-     "note": "Bad-faith registration and use",
+     "note": "Bad-faith registration, trafficking or use",
      "rel": "is exposed to"
     }
    ]
@@ -3394,7 +3394,7 @@
     "points": [
      "**Scope:** The right covers names, logos and other identifiers. It does not cover the code, the algorithms or the features, which copyright, patents and trade secrets address.",
      "**Definition:** The Lanham Act (15 U.S.C.) defines a trademark as any word, name, symbol or device used to identify goods and indicate their source, even if that source is unknown (§ 1127).",
-     "**Other marks:** A service mark covers services, a certification mark certifies origin or quality for use by others, and a collective mark shows membership of a group (§ 1127).",
+     "**Other marks:** A service mark covers services, a certification mark certifies origin or quality for use by others, and a collective mark is used by the members of a cooperative, association or other group, including a mark showing membership (§ 1127).",
      "**Bank use:** Product names, SDK names, API brands, app names and logos can each function as marks, so each needs its own clearance (good practice)."
     ],
     "visual": {
@@ -3440,7 +3440,7 @@
     "lede": "The test is likely confusion, and some references to another company's name are protected.",
     "points": [
      "**Confusion:** The core question is whether customers are [[likely to be confused|likelihood of confusion]] about source, sponsorship or affiliation (§ 1125(a)(1)(A)).",
-     "**Dilution:** § 1125(c)(1) gives the owner of a famous mark an injunction against blurring or tarnishment, without proof of confusion.",
+     "**Dilution:** § 1125(c)(1) gives the owner of a famous mark an injunction against use likely to cause blurring or tarnishment, without proof of confusion.",
      "**Fair use:** Any fair use of a famous mark, including nominative or descriptive use, other than as a designation of source for one's own goods, is not actionable dilution (§ 1125(c)(3)(A)).",
      "**Source identifiers:** Jack Daniel's Properties, Inc. v. VIP Products LLC, 599 U.S. 140 (2023), held that the Rogers test does not apply where the accused mark is used as a source identifier.",
      "**Compatibility:** Say 'compatible with' and name the other product, with no logo, no stylised version and no suggestion of endorsement (good practice)."
@@ -3589,7 +3589,7 @@
     "instrument": "Lanham Act (15 U.S.C.)",
     "ref": "§ 1125(c)",
     "title": "Dilution by blurring or tarnishment of famous marks",
-    "summary": "Lets the owner of a famous mark, one widely recognised by the general consuming public of the United States, obtain an injunction against use that dilutes it by blurring or tarnishment, without proof of confusion. Subsection (c)(3) excludes nominative and descriptive fair use, except as a designation of source for the user's own goods.",
+    "summary": "Lets the owner of a famous mark, one widely recognised by the general consuming public of the United States, obtain an injunction against use that is likely to cause dilution by blurring or tarnishment, without proof of confusion. Subsection (c)(3) excludes nominative and descriptive fair use, except as a designation of source for the user's own goods.",
     "counselNote": "Dilution protection is limited to famous marks, so most project names rely on confusion claims. The fair use exclusion supports careful 'compatible with' wording, but it is not a licence to use another company's logo.",
     "confidence": "high",
     "cap": "15-USC",
@@ -3910,7 +3910,7 @@
     }
    ],
    "bankNotes": [
-    "**Service names:** The false trade description offence for services does not reach services sold by a regulated bank where that sale is itself regulated under the Banking Ordinance (Cap. 362 Sch. 4, item 1), but whether a particular service falls within that test is a question of fact (drafting inference).",
+    "**Service names:** The false trade description offence for services does not reach services sold by a regulated bank where that sale is itself regulated under the Banking Ordinance, or under another Ordinance listed in that item under which the bank is regulated (Cap. 362 Sch. 4, item 1), but whether a particular service falls within that test is a question of fact (drafting inference).",
     "**Registration before launch:** Register marks for the bank's product and channel names before public launch, and check every app store listing and domain name against the register (good practice).",
     "**Domain names and listings:** Disputes over .hk domain names are reported to be decided under the domain registry's dispute resolution policy, with the Hong Kong International Arbitration Centre as the dispute resolution provider (reported; check), so the bank should keep domain and listing ownership in its own accounts (good practice)."
    ]
@@ -3954,7 +3954,7 @@
    },
    {
     "term": "dilution",
-    "definition": "Harm to a famous mark's distinctiveness through blurring or tarnishment. Protection needs no proof of confusion (§ 1125(c)(1))."
+    "definition": "Harm to a famous mark's distinctiveness through blurring, or to its reputation through tarnishment. Protection needs no proof of confusion (§ 1125(c)(1))."
    },
    {
     "term": "Passing off",
@@ -6625,7 +6625,7 @@
     "points": [
      "**Copyright management information:** The DMCA protects [[CMI|Copyright management information]] such as the title, author, owner and terms for use, and a licence notice can fall within that definition (17 U.S.C. § 1202(c)).",
      "**Removal rule:** Intentional removal without authority is prohibited where the person knows, or for civil claims has reasonable grounds to know, that it will induce, enable, facilitate or conceal infringement (17 U.S.C. § 1202(b)(1)).",
-     "**Distribution:** Distributing copies while knowing that the information was removed or altered without authority is also covered (17 U.S.C. § 1202(b)(3)).",
+     "**Distribution:** Distributing copies while knowing that the information was removed or altered without authority is also covered, where the same knowledge test about infringement is met (17 U.S.C. § 1202(b)(3)).",
      "**Licence headers:** Courts have accepted licence headers as copyright management information in some cases, so a header is more than decoration (reported; check).",
      "**Civil remedies:** Anyone injured by a § 1202 violation may sue, and the court may grant injunctions (17 U.S.C. § 1203(a), (b)(1)).",
      "**AI output:** The Ninth Circuit is reported (16 September 2026) to have affirmed dismissal of a § 1202(b) claim over AI coding output in Doe v. GitHub, Inc., rejecting a strict identicality test (reported; check)."
@@ -6901,7 +6901,7 @@
    "**Trace each release:** Keep a record of which component versions and licence texts each release used, so that an audit can show which terms governed a given build (good practice)."
   ],
   "virtualBankNotes": [
-   "**Third-party guidance:** The interagency third-party guidance (88 Fed. Reg. 37920, 9 June 2023) is technology-neutral. Open source components are usually not the business arrangement, but the vendors that supply or support them are (drafting inference).",
+   "**Third-party guidance:** The interagency third-party guidance (88 Fed. Reg. 37920, 9 June 2023) is technology-neutral. Open source components are usually not the business arrangement, but the vendors that supply or support them are (drafting inference). A September 2026 interagency proposal would replace that guidance (reported; check).",
    "**FFIEC booklet:** The FFIEC IT Examination Handbook's development and acquisition booklet is reported to cover open source components in supply-chain risk (reported; check the booklet's wording).",
    "**NYDFS rules:** For entities regulated by the New York Department of Financial Services, 23 NYCRR 500.8 covers written secure development procedures for in-house applications and for evaluating the security of externally developed applications, and 500.11 covers a third-party service provider security policy.",
    "**Inventory expectations:** PCI DSS is an industry standard, not a statute. Its requirement 6.3.2 asks for an inventory of bespoke software and third-party components (reported; check).",
@@ -6961,7 +6961,7 @@
      "points": [
       "**Copies in any material form:** Copying covers reproduction in any material form, including electronic storage, and copies made in passing count (Cap. 528 s.23(2), (6)).",
       "**Issue to the public:** Putting copies into circulation includes doing so in electronic form (Cap. 528 s.24(2), (4)). An app or SDK that customers download is therefore a distribution (drafting inference).",
-      "**Stripping notices:** A person who removes or alters electronic rights management information without authority has copyright-type remedies against them only where the act induces, enables, facilitates or conceals infringement and the person knows or has reason to believe it (Cap. 528 s.274(2)(a), (2A)).",
+      "**Stripping notices:** A person who removes or alters electronic rights management information without authority faces copyright-type remedies only where the act induces, enables, facilitates or conceals infringement and the person knows or has reason to believe it (Cap. 528 s.274(2)(a), (2A)).",
       "**What counts:** Information that identifies the work, its author or owner, or its terms of use counts when it is attached to a copy (Cap. 528 s.274(3)(a)-(b)). A copyright or licence header in a source file often does this, so it is more than decoration (drafting inference)."
      ],
      "takeaway": "Keep the notice inside each shipped artefact, including the app's licence screen and the container image, and do not strip headers when copying code into a product (good practice)."
@@ -7614,7 +7614,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use and no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a)-(b), (g), 37, 38, 61).",
+   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use, which US courts have applied to decompilation, and no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a)-(b), (g), 37, 38, 61).",
    "keyPoints": [
     "**Who can license:** The bank can put its own code under a copyleft licence only if it owns the copyright. Code written by an employee in the course of employment belongs to the employer (Cap. 528 s.14(1)), and commissioned code belongs to the contractor unless the contract expressly gives the copyright to the bank (Cap. 528 ss.13, 15(1)), though the bank always has an exclusive licence to exploit it for the purposes contemplated at commissioning (Cap. 528 s.15(2)(a)).",
     "**Trigger:** Copyleft duties attach to conveying, which GPL-3.0 defines by reference to the acts copyright law restricts (GPL-3.0 s.0; Cap. 528 ss.22-29). Running software inside the bank is not conveying (GPL-3.0 s.0).",
@@ -8278,7 +8278,7 @@
    "**Service boundaries:** Under SSPL-style terms, the software that makes a service available may include the orchestration, monitoring and deployment code around the database (reported; check). Map that stack when the component is first adopted."
   ],
   "virtualBankNotes": [
-   "**Third-party life cycle:** A vendor's move to source-available terms changes the risk of the relationship. The interagency guidance (88 Fed. Reg. 37920) expects banks to reassess third-party relationships through their life cycle, so log the change as a trigger.",
+   "**Third-party life cycle:** A vendor's move to source-available terms changes the risk of the relationship. The interagency guidance (88 Fed. Reg. 37920) expects banks to reassess third-party relationships through their life cycle, so log the change as a trigger. A September 2026 interagency proposal would replace that guidance with a less prescriptive version, so check which text is in force (reported; check).",
    "**Continuity:** A critical service built on a source-available component needs a documented fallback and a tested exit, so a licence change does not become an outage risk (good practice).",
    "**NYDFS overlay:** Where the bank is covered by the NYDFS Cybersecurity Regulation (23 NYCRR Part 500), its third-party service provider policy under section 500.11 should cover licence changes in its monitoring (good practice).",
    "**Examiner questions:** Examiners may ask which components the bank runs under non-OSI terms and who approved them. Keep the register and approvals retrievable (reported; check the FFIEC Development, Acquisition and Maintenance booklet).",
@@ -8488,7 +8488,7 @@
    "Using open source is a licensing decision for every component, so the bank needs a record of what it uses, how it uses it and which licence applies.",
    "**Policy tiers:** Approval should scale with risk. Permissive components that stay internal pass a light check, while copyleft, network copyleft and source-available code goes to counsel (good practice).",
    "**SBOMs:** A [[SBOM|Software bill of materials]] lists the components in a product. Executive Order 14028 (2021) pushed SBOMs for software sold to the federal government, and NTIA's 2021 minimum elements set the baseline data fields until CISA and partner agencies replaced them with the 2026 minimum elements on 29 July 2026.",
-   "**Bank expectations:** Regulators expect third-party and secure development controls, citing interagency guidance and the FFIEC booklets. NYDFS regulation mandates written secure development procedures (23 NYCRR 500.8).",
+   "**Bank expectations:** Regulators expect third-party and secure development controls, citing interagency guidance and the FFIEC booklets. NYDFS regulation mandates written secure development procedures for covered entities (23 NYCRR 500.8).",
    "**Supply chain:** Log4Shell (2021) and the xz Utils backdoor (2024) showed that one shared component can reach many products, so scanning must cover indirect dependencies.",
    "**Records:** Keep the approval, the licence texts and the attribution and source-offer files with each release, so the bank can show what it shipped and why (good practice)."
   ],
@@ -8829,7 +8829,7 @@
     "ref": "12 July 2021",
     "title": "Minimum elements for an SBOM",
     "summary": "Sets data fields (supplier, component name, version, other unique identifiers, dependency relationship, author of the SBOM data and timestamp), automation support (SPDX, CycloneDX and SWID tags), and practices and processes for producing and sharing SBOMs.",
-    "counselNote": "This was the baseline the bank asked vendors to meet in due diligence. CISA and partner agencies replaced it with the 2026 minimum elements on 29 July 2026, which add fields, so cite the 2026 version as current.",
+    "counselNote": "This was the baseline the bank could ask vendors to meet in due diligence. CISA and partner agencies replaced it with the 2026 minimum elements on 29 July 2026, which add fields, so cite the 2026 version as current.",
     "confidence": "high"
    },
    {
@@ -8874,7 +8874,7 @@
   ],
   "itAngle": [
    "**Pipeline gates:** Put licence and vulnerability checks in CI so that a new dependency or a changed licence fails the build until the approval record exists (good practice).",
-   "**Generated SBOMs:** Produce the SBOM from the build in SPDX or CycloneDX, so each shipped image or binary carries its own list of components (NTIA minimum elements; SPDX ISO/IEC 5962:2021).",
+   "**Generated SBOMs:** Produce the SBOM from the build in SPDX or CycloneDX, so each shipped image or binary carries its own list of components (2026 minimum elements; SPDX ISO/IEC 5962:2021).",
    "**Pinned versions:** Commit lockfiles and pin versions, so that the SBOM, the scan and the approval all describe the code that actually ships (good practice).",
    "**Transitive reach:** Scan the whole dependency graph, including base images and build-time packages, because a component the team never chose can still reach production (good practice).",
    "**Notice automation:** Generate the third-party notices from the SBOM, and check that they land in each app bundle, container image and SDK package (Apache-2.0 s.4; good practice)."
@@ -11018,7 +11018,7 @@
      "detail": [
       "**Run the match check:** Scan AI-suggested code against open source before it enters the codebase, using a duplication filter or scanner, and record the result (good practice).",
       "**Stripping headers is a risk:** Removing a licence header from copied code can engage § 1202(b)(1), which bars intentional removal of copyright management information (17 U.S.C. § 1202(b)(1)). Courts have accepted that licence terms can be such information in some cases (reported; check).",
-      "**Recent case:** A court is reported to have dismissed the § 1202(b) claim against an AI coding tool. Verbatim output still needs a licence check (Doe v. GitHub, Inc.; reported; check)."
+      "**Recent case:** A court is reported to have dismissed the § 1202(b) claim against an AI coding tool, and the Ninth Circuit is reported to have affirmed in September 2026. Verbatim output still needs a licence check (Doe v. GitHub, Inc.; reported; check)."
      ],
      "owner": [
       "Open source office",
@@ -12005,7 +12005,7 @@
   ],
   "pitfalls": [
    "**Publishing first:** Pushing a repository public to test a feature before title and scan checks run. A public push cannot be fully recalled, and forks may keep copies (good practice).",
-   "**Silent release:** Publishing code with no licence file, so users may read it but cannot copy or change it (17 U.S.C. § 106).",
+   "**Silent release:** Publishing code with no licence file, so users may read it but cannot copy or change it (17 U.S.C. § 106), beyond what the hosting site's terms let other users do there, such as forking on GitHub (GitHub Terms of Service, s.D.5).",
    "**Name and logo:** Using the bank's name or logo as the project name or in the repository. Apache-2.0 s.6 does not license those marks to forks or users.",
    "**Licence mixing:** Combining Apache-2.0, GPL and MPL code in one release without checking which terms the combined work must carry (good practice; see the copyleft stage).",
    "**Stripping notices:** Removing copyright or licence headers to make code look clean. That can breach 17 U.S.C. § 1202(b) where the knowledge test is met, and it can break the licence's own conditions (Apache-2.0 s.4(c)).",
@@ -12062,9 +12062,9 @@
      "lede": "A public push can destroy novelty for any invention in the code, and the relief is narrow.",
      "points": [
       "**Novelty:** An invention is new only if it does not form part of the state of the art, which comprises everything made available to the public before the material date (Cap. 514 s.9B(1)-(2)).",
-      "**Six-month exception:** A disclosure is disregarded only if it occurred no earlier than six months before filing and was due to an evident abuse against the applicant, or to a display at a prescribed exhibition or meeting (Cap. 514 s.11A(1)-(2)).",
+      "**Six-month exception for a standard patent (R):** A disclosure is disregarded only if it occurred no earlier than six months before filing and was due to an evident abuse against the applicant, or to a display at a prescribed exhibition or meeting (Cap. 514 s.11A(1)-(2)).",
       "**Display evidence:** For an exhibition display, the filing must state the display at the time, and the request to record the application must give the prescribed details (Cap. 514 s.11A(3)).",
-      "**Other patent routes:** The same kind of exception applies to a standard (O) patent and to a short-term patent (Cap. 514 ss.37B, 109)."
+      "**Other patent routes:** The same kind of exception applies to a standard (O) patent and to a short-term patent, but there the display must be at an official or officially recognised international exhibition (Cap. 514 ss.37B, 109)."
      ],
      "takeaway": "Settle the patent filing decision before any public push, because the six-month exception is narrow (good practice)."
     },
@@ -14930,7 +14930,7 @@
      "points": [
       "**Processor retention:** A bank that gives processing to a data processor, in Hong Kong or abroad, must adopt contractual or other means to stop the processor keeping the personal data longer than needed (Cap. 486 Sch. 1, DPP 2(3)).",
       "**Processor security:** The bank must adopt contractual or other means to prevent unauthorized or accidental access, processing, erasure, loss or use of personal data transferred to a processor (Cap. 486 Sch. 1, DPP 4(2)).",
-      "**Disclaimer in a winding up:** The liquidator can disclaim an onerous contract or other unsaleable property, and the disclaimer ends the company's rights and liabilities in it (Cap. 32 s.268(1)-(2)).",
+      "**Disclaimer in a winding up:** The liquidator can, with the court's leave, disclaim an onerous contract or other unsaleable property, and the disclaimer ends the company's rights and liabilities in it (Cap. 32 s.268(1)-(2)).",
       "**The other party's remedy:** After a disclaimer, the counterparty can apply to the court to rescind the contract and to recover damages, which can be proved as a debt in the winding up (Cap. 32 s.268(5), (7))."
      ],
      "takeaway": "Write into the vendor contract the processor's deletion and return duties, security terms, step-in rights and a transition period, so the bank keeps service and its data if the vendor fails (good practice)."
@@ -16003,7 +16003,7 @@
      "phase": "patents",
      "title": "Review the portfolio, status, fees and encumbrances",
      "detail": [
-      "**Check status:** Confirm each application or patent is live and its fees are paid. A patent term runs 20 years from the US filing date, subject to the payment of fees (35 U.S.C. § 154(a)(2)).",
+      "**Check status:** Confirm each application or patent is live and its fees are paid. A patent term runs 20 years from the US filing date or, where the patent claims the benefit of an earlier application under § 120, 121, 365(c) or 386(c), from the earliest such filing date, subject to the payment of fees; priority under § 119 does not count (35 U.S.C. § 154(a)(2)-(3)).",
       "**Check encumbrances:** Search for security interests, pledges and licences on each patent. An interest that works as an assignment or grant is void against a later mortgagee for value without notice unless recorded (35 U.S.C. § 261).",
       "**Read the claims:** Read the claims of the software patents the bank needs, since eligibility under § 101 is a live question for software (Alice Corp. v. CLS Bank International, 573 U.S. 208 (2014))."
      ],
@@ -18260,7 +18260,7 @@
    "Start with the right, not the forum. Copyright, patent, trade secret, licence and computer-access claims each carry different remedies, deadlines and courts.",
    "**Copyright:** Owners can seek injunctions, actual damages and profits, or statutory damages, but suit on a US work needs registration and statutory damages depend on timing (17 U.S.C. §§ 411(a), 412, 502, 504).",
    "**Patents:** Damages are at least a reasonable royalty and can reach three times the award. Marking and notice limit early damages, and the PTAB and the ITC run as separate routes (35 U.S.C. §§ 284, 287; 19 U.S.C. § 1337).",
-   "**Trade secrets:** The Defend Trade Secrets Act (DTSA) allows injunctions, damages and, for wilful and malicious misappropriation, exemplary damages up to twice the award, but an injunction cannot bar a person from a job merely for what they know (18 U.S.C. § 1836(b)(3)).",
+   "**Trade secrets:** The Defend Trade Secrets Act (DTSA) allows injunctions, damages and, for wilful and malicious misappropriation, exemplary damages up to twice the award, but an injunction cannot bar a person from taking a job, and any conditions on the job must rest on evidence of threatened misappropriation, not merely on what they know (18 U.S.C. § 1836(b)(3)).",
    "**Open source:** GPL-2.0 ends the licensee's rights on any attempt to copy, modify, sublicense or distribute the program outside the licence, while GPL-3.0 allows reinstatement after a timely cure, so a fast, documented response matters (GPL-2.0 s.4; GPL-3.0 s.8).",
    "**Counsel's role:** Preserve evidence, check the facts before replying, and put every demand, response and insurer notice in writing (good practice)."
   ],
@@ -18427,7 +18427,7 @@
     "lede": "The DTSA gives fast interim relief, but it limits what a court may order against staff.",
     "points": [
      "**Seizure:** A court may seize property ex parte only in extraordinary circumstances, on specific findings, including that the applicant has not publicised the request (18 U.S.C. § 1836(b)(2)(A)).",
-     "**Staff limit:** An injunction may not stop a person entering a job, and conditions on a job must rest on evidence of threatened misappropriation, not on what the person knows (§ 1836(b)(3)(A)(i)).",
+     "**Staff limit:** An injunction may not stop a person entering a job, and conditions on a job must rest on evidence of threatened misappropriation, not merely on what the person knows (§ 1836(b)(3)(A)(i)).",
      "**Money:** Damages cover actual loss and unjust enrichment, or, in place of those measures, a reasonable royalty (§ 1836(b)(3)(B)).",
      "**Enhancement:** Exemplary damages go up to twice the award for wilful and malicious misappropriation, and fees can go to the prevailing party where a claim is made in bad faith, a motion to terminate an injunction is made or opposed in bad faith, or the misappropriation was wilful and malicious (§ 1836(b)(3)(C)-(D)).",
      "**Limits and reach:** Suit must start within three years of the date the misappropriation was, or with reasonable diligence should have been, discovered (§ 1836(d)). The DTSA can reach misappropriation abroad where an act in furtherance occurred in the US (Motorola Solutions, Inc. v. Hytera Communications Corp., 108 F.4th 458 (7th Cir. 2024))."
@@ -18444,7 +18444,7 @@
       {
        "label": "Injunction",
        "value": "§ 1836(b)(3)(A)",
-       "note": "Cannot bar a job on what the person knows"
+       "note": "Cannot bar a job; conditions need evidence of threatened misappropriation"
       },
       {
        "label": "Damages",
@@ -18504,7 +18504,7 @@
     "lede": "Two US statutes shape how the bank can act against copied code and scraped data, and both punish overreach.",
     "points": [
      "**Notices:** A takedown notice under the Digital Millennium Copyright Act (DMCA) (17 U.S.C. § 512(c)(3)) needs a good-faith statement and a statement under penalty of perjury that the sender is authorised to act (§ 512(c)(3)(A)(v)-(vi)).",
-     "**Misrepresentation:** A person who knowingly and materially misrepresents that material is infringing is liable for damages and fees to anyone harmed when a host relies on that claim (§ 512(f)).",
+     "**Misrepresentation:** A person who knowingly and materially misrepresents that material is infringing is liable for damages and fees to the alleged infringer, a copyright owner or its licensee, or the host, if injured when the host relies on that claim (§ 512(f)).",
      "**[[counter-notice|counter-notification]]:** The poster may counter-notify under penalty of perjury. The host must restore the material 10 to 14 business days later, unless the claimant has sued, if it is to keep its protection against the poster's claims over the removal (§ 512(g)(1), (2)(C), (3)).",
      "**Takedown history:** GitHub disabled youtube-dl in October 2020 after a notice invoking § 1201, and restored it in November 2020 (reported; check).",
      "**Computer access:** The Computer Fraud and Abuse Act (CFAA) (18 U.S.C. § 1030(a)(2)) covers intentional access without authorisation, or beyond it, to obtain listed categories of information. Van Buren v. United States, 593 U.S. 374 (2021), held that this reaches off-limits areas, not misuse of data one may access (§ 1030(e)(6)).",
@@ -18813,9 +18813,9 @@
     {
      "kind": "statute",
      "instrument": "Copyright Ordinance (Cap. 528)",
-     "ref": "s.109(1)-(2), s.110(1)",
+     "ref": "s.109(1)-(2), s.110(1)-(2)",
      "title": "Delivery up of infringing copies",
-     "summary": "The copyright owner may apply to court for an order that infringing copies held for or in the course of a trade or business, or articles specifically designed or adapted for copying a particular work, be delivered up. The application may not be made more than 6 years after the copy or article was made, subject to the exceptions in s.110.",
+     "summary": "The copyright owner may apply to court for an order that infringing copies held for or in the course of a trade or business, or articles specifically designed or adapted for copying a particular work and held knowing or having reason to believe they have been or are to be used to make infringing copies, be delivered up. The application may not be made more than 6 years after the copy or article was made, subject to the exceptions in s.110.",
      "counselNote": "Delivery up is the practical remedy when unlicensed copies sit on a bank's servers or in a vendor's hands, so the copies should be preserved rather than destroyed before the order is decided (good practice).",
      "confidence": "high",
      "cap": "528",
@@ -18932,7 +18932,7 @@
    "bankNotes": [
     "**Incident notice:** If the bank is designated as a critical infrastructure operator, an incident that disrupts or is likely to disrupt its core function must be notified to the Commissioner within 12 hours of becoming aware, and other incidents within 48 hours, with a written report within 14 days (Cap. 653 s.28; Sch. 6).",
     "**Vendor disputes:** The HKMA's outsourcing guideline (SA-2) says outsourcing needs written agreements, monitoring, contingency planning and HKMA access. A dispute with a vendor should not leave a critical service without a way to keep it running (good practice). The guideline is guidance, not law.",
-    "**Personal data in disputes:** Customer data produced in a dispute must still be protected by all practicable steps against unauthorised access, and a data processor must be bound by contract (Cap. 486 Sch. 1, DPP 4(1)-(2); drafting inference)."
+    "**Personal data in disputes:** Customer data produced in a dispute must still be protected by all practicable steps against unauthorised access, and the bank must adopt contractual or other means to protect data it passes to a data processor (Cap. 486 Sch. 1, DPP 4(1)-(2); drafting inference)."
    ]
   },
   "glossary": [
@@ -18950,7 +18950,7 @@
    },
    {
     "term": "counter-notification",
-    "definition": "A written reply from the subscriber whose material was removed, under penalty of perjury, that the removal was a mistake. Material may be restored 10 to 14 business days later unless the claimant has sued (17 U.S.C. § 512(g)(3))."
+    "definition": "A written reply from the subscriber whose material was removed, under penalty of perjury, that the removal was a mistake. Material may be restored 10 to 14 business days later unless the claimant has sued (17 U.S.C. § 512(g)(2)(C), (3))."
    },
    {
     "term": "exclusion order",
@@ -19054,7 +19054,7 @@
     "lede": "A name is cheap to choose and costly to change after launch, so the name check comes first.",
     "points": [
      "**Clear the name before it is announced:** Search for conflicting marks and act on the result before a logo, domain or press release goes out (good practice).",
-     "**File on intent:** A person with a bona fide intention to use a mark in commerce can file an intent-to-use application (15 U.S.C. § 1051(b)(1)). No registration issues until a verified statement of use is accepted (15 U.S.C. § 1051(d)).",
+     "**File on intent:** A person with a bona fide intention to use a mark in commerce can file an intent-to-use application (15 U.S.C. § 1051(b)(1)). No registration issues until an amendment to allege use or a verified statement of use is accepted (15 U.S.C. § 1051(c), (d)).",
      "**Use the filing date:** Filing an application to register is constructive use, contingent on registration, and gives nationwide priority from the filing date. Earlier users and earlier filers keep their position (15 U.S.C. § 1057(c)).",
      "**Use the ® only when it is earned:** Using ® on a mark that is not registered is improper (USPTO TMEP § 906.02) (reported; check). Notice is optional, but a registrant that omits it cannot recover profits or damages unless the defendant knew of the registration (15 U.S.C. § 1111).",
      "**Use a partner's mark with care:** Under the Ninth Circuit's test, a partner's name can be used to refer to that partner's product where the product cannot be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)). Follow the partner's brand rules as well (good practice).",
@@ -19067,7 +19067,7 @@
       {
        "label": "Intent to use",
        "value": "15 U.S.C. § 1051(b)",
-       "note": "File before the mark is in use. Nothing registers until a verified statement of use is accepted."
+       "note": "File before the mark is in use. Nothing registers until an amendment to allege use or a statement of use is accepted."
       },
       {
        "label": "Filing priority",
@@ -19189,9 +19189,9 @@
     "points": [
      "**Open source notices screen:** Shipped open source needs the notices its licence requires, which often means the copyright lines and the licence text in the app or the product documentation. The notices screen is built from the open source review in stage 11 (good practice).",
      "**Copyright notice:** A copyright notice is optional, but if a proper notice appears on the published copies, an infringer cannot rely on innocent infringement to reduce actual or statutory damages (17 U.S.C. § 401(d)). The notice takes the form of the symbol, the year of first publication and the name of the owner (17 U.S.C. § 401(b)). Product should put it in the footer of the app or on the legal page (good practice).",
-     "**Patent pending and marks:** Use “patent pending” only while an application is pending: marking it when no application is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). For an intent-to-use application, a mark is registered only once a statement of use is accepted (15 U.S.C. § 1051(d)), so the ® symbol waits until registration. The notice of registration is optional, but a registrant that does not give it recovers no profits or damages unless the defendant had actual notice (15 U.S.C. § 1111).",
+     "**Patent pending and marks:** Use “patent pending” only while an application is pending: marking it when no application is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). For an intent-to-use application, a mark is registered only once an amendment to allege use or a statement of use is accepted (15 U.S.C. § 1051(c), (d)), so the ® symbol waits until registration. The notice of registration is optional, but a registrant that does not give it recovers no profits or damages unless the defendant had actual notice (15 U.S.C. § 1111).",
      "**Customer terms by clickwrap:** Customer terms bind when the notice is conspicuous and the customer's click shows assent (Meyer v. Uber Technologies, 868 F.3d 66 (2d Cir. 2017)) (reported; check). Product should place the terms link beside the button the customer presses, and label that button so it means agreement (good practice).",
-     "**User content, the DMCA agent and Section 230:** A platform that stores user uploads keeps the storage safe harbour only if it has designated an agent with the Copyright Office to receive infringement notices (17 U.S.C. § 512(c)(2); 37 C.F.R. § 201.38). The designation expires after three years unless it is renewed, and a lapsed designation loses the safe harbour (reported; check). Section 230 gives no shield against federal IP claims, because 47 U.S.C. § 230(e)(2) leaves intellectual property law alone, but the circuits differ on state-law IP claims (reported; check). Product should put the renewal date in the team calendar and build a takedown route (good practice).",
+     "**User content, the DMCA agent and Section 230:** A platform that stores user uploads keeps the storage safe harbour only if it has designated an agent to receive infringement notices, by filing the agent's details with the Copyright Office and making them available on its service, including its website (17 U.S.C. § 512(c)(2); 37 C.F.R. § 201.38). The designation expires after three years unless it is renewed, and a lapsed designation loses the safe harbour (reported; check). Section 230 gives no shield against federal IP claims, because 47 U.S.C. § 230(e)(2) leaves intellectual property law alone, but the circuits differ on state-law IP claims (reported; check). Product should put the renewal date in the team calendar and build a takedown route (good practice).",
      "**Feedback clauses:** Under California law, a person who discloses an idea that the recipient accepts, knowing that payment is expected, can recover if the idea is used, even where the idea is not copyrightable (Desny v. Wilder, 46 Cal. 2d 715 (1956)) (reported; check). A feedback clause that licenses suggestions to the bank manages that risk (good practice). Product should not run idea contests, beta suggestion forms or pitch forms without that clause in the terms (good practice)."
     ],
     "takeaway": "Notices, marks and terms are cheap to fix before release and expensive to fix after customers have seen them (drafting inference)."
@@ -19216,8 +19216,8 @@
     "instrument": "Lanham Act (15 U.S.C.)",
     "ref": "§ 1051(b), (d)",
     "title": "Intent-to-use application and statement of use",
-    "summary": "A person with a bona fide intention to use a mark in commerce may apply to register it. No registration issues until the applicant files a verified statement of use, which is due within six months after the notice of allowance and can be extended (15 U.S.C. § 1051(b)(1), (d)(1), (d)(2)).",
-    "counselNote": "A name can be filed before the launch, which secures the filing date for priority. Nothing is registered until the statement of use is accepted, so launch copy cannot say 'registered' (drafting inference). Ask trademark counsel to clear the name before any announcement (good practice).",
+    "summary": "A person with a bona fide intention to use a mark in commerce may apply to register it. No registration issues until the applicant shows use, by amending the application during examination or by a verified statement of use, which is due within six months after the notice of allowance and can be extended (15 U.S.C. § 1051(b)(1), (c), (d)(1), (d)(2)).",
+    "counselNote": "A name can be filed before the launch, which secures the filing date for priority. Nothing is registered until an amendment to allege use or the statement of use is accepted, so launch copy cannot say 'registered' (drafting inference). Ask trademark counsel to clear the name before any announcement (good practice).",
     "confidence": "high",
     "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15.htm",
     "cap": "15-USC",
@@ -19287,7 +19287,7 @@
     "instrument": "Copyright Act (17 U.S.C.)",
     "ref": "§ 512(c)(2)",
     "title": "Storage safe harbour for user content",
-    "summary": "A service provider can use the storage safe harbour for material that users post only if it has designated an agent with the Copyright Office to receive infringement notices. A designation has to be renewed, and a lapsed designation loses the safe harbour (37 C.F.R. § 201.38, reported; check). Section 512(c)(2) requires the designated agent, not the renewal.",
+    "summary": "A service provider can use the storage safe harbour for material that users post only if it has designated an agent to receive infringement notices, by filing the agent's details with the Copyright Office and making them available on its service. A designation has to be renewed, and a lapsed designation loses the safe harbour (37 C.F.R. § 201.38, reported; check). Section 512(c)(2) requires the designated agent, not the renewal.",
     "counselNote": "A feature that lets customers upload images, reviews or comments needs the designated agent in place before launch. Someone must diarise the renewal date, because a lapse removes the protection (good practice).",
     "confidence": "medium",
     "cap": "17-USC",
@@ -19381,7 +19381,7 @@
     "instrument": "Open Data Commons Open Database License v1.0",
     "ref": "ss.4.3 and 4.4",
     "title": "Share-alike for public derivative databases",
-    "summary": "A derivative database that is publicly used must be offered under the ODbL or a compatible licence. A produced work, such as a rendered map image, needs only an attribution notice, but publicly using a produced work made from a derivative database can also trigger the share-alike duty (ODbL-1.0 full text, reported; check).",
+    "summary": "A derivative database that is publicly used must be offered under the ODbL or a compatible licence. A produced work, such as a rendered map image, needs only an attribution notice when it is publicly used, but publicly using a produced work made from a derivative database can also trigger the share-alike duty (ODbL-1.0 ss.4.3, 4.4(c)).",
     "counselNote": "A feature that builds a map or a dataset from OpenStreetMap data can oblige the bank to share the derivative database if it is publicly used (drafting inference). The product team should ask counsel before the data is merged with the bank's own records (good practice).",
     "confidence": "medium",
     "url": "https://spdx.org/licenses/ODbL-1.0.html",
@@ -19515,7 +19515,7 @@
      "lede": "Hong Kong's consumer offences do not reach most regulated banking services, but trade mark, contract and exemption clause rules still shape what the product says and what customers accept.",
      "points": [
       "**Comparative claims:** Using a competitor's registered mark to identify its goods or services does not infringe if the use is in accordance with honest practices in industrial or commercial matters, and the court may weigh unfair advantage, detriment to the mark's distinctive character or repute, and deception (Cap. 559 s.21(1)-(2)). This is the rule comparative advertising meets (drafting inference); how the courts apply it to comparative advertising is reported only (reported; check).",
-      "**Trade descriptions:** The false trade description offence for services and the unfair trade practice offences (misleading omissions, aggressive practices, bait advertising, bait and switch, wrongly accepting payment) apply to a \"product\", which excludes goods or services a bank authorised under the Banking Ordinance supplies where that supply is itself regulated under that Ordinance (Cap. 362 s.2, s.7A, ss.13E-13I, Sch. 4).",
+      "**Trade descriptions:** The false trade description offence for services and the unfair trade practice offences (misleading omissions, aggressive practices, bait advertising, bait and switch, wrongly accepting payment) apply to a \"product\", which excludes goods or services a bank authorised under the Banking Ordinance supplies where that supply is itself regulated under that Ordinance, or under another Ordinance listed in Sch. 4 under which the bank is regulated, such as the Securities and Futures Ordinance (Cap. 362 s.2, s.7A, ss.13E-13I, Sch. 4).",
       "**What stays in scope:** Goods and services outside that regulated supply, such as merchandise, a rewards item or a non-bank partner's offer shown in the app, can still fall within those offences (Cap. 362 Sch. 4; drafting inference).",
       "**Online acceptance:** An offer and its acceptance may be expressed by electronic records, and section 17 keeps the common-law rule that the offeror, usually the bank, may prescribe how acceptance is given, such as a specific click or confirmation step (Cap. 553 s.17(1)-(3)).",
       "**Exclusion clauses:** The bank's customer terms cannot exclude liability for death or personal injury caused by negligence, and other exclusions of negligence liability, or of contract liability against a consumer or on the bank's written standard terms, must be reasonable, which the bank must prove (Cap. 71 s.3(6), s.7, s.8). In a consumer contract the court may also refuse to enforce an unconscionable term, and the customer must prove the unconscionability (Cap. 458 s.5)."
@@ -19654,7 +19654,7 @@
   "glossary": [
    {
     "term": "Intent-to-use application",
-    "definition": "A trademark application filed by a person who has a bona fide intention to use the mark in commerce but is not yet using it. Registration waits until a verified statement of use is accepted (15 U.S.C. § 1051(b))."
+    "definition": "A trademark application filed by a person who has a bona fide intention to use the mark in commerce but is not yet using it. Registration waits until an amendment to allege use or a verified statement of use is accepted (15 U.S.C. § 1051(b)-(d))."
    },
    {
     "term": "Nominative fair use",
@@ -19678,7 +19678,7 @@
    },
    {
     "term": "Produced work",
-    "definition": "A work such as a rendered map image or a report, made by using a substantial part of a database through a search or query. Under the ODbL it needs an attribution notice, and publicly using it can trigger the share-alike duty for the database behind it (reported; check)."
+    "definition": "A work such as a rendered map image or a report, made by using a substantial part of a database through a search or query. Under the ODbL it needs an attribution notice when it is publicly used, and publicly using it can trigger the share-alike duty for the database behind it (ODbL-1.0 ss.4.3, 4.4(c))."
    },
    {
     "term": "Invention disclosure",
@@ -19922,7 +19922,7 @@
      "detail": [
       "**Who may file:** A bank with a bona fide intention to use a mark in commerce may file an intent-to-use application (15 U.S.C. § 1051(b)(1)).",
       "**Priority:** A filing to register gives nationwide priority from its date, but only if the mark registers, and it does not run against anyone who used or applied for the mark first (15 U.S.C. § 1057(c)).",
-      "**No ® yet:** No mark is registered until a verified statement of use is accepted (15 U.S.C. § 1051(d)), so the ® symbol waits for registration (USPTO TMEP § 906.02) (reported; check)."
+      "**No ® yet:** No mark is registered until an amendment to allege use or a verified statement of use is accepted (15 U.S.C. § 1051(c), (d)), so the ® symbol waits for registration (USPTO TMEP § 906.02) (reported; check)."
      ],
      "owner": [
       "Trademark counsel",
@@ -20722,7 +20722,7 @@
      ],
      "title": "Check the licence on map and database data",
      "detail": [
-      "**Share-alike:** A public derivative database must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4) (reported; check).",
+      "**Share-alike:** A public derivative database must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4).",
       "**Produced works:** A rendered map or text made from the database needs only an attribution notice (ODbL-1.0 s.4.3), but publicly using a produced work made from a derivative database makes that database publicly used, so the share-alike then applies (ODbL-1.0 s.4.4(c)).",
       "**Contract limits:** Where no database right or copyright applies, a contract can still limit use (Ryanair v PR Aviation, Case C-30/14 (CJEU 2015)) (reported; check)."
      ],
@@ -21317,7 +21317,7 @@
       "ugc"
      ],
      "detail": [
-      "**Designate an agent:** A hosting service qualifies for the storage safe harbour only if it has designated an agent to receive infringement notices with the Copyright Office (17 U.S.C. § 512(c)(2)). An electronic designation expires three years after registration unless it is renewed, and a lapsed designation loses the safe harbour (37 C.F.R. § 201.38; reported; check).",
+      "**Designate an agent:** A hosting service qualifies for the storage safe harbour only if it has designated an agent to receive infringement notices, by filing the agent's details with the Copyright Office and making them available on its service, including its website (17 U.S.C. § 512(c)(2)). An electronic designation expires three years after registration unless it is renewed, and a lapsed designation loses the safe harbour (37 C.F.R. § 201.38; reported; check).",
       "**Feedback clause:** Ask customers and partners to accept terms that license their suggestions to the bank. A feedback clause is a common way to manage the risk of a claim for payment for an idea, because California law can enforce such a claim where the recipient knew payment was expected (Desny v. Wilder, 46 Cal. 2d 715 (1956)) (reported; check).",
       "**Content licence:** Take a licence to host and display customer content, and publish a route for rights holders to give notice (good practice)."
      ],
