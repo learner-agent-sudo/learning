@@ -1324,7 +1324,7 @@
    },
    {
     "term": "statutory damages",
-    "definition": "Damages the court sets per work, from $750 to $30,000, which the owner can elect instead of actual damages and profits (§ 504(c)). They are unavailable where registration comes too late (§ 412)."
+    "definition": "Damages the court sets per work, from $750 to $30,000 (up to $150,000 for wilful infringement and down to $200 for innocent infringement), which the owner can elect instead of actual damages and profits (§ 504(c)). They are unavailable where registration comes too late (§ 412)."
    },
    {
     "term": "copyright management information",
@@ -1332,7 +1332,7 @@
    },
    {
     "term": "lawful user",
-    "definition": "A person with a contractual right to use a program, who may back it up and copy or adapt it where necessary for that use (Cap. 528 s.60(2), s.61(1))."
+    "definition": "A person with a contractual right to use a program, who may back it up, unless the agreement excludes that, and copy or adapt it where necessary for that use (Cap. 528 s.60(2)-(3), s.61(1))."
    },
    {
     "term": "business possession offence",
@@ -1993,7 +1993,7 @@
    },
    {
     "term": "Exclusive licence",
-    "definition": "A licence in writing, signed by the copyright owner, that excludes everyone else, including the owner, from exercising a right (Cap. 528 s.103(1))."
+    "definition": "A licence in writing, signed by or on behalf of the copyright owner, that excludes everyone else, including the owner, from exercising a right (Cap. 528 s.103(1))."
    }
   ]
  },
@@ -2186,7 +2186,7 @@
       {
        "label": "District court",
        "value": "§ 1400(b)",
-       "note": "Damages and injunctions; venue by residence or a regular place of business"
+       "note": "Damages and injunctions; venue where the defendant resides, or where it has committed acts of infringement and has a regular and established place of business"
       },
       {
        "label": "PTAB (IPR or PGR)",
@@ -2644,7 +2644,7 @@
    },
    {
     "term": "effective filing date",
-    "definition": "The date that sets the prior art cut-off for a claim, and the start point for the one-year grace period for the inventor's own disclosures (35 U.S.C. § 102(b)(1))."
+    "definition": "The date that sets the prior art cut-off for a claim, and the date from which the one-year grace period for the inventor's own disclosures is counted back (35 U.S.C. § 102(b)(1))."
    },
    {
     "term": "grace period",
@@ -2664,7 +2664,7 @@
    },
    {
     "term": "post-grant review",
-    "definition": "A USPTO proceeding filed within nine months of grant, which can raise any invalidity ground, including §§ 101 and 112 (35 U.S.C. § 321)."
+    "definition": "A USPTO proceeding filed within nine months of grant, which can raise most invalidity grounds, including §§ 101 and 112 but not best mode, for patents with an effective filing date on or after 16 March 2013 (35 U.S.C. §§ 282(b)(2)-(3), 321(b))."
    },
    {
     "term": "exclusion order",
@@ -2841,7 +2841,7 @@
       {
        "label": "Patent filing",
        "value": "Discloses",
-       "note": "Describes the invention to the public"
+       "note": "Describes the invention to the public once the application publishes, normally 18 months after the earliest filing date (35 U.S.C. § 122(b))"
       },
       {
        "label": "Reverse engineering of a shipped product",
@@ -4734,7 +4734,7 @@
     {
      "id": "permissive",
      "label": "Permissive",
-     "blurb": "Use for any purpose; keep the notices. Apache-2.0 adds a patent licence."
+     "blurb": "Use for any purpose; keep the notices, except under 0BSD, which asks for none. Apache-2.0 adds a patent licence."
     },
     {
      "id": "weak-copyleft",
@@ -4961,7 +4961,7 @@
      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
      "family": "permissive",
      "osi": true,
-     "summary": "The licence lets anyone use, copy, modify and redistribute the software in source or binary form, with or without modification. It has the same two notice conditions as BSD-2-Clause and adds a third: the names of the copyright holder and contributors may not be used to endorse or promote products derived from the software without written permission.",
+     "summary": "The licence lets anyone use, copy, modify and redistribute the software in source or binary form, with or without modification. It has the same two notice conditions as BSD-2-Clause and adds a third: the names of the copyright holder and contributors may not be used to endorse or promote products derived from the software without specific prior written permission.",
      "trigger": "Redistribution in source or binary form sets off conditions 1 and 2, and using the holder's or contributors' names to endorse or promote a derived product sets off condition 3 (BSD-3-Clause, full text).",
      "patent": "The licence is silent on patents and grants no express patent licence (BSD-3-Clause, full text).",
      "duties": [
@@ -4995,7 +4995,7 @@
         "ship",
         "online"
        ],
-       "text": "Do not use the upstream holder's or contributors' names to endorse or promote a bank product built on the code, without written permission (BSD-3-Clause, condition 3).",
+       "text": "Do not use the upstream holder's or contributors' names to endorse or promote a bank product built on the code, without specific prior written permission (BSD-3-Clause, condition 3).",
        "cites": [
         {
          "cap": "BSD-3-Clause",
@@ -5483,7 +5483,8 @@
        "uses": [
         "ship",
         "source",
-        "combine"
+        "combine",
+        "online"
        ],
        "text": "Keep the creator's name, a copyright notice, a reference to the licence and to the disclaimer, and a link to the material where reasonably practicable (CC-BY-4.0 s.3(a)(1)(A)).",
        "cites": [
@@ -5509,7 +5510,8 @@
       {
        "uses": [
         "ship",
-        "source"
+        "source",
+        "online"
        ],
        "text": "State that the material is licensed under CC BY 4.0 and include the licence text or a link to it (CC-BY-4.0 s.3(a)(1)(C)).",
        "cites": [
@@ -5547,8 +5549,8 @@
       }
      ],
      "watch": [
-      "Credit is the main burden: where the bank shares a dataset or model card in an app or product, the credit line must appear where users can see it (drafting inference; CC-BY-4.0 s.3(a)(2)).",
-      "CC BY 4.0 is drafted for creative and data material, so its terms do not address software points such as source code or patents (drafting inference).",
+      "Credit is the main burden: where the bank shares a dataset or model card in an app or product, the credit must be given in a reasonable manner for that medium, which can be a link to a page carrying the required information (drafting inference; CC-BY-4.0 s.3(a)(2)).",
+      "CC BY 4.0 is drafted for creative and data material, so its terms do not address software points such as source code, and s.2(b)(2) licenses no patents (drafting inference).",
       "Personality, publicity and privacy rights in images or voices depicted in the material are not licensed (CC-BY-4.0 s.2(b)(1))."
      ],
      "sources": [
@@ -5675,7 +5677,7 @@
        "uses": [
         "ship"
        ],
-       "text": "If you distribute under a different licence, it must disclaim warranties and must not limit recipients' rights in the Source Code under EPL-2.0 (s.3.1(b)).",
+       "text": "If you distribute under a different licence, it must disclaim warranties and exclude liability on behalf of all other Contributors, must not limit recipients' rights in the Source Code under EPL-2.0, and must require any later distribution to be under a licence that meets section 3 (s.3.1(b)).",
        "cites": [
         {
          "cap": "EPL-2.0",
@@ -5709,7 +5711,15 @@
        "cites": [
         {
          "cap": "EPL-2.0",
+         "section": "1"
+        },
+        {
+         "cap": "EPL-2.0",
          "section": "3"
+        },
+        {
+         "cap": "EPL-2.0",
+         "section": "Appendix"
         }
        ]
       }
@@ -5727,7 +5737,8 @@
       {
        "uses": [
         "modify",
-        "ship"
+        "ship",
+        "source"
        ],
        "text": "When you distribute a modified library, license the whole under LGPL-2.1 and mark the changed files with notices of the change and date (s.2(b)-(c)).",
        "cites": [
@@ -5742,7 +5753,7 @@
         "combine",
         "ship"
        ],
-       "text": "For a work that uses the library, give prominent notice that the library is used, supply a copy of the licence, and let users modify the work for their own use and reverse engineer it for debugging such modifications (s.6).",
+       "text": "For a work that uses the library, give prominent notice that the library is used, supply a copy of the licence, let users modify the work for their own use and reverse engineer it for debugging such modifications, and take one of the s.6(a)-(e) routes, such as supplying the library's source with the work in relinkable form, a written offer valid for at least three years, or a shared library the user can replace (s.6).",
        "cites": [
         {
          "cap": "LGPL-2.1-only",
@@ -5765,7 +5776,7 @@
      ],
      "watch": [
       "Whether linking creates a combined work is unsettled in US courts; the FSF's view that it does is a view, not law.",
-      "Check file headers for 'or later' wording; LGPL-2.1-only and LGPL-2.1-or-later differ, and the -only version has no later-version option."
+      "Check file headers for 'or later' wording; LGPL-2.1-only and LGPL-2.1-or-later differ, and the -only version has no later-LGPL option, though s.3 still lets a copy be moved to GPL-2.0 or a later GPL version."
      ],
      "sources": [
       {
@@ -5821,7 +5832,7 @@
         "combine",
         "ship"
        ],
-       "text": "Let the terms of the combined work permit modification of the library and reverse engineering for debugging such modifications (s.4).",
+       "text": "Let the terms of the combined work permit modification of the library and reverse engineering for debugging such modifications, and either convey the Minimal Corresponding Source with relinkable application code or use a shared library the user can replace (s.4, including s.4(d)).",
        "cites": [
         {
          "cap": "LGPL-3.0-only",
@@ -5881,7 +5892,8 @@
       {
        "uses": [
         "modify",
-        "ship"
+        "ship",
+        "source"
        ],
        "text": "When you distribute a modified version, mark the modified files with prominent notices stating that you changed them and the date of the change (s.2(a)).",
        "cites": [
@@ -5893,7 +5905,9 @@
       },
       {
        "uses": [
-        "ship"
+        "ship",
+        "source",
+        "combine"
        ],
        "text": "License any distributed work that contains or is derived from the program as a whole, at no charge, under GPL-2.0-only (s.2(b), s.6).",
        "cites": [
@@ -5979,7 +5993,8 @@
       {
        "uses": [
         "modify",
-        "ship"
+        "ship",
+        "source"
        ],
        "text": "When you convey a modified version in source form, mark it with prominent notices stating that you modified it and the date, and that it is released under GPL-3.0 (s.5(a)-(b)).",
        "cites": [
@@ -5992,7 +6007,8 @@
       {
        "uses": [
         "ship",
-        "combine"
+        "combine",
+        "source"
        ],
        "text": "Do not impose further restrictions on recipients, and do not charge a royalty or licence fee for exercising the granted rights (s.10).",
        "cites": [
@@ -6006,7 +6022,7 @@
        "uses": [
         "contractor"
        ],
-       "text": "You may give copies to a contractor only to make modifications exclusively for you or to provide facilities for running them, on terms that bar the contractor from copying them outside its relationship with you (s.2).",
+       "text": "You may give copies to a contractor on restricted terms only to make modifications exclusively for you or to provide facilities for running them, on terms that bar the contractor from copying them outside its relationship with you, and you must still comply with the licence in conveying material whose copyright you do not control; any other transfer to a contractor is ordinary conveying (s.2).",
        "cites": [
         {
          "cap": "GPL-3.0-only",
@@ -6091,7 +6107,8 @@
       {
        "uses": [
         "modify",
-        "ship"
+        "ship",
+        "source"
        ],
        "text": "When you convey a modified version, mark it with prominent notices that you modified it and the date (s.5(a)).",
        "cites": [
@@ -6136,7 +6153,7 @@
      "family": "source-available",
      "osi": false,
      "summary": "Permits use, modification and distribution of the program, with a source-release condition for services. If you offer the program to others as a service, you must release the source of the service stack, including the software used to make it available (reported; check).",
-     "trigger": "Offering the program to third parties as a service (s.13) (reported; check); internal use does not on its face fall within that trigger (drafting inference).",
+     "trigger": "Offering the program to third parties as a service (s.13), or conveying copies, which brings GPL-3.0-style source and same-licence conditions (reported; check); internal use does not on its face fall within either trigger (drafting inference).",
      "patent": "Patent terms are not covered here; check the licence text before relying on any patent position.",
      "duties": [
       {
@@ -6144,6 +6161,14 @@
         "online"
        ],
        "text": "Before offering the program to third parties as a service, release the Service Source Code: the program and all software used to make the service available (s.13) (reported; check).",
+       "cites": []
+      },
+      {
+       "uses": [
+        "ship",
+        "source"
+       ],
+       "text": "When conveying copies, provide the Corresponding Source and license the whole work under the SSPL, on the same terms as GPL-3.0 ss.5-6 (reported; check).",
        "cites": []
       },
       {
@@ -6219,15 +6244,15 @@
      "name": "Elastic License 2.0",
      "family": "source-available",
      "osi": false,
-     "summary": "Lets you use, copy, distribute and modify the software, with limits; the main limit is that you may not provide the software to others as a hosted or managed service (reported; check). It is source-available, not open source.",
-     "trigger": "Offering the software to third parties as a hosted or managed service, or removing the licence notices (check the licence text).",
+     "summary": "Lets you use, copy, distribute and modify the software, with limits; the main limit is that you may not provide the software to others as a hosted or managed service that gives users access to any substantial set of its features or functionality (reported; check). It is source-available, not open source.",
+     "trigger": "Offering the software to third parties as a hosted or managed service that gives users access to any substantial set of its features or functionality, or removing the licence notices (check the licence text).",
      "patent": "Patent terms are not covered here; check the licence text before relying on any patent position.",
      "duties": [
       {
        "uses": [
         "online"
        ],
-       "text": "Do not offer the software to third parties as a hosted or managed service, which the licence restricts (reported; check the licence text).",
+       "text": "Do not offer the software to third parties as a hosted or managed service that gives users access to any substantial set of its features or functionality, which the licence restricts (reported; check the licence text).",
        "cites": []
       },
       {
@@ -7150,7 +7175,7 @@
     },
     {
      "label": "Covered files stay open",
-     "value": "MPL-2.0 s.3.1",
+     "value": "MPL-2.0 ss.3.1, 3.3",
      "note": "A Larger Work may carry other terms",
      "rel": "requires"
     },
@@ -7564,7 +7589,7 @@
   ],
   "itAngle": [
    "**Scanner output:** Licence scanners detect copyleft headers, but a match does not show whether code is linked, dynamically loaded or run as a separate process. Engineering must confirm the architecture (good practice).",
-   "**Linking map:** Record whether each library is statically or dynamically linked into each binary. Relinking under LGPL-3.0 needs a shared library mechanism or the minimal Corresponding Source (LGPL-3.0 s.4(d)).",
+   "**Linking map:** Record whether each library is statically or dynamically linked into each binary. Relinking under LGPL-3.0 needs a shared library mechanism, or the Minimal Corresponding Source with the Corresponding Application Code in a form the user can relink (LGPL-3.0 s.4(d)).",
    "**Build pipeline:** Make the build produce the source archive and the written offer alongside the binary. Corresponding Source includes the scripts that control compilation and installation (GPL-3.0 s.1).",
    "**Dependency updates:** A routine package update can add copyleft code to a permissive product. Gate dependency changes so that a new GPL, LGPL, MPL or EPL component is reviewed before it merges (good practice).",
    "**App store terms:** Store terms that restrict redistribution can conflict with copyleft licences, as the reported VLC removal from Apple's App Store in 2011 shows (reported; check)."
@@ -8473,7 +8498,7 @@
    },
    {
     "term": "Making available online",
-    "definition": "Making a work available by wire or wireless means so that members of the public can access it from a place and at a time they choose. It is a restricted act (Cap. 528 s.28A(3))."
+    "definition": "Making a work available by wire or wireless means so that members of the public can access it from a place and at a time they choose. It is a restricted act (Cap. 528 ss.22(1)(fa), 28A(1)-(3))."
    }
   ]
  },
@@ -8514,7 +8539,7 @@
     },
     {
      "label": "Software bill of materials",
-     "value": "NTIA minimum elements",
+     "value": "2026 minimum elements",
      "note": "Lists components, versions and suppliers",
      "rel": "inventories"
     },
@@ -12231,7 +12256,7 @@
    },
    {
     "term": "Copyright management information (CMI)",
-    "definition": "Information conveyed with a copy of a work that identifies the work, its authors and owners, and the terms of use. Its intentional removal can breach 17 U.S.C. § 1202(b) where the knowledge test is met (§ 1202(c))."
+    "definition": "Information conveyed with a copy of a work that identifies the work, its authors and owners, and the terms of use (17 U.S.C. § 1202(c)). Its intentional removal can breach § 1202(b) where the knowledge test is met."
    },
    {
     "term": "NOTICE file",
@@ -14837,7 +14862,7 @@
   ],
   "checklist": [
    "**Map the chain of title:** For each core product, list its authors, employers, contractors and vendors, and match each to a signed writing or a work-for-hire basis.",
-   "**Demand present assignments:** Require 'hereby assign' wording from contractors and vendors, signed before work starts, and check it against the California notice rules.",
+   "**Demand present assignments:** Require 'hereby assign' wording from contractors and vendors, signed before work starts, and check employee assignment clauses against the California notice rules.",
    "**Scan the source, not only the manifests:** Reconcile the scan with the target's component inventory and SBOM, and include vendored and copied code.",
    "**Classify copyleft exposure:** Sort each component by whether the target conveys it, modifies it, or runs it as a network service (AGPL-3.0 s.13).",
    "**Check consents before the structure:** Read each licence and key contract for assignment, change-of-control and sublicensing terms, then choose the asset or share route.",
@@ -15116,7 +15141,7 @@
    },
    {
     "term": "Registrable transaction",
-    "definition": "An assignment, licence, mortgage or similar transfer that can be entered on the register. Registration protects the new party against later transactions (Cap. 514 s.52; Cap. 559 s.29(2))."
+    "definition": "An assignment, licence, mortgage or similar transfer that can be entered on the register. Applying to register it protects the new party against a later conflicting transaction by someone who did not know of the earlier one (Cap. 514 s.52(1), (3); Cap. 559 s.29(2)-(3))."
    },
    {
     "term": "Employee work",
@@ -18378,7 +18403,7 @@
       {
        "label": "Infringement begins",
        "value": "Day 0",
-       "note": "The point from which the § 412 test and the claim period run"
+       "note": "The point from which the § 412 test runs; the claim period runs from accrual"
       },
       {
        "label": "Registration",
@@ -18405,7 +18430,7 @@
      "**Damages:** The court awards damages adequate to compensate, never less than a reasonable royalty, and may raise them up to three times (35 U.S.C. § 284). Halo Electronics, Inc. v. Pulse Electronics, Inc., 579 U.S. 93 (2016), limited enhancement to egregious cases, typified by wilful misconduct.",
      "**Fees:** The court may award fees to the prevailing party in an exceptional case (§ 285). Octane Fitness, LLC v. ICON Health & Fitness, Inc., 572 U.S. 545 (2014), judges that on the totality of the circumstances.",
      "**Time and notice:** Damages reach back no more than six years before the complaint (§ 286). A patentee that fails to mark can recover damages only after actual notice of infringement, and filing suit counts as notice (§ 287(a)).",
-     "**PTAB:** Inter partes review tests only novelty and obviousness, on patents or printed publications. Post-grant review can raise any invalidity ground, if filed within nine months of grant (35 U.S.C. §§ 311(b), 321). Both decide validity, not damages.",
+     "**PTAB:** Inter partes review tests only novelty and obviousness, on patents or printed publications. Post-grant review can raise most invalidity grounds, but not best mode, if filed within nine months of grant (35 U.S.C. §§ 311(b), 321). Both decide validity, not damages.",
      "**Current practice:** The PTAB's institution practice changed sharply in 2025, and a proposed rule would narrow review where parallel litigation is likely (reported; check the current practice before relying on it).",
      "**ITC:** A violation finding leads to an [[exclusion order]] that bars infringing imports, unless the public interest weighs against it (19 U.S.C. § 1337(d))."
     ],
@@ -18785,7 +18810,7 @@
      "points": [
       "**Contract and tort:** A claim must be brought within 6 years of accrual (Cap. 347 s.4(1)). That limit does not apply to injunctions or other equitable relief, although the court may apply it by analogy (Cap. 347 s.4(7)).",
       "**Concealment:** Fraud or deliberate concealment postpones the start of the limitation period until the claimant discovers it or could with reasonable diligence have discovered it (Cap. 347 s.26(1)(a)-(b)).",
-      "**Patent threats:** A person threatened over a patent can seek a declaration that the threats are unjustifiable, an injunction and damages, but a notice that a patent exists is not a threat, and no relief lies for a threat over making a product for putting on the market or using a process (Cap. 514 s.89(1)-(5)).",
+      "**Patent threats:** A person aggrieved by threats over a patent, whether or not the person threatened, can seek a declaration that the threats are unjustifiable, an injunction and damages, but a notice that a patent exists is not a threat, and no relief lies for a threat over making a product for putting on the market or using a process (Cap. 514 s.89(1)-(5)).",
       "**Short-term patent defence:** Where no certificate of substantive examination has issued, the defendant must prove infringement and validity, and must have provided the patent information, without charge, within 14 days of a written access request (Cap. 514 s.89A(2)-(3)).",
       "**Trade mark threats:** Relief is lost if the registered owner, or a licensee with power to sue, begins an action within 28 days of the threat and pursues it with due diligence (Cap. 559 s.26(6))."
      ],
@@ -18872,7 +18897,7 @@
      "instrument": "Trade Marks Ordinance (Cap. 559)",
      "ref": "s.26(1)-(2), (5)-(6)",
      "title": "Trade mark groundless threats",
-     "summary": "A person threatened over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it, may seek a declaration, an injunction and damages. A notice that a mark is registered is not a threat, and relief is lost where the owner sues within 28 days with due diligence.",
+     "summary": "Any person aggrieved by a threat over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it, may seek a declaration, an injunction and damages. A notice that a mark is registered is not a threat, and relief is lost where the owner sues within 28 days with due diligence.",
      "counselNote": "Disputes with competitors often start with a letter threatening proceedings, so the 28-day window works both ways and should be diarised from the date of the threat.",
      "confidence": "high",
      "cap": "559",
@@ -18991,7 +19016,7 @@
    },
    {
     "term": "Groundless threats",
-    "definition": "A threat of infringement proceedings, made by letter or otherwise, that the person threatened can challenge in court under the Patents, Trade Marks or Registered Designs Ordinance."
+    "definition": "A threat of infringement proceedings, made by letter or otherwise, that any person aggrieved, whether or not the person threatened, can challenge in court under the Patents, Trade Marks or Registered Designs Ordinance."
    }
   ]
  },
@@ -19066,7 +19091,7 @@
      "**File on intent:** A person with a bona fide intention to use a mark in commerce can file an intent-to-use application (15 U.S.C. § 1051(b)(1)). No registration issues until an amendment to allege use or a verified statement of use is accepted (15 U.S.C. § 1051(c), (d)).",
      "**Use the filing date:** Filing an application to register is constructive use, contingent on registration, and gives nationwide priority from the filing date. Earlier users and earlier filers keep their position (15 U.S.C. § 1057(c)).",
      "**Use the ® only when it is earned:** Using ® on a mark that is not registered is improper (USPTO TMEP § 906.02) (reported; check). Notice is optional, but a registrant that omits it cannot recover profits or damages unless the defendant knew of the registration (15 U.S.C. § 1111).",
-     "**Use a partner's mark with care:** Under the Ninth Circuit's test, a partner's name can be used to refer to that partner's product where the product cannot be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)). Follow the partner's brand rules as well (good practice).",
+     "**Use a partner's mark with care:** Under the Ninth Circuit's test, a partner's name can be used to refer to that partner's product where the product cannot readily be identified without it, only as much of the mark as is needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992); Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)). Follow the partner's brand rules as well (good practice).",
      "**Make comparative claims provable:** Advertising that misrepresents the nature, characteristics or qualities of goods or services can be sued on by anyone who is or is likely to be damaged (15 U.S.C. § 1125(a)(1)(B)). Lexmark International v. Static Control Components, 572 U.S. 118 (2014), requires a plaintiff to fall within the statute's zone of interests and to show proximate cause. Keep evidence for every comparison (good practice)."
     ],
     "visual": {
@@ -19687,7 +19712,7 @@
    },
    {
     "term": "Produced work",
-    "definition": "A work such as a rendered map image or a report, made by using a substantial part of a database through a search or query. Under the ODbL it needs an attribution notice when it is publicly used, and publicly using it can trigger the share-alike duty for the database behind it (ODbL-1.0 ss.4.3, 4.4(c))."
+    "definition": "A work such as a rendered map image or a report, made by using a substantial part of a database through a search or query. Under the ODbL it needs an attribution notice when it is publicly used, and publicly using it can trigger the share-alike duty for a derivative database behind it (ODbL-1.0 ss.4.3, 4.4(c))."
    },
    {
     "term": "Invention disclosure",
@@ -19695,7 +19720,7 @@
    },
    {
     "term": "Freedom to operate",
-    "definition": "An assessment of whether a product or feature is likely to infringe a third party's valid patent claims, usually by a search of patents and a claim-by-claim review (good practice). Advice can matter to a willfulness claim, but relying on it can waive privilege (35 U.S.C. § 298)."
+    "definition": "An assessment of whether a product or feature is likely to infringe a third party's valid patent claims, usually by a search of patents and a claim-by-claim review (good practice). Advice can matter to a willfulness claim, though failing to obtain or present it cannot be used to prove willful infringement (35 U.S.C. § 298), and relying on it can waive privilege."
    },
    {
     "term": "Virtual marking",
@@ -19944,7 +19969,7 @@
      "sources": [
       {
        "label": "Lanham Act, application based on intent to use",
-       "ref": "15 U.S.C. § 1051(b)(1), (d)",
+       "ref": "15 U.S.C. § 1051(b)(1), (c), (d)",
        "strength": "statute",
        "cites": [
         {
@@ -19977,7 +20002,7 @@
      "title": "Use a partner's mark only within its brand rules",
      "detail": [
       "**Brand rules first:** Get the partner's logo rules and approval steps in writing before any mock-up goes out (good practice).",
-      "**Nominative fair use:** Naming a partner's card or wallet is nominative fair use only where the product cannot be identified without the mark, only as much of the mark as needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)) (Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)).",
+      "**Nominative fair use:** Naming a partner's card or wallet is nominative fair use only where the product cannot readily be identified without the mark, only as much of the mark as needed is used, and nothing suggests sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)) (Toyota Motor Sales v. Tabari, 610 F.3d 1171 (9th Cir. 2010)).",
       "**Logo lockups:** A combined logo suggests affiliation, so get written consent for it rather than relying on a reference (drafting inference)."
      ],
      "owner": [
@@ -20011,7 +20036,7 @@
      ],
      "title": "Check every comparison with a competitor before it is drafted",
      "detail": [
-      "**False advertising:** A rival that is or is likely to be damaged may sue over a misstatement of a product's nature, qualities or characteristics in advertising (15 U.S.C. § 1125(a)(1)(B)). The rival must fall within the statute's zone of interests, an injury to a commercial interest in reputation or sales (Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
+      "**False advertising:** A rival that is or is likely to be damaged may sue over a misstatement of a product's nature, qualities or characteristics in advertising (15 U.S.C. § 1125(a)(1)(B)). The rival must fall within the statute's zone of interests, an injury to a commercial interest in reputation or sales, and show that the misstatement proximately caused that injury (Lexmark International v. Static Control Components, 572 U.S. 118 (2014)).",
       "**Naming a rival:** Naming a rival's product in a comparison needs the same care as a partner mark: only the name needed, and no suggestion of sponsorship (New Kids on the Block v. News America Publishing, 971 F.2d 302 (9th Cir. 1992)) (drafting inference).",
       "**Proof:** Keep the test data, the source of each figure and the date it was measured, so the claim can be defended (good practice)."
      ],
@@ -20156,12 +20181,20 @@
      "sources": [
       {
        "label": "Patents Ordinance, Cap. 514",
-       "ref": "s.37B, s.109",
+       "ref": "s.11A, s.37B, s.109",
        "strength": "statute",
        "cites": [
         {
          "cap": "514",
+         "section": "11A"
+        },
+        {
+         "cap": "514",
          "section": "37B"
+        },
+        {
+         "cap": "514",
+         "section": "109"
         }
        ],
        "url": "https://www.elegislation.gov.hk/hk/cap514"
@@ -20465,7 +20498,7 @@
      "title": "Check the font licence before the font ships",
      "detail": [
       "**Typeface and software:** A typeface as such is not copyright subject matter in the US (37 C.F.R. § 202.1(e)) (reported; check), but original font software can be registered as a literary work (Compendium (Third) § 723) (reported; check).",
-      "**Open Font License:** The bank may use, embed and bundle the font, but the font software cannot be sold alone, a modified version may not use a Reserved Font Name without permission, and redistributed font software must stay under the licence (OFL-1.1 conditions 1, 3 and 5).",
+      "**Open Font License:** The bank may use, embed and bundle the font, but each copy it bundles or redistributes must carry the copyright notice and the licence, the font software cannot be sold alone, a modified version may not use a Reserved Font Name without permission, and redistributed font software must stay under the licence (OFL-1.1 conditions 1, 2, 3 and 5).",
       "**Output:** Documents created using the font are not subject to the licence, but an app or website that ships the font file distributes the font software, which stays under the licence (OFL-1.1, Permission and Conditions)."
      ],
      "owner": [
@@ -21155,7 +21188,7 @@
      "detail": [
       "**Marking:** Mark an article with a patent number only once an issued patent covers it, either on the article or through a public web address that links the article to the number (35 U.S.C. § 287(a)). Marking an unpatented article with the word 'patent' to deceive the public is prohibited (35 U.S.C. § 292(a)).",
       "**Wording while pending:** Say 'patent pending' only while an application is pending: marking it when none is pending, to deceive the public, is false marking (35 U.S.C. § 292(a)). Add a number only once the patent issues (good practice).",
-      "**Damages and false marking:** A patentee that does not mark loses damages for the period before notice, and filing an infringement action counts as notice (35 U.S.C. § 287(a)). Only the United States may sue for the fine, but a person with a competitive injury may sue for damages (35 U.S.C. § 292(a), (b)). Marking with an expired patent is not a violation (35 U.S.C. § 292(c))."
+      "**Damages and false marking:** A patentee that does not mark a patented article that it or its licensees sell loses damages for the period before notice, and filing an infringement action counts as notice (35 U.S.C. § 287(a)); the marking rule does not apply where only method claims are asserted (Crown Packaging Technology, Inc. v. Rexam Beverage Can Co., 559 F.3d 1308 (Fed. Cir. 2009)). Only the United States may sue for the fine, but a person with a competitive injury may sue for damages (35 U.S.C. § 292(a), (b)). Marking with an expired patent is not a violation (35 U.S.C. § 292(c))."
      ],
      "owner": [
       "Patent counsel",
@@ -21202,7 +21235,7 @@
      "detail": [
       "**Disclose first:** Send an invention disclosure to patent counsel before any demo, beta, talk or paper, because a public showing can start the clock on filing (good practice). If a filing is needed quickly, a provisional application needs no claims, but it is regarded as abandoned 12 months after filing unless it is converted (35 U.S.C. § 111(b)(2), (b)(5)).",
       "**US grace period:** A disclosure made by the inventor one year or less before the effective filing date is not prior art (35 U.S.C. § 102(b)(1)(A)). A second exception covers a later disclosure by others of subject matter the inventor had already publicly disclosed (§ 102(b)(1)(B)).",
-      "**Elsewhere the grace is narrow:** Under the European Patent Convention, a disclosure is disregarded only in narrow cases, such as evident abuse or an official exhibition (EPC Art. 54 and 55; reported; check). Hong Kong gives six months only for abuse or official exhibitions (Cap. 514 s.37B and s.109). Canada gives one year for the applicant's own disclosures (Patent Act s.28.2(1)(a))."
+      "**Elsewhere the grace is narrow:** Under the European Patent Convention, a disclosure is disregarded only in narrow cases, such as evident abuse or an official exhibition (EPC Art. 54 and 55; reported; check). Hong Kong gives six months only for abuse or official exhibitions (Cap. 514 s.37B and s.109), or, for a standard patent (R), a prescribed exhibition or meeting (s.11A). Canada gives one year for the applicant's own disclosures (Patent Act s.28.2(1)(a))."
      ],
      "owner": [
       "Patent counsel",
@@ -21239,9 +21272,13 @@
       },
       {
        "label": "Patents Ordinance (Cap. 514)",
-       "ref": "s.37B; s.109",
+       "ref": "s.11A; s.37B; s.109",
        "strength": "statute",
        "cites": [
+        {
+         "cap": "514",
+         "section": "11A"
+        },
         {
          "cap": "514",
          "section": "37B"
@@ -21411,7 +21448,7 @@
       "abroad"
      ],
      "detail": [
-      "**Registration claims:** Falsely representing a mark as registered is an offence in Hong Kong where the person knows, or has reason to believe, the claim is false (Trade Marks Ordinance (Cap. 559) s.94). In the UK, falsely representing a trade mark as registered is an offence (Trade Marks Act 1994 s.95(1)(a); reported; check). Use ® only where the mark is registered in that place (good practice); both laws excuse a reference to a registration elsewhere only if that is shown and the mark is in fact registered there for the goods or services (Cap. 559 s.94(2); Trade Marks Act 1994 s.95(2); reported; check).",
+      "**Registration claims:** Falsely representing a mark as registered is an offence in Hong Kong where the person knows, or has reason to believe, the claim is false (Trade Marks Ordinance (Cap. 559) s.94). In the UK, falsely representing a trade mark as registered is an offence where the person knows or has reason to believe the representation is false (Trade Marks Act 1994 s.95(1)(a); reported; check). Use ® only where the mark is registered in that place (good practice); both laws excuse a reference to a registration elsewhere only if that is shown and the mark is in fact registered there for the goods or services (Cap. 559 s.94(2); Trade Marks Act 1994 s.95(2); reported; check).",
       "**Notice and action:** EU hosting services must run notice and action mechanisms for illegal content, including IP-infringing content, and must tell the notifier whether they acted (Regulation (EU) 2022/2065 Art. 16; reported; check). Hong Kong has a notice-based safe harbour for online service providers (Copyright Ordinance (Cap. 528) ss.88A to 88J).",
       "**Marks in Canada:** Canada has registered trademarks without prior use since 17 June 2019, so a name cleared only in the US may be taken there first (reported; check; drafting inference). Passing off is prohibited by Trademarks Act s.7(b)."
      ],
@@ -21519,7 +21556,7 @@
      ],
      "detail": [
       "**Registered symbol:** Use the registered symbol only where the mark is registered in Hong Kong (good practice). Using the word 'registered' or a symbol importing registration here is treated as a representation of registration in Hong Kong, unless it is shown to refer to a registration elsewhere that in fact covers the goods or services (Cap. 559 s.94(2)).",
-      "**Patent pending:** Use 'patent pending' only where an application is on file. Otherwise it is an offence, with a level 3 fine, to represent that an application has been made (Cap. 514 s.143(1), (3)). Due diligence is a defence (s.143(4)).",
+      "**Patent pending:** Use 'patent pending' only where an application is on file and still pending. Otherwise it is an offence, with a level 3 fine, to represent that an application has been made for an article disposed of for value (Cap. 514 s.143(1), (3)). Due diligence is a defence (s.143(4)).",
       "**Patent marking:** Marking an item sold for value as patented when it is not is an offence, with a due diligence defence (s.142(1)-(2), (4)), so the marking review should cover packaging, the website and the app store listing (good practice)."
      ],
      "owner": [
@@ -21721,7 +21758,7 @@
       "data"
      ],
      "detail": [
-      "**Share-alike on public databases:** Under the ODbL 1.0, a derivative database that is publicly used must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4). A produced work, such as a rendered map image, needs only the attribution notice (ODbL-1.0 s.4.3).",
+      "**Share-alike on public databases:** Under the ODbL 1.0, a derivative database that is publicly used must be offered under the ODbL or a compatible licence (ODbL-1.0 s.4.4). A produced work, such as a rendered map image, needs only the attribution notice (ODbL-1.0 s.4.3), unless it is made from a derivative database: publicly using it then makes that database publicly used, so the share-alike applies (ODbL-1.0 s.4.4(c)).",
       "**Scraped and public web data:** Under the CFAA, a person exceeds authorized access by getting into areas that are off limits to them, not by misusing information they are entitled to reach (Van Buren v. United States, 593 U.S. 374 (2021); reported; check). Scraping terms bind only where notice and assent exist (drafting inference).",
       "**Map caching limits:** Map terms can limit caching and data use, and the provider can change them. Google Maps Platform terms, for example, bar caching except as their service-specific terms allow (reported; check)."
      ],

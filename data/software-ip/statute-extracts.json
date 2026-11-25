@@ -1393,6 +1393,30 @@
    "text": "3. REQUIREMENTS\n3.1 If a Contributor Distributes the Program in any form, then:\n\na) the Program must also be made available as Source Code, in accordance with section 3.2, and the Contributor must accompany the Program with a statement that the Source Code for the Program is available under this Agreement, and informs Recipients how to obtain it in a reasonable manner on or through a medium customarily used for software exchange; and\nb) the Contributor may Distribute the Program under a license different than this Agreement, provided that such license:\ni) effectively disclaims on behalf of all other Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose; ii) effectively excludes on behalf of all other Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits; iii) does not attempt to limit or alter the recipients' rights in the Source Code under section 3.2; and iv) requires any subsequent distribution of the Program by any party to be under a license that satisfies the requirements of this section 3.\n3.2 When the Program is Distributed as Source Code:\n\na) it must be made available under this Agreement, or if the Program (i) is combined with other material in a separate file or files made available under a Secondary License, and (ii) the initial Contributor attached to the Source Code the notice described in Exhibit A of this Agreement, then the Program may be made available under the terms of such Secondary Licenses, and\nb) a copy of this Agreement must be included with each copy of the Program.\n3.3 Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability (‘notices’) contained within the Program from any copy of the Program which they Distribute, provided that Contributors may add their own appropriate notices.",
    "truncated": false
   },
+  "EPL-2.0|1": {
+   "label": "Section 1",
+   "heading": "DEFINITIONS",
+   "capTitle": "Eclipse Public License 2.0",
+   "versionDate": "2026-11-18T00:00:00Z",
+   "hkelUrl": "https://spdx.org/licenses/EPL-2.0.html",
+   "source": "SPDX License List ddf7382, licence text as published by its steward",
+   "kind": "licence",
+   "sourceShort": "SPDX",
+   "text": "1. DEFINITIONS\n\n“Contribution” means:\n\na) in the case of the initial Contributor, the initial content Distributed under this Agreement, and\nb) in the case of each subsequent Contributor:\ni) changes to the Program, and ii) additions to the Program; where such changes and/or additions to the Program originate from and are Distributed by that particular Contributor. A Contribution “originates” from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include changes or additions to the Program that are not Modified Works. “Contributor” means any person or entity that Distributes the Program.\n\n“Licensed Patents” mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.\n\n“Program” means the Contributions Distributed in accordance with this Agreement.\n\n“Recipient” means anyone who receives the Program under this Agreement or any Secondary License (as applicable), including Contributors.\n\n“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.\n\n“Modified Works” shall mean any work in Source Code or other form that results from an addition to, deletion from, or modification of the contents of the Program, including, for purposes of clarity any new file in Source Code form that contains any contents of the Program. Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.\n\n“Distribute” means the acts of a) distributing or b) making available in any manner that enables the transfer of a copy.\n\n“Source Code” means the form of a Program preferred for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\n“Secondary License” means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor.",
+   "truncated": false
+  },
+  "EPL-2.0|Appendix": {
+   "label": "Appendix",
+   "heading": "",
+   "capTitle": "Eclipse Public License 2.0",
+   "versionDate": "2026-11-18T00:00:00Z",
+   "hkelUrl": "https://spdx.org/licenses/EPL-2.0.html",
+   "source": "SPDX License List ddf7382, licence text as published by its steward",
+   "kind": "licence",
+   "sourceShort": "SPDX",
+   "text": "Exhibit A – Form of Secondary Licenses Notice “This Source Code may also be made available under the following Secondary Licenses when the conditions for such availability set forth in the Eclipse Public License, v. 2.0 are satisfied: {name license(s), version(s), and exceptions or additional permissions here}.”\n\nSimply including a copy of this Agreement, including this Exhibit A is not sufficient to license the Source Code under Secondary Licenses.\n\nIf it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.\n\nYou may add additional accurate notices of copyright ownership.",
+   "truncated": false
+  },
   "LGPL-2.1-only|2": {
    "label": "Section 2",
    "heading": "",

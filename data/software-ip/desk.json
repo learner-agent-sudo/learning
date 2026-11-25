@@ -8978,7 +8978,7 @@
      "core": true,
      "pin": {
       "stage": "disputes",
-      "quote": "A person threatened over a patent can seek a declaration that the threats are unjustifiable, an injunction and damages, but a notice that a patent exists is not a threat"
+      "quote": "A person aggrieved by threats over a patent, whether or not the person threatened, can seek a declaration that the threats are unjustifiable, an injunction and damages, but a notice that a patent exists is not a threat"
      }
     },
     {
@@ -8986,7 +8986,7 @@
      "core": true,
      "pin": {
       "stage": "disputes",
-      "quote": "A person threatened over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it"
+      "quote": "Any person aggrieved by a threat over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it"
      }
     },
     {
@@ -9022,7 +9022,7 @@
       "in": true,
       "pin": {
        "stage": "disputes",
-       "quote": "A person threatened over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it"
+       "quote": "Any person aggrieved by a threat over use of a registered trade mark, other than applying it to goods or packaging or supplying services under it"
       }
      },
      {
