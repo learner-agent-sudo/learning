@@ -2407,7 +2407,7 @@
    "**Claims follow the architecture:** Where a rule runs (device, bank server or vendor cloud) decides who performs each step, and so who may infringe (35 U.S.C. § 271(a); Akamai).",
    "**Repositories as evidence:** Commit history, design documents and issue trackers give dated proof of conception and of commercial use. Keep them complete and retain them under the records policy.",
    "**Publication gates:** Pipelines that publish packages, release tags, public repositories or API documentation should pass a patent check, because each public release is a disclosure (35 U.S.C. § 102(a)(1)).",
-   "**Marking in the product:** The product itself, for example its about screen, can carry the word 'patent' with the address of a free public web page that lists the patent numbers, which is the virtual marking § 287(a) allows, and the release build can insert it automatically (drafting inference).",
+   "**Marking in the product:** The product itself, for example its about screen, can carry the word 'patent' with the address of a free public web page that links the product to its patent numbers, which is the virtual marking § 287(a) allows, and the release build can insert it automatically (drafting inference).",
    "**Claim-to-code map:** Keep a map from claim elements to modules. It shows where § 112(f) may apply and lets the infringement analysis run against the code the bank actually ships."
   ],
   "virtualBankNotes": [
@@ -4632,7 +4632,7 @@
     }
    ],
    "bankNotes": [
-    "**Vendor and support contracts:** The HKMA expects an authorised institution to discuss an outsourcing of a banking-related business area with it in advance, and to be satisfied that the SA-2 section 2 issues are addressed before it starts (HKMA SPM SA-2, para 1.3.2). This is guidance, not law. A support contract for one component is not usually outsourcing, but a vendor that runs a banking-related function on open source code may be (drafting inference).",
+    "**Vendor and support contracts:** The HKMA expects an authorised institution to discuss an outsourcing of a banking-related business area with it in advance, and to satisfy the HKMA that the SA-2 section 2 issues are addressed before it starts (HKMA SPM SA-2, para 1.3.2). This is guidance, not law. A support contract for one component is not usually outsourcing, but a vendor that runs a banking-related function on open source code may be (drafting inference).",
     "**Personal data in hosted code:** Where a provider processes customer personal data for the bank, the bank must adopt contractual or other means to protect the data and to stop it being kept longer than necessary (Cap. 486 Sch. 1, DPP 2(3) and DPP 4(2)). This is a statutory duty, not guidance.",
     "**Approval tiers:** Set licence approvals by family and by act, so that permissive libraries clear quickly and network copyleft or source-available code goes to counsel (good practice)."
    ]
@@ -7614,7 +7614,7 @@
   ],
   "hongKong": {
    "review": "draft",
-   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use, which US courts have applied to decompilation, and no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a)-(b), (g), 37, 38, 61).",
+   "summary": "Under Hong Kong copyright, a copyleft licence is the permission for the restricted acts, chiefly issuing copies to the public and making adaptations, and its main duties start when copies go to others, so the bank's distribution and modification choices decide the scope. The main difference from the US is that Hong Kong has no general fair use, which US courts have applied to decompilation, and, as in the US, no express decompilation right, so reverse engineering rests on the licence itself and on the permitted acts, chiefly the lawful-user rules and fair dealing for research (Cap. 528 ss.22(1)(a)-(b), (g), 37, 38, 61).",
    "keyPoints": [
     "**Who can license:** The bank can put its own code under a copyleft licence only if it owns the copyright. Code written by an employee in the course of employment belongs to the employer (Cap. 528 s.14(1)), and commissioned code belongs to the contractor unless the contract expressly gives the copyright to the bank (Cap. 528 ss.13, 15(1)), though the bank always has an exclusive licence to exploit it for the purposes contemplated at commissioning (Cap. 528 s.15(2)(a)).",
     "**Trigger:** Copyleft duties attach to conveying, which GPL-3.0 defines by reference to the acts copyright law restricts (GPL-3.0 s.0; Cap. 528 ss.22-29). Running software inside the bank is not conveying (GPL-3.0 s.0).",
@@ -9506,7 +9506,7 @@
       "vendor"
      ],
      "detail": [
-      "**Ask early:** Request a software bill of materials and a licence list for every open source component in what the vendor delivers, before signing (NTIA minimum elements, 2021).",
+      "**Ask early:** Request a software bill of materials and a licence list for every open source component in what the vendor delivers, before signing (2026 minimum elements, which replaced NTIA's 2021 list on 29 July 2026).",
       "**Contract duty:** Make the list a deliverable under the contract, updated with each release, so the vendor owes it rather than offering it as a courtesy (good practice).",
       "**Bank oversight:** The Interagency Guidance on Third-Party Relationships (2023) expects banks to manage vendor risk across the relationship, but it does not address open source as such (88 Fed. Reg. 37920)."
      ],
@@ -9523,7 +9523,7 @@
      ],
      "sources": [
       {
-       "label": "NTIA minimum elements for an SBOM (2021)",
+       "label": "NTIA minimum elements for an SBOM (2021; replaced 29 July 2026)",
        "ref": "Minimum Elements for a Software Bill of Materials (SBOM)",
        "strength": "agency-guidance",
        "note": "Data fields for an SBOM; a federal reference, not a bank rule."
@@ -9544,7 +9544,7 @@
      ],
      "detail": [
       "**Advance discussion:** Where a vendor runs a banking-related function on the component, the HKMA expects the bank to discuss the outsourcing with it in advance (HKMA SA-2 para 1.3.2).",
-      "**Guidance status:** This is guidance, not law. It covers outsourcing a banking-related business area, back office included, or changing the scope of such outsourcing, and the bank should be satisfied that the SA-2 section 2 issues are addressed before it implements the arrangement.",
+      "**Guidance status:** This is guidance, not law. It covers outsourcing a banking-related business area, back office included, or changing the scope of such outsourcing, and the bank should satisfy the HKMA that the SA-2 section 2 issues are addressed before it implements the arrangement.",
       "**Timing:** Build the HKMA discussion into procurement timelines, so that it does not come after the contract is signed (good practice)."
      ],
      "owner": [
@@ -9595,7 +9595,7 @@
      "detail": [
       "**Standard name:** Record each licence by its SPDX identifier, such as Apache-2.0 or GPL-2.0-only, so every team uses one name (ISO/IEC 5962:2021).",
       "**Expressions:** Use SPDX operators for dual licences and exceptions, such as MIT OR Apache-2.0 or GPL-2.0-only WITH Classpath-exception-2.0 (ISO/IEC 5962:2021).",
-      "**Version suffix:** Keep the '-only' or '-or-later' suffix. A notice that allows a later version gives the user a different choice from one that does not (GPL-2.0-only, Appendix)."
+      "**Version suffix:** Keep the '-only' or '-or-later' suffix. A notice that allows a later version gives the user a different choice from one that does not (GPL-2.0-only s.9; Appendix)."
      ],
      "owner": [
       "Open source office"
@@ -9612,9 +9612,13 @@
       },
       {
        "label": "GNU General Public License v2.0",
-       "ref": "Appendix",
+       "ref": "s.9; Appendix",
        "strength": "licence",
        "cites": [
+        {
+         "cap": "GPL-2.0-only",
+         "section": "9"
+        },
         {
          "cap": "GPL-2.0-only",
          "section": "Appendix"
@@ -9730,7 +9734,7 @@
      ],
      "detail": [
       "**Exact version:** Record the version of each copyleft licence, such as GPL-2.0 or LGPL-3.0, because each version has its own terms and compatibility turns on the version.",
-      "**Only or later:** A notice offering 'any later version' lets the user choose a later release. The '-only' identifier means that one version applies (GPL-2.0-only, Appendix).",
+      "**Only or later:** A notice offering 'any later version' lets the user choose a later version of the licence. The '-only' identifier means that one version applies (GPL-2.0-only s.9; Appendix).",
       "**Check before combining:** Settle the version and the only or later wording before testing whether two components can sit in one work (good practice)."
      ],
      "owner": [
@@ -9744,9 +9748,13 @@
      "sources": [
       {
        "label": "GNU General Public License v2.0",
-       "ref": "Appendix",
+       "ref": "s.9; Appendix",
        "strength": "licence",
        "cites": [
+        {
+         "cap": "GPL-2.0-only",
+         "section": "9"
+        },
         {
          "cap": "GPL-2.0-only",
          "section": "Appendix"
@@ -9836,7 +9844,7 @@
      ],
      "detail": [
       "**Not open source:** SSPL, BUSL, Elastic License 2.0 and Commons Clause are source-available. OSI does not treat SSPL as open source (OSI Open Source Definition; reported; check).",
-      "**Production use:** BUSL 1.1 limits production use except as the licensor's Additional Use Grant allows, and each version converts on its Change Date (reported; check).",
+      "**Production use:** BUSL 1.1 limits production use except as the licensor's Additional Use Grant allows, and each version converts on its Change Date or, if earlier, the fourth anniversary of its first public distribution (reported; check).",
       "**Hosting and service:** SSPL s.13 requires a party offering the program as a service to release the service source code. Commons Clause bars selling the software, including hosting or support whose value derives substantially from it (reported; check)."
      ],
      "owner": [
@@ -9882,7 +9890,7 @@
      ],
      "detail": [
       "**Licence and policy:** Read the model licence and any acceptable use policy together. Use restrictions can bind the bank even where the licence itself is permissive (good practice).",
-      "**Scale thresholds:** The Llama 4 Community License needs a separate licence from Meta for licensees with over 700 million monthly active users (reported; check).",
+      "**Scale thresholds:** The Llama 4 Community License needs a separate licence from Meta for licensees whose products had over 700 million monthly active users in the preceding calendar month on the Llama 4 release date (reported; check).",
       "**Open label:** Do not assume an open-weights model is open source. The OSI's Open Source AI Definition 1.0 (28 October 2024) sets its own test, separate from the weights' licence (reported; check)."
      ],
      "owner": [
@@ -9966,7 +9974,7 @@
      "detail": [
       "**Keep the notice:** The MIT licence requires the copyright notice and the permission notice in all copies or substantial portions of the software (MIT full text).",
       "**Apache notices:** On distribution, Apache-2.0 s.4 requires a copy of the licence, prominent marks on changed files, retained notices and the NOTICE file's attribution (Apache-2.0 s.4).",
-      "**Stripping risk:** Licence headers can count as copyright management information, so removing them can engage 17 U.S.C. § 1202(b) where the bank knows or has reasonable grounds to know that infringement follows (17 U.S.C. § 1202(b), (c); drafting inference)."
+      "**Stripping risk:** Licence headers can count as copyright management information, so removing them intentionally can engage 17 U.S.C. § 1202(b) where the bank knows, or for civil claims has reasonable grounds to know, that this will induce, enable, facilitate or conceal infringement (17 U.S.C. § 1202(b), (c); drafting inference)."
      ],
      "owner": [
       "Engineering",
@@ -10210,7 +10218,7 @@
       "weak"
      ],
      "detail": [
-      "**LGPL relinking:** When a combined work built on LGPL code is distributed, its terms must permit modification of the work for the customer's own use and reverse engineering for debugging such modifications. In practice that often means a shared library or relinking route (LGPL-2.1-only s.6; LGPL-3.0-only s.4).",
+      "**LGPL relinking:** When a combined work built on LGPL code is distributed, its terms must permit modification of the work for the customer's own use (under LGPL-3.0, modification of the portions of the Library in it) and reverse engineering for debugging such modifications. In practice that often means a shared library or relinking route (LGPL-2.1-only s.6; LGPL-3.0-only s.4).",
       "**MPL file level:** Covered MPL files stay under MPL-2.0 when distributed in source form, while a Larger Work may combine them with material under other terms (MPL-2.0 s.3.1, s.3.3).",
       "**EPL duties:** Distributing EPL-2.0 code requires making the Program available as source code and telling recipients how to obtain it (EPL-2.0 s.3.1)."
      ],
@@ -10285,7 +10293,7 @@
      "detail": [
       "**Trigger:** AGPL-3.0 s.13 applies only where the bank modifies the program and users interact with it remotely over a network. Running an unmodified copy behind an API triggers nothing under s.13 (AGPL-3.0 s.13).",
       "**Source offer:** The licence requires a modified version to offer every remote user its Corresponding Source, from a network server at no charge (AGPL-3.0 s.13).",
-      "**Mixed code:** AGPL-3.0 s.13 lets AGPL code be combined with GPL-3.0 code, and the GPL-3.0 part keeps its own terms (AGPL-3.0 s.13)."
+      "**Mixed code:** AGPL-3.0 s.13 lets AGPL code be combined with GPL-3.0 code, and the GPL-3.0 part keeps its own terms, but a modified version's network source offer must include the GPL-3.0 part's source (AGPL-3.0 s.13)."
      ],
      "owner": [
       "Legal",
@@ -10354,7 +10362,7 @@
       "modify"
      ],
      "detail": [
-      "**Change notices:** Where the bank distributes a modified copy, mark the changes with prominent notices and dates, as GPL-3.0 s.5(a) and GPL-2.0 s.2(a) require. Apache-2.0 s.4(b) asks for the same on modified files (GPL-3.0-only s.5; GPL-2.0-only s.2; Apache-2.0 s.4).",
+      "**Change notices:** Where the bank distributes a modified copy, mark the changes with prominent notices and dates, as GPL-3.0 s.5(a) and GPL-2.0 s.2(a) require. Apache-2.0 s.4(b) asks for prominent change notices on modified files, but no dates (GPL-3.0-only s.5; GPL-2.0-only s.2; Apache-2.0 s.4).",
       "**Change register:** Keep a list of the bank's changes by file and by version, so each release can show what changed and which notices apply (good practice).",
       "**Upstream decision:** Decide whether to offer fixes upstream. Contributing can cut the cost of keeping a fork current, but each contribution follows the project's licence and contribution terms (good practice)."
      ],
@@ -10470,7 +10478,7 @@
      ],
      "detail": [
       "**Grants:** Apache-2.0 s.3, GPL-3.0 s.11 and MPL-2.0 s.2.1 each grant recipients a licence under the contributors' patent claims that their code would infringe (Apache-2.0 s.3; GPL-3.0-only s.11; MPL-2.0 s.2.1).",
-      "**Retaliation:** If the bank sues alleging that the Work infringes a patent, its Apache-2.0 patent licence ends (Apache-2.0 s.3). If the bank starts litigation alleging that a Contributor Version infringes a patent, its grants from Contributors under MPL-2.0 end (MPL-2.0 s.5.2).",
+      "**Retaliation:** If the bank sues alleging that the Work infringes a patent, including by cross-claim or counterclaim, its Apache-2.0 patent licence ends (Apache-2.0 s.3). If the bank starts litigation alleging that a Contributor Version infringes a patent, other than a declaratory judgment action, counter-claim or cross-claim, its grants from Contributors under MPL-2.0 end (MPL-2.0 s.5.2).",
       "**Own patents:** A contribution can license the bank's own patents to recipients where it infringes them, under Apache-2.0 s.3 or GPL-3.0 s.11. Check the bank's patents before release (good practice)."
      ],
      "owner": [
@@ -10617,7 +10625,7 @@
        "strength": "agency-guidance"
       },
       {
-       "label": "NTIA minimum elements for an SBOM (2021)",
+       "label": "NTIA minimum elements for an SBOM (2021; replaced 29 July 2026)",
        "ref": "Minimum Elements for a Software Bill of Materials (SBOM)",
        "strength": "agency-guidance"
       }
@@ -10780,7 +10788,7 @@
      "phase": "security",
      "title": "Add the component to the product's SBOM",
      "detail": [
-      "**Record the minimum fields:** Each entry should carry the supplier, component name, version, other unique identifiers, dependency relationship, SBOM author and a timestamp (NTIA, 12 July 2021).",
+      "**Record the minimum fields:** Each entry should carry the supplier, component name, version, other unique identifiers, dependency relationship, SBOM author and a timestamp (NTIA, 12 July 2021), plus the fields the 2026 minimum elements added when they replaced the NTIA list on 29 July 2026.",
       "**Pick a machine format:** The NTIA paper names SPDX, CycloneDX and SWID tags as formats that support automation (NTIA, 12 July 2021).",
       "**Match the licence field:** Record the licence as an SPDX identifier so the SBOM and the approval file agree (SPDX, ISO/IEC 5962:2021)."
      ],
@@ -10796,7 +10804,7 @@
      ],
      "sources": [
       {
-       "label": "NTIA minimum elements for an SBOM (2021)",
+       "label": "NTIA minimum elements for an SBOM (2021; replaced 29 July 2026)",
        "ref": "12 July 2021",
        "strength": "agency-guidance"
       },
@@ -11017,7 +11025,7 @@
      "title": "Check AI-suggested code for matches to licensed code",
      "detail": [
       "**Run the match check:** Scan AI-suggested code against open source before it enters the codebase, using a duplication filter or scanner, and record the result (good practice).",
-      "**Stripping headers is a risk:** Removing a licence header from copied code can engage § 1202(b)(1), which bars intentional removal of copyright management information (17 U.S.C. § 1202(b)(1)). Courts have accepted that licence terms can be such information in some cases (reported; check).",
+      "**Stripping headers is a risk:** Removing a licence header from copied code can engage § 1202(b)(1), which bars intentional removal of copyright management information where the person knows, or for civil claims has reasonable grounds to know, that it will induce, enable, facilitate or conceal infringement (17 U.S.C. § 1202(b)(1)). Courts have accepted that licence terms can be such information in some cases (reported; check).",
       "**Recent case:** A court is reported to have dismissed the § 1202(b) claim against an AI coding tool, and the Ninth Circuit is reported to have affirmed in September 2026. Verbatim output still needs a licence check (Doe v. GitHub, Inc.; reported; check)."
      ],
      "owner": [
@@ -11138,7 +11146,7 @@
      "sources": [
       {
        "label": "Elastic, Redis and HashiCorp licence changes",
-       "ref": "2021 to 2024",
+       "ref": "2021 to 2025",
        "strength": "good-practice",
        "note": "Reported; check."
       }
@@ -11289,7 +11297,7 @@
      ],
      "evidence": [
       "Corresponding source package and build scripts",
-      "Written offer text with three-year validity"
+      "Written offer text valid for at least three years and, for GPL-3.0 physical products, for as long as spare parts or support are offered"
      ],
      "sources": [
       {
@@ -11445,7 +11453,7 @@
      "sources": [
       {
        "label": "Elastic, Redis and HashiCorp licence changes",
-       "ref": "2021 to 2024",
+       "ref": "2021 to 2025",
        "strength": "good-practice",
        "note": "Reported; check."
       }
@@ -11456,7 +11464,7 @@
      "phase": "records",
      "title": "Handle a compliance complaint or GPL enforcement letter",
      "detail": [
-      "**Cure first:** If the bank gets its first notice of a GPL-3.0 violation and cures it within 30 days of receipt, the licence is reinstated (GPL-3.0 s.8).",
+      "**Cure first:** If the bank gets its first notice of a GPL-3.0 violation from a copyright holder and cures it within 30 days of receipt, its licence from that holder is reinstated permanently (GPL-3.0 s.8).",
       "**Preserve the evidence:** Keep the build, the release package and the correspondence, so the bank can show what it shipped and when it fixed it (good practice).",
       "**Community approach:** The 2015 Principles of Community-Oriented GPL Enforcement put compliance before litigation, which shapes how the community responds to a complaint (Principles, 2015)."
      ],
@@ -11524,7 +11532,7 @@
     ]
    },
    "documentsNote": [
-    "A component used only inside the bank needs the first four; anything shipped or served to customers needs the last two as well."
+    "A component used only inside the bank needs the first four; anything shipped to customers needs the last two as well, and a service needs them only where its licences ask, such as a source offer for a modified AGPL program."
    ],
    "exportNote": "Study aid, not legal advice. Steps marked \"Reported; check\" rest on secondary reports; check the current text of the statute, licence or guidance before relying on them.",
    "caveat": "A study aid for counsel, not legal advice. Licences are read on their own words and the facts of the use; FSF and OSI positions are views, not law.",
@@ -12741,9 +12749,9 @@
      "phase": "title",
      "title": "For a fork, keep the upstream licence and notices",
      "detail": [
-      "**Keep the upstream licence:** A fork stays under the licence of the code it came from. Keep the licence text, copyright notices and any NOTICE file in the release (Apache-2.0 s.4(a), (c), (d)).",
+      "**Keep the upstream licence:** The upstream code in a fork stays under its own licence, though a permissive licence such as Apache-2.0 lets the bank license its own changes on other terms (Apache-2.0 s.4). Keep the licence text, copyright notices and any NOTICE file in the release (Apache-2.0 s.4(a), (c), (d)).",
       "**Mark the changes:** Apache-2.0 requires modified files to carry notices that they were changed (Apache-2.0 s.4(b)). GPL-3.0 requires prominent notices of modification with a date (GPL-3.0 s.5(a)).",
-      "**Rename the project:** The upstream marks may be used only to name the origin of the work (Apache-2.0 s.6). A new name avoids confusion with the upstream project (good practice)."
+      "**Rename the project:** Apache-2.0 grants no permission to use the upstream marks beyond describing the origin of the work and reproducing the NOTICE file (Apache-2.0 s.6). A new name avoids confusion with the upstream project (good practice)."
      ],
      "owner": [
       "Open source office",
@@ -13073,7 +13081,7 @@
      "detail": [
       "**Read the two grants:** Apache-2.0 grants a copyright licence (s.2) and a patent licence from each contributor. The patent licence covers only claims that the contribution necessarily infringes alone or in combination with the Work (Apache-2.0 s.3).",
       "**Review the bank's own patents:** Once the bank releases under Apache-2.0, the grant can reach its patent claims that its contribution necessarily infringes. Review pending applications first (drafting inference).",
-      "**Know the termination:** The patent licence ends for a recipient who sues, alleging that the Work infringes a patent (Apache-2.0 s.3). That protects the bank against claims over its own release."
+      "**Know the termination:** The patent licence ends for a recipient who sues, alleging that the Work infringes a patent (Apache-2.0 s.3). That deters patent claims over the release but does not bar them, and the suing recipient keeps its copyright licence."
      ],
      "owner": [
       "Legal"
@@ -13271,7 +13279,7 @@
      "phase": "licence",
      "title": "Documentation and data: choose a content licence",
      "detail": [
-      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence and a link where the licensor supplied them, the link only where reasonably practicable, and in every case to say if they modified the material, keep any earlier note of changes, and state that it is under CC BY 4.0, with the licence text or a link to it (CC-BY-4.0 s.3(a)(1)).",
+      "**Choose the attribution terms:** CC BY-4.0 requires anyone who shares the material to keep the creator's name, a copyright notice, a reference to the licence, a reference to the disclaimer of warranties and a link where the licensor supplied them, the link only where reasonably practicable, and in every case to say if they modified the material, keep any earlier note of changes, and state that it is under CC BY 4.0, with the licence text or a link to it (CC-BY-4.0 s.3(a)(1)).",
       "**Check the waiver:** CC0-1.0 does not waive trademark or patent rights held by the person waiving (CC0-1.0 s.4(a)). Fedora stopped allowing CC0 for code in 2022 for that reason (reported; check).",
       "**Keep the licences apart:** A content licence on documentation does not change the licence of the code it describes. Keep the two licence files separate (good practice)."
      ],
@@ -13318,7 +13326,7 @@
      "phase": "licence",
      "title": "Models and weights: choose the licence and use terms",
      "detail": [
-      "**Read the licence as a licence:** Many model licences carry use limits that open source licences do not. The Llama 4 Community License requires a separate licence above 700 million monthly active users (reported; check).",
+      "**Read the licence as a licence:** Many model licences carry use limits that open source licences do not. The Llama 4 Community License requires a separate licence where the licensee had more than 700 million monthly active users in the month before the Llama 4 release date (reported; check).",
       "**Read the use policy with the licence:** An acceptable use policy sets limits on use beyond copyright, so read it together with the licence and record the version reviewed (good practice).",
       "**Do not rely on the label:** OSI's Open Source AI Definition 1.0 (28 October 2024, reported; check) is OSI's view, not law. Judge the release by the licence's actual terms (good practice)."
      ],
@@ -13629,8 +13637,8 @@
      "detail": [
       "**Apache-2.0 grants a patent licence:** Each contributor licenses the patent claims its contribution necessarily infringes. That licence ends if the licensee sues over patent infringement by the work (Apache-2.0 s.3).",
       "**MIT has no patent clause:** The MIT text grants no express patent licence, so a release under it should not be presented as a patent grant. MPL-2.0 s.2.1(b), by contrast, licenses the contributor's patent claims over its contribution (drafting inference).",
-      "**GPL-3.0 conditions its patent licence:** A party conveying a covered work while knowingly relying on a patent licence, where the source is not publicly available free of charge, must make the source so available, give up the licence for that work or extend it to recipients (GPL-3.0 s.11).",
-      "**Name the licensed claims:** Where the bank contributes, its patent licence reaches the claims its contribution necessarily infringes, so the approval should say which claims those are (good practice)."
+      "**GPL-3.0 limits reliance on outside patent licences:** A party conveying a covered work while knowingly relying on a patent licence, where the source is not publicly available free of charge, must make the source so available, give up the licence for that work or extend it to recipients (GPL-3.0 s.11).",
+      "**Name the licensed claims:** Where the bank contributes, its patent licence reaches the claims its contribution necessarily infringes under Apache-2.0, and under GPL-3.0 every essential patent claim in its contributor version (GPL-3.0 s.11), so the approval should say which claims those are (good practice)."
      ],
      "owner": [
       "Legal",
@@ -13638,6 +13646,7 @@
      ],
      "when": [
       "permissive-out",
+      "copyleft-out",
       "contribution"
      ],
      "evidence": [
@@ -14021,7 +14030,7 @@
      "detail": [
       "**Publish a SECURITY.md file:** Give a private route for reporting vulnerabilities and say how and when the bank will respond. Reporters should not need to open a public issue (good practice).",
       "**Agree timing before disclosure:** Coordinate a fix window with the reporter before details are published, and keep the route monitored, since unanswered reports are a common cause of early disclosure (good practice).",
-      "**Apply the bank's own secure development rules:** Where the released code is developed in-house by a bank regulated by NYDFS, the written secure development procedures under 23 NYCRR 500.8 cover it (drafting inference)."
+      "**Apply the bank's own secure development rules:** Where the released code is developed in-house and used by a bank regulated by NYDFS, the written secure development procedures under 23 NYCRR 500.8 cover it (drafting inference)."
      ],
      "owner": [
       "Security",
@@ -14255,8 +14264,8 @@
        "strength": "good-practice"
       },
       {
-       "label": "NTIA minimum elements for an SBOM (2021)",
-       "ref": "12 July 2021",
+       "label": "2026 Minimum Elements for an SBOM (CISA and partner agencies)",
+       "ref": "29 July 2026",
        "strength": "agency-guidance"
       }
      ]
@@ -15785,7 +15794,7 @@
      "title": "Get a code scan and the open source inventory",
      "detail": [
       "**Scan the code:** Run a software composition scan on the target's code and builds, and compare the result with the target's own list (good practice).",
-      "**Require an SBOM:** Ask for a software bill of materials with the supplier, component, version, dependency and timestamp fields that the NTIA minimum elements list (NTIA, Minimum Elements for an SBOM, 2021).",
+      "**Require an SBOM:** Ask for a software bill of materials with the data fields of the 2026 minimum elements, which replaced NTIA's 2021 list of supplier, component, version, dependency and timestamp fields on 29 July 2026 and add fields (CISA and partner agencies, 2026 Minimum Elements for an SBOM).",
       "**Test the results:** Check the scan against the code itself, since scanners can miss copied snippets and report unknown versions (good practice)."
      ],
      "owner": [
@@ -15799,12 +15808,12 @@
      ],
      "evidence": [
       "Scanner report with version and date",
-      "SBOM with the NTIA data fields"
+      "SBOM with the 2026 minimum elements data fields"
      ],
      "sources": [
       {
-       "label": "NTIA minimum elements for an SBOM (2021)",
-       "ref": "Minimum Elements for a Software Bill of Materials, 12 July 2021",
+       "label": "2026 minimum elements for an SBOM (CISA and partner agencies)",
+       "ref": "2026 Minimum Elements for a Software Bill of Materials (29 July 2026), replacing NTIA's 12 July 2021 list",
        "strength": "agency-guidance"
       },
       {
@@ -16004,7 +16013,7 @@
      "title": "Review the portfolio, status, fees and encumbrances",
      "detail": [
       "**Check status:** Confirm each application or patent is live and its fees are paid. A patent term runs 20 years from the US filing date or, where the patent claims the benefit of an earlier application under § 120, 121, 365(c) or 386(c), from the earliest such filing date, subject to the payment of fees; priority under § 119 does not count (35 U.S.C. § 154(a)(2)-(3)).",
-      "**Check encumbrances:** Search for security interests, pledges and licences on each patent. An interest that works as an assignment or grant is void against a later mortgagee for value without notice unless recorded (35 U.S.C. § 261).",
+      "**Check encumbrances:** Search for security interests, pledges and licences on each patent. An interest that works as an assignment or grant is void against a later mortgagee for value without notice unless recorded within three months from its date or before the later mortgage (35 U.S.C. § 261).",
       "**Read the claims:** Read the claims of the software patents the bank needs, since eligibility under § 101 is a live question for software (Alice Corp. v. CLS Bank International, 573 U.S. 208 (2014))."
      ],
      "owner": [
@@ -16352,7 +16361,7 @@
      "title": "Assess AI-generated code and authorship claims",
      "detail": [
       "**Test authorship:** Ask which code an AI tool generated and how much human selection or change a person made, since a prompt alone gives too little control to make the user the author (Copyright Office, Part 2, 29 January 2025).",
-      "**Check registrations:** Confirm that any copyright claim covers only human authorship and discloses more-than-de minimis AI material, since the Copyright Act requires human authorship for registration (88 Fed. Reg. 16190; Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025)).",
+      "**Check registrations:** Confirm that any copyright claim covers only human authorship and discloses more-than-de minimis AI material, since the Copyright Act requires human authorship for protection, and so for registration (88 Fed. Reg. 16190; Thaler v. Perlmutter, 130 F.4th 1039 (D.C. Cir. 2025)).",
       "**Watch for verbatim output:** Scan AI-suggested code for copies of licensed code, since a copy keeps its licence duties even where a copyright management information claim fails (Doe v. GitHub, Inc., reported; check)."
      ],
      "owner": [
@@ -16518,7 +16527,7 @@
      "title": "Licence scope: affiliates, outsourcers, regulators, recovery sites",
      "detail": [
       "**Name who may use it:** Check that the licence covers affiliates, outsourcers, auditors, regulators and recovery sites, since a licence limited to one entity can bar use by the people who run the bank (good practice).",
-      "**Check sublicensing:** Confirm the right to let outsourcers use the software for the bank, since courts have not applied one rule on whether a licensee may sublicense without consent (Gardner v. Nike, Inc., 279 F.3d 774 (9th Cir. 2002); reported; check).",
+      "**Check sublicensing:** Confirm the right to let outsourcers use the software for the bank, since a non-exclusive licensee generally may not sublicense without consent, and courts have not applied one rule even for an exclusive licensee (Gardner v. Nike, Inc., 279 F.3d 774 (9th Cir. 2002); reported; check).",
       "**Match the vendor guidance:** Interagency guidance expects a bank to oversee the parties its vendors use, so the licence should let the bank see and approve them (Interagency Guidance, 88 Fed. Reg. 37920, 9 June 2023)."
      ],
      "owner": [
@@ -16728,9 +16737,9 @@
      "phase": "contracts",
      "title": "SBOM, vulnerability notice and secure development duties",
      "detail": [
-      "**Ask for an SBOM:** Require an SBOM that carries the NTIA minimum data fields: supplier, component, version, other identifiers, dependency relationships, author and timestamp (NTIA, 12 July 2021).",
+      "**Ask for an SBOM:** Require an SBOM that carries the NTIA 2021 data fields (supplier, component, version, other identifiers, dependency relationships, author and timestamp) as updated by the 2026 minimum elements, which replaced them on 29 July 2026 and add fields (CISA and partner agencies, 29 July 2026).",
       "**Set notice duties:** Require prompt notice of known vulnerabilities and a fix timeline (good practice). For NYDFS-regulated firms, 23 NYCRR 500.11 requires a written third-party service provider policy, which these terms can support (drafting inference).",
-      "**Write in secure development:** Require the vendor to follow secure development practice and give evidence on request, as 23 NYCRR 500.8 contemplates for externally developed applications (good practice)."
+      "**Write in secure development:** Require the vendor to follow secure development practice and give evidence on request, which supports the procedures for evaluating, assessing or testing externally developed applications that 23 NYCRR 500.8 requires (good practice)."
      ],
      "owner": [
       "Legal",
@@ -16747,8 +16756,8 @@
      ],
      "sources": [
       {
-       "label": "NTIA minimum elements for an SBOM (2021)",
-       "ref": "The Minimum Elements for a Software Bill of Materials (12 July 2021)",
+       "label": "2026 minimum elements for an SBOM (CISA and partner agencies)",
+       "ref": "2026 Minimum Elements for a Software Bill of Materials (29 July 2026), replacing NTIA's 12 July 2021 list",
        "strength": "agency-guidance",
        "note": "Guidance, not law."
       },
@@ -16966,7 +16975,7 @@
      "phase": "security",
      "title": "Check export classification and sanctions",
      "detail": [
-      "**Classify the code:** Classify any encryption in the target's code, since published software is outside the EAR but unpublished code can remain subject to it (15 C.F.R. §§ 734.3(b)(3), 734.7; reported; check).",
+      "**Classify the code:** Classify any encryption in the target's code, since published software is generally outside the EAR, but published encryption software in ECCN 5D002 stays subject to it unless it is publicly available source code, or its object code, that meets 15 C.F.R. § 742.15(b), and unpublished code can remain subject to it (15 C.F.R. §§ 734.3(b)(3), 734.7, 742.15(b); reported; check).",
       "**Screen the parties:** Screen the target's customers, contributors and hosting providers against sanctions lists, since OFAC sanctions reach dealings with sanctioned persons and places (GitHub restricted sanctioned-region accounts in 2019; reported).",
       "**Price the exposure:** Where the target has dealt in sanctioned places, ask for a written disclosure and a specific indemnity before closing (good practice)."
      ],
@@ -16985,7 +16994,7 @@
      "sources": [
       {
        "label": "Export Administration Regulations (15 C.F.R.)",
-       "ref": "§§ 734.3(b)(3), 734.7",
+       "ref": "§§ 734.3(b)(3), 734.7, 742.15(b)",
        "strength": "statute",
        "note": "Reported; check the eCFR."
       },
@@ -17490,8 +17499,8 @@
       "hk"
      ],
      "detail": [
-      "**Patents:** A new owner or exclusive licensee who does not apply to register within 6 months cannot recover damages or an account of profits for the gap (Cap. 514 s.87(a)-(b)). An earlier unregistered transaction can also lose out to a later one (s.52(1)).",
-      "**Trade marks:** A new owner or licensee who does not apply to register the transaction within 6 months loses damages and profits for the gap, and the transaction is ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)-(4)).",
+      "**Patents:** A new owner or exclusive licensee who does not apply to register within 6 months cannot recover damages or an account of profits for the gap, unless the court accepts that applying in time was not practicable and the application followed as soon as practicable (Cap. 514 s.87(a)-(b)). An earlier unregistered transaction can also lose out to a later one (s.52(1)).",
+      "**Trade marks:** A new owner or licensee who does not apply to register the transaction within 6 months loses damages and profits for the gap, unless the court accepts that applying in time was not practicable and the application followed as soon as practicable, and the transaction is ineffective against a conflicting interest acquired in ignorance of it (Cap. 559 s.29(3)-(4)).",
       "**Past infringement:** An assignment of a patent, or an exclusive patent licence, can carry the right to sue for earlier infringement (Cap. 514 s.50(7)). Decide and state expressly whether that right passes."
      ],
      "owner": [
